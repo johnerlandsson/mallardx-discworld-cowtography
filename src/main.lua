@@ -213,6 +213,12 @@ mud.trigger([[(?:a|A) (?:tiny speck|small point|moderately-sized ball|large orb|
   post_library_overlay()
 end)
 
+-- Escaped spell orb captured or destroyed.
+mud.trigger([[^(?:> )?The (?:tiny speck|small point|moderately-sized ball|large orb|substantial sphere) of energy (?:collapses in on itself, then winks out|is absorbed into your|vanishes)]], function()
+  lib_orb_here = false
+  post_library_overlay()
+end)
+
 -- ─── World lifecycle ─────────────────────────────────────────────────────────
 
 local function seed_room()
