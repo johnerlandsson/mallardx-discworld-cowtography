@@ -207,9 +207,9 @@ mud.trigger([[^(?:> )?The (?:distortion fades away|area seems more mundane than 
   post_library_overlay()
 end)
 
--- Escaped spell orb visible in room.
-mud.trigger([[(?:a|A) (?:tiny speck|small point|moderately-sized ball|large orb|substantial sphere) of energy is tracing a .+? pattern in the air]], function()
-  lib_orb_here = true
+-- Escaped spell orb visible in room — capture size word for the panel.
+mud.trigger([[(?:a|A) (tiny speck|small point|moderately-sized ball|large orb|substantial sphere) of energy is tracing a .+? pattern in the air]], function(m)
+  lib_orb_here = m[1]
   post_library_overlay()
 end)
 

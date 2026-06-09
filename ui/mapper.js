@@ -101,16 +101,23 @@ function drawDistortionBar(cx, cy, dir, zoom) {
   else if (dir === 'w') ctx.fillRect(cx - half - thick, cy - half, thick, half * 2);
 }
 
-// Orange ring showing an escaped spell orb at the current position.
-function drawOrbRing(cx, cy, zoom) {
+const ORB_RADIUS = {
+  "tiny speck":          3,
+  "small point":         5,
+  "moderately-sized ball": 7,
+  "large orb":           9,
+  "substantial sphere":  12,
+};
+
+// Filled orange circle sized by spell strength; dark outline for visibility on white.
+function drawOrb(cx, cy, sizeName, zoom) {
+  const r = (ORB_RADIUS[sizeName] ?? 7) * zoom;
   ctx.beginPath();
-  ctx.arc(cx, cy, 9 * zoom, 0, Math.PI * 2);
-  // Dark outline so the ring reads on the white library background.
+  ctx.arc(cx, cy, r, 0, Math.PI * 2);
+  ctx.fillStyle = "rgba(255, 140, 0, 0.9)";
+  ctx.fill();
   ctx.strokeStyle = "rgba(0, 0, 0, 0.6)";
-  ctx.lineWidth = 4.5 * zoom;
-  ctx.stroke();
-  ctx.strokeStyle = "rgba(255, 140, 0, 1)";
-  ctx.lineWidth = 2.5 * zoom;
+  ctx.lineWidth = 1.5 * zoom;
   ctx.stroke();
 }
 
@@ -194,7 +201,7 @@ function redraw() {
     // UU Library: distortion bar and orb ring — drawn before position marker.
     if (current.mapId === 47 && libraryOverlay) {
       if (libraryOverlay.distortion) drawDistortionBar(mx, my, libraryOverlay.distortion, zoom);
-      if (libraryOverlay.orb)        drawOrbRing(mx, my, zoom);
+      if (libraryOverlay.orb)        drawOrb(mx, my, libraryOverlay.orb, zoom);
     }
 
     // Position marker.
