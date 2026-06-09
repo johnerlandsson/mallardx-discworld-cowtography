@@ -53,15 +53,20 @@ function M.find_path(exits, start_id, target_id)
 
   if final_idx == 0 then return nil end
 
-  local path = {}
+  local path     = {}
+  local room_ids = {}
   local cur = final_idx
-  while came_from[cur] do
-    table.insert(path, 1, came_from[cur][2])
-    cur = came_from[cur][1]
+  while cur do
+    if came_from[cur] then
+      table.insert(path, 1, came_from[cur][2])
+    end
+    table.insert(room_ids, 1, queue[cur])
+    local cf = came_from[cur]
+    cur = cf and cf[1] or nil
   end
 
   if #path == 0 then return nil end
-  return table.concat(path, ';'), #path
+  return table.concat(path, ';'), #path, room_ids
 end
 
 -- distances_from(exits, start_id)

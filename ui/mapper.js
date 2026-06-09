@@ -23,6 +23,7 @@ let currentImage = null;     // HTMLImageElement currently loaded
 let currentRoomsForMap = []; // [{ id, x, y, short }] for hover tooltip
 const ZOOMS = [0.75, 1.0, 1.5];
 let zoomIdx = 1;
+let routeRoomIds = [];       // ordered room IDs for current route highlight
 
 // ─── Image loading ────────────────────────────────────────────────────────
 function swapImage(next) {
@@ -87,6 +88,21 @@ function redraw() {
   }
 
   ctx.drawImage(currentImage, offsetX, offsetY, drawW, drawH);
+
+  // Route highlight — draw before the position marker so it sits underneath.
+  if (routeRoomIds.length > 0 && meta) {
+    for (const id of routeRoomIds) {
+      const r = data.rooms[id];
+      if (!r || r[0] !== current?.mapId) continue;
+      const { px, py } = markerPixel(currentImage, { x: r[1], y: r[2] }, meta);
+      const rx = offsetX + px * zoom;
+      const ry = offsetY + py * zoom;
+      ctx.beginPath();
+      ctx.arc(rx, ry, 4, 0, Math.PI * 2);
+      ctx.fillStyle = "rgba(160, 32, 240, 0.45)";
+      ctx.fill();
+    }
+  }
 
   if (current && meta) {
     const { px, py } = markerPixel(currentImage, current, meta);
@@ -171,6 +187,16 @@ panel.on("room_info", (frame) => {
     swapImage(next);
   }
   current = next;
+  redraw();
+});
+
+panel.on("route_set", (frame) => {
+  routeRoomIds = Array.isArray(frame.rooms) ? frame.rooms : [];
+  redraw();
+});
+
+panel.on("route_clear", () => {
+  routeRoomIds = [];
   redraw();
 });
 

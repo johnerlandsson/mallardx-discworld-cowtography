@@ -24,6 +24,7 @@ local current_room = nil
 
 local panel        = mud.panel("map")
 local last_payload = nil
+local last_route   = nil
 
 local function post_room(payload)
   panel:post("room_info", {
@@ -35,8 +36,19 @@ local function post_room(payload)
   })
 end
 
+local function post_route(room_ids)
+  last_route = room_ids
+  panel:post("route_set", { rooms = room_ids })
+end
+
+local function post_route_clear()
+  last_route = nil
+  panel:post("route_clear", {})
+end
+
 panel:on_message("ready", function()
   if last_payload then post_room(last_payload) end
+  if last_route   then panel:post("route_set", { rooms = last_route }) end
 end)
 
 local MAX_DISPLAY = 10
@@ -97,6 +109,7 @@ gmcp.on('room.info', function(_, data)
         walk_steps       = {}
         walk_pos         = 0
         walk_target_name = ''
+        post_route_clear()
       end
     end
   end
@@ -242,7 +255,7 @@ mud.alias([[^dbroute (\d+)$]], function(m)
     return
   end
 
-  local path, steps = pathfind.find_path(exits, current_room, target.room_id)
+  local path, steps, route_rooms = pathfind.find_path(exits, current_room, target.room_id)
   if path == nil then
     note('  Could not find a route. You may be in an untracked area, or the destination is unreachable.', C.err)
     return
@@ -255,6 +268,8 @@ mud.alias([[^dbroute (\d+)$]], function(m)
   end
   walk_pos         = 0
   walk_target_name = target.location
+
+  post_route(route_rooms)
 
   note(string.format('  Route to "%s" — %d move%s. Type dbwalk to begin.', target.location, steps, steps == 1 and '' or 's'), C.ok)
 
@@ -277,4 +292,14 @@ mud.alias([[^dbwalk$]], function()
   walk_pos = 1
   note(string.format('  Walking to "%s" — %d move%s.', walk_target_name, #walk_steps, #walk_steps == 1 and '' or 's'), C.ok)
   mud.send(walk_steps[1])
+end)
+
+-- ─── dbclear ─────────────────────────────────────────────────────────────────
+
+mud.alias([[^dbclear$]], function()
+  walk_steps       = {}
+  walk_pos         = 0
+  walk_target_name = ''
+  post_route_clear()
+  note('  Route cleared.', C.muted)
 end)
