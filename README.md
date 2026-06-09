@@ -1,8 +1,14 @@
-# Discworld DB Search
+# Discworld Cowtography
 
-A [Mallard](https://mallard.vnsf.xyz) plugin for [Discworld MUD](https://discworld.starturtle.net/lpc/) that lets you search Quow's map database for rooms, shop items, NPC items and NPCs, then speedwalk to any result.
+A [Mallard](https://mallard.vnsf.xyz) plugin for [Discworld MUD](https://discworld.starturtle.net/lpc/) combining a minimap panel with a searchable database of rooms, shop items, NPC items and NPCs — with GMCP-driven speedwalk to any result.
 
-**Requires:** [mallardx-discworld-mapper](https://github.com/wizardquack/mallardx-discworld-mapper) — provides the map database.
+Map data from **[Quow's Cow Bar and Minimap](https://quow.co.uk/minimap.php)**.
+
+---
+
+## Map panel
+
+The map panel opens automatically on the right side of the window. As you walk through the MUD it tracks your position and highlights it on the map. Zoom in and out with the `+` and `−` buttons. Hover over the map to see room names.
 
 ---
 
@@ -49,31 +55,38 @@ dbwalk
   Arrived at "Palace grounds".
 ```
 
-> You must be in a room tracked by the mapper for routing and distance sorting to work.
+> You must be in a room tracked by the map data for routing and distance sorting to work.
 
 ---
 
 ## Installation
 
-Install from the Mallard marketplace. Ensure **mallardx-discworld-mapper** is also installed and enabled.
+Install from the Mallard marketplace.
 
 ---
 
 ## Updating the database
 
-The search data is built from [Quow's Cow Bar and Minimap](https://quow.co.uk/minimap.php) database. When Quow releases an update, the mapper plugin will be updated with the new database. To regenerate this plugin's data files from an updated mapper:
+The map and search data are built from [Quow's Cow Bar and Minimap](https://quow.co.uk/minimap.php). When Quow releases an update, regenerate all data files:
 
 ```bash
 npm install
-npm run build:data -- --db /path/to/mallardx-discworld-mapper/maps/_quowmap_database.db
-git add src/data/
+npm run build:data
+git add src/data/ ui/data/ ui/maps/
 git commit -m "chore: regenerate data from updated Quow DB"
 ```
 
-Then publish a new release.
+This downloads `quow_cowbar.zip` directly from quow.co.uk, extracts the database and map images, and regenerates everything.
+
+If you already have a local copy of the zip or the SQLite database:
+
+```bash
+npm run build:data -- --zip /path/to/quow_cowbar.zip
+npm run build:data -- --db /path/to/_quowmap_database.db   # Lua tables only; no JS or PNGs
+```
 
 ---
 
 ## Credits
 
-Database content and pathfinding algorithm adapted from **[Quow's Cow Bar and Minimap](https://quow.co.uk/minimap.php)** plugin for MUSHClient by Quow. Used with gratitude.
+Map data, database content and pathfinding algorithm adapted from **[Quow's Cow Bar and Minimap](https://quow.co.uk/minimap.php)** plugin for MUSHClient by Quow. Used with gratitude.
