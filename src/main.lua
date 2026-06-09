@@ -107,7 +107,7 @@ local lib_in_lspace       = false    -- true when lost in L-space (distinct from
 local lib_facing          = 'n'
 local lib_x               = 166      -- current position on map 47 (tile units)
 local lib_y               = 4810
-local lib_last_move       = nil      -- cardinal dir of last move attempt; consumed on GMCP
+local lib_move_queue      = {}       -- pending cardinal moves; aliases push, GMCP pops
 local lib_distortion_here = nil      -- 'n'|'e'|'s'|'w' or nil
 local lib_orb_here        = false
 local last_lib_overlay    = nil
@@ -174,22 +174,22 @@ end)
 
 -- Strafe/walk commands: record intended move direction; GMCP confirms arrival.
 mud.alias([[^(?:forward|fw)$]], function(m)
-  if lib_in_library then lib_last_move = lib_facing end
+  if lib_in_library then table.insert(lib_move_queue, lib_facing) end
   mud.send(m.text)
 end)
 
 mud.alias([[^(?:backward|bw)$]], function(m)
-  if lib_in_library then lib_last_move = OPPOSITE[lib_facing] end
+  if lib_in_library then table.insert(lib_move_queue, OPPOSITE[lib_facing]) end
   mud.send(m.text)
 end)
 
 mud.alias([[^(?:left|lt)$]], function(m)
-  if lib_in_library then lib_last_move = TURN_LEFT[lib_facing] end
+  if lib_in_library then table.insert(lib_move_queue, TURN_LEFT[lib_facing]) end
   mud.send(m.text)
 end)
 
 mud.alias([[^(?:right|rt)$]], function(m)
-  if lib_in_library then lib_last_move = TURN_RIGHT[lib_facing] end
+  if lib_in_library then table.insert(lib_move_queue, TURN_RIGHT[lib_facing]) end
   mud.send(m.text)
 end)
 
@@ -278,24 +278,25 @@ gmcp.on('room.info', function(_, data)
 
     if entering_library then
       if not lib_in_library then
-        -- Fresh entry from outside: reset position and facing.
-        lib_facing = 'n'
-        lib_x      = 166
-        lib_y      = 4810
-      elseif lib_last_move then
-        -- Moving within library: apply the pending tile shift.
-        -- Movement direction becomes the new forward (matches Quow sLastDir).
-        lib_apply_move(lib_last_move)
-        lib_facing = lib_last_move
+        -- Fresh entry from outside: reset position, facing, and any stale queue.
+        lib_facing     = 'n'
+        lib_x          = 166
+        lib_y          = 4810
+        lib_move_queue = {}
+      elseif #lib_move_queue > 0 then
+        -- Moving within library: pop the oldest pending move (FIFO so rapid
+        -- input before GMCP responds doesn't collapse multiple steps into one).
+        local move = table.remove(lib_move_queue, 1)
+        lib_apply_move(move)
+        lib_facing = move
       end
-      lib_last_move  = nil
       lib_in_library = true
       lib_in_lspace  = false
       post_library_overlay()
       post_library_position()
     else
       lib_in_library = false
-      lib_last_move  = nil
+      lib_move_queue = {}
       if name_lower:find('mysterious') ~= nil then
         -- L-space rooms have GMCP name "mysterious library". Post lspace
         -- directly instead of post_room() to avoid resolveRoom finding the
