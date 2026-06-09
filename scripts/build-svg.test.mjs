@@ -233,7 +233,9 @@ describe('buildLibrarySvg', () => {
   it('all tiles are indoor rects', () => {
     expect(svg).toContain('class="room indoor"')
     expect(svg).not.toContain('class="room outdoor"')
-    expect(svg).not.toContain('<circle')
+    // Room tiles use rects; circles are only used for the lib-orb overlay
+    // Verify tiles are <rect> not <circle> by checking a specific tile
+    expect(svg).toContain('<rect id="room-lib-166-4810"')
   })
 
   it('has lib-distortion, lib-orb, lib-arrow overlay elements', () => {
@@ -244,9 +246,16 @@ describe('buildLibrarySvg', () => {
 
   it('lib-distortion and lib-orb are initially hidden', () => {
     const distIdx = svg.indexOf('id="lib-distortion"')
-    expect(svg.slice(distIdx, distIdx + 80)).toContain('visibility="hidden"')
+    expect(svg.slice(distIdx, distIdx + 120)).toContain('visibility="hidden"')
     const orbIdx = svg.indexOf('id="lib-orb"')
-    expect(svg.slice(orbIdx, orbIdx + 80)).toContain('visibility="hidden"')
+    expect(svg.slice(orbIdx, orbIdx + 120)).toContain('visibility="hidden"')
+  })
+
+  it('lib-orb is a circle element (viewer sets cx/cy/r attributes)', () => {
+    const orbIdx = svg.indexOf('id="lib-orb"')
+    // Look back a few chars to find the element start
+    const before = svg.slice(Math.max(0, orbIdx - 10), orbIdx)
+    expect(before).toContain('<circle')
   })
 
   it('has exit lines connecting adjacent tiles', () => {

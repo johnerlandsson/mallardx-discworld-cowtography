@@ -164,9 +164,9 @@ export function buildLibrarySvg() {
 
   // Overlay elements — repositioned by viewer on library_position / library_overlay messages
   const overlays = [
-    `    <rect id="lib-distortion" visibility="hidden" class="lib-distortion" x="0" y="0" width="0" height="0"/>`,
-    `    <rect id="lib-orb" visibility="hidden" class="lib-orb" x="0" y="0" width="0" height="0"/>`,
-    `    <path id="lib-arrow" visibility="hidden" class="lib-arrow" d="M 0 0"/>`,
+    `    <rect id="lib-distortion" class="lib-distortion" x="0" y="0" width="0" height="0" visibility="hidden"/>`,
+    `    <circle id="lib-orb" class="lib-orb" cx="0" cy="0" r="0" visibility="hidden"/>`,
+    `    <path id="lib-arrow" class="lib-arrow" d="M 0 0" visibility="hidden"/>`,
   ].join('\n')
 
   const viewMinY = minY - LIB_STEP
