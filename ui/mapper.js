@@ -274,7 +274,7 @@ const ro = new ResizeObserver(() => redraw());
 ro.observe($canvas);
 
 // ─── Host messages ────────────────────────────────────────────────────────
-window.mudPanel.on("room_info", (frame) => {
+panel.on("room_info", (frame) => {
   const next = resolveRoom(data, frame);
   if (mapDidChange(current, next)) {
     swapImage(next);
@@ -284,23 +284,23 @@ window.mudPanel.on("room_info", (frame) => {
   redraw();
 });
 
-window.mudPanel.on("route_set", (frame) => {
+panel.on("route_set", (frame) => {
   routeRoomIds = Array.isArray(frame.rooms) ? frame.rooms : [];
   redraw();
 });
 
-window.mudPanel.on("route_clear", () => {
+panel.on("route_clear", () => {
   routeRoomIds = [];
   redraw();
 });
 
-window.mudPanel.on("library_overlay", (frame) => {
+panel.on("library_overlay", (frame) => {
   libraryOverlay = frame;
   redraw();
 });
 
 // Signal readiness; Lua replays last room, route and library overlay.
-window.mudPanel.send("ready", {});
+panel.post("ready", {});
 
 // Initial draw so the placeholder header renders.
 redraw();
