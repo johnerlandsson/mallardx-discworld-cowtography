@@ -1,6 +1,7 @@
 -- src/main.lua
--- Discworld DB Search — mallard plugin.
+-- Discworld Cowtography — mallard plugin.
 --
+-- Map panel: mirrors room.info GMCP frames to the map iframe.
 -- Commands:
 --   dbsearch <type> <query>   type: room | item | npcitem | npc
 --   dbroute <number>          route to result N, sets dbwalk alias
@@ -18,6 +19,25 @@ local exits     = require('data.exits')
 
 local last_results = {}
 local current_room = nil
+
+-- ─── Map panel ───────────────────────────────────────────────────────────────
+
+local panel        = mud.panel("map")
+local last_payload = nil
+
+local function post_room(payload)
+  panel:post("room_info", {
+    identifier = payload.identifier,
+    name       = payload.name,
+    terrain    = payload.terrain,
+    tx         = payload.tx,
+    ty         = payload.ty,
+  })
+end
+
+panel:on_message("ready", function()
+  if last_payload then post_room(last_payload) end
+end)
 
 local MAX_DISPLAY = 10
 
@@ -62,7 +82,9 @@ local walk_target_name = ''
 
 gmcp.on('room.info', function(_, data)
   if type(data) == 'table' and data.identifier then
-    current_room = data.identifier
+    current_room  = data.identifier
+    last_payload  = data
+    post_room(data)
 
     if walk_pos > 0 then
       if walk_pos < #walk_steps then

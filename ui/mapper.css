@@ -1,0 +1,81 @@
+/* `--bg`, `--fg`, `--accent` are pushed live by the Mallard host via `set-theme`
+ * into the iframe's :root inline style; the values below are first-paint
+ * fallbacks (and the standalone-browser preview palette). `--muted` is a
+ * plugin-only token routed through the host's `--fg-muted`. `--marker` stays
+ * fixed because it's the "you are here" canvas indicator — visual identity,
+ * not theme decoration. */
+:root {
+  --bg: #1a1a1a;
+  --fg: #eaeaea;
+  --muted: var(--fg-muted, #888);
+  --accent: #4ade80;
+  --marker: #ff3b30;
+}
+
+html, body { margin: 0; padding: 0; height: 100%; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.map-header {
+  display: flex;
+  align-items: center;
+  height: 24px;
+  padding: 0 8px;
+  background: var(--bg-elevated, #0f0f0f);
+  border-bottom: 1px solid var(--border, #2a2a2a);
+  font-size: 12px;
+  flex: 0 0 auto;
+}
+.map-header .map-name {
+  flex: 0 1 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.map-header .spacer { flex: 1 1 auto; }
+.map-header button {
+  width: 20px;
+  height: 18px;
+  margin-left: 4px;
+  background: color-mix(in srgb, var(--fg, #ddd) 10%, transparent);
+  color: var(--fg);
+  border: 1px solid var(--border, #3a3a3a);
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  padding: 0;
+}
+.map-header button:hover { background: color-mix(in srgb, var(--fg, #ddd) 20%, transparent); }
+.map-header button:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.canvas-wrap {
+  flex: 1 1 auto;
+  position: relative;
+  overflow: hidden;
+}
+.map-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.map-canvas.dimmed { opacity: 0.35; }
+
+.tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: var(--bg-elevated, rgba(0, 0, 0, 0.85));
+  color: var(--fg);
+  font-size: 11px;
+  padding: 3px 6px;
+  border-radius: 3px;
+  border: 1px solid var(--border, #3a3a3a);
+  white-space: nowrap;
+  z-index: 10;
+}

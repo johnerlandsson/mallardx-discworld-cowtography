@@ -1,15 +1,16 @@
 {
-  "name": "mallardx-discworld-dbsearch",
-  "version": "0.2.0",
+  "name": "mallardx-discworld-cowtography",
+  "version": "0.3.0",
   "type": "module",
   "scripts": {
     "test": "vitest run && lua tests/search_test.lua && lua tests/pathfind_test.lua",
     "test:js": "vitest run",
     "test:lua": "lua tests/search_test.lua && lua tests/pathfind_test.lua",
     "build:data": "node scripts/build-db.mjs",
-    "pack": "zip -r discworld-dbsearch-0.2.0.mallardx plugin.toml README.md src/ ui/"
+    "pack": "zip -r discworld-cowtography-0.3.0.mallardx plugin.toml README.md src/ ui/"
   },
   "devDependencies": {
+    "adm-zip": "^0.5.10",
     "better-sqlite3": "^11.0.0",
     "vitest": "^2.0.0"
   }

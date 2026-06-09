@@ -1,7 +1,7 @@
-id                  = "net.mallard.discworld-dbsearch"
-name                = "Discworld DB Search"
-version             = "0.2.0"
-description         = "Search Quow's Discworld map database for rooms, items, shops and NPCs, and speedwalk to any result. Requires mallardx-discworld-mapper."
+id                  = "net.mallard.discworld-cowtography"
+name                = "Discworld Cowtography"
+version             = "0.3.0"
+description         = "Minimap and database search for Discworld MUD. Search Quow's database for rooms, items, shops and NPCs, speedwalk to any result, and view the map panel as you move."
 language            = "lua"
 entry               = "src/main.lua"
 mallard_api_version = "1.0"
@@ -14,7 +14,13 @@ match = ["discworld.starturtle.net:*"]
 
 [permissions]
 sends       = true
-gmcp_access = ["room.info"]
+gmcp_access = ["char.info", "room.info"]
 
 [gmcp]
-advertise = ["room.info"]
+advertise = ["char.info", "room.info"]
+
+[panels.map]
+title        = "Map"
+entry        = "ui/mapper.html"
+default_dock = "right"
+default_size = { width = 360, height = 360 }

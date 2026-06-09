@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Map</title>
+  <link rel="stylesheet" href="mapper.css">
+</head>
+<body>
+  <header class="map-header">
+    <span class="map-name">Loading…</span>
+    <span class="spacer"></span>
+    <button class="zoom-out" type="button" title="Zoom out">−</button>
+    <button class="zoom-in"  type="button" title="Zoom in">+</button>
+  </header>
+  <div class="canvas-wrap">
+    <canvas class="map-canvas"></canvas>
+    <div class="tooltip" hidden></div>
+  </div>
+  <script type="module" src="mapper.js"></script>
+</body>
+</html>
