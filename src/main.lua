@@ -33,10 +33,26 @@ local C = {
   muted    = '#888888',
 }
 
-local RULE = string.rep('─', 54)
-
 local function note(text, colour)
   mud.note(text, { fg = colour or C.name })
+end
+
+-- Count visual columns in a UTF-8 string (codepoints, not bytes).
+local function vlen(s)
+  local n, i = 0, 1
+  while i <= #s do
+    local b = s:byte(i)
+    if     b < 0x80 then i = i + 1
+    elseif b < 0xE0 then i = i + 2
+    elseif b < 0xF0 then i = i + 3
+    else                  i = i + 4 end
+    n = n + 1
+  end
+  return n
+end
+
+local function rule_for(header)
+  return string.rep('─', vlen(header) - 2)  -- subtract 2 for the leading spaces on the rule line
 end
 
 -- ─── Walk state ──────────────────────────────────────────────────────────────
@@ -77,11 +93,13 @@ local TYPE_LABELS = {
 }
 
 local function display_results(search_type, query, results, sorted_by_dist)
-  local count  = #results
+  local count     = #results
   local sort_note = sorted_by_dist and ', nearest first' or ''
-  note(string.format('  DB Search: %s — "%s"  (%d result%s%s)',
-    TYPE_LABELS[search_type], query, count, count == 1 and '' or 's', sort_note), C.header)
-  note('  ' .. RULE, C.rule)
+  local header    = string.format('  DB Search: %s — "%s"  (%d result%s%s)',
+    TYPE_LABELS[search_type], query, count, count == 1 and '' or 's', sort_note)
+  local rule      = rule_for(header)
+  note(header, C.header)
+  note('  ' .. rule, C.rule)
 
   for i, r in ipairs(results) do
     local colour = (i % 2 == 1) and C.name or C.alt
@@ -101,7 +119,7 @@ local function display_results(search_type, query, results, sorted_by_dist)
     note(line, colour)
   end
 
-  note('  ' .. RULE, C.rule)
+  note('  ' .. rule, C.rule)
   note('  Use  dbroute <number>  to navigate to a result.', C.muted)
 end
 
