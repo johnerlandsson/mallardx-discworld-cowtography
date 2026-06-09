@@ -48,3 +48,32 @@ export function edgeId(a, b) {
   const [lo, hi] = [a, b].sort()
   return `edge-${lo}-${hi}`
 }
+
+// ─── Utilities ───────────────────────────────────────────────────────────────
+
+function escapeXml(str) {
+  if (!str) return ''
+  return String(str)
+    .replace(/&/g,  '&amp;')
+    .replace(/</g,  '&lt;')
+    .replace(/>/g,  '&gt;')
+    .replace(/"/g,  '&quot;')
+    .replace(/'/g,  '&#x27;')
+}
+
+// ─── SVG element generators ──────────────────────────────────────────────────
+
+export function roomElement(id, x, y, short, isIndoor) {
+  const title = `<title>${escapeXml(short)}</title>`
+  if (isIndoor) {
+    return `<rect id="room-${id}" class="room indoor" x="${x - 8}" y="${y - 8}" width="16" height="16" rx="4">${title}</rect>`
+  }
+  return `<circle id="room-${id}" class="room outdoor" cx="${x}" cy="${y}" r="8">${title}</circle>`
+}
+
+export function exitElement(fromId, toId, rooms) {
+  const from = rooms.find(r => r.id === fromId)
+  const to   = rooms.find(r => r.id === toId)
+  if (!from || !to) return ''
+  return `<line id="${edgeId(fromId, toId)}" class="exit" x1="${from.x}" y1="${from.y}" x2="${to.x}" y2="${to.y}"/>`
+}

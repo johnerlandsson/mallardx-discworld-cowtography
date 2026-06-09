@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import Database from 'better-sqlite3'
-import { queryRooms, queryExits, edgeId } from './build-svg.mjs'
+import { queryRooms, queryExits, edgeId, roomElement, exitElement } from './build-svg.mjs'
 
 function makeDb() {
   const db = new Database(':memory:')
@@ -70,5 +70,56 @@ describe('edgeId', () => {
 
   it('formats as edge-{lo}-{hi} in sorted order', () => {
     expect(edgeId('bbb', 'aaa')).toBe('edge-aaa-bbb')
+  })
+})
+
+describe('roomElement', () => {
+  it('returns a circle for outdoor rooms (isIndoor=false)', () => {
+    const el = roomElement('abc', 100, 200, 'The Drum', false)
+    expect(el).toContain('<circle')
+    expect(el).toContain('id="room-abc"')
+    expect(el).toContain('cx="100"')
+    expect(el).toContain('cy="200"')
+    expect(el).toContain('r="8"')
+    expect(el).toContain('class="room outdoor"')
+    expect(el).toContain('<title>The Drum</title>')
+  })
+
+  it('returns a rect for indoor rooms (isIndoor=true)', () => {
+    const el = roomElement('xyz', 50, 75, 'Cellar', true)
+    expect(el).toContain('<rect')
+    expect(el).toContain('id="room-xyz"')
+    expect(el).toContain('x="42"')    // 50 - 8
+    expect(el).toContain('y="67"')    // 75 - 8
+    expect(el).toContain('width="16"')
+    expect(el).toContain('height="16"')
+    expect(el).toContain('rx="4"')
+    expect(el).toContain('class="room indoor"')
+  })
+
+  it('escapes XML special chars in room name', () => {
+    const el = roomElement('r1', 0, 0, "Assassin's & Guild <1>", false)
+    expect(el).toContain('&#x27;')    // escaped single quote
+    expect(el).toContain('&amp;')     // escaped ampersand
+    expect(el).toContain('&lt;')      // escaped less-than
+  })
+})
+
+describe('exitElement', () => {
+  const rooms = [{ id: 'r1', x: 10, y: 20 }, { id: 'r2', x: 50, y: 80 }]
+
+  it('returns a line with deterministic ID', () => {
+    const el = exitElement('r1', 'r2', rooms)
+    expect(el).toContain('<line')
+    expect(el).toContain(`id="${edgeId('r1', 'r2')}"`)
+    expect(el).toContain('x1="10"')
+    expect(el).toContain('y1="20"')
+    expect(el).toContain('x2="50"')
+    expect(el).toContain('y2="80"')
+    expect(el).toContain('class="exit"')
+  })
+
+  it('returns empty string when either endpoint is missing', () => {
+    expect(exitElement('r1', 'missing', rooms)).toBe('')
   })
 })
