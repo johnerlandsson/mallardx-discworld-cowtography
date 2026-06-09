@@ -12,6 +12,7 @@ const data = { rooms, maps, terrain };
 // ─── DOM refs ─────────────────────────────────────────────────────────────
 const $mapName = document.querySelector(".map-name");
 const $canvas  = document.querySelector(".map-canvas");
+const $lspace  = document.querySelector(".lspace-overlay");
 const $tooltip = document.querySelector(".tooltip");
 const $zoomIn  = document.querySelector(".zoom-in");
 const $zoomOut = document.querySelector(".zoom-out");
@@ -121,20 +122,6 @@ function drawOrb(cx, cy, sizeName, zoom) {
   ctx.stroke();
 }
 
-// Translucent overlay with text when the player is lost in L-space.
-function drawLSpaceOverlay(cw, ch) {
-  ctx.fillStyle = "rgba(60, 0, 80, 0.55)";
-  ctx.fillRect(0, 0, cw, ch);
-  ctx.textAlign = "center";
-  ctx.textBaseline = "middle";
-  ctx.fillStyle = "#cc88ff";
-  ctx.font = "bold 15px sans-serif";
-  ctx.fillText("Lost in L-space", cw / 2, ch / 2 - 11);
-  ctx.fillStyle = "#888888";
-  ctx.font = "12px sans-serif";
-  ctx.fillText("Find a Gap in the exits.", cw / 2, ch / 2 + 11);
-  ctx.textBaseline = "alphabetic";
-}
 
 // ─── Drawing ──────────────────────────────────────────────────────────────
 function redraw() {
@@ -148,14 +135,15 @@ function redraw() {
   ctx.fillRect(0, 0, cw, ch);
 
   const inLSpace = current === null && lastKnownMapId === 47;
+  $lspace.hidden = !inLSpace;
+
+  if (inLSpace) {
+    $mapName.textContent = "L-space";
+    return;
+  }
 
   if (!currentImage || !currentImage.complete || currentImage.naturalWidth === 0) {
-    if (inLSpace) {
-      $mapName.textContent = "L-space";
-      drawLSpaceOverlay(cw, ch);
-    } else {
-      $mapName.textContent = headerText(data.maps, current);
-    }
+    $mapName.textContent = headerText(data.maps, current);
     return;
   }
 
