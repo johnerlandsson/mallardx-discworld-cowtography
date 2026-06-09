@@ -138,7 +138,7 @@ function wireTooltip() {
   if (!currentSvg) return;
   currentSvg.addEventListener("pointermove", (e) => {
     const roomEl = e.target.closest(".room");
-    const label  = roomEl?.querySelector("title")?.textContent ?? "";
+    const label  = roomEl?.dataset.label ?? "";
     if (label) {
       const rect = $container.getBoundingClientRect();
       $tooltip.hidden    = false;

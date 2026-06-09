@@ -21,19 +21,19 @@
   </g>
 
   <g id="layer-rooms">
-    <rect id="room-127d267237515f062e0687a66f4278b37a7ca4c9" class="room indoor" x="30" y="78" width="16" height="16" rx="4"><title>foyer of the House of Magic</title></rect>
-    <rect id="room-38d3f230ba1311c88ad5a9611a05bcc7347b04c1" class="room indoor" x="58" y="78" width="16" height="16" rx="4"><title>corridor in the House</title></rect>
-    <rect id="room-69d040d0bca3d09bac8b3faee7045359eff7211a" class="room indoor" x="58" y="50" width="16" height="16" rx="4"><title>kitchen of the House of Magic</title></rect>
-    <rect id="room-0198518e2ec25f6a4688a550f39c1c94a1a48b57" class="room indoor" x="58" y="106" width="16" height="16" rx="4"><title>dining hall of the House of Magic</title></rect>
-    <rect id="room-cb35f106a7bada58f595c4715b341261b012f6b3" class="room indoor" x="155" y="43" width="16" height="16" rx="4"><title>second floor of the House</title></rect>
-    <rect id="room-37e4b1dd62b558efdde85ca601172299e7b39187" class="room indoor" x="127" y="43" width="16" height="16" rx="4"><title>wizard&#x27;s study</title></rect>
-    <rect id="room-ad81e225b7c0db0baae4e1fdad6bfcc2b71989ee" class="room indoor" x="183" y="43" width="16" height="16" rx="4"><title>laboratory of sorts</title></rect>
-    <rect id="room-64b0144b7d7df41be6bdab84e7da32fb0e456ce3" class="room indoor" x="155" y="77" width="16" height="16" rx="4"><title>corridor in the House of Magic</title></rect>
-    <rect id="room-2d8788f5028e26187cfe98d24102baaa1fe0be07" class="room indoor" x="127" y="77" width="16" height="16" rx="4"><title>bedroom of Graham Hobre</title></rect>
-    <rect id="room-79171205802b4988e2b114b40185f90f98d1faa9" class="room indoor" x="155" y="105" width="16" height="16" rx="4"><title>guest bedroom</title></rect>
-    <rect id="room-4fe23fa83173cc4a248ad036c4b93fb11d45c535" class="room indoor" x="183" y="77" width="16" height="16" rx="4"><title>bedroom of Terence</title></rect>
-    <rect id="room-276d553ba6d407530a96bf39ae3a64c0e135f2dc" class="room indoor" x="282" y="77" width="16" height="16" rx="4"><title>attic</title></rect>
-    <rect id="room-3746178a5177134b11622cfead858782000d2f7b" class="room indoor" x="183" y="60" width="16" height="16" rx="4"><title>Magic and Meddlers&#x27; Shop</title></rect>
+    <rect id="room-127d267237515f062e0687a66f4278b37a7ca4c9" class="room indoor" data-label="foyer of the House of Magic" x="30" y="78" width="16" height="16" rx="4"/>
+    <rect id="room-38d3f230ba1311c88ad5a9611a05bcc7347b04c1" class="room indoor" data-label="corridor in the House" x="58" y="78" width="16" height="16" rx="4"/>
+    <rect id="room-69d040d0bca3d09bac8b3faee7045359eff7211a" class="room indoor" data-label="kitchen of the House of Magic" x="58" y="50" width="16" height="16" rx="4"/>
+    <rect id="room-0198518e2ec25f6a4688a550f39c1c94a1a48b57" class="room indoor" data-label="dining hall of the House of Magic" x="58" y="106" width="16" height="16" rx="4"/>
+    <rect id="room-cb35f106a7bada58f595c4715b341261b012f6b3" class="room indoor" data-label="second floor of the House" x="155" y="43" width="16" height="16" rx="4"/>
+    <rect id="room-37e4b1dd62b558efdde85ca601172299e7b39187" class="room indoor" data-label="wizard&#x27;s study" x="127" y="43" width="16" height="16" rx="4"/>
+    <rect id="room-ad81e225b7c0db0baae4e1fdad6bfcc2b71989ee" class="room indoor" data-label="laboratory of sorts" x="183" y="43" width="16" height="16" rx="4"/>
+    <rect id="room-64b0144b7d7df41be6bdab84e7da32fb0e456ce3" class="room indoor" data-label="corridor in the House of Magic" x="155" y="77" width="16" height="16" rx="4"/>
+    <rect id="room-2d8788f5028e26187cfe98d24102baaa1fe0be07" class="room indoor" data-label="bedroom of Graham Hobre" x="127" y="77" width="16" height="16" rx="4"/>
+    <rect id="room-79171205802b4988e2b114b40185f90f98d1faa9" class="room indoor" data-label="guest bedroom" x="155" y="105" width="16" height="16" rx="4"/>
+    <rect id="room-4fe23fa83173cc4a248ad036c4b93fb11d45c535" class="room indoor" data-label="bedroom of Terence" x="183" y="77" width="16" height="16" rx="4"/>
+    <rect id="room-276d553ba6d407530a96bf39ae3a64c0e135f2dc" class="room indoor" data-label="attic" x="282" y="77" width="16" height="16" rx="4"/>
+    <rect id="room-3746178a5177134b11622cfead858782000d2f7b" class="room indoor" data-label="Magic and Meddlers&#x27; Shop" x="183" y="60" width="16" height="16" rx="4"/>
   </g>
 
   <g id="layer-labels">

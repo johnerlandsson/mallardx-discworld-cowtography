@@ -18,19 +18,19 @@
   </g>
 
   <g id="layer-rooms">
-    <rect id="room-ec9a787d226db18f98041ed67da1a93c30a0b7bd" class="room indoor" x="201" y="129" width="16" height="16" rx="4"><title>cosy magic shop</title></rect>
-    <rect id="room-e52d88c91a932fc97b81e4e72898c52fd618260c" class="room indoor" x="62" y="221" width="16" height="16" rx="4"><title>deeply shaded holloway</title></rect>
-    <rect id="room-bcfda2ba9de8adcdd89b2700035fad4883c0e7c6" class="room indoor" x="62" y="193" width="16" height="16" rx="4"><title>shaded dell outside an unassuming building</title></rect>
-    <rect id="room-521ce53ca1696d3352c501582a8585611688a6ed" class="room indoor" x="62" y="165" width="16" height="16" rx="4"><title>cosy kitchen hut</title></rect>
-    <rect id="room-76034f73bca54b5e4807ce7e39c451e4f3910511" class="room indoor" x="34" y="165" width="16" height="16" rx="4"><title>Multicoloured Swap Shop</title></rect>
-    <rect id="room-dd8c02346e7d290b3d80134ac9da3980413a817c" class="room indoor" x="229" y="129" width="16" height="16" rx="4"><title>inside a colossal tree</title></rect>
-    <rect id="room-4d619f097bac0606f9c45d4e53c9a7fd2ca1ec97" class="room indoor" x="257" y="129" width="16" height="16" rx="4"><title>study area</title></rect>
-    <rect id="room-c335fcc2523061692ed4fd87ed67189eb89acde6" class="room indoor" x="229" y="93" width="16" height="16" rx="4"><title>raised platform inside a tree</title></rect>
-    <rect id="room-d7d346f7dc62f8311c3296c6a2fe94608d4f642a" class="room indoor" x="229" y="165" width="16" height="16" rx="4"><title>amidst the roots of a colossal tree</title></rect>
-    <rect id="room-7756cb282a781bd47456be5526430aefbe698b6d" class="room indoor" x="201" y="165" width="16" height="16" rx="4"><title>well-equipped workshop</title></rect>
-    <rect id="room-c2b9ae44eb1977b5f1fe3593c2e6541685f3ac18" class="room indoor" x="257" y="165" width="16" height="16" rx="4"><title>eerie gymnasium</title></rect>
-    <rect id="room-56e1c37f3335e6bf9c5cc5ec316e983be456f6b2" class="room indoor" x="201" y="201" width="16" height="16" rx="4"><title>chalk-marked room</title></rect>
-    <rect id="room-d90f661af47f2ae0ce22c27a9eebfa35b0f21211" class="room indoor" x="229" y="201" width="16" height="16" rx="4"><title>comfortable lounge area</title></rect>
+    <rect id="room-ec9a787d226db18f98041ed67da1a93c30a0b7bd" class="room indoor" data-label="cosy magic shop" x="201" y="129" width="16" height="16" rx="4"/>
+    <rect id="room-e52d88c91a932fc97b81e4e72898c52fd618260c" class="room indoor" data-label="deeply shaded holloway" x="62" y="221" width="16" height="16" rx="4"/>
+    <rect id="room-bcfda2ba9de8adcdd89b2700035fad4883c0e7c6" class="room indoor" data-label="shaded dell outside an unassuming building" x="62" y="193" width="16" height="16" rx="4"/>
+    <rect id="room-521ce53ca1696d3352c501582a8585611688a6ed" class="room indoor" data-label="cosy kitchen hut" x="62" y="165" width="16" height="16" rx="4"/>
+    <rect id="room-76034f73bca54b5e4807ce7e39c451e4f3910511" class="room indoor" data-label="Multicoloured Swap Shop" x="34" y="165" width="16" height="16" rx="4"/>
+    <rect id="room-dd8c02346e7d290b3d80134ac9da3980413a817c" class="room indoor" data-label="inside a colossal tree" x="229" y="129" width="16" height="16" rx="4"/>
+    <rect id="room-4d619f097bac0606f9c45d4e53c9a7fd2ca1ec97" class="room indoor" data-label="study area" x="257" y="129" width="16" height="16" rx="4"/>
+    <rect id="room-c335fcc2523061692ed4fd87ed67189eb89acde6" class="room indoor" data-label="raised platform inside a tree" x="229" y="93" width="16" height="16" rx="4"/>
+    <rect id="room-d7d346f7dc62f8311c3296c6a2fe94608d4f642a" class="room indoor" data-label="amidst the roots of a colossal tree" x="229" y="165" width="16" height="16" rx="4"/>
+    <rect id="room-7756cb282a781bd47456be5526430aefbe698b6d" class="room indoor" data-label="well-equipped workshop" x="201" y="165" width="16" height="16" rx="4"/>
+    <rect id="room-c2b9ae44eb1977b5f1fe3593c2e6541685f3ac18" class="room indoor" data-label="eerie gymnasium" x="257" y="165" width="16" height="16" rx="4"/>
+    <rect id="room-56e1c37f3335e6bf9c5cc5ec316e983be456f6b2" class="room indoor" data-label="chalk-marked room" x="201" y="201" width="16" height="16" rx="4"/>
+    <rect id="room-d90f661af47f2ae0ce22c27a9eebfa35b0f21211" class="room indoor" data-label="comfortable lounge area" x="229" y="201" width="16" height="16" rx="4"/>
   </g>
 
   <g id="layer-labels">

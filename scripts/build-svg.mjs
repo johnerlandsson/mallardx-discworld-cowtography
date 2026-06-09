@@ -64,11 +64,11 @@ function escapeXml(str) {
 // ─── SVG element generators ──────────────────────────────────────────────────
 
 export function roomElement(id, x, y, short, isIndoor) {
-  const title = `<title>${escapeXml(short)}</title>`
+  const label = short ? ` data-label="${escapeXml(short)}"` : ''
   if (isIndoor) {
-    return `<rect id="room-${id}" class="room indoor" x="${x - 8}" y="${y - 8}" width="16" height="16" rx="4">${title}</rect>`
+    return `<rect id="room-${id}" class="room indoor"${label} x="${x - 8}" y="${y - 8}" width="16" height="16" rx="4"/>`
   }
-  return `<circle id="room-${id}" class="room outdoor" cx="${x}" cy="${y}" r="8">${title}</circle>`
+  return `<circle id="room-${id}" class="room outdoor"${label} cx="${x}" cy="${y}" r="8"/>`
 }
 
 export function exitElement(fromId, toId, rooms) {

@@ -82,7 +82,7 @@ describe('roomElement', () => {
     expect(el).toContain('cy="200"')
     expect(el).toContain('r="8"')
     expect(el).toContain('class="room outdoor"')
-    expect(el).toContain('<title>The Drum</title>')
+    expect(el).toContain('data-label="The Drum"')
   })
 
   it('returns a rect for indoor rooms (isIndoor=true)', () => {

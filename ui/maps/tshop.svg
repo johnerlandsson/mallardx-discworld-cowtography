@@ -10,8 +10,8 @@
   </g>
 
   <g id="layer-rooms">
-    <rect id="room-04fd563a7f8d4ccfc83661bbec60971ac9aa72ca" class="room indoor" x="347" y="308" width="16" height="16" rx="4"><title>front of a travelling shop</title></rect>
-    <rect id="room-7e727e52d2794b8c5261c5b5daf184231c0ecafe" class="room indoor" x="380" y="283" width="16" height="16" rx="4"><title>small room containing the multiverse</title></rect>
+    <rect id="room-04fd563a7f8d4ccfc83661bbec60971ac9aa72ca" class="room indoor" data-label="front of a travelling shop" x="347" y="308" width="16" height="16" rx="4"/>
+    <rect id="room-7e727e52d2794b8c5261c5b5daf184231c0ecafe" class="room indoor" data-label="small room containing the multiverse" x="380" y="283" width="16" height="16" rx="4"/>
   </g>
 
   <g id="layer-labels">
