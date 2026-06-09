@@ -88,3 +88,43 @@ export function generateExitsLua(db) {
   lines.push('}')
   return lines.join('\n')
 }
+
+const DEFAULT_DB = resolve(
+  dirname(fileURLToPath(import.meta.url)),
+  '..', '..', 'mallardx-discworld-mapper', 'maps', '_quowmap_database.db'
+)
+
+async function main() {
+  const args = process.argv.slice(2)
+  const dbFlagIdx = args.indexOf('--db')
+  const dbPath = dbFlagIdx !== -1
+    ? resolve(args[dbFlagIdx + 1])
+    : DEFAULT_DB
+
+  console.log(`Reading DB: ${dbPath}`)
+  const db = new Database(dbPath, { readonly: true })
+
+  const outDir = resolve(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'data')
+  mkdirSync(outDir, { recursive: true })
+
+  const generators = [
+    ['rooms.lua',     generateRoomsLua],
+    ['items.lua',     generateItemsLua],
+    ['npcs.lua',      generateNpcsLua],
+    ['npc_items.lua', generateNpcItemsLua],
+    ['exits.lua',     generateExitsLua],
+  ]
+
+  for (const [filename, gen] of generators) {
+    const content = gen(db)
+    writeFileSync(join(outDir, filename), content, 'utf8')
+    console.log(`  ✓ src/data/${filename}`)
+  }
+
+  db.close()
+  console.log('Done.')
+}
+
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
+  main().catch(e => { console.error(e); process.exit(1) })
+}
