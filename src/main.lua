@@ -51,9 +51,6 @@ local function vlen(s)
   return n
 end
 
-local function rule_for(header)
-  return string.rep('─', vlen(header) - 2)  -- subtract 2 for the leading spaces on the rule line
-end
 
 -- ─── Walk state ──────────────────────────────────────────────────────────────
 
@@ -95,14 +92,12 @@ local TYPE_LABELS = {
 local function display_results(search_type, query, results, sorted_by_dist)
   local count     = #results
   local sort_note = sorted_by_dist and ', nearest first' or ''
-  local header    = string.format('  DB Search: %s — "%s"  (%d result%s%s)',
+  local header    = string.format('  DB Search: %s \xe2\x80\x94 "%s"  (%d result%s%s)',
     TYPE_LABELS[search_type], query, count, count == 1 and '' or 's', sort_note)
-  local rule      = rule_for(header)
-  note(header, C.header)
-  note('  ' .. rule, C.rule)
 
+  -- Build all content lines first so we can measure the widest one.
+  local lines, colours = {}, {}
   for i, r in ipairs(results) do
-    local colour = (i % 2 == 1) and C.name or C.alt
     local dist_str = r.distance and string.format('  %d move%s', r.distance, r.distance == 1 and '' or 's') or ''
     local line
     if search_type == 'room' then
@@ -116,9 +111,21 @@ local function display_results(search_type, query, results, sorted_by_dist)
       local price = (r.price ~= '') and ('  ' .. r.price) or ''
       line = string.format('  %2d.  %-28s  via %-22s  [%s]%s%s', i, r.name, r.npc or '', r.location, price, dist_str)
     end
-    note(line, colour)
+    lines[i]   = line
+    colours[i] = (i % 2 == 1) and C.name or C.alt
   end
 
+  -- Rule spans the widest line (header or any content line).
+  local max_w = vlen(header)
+  for _, line in ipairs(lines) do
+    local w = vlen(line)
+    if w > max_w then max_w = w end
+  end
+  local rule = string.rep('\xe2\x94\x80', max_w - 2)
+
+  note(header, C.header)
+  note('  ' .. rule, C.rule)
+  for i, line in ipairs(lines) do note(line, colours[i]) end
   note('  ' .. rule, C.rule)
   note('  Use  dbroute <number>  to navigate to a result.', C.muted)
 end
