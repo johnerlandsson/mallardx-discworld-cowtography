@@ -126,3 +126,69 @@ export function updateExistingSvg(existingSvg, mapMeta, rooms, exits) {
   )
   return svg
 }
+
+// ─── UU Library SVG ──────────────────────────────────────────────────────────
+
+const LIB_COLS    = [46, 76, 106, 136, 166, 196, 226, 256]
+const LIB_ENTRY_Y = 4810
+const LIB_STEP    = 30
+const LIB_N       = 25  // rows above and below entrance
+
+export function buildLibrarySvg() {
+  const minY = LIB_ENTRY_Y - LIB_N * LIB_STEP  // 4060
+  const maxY = LIB_ENTRY_Y + LIB_N * LIB_STEP  // 5560
+  const half = LIB_STEP / 2                     // 15
+
+  const tiles = []
+  const exits = []
+
+  for (const x of LIB_COLS) {
+    for (let row = 0; row <= LIB_N * 2; row++) {
+      const y = minY + row * LIB_STEP
+      tiles.push(
+        `    <rect id="room-lib-${x}-${y}" class="room indoor"` +
+        ` x="${x - half}" y="${y - half}" width="${LIB_STEP}" height="${LIB_STEP}"/>`
+      )
+      // South neighbour
+      const sy = y + LIB_STEP
+      if (sy <= maxY) {
+        exits.push(`    <line class="exit" x1="${x}" y1="${y}" x2="${x}" y2="${sy}"/>`)
+      }
+      // East neighbour
+      const nextX = LIB_COLS[LIB_COLS.indexOf(x) + 1]
+      if (nextX !== undefined) {
+        exits.push(`    <line class="exit" x1="${x}" y1="${y}" x2="${nextX}" y2="${y}"/>`)
+      }
+    }
+  }
+
+  // Overlay elements — repositioned by viewer on library_position / library_overlay messages
+  const overlays = [
+    `    <rect id="lib-distortion" visibility="hidden" class="lib-distortion" x="0" y="0" width="0" height="0"/>`,
+    `    <rect id="lib-orb" visibility="hidden" class="lib-orb" x="0" y="0" width="0" height="0"/>`,
+    `    <path id="lib-arrow" visibility="hidden" class="lib-arrow" d="M 0 0"/>`,
+  ].join('\n')
+
+  const viewMinY = minY - LIB_STEP
+  const viewH    = maxY - viewMinY + LIB_STEP
+
+  return `<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 ${viewMinY} 302 ${viewH}"
+     class="map-svg"
+     data-map-id="47">
+
+  <g id="layer-artwork"><!-- artwork --></g>
+
+  <g id="layer-exits">
+${exits.join('\n')}
+  </g>
+
+  <g id="layer-rooms">
+${overlays}
+${tiles.join('\n')}
+  </g>
+
+  <g id="layer-labels"><!-- labels --></g>
+
+</svg>`
+}

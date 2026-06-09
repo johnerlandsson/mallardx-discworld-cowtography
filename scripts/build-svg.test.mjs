@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import Database from 'better-sqlite3'
-import { queryRooms, queryExits, edgeId, roomElement, exitElement, buildNewSvg, updateExistingSvg } from './build-svg.mjs'
+import { queryRooms, queryExits, edgeId, roomElement, exitElement, buildNewSvg, updateExistingSvg, buildLibrarySvg } from './build-svg.mjs'
 
 function makeDb() {
   const db = new Database(':memory:')
@@ -209,5 +209,54 @@ describe('updateExistingSvg', () => {
       '<g id="layer-labels"><text class="map-label">Hand-crafted label</text>'
     )
     expect(updateExistingSvg(svg, mapMeta, origRooms, origExits)).toContain('Hand-crafted label')
+  })
+})
+
+describe('buildLibrarySvg', () => {
+  const svg = buildLibrarySvg()
+
+  it('has data-map-id="47"', () => {
+    expect(svg).toContain('data-map-id="47"')
+  })
+
+  it('has tiles at all 8 columns at entrance row y=4810', () => {
+    for (const x of [46, 76, 106, 136, 166, 196, 226, 256]) {
+      expect(svg).toContain(`id="room-lib-${x}-4810"`)
+    }
+  })
+
+  it('has tiles N rows above and below entrance (N=25)', () => {
+    expect(svg).toContain('id="room-lib-166-4060"')  // 4810 - 25*30
+    expect(svg).toContain('id="room-lib-166-5560"')  // 4810 + 25*30
+  })
+
+  it('all tiles are indoor rects', () => {
+    expect(svg).toContain('class="room indoor"')
+    expect(svg).not.toContain('class="room outdoor"')
+    expect(svg).not.toContain('<circle')
+  })
+
+  it('has lib-distortion, lib-orb, lib-arrow overlay elements', () => {
+    expect(svg).toContain('id="lib-distortion"')
+    expect(svg).toContain('id="lib-orb"')
+    expect(svg).toContain('id="lib-arrow"')
+  })
+
+  it('lib-distortion and lib-orb are initially hidden', () => {
+    const distIdx = svg.indexOf('id="lib-distortion"')
+    expect(svg.slice(distIdx, distIdx + 80)).toContain('visibility="hidden"')
+    const orbIdx = svg.indexOf('id="lib-orb"')
+    expect(svg.slice(orbIdx, orbIdx + 80)).toContain('visibility="hidden"')
+  })
+
+  it('has exit lines connecting adjacent tiles', () => {
+    expect(svg).toContain('class="exit"')
+  })
+
+  it('has all four layers', () => {
+    expect(svg).toContain('id="layer-artwork"')
+    expect(svg).toContain('id="layer-exits"')
+    expect(svg).toContain('id="layer-rooms"')
+    expect(svg).toContain('id="layer-labels"')
   })
 })
