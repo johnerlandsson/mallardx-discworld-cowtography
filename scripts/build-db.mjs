@@ -24,3 +24,49 @@ export function generateRoomsLua(db) {
   lines.push('}')
   return lines.join('\n')
 }
+
+export function generateItemsLua(db) {
+  const rows = db.prepare(`
+    SELECT si.item_name, si.room_id, si.sale_price, r.room_short
+    FROM shop_items si
+    JOIN rooms r ON si.room_id = r.room_id
+    ORDER BY si.item_name COLLATE NOCASE
+  `).all()
+  const lines = [HEADER + 'return {']
+  for (const row of rows) {
+    lines.push(`  { name = ${luaStr(row.item_name)}, room_id = ${luaStr(row.room_id)}, location = ${luaStr(row.room_short)}, price = ${luaStr(row.sale_price ?? '')} },`)
+  }
+  lines.push('}')
+  return lines.join('\n')
+}
+
+export function generateNpcsLua(db) {
+  const rows = db.prepare(`
+    SELECT ni.npc_name, ni.room_id, r.room_short
+    FROM npc_info ni
+    JOIN rooms r ON ni.room_id = r.room_id
+    ORDER BY ni.npc_name COLLATE NOCASE
+  `).all()
+  const lines = [HEADER + 'return {']
+  for (const row of rows) {
+    lines.push(`  { name = ${luaStr(row.npc_name)}, room_id = ${luaStr(row.room_id)}, location = ${luaStr(row.room_short)} },`)
+  }
+  lines.push('}')
+  return lines.join('\n')
+}
+
+export function generateNpcItemsLua(db) {
+  const rows = db.prepare(`
+    SELECT nit.item_name, ni.npc_name, ni.room_id, r.room_short, nit.sale_price
+    FROM npc_items nit
+    JOIN npc_info ni ON nit.npc_id = ni.npc_id
+    JOIN rooms r ON ni.room_id = r.room_id
+    ORDER BY nit.item_name COLLATE NOCASE
+  `).all()
+  const lines = [HEADER + 'return {']
+  for (const row of rows) {
+    lines.push(`  { name = ${luaStr(row.item_name)}, npc = ${luaStr(row.npc_name)}, room_id = ${luaStr(row.room_id)}, location = ${luaStr(row.room_short)}, price = ${luaStr(row.sale_price ?? '')} },`)
+  }
+  lines.push('}')
+  return lines.join('\n')
+}
