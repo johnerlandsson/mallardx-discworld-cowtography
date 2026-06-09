@@ -19,7 +19,7 @@ Search the database. `<type>` is one of:
 | `npcitem` | Items carried or sold by NPCs |
 | `npc` | NPC names |
 
-Search is case-insensitive. Up to 30 results are shown.
+Search is case-insensitive. The 10 nearest reachable results are shown, sorted by distance from your current room.
 
 ```
 dbsearch npc wizard
@@ -30,15 +30,26 @@ dbsearch npcitem dagger
 
 ### `dbroute <number>`
 
-Navigate to a result from the last `dbsearch`. Creates a `dbwalk` alias in Discworld's alias system with the full movement sequence.
+Set a route to a result from the last `dbsearch`.
 
 ```
 dbroute 3
 ```
 
-Then type `dbwalk` to begin walking.
+### `dbwalk`
 
-> You must be in a room tracked by the mapper for routing to work.
+Walk to the routed destination. Each room arrival sends the next move automatically and counts down the remaining distance.
+
+```
+dbwalk
+  Walking to "Palace grounds" — 22 moves.
+  20 moves remaining.
+  19 moves remaining.
+  ...
+  Arrived at "Palace grounds".
+```
+
+> You must be in a room tracked by the mapper for routing and distance sorting to work.
 
 ---
 
