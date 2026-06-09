@@ -20,6 +20,7 @@ let libraryOverlay = null;  // { facing, distortion, orb } | null
 let lastKnownMapId = null;
 let viewBox        = { x: 0, y: 0, w: 0, h: 0 };
 let drag           = null;  // { screenX, screenY, vbX, vbY } | null
+let loadGeneration = 0;
 
 // World-disc canvas state (map 99 only)
 let worldImg    = null;
@@ -61,8 +62,10 @@ function clearContainer() {
 async function loadSvgMap(mapId, x, y) {
   const meta = data.maps[mapId];
   if (!meta) return;
-  const res    = await fetch(`maps/${meta.file.replace(".png", ".svg")}`);
+  const gen = ++loadGeneration;
+  const res     = await fetch(`maps/${meta.file.replace(".png", ".svg")}`);
   const svgText = await res.text();
+  if (gen !== loadGeneration) return;  // superseded by a later load
   clearContainer();
   const wrap = document.createElement("div");
   wrap.style.cssText = "position:absolute;inset:0;overflow:hidden;";
@@ -265,7 +268,13 @@ panel.on("room_info", async (frame) => {
     if (next?.mapId === 99) {
       loadWorldDisc(next.x, next.y);
     } else if (next !== null) {
-      await loadSvgMap(next.mapId, next.x, next.y);
+      try {
+        await loadSvgMap(next.mapId, next.x, next.y);
+      } catch (e) {
+        console.error("[mapper] loadSvgMap failed:", e);
+        $mapName.textContent = "Map load failed";
+        return;
+      }
     }
   } else if (next !== null && currentSvg) {
     centerOnRoom(next.x, next.y);  // zoom persists, only pan updates
@@ -298,7 +307,13 @@ panel.on("library_overlay", (frame) => {
 panel.on("library_position", async (frame) => {
   const next = { mapId: 47, x: frame.x, y: frame.y, short: null, roomId: null };
   if (mapDidChange(current, next)) {
-    await loadSvgMap(47, frame.x, frame.y);
+    try {
+      await loadSvgMap(47, frame.x, frame.y);
+    } catch (e) {
+      console.error("[mapper] loadSvgMap failed:", e);
+      $mapName.textContent = "Map load failed";
+      return;
+    }
     currentSvg?.querySelector(`#room-lib-${frame.x}-${frame.y}`)?.classList.add("current");
   } else if (currentSvg) {
     currentSvg.querySelector(".room.current")?.classList.remove("current");
