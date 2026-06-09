@@ -1,0 +1,7 @@
+node_modules/
+*.mallardx
+
+# Claude working files
+claude_resources/
+.claude/
+CLAUDE.md
