@@ -47,7 +47,9 @@ local function post_route_clear()
 end
 
 panel:on_message("ready", function()
-  if lib_in_library then
+  if lib_in_lspace then
+    panel:post("lspace", {})
+  elseif lib_in_library then
     if last_lib_position then panel:post("library_position", last_lib_position) end
     if last_lib_overlay  then panel:post("library_overlay",  last_lib_overlay)  end
   else
@@ -101,6 +103,7 @@ local walk_target_name = ''
 -- Distortions, orbs and l-space are overlaid on the map panel.
 
 local lib_in_library      = false
+local lib_in_lspace       = false    -- true when lost in L-space (distinct from library)
 local lib_facing          = 'n'
 local lib_x               = 166      -- current position on map 47 (tile units)
 local lib_y               = 4810
@@ -224,6 +227,16 @@ mud.trigger([[(?:tiny speck|small point|moderately-sized ball|large orb|substant
   post_library_overlay()
 end)
 
+-- L-space is detected from the room description rather than GMCP name,
+-- since L-space rooms may share the "Library" name with regular rooms.
+-- This fires after any GMCP-based library_position is already posted, so
+-- the lspace message overrides it in the JS panel.
+mud.trigger([[^(?:> )?You are somewhere in the depths of L-space\.]], function()
+  lib_in_library = false
+  lib_in_lspace  = true
+  panel:post("lspace", {})
+end)
+
 -- ─── World lifecycle ─────────────────────────────────────────────────────────
 
 local function seed_room()
@@ -254,7 +267,14 @@ gmcp.on('room.info', function(_, data)
     -- UU Library: clear per-room overlays on each room transition.
     lib_orb_here        = false
     lib_distortion_here = nil
-    local entering_library = data.name and data.name:lower():find('library') ~= nil
+    local name_lower      = (data.name or ''):lower()
+    -- UU Library rooms have GMCP name "library" AND are absent from the rooms
+    -- DB (no identifier entries). Other "library"-named rooms (Academy of
+    -- Artificers, Genua, etc.) ARE in the DB, so the identifier lookup
+    -- distinguishes them. L-space rooms ("mysterious library") fail the exact
+    -- name match, so they fall through to the mysterious-name check below.
+    local entering_library = name_lower == 'library'
+                         and rooms[data.identifier] == nil
 
     if entering_library then
       if not lib_in_library then
@@ -270,13 +290,23 @@ gmcp.on('room.info', function(_, data)
       end
       lib_last_move  = nil
       lib_in_library = true
+      lib_in_lspace  = false
       post_library_overlay()
       post_library_position()
     else
       lib_in_library = false
       lib_last_move  = nil
-      last_payload   = data
-      post_room(data)
+      if name_lower:find('mysterious') ~= nil then
+        -- L-space rooms have GMCP name "mysterious library". Post lspace
+        -- directly instead of post_room() to avoid resolveRoom finding the
+        -- map-56 DB entries and blinking the quow_specials image.
+        lib_in_lspace = true
+        panel:post("lspace", {})
+      else
+        lib_in_lspace = false
+        last_payload  = data
+        post_room(data)
+      end
     end
 
     if walk_pos > 0 then

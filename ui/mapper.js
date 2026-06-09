@@ -310,6 +310,12 @@ panel.on("library_position", (frame) => {
   redraw();
 });
 
+panel.on("lspace", () => {
+  lastKnownMapId = 47;
+  current = null;
+  redraw();
+});
+
 // Signal readiness; Lua replays last room, route and library overlay.
 panel.post("ready", {});
 
