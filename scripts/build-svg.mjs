@@ -211,7 +211,8 @@ async function buildOneSvg(db, mapId, mapMeta) {
       console.log(`[build-svg] map ${mapId}: +${added} rooms, -${removed} removed — update labels manually`)
     }
     svg = updateExistingSvg(existing, mapMeta, roomRows, exitRows)
-  } catch {
+  } catch (e) {
+    if (e.code !== 'ENOENT') throw e
     svg = buildNewSvg(mapMeta, roomRows, exitRows, mapId)
   }
 
@@ -224,38 +225,40 @@ async function main() {
 
   const dbFlagIdx  = args.indexOf('--db')
   const mapFlagIdx = args.indexOf('--map')
-  const dbPath     = dbFlagIdx  !== -1 ? path.resolve(args[dbFlagIdx  + 1]) : DEFAULT_DB
-  const onlyMapId  = mapFlagIdx !== -1 ? Number(args[mapFlagIdx + 1])       : null
+  const dbPath    = (dbFlagIdx  !== -1 && dbFlagIdx  + 1 < args.length) ? path.resolve(args[dbFlagIdx  + 1]) : DEFAULT_DB
+  const onlyMapId = (mapFlagIdx !== -1 && mapFlagIdx + 1 < args.length) ? Number(args[mapFlagIdx + 1])       : null
 
   try { await fs.access(dbPath) } catch {
     throw new Error(`DB not found at ${dbPath}\nRun 'npm run build:data' first, or pass --db /path/to/_quowmap_database.db`)
   }
 
   const db = new Database(dbPath, { readonly: true })
-  await fs.mkdir(OUT_DIR, { recursive: true })
+  try {
+    await fs.mkdir(OUT_DIR, { recursive: true })
 
-  // UU Library — always use the dedicated generator; skip if already exists
-  if (onlyMapId === null || onlyMapId === 47) {
-    const libPath = path.join(OUT_DIR, 'uu_library_full.svg')
-    try {
-      await fs.access(libPath)
-      console.log('[build-svg]   ✓ uu_library_full.svg  (exists; delete to regenerate)')
-    } catch {
-      await fs.writeFile(libPath, buildLibrarySvg(), 'utf8')
-      console.log('[build-svg]   ✓ uu_library_full.svg  (tile-grid, generated)')
+    // UU Library — always use the dedicated generator; skip if already exists
+    if (onlyMapId === null || onlyMapId === 47) {
+      const libPath = path.join(OUT_DIR, 'uu_library_full.svg')
+      try {
+        await fs.access(libPath)
+        console.log('[build-svg]   ✓ uu_library_full.svg  (exists; delete to regenerate)')
+      } catch {
+        await fs.writeFile(libPath, buildLibrarySvg(), 'utf8')
+        console.log('[build-svg]   ✓ uu_library_full.svg  (tile-grid, generated)')
+      }
     }
-  }
 
-  // Standard maps — all except 47 (UU Library) and 99 (World Disc — stays PNG)
-  const mapIds = Object.keys(maps).map(Number).filter(id => id !== 47 && id !== 99)
-  for (const mapId of mapIds.sort((a, b) => a - b)) {
-    if (onlyMapId !== null && mapId !== onlyMapId) continue
-    const meta = maps[mapId]
-    if (!meta) continue
-    await buildOneSvg(db, mapId, meta)
+    // Standard maps — all except 47 (UU Library) and 99 (World Disc — stays PNG)
+    const mapIds = Object.keys(maps).map(Number).filter(id => id !== 47 && id !== 99)
+    for (const mapId of mapIds.sort((a, b) => a - b)) {
+      if (onlyMapId !== null && mapId !== onlyMapId) continue
+      const meta = maps[mapId]
+      if (!meta) continue
+      await buildOneSvg(db, mapId, meta)
+    }
+  } finally {
+    db.close()
   }
-
-  db.close()
   console.log('[build-svg] done.')
 }
 
