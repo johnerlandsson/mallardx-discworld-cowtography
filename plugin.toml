@@ -1,6 +1,6 @@
 id                  = "net.mallard.discworld-dbsearch"
 name                = "Discworld DB Search"
-version             = "0.1.0"
+version             = "0.2.0"
 description         = "Search Quow's Discworld map database for rooms, items, shops and NPCs, and speedwalk to any result. Requires mallardx-discworld-mapper."
 language            = "lua"
 entry               = "src/main.lua"
