@@ -253,7 +253,9 @@ gmcp.on('room.info', function(_, data)
         lib_y      = 4810
       elseif lib_last_move then
         -- Moving within library: apply the pending tile shift.
+        -- Movement direction becomes the new forward (matches Quow sLastDir).
         lib_apply_move(lib_last_move)
+        lib_facing = lib_last_move
       end
       lib_last_move  = nil
       lib_in_library = true
