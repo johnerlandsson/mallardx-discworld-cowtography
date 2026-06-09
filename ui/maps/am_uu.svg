@@ -1,0 +1,627 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1117 598"
+     class="map-svg"
+     data-map-id="12">
+
+  <g id="layer-artwork"><!-- artwork --></g>
+
+  <g id="layer-exits">
+    <line id="edge-c3fb3ef3ee59d1c56556fb61089ea00b2c44f971-eee01e7d96b0e95cec5269c23db9e1ef24b164d9" class="exit" x1="584" y1="579" x2="568" y2="557"/>
+    <line id="edge-1d7ee12a909fb9271b722f31767c83043de23f49-c3fb3ef3ee59d1c56556fb61089ea00b2c44f971" class="exit" x1="612" y1="579" x2="584" y2="579"/>
+    <line id="edge-1d7ee12a909fb9271b722f31767c83043de23f49-b0281adbb4d8eef876738a1eb206648a0ad8ecc0" class="exit" x1="612" y1="579" x2="640" y2="579"/>
+    <line id="edge-b0281adbb4d8eef876738a1eb206648a0ad8ecc0-b88700aab99f698f3a82d2c4d0bb918b7588e379" class="exit" x1="640" y1="579" x2="668" y2="579"/>
+    <line id="edge-82b14220bff07aa1925bdcf2caded93f203775ef-b88700aab99f698f3a82d2c4d0bb918b7588e379" class="exit" x1="696" y1="579" x2="668" y2="579"/>
+    <line id="edge-82b14220bff07aa1925bdcf2caded93f203775ef-9a59b59ac6968809c05c54679eb9cb7f79bfd015" class="exit" x1="696" y1="579" x2="724" y2="579"/>
+    <line id="edge-40beb7771a3a6750b223515a87738c20a2905c59-9a59b59ac6968809c05c54679eb9cb7f79bfd015" class="exit" x1="724" y1="551" x2="724" y2="579"/>
+    <line id="edge-9a59b59ac6968809c05c54679eb9cb7f79bfd015-fc43d914422675a65f93428238599377199d6c06" class="exit" x1="724" y1="579" x2="752" y2="579"/>
+    <line id="edge-cf5688d6a3008496226112e342e02f4351be0e14-fc43d914422675a65f93428238599377199d6c06" class="exit" x1="780" y1="579" x2="752" y2="579"/>
+    <line id="edge-054e31a302e62924ff57ed40f5bf77309cd3f3bb-cf5688d6a3008496226112e342e02f4351be0e14" class="exit" x1="808" y1="579" x2="780" y2="579"/>
+    <line id="edge-054e31a302e62924ff57ed40f5bf77309cd3f3bb-104d364ca3b5ffefba3171255757e817563b61c5" class="exit" x1="808" y1="579" x2="808" y2="551"/>
+    <line id="edge-104d364ca3b5ffefba3171255757e817563b61c5-26ea5fb7d01a54923572ff6d9570083ba786573a" class="exit" x1="808" y1="551" x2="808" y2="523"/>
+    <line id="edge-000cde69d3b4bd92615791d9d91b4716279c838f-40beb7771a3a6750b223515a87738c20a2905c59" class="exit" x1="724" y1="523" x2="724" y2="551"/>
+    <line id="edge-000cde69d3b4bd92615791d9d91b4716279c838f-52831a96ed33478ea88b9c44593060130605393b" class="exit" x1="724" y1="523" x2="724" y2="495"/>
+    <line id="edge-52831a96ed33478ea88b9c44593060130605393b-c1444d9b54342fe97d20f2d4c15168bcf9e3deff" class="exit" x1="724" y1="495" x2="724" y2="467"/>
+    <line id="edge-54aac2731ebcdd356006951043c1adcc77bad6ae-c1444d9b54342fe97d20f2d4c15168bcf9e3deff" class="exit" x1="724" y1="439" x2="724" y2="467"/>
+    <line id="edge-1ed3ee9ff542f46e4f77255b587d68818129fc60-54aac2731ebcdd356006951043c1adcc77bad6ae" class="exit" x1="724" y1="411" x2="724" y2="439"/>
+    <line id="edge-003ff77f7a55e934415241c2a4ca57f277bbc5d8-1ed3ee9ff542f46e4f77255b587d68818129fc60" class="exit" x1="752" y1="411" x2="724" y2="411"/>
+    <line id="edge-003ff77f7a55e934415241c2a4ca57f277bbc5d8-8f4c2856b9a11c73c506d06b956e5d67dc05c902" class="exit" x1="752" y1="411" x2="780" y2="411"/>
+    <line id="edge-8f4c2856b9a11c73c506d06b956e5d67dc05c902-a68e0f312addd9b98452fc3f7e3f5cd3ad62bd19" class="exit" x1="780" y1="411" x2="808" y2="411"/>
+    <line id="edge-a68e0f312addd9b98452fc3f7e3f5cd3ad62bd19-d2fb4de365a75da989facedab62f6c3ee2742a33" class="exit" x1="808" y1="411" x2="808" y2="383"/>
+    <line id="edge-a68e0f312addd9b98452fc3f7e3f5cd3ad62bd19-fa794b03744bbf5eafcd3a38d1d1fec50b60872a" class="exit" x1="808" y1="411" x2="836" y2="411"/>
+    <line id="edge-5b4378ad4527ea79969a7c53279dd5ec8d5635ee-fa794b03744bbf5eafcd3a38d1d1fec50b60872a" class="exit" x1="864" y1="411" x2="836" y2="411"/>
+    <line id="edge-26e8f6f5a30795a6842d802fc657e1bf9f23b39a-5b4378ad4527ea79969a7c53279dd5ec8d5635ee" class="exit" x1="892" y1="411" x2="864" y2="411"/>
+    <line id="edge-26e8f6f5a30795a6842d802fc657e1bf9f23b39a-3ed0865f91733cd174928ea0018770e6a9d7cc62" class="exit" x1="892" y1="411" x2="920" y2="411"/>
+    <line id="edge-3ed0865f91733cd174928ea0018770e6a9d7cc62-f5f77ff1b208d4054858743e7f15aadecc9e578e" class="exit" x1="920" y1="411" x2="920" y2="439"/>
+    <line id="edge-55cc9bac0ae2a1abd1d2e4a499a1decfbe8ece8d-f5f77ff1b208d4054858743e7f15aadecc9e578e" class="exit" x1="920" y1="467" x2="920" y2="439"/>
+    <line id="edge-2fcac471651031518b8f0a47167df948edaa6127-55cc9bac0ae2a1abd1d2e4a499a1decfbe8ece8d" class="exit" x1="920" y1="495" x2="920" y2="467"/>
+    <line id="edge-2fcac471651031518b8f0a47167df948edaa6127-aef37f17a2cb382e72c9b7c71cf3999c7f9b36ca" class="exit" x1="920" y1="495" x2="948" y2="495"/>
+    <line id="edge-10fcbff8fbce9748b1674248dd56f869228b88d2-aef37f17a2cb382e72c9b7c71cf3999c7f9b36ca" class="exit" x1="976" y1="495" x2="948" y2="495"/>
+    <line id="edge-10fcbff8fbce9748b1674248dd56f869228b88d2-7371490aafa7c9835b62bf3dc23c9dfbfedf001b" class="exit" x1="976" y1="495" x2="976" y2="523"/>
+    <line id="edge-7371490aafa7c9835b62bf3dc23c9dfbfedf001b-b7ff00ff99855790041040b3576ec73c762b7701" class="exit" x1="976" y1="523" x2="1004" y2="523"/>
+    <line id="edge-90f4df20c230a54ffe795a4d9af1902c35cc17c8-b7ff00ff99855790041040b3576ec73c762b7701" class="exit" x1="1032" y1="523" x2="1004" y2="523"/>
+    <line id="edge-90f4df20c230a54ffe795a4d9af1902c35cc17c8-c3bdb3fcbd59b7979cfcff1cf228c8d110632ba5" class="exit" x1="1032" y1="523" x2="1060" y2="523"/>
+    <line id="edge-5ec93e460a28e67dcce8e4f0dcdc84e524bd6eea-c3bdb3fcbd59b7979cfcff1cf228c8d110632ba5" class="exit" x1="1060" y1="495" x2="1060" y2="523"/>
+    <line id="edge-0e14fd91086cc578ca7a1a64b3fff78d92816cce-5ec93e460a28e67dcce8e4f0dcdc84e524bd6eea" class="exit" x1="1060" y1="467" x2="1060" y2="495"/>
+    <line id="edge-0e14fd91086cc578ca7a1a64b3fff78d92816cce-b3fdf3862c7422e894c6f9c62cf8ba9b15f5b61f" class="exit" x1="1060" y1="467" x2="1060" y2="439"/>
+    <line id="edge-77dcc41a9d3112bd5a144bc3413b1381e3e25c5e-b3fdf3862c7422e894c6f9c62cf8ba9b15f5b61f" class="exit" x1="1060" y1="411" x2="1060" y2="439"/>
+    <line id="edge-77dcc41a9d3112bd5a144bc3413b1381e3e25c5e-90d1c1838b520d259b888d6f3a3fd6e7699ff8ef" class="exit" x1="1060" y1="411" x2="1060" y2="383"/>
+    <line id="edge-89f1b7e7f92d427b7b490032e6cdb2d577c5cc29-90d1c1838b520d259b888d6f3a3fd6e7699ff8ef" class="exit" x1="1060" y1="355" x2="1060" y2="383"/>
+    <line id="edge-5b9ceb528d3a46b397349e4691a917ce291b9813-89f1b7e7f92d427b7b490032e6cdb2d577c5cc29" class="exit" x1="1032" y1="355" x2="1060" y2="355"/>
+    <line id="edge-417f14d1fd3d0c3e4a2250432015c027461bcc6d-5b9ceb528d3a46b397349e4691a917ce291b9813" class="exit" x1="1004" y1="355" x2="1032" y2="355"/>
+    <line id="edge-417f14d1fd3d0c3e4a2250432015c027461bcc6d-c26f8e9761a27fafe3862e36c9fe93e72a55e9b9" class="exit" x1="1004" y1="355" x2="976" y2="355"/>
+    <line id="edge-a9580a347b33291dffbf63bfefb5dacad24712e0-c26f8e9761a27fafe3862e36c9fe93e72a55e9b9" class="exit" x1="948" y1="355" x2="976" y2="355"/>
+    <line id="edge-2bf7d0a885c89c83108d1d95ef23d3ae246f60bf-a9580a347b33291dffbf63bfefb5dacad24712e0" class="exit" x1="920" y1="355" x2="948" y2="355"/>
+    <line id="edge-2bf7d0a885c89c83108d1d95ef23d3ae246f60bf-7c76b622e5572c946cbdb9d5935fc4222572ff2b" class="exit" x1="920" y1="355" x2="920" y2="327"/>
+    <line id="edge-77b37e04ac486da1f70f363b5cec71641b6cb3a2-7c76b622e5572c946cbdb9d5935fc4222572ff2b" class="exit" x1="920" y1="299" x2="920" y2="327"/>
+    <line id="edge-77b37e04ac486da1f70f363b5cec71641b6cb3a2-9485665c7592683e2f5d9f73d0d9e322bef464f3" class="exit" x1="920" y1="299" x2="892" y2="299"/>
+    <line id="edge-4f6e9dcd6d01ee5312f8adede0ce1d25766933a9-9485665c7592683e2f5d9f73d0d9e322bef464f3" class="exit" x1="864" y1="299" x2="892" y2="299"/>
+    <line id="edge-41c8e1119023ae76d5d0e7752694b01cbc95c09e-4f6e9dcd6d01ee5312f8adede0ce1d25766933a9" class="exit" x1="864" y1="270" x2="864" y2="299"/>
+    <line id="edge-4f6e9dcd6d01ee5312f8adede0ce1d25766933a9-a2d501594260631fac71ede7b500a37169b821fb" class="exit" x1="864" y1="299" x2="836" y2="299"/>
+    <line id="edge-41c8e1119023ae76d5d0e7752694b01cbc95c09e-a3c15cbd48d1d08b8ce9971405812846d636d914" class="exit" x1="864" y1="270" x2="166" y2="336"/>
+    <line id="edge-8e964c6f43ed57468f8931a00d86ce740e79ed31-a2d501594260631fac71ede7b500a37169b821fb" class="exit" x1="808" y1="299" x2="836" y2="299"/>
+    <line id="edge-6f023ec9e647fa17e27fd357b46e61f75af4ab7a-8e964c6f43ed57468f8931a00d86ce740e79ed31" class="exit" x1="808" y1="327" x2="808" y2="299"/>
+    <line id="edge-27485829265d1afe37436dbbb2344fed1a4122fd-6f023ec9e647fa17e27fd357b46e61f75af4ab7a" class="exit" x1="142" y1="454" x2="808" y2="327"/>
+    <line id="edge-6f023ec9e647fa17e27fd357b46e61f75af4ab7a-963e57b35c5c710eef150c02237327e1050f66eb" class="exit" x1="808" y1="327" x2="808" y2="355"/>
+    <line id="edge-963e57b35c5c710eef150c02237327e1050f66eb-d2fb4de365a75da989facedab62f6c3ee2742a33" class="exit" x1="808" y1="355" x2="808" y2="383"/>
+    <line id="edge-7dd20e5c90205aa7c65026f09e960e66aec89970-a3c15cbd48d1d08b8ce9971405812846d636d914" class="exit" x1="194" y1="336" x2="166" y2="336"/>
+    <line id="edge-8809148f72102acc7c3683ed3163a6f9f56c669a-a3c15cbd48d1d08b8ce9971405812846d636d914" class="exit" x1="166" y1="364" x2="166" y2="336"/>
+    <line id="edge-a3c15cbd48d1d08b8ce9971405812846d636d914-bb8061841251cab282fbe219bace0ef60985017b" class="exit" x1="166" y1="336" x2="166" y2="308"/>
+    <line id="edge-a3c15cbd48d1d08b8ce9971405812846d636d914-f7da53cc74752a2f72ee7716d0ae79d67f14887c" class="exit" x1="166" y1="336" x2="138" y2="336"/>
+    <line id="edge-27485829265d1afe37436dbbb2344fed1a4122fd-d382a2bd6420e9de5b5b6f40bb964c15ec2b7d51" class="exit" x1="142" y1="454" x2="110" y2="393"/>
+    <line id="edge-27485829265d1afe37436dbbb2344fed1a4122fd-dcc90894d30784efd40ec42fbced2fc987d86363" class="exit" x1="142" y1="454" x2="142" y2="482"/>
+    <line id="edge-0b73fc558b9d7fc48378eb6b446bebeda7dbcfaf-d382a2bd6420e9de5b5b6f40bb964c15ec2b7d51" class="exit" x1="138" y1="393" x2="110" y2="393"/>
+    <line id="edge-65e52e67398ff2e937eaea5d8759715235378387-d382a2bd6420e9de5b5b6f40bb964c15ec2b7d51" class="exit" x1="857" y1="143" x2="110" y2="393"/>
+    <line id="edge-6fb9c9107daee12cf5dd51450aa3696115b4f384-d382a2bd6420e9de5b5b6f40bb964c15ec2b7d51" class="exit" x1="110" y1="364" x2="110" y2="393"/>
+    <line id="edge-d382a2bd6420e9de5b5b6f40bb964c15ec2b7d51-efe6785d4a5df3a6e107ad6165ec6b944f29c9f1" class="exit" x1="110" y1="393" x2="110" y2="420"/>
+    <line id="edge-e2a7807e740198eaaaaef2f7662a01c18acb16e9-efe6785d4a5df3a6e107ad6165ec6b944f29c9f1" class="exit" x1="82" y1="420" x2="110" y2="420"/>
+    <line id="edge-478c759b0e48aeb573aa5f1c88cb77f504eb7c09-e2a7807e740198eaaaaef2f7662a01c18acb16e9" class="exit" x1="82" y1="448" x2="82" y2="420"/>
+    <line id="edge-a66cf36c29abc472378e2a1e51043360eb7ff215-e2a7807e740198eaaaaef2f7662a01c18acb16e9" class="exit" x1="54" y1="420" x2="82" y2="420"/>
+    <line id="edge-e2a7807e740198eaaaaef2f7662a01c18acb16e9-ede9465d65f6e10bcc2e0a472d4dfc5cc557499a" class="exit" x1="82" y1="420" x2="82" y2="392"/>
+    <line id="edge-4433ef7c61bac45844633d8243374b38fff76a1a-a66cf36c29abc472378e2a1e51043360eb7ff215" class="exit" x1="54" y1="392" x2="54" y2="420"/>
+    <line id="edge-a66cf36c29abc472378e2a1e51043360eb7ff215-cc59b98cf08d399131d8ac1f8729ac9571cdd054" class="exit" x1="54" y1="420" x2="26" y2="420"/>
+    <line id="edge-a66cf36c29abc472378e2a1e51043360eb7ff215-e87212bc324661e5ab4faf803852108ed5e65182" class="exit" x1="54" y1="420" x2="54" y2="448"/>
+    <line id="edge-660000475df97f2eba31b7f0d09dd0e8370871e9-cc59b98cf08d399131d8ac1f8729ac9571cdd054" class="exit" x1="26" y1="448" x2="26" y2="420"/>
+    <line id="edge-cc59b98cf08d399131d8ac1f8729ac9571cdd054-d3f9c89a181755d17b07d602e329fa423bdfa090" class="exit" x1="26" y1="420" x2="26" y2="392"/>
+    <line id="edge-0b73fc558b9d7fc48378eb6b446bebeda7dbcfaf-0e2a9cdb4da279d919023c30cbf16b71c1c7b5fc" class="exit" x1="138" y1="393" x2="166" y2="420"/>
+    <line id="edge-0b73fc558b9d7fc48378eb6b446bebeda7dbcfaf-8809148f72102acc7c3683ed3163a6f9f56c669a" class="exit" x1="138" y1="393" x2="166" y2="364"/>
+    <line id="edge-0b73fc558b9d7fc48378eb6b446bebeda7dbcfaf-ab9be74f235d637f503d28cea9bc2bb579bc5e57" class="exit" x1="138" y1="393" x2="138" y2="420"/>
+    <line id="edge-0b73fc558b9d7fc48378eb6b446bebeda7dbcfaf-ae1ef9bfa2c0e03e7f0ad166b77ff98888f44e80" class="exit" x1="138" y1="393" x2="138" y2="364"/>
+    <line id="edge-0b73fc558b9d7fc48378eb6b446bebeda7dbcfaf-b025beff1dcc42393a1f8aed672acfc551e5225a" class="exit" x1="138" y1="393" x2="166" y2="393"/>
+    <line id="edge-82df7ee6c500a7484313cca767f87415d70b7757-8809148f72102acc7c3683ed3163a6f9f56c669a" class="exit" x1="194" y1="393" x2="166" y2="364"/>
+    <line id="edge-8809148f72102acc7c3683ed3163a6f9f56c669a-8897a592d9e510742b3604cd0d5021638c912c5d" class="exit" x1="166" y1="364" x2="194" y2="364"/>
+    <line id="edge-8809148f72102acc7c3683ed3163a6f9f56c669a-ae1ef9bfa2c0e03e7f0ad166b77ff98888f44e80" class="exit" x1="166" y1="364" x2="138" y2="364"/>
+    <line id="edge-8809148f72102acc7c3683ed3163a6f9f56c669a-b025beff1dcc42393a1f8aed672acfc551e5225a" class="exit" x1="166" y1="364" x2="166" y2="393"/>
+    <line id="edge-0ec5a34602c3ff1c80562fa5e104ae056436ac56-bb8061841251cab282fbe219bace0ef60985017b" class="exit" x1="166" y1="280" x2="166" y2="308"/>
+    <line id="edge-4594ae01107664367baba9732109a804d3767dcf-bb8061841251cab282fbe219bace0ef60985017b" class="exit" x1="194" y1="308" x2="166" y2="308"/>
+    <line id="edge-78685012d18e6a5f3c76200e1e60191bfda165fb-bb8061841251cab282fbe219bace0ef60985017b" class="exit" x1="138" y1="308" x2="166" y2="308"/>
+    <line id="edge-0ec5a34602c3ff1c80562fa5e104ae056436ac56-617ffe363bc61b811c1e7e3bc6a3c48c51ffd9d0" class="exit" x1="166" y1="280" x2="194" y2="280"/>
+    <line id="edge-0ec5a34602c3ff1c80562fa5e104ae056436ac56-c5ce8c1469eca325334eeb531700789f48e9f186" class="exit" x1="166" y1="280" x2="138" y2="280"/>
+    <line id="edge-0ec5a34602c3ff1c80562fa5e104ae056436ac56-dfae40eb656c6c8b42c5609ff3c434123e2b8d74" class="exit" x1="166" y1="280" x2="166" y2="252"/>
+    <line id="edge-c7e1a6571186ad4bb690020ccc52dce14fee1ab3-dfae40eb656c6c8b42c5609ff3c434123e2b8d74" class="exit" x1="194" y1="252" x2="166" y2="252"/>
+    <line id="edge-d1e73712924d7bdeff920af924db098b2d9762ab-dfae40eb656c6c8b42c5609ff3c434123e2b8d74" class="exit" x1="138" y1="252" x2="166" y2="252"/>
+    <line id="edge-ae1ef9bfa2c0e03e7f0ad166b77ff98888f44e80-b025beff1dcc42393a1f8aed672acfc551e5225a" class="exit" x1="138" y1="364" x2="166" y2="393"/>
+    <line id="edge-82df7ee6c500a7484313cca767f87415d70b7757-8897a592d9e510742b3604cd0d5021638c912c5d" class="exit" x1="194" y1="393" x2="194" y2="364"/>
+    <line id="edge-8897a592d9e510742b3604cd0d5021638c912c5d-b025beff1dcc42393a1f8aed672acfc551e5225a" class="exit" x1="194" y1="364" x2="166" y2="393"/>
+    <line id="edge-0e2a9cdb4da279d919023c30cbf16b71c1c7b5fc-82df7ee6c500a7484313cca767f87415d70b7757" class="exit" x1="166" y1="420" x2="194" y2="393"/>
+    <line id="edge-82df7ee6c500a7484313cca767f87415d70b7757-b025beff1dcc42393a1f8aed672acfc551e5225a" class="exit" x1="194" y1="393" x2="166" y2="393"/>
+    <line id="edge-82df7ee6c500a7484313cca767f87415d70b7757-b6601fa17bb9baab5a1edc9dc99ac4b8ccdca05a" class="exit" x1="194" y1="393" x2="194" y2="420"/>
+    <line id="edge-82df7ee6c500a7484313cca767f87415d70b7757-efdcd9c60925712ca8c6feb24e23fb64f8b3857b" class="exit" x1="194" y1="393" x2="275" y2="393"/>
+    <line id="edge-0e2a9cdb4da279d919023c30cbf16b71c1c7b5fc-b025beff1dcc42393a1f8aed672acfc551e5225a" class="exit" x1="166" y1="420" x2="166" y2="393"/>
+    <line id="edge-ab9be74f235d637f503d28cea9bc2bb579bc5e57-b025beff1dcc42393a1f8aed672acfc551e5225a" class="exit" x1="138" y1="420" x2="166" y2="393"/>
+    <line id="edge-b025beff1dcc42393a1f8aed672acfc551e5225a-b6601fa17bb9baab5a1edc9dc99ac4b8ccdca05a" class="exit" x1="166" y1="393" x2="194" y2="420"/>
+    <line id="edge-0e2a9cdb4da279d919023c30cbf16b71c1c7b5fc-ab9be74f235d637f503d28cea9bc2bb579bc5e57" class="exit" x1="166" y1="420" x2="138" y2="420"/>
+    <line id="edge-0e2a9cdb4da279d919023c30cbf16b71c1c7b5fc-b50d3b1c3aeacdfed6fc0fbc61fc22a6ec3176a2" class="exit" x1="166" y1="420" x2="166" y2="448"/>
+    <line id="edge-0e2a9cdb4da279d919023c30cbf16b71c1c7b5fc-b6601fa17bb9baab5a1edc9dc99ac4b8ccdca05a" class="exit" x1="166" y1="420" x2="194" y2="420"/>
+    <line id="edge-3e2a6d718998453da8181c9f75c3a5efa612df99-65e52e67398ff2e937eaea5d8759715235378387" class="exit" x1="857" y1="171" x2="857" y2="143"/>
+    <line id="edge-65e52e67398ff2e937eaea5d8759715235378387-d7e15ef43e742e052f075a7ed74f8cbbc1ccf67d" class="exit" x1="857" y1="143" x2="857" y2="115"/>
+    <line id="edge-34d2a7ab1a6ae5f345f6085294230dbf23fea243-d7e15ef43e742e052f075a7ed74f8cbbc1ccf67d" class="exit" x1="857" y1="87" x2="857" y2="115"/>
+    <line id="edge-3ef1a3b2243b072c9307857732a229cbec562766-d7e15ef43e742e052f075a7ed74f8cbbc1ccf67d" class="exit" x1="829" y1="115" x2="857" y2="115"/>
+    <line id="edge-abc43dc4ec9eb05793637830369f71fb7b1b0257-d7e15ef43e742e052f075a7ed74f8cbbc1ccf67d" class="exit" x1="885" y1="143" x2="857" y2="115"/>
+    <line id="edge-3ef1a3b2243b072c9307857732a229cbec562766-eb6cae7236b2f6ae8638843b2bbe5c28af89204a" class="exit" x1="829" y1="115" x2="829" y2="115"/>
+    <line id="edge-0c4682f4e77935a4b89884cdf1257450a265cd65-34d2a7ab1a6ae5f345f6085294230dbf23fea243" class="exit" x1="857" y1="59" x2="857" y2="87"/>
+    <line id="edge-34d2a7ab1a6ae5f345f6085294230dbf23fea243-5f60309b1083b7b5c5792e8ad954eef2292fdb51" class="exit" x1="857" y1="87" x2="885" y2="59"/>
+    <line id="edge-0c4682f4e77935a4b89884cdf1257450a265cd65-ac7dc6798d2a8e7e90fc0627f8e9569f65d35b28" class="exit" x1="857" y1="59" x2="857" y2="59"/>
+    <line id="edge-4284a922c889bb67324db053d741d81ad0de4088-5f60309b1083b7b5c5792e8ad954eef2292fdb51" class="exit" x1="885" y1="31" x2="885" y2="59"/>
+    <line id="edge-5f60309b1083b7b5c5792e8ad954eef2292fdb51-a975740093a201c0f14268df5cc9bfc7701ee8de" class="exit" x1="885" y1="59" x2="913" y2="59"/>
+    <line id="edge-5f60309b1083b7b5c5792e8ad954eef2292fdb51-c7d8dd8b1ce1b371c6f9a753d37786807dc163ac" class="exit" x1="885" y1="59" x2="885" y2="87"/>
+    <line id="edge-4284a922c889bb67324db053d741d81ad0de4088-b846a6fe28101d38ad19dc67c356569d10978873" class="exit" x1="885" y1="31" x2="885" y2="31"/>
+    <line id="edge-4284a922c889bb67324db053d741d81ad0de4088-f6f2143e8a795ab6c4935c78a4de25031fb0a585" class="exit" x1="885" y1="31" x2="885" y2="31"/>
+    <line id="edge-68fe17709185dc4c873c52fc67268893d57d8152-a975740093a201c0f14268df5cc9bfc7701ee8de" class="exit" x1="941" y1="87" x2="913" y2="59"/>
+    <line id="edge-9c3541dbe39e0afbe685507b76c050236bd8ea7d-a975740093a201c0f14268df5cc9bfc7701ee8de" class="exit" x1="913" y1="87" x2="913" y2="59"/>
+    <line id="edge-a628aa3a92ef22b7208f1131820cea8df032b36f-a975740093a201c0f14268df5cc9bfc7701ee8de" class="exit" x1="913" y1="31" x2="913" y2="59"/>
+    <line id="edge-993274d0fbc0174289c9f90f7b1c2ab78c2997b2-a628aa3a92ef22b7208f1131820cea8df032b36f" class="exit" x1="913" y1="31" x2="913" y2="31"/>
+    <line id="edge-0c89401d90f252734266c9eed83facb0a21bfb9e-68fe17709185dc4c873c52fc67268893d57d8152" class="exit" x1="969" y1="87" x2="941" y2="87"/>
+    <line id="edge-68fe17709185dc4c873c52fc67268893d57d8152-7b60bcfa7209259e182d65c195b54c71470ec04b" class="exit" x1="941" y1="87" x2="941" y2="115"/>
+    <line id="edge-0c89401d90f252734266c9eed83facb0a21bfb9e-6b4132027d01bba42ffa40abee045815f866e59b" class="exit" x1="969" y1="87" x2="969" y2="87"/>
+    <line id="edge-1ef616ee25702866be82cc9d2bf42d9471b83957-7b60bcfa7209259e182d65c195b54c71470ec04b" class="exit" x1="969" y1="115" x2="941" y2="115"/>
+    <line id="edge-7b60bcfa7209259e182d65c195b54c71470ec04b-846a128b53bcbd5720e34e7f505f5ae4d2ec698f" class="exit" x1="941" y1="115" x2="913" y2="143"/>
+    <line id="edge-1ef616ee25702866be82cc9d2bf42d9471b83957-73f8e47ee8a6b59073efb33e9f22df96a58a47f5" class="exit" x1="969" y1="115" x2="969" y2="115"/>
+    <line id="edge-25f45bddbc86e1fa149ab70686040c6ab6b6bf97-846a128b53bcbd5720e34e7f505f5ae4d2ec698f" class="exit" x1="913" y1="115" x2="913" y2="143"/>
+    <line id="edge-846a128b53bcbd5720e34e7f505f5ae4d2ec698f-abc43dc4ec9eb05793637830369f71fb7b1b0257" class="exit" x1="913" y1="143" x2="885" y2="143"/>
+    <line id="edge-846a128b53bcbd5720e34e7f505f5ae4d2ec698f-d33fab94f3e3904ea14e5708faffdb1a1abd3e71" class="exit" x1="913" y1="143" x2="913" y2="171"/>
+    <line id="edge-3b4fb7168c3b7db98202b823c41c0c175db8f3a2-d33fab94f3e3904ea14e5708faffdb1a1abd3e71" class="exit" x1="913" y1="171" x2="913" y2="171"/>
+    <line id="edge-55579e291cdcbc6e98955c225cb1f940bb7ade8d-abc43dc4ec9eb05793637830369f71fb7b1b0257" class="exit" x1="885" y1="115" x2="885" y2="143"/>
+    <line id="edge-7a18065121496a144a1c547dd7273e3356356c67-abc43dc4ec9eb05793637830369f71fb7b1b0257" class="exit" x1="885" y1="171" x2="885" y2="143"/>
+    <line id="edge-6b27d72b72b2f404f44873a70f1f91ee441a1e68-7a18065121496a144a1c547dd7273e3356356c67" class="exit" x1="885" y1="171" x2="885" y2="171"/>
+    <line id="edge-23f75c546d078c79f379c8fc735c7b6639520119-e035dcc877b7f9d87ad7039869291a03719f02f5" class="exit" x1="247" y1="450" x2="275" y2="449"/>
+    <line id="edge-6b6348107d0dfff67d0c8317d3a50e3dfb367a9e-e035dcc877b7f9d87ad7039869291a03719f02f5" class="exit" x1="275" y1="477" x2="275" y2="449"/>
+    <line id="edge-777a4fdf2c28e4dcba87e86bb1a2328e023fe690-e035dcc877b7f9d87ad7039869291a03719f02f5" class="exit" x1="275" y1="421" x2="275" y2="449"/>
+    <line id="edge-e035dcc877b7f9d87ad7039869291a03719f02f5-f94f4739a0aa52e0e3ad36e22ad7aede77a2c4f2" class="exit" x1="275" y1="449" x2="247" y2="477"/>
+    <line id="edge-6b6348107d0dfff67d0c8317d3a50e3dfb367a9e-a5b14452a2bba6121daa7d40c1298ef0539376bc" class="exit" x1="275" y1="477" x2="247" y2="477"/>
+    <line id="edge-23f75c546d078c79f379c8fc735c7b6639520119-f94f4739a0aa52e0e3ad36e22ad7aede77a2c4f2" class="exit" x1="247" y1="450" x2="247" y2="477"/>
+    <line id="edge-2839d1da9a3d557652e6b05d3da608dd422a35e8-e47d1f0655a120ed44703017e04e5a8eb0a54024" class="exit" x1="173" y1="170" x2="201" y2="170"/>
+    <line id="edge-4192a4fe838faee53ffaed8510f6f7df6e7388e3-e47d1f0655a120ed44703017e04e5a8eb0a54024" class="exit" x1="201" y1="142" x2="201" y2="170"/>
+    <line id="edge-5e0b84ca6bb782a24c34787e28f2de7a7b1b59af-e47d1f0655a120ed44703017e04e5a8eb0a54024" class="exit" x1="201" y1="198" x2="201" y2="170"/>
+    <line id="edge-641a060f3c795423571f2721a3bd14559830f7c7-e47d1f0655a120ed44703017e04e5a8eb0a54024" class="exit" x1="229" y1="170" x2="201" y2="170"/>
+    <line id="edge-d13059580c4af9f874ed8d832d1b347cdf962855-e47d1f0655a120ed44703017e04e5a8eb0a54024" class="exit" x1="303" y1="365" x2="201" y2="170"/>
+    <line id="edge-4192a4fe838faee53ffaed8510f6f7df6e7388e3-5135c94b7da8315d4770d0bba8559b0030700e45" class="exit" x1="201" y1="142" x2="201" y2="114"/>
+    <line id="edge-4192a4fe838faee53ffaed8510f6f7df6e7388e3-791745b45084704e02d56fd68a38d3323ce29612" class="exit" x1="201" y1="142" x2="229" y2="142"/>
+    <line id="edge-5135c94b7da8315d4770d0bba8559b0030700e45-99f0098a51db4dcaa343777755a24281be358be2" class="exit" x1="201" y1="114" x2="145" y2="115"/>
+    <line id="edge-5135c94b7da8315d4770d0bba8559b0030700e45-b032dd72e7134d579b03f415330512893d7ac40b" class="exit" x1="201" y1="114" x2="201" y2="86"/>
+    <line id="edge-5135c94b7da8315d4770d0bba8559b0030700e45-fe4315d5259913c03d8b9ba3a679ab32f7540c3b" class="exit" x1="201" y1="114" x2="229" y2="114"/>
+    <line id="edge-2668f40d9b117257e249967d065c29a5f903e729-b032dd72e7134d579b03f415330512893d7ac40b" class="exit" x1="229" y1="86" x2="201" y2="86"/>
+    <line id="edge-475ea7b5b2ec1ab48fc2d8bf3544adc352c78403-b032dd72e7134d579b03f415330512893d7ac40b" class="exit" x1="201" y1="58" x2="201" y2="86"/>
+    <line id="edge-475ea7b5b2ec1ab48fc2d8bf3544adc352c78403-a448ddeaff4abe390314a335bb5a4afad7c3eab7" class="exit" x1="201" y1="58" x2="173" y2="58"/>
+    <line id="edge-475ea7b5b2ec1ab48fc2d8bf3544adc352c78403-b130ca86a61154424dd85b7ab61c26267586bdd1" class="exit" x1="201" y1="58" x2="229" y2="58"/>
+    <line id="edge-475ea7b5b2ec1ab48fc2d8bf3544adc352c78403-c89611c72edb0fc5941a06bc4b1a5979080e2b22" class="exit" x1="201" y1="58" x2="201" y2="30"/>
+    <line id="edge-2ffc2e84c874260bf0379200cb0946e8ae7ed7b9-a448ddeaff4abe390314a335bb5a4afad7c3eab7" class="exit" x1="173" y1="30" x2="173" y2="58"/>
+    <line id="edge-94d323fabc34956143ca09b32894bef875d6a338-a448ddeaff4abe390314a335bb5a4afad7c3eab7" class="exit" x1="145" y1="58" x2="173" y2="58"/>
+    <line id="edge-89e80b4ec74711ec2de412dd78f933537c585feb-94d323fabc34956143ca09b32894bef875d6a338" class="exit" x1="145" y1="30" x2="145" y2="58"/>
+    <line id="edge-94d323fabc34956143ca09b32894bef875d6a338-99f0098a51db4dcaa343777755a24281be358be2" class="exit" x1="145" y1="58" x2="145" y2="115"/>
+    <line id="edge-184562510becd713516bcf6e2ee30dba46b8029f-99f0098a51db4dcaa343777755a24281be358be2" class="exit" x1="145" y1="170" x2="145" y2="115"/>
+    <line id="edge-99f0098a51db4dcaa343777755a24281be358be2-f80ba1b95da982fba5af6457f843e4554cd7ed01" class="exit" x1="145" y1="115" x2="89" y2="114"/>
+    <line id="edge-184562510becd713516bcf6e2ee30dba46b8029f-2839d1da9a3d557652e6b05d3da608dd422a35e8" class="exit" x1="145" y1="170" x2="173" y2="170"/>
+    <line id="edge-2839d1da9a3d557652e6b05d3da608dd422a35e8-9fa108eab0f6cf734f33495af5e9730439de450e" class="exit" x1="173" y1="170" x2="173" y2="198"/>
+    <line id="edge-184562510becd713516bcf6e2ee30dba46b8029f-9eeb8cc5703752451def31ee0817c9e342b6b45b" class="exit" x1="145" y1="170" x2="145" y2="198"/>
+    <line id="edge-184562510becd713516bcf6e2ee30dba46b8029f-df7f06ce4fadda99362b1d8eb11fa6ef228662e1" class="exit" x1="145" y1="170" x2="117" y2="170"/>
+    <line id="edge-8f66918bf4f053daa51b61f641fe024c6fa6423c-df7f06ce4fadda99362b1d8eb11fa6ef228662e1" class="exit" x1="117" y1="198" x2="117" y2="170"/>
+    <line id="edge-df7f06ce4fadda99362b1d8eb11fa6ef228662e1-fa7590f57ff85a2e3547506f8a27c5d4a53bbfd1" class="exit" x1="117" y1="170" x2="89" y2="170"/>
+    <line id="edge-0351dad12c88d848129f5b39a8a326f76e5dd0b4-fa7590f57ff85a2e3547506f8a27c5d4a53bbfd1" class="exit" x1="61" y1="170" x2="89" y2="170"/>
+    <line id="edge-30c3a45f036feca53cb852a6f4f7cc2b5dba53ac-fa7590f57ff85a2e3547506f8a27c5d4a53bbfd1" class="exit" x1="89" y1="142" x2="89" y2="170"/>
+    <line id="edge-a31bb27b7f1c17dcb61ee6fd9f25d8c7ac97977e-fa7590f57ff85a2e3547506f8a27c5d4a53bbfd1" class="exit" x1="89" y1="198" x2="89" y2="170"/>
+    <line id="edge-30c3a45f036feca53cb852a6f4f7cc2b5dba53ac-f80ba1b95da982fba5af6457f843e4554cd7ed01" class="exit" x1="89" y1="142" x2="89" y2="114"/>
+    <line id="edge-30c3a45f036feca53cb852a6f4f7cc2b5dba53ac-fb94831984c10547feb86617673cf8fbe0fbf962" class="exit" x1="89" y1="142" x2="61" y2="142"/>
+    <line id="edge-47a6ff094e88936f8c3387149dce7fa925b9b85a-f80ba1b95da982fba5af6457f843e4554cd7ed01" class="exit" x1="61" y1="114" x2="89" y2="114"/>
+    <line id="edge-a5b14452a2bba6121daa7d40c1298ef0539376bc-bf7f80fe33c6801a524ae45be289affcd23e7db5" class="exit" x1="247" y1="477" x2="247" y2="450"/>
+    <line id="edge-bf7f80fe33c6801a524ae45be289affcd23e7db5-d339aa86045ed95892597f97d0fff9a7d9294715" class="exit" x1="247" y1="450" x2="275" y2="449"/>
+    <line id="edge-87c1499e4299ef829a567b190c0cc92ca23ff5ab-d339aa86045ed95892597f97d0fff9a7d9294715" class="exit" x1="275" y1="477" x2="275" y2="449"/>
+    <line id="edge-87c1499e4299ef829a567b190c0cc92ca23ff5ab-cd89822b78f689c5bc8f1303841816d928d7a099" class="exit" x1="275" y1="477" x2="247" y2="477"/>
+    <line id="edge-1d1c9ff4561e1b8c812b0b158ffcbede5f6f73b0-cd89822b78f689c5bc8f1303841816d928d7a099" class="exit" x1="247" y1="450" x2="247" y2="477"/>
+    <line id="edge-1445d1534697ffade37a2658763a468be73b7128-1d1c9ff4561e1b8c812b0b158ffcbede5f6f73b0" class="exit" x1="275" y1="449" x2="247" y2="450"/>
+    <line id="edge-1445d1534697ffade37a2658763a468be73b7128-6cd25f3665dbba42646e0b20ba9829200b1ee91b" class="exit" x1="275" y1="449" x2="275" y2="477"/>
+    <line id="edge-67ff030ae059b09b0322e65b9f0b4ead0d9ac693-6cd25f3665dbba42646e0b20ba9829200b1ee91b" class="exit" x1="247" y1="477" x2="275" y2="477"/>
+    <line id="edge-67ff030ae059b09b0322e65b9f0b4ead0d9ac693-a9980853c444e434d8aa44a8a8d61dd7505115c1" class="exit" x1="247" y1="477" x2="247" y2="450"/>
+    <line id="edge-a9980853c444e434d8aa44a8a8d61dd7505115c1-e06de69a8494e21a948b72b8210a7ccb2c004068" class="exit" x1="247" y1="450" x2="275" y2="449"/>
+    <line id="edge-842c3c08ef9f0bbbbd661d9e3eaa696167b9bc9b-e06de69a8494e21a948b72b8210a7ccb2c004068" class="exit" x1="275" y1="477" x2="275" y2="449"/>
+    <line id="edge-842c3c08ef9f0bbbbd661d9e3eaa696167b9bc9b-dd22349d375c645919476153deb263cbf5fa9661" class="exit" x1="275" y1="477" x2="247" y2="477"/>
+    <line id="edge-c497d4b6679fb07e67805bb2b54a052a65fbc061-dd22349d375c645919476153deb263cbf5fa9661" class="exit" x1="247" y1="450" x2="247" y2="477"/>
+    <line id="edge-c497d4b6679fb07e67805bb2b54a052a65fbc061-ef3e69ab2d67affe57d4bb1df9ff018bc0fb0675" class="exit" x1="247" y1="450" x2="275" y2="449"/>
+    <line id="edge-1d86a4f02e9d279dfd3c7d7309dcf887fd2fb2e6-efdcd9c60925712ca8c6feb24e23fb64f8b3857b" class="exit" x1="303" y1="393" x2="275" y2="393"/>
+    <line id="edge-777a4fdf2c28e4dcba87e86bb1a2328e023fe690-efdcd9c60925712ca8c6feb24e23fb64f8b3857b" class="exit" x1="275" y1="421" x2="275" y2="393"/>
+    <line id="edge-9eb72c5c14138ca2df7bf274a1bb9442b0405884-efdcd9c60925712ca8c6feb24e23fb64f8b3857b" class="exit" x1="303" y1="421" x2="275" y2="393"/>
+    <line id="edge-d13059580c4af9f874ed8d832d1b347cdf962855-efdcd9c60925712ca8c6feb24e23fb64f8b3857b" class="exit" x1="303" y1="365" x2="275" y2="393"/>
+    <line id="edge-1d86a4f02e9d279dfd3c7d7309dcf887fd2fb2e6-d13059580c4af9f874ed8d832d1b347cdf962855" class="exit" x1="303" y1="393" x2="303" y2="365"/>
+    <line id="edge-208402f505bb90f3034c92e326b3a5e1e7827e03-d13059580c4af9f874ed8d832d1b347cdf962855" class="exit" x1="331" y1="393" x2="303" y2="365"/>
+    <line id="edge-5e46d77389c7b0851532bc7aa69c8b025b2acab0-d13059580c4af9f874ed8d832d1b347cdf962855" class="exit" x1="331" y1="365" x2="303" y2="365"/>
+    <line id="edge-0fbb5f6541f57d3858ceaa787c5e1d99f1f55d0c-5e46d77389c7b0851532bc7aa69c8b025b2acab0" class="exit" x1="331" y1="337" x2="331" y2="365"/>
+    <line id="edge-17179d582dbd7219898eab776747b1b6f0e36dbb-5e46d77389c7b0851532bc7aa69c8b025b2acab0" class="exit" x1="359" y1="365" x2="331" y2="365"/>
+    <line id="edge-1d86a4f02e9d279dfd3c7d7309dcf887fd2fb2e6-5e46d77389c7b0851532bc7aa69c8b025b2acab0" class="exit" x1="303" y1="393" x2="331" y2="365"/>
+    <line id="edge-208402f505bb90f3034c92e326b3a5e1e7827e03-5e46d77389c7b0851532bc7aa69c8b025b2acab0" class="exit" x1="331" y1="393" x2="331" y2="365"/>
+    <line id="edge-2b14c564d03da179cea226f0e1cd2da98a00d7e2-5e46d77389c7b0851532bc7aa69c8b025b2acab0" class="exit" x1="359" y1="393" x2="331" y2="365"/>
+    <line id="edge-1d86a4f02e9d279dfd3c7d7309dcf887fd2fb2e6-208402f505bb90f3034c92e326b3a5e1e7827e03" class="exit" x1="303" y1="393" x2="331" y2="393"/>
+    <line id="edge-1d86a4f02e9d279dfd3c7d7309dcf887fd2fb2e6-777a4fdf2c28e4dcba87e86bb1a2328e023fe690" class="exit" x1="303" y1="393" x2="275" y2="421"/>
+    <line id="edge-1d86a4f02e9d279dfd3c7d7309dcf887fd2fb2e6-9eb72c5c14138ca2df7bf274a1bb9442b0405884" class="exit" x1="303" y1="393" x2="303" y2="421"/>
+    <line id="edge-10a6970dcaaeca18ccebcc0a0cf13101131a7e69-208402f505bb90f3034c92e326b3a5e1e7827e03" class="exit" x1="359" y1="421" x2="331" y2="393"/>
+    <line id="edge-208402f505bb90f3034c92e326b3a5e1e7827e03-2b14c564d03da179cea226f0e1cd2da98a00d7e2" class="exit" x1="331" y1="393" x2="359" y2="393"/>
+    <line id="edge-208402f505bb90f3034c92e326b3a5e1e7827e03-57693c2ce2f896958b64b9dc3fe04822a97812d8" class="exit" x1="331" y1="393" x2="331" y2="421"/>
+    <line id="edge-10a6970dcaaeca18ccebcc0a0cf13101131a7e69-2b14c564d03da179cea226f0e1cd2da98a00d7e2" class="exit" x1="359" y1="421" x2="359" y2="393"/>
+    <line id="edge-17179d582dbd7219898eab776747b1b6f0e36dbb-2b14c564d03da179cea226f0e1cd2da98a00d7e2" class="exit" x1="359" y1="365" x2="359" y2="393"/>
+    <line id="edge-2b14c564d03da179cea226f0e1cd2da98a00d7e2-57693c2ce2f896958b64b9dc3fe04822a97812d8" class="exit" x1="359" y1="393" x2="331" y2="421"/>
+    <line id="edge-10a6970dcaaeca18ccebcc0a0cf13101131a7e69-57693c2ce2f896958b64b9dc3fe04822a97812d8" class="exit" x1="359" y1="421" x2="331" y2="421"/>
+    <line id="edge-10a6970dcaaeca18ccebcc0a0cf13101131a7e69-ee81512866d62d0b965fa9b32d3fe3e19c3f4a73" class="exit" x1="359" y1="421" x2="331" y2="449"/>
+    <line id="edge-416fc181321da1b4c85fafb490eeddf2d2cae350-57693c2ce2f896958b64b9dc3fe04822a97812d8" class="exit" x1="303" y1="449" x2="331" y2="421"/>
+    <line id="edge-57693c2ce2f896958b64b9dc3fe04822a97812d8-9eb72c5c14138ca2df7bf274a1bb9442b0405884" class="exit" x1="331" y1="421" x2="303" y2="421"/>
+    <line id="edge-57693c2ce2f896958b64b9dc3fe04822a97812d8-ee81512866d62d0b965fa9b32d3fe3e19c3f4a73" class="exit" x1="331" y1="421" x2="331" y2="449"/>
+    <line id="edge-416fc181321da1b4c85fafb490eeddf2d2cae350-ee81512866d62d0b965fa9b32d3fe3e19c3f4a73" class="exit" x1="303" y1="449" x2="331" y2="449"/>
+    <line id="edge-9eb72c5c14138ca2df7bf274a1bb9442b0405884-ee81512866d62d0b965fa9b32d3fe3e19c3f4a73" class="exit" x1="303" y1="421" x2="331" y2="449"/>
+    <line id="edge-ee81512866d62d0b965fa9b32d3fe3e19c3f4a73-f74ddcb3068167dd1f176cf3e17ac1495910816b" class="exit" x1="331" y1="449" x2="331" y2="477"/>
+    <line id="edge-416fc181321da1b4c85fafb490eeddf2d2cae350-777a4fdf2c28e4dcba87e86bb1a2328e023fe690" class="exit" x1="303" y1="449" x2="275" y2="421"/>
+    <line id="edge-416fc181321da1b4c85fafb490eeddf2d2cae350-9eb72c5c14138ca2df7bf274a1bb9442b0405884" class="exit" x1="303" y1="449" x2="303" y2="421"/>
+    <line id="edge-777a4fdf2c28e4dcba87e86bb1a2328e023fe690-9eb72c5c14138ca2df7bf274a1bb9442b0405884" class="exit" x1="275" y1="421" x2="303" y2="421"/>
+  </g>
+
+  <g id="layer-rooms">
+    <rect id="room-5e05bef4f24fedd01536ef5a44a657aef89617be" class="room indoor" x="532" y="549" width="16" height="16" rx="4"><title>small alley</title></rect>
+    <rect id="room-eee01e7d96b0e95cec5269c23db9e1ef24b164d9" class="room indoor" x="560" y="549" width="16" height="16" rx="4"><title>large mossy courtyard</title></rect>
+    <rect id="room-c3fb3ef3ee59d1c56556fb61089ea00b2c44f971" class="room indoor" x="576" y="571" width="16" height="16" rx="4"><title>foot of a staircase</title></rect>
+    <rect id="room-1d7ee12a909fb9271b722f31767c83043de23f49" class="room indoor" x="604" y="571" width="16" height="16" rx="4"><title>near the western end of the long corridor</title></rect>
+    <rect id="room-b0281adbb4d8eef876738a1eb206648a0ad8ecc0" class="room indoor" x="632" y="571" width="16" height="16" rx="4"><title>western part of the long corridor</title></rect>
+    <rect id="room-b88700aab99f698f3a82d2c4d0bb918b7588e379" class="room indoor" x="660" y="571" width="16" height="16" rx="4"><title>middle of the long corridor</title></rect>
+    <rect id="room-82b14220bff07aa1925bdcf2caded93f203775ef" class="room indoor" x="688" y="571" width="16" height="16" rx="4"><title>middle of the long corridor</title></rect>
+    <rect id="room-9a59b59ac6968809c05c54679eb9cb7f79bfd015" class="room indoor" x="716" y="571" width="16" height="16" rx="4"><title>junction of the corridors</title></rect>
+    <rect id="room-fc43d914422675a65f93428238599377199d6c06" class="room indoor" x="744" y="571" width="16" height="16" rx="4"><title>eastern part of the long corridor</title></rect>
+    <rect id="room-cf5688d6a3008496226112e342e02f4351be0e14" class="room indoor" x="772" y="571" width="16" height="16" rx="4"><title>eastern part of the long corridor</title></rect>
+    <rect id="room-054e31a302e62924ff57ed40f5bf77309cd3f3bb" class="room indoor" x="800" y="571" width="16" height="16" rx="4"><title>corner of corridors</title></rect>
+    <rect id="room-104d364ca3b5ffefba3171255757e817563b61c5" class="room indoor" x="800" y="543" width="16" height="16" rx="4"><title>south end of the short corridor</title></rect>
+    <rect id="room-26ea5fb7d01a54923572ff6d9570083ba786573a" class="room indoor" x="800" y="515" width="16" height="16" rx="4"><title>north end of the short corridor</title></rect>
+    <rect id="room-40beb7771a3a6750b223515a87738c20a2905c59" class="room indoor" x="716" y="543" width="16" height="16" rx="4"><title>south end of a long corridor</title></rect>
+    <rect id="room-000cde69d3b4bd92615791d9d91b4716279c838f" class="room indoor" x="716" y="515" width="16" height="16" rx="4"><title>near the south end of a long corridor</title></rect>
+    <rect id="room-52831a96ed33478ea88b9c44593060130605393b" class="room indoor" x="716" y="487" width="16" height="16" rx="4"><title>middle of a long corridor</title></rect>
+    <rect id="room-c1444d9b54342fe97d20f2d4c15168bcf9e3deff" class="room indoor" x="716" y="459" width="16" height="16" rx="4"><title>near the north end of a long corridor</title></rect>
+    <rect id="room-54aac2731ebcdd356006951043c1adcc77bad6ae" class="room indoor" x="716" y="431" width="16" height="16" rx="4"><title>north end of a long corridor</title></rect>
+    <rect id="room-1ed3ee9ff542f46e4f77255b587d68818129fc60" class="room indoor" x="716" y="403" width="16" height="16" rx="4"><title>corner of two long corridors</title></rect>
+    <rect id="room-003ff77f7a55e934415241c2a4ca57f277bbc5d8" class="room indoor" x="744" y="403" width="16" height="16" rx="4"><title>west end of another long corridor</title></rect>
+    <rect id="room-8f4c2856b9a11c73c506d06b956e5d67dc05c902" class="room indoor" x="772" y="403" width="16" height="16" rx="4"><title>near the west end of another long corridor</title></rect>
+    <rect id="room-a68e0f312addd9b98452fc3f7e3f5cd3ad62bd19" class="room indoor" x="800" y="403" width="16" height="16" rx="4"><title>junction of two corridors</title></rect>
+    <rect id="room-fa794b03744bbf5eafcd3a38d1d1fec50b60872a" class="room indoor" x="828" y="403" width="16" height="16" rx="4"><title>middle of another long corridor</title></rect>
+    <rect id="room-5b4378ad4527ea79969a7c53279dd5ec8d5635ee" class="room indoor" x="856" y="403" width="16" height="16" rx="4"><title>east part of another long corridor</title></rect>
+    <rect id="room-26e8f6f5a30795a6842d802fc657e1bf9f23b39a" class="room indoor" x="884" y="403" width="16" height="16" rx="4"><title>east end of another long corridor</title></rect>
+    <rect id="room-3ed0865f91733cd174928ea0018770e6a9d7cc62" class="room indoor" x="912" y="403" width="16" height="16" rx="4"><title>corner of two corridors</title></rect>
+    <rect id="room-f5f77ff1b208d4054858743e7f15aadecc9e578e" class="room indoor" x="912" y="431" width="16" height="16" rx="4"><title>north side of a short corridor</title></rect>
+    <rect id="room-55cc9bac0ae2a1abd1d2e4a499a1decfbe8ece8d" class="room indoor" x="912" y="459" width="16" height="16" rx="4"><title>south side of a short corridor</title></rect>
+    <rect id="room-2fcac471651031518b8f0a47167df948edaa6127" class="room indoor" x="912" y="487" width="16" height="16" rx="4"><title>corner of two short corridors</title></rect>
+    <rect id="room-aef37f17a2cb382e72c9b7c71cf3999c7f9b36ca" class="room indoor" x="940" y="487" width="16" height="16" rx="4"><title>middle of a short corridor</title></rect>
+    <rect id="room-10fcbff8fbce9748b1674248dd56f869228b88d2" class="room indoor" x="968" y="487" width="16" height="16" rx="4"><title>bend in the corridor</title></rect>
+    <rect id="room-7371490aafa7c9835b62bf3dc23c9dfbfedf001b" class="room indoor" x="968" y="515" width="16" height="16" rx="4"><title>another bend in the corridor</title></rect>
+    <rect id="room-b7ff00ff99855790041040b3576ec73c762b7701" class="room indoor" x="996" y="515" width="16" height="16" rx="4"><title>west side of another short corridor</title></rect>
+    <rect id="room-90f4df20c230a54ffe795a4d9af1902c35cc17c8" class="room indoor" x="1024" y="515" width="16" height="16" rx="4"><title>east side of another short corridor</title></rect>
+    <rect id="room-c3bdb3fcbd59b7979cfcff1cf228c8d110632ba5" class="room indoor" x="1052" y="515" width="16" height="16" rx="4"><title>corner</title></rect>
+    <rect id="room-5ec93e460a28e67dcce8e4f0dcdc84e524bd6eea" class="room indoor" x="1052" y="487" width="16" height="16" rx="4"><title>south end of a really long corridor</title></rect>
+    <rect id="room-0e14fd91086cc578ca7a1a64b3fff78d92816cce" class="room indoor" x="1052" y="459" width="16" height="16" rx="4"><title>south part of a really long corridor</title></rect>
+    <rect id="room-b3fdf3862c7422e894c6f9c62cf8ba9b15f5b61f" class="room indoor" x="1052" y="431" width="16" height="16" rx="4"><title>middle of a really long corridor</title></rect>
+    <rect id="room-77dcc41a9d3112bd5a144bc3413b1381e3e25c5e" class="room indoor" x="1052" y="403" width="16" height="16" rx="4"><title>north part of a really long corridor</title></rect>
+    <rect id="room-90d1c1838b520d259b888d6f3a3fd6e7699ff8ef" class="room indoor" x="1052" y="375" width="16" height="16" rx="4"><title>north end of a really long corridor</title></rect>
+    <rect id="room-89f1b7e7f92d427b7b490032e6cdb2d577c5cc29" class="room indoor" x="1052" y="347" width="16" height="16" rx="4"><title>corner of two really long corridors</title></rect>
+    <rect id="room-5b9ceb528d3a46b397349e4691a917ce291b9813" class="room indoor" x="1024" y="347" width="16" height="16" rx="4"><title>east end of another really long corridor</title></rect>
+    <rect id="room-417f14d1fd3d0c3e4a2250432015c027461bcc6d" class="room indoor" x="996" y="347" width="16" height="16" rx="4"><title>east part of another really long corridor</title></rect>
+    <rect id="room-c26f8e9761a27fafe3862e36c9fe93e72a55e9b9" class="room indoor" x="968" y="347" width="16" height="16" rx="4"><title>west part of another really long corridor</title></rect>
+    <rect id="room-a9580a347b33291dffbf63bfefb5dacad24712e0" class="room indoor" x="940" y="347" width="16" height="16" rx="4"><title>west end of another really long corridor</title></rect>
+    <rect id="room-2bf7d0a885c89c83108d1d95ef23d3ae246f60bf" class="room indoor" x="912" y="347" width="16" height="16" rx="4"><title>corner of another really long corridor and a short one</title></rect>
+    <rect id="room-7c76b622e5572c946cbdb9d5935fc4222572ff2b" class="room indoor" x="912" y="319" width="16" height="16" rx="4"><title>middle of an incredibly short corridor</title></rect>
+    <rect id="room-77b37e04ac486da1f70f363b5cec71641b6cb3a2" class="room indoor" x="912" y="291" width="16" height="16" rx="4"><title>corner of two corridors</title></rect>
+    <rect id="room-9485665c7592683e2f5d9f73d0d9e322bef464f3" class="room indoor" x="884" y="291" width="16" height="16" rx="4"><title>east side of a corridor</title></rect>
+    <rect id="room-4f6e9dcd6d01ee5312f8adede0ce1d25766933a9" class="room indoor" x="856" y="291" width="16" height="16" rx="4"><title>middle of a corridor</title></rect>
+    <rect id="room-41c8e1119023ae76d5d0e7752694b01cbc95c09e" class="room indoor" x="856" y="262" width="16" height="16" rx="4"><title>stairway</title></rect>
+    <rect id="room-a2d501594260631fac71ede7b500a37169b821fb" class="room indoor" x="828" y="291" width="16" height="16" rx="4"><title>west side of a corridor</title></rect>
+    <rect id="room-8e964c6f43ed57468f8931a00d86ce740e79ed31" class="room indoor" x="800" y="291" width="16" height="16" rx="4"><title>corner of two corridors</title></rect>
+    <rect id="room-6f023ec9e647fa17e27fd357b46e61f75af4ab7a" class="room indoor" x="800" y="319" width="16" height="16" rx="4"><title>north end of the average corridor</title></rect>
+    <rect id="room-963e57b35c5c710eef150c02237327e1050f66eb" class="room indoor" x="800" y="347" width="16" height="16" rx="4"><title>middle of the average corridor</title></rect>
+    <rect id="room-d2fb4de365a75da989facedab62f6c3ee2742a33" class="room indoor" x="800" y="375" width="16" height="16" rx="4"><title>south end of the average corridor</title></rect>
+    <rect id="room-a3c15cbd48d1d08b8ce9971405812846d636d914" class="room indoor" x="158" y="328" width="16" height="16" rx="4"><title>the southern end of the Residence Hall&#x27;s ground floor</title></rect>
+    <rect id="room-27485829265d1afe37436dbbb2344fed1a4122fd" class="room indoor" x="134" y="446" width="16" height="16" rx="4"><title>hallway</title></rect>
+    <rect id="room-d382a2bd6420e9de5b5b6f40bb964c15ec2b7d51" class="room indoor" x="102" y="385" width="16" height="16" rx="4"><title>cheerful and well-lit hallway</title></rect>
+    <rect id="room-efe6785d4a5df3a6e107ad6165ec6b944f29c9f1" class="room indoor" x="102" y="412" width="16" height="16" rx="4"><title>corridor</title></rect>
+    <rect id="room-e2a7807e740198eaaaaef2f7662a01c18acb16e9" class="room indoor" x="74" y="412" width="16" height="16" rx="4"><title>ground floor of the workshops corridor</title></rect>
+    <rect id="room-ede9465d65f6e10bcc2e0a472d4dfc5cc557499a" class="room indoor" x="74" y="384" width="16" height="16" rx="4"><title>wizard&#x27;s workroom</title></rect>
+    <rect id="room-478c759b0e48aeb573aa5f1c88cb77f504eb7c09" class="room indoor" x="74" y="440" width="16" height="16" rx="4"><title>wizard&#x27;s workroom</title></rect>
+    <rect id="room-a66cf36c29abc472378e2a1e51043360eb7ff215" class="room indoor" x="46" y="412" width="16" height="16" rx="4"><title>ground floor of workshops corridor</title></rect>
+    <rect id="room-4433ef7c61bac45844633d8243374b38fff76a1a" class="room indoor" x="46" y="384" width="16" height="16" rx="4"><title>wizard&#x27;s workroom</title></rect>
+    <rect id="room-e87212bc324661e5ab4faf803852108ed5e65182" class="room indoor" x="46" y="440" width="16" height="16" rx="4"><title>wizard&#x27;s workroom</title></rect>
+    <rect id="room-cc59b98cf08d399131d8ac1f8729ac9571cdd054" class="room indoor" x="18" y="412" width="16" height="16" rx="4"><title>ground floor of workshops corridor</title></rect>
+    <rect id="room-d3f9c89a181755d17b07d602e329fa423bdfa090" class="room indoor" x="18" y="384" width="16" height="16" rx="4"><title>wizard&#x27;s workroom</title></rect>
+    <rect id="room-660000475df97f2eba31b7f0d09dd0e8370871e9" class="room indoor" x="18" y="440" width="16" height="16" rx="4"><title>wizard&#x27;s workroom</title></rect>
+    <rect id="room-6fb9c9107daee12cf5dd51450aa3696115b4f384" class="room indoor" x="102" y="356" width="16" height="16" rx="4"><title>Admissions Office</title></rect>
+    <rect id="room-0b73fc558b9d7fc48378eb6b446bebeda7dbcfaf" class="room indoor" x="130" y="385" width="16" height="16" rx="4"><title>the western side of the Great Hall</title></rect>
+    <rect id="room-8809148f72102acc7c3683ed3163a6f9f56c669a" class="room indoor" x="158" y="356" width="16" height="16" rx="4"><title>the northern edge of the Great Hall</title></rect>
+    <rect id="room-f7da53cc74752a2f72ee7716d0ae79d67f14887c" class="room indoor" x="130" y="328" width="16" height="16" rx="4"><title>residence room</title></rect>
+    <rect id="room-7dd20e5c90205aa7c65026f09e960e66aec89970" class="room indoor" x="186" y="328" width="16" height="16" rx="4"><title>residence room</title></rect>
+    <rect id="room-bb8061841251cab282fbe219bace0ef60985017b" class="room indoor" x="158" y="300" width="16" height="16" rx="4"><title>north of the southern end of the Residence Hall&#x27;s ground floor</title></rect>
+    <rect id="room-4594ae01107664367baba9732109a804d3767dcf" class="room indoor" x="186" y="300" width="16" height="16" rx="4"><title>residence room</title></rect>
+    <rect id="room-78685012d18e6a5f3c76200e1e60191bfda165fb" class="room indoor" x="130" y="300" width="16" height="16" rx="4"><title>residence room</title></rect>
+    <rect id="room-0ec5a34602c3ff1c80562fa5e104ae056436ac56" class="room indoor" x="158" y="272" width="16" height="16" rx="4"><title>south of the northern end of the Residence Hall&#x27;s ground floor</title></rect>
+    <rect id="room-617ffe363bc61b811c1e7e3bc6a3c48c51ffd9d0" class="room indoor" x="186" y="272" width="16" height="16" rx="4"><title>residence room</title></rect>
+    <rect id="room-c5ce8c1469eca325334eeb531700789f48e9f186" class="room indoor" x="130" y="272" width="16" height="16" rx="4"><title>residence room</title></rect>
+    <rect id="room-dfae40eb656c6c8b42c5609ff3c434123e2b8d74" class="room indoor" x="158" y="244" width="16" height="16" rx="4"><title>the northern end of the Residence Hall&#x27;s ground floor</title></rect>
+    <rect id="room-d1e73712924d7bdeff920af924db098b2d9762ab" class="room indoor" x="130" y="244" width="16" height="16" rx="4"><title>residence room</title></rect>
+    <rect id="room-c7e1a6571186ad4bb690020ccc52dce14fee1ab3" class="room indoor" x="186" y="244" width="16" height="16" rx="4"><title>residence room</title></rect>
+    <rect id="room-ae1ef9bfa2c0e03e7f0ad166b77ff98888f44e80" class="room indoor" x="130" y="356" width="16" height="16" rx="4"><title>the northwestern corner of the Great Hall</title></rect>
+    <rect id="room-8897a592d9e510742b3604cd0d5021638c912c5d" class="room indoor" x="186" y="356" width="16" height="16" rx="4"><title>the northeastern corner of the Great Hall</title></rect>
+    <rect id="room-82df7ee6c500a7484313cca767f87415d70b7757" class="room indoor" x="186" y="385" width="16" height="16" rx="4"><title>the eastern edge of the Great Hall</title></rect>
+    <rect id="room-b025beff1dcc42393a1f8aed672acfc551e5225a" class="room indoor" x="158" y="385" width="16" height="16" rx="4"><title>the centre of the Great Hall</title></rect>
+    <rect id="room-ab9be74f235d637f503d28cea9bc2bb579bc5e57" class="room indoor" x="130" y="412" width="16" height="16" rx="4"><title>the southwestern corner of the Great Hall</title></rect>
+    <rect id="room-0e2a9cdb4da279d919023c30cbf16b71c1c7b5fc" class="room indoor" x="158" y="412" width="16" height="16" rx="4"><title>the southern side of the Great Hall</title></rect>
+    <rect id="room-b6601fa17bb9baab5a1edc9dc99ac4b8ccdca05a" class="room indoor" x="186" y="412" width="16" height="16" rx="4"><title>the southeastern corner of the Great Hall</title></rect>
+    <rect id="room-65e52e67398ff2e937eaea5d8759715235378387" class="room indoor" x="849" y="135" width="16" height="16" rx="4"><title>landing in Unseen University</title></rect>
+    <rect id="room-d7e15ef43e742e052f075a7ed74f8cbbc1ccf67d" class="room indoor" x="849" y="107" width="16" height="16" rx="4"><title>hallway</title></rect>
+    <rect id="room-3ef1a3b2243b072c9307857732a229cbec562766" class="room indoor" x="821" y="107" width="16" height="16" rx="4"><title>hallway</title></rect>
+    <rect id="room-34d2a7ab1a6ae5f345f6085294230dbf23fea243" class="room indoor" x="849" y="79" width="16" height="16" rx="4"><title>hallway</title></rect>
+    <rect id="room-0c4682f4e77935a4b89884cdf1257450a265cd65" class="room indoor" x="849" y="51" width="16" height="16" rx="4"><title>hallway</title></rect>
+    <rect id="room-5f60309b1083b7b5c5792e8ad954eef2292fdb51" class="room indoor" x="877" y="51" width="16" height="16" rx="4"><title>hallway</title></rect>
+    <rect id="room-4284a922c889bb67324db053d741d81ad0de4088" class="room indoor" x="877" y="23" width="16" height="16" rx="4"><title>hallway</title></rect>
+    <rect id="room-c7d8dd8b1ce1b371c6f9a753d37786807dc163ac" class="room indoor" x="877" y="79" width="16" height="16" rx="4"><title>Order Room</title></rect>
+    <rect id="room-a975740093a201c0f14268df5cc9bfc7701ee8de" class="room indoor" x="905" y="51" width="16" height="16" rx="4"><title>hallway</title></rect>
+    <rect id="room-a628aa3a92ef22b7208f1131820cea8df032b36f" class="room indoor" x="905" y="23" width="16" height="16" rx="4"><title>hallway</title></rect>
+    <rect id="room-9c3541dbe39e0afbe685507b76c050236bd8ea7d" class="room indoor" x="905" y="79" width="16" height="16" rx="4"><title>Archchancellor&#x27;s Office</title></rect>
+    <rect id="room-68fe17709185dc4c873c52fc67268893d57d8152" class="room indoor" x="933" y="79" width="16" height="16" rx="4"><title>hallway</title></rect>
+    <rect id="room-0c89401d90f252734266c9eed83facb0a21bfb9e" class="room indoor" x="961" y="79" width="16" height="16" rx="4"><title>hallway</title></rect>
+    <rect id="room-7b60bcfa7209259e182d65c195b54c71470ec04b" class="room indoor" x="933" y="107" width="16" height="16" rx="4"><title>hallway</title></rect>
+    <rect id="room-1ef616ee25702866be82cc9d2bf42d9471b83957" class="room indoor" x="961" y="107" width="16" height="16" rx="4"><title>hallway</title></rect>
+    <rect id="room-846a128b53bcbd5720e34e7f505f5ae4d2ec698f" class="room indoor" x="905" y="135" width="16" height="16" rx="4"><title>hallway</title></rect>
+    <rect id="room-25f45bddbc86e1fa149ab70686040c6ab6b6bf97" class="room indoor" x="905" y="107" width="16" height="16" rx="4"><title>Bursar&#x27;s Room</title></rect>
+    <rect id="room-d33fab94f3e3904ea14e5708faffdb1a1abd3e71" class="room indoor" x="905" y="163" width="16" height="16" rx="4"><title>hallway</title></rect>
+    <rect id="room-abc43dc4ec9eb05793637830369f71fb7b1b0257" class="room indoor" x="877" y="135" width="16" height="16" rx="4"><title>hallway</title></rect>
+    <rect id="room-55579e291cdcbc6e98955c225cb1f940bb7ade8d" class="room indoor" x="877" y="107" width="16" height="16" rx="4"><title>Dean&#x27;s Room</title></rect>
+    <rect id="room-7a18065121496a144a1c547dd7273e3356356c67" class="room indoor" x="877" y="163" width="16" height="16" rx="4"><title>hallway</title></rect>
+    <rect id="room-b50d3b1c3aeacdfed6fc0fbc61fc22a6ec3176a2" class="room indoor" x="158" y="440" width="16" height="16" rx="4"><title>chapel</title></rect>
+    <rect id="room-e035dcc877b7f9d87ad7039869291a03719f02f5" class="room indoor" x="267" y="441" width="16" height="16" rx="4"><title>Tower of Art</title></rect>
+    <rect id="room-6b6348107d0dfff67d0c8317d3a50e3dfb367a9e" class="room indoor" x="267" y="469" width="16" height="16" rx="4"><title>Tower of Art</title></rect>
+    <rect id="room-f94f4739a0aa52e0e3ad36e22ad7aede77a2c4f2" class="room indoor" x="239" y="469" width="16" height="16" rx="4"><title>Tower of Art</title></rect>
+    <rect id="room-23f75c546d078c79f379c8fc735c7b6639520119" class="room indoor" x="239" y="442" width="16" height="16" rx="4"><title>Tower of Art</title></rect>
+    <rect id="room-e47d1f0655a120ed44703017e04e5a8eb0a54024" class="room indoor" x="193" y="162" width="16" height="16" rx="4"><title>hubwards-by-widdershins corner of the cloisters</title></rect>
+    <rect id="room-4192a4fe838faee53ffaed8510f6f7df6e7388e3" class="room indoor" x="193" y="134" width="16" height="16" rx="4"><title>hubwards side of the cloisters</title></rect>
+    <rect id="room-5135c94b7da8315d4770d0bba8559b0030700e45" class="room indoor" x="193" y="106" width="16" height="16" rx="4"><title>hubwards side of the cloisters</title></rect>
+    <rect id="room-641a060f3c795423571f2721a3bd14559830f7c7" class="room indoor" x="221" y="162" width="16" height="16" rx="4"><title>classroom</title></rect>
+    <rect id="room-791745b45084704e02d56fd68a38d3323ce29612" class="room indoor" x="221" y="134" width="16" height="16" rx="4"><title>classroom</title></rect>
+    <rect id="room-fe4315d5259913c03d8b9ba3a679ab32f7540c3b" class="room indoor" x="221" y="106" width="16" height="16" rx="4"><title>classroom</title></rect>
+    <rect id="room-b032dd72e7134d579b03f415330512893d7ac40b" class="room indoor" x="193" y="78" width="16" height="16" rx="4"><title>hubwards side of the cloisters</title></rect>
+    <rect id="room-2668f40d9b117257e249967d065c29a5f903e729" class="room indoor" x="221" y="78" width="16" height="16" rx="4"><title>classroom</title></rect>
+    <rect id="room-475ea7b5b2ec1ab48fc2d8bf3544adc352c78403" class="room indoor" x="193" y="50" width="16" height="16" rx="4"><title>hubwards-by-turnwise corner of the cloisters</title></rect>
+    <rect id="room-b130ca86a61154424dd85b7ab61c26267586bdd1" class="room indoor" x="221" y="50" width="16" height="16" rx="4"><title>classroom</title></rect>
+    <rect id="room-c89611c72edb0fc5941a06bc4b1a5979080e2b22" class="room indoor" x="193" y="22" width="16" height="16" rx="4"><title>classroom</title></rect>
+    <rect id="room-a448ddeaff4abe390314a335bb5a4afad7c3eab7" class="room indoor" x="165" y="50" width="16" height="16" rx="4"><title>turnwise side of the cloisters</title></rect>
+    <rect id="room-2ffc2e84c874260bf0379200cb0946e8ae7ed7b9" class="room indoor" x="165" y="22" width="16" height="16" rx="4"><title>classroom</title></rect>
+    <rect id="room-94d323fabc34956143ca09b32894bef875d6a338" class="room indoor" x="137" y="50" width="16" height="16" rx="4"><title>turnwise side of the cloisters</title></rect>
+    <rect id="room-89e80b4ec74711ec2de412dd78f933537c585feb" class="room indoor" x="137" y="22" width="16" height="16" rx="4"><title>classroom</title></rect>
+    <rect id="room-99f0098a51db4dcaa343777755a24281be358be2" class="room indoor" x="137" y="107" width="16" height="16" rx="4"><title>New Court</title></rect>
+    <rect id="room-5e0b84ca6bb782a24c34787e28f2de7a7b1b59af" class="room indoor" x="193" y="190" width="16" height="16" rx="4"><title>classroom</title></rect>
+    <rect id="room-2839d1da9a3d557652e6b05d3da608dd422a35e8" class="room indoor" x="165" y="162" width="16" height="16" rx="4"><title>widdershins side of the cloisters</title></rect>
+    <rect id="room-9fa108eab0f6cf734f33495af5e9730439de450e" class="room indoor" x="165" y="190" width="16" height="16" rx="4"><title>classroom</title></rect>
+    <rect id="room-184562510becd713516bcf6e2ee30dba46b8029f" class="room indoor" x="137" y="162" width="16" height="16" rx="4"><title>widdershins side of the cloisters</title></rect>
+    <rect id="room-9eeb8cc5703752451def31ee0817c9e342b6b45b" class="room indoor" x="137" y="190" width="16" height="16" rx="4"><title>classroom</title></rect>
+    <rect id="room-df7f06ce4fadda99362b1d8eb11fa6ef228662e1" class="room indoor" x="109" y="162" width="16" height="16" rx="4"><title>widdershins side of the cloisters</title></rect>
+    <rect id="room-8f66918bf4f053daa51b61f641fe024c6fa6423c" class="room indoor" x="109" y="190" width="16" height="16" rx="4"><title>classroom</title></rect>
+    <rect id="room-fa7590f57ff85a2e3547506f8a27c5d4a53bbfd1" class="room indoor" x="81" y="162" width="16" height="16" rx="4"><title>rimwards-by-widdershins corner of the cloisters</title></rect>
+    <rect id="room-a31bb27b7f1c17dcb61ee6fd9f25d8c7ac97977e" class="room indoor" x="81" y="190" width="16" height="16" rx="4"><title>classroom</title></rect>
+    <rect id="room-0351dad12c88d848129f5b39a8a326f76e5dd0b4" class="room indoor" x="53" y="162" width="16" height="16" rx="4"><title>classroom</title></rect>
+    <rect id="room-30c3a45f036feca53cb852a6f4f7cc2b5dba53ac" class="room indoor" x="81" y="134" width="16" height="16" rx="4"><title>rimwards side of the cloisters</title></rect>
+    <rect id="room-fb94831984c10547feb86617673cf8fbe0fbf962" class="room indoor" x="53" y="134" width="16" height="16" rx="4"><title>classroom</title></rect>
+    <rect id="room-f80ba1b95da982fba5af6457f843e4554cd7ed01" class="room indoor" x="81" y="106" width="16" height="16" rx="4"><title>rimwards side of the cloisters</title></rect>
+    <rect id="room-47a6ff094e88936f8c3387149dce7fa925b9b85a" class="room indoor" x="53" y="106" width="16" height="16" rx="4"><title>classroom</title></rect>
+    <rect id="room-dcc90894d30784efd40ec42fbced2fc987d86363" class="room indoor" x="134" y="474" width="16" height="16" rx="4"><title>gymnasium</title></rect>
+    <rect id="room-6b27d72b72b2f404f44873a70f1f91ee441a1e68" class="room indoor" x="877" y="163" width="16" height="16" rx="4"><title>Shadow Voting Booth</title></rect>
+    <rect id="room-3e2a6d718998453da8181c9f75c3a5efa612df99" class="room indoor" x="849" y="163" width="16" height="16" rx="4"><title>Student Lounge</title></rect>
+    <rect id="room-3b4fb7168c3b7db98202b823c41c0c175db8f3a2" class="room indoor" x="905" y="163" width="16" height="16" rx="4"><title>Seers Voting Booth</title></rect>
+    <rect id="room-73f8e47ee8a6b59073efb33e9f22df96a58a47f5" class="room indoor" x="961" y="107" width="16" height="16" rx="4"><title>Star Voting Booth</title></rect>
+    <rect id="room-6b4132027d01bba42ffa40abee045815f866e59b" class="room indoor" x="961" y="79" width="16" height="16" rx="4"><title>Lodgers Voting Booth</title></rect>
+    <rect id="room-993274d0fbc0174289c9f90f7b1c2ab78c2997b2" class="room indoor" x="905" y="23" width="16" height="16" rx="4"><title>Hoodwinkers Voting Booth</title></rect>
+    <rect id="room-f6f2143e8a795ab6c4935c78a4de25031fb0a585" class="room indoor" x="877" y="23" width="16" height="16" rx="4"><title>Circle Voting Booth</title></rect>
+    <rect id="room-b846a6fe28101d38ad19dc67c356569d10978873" class="room indoor" x="877" y="23" width="16" height="16" rx="4"><title>Circle&#x27;s Lounge</title></rect>
+    <rect id="room-ac7dc6798d2a8e7e90fc0627f8e9569f65d35b28" class="room indoor" x="849" y="51" width="16" height="16" rx="4"><title>Last Order Voting Booth</title></rect>
+    <rect id="room-eb6cae7236b2f6ae8638843b2bbe5c28af89204a" class="room indoor" x="821" y="107" width="16" height="16" rx="4"><title>Midnight Voting Booth</title></rect>
+    <rect id="room-a5b14452a2bba6121daa7d40c1298ef0539376bc" class="room indoor" x="239" y="469" width="16" height="16" rx="4"><title>Tower of Art</title></rect>
+    <rect id="room-bf7f80fe33c6801a524ae45be289affcd23e7db5" class="room indoor" x="239" y="442" width="16" height="16" rx="4"><title>Tower of Art</title></rect>
+    <rect id="room-d339aa86045ed95892597f97d0fff9a7d9294715" class="room indoor" x="267" y="441" width="16" height="16" rx="4"><title>Tower of Art</title></rect>
+    <rect id="room-87c1499e4299ef829a567b190c0cc92ca23ff5ab" class="room indoor" x="267" y="469" width="16" height="16" rx="4"><title>Tower of Art</title></rect>
+    <rect id="room-cd89822b78f689c5bc8f1303841816d928d7a099" class="room indoor" x="239" y="469" width="16" height="16" rx="4"><title>Tower of Art</title></rect>
+    <rect id="room-1d1c9ff4561e1b8c812b0b158ffcbede5f6f73b0" class="room indoor" x="239" y="442" width="16" height="16" rx="4"><title>Tower of Art</title></rect>
+    <rect id="room-1445d1534697ffade37a2658763a468be73b7128" class="room indoor" x="267" y="441" width="16" height="16" rx="4"><title>Tower of Art</title></rect>
+    <rect id="room-6cd25f3665dbba42646e0b20ba9829200b1ee91b" class="room indoor" x="267" y="469" width="16" height="16" rx="4"><title>Tower of Art</title></rect>
+    <rect id="room-67ff030ae059b09b0322e65b9f0b4ead0d9ac693" class="room indoor" x="239" y="469" width="16" height="16" rx="4"><title>Tower of Art</title></rect>
+    <rect id="room-a9980853c444e434d8aa44a8a8d61dd7505115c1" class="room indoor" x="239" y="442" width="16" height="16" rx="4"><title>Tower of Art</title></rect>
+    <rect id="room-e06de69a8494e21a948b72b8210a7ccb2c004068" class="room indoor" x="267" y="441" width="16" height="16" rx="4"><title>Tower of Art</title></rect>
+    <rect id="room-842c3c08ef9f0bbbbd661d9e3eaa696167b9bc9b" class="room indoor" x="267" y="469" width="16" height="16" rx="4"><title>Tower of Art</title></rect>
+    <rect id="room-dd22349d375c645919476153deb263cbf5fa9661" class="room indoor" x="239" y="469" width="16" height="16" rx="4"><title>Tower of Art</title></rect>
+    <rect id="room-c497d4b6679fb07e67805bb2b54a052a65fbc061" class="room indoor" x="239" y="442" width="16" height="16" rx="4"><title>Tower of Art</title></rect>
+    <rect id="room-ef3e69ab2d67affe57d4bb1df9ff018bc0fb0675" class="room indoor" x="267" y="441" width="16" height="16" rx="4"><title>Tower of Art Roof</title></rect>
+    <rect id="room-f4e6163c80f37ba377a3527268b0ef703da086f6" class="room indoor" x="877" y="23" width="16" height="16" rx="4"><title>office of the Senior Wizard of the Ancient and Truly Original Sages of the Unbroken Circle</title></rect>
+    <rect id="room-2d7f00805acf4e4d9efd98b8b97387c1d7a8007e" class="room indoor" x="1039" y="93" width="16" height="16" rx="4"><title>Lounge House Cafe</title></rect>
+    <rect id="room-176ca1ba076c2d3cc5c3038fc5846370f5e0f665" class="room indoor" x="1039" y="93" width="16" height="16" rx="4"><title>posh outdoor bar</title></rect>
+    <rect id="room-a9ca57d39b304fe388a9674ca3eaaf53089c87c9" class="room indoor" x="849" y="135" width="16" height="16" rx="4"><title>initiation classroom</title></rect>
+    <rect id="room-efdcd9c60925712ca8c6feb24e23fb64f8b3857b" class="room indoor" x="267" y="385" width="16" height="16" rx="4"><title>octangle</title></rect>
+    <rect id="room-d13059580c4af9f874ed8d832d1b347cdf962855" class="room indoor" x="295" y="357" width="16" height="16" rx="4"><title>octangle</title></rect>
+    <rect id="room-5e46d77389c7b0851532bc7aa69c8b025b2acab0" class="room indoor" x="323" y="357" width="16" height="16" rx="4"><title>octangle</title></rect>
+    <rect id="room-1d86a4f02e9d279dfd3c7d7309dcf887fd2fb2e6" class="room indoor" x="295" y="385" width="16" height="16" rx="4"><title>octangle</title></rect>
+    <rect id="room-208402f505bb90f3034c92e326b3a5e1e7827e03" class="room indoor" x="323" y="385" width="16" height="16" rx="4"><title>octangle</title></rect>
+    <rect id="room-2b14c564d03da179cea226f0e1cd2da98a00d7e2" class="room indoor" x="351" y="385" width="16" height="16" rx="4"><title>octangle</title></rect>
+    <rect id="room-10a6970dcaaeca18ccebcc0a0cf13101131a7e69" class="room indoor" x="351" y="413" width="16" height="16" rx="4"><title>octangle</title></rect>
+    <rect id="room-57693c2ce2f896958b64b9dc3fe04822a97812d8" class="room indoor" x="323" y="413" width="16" height="16" rx="4"><title>octangle</title></rect>
+    <rect id="room-ee81512866d62d0b965fa9b32d3fe3e19c3f4a73" class="room indoor" x="323" y="441" width="16" height="16" rx="4"><title>octangle</title></rect>
+    <rect id="room-416fc181321da1b4c85fafb490eeddf2d2cae350" class="room indoor" x="295" y="441" width="16" height="16" rx="4"><title>octangle</title></rect>
+    <rect id="room-9eb72c5c14138ca2df7bf274a1bb9442b0405884" class="room indoor" x="295" y="413" width="16" height="16" rx="4"><title>octangle</title></rect>
+    <rect id="room-777a4fdf2c28e4dcba87e86bb1a2328e023fe690" class="room indoor" x="267" y="413" width="16" height="16" rx="4"><title>octangle</title></rect>
+    <rect id="room-0fbb5f6541f57d3858ceaa787c5e1d99f1f55d0c" class="room indoor" x="323" y="329" width="16" height="16" rx="4"><title>Scholar&#x27;s Entry</title></rect>
+    <rect id="room-17179d582dbd7219898eab776747b1b6f0e36dbb" class="room indoor" x="351" y="357" width="16" height="16" rx="4"><title>Porters&#x27; lodge</title></rect>
+    <rect id="room-f74ddcb3068167dd1f176cf3e17ac1495910816b" class="room indoor" x="323" y="469" width="16" height="16" rx="4"><title>deserted hallway choked with cobwebs</title></rect>
+    <rect id="room-590a0c445fdb7dfd80fb0b02dbb40f030f6c8587" class="room indoor" x="351" y="329" width="16" height="16" rx="4"><title>Porters&#x27; Office</title></rect>
+    <rect id="room-4c11d730b26acc4523452f313890d37ad032864d" class="room indoor" x="351" y="329" width="16" height="16" rx="4"><title>cramped chimney</title></rect>
+    <rect id="room-26bb1de192b52f733fe1189ff1922ae5382e5337" class="room indoor" x="351" y="329" width="16" height="16" rx="4"><title>roof of the Porters&#x27; Lodge</title></rect>
+  </g>
+
+  <g id="layer-labels">
+    <text class="map-label" x="540" y="545">small alley</text>
+    <text class="map-label" x="568" y="545">large mossy courtyard</text>
+    <text class="map-label" x="584" y="567">foot of a staircase</text>
+    <text class="map-label" x="612" y="567">near the western end of the long corridor</text>
+    <text class="map-label" x="640" y="567">western part of the long corridor</text>
+    <text class="map-label" x="668" y="567">middle of the long corridor</text>
+    <text class="map-label" x="696" y="567">middle of the long corridor</text>
+    <text class="map-label" x="724" y="567">junction of the corridors</text>
+    <text class="map-label" x="752" y="567">eastern part of the long corridor</text>
+    <text class="map-label" x="780" y="567">eastern part of the long corridor</text>
+    <text class="map-label" x="808" y="567">corner of corridors</text>
+    <text class="map-label" x="808" y="539">south end of the short corridor</text>
+    <text class="map-label" x="808" y="511">north end of the short corridor</text>
+    <text class="map-label" x="724" y="539">south end of a long corridor</text>
+    <text class="map-label" x="724" y="511">near the south end of a long corridor</text>
+    <text class="map-label" x="724" y="483">middle of a long corridor</text>
+    <text class="map-label" x="724" y="455">near the north end of a long corridor</text>
+    <text class="map-label" x="724" y="427">north end of a long corridor</text>
+    <text class="map-label" x="724" y="399">corner of two long corridors</text>
+    <text class="map-label" x="752" y="399">west end of another long corridor</text>
+    <text class="map-label" x="780" y="399">near the west end of another long corridor</text>
+    <text class="map-label" x="808" y="399">junction of two corridors</text>
+    <text class="map-label" x="836" y="399">middle of another long corridor</text>
+    <text class="map-label" x="864" y="399">east part of another long corridor</text>
+    <text class="map-label" x="892" y="399">east end of another long corridor</text>
+    <text class="map-label" x="920" y="399">corner of two corridors</text>
+    <text class="map-label" x="920" y="427">north side of a short corridor</text>
+    <text class="map-label" x="920" y="455">south side of a short corridor</text>
+    <text class="map-label" x="920" y="483">corner of two short corridors</text>
+    <text class="map-label" x="948" y="483">middle of a short corridor</text>
+    <text class="map-label" x="976" y="483">bend in the corridor</text>
+    <text class="map-label" x="976" y="511">another bend in the corridor</text>
+    <text class="map-label" x="1004" y="511">west side of another short corridor</text>
+    <text class="map-label" x="1032" y="511">east side of another short corridor</text>
+    <text class="map-label" x="1060" y="511">corner</text>
+    <text class="map-label" x="1060" y="483">south end of a really long corridor</text>
+    <text class="map-label" x="1060" y="455">south part of a really long corridor</text>
+    <text class="map-label" x="1060" y="427">middle of a really long corridor</text>
+    <text class="map-label" x="1060" y="399">north part of a really long corridor</text>
+    <text class="map-label" x="1060" y="371">north end of a really long corridor</text>
+    <text class="map-label" x="1060" y="343">corner of two really long corridors</text>
+    <text class="map-label" x="1032" y="343">east end of another really long corridor</text>
+    <text class="map-label" x="1004" y="343">east part of another really long corridor</text>
+    <text class="map-label" x="976" y="343">west part of another really long corridor</text>
+    <text class="map-label" x="948" y="343">west end of another really long corridor</text>
+    <text class="map-label" x="920" y="343">corner of another really long corridor and a short one</text>
+    <text class="map-label" x="920" y="315">middle of an incredibly short corridor</text>
+    <text class="map-label" x="920" y="287">corner of two corridors</text>
+    <text class="map-label" x="892" y="287">east side of a corridor</text>
+    <text class="map-label" x="864" y="287">middle of a corridor</text>
+    <text class="map-label" x="864" y="258">stairway</text>
+    <text class="map-label" x="836" y="287">west side of a corridor</text>
+    <text class="map-label" x="808" y="287">corner of two corridors</text>
+    <text class="map-label" x="808" y="315">north end of the average corridor</text>
+    <text class="map-label" x="808" y="343">middle of the average corridor</text>
+    <text class="map-label" x="808" y="371">south end of the average corridor</text>
+    <text class="map-label" x="166" y="324">the southern end of the Residence Hall&#x27;s ground floor</text>
+    <text class="map-label" x="142" y="442">hallway</text>
+    <text class="map-label" x="110" y="381">cheerful and well-lit hallway</text>
+    <text class="map-label" x="110" y="408">corridor</text>
+    <text class="map-label" x="82" y="408">ground floor of the workshops corridor</text>
+    <text class="map-label" x="82" y="380">wizard&#x27;s workroom</text>
+    <text class="map-label" x="82" y="436">wizard&#x27;s workroom</text>
+    <text class="map-label" x="54" y="408">ground floor of workshops corridor</text>
+    <text class="map-label" x="54" y="380">wizard&#x27;s workroom</text>
+    <text class="map-label" x="54" y="436">wizard&#x27;s workroom</text>
+    <text class="map-label" x="26" y="408">ground floor of workshops corridor</text>
+    <text class="map-label" x="26" y="380">wizard&#x27;s workroom</text>
+    <text class="map-label" x="26" y="436">wizard&#x27;s workroom</text>
+    <text class="map-label" x="110" y="352">Admissions Office</text>
+    <text class="map-label" x="138" y="381">the western side of the Great Hall</text>
+    <text class="map-label" x="166" y="352">the northern edge of the Great Hall</text>
+    <text class="map-label" x="138" y="324">residence room</text>
+    <text class="map-label" x="194" y="324">residence room</text>
+    <text class="map-label" x="166" y="296">north of the southern end of the Residence Hall&#x27;s ground floor</text>
+    <text class="map-label" x="194" y="296">residence room</text>
+    <text class="map-label" x="138" y="296">residence room</text>
+    <text class="map-label" x="166" y="268">south of the northern end of the Residence Hall&#x27;s ground floor</text>
+    <text class="map-label" x="194" y="268">residence room</text>
+    <text class="map-label" x="138" y="268">residence room</text>
+    <text class="map-label" x="166" y="240">the northern end of the Residence Hall&#x27;s ground floor</text>
+    <text class="map-label" x="138" y="240">residence room</text>
+    <text class="map-label" x="194" y="240">residence room</text>
+    <text class="map-label" x="138" y="352">the northwestern corner of the Great Hall</text>
+    <text class="map-label" x="194" y="352">the northeastern corner of the Great Hall</text>
+    <text class="map-label" x="194" y="381">the eastern edge of the Great Hall</text>
+    <text class="map-label" x="166" y="381">the centre of the Great Hall</text>
+    <text class="map-label" x="138" y="408">the southwestern corner of the Great Hall</text>
+    <text class="map-label" x="166" y="408">the southern side of the Great Hall</text>
+    <text class="map-label" x="194" y="408">the southeastern corner of the Great Hall</text>
+    <text class="map-label" x="857" y="131">landing in Unseen University</text>
+    <text class="map-label" x="857" y="103">hallway</text>
+    <text class="map-label" x="829" y="103">hallway</text>
+    <text class="map-label" x="857" y="75">hallway</text>
+    <text class="map-label" x="857" y="47">hallway</text>
+    <text class="map-label" x="885" y="47">hallway</text>
+    <text class="map-label" x="885" y="19">hallway</text>
+    <text class="map-label" x="885" y="75">Order Room</text>
+    <text class="map-label" x="913" y="47">hallway</text>
+    <text class="map-label" x="913" y="19">hallway</text>
+    <text class="map-label" x="913" y="75">Archchancellor&#x27;s Office</text>
+    <text class="map-label" x="941" y="75">hallway</text>
+    <text class="map-label" x="969" y="75">hallway</text>
+    <text class="map-label" x="941" y="103">hallway</text>
+    <text class="map-label" x="969" y="103">hallway</text>
+    <text class="map-label" x="913" y="131">hallway</text>
+    <text class="map-label" x="913" y="103">Bursar&#x27;s Room</text>
+    <text class="map-label" x="913" y="159">hallway</text>
+    <text class="map-label" x="885" y="131">hallway</text>
+    <text class="map-label" x="885" y="103">Dean&#x27;s Room</text>
+    <text class="map-label" x="885" y="159">hallway</text>
+    <text class="map-label" x="166" y="436">chapel</text>
+    <text class="map-label" x="275" y="437">Tower of Art</text>
+    <text class="map-label" x="275" y="465">Tower of Art</text>
+    <text class="map-label" x="247" y="465">Tower of Art</text>
+    <text class="map-label" x="247" y="438">Tower of Art</text>
+    <text class="map-label" x="201" y="158">hubwards-by-widdershins corner of the cloisters</text>
+    <text class="map-label" x="201" y="130">hubwards side of the cloisters</text>
+    <text class="map-label" x="201" y="102">hubwards side of the cloisters</text>
+    <text class="map-label" x="229" y="158">classroom</text>
+    <text class="map-label" x="229" y="130">classroom</text>
+    <text class="map-label" x="229" y="102">classroom</text>
+    <text class="map-label" x="201" y="74">hubwards side of the cloisters</text>
+    <text class="map-label" x="229" y="74">classroom</text>
+    <text class="map-label" x="201" y="46">hubwards-by-turnwise corner of the cloisters</text>
+    <text class="map-label" x="229" y="46">classroom</text>
+    <text class="map-label" x="201" y="18">classroom</text>
+    <text class="map-label" x="173" y="46">turnwise side of the cloisters</text>
+    <text class="map-label" x="173" y="18">classroom</text>
+    <text class="map-label" x="145" y="46">turnwise side of the cloisters</text>
+    <text class="map-label" x="145" y="18">classroom</text>
+    <text class="map-label" x="145" y="103">New Court</text>
+    <text class="map-label" x="201" y="186">classroom</text>
+    <text class="map-label" x="173" y="158">widdershins side of the cloisters</text>
+    <text class="map-label" x="173" y="186">classroom</text>
+    <text class="map-label" x="145" y="158">widdershins side of the cloisters</text>
+    <text class="map-label" x="145" y="186">classroom</text>
+    <text class="map-label" x="117" y="158">widdershins side of the cloisters</text>
+    <text class="map-label" x="117" y="186">classroom</text>
+    <text class="map-label" x="89" y="158">rimwards-by-widdershins corner of the cloisters</text>
+    <text class="map-label" x="89" y="186">classroom</text>
+    <text class="map-label" x="61" y="158">classroom</text>
+    <text class="map-label" x="89" y="130">rimwards side of the cloisters</text>
+    <text class="map-label" x="61" y="130">classroom</text>
+    <text class="map-label" x="89" y="102">rimwards side of the cloisters</text>
+    <text class="map-label" x="61" y="102">classroom</text>
+    <text class="map-label" x="142" y="470">gymnasium</text>
+    <text class="map-label" x="885" y="159">Shadow Voting Booth</text>
+    <text class="map-label" x="857" y="159">Student Lounge</text>
+    <text class="map-label" x="913" y="159">Seers Voting Booth</text>
+    <text class="map-label" x="969" y="103">Star Voting Booth</text>
+    <text class="map-label" x="969" y="75">Lodgers Voting Booth</text>
+    <text class="map-label" x="913" y="19">Hoodwinkers Voting Booth</text>
+    <text class="map-label" x="885" y="19">Circle Voting Booth</text>
+    <text class="map-label" x="885" y="19">Circle&#x27;s Lounge</text>
+    <text class="map-label" x="857" y="47">Last Order Voting Booth</text>
+    <text class="map-label" x="829" y="103">Midnight Voting Booth</text>
+    <text class="map-label" x="247" y="465">Tower of Art</text>
+    <text class="map-label" x="247" y="438">Tower of Art</text>
+    <text class="map-label" x="275" y="437">Tower of Art</text>
+    <text class="map-label" x="275" y="465">Tower of Art</text>
+    <text class="map-label" x="247" y="465">Tower of Art</text>
+    <text class="map-label" x="247" y="438">Tower of Art</text>
+    <text class="map-label" x="275" y="437">Tower of Art</text>
+    <text class="map-label" x="275" y="465">Tower of Art</text>
+    <text class="map-label" x="247" y="465">Tower of Art</text>
+    <text class="map-label" x="247" y="438">Tower of Art</text>
+    <text class="map-label" x="275" y="437">Tower of Art</text>
+    <text class="map-label" x="275" y="465">Tower of Art</text>
+    <text class="map-label" x="247" y="465">Tower of Art</text>
+    <text class="map-label" x="247" y="438">Tower of Art</text>
+    <text class="map-label" x="275" y="437">Tower of Art Roof</text>
+    <text class="map-label" x="885" y="19">office of the Senior Wizard of the Ancient and Truly Original Sages of the Unbroken Circle</text>
+    <text class="map-label" x="1047" y="89">Lounge House Cafe</text>
+    <text class="map-label" x="1047" y="89">posh outdoor bar</text>
+    <text class="map-label" x="857" y="131">initiation classroom</text>
+    <text class="map-label" x="275" y="381">octangle</text>
+    <text class="map-label" x="303" y="353">octangle</text>
+    <text class="map-label" x="331" y="353">octangle</text>
+    <text class="map-label" x="303" y="381">octangle</text>
+    <text class="map-label" x="331" y="381">octangle</text>
+    <text class="map-label" x="359" y="381">octangle</text>
+    <text class="map-label" x="359" y="409">octangle</text>
+    <text class="map-label" x="331" y="409">octangle</text>
+    <text class="map-label" x="331" y="437">octangle</text>
+    <text class="map-label" x="303" y="437">octangle</text>
+    <text class="map-label" x="303" y="409">octangle</text>
+    <text class="map-label" x="275" y="409">octangle</text>
+    <text class="map-label" x="331" y="325">Scholar&#x27;s Entry</text>
+    <text class="map-label" x="359" y="353">Porters&#x27; lodge</text>
+    <text class="map-label" x="331" y="465">deserted hallway choked with cobwebs</text>
+    <text class="map-label" x="359" y="325">Porters&#x27; Office</text>
+    <text class="map-label" x="359" y="325">cramped chimney</text>
+    <text class="map-label" x="359" y="325">roof of the Porters&#x27; Lodge</text>
+  </g>
+
+</svg>

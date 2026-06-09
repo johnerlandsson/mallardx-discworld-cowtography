@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 252 256"
+     class="map-svg"
+     data-map-id="21">
+
+  <g id="layer-artwork"><!-- artwork --></g>
+
+  <g id="layer-exits">
+    <line id="edge-a7e987b21a713fff4c7e28f723a7a310f06526f5-ef740e3f6cb0aec56ba6f4c71620cb817b0bb1f0" class="exit" x1="105" y1="45" x2="105" y2="73"/>
+    <line id="edge-d4564467c0c38446dda8ca639dabf6a6afdaf92f-ef740e3f6cb0aec56ba6f4c71620cb817b0bb1f0" class="exit" x1="105" y1="101" x2="105" y2="73"/>
+    <line id="edge-79ff44f63cf571eaebc9d1f3421b2bbef30b7be5-a7e987b21a713fff4c7e28f723a7a310f06526f5" class="exit" x1="133" y1="45" x2="105" y2="45"/>
+    <line id="edge-7b80a3a0092826bb8f3f2f6e8bee8aa0d0f8e57c-a7e987b21a713fff4c7e28f723a7a310f06526f5" class="exit" x1="105" y1="17" x2="105" y2="45"/>
+    <line id="edge-a26a763a1b3596eb4d37265cbed32f5a9c0a265a-a7e987b21a713fff4c7e28f723a7a310f06526f5" class="exit" x1="133" y1="17" x2="105" y2="45"/>
+    <line id="edge-79ff44f63cf571eaebc9d1f3421b2bbef30b7be5-a26a763a1b3596eb4d37265cbed32f5a9c0a265a" class="exit" x1="133" y1="45" x2="133" y2="17"/>
+    <line id="edge-7b80a3a0092826bb8f3f2f6e8bee8aa0d0f8e57c-a26a763a1b3596eb4d37265cbed32f5a9c0a265a" class="exit" x1="105" y1="17" x2="133" y2="17"/>
+    <line id="edge-270ac5a8f273353b23decd4bc69fa119cb236803-79ff44f63cf571eaebc9d1f3421b2bbef30b7be5" class="exit" x1="133" y1="63" x2="133" y2="45"/>
+    <line id="edge-79ff44f63cf571eaebc9d1f3421b2bbef30b7be5-e81310aac7b7d7d52915e1fff1efde7e77212721" class="exit" x1="133" y1="45" x2="161" y2="73"/>
+    <line id="edge-52521b36d9998098341c0fc917ef49f7f48cb7e3-e81310aac7b7d7d52915e1fff1efde7e77212721" class="exit" x1="161" y1="101" x2="161" y2="73"/>
+    <line id="edge-10aef9b1d244c6d2d331a99ebc4b2ec1d4267297-52521b36d9998098341c0fc917ef49f7f48cb7e3" class="exit" x1="133" y1="101" x2="161" y2="101"/>
+    <line id="edge-10aef9b1d244c6d2d331a99ebc4b2ec1d4267297-640b17ab5b3646268b87aaddcf08caba2e59cad7" class="exit" x1="133" y1="101" x2="133" y2="129"/>
+    <line id="edge-10aef9b1d244c6d2d331a99ebc4b2ec1d4267297-d4564467c0c38446dda8ca639dabf6a6afdaf92f" class="exit" x1="133" y1="101" x2="105" y2="101"/>
+    <line id="edge-640b17ab5b3646268b87aaddcf08caba2e59cad7-fcf155dafba18e84d23b6d64a9d5201071bed09a" class="exit" x1="133" y1="129" x2="133" y2="157"/>
+    <line id="edge-e4fca0b44e7d4d8596449981f022f9eafd3f7b21-fcf155dafba18e84d23b6d64a9d5201071bed09a" class="exit" x1="133" y1="185" x2="133" y2="157"/>
+    <line id="edge-c290059ded7bb9440492b43a96f5ffacac6d4fd3-d4564467c0c38446dda8ca639dabf6a6afdaf92f" class="exit" x1="77" y1="101" x2="105" y2="101"/>
+    <line id="edge-c3e3c46773e4cb6b7b7c257e58666fbe306be023-d4564467c0c38446dda8ca639dabf6a6afdaf92f" class="exit" x1="105" y1="129" x2="105" y2="101"/>
+    <line id="edge-0bb72aa6a38f305db38cc005655a60fe2bb0c047-c290059ded7bb9440492b43a96f5ffacac6d4fd3" class="exit" x1="49" y1="101" x2="77" y2="101"/>
+    <line id="edge-2b610a2f2a05f79e376b9b56d8513b906e3abac3-c290059ded7bb9440492b43a96f5ffacac6d4fd3" class="exit" x1="77" y1="129" x2="77" y2="101"/>
+    <line id="edge-0bb72aa6a38f305db38cc005655a60fe2bb0c047-7959495c4f3c78e3850657c08e258c3b06ae97a3" class="exit" x1="49" y1="101" x2="49" y2="79"/>
+    <line id="edge-0bb72aa6a38f305db38cc005655a60fe2bb0c047-d29e733c7b0b607cb4bdf8ca295b2663f3157636" class="exit" x1="49" y1="101" x2="49" y2="129"/>
+    <line id="edge-2b610a2f2a05f79e376b9b56d8513b906e3abac3-d29e733c7b0b607cb4bdf8ca295b2663f3157636" class="exit" x1="77" y1="129" x2="49" y2="129"/>
+    <line id="edge-b40289d33322121e648a9909169d438e0e0aca20-d29e733c7b0b607cb4bdf8ca295b2663f3157636" class="exit" x1="49" y1="157" x2="49" y2="129"/>
+    <line id="edge-94ec25e2b8f4f5ae6b3fc363687d031c03406aa0-b40289d33322121e648a9909169d438e0e0aca20" class="exit" x1="77" y1="157" x2="49" y2="157"/>
+    <line id="edge-989b28baa1ba84dce134a87cc4f81357b1365d73-b40289d33322121e648a9909169d438e0e0aca20" class="exit" x1="49" y1="185" x2="49" y2="157"/>
+    <line id="edge-989b28baa1ba84dce134a87cc4f81357b1365d73-df4127d5a2d3c4f8d55c207db03033b4c9b6bfa3" class="exit" x1="49" y1="185" x2="77" y2="185"/>
+    <line id="edge-2e142dafb86f677fa761dfae990b2aff6ad013e8-df4127d5a2d3c4f8d55c207db03033b4c9b6bfa3" class="exit" x1="105" y1="185" x2="77" y2="185"/>
+    <line id="edge-94ec25e2b8f4f5ae6b3fc363687d031c03406aa0-df4127d5a2d3c4f8d55c207db03033b4c9b6bfa3" class="exit" x1="77" y1="157" x2="77" y2="185"/>
+    <line id="edge-2e142dafb86f677fa761dfae990b2aff6ad013e8-dfa7fee6d5b82abf6680f2e4b2e6043cd8f7f5bb" class="exit" x1="105" y1="185" x2="105" y2="157"/>
+    <line id="edge-2b610a2f2a05f79e376b9b56d8513b906e3abac3-94ec25e2b8f4f5ae6b3fc363687d031c03406aa0" class="exit" x1="77" y1="129" x2="77" y2="157"/>
+    <line id="edge-94ec25e2b8f4f5ae6b3fc363687d031c03406aa0-dfa7fee6d5b82abf6680f2e4b2e6043cd8f7f5bb" class="exit" x1="77" y1="157" x2="105" y2="157"/>
+    <line id="edge-c3e3c46773e4cb6b7b7c257e58666fbe306be023-dfa7fee6d5b82abf6680f2e4b2e6043cd8f7f5bb" class="exit" x1="105" y1="129" x2="105" y2="157"/>
+    <line id="edge-2b610a2f2a05f79e376b9b56d8513b906e3abac3-c3e3c46773e4cb6b7b7c257e58666fbe306be023" class="exit" x1="77" y1="129" x2="105" y2="129"/>
+    <line id="edge-9217032cfbba083b72044841cfe19208dd250494-e105ad4f0d5013f7686b32f8b33ad304d76f99a5" class="exit" x1="141" y1="73" x2="141" y2="73"/>
+  </g>
+
+  <g id="layer-rooms">
+    <rect id="room-ef740e3f6cb0aec56ba6f4c71620cb817b0bb1f0" class="room indoor" x="97" y="65" width="16" height="16" rx="4"><title>edge of a small native village</title></rect>
+    <rect id="room-a7e987b21a713fff4c7e28f723a7a310f06526f5" class="room indoor" x="97" y="37" width="16" height="16" rx="4"><title>centre of a small native village</title></rect>
+    <rect id="room-a26a763a1b3596eb4d37265cbed32f5a9c0a265a" class="room indoor" x="125" y="9" width="16" height="16" rx="4"><title>pleasant little souvenir shop</title></rect>
+    <rect id="room-7b80a3a0092826bb8f3f2f6e8bee8aa0d0f8e57c" class="room indoor" x="97" y="9" width="16" height="16" rx="4"><title>northwestern corner of a small native village</title></rect>
+    <rect id="room-79ff44f63cf571eaebc9d1f3421b2bbef30b7be5" class="room indoor" x="125" y="37" width="16" height="16" rx="4"><title>centre of a small native village</title></rect>
+    <rect id="room-270ac5a8f273353b23decd4bc69fa119cb236803" class="room indoor" x="125" y="55" width="16" height="16" rx="4"><title>tropical bar</title></rect>
+    <rect id="room-e81310aac7b7d7d52915e1fff1efde7e77212721" class="room indoor" x="153" y="65" width="16" height="16" rx="4"><title>edge of a small native village</title></rect>
+    <rect id="room-52521b36d9998098341c0fc917ef49f7f48cb7e3" class="room indoor" x="153" y="93" width="16" height="16" rx="4"><title>eastern end of a sandy beach</title></rect>
+    <rect id="room-10aef9b1d244c6d2d331a99ebc4b2ec1d4267297" class="room indoor" x="125" y="93" width="16" height="16" rx="4"><title>sandy beach at the base of a pier</title></rect>
+    <rect id="room-640b17ab5b3646268b87aaddcf08caba2e59cad7" class="room indoor" x="125" y="121" width="16" height="16" rx="4"><title>northern end of a pier</title></rect>
+    <rect id="room-fcf155dafba18e84d23b6d64a9d5201071bed09a" class="room indoor" x="125" y="149" width="16" height="16" rx="4"><title>middle of a pier</title></rect>
+    <rect id="room-e4fca0b44e7d4d8596449981f022f9eafd3f7b21" class="room indoor" x="125" y="177" width="16" height="16" rx="4"><title>end of a pier</title></rect>
+    <rect id="room-d4564467c0c38446dda8ca639dabf6a6afdaf92f" class="room indoor" x="97" y="93" width="16" height="16" rx="4"><title>middle of a sandy beach</title></rect>
+    <rect id="room-c290059ded7bb9440492b43a96f5ffacac6d4fd3" class="room indoor" x="69" y="93" width="16" height="16" rx="4"><title>near the western end of a sandy beach</title></rect>
+    <rect id="room-0bb72aa6a38f305db38cc005655a60fe2bb0c047" class="room indoor" x="41" y="93" width="16" height="16" rx="4"><title>western end of a sandy beach</title></rect>
+    <rect id="room-7959495c4f3c78e3850657c08e258c3b06ae97a3" class="room indoor" x="41" y="71" width="16" height="16" rx="4"><title>quiet little hut</title></rect>
+    <rect id="room-d29e733c7b0b607cb4bdf8ca295b2663f3157636" class="room indoor" x="41" y="121" width="16" height="16" rx="4"><title>sea-shore</title></rect>
+    <rect id="room-b40289d33322121e648a9909169d438e0e0aca20" class="room indoor" x="41" y="149" width="16" height="16" rx="4"><title>sea just north of a large rock</title></rect>
+    <rect id="room-989b28baa1ba84dce134a87cc4f81357b1365d73" class="room indoor" x="41" y="177" width="16" height="16" rx="4"><title>western side of a large rock</title></rect>
+    <rect id="room-df4127d5a2d3c4f8d55c207db03033b4c9b6bfa3" class="room indoor" x="69" y="177" width="16" height="16" rx="4"><title>eastern side of a large rock</title></rect>
+    <rect id="room-2e142dafb86f677fa761dfae990b2aff6ad013e8" class="room indoor" x="97" y="177" width="16" height="16" rx="4"><title>sea between a large rock and a pier</title></rect>
+    <rect id="room-94ec25e2b8f4f5ae6b3fc363687d031c03406aa0" class="room indoor" x="69" y="149" width="16" height="16" rx="4"><title>sea just north of a large rock</title></rect>
+    <rect id="room-dfa7fee6d5b82abf6680f2e4b2e6043cd8f7f5bb" class="room indoor" x="97" y="149" width="16" height="16" rx="4"><title>sea just west of a pier</title></rect>
+    <rect id="room-c3e3c46773e4cb6b7b7c257e58666fbe306be023" class="room indoor" x="97" y="121" width="16" height="16" rx="4"><title>sea-shore by a pier</title></rect>
+    <rect id="room-2b610a2f2a05f79e376b9b56d8513b906e3abac3" class="room indoor" x="69" y="121" width="16" height="16" rx="4"><title>sea-shore</title></rect>
+    <rect id="room-9217032cfbba083b72044841cfe19208dd250494" class="room indoor" x="133" y="65" width="16" height="16" rx="4"><title>front of a ferry shop</title></rect>
+    <rect id="room-e105ad4f0d5013f7686b32f8b33ad304d76f99a5" class="room indoor" x="133" y="65" width="16" height="16" rx="4"><title>dimly lit cellar</title></rect>
+    <rect id="room-19c5968935538da2e81a88f39e5d8927a00eaca5" class="room indoor" x="125" y="37" width="16" height="16" rx="4"><title>top of a totem pole</title></rect>
+  </g>
+
+  <g id="layer-labels">
+    <text class="map-label" x="105" y="61">edge of a small native village</text>
+    <text class="map-label" x="105" y="33">centre of a small native village</text>
+    <text class="map-label" x="133" y="5">pleasant little souvenir shop</text>
+    <text class="map-label" x="105" y="5">northwestern corner of a small native village</text>
+    <text class="map-label" x="133" y="33">centre of a small native village</text>
+    <text class="map-label" x="133" y="51">tropical bar</text>
+    <text class="map-label" x="161" y="61">edge of a small native village</text>
+    <text class="map-label" x="161" y="89">eastern end of a sandy beach</text>
+    <text class="map-label" x="133" y="89">sandy beach at the base of a pier</text>
+    <text class="map-label" x="133" y="117">northern end of a pier</text>
+    <text class="map-label" x="133" y="145">middle of a pier</text>
+    <text class="map-label" x="133" y="173">end of a pier</text>
+    <text class="map-label" x="105" y="89">middle of a sandy beach</text>
+    <text class="map-label" x="77" y="89">near the western end of a sandy beach</text>
+    <text class="map-label" x="49" y="89">western end of a sandy beach</text>
+    <text class="map-label" x="49" y="67">quiet little hut</text>
+    <text class="map-label" x="49" y="117">sea-shore</text>
+    <text class="map-label" x="49" y="145">sea just north of a large rock</text>
+    <text class="map-label" x="49" y="173">western side of a large rock</text>
+    <text class="map-label" x="77" y="173">eastern side of a large rock</text>
+    <text class="map-label" x="105" y="173">sea between a large rock and a pier</text>
+    <text class="map-label" x="77" y="145">sea just north of a large rock</text>
+    <text class="map-label" x="105" y="145">sea just west of a pier</text>
+    <text class="map-label" x="105" y="117">sea-shore by a pier</text>
+    <text class="map-label" x="77" y="117">sea-shore</text>
+    <text class="map-label" x="141" y="61">front of a ferry shop</text>
+    <text class="map-label" x="141" y="61">dimly lit cellar</text>
+    <text class="map-label" x="133" y="33">top of a totem pole</text>
+  </g>
+
+</svg>

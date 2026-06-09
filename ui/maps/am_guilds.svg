@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 866 474"
+     class="map-svg"
+     data-map-id="6">
+
+  <g id="layer-artwork"><!-- artwork --></g>
+
+  <g id="layer-exits">
+    <line id="edge-3b3c6ad562cc52f8efd9a69a05a6c41a1807a77b-454f863eb451dcbbf77ef3ae9e514a63595ffab9" class="exit" x1="278" y1="453" x2="302" y2="453"/>
+    <line id="edge-17118332ea8519844f08c5a331a9a3d097e6cd48-3b3c6ad562cc52f8efd9a69a05a6c41a1807a77b" class="exit" x1="254" y1="453" x2="278" y2="453"/>
+    <line id="edge-3b3c6ad562cc52f8efd9a69a05a6c41a1807a77b-4ffc206f0a39d1d3105df744b8af288e3ecc4ba3" class="exit" x1="278" y1="453" x2="278" y2="453"/>
+    <line id="edge-13d50edc24a1918ff4109cad399d1b5566fb2b74-d656e22f1d7f8d65a430a6bf2be9854ccb8d048f" class="exit" x1="163" y1="290" x2="164" y2="265"/>
+    <line id="edge-43a9fc9d9acfdc64d7195e459c5dc69aff2e41ed-d656e22f1d7f8d65a430a6bf2be9854ccb8d048f" class="exit" x1="139" y1="265" x2="164" y2="265"/>
+    <line id="edge-43a9fc9d9acfdc64d7195e459c5dc69aff2e41ed-4b8a5f240068cf36abd6ac65ce26232c14f2986f" class="exit" x1="139" y1="265" x2="139" y2="291"/>
+    <line id="edge-22ff3625b21dcb14ad35a521d4dfa9dc645f8d71-7f237c5d36553213aab1972f735868c00d8cabec" class="exit" x1="788" y1="94" x2="812" y2="94"/>
+    <line id="edge-76a768fee2331dfce1dbf12dfcc3a6b71842babd-7f237c5d36553213aab1972f735868c00d8cabec" class="exit" x1="812" y1="70" x2="812" y2="94"/>
+    <line id="edge-2381cbfa44760a69fea25b5ee4a52499453ff625-76a768fee2331dfce1dbf12dfcc3a6b71842babd" class="exit" x1="788" y1="70" x2="812" y2="70"/>
+    <line id="edge-76a768fee2331dfce1dbf12dfcc3a6b71842babd-b6522672fa381e63b6d74c26912955452523903f" class="exit" x1="812" y1="70" x2="812" y2="46"/>
+    <line id="edge-32268d4defcafc42f3d02bc79205cef07ae06c82-dec775b5d640412091a37ec2ca08c3877e1957c8" class="exit" x1="459" y1="308" x2="487" y2="308"/>
+    <line id="edge-8a37aeecce8ab4bb7a3341a7b42fb7f823d3811a-dec775b5d640412091a37ec2ca08c3877e1957c8" class="exit" x1="487" y1="336" x2="487" y2="308"/>
+    <line id="edge-8a37aeecce8ab4bb7a3341a7b42fb7f823d3811a-a6b5b1c9025e4f1e8488fd1d224d495dfefbf0f3" class="exit" x1="487" y1="336" x2="487" y2="245"/>
+    <line id="edge-32268d4defcafc42f3d02bc79205cef07ae06c82-6dc1e656c17fd1135c8c32f3e887d88341e71a6a" class="exit" x1="459" y1="308" x2="459" y2="283"/>
+    <line id="edge-32268d4defcafc42f3d02bc79205cef07ae06c82-bc1dfc6b3929a692cd42ad767d182947cbc58029" class="exit" x1="459" y1="308" x2="435" y2="308"/>
+    <line id="edge-32268d4defcafc42f3d02bc79205cef07ae06c82-bf1a617aa15a401a133244efdeabbd483409141f" class="exit" x1="459" y1="308" x2="484" y2="283"/>
+    <line id="edge-32268d4defcafc42f3d02bc79205cef07ae06c82-d3e28db0be0d5a1b7f402784f0e5d41551876ccb" class="exit" x1="459" y1="308" x2="459" y2="332"/>
+    <line id="edge-6dc1e656c17fd1135c8c32f3e887d88341e71a6a-aa73510d8d8d382ce7fba60ef46d3990ea17154e" class="exit" x1="459" y1="283" x2="435" y2="283"/>
+    <line id="edge-9034f05ea5988c9da39e8a4c98f0f42e119012cf-bc1dfc6b3929a692cd42ad767d182947cbc58029" class="exit" x1="435" y1="217" x2="435" y2="308"/>
+    <line id="edge-1fd78d92d81b9cac5f8a0b03eb5d2b1aabfe2ccc-a6b5b1c9025e4f1e8488fd1d224d495dfefbf0f3" class="exit" x1="459" y1="217" x2="487" y2="245"/>
+    <line id="edge-7db17036079cd4fa5bd1516395e4bfebbde36409-a6b5b1c9025e4f1e8488fd1d224d495dfefbf0f3" class="exit" x1="487" y1="154" x2="487" y2="245"/>
+    <line id="edge-6d1ed281aedcd03da35929184e25edbb9e05d95f-7db17036079cd4fa5bd1516395e4bfebbde36409" class="exit" x1="459" y1="126" x2="487" y2="154"/>
+    <line id="edge-7a7088f6af6d8bf26558c4139b476869f8748a13-7db17036079cd4fa5bd1516395e4bfebbde36409" class="exit" x1="487" y1="63" x2="487" y2="154"/>
+    <line id="edge-2cbe2465c6b336ad535edd1d262dba8c5767bcd5-80e55d7eb45d374a851e517007926a388fb0314d" class="exit" x1="132" y1="65" x2="106" y2="92"/>
+    <line id="edge-4ca3eace56fabd9b7e389e1e06cf456d4bbc47a7-80e55d7eb45d374a851e517007926a388fb0314d" class="exit" x1="156" y1="92" x2="106" y2="92"/>
+    <line id="edge-6657b58f7d42e87f81cefcb3c2b941ba44dca088-80e55d7eb45d374a851e517007926a388fb0314d" class="exit" x1="106" y1="65" x2="106" y2="92"/>
+    <line id="edge-80e55d7eb45d374a851e517007926a388fb0314d-d409625b3d159b8211c7dd9a39e343c46e142db7" class="exit" x1="106" y1="92" x2="132" y2="118"/>
+    <line id="edge-6657b58f7d42e87f81cefcb3c2b941ba44dca088-7fc9f5e131d4a7c6244372efc7dfb31821f5f9c8" class="exit" x1="106" y1="65" x2="82" y2="65"/>
+    <line id="edge-043b281a7a2bd4b9a4348a5d7b1c715b19ca1145-2cbe2465c6b336ad535edd1d262dba8c5767bcd5" class="exit" x1="156" y1="65" x2="132" y2="65"/>
+    <line id="edge-4ca3eace56fabd9b7e389e1e06cf456d4bbc47a7-7abf5d3235e3be1fb20ba13e8a8d97cfa2e7b2e1" class="exit" x1="156" y1="92" x2="156" y2="118"/>
+    <line id="edge-1677be8a44b28e03e29fbdecf462798a25be7629-1fd78d92d81b9cac5f8a0b03eb5d2b1aabfe2ccc" class="exit" x1="459" y1="193" x2="459" y2="217"/>
+    <line id="edge-1fd78d92d81b9cac5f8a0b03eb5d2b1aabfe2ccc-61807251fd05be118687d128f921e0e5064f6351" class="exit" x1="459" y1="217" x2="459" y2="241"/>
+    <line id="edge-1fd78d92d81b9cac5f8a0b03eb5d2b1aabfe2ccc-9034f05ea5988c9da39e8a4c98f0f42e119012cf" class="exit" x1="459" y1="217" x2="435" y2="217"/>
+    <line id="edge-50837c26250b086457efd57f18dc7e5c012720cd-9034f05ea5988c9da39e8a4c98f0f42e119012cf" class="exit" x1="435" y1="241" x2="435" y2="217"/>
+    <line id="edge-9034f05ea5988c9da39e8a4c98f0f42e119012cf-e7bd019f6c06a09f9d3c4e88d9ebd4f386316671" class="exit" x1="435" y1="217" x2="435" y2="126"/>
+    <line id="edge-3aa091733a42136402a1c90019234428ebc70a2b-6d1ed281aedcd03da35929184e25edbb9e05d95f" class="exit" x1="459" y1="102" x2="459" y2="126"/>
+    <line id="edge-6d1ed281aedcd03da35929184e25edbb9e05d95f-e7bd019f6c06a09f9d3c4e88d9ebd4f386316671" class="exit" x1="459" y1="126" x2="435" y2="126"/>
+    <line id="edge-3aa091733a42136402a1c90019234428ebc70a2b-7f7ee7f4dd6afc8bce73691979bd390fa975220c" class="exit" x1="459" y1="102" x2="435" y2="102"/>
+    <line id="edge-7f7ee7f4dd6afc8bce73691979bd390fa975220c-e7bd019f6c06a09f9d3c4e88d9ebd4f386316671" class="exit" x1="435" y1="102" x2="435" y2="126"/>
+    <line id="edge-cfe3b0fd1a1dc06de047a219a1c88e5b982d9868-e7bd019f6c06a09f9d3c4e88d9ebd4f386316671" class="exit" x1="435" y1="150" x2="435" y2="126"/>
+  </g>
+
+  <g id="layer-rooms">
+    <rect id="room-454f863eb451dcbbf77ef3ae9e514a63595ffab9" class="room indoor" x="294" y="445" width="16" height="16" rx="4"><title>Bankers&#x27; Guild entrance</title></rect>
+    <rect id="room-3b3c6ad562cc52f8efd9a69a05a6c41a1807a77b" class="room indoor" x="270" y="445" width="16" height="16" rx="4"><title>Bankers&#x27; Guild grand hall</title></rect>
+    <rect id="room-17118332ea8519844f08c5a331a9a3d097e6cd48" class="room indoor" x="246" y="445" width="16" height="16" rx="4"><title>guild branch of Bing&#x27;s Bank</title></rect>
+    <rect id="room-4ffc206f0a39d1d3105df744b8af288e3ecc4ba3" class="room indoor" x="270" y="445" width="16" height="16" rx="4"><title>foyer of the Bankers&#x27; Guild private apartments</title></rect>
+    <rect id="room-13d50edc24a1918ff4109cad399d1b5566fb2b74" class="room indoor" x="155" y="282" width="16" height="16" rx="4"><title>waiting room of the Musicians&#x27; Guild</title></rect>
+    <rect id="room-d656e22f1d7f8d65a430a6bf2be9854ccb8d048f" class="room indoor" x="156" y="257" width="16" height="16" rx="4"><title>office in the Musicians&#x27; Guild</title></rect>
+    <rect id="room-43a9fc9d9acfdc64d7195e459c5dc69aff2e41ed" class="room indoor" x="131" y="257" width="16" height="16" rx="4"><title>meeting room in the Musicians&#x27; Guild</title></rect>
+    <rect id="room-4b8a5f240068cf36abd6ac65ce26232c14f2986f" class="room indoor" x="131" y="283" width="16" height="16" rx="4"><title>shop and craft room</title></rect>
+    <rect id="room-22ff3625b21dcb14ad35a521d4dfa9dc645f8d71" class="room indoor" x="780" y="86" width="16" height="16" rx="4"><title>main entrance of the Butchers&#x27; Guild</title></rect>
+    <rect id="room-7f237c5d36553213aab1972f735868c00d8cabec" class="room indoor" x="804" y="86" width="16" height="16" rx="4"><title>elegant lobby of the Butchers&#x27; Guild</title></rect>
+    <rect id="room-76a768fee2331dfce1dbf12dfcc3a6b71842babd" class="room indoor" x="804" y="62" width="16" height="16" rx="4"><title>inspection area</title></rect>
+    <rect id="room-2381cbfa44760a69fea25b5ee4a52499453ff625" class="room indoor" x="780" y="62" width="16" height="16" rx="4"><title>whitewashed room</title></rect>
+    <rect id="room-b6522672fa381e63b6d74c26912955452523903f" class="room indoor" x="804" y="38" width="16" height="16" rx="4"><title>side entrance of the Butchers&#x27; Guild</title></rect>
+    <rect id="room-dec775b5d640412091a37ec2ca08c3877e1957c8" class="room indoor" x="479" y="300" width="16" height="16" rx="4"><title>courtyard in front of the Guild of Alchemists</title></rect>
+    <rect id="room-8a37aeecce8ab4bb7a3341a7b42fb7f823d3811a" class="room indoor" x="479" y="328" width="16" height="16" rx="4"><title>alley behind the Guild of Alchemists</title></rect>
+    <rect id="room-32268d4defcafc42f3d02bc79205cef07ae06c82" class="room indoor" x="451" y="300" width="16" height="16" rx="4"><title>foyer of the Guild of Alchemists</title></rect>
+    <rect id="room-bf1a617aa15a401a133244efdeabbd483409141f" class="room indoor" x="476" y="275" width="16" height="16" rx="4"><title>Guild of Alchemists Reception</title></rect>
+    <rect id="room-6dc1e656c17fd1135c8c32f3e887d88341e71a6a" class="room indoor" x="451" y="275" width="16" height="16" rx="4"><title>Alchemists&#x27; common room</title></rect>
+    <rect id="room-d3e28db0be0d5a1b7f402784f0e5d41551876ccb" class="room indoor" x="451" y="324" width="16" height="16" rx="4"><title>Guild of Alchemists&#x27; supply shop</title></rect>
+    <rect id="room-bc1dfc6b3929a692cd42ad767d182947cbc58029" class="room indoor" x="427" y="300" width="16" height="16" rx="4"><title>staircase in the Guild of Alchemists</title></rect>
+    <rect id="room-a6b5b1c9025e4f1e8488fd1d224d495dfefbf0f3" class="room indoor" x="479" y="237" width="16" height="16" rx="4"><title>first level of the fire escape</title></rect>
+    <rect id="room-7db17036079cd4fa5bd1516395e4bfebbde36409" class="room indoor" x="479" y="146" width="16" height="16" rx="4"><title>second level of the fire escape</title></rect>
+    <rect id="room-7a7088f6af6d8bf26558c4139b476869f8748a13" class="room indoor" x="479" y="55" width="16" height="16" rx="4"><title>top of the Alchemists&#x27; Guild fire escape</title></rect>
+    <rect id="room-80e55d7eb45d374a851e517007926a388fb0314d" class="room indoor" x="98" y="84" width="16" height="16" rx="4"><title>large courtyard</title></rect>
+    <rect id="room-6657b58f7d42e87f81cefcb3c2b941ba44dca088" class="room indoor" x="98" y="57" width="16" height="16" rx="4"><title>The Mended Pipe</title></rect>
+    <rect id="room-7fc9f5e131d4a7c6244372efc7dfb31821f5f9c8" class="room indoor" x="74" y="57" width="16" height="16" rx="4"><title>Plumbers Guild lounge</title></rect>
+    <rect id="room-2cbe2465c6b336ad535edd1d262dba8c5767bcd5" class="room indoor" x="124" y="57" width="16" height="16" rx="4"><title>reception area for the Guild of Plumbers and Dunnykindivers</title></rect>
+    <rect id="room-043b281a7a2bd4b9a4348a5d7b1c715b19ca1145" class="room indoor" x="148" y="57" width="16" height="16" rx="4"><title>main office of the Guild of Plumbers and Dunnykindivers</title></rect>
+    <rect id="room-4ca3eace56fabd9b7e389e1e06cf456d4bbc47a7" class="room indoor" x="148" y="84" width="16" height="16" rx="4"><title>Plumbers&#x27; Guild shop</title></rect>
+    <rect id="room-7abf5d3235e3be1fb20ba13e8a8d97cfa2e7b2e1" class="room indoor" x="148" y="110" width="16" height="16" rx="4"><title>Plumbers&#x27; Guild shop</title></rect>
+    <rect id="room-d409625b3d159b8211c7dd9a39e343c46e142db7" class="room indoor" x="124" y="110" width="16" height="16" rx="4"><title>bare and dusty storeroom</title></rect>
+    <rect id="room-aa73510d8d8d382ce7fba60ef46d3990ea17154e" class="room indoor" x="427" y="275" width="16" height="16" rx="4"><title>Guild of Alchemists cafeteria</title></rect>
+    <rect id="room-1fd78d92d81b9cac5f8a0b03eb5d2b1aabfe2ccc" class="room indoor" x="451" y="209" width="16" height="16" rx="4"><title>hallway in the Guild of Alchemists</title></rect>
+    <rect id="room-1677be8a44b28e03e29fbdecf462798a25be7629" class="room indoor" x="451" y="185" width="16" height="16" rx="4"><title>food classroom</title></rect>
+    <rect id="room-61807251fd05be118687d128f921e0e5064f6351" class="room indoor" x="451" y="233" width="16" height="16" rx="4"><title>precious metals classroom</title></rect>
+    <rect id="room-9034f05ea5988c9da39e8a4c98f0f42e119012cf" class="room indoor" x="427" y="209" width="16" height="16" rx="4"><title>staircase in the Guild of Alchemists</title></rect>
+    <rect id="room-50837c26250b086457efd57f18dc7e5c012720cd" class="room indoor" x="427" y="233" width="16" height="16" rx="4"><title>library in the Guild of Alchemists</title></rect>
+    <rect id="room-6d1ed281aedcd03da35929184e25edbb9e05d95f" class="room indoor" x="451" y="118" width="16" height="16" rx="4"><title>alchemy lab</title></rect>
+    <rect id="room-3aa091733a42136402a1c90019234428ebc70a2b" class="room indoor" x="451" y="94" width="16" height="16" rx="4"><title>food lab</title></rect>
+    <rect id="room-7f7ee7f4dd6afc8bce73691979bd390fa975220c" class="room indoor" x="427" y="94" width="16" height="16" rx="4"><title>alchemy lab</title></rect>
+    <rect id="room-e7bd019f6c06a09f9d3c4e88d9ebd4f386316671" class="room indoor" x="427" y="118" width="16" height="16" rx="4"><title>staircase in the Guild of Alchemists</title></rect>
+    <rect id="room-cfe3b0fd1a1dc06de047a219a1c88e5b982d9868" class="room indoor" x="427" y="142" width="16" height="16" rx="4"><title>storage closet</title></rect>
+    <rect id="room-95e2d16e220faf6e2d6b55ae1683aeaf85ea4a0e" class="room indoor" x="271" y="429" width="16" height="16" rx="4"><title>empty office</title></rect>
+    <rect id="room-4d987e6f47c0e78b62b96da32a6c580834aa1296" class="room indoor" x="270" y="462" width="16" height="16" rx="4"><title>empty office</title></rect>
+    <rect id="room-ea15856d667e36d30654a42693fc7f0d87902173" class="room indoor" x="756" y="38" width="16" height="16" rx="4"><title>Butchers&#x27; Guild freezer</title></rect>
+  </g>
+
+  <g id="layer-labels">
+    <text class="map-label" x="302" y="441">Bankers&#x27; Guild entrance</text>
+    <text class="map-label" x="278" y="441">Bankers&#x27; Guild grand hall</text>
+    <text class="map-label" x="254" y="441">guild branch of Bing&#x27;s Bank</text>
+    <text class="map-label" x="278" y="441">foyer of the Bankers&#x27; Guild private apartments</text>
+    <text class="map-label" x="163" y="278">waiting room of the Musicians&#x27; Guild</text>
+    <text class="map-label" x="164" y="253">office in the Musicians&#x27; Guild</text>
+    <text class="map-label" x="139" y="253">meeting room in the Musicians&#x27; Guild</text>
+    <text class="map-label" x="139" y="279">shop and craft room</text>
+    <text class="map-label" x="788" y="82">main entrance of the Butchers&#x27; Guild</text>
+    <text class="map-label" x="812" y="82">elegant lobby of the Butchers&#x27; Guild</text>
+    <text class="map-label" x="812" y="58">inspection area</text>
+    <text class="map-label" x="788" y="58">whitewashed room</text>
+    <text class="map-label" x="812" y="34">side entrance of the Butchers&#x27; Guild</text>
+    <text class="map-label" x="487" y="296">courtyard in front of the Guild of Alchemists</text>
+    <text class="map-label" x="487" y="324">alley behind the Guild of Alchemists</text>
+    <text class="map-label" x="459" y="296">foyer of the Guild of Alchemists</text>
+    <text class="map-label" x="484" y="271">Guild of Alchemists Reception</text>
+    <text class="map-label" x="459" y="271">Alchemists&#x27; common room</text>
+    <text class="map-label" x="459" y="320">Guild of Alchemists&#x27; supply shop</text>
+    <text class="map-label" x="435" y="296">staircase in the Guild of Alchemists</text>
+    <text class="map-label" x="487" y="233">first level of the fire escape</text>
+    <text class="map-label" x="487" y="142">second level of the fire escape</text>
+    <text class="map-label" x="487" y="51">top of the Alchemists&#x27; Guild fire escape</text>
+    <text class="map-label" x="106" y="80">large courtyard</text>
+    <text class="map-label" x="106" y="53">The Mended Pipe</text>
+    <text class="map-label" x="82" y="53">Plumbers Guild lounge</text>
+    <text class="map-label" x="132" y="53">reception area for the Guild of Plumbers and Dunnykindivers</text>
+    <text class="map-label" x="156" y="53">main office of the Guild of Plumbers and Dunnykindivers</text>
+    <text class="map-label" x="156" y="80">Plumbers&#x27; Guild shop</text>
+    <text class="map-label" x="156" y="106">Plumbers&#x27; Guild shop</text>
+    <text class="map-label" x="132" y="106">bare and dusty storeroom</text>
+    <text class="map-label" x="435" y="271">Guild of Alchemists cafeteria</text>
+    <text class="map-label" x="459" y="205">hallway in the Guild of Alchemists</text>
+    <text class="map-label" x="459" y="181">food classroom</text>
+    <text class="map-label" x="459" y="229">precious metals classroom</text>
+    <text class="map-label" x="435" y="205">staircase in the Guild of Alchemists</text>
+    <text class="map-label" x="435" y="229">library in the Guild of Alchemists</text>
+    <text class="map-label" x="459" y="114">alchemy lab</text>
+    <text class="map-label" x="459" y="90">food lab</text>
+    <text class="map-label" x="435" y="90">alchemy lab</text>
+    <text class="map-label" x="435" y="114">staircase in the Guild of Alchemists</text>
+    <text class="map-label" x="435" y="138">storage closet</text>
+    <text class="map-label" x="279" y="425">empty office</text>
+    <text class="map-label" x="278" y="458">empty office</text>
+    <text class="map-label" x="764" y="34">Butchers&#x27; Guild freezer</text>
+  </g>
+
+</svg>

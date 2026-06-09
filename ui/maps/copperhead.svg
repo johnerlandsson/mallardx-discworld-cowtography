@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 240 130"
+     class="map-svg"
+     data-map-id="59">
+
+  <g id="layer-artwork"><!-- artwork --></g>
+
+  <g id="layer-exits">
+    <line id="edge-0599afdbf4ccd7fa337394294d59506135dc5dd8-69b0d9b6e6e2d1d3045b9b563cf39478a84a94b0" class="exit" x1="55" y1="47" x2="55" y2="61"/>
+    <line id="edge-0599afdbf4ccd7fa337394294d59506135dc5dd8-6ae6278cf740bf60fd8d6d39fc77860fce85e8ca" class="exit" x1="55" y1="47" x2="69" y2="61"/>
+    <line id="edge-0599afdbf4ccd7fa337394294d59506135dc5dd8-78ab12b18ef21b8b875c848aa1c31a48fe10f546" class="exit" x1="55" y1="47" x2="55" y2="47"/>
+    <line id="edge-0599afdbf4ccd7fa337394294d59506135dc5dd8-cb58661deea9f3d7e0a360a1ead16206c9d60eb6" class="exit" x1="55" y1="47" x2="69" y2="47"/>
+    <line id="edge-0599afdbf4ccd7fa337394294d59506135dc5dd8-ee2bb6f40b325607285b0508906568a37314a98b" class="exit" x1="55" y1="47" x2="55" y2="36"/>
+    <line id="edge-68c387d1c69b7e89da999ebbf8bc4a9d3d595f92-69b0d9b6e6e2d1d3045b9b563cf39478a84a94b0" class="exit" x1="55" y1="75" x2="55" y2="61"/>
+    <line id="edge-69b0d9b6e6e2d1d3045b9b563cf39478a84a94b0-6ae6278cf740bf60fd8d6d39fc77860fce85e8ca" class="exit" x1="55" y1="61" x2="69" y2="61"/>
+    <line id="edge-69b0d9b6e6e2d1d3045b9b563cf39478a84a94b0-cb58661deea9f3d7e0a360a1ead16206c9d60eb6" class="exit" x1="55" y1="61" x2="69" y2="47"/>
+    <line id="edge-49d92a9de117843c348cce0d52d0dd99309c0ac8-6ae6278cf740bf60fd8d6d39fc77860fce85e8ca" class="exit" x1="67" y1="59" x2="69" y2="61"/>
+    <line id="edge-554347c9d007fcbde57c82f53c156469588bb710-6ae6278cf740bf60fd8d6d39fc77860fce85e8ca" class="exit" x1="83" y1="75" x2="69" y2="61"/>
+    <line id="edge-6ae6278cf740bf60fd8d6d39fc77860fce85e8ca-cb58661deea9f3d7e0a360a1ead16206c9d60eb6" class="exit" x1="69" y1="61" x2="69" y2="47"/>
+    <line id="edge-cb58661deea9f3d7e0a360a1ead16206c9d60eb6-d2b53366511991f11de8874a3598a0267707a8b8" class="exit" x1="69" y1="47" x2="80" y2="47"/>
+    <line id="edge-cb58661deea9f3d7e0a360a1ead16206c9d60eb6-dd3b8b435c2620b459aabf4c1dcd1c8bd791d74c" class="exit" x1="69" y1="47" x2="69" y2="36"/>
+    <line id="edge-226b431202e3a3ea0a4c300b289f15919bd77e95-d2b53366511991f11de8874a3598a0267707a8b8" class="exit" x1="80" y1="57" x2="80" y2="47"/>
+    <line id="edge-68c387d1c69b7e89da999ebbf8bc4a9d3d595f92-795b66503f2575895150d078cb8f42d7065fc38a" class="exit" x1="55" y1="75" x2="44" y2="75"/>
+    <line id="edge-68c387d1c69b7e89da999ebbf8bc4a9d3d595f92-a23f2a5acd4c5f57617d551e012cd907699ea01c" class="exit" x1="55" y1="75" x2="55" y2="89"/>
+    <line id="edge-960fcf86a8751c922cbd4328e298188169491afe-a23f2a5acd4c5f57617d551e012cd907699ea01c" class="exit" x1="66" y1="89" x2="55" y2="89"/>
+    <line id="edge-324b719668052bcfda759a1e8d6eebbb2e26bf65-960fcf86a8751c922cbd4328e298188169491afe" class="exit" x1="66" y1="89" x2="66" y2="89"/>
+    <line id="edge-6a1f57c4aa89cd8ef1f3957ffd0b632186cfe387-960fcf86a8751c922cbd4328e298188169491afe" class="exit" x1="66" y1="89" x2="66" y2="89"/>
+    <line id="edge-5971d2fff7558b7b9992832b15d4690389123f9d-795b66503f2575895150d078cb8f42d7065fc38a" class="exit" x1="44" y1="64" x2="44" y2="75"/>
+    <line id="edge-795b66503f2575895150d078cb8f42d7065fc38a-8f19a7ebbef505bb2e5803a318f3cff2bbe5b9b4" class="exit" x1="44" y1="75" x2="33" y2="75"/>
+    <line id="edge-5971d2fff7558b7b9992832b15d4690389123f9d-dbe91b4395adce5e7969a90f5a5a40468c57ab66" class="exit" x1="44" y1="64" x2="33" y2="64"/>
+    <line id="edge-554347c9d007fcbde57c82f53c156469588bb710-5b5c6ad5183c287d4d87e00df3ecf6e663a88c64" class="exit" x1="83" y1="75" x2="83" y2="89"/>
+    <line id="edge-204e80045f0e590c57df02bea7f79469606178ba-5b5c6ad5183c287d4d87e00df3ecf6e663a88c64" class="exit" x1="97" y1="103" x2="83" y2="89"/>
+    <line id="edge-204e80045f0e590c57df02bea7f79469606178ba-9a5fd127925511ee2bab86eb7c1e6774e4c95ce4" class="exit" x1="97" y1="103" x2="164" y2="92"/>
+    <line id="edge-237273ce6444e078c76c0f4275d4c66ea81811a3-9a5fd127925511ee2bab86eb7c1e6774e4c95ce4" class="exit" x1="176" y1="92" x2="164" y2="92"/>
+    <line id="edge-3c394735809737e75e9d4ee3264b90879e1fa34a-9a5fd127925511ee2bab86eb7c1e6774e4c95ce4" class="exit" x1="152" y1="104" x2="164" y2="92"/>
+    <line id="edge-516f7c964d1491ea62368322ce7dbd31a19967de-9a5fd127925511ee2bab86eb7c1e6774e4c95ce4" class="exit" x1="176" y1="80" x2="164" y2="92"/>
+    <line id="edge-679bd4d42bcf95d4bb42053278997bd32be82341-9a5fd127925511ee2bab86eb7c1e6774e4c95ce4" class="exit" x1="164" y1="80" x2="164" y2="92"/>
+    <line id="edge-93c1bd3dbd290cd1ce24823e91b251702fe39c2a-9a5fd127925511ee2bab86eb7c1e6774e4c95ce4" class="exit" x1="164" y1="104" x2="164" y2="92"/>
+    <line id="edge-1b730b1b2da14ce71e06a49dae4de442517cbf25-679bd4d42bcf95d4bb42053278997bd32be82341" class="exit" x1="164" y1="68" x2="164" y2="80"/>
+    <line id="edge-1b730b1b2da14ce71e06a49dae4de442517cbf25-d4fa95f42e2971fc03debb0d5aa11373b92c367b" class="exit" x1="164" y1="68" x2="164" y2="56"/>
+    <line id="edge-aca81468bd2e4d700397d5c57c5dde2b9c0c9ecc-d4fa95f42e2971fc03debb0d5aa11373b92c367b" class="exit" x1="164" y1="44" x2="164" y2="56"/>
+    <line id="edge-aca81468bd2e4d700397d5c57c5dde2b9c0c9ecc-eaa1216480796741b7068944c0273f980e7d2dd5" class="exit" x1="164" y1="44" x2="164" y2="32"/>
+    <line id="edge-516f7c964d1491ea62368322ce7dbd31a19967de-a6d36480d5a771cb77be5863767eee01515288a2" class="exit" x1="176" y1="80" x2="188" y2="68"/>
+    <line id="edge-a6d36480d5a771cb77be5863767eee01515288a2-fba09597be80d95ecc66e9b98e9d4bb59cd18179" class="exit" x1="188" y1="68" x2="200" y2="56"/>
+    <line id="edge-75ae5fc6d2b87ea9d4da8974a2f36b0b5cb18cf5-fba09597be80d95ecc66e9b98e9d4bb59cd18179" class="exit" x1="212" y1="44" x2="200" y2="56"/>
+    <line id="edge-237273ce6444e078c76c0f4275d4c66ea81811a3-6f725b7b9945336162e684661e6c8c5e149d71b3" class="exit" x1="176" y1="92" x2="188" y2="92"/>
+    <line id="edge-6f725b7b9945336162e684661e6c8c5e149d71b3-dfd67a82b490b024b1c07d9ae943d782ee0d92e7" class="exit" x1="188" y1="92" x2="200" y2="92"/>
+    <line id="edge-93c1bd3dbd290cd1ce24823e91b251702fe39c2a-bedb0e8c1dbf3964b432d856edd5efffcf2bd761" class="exit" x1="164" y1="104" x2="164" y2="116"/>
+  </g>
+
+  <g id="layer-rooms">
+    <circle id="room-0599afdbf4ccd7fa337394294d59506135dc5dd8" class="room outdoor" cx="55" cy="47" r="8"><title>northwest corner of the Copperhead village square</title></circle>
+    <circle id="room-69b0d9b6e6e2d1d3045b9b563cf39478a84a94b0" class="room outdoor" cx="55" cy="61" r="8"><title>southwest corner of the Copperhead village square</title></circle>
+    <circle id="room-6ae6278cf740bf60fd8d6d39fc77860fce85e8ca" class="room outdoor" cx="69" cy="61" r="8"><title>southeast corner of the Copperhead village square</title></circle>
+    <circle id="room-cb58661deea9f3d7e0a360a1ead16206c9d60eb6" class="room outdoor" cx="69" cy="47" r="8"><title>northeast corner of the Copperhead village square</title></circle>
+    <circle id="room-ee2bb6f40b325607285b0508906568a37314a98b" class="room outdoor" cx="55" cy="36" r="8"><title>smithy</title></circle>
+    <circle id="room-dd3b8b435c2620b459aabf4c1dcd1c8bd791d74c" class="room outdoor" cx="69" cy="36" r="8"><title>broomstick shop</title></circle>
+    <circle id="room-d2b53366511991f11de8874a3598a0267707a8b8" class="room outdoor" cx="80" cy="47" r="8"><title>high altar of Sandelfon in Copperhead</title></circle>
+    <circle id="room-49d92a9de117843c348cce0d52d0dd99309c0ac8" class="room outdoor" cx="67" cy="59" r="8"><title>rickety stall</title></circle>
+    <circle id="room-68c387d1c69b7e89da999ebbf8bc4a9d3d595f92" class="room outdoor" cx="55" cy="75" r="8"><title>north end of Granite Street</title></circle>
+    <circle id="room-a23f2a5acd4c5f57617d551e012cd907699ea01c" class="room outdoor" cx="55" cy="89" r="8"><title>south end of Granite Street</title></circle>
+    <circle id="room-960fcf86a8751c922cbd4328e298188169491afe" class="room outdoor" cx="66" cy="89" r="8"><title>cottage</title></circle>
+    <circle id="room-795b66503f2575895150d078cb8f42d7065fc38a" class="room outdoor" cx="44" cy="75" r="8"><title>Beard and Badger</title></circle>
+    <circle id="room-8f19a7ebbef505bb2e5803a318f3cff2bbe5b9b4" class="room outdoor" cx="33" cy="75" r="8"><title>garden of the Beard and Badger</title></circle>
+    <circle id="room-5971d2fff7558b7b9992832b15d4690389123f9d" class="room outdoor" cx="44" cy="64" r="8"><title>kitchen of the Beard and Badger</title></circle>
+    <circle id="room-dbe91b4395adce5e7969a90f5a5a40468c57ab66" class="room outdoor" cx="33" cy="64" r="8"><title>kitchen garden of the Beard and Badger</title></circle>
+    <circle id="room-554347c9d007fcbde57c82f53c156469588bb710" class="room outdoor" cx="83" cy="75" r="8"><title>path to the mines</title></circle>
+    <circle id="room-5b5c6ad5183c287d4d87e00df3ecf6e663a88c64" class="room outdoor" cx="83" cy="89" r="8"><title>path to the mines</title></circle>
+    <circle id="room-204e80045f0e590c57df02bea7f79469606178ba" class="room outdoor" cx="97" cy="103" r="8"><title>entrance to a tunnel</title></circle>
+    <circle id="room-9a5fd127925511ee2bab86eb7c1e6774e4c95ce4" class="room outdoor" cx="164" cy="92" r="8"><title>busy intersection</title></circle>
+    <circle id="room-679bd4d42bcf95d4bb42053278997bd32be82341" class="room outdoor" cx="164" cy="80" r="8"><title>tunnel to Mineshaft Five</title></circle>
+    <circle id="room-1b730b1b2da14ce71e06a49dae4de442517cbf25" class="room outdoor" cx="164" cy="68" r="8"><title>tunnel to Mineshaft Five</title></circle>
+    <circle id="room-d4fa95f42e2971fc03debb0d5aa11373b92c367b" class="room outdoor" cx="164" cy="56" r="8"><title>tunnel to Mineshaft Five</title></circle>
+    <circle id="room-aca81468bd2e4d700397d5c57c5dde2b9c0c9ecc" class="room outdoor" cx="164" cy="44" r="8"><title>tunnel to Mineshaft Five</title></circle>
+    <circle id="room-eaa1216480796741b7068944c0273f980e7d2dd5" class="room outdoor" cx="164" cy="32" r="8"><title>entrance to Mineshaft Five</title></circle>
+    <circle id="room-516f7c964d1491ea62368322ce7dbd31a19967de" class="room outdoor" cx="176" cy="80" r="8"><title>tunnel to Mineshaft Four</title></circle>
+    <circle id="room-a6d36480d5a771cb77be5863767eee01515288a2" class="room outdoor" cx="188" cy="68" r="8"><title>tunnel to Mineshaft Four</title></circle>
+    <circle id="room-fba09597be80d95ecc66e9b98e9d4bb59cd18179" class="room outdoor" cx="200" cy="56" r="8"><title>tunnel to Mineshaft Four</title></circle>
+    <circle id="room-75ae5fc6d2b87ea9d4da8974a2f36b0b5cb18cf5" class="room outdoor" cx="212" cy="44" r="8"><title>entrance to Mineshaft Four</title></circle>
+    <circle id="room-3c394735809737e75e9d4ee3264b90879e1fa34a" class="room outdoor" cx="152" cy="104" r="8"><title>entrance to Mineshaft One</title></circle>
+    <circle id="room-237273ce6444e078c76c0f4275d4c66ea81811a3" class="room outdoor" cx="176" cy="92" r="8"><title>tunnel to Mineshaft Three</title></circle>
+    <circle id="room-6f725b7b9945336162e684661e6c8c5e149d71b3" class="room outdoor" cx="188" cy="92" r="8"><title>tunnel to Mineshaft Three</title></circle>
+    <circle id="room-dfd67a82b490b024b1c07d9ae943d782ee0d92e7" class="room outdoor" cx="200" cy="92" r="8"><title>entrance to Mineshaft Three</title></circle>
+    <circle id="room-93c1bd3dbd290cd1ce24823e91b251702fe39c2a" class="room outdoor" cx="164" cy="104" r="8"><title>tunnel to Mineshaft Two</title></circle>
+    <circle id="room-bedb0e8c1dbf3964b432d856edd5efffcf2bd761" class="room outdoor" cx="164" cy="116" r="8"><title>entrance to Mineshaft Two</title></circle>
+    <circle id="room-78ab12b18ef21b8b875c848aa1c31a48fe10f546" class="room outdoor" cx="55" cy="47" r="8"><title>[player shop]</title></circle>
+    <circle id="room-226b431202e3a3ea0a4c300b289f15919bd77e95" class="room outdoor" cx="80" cy="57" r="8"><title>holy corridor</title></circle>
+    <circle id="room-6a1f57c4aa89cd8ef1f3957ffd0b632186cfe387" class="room outdoor" cx="66" cy="89" r="8"><title>[player house]</title></circle>
+    <circle id="room-324b719668052bcfda759a1e8d6eebbb2e26bf65" class="room outdoor" cx="66" cy="89" r="8"><title>[player house]</title></circle>
+  </g>
+
+  <g id="layer-labels">
+    <text class="map-label" x="55" y="35">northwest corner of the Copperhead village square</text>
+    <text class="map-label" x="55" y="49">southwest corner of the Copperhead village square</text>
+    <text class="map-label" x="69" y="49">southeast corner of the Copperhead village square</text>
+    <text class="map-label" x="69" y="35">northeast corner of the Copperhead village square</text>
+    <text class="map-label" x="55" y="24">smithy</text>
+    <text class="map-label" x="69" y="24">broomstick shop</text>
+    <text class="map-label" x="80" y="35">high altar of Sandelfon in Copperhead</text>
+    <text class="map-label" x="67" y="47">rickety stall</text>
+    <text class="map-label" x="55" y="63">north end of Granite Street</text>
+    <text class="map-label" x="55" y="77">south end of Granite Street</text>
+    <text class="map-label" x="66" y="77">cottage</text>
+    <text class="map-label" x="44" y="63">Beard and Badger</text>
+    <text class="map-label" x="33" y="63">garden of the Beard and Badger</text>
+    <text class="map-label" x="44" y="52">kitchen of the Beard and Badger</text>
+    <text class="map-label" x="33" y="52">kitchen garden of the Beard and Badger</text>
+    <text class="map-label" x="83" y="63">path to the mines</text>
+    <text class="map-label" x="83" y="77">path to the mines</text>
+    <text class="map-label" x="97" y="91">entrance to a tunnel</text>
+    <text class="map-label" x="164" y="80">busy intersection</text>
+    <text class="map-label" x="164" y="68">tunnel to Mineshaft Five</text>
+    <text class="map-label" x="164" y="56">tunnel to Mineshaft Five</text>
+    <text class="map-label" x="164" y="44">tunnel to Mineshaft Five</text>
+    <text class="map-label" x="164" y="32">tunnel to Mineshaft Five</text>
+    <text class="map-label" x="164" y="20">entrance to Mineshaft Five</text>
+    <text class="map-label" x="176" y="68">tunnel to Mineshaft Four</text>
+    <text class="map-label" x="188" y="56">tunnel to Mineshaft Four</text>
+    <text class="map-label" x="200" y="44">tunnel to Mineshaft Four</text>
+    <text class="map-label" x="212" y="32">entrance to Mineshaft Four</text>
+    <text class="map-label" x="152" y="92">entrance to Mineshaft One</text>
+    <text class="map-label" x="176" y="80">tunnel to Mineshaft Three</text>
+    <text class="map-label" x="188" y="80">tunnel to Mineshaft Three</text>
+    <text class="map-label" x="200" y="80">entrance to Mineshaft Three</text>
+    <text class="map-label" x="164" y="92">tunnel to Mineshaft Two</text>
+    <text class="map-label" x="164" y="104">entrance to Mineshaft Two</text>
+    <text class="map-label" x="55" y="35">[player shop]</text>
+    <text class="map-label" x="80" y="45">holy corridor</text>
+    <text class="map-label" x="66" y="77">[player house]</text>
+    <text class="map-label" x="66" y="77">[player house]</text>
+  </g>
+
+</svg>

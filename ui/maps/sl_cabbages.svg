@@ -1,0 +1,218 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 341 360"
+     class="map-svg"
+     data-map-id="41">
+
+  <g id="layer-artwork"><!-- artwork --></g>
+
+  <g id="layer-exits">
+    <line id="edge-c1d633be3697cdef18780c5cbca5f10354b7300c-d9003e3939c92816b37eabefecef2fa08b778d19" class="exit" x1="60" y1="92" x2="80" y2="93"/>
+    <line id="edge-6f5a1ec44692592947f1dd6ed7d693b106e893e2-d9003e3939c92816b37eabefecef2fa08b778d19" class="exit" x1="80" y1="112" x2="80" y2="93"/>
+    <line id="edge-bb0986a601493c056bec6338a4bf44fc2fdc60fe-d9003e3939c92816b37eabefecef2fa08b778d19" class="exit" x1="80" y1="73" x2="80" y2="93"/>
+    <line id="edge-17986fb402588789425bb0c433431a27388230b3-bb0986a601493c056bec6338a4bf44fc2fdc60fe" class="exit" x1="100" y1="73" x2="80" y2="73"/>
+    <line id="edge-17986fb402588789425bb0c433431a27388230b3-8b772690dcb5b396f949728f61877d2d1de4dd02" class="exit" x1="100" y1="73" x2="100" y2="45"/>
+    <line id="edge-17986fb402588789425bb0c433431a27388230b3-fb58b32843e4f854b33e18257ebf195ff77b183b" class="exit" x1="100" y1="73" x2="100" y2="100"/>
+    <line id="edge-063430e9bd06ed7a5aef82b80fda4492c6ff7a6a-fb58b32843e4f854b33e18257ebf195ff77b183b" class="exit" x1="100" y1="128" x2="100" y2="100"/>
+    <line id="edge-8b772690dcb5b396f949728f61877d2d1de4dd02-f679b0bec3f454b4520e3662ed03bf25446f5b3e" class="exit" x1="100" y1="45" x2="100" y2="17"/>
+    <line id="edge-4ba7ab5eae6c03776443a0aba35245b45c651887-f679b0bec3f454b4520e3662ed03bf25446f5b3e" class="exit" x1="128" y1="17" x2="100" y2="17"/>
+    <line id="edge-4ba7ab5eae6c03776443a0aba35245b45c651887-7cfc556a15eed5f93e7cf8a6819a038f5ce708d0" class="exit" x1="128" y1="17" x2="156" y2="17"/>
+    <line id="edge-39a06d5b253c1e33492879f46ca7debf9a5ec965-7cfc556a15eed5f93e7cf8a6819a038f5ce708d0" class="exit" x1="184" y1="17" x2="156" y2="17"/>
+    <line id="edge-7cfc556a15eed5f93e7cf8a6819a038f5ce708d0-e54c259e9074de90b4d0b4abd7c907c6b3bde63a" class="exit" x1="156" y1="17" x2="156" y2="45"/>
+    <line id="edge-6a4c7d8b1739760a122060a03d8dca31ac442c1e-e54c259e9074de90b4d0b4abd7c907c6b3bde63a" class="exit" x1="184" y1="45" x2="156" y2="45"/>
+    <line id="edge-2234818384c30c06c0006bd61e5bf1955fa2bd4e-6a4c7d8b1739760a122060a03d8dca31ac442c1e" class="exit" x1="212" y1="45" x2="184" y2="45"/>
+    <line id="edge-2234818384c30c06c0006bd61e5bf1955fa2bd4e-b940127fd54fafb83e8e07f2c9b52f4b7203e3fd" class="exit" x1="212" y1="45" x2="212" y2="73"/>
+    <line id="edge-b940127fd54fafb83e8e07f2c9b52f4b7203e3fd-f3be0557065a8876468ab0e2df74d43555e2e6c2" class="exit" x1="212" y1="73" x2="212" y2="100"/>
+    <line id="edge-3c643bdecd6a9268c6d53035c2b0f61d519b7007-f3be0557065a8876468ab0e2df74d43555e2e6c2" class="exit" x1="184" y1="100" x2="212" y2="100"/>
+    <line id="edge-a3712e88a489a03e0dafa81c4b78ec05eb5c618d-f3be0557065a8876468ab0e2df74d43555e2e6c2" class="exit" x1="212" y1="128" x2="212" y2="100"/>
+    <line id="edge-8c4f010fd137876f5f0c6c731184b0c620b959fe-a3712e88a489a03e0dafa81c4b78ec05eb5c618d" class="exit" x1="212" y1="156" x2="212" y2="128"/>
+    <line id="edge-8c4f010fd137876f5f0c6c731184b0c620b959fe-c7cba832095546223d0fd519d7cff0d8916583a0" class="exit" x1="212" y1="156" x2="240" y2="156"/>
+    <line id="edge-c7cba832095546223d0fd519d7cff0d8916583a0-cc0039381525f1e9c7945a47dbc20af0f2b159ba" class="exit" x1="240" y1="156" x2="268" y2="156"/>
+    <line id="edge-634a14309cbd9c92144cc9167dc339e0577c3c6d-cc0039381525f1e9c7945a47dbc20af0f2b159ba" class="exit" x1="268" y1="128" x2="268" y2="156"/>
+    <line id="edge-0052fb1424909efe71fcd7c9dea14e660a468660-634a14309cbd9c92144cc9167dc339e0577c3c6d" class="exit" x1="268" y1="100" x2="268" y2="128"/>
+    <line id="edge-0052fb1424909efe71fcd7c9dea14e660a468660-c03c516ac204b83845bf1f29fe3d7f41189b592b" class="exit" x1="268" y1="100" x2="296" y2="100"/>
+    <line id="edge-c03c516ac204b83845bf1f29fe3d7f41189b592b-f0323184b905106e8e597777fc3bffb03e2f10af" class="exit" x1="296" y1="100" x2="296" y2="73"/>
+    <line id="edge-2871782d21bc8f86edea5d1cd6b5bc8c4a2fd017-f0323184b905106e8e597777fc3bffb03e2f10af" class="exit" x1="268" y1="73" x2="296" y2="73"/>
+    <line id="edge-2871782d21bc8f86edea5d1cd6b5bc8c4a2fd017-f1028cea18efc3058c20ca65c3427c195015d245" class="exit" x1="268" y1="73" x2="268" y2="45"/>
+    <line id="edge-7f7550788f1970800f1f7fa299afccf9e813458c-f1028cea18efc3058c20ca65c3427c195015d245" class="exit" x1="268" y1="17" x2="268" y2="45"/>
+    <line id="edge-0dedabf37c8246069c2a4b208ed79f536c1ba1a8-7f7550788f1970800f1f7fa299afccf9e813458c" class="exit" x1="296" y1="17" x2="268" y2="17"/>
+    <line id="edge-0dedabf37c8246069c2a4b208ed79f536c1ba1a8-394cbeb112b59ad56f371513eebd40f18bac3104" class="exit" x1="296" y1="17" x2="296" y2="45"/>
+    <line id="edge-394cbeb112b59ad56f371513eebd40f18bac3104-83ee53640da86544dfca3f3702bc605d79af1578" class="exit" x1="296" y1="45" x2="324" y2="45"/>
+    <line id="edge-4bd4da576500d2cef09ae5b30f10c3a1cc95250b-83ee53640da86544dfca3f3702bc605d79af1578" class="exit" x1="324" y1="17" x2="324" y2="45"/>
+    <line id="edge-74f018779b13c56655113f9e1f317a2dd579c26c-83ee53640da86544dfca3f3702bc605d79af1578" class="exit" x1="324" y1="73" x2="324" y2="45"/>
+    <line id="edge-6db3ac567a03389955e64179493095f53ac0cce3-74f018779b13c56655113f9e1f317a2dd579c26c" class="exit" x1="324" y1="100" x2="324" y2="73"/>
+    <line id="edge-6db3ac567a03389955e64179493095f53ac0cce3-bc3730285b25867d3d9d67e9eccb211021b37b80" class="exit" x1="324" y1="100" x2="324" y2="128"/>
+    <line id="edge-043e3697cfd59a19c67a8a187d8f5fca54658c46-bc3730285b25867d3d9d67e9eccb211021b37b80" class="exit" x1="296" y1="128" x2="324" y2="128"/>
+    <line id="edge-9ddfacdd68615f71d03987a140e7538cf8452481-bc3730285b25867d3d9d67e9eccb211021b37b80" class="exit" x1="324" y1="156" x2="324" y2="128"/>
+    <line id="edge-043e3697cfd59a19c67a8a187d8f5fca54658c46-4a833b2650a419539f1b7061fca96945f21d8658" class="exit" x1="296" y1="128" x2="296" y2="156"/>
+    <line id="edge-4a833b2650a419539f1b7061fca96945f21d8658-9ddfacdd68615f71d03987a140e7538cf8452481" class="exit" x1="296" y1="156" x2="324" y2="156"/>
+    <line id="edge-3c643bdecd6a9268c6d53035c2b0f61d519b7007-c7e491f92777b498e765d2e3a3eb971c4529de64" class="exit" x1="184" y1="100" x2="156" y2="100"/>
+    <line id="edge-0d48a11481f1255de948bfb3649af9c96d27399b-c7e491f92777b498e765d2e3a3eb971c4529de64" class="exit" x1="128" y1="100" x2="156" y2="100"/>
+    <line id="edge-0d48a11481f1255de948bfb3649af9c96d27399b-14c3d366a1254166d3d70e71b3c0d9f308434091" class="exit" x1="128" y1="100" x2="128" y2="128"/>
+    <line id="edge-14c3d366a1254166d3d70e71b3c0d9f308434091-e7360f92d97836640cce81272b10582746d41a1b" class="exit" x1="128" y1="128" x2="128" y2="156"/>
+    <line id="edge-75cfe242a51ecc4c04b6b3e7e59c69b927ba6043-e7360f92d97836640cce81272b10582746d41a1b" class="exit" x1="100" y1="156" x2="128" y2="156"/>
+    <line id="edge-063430e9bd06ed7a5aef82b80fda4492c6ff7a6a-75cfe242a51ecc4c04b6b3e7e59c69b927ba6043" class="exit" x1="100" y1="128" x2="100" y2="156"/>
+    <line id="edge-64d6d1d90028fd702c663423062e7214054f9f3e-d05158a82ede6acaadbb35a9fe06bbbcdae1a291" class="exit" x1="181" y1="226" x2="205" y2="226"/>
+    <line id="edge-64d6d1d90028fd702c663423062e7214054f9f3e-e84da93d1196746be8726310087f31eb9c010a54" class="exit" x1="181" y1="226" x2="157" y2="226"/>
+    <line id="edge-e84da93d1196746be8726310087f31eb9c010a54-f2ec167ea4819ce142e037fb1995d9ebde73cc73" class="exit" x1="157" y1="226" x2="133" y2="226"/>
+    <line id="edge-2daa721a4db53423d2baf4c84b6baaba3aa653f4-d05158a82ede6acaadbb35a9fe06bbbcdae1a291" class="exit" x1="229" y1="226" x2="205" y2="226"/>
+    <line id="edge-2daa721a4db53423d2baf4c84b6baaba3aa653f4-931ad2b48e46f7e0d5ad9e21fbcc978bb403d9cd" class="exit" x1="229" y1="226" x2="229" y2="250"/>
+    <line id="edge-2daa721a4db53423d2baf4c84b6baaba3aa653f4-b6cf31d5a65f45c486181f7c5c5ad92e685dff86" class="exit" x1="229" y1="226" x2="253" y2="226"/>
+    <line id="edge-9f6077aa3509111d92a3f90b575fac9a3ed6ec28-b6cf31d5a65f45c486181f7c5c5ad92e685dff86" class="exit" x1="277" y1="226" x2="253" y2="226"/>
+    <line id="edge-99d1ceed6b6c0dd26b83ff6a9325575933beaacf-9f6077aa3509111d92a3f90b575fac9a3ed6ec28" class="exit" x1="301" y1="226" x2="277" y2="226"/>
+    <line id="edge-9f6077aa3509111d92a3f90b575fac9a3ed6ec28-aa73697ae770c5c6bed253076e24dabf11724f46" class="exit" x1="277" y1="226" x2="277" y2="250"/>
+    <line id="edge-7ac13c6d34a2e349b077ec90ef322ae9222d4bda-aa73697ae770c5c6bed253076e24dabf11724f46" class="exit" x1="277" y1="274" x2="277" y2="250"/>
+    <line id="edge-19f61e44e91eef3eb9ffad85c2dcb41a355d7197-7ac13c6d34a2e349b077ec90ef322ae9222d4bda" class="exit" x1="301" y1="274" x2="277" y2="274"/>
+    <line id="edge-1dfdde6c679bb1c18edb099a73e251e442466c3e-7ac13c6d34a2e349b077ec90ef322ae9222d4bda" class="exit" x1="253" y1="274" x2="277" y2="274"/>
+    <line id="edge-7ac13c6d34a2e349b077ec90ef322ae9222d4bda-8e2d1bd289e3a7545941e7bda84fae962b3cbfec" class="exit" x1="277" y1="274" x2="277" y2="298"/>
+    <line id="edge-1dfdde6c679bb1c18edb099a73e251e442466c3e-fba5e8c646e40cd2899b5cac2c5bd764407a0630" class="exit" x1="253" y1="274" x2="229" y2="274"/>
+    <line id="edge-5540677adf23e94615203ac672b45a724c587959-fba5e8c646e40cd2899b5cac2c5bd764407a0630" class="exit" x1="229" y1="298" x2="229" y2="274"/>
+    <line id="edge-931ad2b48e46f7e0d5ad9e21fbcc978bb403d9cd-fba5e8c646e40cd2899b5cac2c5bd764407a0630" class="exit" x1="229" y1="250" x2="229" y2="274"/>
+    <line id="edge-fba5e8c646e40cd2899b5cac2c5bd764407a0630-fdb218df00c840c7b0d502cf2ebdd8af9877e254" class="exit" x1="229" y1="274" x2="205" y2="274"/>
+    <line id="edge-53ee41e63a645b7f4712cc282c0de223d30cfe6a-fdb218df00c840c7b0d502cf2ebdd8af9877e254" class="exit" x1="181" y1="274" x2="205" y2="274"/>
+    <line id="edge-4f10c844fc306eb23a55731a58a5ed2328e326d9-53ee41e63a645b7f4712cc282c0de223d30cfe6a" class="exit" x1="157" y1="274" x2="181" y2="274"/>
+    <line id="edge-2163c368df267ae0ec27fda62600c76c2aa58251-4f10c844fc306eb23a55731a58a5ed2328e326d9" class="exit" x1="133" y1="274" x2="157" y2="274"/>
+    <line id="edge-0293faf20b87da5c0564862bc7905819bf1add13-19f61e44e91eef3eb9ffad85c2dcb41a355d7197" class="exit" x1="325" y1="274" x2="301" y2="274"/>
+    <line id="edge-1f818b79d7e1f35ba0f6b9f98541a4083d9a1588-99d1ceed6b6c0dd26b83ff6a9325575933beaacf" class="exit" x1="325" y1="226" x2="301" y2="226"/>
+  </g>
+
+  <g id="layer-rooms">
+    <rect id="room-c1d633be3697cdef18780c5cbca5f10354b7300c" class="room indoor" x="52" y="84" width="16" height="16" rx="4"><title>warehouse loading dock</title></rect>
+    <rect id="room-d9003e3939c92816b37eabefecef2fa08b778d19" class="room indoor" x="72" y="85" width="16" height="16" rx="4"><title>warehouse inside</title></rect>
+    <rect id="room-6f5a1ec44692592947f1dd6ed7d693b106e893e2" class="room indoor" x="72" y="104" width="16" height="16" rx="4"><title>office in a cabbage warehouse</title></rect>
+    <rect id="room-bb0986a601493c056bec6338a4bf44fc2fdc60fe" class="room indoor" x="72" y="65" width="16" height="16" rx="4"><title>somewhere in a vast cabbage warehouse</title></rect>
+    <rect id="room-17986fb402588789425bb0c433431a27388230b3" class="room indoor" x="92" y="65" width="16" height="16" rx="4"><title>somewhere in a vast cabbage warehouse</title></rect>
+    <rect id="room-fb58b32843e4f854b33e18257ebf195ff77b183b" class="room indoor" x="92" y="92" width="16" height="16" rx="4"><title>somewhere in a vast cabbage warehouse</title></rect>
+    <rect id="room-8b772690dcb5b396f949728f61877d2d1de4dd02" class="room indoor" x="92" y="37" width="16" height="16" rx="4"><title>somewhere in a vast cabbage warehouse</title></rect>
+    <rect id="room-f679b0bec3f454b4520e3662ed03bf25446f5b3e" class="room indoor" x="92" y="9" width="16" height="16" rx="4"><title>somewhere in a vast cabbage warehouse</title></rect>
+    <rect id="room-4ba7ab5eae6c03776443a0aba35245b45c651887" class="room indoor" x="120" y="9" width="16" height="16" rx="4"><title>somewhere in a vast cabbage warehouse</title></rect>
+    <rect id="room-7cfc556a15eed5f93e7cf8a6819a038f5ce708d0" class="room indoor" x="148" y="9" width="16" height="16" rx="4"><title>somewhere in a vast cabbage warehouse</title></rect>
+    <rect id="room-39a06d5b253c1e33492879f46ca7debf9a5ec965" class="room indoor" x="176" y="9" width="16" height="16" rx="4"><title>somewhere in a vast cabbage warehouse</title></rect>
+    <rect id="room-e54c259e9074de90b4d0b4abd7c907c6b3bde63a" class="room indoor" x="148" y="37" width="16" height="16" rx="4"><title>somewhere in a vast cabbage warehouse</title></rect>
+    <rect id="room-6a4c7d8b1739760a122060a03d8dca31ac442c1e" class="room indoor" x="176" y="37" width="16" height="16" rx="4"><title>somewhere in a vast cabbage warehouse</title></rect>
+    <rect id="room-2234818384c30c06c0006bd61e5bf1955fa2bd4e" class="room indoor" x="204" y="37" width="16" height="16" rx="4"><title>somewhere in a vast cabbage warehouse</title></rect>
+    <rect id="room-b940127fd54fafb83e8e07f2c9b52f4b7203e3fd" class="room indoor" x="204" y="65" width="16" height="16" rx="4"><title>somewhere in a vast cabbage warehouse</title></rect>
+    <rect id="room-f3be0557065a8876468ab0e2df74d43555e2e6c2" class="room indoor" x="204" y="92" width="16" height="16" rx="4"><title>somewhere in a vast cabbage warehouse</title></rect>
+    <rect id="room-a3712e88a489a03e0dafa81c4b78ec05eb5c618d" class="room indoor" x="204" y="120" width="16" height="16" rx="4"><title>somewhere in a vast cabbage warehouse</title></rect>
+    <rect id="room-8c4f010fd137876f5f0c6c731184b0c620b959fe" class="room indoor" x="204" y="148" width="16" height="16" rx="4"><title>somewhere in a vast cabbage warehouse</title></rect>
+    <rect id="room-c7cba832095546223d0fd519d7cff0d8916583a0" class="room indoor" x="232" y="148" width="16" height="16" rx="4"><title>between vast stacks of menacing cabbage crates</title></rect>
+    <rect id="room-cc0039381525f1e9c7945a47dbc20af0f2b159ba" class="room indoor" x="260" y="148" width="16" height="16" rx="4"><title>between vast stacks of menacing cabbage crates</title></rect>
+    <rect id="room-634a14309cbd9c92144cc9167dc339e0577c3c6d" class="room indoor" x="260" y="120" width="16" height="16" rx="4"><title>between vast stacks of menacing cabbage crates</title></rect>
+    <rect id="room-0052fb1424909efe71fcd7c9dea14e660a468660" class="room indoor" x="260" y="92" width="16" height="16" rx="4"><title>between vast stacks of menacing cabbage crates</title></rect>
+    <rect id="room-c03c516ac204b83845bf1f29fe3d7f41189b592b" class="room indoor" x="288" y="92" width="16" height="16" rx="4"><title>between vast stacks of menacing cabbage crates</title></rect>
+    <rect id="room-f0323184b905106e8e597777fc3bffb03e2f10af" class="room indoor" x="288" y="65" width="16" height="16" rx="4"><title>between vast stacks of menacing cabbage crates</title></rect>
+    <rect id="room-2871782d21bc8f86edea5d1cd6b5bc8c4a2fd017" class="room indoor" x="260" y="65" width="16" height="16" rx="4"><title>between vast stacks of menacing cabbage crates</title></rect>
+    <rect id="room-f1028cea18efc3058c20ca65c3427c195015d245" class="room indoor" x="260" y="37" width="16" height="16" rx="4"><title>between vast stacks of menacing cabbage crates</title></rect>
+    <rect id="room-7f7550788f1970800f1f7fa299afccf9e813458c" class="room indoor" x="260" y="9" width="16" height="16" rx="4"><title>between vast stacks of menacing cabbage crates</title></rect>
+    <rect id="room-0dedabf37c8246069c2a4b208ed79f536c1ba1a8" class="room indoor" x="288" y="9" width="16" height="16" rx="4"><title>between vast stacks of menacing cabbage crates</title></rect>
+    <rect id="room-394cbeb112b59ad56f371513eebd40f18bac3104" class="room indoor" x="288" y="37" width="16" height="16" rx="4"><title>between vast stacks of menacing cabbage crates</title></rect>
+    <rect id="room-83ee53640da86544dfca3f3702bc605d79af1578" class="room indoor" x="316" y="37" width="16" height="16" rx="4"><title>between vast stacks of menacing cabbage crates</title></rect>
+    <rect id="room-4bd4da576500d2cef09ae5b30f10c3a1cc95250b" class="room indoor" x="316" y="9" width="16" height="16" rx="4"><title>between vast stacks of menacing cabbage crates</title></rect>
+    <rect id="room-74f018779b13c56655113f9e1f317a2dd579c26c" class="room indoor" x="316" y="65" width="16" height="16" rx="4"><title>between vast stacks of menacing cabbage crates</title></rect>
+    <rect id="room-6db3ac567a03389955e64179493095f53ac0cce3" class="room indoor" x="316" y="92" width="16" height="16" rx="4"><title>between vast stacks of menacing cabbage crates</title></rect>
+    <rect id="room-bc3730285b25867d3d9d67e9eccb211021b37b80" class="room indoor" x="316" y="120" width="16" height="16" rx="4"><title>between vast stacks of menacing cabbage crates</title></rect>
+    <rect id="room-043e3697cfd59a19c67a8a187d8f5fca54658c46" class="room indoor" x="288" y="120" width="16" height="16" rx="4"><title>between vast stacks of menacing cabbage crates</title></rect>
+    <rect id="room-4a833b2650a419539f1b7061fca96945f21d8658" class="room indoor" x="288" y="148" width="16" height="16" rx="4"><title>between vast stacks of menacing cabbage crates</title></rect>
+    <rect id="room-9ddfacdd68615f71d03987a140e7538cf8452481" class="room indoor" x="316" y="148" width="16" height="16" rx="4"><title>between vast stacks of menacing cabbage crates</title></rect>
+    <rect id="room-3c643bdecd6a9268c6d53035c2b0f61d519b7007" class="room indoor" x="176" y="92" width="16" height="16" rx="4"><title>somewhere in a vast cabbage warehouse</title></rect>
+    <rect id="room-c7e491f92777b498e765d2e3a3eb971c4529de64" class="room indoor" x="148" y="92" width="16" height="16" rx="4"><title>somewhere in a vast cabbage warehouse</title></rect>
+    <rect id="room-0d48a11481f1255de948bfb3649af9c96d27399b" class="room indoor" x="120" y="92" width="16" height="16" rx="4"><title>somewhere in a vast cabbage warehouse</title></rect>
+    <rect id="room-14c3d366a1254166d3d70e71b3c0d9f308434091" class="room indoor" x="120" y="120" width="16" height="16" rx="4"><title>somewhere in a vast cabbage warehouse</title></rect>
+    <rect id="room-e7360f92d97836640cce81272b10582746d41a1b" class="room indoor" x="120" y="148" width="16" height="16" rx="4"><title>somewhere in a vast cabbage warehouse</title></rect>
+    <rect id="room-75cfe242a51ecc4c04b6b3e7e59c69b927ba6043" class="room indoor" x="92" y="148" width="16" height="16" rx="4"><title>somewhere in a vast cabbage warehouse</title></rect>
+    <rect id="room-063430e9bd06ed7a5aef82b80fda4492c6ff7a6a" class="room indoor" x="92" y="120" width="16" height="16" rx="4"><title>somewhere in a vast cabbage warehouse</title></rect>
+    <rect id="room-64d6d1d90028fd702c663423062e7214054f9f3e" class="room indoor" x="173" y="218" width="16" height="16" rx="4"><title>rafters high above the floor of a cabbage warehouse</title></rect>
+    <rect id="room-e84da93d1196746be8726310087f31eb9c010a54" class="room indoor" x="149" y="218" width="16" height="16" rx="4"><title>rafters high above the floor of a cabbage warehouse</title></rect>
+    <rect id="room-f2ec167ea4819ce142e037fb1995d9ebde73cc73" class="room indoor" x="125" y="218" width="16" height="16" rx="4"><title>rafters high above the floor of a cabbage warehouse</title></rect>
+    <rect id="room-d05158a82ede6acaadbb35a9fe06bbbcdae1a291" class="room indoor" x="197" y="218" width="16" height="16" rx="4"><title>rafters high above the floor of a cabbage warehouse</title></rect>
+    <rect id="room-2daa721a4db53423d2baf4c84b6baaba3aa653f4" class="room indoor" x="221" y="218" width="16" height="16" rx="4"><title>rafters high above the floor of a cabbage warehouse</title></rect>
+    <rect id="room-b6cf31d5a65f45c486181f7c5c5ad92e685dff86" class="room indoor" x="245" y="218" width="16" height="16" rx="4"><title>rafters high above the floor of a cabbage warehouse</title></rect>
+    <rect id="room-9f6077aa3509111d92a3f90b575fac9a3ed6ec28" class="room indoor" x="269" y="218" width="16" height="16" rx="4"><title>rafters high above the floor of a cabbage warehouse</title></rect>
+    <rect id="room-aa73697ae770c5c6bed253076e24dabf11724f46" class="room indoor" x="269" y="242" width="16" height="16" rx="4"><title>rafters high above the floor of a cabbage warehouse</title></rect>
+    <rect id="room-7ac13c6d34a2e349b077ec90ef322ae9222d4bda" class="room indoor" x="269" y="266" width="16" height="16" rx="4"><title>rafters high above the floor of a cabbage warehouse</title></rect>
+    <rect id="room-1dfdde6c679bb1c18edb099a73e251e442466c3e" class="room indoor" x="245" y="266" width="16" height="16" rx="4"><title>rafters high above the floor of a cabbage warehouse</title></rect>
+    <rect id="room-fba5e8c646e40cd2899b5cac2c5bd764407a0630" class="room indoor" x="221" y="266" width="16" height="16" rx="4"><title>rafters high above the floor of a cabbage warehouse</title></rect>
+    <rect id="room-fdb218df00c840c7b0d502cf2ebdd8af9877e254" class="room indoor" x="197" y="266" width="16" height="16" rx="4"><title>rafters high above the floor of a cabbage warehouse</title></rect>
+    <rect id="room-53ee41e63a645b7f4712cc282c0de223d30cfe6a" class="room indoor" x="173" y="266" width="16" height="16" rx="4"><title>rafters high above the floor of a cabbage warehouse</title></rect>
+    <rect id="room-4f10c844fc306eb23a55731a58a5ed2328e326d9" class="room indoor" x="149" y="266" width="16" height="16" rx="4"><title>rafters high above the floor of a cabbage warehouse</title></rect>
+    <rect id="room-2163c368df267ae0ec27fda62600c76c2aa58251" class="room indoor" x="125" y="266" width="16" height="16" rx="4"><title>rafters high above the floor of a cabbage warehouse</title></rect>
+    <rect id="room-5540677adf23e94615203ac672b45a724c587959" class="room indoor" x="221" y="290" width="16" height="16" rx="4"><title>rafters high above the floor of a cabbage warehouse</title></rect>
+    <rect id="room-8e2d1bd289e3a7545941e7bda84fae962b3cbfec" class="room indoor" x="269" y="290" width="16" height="16" rx="4"><title>rafters high above the floor of a cabbage warehouse</title></rect>
+    <rect id="room-19f61e44e91eef3eb9ffad85c2dcb41a355d7197" class="room indoor" x="293" y="266" width="16" height="16" rx="4"><title>rafters high above the floor of a cabbage warehouse</title></rect>
+    <rect id="room-0293faf20b87da5c0564862bc7905819bf1add13" class="room indoor" x="317" y="266" width="16" height="16" rx="4"><title>rafters high above the floor of a cabbage warehouse</title></rect>
+    <rect id="room-99d1ceed6b6c0dd26b83ff6a9325575933beaacf" class="room indoor" x="293" y="218" width="16" height="16" rx="4"><title>rafters high above the floor of a cabbage warehouse</title></rect>
+    <rect id="room-1f818b79d7e1f35ba0f6b9f98541a4083d9a1588" class="room indoor" x="317" y="218" width="16" height="16" rx="4"><title>rafters high above the floor of a cabbage warehouse</title></rect>
+    <rect id="room-931ad2b48e46f7e0d5ad9e21fbcc978bb403d9cd" class="room indoor" x="221" y="242" width="16" height="16" rx="4"><title>rafters high above the floor of a cabbage warehouse</title></rect>
+    <rect id="room-64b31ad0f1ae7e59e3eff091352885bb534db323" class="room indoor" x="269" y="314" width="16" height="16" rx="4"><title>secret attic in the warehouse</title></rect>
+  </g>
+
+  <g id="layer-labels">
+    <text class="map-label" x="60" y="80">warehouse loading dock</text>
+    <text class="map-label" x="80" y="81">warehouse inside</text>
+    <text class="map-label" x="80" y="100">office in a cabbage warehouse</text>
+    <text class="map-label" x="80" y="61">somewhere in a vast cabbage warehouse</text>
+    <text class="map-label" x="100" y="61">somewhere in a vast cabbage warehouse</text>
+    <text class="map-label" x="100" y="88">somewhere in a vast cabbage warehouse</text>
+    <text class="map-label" x="100" y="33">somewhere in a vast cabbage warehouse</text>
+    <text class="map-label" x="100" y="5">somewhere in a vast cabbage warehouse</text>
+    <text class="map-label" x="128" y="5">somewhere in a vast cabbage warehouse</text>
+    <text class="map-label" x="156" y="5">somewhere in a vast cabbage warehouse</text>
+    <text class="map-label" x="184" y="5">somewhere in a vast cabbage warehouse</text>
+    <text class="map-label" x="156" y="33">somewhere in a vast cabbage warehouse</text>
+    <text class="map-label" x="184" y="33">somewhere in a vast cabbage warehouse</text>
+    <text class="map-label" x="212" y="33">somewhere in a vast cabbage warehouse</text>
+    <text class="map-label" x="212" y="61">somewhere in a vast cabbage warehouse</text>
+    <text class="map-label" x="212" y="88">somewhere in a vast cabbage warehouse</text>
+    <text class="map-label" x="212" y="116">somewhere in a vast cabbage warehouse</text>
+    <text class="map-label" x="212" y="144">somewhere in a vast cabbage warehouse</text>
+    <text class="map-label" x="240" y="144">between vast stacks of menacing cabbage crates</text>
+    <text class="map-label" x="268" y="144">between vast stacks of menacing cabbage crates</text>
+    <text class="map-label" x="268" y="116">between vast stacks of menacing cabbage crates</text>
+    <text class="map-label" x="268" y="88">between vast stacks of menacing cabbage crates</text>
+    <text class="map-label" x="296" y="88">between vast stacks of menacing cabbage crates</text>
+    <text class="map-label" x="296" y="61">between vast stacks of menacing cabbage crates</text>
+    <text class="map-label" x="268" y="61">between vast stacks of menacing cabbage crates</text>
+    <text class="map-label" x="268" y="33">between vast stacks of menacing cabbage crates</text>
+    <text class="map-label" x="268" y="5">between vast stacks of menacing cabbage crates</text>
+    <text class="map-label" x="296" y="5">between vast stacks of menacing cabbage crates</text>
+    <text class="map-label" x="296" y="33">between vast stacks of menacing cabbage crates</text>
+    <text class="map-label" x="324" y="33">between vast stacks of menacing cabbage crates</text>
+    <text class="map-label" x="324" y="5">between vast stacks of menacing cabbage crates</text>
+    <text class="map-label" x="324" y="61">between vast stacks of menacing cabbage crates</text>
+    <text class="map-label" x="324" y="88">between vast stacks of menacing cabbage crates</text>
+    <text class="map-label" x="324" y="116">between vast stacks of menacing cabbage crates</text>
+    <text class="map-label" x="296" y="116">between vast stacks of menacing cabbage crates</text>
+    <text class="map-label" x="296" y="144">between vast stacks of menacing cabbage crates</text>
+    <text class="map-label" x="324" y="144">between vast stacks of menacing cabbage crates</text>
+    <text class="map-label" x="184" y="88">somewhere in a vast cabbage warehouse</text>
+    <text class="map-label" x="156" y="88">somewhere in a vast cabbage warehouse</text>
+    <text class="map-label" x="128" y="88">somewhere in a vast cabbage warehouse</text>
+    <text class="map-label" x="128" y="116">somewhere in a vast cabbage warehouse</text>
+    <text class="map-label" x="128" y="144">somewhere in a vast cabbage warehouse</text>
+    <text class="map-label" x="100" y="144">somewhere in a vast cabbage warehouse</text>
+    <text class="map-label" x="100" y="116">somewhere in a vast cabbage warehouse</text>
+    <text class="map-label" x="181" y="214">rafters high above the floor of a cabbage warehouse</text>
+    <text class="map-label" x="157" y="214">rafters high above the floor of a cabbage warehouse</text>
+    <text class="map-label" x="133" y="214">rafters high above the floor of a cabbage warehouse</text>
+    <text class="map-label" x="205" y="214">rafters high above the floor of a cabbage warehouse</text>
+    <text class="map-label" x="229" y="214">rafters high above the floor of a cabbage warehouse</text>
+    <text class="map-label" x="253" y="214">rafters high above the floor of a cabbage warehouse</text>
+    <text class="map-label" x="277" y="214">rafters high above the floor of a cabbage warehouse</text>
+    <text class="map-label" x="277" y="238">rafters high above the floor of a cabbage warehouse</text>
+    <text class="map-label" x="277" y="262">rafters high above the floor of a cabbage warehouse</text>
+    <text class="map-label" x="253" y="262">rafters high above the floor of a cabbage warehouse</text>
+    <text class="map-label" x="229" y="262">rafters high above the floor of a cabbage warehouse</text>
+    <text class="map-label" x="205" y="262">rafters high above the floor of a cabbage warehouse</text>
+    <text class="map-label" x="181" y="262">rafters high above the floor of a cabbage warehouse</text>
+    <text class="map-label" x="157" y="262">rafters high above the floor of a cabbage warehouse</text>
+    <text class="map-label" x="133" y="262">rafters high above the floor of a cabbage warehouse</text>
+    <text class="map-label" x="229" y="286">rafters high above the floor of a cabbage warehouse</text>
+    <text class="map-label" x="277" y="286">rafters high above the floor of a cabbage warehouse</text>
+    <text class="map-label" x="301" y="262">rafters high above the floor of a cabbage warehouse</text>
+    <text class="map-label" x="325" y="262">rafters high above the floor of a cabbage warehouse</text>
+    <text class="map-label" x="301" y="214">rafters high above the floor of a cabbage warehouse</text>
+    <text class="map-label" x="325" y="214">rafters high above the floor of a cabbage warehouse</text>
+    <text class="map-label" x="229" y="238">rafters high above the floor of a cabbage warehouse</text>
+    <text class="map-label" x="277" y="310">secret attic in the warehouse</text>
+  </g>
+
+</svg>

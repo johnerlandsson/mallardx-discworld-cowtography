@@ -1,0 +1,278 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 600 720"
+     class="map-svg"
+     data-map-id="11">
+
+  <g id="layer-artwork"><!-- artwork --></g>
+
+  <g id="layer-exits">
+    <line id="edge-8817da35e947db5de18a5cb513f64f32812d34a9-fca4d62329576c1387d4c7e0299abd6adc3b10f6" class="exit" x1="459" y1="300" x2="431" y2="300"/>
+    <line id="edge-3acd32d8e006a8aba5ae772b0fd8473aed00cbab-fca4d62329576c1387d4c7e0299abd6adc3b10f6" class="exit" x1="431" y1="328" x2="431" y2="300"/>
+    <line id="edge-3cff37dbf56975096f9cac42b5d222286bce8648-fca4d62329576c1387d4c7e0299abd6adc3b10f6" class="exit" x1="431" y1="272" x2="431" y2="300"/>
+    <line id="edge-4e2c1bddc2d6984c71face8ae41588cbdb15cc65-fca4d62329576c1387d4c7e0299abd6adc3b10f6" class="exit" x1="403" y1="300" x2="431" y2="300"/>
+    <line id="edge-ba3cad72e1eb709611dc4533d21034d1521c5fdc-fca4d62329576c1387d4c7e0299abd6adc3b10f6" class="exit" x1="431" y1="137" x2="431" y2="300"/>
+    <line id="edge-3acd32d8e006a8aba5ae772b0fd8473aed00cbab-53818160d0841388eb28ab67b21b5c3a02e888a0" class="exit" x1="431" y1="328" x2="431" y2="356"/>
+    <line id="edge-53818160d0841388eb28ab67b21b5c3a02e888a0-d40cc7b20aea8ae2780793201326db32d6d6bf78" class="exit" x1="431" y1="356" x2="403" y2="356"/>
+    <line id="edge-33870a9619a9f3cc71e9c5713707c341710171e5-d40cc7b20aea8ae2780793201326db32d6d6bf78" class="exit" x1="375" y1="356" x2="403" y2="356"/>
+    <line id="edge-33870a9619a9f3cc71e9c5713707c341710171e5-7c0173078c9a0d5adc831ab0ea79f734fadc4613" class="exit" x1="375" y1="356" x2="347" y2="356"/>
+    <line id="edge-7c0173078c9a0d5adc831ab0ea79f734fadc4613-c3d65549c97783dc9b6a7e987386c76aafa858ac" class="exit" x1="347" y1="356" x2="319" y2="356"/>
+    <line id="edge-8043c78ce28affbb05790b079a210684dadde552-c3d65549c97783dc9b6a7e987386c76aafa858ac" class="exit" x1="319" y1="328" x2="319" y2="356"/>
+    <line id="edge-35c22aacce452fbad3b15f329fe9a93f66f30555-8043c78ce28affbb05790b079a210684dadde552" class="exit" x1="319" y1="300" x2="319" y2="328"/>
+    <line id="edge-34453e5c0493545aa790f917f2b0d6f262126e29-35c22aacce452fbad3b15f329fe9a93f66f30555" class="exit" x1="256" y1="300" x2="319" y2="300"/>
+    <line id="edge-35c22aacce452fbad3b15f329fe9a93f66f30555-40dcb9a690caabeb2afeaf9502a642b7a726f2c5" class="exit" x1="319" y1="300" x2="319" y2="137"/>
+    <line id="edge-35c22aacce452fbad3b15f329fe9a93f66f30555-51efbfde5a33500aea728d5c1b904f28d153c10f" class="exit" x1="319" y1="300" x2="347" y2="300"/>
+    <line id="edge-35c22aacce452fbad3b15f329fe9a93f66f30555-7a69c826b727275e70fb8c8a05892efb6ea6d691" class="exit" x1="319" y1="300" x2="319" y2="448"/>
+    <line id="edge-35c22aacce452fbad3b15f329fe9a93f66f30555-9f73260d85556ae9502be864df413d47de1c0e6d" class="exit" x1="319" y1="300" x2="319" y2="272"/>
+    <line id="edge-9f73260d85556ae9502be864df413d47de1c0e6d-f23755a5e337810ee11656003bcb2340ec3e6639" class="exit" x1="319" y1="272" x2="319" y2="244"/>
+    <line id="edge-e636a280cb61550cdeff91f633e9b7a612e06975-f23755a5e337810ee11656003bcb2340ec3e6639" class="exit" x1="347" y1="244" x2="319" y2="244"/>
+    <line id="edge-e636a280cb61550cdeff91f633e9b7a612e06975-e6716783008f7d6e28886c89162b6b823b2c560e" class="exit" x1="347" y1="244" x2="375" y2="244"/>
+    <line id="edge-48e1b7db3a709aa24f4c09919b9b01e97aed855d-e6716783008f7d6e28886c89162b6b823b2c560e" class="exit" x1="403" y1="244" x2="375" y2="244"/>
+    <line id="edge-0c7d64e577c1799d05d298a8a29380320fa41650-48e1b7db3a709aa24f4c09919b9b01e97aed855d" class="exit" x1="431" y1="244" x2="403" y2="244"/>
+    <line id="edge-0c7d64e577c1799d05d298a8a29380320fa41650-3cff37dbf56975096f9cac42b5d222286bce8648" class="exit" x1="431" y1="244" x2="431" y2="272"/>
+    <line id="edge-4e2c1bddc2d6984c71face8ae41588cbdb15cc65-79002da3efa5bcfe8a0680719b6c28d659bf10ec" class="exit" x1="403" y1="300" x2="403" y2="328"/>
+    <line id="edge-4e2c1bddc2d6984c71face8ae41588cbdb15cc65-a8b43a894fe2b56e2f378b5275f70652a238c715" class="exit" x1="403" y1="300" x2="375" y2="300"/>
+    <line id="edge-4e2c1bddc2d6984c71face8ae41588cbdb15cc65-fa9aa885afb7f7799771dbb52eb6e87d92525be0" class="exit" x1="403" y1="300" x2="403" y2="272"/>
+    <line id="edge-51efbfde5a33500aea728d5c1b904f28d153c10f-a8b43a894fe2b56e2f378b5275f70652a238c715" class="exit" x1="347" y1="300" x2="375" y2="300"/>
+    <line id="edge-9027f971d4f387ebb677ba1dcfced7ab1c494591-a8b43a894fe2b56e2f378b5275f70652a238c715" class="exit" x1="375" y1="328" x2="375" y2="300"/>
+    <line id="edge-51efbfde5a33500aea728d5c1b904f28d153c10f-83babeda02be8dadb15b163306d2e95ec99b11b7" class="exit" x1="347" y1="300" x2="346" y2="272"/>
+    <line id="edge-51efbfde5a33500aea728d5c1b904f28d153c10f-f8797e1f0df24b04fe9ab65d03f64b04007c31bd" class="exit" x1="347" y1="300" x2="347" y2="328"/>
+    <line id="edge-34453e5c0493545aa790f917f2b0d6f262126e29-e288e964b36bf6e6483216bf2d28fcbec4026cc0" class="exit" x1="256" y1="300" x2="227" y2="300"/>
+    <line id="edge-0debdcab62434cdf629a03f09f8ee11a1f53db03-e288e964b36bf6e6483216bf2d28fcbec4026cc0" class="exit" x1="227" y1="137" x2="227" y2="300"/>
+    <line id="edge-34595d2af6c44d1ef556e21a7cb00c593209adae-e288e964b36bf6e6483216bf2d28fcbec4026cc0" class="exit" x1="199" y1="328" x2="227" y2="300"/>
+    <line id="edge-6f3b37dbaa2ca396ecc4484a9a48d21aa5a8485c-e288e964b36bf6e6483216bf2d28fcbec4026cc0" class="exit" x1="227" y1="328" x2="227" y2="300"/>
+    <line id="edge-775db29a0948398e5c9ff7c55cdd1f758553416f-e288e964b36bf6e6483216bf2d28fcbec4026cc0" class="exit" x1="256" y1="328" x2="227" y2="300"/>
+    <line id="edge-a1a735cf2e98098775d82919d743290360cdc598-e288e964b36bf6e6483216bf2d28fcbec4026cc0" class="exit" x1="199" y1="300" x2="227" y2="300"/>
+    <line id="edge-a68c9c82c0b4c23aef8170834d9a14cdea70781c-e288e964b36bf6e6483216bf2d28fcbec4026cc0" class="exit" x1="199" y1="272" x2="227" y2="300"/>
+    <line id="edge-d51f3c3131fb24a9118fb6874c65a9ac979af829-e288e964b36bf6e6483216bf2d28fcbec4026cc0" class="exit" x1="256" y1="272" x2="227" y2="300"/>
+    <line id="edge-e288e964b36bf6e6483216bf2d28fcbec4026cc0-f9f5807ab35742f6b87c114bcbc4c7b0152c8941" class="exit" x1="227" y1="300" x2="227" y2="272"/>
+    <line id="edge-a1a735cf2e98098775d82919d743290360cdc598-dddc72193ce628c291192cceeb1d266193929d4f" class="exit" x1="199" y1="300" x2="171" y2="300"/>
+    <line id="edge-1a91b4d419937092f2a8ebfd089146b3dd559ef4-dddc72193ce628c291192cceeb1d266193929d4f" class="exit" x1="171" y1="328" x2="171" y2="300"/>
+    <line id="edge-b7ce5cb55ce03e88f1f611bbbeae924e79ab1306-dddc72193ce628c291192cceeb1d266193929d4f" class="exit" x1="171" y1="272" x2="171" y2="300"/>
+    <line id="edge-774a6967fde682aa4a3b50358897968b3410b57c-7a69c826b727275e70fb8c8a05892efb6ea6d691" class="exit" x1="319" y1="475" x2="319" y2="448"/>
+    <line id="edge-7a69c826b727275e70fb8c8a05892efb6ea6d691-c5c53d1a55138b90d18d6b0859b81ad15f9b2ece" class="exit" x1="319" y1="448" x2="347" y2="448"/>
+    <line id="edge-7a69c826b727275e70fb8c8a05892efb6ea6d691-e50f387377932283915772d19b9375e09eceb9cf" class="exit" x1="319" y1="448" x2="319" y2="420"/>
+    <line id="edge-1ca80ebfb8423cfb42ed4b5f40e89c1682ff95dd-c5c53d1a55138b90d18d6b0859b81ad15f9b2ece" class="exit" x1="375" y1="448" x2="347" y2="448"/>
+    <line id="edge-1ca80ebfb8423cfb42ed4b5f40e89c1682ff95dd-55fd1e102b5481b31b96191e4aaa2715cd21c3c6" class="exit" x1="375" y1="448" x2="376" y2="588"/>
+    <line id="edge-0093553cfe7766e2ec49ce316928d1f23aff59c9-0debdcab62434cdf629a03f09f8ee11a1f53db03" class="exit" x1="255" y1="137" x2="227" y2="137"/>
+    <line id="edge-0518521daac20d3c4de3916d6121df59533c955c-0debdcab62434cdf629a03f09f8ee11a1f53db03" class="exit" x1="255" y1="109" x2="227" y2="137"/>
+    <line id="edge-074e0f9503cb6d5f115db1132b073bffea69e517-0debdcab62434cdf629a03f09f8ee11a1f53db03" class="exit" x1="227" y1="165" x2="227" y2="137"/>
+    <line id="edge-0debdcab62434cdf629a03f09f8ee11a1f53db03-10998345bde8c55118e98adc9a7cef5d872c170f" class="exit" x1="227" y1="137" x2="227" y2="24"/>
+    <line id="edge-0debdcab62434cdf629a03f09f8ee11a1f53db03-730cd548f31d4002f8a237be898f6482f6cd5046" class="exit" x1="227" y1="137" x2="199" y2="165"/>
+    <line id="edge-0debdcab62434cdf629a03f09f8ee11a1f53db03-b44baf16289a7d294944047fc789d2d33accb79e" class="exit" x1="227" y1="137" x2="227" y2="109"/>
+    <line id="edge-0debdcab62434cdf629a03f09f8ee11a1f53db03-c3c20fdebff2396b4c6ca36ceb8947eb5417cba7" class="exit" x1="227" y1="137" x2="199" y2="137"/>
+    <line id="edge-0debdcab62434cdf629a03f09f8ee11a1f53db03-e13409c2d8974613cec7fb4909464ee0eb0d0b1a" class="exit" x1="227" y1="137" x2="199" y2="109"/>
+    <line id="edge-0debdcab62434cdf629a03f09f8ee11a1f53db03-efaf088b06d7c59b5feb65ba91d1da13ce2fd1ef" class="exit" x1="227" y1="137" x2="255" y2="165"/>
+    <line id="edge-1fb8eea7765aa2f60adff16ddaa8b7c696c05fa1-40dcb9a690caabeb2afeaf9502a642b7a726f2c5" class="exit" x1="319" y1="109" x2="319" y2="137"/>
+    <line id="edge-40dcb9a690caabeb2afeaf9502a642b7a726f2c5-41e99a98ed9b5b77c6c343bcc64c800aae205118" class="exit" x1="319" y1="137" x2="319" y2="165"/>
+    <line id="edge-40dcb9a690caabeb2afeaf9502a642b7a726f2c5-e20a6063adbd1757d44dcaa5ef8f577cc8ecd76a" class="exit" x1="319" y1="137" x2="347" y2="137"/>
+    <line id="edge-1fb8eea7765aa2f60adff16ddaa8b7c696c05fa1-2f7b07c4cfce9c015cda684188000ffcd103d8f8" class="exit" x1="319" y1="109" x2="319" y2="81"/>
+    <line id="edge-41e99a98ed9b5b77c6c343bcc64c800aae205118-f938925be5f759da8bb92fea95d658ba206d3496" class="exit" x1="319" y1="165" x2="319" y2="193"/>
+    <line id="edge-925479ded861f2eaa6ba4fa7d3848f1d67133469-f938925be5f759da8bb92fea95d658ba206d3496" class="exit" x1="347" y1="193" x2="319" y2="193"/>
+    <line id="edge-483c21a31ff91a87efdefe404ebbc31378cff2c3-925479ded861f2eaa6ba4fa7d3848f1d67133469" class="exit" x1="347" y1="165" x2="347" y2="193"/>
+    <line id="edge-925479ded861f2eaa6ba4fa7d3848f1d67133469-e01316d858eac63e0b2cc4e52921514d900cefc4" class="exit" x1="347" y1="193" x2="375" y2="193"/>
+    <line id="edge-483c21a31ff91a87efdefe404ebbc31378cff2c3-e20a6063adbd1757d44dcaa5ef8f577cc8ecd76a" class="exit" x1="347" y1="165" x2="347" y2="137"/>
+    <line id="edge-46cf9e8384ebf8138db09102eb91099d3dc2b30d-e20a6063adbd1757d44dcaa5ef8f577cc8ecd76a" class="exit" x1="347" y1="109" x2="347" y2="137"/>
+    <line id="edge-e20a6063adbd1757d44dcaa5ef8f577cc8ecd76a-e5e975c6501514ddcffe9494f21364b7fae564b4" class="exit" x1="347" y1="137" x2="375" y2="137"/>
+    <line id="edge-4194bcb1acd0d5afcba99e418b33b0689c5df7ca-46cf9e8384ebf8138db09102eb91099d3dc2b30d" class="exit" x1="347" y1="81" x2="347" y2="109"/>
+    <line id="edge-4194bcb1acd0d5afcba99e418b33b0689c5df7ca-d658f10c85767e5173f4d294a6957716efb2b05e" class="exit" x1="347" y1="81" x2="375" y2="81"/>
+    <line id="edge-94cd043da28cb4fc74a54c4852cab43d09c6ea2d-d658f10c85767e5173f4d294a6957716efb2b05e" class="exit" x1="375" y1="109" x2="375" y2="81"/>
+    <line id="edge-94cd043da28cb4fc74a54c4852cab43d09c6ea2d-e5e975c6501514ddcffe9494f21364b7fae564b4" class="exit" x1="375" y1="109" x2="375" y2="137"/>
+    <line id="edge-ba3cad72e1eb709611dc4533d21034d1521c5fdc-e5e975c6501514ddcffe9494f21364b7fae564b4" class="exit" x1="431" y1="137" x2="375" y2="137"/>
+    <line id="edge-e5e975c6501514ddcffe9494f21364b7fae564b4-ef60bab885a29684d6109f1d25bc883f50c1cd2a" class="exit" x1="375" y1="137" x2="375" y2="165"/>
+    <line id="edge-e01316d858eac63e0b2cc4e52921514d900cefc4-ef60bab885a29684d6109f1d25bc883f50c1cd2a" class="exit" x1="375" y1="193" x2="375" y2="165"/>
+    <line id="edge-4289d340ebe36d328df506bb777ef988d13d0816-ba3cad72e1eb709611dc4533d21034d1521c5fdc" class="exit" x1="431" y1="109" x2="431" y2="137"/>
+    <line id="edge-61b1095c72f42f63ae420bd5610265e5900deb81-ba3cad72e1eb709611dc4533d21034d1521c5fdc" class="exit" x1="431" y1="165" x2="431" y2="137"/>
+    <line id="edge-4289d340ebe36d328df506bb777ef988d13d0816-d66688353fdfb447d40eb71e5a3d0d1a4a9a9136" class="exit" x1="431" y1="109" x2="431" y2="81"/>
+    <line id="edge-61b1095c72f42f63ae420bd5610265e5900deb81-6942e3348e555aa7cf722eef55a4953deb8e38a1" class="exit" x1="431" y1="165" x2="431" y2="193"/>
+    <line id="edge-3153de7a7bbf7e9e2bf48f357bd7d5ffa4582118-55fd1e102b5481b31b96191e4aaa2715cd21c3c6" class="exit" x1="404" y1="588" x2="376" y2="588"/>
+    <line id="edge-55fd1e102b5481b31b96191e4aaa2715cd21c3c6-94d124a6a16e3c037f5cc84ac39de9d0cbe27a05" class="exit" x1="376" y1="588" x2="376" y2="616"/>
+    <line id="edge-55fd1e102b5481b31b96191e4aaa2715cd21c3c6-bbb66f54ae197158ea0b9eb58940d3ac35033c81" class="exit" x1="376" y1="588" x2="348" y2="588"/>
+    <line id="edge-55fd1e102b5481b31b96191e4aaa2715cd21c3c6-fe7de0de7d52237610f2cd2d97056ff42746f631" class="exit" x1="376" y1="588" x2="376" y2="560"/>
+    <line id="edge-94d124a6a16e3c037f5cc84ac39de9d0cbe27a05-96a64680d514726c16575b4c260ffc0c2cd6e8e9" class="exit" x1="376" y1="616" x2="348" y2="616"/>
+    <line id="edge-94d124a6a16e3c037f5cc84ac39de9d0cbe27a05-bb8a3dd24ca7f2102f02c94b0f0fc5803fec5581" class="exit" x1="376" y1="616" x2="404" y2="616"/>
+    <line id="edge-94d124a6a16e3c037f5cc84ac39de9d0cbe27a05-c34f7bdd3ca3a9f725e869471c33ae0606300868" class="exit" x1="376" y1="616" x2="376" y2="644"/>
+    <line id="edge-2acb72bf9c57f9fc413fdf284b8c7b3d3c7af9b8-c34f7bdd3ca3a9f725e869471c33ae0606300868" class="exit" x1="404" y1="644" x2="376" y2="644"/>
+    <line id="edge-3a5a7defcf62fab6b29ece1b86b0d257e029852d-fe7de0de7d52237610f2cd2d97056ff42746f631" class="exit" x1="404" y1="560" x2="376" y2="560"/>
+    <line id="edge-c5189957a088916b2d32e7b0baa6d34fef2289d4-fe7de0de7d52237610f2cd2d97056ff42746f631" class="exit" x1="376" y1="532" x2="376" y2="560"/>
+    <line id="edge-d02dcc0a7c1217294d85a13e785d8622d3283570-fe7de0de7d52237610f2cd2d97056ff42746f631" class="exit" x1="348" y1="560" x2="376" y2="560"/>
+  </g>
+
+  <g id="layer-rooms">
+    <rect id="room-8817da35e947db5de18a5cb513f64f32812d34a9" class="room indoor" x="451" y="292" width="16" height="16" rx="4"><title>Portico of the Thieves&#x27; Guild Building</title></rect>
+    <rect id="room-fca4d62329576c1387d4c7e0299abd6adc3b10f6" class="room indoor" x="423" y="292" width="16" height="16" rx="4"><title>entrance hall of the Thieves&#x27; Guild</title></rect>
+    <rect id="room-3acd32d8e006a8aba5ae772b0fd8473aed00cbab" class="room indoor" x="423" y="320" width="16" height="16" rx="4"><title>entrance hall of the Thieves&#x27; Guild</title></rect>
+    <rect id="room-53818160d0841388eb28ab67b21b5c3a02e888a0" class="room indoor" x="423" y="348" width="16" height="16" rx="4"><title>overgrown garden</title></rect>
+    <rect id="room-d40cc7b20aea8ae2780793201326db32d6d6bf78" class="room indoor" x="395" y="348" width="16" height="16" rx="4"><title>untended garden</title></rect>
+    <rect id="room-33870a9619a9f3cc71e9c5713707c341710171e5" class="room indoor" x="367" y="348" width="16" height="16" rx="4"><title>overgrown garden</title></rect>
+    <rect id="room-7c0173078c9a0d5adc831ab0ea79f734fadc4613" class="room indoor" x="339" y="348" width="16" height="16" rx="4"><title>overgrown garden</title></rect>
+    <rect id="room-c3d65549c97783dc9b6a7e987386c76aafa858ac" class="room indoor" x="311" y="348" width="16" height="16" rx="4"><title>overgrown garden</title></rect>
+    <rect id="room-8043c78ce28affbb05790b079a210684dadde552" class="room indoor" x="311" y="320" width="16" height="16" rx="4"><title>corridor in the Thieves&#x27; Guild</title></rect>
+    <rect id="room-35c22aacce452fbad3b15f329fe9a93f66f30555" class="room indoor" x="311" y="292" width="16" height="16" rx="4"><title>corridor in the Thieves&#x27; Guild</title></rect>
+    <rect id="room-9f73260d85556ae9502be864df413d47de1c0e6d" class="room indoor" x="311" y="264" width="16" height="16" rx="4"><title>corridor in the Thieves&#x27; Guild</title></rect>
+    <rect id="room-f23755a5e337810ee11656003bcb2340ec3e6639" class="room indoor" x="311" y="236" width="16" height="16" rx="4"><title>guild gardens</title></rect>
+    <rect id="room-e636a280cb61550cdeff91f633e9b7a612e06975" class="room indoor" x="339" y="236" width="16" height="16" rx="4"><title>guild gardens</title></rect>
+    <rect id="room-e6716783008f7d6e28886c89162b6b823b2c560e" class="room indoor" x="367" y="236" width="16" height="16" rx="4"><title>guild gardens</title></rect>
+    <rect id="room-48e1b7db3a709aa24f4c09919b9b01e97aed855d" class="room indoor" x="395" y="236" width="16" height="16" rx="4"><title>guild gardens</title></rect>
+    <rect id="room-0c7d64e577c1799d05d298a8a29380320fa41650" class="room indoor" x="423" y="236" width="16" height="16" rx="4"><title>guild gardens</title></rect>
+    <rect id="room-3cff37dbf56975096f9cac42b5d222286bce8648" class="room indoor" x="423" y="264" width="16" height="16" rx="4"><title>entrance hall of the Thieves&#x27; Guild</title></rect>
+    <rect id="room-4e2c1bddc2d6984c71face8ae41588cbdb15cc65" class="room indoor" x="395" y="292" width="16" height="16" rx="4"><title>corridor in the Thieves&#x27; Guild</title></rect>
+    <rect id="room-79002da3efa5bcfe8a0680719b6c28d659bf10ec" class="room indoor" x="395" y="320" width="16" height="16" rx="4"><title>Thieves&#x27; Guild receipt office</title></rect>
+    <rect id="room-a8b43a894fe2b56e2f378b5275f70652a238c715" class="room indoor" x="367" y="292" width="16" height="16" rx="4"><title>corridor in the Thieves&#x27; Guild</title></rect>
+    <rect id="room-9027f971d4f387ebb677ba1dcfced7ab1c494591" class="room indoor" x="367" y="320" width="16" height="16" rx="4"><title>Thieves&#x27; Guild communications room</title></rect>
+    <rect id="room-51efbfde5a33500aea728d5c1b904f28d153c10f" class="room indoor" x="339" y="292" width="16" height="16" rx="4"><title>corridor in the Thieves&#x27; Guild</title></rect>
+    <rect id="room-83babeda02be8dadb15b163306d2e95ec99b11b7" class="room indoor" x="338" y="264" width="16" height="16" rx="4"><title>Thieves&#x27; Guild hospital</title></rect>
+    <rect id="room-f8797e1f0df24b04fe9ab65d03f64b04007c31bd" class="room indoor" x="339" y="320" width="16" height="16" rx="4"><title>insurance office</title></rect>
+    <rect id="room-34453e5c0493545aa790f917f2b0d6f262126e29" class="room indoor" x="248" y="292" width="16" height="16" rx="4"><title>ambush and backstab classroom</title></rect>
+    <rect id="room-e288e964b36bf6e6483216bf2d28fcbec4026cc0" class="room indoor" x="219" y="292" width="16" height="16" rx="4"><title>Thieves&#x27; Guild kitchen</title></rect>
+    <rect id="room-d51f3c3131fb24a9118fb6874c65a9ac979af829" class="room indoor" x="248" y="264" width="16" height="16" rx="4"><title>lockpick classroom</title></rect>
+    <rect id="room-f9f5807ab35742f6b87c114bcbc4c7b0152c8941" class="room indoor" x="219" y="264" width="16" height="16" rx="4"><title>hiding object classroom</title></rect>
+    <rect id="room-a68c9c82c0b4c23aef8170834d9a14cdea70781c" class="room indoor" x="191" y="264" width="16" height="16" rx="4"><title>palming and sleight of hand classroom</title></rect>
+    <rect id="room-775db29a0948398e5c9ff7c55cdd1f758553416f" class="room indoor" x="248" y="320" width="16" height="16" rx="4"><title>inside stealth classroom</title></rect>
+    <rect id="room-6f3b37dbaa2ca396ecc4484a9a48d21aa5a8485c" class="room indoor" x="219" y="320" width="16" height="16" rx="4"><title>Thieves&#x27; Guild Armoury</title></rect>
+    <rect id="room-34595d2af6c44d1ef556e21a7cb00c593209adae" class="room indoor" x="191" y="320" width="16" height="16" rx="4"><title>Thieves&#x27; Guild smithy</title></rect>
+    <rect id="room-a1a735cf2e98098775d82919d743290360cdc598" class="room indoor" x="191" y="292" width="16" height="16" rx="4"><title>Thieves&#x27; Guild refectory</title></rect>
+    <rect id="room-dddc72193ce628c291192cceeb1d266193929d4f" class="room indoor" x="163" y="292" width="16" height="16" rx="4"><title>fired and thrown classroom</title></rect>
+    <rect id="room-b7ce5cb55ce03e88f1f611bbbeae924e79ab1306" class="room indoor" x="163" y="264" width="16" height="16" rx="4"><title>outside stealth classroom</title></rect>
+    <rect id="room-1a91b4d419937092f2a8ebfd089146b3dd559ef4" class="room indoor" x="163" y="320" width="16" height="16" rx="4"><title>climbing classroom</title></rect>
+    <rect id="room-7a69c826b727275e70fb8c8a05892efb6ea6d691" class="room indoor" x="311" y="440" width="16" height="16" rx="4"><title>Thieves&#x27; Guild museum</title></rect>
+    <rect id="room-e50f387377932283915772d19b9375e09eceb9cf" class="room indoor" x="311" y="412" width="16" height="16" rx="4"><title>Heavy Stuff</title></rect>
+    <rect id="room-774a6967fde682aa4a3b50358897968b3410b57c" class="room indoor" x="311" y="467" width="16" height="16" rx="4"><title>launder room</title></rect>
+    <rect id="room-c5c53d1a55138b90d18d6b0859b81ad15f9b2ece" class="room indoor" x="339" y="440" width="16" height="16" rx="4"><title>Thieves&#x27; Guild library</title></rect>
+    <rect id="room-1ca80ebfb8423cfb42ed4b5f40e89c1682ff95dd" class="room indoor" x="367" y="440" width="16" height="16" rx="4"><title>Nicolette&#x27;s Custom Costumes and Tailoring</title></rect>
+    <rect id="room-0debdcab62434cdf629a03f09f8ee11a1f53db03" class="room indoor" x="219" y="129" width="16" height="16" rx="4"><title>hiding person classroom</title></rect>
+    <rect id="room-b44baf16289a7d294944047fc789d2d33accb79e" class="room indoor" x="219" y="101" width="16" height="16" rx="4"><title>Thieves&#x27; Guild quota room</title></rect>
+    <rect id="room-0518521daac20d3c4de3916d6121df59533c955c" class="room indoor" x="247" y="101" width="16" height="16" rx="4"><title>passing and stealing classroom</title></rect>
+    <rect id="room-0093553cfe7766e2ec49ce316928d1f23aff59c9" class="room indoor" x="247" y="129" width="16" height="16" rx="4"><title>casing classroom</title></rect>
+    <rect id="room-efaf088b06d7c59b5feb65ba91d1da13ce2fd1ef" class="room indoor" x="247" y="157" width="16" height="16" rx="4"><title>Thieves&#x27; Guild Plan Room</title></rect>
+    <rect id="room-074e0f9503cb6d5f115db1132b073bffea69e517" class="room indoor" x="219" y="157" width="16" height="16" rx="4"><title>dodging classroom</title></rect>
+    <rect id="room-730cd548f31d4002f8a237be898f6482f6cd5046" class="room indoor" x="191" y="157" width="16" height="16" rx="4"><title>Thieves&#x27; Guild Research Room</title></rect>
+    <rect id="room-e13409c2d8974613cec7fb4909464ee0eb0d0b1a" class="room indoor" x="191" y="101" width="16" height="16" rx="4"><title>bookkeeping office</title></rect>
+    <rect id="room-c3c20fdebff2396b4c6ca36ceb8947eb5417cba7" class="room indoor" x="191" y="129" width="16" height="16" rx="4"><title>combat practice room</title></rect>
+    <rect id="room-10998345bde8c55118e98adc9a7cef5d872c170f" class="room indoor" x="219" y="16" width="16" height="16" rx="4"><title>Thieves&#x27; Guild chapter room</title></rect>
+    <rect id="room-40dcb9a690caabeb2afeaf9502a642b7a726f2c5" class="room indoor" x="311" y="129" width="16" height="16" rx="4"><title>Main Hall of the Thieves&#x27; Guild</title></rect>
+    <rect id="room-1fb8eea7765aa2f60adff16ddaa8b7c696c05fa1" class="room indoor" x="311" y="101" width="16" height="16" rx="4"><title>The office of the Assistant Guildmistress</title></rect>
+    <rect id="room-2f7b07c4cfce9c015cda684188000ffcd103d8f8" class="room indoor" x="311" y="73" width="16" height="16" rx="4"><title>balcony</title></rect>
+    <rect id="room-41e99a98ed9b5b77c6c343bcc64c800aae205118" class="room indoor" x="311" y="157" width="16" height="16" rx="4"><title>The office of the Monitor of Cutpurses</title></rect>
+    <rect id="room-f938925be5f759da8bb92fea95d658ba206d3496" class="room indoor" x="311" y="185" width="16" height="16" rx="4"><title>balcony</title></rect>
+    <rect id="room-925479ded861f2eaa6ba4fa7d3848f1d67133469" class="room indoor" x="339" y="185" width="16" height="16" rx="4"><title>balcony</title></rect>
+    <rect id="room-483c21a31ff91a87efdefe404ebbc31378cff2c3" class="room indoor" x="339" y="157" width="16" height="16" rx="4"><title>The office of the Monitor of Muggers</title></rect>
+    <rect id="room-e20a6063adbd1757d44dcaa5ef8f577cc8ecd76a" class="room indoor" x="339" y="129" width="16" height="16" rx="4"><title>Main Hall of the Thieves&#x27; Guild</title></rect>
+    <rect id="room-46cf9e8384ebf8138db09102eb91099d3dc2b30d" class="room indoor" x="339" y="101" width="16" height="16" rx="4"><title>The office of the Monitor of Smugglers</title></rect>
+    <rect id="room-4194bcb1acd0d5afcba99e418b33b0689c5df7ca" class="room indoor" x="339" y="73" width="16" height="16" rx="4"><title>balcony</title></rect>
+    <rect id="room-d658f10c85767e5173f4d294a6957716efb2b05e" class="room indoor" x="367" y="73" width="16" height="16" rx="4"><title>balcony</title></rect>
+    <rect id="room-94cd043da28cb4fc74a54c4852cab43d09c6ea2d" class="room indoor" x="367" y="101" width="16" height="16" rx="4"><title>The office of the Monitor of Prowlers</title></rect>
+    <rect id="room-e5e975c6501514ddcffe9494f21364b7fae564b4" class="room indoor" x="367" y="129" width="16" height="16" rx="4"><title>Main Hall of the Thieves&#x27; Guild</title></rect>
+    <rect id="room-ef60bab885a29684d6109f1d25bc883f50c1cd2a" class="room indoor" x="367" y="157" width="16" height="16" rx="4"><title>The office of the Monitor of Safecrackers</title></rect>
+    <rect id="room-e01316d858eac63e0b2cc4e52921514d900cefc4" class="room indoor" x="367" y="185" width="16" height="16" rx="4"><title>balcony</title></rect>
+    <rect id="room-ba3cad72e1eb709611dc4533d21034d1521c5fdc" class="room indoor" x="423" y="129" width="16" height="16" rx="4"><title>Main Hall of the Thieves&#x27; Guild</title></rect>
+    <rect id="room-4289d340ebe36d328df506bb777ef988d13d0816" class="room indoor" x="423" y="101" width="16" height="16" rx="4"><title>The office of the Guildmistress</title></rect>
+    <rect id="room-d66688353fdfb447d40eb71e5a3d0d1a4a9a9136" class="room indoor" x="423" y="73" width="16" height="16" rx="4"><title>balcony</title></rect>
+    <rect id="room-61b1095c72f42f63ae420bd5610265e5900deb81" class="room indoor" x="423" y="157" width="16" height="16" rx="4"><title>office of the Thieves&#x27; Guild recruitmaster</title></rect>
+    <rect id="room-6942e3348e555aa7cf722eef55a4953deb8e38a1" class="room indoor" x="423" y="185" width="16" height="16" rx="4"><title>balcony</title></rect>
+    <rect id="room-55fd1e102b5481b31b96191e4aaa2715cd21c3c6" class="room indoor" x="368" y="580" width="16" height="16" rx="4"><title>cellar corridor</title></rect>
+    <rect id="room-94d124a6a16e3c037f5cc84ac39de9d0cbe27a05" class="room indoor" x="368" y="608" width="16" height="16" rx="4"><title>cellar corridor</title></rect>
+    <rect id="room-c34f7bdd3ca3a9f725e869471c33ae0606300868" class="room indoor" x="368" y="636" width="16" height="16" rx="4"><title>lounge</title></rect>
+    <rect id="room-2acb72bf9c57f9fc413fdf284b8c7b3d3c7af9b8" class="room indoor" x="396" y="636" width="16" height="16" rx="4"><title>[player shop]</title></rect>
+    <rect id="room-bb8a3dd24ca7f2102f02c94b0f0fc5803fec5581" class="room indoor" x="396" y="608" width="16" height="16" rx="4"><title>bathroom</title></rect>
+    <rect id="room-96a64680d514726c16575b4c260ffc0c2cd6e8e9" class="room indoor" x="340" y="608" width="16" height="16" rx="4"><title>storeroom</title></rect>
+    <rect id="room-bbb66f54ae197158ea0b9eb58940d3ac35033c81" class="room indoor" x="340" y="580" width="16" height="16" rx="4"><title>cutpurses&#x27; dormitory</title></rect>
+    <rect id="room-3153de7a7bbf7e9e2bf48f357bd7d5ffa4582118" class="room indoor" x="396" y="580" width="16" height="16" rx="4"><title>muggers&#x27; dormitory</title></rect>
+    <rect id="room-fe7de0de7d52237610f2cd2d97056ff42746f631" class="room indoor" x="368" y="552" width="16" height="16" rx="4"><title>cellar corridor</title></rect>
+    <rect id="room-d02dcc0a7c1217294d85a13e785d8622d3283570" class="room indoor" x="340" y="552" width="16" height="16" rx="4"><title>smugglers&#x27; dormitory</title></rect>
+    <rect id="room-3a5a7defcf62fab6b29ece1b86b0d257e029852d" class="room indoor" x="396" y="552" width="16" height="16" rx="4"><title>prowlers&#x27; dormitory</title></rect>
+    <rect id="room-c5189957a088916b2d32e7b0baa6d34fef2289d4" class="room indoor" x="368" y="524" width="16" height="16" rx="4"><title>safecrackers&#x27; dormitory</title></rect>
+    <rect id="room-fa9aa885afb7f7799771dbb52eb6e87d92525be0" class="room indoor" x="395" y="264" width="16" height="16" rx="4"><title>Thieves&#x27; Guild Voting Room</title></rect>
+    <rect id="room-ca1a0a3ace14a43e10b2c09120286fe90e5300c8" class="room indoor" x="311" y="129" width="16" height="16" rx="4"><title>Thieves&#x27; Guild roof</title></rect>
+    <rect id="room-93a6ebc766f495d1e36357f0d84866b66c462d5c" class="room indoor" x="279" y="129" width="16" height="16" rx="4"><title>Thieves&#x27; Guild ledge</title></rect>
+  </g>
+
+  <g id="layer-labels">
+    <text class="map-label" x="459" y="288">Portico of the Thieves&#x27; Guild Building</text>
+    <text class="map-label" x="431" y="288">entrance hall of the Thieves&#x27; Guild</text>
+    <text class="map-label" x="431" y="316">entrance hall of the Thieves&#x27; Guild</text>
+    <text class="map-label" x="431" y="344">overgrown garden</text>
+    <text class="map-label" x="403" y="344">untended garden</text>
+    <text class="map-label" x="375" y="344">overgrown garden</text>
+    <text class="map-label" x="347" y="344">overgrown garden</text>
+    <text class="map-label" x="319" y="344">overgrown garden</text>
+    <text class="map-label" x="319" y="316">corridor in the Thieves&#x27; Guild</text>
+    <text class="map-label" x="319" y="288">corridor in the Thieves&#x27; Guild</text>
+    <text class="map-label" x="319" y="260">corridor in the Thieves&#x27; Guild</text>
+    <text class="map-label" x="319" y="232">guild gardens</text>
+    <text class="map-label" x="347" y="232">guild gardens</text>
+    <text class="map-label" x="375" y="232">guild gardens</text>
+    <text class="map-label" x="403" y="232">guild gardens</text>
+    <text class="map-label" x="431" y="232">guild gardens</text>
+    <text class="map-label" x="431" y="260">entrance hall of the Thieves&#x27; Guild</text>
+    <text class="map-label" x="403" y="288">corridor in the Thieves&#x27; Guild</text>
+    <text class="map-label" x="403" y="316">Thieves&#x27; Guild receipt office</text>
+    <text class="map-label" x="375" y="288">corridor in the Thieves&#x27; Guild</text>
+    <text class="map-label" x="375" y="316">Thieves&#x27; Guild communications room</text>
+    <text class="map-label" x="347" y="288">corridor in the Thieves&#x27; Guild</text>
+    <text class="map-label" x="346" y="260">Thieves&#x27; Guild hospital</text>
+    <text class="map-label" x="347" y="316">insurance office</text>
+    <text class="map-label" x="256" y="288">ambush and backstab classroom</text>
+    <text class="map-label" x="227" y="288">Thieves&#x27; Guild kitchen</text>
+    <text class="map-label" x="256" y="260">lockpick classroom</text>
+    <text class="map-label" x="227" y="260">hiding object classroom</text>
+    <text class="map-label" x="199" y="260">palming and sleight of hand classroom</text>
+    <text class="map-label" x="256" y="316">inside stealth classroom</text>
+    <text class="map-label" x="227" y="316">Thieves&#x27; Guild Armoury</text>
+    <text class="map-label" x="199" y="316">Thieves&#x27; Guild smithy</text>
+    <text class="map-label" x="199" y="288">Thieves&#x27; Guild refectory</text>
+    <text class="map-label" x="171" y="288">fired and thrown classroom</text>
+    <text class="map-label" x="171" y="260">outside stealth classroom</text>
+    <text class="map-label" x="171" y="316">climbing classroom</text>
+    <text class="map-label" x="319" y="436">Thieves&#x27; Guild museum</text>
+    <text class="map-label" x="319" y="408">Heavy Stuff</text>
+    <text class="map-label" x="319" y="463">launder room</text>
+    <text class="map-label" x="347" y="436">Thieves&#x27; Guild library</text>
+    <text class="map-label" x="375" y="436">Nicolette&#x27;s Custom Costumes and Tailoring</text>
+    <text class="map-label" x="227" y="125">hiding person classroom</text>
+    <text class="map-label" x="227" y="97">Thieves&#x27; Guild quota room</text>
+    <text class="map-label" x="255" y="97">passing and stealing classroom</text>
+    <text class="map-label" x="255" y="125">casing classroom</text>
+    <text class="map-label" x="255" y="153">Thieves&#x27; Guild Plan Room</text>
+    <text class="map-label" x="227" y="153">dodging classroom</text>
+    <text class="map-label" x="199" y="153">Thieves&#x27; Guild Research Room</text>
+    <text class="map-label" x="199" y="97">bookkeeping office</text>
+    <text class="map-label" x="199" y="125">combat practice room</text>
+    <text class="map-label" x="227" y="12">Thieves&#x27; Guild chapter room</text>
+    <text class="map-label" x="319" y="125">Main Hall of the Thieves&#x27; Guild</text>
+    <text class="map-label" x="319" y="97">The office of the Assistant Guildmistress</text>
+    <text class="map-label" x="319" y="69">balcony</text>
+    <text class="map-label" x="319" y="153">The office of the Monitor of Cutpurses</text>
+    <text class="map-label" x="319" y="181">balcony</text>
+    <text class="map-label" x="347" y="181">balcony</text>
+    <text class="map-label" x="347" y="153">The office of the Monitor of Muggers</text>
+    <text class="map-label" x="347" y="125">Main Hall of the Thieves&#x27; Guild</text>
+    <text class="map-label" x="347" y="97">The office of the Monitor of Smugglers</text>
+    <text class="map-label" x="347" y="69">balcony</text>
+    <text class="map-label" x="375" y="69">balcony</text>
+    <text class="map-label" x="375" y="97">The office of the Monitor of Prowlers</text>
+    <text class="map-label" x="375" y="125">Main Hall of the Thieves&#x27; Guild</text>
+    <text class="map-label" x="375" y="153">The office of the Monitor of Safecrackers</text>
+    <text class="map-label" x="375" y="181">balcony</text>
+    <text class="map-label" x="431" y="125">Main Hall of the Thieves&#x27; Guild</text>
+    <text class="map-label" x="431" y="97">The office of the Guildmistress</text>
+    <text class="map-label" x="431" y="69">balcony</text>
+    <text class="map-label" x="431" y="153">office of the Thieves&#x27; Guild recruitmaster</text>
+    <text class="map-label" x="431" y="181">balcony</text>
+    <text class="map-label" x="376" y="576">cellar corridor</text>
+    <text class="map-label" x="376" y="604">cellar corridor</text>
+    <text class="map-label" x="376" y="632">lounge</text>
+    <text class="map-label" x="404" y="632">[player shop]</text>
+    <text class="map-label" x="404" y="604">bathroom</text>
+    <text class="map-label" x="348" y="604">storeroom</text>
+    <text class="map-label" x="348" y="576">cutpurses&#x27; dormitory</text>
+    <text class="map-label" x="404" y="576">muggers&#x27; dormitory</text>
+    <text class="map-label" x="376" y="548">cellar corridor</text>
+    <text class="map-label" x="348" y="548">smugglers&#x27; dormitory</text>
+    <text class="map-label" x="404" y="548">prowlers&#x27; dormitory</text>
+    <text class="map-label" x="376" y="520">safecrackers&#x27; dormitory</text>
+    <text class="map-label" x="403" y="260">Thieves&#x27; Guild Voting Room</text>
+    <text class="map-label" x="319" y="125">Thieves&#x27; Guild roof</text>
+    <text class="map-label" x="287" y="125">Thieves&#x27; Guild ledge</text>
+  </g>
+
+</svg>

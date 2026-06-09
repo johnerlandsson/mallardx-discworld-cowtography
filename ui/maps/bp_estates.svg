@@ -1,0 +1,1292 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1034 674"
+     class="map-svg"
+     data-map-id="19">
+
+  <g id="layer-artwork"><!-- artwork --></g>
+
+  <g id="layer-exits">
+    <line id="edge-27eab7974c004ee67de9a81c71f785b8a5b8cfb1-5e4ba01e54fbdacb3a68265022a1ee48e341e75f" class="exit" x1="457" y1="169" x2="443" y2="155"/>
+    <line id="edge-34007dd63b0dfd721f476339acc5406afd9583b3-5e4ba01e54fbdacb3a68265022a1ee48e341e75f" class="exit" x1="429" y1="141" x2="443" y2="155"/>
+    <line id="edge-5e4ba01e54fbdacb3a68265022a1ee48e341e75f-66d5ebc2d9e05b08f5e0a0db99755d28f351a3aa" class="exit" x1="443" y1="155" x2="443" y2="141"/>
+    <line id="edge-5e4ba01e54fbdacb3a68265022a1ee48e341e75f-b77fbc26ccd111825571dfd6ba207496d697bc23" class="exit" x1="443" y1="155" x2="457" y2="155"/>
+    <line id="edge-5e4ba01e54fbdacb3a68265022a1ee48e341e75f-ce4025c4f140d88bc2c258a1a64b5ac056b9bd8a" class="exit" x1="443" y1="155" x2="457" y2="141"/>
+    <line id="edge-34007dd63b0dfd721f476339acc5406afd9583b3-66d5ebc2d9e05b08f5e0a0db99755d28f351a3aa" class="exit" x1="429" y1="141" x2="443" y2="141"/>
+    <line id="edge-34007dd63b0dfd721f476339acc5406afd9583b3-70c6609fe33db373ae6a24be784c3d3fb4156cad" class="exit" x1="429" y1="141" x2="443" y2="127"/>
+    <line id="edge-34007dd63b0dfd721f476339acc5406afd9583b3-774645e1d5d95b9c70717eec38f2728c123563ea" class="exit" x1="429" y1="141" x2="415" y2="127"/>
+    <line id="edge-34007dd63b0dfd721f476339acc5406afd9583b3-fa3fb1919658898cd05c5063663b8bf6104b5de7" class="exit" x1="429" y1="141" x2="429" y2="127"/>
+    <line id="edge-774645e1d5d95b9c70717eec38f2728c123563ea-fa3fb1919658898cd05c5063663b8bf6104b5de7" class="exit" x1="415" y1="127" x2="429" y2="127"/>
+    <line id="edge-66d5ebc2d9e05b08f5e0a0db99755d28f351a3aa-fa3fb1919658898cd05c5063663b8bf6104b5de7" class="exit" x1="443" y1="141" x2="429" y2="127"/>
+    <line id="edge-70c6609fe33db373ae6a24be784c3d3fb4156cad-fa3fb1919658898cd05c5063663b8bf6104b5de7" class="exit" x1="443" y1="127" x2="429" y2="127"/>
+    <line id="edge-66d5ebc2d9e05b08f5e0a0db99755d28f351a3aa-70c6609fe33db373ae6a24be784c3d3fb4156cad" class="exit" x1="443" y1="141" x2="443" y2="127"/>
+    <line id="edge-70c6609fe33db373ae6a24be784c3d3fb4156cad-a70061ec44e4508bfdc029c605807231e294a38c" class="exit" x1="443" y1="127" x2="457" y2="127"/>
+    <line id="edge-70c6609fe33db373ae6a24be784c3d3fb4156cad-ce4025c4f140d88bc2c258a1a64b5ac056b9bd8a" class="exit" x1="443" y1="127" x2="457" y2="141"/>
+    <line id="edge-66d5ebc2d9e05b08f5e0a0db99755d28f351a3aa-a70061ec44e4508bfdc029c605807231e294a38c" class="exit" x1="443" y1="141" x2="457" y2="127"/>
+    <line id="edge-a70061ec44e4508bfdc029c605807231e294a38c-ce4025c4f140d88bc2c258a1a64b5ac056b9bd8a" class="exit" x1="457" y1="127" x2="457" y2="141"/>
+    <line id="edge-66d5ebc2d9e05b08f5e0a0db99755d28f351a3aa-ce4025c4f140d88bc2c258a1a64b5ac056b9bd8a" class="exit" x1="443" y1="141" x2="457" y2="141"/>
+    <line id="edge-b77fbc26ccd111825571dfd6ba207496d697bc23-ce4025c4f140d88bc2c258a1a64b5ac056b9bd8a" class="exit" x1="457" y1="155" x2="457" y2="141"/>
+    <line id="edge-66d5ebc2d9e05b08f5e0a0db99755d28f351a3aa-b77fbc26ccd111825571dfd6ba207496d697bc23" class="exit" x1="443" y1="141" x2="457" y2="155"/>
+    <line id="edge-27eab7974c004ee67de9a81c71f785b8a5b8cfb1-b77fbc26ccd111825571dfd6ba207496d697bc23" class="exit" x1="457" y1="169" x2="457" y2="155"/>
+    <line id="edge-310fdac5beeb13091e0c6ea0b79ca964c4eedcf4-b77fbc26ccd111825571dfd6ba207496d697bc23" class="exit" x1="471" y1="155" x2="457" y2="155"/>
+    <line id="edge-1bbac72733913b31adf706be5c402c46c8b71107-310fdac5beeb13091e0c6ea0b79ca964c4eedcf4" class="exit" x1="471" y1="169" x2="471" y2="155"/>
+    <line id="edge-310fdac5beeb13091e0c6ea0b79ca964c4eedcf4-47d2ef8cf1fcf61161874b19a3c3ee3243fbbf59" class="exit" x1="471" y1="155" x2="485" y2="155"/>
+    <line id="edge-310fdac5beeb13091e0c6ea0b79ca964c4eedcf4-a5fb84e09be814af5fe0b12e327be059dec2668e" class="exit" x1="471" y1="155" x2="471" y2="141"/>
+    <line id="edge-183bc5b61e5246acbac96320738ac08f5ed2217f-a5fb84e09be814af5fe0b12e327be059dec2668e" class="exit" x1="485" y1="141" x2="471" y2="141"/>
+    <line id="edge-a5fb84e09be814af5fe0b12e327be059dec2668e-d8e21cec864d4e28376138050481995e0cacd441" class="exit" x1="471" y1="141" x2="471" y2="127"/>
+    <line id="edge-3264e33d24146d28424cd71e371def288b6890c0-d8e21cec864d4e28376138050481995e0cacd441" class="exit" x1="485" y1="127" x2="471" y2="127"/>
+    <line id="edge-3264e33d24146d28424cd71e371def288b6890c0-9cab00494f7b9831618059798fa053c03e892d3d" class="exit" x1="485" y1="127" x2="499" y2="127"/>
+    <line id="edge-83e00448af3eb35c11cc2d808ed7d70384db3041-9cab00494f7b9831618059798fa053c03e892d3d" class="exit" x1="499" y1="22" x2="499" y2="127"/>
+    <line id="edge-9cab00494f7b9831618059798fa053c03e892d3d-a7704097ddd3235564c97add74fdbd7d27ed9e70" class="exit" x1="499" y1="127" x2="499" y2="141"/>
+    <line id="edge-9cab00494f7b9831618059798fa053c03e892d3d-efc93431eaa2ab95b79d891b537fc40ce3788f7b" class="exit" x1="499" y1="127" x2="513" y2="127"/>
+    <line id="edge-16d2cb882900ca6cf54b8dff71ee253dbb87b232-83e00448af3eb35c11cc2d808ed7d70384db3041" class="exit" x1="485" y1="22" x2="499" y2="22"/>
+    <line id="edge-17820084fb6591d0fb6912fd00331258784a8642-83e00448af3eb35c11cc2d808ed7d70384db3041" class="exit" x1="499" y1="36" x2="499" y2="22"/>
+    <line id="edge-83e00448af3eb35c11cc2d808ed7d70384db3041-e8a3bba642302aa733ccc17c9cbd11e4d3dbff20" class="exit" x1="499" y1="22" x2="513" y2="22"/>
+    <line id="edge-16d2cb882900ca6cf54b8dff71ee253dbb87b232-652fc462de468acc19732dc022e7ec48c9c5e836" class="exit" x1="485" y1="22" x2="485" y2="36"/>
+    <line id="edge-652fc462de468acc19732dc022e7ec48c9c5e836-f1e2b7ad6f4fa910bac72a34b7f9b30f7aa2c612" class="exit" x1="485" y1="36" x2="485" y2="50"/>
+    <line id="edge-e1a9b03816205a9af9515456d62d75644fa01d63-e8a3bba642302aa733ccc17c9cbd11e4d3dbff20" class="exit" x1="513" y1="36" x2="513" y2="22"/>
+    <line id="edge-10a084e662ef326b32c651f53d604135f6e271fe-efc93431eaa2ab95b79d891b537fc40ce3788f7b" class="exit" x1="527" y1="127" x2="513" y2="127"/>
+    <line id="edge-10a084e662ef326b32c651f53d604135f6e271fe-2eb576bb8b63e42cf5f3e62a39ae3d3e681e36fe" class="exit" x1="527" y1="127" x2="527" y2="141"/>
+    <line id="edge-2eb576bb8b63e42cf5f3e62a39ae3d3e681e36fe-48a5020fec199837e364499baad349567f18e81f" class="exit" x1="527" y1="141" x2="527" y2="155"/>
+    <line id="edge-2eb576bb8b63e42cf5f3e62a39ae3d3e681e36fe-52d3e37363cb504cf02ed187b2f988007028faab" class="exit" x1="527" y1="141" x2="513" y2="141"/>
+    <line id="edge-1e996f28e7b0b54caabfd23d6c4b106297c689af-48a5020fec199837e364499baad349567f18e81f" class="exit" x1="541" y1="155" x2="527" y2="155"/>
+    <line id="edge-48a5020fec199837e364499baad349567f18e81f-49faa9417ec34d2faf1aa9d3f6819f8ab3900ee8" class="exit" x1="527" y1="155" x2="513" y2="155"/>
+    <line id="edge-48a5020fec199837e364499baad349567f18e81f-6ee919ed0cc839f3e960fea59068bd3b741d00e5" class="exit" x1="527" y1="155" x2="527" y2="169"/>
+    <line id="edge-1e996f28e7b0b54caabfd23d6c4b106297c689af-5693a2661257eedb1fd705e683aa7a4984341c73" class="exit" x1="541" y1="155" x2="555" y2="141"/>
+    <line id="edge-1e996f28e7b0b54caabfd23d6c4b106297c689af-b99b50898bd5689b3e8e1fb52cfb5d3ce5a33076" class="exit" x1="541" y1="155" x2="541" y2="169"/>
+    <line id="edge-1e996f28e7b0b54caabfd23d6c4b106297c689af-ed69a173dbeccf1e0a8178f8893c1746c71b6834" class="exit" x1="541" y1="155" x2="555" y2="155"/>
+    <line id="edge-1e996f28e7b0b54caabfd23d6c4b106297c689af-fe09003fc683e470ac79981f3aefb25f9361da79" class="exit" x1="541" y1="155" x2="541" y2="141"/>
+    <line id="edge-b99b50898bd5689b3e8e1fb52cfb5d3ce5a33076-ed69a173dbeccf1e0a8178f8893c1746c71b6834" class="exit" x1="541" y1="169" x2="555" y2="155"/>
+    <line id="edge-5693a2661257eedb1fd705e683aa7a4984341c73-ed69a173dbeccf1e0a8178f8893c1746c71b6834" class="exit" x1="555" y1="141" x2="555" y2="155"/>
+    <line id="edge-ed69a173dbeccf1e0a8178f8893c1746c71b6834-fe09003fc683e470ac79981f3aefb25f9361da79" class="exit" x1="555" y1="155" x2="541" y2="141"/>
+    <line id="edge-5693a2661257eedb1fd705e683aa7a4984341c73-a6710b209cf8ef0e36a2565f47b82b35c37b9028" class="exit" x1="555" y1="141" x2="555" y2="127"/>
+    <line id="edge-5693a2661257eedb1fd705e683aa7a4984341c73-fe09003fc683e470ac79981f3aefb25f9361da79" class="exit" x1="555" y1="141" x2="541" y2="141"/>
+    <line id="edge-c2e297d656a430f87bfe50c7ca673696d3005c1f-fe09003fc683e470ac79981f3aefb25f9361da79" class="exit" x1="541" y1="127" x2="541" y2="141"/>
+    <line id="edge-a6710b209cf8ef0e36a2565f47b82b35c37b9028-c2e297d656a430f87bfe50c7ca673696d3005c1f" class="exit" x1="555" y1="127" x2="541" y2="127"/>
+    <line id="edge-4e8c9d8f632233afae903cc5d23d0d464c635724-6ee919ed0cc839f3e960fea59068bd3b741d00e5" class="exit" x1="513" y1="169" x2="527" y2="169"/>
+    <line id="edge-6ee919ed0cc839f3e960fea59068bd3b741d00e5-cfbffcdf7fc8171b899e716916b38d84193bf9aa" class="exit" x1="527" y1="169" x2="527" y2="183"/>
+    <line id="edge-056653d25781d2f1d75f8e920ab5520cb72f7bc9-cfbffcdf7fc8171b899e716916b38d84193bf9aa" class="exit" x1="513" y1="183" x2="527" y2="183"/>
+    <line id="edge-cfbffcdf7fc8171b899e716916b38d84193bf9aa-ee2acc3bee9008cecc5e47d875436ea136686615" class="exit" x1="527" y1="183" x2="527" y2="227"/>
+    <line id="edge-170713e62ac5712969e917bdb5635d19d1b330ad-ee2acc3bee9008cecc5e47d875436ea136686615" class="exit" x1="513" y1="227" x2="527" y2="227"/>
+    <line id="edge-48cd4ac10f3ff5d1aeaf58804c1a39ed36d3e6e2-ee2acc3bee9008cecc5e47d875436ea136686615" class="exit" x1="527" y1="213" x2="527" y2="227"/>
+    <line id="edge-48cd4ac10f3ff5d1aeaf58804c1a39ed36d3e6e2-508c8f21a5393eec5dd8204d63f5a4baec626c5b" class="exit" x1="527" y1="213" x2="514" y2="213"/>
+    <line id="edge-170713e62ac5712969e917bdb5635d19d1b330ad-d2a5dbc03983096caa549839f375b302f70e4306" class="exit" x1="513" y1="227" x2="499" y2="227"/>
+    <line id="edge-6738e5714e0a5d9a5faeb501446ecf9052145b4c-d2a5dbc03983096caa549839f375b302f70e4306" class="exit" x1="499" y1="213" x2="499" y2="227"/>
+    <line id="edge-8ab93f0a7151f04cb744412e98aa985e609bbd05-d57055f687640b5c3466b9c7c553fb887b058273" class="exit" x1="485" y1="227" x2="485" y2="213"/>
+    <line id="edge-7a522afffbe171f955dc7dbf3cf7ced33d8c7ffe-8ab93f0a7151f04cb744412e98aa985e609bbd05" class="exit" x1="471" y1="213" x2="485" y2="227"/>
+    <line id="edge-88cd6428b2d71280f40571cc2c64493816f223c0-8ab93f0a7151f04cb744412e98aa985e609bbd05" class="exit" x1="471" y1="227" x2="485" y2="227"/>
+    <line id="edge-056653d25781d2f1d75f8e920ab5520cb72f7bc9-6f7c4e53e6a45222bfc3ef17a45f97ebed2a0449" class="exit" x1="513" y1="183" x2="499" y2="183"/>
+    <line id="edge-12f955ff007f252730fc71c5e32a5368e234d144-6f7c4e53e6a45222bfc3ef17a45f97ebed2a0449" class="exit" x1="499" y1="78" x2="499" y2="183"/>
+    <line id="edge-25d5020741ac7e5954c86df427a1076e2f441c1f-6f7c4e53e6a45222bfc3ef17a45f97ebed2a0449" class="exit" x1="499" y1="169" x2="499" y2="183"/>
+    <line id="edge-339bc85e0fed81f26cb529d8ebe3d070facd7304-6f7c4e53e6a45222bfc3ef17a45f97ebed2a0449" class="exit" x1="485" y1="183" x2="499" y2="183"/>
+    <line id="edge-339bc85e0fed81f26cb529d8ebe3d070facd7304-a4c3f194109e493ac231e77d6d72d29026399a74" class="exit" x1="485" y1="183" x2="471" y2="183"/>
+    <line id="edge-1bbac72733913b31adf706be5c402c46c8b71107-a4c3f194109e493ac231e77d6d72d29026399a74" class="exit" x1="471" y1="169" x2="471" y2="183"/>
+    <line id="edge-1bbac72733913b31adf706be5c402c46c8b71107-7b1aba8cc687121731bab6facd101f872f6d7403" class="exit" x1="471" y1="169" x2="485" y2="169"/>
+    <line id="edge-183bc5b61e5246acbac96320738ac08f5ed2217f-47d2ef8cf1fcf61161874b19a3c3ee3243fbbf59" class="exit" x1="485" y1="141" x2="485" y2="155"/>
+    <line id="edge-28bb1c73ac17fa263ba4723a35b4a4df7f1c35cd-47d2ef8cf1fcf61161874b19a3c3ee3243fbbf59" class="exit" x1="499" y1="155" x2="485" y2="155"/>
+    <line id="edge-47d2ef8cf1fcf61161874b19a3c3ee3243fbbf59-7b1aba8cc687121731bab6facd101f872f6d7403" class="exit" x1="485" y1="155" x2="485" y2="169"/>
+    <line id="edge-25d5020741ac7e5954c86df427a1076e2f441c1f-28bb1c73ac17fa263ba4723a35b4a4df7f1c35cd" class="exit" x1="499" y1="169" x2="499" y2="155"/>
+    <line id="edge-28bb1c73ac17fa263ba4723a35b4a4df7f1c35cd-49faa9417ec34d2faf1aa9d3f6819f8ab3900ee8" class="exit" x1="499" y1="155" x2="513" y2="155"/>
+    <line id="edge-28bb1c73ac17fa263ba4723a35b4a4df7f1c35cd-a7704097ddd3235564c97add74fdbd7d27ed9e70" class="exit" x1="499" y1="155" x2="499" y2="141"/>
+    <line id="edge-49faa9417ec34d2faf1aa9d3f6819f8ab3900ee8-4e8c9d8f632233afae903cc5d23d0d464c635724" class="exit" x1="513" y1="155" x2="513" y2="169"/>
+    <line id="edge-49faa9417ec34d2faf1aa9d3f6819f8ab3900ee8-52d3e37363cb504cf02ed187b2f988007028faab" class="exit" x1="513" y1="155" x2="513" y2="141"/>
+    <line id="edge-12f955ff007f252730fc71c5e32a5368e234d144-14469ac045ac570fa3bbb2ce264736b4d64fa230" class="exit" x1="499" y1="78" x2="499" y2="64"/>
+    <line id="edge-12f955ff007f252730fc71c5e32a5368e234d144-338e1ad9383e0d370e4fbe1c48537ccb95862707" class="exit" x1="499" y1="78" x2="513" y2="78"/>
+    <line id="edge-12f955ff007f252730fc71c5e32a5368e234d144-d9869b3bac8946dc12a04cfdc6e1bfd82cb90710" class="exit" x1="499" y1="78" x2="485" y2="78"/>
+    <line id="edge-0d8b619d94b44fac42174b895494a93e61a8bcd8-d9869b3bac8946dc12a04cfdc6e1bfd82cb90710" class="exit" x1="485" y1="64" x2="485" y2="78"/>
+    <line id="edge-338e1ad9383e0d370e4fbe1c48537ccb95862707-da9371f2c8742b0674facc8e1457437b7510ae5d" class="exit" x1="513" y1="78" x2="513" y2="64"/>
+    <line id="edge-081a29a8ca3817e0ddbf1636514f948dda65accc-da9371f2c8742b0674facc8e1457437b7510ae5d" class="exit" x1="513" y1="50" x2="513" y2="64"/>
+    <line id="edge-0fc3d5c84c30810a9f56c4b1f1ec3f8989992ccd-945dc5c345a9fc1e6cc9897c1478e9e11c181858" class="exit" x1="526" y1="506" x2="540" y2="506"/>
+    <line id="edge-0fc3d5c84c30810a9f56c4b1f1ec3f8989992ccd-3127fac96b90749ed1453d31db9da01fbe9f9078" class="exit" x1="526" y1="506" x2="526" y2="492"/>
+    <line id="edge-0fc3d5c84c30810a9f56c4b1f1ec3f8989992ccd-9cd91a1dfc827d4657756a11256d4ea92c0ed6dd" class="exit" x1="526" y1="506" x2="540" y2="520"/>
+    <line id="edge-3127fac96b90749ed1453d31db9da01fbe9f9078-a5e194063b2af6c6e9eb081d82bd7cad2df91a34" class="exit" x1="526" y1="492" x2="512" y2="478"/>
+    <line id="edge-a5e194063b2af6c6e9eb081d82bd7cad2df91a34-cdfbd493183207742c851c0562840e20e5ce23a4" class="exit" x1="512" y1="478" x2="498" y2="464"/>
+    <line id="edge-a5e194063b2af6c6e9eb081d82bd7cad2df91a34-f50aff0fdc57422f5e078b8ac54c1c66b5e66cd4" class="exit" x1="512" y1="478" x2="512" y2="436"/>
+    <line id="edge-ed003962abb40d01f1e7f81929550b8690173400-f50aff0fdc57422f5e078b8ac54c1c66b5e66cd4" class="exit" x1="512" y1="422" x2="512" y2="436"/>
+    <line id="edge-5cf8e4d611a7f265e64b6191c4c67403a378263e-ed003962abb40d01f1e7f81929550b8690173400" class="exit" x1="498" y1="422" x2="512" y2="422"/>
+    <line id="edge-9da771ebb3339e040fc6bf9c484f2ff67ee7abcd-ed003962abb40d01f1e7f81929550b8690173400" class="exit" x1="498" y1="408" x2="512" y2="422"/>
+    <line id="edge-c1a87035b47f7fbf38cc1ba51156e9794e54d401-ed003962abb40d01f1e7f81929550b8690173400" class="exit" x1="512" y1="408" x2="512" y2="422"/>
+    <line id="edge-0cd81b9da2b79ee3cb8f68aa52bdc4c6fc8b6ff6-5cf8e4d611a7f265e64b6191c4c67403a378263e" class="exit" x1="484" y1="422" x2="498" y2="422"/>
+    <line id="edge-5cf8e4d611a7f265e64b6191c4c67403a378263e-9da771ebb3339e040fc6bf9c484f2ff67ee7abcd" class="exit" x1="498" y1="422" x2="498" y2="408"/>
+    <line id="edge-5cf8e4d611a7f265e64b6191c4c67403a378263e-c1a87035b47f7fbf38cc1ba51156e9794e54d401" class="exit" x1="498" y1="422" x2="512" y2="408"/>
+    <line id="edge-5cf8e4d611a7f265e64b6191c4c67403a378263e-fdb39675da366ea706f52a761720b5374696c4ed" class="exit" x1="498" y1="422" x2="484" y2="408"/>
+    <line id="edge-0cd81b9da2b79ee3cb8f68aa52bdc4c6fc8b6ff6-9da771ebb3339e040fc6bf9c484f2ff67ee7abcd" class="exit" x1="484" y1="422" x2="498" y2="408"/>
+    <line id="edge-0cd81b9da2b79ee3cb8f68aa52bdc4c6fc8b6ff6-fdb39675da366ea706f52a761720b5374696c4ed" class="exit" x1="484" y1="422" x2="484" y2="408"/>
+    <line id="edge-3f7602f4ca23fc427cc85264997f855792a1568e-fdb39675da366ea706f52a761720b5374696c4ed" class="exit" x1="484" y1="394" x2="484" y2="408"/>
+    <line id="edge-9da771ebb3339e040fc6bf9c484f2ff67ee7abcd-fdb39675da366ea706f52a761720b5374696c4ed" class="exit" x1="498" y1="408" x2="484" y2="408"/>
+    <line id="edge-f3a19e1d3f582189d43dc572067dc617604e08f9-fdb39675da366ea706f52a761720b5374696c4ed" class="exit" x1="498" y1="394" x2="484" y2="408"/>
+    <line id="edge-3f7602f4ca23fc427cc85264997f855792a1568e-9da771ebb3339e040fc6bf9c484f2ff67ee7abcd" class="exit" x1="484" y1="394" x2="498" y2="408"/>
+    <line id="edge-987b97f9c34b886552a601bd305e82f0485d0c34-9da771ebb3339e040fc6bf9c484f2ff67ee7abcd" class="exit" x1="512" y1="394" x2="498" y2="408"/>
+    <line id="edge-9da771ebb3339e040fc6bf9c484f2ff67ee7abcd-c1a87035b47f7fbf38cc1ba51156e9794e54d401" class="exit" x1="498" y1="408" x2="512" y2="408"/>
+    <line id="edge-9da771ebb3339e040fc6bf9c484f2ff67ee7abcd-f3a19e1d3f582189d43dc572067dc617604e08f9" class="exit" x1="498" y1="408" x2="498" y2="394"/>
+    <line id="edge-0b3ca76f02abc6023da67ca153a3f597ea763918-c1a87035b47f7fbf38cc1ba51156e9794e54d401" class="exit" x1="526" y1="408" x2="512" y2="408"/>
+    <line id="edge-4fc482ea697f8de4ea92c1bcb5a9395f4305640b-c1a87035b47f7fbf38cc1ba51156e9794e54d401" class="exit" x1="526" y1="394" x2="512" y2="408"/>
+    <line id="edge-987b97f9c34b886552a601bd305e82f0485d0c34-c1a87035b47f7fbf38cc1ba51156e9794e54d401" class="exit" x1="512" y1="394" x2="512" y2="408"/>
+    <line id="edge-c1a87035b47f7fbf38cc1ba51156e9794e54d401-f3a19e1d3f582189d43dc572067dc617604e08f9" class="exit" x1="512" y1="408" x2="498" y2="394"/>
+    <line id="edge-0b3ca76f02abc6023da67ca153a3f597ea763918-4fc482ea697f8de4ea92c1bcb5a9395f4305640b" class="exit" x1="526" y1="408" x2="526" y2="394"/>
+    <line id="edge-0b3ca76f02abc6023da67ca153a3f597ea763918-987b97f9c34b886552a601bd305e82f0485d0c34" class="exit" x1="526" y1="408" x2="512" y2="394"/>
+    <line id="edge-0b3ca76f02abc6023da67ca153a3f597ea763918-fa39109b916ca1e2915d80735884cffcf855b298" class="exit" x1="526" y1="408" x2="540" y2="394"/>
+    <line id="edge-4fc482ea697f8de4ea92c1bcb5a9395f4305640b-fa39109b916ca1e2915d80735884cffcf855b298" class="exit" x1="526" y1="394" x2="540" y2="394"/>
+    <line id="edge-4fc482ea697f8de4ea92c1bcb5a9395f4305640b-987b97f9c34b886552a601bd305e82f0485d0c34" class="exit" x1="526" y1="394" x2="512" y2="394"/>
+    <line id="edge-8c604f66edc0bd8ab89a8a616a7ba3275d4e2932-987b97f9c34b886552a601bd305e82f0485d0c34" class="exit" x1="509" y1="390" x2="512" y2="394"/>
+    <line id="edge-987b97f9c34b886552a601bd305e82f0485d0c34-f3a19e1d3f582189d43dc572067dc617604e08f9" class="exit" x1="512" y1="394" x2="498" y2="394"/>
+    <line id="edge-3f7602f4ca23fc427cc85264997f855792a1568e-f3a19e1d3f582189d43dc572067dc617604e08f9" class="exit" x1="484" y1="394" x2="498" y2="394"/>
+    <line id="edge-2d941456bc1568fc258a7fe8b2f7f2fc43babc44-cdfbd493183207742c851c0562840e20e5ce23a4" class="exit" x1="498" y1="450" x2="498" y2="464"/>
+    <line id="edge-2d941456bc1568fc258a7fe8b2f7f2fc43babc44-45019fc38e925dbb1ca42dd96d98afe572caa6c7" class="exit" x1="498" y1="450" x2="484" y2="436"/>
+    <line id="edge-401477bbd51f974cceac758b8bed28534bfccd94-45019fc38e925dbb1ca42dd96d98afe572caa6c7" class="exit" x1="470" y1="436" x2="484" y2="436"/>
+    <line id="edge-401477bbd51f974cceac758b8bed28534bfccd94-e57acc21c4bb0b896fd8468c05599c2515f8ded2" class="exit" x1="470" y1="436" x2="456" y2="422"/>
+    <line id="edge-3d2f35282df5240b2b2d3345de166728659ffc20-e57acc21c4bb0b896fd8468c05599c2515f8ded2" class="exit" x1="442" y1="422" x2="456" y2="422"/>
+    <line id="edge-3d2f35282df5240b2b2d3345de166728659ffc20-bf52a9de8403d3058ecc488e675b75d195a0bb54" class="exit" x1="442" y1="422" x2="428" y2="422"/>
+    <line id="edge-a8642e3e1e1a9db43bc12aa53a56b721bd29f32a-bf52a9de8403d3058ecc488e675b75d195a0bb54" class="exit" x1="414" y1="436" x2="428" y2="422"/>
+    <line id="edge-72c8f3c21900d05c2b1152219c1a7126df38d74c-a8642e3e1e1a9db43bc12aa53a56b721bd29f32a" class="exit" x1="400" y1="436" x2="414" y2="436"/>
+    <line id="edge-72c8f3c21900d05c2b1152219c1a7126df38d74c-ff5791f9da041fc9e022e02d0080ca741e89ea69" class="exit" x1="400" y1="436" x2="386" y2="422"/>
+    <line id="edge-5f474d98596b25c37ca449d702473bba61426c86-ff5791f9da041fc9e022e02d0080ca741e89ea69" class="exit" x1="372" y1="422" x2="386" y2="422"/>
+    <line id="edge-5f474d98596b25c37ca449d702473bba61426c86-fd33f5c7430536f95aefde5fbfd6f45a2f27c443" class="exit" x1="372" y1="422" x2="358" y2="422"/>
+    <line id="edge-cfa16d4ed7b2c13d6d34f3557b8f64e082f26d9a-fd33f5c7430536f95aefde5fbfd6f45a2f27c443" class="exit" x1="344" y1="436" x2="358" y2="422"/>
+    <line id="edge-450f20260405e980e0c1085fe6b4a45aba3e6cfc-cfa16d4ed7b2c13d6d34f3557b8f64e082f26d9a" class="exit" x1="330" y1="436" x2="344" y2="436"/>
+    <line id="edge-61de56f04cd756a11c92b0bb7545d28b444f5bb2-cfa16d4ed7b2c13d6d34f3557b8f64e082f26d9a" class="exit" x1="330" y1="450" x2="344" y2="436"/>
+    <line id="edge-450f20260405e980e0c1085fe6b4a45aba3e6cfc-61de56f04cd756a11c92b0bb7545d28b444f5bb2" class="exit" x1="330" y1="436" x2="330" y2="450"/>
+    <line id="edge-61de56f04cd756a11c92b0bb7545d28b444f5bb2-ca63a710e04ba820f9aacf8f643d98aa16684848" class="exit" x1="330" y1="450" x2="316" y2="450"/>
+    <line id="edge-450f20260405e980e0c1085fe6b4a45aba3e6cfc-ca63a710e04ba820f9aacf8f643d98aa16684848" class="exit" x1="330" y1="436" x2="316" y2="450"/>
+    <line id="edge-b4d70fa6d261b316c5070499e25a9555e4cfd7e5-ca63a710e04ba820f9aacf8f643d98aa16684848" class="exit" x1="302" y1="464" x2="316" y2="450"/>
+    <line id="edge-5e4018329d2248d69023bd8a1f72709c6b322366-b4d70fa6d261b316c5070499e25a9555e4cfd7e5" class="exit" x1="302" y1="478" x2="302" y2="464"/>
+    <line id="edge-4fc3e326ca0269fb0cc9c2d533aeb6c31fc3d8d4-5e4018329d2248d69023bd8a1f72709c6b322366" class="exit" x1="288" y1="492" x2="302" y2="478"/>
+    <line id="edge-4fc3e326ca0269fb0cc9c2d533aeb6c31fc3d8d4-e57e80333ae841d39c877c173191917f28902ae5" class="exit" x1="288" y1="492" x2="288" y2="506"/>
+    <line id="edge-e57e80333ae841d39c877c173191917f28902ae5-f6bcd017ee52848f3fc92f8ae5560f8d8d8007ae" class="exit" x1="288" y1="506" x2="274" y2="520"/>
+    <line id="edge-215beacd3892a26fe6044fbd19c9a7116b31ea91-f6bcd017ee52848f3fc92f8ae5560f8d8d8007ae" class="exit" x1="274" y1="534" x2="274" y2="520"/>
+    <line id="edge-215beacd3892a26fe6044fbd19c9a7116b31ea91-3cb8943048b37f4a4611bf694cbbc88967307d04" class="exit" x1="274" y1="534" x2="274" y2="548"/>
+    <line id="edge-215beacd3892a26fe6044fbd19c9a7116b31ea91-b14dff7279d6c85466588b5dcf48aa65e4235322" class="exit" x1="274" y1="534" x2="288" y2="548"/>
+    <line id="edge-3cb8943048b37f4a4611bf694cbbc88967307d04-b14dff7279d6c85466588b5dcf48aa65e4235322" class="exit" x1="274" y1="548" x2="288" y2="548"/>
+    <line id="edge-b14dff7279d6c85466588b5dcf48aa65e4235322-fbd353758114eb55a95c1ab76377b8a17e6aa164" class="exit" x1="288" y1="548" x2="288" y2="562"/>
+    <line id="edge-3cb8943048b37f4a4611bf694cbbc88967307d04-fbd353758114eb55a95c1ab76377b8a17e6aa164" class="exit" x1="274" y1="548" x2="288" y2="562"/>
+    <line id="edge-5af10168f4bd8da987565765c78b1a2c66435f3b-fbd353758114eb55a95c1ab76377b8a17e6aa164" class="exit" x1="302" y1="576" x2="288" y2="562"/>
+    <line id="edge-27684ec703e57c46e180703d3aeb2ca0c4a719db-5af10168f4bd8da987565765c78b1a2c66435f3b" class="exit" x1="316" y1="576" x2="302" y2="576"/>
+    <line id="edge-5af10168f4bd8da987565765c78b1a2c66435f3b-dcd99c2da6743e93f5e142fa5c732c325ef0c576" class="exit" x1="302" y1="576" x2="316" y2="562"/>
+    <line id="edge-27684ec703e57c46e180703d3aeb2ca0c4a719db-dcd99c2da6743e93f5e142fa5c732c325ef0c576" class="exit" x1="316" y1="576" x2="316" y2="562"/>
+    <line id="edge-dcd99c2da6743e93f5e142fa5c732c325ef0c576-df42436fd8d37edab07e1e453d1c549a71b9596b" class="exit" x1="316" y1="562" x2="330" y2="576"/>
+    <line id="edge-06a8281740555daffa93e24285bed73f7fe81f76-df42436fd8d37edab07e1e453d1c549a71b9596b" class="exit" x1="344" y1="576" x2="330" y2="576"/>
+    <line id="edge-27684ec703e57c46e180703d3aeb2ca0c4a719db-df42436fd8d37edab07e1e453d1c549a71b9596b" class="exit" x1="316" y1="576" x2="330" y2="576"/>
+    <line id="edge-06a8281740555daffa93e24285bed73f7fe81f76-509ba9b7d4c4bcc7a163c6986f980f3202c0ae42" class="exit" x1="344" y1="576" x2="358" y2="590"/>
+    <line id="edge-509ba9b7d4c4bcc7a163c6986f980f3202c0ae42-fbbf3d446b161bce7fe3c999a6511b1e3d554b45" class="exit" x1="358" y1="590" x2="372" y2="590"/>
+    <line id="edge-172291cf7c31115284c80c4d9704192537fd193f-fbbf3d446b161bce7fe3c999a6511b1e3d554b45" class="exit" x1="386" y1="590" x2="372" y2="590"/>
+    <line id="edge-172291cf7c31115284c80c4d9704192537fd193f-e53d1609378f0dc557e4c25faab1c937779930df" class="exit" x1="386" y1="590" x2="386" y2="576"/>
+    <line id="edge-172291cf7c31115284c80c4d9704192537fd193f-e6a8e895346f65f7bff46d10fe43775b4c72d1bf" class="exit" x1="386" y1="590" x2="400" y2="604"/>
+    <line id="edge-03cb179978b593bc3e146f3ba714ee1b4e19ced0-e6a8e895346f65f7bff46d10fe43775b4c72d1bf" class="exit" x1="414" y1="604" x2="400" y2="604"/>
+    <line id="edge-03cb179978b593bc3e146f3ba714ee1b4e19ced0-4cd6861acdb519e8559fdaed00c953933ad599e7" class="exit" x1="414" y1="604" x2="428" y2="604"/>
+    <line id="edge-4cd6861acdb519e8559fdaed00c953933ad599e7-6a4f2ae3b6019fcc28898d17e07cef1fc62112b9" class="exit" x1="428" y1="604" x2="442" y2="590"/>
+    <line id="edge-3c111fc58a32a195fd267e3aa43ba19101351f1a-6a4f2ae3b6019fcc28898d17e07cef1fc62112b9" class="exit" x1="456" y1="590" x2="442" y2="590"/>
+    <line id="edge-3c111fc58a32a195fd267e3aa43ba19101351f1a-88a803de01d7adcc87a543ca3cd848eea963bd51" class="exit" x1="456" y1="590" x2="456" y2="576"/>
+    <line id="edge-3c111fc58a32a195fd267e3aa43ba19101351f1a-ed104642e3a4aede7fa037e6238fae87a0481620" class="exit" x1="456" y1="590" x2="470" y2="590"/>
+    <line id="edge-88a803de01d7adcc87a543ca3cd848eea963bd51-d67b5d56263b399a465a544255999812986aa75a" class="exit" x1="456" y1="576" x2="456" y2="562"/>
+    <line id="edge-2928e2079a08fbe9fdc0764825c84260eddfcd45-d67b5d56263b399a465a544255999812986aa75a" class="exit" x1="442" y1="548" x2="456" y2="562"/>
+    <line id="edge-2928e2079a08fbe9fdc0764825c84260eddfcd45-58e86709564a9e3debed4f5dca9e47cd6dab0016" class="exit" x1="442" y1="548" x2="442" y2="534"/>
+    <line id="edge-0b3925c76eb9796528e28422a76af8206048bff0-58e86709564a9e3debed4f5dca9e47cd6dab0016" class="exit" x1="110" y1="582" x2="442" y2="534"/>
+    <line id="edge-0b3925c76eb9796528e28422a76af8206048bff0-252878295cd4a7ae63bf4f06076745e1d45d418d" class="exit" x1="110" y1="582" x2="96" y2="582"/>
+    <line id="edge-0b3925c76eb9796528e28422a76af8206048bff0-4a7184ac695e448f4f3e02fdba324141cb7d3478" class="exit" x1="110" y1="582" x2="110" y2="568"/>
+    <line id="edge-1e88b4f127ad54ac5eaad3c12b62c5238ea306c1-252878295cd4a7ae63bf4f06076745e1d45d418d" class="exit" x1="400" y1="534" x2="96" y2="582"/>
+    <line id="edge-252878295cd4a7ae63bf4f06076745e1d45d418d-b6368bb8737fb3c1d5ddc0773dab72af6417406b" class="exit" x1="96" y1="582" x2="96" y2="568"/>
+    <line id="edge-1e88b4f127ad54ac5eaad3c12b62c5238ea306c1-5b2a8170c81d243f8b757cbaf33ce8069add7f0a" class="exit" x1="400" y1="534" x2="400" y2="548"/>
+    <line id="edge-5b2a8170c81d243f8b757cbaf33ce8069add7f0a-96eb75f86395cd65fb336619c54c54599dd146ad" class="exit" x1="400" y1="548" x2="386" y2="562"/>
+    <line id="edge-96eb75f86395cd65fb336619c54c54599dd146ad-e53d1609378f0dc557e4c25faab1c937779930df" class="exit" x1="386" y1="562" x2="386" y2="576"/>
+    <line id="edge-12949c75a6491bbf6251f3e0966d04c60b0a01fa-b6368bb8737fb3c1d5ddc0773dab72af6417406b" class="exit" x1="82" y1="568" x2="96" y2="568"/>
+    <line id="edge-4a7184ac695e448f4f3e02fdba324141cb7d3478-b6368bb8737fb3c1d5ddc0773dab72af6417406b" class="exit" x1="110" y1="568" x2="96" y2="568"/>
+    <line id="edge-923c341073d8a974ae49bd1fb399ef1726989850-b6368bb8737fb3c1d5ddc0773dab72af6417406b" class="exit" x1="96" y1="555" x2="96" y2="568"/>
+    <line id="edge-4a7184ac695e448f4f3e02fdba324141cb7d3478-4df959b934373ce822b86cd879cf601a48150dbe" class="exit" x1="110" y1="568" x2="124" y2="568"/>
+    <line id="edge-49e8af8f8713c3fb7e14d94d5a8ca4500f58b355-4df959b934373ce822b86cd879cf601a48150dbe" class="exit" x1="138" y1="568" x2="124" y2="568"/>
+    <line id="edge-4df959b934373ce822b86cd879cf601a48150dbe-bbdaa1b3484d32e146ef635d750858ba254bebe0" class="exit" x1="124" y1="568" x2="124" y2="554"/>
+    <line id="edge-49e8af8f8713c3fb7e14d94d5a8ca4500f58b355-fb5d2662e17c1af5ef1d59ea138cf204de86fdcd" class="exit" x1="138" y1="568" x2="152" y2="554"/>
+    <line id="edge-a17c9662228ab2e636053db1e958e39b3227bbae-fb5d2662e17c1af5ef1d59ea138cf204de86fdcd" class="exit" x1="138" y1="540" x2="152" y2="554"/>
+    <line id="edge-e99365ba116f99d9e536ab2f1c36151123e5d3c9-fb5d2662e17c1af5ef1d59ea138cf204de86fdcd" class="exit" x1="166" y1="554" x2="152" y2="554"/>
+    <line id="edge-66bd3d55287129705c6d59d22d0791c88510e7a8-e99365ba116f99d9e536ab2f1c36151123e5d3c9" class="exit" x1="180" y1="554" x2="166" y2="554"/>
+    <line id="edge-693bdc755331c01c740e50f493810975b7030fb7-a17c9662228ab2e636053db1e958e39b3227bbae" class="exit" x1="124" y1="540" x2="138" y2="540"/>
+    <line id="edge-4dccca2dc72cefd57268c6dfa34c503fca728fe0-693bdc755331c01c740e50f493810975b7030fb7" class="exit" x1="124" y1="526" x2="124" y2="540"/>
+    <line id="edge-693bdc755331c01c740e50f493810975b7030fb7-b71128dcadf0c7e555c2c1b4590593f7547578ad" class="exit" x1="124" y1="540" x2="110" y2="540"/>
+    <line id="edge-4dccca2dc72cefd57268c6dfa34c503fca728fe0-c4160ff5b88b34747ed2ff6607312cc3ace5321d" class="exit" x1="124" y1="526" x2="138" y2="512"/>
+    <line id="edge-06e2f5ecebcc1397b23cb0bdff3126bb727619b5-c4160ff5b88b34747ed2ff6607312cc3ace5321d" class="exit" x1="138" y1="498" x2="138" y2="512"/>
+    <line id="edge-06e2f5ecebcc1397b23cb0bdff3126bb727619b5-45fa2cec8dad0fabc2f1fa75a4b67abd68838a0d" class="exit" x1="138" y1="498" x2="152" y2="498"/>
+    <line id="edge-06e2f5ecebcc1397b23cb0bdff3126bb727619b5-dbbe314c089e928400ccd30f3ceb961758123acf" class="exit" x1="138" y1="498" x2="124" y2="498"/>
+    <line id="edge-b71128dcadf0c7e555c2c1b4590593f7547578ad-b858e0243af008aaed2260ef667c43e79f1509a8" class="exit" x1="110" y1="540" x2="96" y2="540"/>
+    <line id="edge-b71128dcadf0c7e555c2c1b4590593f7547578ad-e9baa7e6d2d28bc87aac3d7e07d20a7d594202f5" class="exit" x1="110" y1="540" x2="110" y2="554"/>
+    <line id="edge-bbdaa1b3484d32e146ef635d750858ba254bebe0-e9baa7e6d2d28bc87aac3d7e07d20a7d594202f5" class="exit" x1="124" y1="554" x2="110" y2="554"/>
+    <line id="edge-63cd1ee5a7c6102e0c9585a0e876ba579748b7e6-bbdaa1b3484d32e146ef635d750858ba254bebe0" class="exit" x1="138" y1="554" x2="124" y2="554"/>
+    <line id="edge-71c6f43c58d7c31104c5a1140c9adba2dfd97b7b-b858e0243af008aaed2260ef667c43e79f1509a8" class="exit" x1="82" y1="540" x2="96" y2="540"/>
+    <line id="edge-10fa08f87d8366f19c4c9c55d063600ad237d5d6-71c6f43c58d7c31104c5a1140c9adba2dfd97b7b" class="exit" x1="82" y1="554" x2="82" y2="540"/>
+    <line id="edge-71c6f43c58d7c31104c5a1140c9adba2dfd97b7b-8f8102ef4ab4c1b99074a77a6c3d109bcae735c5" class="exit" x1="82" y1="540" x2="68" y2="540"/>
+    <line id="edge-71c6f43c58d7c31104c5a1140c9adba2dfd97b7b-b56054f7e2516a5f95da958698b57d82c7d9398d" class="exit" x1="82" y1="540" x2="82" y2="526"/>
+    <line id="edge-0cbca6a17a62bd7987d27e5560b79cfd56a3b2d1-b56054f7e2516a5f95da958698b57d82c7d9398d" class="exit" x1="68" y1="512" x2="82" y2="526"/>
+    <line id="edge-0cbca6a17a62bd7987d27e5560b79cfd56a3b2d1-19783add7cb1a9faea3836c76db0dd84e0d8454f" class="exit" x1="68" y1="512" x2="68" y2="498"/>
+    <line id="edge-19783add7cb1a9faea3836c76db0dd84e0d8454f-7ba2c806cffae0d02c8b21951bdddcced245cc71" class="exit" x1="68" y1="498" x2="68" y2="484"/>
+    <line id="edge-19783add7cb1a9faea3836c76db0dd84e0d8454f-b659139ee83a4df266d9c6792a4f7cb0e2105ea1" class="exit" x1="68" y1="498" x2="82" y2="498"/>
+    <line id="edge-20e7e72902180930e8ad78ec8a1fbfbd07db39de-b659139ee83a4df266d9c6792a4f7cb0e2105ea1" class="exit" x1="82" y1="512" x2="82" y2="498"/>
+    <line id="edge-0e8d47b14036d404467fc834f9fc24a7b31dd714-8f8102ef4ab4c1b99074a77a6c3d109bcae735c5" class="exit" x1="54" y1="554" x2="68" y2="540"/>
+    <line id="edge-0e8d47b14036d404467fc834f9fc24a7b31dd714-9cee9ca8b87e32e276ae7fc7dae9383250653c0f" class="exit" x1="54" y1="554" x2="68" y2="568"/>
+    <line id="edge-0e8d47b14036d404467fc834f9fc24a7b31dd714-f02934a17889af9b4ac61e40ce33a64d3f57cb4b" class="exit" x1="54" y1="554" x2="40" y2="554"/>
+    <line id="edge-b0cbe71a8aabff7c061d09ca028a3287ad87565d-f02934a17889af9b4ac61e40ce33a64d3f57cb4b" class="exit" x1="26" y1="554" x2="40" y2="554"/>
+    <line id="edge-12949c75a6491bbf6251f3e0966d04c60b0a01fa-9cee9ca8b87e32e276ae7fc7dae9383250653c0f" class="exit" x1="82" y1="568" x2="68" y2="568"/>
+    <line id="edge-10fa08f87d8366f19c4c9c55d063600ad237d5d6-12949c75a6491bbf6251f3e0966d04c60b0a01fa" class="exit" x1="82" y1="554" x2="82" y2="568"/>
+    <line id="edge-10fa08f87d8366f19c4c9c55d063600ad237d5d6-e4caade2ea2ec421fe1757cdedcb8cc5695afdc9" class="exit" x1="82" y1="554" x2="68" y2="554"/>
+    <line id="edge-923c341073d8a974ae49bd1fb399ef1726989850-f6d4e8adb53e73eb82dd3e6f8c2f223971c03211" class="exit" x1="96" y1="555" x2="96" y2="438"/>
+    <line id="edge-4fed269f5f0be2826e6c9af79c824269f78933e0-f6d4e8adb53e73eb82dd3e6f8c2f223971c03211" class="exit" x1="96" y1="376" x2="96" y2="438"/>
+    <line id="edge-f6d4e8adb53e73eb82dd3e6f8c2f223971c03211-fde101565c21b7778f60512ce05fbe2d6db38946" class="exit" x1="96" y1="438" x2="96" y2="424"/>
+    <line id="edge-783c4edff7cbde9f2daabeaba2a75a30f776303f-fde101565c21b7778f60512ce05fbe2d6db38946" class="exit" x1="82" y1="438" x2="96" y2="424"/>
+    <line id="edge-ed1c9a780c9d53bdeb3c6ea3b1e2b635af08bbfd-fde101565c21b7778f60512ce05fbe2d6db38946" class="exit" x1="110" y1="424" x2="96" y2="424"/>
+    <line id="edge-5a41729063d3a0af67ec44f5231c9039915a0c56-783c4edff7cbde9f2daabeaba2a75a30f776303f" class="exit" x1="82" y1="452" x2="82" y2="438"/>
+    <line id="edge-783c4edff7cbde9f2daabeaba2a75a30f776303f-a9b03e73d5feea163bd51e5e12a52c7bf1715b98" class="exit" x1="82" y1="438" x2="68" y2="438"/>
+    <line id="edge-5a41729063d3a0af67ec44f5231c9039915a0c56-897a3090e710c2cb421f32d83458a4fa3484a3d0" class="exit" x1="82" y1="452" x2="96" y2="452"/>
+    <line id="edge-5a41729063d3a0af67ec44f5231c9039915a0c56-d0cd7cdd7695a5d4d3c5d945deee8f8b549fa50f" class="exit" x1="82" y1="452" x2="68" y2="452"/>
+    <line id="edge-a9b03e73d5feea163bd51e5e12a52c7bf1715b98-d0cd7cdd7695a5d4d3c5d945deee8f8b549fa50f" class="exit" x1="68" y1="438" x2="68" y2="452"/>
+    <line id="edge-7928b3f644d0bd5eb079baa4592ae42f99a3790c-ed1c9a780c9d53bdeb3c6ea3b1e2b635af08bbfd" class="exit" x1="110" y1="438" x2="110" y2="424"/>
+    <line id="edge-c0bc8831ade9ab493dc6e2f3de31e1aac722146b-ed1c9a780c9d53bdeb3c6ea3b1e2b635af08bbfd" class="exit" x1="124" y1="438" x2="110" y2="424"/>
+    <line id="edge-0cd6f0295ff1fb83135e4f0ad4c911127cdf44b9-c0bc8831ade9ab493dc6e2f3de31e1aac722146b" class="exit" x1="138" y1="438" x2="124" y2="438"/>
+    <line id="edge-87662fb0506140e8146110af8f6fc56c19238b7f-c0bc8831ade9ab493dc6e2f3de31e1aac722146b" class="exit" x1="124" y1="452" x2="124" y2="438"/>
+    <line id="edge-8d1aaa52ddb231bbf906e334f0313acdffae621d-c0bc8831ade9ab493dc6e2f3de31e1aac722146b" class="exit" x1="110" y1="452" x2="124" y2="438"/>
+    <line id="edge-0cd6f0295ff1fb83135e4f0ad4c911127cdf44b9-db66ae7c5967dbf401e039b6cc8e20d94ad435da" class="exit" x1="138" y1="438" x2="138" y2="452"/>
+    <line id="edge-138685d53798fdeba6948bca2630bc0e4ffb7baa-4fed269f5f0be2826e6c9af79c824269f78933e0" class="exit" x1="96" y1="390" x2="96" y2="376"/>
+    <line id="edge-4fed269f5f0be2826e6c9af79c824269f78933e0-5ee5d8e533ea4ddf3f6dd59032717d007fe1e6bb" class="exit" x1="96" y1="376" x2="110" y2="376"/>
+    <line id="edge-562d9b064b7ce971ecd23c21c9f5e89fa4bf2f27-5ee5d8e533ea4ddf3f6dd59032717d007fe1e6bb" class="exit" x1="110" y1="390" x2="110" y2="376"/>
+    <line id="edge-20fceb3cc5137774177a2b7f34d10136b54a9341-ed104642e3a4aede7fa037e6238fae87a0481620" class="exit" x1="484" y1="590" x2="470" y2="590"/>
+    <line id="edge-20fceb3cc5137774177a2b7f34d10136b54a9341-e4a77e6d0fb6199c3c7e0ec4e1833d66545b4372" class="exit" x1="484" y1="590" x2="498" y2="576"/>
+    <line id="edge-e4a77e6d0fb6199c3c7e0ec4e1833d66545b4372-ff7d594be0658aae9cb232b10224af0ab94dd3f4" class="exit" x1="498" y1="576" x2="512" y2="576"/>
+    <line id="edge-e020c3c0a63538670674cd5483586e8594e87de9-ff7d594be0658aae9cb232b10224af0ab94dd3f4" class="exit" x1="526" y1="562" x2="512" y2="576"/>
+    <line id="edge-da7fc47e3451bcf332a6c0406e6767d2f08e18cc-e020c3c0a63538670674cd5483586e8594e87de9" class="exit" x1="526" y1="548" x2="526" y2="562"/>
+    <line id="edge-70ff20d16c1e1439e3cefaf0ffa99f519c513634-da7fc47e3451bcf332a6c0406e6767d2f08e18cc" class="exit" x1="540" y1="534" x2="526" y2="548"/>
+    <line id="edge-70ff20d16c1e1439e3cefaf0ffa99f519c513634-9cd91a1dfc827d4657756a11256d4ea92c0ed6dd" class="exit" x1="540" y1="534" x2="540" y2="520"/>
+    <line id="edge-1459588f1c06219074498e08dcdd833cccccec26-9cd91a1dfc827d4657756a11256d4ea92c0ed6dd" class="exit" x1="554" y1="520" x2="540" y2="520"/>
+    <line id="edge-1459588f1c06219074498e08dcdd833cccccec26-2040eac3bcc8835a11511ed30129cf3023b53909" class="exit" x1="554" y1="520" x2="554" y2="534"/>
+    <line id="edge-1459588f1c06219074498e08dcdd833cccccec26-9a0a49398a5dfa9d8a6519d79393aeeabf61ffe2" class="exit" x1="554" y1="520" x2="568" y2="520"/>
+    <line id="edge-8f6252117c1db158ba60adc897690d4ea39f6795-9a0a49398a5dfa9d8a6519d79393aeeabf61ffe2" class="exit" x1="568" y1="534" x2="568" y2="520"/>
+    <line id="edge-0073da072a55672a026482d0e46aa2ff9417ce9e-f02bd3eaea000ca979a6b3c623d342ff4d9159fa" class="exit" x1="84" y1="143" x2="77" y2="171"/>
+    <line id="edge-0073da072a55672a026482d0e46aa2ff9417ce9e-24928af9e47c430b8e086ae870d4978e4bd6f0a6" class="exit" x1="84" y1="143" x2="70" y2="129"/>
+    <line id="edge-0073da072a55672a026482d0e46aa2ff9417ce9e-33c5c8c21edc6ac3f31a9f45debf5b655e01cbec" class="exit" x1="84" y1="143" x2="98" y2="157"/>
+    <line id="edge-0073da072a55672a026482d0e46aa2ff9417ce9e-950d2d00ec8b19ab53eac4318d9759811f7fb3f1" class="exit" x1="84" y1="143" x2="84" y2="129"/>
+    <line id="edge-24928af9e47c430b8e086ae870d4978e4bd6f0a6-541ce5c677ccb23cb0f7c639b3ac71a03286ac3e" class="exit" x1="70" y1="129" x2="70" y2="115"/>
+    <line id="edge-24928af9e47c430b8e086ae870d4978e4bd6f0a6-6625626982dee10d282c1c73563a925000c5238a" class="exit" x1="70" y1="129" x2="84" y2="115"/>
+    <line id="edge-24928af9e47c430b8e086ae870d4978e4bd6f0a6-950d2d00ec8b19ab53eac4318d9759811f7fb3f1" class="exit" x1="70" y1="129" x2="84" y2="129"/>
+    <line id="edge-541ce5c677ccb23cb0f7c639b3ac71a03286ac3e-5d11e0d6c4a9d8f7a9489c36b0f0c3d1dca7eb8b" class="exit" x1="70" y1="115" x2="84" y2="101"/>
+    <line id="edge-541ce5c677ccb23cb0f7c639b3ac71a03286ac3e-6625626982dee10d282c1c73563a925000c5238a" class="exit" x1="70" y1="115" x2="84" y2="115"/>
+    <line id="edge-541ce5c677ccb23cb0f7c639b3ac71a03286ac3e-950d2d00ec8b19ab53eac4318d9759811f7fb3f1" class="exit" x1="70" y1="115" x2="84" y2="129"/>
+    <line id="edge-5d11e0d6c4a9d8f7a9489c36b0f0c3d1dca7eb8b-6625626982dee10d282c1c73563a925000c5238a" class="exit" x1="84" y1="101" x2="84" y2="115"/>
+    <line id="edge-5d11e0d6c4a9d8f7a9489c36b0f0c3d1dca7eb8b-be338565d4590363b468f6d4606121a04227b050" class="exit" x1="84" y1="101" x2="98" y2="87"/>
+    <line id="edge-be338565d4590363b468f6d4606121a04227b050-c7ded8ee6188f88172983b4c33f6f4681b9a17a0" class="exit" x1="98" y1="87" x2="112" y2="87"/>
+    <line id="edge-416615828aafe3be9343e96e3336c4d2b530f7c4-c7ded8ee6188f88172983b4c33f6f4681b9a17a0" class="exit" x1="126" y1="87" x2="112" y2="87"/>
+    <line id="edge-416615828aafe3be9343e96e3336c4d2b530f7c4-fd0629003bef22488fabcf42649f47f4c66d7688" class="exit" x1="126" y1="87" x2="140" y2="87"/>
+    <line id="edge-d3095e542c9e6dbfee0986c079d12ab7c53e141c-fd0629003bef22488fabcf42649f47f4c66d7688" class="exit" x1="154" y1="101" x2="140" y2="87"/>
+    <line id="edge-c8d0863e1f373fc85b2186848e3166902dc87534-d3095e542c9e6dbfee0986c079d12ab7c53e141c" class="exit" x1="168" y1="115" x2="154" y2="101"/>
+    <line id="edge-d3095e542c9e6dbfee0986c079d12ab7c53e141c-dd138a926e618466fb9b3f96611754024d6858f0" class="exit" x1="154" y1="101" x2="154" y2="115"/>
+    <line id="edge-c8d0863e1f373fc85b2186848e3166902dc87534-d6a2ffb4af4157519c52cc9e291a0daa0b78dbbe" class="exit" x1="168" y1="115" x2="154" y2="129"/>
+    <line id="edge-c8d0863e1f373fc85b2186848e3166902dc87534-dd138a926e618466fb9b3f96611754024d6858f0" class="exit" x1="168" y1="115" x2="154" y2="115"/>
+    <line id="edge-c8d0863e1f373fc85b2186848e3166902dc87534-efe10d56fad73b7557017d51c39d0eb9dd571a84" class="exit" x1="168" y1="115" x2="168" y2="129"/>
+    <line id="edge-5bdfe3b280fb9faebac82c2a13de3c14f0011f6e-efe10d56fad73b7557017d51c39d0eb9dd571a84" class="exit" x1="154" y1="143" x2="168" y2="129"/>
+    <line id="edge-d6a2ffb4af4157519c52cc9e291a0daa0b78dbbe-efe10d56fad73b7557017d51c39d0eb9dd571a84" class="exit" x1="154" y1="129" x2="168" y2="129"/>
+    <line id="edge-dd138a926e618466fb9b3f96611754024d6858f0-efe10d56fad73b7557017d51c39d0eb9dd571a84" class="exit" x1="154" y1="115" x2="168" y2="129"/>
+    <line id="edge-5bdfe3b280fb9faebac82c2a13de3c14f0011f6e-9b9bc9802e24cf378b55c211e7e248d33870241b" class="exit" x1="154" y1="143" x2="140" y2="157"/>
+    <line id="edge-5bdfe3b280fb9faebac82c2a13de3c14f0011f6e-d6a2ffb4af4157519c52cc9e291a0daa0b78dbbe" class="exit" x1="154" y1="143" x2="154" y2="129"/>
+    <line id="edge-d6a2ffb4af4157519c52cc9e291a0daa0b78dbbe-dd138a926e618466fb9b3f96611754024d6858f0" class="exit" x1="154" y1="129" x2="154" y2="115"/>
+    <line id="edge-8e43e036abfafcd35c3246f748be9ffe0fabc4c3-9b9bc9802e24cf378b55c211e7e248d33870241b" class="exit" x1="126" y1="157" x2="140" y2="157"/>
+    <line id="edge-2351c92d23765359e154525457c5952f08061780-8e43e036abfafcd35c3246f748be9ffe0fabc4c3" class="exit" x1="112" y1="157" x2="126" y2="157"/>
+    <line id="edge-2eeae54e9e08525e304d6f75fc330c5b83e52a8a-8e43e036abfafcd35c3246f748be9ffe0fabc4c3" class="exit" x1="126" y1="143" x2="126" y2="157"/>
+    <line id="edge-2eeae54e9e08525e304d6f75fc330c5b83e52a8a-405c93174ebbca4466e5c7f497fd1d93a681eddc" class="exit" x1="126" y1="143" x2="112" y2="143"/>
+    <line id="edge-2eeae54e9e08525e304d6f75fc330c5b83e52a8a-d335c839b34e339b90ac46545433346e652cf329" class="exit" x1="126" y1="143" x2="126" y2="129"/>
+    <line id="edge-2eeae54e9e08525e304d6f75fc330c5b83e52a8a-d95aab1a44dc6be7c96ee215a84575f170a59aac" class="exit" x1="126" y1="143" x2="140" y2="143"/>
+    <line id="edge-2d1dd2f54ea6f466424864d1a533998c434c5fdb-d335c839b34e339b90ac46545433346e652cf329" class="exit" x1="126" y1="115" x2="126" y2="129"/>
+    <line id="edge-731b23204f4cfa4e0345a634d84944b22e8bbef1-d335c839b34e339b90ac46545433346e652cf329" class="exit" x1="112" y1="129" x2="126" y2="129"/>
+    <line id="edge-d335c839b34e339b90ac46545433346e652cf329-e72d938554eff8726191a2d4439caf01f8a390b1" class="exit" x1="126" y1="129" x2="140" y2="129"/>
+    <line id="edge-2d1dd2f54ea6f466424864d1a533998c434c5fdb-5eb82ed4bccaa1352b0a2ba3965dce358721cbba" class="exit" x1="126" y1="115" x2="140" y2="115"/>
+    <line id="edge-2d1dd2f54ea6f466424864d1a533998c434c5fdb-97a5395a24a412980bc923ca71351fd2b3084760" class="exit" x1="126" y1="115" x2="112" y2="115"/>
+    <line id="edge-2d1dd2f54ea6f466424864d1a533998c434c5fdb-d1cefa9a80062cd28af0e8ea8456b51e06e587cf" class="exit" x1="126" y1="115" x2="126" y2="101"/>
+    <line id="edge-1ad32c59d54e44060d0fed2bcfa055191cc5ee99-d1cefa9a80062cd28af0e8ea8456b51e06e587cf" class="exit" x1="112" y1="101" x2="126" y2="101"/>
+    <line id="edge-49c3db577b0ea3258106d5cc9814428dd1856387-d1cefa9a80062cd28af0e8ea8456b51e06e587cf" class="exit" x1="140" y1="101" x2="126" y2="101"/>
+    <line id="edge-1ad32c59d54e44060d0fed2bcfa055191cc5ee99-ba43312d8fd93fd8739d053a616bef21fd8a0e3c" class="exit" x1="112" y1="101" x2="98" y2="101"/>
+    <line id="edge-5d21ed9c657fd103976b8eb15188990ea3db342a-ba43312d8fd93fd8739d053a616bef21fd8a0e3c" class="exit" x1="98" y1="115" x2="98" y2="101"/>
+    <line id="edge-405c93174ebbca4466e5c7f497fd1d93a681eddc-504ccd51b7d1799d6253197b0d03c5de4d389b23" class="exit" x1="112" y1="143" x2="98" y2="143"/>
+    <line id="edge-12fb280a6ca6f0d6548502a9e69fe0f664bb99d5-504ccd51b7d1799d6253197b0d03c5de4d389b23" class="exit" x1="97" y1="244" x2="98" y2="143"/>
+    <line id="edge-3c7065a68758c8e891c382d3ce59105285004454-504ccd51b7d1799d6253197b0d03c5de4d389b23" class="exit" x1="98" y1="61" x2="98" y2="143"/>
+    <line id="edge-3e202be121aa417e88bcc73dff496045bbdaa7d0-504ccd51b7d1799d6253197b0d03c5de4d389b23" class="exit" x1="98" y1="129" x2="98" y2="143"/>
+    <line id="edge-12fb280a6ca6f0d6548502a9e69fe0f664bb99d5-dd28ce0b7708fd990804ebb6b9b502fe6dc49124" class="exit" x1="97" y1="244" x2="111" y2="244"/>
+    <line id="edge-c808444027250203faf025faa909a58db8cbbaae-dd28ce0b7708fd990804ebb6b9b502fe6dc49124" class="exit" x1="125" y1="244" x2="111" y2="244"/>
+    <line id="edge-c808444027250203faf025faa909a58db8cbbaae-f53f264ed13e2e682171de9becb7fe4dc3e904e6" class="exit" x1="125" y1="244" x2="125" y2="230"/>
+    <line id="edge-47b8da00c7f9e5f0014f2843ce054c2df40cf7b5-f53f264ed13e2e682171de9becb7fe4dc3e904e6" class="exit" x1="111" y1="230" x2="125" y2="230"/>
+    <line id="edge-801ec001ca99e8271a07ec91afaaba93e0555ef1-f53f264ed13e2e682171de9becb7fe4dc3e904e6" class="exit" x1="139" y1="230" x2="125" y2="230"/>
+    <line id="edge-bd7ac7883d8a02d83508898a9c69b4611889cfe0-f53f264ed13e2e682171de9becb7fe4dc3e904e6" class="exit" x1="125" y1="216" x2="125" y2="230"/>
+    <line id="edge-6469a51b11338245eed042c89837faaf99ea14b4-bd7ac7883d8a02d83508898a9c69b4611889cfe0" class="exit" x1="125" y1="202" x2="125" y2="216"/>
+    <line id="edge-64f5712c21c76212bf5b7248121ee6d5b0dfa68e-bd7ac7883d8a02d83508898a9c69b4611889cfe0" class="exit" x1="111" y1="216" x2="125" y2="216"/>
+    <line id="edge-93c27ae8c01feaa0faf34708a023aa8570927f52-bd7ac7883d8a02d83508898a9c69b4611889cfe0" class="exit" x1="139" y1="216" x2="125" y2="216"/>
+    <line id="edge-6469a51b11338245eed042c89837faaf99ea14b4-72f447572c8fdd79046b2e479db566d75773fe6e" class="exit" x1="125" y1="202" x2="139" y2="202"/>
+    <line id="edge-6469a51b11338245eed042c89837faaf99ea14b4-da796e830a263e5ec2a8a82ba46e306d915b9814" class="exit" x1="125" y1="202" x2="111" y2="202"/>
+    <line id="edge-3c7065a68758c8e891c382d3ce59105285004454-913f0504c2e45aec1733f821dcba829d23202f57" class="exit" x1="98" y1="61" x2="98" y2="47"/>
+    <line id="edge-3c7065a68758c8e891c382d3ce59105285004454-936c188fcb05156235a244f6b35ab9b3fd023983" class="exit" x1="98" y1="61" x2="112" y2="61"/>
+    <line id="edge-72fc5d1898b71fc1bb42b6b973737a06fc77761a-936c188fcb05156235a244f6b35ab9b3fd023983" class="exit" x1="126" y1="61" x2="112" y2="61"/>
+    <line id="edge-07cfc598b34276cda5db4d6c88c74a2a306c98e5-72fc5d1898b71fc1bb42b6b973737a06fc77761a" class="exit" x1="140" y1="61" x2="126" y2="61"/>
+    <line id="edge-72fc5d1898b71fc1bb42b6b973737a06fc77761a-a64b1e4a0e47cb6cc289a098e61f519daf4967aa" class="exit" x1="126" y1="61" x2="126" y2="47"/>
+    <line id="edge-0233f062568f22d9802fd4f876054ec839243a82-a64b1e4a0e47cb6cc289a098e61f519daf4967aa" class="exit" x1="112" y1="47" x2="126" y2="47"/>
+    <line id="edge-625df340661b3632fffa8278987e1e2b611677db-a64b1e4a0e47cb6cc289a098e61f519daf4967aa" class="exit" x1="140" y1="47" x2="126" y2="47"/>
+    <line id="edge-9dbd62248eb36de196fa83e1c45bfadd3cbfdeba-a64b1e4a0e47cb6cc289a098e61f519daf4967aa" class="exit" x1="126" y1="33" x2="126" y2="47"/>
+    <line id="edge-87d8b87015fa1b0b9be1c06bf4e61931f00877d8-9dbd62248eb36de196fa83e1c45bfadd3cbfdeba" class="exit" x1="140" y1="33" x2="126" y2="33"/>
+    <line id="edge-9dbd62248eb36de196fa83e1c45bfadd3cbfdeba-a1d0089a02d30c81d8ed8476f27da25f7a2b5628" class="exit" x1="126" y1="33" x2="112" y2="33"/>
+    <line id="edge-9dbd62248eb36de196fa83e1c45bfadd3cbfdeba-d0744bb0ccbb0e593a115148bb7ce13b8ae125df" class="exit" x1="126" y1="33" x2="126" y2="19"/>
+    <line id="edge-cb441bd0aae3803f57f5675abafd8e2ad203aa4b-d0744bb0ccbb0e593a115148bb7ce13b8ae125df" class="exit" x1="112" y1="19" x2="126" y2="19"/>
+    <line id="edge-d0744bb0ccbb0e593a115148bb7ce13b8ae125df-f48c20da84c06dd1397d48d615fc2f6874cc2fb6" class="exit" x1="126" y1="19" x2="140" y2="19"/>
+    <line id="edge-2351c92d23765359e154525457c5952f08061780-33c5c8c21edc6ac3f31a9f45debf5b655e01cbec" class="exit" x1="112" y1="157" x2="98" y2="157"/>
+    <line id="edge-6625626982dee10d282c1c73563a925000c5238a-950d2d00ec8b19ab53eac4318d9759811f7fb3f1" class="exit" x1="84" y1="115" x2="84" y2="129"/>
+    <line id="edge-80b57f70d5433ba8c5b5cb462fb77025ee364bd4-88f27c396e45db66c0a7d6f305ab7d7ffeb6d9c3" class="exit" x1="885" y1="647" x2="899" y2="647"/>
+    <line id="edge-0ce05209b977e80ecb3403159e72c1363df4bd31-80b57f70d5433ba8c5b5cb462fb77025ee364bd4" class="exit" x1="871" y1="647" x2="885" y2="647"/>
+    <line id="edge-0ce05209b977e80ecb3403159e72c1363df4bd31-eeafcb01a5485e8235595044003f33b4571d3b2d" class="exit" x1="871" y1="647" x2="857" y2="647"/>
+    <line id="edge-4d8e3f551d869231a98c8725c8c51330eda16cdc-eeafcb01a5485e8235595044003f33b4571d3b2d" class="exit" x1="843" y1="633" x2="857" y2="647"/>
+    <line id="edge-4d8e3f551d869231a98c8725c8c51330eda16cdc-5d5bb8b512e3ee6b817fe4ec2bf858b415cde559" class="exit" x1="843" y1="633" x2="829" y2="619"/>
+    <line id="edge-4d8e3f551d869231a98c8725c8c51330eda16cdc-8b5c8baca90e70594eb085517e148872e2b73fef" class="exit" x1="843" y1="633" x2="857" y2="633"/>
+    <line id="edge-14dc51a887e60ef4e830ea531dc6c02fe4f83564-5d5bb8b512e3ee6b817fe4ec2bf858b415cde559" class="exit" x1="815" y1="619" x2="829" y2="619"/>
+    <line id="edge-14dc51a887e60ef4e830ea531dc6c02fe4f83564-74b2d361e3755d0d8567dbe690e8ced1f737de76" class="exit" x1="815" y1="619" x2="801" y2="605"/>
+    <line id="edge-55040ef9f29726c1148b42a6601e7650a54fc7bc-74b2d361e3755d0d8567dbe690e8ced1f737de76" class="exit" x1="801" y1="591" x2="801" y2="605"/>
+    <line id="edge-09874f6ac125c87949f8ab8eae7b789348882eca-55040ef9f29726c1148b42a6601e7650a54fc7bc" class="exit" x1="801" y1="577" x2="801" y2="591"/>
+    <line id="edge-09874f6ac125c87949f8ab8eae7b789348882eca-4ae5c27314990c8489464e1af1426ac071dc004b" class="exit" x1="801" y1="577" x2="815" y2="563"/>
+    <line id="edge-4ae5c27314990c8489464e1af1426ac071dc004b-91e828090900689b6eba2f76cf57560f21fac20d" class="exit" x1="815" y1="563" x2="829" y2="549"/>
+    <line id="edge-4ae5c27314990c8489464e1af1426ac071dc004b-a3c7ddf94aaa802cf63aa1e6bd519f434e31fb0a" class="exit" x1="815" y1="563" x2="801" y2="549"/>
+    <line id="edge-191f2056b1821609ad252b4dffe80311c89ead02-91e828090900689b6eba2f76cf57560f21fac20d" class="exit" x1="843" y1="535" x2="829" y2="549"/>
+    <line id="edge-191f2056b1821609ad252b4dffe80311c89ead02-3cff549d5f8137a821a7be6e3c8ed76700655413" class="exit" x1="843" y1="535" x2="857" y2="535"/>
+    <line id="edge-181b5919e34e649815f8bbdfcda9361dfb93acf1-3cff549d5f8137a821a7be6e3c8ed76700655413" class="exit" x1="871" y1="549" x2="857" y2="535"/>
+    <line id="edge-3cff549d5f8137a821a7be6e3c8ed76700655413-5d648b8c05ef7da3473ad5db9f326fe75281e32a" class="exit" x1="857" y1="535" x2="857" y2="521"/>
+    <line id="edge-5d648b8c05ef7da3473ad5db9f326fe75281e32a-9bc261694b69d8646c6ffbe4d0a26a27198a8772" class="exit" x1="857" y1="521" x2="871" y2="507"/>
+    <line id="edge-5f9de726cb955019da6ba695c8f14c7b084ec3a3-9bc261694b69d8646c6ffbe4d0a26a27198a8772" class="exit" x1="857" y1="493" x2="871" y2="507"/>
+    <line id="edge-9bc261694b69d8646c6ffbe4d0a26a27198a8772-b813ce4230c9e602085d8c6e8c6f506709841265" class="exit" x1="871" y1="507" x2="885" y2="507"/>
+    <line id="edge-b36907b21a5ccb08e8d97a28dc3e755e77ebcd92-b813ce4230c9e602085d8c6e8c6f506709841265" class="exit" x1="899" y1="507" x2="885" y2="507"/>
+    <line id="edge-4d2f53fbc403425c0d51563a7c696345a02cf0f8-b36907b21a5ccb08e8d97a28dc3e755e77ebcd92" class="exit" x1="913" y1="507" x2="899" y2="507"/>
+    <line id="edge-b36907b21a5ccb08e8d97a28dc3e755e77ebcd92-eff2d9b8565a66a740b0bfb42ab13490bd3a928d" class="exit" x1="899" y1="507" x2="899" y2="493"/>
+    <line id="edge-8755a9ed5ab3505677246f0674bd2536cf0ad18e-eff2d9b8565a66a740b0bfb42ab13490bd3a928d" class="exit" x1="899" y1="479" x2="899" y2="493"/>
+    <line id="edge-8755a9ed5ab3505677246f0674bd2536cf0ad18e-c4fd237c530cb85ca41ed5e188531437c158c922" class="exit" x1="899" y1="479" x2="885" y2="479"/>
+    <line id="edge-8755a9ed5ab3505677246f0674bd2536cf0ad18e-c541919c446aff2eeb9a6a900b4055f9a1a20ac4" class="exit" x1="899" y1="479" x2="899" y2="465"/>
+    <line id="edge-33b2a6078f990104af0f1f1ebc24dea0cdfd0521-4d2f53fbc403425c0d51563a7c696345a02cf0f8" class="exit" x1="927" y1="507" x2="913" y2="507"/>
+    <line id="edge-294043cf16dbf0cad60da6b5c92f8859de67acdc-33b2a6078f990104af0f1f1ebc24dea0cdfd0521" class="exit" x1="941" y1="507" x2="927" y2="507"/>
+    <line id="edge-2f7ee212728f5085ee8568f7b4520bfd50a96d4d-33b2a6078f990104af0f1f1ebc24dea0cdfd0521" class="exit" x1="927" y1="493" x2="927" y2="507"/>
+    <line id="edge-2f7ee212728f5085ee8568f7b4520bfd50a96d4d-3c775fef07a2563619a9526e97754d455058fcf9" class="exit" x1="927" y1="493" x2="941" y2="493"/>
+    <line id="edge-2f7ee212728f5085ee8568f7b4520bfd50a96d4d-48e67ff9710ba5318d81fd72d3831e45c36cb2db" class="exit" x1="927" y1="493" x2="913" y2="493"/>
+    <line id="edge-2f7ee212728f5085ee8568f7b4520bfd50a96d4d-80730810cf8a1dd7a85387f400cfc66c55715af3" class="exit" x1="927" y1="493" x2="927" y2="479"/>
+    <line id="edge-80730810cf8a1dd7a85387f400cfc66c55715af3-a5b85e48df261c327084316077471939d72d1c5a" class="exit" x1="927" y1="479" x2="941" y2="479"/>
+    <line id="edge-3c775fef07a2563619a9526e97754d455058fcf9-a5b85e48df261c327084316077471939d72d1c5a" class="exit" x1="941" y1="493" x2="941" y2="479"/>
+    <line id="edge-0c23384f977a8f8191232c30b7251c6b47271fb9-3c775fef07a2563619a9526e97754d455058fcf9" class="exit" x1="955" y1="493" x2="941" y2="493"/>
+    <line id="edge-294043cf16dbf0cad60da6b5c92f8859de67acdc-3c775fef07a2563619a9526e97754d455058fcf9" class="exit" x1="941" y1="507" x2="941" y2="493"/>
+    <line id="edge-0d4cb5c8c3ac014a45260b1658795e76cb23e38f-294043cf16dbf0cad60da6b5c92f8859de67acdc" class="exit" x1="955" y1="507" x2="941" y2="507"/>
+    <line id="edge-294043cf16dbf0cad60da6b5c92f8859de67acdc-c80f8db0c63a79e3a20631110107d84f62dd8e21" class="exit" x1="941" y1="507" x2="941" y2="521"/>
+    <line id="edge-0c23384f977a8f8191232c30b7251c6b47271fb9-0d4cb5c8c3ac014a45260b1658795e76cb23e38f" class="exit" x1="955" y1="493" x2="955" y2="507"/>
+    <line id="edge-0c23384f977a8f8191232c30b7251c6b47271fb9-b429dc399414fc4595187a1aaae58a67c39cbb55" class="exit" x1="955" y1="493" x2="955" y2="479"/>
+    <line id="edge-0c23384f977a8f8191232c30b7251c6b47271fb9-e6f0e780111725ae6738660d2f16b987202a1fc0" class="exit" x1="955" y1="493" x2="969" y2="493"/>
+    <line id="edge-b58e57314510c4ca881f54d4efe7915ca537814c-e6f0e780111725ae6738660d2f16b987202a1fc0" class="exit" x1="969" y1="479" x2="969" y2="493"/>
+    <line id="edge-41fcc87895b890ece9847af7d32eb371ba60f08e-c80f8db0c63a79e3a20631110107d84f62dd8e21" class="exit" x1="941" y1="535" x2="941" y2="521"/>
+    <line id="edge-41fcc87895b890ece9847af7d32eb371ba60f08e-bdafd44a4a6b9ee2e046add3f55b1b23d14db606" class="exit" x1="941" y1="535" x2="941" y2="549"/>
+    <line id="edge-39378da9580dc25271b69964aa9948a560c9c92d-bdafd44a4a6b9ee2e046add3f55b1b23d14db606" class="exit" x1="927" y1="563" x2="941" y2="549"/>
+    <line id="edge-5dae1f56de4c045e39aa7cd71541fcc15e68b26e-bdafd44a4a6b9ee2e046add3f55b1b23d14db606" class="exit" x1="955" y1="549" x2="941" y2="549"/>
+    <line id="edge-5dae1f56de4c045e39aa7cd71541fcc15e68b26e-e98de78c1014c5ce599ec89d25b1f44ff23e15b4" class="exit" x1="955" y1="549" x2="955" y2="535"/>
+    <line id="edge-98a215d44c520b7fd180ab7a154754db698c5516-e98de78c1014c5ce599ec89d25b1f44ff23e15b4" class="exit" x1="955" y1="521" x2="955" y2="535"/>
+    <line id="edge-39378da9580dc25271b69964aa9948a560c9c92d-f1950f698e6bbf411365f431171a62cedc6d65f6" class="exit" x1="927" y1="563" x2="913" y2="563"/>
+    <line id="edge-9b858050ffd3f7c3390e50254dc3e93e00fb9f89-f1950f698e6bbf411365f431171a62cedc6d65f6" class="exit" x1="899" y1="563" x2="913" y2="563"/>
+    <line id="edge-9b858050ffd3f7c3390e50254dc3e93e00fb9f89-e974cbf99075eea06d0a5fedc34e95d00a58083f" class="exit" x1="899" y1="563" x2="885" y2="563"/>
+    <line id="edge-181b5919e34e649815f8bbdfcda9361dfb93acf1-e974cbf99075eea06d0a5fedc34e95d00a58083f" class="exit" x1="871" y1="549" x2="885" y2="563"/>
+    <line id="edge-566f677c1faee5b6585329d110dc65354d6067aa-e974cbf99075eea06d0a5fedc34e95d00a58083f" class="exit" x1="885" y1="577" x2="885" y2="563"/>
+    <line id="edge-6a3f07422ff5d0ba059d4858975e86b02a7b0cbf-e974cbf99075eea06d0a5fedc34e95d00a58083f" class="exit" x1="885" y1="549" x2="885" y2="563"/>
+    <line id="edge-566f677c1faee5b6585329d110dc65354d6067aa-643177d2b52d1ce5759371bc65647c82e73ed497" class="exit" x1="885" y1="577" x2="885" y2="591"/>
+    <line id="edge-566f677c1faee5b6585329d110dc65354d6067aa-76b1b0c1f2c906985053bf5f3e2252bb477289f4" class="exit" x1="885" y1="577" x2="899" y2="577"/>
+    <line id="edge-566f677c1faee5b6585329d110dc65354d6067aa-b3a1234fb94f7f1de706aa1ceb9039621e08b68e" class="exit" x1="885" y1="577" x2="871" y2="577"/>
+    <line id="edge-27f46a46c162bfb158969e5e3abef0165d60d6af-76b1b0c1f2c906985053bf5f3e2252bb477289f4" class="exit" x1="899" y1="577" x2="899" y2="577"/>
+    <line id="edge-76b1b0c1f2c906985053bf5f3e2252bb477289f4-fa3817ce89195b1465b4bb0723d57e936d86ab7e" class="exit" x1="899" y1="577" x2="899" y2="591"/>
+    <line id="edge-1051fdbd3559665c22646a3dd0727d8ae594e5f9-fa3817ce89195b1465b4bb0723d57e936d86ab7e" class="exit" x1="913" y1="591" x2="899" y2="591"/>
+    <line id="edge-25dd0cf48bbe00c760f03622bbef9ca5d4474a7f-fa3817ce89195b1465b4bb0723d57e936d86ab7e" class="exit" x1="899" y1="419" x2="899" y2="591"/>
+    <line id="edge-643177d2b52d1ce5759371bc65647c82e73ed497-fa3817ce89195b1465b4bb0723d57e936d86ab7e" class="exit" x1="885" y1="591" x2="899" y2="591"/>
+    <line id="edge-776e69ced1cdd886ec3bba1a45062eed192f6d2d-fa3817ce89195b1465b4bb0723d57e936d86ab7e" class="exit" x1="899" y1="605" x2="899" y2="591"/>
+    <line id="edge-199682b4306d3f06b2e6da013d1b0d0032e400cd-643177d2b52d1ce5759371bc65647c82e73ed497" class="exit" x1="871" y1="591" x2="885" y2="591"/>
+    <line id="edge-643177d2b52d1ce5759371bc65647c82e73ed497-ab1479b8012431149d4863cd59efe2a5ce8b2990" class="exit" x1="885" y1="591" x2="885" y2="605"/>
+    <line id="edge-776e69ced1cdd886ec3bba1a45062eed192f6d2d-ab1479b8012431149d4863cd59efe2a5ce8b2990" class="exit" x1="899" y1="605" x2="885" y2="605"/>
+    <line id="edge-23a770b367c3eb29d325051afcf137e806c824c5-776e69ced1cdd886ec3bba1a45062eed192f6d2d" class="exit" x1="899" y1="619" x2="899" y2="605"/>
+    <line id="edge-776e69ced1cdd886ec3bba1a45062eed192f6d2d-a4a93b269a40e4b3ea721d61580553c7be44c6ea" class="exit" x1="899" y1="605" x2="913" y2="605"/>
+    <line id="edge-1051fdbd3559665c22646a3dd0727d8ae594e5f9-293caf737773302536c237701b1d5415f9670c37" class="exit" x1="913" y1="591" x2="913" y2="577"/>
+    <line id="edge-1051fdbd3559665c22646a3dd0727d8ae594e5f9-dd76687db9e4168821781728486312aac5c264cd" class="exit" x1="913" y1="591" x2="927" y2="591"/>
+    <line id="edge-3cce846425e84dbe80c3672782431905ed00c3fc-dd76687db9e4168821781728486312aac5c264cd" class="exit" x1="941" y1="591" x2="927" y2="591"/>
+    <line id="edge-3cce846425e84dbe80c3672782431905ed00c3fc-6255a51c4b9ded1e70a9d167373f6bc708805019" class="exit" x1="941" y1="591" x2="955" y2="591"/>
+    <line id="edge-50f74815d3f5b0cb11d236297abc12a6d7981a94-6255a51c4b9ded1e70a9d167373f6bc708805019" class="exit" x1="969" y1="591" x2="955" y2="591"/>
+    <line id="edge-6255a51c4b9ded1e70a9d167373f6bc708805019-b39547c7fe7514c354f6f54b10aa7a7e958ab781" class="exit" x1="955" y1="591" x2="955" y2="577"/>
+    <line id="edge-6255a51c4b9ded1e70a9d167373f6bc708805019-c5a5a3aebb13edc2a9ea9f7678b9bd84b31cafa1" class="exit" x1="955" y1="591" x2="955" y2="605"/>
+    <line id="edge-50f74815d3f5b0cb11d236297abc12a6d7981a94-b81a89274effc8fb3d1da19f56fb5756e9b09c67" class="exit" x1="969" y1="591" x2="969" y2="577"/>
+    <line id="edge-8ad0f3e3b662e8d60192c1952e1515c210874579-b81a89274effc8fb3d1da19f56fb5756e9b09c67" class="exit" x1="969" y1="563" x2="969" y2="577"/>
+    <line id="edge-99ecf78b38d98a6e8f12940e0fb900ad4f2b6305-b39547c7fe7514c354f6f54b10aa7a7e958ab781" class="exit" x1="955" y1="563" x2="955" y2="577"/>
+    <line id="edge-25dd0cf48bbe00c760f03622bbef9ca5d4474a7f-27ebe3a2db5e301108ac36049e7839906c19e148" class="exit" x1="899" y1="419" x2="899" y2="405"/>
+    <line id="edge-25dd0cf48bbe00c760f03622bbef9ca5d4474a7f-873f217d5f7d22ae269b681daee5fa39a2baae78" class="exit" x1="899" y1="419" x2="885" y2="419"/>
+    <line id="edge-25dd0cf48bbe00c760f03622bbef9ca5d4474a7f-88a1c3a29b068292cb525f181c32142b96b2ad8d" class="exit" x1="899" y1="419" x2="900" y2="356"/>
+    <line id="edge-25dd0cf48bbe00c760f03622bbef9ca5d4474a7f-b34645c0ce785aebf1ed1078f3fd59ddff39ac91" class="exit" x1="899" y1="419" x2="913" y2="419"/>
+    <line id="edge-25dd0cf48bbe00c760f03622bbef9ca5d4474a7f-fb85e651d7d2b946ad0e6b46fd4080d2edbe64f5" class="exit" x1="899" y1="419" x2="899" y2="433"/>
+    <line id="edge-873f217d5f7d22ae269b681daee5fa39a2baae78-edbd3509dc69f43bcb483da8f091084cb4b19406" class="exit" x1="885" y1="419" x2="885" y2="405"/>
+    <line id="edge-27ebe3a2db5e301108ac36049e7839906c19e148-edbd3509dc69f43bcb483da8f091084cb4b19406" class="exit" x1="899" y1="405" x2="885" y2="405"/>
+    <line id="edge-279d6d40b1028a5cd560daa10d810861effe84a6-27ebe3a2db5e301108ac36049e7839906c19e148" class="exit" x1="899" y1="391" x2="899" y2="405"/>
+    <line id="edge-27ebe3a2db5e301108ac36049e7839906c19e148-4b26e8d8c6e298ee76351033837f40fdecd3bf94" class="exit" x1="899" y1="405" x2="913" y2="405"/>
+    <line id="edge-045cf37cfd2357bcfd9f3975c48f67932bb97718-fb85e651d7d2b946ad0e6b46fd4080d2edbe64f5" class="exit" x1="913" y1="433" x2="899" y2="433"/>
+    <line id="edge-292ee6fdd70b145c4a331d36ec18bf616feb15b5-fb85e651d7d2b946ad0e6b46fd4080d2edbe64f5" class="exit" x1="885" y1="433" x2="899" y2="433"/>
+    <line id="edge-b34645c0ce785aebf1ed1078f3fd59ddff39ac91-ec9a032ff724ddc65125f26bcf2af65e0abfb862" class="exit" x1="913" y1="419" x2="927" y2="419"/>
+    <line id="edge-0c68a8f51ab0d914e6745e90772de7f02026908e-ec9a032ff724ddc65125f26bcf2af65e0abfb862" class="exit" x1="927" y1="433" x2="927" y2="419"/>
+    <line id="edge-42708afeafa5e3fb28743f5a4f9a2bf9d80a5423-ec9a032ff724ddc65125f26bcf2af65e0abfb862" class="exit" x1="927" y1="405" x2="927" y2="419"/>
+    <line id="edge-1e133a1dc400ed3da3062cd03eaeffbe5f40e361-23a770b367c3eb29d325051afcf137e806c824c5" class="exit" x1="885" y1="633" x2="899" y2="619"/>
+    <line id="edge-1e133a1dc400ed3da3062cd03eaeffbe5f40e361-e0a98c6b25868833054eeba95c1d36c0bea53988" class="exit" x1="885" y1="633" x2="871" y2="633"/>
+    <line id="edge-8b5c8baca90e70594eb085517e148872e2b73fef-e0a98c6b25868833054eeba95c1d36c0bea53988" class="exit" x1="857" y1="633" x2="871" y2="633"/>
+    <line id="edge-90b40d7c2c3873ca302762547a8af2e17e685acd-a5571495637eaa79feeb7ab6981d05f3ccfc5bb4" class="exit" x1="855" y1="130" x2="855" y2="144"/>
+    <line id="edge-90b40d7c2c3873ca302762547a8af2e17e685acd-c3d9154c16973f31a98bd407d0b4b93b76a59992" class="exit" x1="855" y1="130" x2="869" y2="130"/>
+    <line id="edge-c3d9154c16973f31a98bd407d0b4b93b76a59992-c8be2c03d376d1149dad40c65c5b7aa87c27ba9a" class="exit" x1="869" y1="130" x2="869" y2="144"/>
+    <line id="edge-c3d9154c16973f31a98bd407d0b4b93b76a59992-f3bd03448a4a2a9a65f1c5019975b643e44072ff" class="exit" x1="869" y1="130" x2="883" y2="130"/>
+    <line id="edge-1c0c82db9ab375f26f0988c9789335f1400ea360-f3bd03448a4a2a9a65f1c5019975b643e44072ff" class="exit" x1="897" y1="130" x2="883" y2="130"/>
+    <line id="edge-0f7223f7ff7b27c20f8139924d1e81c49949746a-1c0c82db9ab375f26f0988c9789335f1400ea360" class="exit" x1="897" y1="144" x2="897" y2="130"/>
+    <line id="edge-1c0c82db9ab375f26f0988c9789335f1400ea360-880d35b2e3cf1f4fa5d58d1d84d71af987741256" class="exit" x1="897" y1="130" x2="911" y2="130"/>
+    <line id="edge-1aac0ea10cbd07ad2945fd6b3baa9c629c686eae-880d35b2e3cf1f4fa5d58d1d84d71af987741256" class="exit" x1="925" y1="130" x2="911" y2="130"/>
+    <line id="edge-880d35b2e3cf1f4fa5d58d1d84d71af987741256-c0e0ed118d744742f3077395ec6c04b35e645242" class="exit" x1="911" y1="130" x2="911" y2="144"/>
+    <line id="edge-1aac0ea10cbd07ad2945fd6b3baa9c629c686eae-7e896a62b871501e6d73ce5ef5fe6ca668045660" class="exit" x1="925" y1="130" x2="925" y2="144"/>
+    <line id="edge-65d8422e8a840fc16a459051df184a4f78e8e324-7e896a62b871501e6d73ce5ef5fe6ca668045660" class="exit" x1="925" y1="158" x2="925" y2="144"/>
+    <line id="edge-65d8422e8a840fc16a459051df184a4f78e8e324-896e678f5d0b89555d12da6d4015d648d46b5459" class="exit" x1="925" y1="158" x2="911" y2="158"/>
+    <line id="edge-65d8422e8a840fc16a459051df184a4f78e8e324-9978fa3eba60ad5e74b6cc1844fd81f6a05fe1a2" class="exit" x1="925" y1="158" x2="939" y2="158"/>
+    <line id="edge-89c44db454f85f871bc608e8e93c58d4df9044a3-9978fa3eba60ad5e74b6cc1844fd81f6a05fe1a2" class="exit" x1="939" y1="144" x2="939" y2="158"/>
+    <line id="edge-896e678f5d0b89555d12da6d4015d648d46b5459-978c286140d7e459656feabdf53a9d602919e464" class="exit" x1="911" y1="158" x2="897" y2="158"/>
+    <line id="edge-0f7223f7ff7b27c20f8139924d1e81c49949746a-978c286140d7e459656feabdf53a9d602919e464" class="exit" x1="897" y1="144" x2="897" y2="158"/>
+    <line id="edge-0f7223f7ff7b27c20f8139924d1e81c49949746a-c0e0ed118d744742f3077395ec6c04b35e645242" class="exit" x1="897" y1="144" x2="911" y2="144"/>
+    <line id="edge-04c0954048ef365093b8b25baf519555fbe906e2-a9330e0ef1854c8d43ffe0ab780c008bb4a9cc8c" class="exit" x1="869" y1="158" x2="883" y2="158"/>
+    <line id="edge-778b02b2dd8fc0383125824d6f0ed023e03d4bae-a9330e0ef1854c8d43ffe0ab780c008bb4a9cc8c" class="exit" x1="883" y1="144" x2="883" y2="158"/>
+    <line id="edge-978c286140d7e459656feabdf53a9d602919e464-a9330e0ef1854c8d43ffe0ab780c008bb4a9cc8c" class="exit" x1="897" y1="158" x2="883" y2="158"/>
+    <line id="edge-04c0954048ef365093b8b25baf519555fbe906e2-1f577060e35827a91c74da00afe5b5c91ad8ef01" class="exit" x1="869" y1="158" x2="855" y2="158"/>
+    <line id="edge-04c0954048ef365093b8b25baf519555fbe906e2-c8be2c03d376d1149dad40c65c5b7aa87c27ba9a" class="exit" x1="869" y1="158" x2="869" y2="144"/>
+    <line id="edge-1f577060e35827a91c74da00afe5b5c91ad8ef01-a5571495637eaa79feeb7ab6981d05f3ccfc5bb4" class="exit" x1="855" y1="158" x2="855" y2="144"/>
+    <line id="edge-0ceae3f8c3d98c43959ae410bc87aa6e480ae119-1f577060e35827a91c74da00afe5b5c91ad8ef01" class="exit" x1="855" y1="55" x2="855" y2="158"/>
+    <line id="edge-1f577060e35827a91c74da00afe5b5c91ad8ef01-b3da9b0268a3abc085e09d2b6d130fde9feea968" class="exit" x1="855" y1="158" x2="855" y2="214"/>
+    <line id="edge-96e243093ff91f874c71572f84db2f6576e13351-b3da9b0268a3abc085e09d2b6d130fde9feea968" class="exit" x1="869" y1="214" x2="855" y2="214"/>
+    <line id="edge-b3da9b0268a3abc085e09d2b6d130fde9feea968-cccb470bf70b4866f8ac36d40f83e6dacfc3a6b0" class="exit" x1="855" y1="214" x2="855" y2="200"/>
+    <line id="edge-6931783e88e594d4ecf37b8acf0a220f74f7a7c7-96e243093ff91f874c71572f84db2f6576e13351" class="exit" x1="883" y1="214" x2="869" y2="214"/>
+    <line id="edge-838298d1046f9fdaed9f4f9b1024d445a0c7c7ee-96e243093ff91f874c71572f84db2f6576e13351" class="exit" x1="869" y1="200" x2="869" y2="214"/>
+    <line id="edge-966f2743738beb0331a0b8d968d07ef247f9b87d-96e243093ff91f874c71572f84db2f6576e13351" class="exit" x1="883" y1="200" x2="869" y2="214"/>
+    <line id="edge-0ceae3f8c3d98c43959ae410bc87aa6e480ae119-71081ad557810037f38b2b19f080037caab05353" class="exit" x1="855" y1="55" x2="855" y2="41"/>
+    <line id="edge-0ceae3f8c3d98c43959ae410bc87aa6e480ae119-ba3bbf825cb2d4f6bf8f3aecd644af661f26b102" class="exit" x1="855" y1="55" x2="869" y2="55"/>
+    <line id="edge-71081ad557810037f38b2b19f080037caab05353-7b630387bfce9d00becc94ddab8d7f9b70c3f46b" class="exit" x1="855" y1="41" x2="855" y2="27"/>
+    <line id="edge-922543b0ddd9f9c01a61cb69fa7c88feaaed93aa-ba3bbf825cb2d4f6bf8f3aecd644af661f26b102" class="exit" x1="869" y1="41" x2="869" y2="55"/>
+    <line id="edge-ba3bbf825cb2d4f6bf8f3aecd644af661f26b102-feae77c8cce475a874447a32da727c84f412828b" class="exit" x1="869" y1="55" x2="883" y2="55"/>
+    <line id="edge-269627fe440221b8db2615708c288d4593bec8b1-922543b0ddd9f9c01a61cb69fa7c88feaaed93aa" class="exit" x1="869" y1="27" x2="869" y2="41"/>
+    <line id="edge-269627fe440221b8db2615708c288d4593bec8b1-6efe3347418df219a0bccf2c7c99239e3afc8749" class="exit" x1="869" y1="27" x2="883" y2="27"/>
+    <line id="edge-6d890bda8ca48fbd03f0202a43530bf94a0daeba-6efe3347418df219a0bccf2c7c99239e3afc8749" class="exit" x1="883" y1="41" x2="883" y2="27"/>
+    <line id="edge-6d890bda8ca48fbd03f0202a43530bf94a0daeba-feae77c8cce475a874447a32da727c84f412828b" class="exit" x1="883" y1="41" x2="883" y2="55"/>
+    <line id="edge-eaa048bac5316751f2bff74c9c728ea0935b189d-feae77c8cce475a874447a32da727c84f412828b" class="exit" x1="897" y1="55" x2="883" y2="55"/>
+    <line id="edge-358f43edaf228c943c9ff51e3a815ed6f5095c1d-eaa048bac5316751f2bff74c9c728ea0935b189d" class="exit" x1="911" y1="55" x2="897" y2="55"/>
+    <line id="edge-c82c0faa552598a7d8df5aa4353745ee185f9b33-eaa048bac5316751f2bff74c9c728ea0935b189d" class="exit" x1="897" y1="41" x2="897" y2="55"/>
+    <line id="edge-358f43edaf228c943c9ff51e3a815ed6f5095c1d-4151dce8630ebe3345b6403e3ce29d17682742ec" class="exit" x1="911" y1="55" x2="925" y2="55"/>
+    <line id="edge-358f43edaf228c943c9ff51e3a815ed6f5095c1d-577e38ae8a447c340c291b79ac060792b8f518c1" class="exit" x1="911" y1="55" x2="911" y2="41"/>
+    <line id="edge-4151dce8630ebe3345b6403e3ce29d17682742ec-df26b96c2bdd1690c87516a112c5a1f57aa4bea3" class="exit" x1="925" y1="55" x2="925" y2="41"/>
+    <line id="edge-a55830a3c1e7f9cf7e8d144a12cab5d8519fc8f8-df26b96c2bdd1690c87516a112c5a1f57aa4bea3" class="exit" x1="925" y1="27" x2="925" y2="41"/>
+    <line id="edge-86398380624abbf5566ab20313185582d296e0a7-adb3e82af3b3d3558292cae49b2564208ff6ef3d" class="exit" x1="857" y1="591" x2="843" y2="591"/>
+    <line id="edge-8eb17317d48b62daf42ef6da3406dbcc6df53eb1-adb3e82af3b3d3558292cae49b2564208ff6ef3d" class="exit" x1="843" y1="605" x2="843" y2="591"/>
+    <line id="edge-a7957e2e4de5c1dfaf11f75c73a4185dba45832e-adb3e82af3b3d3558292cae49b2564208ff6ef3d" class="exit" x1="843" y1="577" x2="843" y2="591"/>
+    <line id="edge-adb3e82af3b3d3558292cae49b2564208ff6ef3d-ecf08c6a4c868c062adc62ea4810b12ef8bc11a1" class="exit" x1="843" y1="591" x2="829" y2="591"/>
+    <line id="edge-97996c0dc3d56a72f759919866c9eb8a41dfa8c7-ecf08c6a4c868c062adc62ea4810b12ef8bc11a1" class="exit" x1="829" y1="605" x2="829" y2="591"/>
+    <line id="edge-8eb17317d48b62daf42ef6da3406dbcc6df53eb1-97996c0dc3d56a72f759919866c9eb8a41dfa8c7" class="exit" x1="843" y1="605" x2="829" y2="605"/>
+    <line id="edge-2ba5a2b2160bc6ff59b1451c3a13c05da5ab0b66-a7957e2e4de5c1dfaf11f75c73a4185dba45832e" class="exit" x1="829" y1="577" x2="843" y2="577"/>
+    <line id="edge-3560145d027552c7ebc4597d1632d7efdf7511cc-a7957e2e4de5c1dfaf11f75c73a4185dba45832e" class="exit" x1="843" y1="563" x2="843" y2="577"/>
+    <line id="edge-5422fcab40f11547d8ee2248c88b890f79821d94-a7957e2e4de5c1dfaf11f75c73a4185dba45832e" class="exit" x1="829" y1="563" x2="843" y2="577"/>
+    <line id="edge-3560145d027552c7ebc4597d1632d7efdf7511cc-5422fcab40f11547d8ee2248c88b890f79821d94" class="exit" x1="843" y1="563" x2="829" y2="563"/>
+    <line id="edge-2ba5a2b2160bc6ff59b1451c3a13c05da5ab0b66-5422fcab40f11547d8ee2248c88b890f79821d94" class="exit" x1="829" y1="577" x2="829" y2="563"/>
+  </g>
+
+  <g id="layer-rooms">
+    <rect id="room-5e4ba01e54fbdacb3a68265022a1ee48e341e75f" class="room indoor" x="435" y="147" width="16" height="16" rx="4"><title>winding path through the Hong orchard</title></rect>
+    <rect id="room-34007dd63b0dfd721f476339acc5406afd9583b3" class="room indoor" x="421" y="133" width="16" height="16" rx="4"><title>cherry blossom orchard</title></rect>
+    <rect id="room-774645e1d5d95b9c70717eec38f2728c123563ea" class="room indoor" x="407" y="119" width="16" height="16" rx="4"><title>composting station</title></rect>
+    <rect id="room-fa3fb1919658898cd05c5063663b8bf6104b5de7" class="room indoor" x="421" y="119" width="16" height="16" rx="4"><title>Hong&#x27;s cherry orchard</title></rect>
+    <rect id="room-70c6609fe33db373ae6a24be784c3d3fb4156cad" class="room indoor" x="435" y="119" width="16" height="16" rx="4"><title>cherry blossom orchard</title></rect>
+    <rect id="room-a70061ec44e4508bfdc029c605807231e294a38c" class="room indoor" x="449" y="119" width="16" height="16" rx="4"><title>cherry blossom orchard</title></rect>
+    <rect id="room-ce4025c4f140d88bc2c258a1a64b5ac056b9bd8a" class="room indoor" x="449" y="133" width="16" height="16" rx="4"><title>cherry blossom orchard</title></rect>
+    <rect id="room-66d5ebc2d9e05b08f5e0a0db99755d28f351a3aa" class="room indoor" x="435" y="133" width="16" height="16" rx="4"><title>cherry blossom orchard</title></rect>
+    <rect id="room-b77fbc26ccd111825571dfd6ba207496d697bc23" class="room indoor" x="449" y="147" width="16" height="16" rx="4"><title>winding path through the orchard at the main doors to the estate</title></rect>
+    <rect id="room-27eab7974c004ee67de9a81c71f785b8a5b8cfb1" class="room indoor" x="449" y="161" width="16" height="16" rx="4"><title>cherry blossom orchard</title></rect>
+    <rect id="room-310fdac5beeb13091e0c6ea0b79ca964c4eedcf4" class="room indoor" x="463" y="147" width="16" height="16" rx="4"><title>entrance to Hong Hall</title></rect>
+    <rect id="room-a5fb84e09be814af5fe0b12e327be059dec2668e" class="room indoor" x="463" y="133" width="16" height="16" rx="4"><title>hallway that gives access to the dining room and the trophy room</title></rect>
+    <rect id="room-d8e21cec864d4e28376138050481995e0cacd441" class="room indoor" x="463" y="119" width="16" height="16" rx="4"><title>hallway within the elegant walls of the Hong estate</title></rect>
+    <rect id="room-3264e33d24146d28424cd71e371def288b6890c0" class="room indoor" x="477" y="119" width="16" height="16" rx="4"><title>Hong family trophy room</title></rect>
+    <rect id="room-9cab00494f7b9831618059798fa053c03e892d3d" class="room indoor" x="491" y="119" width="16" height="16" rx="4"><title>bottom of a stairwell</title></rect>
+    <rect id="room-83e00448af3eb35c11cc2d808ed7d70384db3041" class="room indoor" x="491" y="14" width="16" height="16" rx="4"><title>top of a stairwell on the first floor of the estate</title></rect>
+    <rect id="room-17820084fb6591d0fb6912fd00331258784a8642" class="room indoor" x="491" y="28" width="16" height="16" rx="4"><title>room where the financial records of the Family are kept</title></rect>
+    <rect id="room-16d2cb882900ca6cf54b8dff71ee253dbb87b232" class="room indoor" x="477" y="14" width="16" height="16" rx="4"><title>end of a short hallway on the first floor of the estate</title></rect>
+    <rect id="room-652fc462de468acc19732dc022e7ec48c9c5e836" class="room indoor" x="477" y="28" width="16" height="16" rx="4"><title>private bedroom of Lord Hong</title></rect>
+    <rect id="room-f1e2b7ad6f4fa910bac72a34b7f9b30f7aa2c612" class="room indoor" x="477" y="42" width="16" height="16" rx="4"><title>room used by Lord Hong for meditation</title></rect>
+    <rect id="room-e8a3bba642302aa733ccc17c9cbd11e4d3dbff20" class="room indoor" x="505" y="14" width="16" height="16" rx="4"><title>end of a short hallway on the first floor of the estate</title></rect>
+    <rect id="room-e1a9b03816205a9af9515456d62d75644fa01d63" class="room indoor" x="505" y="28" width="16" height="16" rx="4"><title>hunting gallery of the Hongs</title></rect>
+    <rect id="room-efc93431eaa2ab95b79d891b537fc40ce3788f7b" class="room indoor" x="505" y="119" width="16" height="16" rx="4"><title>room that the Hongs use to worship their ancestors</title></rect>
+    <rect id="room-10a084e662ef326b32c651f53d604135f6e271fe" class="room indoor" x="519" y="119" width="16" height="16" rx="4"><title>small well-decorated corridor with a view out to the back garden</title></rect>
+    <rect id="room-2eb576bb8b63e42cf5f3e62a39ae3d3e681e36fe" class="room indoor" x="519" y="133" width="16" height="16" rx="4"><title>east part of the garden room</title></rect>
+    <rect id="room-48a5020fec199837e364499baad349567f18e81f" class="room indoor" x="519" y="147" width="16" height="16" rx="4"><title>back hallway</title></rect>
+    <rect id="room-1e996f28e7b0b54caabfd23d6c4b106297c689af" class="room indoor" x="533" y="147" width="16" height="16" rx="4"><title>tea garden</title></rect>
+    <rect id="room-b99b50898bd5689b3e8e1fb52cfb5d3ce5a33076" class="room indoor" x="533" y="161" width="16" height="16" rx="4"><title>tea garden</title></rect>
+    <rect id="room-ed69a173dbeccf1e0a8178f8893c1746c71b6834" class="room indoor" x="547" y="147" width="16" height="16" rx="4"><title>tea garden</title></rect>
+    <rect id="room-5693a2661257eedb1fd705e683aa7a4984341c73" class="room indoor" x="547" y="133" width="16" height="16" rx="4"><title>tea garden</title></rect>
+    <rect id="room-fe09003fc683e470ac79981f3aefb25f9361da79" class="room indoor" x="533" y="133" width="16" height="16" rx="4"><title>tea garden</title></rect>
+    <rect id="room-a6710b209cf8ef0e36a2565f47b82b35c37b9028" class="room indoor" x="547" y="119" width="16" height="16" rx="4"><title>tea garden</title></rect>
+    <rect id="room-c2e297d656a430f87bfe50c7ca673696d3005c1f" class="room indoor" x="533" y="119" width="16" height="16" rx="4"><title>tea garden</title></rect>
+    <rect id="room-6ee919ed0cc839f3e960fea59068bd3b741d00e5" class="room indoor" x="519" y="161" width="16" height="16" rx="4"><title>large concert room of the Hong household</title></rect>
+    <rect id="room-cfbffcdf7fc8171b899e716916b38d84193bf9aa" class="room indoor" x="519" y="175" width="16" height="16" rx="4"><title>stairwell within the Hong estate</title></rect>
+    <rect id="room-ee2acc3bee9008cecc5e47d875436ea136686615" class="room indoor" x="519" y="219" width="16" height="16" rx="4"><title>bottom of a stairwell in the basement</title></rect>
+    <rect id="room-48cd4ac10f3ff5d1aeaf58804c1a39ed36d3e6e2" class="room indoor" x="519" y="205" width="16" height="16" rx="4"><title>large kitchens of the Hong household</title></rect>
+    <rect id="room-508c8f21a5393eec5dd8204d63f5a4baec626c5b" class="room indoor" x="506" y="205" width="16" height="16" rx="4"><title>large and well-stocked pantry</title></rect>
+    <rect id="room-170713e62ac5712969e917bdb5635d19d1b330ad" class="room indoor" x="505" y="219" width="16" height="16" rx="4"><title>hallway in the basement</title></rect>
+    <rect id="room-d2a5dbc03983096caa549839f375b302f70e4306" class="room indoor" x="491" y="219" width="16" height="16" rx="4"><title>hallway in the basement</title></rect>
+    <rect id="room-6738e5714e0a5d9a5faeb501446ecf9052145b4c" class="room indoor" x="491" y="205" width="16" height="16" rx="4"><title>holding cell</title></rect>
+    <rect id="room-d57055f687640b5c3466b9c7c553fb887b058273" class="room indoor" x="477" y="205" width="16" height="16" rx="4"><title>holding cell</title></rect>
+    <rect id="room-7a522afffbe171f955dc7dbf3cf7ced33d8c7ffe" class="room indoor" x="463" y="205" width="16" height="16" rx="4"><title>room that serves as a ready room for the guards</title></rect>
+    <rect id="room-88cd6428b2d71280f40571cc2c64493816f223c0" class="room indoor" x="463" y="219" width="16" height="16" rx="4"><title>infamous Hong family torture chamber</title></rect>
+    <rect id="room-056653d25781d2f1d75f8e920ab5520cb72f7bc9" class="room indoor" x="505" y="175" width="16" height="16" rx="4"><title>Hong family library</title></rect>
+    <rect id="room-6f7c4e53e6a45222bfc3ef17a45f97ebed2a0449" class="room indoor" x="491" y="175" width="16" height="16" rx="4"><title>bottom of a stairwell</title></rect>
+    <rect id="room-339bc85e0fed81f26cb529d8ebe3d070facd7304" class="room indoor" x="477" y="175" width="16" height="16" rx="4"><title>Hong war strategy room</title></rect>
+    <rect id="room-a4c3f194109e493ac231e77d6d72d29026399a74" class="room indoor" x="463" y="175" width="16" height="16" rx="4"><title>hallway running through the Hong estate</title></rect>
+    <rect id="room-1bbac72733913b31adf706be5c402c46c8b71107" class="room indoor" x="463" y="161" width="16" height="16" rx="4"><title>hallway within the walls of the Hong Estate</title></rect>
+    <rect id="room-183bc5b61e5246acbac96320738ac08f5ed2217f" class="room indoor" x="477" y="133" width="16" height="16" rx="4"><title>dining room of the Hong household</title></rect>
+    <rect id="room-47d2ef8cf1fcf61161874b19a3c3ee3243fbbf59" class="room indoor" x="477" y="147" width="16" height="16" rx="4"><title>Hong Hall</title></rect>
+    <rect id="room-7b1aba8cc687121731bab6facd101f872f6d7403" class="room indoor" x="477" y="161" width="16" height="16" rx="4"><title>writing room of the Hongs</title></rect>
+    <rect id="room-28bb1c73ac17fa263ba4723a35b4a4df7f1c35cd" class="room indoor" x="491" y="147" width="16" height="16" rx="4"><title>spacious atrium of the Hong Estate</title></rect>
+    <rect id="room-49faa9417ec34d2faf1aa9d3f6819f8ab3900ee8" class="room indoor" x="505" y="147" width="16" height="16" rx="4"><title>back hallway</title></rect>
+    <rect id="room-52d3e37363cb504cf02ed187b2f988007028faab" class="room indoor" x="505" y="133" width="16" height="16" rx="4"><title>west part of the garden room</title></rect>
+    <rect id="room-4e8c9d8f632233afae903cc5d23d0d464c635724" class="room indoor" x="505" y="161" width="16" height="16" rx="4"><title>music room of the Hong household</title></rect>
+    <rect id="room-25d5020741ac7e5954c86df427a1076e2f441c1f" class="room indoor" x="491" y="161" width="16" height="16" rx="4"><title>tea room of the Hongs</title></rect>
+    <rect id="room-a7704097ddd3235564c97add74fdbd7d27ed9e70" class="room indoor" x="491" y="133" width="16" height="16" rx="4"><title>art gallery of the Hongs</title></rect>
+    <rect id="room-12f955ff007f252730fc71c5e32a5368e234d144" class="room indoor" x="491" y="70" width="16" height="16" rx="4"><title>top of a stairwell</title></rect>
+    <rect id="room-d9869b3bac8946dc12a04cfdc6e1bfd82cb90710" class="room indoor" x="477" y="70" width="16" height="16" rx="4"><title>end of a short hallway on the first floor of the estate</title></rect>
+    <rect id="room-0d8b619d94b44fac42174b895494a93e61a8bcd8" class="room indoor" x="477" y="56" width="16" height="16" rx="4"><title>room with a multitude of weapons hanging from the walls</title></rect>
+    <rect id="room-14469ac045ac570fa3bbb2ce264736b4d64fa230" class="room indoor" x="491" y="56" width="16" height="16" rx="4"><title>city planning room of the Hongs</title></rect>
+    <rect id="room-338e1ad9383e0d370e4fbe1c48537ccb95862707" class="room indoor" x="505" y="70" width="16" height="16" rx="4"><title>end of a short hallway on the first floor of the estate</title></rect>
+    <rect id="room-da9371f2c8742b0674facc8e1457437b7510ae5d" class="room indoor" x="505" y="56" width="16" height="16" rx="4"><title>untidy bedroom of Lord Hong&#x27;s son</title></rect>
+    <rect id="room-081a29a8ca3817e0ddbf1636514f948dda65accc" class="room indoor" x="505" y="42" width="16" height="16" rx="4"><title>untidy, junk-filled room</title></rect>
+    <rect id="room-945dc5c345a9fc1e6cc9897c1478e9e11c181858" class="room indoor" x="532" y="498" width="16" height="16" rx="4"><title>Golden Gate at the entrance to the Fang Estate</title></rect>
+    <rect id="room-0fc3d5c84c30810a9f56c4b1f1ec3f8989992ccd" class="room indoor" x="518" y="498" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-3127fac96b90749ed1453d31db9da01fbe9f9078" class="room indoor" x="518" y="484" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-a5e194063b2af6c6e9eb081d82bd7cad2df91a34" class="room indoor" x="504" y="470" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-f50aff0fdc57422f5e078b8ac54c1c66b5e66cd4" class="room indoor" x="504" y="428" width="16" height="16" rx="4"><title>Flog Course</title></rect>
+    <rect id="room-ed003962abb40d01f1e7f81929550b8690173400" class="room indoor" x="504" y="414" width="16" height="16" rx="4"><title>Flog Course</title></rect>
+    <rect id="room-5cf8e4d611a7f265e64b6191c4c67403a378263e" class="room indoor" x="490" y="414" width="16" height="16" rx="4"><title>Flog Course</title></rect>
+    <rect id="room-0cd81b9da2b79ee3cb8f68aa52bdc4c6fc8b6ff6" class="room indoor" x="476" y="414" width="16" height="16" rx="4"><title>Flog Course</title></rect>
+    <rect id="room-fdb39675da366ea706f52a761720b5374696c4ed" class="room indoor" x="476" y="400" width="16" height="16" rx="4"><title>Flog Course</title></rect>
+    <rect id="room-9da771ebb3339e040fc6bf9c484f2ff67ee7abcd" class="room indoor" x="490" y="400" width="16" height="16" rx="4"><title>Flog Course</title></rect>
+    <rect id="room-c1a87035b47f7fbf38cc1ba51156e9794e54d401" class="room indoor" x="504" y="400" width="16" height="16" rx="4"><title>Flog Course</title></rect>
+    <rect id="room-0b3ca76f02abc6023da67ca153a3f597ea763918" class="room indoor" x="518" y="400" width="16" height="16" rx="4"><title>eastern edge of the flog course</title></rect>
+    <rect id="room-fa39109b916ca1e2915d80735884cffcf855b298" class="room indoor" x="532" y="386" width="16" height="16" rx="4"><title>Flog Course</title></rect>
+    <rect id="room-4fc482ea697f8de4ea92c1bcb5a9395f4305640b" class="room indoor" x="518" y="386" width="16" height="16" rx="4"><title>Flog Course</title></rect>
+    <rect id="room-987b97f9c34b886552a601bd305e82f0485d0c34" class="room indoor" x="504" y="386" width="16" height="16" rx="4"><title>Flog Course</title></rect>
+    <rect id="room-8c604f66edc0bd8ab89a8a616a7ba3275d4e2932" class="room indoor" x="501" y="382" width="16" height="16" rx="4"><title>sand trap</title></rect>
+    <rect id="room-f3a19e1d3f582189d43dc572067dc617604e08f9" class="room indoor" x="490" y="386" width="16" height="16" rx="4"><title>Flog Course</title></rect>
+    <rect id="room-3f7602f4ca23fc427cc85264997f855792a1568e" class="room indoor" x="476" y="386" width="16" height="16" rx="4"><title>Flog Course</title></rect>
+    <rect id="room-cdfbd493183207742c851c0562840e20e5ce23a4" class="room indoor" x="490" y="456" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-2d941456bc1568fc258a7fe8b2f7f2fc43babc44" class="room indoor" x="490" y="442" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-45019fc38e925dbb1ca42dd96d98afe572caa6c7" class="room indoor" x="476" y="428" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-401477bbd51f974cceac758b8bed28534bfccd94" class="room indoor" x="462" y="428" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-e57acc21c4bb0b896fd8468c05599c2515f8ded2" class="room indoor" x="448" y="414" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-3d2f35282df5240b2b2d3345de166728659ffc20" class="room indoor" x="434" y="414" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-bf52a9de8403d3058ecc488e675b75d195a0bb54" class="room indoor" x="420" y="414" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-a8642e3e1e1a9db43bc12aa53a56b721bd29f32a" class="room indoor" x="406" y="428" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-72c8f3c21900d05c2b1152219c1a7126df38d74c" class="room indoor" x="392" y="428" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-ff5791f9da041fc9e022e02d0080ca741e89ea69" class="room indoor" x="378" y="414" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-5f474d98596b25c37ca449d702473bba61426c86" class="room indoor" x="364" y="414" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-fd33f5c7430536f95aefde5fbfd6f45a2f27c443" class="room indoor" x="350" y="414" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-cfa16d4ed7b2c13d6d34f3557b8f64e082f26d9a" class="room indoor" x="336" y="428" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-61de56f04cd756a11c92b0bb7545d28b444f5bb2" class="room indoor" x="322" y="442" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-ca63a710e04ba820f9aacf8f643d98aa16684848" class="room indoor" x="308" y="442" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-450f20260405e980e0c1085fe6b4a45aba3e6cfc" class="room indoor" x="322" y="428" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-b4d70fa6d261b316c5070499e25a9555e4cfd7e5" class="room indoor" x="294" y="456" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-5e4018329d2248d69023bd8a1f72709c6b322366" class="room indoor" x="294" y="470" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-4fc3e326ca0269fb0cc9c2d533aeb6c31fc3d8d4" class="room indoor" x="280" y="484" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-e57e80333ae841d39c877c173191917f28902ae5" class="room indoor" x="280" y="498" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-f6bcd017ee52848f3fc92f8ae5560f8d8d8007ae" class="room indoor" x="266" y="512" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-215beacd3892a26fe6044fbd19c9a7116b31ea91" class="room indoor" x="266" y="526" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-b14dff7279d6c85466588b5dcf48aa65e4235322" class="room indoor" x="280" y="540" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-3cb8943048b37f4a4611bf694cbbc88967307d04" class="room indoor" x="266" y="540" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-fbd353758114eb55a95c1ab76377b8a17e6aa164" class="room indoor" x="280" y="554" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-5af10168f4bd8da987565765c78b1a2c66435f3b" class="room indoor" x="294" y="568" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-dcd99c2da6743e93f5e142fa5c732c325ef0c576" class="room indoor" x="308" y="554" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-df42436fd8d37edab07e1e453d1c549a71b9596b" class="room indoor" x="322" y="568" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-27684ec703e57c46e180703d3aeb2ca0c4a719db" class="room indoor" x="308" y="568" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-06a8281740555daffa93e24285bed73f7fe81f76" class="room indoor" x="336" y="568" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-509ba9b7d4c4bcc7a163c6986f980f3202c0ae42" class="room indoor" x="350" y="582" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-fbbf3d446b161bce7fe3c999a6511b1e3d554b45" class="room indoor" x="364" y="582" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-172291cf7c31115284c80c4d9704192537fd193f" class="room indoor" x="378" y="582" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-e6a8e895346f65f7bff46d10fe43775b4c72d1bf" class="room indoor" x="392" y="596" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-03cb179978b593bc3e146f3ba714ee1b4e19ced0" class="room indoor" x="406" y="596" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-4cd6861acdb519e8559fdaed00c953933ad599e7" class="room indoor" x="420" y="596" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-6a4f2ae3b6019fcc28898d17e07cef1fc62112b9" class="room indoor" x="434" y="582" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-3c111fc58a32a195fd267e3aa43ba19101351f1a" class="room indoor" x="448" y="582" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-88a803de01d7adcc87a543ca3cd848eea963bd51" class="room indoor" x="448" y="568" width="16" height="16" rx="4"><title>end of a short pier</title></rect>
+    <rect id="room-d67b5d56263b399a465a544255999812986aa75a" class="room indoor" x="448" y="554" width="16" height="16" rx="4"><title>middle of a wooden pier</title></rect>
+    <rect id="room-2928e2079a08fbe9fdc0764825c84260eddfcd45" class="room indoor" x="434" y="540" width="16" height="16" rx="4"><title>middle of a wooden pier</title></rect>
+    <rect id="room-58e86709564a9e3debed4f5dca9e47cd6dab0016" class="room indoor" x="434" y="526" width="16" height="16" rx="4"><title>east entrance to the Fang Pagoda</title></rect>
+    <rect id="room-0b3925c76eb9796528e28422a76af8206048bff0" class="room indoor" x="102" y="574" width="16" height="16" rx="4"><title>eastern section of the Fang art gallery</title></rect>
+    <rect id="room-252878295cd4a7ae63bf4f06076745e1d45d418d" class="room indoor" x="88" y="574" width="16" height="16" rx="4"><title>entrance gallery of the Fang house</title></rect>
+    <rect id="room-1e88b4f127ad54ac5eaad3c12b62c5238ea306c1" class="room indoor" x="392" y="526" width="16" height="16" rx="4"><title>west entrance to the Fang Pagoda</title></rect>
+    <rect id="room-5b2a8170c81d243f8b757cbaf33ce8069add7f0a" class="room indoor" x="392" y="540" width="16" height="16" rx="4"><title>middle of a wooden pier</title></rect>
+    <rect id="room-96eb75f86395cd65fb336619c54c54599dd146ad" class="room indoor" x="378" y="554" width="16" height="16" rx="4"><title>middle of a wooden pier</title></rect>
+    <rect id="room-e53d1609378f0dc557e4c25faab1c937779930df" class="room indoor" x="378" y="568" width="16" height="16" rx="4"><title>end of a short pier outside the Fang Estate</title></rect>
+    <rect id="room-b6368bb8737fb3c1d5ddc0773dab72af6417406b" class="room indoor" x="88" y="560" width="16" height="16" rx="4"><title>north section of the Fang art gallery</title></rect>
+    <rect id="room-4a7184ac695e448f4f3e02fdba324141cb7d3478" class="room indoor" x="102" y="560" width="16" height="16" rx="4"><title>Fang family entertainment room</title></rect>
+    <rect id="room-4df959b934373ce822b86cd879cf601a48150dbe" class="room indoor" x="116" y="560" width="16" height="16" rx="4"><title>tea room in the Fang pagoda</title></rect>
+    <rect id="room-49e8af8f8713c3fb7e14d94d5a8ca4500f58b355" class="room indoor" x="130" y="560" width="16" height="16" rx="4"><title>bonsai garden just outside the door to the tea room</title></rect>
+    <rect id="room-fb5d2662e17c1af5ef1d59ea138cf204de86fdcd" class="room indoor" x="144" y="546" width="16" height="16" rx="4"><title>western end of the bonsai garden near the Pagoda</title></rect>
+    <rect id="room-e99365ba116f99d9e536ab2f1c36151123e5d3c9" class="room indoor" x="158" y="546" width="16" height="16" rx="4"><title>junction of meandering paths in the bonsai garden</title></rect>
+    <rect id="room-66bd3d55287129705c6d59d22d0791c88510e7a8" class="room indoor" x="172" y="546" width="16" height="16" rx="4"><title>quiet corner of the bonsai garden</title></rect>
+    <rect id="room-a17c9662228ab2e636053db1e958e39b3227bbae" class="room indoor" x="130" y="532" width="16" height="16" rx="4"><title>eastern end of a covered walkway</title></rect>
+    <rect id="room-693bdc755331c01c740e50f493810975b7030fb7" class="room indoor" x="116" y="532" width="16" height="16" rx="4"><title>covered walkway south of the northeastern wing</title></rect>
+    <rect id="room-4dccca2dc72cefd57268c6dfa34c503fca728fe0" class="room indoor" x="116" y="518" width="16" height="16" rx="4"><title>corridor just inside from the covered walkway</title></rect>
+    <rect id="room-c4160ff5b88b34747ed2ff6607312cc3ace5321d" class="room indoor" x="130" y="504" width="16" height="16" rx="4"><title>hallway outside the ancestors&#x27; shrine</title></rect>
+    <rect id="room-06e2f5ecebcc1397b23cb0bdff3126bb727619b5" class="room indoor" x="130" y="490" width="16" height="16" rx="4"><title>shrine dedicated to Fang family ancestors</title></rect>
+    <rect id="room-45fa2cec8dad0fabc2f1fa75a4b67abd68838a0d" class="room indoor" x="144" y="490" width="16" height="16" rx="4"><title>small patio near the shrine</title></rect>
+    <rect id="room-dbbe314c089e928400ccd30f3ceb961758123acf" class="room indoor" x="116" y="490" width="16" height="16" rx="4"><title>small shrine to Shoji</title></rect>
+    <rect id="room-b71128dcadf0c7e555c2c1b4590593f7547578ad" class="room indoor" x="102" y="532" width="16" height="16" rx="4"><title>covered walkway outside the Fang Pagoda</title></rect>
+    <rect id="room-e9baa7e6d2d28bc87aac3d7e07d20a7d594202f5" class="room indoor" x="102" y="546" width="16" height="16" rx="4"><title>south hallway</title></rect>
+    <rect id="room-bbdaa1b3484d32e146ef635d750858ba254bebe0" class="room indoor" x="116" y="546" width="16" height="16" rx="4"><title>hallway in the ground floor of the Fang Estate</title></rect>
+    <rect id="room-63cd1ee5a7c6102e0c9585a0e876ba579748b7e6" class="room indoor" x="130" y="546" width="16" height="16" rx="4"><title>room full of sleeping and snoring servants</title></rect>
+    <rect id="room-b858e0243af008aaed2260ef667c43e79f1509a8" class="room indoor" x="88" y="532" width="16" height="16" rx="4"><title>covered walkway along the north side of the Fang Pagoda</title></rect>
+    <rect id="room-71c6f43c58d7c31104c5a1140c9adba2dfd97b7b" class="room indoor" x="74" y="532" width="16" height="16" rx="4"><title>covered walkway between the Fang Pagoda and the northwestern wing</title></rect>
+    <rect id="room-b56054f7e2516a5f95da958698b57d82c7d9398d" class="room indoor" x="74" y="518" width="16" height="16" rx="4"><title>Lord Fang&#x27;s study</title></rect>
+    <rect id="room-0cbca6a17a62bd7987d27e5560b79cfd56a3b2d1" class="room indoor" x="60" y="504" width="16" height="16" rx="4"><title>Fang family library</title></rect>
+    <rect id="room-19783add7cb1a9faea3836c76db0dd84e0d8454f" class="room indoor" x="60" y="490" width="16" height="16" rx="4"><title>Fang family armoury</title></rect>
+    <rect id="room-7ba2c806cffae0d02c8b21951bdddcced245cc71" class="room indoor" x="60" y="476" width="16" height="16" rx="4"><title>small patio</title></rect>
+    <rect id="room-b659139ee83a4df266d9c6792a4f7cb0e2105ea1" class="room indoor" x="74" y="490" width="16" height="16" rx="4"><title>Fang family trophy room</title></rect>
+    <rect id="room-20e7e72902180930e8ad78ec8a1fbfbd07db39de" class="room indoor" x="74" y="504" width="16" height="16" rx="4"><title>Fang family war room</title></rect>
+    <rect id="room-8f8102ef4ab4c1b99074a77a6c3d109bcae735c5" class="room indoor" x="60" y="532" width="16" height="16" rx="4"><title>western end of a covered walkway</title></rect>
+    <rect id="room-0e8d47b14036d404467fc834f9fc24a7b31dd714" class="room indoor" x="46" y="546" width="16" height="16" rx="4"><title>lotus gardens</title></rect>
+    <rect id="room-f02934a17889af9b4ac61e40ce33a64d3f57cb4b" class="room indoor" x="32" y="546" width="16" height="16" rx="4"><title>lotus gardens</title></rect>
+    <rect id="room-b0cbe71a8aabff7c061d09ca028a3287ad87565d" class="room indoor" x="18" y="546" width="16" height="16" rx="4"><title>sandscape in the lotus gardens</title></rect>
+    <rect id="room-9cee9ca8b87e32e276ae7fc7dae9383250653c0f" class="room indoor" x="60" y="560" width="16" height="16" rx="4"><title>entrance to the lotus gardens</title></rect>
+    <rect id="room-12949c75a6491bbf6251f3e0966d04c60b0a01fa" class="room indoor" x="74" y="560" width="16" height="16" rx="4"><title>large banquet hall</title></rect>
+    <rect id="room-10fa08f87d8366f19c4c9c55d063600ad237d5d6" class="room indoor" x="74" y="546" width="16" height="16" rx="4"><title>Fang kitchen</title></rect>
+    <rect id="room-e4caade2ea2ec421fe1757cdedcb8cc5695afdc9" class="room indoor" x="60" y="546" width="16" height="16" rx="4"><title>pantry in the Fang Estate</title></rect>
+    <rect id="room-923c341073d8a974ae49bd1fb399ef1726989850" class="room indoor" x="88" y="547" width="16" height="16" rx="4"><title>bottom of the stairwell leading to the upper levels</title></rect>
+    <rect id="room-f6d4e8adb53e73eb82dd3e6f8c2f223971c03211" class="room indoor" x="88" y="430" width="16" height="16" rx="4"><title>wide, square foyer on the first floor</title></rect>
+    <rect id="room-fde101565c21b7778f60512ce05fbe2d6db38946" class="room indoor" x="88" y="416" width="16" height="16" rx="4"><title>a first floor hallway</title></rect>
+    <rect id="room-783c4edff7cbde9f2daabeaba2a75a30f776303f" class="room indoor" x="74" y="430" width="16" height="16" rx="4"><title>hallway leading through the first floor</title></rect>
+    <rect id="room-5a41729063d3a0af67ec44f5231c9039915a0c56" class="room indoor" x="74" y="444" width="16" height="16" rx="4"><title>writing room of Lord Fang</title></rect>
+    <rect id="room-897a3090e710c2cb421f32d83458a4fa3484a3d0" class="room indoor" x="88" y="444" width="16" height="16" rx="4"><title>Fang Family Finance room</title></rect>
+    <rect id="room-d0cd7cdd7695a5d4d3c5d945deee8f8b549fa50f" class="room indoor" x="60" y="444" width="16" height="16" rx="4"><title>Lord and Lady Fang&#x27;s master bedroom</title></rect>
+    <rect id="room-a9b03e73d5feea163bd51e5e12a52c7bf1715b98" class="room indoor" x="60" y="430" width="16" height="16" rx="4"><title>first floor hallway outside Lord and Lady Fang&#x27;s bedroom</title></rect>
+    <rect id="room-ed1c9a780c9d53bdeb3c6ea3b1e2b635af08bbfd" class="room indoor" x="102" y="416" width="16" height="16" rx="4"><title>corridor on the first floor of the Fang Pagoda</title></rect>
+    <rect id="room-7928b3f644d0bd5eb079baa4592ae42f99a3790c" class="room indoor" x="102" y="430" width="16" height="16" rx="4"><title>music room of the Fang estate</title></rect>
+    <rect id="room-c0bc8831ade9ab493dc6e2f3de31e1aac722146b" class="room indoor" x="116" y="430" width="16" height="16" rx="4"><title>first floor hallway</title></rect>
+    <rect id="room-0cd6f0295ff1fb83135e4f0ad4c911127cdf44b9" class="room indoor" x="130" y="430" width="16" height="16" rx="4"><title>Flog Course viewing gallery</title></rect>
+    <rect id="room-db66ae7c5967dbf401e039b6cc8e20d94ad435da" class="room indoor" x="130" y="444" width="16" height="16" rx="4"><title>washroom in the Fang Pagoda</title></rect>
+    <rect id="room-87662fb0506140e8146110af8f6fc56c19238b7f" class="room indoor" x="116" y="444" width="16" height="16" rx="4"><title>first floor guest bedroom</title></rect>
+    <rect id="room-8d1aaa52ddb231bbf906e334f0313acdffae621d" class="room indoor" x="102" y="444" width="16" height="16" rx="4"><title>Fang inhumation office</title></rect>
+    <rect id="room-4fed269f5f0be2826e6c9af79c824269f78933e0" class="room indoor" x="88" y="368" width="16" height="16" rx="4"><title>landing at the top level of the house</title></rect>
+    <rect id="room-138685d53798fdeba6948bca2630bc0e4ffb7baa" class="room indoor" x="88" y="382" width="16" height="16" rx="4"><title>observatory at the top of the Fang Pagoda</title></rect>
+    <rect id="room-5ee5d8e533ea4ddf3f6dd59032717d007fe1e6bb" class="room indoor" x="102" y="368" width="16" height="16" rx="4"><title>paper filled room</title></rect>
+    <rect id="room-562d9b064b7ce971ecd23c21c9f5e89fa4bf2f27" class="room indoor" x="102" y="382" width="16" height="16" rx="4"><title>cramped printing room</title></rect>
+    <rect id="room-ed104642e3a4aede7fa037e6238fae87a0481620" class="room indoor" x="462" y="582" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-20fceb3cc5137774177a2b7f34d10136b54a9341" class="room indoor" x="476" y="582" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-e4a77e6d0fb6199c3c7e0ec4e1833d66545b4372" class="room indoor" x="490" y="568" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-ff7d594be0658aae9cb232b10224af0ab94dd3f4" class="room indoor" x="504" y="568" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-e020c3c0a63538670674cd5483586e8594e87de9" class="room indoor" x="518" y="554" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-da7fc47e3451bcf332a6c0406e6767d2f08e18cc" class="room indoor" x="518" y="540" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-70ff20d16c1e1439e3cefaf0ffa99f519c513634" class="room indoor" x="532" y="526" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-9cd91a1dfc827d4657756a11256d4ea92c0ed6dd" class="room indoor" x="532" y="512" width="16" height="16" rx="4"><title>lake shore of Tora Lake</title></rect>
+    <rect id="room-1459588f1c06219074498e08dcdd833cccccec26" class="room indoor" x="546" y="512" width="16" height="16" rx="4"><title>entryway to a guardhouse</title></rect>
+    <rect id="room-2040eac3bcc8835a11511ed30129cf3023b53909" class="room indoor" x="546" y="526" width="16" height="16" rx="4"><title>office of the captain</title></rect>
+    <rect id="room-9a0a49398a5dfa9d8a6519d79393aeeabf61ffe2" class="room indoor" x="560" y="512" width="16" height="16" rx="4"><title>Fang guardhouse</title></rect>
+    <rect id="room-8f6252117c1db158ba60adc897690d4ea39f6795" class="room indoor" x="560" y="526" width="16" height="16" rx="4"><title>unused-looking Fang dungeon</title></rect>
+    <rect id="room-f02bd3eaea000ca979a6b3c623d342ff4d9159fa" class="room indoor" x="69" y="163" width="16" height="16" rx="4"><title>dock at the base of the Tang Island cliffs</title></rect>
+    <rect id="room-0073da072a55672a026482d0e46aa2ff9417ce9e" class="room indoor" x="76" y="135" width="16" height="16" rx="4"><title>gravel path</title></rect>
+    <rect id="room-24928af9e47c430b8e086ae870d4978e4bd6f0a6" class="room indoor" x="62" y="121" width="16" height="16" rx="4"><title>gravel path</title></rect>
+    <rect id="room-541ce5c677ccb23cb0f7c639b3ac71a03286ac3e" class="room indoor" x="62" y="107" width="16" height="16" rx="4"><title>gravel path</title></rect>
+    <rect id="room-5d11e0d6c4a9d8f7a9489c36b0f0c3d1dca7eb8b" class="room indoor" x="76" y="93" width="16" height="16" rx="4"><title>gravel path</title></rect>
+    <rect id="room-be338565d4590363b468f6d4606121a04227b050" class="room indoor" x="90" y="79" width="16" height="16" rx="4"><title>gravel path</title></rect>
+    <rect id="room-c7ded8ee6188f88172983b4c33f6f4681b9a17a0" class="room indoor" x="104" y="79" width="16" height="16" rx="4"><title>precarious precipice</title></rect>
+    <rect id="room-416615828aafe3be9343e96e3336c4d2b530f7c4" class="room indoor" x="118" y="79" width="16" height="16" rx="4"><title>watch landing</title></rect>
+    <rect id="room-fd0629003bef22488fabcf42649f47f4c66d7688" class="room indoor" x="132" y="79" width="16" height="16" rx="4"><title>gravel path</title></rect>
+    <rect id="room-d3095e542c9e6dbfee0986c079d12ab7c53e141c" class="room indoor" x="146" y="93" width="16" height="16" rx="4"><title>gravel path</title></rect>
+    <rect id="room-c8d0863e1f373fc85b2186848e3166902dc87534" class="room indoor" x="160" y="107" width="16" height="16" rx="4"><title>gravel path</title></rect>
+    <rect id="room-efe10d56fad73b7557017d51c39d0eb9dd571a84" class="room indoor" x="160" y="121" width="16" height="16" rx="4"><title>gravel path</title></rect>
+    <rect id="room-5bdfe3b280fb9faebac82c2a13de3c14f0011f6e" class="room indoor" x="146" y="135" width="16" height="16" rx="4"><title>clifftop path south of a tangled garden</title></rect>
+    <rect id="room-d6a2ffb4af4157519c52cc9e291a0daa0b78dbbe" class="room indoor" x="146" y="121" width="16" height="16" rx="4"><title>overgrown garden</title></rect>
+    <rect id="room-dd138a926e618466fb9b3f96611754024d6858f0" class="room indoor" x="146" y="107" width="16" height="16" rx="4"><title>overgrown garden</title></rect>
+    <rect id="room-9b9bc9802e24cf378b55c211e7e248d33870241b" class="room indoor" x="132" y="149" width="16" height="16" rx="4"><title>clifftop path at the Tang estate&#x27;s southeast corner</title></rect>
+    <rect id="room-8e43e036abfafcd35c3246f748be9ffe0fabc4c3" class="room indoor" x="118" y="149" width="16" height="16" rx="4"><title>small landing at the entrance to Tang estate</title></rect>
+    <rect id="room-2eeae54e9e08525e304d6f75fc330c5b83e52a8a" class="room indoor" x="118" y="135" width="16" height="16" rx="4"><title>dusty entrance to the Tang Estate</title></rect>
+    <rect id="room-d95aab1a44dc6be7c96ee215a84575f170a59aac" class="room indoor" x="132" y="135" width="16" height="16" rx="4"><title>dusty reception room</title></rect>
+    <rect id="room-d335c839b34e339b90ac46545433346e652cf329" class="room indoor" x="118" y="121" width="16" height="16" rx="4"><title>ground floor hallway outside two rooms</title></rect>
+    <rect id="room-e72d938554eff8726191a2d4439caf01f8a390b1" class="room indoor" x="132" y="121" width="16" height="16" rx="4"><title>family tea room</title></rect>
+    <rect id="room-731b23204f4cfa4e0345a634d84944b22e8bbef1" class="room indoor" x="104" y="121" width="16" height="16" rx="4"><title>furniture repair room</title></rect>
+    <rect id="room-2d1dd2f54ea6f466424864d1a533998c434c5fdb" class="room indoor" x="118" y="107" width="16" height="16" rx="4"><title>hallway outside the dining room</title></rect>
+    <rect id="room-5eb82ed4bccaa1352b0a2ba3965dce358721cbba" class="room indoor" x="132" y="107" width="16" height="16" rx="4"><title>political planning room</title></rect>
+    <rect id="room-97a5395a24a412980bc923ca71351fd2b3084760" class="room indoor" x="104" y="107" width="16" height="16" rx="4"><title>financial records room</title></rect>
+    <rect id="room-d1cefa9a80062cd28af0e8ea8456b51e06e587cf" class="room indoor" x="118" y="93" width="16" height="16" rx="4"><title>dining room</title></rect>
+    <rect id="room-49c3db577b0ea3258106d5cc9814428dd1856387" class="room indoor" x="132" y="93" width="16" height="16" rx="4"><title>drawing room in the Tang Estate</title></rect>
+    <rect id="room-1ad32c59d54e44060d0fed2bcfa055191cc5ee99" class="room indoor" x="104" y="93" width="16" height="16" rx="4"><title>kitchen</title></rect>
+    <rect id="room-ba43312d8fd93fd8739d053a616bef21fd8a0e3c" class="room indoor" x="90" y="93" width="16" height="16" rx="4"><title>servants&#x27; quarters</title></rect>
+    <rect id="room-5d21ed9c657fd103976b8eb15188990ea3db342a" class="room indoor" x="90" y="107" width="16" height="16" rx="4"><title>servants&#x27; quarters</title></rect>
+    <rect id="room-405c93174ebbca4466e5c7f497fd1d93a681eddc" class="room indoor" x="104" y="135" width="16" height="16" rx="4"><title>hallway just off the entrance hall</title></rect>
+    <rect id="room-504ccd51b7d1799d6253197b0d03c5de4d389b23" class="room indoor" x="90" y="135" width="16" height="16" rx="4"><title>landing at the ground floor level of the estate&#x27;s main stairwell, just outside the trophy room</title></rect>
+    <rect id="room-3e202be121aa417e88bcc73dff496045bbdaa7d0" class="room indoor" x="90" y="121" width="16" height="16" rx="4"><title>Tang trophy room</title></rect>
+    <rect id="room-12fb280a6ca6f0d6548502a9e69fe0f664bb99d5" class="room indoor" x="89" y="236" width="16" height="16" rx="4"><title>cramped passageway underneath the Tang Estate</title></rect>
+    <rect id="room-dd28ce0b7708fd990804ebb6b9b502fe6dc49124" class="room indoor" x="103" y="236" width="16" height="16" rx="4"><title>cramped passageway underneath the Tang Estate</title></rect>
+    <rect id="room-c808444027250203faf025faa909a58db8cbbaae" class="room indoor" x="117" y="236" width="16" height="16" rx="4"><title>vaulted chamber</title></rect>
+    <rect id="room-f53f264ed13e2e682171de9becb7fe4dc3e904e6" class="room indoor" x="117" y="222" width="16" height="16" rx="4"><title>dimly lit corridor underneath the Tang Estate</title></rect>
+    <rect id="room-801ec001ca99e8271a07ec91afaaba93e0555ef1" class="room indoor" x="131" y="222" width="16" height="16" rx="4"><title>guard room</title></rect>
+    <rect id="room-47b8da00c7f9e5f0014f2843ce054c2df40cf7b5" class="room indoor" x="103" y="222" width="16" height="16" rx="4"><title>Tang treasury</title></rect>
+    <rect id="room-bd7ac7883d8a02d83508898a9c69b4611889cfe0" class="room indoor" x="117" y="208" width="16" height="16" rx="4"><title>dimly lit corridor</title></rect>
+    <rect id="room-93c27ae8c01feaa0faf34708a023aa8570927f52" class="room indoor" x="131" y="208" width="16" height="16" rx="4"><title>dungeon cell</title></rect>
+    <rect id="room-64f5712c21c76212bf5b7248121ee6d5b0dfa68e" class="room indoor" x="103" y="208" width="16" height="16" rx="4"><title>dungeon cell</title></rect>
+    <rect id="room-6469a51b11338245eed042c89837faaf99ea14b4" class="room indoor" x="117" y="194" width="16" height="16" rx="4"><title>dimly lit corridor underneath the Tang Estate</title></rect>
+    <rect id="room-72f447572c8fdd79046b2e479db566d75773fe6e" class="room indoor" x="131" y="194" width="16" height="16" rx="4"><title>dungeon cell</title></rect>
+    <rect id="room-da796e830a263e5ec2a8a82ba46e306d915b9814" class="room indoor" x="103" y="194" width="16" height="16" rx="4"><title>dungeon cell</title></rect>
+    <rect id="room-3c7065a68758c8e891c382d3ce59105285004454" class="room indoor" x="90" y="53" width="16" height="16" rx="4"><title>landing at the end of the first floor hallway</title></rect>
+    <rect id="room-913f0504c2e45aec1733f821dcba829d23202f57" class="room indoor" x="90" y="39" width="16" height="16" rx="4"><title>Tang family library</title></rect>
+    <rect id="room-936c188fcb05156235a244f6b35ab9b3fd023983" class="room indoor" x="104" y="53" width="16" height="16" rx="4"><title>hallway on the first floor of the Tang Estate</title></rect>
+    <rect id="room-72fc5d1898b71fc1bb42b6b973737a06fc77761a" class="room indoor" x="118" y="53" width="16" height="16" rx="4"><title>dusty hallway outside the family study</title></rect>
+    <rect id="room-07cfc598b34276cda5db4d6c88c74a2a306c98e5" class="room indoor" x="132" y="53" width="16" height="16" rx="4"><title>Lord Tang&#x27;s study</title></rect>
+    <rect id="room-a64b1e4a0e47cb6cc289a098e61f519daf4967aa" class="room indoor" x="118" y="39" width="16" height="16" rx="4"><title>hallway past its prime</title></rect>
+    <rect id="room-625df340661b3632fffa8278987e1e2b611677db" class="room indoor" x="132" y="39" width="16" height="16" rx="4"><title>dimly lit interrogation room</title></rect>
+    <rect id="room-0233f062568f22d9802fd4f876054ec839243a82" class="room indoor" x="104" y="39" width="16" height="16" rx="4"><title>family dressing room</title></rect>
+    <rect id="room-9dbd62248eb36de196fa83e1c45bfadd3cbfdeba" class="room indoor" x="118" y="25" width="16" height="16" rx="4"><title>hallway just outside the estate&#x27;s bedrooms and the first floor balcony</title></rect>
+    <rect id="room-87d8b87015fa1b0b9be1c06bf4e61931f00877d8" class="room indoor" x="132" y="25" width="16" height="16" rx="4"><title>guest bedroom</title></rect>
+    <rect id="room-a1d0089a02d30c81d8ed8476f27da25f7a2b5628" class="room indoor" x="104" y="25" width="16" height="16" rx="4"><title>bedroom of Lord and Lady Tang</title></rect>
+    <rect id="room-d0744bb0ccbb0e593a115148bb7ce13b8ae125df" class="room indoor" x="118" y="11" width="16" height="16" rx="4"><title>crumbling balcony overlooking Tang Bay</title></rect>
+    <rect id="room-f48c20da84c06dd1397d48d615fc2f6874cc2fb6" class="room indoor" x="132" y="11" width="16" height="16" rx="4"><title>crumbling balcony overlooking Tang Bay</title></rect>
+    <rect id="room-cb441bd0aae3803f57f5675abafd8e2ad203aa4b" class="room indoor" x="104" y="11" width="16" height="16" rx="4"><title>crumbling balcony overlooking Tang Bay</title></rect>
+    <rect id="room-2351c92d23765359e154525457c5952f08061780" class="room indoor" x="104" y="149" width="16" height="16" rx="4"><title>gravel path</title></rect>
+    <rect id="room-33c5c8c21edc6ac3f31a9f45debf5b655e01cbec" class="room indoor" x="90" y="149" width="16" height="16" rx="4"><title>gravel path</title></rect>
+    <rect id="room-950d2d00ec8b19ab53eac4318d9759811f7fb3f1" class="room indoor" x="76" y="121" width="16" height="16" rx="4"><title>overgrown garden</title></rect>
+    <rect id="room-6625626982dee10d282c1c73563a925000c5238a" class="room indoor" x="76" y="107" width="16" height="16" rx="4"><title>overgrown garden</title></rect>
+    <rect id="room-88f27c396e45db66c0a7d6f305ab7d7ffeb6d9c3" class="room indoor" x="891" y="639" width="16" height="16" rx="4"><title>gateway to the McSweeney Estate</title></rect>
+    <rect id="room-80b57f70d5433ba8c5b5cb462fb77025ee364bd4" class="room indoor" x="877" y="639" width="16" height="16" rx="4"><title>driveway</title></rect>
+    <rect id="room-0ce05209b977e80ecb3403159e72c1363df4bd31" class="room indoor" x="863" y="639" width="16" height="16" rx="4"><title>driveway</title></rect>
+    <rect id="room-eeafcb01a5485e8235595044003f33b4571d3b2d" class="room indoor" x="849" y="639" width="16" height="16" rx="4"><title>path</title></rect>
+    <rect id="room-4d8e3f551d869231a98c8725c8c51330eda16cdc" class="room indoor" x="835" y="625" width="16" height="16" rx="4"><title>path</title></rect>
+    <rect id="room-5d5bb8b512e3ee6b817fe4ec2bf858b415cde559" class="room indoor" x="821" y="611" width="16" height="16" rx="4"><title>garden path</title></rect>
+    <rect id="room-14dc51a887e60ef4e830ea531dc6c02fe4f83564" class="room indoor" x="807" y="611" width="16" height="16" rx="4"><title>garden path</title></rect>
+    <rect id="room-74b2d361e3755d0d8567dbe690e8ced1f737de76" class="room indoor" x="793" y="597" width="16" height="16" rx="4"><title>path through the gardens</title></rect>
+    <rect id="room-55040ef9f29726c1148b42a6601e7650a54fc7bc" class="room indoor" x="793" y="583" width="16" height="16" rx="4"><title>garden path</title></rect>
+    <rect id="room-09874f6ac125c87949f8ab8eae7b789348882eca" class="room indoor" x="793" y="569" width="16" height="16" rx="4"><title>garden path</title></rect>
+    <rect id="room-4ae5c27314990c8489464e1af1426ac071dc004b" class="room indoor" x="807" y="555" width="16" height="16" rx="4"><title>garden path</title></rect>
+    <rect id="room-a3c7ddf94aaa802cf63aa1e6bd519f434e31fb0a" class="room indoor" x="793" y="541" width="16" height="16" rx="4"><title>pagoda</title></rect>
+    <rect id="room-91e828090900689b6eba2f76cf57560f21fac20d" class="room indoor" x="821" y="541" width="16" height="16" rx="4"><title>garden path</title></rect>
+    <rect id="room-191f2056b1821609ad252b4dffe80311c89ead02" class="room indoor" x="835" y="527" width="16" height="16" rx="4"><title>garden path</title></rect>
+    <rect id="room-3cff549d5f8137a821a7be6e3c8ed76700655413" class="room indoor" x="849" y="527" width="16" height="16" rx="4"><title>path around the yard</title></rect>
+    <rect id="room-5d648b8c05ef7da3473ad5db9f326fe75281e32a" class="room indoor" x="849" y="513" width="16" height="16" rx="4"><title>path around the yard</title></rect>
+    <rect id="room-9bc261694b69d8646c6ffbe4d0a26a27198a8772" class="room indoor" x="863" y="499" width="16" height="16" rx="4"><title>path around the yard</title></rect>
+    <rect id="room-5f9de726cb955019da6ba695c8f14c7b084ec3a3" class="room indoor" x="849" y="485" width="16" height="16" rx="4"><title>garden shed</title></rect>
+    <rect id="room-b813ce4230c9e602085d8c6e8c6f506709841265" class="room indoor" x="877" y="499" width="16" height="16" rx="4"><title>path around the yard</title></rect>
+    <rect id="room-b36907b21a5ccb08e8d97a28dc3e755e77ebcd92" class="room indoor" x="891" y="499" width="16" height="16" rx="4"><title>path around the yard</title></rect>
+    <rect id="room-eff2d9b8565a66a740b0bfb42ab13490bd3a928d" class="room indoor" x="891" y="485" width="16" height="16" rx="4"><title>conservatory</title></rect>
+    <rect id="room-8755a9ed5ab3505677246f0674bd2536cf0ad18e" class="room indoor" x="891" y="471" width="16" height="16" rx="4"><title>conservatory</title></rect>
+    <rect id="room-c541919c446aff2eeb9a6a900b4055f9a1a20ac4" class="room indoor" x="891" y="457" width="16" height="16" rx="4"><title>distillery</title></rect>
+    <rect id="room-c4fd237c530cb85ca41ed5e188531437c158c922" class="room indoor" x="877" y="471" width="16" height="16" rx="4"><title>conservatory</title></rect>
+    <rect id="room-4d2f53fbc403425c0d51563a7c696345a02cf0f8" class="room indoor" x="905" y="499" width="16" height="16" rx="4"><title>path around the yard</title></rect>
+    <rect id="room-33b2a6078f990104af0f1f1ebc24dea0cdfd0521" class="room indoor" x="919" y="499" width="16" height="16" rx="4"><title>stable yard</title></rect>
+    <rect id="room-2f7ee212728f5085ee8568f7b4520bfd50a96d4d" class="room indoor" x="919" y="485" width="16" height="16" rx="4"><title>carriage shed</title></rect>
+    <rect id="room-48e67ff9710ba5318d81fd72d3831e45c36cb2db" class="room indoor" x="905" y="485" width="16" height="16" rx="4"><title>grooms&#x27; quarters</title></rect>
+    <rect id="room-80730810cf8a1dd7a85387f400cfc66c55715af3" class="room indoor" x="919" y="471" width="16" height="16" rx="4"><title>stable</title></rect>
+    <rect id="room-a5b85e48df261c327084316077471939d72d1c5a" class="room indoor" x="933" y="471" width="16" height="16" rx="4"><title>stable</title></rect>
+    <rect id="room-3c775fef07a2563619a9526e97754d455058fcf9" class="room indoor" x="933" y="485" width="16" height="16" rx="4"><title>stable</title></rect>
+    <rect id="room-294043cf16dbf0cad60da6b5c92f8859de67acdc" class="room indoor" x="933" y="499" width="16" height="16" rx="4"><title>stable yard</title></rect>
+    <rect id="room-0c23384f977a8f8191232c30b7251c6b47271fb9" class="room indoor" x="947" y="485" width="16" height="16" rx="4"><title>tack room</title></rect>
+    <rect id="room-b429dc399414fc4595187a1aaae58a67c39cbb55" class="room indoor" x="947" y="471" width="16" height="16" rx="4"><title>smithy</title></rect>
+    <rect id="room-e6f0e780111725ae6738660d2f16b987202a1fc0" class="room indoor" x="961" y="485" width="16" height="16" rx="4"><title>kennel</title></rect>
+    <rect id="room-b58e57314510c4ca881f54d4efe7915ca537814c" class="room indoor" x="961" y="471" width="16" height="16" rx="4"><title>kennel</title></rect>
+    <rect id="room-0d4cb5c8c3ac014a45260b1658795e76cb23e38f" class="room indoor" x="947" y="499" width="16" height="16" rx="4"><title>stable yard</title></rect>
+    <rect id="room-c80f8db0c63a79e3a20631110107d84f62dd8e21" class="room indoor" x="933" y="513" width="16" height="16" rx="4"><title>path around the yard</title></rect>
+    <rect id="room-41fcc87895b890ece9847af7d32eb371ba60f08e" class="room indoor" x="933" y="527" width="16" height="16" rx="4"><title>path around the yard</title></rect>
+    <rect id="room-bdafd44a4a6b9ee2e046add3f55b1b23d14db606" class="room indoor" x="933" y="541" width="16" height="16" rx="4"><title>path around the yard</title></rect>
+    <rect id="room-5dae1f56de4c045e39aa7cd71541fcc15e68b26e" class="room indoor" x="947" y="541" width="16" height="16" rx="4"><title>path behind the halls leading to the birdhouse</title></rect>
+    <rect id="room-e98de78c1014c5ce599ec89d25b1f44ff23e15b4" class="room indoor" x="947" y="527" width="16" height="16" rx="4"><title>birdhouse</title></rect>
+    <rect id="room-98a215d44c520b7fd180ab7a154754db698c5516" class="room indoor" x="947" y="513" width="16" height="16" rx="4"><title>birdhouse cage</title></rect>
+    <rect id="room-39378da9580dc25271b69964aa9948a560c9c92d" class="room indoor" x="919" y="555" width="16" height="16" rx="4"><title>path around the yard</title></rect>
+    <rect id="room-f1950f698e6bbf411365f431171a62cedc6d65f6" class="room indoor" x="905" y="555" width="16" height="16" rx="4"><title>path around the yard</title></rect>
+    <rect id="room-9b858050ffd3f7c3390e50254dc3e93e00fb9f89" class="room indoor" x="891" y="555" width="16" height="16" rx="4"><title>path around the yard</title></rect>
+    <rect id="room-e974cbf99075eea06d0a5fedc34e95d00a58083f" class="room indoor" x="877" y="555" width="16" height="16" rx="4"><title>servants&#x27; entrance</title></rect>
+    <rect id="room-6a3f07422ff5d0ba059d4858975e86b02a7b0cbf" class="room indoor" x="877" y="541" width="16" height="16" rx="4"><title>small garden</title></rect>
+    <rect id="room-181b5919e34e649815f8bbdfcda9361dfb93acf1" class="room indoor" x="863" y="541" width="16" height="16" rx="4"><title>path around the yard</title></rect>
+    <rect id="room-566f677c1faee5b6585329d110dc65354d6067aa" class="room indoor" x="877" y="569" width="16" height="16" rx="4"><title>kitchen</title></rect>
+    <rect id="room-b3a1234fb94f7f1de706aa1ceb9039621e08b68e" class="room indoor" x="863" y="569" width="16" height="16" rx="4"><title>pantry</title></rect>
+    <rect id="room-76b1b0c1f2c906985053bf5f3e2252bb477289f4" class="room indoor" x="891" y="569" width="16" height="16" rx="4"><title>scullery</title></rect>
+    <rect id="room-fa3817ce89195b1465b4bb0723d57e936d86ab7e" class="room indoor" x="891" y="583" width="16" height="16" rx="4"><title>corridor in the main hall</title></rect>
+    <rect id="room-643177d2b52d1ce5759371bc65647c82e73ed497" class="room indoor" x="877" y="583" width="16" height="16" rx="4"><title>library</title></rect>
+    <rect id="room-199682b4306d3f06b2e6da013d1b0d0032e400cd" class="room indoor" x="863" y="583" width="16" height="16" rx="4"><title>guard station at the entrance to the women&#x27;s hall</title></rect>
+    <rect id="room-ab1479b8012431149d4863cd59efe2a5ce8b2990" class="room indoor" x="877" y="597" width="16" height="16" rx="4"><title>visitors&#x27; bathroom</title></rect>
+    <rect id="room-776e69ced1cdd886ec3bba1a45062eed192f6d2d" class="room indoor" x="891" y="597" width="16" height="16" rx="4"><title>reception hall</title></rect>
+    <rect id="room-a4a93b269a40e4b3ea721d61580553c7be44c6ea" class="room indoor" x="905" y="597" width="16" height="16" rx="4"><title>dressing room</title></rect>
+    <rect id="room-1051fdbd3559665c22646a3dd0727d8ae594e5f9" class="room indoor" x="905" y="583" width="16" height="16" rx="4"><title>main tea room</title></rect>
+    <rect id="room-293caf737773302536c237701b1d5415f9670c37" class="room indoor" x="905" y="569" width="16" height="16" rx="4"><title>Lord McSweeney&#x27;s office and financial headquarters</title></rect>
+    <rect id="room-dd76687db9e4168821781728486312aac5c264cd" class="room indoor" x="919" y="583" width="16" height="16" rx="4"><title>reception room for the men&#x27;s hall</title></rect>
+    <rect id="room-3cce846425e84dbe80c3672782431905ed00c3fc" class="room indoor" x="933" y="583" width="16" height="16" rx="4"><title>corridor leading through the men&#x27;s hall</title></rect>
+    <rect id="room-6255a51c4b9ded1e70a9d167373f6bc708805019" class="room indoor" x="947" y="583" width="16" height="16" rx="4"><title>men&#x27;s tea room</title></rect>
+    <rect id="room-c5a5a3aebb13edc2a9ea9f7678b9bd84b31cafa1" class="room indoor" x="947" y="597" width="16" height="16" rx="4"><title>Lord McSweeney&#x27;s private bedroom</title></rect>
+    <rect id="room-50f74815d3f5b0cb11d236297abc12a6d7981a94" class="room indoor" x="961" y="583" width="16" height="16" rx="4"><title>corridor in the men&#x27;s hall outside the tea room</title></rect>
+    <rect id="room-b81a89274effc8fb3d1da19f56fb5756e9b09c67" class="room indoor" x="961" y="569" width="16" height="16" rx="4"><title>anteroom to the men&#x27;s dojo</title></rect>
+    <rect id="room-8ad0f3e3b662e8d60192c1952e1515c210874579" class="room indoor" x="961" y="555" width="16" height="16" rx="4"><title>men&#x27;s dojo</title></rect>
+    <rect id="room-b39547c7fe7514c354f6f54b10aa7a7e958ab781" class="room indoor" x="947" y="569" width="16" height="16" rx="4"><title>guest bedroom off the mens&#x27; hall</title></rect>
+    <rect id="room-99ecf78b38d98a6e8f12940e0fb900ad4f2b6305" class="room indoor" x="947" y="555" width="16" height="16" rx="4"><title>guest bedroom in the mens&#x27; hall</title></rect>
+    <rect id="room-25dd0cf48bbe00c760f03622bbef9ca5d4474a7f" class="room indoor" x="891" y="411" width="16" height="16" rx="4"><title>landing on the upper floor of the McSweeney guest hall</title></rect>
+    <rect id="room-873f217d5f7d22ae269b681daee5fa39a2baae78" class="room indoor" x="877" y="411" width="16" height="16" rx="4"><title>landing on the first floor of the McSweeney guest hall</title></rect>
+    <rect id="room-edbd3509dc69f43bcb483da8f091084cb4b19406" class="room indoor" x="877" y="397" width="16" height="16" rx="4"><title>Room of the Pearl Tiger</title></rect>
+    <rect id="room-27ebe3a2db5e301108ac36049e7839906c19e148" class="room indoor" x="891" y="397" width="16" height="16" rx="4"><title>Suite of Harmonious Animals</title></rect>
+    <rect id="room-279d6d40b1028a5cd560daa10d810861effe84a6" class="room indoor" x="891" y="383" width="16" height="16" rx="4"><title>Room of the Onyx Turtle</title></rect>
+    <rect id="room-4b26e8d8c6e298ee76351033837f40fdecd3bf94" class="room indoor" x="905" y="397" width="16" height="16" rx="4"><title>cubicle</title></rect>
+    <rect id="room-fb85e651d7d2b946ad0e6b46fd4080d2edbe64f5" class="room indoor" x="891" y="425" width="16" height="16" rx="4"><title>Phoenix Suite</title></rect>
+    <rect id="room-292ee6fdd70b145c4a331d36ec18bf616feb15b5" class="room indoor" x="877" y="425" width="16" height="16" rx="4"><title>Room of the Fiery Phoenix</title></rect>
+    <rect id="room-045cf37cfd2357bcfd9f3975c48f67932bb97718" class="room indoor" x="905" y="425" width="16" height="16" rx="4"><title>cubicle</title></rect>
+    <rect id="room-b34645c0ce785aebf1ed1078f3fd59ddff39ac91" class="room indoor" x="905" y="411" width="16" height="16" rx="4"><title>eastern landing</title></rect>
+    <rect id="room-ec9a032ff724ddc65125f26bcf2af65e0abfb862" class="room indoor" x="919" y="411" width="16" height="16" rx="4"><title>Jade Dragon Suite</title></rect>
+    <rect id="room-42708afeafa5e3fb28743f5a4f9a2bf9d80a5423" class="room indoor" x="919" y="397" width="16" height="16" rx="4"><title>Room of the Jade Dragon</title></rect>
+    <rect id="room-0c68a8f51ab0d914e6745e90772de7f02026908e" class="room indoor" x="919" y="425" width="16" height="16" rx="4"><title>cubicle</title></rect>
+    <rect id="room-88a1c3a29b068292cb525f181c32142b96b2ad8d" class="room indoor" x="892" y="348" width="16" height="16" rx="4"><title>attic</title></rect>
+    <rect id="room-23a770b367c3eb29d325051afcf137e806c824c5" class="room indoor" x="891" y="611" width="16" height="16" rx="4"><title>waiting room</title></rect>
+    <rect id="room-1e133a1dc400ed3da3062cd03eaeffbe5f40e361" class="room indoor" x="877" y="625" width="16" height="16" rx="4"><title>pathway outside the entrance to the McSweeney Estate</title></rect>
+    <rect id="room-e0a98c6b25868833054eeba95c1d36c0bea53988" class="room indoor" x="863" y="625" width="16" height="16" rx="4"><title>path</title></rect>
+    <rect id="room-8b5c8baca90e70594eb085517e148872e2b73fef" class="room indoor" x="849" y="625" width="16" height="16" rx="4"><title>path</title></rect>
+    <rect id="room-90b40d7c2c3873ca302762547a8af2e17e685acd" class="room indoor" x="847" y="122" width="16" height="16" rx="4"><title>quiet studio</title></rect>
+    <rect id="room-c3d9154c16973f31a98bd407d0b4b93b76a59992" class="room indoor" x="861" y="122" width="16" height="16" rx="4"><title>Lady Sung&#x27;s private gardens</title></rect>
+    <rect id="room-f3bd03448a4a2a9a65f1c5019975b643e44072ff" class="room indoor" x="875" y="122" width="16" height="16" rx="4"><title>Lady Sung&#x27;s private gardens</title></rect>
+    <rect id="room-1c0c82db9ab375f26f0988c9789335f1400ea360" class="room indoor" x="889" y="122" width="16" height="16" rx="4"><title>Lady Sung&#x27;s private gardens</title></rect>
+    <rect id="room-880d35b2e3cf1f4fa5d58d1d84d71af987741256" class="room indoor" x="903" y="122" width="16" height="16" rx="4"><title>Lady Sung&#x27;s private gardens</title></rect>
+    <rect id="room-1aac0ea10cbd07ad2945fd6b3baa9c629c686eae" class="room indoor" x="917" y="122" width="16" height="16" rx="4"><title>large, traditional dining room</title></rect>
+    <rect id="room-7e896a62b871501e6d73ce5ef5fe6ca668045660" class="room indoor" x="917" y="136" width="16" height="16" rx="4"><title>end of the hallway outside the dining room</title></rect>
+    <rect id="room-65d8422e8a840fc16a459051df184a4f78e8e324" class="room indoor" x="917" y="150" width="16" height="16" rx="4"><title>corridor leading through the Sung Estate</title></rect>
+    <rect id="room-9978fa3eba60ad5e74b6cc1844fd81f6a05fe1a2" class="room indoor" x="931" y="150" width="16" height="16" rx="4"><title>kitchen and pantry</title></rect>
+    <rect id="room-89c44db454f85f871bc608e8e93c58d4df9044a3" class="room indoor" x="931" y="136" width="16" height="16" rx="4"><title>grimy servants&#x27; quarters</title></rect>
+    <rect id="room-896e678f5d0b89555d12da6d4015d648d46b5459" class="room indoor" x="903" y="150" width="16" height="16" rx="4"><title>quiet hallway within the Sung Estate</title></rect>
+    <rect id="room-0f7223f7ff7b27c20f8139924d1e81c49949746a" class="room indoor" x="889" y="136" width="16" height="16" rx="4"><title>reception area</title></rect>
+    <rect id="room-c0e0ed118d744742f3077395ec6c04b35e645242" class="room indoor" x="903" y="136" width="16" height="16" rx="4"><title>music room</title></rect>
+    <rect id="room-a9330e0ef1854c8d43ffe0ab780c008bb4a9cc8c" class="room indoor" x="875" y="150" width="16" height="16" rx="4"><title>downstairs hallway, just outside the library</title></rect>
+    <rect id="room-778b02b2dd8fc0383125824d6f0ed023e03d4bae" class="room indoor" x="875" y="136" width="16" height="16" rx="4"><title>Sung family library</title></rect>
+    <rect id="room-04c0954048ef365093b8b25baf519555fbe906e2" class="room indoor" x="861" y="150" width="16" height="16" rx="4"><title>midway along the ground floor hallway</title></rect>
+    <rect id="room-c8be2c03d376d1149dad40c65c5b7aa87c27ba9a" class="room indoor" x="861" y="136" width="16" height="16" rx="4"><title>Sung family study</title></rect>
+    <rect id="room-a5571495637eaa79feeb7ab6981d05f3ccfc5bb4" class="room indoor" x="847" y="136" width="16" height="16" rx="4"><title>hallway in the Sung Estate just outside the studio</title></rect>
+    <rect id="room-1f577060e35827a91c74da00afe5b5c91ad8ef01" class="room indoor" x="847" y="150" width="16" height="16" rx="4"><title>hallway within the walls of the Sung Estate</title></rect>
+    <rect id="room-b3da9b0268a3abc085e09d2b6d130fde9feea968" class="room indoor" x="847" y="206" width="16" height="16" rx="4"><title>west end of a hallway in the basement</title></rect>
+    <rect id="room-cccb470bf70b4866f8ac36d40f83e6dacfc3a6b0" class="room indoor" x="847" y="192" width="16" height="16" rx="4"><title>Sung treasury</title></rect>
+    <rect id="room-96e243093ff91f874c71572f84db2f6576e13351" class="room indoor" x="861" y="206" width="16" height="16" rx="4"><title>east end of a basement</title></rect>
+    <rect id="room-838298d1046f9fdaed9f4f9b1024d445a0c7c7ee" class="room indoor" x="861" y="192" width="16" height="16" rx="4"><title>storage cell</title></rect>
+    <rect id="room-966f2743738beb0331a0b8d968d07ef247f9b87d" class="room indoor" x="875" y="192" width="16" height="16" rx="4"><title>dingy cell</title></rect>
+    <rect id="room-6931783e88e594d4ecf37b8acf0a220f74f7a7c7" class="room indoor" x="875" y="206" width="16" height="16" rx="4"><title>plush cell</title></rect>
+    <rect id="room-0ceae3f8c3d98c43959ae410bc87aa6e480ae119" class="room indoor" x="847" y="47" width="16" height="16" rx="4"><title>upstairs hallway, near a stairwell</title></rect>
+    <rect id="room-71081ad557810037f38b2b19f080037caab05353" class="room indoor" x="847" y="33" width="16" height="16" rx="4"><title>north end of a hallway</title></rect>
+    <rect id="room-7b630387bfce9d00becc94ddab8d7f9b70c3f46b" class="room indoor" x="847" y="19" width="16" height="16" rx="4"><title>meeting room</title></rect>
+    <rect id="room-ba3bbf825cb2d4f6bf8f3aecd644af661f26b102" class="room indoor" x="861" y="47" width="16" height="16" rx="4"><title>upstairs hallway, outside of a bedroom</title></rect>
+    <rect id="room-922543b0ddd9f9c01a61cb69fa7c88feaaed93aa" class="room indoor" x="861" y="33" width="16" height="16" rx="4"><title>Lady Sung&#x27;s bedroom</title></rect>
+    <rect id="room-269627fe440221b8db2615708c288d4593bec8b1" class="room indoor" x="861" y="19" width="16" height="16" rx="4"><title>west end of a balcony</title></rect>
+    <rect id="room-6efe3347418df219a0bccf2c7c99239e3afc8749" class="room indoor" x="875" y="19" width="16" height="16" rx="4"><title>east end of a balcony</title></rect>
+    <rect id="room-6d890bda8ca48fbd03f0202a43530bf94a0daeba" class="room indoor" x="875" y="33" width="16" height="16" rx="4"><title>Lord Sung&#x27;s bedroom</title></rect>
+    <rect id="room-feae77c8cce475a874447a32da727c84f412828b" class="room indoor" x="875" y="47" width="16" height="16" rx="4"><title>upstairs hallway outside a bedroom</title></rect>
+    <rect id="room-eaa048bac5316751f2bff74c9c728ea0935b189d" class="room indoor" x="889" y="47" width="16" height="16" rx="4"><title>midway along the upstairs hallway</title></rect>
+    <rect id="room-c82c0faa552598a7d8df5aa4353745ee185f9b33" class="room indoor" x="889" y="33" width="16" height="16" rx="4"><title>pottery room</title></rect>
+    <rect id="room-358f43edaf228c943c9ff51e3a815ed6f5095c1d" class="room indoor" x="903" y="47" width="16" height="16" rx="4"><title>near the east end of the upstairs hallway</title></rect>
+    <rect id="room-577e38ae8a447c340c291b79ac060792b8f518c1" class="room indoor" x="903" y="33" width="16" height="16" rx="4"><title>meditation room</title></rect>
+    <rect id="room-4151dce8630ebe3345b6403e3ce29d17682742ec" class="room indoor" x="917" y="47" width="16" height="16" rx="4"><title>east end of the upstairs hallway</title></rect>
+    <rect id="room-df26b96c2bdd1690c87516a112c5a1f57aa4bea3" class="room indoor" x="917" y="33" width="16" height="16" rx="4"><title>upstairs hallway, outside a door</title></rect>
+    <rect id="room-a55830a3c1e7f9cf7e8d144a12cab5d8519fc8f8" class="room indoor" x="917" y="19" width="16" height="16" rx="4"><title>storage room</title></rect>
+    <rect id="room-3396e5970d1203a2c5b7eade02223bfcd6508c70" class="room indoor" x="69" y="163" width="16" height="16" rx="4"><title>near the end of the piers</title></rect>
+    <rect id="room-86398380624abbf5566ab20313185582d296e0a7" class="room indoor" x="849" y="583" width="16" height="16" rx="4"><title>entrance chamber to the women&#x27;s hall</title></rect>
+    <rect id="room-adb3e82af3b3d3558292cae49b2564208ff6ef3d" class="room indoor" x="835" y="583" width="16" height="16" rx="4"><title>corridor leading through the women&#x27;s hall</title></rect>
+    <rect id="room-ecf08c6a4c868c062adc62ea4810b12ef8bc11a1" class="room indoor" x="821" y="583" width="16" height="16" rx="4"><title>Hall of Harmonious Fountains</title></rect>
+    <rect id="room-97996c0dc3d56a72f759919866c9eb8a41dfa8c7" class="room indoor" x="821" y="597" width="16" height="16" rx="4"><title>women&#x27;s tea room</title></rect>
+    <rect id="room-8eb17317d48b62daf42ef6da3406dbcc6df53eb1" class="room indoor" x="835" y="597" width="16" height="16" rx="4"><title>end of a corridor leading through the women&#x27;s hall</title></rect>
+    <rect id="room-a7957e2e4de5c1dfaf11f75c73a4185dba45832e" class="room indoor" x="835" y="569" width="16" height="16" rx="4"><title>Octagon Court</title></rect>
+    <rect id="room-3560145d027552c7ebc4597d1632d7efdf7511cc" class="room indoor" x="835" y="555" width="16" height="16" rx="4"><title>guest bedroom in the women&#x27;s hall</title></rect>
+    <rect id="room-5422fcab40f11547d8ee2248c88b890f79821d94" class="room indoor" x="821" y="555" width="16" height="16" rx="4"><title>guest bedroom in the women&#x27;s hall</title></rect>
+    <rect id="room-2ba5a2b2160bc6ff59b1451c3a13c05da5ab0b66" class="room indoor" x="821" y="569" width="16" height="16" rx="4"><title>small, pretty bedroom in the women&#x27;s hall</title></rect>
+    <rect id="room-27f46a46c162bfb158969e5e3abef0165d60d6af" class="room indoor" x="891" y="569" width="16" height="16" rx="4"><title>inside of a closet</title></rect>
+    <rect id="room-c372617552e141402aff74e4654757b853213475" class="room indoor" x="947" y="597" width="16" height="16" rx="4"><title>Lord McSweeney&#x27;s dressing room</title></rect>
+    <rect id="room-978c286140d7e459656feabdf53a9d602919e464" class="room indoor" x="889" y="150" width="16" height="16" rx="4"><title>grand entrance hall of the Sung Estate</title></rect>
+    <rect id="room-8ab93f0a7151f04cb744412e98aa985e609bbd05" class="room indoor" x="477" y="219" width="16" height="16" rx="4"><title>hallway in the basement</title></rect>
+  </g>
+
+  <g id="layer-labels">
+    <text class="map-label" x="443" y="143">winding path through the Hong orchard</text>
+    <text class="map-label" x="429" y="129">cherry blossom orchard</text>
+    <text class="map-label" x="415" y="115">composting station</text>
+    <text class="map-label" x="429" y="115">Hong&#x27;s cherry orchard</text>
+    <text class="map-label" x="443" y="115">cherry blossom orchard</text>
+    <text class="map-label" x="457" y="115">cherry blossom orchard</text>
+    <text class="map-label" x="457" y="129">cherry blossom orchard</text>
+    <text class="map-label" x="443" y="129">cherry blossom orchard</text>
+    <text class="map-label" x="457" y="143">winding path through the orchard at the main doors to the estate</text>
+    <text class="map-label" x="457" y="157">cherry blossom orchard</text>
+    <text class="map-label" x="471" y="143">entrance to Hong Hall</text>
+    <text class="map-label" x="471" y="129">hallway that gives access to the dining room and the trophy room</text>
+    <text class="map-label" x="471" y="115">hallway within the elegant walls of the Hong estate</text>
+    <text class="map-label" x="485" y="115">Hong family trophy room</text>
+    <text class="map-label" x="499" y="115">bottom of a stairwell</text>
+    <text class="map-label" x="499" y="10">top of a stairwell on the first floor of the estate</text>
+    <text class="map-label" x="499" y="24">room where the financial records of the Family are kept</text>
+    <text class="map-label" x="485" y="10">end of a short hallway on the first floor of the estate</text>
+    <text class="map-label" x="485" y="24">private bedroom of Lord Hong</text>
+    <text class="map-label" x="485" y="38">room used by Lord Hong for meditation</text>
+    <text class="map-label" x="513" y="10">end of a short hallway on the first floor of the estate</text>
+    <text class="map-label" x="513" y="24">hunting gallery of the Hongs</text>
+    <text class="map-label" x="513" y="115">room that the Hongs use to worship their ancestors</text>
+    <text class="map-label" x="527" y="115">small well-decorated corridor with a view out to the back garden</text>
+    <text class="map-label" x="527" y="129">east part of the garden room</text>
+    <text class="map-label" x="527" y="143">back hallway</text>
+    <text class="map-label" x="541" y="143">tea garden</text>
+    <text class="map-label" x="541" y="157">tea garden</text>
+    <text class="map-label" x="555" y="143">tea garden</text>
+    <text class="map-label" x="555" y="129">tea garden</text>
+    <text class="map-label" x="541" y="129">tea garden</text>
+    <text class="map-label" x="555" y="115">tea garden</text>
+    <text class="map-label" x="541" y="115">tea garden</text>
+    <text class="map-label" x="527" y="157">large concert room of the Hong household</text>
+    <text class="map-label" x="527" y="171">stairwell within the Hong estate</text>
+    <text class="map-label" x="527" y="215">bottom of a stairwell in the basement</text>
+    <text class="map-label" x="527" y="201">large kitchens of the Hong household</text>
+    <text class="map-label" x="514" y="201">large and well-stocked pantry</text>
+    <text class="map-label" x="513" y="215">hallway in the basement</text>
+    <text class="map-label" x="499" y="215">hallway in the basement</text>
+    <text class="map-label" x="499" y="201">holding cell</text>
+    <text class="map-label" x="485" y="201">holding cell</text>
+    <text class="map-label" x="471" y="201">room that serves as a ready room for the guards</text>
+    <text class="map-label" x="471" y="215">infamous Hong family torture chamber</text>
+    <text class="map-label" x="513" y="171">Hong family library</text>
+    <text class="map-label" x="499" y="171">bottom of a stairwell</text>
+    <text class="map-label" x="485" y="171">Hong war strategy room</text>
+    <text class="map-label" x="471" y="171">hallway running through the Hong estate</text>
+    <text class="map-label" x="471" y="157">hallway within the walls of the Hong Estate</text>
+    <text class="map-label" x="485" y="129">dining room of the Hong household</text>
+    <text class="map-label" x="485" y="143">Hong Hall</text>
+    <text class="map-label" x="485" y="157">writing room of the Hongs</text>
+    <text class="map-label" x="499" y="143">spacious atrium of the Hong Estate</text>
+    <text class="map-label" x="513" y="143">back hallway</text>
+    <text class="map-label" x="513" y="129">west part of the garden room</text>
+    <text class="map-label" x="513" y="157">music room of the Hong household</text>
+    <text class="map-label" x="499" y="157">tea room of the Hongs</text>
+    <text class="map-label" x="499" y="129">art gallery of the Hongs</text>
+    <text class="map-label" x="499" y="66">top of a stairwell</text>
+    <text class="map-label" x="485" y="66">end of a short hallway on the first floor of the estate</text>
+    <text class="map-label" x="485" y="52">room with a multitude of weapons hanging from the walls</text>
+    <text class="map-label" x="499" y="52">city planning room of the Hongs</text>
+    <text class="map-label" x="513" y="66">end of a short hallway on the first floor of the estate</text>
+    <text class="map-label" x="513" y="52">untidy bedroom of Lord Hong&#x27;s son</text>
+    <text class="map-label" x="513" y="38">untidy, junk-filled room</text>
+    <text class="map-label" x="540" y="494">Golden Gate at the entrance to the Fang Estate</text>
+    <text class="map-label" x="526" y="494">lake shore of Tora Lake</text>
+    <text class="map-label" x="526" y="480">lake shore of Tora Lake</text>
+    <text class="map-label" x="512" y="466">lake shore of Tora Lake</text>
+    <text class="map-label" x="512" y="424">Flog Course</text>
+    <text class="map-label" x="512" y="410">Flog Course</text>
+    <text class="map-label" x="498" y="410">Flog Course</text>
+    <text class="map-label" x="484" y="410">Flog Course</text>
+    <text class="map-label" x="484" y="396">Flog Course</text>
+    <text class="map-label" x="498" y="396">Flog Course</text>
+    <text class="map-label" x="512" y="396">Flog Course</text>
+    <text class="map-label" x="526" y="396">eastern edge of the flog course</text>
+    <text class="map-label" x="540" y="382">Flog Course</text>
+    <text class="map-label" x="526" y="382">Flog Course</text>
+    <text class="map-label" x="512" y="382">Flog Course</text>
+    <text class="map-label" x="509" y="378">sand trap</text>
+    <text class="map-label" x="498" y="382">Flog Course</text>
+    <text class="map-label" x="484" y="382">Flog Course</text>
+    <text class="map-label" x="498" y="452">lake shore of Tora Lake</text>
+    <text class="map-label" x="498" y="438">lake shore of Tora Lake</text>
+    <text class="map-label" x="484" y="424">lake shore of Tora Lake</text>
+    <text class="map-label" x="470" y="424">lake shore of Tora Lake</text>
+    <text class="map-label" x="456" y="410">lake shore of Tora Lake</text>
+    <text class="map-label" x="442" y="410">lake shore of Tora Lake</text>
+    <text class="map-label" x="428" y="410">lake shore of Tora Lake</text>
+    <text class="map-label" x="414" y="424">lake shore of Tora Lake</text>
+    <text class="map-label" x="400" y="424">lake shore of Tora Lake</text>
+    <text class="map-label" x="386" y="410">lake shore of Tora Lake</text>
+    <text class="map-label" x="372" y="410">lake shore of Tora Lake</text>
+    <text class="map-label" x="358" y="410">lake shore of Tora Lake</text>
+    <text class="map-label" x="344" y="424">lake shore of Tora Lake</text>
+    <text class="map-label" x="330" y="438">lake shore of Tora Lake</text>
+    <text class="map-label" x="316" y="438">lake shore of Tora Lake</text>
+    <text class="map-label" x="330" y="424">lake shore of Tora Lake</text>
+    <text class="map-label" x="302" y="452">lake shore of Tora Lake</text>
+    <text class="map-label" x="302" y="466">lake shore of Tora Lake</text>
+    <text class="map-label" x="288" y="480">lake shore of Tora Lake</text>
+    <text class="map-label" x="288" y="494">lake shore of Tora Lake</text>
+    <text class="map-label" x="274" y="508">lake shore of Tora Lake</text>
+    <text class="map-label" x="274" y="522">lake shore of Tora Lake</text>
+    <text class="map-label" x="288" y="536">lake shore of Tora Lake</text>
+    <text class="map-label" x="274" y="536">lake shore of Tora Lake</text>
+    <text class="map-label" x="288" y="550">lake shore of Tora Lake</text>
+    <text class="map-label" x="302" y="564">lake shore of Tora Lake</text>
+    <text class="map-label" x="316" y="550">lake shore of Tora Lake</text>
+    <text class="map-label" x="330" y="564">lake shore of Tora Lake</text>
+    <text class="map-label" x="316" y="564">lake shore of Tora Lake</text>
+    <text class="map-label" x="344" y="564">lake shore of Tora Lake</text>
+    <text class="map-label" x="358" y="578">lake shore of Tora Lake</text>
+    <text class="map-label" x="372" y="578">lake shore of Tora Lake</text>
+    <text class="map-label" x="386" y="578">lake shore of Tora Lake</text>
+    <text class="map-label" x="400" y="592">lake shore of Tora Lake</text>
+    <text class="map-label" x="414" y="592">lake shore of Tora Lake</text>
+    <text class="map-label" x="428" y="592">lake shore of Tora Lake</text>
+    <text class="map-label" x="442" y="578">lake shore of Tora Lake</text>
+    <text class="map-label" x="456" y="578">lake shore of Tora Lake</text>
+    <text class="map-label" x="456" y="564">end of a short pier</text>
+    <text class="map-label" x="456" y="550">middle of a wooden pier</text>
+    <text class="map-label" x="442" y="536">middle of a wooden pier</text>
+    <text class="map-label" x="442" y="522">east entrance to the Fang Pagoda</text>
+    <text class="map-label" x="110" y="570">eastern section of the Fang art gallery</text>
+    <text class="map-label" x="96" y="570">entrance gallery of the Fang house</text>
+    <text class="map-label" x="400" y="522">west entrance to the Fang Pagoda</text>
+    <text class="map-label" x="400" y="536">middle of a wooden pier</text>
+    <text class="map-label" x="386" y="550">middle of a wooden pier</text>
+    <text class="map-label" x="386" y="564">end of a short pier outside the Fang Estate</text>
+    <text class="map-label" x="96" y="556">north section of the Fang art gallery</text>
+    <text class="map-label" x="110" y="556">Fang family entertainment room</text>
+    <text class="map-label" x="124" y="556">tea room in the Fang pagoda</text>
+    <text class="map-label" x="138" y="556">bonsai garden just outside the door to the tea room</text>
+    <text class="map-label" x="152" y="542">western end of the bonsai garden near the Pagoda</text>
+    <text class="map-label" x="166" y="542">junction of meandering paths in the bonsai garden</text>
+    <text class="map-label" x="180" y="542">quiet corner of the bonsai garden</text>
+    <text class="map-label" x="138" y="528">eastern end of a covered walkway</text>
+    <text class="map-label" x="124" y="528">covered walkway south of the northeastern wing</text>
+    <text class="map-label" x="124" y="514">corridor just inside from the covered walkway</text>
+    <text class="map-label" x="138" y="500">hallway outside the ancestors&#x27; shrine</text>
+    <text class="map-label" x="138" y="486">shrine dedicated to Fang family ancestors</text>
+    <text class="map-label" x="152" y="486">small patio near the shrine</text>
+    <text class="map-label" x="124" y="486">small shrine to Shoji</text>
+    <text class="map-label" x="110" y="528">covered walkway outside the Fang Pagoda</text>
+    <text class="map-label" x="110" y="542">south hallway</text>
+    <text class="map-label" x="124" y="542">hallway in the ground floor of the Fang Estate</text>
+    <text class="map-label" x="138" y="542">room full of sleeping and snoring servants</text>
+    <text class="map-label" x="96" y="528">covered walkway along the north side of the Fang Pagoda</text>
+    <text class="map-label" x="82" y="528">covered walkway between the Fang Pagoda and the northwestern wing</text>
+    <text class="map-label" x="82" y="514">Lord Fang&#x27;s study</text>
+    <text class="map-label" x="68" y="500">Fang family library</text>
+    <text class="map-label" x="68" y="486">Fang family armoury</text>
+    <text class="map-label" x="68" y="472">small patio</text>
+    <text class="map-label" x="82" y="486">Fang family trophy room</text>
+    <text class="map-label" x="82" y="500">Fang family war room</text>
+    <text class="map-label" x="68" y="528">western end of a covered walkway</text>
+    <text class="map-label" x="54" y="542">lotus gardens</text>
+    <text class="map-label" x="40" y="542">lotus gardens</text>
+    <text class="map-label" x="26" y="542">sandscape in the lotus gardens</text>
+    <text class="map-label" x="68" y="556">entrance to the lotus gardens</text>
+    <text class="map-label" x="82" y="556">large banquet hall</text>
+    <text class="map-label" x="82" y="542">Fang kitchen</text>
+    <text class="map-label" x="68" y="542">pantry in the Fang Estate</text>
+    <text class="map-label" x="96" y="543">bottom of the stairwell leading to the upper levels</text>
+    <text class="map-label" x="96" y="426">wide, square foyer on the first floor</text>
+    <text class="map-label" x="96" y="412">a first floor hallway</text>
+    <text class="map-label" x="82" y="426">hallway leading through the first floor</text>
+    <text class="map-label" x="82" y="440">writing room of Lord Fang</text>
+    <text class="map-label" x="96" y="440">Fang Family Finance room</text>
+    <text class="map-label" x="68" y="440">Lord and Lady Fang&#x27;s master bedroom</text>
+    <text class="map-label" x="68" y="426">first floor hallway outside Lord and Lady Fang&#x27;s bedroom</text>
+    <text class="map-label" x="110" y="412">corridor on the first floor of the Fang Pagoda</text>
+    <text class="map-label" x="110" y="426">music room of the Fang estate</text>
+    <text class="map-label" x="124" y="426">first floor hallway</text>
+    <text class="map-label" x="138" y="426">Flog Course viewing gallery</text>
+    <text class="map-label" x="138" y="440">washroom in the Fang Pagoda</text>
+    <text class="map-label" x="124" y="440">first floor guest bedroom</text>
+    <text class="map-label" x="110" y="440">Fang inhumation office</text>
+    <text class="map-label" x="96" y="364">landing at the top level of the house</text>
+    <text class="map-label" x="96" y="378">observatory at the top of the Fang Pagoda</text>
+    <text class="map-label" x="110" y="364">paper filled room</text>
+    <text class="map-label" x="110" y="378">cramped printing room</text>
+    <text class="map-label" x="470" y="578">lake shore of Tora Lake</text>
+    <text class="map-label" x="484" y="578">lake shore of Tora Lake</text>
+    <text class="map-label" x="498" y="564">lake shore of Tora Lake</text>
+    <text class="map-label" x="512" y="564">lake shore of Tora Lake</text>
+    <text class="map-label" x="526" y="550">lake shore of Tora Lake</text>
+    <text class="map-label" x="526" y="536">lake shore of Tora Lake</text>
+    <text class="map-label" x="540" y="522">lake shore of Tora Lake</text>
+    <text class="map-label" x="540" y="508">lake shore of Tora Lake</text>
+    <text class="map-label" x="554" y="508">entryway to a guardhouse</text>
+    <text class="map-label" x="554" y="522">office of the captain</text>
+    <text class="map-label" x="568" y="508">Fang guardhouse</text>
+    <text class="map-label" x="568" y="522">unused-looking Fang dungeon</text>
+    <text class="map-label" x="77" y="159">dock at the base of the Tang Island cliffs</text>
+    <text class="map-label" x="84" y="131">gravel path</text>
+    <text class="map-label" x="70" y="117">gravel path</text>
+    <text class="map-label" x="70" y="103">gravel path</text>
+    <text class="map-label" x="84" y="89">gravel path</text>
+    <text class="map-label" x="98" y="75">gravel path</text>
+    <text class="map-label" x="112" y="75">precarious precipice</text>
+    <text class="map-label" x="126" y="75">watch landing</text>
+    <text class="map-label" x="140" y="75">gravel path</text>
+    <text class="map-label" x="154" y="89">gravel path</text>
+    <text class="map-label" x="168" y="103">gravel path</text>
+    <text class="map-label" x="168" y="117">gravel path</text>
+    <text class="map-label" x="154" y="131">clifftop path south of a tangled garden</text>
+    <text class="map-label" x="154" y="117">overgrown garden</text>
+    <text class="map-label" x="154" y="103">overgrown garden</text>
+    <text class="map-label" x="140" y="145">clifftop path at the Tang estate&#x27;s southeast corner</text>
+    <text class="map-label" x="126" y="145">small landing at the entrance to Tang estate</text>
+    <text class="map-label" x="126" y="131">dusty entrance to the Tang Estate</text>
+    <text class="map-label" x="140" y="131">dusty reception room</text>
+    <text class="map-label" x="126" y="117">ground floor hallway outside two rooms</text>
+    <text class="map-label" x="140" y="117">family tea room</text>
+    <text class="map-label" x="112" y="117">furniture repair room</text>
+    <text class="map-label" x="126" y="103">hallway outside the dining room</text>
+    <text class="map-label" x="140" y="103">political planning room</text>
+    <text class="map-label" x="112" y="103">financial records room</text>
+    <text class="map-label" x="126" y="89">dining room</text>
+    <text class="map-label" x="140" y="89">drawing room in the Tang Estate</text>
+    <text class="map-label" x="112" y="89">kitchen</text>
+    <text class="map-label" x="98" y="89">servants&#x27; quarters</text>
+    <text class="map-label" x="98" y="103">servants&#x27; quarters</text>
+    <text class="map-label" x="112" y="131">hallway just off the entrance hall</text>
+    <text class="map-label" x="98" y="131">landing at the ground floor level of the estate&#x27;s main stairwell, just outside the trophy room</text>
+    <text class="map-label" x="98" y="117">Tang trophy room</text>
+    <text class="map-label" x="97" y="232">cramped passageway underneath the Tang Estate</text>
+    <text class="map-label" x="111" y="232">cramped passageway underneath the Tang Estate</text>
+    <text class="map-label" x="125" y="232">vaulted chamber</text>
+    <text class="map-label" x="125" y="218">dimly lit corridor underneath the Tang Estate</text>
+    <text class="map-label" x="139" y="218">guard room</text>
+    <text class="map-label" x="111" y="218">Tang treasury</text>
+    <text class="map-label" x="125" y="204">dimly lit corridor</text>
+    <text class="map-label" x="139" y="204">dungeon cell</text>
+    <text class="map-label" x="111" y="204">dungeon cell</text>
+    <text class="map-label" x="125" y="190">dimly lit corridor underneath the Tang Estate</text>
+    <text class="map-label" x="139" y="190">dungeon cell</text>
+    <text class="map-label" x="111" y="190">dungeon cell</text>
+    <text class="map-label" x="98" y="49">landing at the end of the first floor hallway</text>
+    <text class="map-label" x="98" y="35">Tang family library</text>
+    <text class="map-label" x="112" y="49">hallway on the first floor of the Tang Estate</text>
+    <text class="map-label" x="126" y="49">dusty hallway outside the family study</text>
+    <text class="map-label" x="140" y="49">Lord Tang&#x27;s study</text>
+    <text class="map-label" x="126" y="35">hallway past its prime</text>
+    <text class="map-label" x="140" y="35">dimly lit interrogation room</text>
+    <text class="map-label" x="112" y="35">family dressing room</text>
+    <text class="map-label" x="126" y="21">hallway just outside the estate&#x27;s bedrooms and the first floor balcony</text>
+    <text class="map-label" x="140" y="21">guest bedroom</text>
+    <text class="map-label" x="112" y="21">bedroom of Lord and Lady Tang</text>
+    <text class="map-label" x="126" y="7">crumbling balcony overlooking Tang Bay</text>
+    <text class="map-label" x="140" y="7">crumbling balcony overlooking Tang Bay</text>
+    <text class="map-label" x="112" y="7">crumbling balcony overlooking Tang Bay</text>
+    <text class="map-label" x="112" y="145">gravel path</text>
+    <text class="map-label" x="98" y="145">gravel path</text>
+    <text class="map-label" x="84" y="117">overgrown garden</text>
+    <text class="map-label" x="84" y="103">overgrown garden</text>
+    <text class="map-label" x="899" y="635">gateway to the McSweeney Estate</text>
+    <text class="map-label" x="885" y="635">driveway</text>
+    <text class="map-label" x="871" y="635">driveway</text>
+    <text class="map-label" x="857" y="635">path</text>
+    <text class="map-label" x="843" y="621">path</text>
+    <text class="map-label" x="829" y="607">garden path</text>
+    <text class="map-label" x="815" y="607">garden path</text>
+    <text class="map-label" x="801" y="593">path through the gardens</text>
+    <text class="map-label" x="801" y="579">garden path</text>
+    <text class="map-label" x="801" y="565">garden path</text>
+    <text class="map-label" x="815" y="551">garden path</text>
+    <text class="map-label" x="801" y="537">pagoda</text>
+    <text class="map-label" x="829" y="537">garden path</text>
+    <text class="map-label" x="843" y="523">garden path</text>
+    <text class="map-label" x="857" y="523">path around the yard</text>
+    <text class="map-label" x="857" y="509">path around the yard</text>
+    <text class="map-label" x="871" y="495">path around the yard</text>
+    <text class="map-label" x="857" y="481">garden shed</text>
+    <text class="map-label" x="885" y="495">path around the yard</text>
+    <text class="map-label" x="899" y="495">path around the yard</text>
+    <text class="map-label" x="899" y="481">conservatory</text>
+    <text class="map-label" x="899" y="467">conservatory</text>
+    <text class="map-label" x="899" y="453">distillery</text>
+    <text class="map-label" x="885" y="467">conservatory</text>
+    <text class="map-label" x="913" y="495">path around the yard</text>
+    <text class="map-label" x="927" y="495">stable yard</text>
+    <text class="map-label" x="927" y="481">carriage shed</text>
+    <text class="map-label" x="913" y="481">grooms&#x27; quarters</text>
+    <text class="map-label" x="927" y="467">stable</text>
+    <text class="map-label" x="941" y="467">stable</text>
+    <text class="map-label" x="941" y="481">stable</text>
+    <text class="map-label" x="941" y="495">stable yard</text>
+    <text class="map-label" x="955" y="481">tack room</text>
+    <text class="map-label" x="955" y="467">smithy</text>
+    <text class="map-label" x="969" y="481">kennel</text>
+    <text class="map-label" x="969" y="467">kennel</text>
+    <text class="map-label" x="955" y="495">stable yard</text>
+    <text class="map-label" x="941" y="509">path around the yard</text>
+    <text class="map-label" x="941" y="523">path around the yard</text>
+    <text class="map-label" x="941" y="537">path around the yard</text>
+    <text class="map-label" x="955" y="537">path behind the halls leading to the birdhouse</text>
+    <text class="map-label" x="955" y="523">birdhouse</text>
+    <text class="map-label" x="955" y="509">birdhouse cage</text>
+    <text class="map-label" x="927" y="551">path around the yard</text>
+    <text class="map-label" x="913" y="551">path around the yard</text>
+    <text class="map-label" x="899" y="551">path around the yard</text>
+    <text class="map-label" x="885" y="551">servants&#x27; entrance</text>
+    <text class="map-label" x="885" y="537">small garden</text>
+    <text class="map-label" x="871" y="537">path around the yard</text>
+    <text class="map-label" x="885" y="565">kitchen</text>
+    <text class="map-label" x="871" y="565">pantry</text>
+    <text class="map-label" x="899" y="565">scullery</text>
+    <text class="map-label" x="899" y="579">corridor in the main hall</text>
+    <text class="map-label" x="885" y="579">library</text>
+    <text class="map-label" x="871" y="579">guard station at the entrance to the women&#x27;s hall</text>
+    <text class="map-label" x="885" y="593">visitors&#x27; bathroom</text>
+    <text class="map-label" x="899" y="593">reception hall</text>
+    <text class="map-label" x="913" y="593">dressing room</text>
+    <text class="map-label" x="913" y="579">main tea room</text>
+    <text class="map-label" x="913" y="565">Lord McSweeney&#x27;s office and financial headquarters</text>
+    <text class="map-label" x="927" y="579">reception room for the men&#x27;s hall</text>
+    <text class="map-label" x="941" y="579">corridor leading through the men&#x27;s hall</text>
+    <text class="map-label" x="955" y="579">men&#x27;s tea room</text>
+    <text class="map-label" x="955" y="593">Lord McSweeney&#x27;s private bedroom</text>
+    <text class="map-label" x="969" y="579">corridor in the men&#x27;s hall outside the tea room</text>
+    <text class="map-label" x="969" y="565">anteroom to the men&#x27;s dojo</text>
+    <text class="map-label" x="969" y="551">men&#x27;s dojo</text>
+    <text class="map-label" x="955" y="565">guest bedroom off the mens&#x27; hall</text>
+    <text class="map-label" x="955" y="551">guest bedroom in the mens&#x27; hall</text>
+    <text class="map-label" x="899" y="407">landing on the upper floor of the McSweeney guest hall</text>
+    <text class="map-label" x="885" y="407">landing on the first floor of the McSweeney guest hall</text>
+    <text class="map-label" x="885" y="393">Room of the Pearl Tiger</text>
+    <text class="map-label" x="899" y="393">Suite of Harmonious Animals</text>
+    <text class="map-label" x="899" y="379">Room of the Onyx Turtle</text>
+    <text class="map-label" x="913" y="393">cubicle</text>
+    <text class="map-label" x="899" y="421">Phoenix Suite</text>
+    <text class="map-label" x="885" y="421">Room of the Fiery Phoenix</text>
+    <text class="map-label" x="913" y="421">cubicle</text>
+    <text class="map-label" x="913" y="407">eastern landing</text>
+    <text class="map-label" x="927" y="407">Jade Dragon Suite</text>
+    <text class="map-label" x="927" y="393">Room of the Jade Dragon</text>
+    <text class="map-label" x="927" y="421">cubicle</text>
+    <text class="map-label" x="900" y="344">attic</text>
+    <text class="map-label" x="899" y="607">waiting room</text>
+    <text class="map-label" x="885" y="621">pathway outside the entrance to the McSweeney Estate</text>
+    <text class="map-label" x="871" y="621">path</text>
+    <text class="map-label" x="857" y="621">path</text>
+    <text class="map-label" x="855" y="118">quiet studio</text>
+    <text class="map-label" x="869" y="118">Lady Sung&#x27;s private gardens</text>
+    <text class="map-label" x="883" y="118">Lady Sung&#x27;s private gardens</text>
+    <text class="map-label" x="897" y="118">Lady Sung&#x27;s private gardens</text>
+    <text class="map-label" x="911" y="118">Lady Sung&#x27;s private gardens</text>
+    <text class="map-label" x="925" y="118">large, traditional dining room</text>
+    <text class="map-label" x="925" y="132">end of the hallway outside the dining room</text>
+    <text class="map-label" x="925" y="146">corridor leading through the Sung Estate</text>
+    <text class="map-label" x="939" y="146">kitchen and pantry</text>
+    <text class="map-label" x="939" y="132">grimy servants&#x27; quarters</text>
+    <text class="map-label" x="911" y="146">quiet hallway within the Sung Estate</text>
+    <text class="map-label" x="897" y="132">reception area</text>
+    <text class="map-label" x="911" y="132">music room</text>
+    <text class="map-label" x="883" y="146">downstairs hallway, just outside the library</text>
+    <text class="map-label" x="883" y="132">Sung family library</text>
+    <text class="map-label" x="869" y="146">midway along the ground floor hallway</text>
+    <text class="map-label" x="869" y="132">Sung family study</text>
+    <text class="map-label" x="855" y="132">hallway in the Sung Estate just outside the studio</text>
+    <text class="map-label" x="855" y="146">hallway within the walls of the Sung Estate</text>
+    <text class="map-label" x="855" y="202">west end of a hallway in the basement</text>
+    <text class="map-label" x="855" y="188">Sung treasury</text>
+    <text class="map-label" x="869" y="202">east end of a basement</text>
+    <text class="map-label" x="869" y="188">storage cell</text>
+    <text class="map-label" x="883" y="188">dingy cell</text>
+    <text class="map-label" x="883" y="202">plush cell</text>
+    <text class="map-label" x="855" y="43">upstairs hallway, near a stairwell</text>
+    <text class="map-label" x="855" y="29">north end of a hallway</text>
+    <text class="map-label" x="855" y="15">meeting room</text>
+    <text class="map-label" x="869" y="43">upstairs hallway, outside of a bedroom</text>
+    <text class="map-label" x="869" y="29">Lady Sung&#x27;s bedroom</text>
+    <text class="map-label" x="869" y="15">west end of a balcony</text>
+    <text class="map-label" x="883" y="15">east end of a balcony</text>
+    <text class="map-label" x="883" y="29">Lord Sung&#x27;s bedroom</text>
+    <text class="map-label" x="883" y="43">upstairs hallway outside a bedroom</text>
+    <text class="map-label" x="897" y="43">midway along the upstairs hallway</text>
+    <text class="map-label" x="897" y="29">pottery room</text>
+    <text class="map-label" x="911" y="43">near the east end of the upstairs hallway</text>
+    <text class="map-label" x="911" y="29">meditation room</text>
+    <text class="map-label" x="925" y="43">east end of the upstairs hallway</text>
+    <text class="map-label" x="925" y="29">upstairs hallway, outside a door</text>
+    <text class="map-label" x="925" y="15">storage room</text>
+    <text class="map-label" x="77" y="159">near the end of the piers</text>
+    <text class="map-label" x="857" y="579">entrance chamber to the women&#x27;s hall</text>
+    <text class="map-label" x="843" y="579">corridor leading through the women&#x27;s hall</text>
+    <text class="map-label" x="829" y="579">Hall of Harmonious Fountains</text>
+    <text class="map-label" x="829" y="593">women&#x27;s tea room</text>
+    <text class="map-label" x="843" y="593">end of a corridor leading through the women&#x27;s hall</text>
+    <text class="map-label" x="843" y="565">Octagon Court</text>
+    <text class="map-label" x="843" y="551">guest bedroom in the women&#x27;s hall</text>
+    <text class="map-label" x="829" y="551">guest bedroom in the women&#x27;s hall</text>
+    <text class="map-label" x="829" y="565">small, pretty bedroom in the women&#x27;s hall</text>
+    <text class="map-label" x="899" y="565">inside of a closet</text>
+    <text class="map-label" x="955" y="593">Lord McSweeney&#x27;s dressing room</text>
+    <text class="map-label" x="897" y="146">grand entrance hall of the Sung Estate</text>
+    <text class="map-label" x="485" y="215">hallway in the basement</text>
+  </g>
+
+</svg>

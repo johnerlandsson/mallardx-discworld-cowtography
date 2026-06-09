@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 339 289"
+     class="map-svg"
+     data-map-id="65">
+
+  <g id="layer-artwork"><!-- artwork --></g>
+
+  <g id="layer-exits">
+    <line id="edge-dd8c02346e7d290b3d80134ac9da3980413a817c-ec9a787d226db18f98041ed67da1a93c30a0b7bd" class="exit" x1="237" y1="137" x2="209" y2="137"/>
+    <line id="edge-bcfda2ba9de8adcdd89b2700035fad4883c0e7c6-e52d88c91a932fc97b81e4e72898c52fd618260c" class="exit" x1="70" y1="201" x2="70" y2="229"/>
+    <line id="edge-521ce53ca1696d3352c501582a8585611688a6ed-bcfda2ba9de8adcdd89b2700035fad4883c0e7c6" class="exit" x1="70" y1="173" x2="70" y2="201"/>
+    <line id="edge-521ce53ca1696d3352c501582a8585611688a6ed-76034f73bca54b5e4807ce7e39c451e4f3910511" class="exit" x1="70" y1="173" x2="42" y2="173"/>
+    <line id="edge-4d619f097bac0606f9c45d4e53c9a7fd2ca1ec97-dd8c02346e7d290b3d80134ac9da3980413a817c" class="exit" x1="265" y1="137" x2="237" y2="137"/>
+    <line id="edge-d7d346f7dc62f8311c3296c6a2fe94608d4f642a-dd8c02346e7d290b3d80134ac9da3980413a817c" class="exit" x1="237" y1="173" x2="237" y2="137"/>
+    <line id="edge-7756cb282a781bd47456be5526430aefbe698b6d-d7d346f7dc62f8311c3296c6a2fe94608d4f642a" class="exit" x1="209" y1="173" x2="237" y2="173"/>
+    <line id="edge-c2b9ae44eb1977b5f1fe3593c2e6541685f3ac18-d7d346f7dc62f8311c3296c6a2fe94608d4f642a" class="exit" x1="265" y1="173" x2="237" y2="173"/>
+    <line id="edge-d7d346f7dc62f8311c3296c6a2fe94608d4f642a-d90f661af47f2ae0ce22c27a9eebfa35b0f21211" class="exit" x1="237" y1="173" x2="237" y2="209"/>
+  </g>
+
+  <g id="layer-rooms">
+    <rect id="room-ec9a787d226db18f98041ed67da1a93c30a0b7bd" class="room indoor" x="201" y="129" width="16" height="16" rx="4"><title>cosy magic shop</title></rect>
+    <rect id="room-e52d88c91a932fc97b81e4e72898c52fd618260c" class="room indoor" x="62" y="221" width="16" height="16" rx="4"><title>deeply shaded holloway</title></rect>
+    <rect id="room-bcfda2ba9de8adcdd89b2700035fad4883c0e7c6" class="room indoor" x="62" y="193" width="16" height="16" rx="4"><title>shaded dell outside an unassuming building</title></rect>
+    <rect id="room-521ce53ca1696d3352c501582a8585611688a6ed" class="room indoor" x="62" y="165" width="16" height="16" rx="4"><title>cosy kitchen hut</title></rect>
+    <rect id="room-76034f73bca54b5e4807ce7e39c451e4f3910511" class="room indoor" x="34" y="165" width="16" height="16" rx="4"><title>Multicoloured Swap Shop</title></rect>
+    <rect id="room-dd8c02346e7d290b3d80134ac9da3980413a817c" class="room indoor" x="229" y="129" width="16" height="16" rx="4"><title>inside a colossal tree</title></rect>
+    <rect id="room-4d619f097bac0606f9c45d4e53c9a7fd2ca1ec97" class="room indoor" x="257" y="129" width="16" height="16" rx="4"><title>study area</title></rect>
+    <rect id="room-c335fcc2523061692ed4fd87ed67189eb89acde6" class="room indoor" x="229" y="93" width="16" height="16" rx="4"><title>raised platform inside a tree</title></rect>
+    <rect id="room-d7d346f7dc62f8311c3296c6a2fe94608d4f642a" class="room indoor" x="229" y="165" width="16" height="16" rx="4"><title>amidst the roots of a colossal tree</title></rect>
+    <rect id="room-7756cb282a781bd47456be5526430aefbe698b6d" class="room indoor" x="201" y="165" width="16" height="16" rx="4"><title>well-equipped workshop</title></rect>
+    <rect id="room-c2b9ae44eb1977b5f1fe3593c2e6541685f3ac18" class="room indoor" x="257" y="165" width="16" height="16" rx="4"><title>eerie gymnasium</title></rect>
+    <rect id="room-56e1c37f3335e6bf9c5cc5ec316e983be456f6b2" class="room indoor" x="201" y="201" width="16" height="16" rx="4"><title>chalk-marked room</title></rect>
+    <rect id="room-d90f661af47f2ae0ce22c27a9eebfa35b0f21211" class="room indoor" x="229" y="201" width="16" height="16" rx="4"><title>comfortable lounge area</title></rect>
+  </g>
+
+  <g id="layer-labels">
+    <text class="map-label" x="209" y="125">cosy magic shop</text>
+    <text class="map-label" x="70" y="217">deeply shaded holloway</text>
+    <text class="map-label" x="70" y="189">shaded dell outside an unassuming building</text>
+    <text class="map-label" x="70" y="161">cosy kitchen hut</text>
+    <text class="map-label" x="42" y="161">Multicoloured Swap Shop</text>
+    <text class="map-label" x="237" y="125">inside a colossal tree</text>
+    <text class="map-label" x="265" y="125">study area</text>
+    <text class="map-label" x="237" y="89">raised platform inside a tree</text>
+    <text class="map-label" x="237" y="161">amidst the roots of a colossal tree</text>
+    <text class="map-label" x="209" y="161">well-equipped workshop</text>
+    <text class="map-label" x="265" y="161">eerie gymnasium</text>
+    <text class="map-label" x="209" y="197">chalk-marked room</text>
+    <text class="map-label" x="237" y="197">comfortable lounge area</text>
+  </g>
+
+</svg>

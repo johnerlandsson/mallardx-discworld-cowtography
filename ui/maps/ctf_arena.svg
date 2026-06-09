@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 653 546"
+     class="map-svg"
+     data-map-id="49">
+
+  <g id="layer-artwork"><!-- artwork --></g>
+
+  <g id="layer-exits">
+    <line id="edge-3366ea4fb55a46580f5ab5d6264af9616a51d601-55496e679819763751baf7a874228ca98687d547" class="exit" x1="464" y1="81" x2="436" y2="53"/>
+    <line id="edge-06035cb7f96092f3e4675510b292a455ea7e2fcc-55496e679819763751baf7a874228ca98687d547" class="exit" x1="464" y1="53" x2="436" y2="53"/>
+    <line id="edge-06035cb7f96092f3e4675510b292a455ea7e2fcc-25e11902534f2b18de7f93cd531f1c36b2c678e7" class="exit" x1="464" y1="53" x2="483" y2="27"/>
+    <line id="edge-06035cb7f96092f3e4675510b292a455ea7e2fcc-4644cb33c6c9f7ed701c45d07b4b53c5d575915c" class="exit" x1="464" y1="53" x2="492" y2="81"/>
+    <line id="edge-4644cb33c6c9f7ed701c45d07b4b53c5d575915c-c30e844d0cc6035207992cd727c1eaf661a52b7c" class="exit" x1="492" y1="81" x2="510" y2="57"/>
+  </g>
+
+  <g id="layer-rooms">
+    <rect id="room-3366ea4fb55a46580f5ab5d6264af9616a51d601" class="room indoor" x="456" y="73" width="16" height="16" rx="4"><title>overgrown moat</title></rect>
+    <rect id="room-55496e679819763751baf7a874228ca98687d547" class="room indoor" x="428" y="45" width="16" height="16" rx="4"><title>castle ruins</title></rect>
+    <rect id="room-06035cb7f96092f3e4675510b292a455ea7e2fcc" class="room indoor" x="456" y="45" width="16" height="16" rx="4"><title>mystical castle ruins</title></rect>
+    <rect id="room-4644cb33c6c9f7ed701c45d07b4b53c5d575915c" class="room indoor" x="484" y="73" width="16" height="16" rx="4"><title>sanctuary</title></rect>
+    <rect id="room-c30e844d0cc6035207992cd727c1eaf661a52b7c" class="room indoor" x="502" y="49" width="16" height="16" rx="4"><title>belfry</title></rect>
+    <rect id="room-25e11902534f2b18de7f93cd531f1c36b2c678e7" class="room indoor" x="475" y="19" width="16" height="16" rx="4"><title>spectator gallery</title></rect>
+    <rect id="room-52a3f54ac7f4d46f73dd262bb9f7f2822000e396" class="room indoor" x="299" y="179" width="16" height="16" rx="4"><title>Secret Passageway</title></rect>
+    <rect id="room-2f8eb67f8bf8caa0c7f9a69e20ac30982c689938" class="room indoor" x="299" y="131" width="16" height="16" rx="4"><title>Secret Passageway</title></rect>
+    <rect id="room-304bb3686957ac6ab74dd5d076d93a87ad0478a3" class="room indoor" x="299" y="83" width="16" height="16" rx="4"><title>Prison Hallway</title></rect>
+    <rect id="room-d5075bd9f35abf4ba1e3517e5428c244a314583d" class="room indoor" x="251" y="83" width="16" height="16" rx="4"><title>Prison Hallway</title></rect>
+    <rect id="room-27fce23d65093578b2dc2078a7011f9b4370fc2e" class="room indoor" x="251" y="35" width="16" height="16" rx="4"><title>Guard Room</title></rect>
+    <rect id="room-3bdbe3b1146d4911b7ecb032defd626afdf9e026" class="room indoor" x="203" y="83" width="16" height="16" rx="4"><title>Prison Hallway</title></rect>
+    <rect id="room-02d2390a897cfd24cbd73f74dfd845ebc6534220" class="room indoor" x="155" y="83" width="16" height="16" rx="4"><title>Jail Cell</title></rect>
+    <rect id="room-380b8682e7d0f5cb2fd26c4dcbf72fd8e5fa08f5" class="room indoor" x="203" y="131" width="16" height="16" rx="4"><title>Prison Hallway</title></rect>
+    <rect id="room-06ebb1d3ba63b678fdc941bc65824afc62a1092e" class="room indoor" x="251" y="131" width="16" height="16" rx="4"><title>Jail Cell</title></rect>
+    <rect id="room-a14ecfc7cb7094048e567d25e3a65665e135da73" class="room indoor" x="203" y="179" width="16" height="16" rx="4"><title>Prison Hallway</title></rect>
+    <rect id="room-fccf440f06bbe769b6850cdc2cddc953d5dd9cc3" class="room indoor" x="155" y="179" width="16" height="16" rx="4"><title>Torture Chamber</title></rect>
+    <rect id="room-281708e6c2c544e89a6d9e7d4199952d7d7eb962" class="room indoor" x="203" y="227" width="16" height="16" rx="4"><title>Prison Hallway</title></rect>
+    <rect id="room-2f6b158cd8d79a7e85be88885bf697b78de1c8b2" class="room indoor" x="251" y="227" width="16" height="16" rx="4"><title>northwestern courtyard</title></rect>
+    <rect id="room-1dab6561295f4cd0f82b81a6313595ebf3730084" class="room indoor" x="299" y="227" width="16" height="16" rx="4"><title>northern courtyard</title></rect>
+    <rect id="room-429e3176eb1c3e6d32f518104d456d228e77c14c" class="room indoor" x="347" y="227" width="16" height="16" rx="4"><title>northeastern courtyard</title></rect>
+    <rect id="room-197efacd632517af2d488e6a12322ad6ac700649" class="room indoor" x="347" y="275" width="16" height="16" rx="4"><title>southeastern courtyard</title></rect>
+    <rect id="room-4a6a1d14ecd41cd970baf1cf86bda2cf0323f749" class="room indoor" x="299" y="275" width="16" height="16" rx="4"><title>southern courtyard, by the flagpole</title></rect>
+    <rect id="room-88cb1dd9e0c922609df617255ddd7d05d575e165" class="room indoor" x="251" y="275" width="16" height="16" rx="4"><title>southwestern courtyard</title></rect>
+    <rect id="room-094239d0ecaacb693c9426b61c818615b3d8f24d" class="room indoor" x="536" y="227" width="16" height="16" rx="4"><title>Underground Passageway</title></rect>
+    <rect id="room-1ca7db9ff76bd460278c455e28205520df570ed6" class="room indoor" x="488" y="227" width="16" height="16" rx="4"><title>Dead End Passageway</title></rect>
+    <rect id="room-a21785d0b3d4c8d3b1e34e7ee115add64e2b7079" class="room indoor" x="488" y="275" width="16" height="16" rx="4"><title>Necropolis</title></rect>
+    <rect id="room-75e680fdb73a2de5c5e770994ef11b3a2da7aed1" class="room indoor" x="488" y="323" width="16" height="16" rx="4"><title>Necropolis</title></rect>
+    <rect id="room-5c5d6c0520ec8ad803e2b01d8b2475357fe4c70a" class="room indoor" x="488" y="371" width="16" height="16" rx="4"><title>Necropolis</title></rect>
+    <rect id="room-4dd8d13f1312d98dd2ab3d81eb341c972af95c52" class="room indoor" x="440" y="419" width="16" height="16" rx="4"><title>Cellar</title></rect>
+    <rect id="room-3ea011e9f023b63640f8f232daa5af0442996f40" class="room indoor" x="488" y="419" width="16" height="16" rx="4"><title>Wine Cellar</title></rect>
+    <rect id="room-e48da8dcc163769a6d1c9b352e42f433723f827f" class="room indoor" x="392" y="419" width="16" height="16" rx="4"><title>Cellar</title></rect>
+    <rect id="room-4c70874daa19598d1435fa467ab1a0709aca694e" class="room indoor" x="392" y="467" width="16" height="16" rx="4"><title>Cellar</title></rect>
+    <rect id="room-f7d94feab84890256110b43c828807283412ba27" class="room indoor" x="440" y="467" width="16" height="16" rx="4"><title>Cellar</title></rect>
+    <rect id="room-d2f9505f26b14ed0d5bb2924365c7aefe10a2140" class="room indoor" x="440" y="275" width="16" height="16" rx="4"><title>Necropolis</title></rect>
+    <rect id="room-1019b6c54ec217363bea3128ad62ec7791b620a2" class="room indoor" x="440" y="323" width="16" height="16" rx="4"><title>Chapel</title></rect>
+    <rect id="room-e66db04281f47e45ac594c073c0a01c895e37858" class="room indoor" x="440" y="227" width="16" height="16" rx="4"><title>Pit</title></rect>
+    <rect id="room-937c388d838596b012cb9d8e0c5eff78f180c324" class="room indoor" x="488" y="179" width="16" height="16" rx="4"><title>Secret Passageway</title></rect>
+    <rect id="room-e6c9df3630348b83ce7176156dcb8281f01c3fe1" class="room indoor" x="440" y="131" width="16" height="16" rx="4"><title>Secret Passageway</title></rect>
+    <rect id="room-04fb9c1c87d7d7e548b81e11b7e6d6b335613b8f" class="room indoor" x="155" y="275" width="16" height="16" rx="4"><title>hallway</title></rect>
+    <rect id="room-f66deb8c213a808e239d13ff7eca1b6180567b7a" class="room indoor" x="107" y="227" width="16" height="16" rx="4"><title>Luxurious Room</title></rect>
+    <rect id="room-716a299008e3f90ef9eb03ef99efce1ea1371468" class="room indoor" x="107" y="323" width="16" height="16" rx="4"><title>hallway</title></rect>
+    <rect id="room-dc539b619e20acaecf9b99c71487f730606cdea2" class="room indoor" x="59" y="323" width="16" height="16" rx="4"><title>Guard Room</title></rect>
+    <rect id="room-d23c03e61db9b59dee43d021da7b797d00b42433" class="room indoor" x="155" y="371" width="16" height="16" rx="4"><title>Luxurious Room</title></rect>
+    <rect id="room-504b73349a7293e5926448d691055f4b7a7ba3f9" class="room indoor" x="59" y="371" width="16" height="16" rx="4"><title>hallway</title></rect>
+    <rect id="room-5d83e58d556414e2f00559acadc827515eb2e88b" class="room indoor" x="59" y="419" width="16" height="16" rx="4"><title>banquet hall</title></rect>
+    <rect id="room-891c681b433f31ebd2d8cb100d1cfb42fe939236" class="room indoor" x="107" y="419" width="16" height="16" rx="4"><title>banquet hall</title></rect>
+    <rect id="room-631f02f5be902cd225467c4d851730a161966572" class="room indoor" x="59" y="467" width="16" height="16" rx="4"><title>banquet hall</title></rect>
+    <rect id="room-53a1434f076e4255a9be059251d0c2fca0a7054d" class="room indoor" x="107" y="467" width="16" height="16" rx="4"><title>banquet hall</title></rect>
+    <rect id="room-c473bd2493f8864a1333f3d1c48fc8dc8cf104ea" class="room indoor" x="155" y="515" width="16" height="16" rx="4"><title>Kitchen</title></rect>
+    <rect id="room-ed8f638d6fca744c2bb8a5b3e2b903daf4dc8755" class="room indoor" x="155" y="467" width="16" height="16" rx="4"><title>Kitchen</title></rect>
+    <rect id="room-7d3a1fac8b2dde60f7b2224f03f4464805ffe05f" class="room indoor" x="488" y="198" width="16" height="16" rx="4"><title>Underwater Passageway</title></rect>
+    <rect id="room-400ad34f976b47da57950ffe9b1f744013f84fd1" class="room indoor" x="488" y="208" width="16" height="16" rx="4"><title>Underwater Passageway</title></rect>
+    <rect id="room-984d6e09525b6d95fb4509d0e16822446cc6d2ec" class="room indoor" x="536" y="227" width="16" height="16" rx="4"><title>Base 1</title></rect>
+    <rect id="room-8bf48fe21304d022c7d207fd3aba993fd8c2156f" class="room indoor" x="347" y="275" width="16" height="16" rx="4"><title>Base 2</title></rect>
+    <rect id="room-dc2bf8117940227015a2d30457d1f5bf6a2c548a" class="room indoor" x="203" y="227" width="16" height="16" rx="4"><title>Base 3</title></rect>
+    <rect id="room-d5a63aed6a68cdbd81e8060adc1721db248e42c6" class="room indoor" x="299" y="179" width="16" height="16" rx="4"><title>Base 4</title></rect>
+    <rect id="room-a96637c8c6aec5aae8e6908aaf1c8a8c158e6253" class="room indoor" x="203" y="83" width="16" height="16" rx="4"><title>Base 5</title></rect>
+    <rect id="room-f3a3cb2a1e64d80a500c6d9ccb8f58333c06cbc9" class="room indoor" x="299" y="83" width="16" height="16" rx="4"><title>Base 6</title></rect>
+  </g>
+
+  <g id="layer-labels">
+    <text class="map-label" x="464" y="69">overgrown moat</text>
+    <text class="map-label" x="436" y="41">castle ruins</text>
+    <text class="map-label" x="464" y="41">mystical castle ruins</text>
+    <text class="map-label" x="492" y="69">sanctuary</text>
+    <text class="map-label" x="510" y="45">belfry</text>
+    <text class="map-label" x="483" y="15">spectator gallery</text>
+    <text class="map-label" x="307" y="175">Secret Passageway</text>
+    <text class="map-label" x="307" y="127">Secret Passageway</text>
+    <text class="map-label" x="307" y="79">Prison Hallway</text>
+    <text class="map-label" x="259" y="79">Prison Hallway</text>
+    <text class="map-label" x="259" y="31">Guard Room</text>
+    <text class="map-label" x="211" y="79">Prison Hallway</text>
+    <text class="map-label" x="163" y="79">Jail Cell</text>
+    <text class="map-label" x="211" y="127">Prison Hallway</text>
+    <text class="map-label" x="259" y="127">Jail Cell</text>
+    <text class="map-label" x="211" y="175">Prison Hallway</text>
+    <text class="map-label" x="163" y="175">Torture Chamber</text>
+    <text class="map-label" x="211" y="223">Prison Hallway</text>
+    <text class="map-label" x="259" y="223">northwestern courtyard</text>
+    <text class="map-label" x="307" y="223">northern courtyard</text>
+    <text class="map-label" x="355" y="223">northeastern courtyard</text>
+    <text class="map-label" x="355" y="271">southeastern courtyard</text>
+    <text class="map-label" x="307" y="271">southern courtyard, by the flagpole</text>
+    <text class="map-label" x="259" y="271">southwestern courtyard</text>
+    <text class="map-label" x="544" y="223">Underground Passageway</text>
+    <text class="map-label" x="496" y="223">Dead End Passageway</text>
+    <text class="map-label" x="496" y="271">Necropolis</text>
+    <text class="map-label" x="496" y="319">Necropolis</text>
+    <text class="map-label" x="496" y="367">Necropolis</text>
+    <text class="map-label" x="448" y="415">Cellar</text>
+    <text class="map-label" x="496" y="415">Wine Cellar</text>
+    <text class="map-label" x="400" y="415">Cellar</text>
+    <text class="map-label" x="400" y="463">Cellar</text>
+    <text class="map-label" x="448" y="463">Cellar</text>
+    <text class="map-label" x="448" y="271">Necropolis</text>
+    <text class="map-label" x="448" y="319">Chapel</text>
+    <text class="map-label" x="448" y="223">Pit</text>
+    <text class="map-label" x="496" y="175">Secret Passageway</text>
+    <text class="map-label" x="448" y="127">Secret Passageway</text>
+    <text class="map-label" x="163" y="271">hallway</text>
+    <text class="map-label" x="115" y="223">Luxurious Room</text>
+    <text class="map-label" x="115" y="319">hallway</text>
+    <text class="map-label" x="67" y="319">Guard Room</text>
+    <text class="map-label" x="163" y="367">Luxurious Room</text>
+    <text class="map-label" x="67" y="367">hallway</text>
+    <text class="map-label" x="67" y="415">banquet hall</text>
+    <text class="map-label" x="115" y="415">banquet hall</text>
+    <text class="map-label" x="67" y="463">banquet hall</text>
+    <text class="map-label" x="115" y="463">banquet hall</text>
+    <text class="map-label" x="163" y="511">Kitchen</text>
+    <text class="map-label" x="163" y="463">Kitchen</text>
+    <text class="map-label" x="496" y="194">Underwater Passageway</text>
+    <text class="map-label" x="496" y="204">Underwater Passageway</text>
+    <text class="map-label" x="544" y="223">Base 1</text>
+    <text class="map-label" x="355" y="271">Base 2</text>
+    <text class="map-label" x="211" y="223">Base 3</text>
+    <text class="map-label" x="307" y="175">Base 4</text>
+    <text class="map-label" x="211" y="79">Base 5</text>
+    <text class="map-label" x="307" y="79">Base 6</text>
+  </g>
+
+</svg>

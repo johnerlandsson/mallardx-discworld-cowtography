@@ -1,0 +1,216 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1051 495"
+     class="map-svg"
+     data-map-id="10">
+
+  <g id="layer-artwork"><!-- artwork --></g>
+
+  <g id="layer-exits">
+    <line id="edge-09c811093a1785bc752c647c9d4019e96592de04-4a4b6b503809a4c0b5e7d19222cbb52b86387bca" class="exit" x1="547" y1="419" x2="575" y2="419"/>
+    <line id="edge-21c4f3ebe354e7630190154748aae2e4238efa1b-4a4b6b503809a4c0b5e7d19222cbb52b86387bca" class="exit" x1="575" y1="447" x2="575" y2="419"/>
+    <line id="edge-24a9548b102fa70ee55ea2afcaa683f7d0dabb11-4a4b6b503809a4c0b5e7d19222cbb52b86387bca" class="exit" x1="547" y1="391" x2="575" y2="419"/>
+    <line id="edge-2c108491b0f28d843932b6234f4984fbbb232e12-4a4b6b503809a4c0b5e7d19222cbb52b86387bca" class="exit" x1="575" y1="335" x2="575" y2="419"/>
+    <line id="edge-016f87ffe6698694a501a2c0921e27c6b2a6a3a2-2c108491b0f28d843932b6234f4984fbbb232e12" class="exit" x1="547" y1="335" x2="575" y2="335"/>
+    <line id="edge-2c108491b0f28d843932b6234f4984fbbb232e12-99a65e0a777bcb4801f8eb88989d3f82a33148b0" class="exit" x1="575" y1="335" x2="575" y2="363"/>
+    <line id="edge-016f87ffe6698694a501a2c0921e27c6b2a6a3a2-0aeaec2701c6a63827ac17be2ce164ac390bc64a" class="exit" x1="547" y1="335" x2="547" y2="291"/>
+    <line id="edge-0aeaec2701c6a63827ac17be2ce164ac390bc64a-8155ae3157847e638d541822becde64069747bd1" class="exit" x1="547" y1="291" x2="547" y2="247"/>
+    <line id="edge-0aeaec2701c6a63827ac17be2ce164ac390bc64a-aee962aed7cc1fbafce34738d45018c384e9632d" class="exit" x1="547" y1="291" x2="547" y2="313"/>
+    <line id="edge-0aeaec2701c6a63827ac17be2ce164ac390bc64a-baaaf8c50505032b832684a6b4cef3c0b853cdf7" class="exit" x1="547" y1="291" x2="525" y2="291"/>
+    <line id="edge-09c811093a1785bc752c647c9d4019e96592de04-3b3344e9c91bf76835fe5f30ea1be52b6519563b" class="exit" x1="547" y1="419" x2="519" y2="419"/>
+    <line id="edge-09c811093a1785bc752c647c9d4019e96592de04-96488ec00594cef8752ff41dc0ec8036563e6f81" class="exit" x1="547" y1="419" x2="514" y2="428"/>
+    <line id="edge-09c811093a1785bc752c647c9d4019e96592de04-c30b3f6aa225ba8e7041be013507ee5a7a33c59e" class="exit" x1="547" y1="419" x2="519" y2="391"/>
+    <line id="edge-32eabc271e3424a0f34bbf5717b57b89884889e6-c30b3f6aa225ba8e7041be013507ee5a7a33c59e" class="exit" x1="491" y1="419" x2="519" y2="391"/>
+    <line id="edge-32eabc271e3424a0f34bbf5717b57b89884889e6-4af7b4b29905d08cad13c39d6b021653599136b6" class="exit" x1="491" y1="419" x2="491" y2="447"/>
+    <line id="edge-4af7b4b29905d08cad13c39d6b021653599136b6-9921ef06393dd18653009cce8955a9b73a353701" class="exit" x1="491" y1="447" x2="519" y2="447"/>
+    <line id="edge-4af7b4b29905d08cad13c39d6b021653599136b6-9ba9c79aec162a055195ce367d616032a22c8dd3" class="exit" x1="491" y1="447" x2="519" y2="475"/>
+    <line id="edge-1456b49a866b56d4adcb8aa8df0dc9a7d090477e-9ba9c79aec162a055195ce367d616032a22c8dd3" class="exit" x1="547" y1="447" x2="519" y2="475"/>
+    <line id="edge-1456b49a866b56d4adcb8aa8df0dc9a7d090477e-3b3344e9c91bf76835fe5f30ea1be52b6519563b" class="exit" x1="547" y1="447" x2="519" y2="419"/>
+    <line id="edge-3b3344e9c91bf76835fe5f30ea1be52b6519563b-96488ec00594cef8752ff41dc0ec8036563e6f81" class="exit" x1="519" y1="419" x2="514" y2="428"/>
+    <line id="edge-21c4f3ebe354e7630190154748aae2e4238efa1b-70b20d2dd5c74448281888fe7cea26fcbc60a5af" class="exit" x1="575" y1="447" x2="547" y2="475"/>
+    <line id="edge-5118e67e9ed182d944e0ee4f61e67ab7ef947b6d-8dbd4a2c9fc04df4be1055d5a4cb3b90695cdec4" class="exit" x1="853" y1="307" x2="853" y2="331"/>
+    <line id="edge-5118e67e9ed182d944e0ee4f61e67ab7ef947b6d-c03f3c61e0e2978eda0baf9854d588d126537814" class="exit" x1="853" y1="307" x2="853" y2="283"/>
+    <line id="edge-448d56043d46570cf75ed96fb505492e6edcd162-c03f3c61e0e2978eda0baf9854d588d126537814" class="exit" x1="877" y1="283" x2="853" y2="283"/>
+    <line id="edge-33faf6ebc9a9e8fa7ae6fda635a135b737d5cf83-448d56043d46570cf75ed96fb505492e6edcd162" class="exit" x1="901" y1="283" x2="877" y2="283"/>
+    <line id="edge-33faf6ebc9a9e8fa7ae6fda635a135b737d5cf83-e8bd17fd9ad4cde3b07875c61ff9949374c4b623" class="exit" x1="901" y1="283" x2="901" y2="307"/>
+    <line id="edge-3c92cad3c838bd14c723bc38d037265a15437190-e8bd17fd9ad4cde3b07875c61ff9949374c4b623" class="exit" x1="877" y1="307" x2="901" y2="307"/>
+    <line id="edge-5a4e95fa09ba86fd2b9b789134c99dc65f6fc817-e8bd17fd9ad4cde3b07875c61ff9949374c4b623" class="exit" x1="901" y1="331" x2="901" y2="307"/>
+    <line id="edge-3c92cad3c838bd14c723bc38d037265a15437190-51452f617b3e952f1691a19de7e7b327bb43e71d" class="exit" x1="877" y1="307" x2="877" y2="331"/>
+    <line id="edge-1d0a7447537b769c3759fee7a5861965ee6a2d96-1dda78b812eeeefb0e238b80f71b8232a9bafd8f" class="exit" x1="916" y1="78" x2="940" y2="78"/>
+    <line id="edge-1dda78b812eeeefb0e238b80f71b8232a9bafd8f-26b419e3f6a3d5b67fd69cf79cc0ff046d5fc577" class="exit" x1="940" y1="78" x2="940" y2="54"/>
+    <line id="edge-6e864135319a7dcba478991a9388000d8fd4b7fc-e9c7e3e6a0cf1e03e8814fb21b99890d1e52cdc0" class="exit" x1="388" y1="93" x2="412" y2="93"/>
+    <line id="edge-d1a8c687c770860da0798f7244b1d36e82d1ebc3-e9c7e3e6a0cf1e03e8814fb21b99890d1e52cdc0" class="exit" x1="412" y1="117" x2="412" y2="93"/>
+    <line id="edge-1f8b342f5629997a2b2fd63104e7da14d67abb0d-d1a8c687c770860da0798f7244b1d36e82d1ebc3" class="exit" x1="412" y1="141" x2="412" y2="117"/>
+    <line id="edge-b707c06b008a52a0e23bf77cccc1f5335b126732-d1a8c687c770860da0798f7244b1d36e82d1ebc3" class="exit" x1="388" y1="117" x2="412" y2="117"/>
+    <line id="edge-1f8b342f5629997a2b2fd63104e7da14d67abb0d-a76ec0029cef1634d4dcd1758a301c0d6b939a2c" class="exit" x1="412" y1="141" x2="436" y2="141"/>
+    <line id="edge-c98c61ffc03009b8e428f7c3dd745a586f445478-e3ed8de87bd8c93900c9440b2aba56b5975affac" class="exit" x1="215" y1="368" x2="191" y2="368"/>
+    <line id="edge-531905d08405decd7612d30414fd03e1acabfe54-e3ed8de87bd8c93900c9440b2aba56b5975affac" class="exit" x1="191" y1="344" x2="191" y2="368"/>
+    <line id="edge-0b6e3e8e27fea7352971f3a7702c53e07dd7b064-531905d08405decd7612d30414fd03e1acabfe54" class="exit" x1="215" y1="320" x2="191" y2="344"/>
+    <line id="edge-264be959143fdf4460b3c3d0d8ac3bc3fad487d6-531905d08405decd7612d30414fd03e1acabfe54" class="exit" x1="215" y1="344" x2="191" y2="344"/>
+    <line id="edge-531905d08405decd7612d30414fd03e1acabfe54-a122b5ee33fe2e8c14b5200ab2b0494d908bd725" class="exit" x1="191" y1="344" x2="167" y2="344"/>
+    <line id="edge-531905d08405decd7612d30414fd03e1acabfe54-edb2a54dd86819147f6ad7374e305d069e00431b" class="exit" x1="191" y1="344" x2="191" y2="320"/>
+    <line id="edge-0b6e3e8e27fea7352971f3a7702c53e07dd7b064-264be959143fdf4460b3c3d0d8ac3bc3fad487d6" class="exit" x1="215" y1="320" x2="215" y2="344"/>
+    <line id="edge-22e775ba1a01d9dfc4d4c507da05961dc830f4ed-264be959143fdf4460b3c3d0d8ac3bc3fad487d6" class="exit" x1="239" y1="320" x2="215" y2="344"/>
+    <line id="edge-264be959143fdf4460b3c3d0d8ac3bc3fad487d6-313a1f6da7812e594c635527aad74ac12d09bd37" class="exit" x1="215" y1="344" x2="239" y2="344"/>
+    <line id="edge-264be959143fdf4460b3c3d0d8ac3bc3fad487d6-edb2a54dd86819147f6ad7374e305d069e00431b" class="exit" x1="215" y1="344" x2="191" y2="320"/>
+    <line id="edge-0b6e3e8e27fea7352971f3a7702c53e07dd7b064-313a1f6da7812e594c635527aad74ac12d09bd37" class="exit" x1="215" y1="320" x2="239" y2="344"/>
+    <line id="edge-22e775ba1a01d9dfc4d4c507da05961dc830f4ed-313a1f6da7812e594c635527aad74ac12d09bd37" class="exit" x1="239" y1="320" x2="239" y2="344"/>
+    <line id="edge-313a1f6da7812e594c635527aad74ac12d09bd37-ba543c5039f7089b54eb0d704feacdbc9e1934a8" class="exit" x1="239" y1="344" x2="239" y2="368"/>
+    <line id="edge-0b6e3e8e27fea7352971f3a7702c53e07dd7b064-22e775ba1a01d9dfc4d4c507da05961dc830f4ed" class="exit" x1="215" y1="320" x2="239" y2="320"/>
+    <line id="edge-22e775ba1a01d9dfc4d4c507da05961dc830f4ed-a36062237e426d20de31ec9f82f3a6470eac592a" class="exit" x1="239" y1="320" x2="239" y2="296"/>
+    <line id="edge-0b6e3e8e27fea7352971f3a7702c53e07dd7b064-edb2a54dd86819147f6ad7374e305d069e00431b" class="exit" x1="215" y1="320" x2="191" y2="320"/>
+    <line id="edge-bcce0839f6e2c76c19e45084e6ca99c5d1ed6f9d-edb2a54dd86819147f6ad7374e305d069e00431b" class="exit" x1="191" y1="296" x2="191" y2="320"/>
+    <line id="edge-5f681501331ad44f421ce50f519a648f59a8b7f0-b2494c80a5b0355cd11f298cdaf815d513f33aaf" class="exit" x1="715" y1="138" x2="715" y2="114"/>
+    <line id="edge-33e3866e2036d2aa73f27e236619e40620175759-b2494c80a5b0355cd11f298cdaf815d513f33aaf" class="exit" x1="739" y1="114" x2="715" y2="114"/>
+    <line id="edge-b2494c80a5b0355cd11f298cdaf815d513f33aaf-e0ffedc5b0f2aced55561cfec903794d37af6e44" class="exit" x1="715" y1="114" x2="715" y2="90"/>
+    <line id="edge-1605bcf0ce4994210a9aec4133328c0087f32c94-33e3866e2036d2aa73f27e236619e40620175759" class="exit" x1="739" y1="138" x2="739" y2="114"/>
+    <line id="edge-274ee0eb84254ec52d9e5f126a9cc3f7caa08982-33e3866e2036d2aa73f27e236619e40620175759" class="exit" x1="739" y1="42" x2="739" y2="114"/>
+    <line id="edge-274ee0eb84254ec52d9e5f126a9cc3f7caa08982-e5df92f2a4e98685febc4c9bc2f737cad0ab9b5c" class="exit" x1="739" y1="42" x2="715" y2="42"/>
+    <line id="edge-5c02ea3abf7aef40f16c6373fb8fe5aa8cba8996-e5df92f2a4e98685febc4c9bc2f737cad0ab9b5c" class="exit" x1="715" y1="66" x2="715" y2="42"/>
+    <line id="edge-410a73c0b58f8816f56b0ba4226768a380dd196f-bb67d6d34d73cd58b0675335e48fbc2b23be4a85" class="exit" x1="130" y1="122" x2="130" y2="98"/>
+    <line id="edge-655f237f373b222bc4f7a954f22c320bc6ae7165-bb67d6d34d73cd58b0675335e48fbc2b23be4a85" class="exit" x1="131" y1="74" x2="130" y2="98"/>
+    <line id="edge-45b312bcffde294c46e8d5e1024a6fd4e3b209c1-655f237f373b222bc4f7a954f22c320bc6ae7165" class="exit" x1="131" y1="51" x2="131" y2="74"/>
+    <line id="edge-0db6148fed5073d487d5329f03c42a89cbd79b1d-8155ae3157847e638d541822becde64069747bd1" class="exit" x1="575" y1="247" x2="547" y2="247"/>
+    <line id="edge-51452f617b3e952f1691a19de7e7b327bb43e71d-8e3fa79e038e4095922269ed0ea239fad017d8c6" class="exit" x1="877" y1="331" x2="925" y2="331"/>
+    <line id="edge-8d2c7f463604b69ac9a3afd3e2379d1177918271-8e3fa79e038e4095922269ed0ea239fad017d8c6" class="exit" x1="949" y1="331" x2="925" y2="331"/>
+    <line id="edge-8d2c7f463604b69ac9a3afd3e2379d1177918271-f39a570d5941a6ede63e9631e1acd2efd20c1d1b" class="exit" x1="949" y1="331" x2="949" y2="307"/>
+  </g>
+
+  <g id="layer-rooms">
+    <rect id="room-4a4b6b503809a4c0b5e7d19222cbb52b86387bca" class="room indoor" x="567" y="411" width="16" height="16" rx="4"><title>entrance to the Pishe Gardens</title></rect>
+    <rect id="room-2c108491b0f28d843932b6234f4984fbbb232e12" class="room indoor" x="567" y="327" width="16" height="16" rx="4"><title>platform in the tree</title></rect>
+    <rect id="room-99a65e0a777bcb4801f8eb88989d3f82a33148b0" class="room indoor" x="567" y="355" width="16" height="16" rx="4"><title>shop</title></rect>
+    <rect id="room-016f87ffe6698694a501a2c0921e27c6b2a6a3a2" class="room indoor" x="539" y="327" width="16" height="16" rx="4"><title>platform in the tree</title></rect>
+    <rect id="room-0aeaec2701c6a63827ac17be2ce164ac390bc64a" class="room indoor" x="539" y="283" width="16" height="16" rx="4"><title>garden platform in the tree</title></rect>
+    <rect id="room-24a9548b102fa70ee55ea2afcaa683f7d0dabb11" class="room indoor" x="539" y="383" width="16" height="16" rx="4"><title>natural pool</title></rect>
+    <rect id="room-09c811093a1785bc752c647c9d4019e96592de04" class="room indoor" x="539" y="411" width="16" height="16" rx="4"><title>shallow end of the pool</title></rect>
+    <rect id="room-c30b3f6aa225ba8e7041be013507ee5a7a33c59e" class="room indoor" x="511" y="383" width="16" height="16" rx="4"><title>pool</title></rect>
+    <rect id="room-32eabc271e3424a0f34bbf5717b57b89884889e6" class="room indoor" x="483" y="411" width="16" height="16" rx="4"><title>pool</title></rect>
+    <rect id="room-4af7b4b29905d08cad13c39d6b021653599136b6" class="room indoor" x="483" y="439" width="16" height="16" rx="4"><title>pool</title></rect>
+    <rect id="room-9921ef06393dd18653009cce8955a9b73a353701" class="room indoor" x="511" y="439" width="16" height="16" rx="4"><title>small island</title></rect>
+    <rect id="room-9ba9c79aec162a055195ce367d616032a22c8dd3" class="room indoor" x="511" y="467" width="16" height="16" rx="4"><title>pool</title></rect>
+    <rect id="room-1456b49a866b56d4adcb8aa8df0dc9a7d090477e" class="room indoor" x="539" y="439" width="16" height="16" rx="4"><title>pool</title></rect>
+    <rect id="room-3b3344e9c91bf76835fe5f30ea1be52b6519563b" class="room indoor" x="511" y="411" width="16" height="16" rx="4"><title>deep end of the pool</title></rect>
+    <rect id="room-96488ec00594cef8752ff41dc0ec8036563e6f81" class="room indoor" x="506" y="420" width="16" height="16" rx="4"><title>pool bottom</title></rect>
+    <rect id="room-21c4f3ebe354e7630190154748aae2e4238efa1b" class="room indoor" x="567" y="439" width="16" height="16" rx="4"><title>hot tub</title></rect>
+    <rect id="room-70b20d2dd5c74448281888fe7cea26fcbc60a5af" class="room indoor" x="539" y="467" width="16" height="16" rx="4"><title>hot spring</title></rect>
+    <rect id="room-8dbd4a2c9fc04df4be1055d5a4cb3b90695cdec4" class="room indoor" x="845" y="323" width="16" height="16" rx="4"><title>entrance to the temple of Sandelfon</title></rect>
+    <rect id="room-5118e67e9ed182d944e0ee4f61e67ab7ef947b6d" class="room indoor" x="845" y="299" width="16" height="16" rx="4"><title>corridor</title></rect>
+    <rect id="room-c03f3c61e0e2978eda0baf9854d588d126537814" class="room indoor" x="845" y="275" width="16" height="16" rx="4"><title>corridor</title></rect>
+    <rect id="room-448d56043d46570cf75ed96fb505492e6edcd162" class="room indoor" x="869" y="275" width="16" height="16" rx="4"><title>corridor</title></rect>
+    <rect id="room-33faf6ebc9a9e8fa7ae6fda635a135b737d5cf83" class="room indoor" x="893" y="275" width="16" height="16" rx="4"><title>corridor</title></rect>
+    <rect id="room-e8bd17fd9ad4cde3b07875c61ff9949374c4b623" class="room indoor" x="893" y="299" width="16" height="16" rx="4"><title>corridor</title></rect>
+    <rect id="room-5a4e95fa09ba86fd2b9b789134c99dc65f6fc817" class="room indoor" x="893" y="323" width="16" height="16" rx="4"><title>temple shop</title></rect>
+    <rect id="room-3c92cad3c838bd14c723bc38d037265a15437190" class="room indoor" x="869" y="299" width="16" height="16" rx="4"><title>High Altar of Sandelfon</title></rect>
+    <rect id="room-1dda78b812eeeefb0e238b80f71b8232a9bafd8f" class="room indoor" x="932" y="70" width="16" height="16" rx="4"><title>High Altar of Hat</title></rect>
+    <rect id="room-26b419e3f6a3d5b67fd69cf79cc0ff046d5fc577" class="room indoor" x="932" y="46" width="16" height="16" rx="4"><title>Hat&#x27;s Pleasure Dome</title></rect>
+    <rect id="room-e9c7e3e6a0cf1e03e8814fb21b99890d1e52cdc0" class="room indoor" x="404" y="85" width="16" height="16" rx="4"><title>entrance hall of the temple of Sek</title></rect>
+    <rect id="room-6e864135319a7dcba478991a9388000d8fd4b7fc" class="room indoor" x="380" y="85" width="16" height="16" rx="4"><title>temple shop</title></rect>
+    <rect id="room-d1a8c687c770860da0798f7244b1d36e82d1ebc3" class="room indoor" x="404" y="109" width="16" height="16" rx="4"><title>High Altar of Sek</title></rect>
+    <rect id="room-1f8b342f5629997a2b2fd63104e7da14d67abb0d" class="room indoor" x="404" y="133" width="16" height="16" rx="4"><title>before the statue of Seven-Handed Sek</title></rect>
+    <rect id="room-a76ec0029cef1634d4dcd1758a301c0d6b939a2c" class="room indoor" x="428" y="133" width="16" height="16" rx="4"><title>side chapel of Sek&#x27;s temple</title></rect>
+    <rect id="room-c98c61ffc03009b8e428f7c3dd745a586f445478" class="room indoor" x="207" y="360" width="16" height="16" rx="4"><title>entranceway of the cathedral of Gufnork</title></rect>
+    <rect id="room-e3ed8de87bd8c93900c9440b2aba56b5975affac" class="room indoor" x="183" y="360" width="16" height="16" rx="4"><title>donations room in the Gufnork Cathedral</title></rect>
+    <rect id="room-531905d08405decd7612d30414fd03e1acabfe54" class="room indoor" x="183" y="336" width="16" height="16" rx="4"><title>cathedral of Gufnork</title></rect>
+    <rect id="room-a122b5ee33fe2e8c14b5200ab2b0494d908bd725" class="room indoor" x="159" y="336" width="16" height="16" rx="4"><title>side chapel of the cathedral of Gufnork</title></rect>
+    <rect id="room-264be959143fdf4460b3c3d0d8ac3bc3fad487d6" class="room indoor" x="207" y="336" width="16" height="16" rx="4"><title>cathedral of Gufnork</title></rect>
+    <rect id="room-313a1f6da7812e594c635527aad74ac12d09bd37" class="room indoor" x="231" y="336" width="16" height="16" rx="4"><title>cathedral of Gufnork</title></rect>
+    <rect id="room-ba543c5039f7089b54eb0d704feacdbc9e1934a8" class="room indoor" x="231" y="360" width="16" height="16" rx="4"><title>shop in the cathedral of Gufnork</title></rect>
+    <rect id="room-22e775ba1a01d9dfc4d4c507da05961dc830f4ed" class="room indoor" x="231" y="312" width="16" height="16" rx="4"><title>cathedral of Gufnork</title></rect>
+    <rect id="room-a36062237e426d20de31ec9f82f3a6470eac592a" class="room indoor" x="231" y="288" width="16" height="16" rx="4"><title>waiting room in the cathedral of Gufnork</title></rect>
+    <rect id="room-0b6e3e8e27fea7352971f3a7702c53e07dd7b064" class="room indoor" x="207" y="312" width="16" height="16" rx="4"><title>high altar in the cathedral of Gufnork</title></rect>
+    <rect id="room-edb2a54dd86819147f6ad7374e305d069e00431b" class="room indoor" x="183" y="312" width="16" height="16" rx="4"><title>cathedral of Gufnork</title></rect>
+    <rect id="room-5f681501331ad44f421ce50f519a648f59a8b7f0" class="room indoor" x="707" y="130" width="16" height="16" rx="4"><title>entrance hall</title></rect>
+    <rect id="room-b2494c80a5b0355cd11f298cdaf815d513f33aaf" class="room indoor" x="707" y="106" width="16" height="16" rx="4"><title>High Altar of Gapp</title></rect>
+    <rect id="room-e0ffedc5b0f2aced55561cfec903794d37af6e44" class="room indoor" x="707" y="82" width="16" height="16" rx="4"><title>temple shop</title></rect>
+    <rect id="room-33e3866e2036d2aa73f27e236619e40620175759" class="room indoor" x="731" y="106" width="16" height="16" rx="4"><title>Hall of Gifts</title></rect>
+    <rect id="room-1605bcf0ce4994210a9aec4133328c0087f32c94" class="room indoor" x="731" y="130" width="16" height="16" rx="4"><title>side chapel of Gapp&#x27;s temple</title></rect>
+    <rect id="room-274ee0eb84254ec52d9e5f126a9cc3f7caa08982" class="room indoor" x="731" y="34" width="16" height="16" rx="4"><title>landing</title></rect>
+    <rect id="room-e5df92f2a4e98685febc4c9bc2f737cad0ab9b5c" class="room indoor" x="707" y="34" width="16" height="16" rx="4"><title>above the High Altar of Gapp</title></rect>
+    <rect id="room-410a73c0b58f8816f56b0ba4226768a380dd196f" class="room indoor" x="122" y="114" width="16" height="16" rx="4"><title>fish shop</title></rect>
+    <rect id="room-bb67d6d34d73cd58b0675335e48fbc2b23be4a85" class="room indoor" x="122" y="90" width="16" height="16" rx="4"><title>back room of the shop</title></rect>
+    <rect id="room-655f237f373b222bc4f7a954f22c320bc6ae7165" class="room indoor" x="123" y="66" width="16" height="16" rx="4"><title>high altar of Fish</title></rect>
+    <rect id="room-aee962aed7cc1fbafce34738d45018c384e9632d" class="room indoor" x="539" y="305" width="16" height="16" rx="4"><title>small flat</title></rect>
+    <rect id="room-baaaf8c50505032b832684a6b4cef3c0b853cdf7" class="room indoor" x="517" y="283" width="16" height="16" rx="4"><title>small flat</title></rect>
+    <rect id="room-b707c06b008a52a0e23bf77cccc1f5335b126732" class="room indoor" x="380" y="109" width="16" height="16" rx="4"><title>temple vestry</title></rect>
+    <rect id="room-45b312bcffde294c46e8d5e1024a6fd4e3b209c1" class="room indoor" x="123" y="43" width="16" height="16" rx="4"><title>temple vestry</title></rect>
+    <rect id="room-8155ae3157847e638d541822becde64069747bd1" class="room indoor" x="539" y="239" width="16" height="16" rx="4"><title>platform in the tree</title></rect>
+    <rect id="room-0db6148fed5073d487d5329f03c42a89cbd79b1d" class="room indoor" x="567" y="239" width="16" height="16" rx="4"><title>advancement room</title></rect>
+    <rect id="room-bcce0839f6e2c76c19e45084e6ca99c5d1ed6f9d" class="room indoor" x="183" y="288" width="16" height="16" rx="4"><title>small room in the cathedral of Gufnork</title></rect>
+    <rect id="room-5c02ea3abf7aef40f16c6373fb8fe5aa8cba8996" class="room indoor" x="707" y="58" width="16" height="16" rx="4"><title>temple vestry</title></rect>
+    <rect id="room-51452f617b3e952f1691a19de7e7b327bb43e71d" class="room indoor" x="869" y="323" width="16" height="16" rx="4"><title>temple vestry</title></rect>
+    <rect id="room-8e3fa79e038e4095922269ed0ea239fad017d8c6" class="room indoor" x="917" y="323" width="16" height="16" rx="4"><title>landing</title></rect>
+    <rect id="room-8d2c7f463604b69ac9a3afd3e2379d1177918271" class="room indoor" x="941" y="323" width="16" height="16" rx="4"><title>anteroom</title></rect>
+    <rect id="room-1d0a7447537b769c3759fee7a5861965ee6a2d96" class="room indoor" x="908" y="70" width="16" height="16" rx="4"><title>temple vestry</title></rect>
+    <rect id="room-f39a570d5941a6ede63e9631e1acd2efd20c1d1b" class="room indoor" x="941" y="299" width="16" height="16" rx="4"><title>high priest office</title></rect>
+  </g>
+
+  <g id="layer-labels">
+    <text class="map-label" x="575" y="407">entrance to the Pishe Gardens</text>
+    <text class="map-label" x="575" y="323">platform in the tree</text>
+    <text class="map-label" x="575" y="351">shop</text>
+    <text class="map-label" x="547" y="323">platform in the tree</text>
+    <text class="map-label" x="547" y="279">garden platform in the tree</text>
+    <text class="map-label" x="547" y="379">natural pool</text>
+    <text class="map-label" x="547" y="407">shallow end of the pool</text>
+    <text class="map-label" x="519" y="379">pool</text>
+    <text class="map-label" x="491" y="407">pool</text>
+    <text class="map-label" x="491" y="435">pool</text>
+    <text class="map-label" x="519" y="435">small island</text>
+    <text class="map-label" x="519" y="463">pool</text>
+    <text class="map-label" x="547" y="435">pool</text>
+    <text class="map-label" x="519" y="407">deep end of the pool</text>
+    <text class="map-label" x="514" y="416">pool bottom</text>
+    <text class="map-label" x="575" y="435">hot tub</text>
+    <text class="map-label" x="547" y="463">hot spring</text>
+    <text class="map-label" x="853" y="319">entrance to the temple of Sandelfon</text>
+    <text class="map-label" x="853" y="295">corridor</text>
+    <text class="map-label" x="853" y="271">corridor</text>
+    <text class="map-label" x="877" y="271">corridor</text>
+    <text class="map-label" x="901" y="271">corridor</text>
+    <text class="map-label" x="901" y="295">corridor</text>
+    <text class="map-label" x="901" y="319">temple shop</text>
+    <text class="map-label" x="877" y="295">High Altar of Sandelfon</text>
+    <text class="map-label" x="940" y="66">High Altar of Hat</text>
+    <text class="map-label" x="940" y="42">Hat&#x27;s Pleasure Dome</text>
+    <text class="map-label" x="412" y="81">entrance hall of the temple of Sek</text>
+    <text class="map-label" x="388" y="81">temple shop</text>
+    <text class="map-label" x="412" y="105">High Altar of Sek</text>
+    <text class="map-label" x="412" y="129">before the statue of Seven-Handed Sek</text>
+    <text class="map-label" x="436" y="129">side chapel of Sek&#x27;s temple</text>
+    <text class="map-label" x="215" y="356">entranceway of the cathedral of Gufnork</text>
+    <text class="map-label" x="191" y="356">donations room in the Gufnork Cathedral</text>
+    <text class="map-label" x="191" y="332">cathedral of Gufnork</text>
+    <text class="map-label" x="167" y="332">side chapel of the cathedral of Gufnork</text>
+    <text class="map-label" x="215" y="332">cathedral of Gufnork</text>
+    <text class="map-label" x="239" y="332">cathedral of Gufnork</text>
+    <text class="map-label" x="239" y="356">shop in the cathedral of Gufnork</text>
+    <text class="map-label" x="239" y="308">cathedral of Gufnork</text>
+    <text class="map-label" x="239" y="284">waiting room in the cathedral of Gufnork</text>
+    <text class="map-label" x="215" y="308">high altar in the cathedral of Gufnork</text>
+    <text class="map-label" x="191" y="308">cathedral of Gufnork</text>
+    <text class="map-label" x="715" y="126">entrance hall</text>
+    <text class="map-label" x="715" y="102">High Altar of Gapp</text>
+    <text class="map-label" x="715" y="78">temple shop</text>
+    <text class="map-label" x="739" y="102">Hall of Gifts</text>
+    <text class="map-label" x="739" y="126">side chapel of Gapp&#x27;s temple</text>
+    <text class="map-label" x="739" y="30">landing</text>
+    <text class="map-label" x="715" y="30">above the High Altar of Gapp</text>
+    <text class="map-label" x="130" y="110">fish shop</text>
+    <text class="map-label" x="130" y="86">back room of the shop</text>
+    <text class="map-label" x="131" y="62">high altar of Fish</text>
+    <text class="map-label" x="547" y="301">small flat</text>
+    <text class="map-label" x="525" y="279">small flat</text>
+    <text class="map-label" x="388" y="105">temple vestry</text>
+    <text class="map-label" x="131" y="39">temple vestry</text>
+    <text class="map-label" x="547" y="235">platform in the tree</text>
+    <text class="map-label" x="575" y="235">advancement room</text>
+    <text class="map-label" x="191" y="284">small room in the cathedral of Gufnork</text>
+    <text class="map-label" x="715" y="54">temple vestry</text>
+    <text class="map-label" x="877" y="319">temple vestry</text>
+    <text class="map-label" x="925" y="319">landing</text>
+    <text class="map-label" x="949" y="319">anteroom</text>
+    <text class="map-label" x="916" y="66">temple vestry</text>
+    <text class="map-label" x="949" y="295">high priest office</text>
+  </g>
+
+</svg>

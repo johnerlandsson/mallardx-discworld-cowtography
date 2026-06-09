@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 403 358"
+     class="map-svg"
+     data-map-id="8">
+
+  <g id="layer-artwork"><!-- artwork --></g>
+
+  <g id="layer-exits">
+
+  </g>
+
+  <g id="layer-rooms">
+    <rect id="room-01bbd8b887e71314d8e358cbaf4f585391206bc4" class="room indoor" x="38" y="171" width="16" height="16" rx="4"><title>maze entrance</title></rect>
+  </g>
+
+  <g id="layer-labels">
+    <text class="map-label" x="46" y="167">maze entrance</text>
+  </g>
+
+</svg>

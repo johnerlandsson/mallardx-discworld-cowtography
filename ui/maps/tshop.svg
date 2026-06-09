@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 750 600"
+     class="map-svg"
+     data-map-id="53">
+
+  <g id="layer-artwork"><!-- artwork --></g>
+
+  <g id="layer-exits">
+    <line id="edge-04fd563a7f8d4ccfc83661bbec60971ac9aa72ca-7e727e52d2794b8c5261c5b5daf184231c0ecafe" class="exit" x1="355" y1="316" x2="388" y2="291"/>
+  </g>
+
+  <g id="layer-rooms">
+    <rect id="room-04fd563a7f8d4ccfc83661bbec60971ac9aa72ca" class="room indoor" x="347" y="308" width="16" height="16" rx="4"><title>front of a travelling shop</title></rect>
+    <rect id="room-7e727e52d2794b8c5261c5b5daf184231c0ecafe" class="room indoor" x="380" y="283" width="16" height="16" rx="4"><title>small room containing the multiverse</title></rect>
+  </g>
+
+  <g id="layer-labels">
+    <text class="map-label" x="355" y="304">front of a travelling shop</text>
+    <text class="map-label" x="388" y="279">small room containing the multiverse</text>
+  </g>
+
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 260 210"
+     class="map-svg"
+     data-map-id="61">
+
+  <g id="layer-artwork"><!-- artwork --></g>
+
+  <g id="layer-exits">
+    <line id="edge-0bd4eeb9729e8dc3cb177fe953be63fecfb6442c-9a7a21e5d2bbde3730ec89521614405a4e8f835e" class="exit" x1="135" y1="73" x2="135" y2="101"/>
+    <line id="edge-48e5e659f6684213e13cd0e7815d0585bc85ad81-9a7a21e5d2bbde3730ec89521614405a4e8f835e" class="exit" x1="135" y1="129" x2="135" y2="101"/>
+    <line id="edge-9a7a21e5d2bbde3730ec89521614405a4e8f835e-ced1bbe392ed9b20284b4e2687811a0dbcdbd095" class="exit" x1="135" y1="101" x2="107" y2="101"/>
+    <line id="edge-0bd4eeb9729e8dc3cb177fe953be63fecfb6442c-2a86af27b7989e94c8f99e823d8c124d7c180347" class="exit" x1="135" y1="73" x2="163" y2="73"/>
+    <line id="edge-0bd4eeb9729e8dc3cb177fe953be63fecfb6442c-3967b71d0de19316b69e3571101afe151aae6635" class="exit" x1="135" y1="73" x2="135" y2="45"/>
+    <line id="edge-0bd4eeb9729e8dc3cb177fe953be63fecfb6442c-ced1bbe392ed9b20284b4e2687811a0dbcdbd095" class="exit" x1="135" y1="73" x2="107" y2="101"/>
+    <line id="edge-25849c5afba9cc00dd9cb99cffc26946d01b5042-ced1bbe392ed9b20284b4e2687811a0dbcdbd095" class="exit" x1="79" y1="129" x2="107" y2="101"/>
+    <line id="edge-48e5e659f6684213e13cd0e7815d0585bc85ad81-ced1bbe392ed9b20284b4e2687811a0dbcdbd095" class="exit" x1="135" y1="129" x2="107" y2="101"/>
+    <line id="edge-5d4102f60e875e1cdb41115ac1dabceedfe83841-ced1bbe392ed9b20284b4e2687811a0dbcdbd095" class="exit" x1="107" y1="73" x2="107" y2="101"/>
+    <line id="edge-5fcf6c80acdb7c786ec32ea43777a336c2ac1f64-ced1bbe392ed9b20284b4e2687811a0dbcdbd095" class="exit" x1="79" y1="73" x2="107" y2="101"/>
+    <line id="edge-9dd1575ad185168351a7a4e271c9dfefdbe05318-ced1bbe392ed9b20284b4e2687811a0dbcdbd095" class="exit" x1="107" y1="129" x2="107" y2="101"/>
+    <line id="edge-48e5e659f6684213e13cd0e7815d0585bc85ad81-9dd1575ad185168351a7a4e271c9dfefdbe05318" class="exit" x1="135" y1="129" x2="107" y2="129"/>
+    <line id="edge-48e5e659f6684213e13cd0e7815d0585bc85ad81-d1e76bb061af474693d9bef098026b1c642f0d39" class="exit" x1="135" y1="129" x2="135" y2="157"/>
+    <line id="edge-5036857ec5efa0be754c8bc0775f8e0f217ee43e-d1e76bb061af474693d9bef098026b1c642f0d39" class="exit" x1="192" y1="150" x2="135" y2="157"/>
+    <line id="edge-c2186e0f506f4e3c442f0c887219f23d78c4be50-d1e76bb061af474693d9bef098026b1c642f0d39" class="exit" x1="135" y1="185" x2="135" y2="157"/>
+    <line id="edge-0bd4eeb9729e8dc3cb177fe953be63fecfb6442c-5d4102f60e875e1cdb41115ac1dabceedfe83841" class="exit" x1="135" y1="73" x2="107" y2="73"/>
+    <line id="edge-5d4102f60e875e1cdb41115ac1dabceedfe83841-5fcf6c80acdb7c786ec32ea43777a336c2ac1f64" class="exit" x1="107" y1="73" x2="79" y2="73"/>
+    <line id="edge-1acc6d56f3e7335dc202854801fe592632dd9bd9-5fcf6c80acdb7c786ec32ea43777a336c2ac1f64" class="exit" x1="79" y1="101" x2="79" y2="73"/>
+    <line id="edge-2533ee1f7f0e69de428fcffcf3729d446dc45db7-5fcf6c80acdb7c786ec32ea43777a336c2ac1f64" class="exit" x1="79" y1="45" x2="79" y2="73"/>
+    <line id="edge-0072381309e555b7aa197f09fb39a34bd4e1f18e-1acc6d56f3e7335dc202854801fe592632dd9bd9" class="exit" x1="51" y1="101" x2="79" y2="101"/>
+    <line id="edge-1acc6d56f3e7335dc202854801fe592632dd9bd9-25849c5afba9cc00dd9cb99cffc26946d01b5042" class="exit" x1="79" y1="101" x2="79" y2="129"/>
+    <line id="edge-0072381309e555b7aa197f09fb39a34bd4e1f18e-532bf105eccf66509023c1b5f7760579d3840d55" class="exit" x1="51" y1="101" x2="23" y2="101"/>
+    <line id="edge-25849c5afba9cc00dd9cb99cffc26946d01b5042-9dd1575ad185168351a7a4e271c9dfefdbe05318" class="exit" x1="79" y1="129" x2="107" y2="129"/>
+    <line id="edge-25849c5afba9cc00dd9cb99cffc26946d01b5042-a623e7a64746cf00d95189771f59ae094368af37" class="exit" x1="79" y1="129" x2="79" y2="157"/>
+  </g>
+
+  <g id="layer-rooms">
+    <rect id="room-9a7a21e5d2bbde3730ec89521614405a4e8f835e" class="room indoor" x="127" y="93" width="16" height="16" rx="4"><title>courtyard of the Guild of Fools, Joculators and Clowns</title></rect>
+    <rect id="room-2a86af27b7989e94c8f99e823d8c124d7c180347" class="room indoor" x="155" y="65" width="16" height="16" rx="4"><title>small shop</title></rect>
+    <rect id="room-3967b71d0de19316b69e3571101afe151aae6635" class="room indoor" x="127" y="37" width="16" height="16" rx="4"><title>Fools&#x27; Guild Advancement Area</title></rect>
+    <rect id="room-ced1bbe392ed9b20284b4e2687811a0dbcdbd095" class="room indoor" x="99" y="93" width="16" height="16" rx="4"><title>pie range</title></rect>
+    <rect id="room-48e5e659f6684213e13cd0e7815d0585bc85ad81" class="room indoor" x="127" y="121" width="16" height="16" rx="4"><title>southeast section of the Fools&#x27; Guild courtyard</title></rect>
+    <rect id="room-d1e76bb061af474693d9bef098026b1c642f0d39" class="room indoor" x="127" y="149" width="16" height="16" rx="4"><title>receptionist&#x27;s office</title></rect>
+    <rect id="room-c2186e0f506f4e3c442f0c887219f23d78c4be50" class="room indoor" x="127" y="177" width="16" height="16" rx="4"><title>office of Doctor Whiteface</title></rect>
+    <rect id="room-0bd4eeb9729e8dc3cb177fe953be63fecfb6442c" class="room indoor" x="127" y="65" width="16" height="16" rx="4"><title>northeast section of the Fools&#x27; Guild courtyard</title></rect>
+    <rect id="room-5d4102f60e875e1cdb41115ac1dabceedfe83841" class="room indoor" x="99" y="65" width="16" height="16" rx="4"><title>north section of the Fools&#x27; Guild courtyard</title></rect>
+    <rect id="room-5fcf6c80acdb7c786ec32ea43777a336c2ac1f64" class="room indoor" x="71" y="65" width="16" height="16" rx="4"><title>northwest section of the Fools&#x27; Guild courtyard</title></rect>
+    <rect id="room-2533ee1f7f0e69de428fcffcf3729d446dc45db7" class="room indoor" x="71" y="37" width="16" height="16" rx="4"><title>Chapel of Fun</title></rect>
+    <rect id="room-1acc6d56f3e7335dc202854801fe592632dd9bd9" class="room indoor" x="71" y="93" width="16" height="16" rx="4"><title>landing outside the Hall of Faces</title></rect>
+    <rect id="room-0072381309e555b7aa197f09fb39a34bd4e1f18e" class="room indoor" x="43" y="93" width="16" height="16" rx="4"><title>Hall of Faces</title></rect>
+    <rect id="room-532bf105eccf66509023c1b5f7760579d3840d55" class="room indoor" x="15" y="93" width="16" height="16" rx="4"><title>back of the Hall of Faces</title></rect>
+    <rect id="room-25849c5afba9cc00dd9cb99cffc26946d01b5042" class="room indoor" x="71" y="121" width="16" height="16" rx="4"><title>southwest section of the Fools&#x27; Guild courtyard</title></rect>
+    <rect id="room-a623e7a64746cf00d95189771f59ae094368af37" class="room indoor" x="71" y="149" width="16" height="16" rx="4"><title>Bouncy Normo Memorial Library</title></rect>
+    <rect id="room-9dd1575ad185168351a7a4e271c9dfefdbe05318" class="room indoor" x="99" y="121" width="16" height="16" rx="4"><title>southern section of the Fools&#x27; Guild courtyard</title></rect>
+    <rect id="room-5036857ec5efa0be754c8bc0775f8e0f217ee43e" class="room indoor" x="184" y="142" width="16" height="16" rx="4"><title>Fools&#x27; Guild clock tower</title></rect>
+    <rect id="room-e094f27114ac1068944d1694ea5e03bc2cf60c32" class="room indoor" x="71" y="37" width="16" height="16" rx="4"><title>barrel of a cannon</title></rect>
+  </g>
+
+  <g id="layer-labels">
+    <text class="map-label" x="135" y="89">courtyard of the Guild of Fools, Joculators and Clowns</text>
+    <text class="map-label" x="163" y="61">small shop</text>
+    <text class="map-label" x="135" y="33">Fools&#x27; Guild Advancement Area</text>
+    <text class="map-label" x="107" y="89">pie range</text>
+    <text class="map-label" x="135" y="117">southeast section of the Fools&#x27; Guild courtyard</text>
+    <text class="map-label" x="135" y="145">receptionist&#x27;s office</text>
+    <text class="map-label" x="135" y="173">office of Doctor Whiteface</text>
+    <text class="map-label" x="135" y="61">northeast section of the Fools&#x27; Guild courtyard</text>
+    <text class="map-label" x="107" y="61">north section of the Fools&#x27; Guild courtyard</text>
+    <text class="map-label" x="79" y="61">northwest section of the Fools&#x27; Guild courtyard</text>
+    <text class="map-label" x="79" y="33">Chapel of Fun</text>
+    <text class="map-label" x="79" y="89">landing outside the Hall of Faces</text>
+    <text class="map-label" x="51" y="89">Hall of Faces</text>
+    <text class="map-label" x="23" y="89">back of the Hall of Faces</text>
+    <text class="map-label" x="79" y="117">southwest section of the Fools&#x27; Guild courtyard</text>
+    <text class="map-label" x="79" y="145">Bouncy Normo Memorial Library</text>
+    <text class="map-label" x="107" y="117">southern section of the Fools&#x27; Guild courtyard</text>
+    <text class="map-label" x="192" y="138">Fools&#x27; Guild clock tower</text>
+    <text class="map-label" x="79" y="33">barrel of a cannon</text>
+  </g>
+
+</svg>

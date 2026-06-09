@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 313 445"
+     class="map-svg"
+     data-map-id="50">
+
+  <g id="layer-artwork"><!-- artwork --></g>
+
+  <g id="layer-exits">
+    <line id="edge-679c3fc113e69ad9e496487e9916aa8721599fd7-cf9367911b6888bc2dbd57a8f9696e4bc4ef65b8" class="exit" x1="155" y1="303" x2="155" y2="331"/>
+    <line id="edge-679c3fc113e69ad9e496487e9916aa8721599fd7-da73115a4d59566665c845fd526d803daf255438" class="exit" x1="155" y1="303" x2="155" y2="279"/>
+    <line id="edge-293eab1b5accd986bab349c89708fd17687e4e15-da73115a4d59566665c845fd526d803daf255438" class="exit" x1="179" y1="279" x2="155" y2="279"/>
+    <line id="edge-6f87804a168150fb1d7038cd0dd5d08cbecfcd0d-da73115a4d59566665c845fd526d803daf255438" class="exit" x1="155" y1="255" x2="155" y2="279"/>
+    <line id="edge-757376ae9304029c0524dc21589515062f40a021-da73115a4d59566665c845fd526d803daf255438" class="exit" x1="131" y1="279" x2="155" y2="279"/>
+    <line id="edge-293eab1b5accd986bab349c89708fd17687e4e15-4f117c2b5abd5b32005762c823312e0e9ce62972" class="exit" x1="179" y1="279" x2="203" y2="255"/>
+    <line id="edge-293eab1b5accd986bab349c89708fd17687e4e15-c7126b50ca4c74ff8eed6159d2ffc1dc0059777f" class="exit" x1="179" y1="279" x2="203" y2="303"/>
+    <line id="edge-293eab1b5accd986bab349c89708fd17687e4e15-fd34732e8f4e759a6a55cc390008f77e672f26cd" class="exit" x1="179" y1="279" x2="203" y2="279"/>
+    <line id="edge-19715ceb11fdd4faa1637909479e0ee9e8ac3bbc-757376ae9304029c0524dc21589515062f40a021" class="exit" x1="107" y1="303" x2="131" y2="279"/>
+    <line id="edge-757376ae9304029c0524dc21589515062f40a021-95f9fe0a1cb28da8ebe30d039d9b679d367374b2" class="exit" x1="131" y1="279" x2="107" y2="279"/>
+    <line id="edge-757376ae9304029c0524dc21589515062f40a021-b26d4bf4a8618e96f6788a50afbe7a6ad1ef023f" class="exit" x1="131" y1="279" x2="107" y2="255"/>
+    <line id="edge-19715ceb11fdd4faa1637909479e0ee9e8ac3bbc-ed2dfe5fda70e44a2dca924e7fdec59a748f6ad3" class="exit" x1="107" y1="303" x2="83" y2="303"/>
+    <line id="edge-95f9fe0a1cb28da8ebe30d039d9b679d367374b2-e3b5f6caa81ff0414d1a600c42ab9a23a399000d" class="exit" x1="107" y1="279" x2="83" y2="279"/>
+    <line id="edge-de29ba72afe14719cc8f947da7c055570cff5250-e3b5f6caa81ff0414d1a600c42ab9a23a399000d" class="exit" x1="59" y1="279" x2="83" y2="279"/>
+    <line id="edge-6f87804a168150fb1d7038cd0dd5d08cbecfcd0d-e2f937ef0825598f5e8e16865e6b33784556a99a" class="exit" x1="155" y1="255" x2="156" y2="45"/>
+    <line id="edge-3be04a5909ef8c3ddd0b68435f1e4a7de3529931-fd34732e8f4e759a6a55cc390008f77e672f26cd" class="exit" x1="227" y1="279" x2="203" y2="279"/>
+    <line id="edge-3be04a5909ef8c3ddd0b68435f1e4a7de3529931-4b33e2707f5da27e69e6a86628a450c23f9ac212" class="exit" x1="227" y1="279" x2="251" y2="279"/>
+    <line id="edge-b8eef46583135f34268f9fb1e4edfaae14d6a50e-c7126b50ca4c74ff8eed6159d2ffc1dc0059777f" class="exit" x1="212" y1="149" x2="203" y2="303"/>
+    <line id="edge-4f117c2b5abd5b32005762c823312e0e9ce62972-e3e95035c18885a79f52e2b5d78c5228d56a0e51" class="exit" x1="203" y1="255" x2="212" y2="45"/>
+    <line id="edge-1e650ac96cec4390cd1d53b439fb2fec737ed881-e3e95035c18885a79f52e2b5d78c5228d56a0e51" class="exit" x1="240" y1="45" x2="212" y2="45"/>
+    <line id="edge-492c41567a22e374535155da26f39993e4571c5f-e3e95035c18885a79f52e2b5d78c5228d56a0e51" class="exit" x1="184" y1="45" x2="212" y2="45"/>
+    <line id="edge-1e650ac96cec4390cd1d53b439fb2fec737ed881-7625ff5656bc9e330050b75a37a81706ce3ca16f" class="exit" x1="240" y1="45" x2="292" y2="97"/>
+    <line id="edge-7625ff5656bc9e330050b75a37a81706ce3ca16f-aeadbab1ca63072dd36dfedad2023c048d39bd16" class="exit" x1="292" y1="97" x2="240" y2="149"/>
+    <line id="edge-aeadbab1ca63072dd36dfedad2023c048d39bd16-b8eef46583135f34268f9fb1e4edfaae14d6a50e" class="exit" x1="240" y1="149" x2="212" y2="149"/>
+    <line id="edge-08c45b84577c84eca19407dadbad5d16ce50784e-b8eef46583135f34268f9fb1e4edfaae14d6a50e" class="exit" x1="184" y1="149" x2="212" y2="149"/>
+    <line id="edge-08c45b84577c84eca19407dadbad5d16ce50784e-381fc47c59a04d088f355c1be893e3098f17afa3" class="exit" x1="184" y1="149" x2="156" y2="149"/>
+    <line id="edge-0aa9aace4e5e54fd64c18ad342b1a377b3a9be3a-381fc47c59a04d088f355c1be893e3098f17afa3" class="exit" x1="128" y1="149" x2="156" y2="149"/>
+    <line id="edge-0aa9aace4e5e54fd64c18ad342b1a377b3a9be3a-7f75de065d1f2d648e3b5a7a3d6f20d517d3bac3" class="exit" x1="128" y1="149" x2="100" y2="149"/>
+    <line id="edge-7f75de065d1f2d648e3b5a7a3d6f20d517d3bac3-eb1ea0740fad34a923b9ee0bf31ae8451c57559c" class="exit" x1="100" y1="149" x2="72" y2="149"/>
+    <line id="edge-0d01f7e9e90f7e426179ebd16dbdab6683d8d54e-eb1ea0740fad34a923b9ee0bf31ae8451c57559c" class="exit" x1="20" y1="97" x2="72" y2="149"/>
+    <line id="edge-0d01f7e9e90f7e426179ebd16dbdab6683d8d54e-abb8cd7d4f23bfc90e18f865eb30c6e3da174d39" class="exit" x1="20" y1="97" x2="72" y2="45"/>
+    <line id="edge-a0855e08dabd798e9b207fe14d40a32d98f7d086-abb8cd7d4f23bfc90e18f865eb30c6e3da174d39" class="exit" x1="100" y1="45" x2="72" y2="45"/>
+    <line id="edge-a0855e08dabd798e9b207fe14d40a32d98f7d086-b26d4bf4a8618e96f6788a50afbe7a6ad1ef023f" class="exit" x1="100" y1="45" x2="107" y2="255"/>
+    <line id="edge-a0855e08dabd798e9b207fe14d40a32d98f7d086-d836f36e684ed9e705a8e732ce5d1923127da65a" class="exit" x1="100" y1="45" x2="128" y2="45"/>
+  </g>
+
+  <g id="layer-rooms">
+    <rect id="room-cf9367911b6888bc2dbd57a8f9696e4bc4ef65b8" class="room indoor" x="147" y="323" width="16" height="16" rx="4"><title>just outside the arena</title></rect>
+    <rect id="room-679c3fc113e69ad9e496487e9916aa8721599fd7" class="room indoor" x="147" y="295" width="16" height="16" rx="4"><title>stone passageway</title></rect>
+    <rect id="room-da73115a4d59566665c845fd526d803daf255438" class="room indoor" x="147" y="271" width="16" height="16" rx="4"><title>central chamber</title></rect>
+    <rect id="room-293eab1b5accd986bab349c89708fd17687e4e15" class="room indoor" x="171" y="271" width="16" height="16" rx="4"><title>stone passageway</title></rect>
+    <rect id="room-757376ae9304029c0524dc21589515062f40a021" class="room indoor" x="123" y="271" width="16" height="16" rx="4"><title>stone passageway</title></rect>
+    <rect id="room-19715ceb11fdd4faa1637909479e0ee9e8ac3bbc" class="room indoor" x="99" y="295" width="16" height="16" rx="4"><title>arena baths</title></rect>
+    <rect id="room-ed2dfe5fda70e44a2dca924e7fdec59a748f6ad3" class="room indoor" x="75" y="295" width="16" height="16" rx="4"><title>arena morgue</title></rect>
+    <rect id="room-95f9fe0a1cb28da8ebe30d039d9b679d367374b2" class="room indoor" x="99" y="271" width="16" height="16" rx="4"><title>stone passageway</title></rect>
+    <rect id="room-e3b5f6caa81ff0414d1a600c42ab9a23a399000d" class="room indoor" x="75" y="271" width="16" height="16" rx="4"><title>stone passageway</title></rect>
+    <rect id="room-de29ba72afe14719cc8f947da7c055570cff5250" class="room indoor" x="51" y="271" width="16" height="16" rx="4"><title>stone stairwell</title></rect>
+    <rect id="room-b26d4bf4a8618e96f6788a50afbe7a6ad1ef023f" class="room indoor" x="99" y="247" width="16" height="16" rx="4"><title>stone stairwell</title></rect>
+    <rect id="room-6f87804a168150fb1d7038cd0dd5d08cbecfcd0d" class="room indoor" x="147" y="247" width="16" height="16" rx="4"><title>stone stairwell</title></rect>
+    <rect id="room-e2f937ef0825598f5e8e16865e6b33784556a99a" class="room indoor" x="148" y="37" width="16" height="16" rx="4"><title>champions&#x27; box</title></rect>
+    <rect id="room-fd34732e8f4e759a6a55cc390008f77e672f26cd" class="room indoor" x="195" y="271" width="16" height="16" rx="4"><title>stone passageway</title></rect>
+    <rect id="room-3be04a5909ef8c3ddd0b68435f1e4a7de3529931" class="room indoor" x="219" y="271" width="16" height="16" rx="4"><title>stone passageway</title></rect>
+    <rect id="room-4b33e2707f5da27e69e6a86628a450c23f9ac212" class="room indoor" x="243" y="271" width="16" height="16" rx="4"><title>stone stairwell</title></rect>
+    <rect id="room-c7126b50ca4c74ff8eed6159d2ffc1dc0059777f" class="room indoor" x="195" y="295" width="16" height="16" rx="4"><title>stone stairwell</title></rect>
+    <rect id="room-4f117c2b5abd5b32005762c823312e0e9ce62972" class="room indoor" x="195" y="247" width="16" height="16" rx="4"><title>stone stairwell</title></rect>
+    <rect id="room-e3e95035c18885a79f52e2b5d78c5228d56a0e51" class="room indoor" x="204" y="37" width="16" height="16" rx="4"><title>northeastern stands</title></rect>
+    <rect id="room-492c41567a22e374535155da26f39993e4571c5f" class="room indoor" x="176" y="37" width="16" height="16" rx="4"><title>northeastern stands</title></rect>
+    <rect id="room-1e650ac96cec4390cd1d53b439fb2fec737ed881" class="room indoor" x="232" y="37" width="16" height="16" rx="4"><title>northeastern stands</title></rect>
+    <rect id="room-7625ff5656bc9e330050b75a37a81706ce3ca16f" class="room indoor" x="284" y="89" width="16" height="16" rx="4"><title>eastern stands</title></rect>
+    <rect id="room-aeadbab1ca63072dd36dfedad2023c048d39bd16" class="room indoor" x="232" y="141" width="16" height="16" rx="4"><title>southeastern stands</title></rect>
+    <rect id="room-b8eef46583135f34268f9fb1e4edfaae14d6a50e" class="room indoor" x="204" y="141" width="16" height="16" rx="4"><title>southeastern stands</title></rect>
+    <rect id="room-08c45b84577c84eca19407dadbad5d16ce50784e" class="room indoor" x="176" y="141" width="16" height="16" rx="4"><title>southeastern stands</title></rect>
+    <rect id="room-381fc47c59a04d088f355c1be893e3098f17afa3" class="room indoor" x="148" y="141" width="16" height="16" rx="4"><title>southern stands</title></rect>
+    <rect id="room-0aa9aace4e5e54fd64c18ad342b1a377b3a9be3a" class="room indoor" x="120" y="141" width="16" height="16" rx="4"><title>southwestern stands</title></rect>
+    <rect id="room-7f75de065d1f2d648e3b5a7a3d6f20d517d3bac3" class="room indoor" x="92" y="141" width="16" height="16" rx="4"><title>southwestern stands</title></rect>
+    <rect id="room-eb1ea0740fad34a923b9ee0bf31ae8451c57559c" class="room indoor" x="64" y="141" width="16" height="16" rx="4"><title>southwestern stands</title></rect>
+    <rect id="room-0d01f7e9e90f7e426179ebd16dbdab6683d8d54e" class="room indoor" x="12" y="89" width="16" height="16" rx="4"><title>western stands</title></rect>
+    <rect id="room-abb8cd7d4f23bfc90e18f865eb30c6e3da174d39" class="room indoor" x="64" y="37" width="16" height="16" rx="4"><title>northwestern stands</title></rect>
+    <rect id="room-a0855e08dabd798e9b207fe14d40a32d98f7d086" class="room indoor" x="92" y="37" width="16" height="16" rx="4"><title>northwestern stands</title></rect>
+    <rect id="room-d836f36e684ed9e705a8e732ce5d1923127da65a" class="room indoor" x="120" y="37" width="16" height="16" rx="4"><title>northwestern stands</title></rect>
+    <rect id="room-517b4318bba294e27459e61d7845b5eba3f5b4db" class="room indoor" x="40" y="89" width="16" height="16" rx="4"><title>west gate room</title></rect>
+    <rect id="room-edc9c102f072e53e469591319fafa15a4da82e13" class="room indoor" x="64" y="89" width="16" height="16" rx="4"><title>western side of the arena</title></rect>
+    <rect id="room-f8801d84bec2c14365ebb99f9af93e2c4e9f26ad" class="room indoor" x="92" y="61" width="16" height="16" rx="4"><title>western side of the arena</title></rect>
+    <rect id="room-4b3868c20b648f80e52405743a8f5bd73b02016d" class="room indoor" x="120" y="61" width="16" height="16" rx="4"><title>western side of the arena</title></rect>
+    <rect id="room-9c4160664d3fa23f94324474be8e1d6af562ce9b" class="room indoor" x="148" y="61" width="16" height="16" rx="4"><title>northern side of the arena</title></rect>
+    <rect id="room-35df4e3182b628cdf1258e76c6df24e7b134a7b2" class="room indoor" x="176" y="61" width="16" height="16" rx="4"><title>eastern side of the arena</title></rect>
+    <rect id="room-3f3320d8eebde11f6374f4edb0ff51351fe46d44" class="room indoor" x="204" y="61" width="16" height="16" rx="4"><title>eastern side of the arena</title></rect>
+    <rect id="room-fb83373b9502e39bae8c995c1e96f4c7b944158e" class="room indoor" x="232" y="89" width="16" height="16" rx="4"><title>eastern side of the arena</title></rect>
+    <rect id="room-191b3950e6c562852d653ee9c2bfbd1b56858c6f" class="room indoor" x="256" y="89" width="16" height="16" rx="4"><title>east gate room</title></rect>
+    <rect id="room-ba10ee8e4a42a2c09b952b07654b0cdd53cc5742" class="room indoor" x="204" y="89" width="16" height="16" rx="4"><title>eastern side of the arena</title></rect>
+    <rect id="room-ba595dc123444823c8f777607ed71d0cf8c8e029" class="room indoor" x="176" y="89" width="16" height="16" rx="4"><title>eastern side of the arena</title></rect>
+    <rect id="room-016c685943654be22f329d54e1d929ad75eb484c" class="room indoor" x="148" y="89" width="16" height="16" rx="4"><title>centre of the arena</title></rect>
+    <rect id="room-6b78a6212e15d4b14f4dfa1defe5ab2de7a017d8" class="room indoor" x="120" y="89" width="16" height="16" rx="4"><title>western side of the arena</title></rect>
+    <rect id="room-32a1754a5d3adb04bf3a2df7c1565b067246b0fe" class="room indoor" x="92" y="89" width="16" height="16" rx="4"><title>western side of the arena</title></rect>
+    <rect id="room-1c11f45ae79054f8f27f95a3149c06a817f84c3e" class="room indoor" x="92" y="117" width="16" height="16" rx="4"><title>western side of the arena</title></rect>
+    <rect id="room-de2a7a3f38fa199783818d7c527e67015df24d8d" class="room indoor" x="120" y="117" width="16" height="16" rx="4"><title>western side of the arena</title></rect>
+    <rect id="room-dd61921482187912fa8d90759effc3e8318d89a8" class="room indoor" x="148" y="117" width="16" height="16" rx="4"><title>southern side of the arena</title></rect>
+    <rect id="room-ef5d6f548b6ccec5250d1ba465a64f07447dba6c" class="room indoor" x="176" y="117" width="16" height="16" rx="4"><title>eastern side of the arena</title></rect>
+    <rect id="room-ce57457cd0401b41a6533d17e4b533fa9ad3ccb8" class="room indoor" x="204" y="117" width="16" height="16" rx="4"><title>eastern side of the arena</title></rect>
+    <rect id="room-e8c0748d3a3a7fc10eec37d92eacd4e913c5b430" class="room indoor" x="204" y="53" width="16" height="16" rx="4"><title>small archway</title></rect>
+    <rect id="room-84cc9d4d508863a882607b070b076d39024a8527" class="room indoor" x="176" y="53" width="16" height="16" rx="4"><title>small archway</title></rect>
+    <rect id="room-4b0581f4575b348b2530e964a08daeacc3c6199e" class="room indoor" x="148" y="53" width="16" height="16" rx="4"><title>small archway</title></rect>
+    <rect id="room-c99077874e85a3f5bf4462266b54d3d8ded1af0a" class="room indoor" x="120" y="53" width="16" height="16" rx="4"><title>small archway</title></rect>
+    <rect id="room-4bd06766a5119c3a6bbb199421b5672eee73af01" class="room indoor" x="92" y="53" width="16" height="16" rx="4"><title>small archway</title></rect>
+    <rect id="room-cd48d5a40ea60c53fab126d69b1030b75305fdc7" class="room indoor" x="204" y="125" width="16" height="16" rx="4"><title>small archway</title></rect>
+    <rect id="room-25a5acb06a810d8925706cce181f908e06dbf5f2" class="room indoor" x="176" y="125" width="16" height="16" rx="4"><title>small archway</title></rect>
+    <rect id="room-a04d83cca52123e87364ee23afb3e35e4ed4d3e9" class="room indoor" x="148" y="125" width="16" height="16" rx="4"><title>small archway</title></rect>
+    <rect id="room-caa8adfe3a252cfec2e8e7f9c7c80a60444223ee" class="room indoor" x="120" y="125" width="16" height="16" rx="4"><title>small archway</title></rect>
+    <rect id="room-fe26e17f5d7d61d20fbb9ba43739ed8d3c61b600" class="room indoor" x="92" y="125" width="16" height="16" rx="4"><title>small archway</title></rect>
+  </g>
+
+  <g id="layer-labels">
+    <text class="map-label" x="155" y="319">just outside the arena</text>
+    <text class="map-label" x="155" y="291">stone passageway</text>
+    <text class="map-label" x="155" y="267">central chamber</text>
+    <text class="map-label" x="179" y="267">stone passageway</text>
+    <text class="map-label" x="131" y="267">stone passageway</text>
+    <text class="map-label" x="107" y="291">arena baths</text>
+    <text class="map-label" x="83" y="291">arena morgue</text>
+    <text class="map-label" x="107" y="267">stone passageway</text>
+    <text class="map-label" x="83" y="267">stone passageway</text>
+    <text class="map-label" x="59" y="267">stone stairwell</text>
+    <text class="map-label" x="107" y="243">stone stairwell</text>
+    <text class="map-label" x="155" y="243">stone stairwell</text>
+    <text class="map-label" x="156" y="33">champions&#x27; box</text>
+    <text class="map-label" x="203" y="267">stone passageway</text>
+    <text class="map-label" x="227" y="267">stone passageway</text>
+    <text class="map-label" x="251" y="267">stone stairwell</text>
+    <text class="map-label" x="203" y="291">stone stairwell</text>
+    <text class="map-label" x="203" y="243">stone stairwell</text>
+    <text class="map-label" x="212" y="33">northeastern stands</text>
+    <text class="map-label" x="184" y="33">northeastern stands</text>
+    <text class="map-label" x="240" y="33">northeastern stands</text>
+    <text class="map-label" x="292" y="85">eastern stands</text>
+    <text class="map-label" x="240" y="137">southeastern stands</text>
+    <text class="map-label" x="212" y="137">southeastern stands</text>
+    <text class="map-label" x="184" y="137">southeastern stands</text>
+    <text class="map-label" x="156" y="137">southern stands</text>
+    <text class="map-label" x="128" y="137">southwestern stands</text>
+    <text class="map-label" x="100" y="137">southwestern stands</text>
+    <text class="map-label" x="72" y="137">southwestern stands</text>
+    <text class="map-label" x="20" y="85">western stands</text>
+    <text class="map-label" x="72" y="33">northwestern stands</text>
+    <text class="map-label" x="100" y="33">northwestern stands</text>
+    <text class="map-label" x="128" y="33">northwestern stands</text>
+    <text class="map-label" x="48" y="85">west gate room</text>
+    <text class="map-label" x="72" y="85">western side of the arena</text>
+    <text class="map-label" x="100" y="57">western side of the arena</text>
+    <text class="map-label" x="128" y="57">western side of the arena</text>
+    <text class="map-label" x="156" y="57">northern side of the arena</text>
+    <text class="map-label" x="184" y="57">eastern side of the arena</text>
+    <text class="map-label" x="212" y="57">eastern side of the arena</text>
+    <text class="map-label" x="240" y="85">eastern side of the arena</text>
+    <text class="map-label" x="264" y="85">east gate room</text>
+    <text class="map-label" x="212" y="85">eastern side of the arena</text>
+    <text class="map-label" x="184" y="85">eastern side of the arena</text>
+    <text class="map-label" x="156" y="85">centre of the arena</text>
+    <text class="map-label" x="128" y="85">western side of the arena</text>
+    <text class="map-label" x="100" y="85">western side of the arena</text>
+    <text class="map-label" x="100" y="113">western side of the arena</text>
+    <text class="map-label" x="128" y="113">western side of the arena</text>
+    <text class="map-label" x="156" y="113">southern side of the arena</text>
+    <text class="map-label" x="184" y="113">eastern side of the arena</text>
+    <text class="map-label" x="212" y="113">eastern side of the arena</text>
+    <text class="map-label" x="212" y="49">small archway</text>
+    <text class="map-label" x="184" y="49">small archway</text>
+    <text class="map-label" x="156" y="49">small archway</text>
+    <text class="map-label" x="128" y="49">small archway</text>
+    <text class="map-label" x="100" y="49">small archway</text>
+    <text class="map-label" x="212" y="121">small archway</text>
+    <text class="map-label" x="184" y="121">small archway</text>
+    <text class="map-label" x="156" y="121">small archway</text>
+    <text class="map-label" x="128" y="121">small archway</text>
+    <text class="map-label" x="100" y="121">small archway</text>
+  </g>
+
+</svg>

@@ -1,0 +1,1184 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 4030 302 1560"
+     class="map-svg"
+     data-map-id="47">
+
+  <g id="layer-artwork"><!-- artwork --></g>
+
+  <g id="layer-exits">
+    <line class="exit" x1="46" y1="4060" x2="46" y2="4090"/>
+    <line class="exit" x1="46" y1="4060" x2="76" y2="4060"/>
+    <line class="exit" x1="46" y1="4090" x2="46" y2="4120"/>
+    <line class="exit" x1="46" y1="4090" x2="76" y2="4090"/>
+    <line class="exit" x1="46" y1="4120" x2="46" y2="4150"/>
+    <line class="exit" x1="46" y1="4120" x2="76" y2="4120"/>
+    <line class="exit" x1="46" y1="4150" x2="46" y2="4180"/>
+    <line class="exit" x1="46" y1="4150" x2="76" y2="4150"/>
+    <line class="exit" x1="46" y1="4180" x2="46" y2="4210"/>
+    <line class="exit" x1="46" y1="4180" x2="76" y2="4180"/>
+    <line class="exit" x1="46" y1="4210" x2="46" y2="4240"/>
+    <line class="exit" x1="46" y1="4210" x2="76" y2="4210"/>
+    <line class="exit" x1="46" y1="4240" x2="46" y2="4270"/>
+    <line class="exit" x1="46" y1="4240" x2="76" y2="4240"/>
+    <line class="exit" x1="46" y1="4270" x2="46" y2="4300"/>
+    <line class="exit" x1="46" y1="4270" x2="76" y2="4270"/>
+    <line class="exit" x1="46" y1="4300" x2="46" y2="4330"/>
+    <line class="exit" x1="46" y1="4300" x2="76" y2="4300"/>
+    <line class="exit" x1="46" y1="4330" x2="46" y2="4360"/>
+    <line class="exit" x1="46" y1="4330" x2="76" y2="4330"/>
+    <line class="exit" x1="46" y1="4360" x2="46" y2="4390"/>
+    <line class="exit" x1="46" y1="4360" x2="76" y2="4360"/>
+    <line class="exit" x1="46" y1="4390" x2="46" y2="4420"/>
+    <line class="exit" x1="46" y1="4390" x2="76" y2="4390"/>
+    <line class="exit" x1="46" y1="4420" x2="46" y2="4450"/>
+    <line class="exit" x1="46" y1="4420" x2="76" y2="4420"/>
+    <line class="exit" x1="46" y1="4450" x2="46" y2="4480"/>
+    <line class="exit" x1="46" y1="4450" x2="76" y2="4450"/>
+    <line class="exit" x1="46" y1="4480" x2="46" y2="4510"/>
+    <line class="exit" x1="46" y1="4480" x2="76" y2="4480"/>
+    <line class="exit" x1="46" y1="4510" x2="46" y2="4540"/>
+    <line class="exit" x1="46" y1="4510" x2="76" y2="4510"/>
+    <line class="exit" x1="46" y1="4540" x2="46" y2="4570"/>
+    <line class="exit" x1="46" y1="4540" x2="76" y2="4540"/>
+    <line class="exit" x1="46" y1="4570" x2="46" y2="4600"/>
+    <line class="exit" x1="46" y1="4570" x2="76" y2="4570"/>
+    <line class="exit" x1="46" y1="4600" x2="46" y2="4630"/>
+    <line class="exit" x1="46" y1="4600" x2="76" y2="4600"/>
+    <line class="exit" x1="46" y1="4630" x2="46" y2="4660"/>
+    <line class="exit" x1="46" y1="4630" x2="76" y2="4630"/>
+    <line class="exit" x1="46" y1="4660" x2="46" y2="4690"/>
+    <line class="exit" x1="46" y1="4660" x2="76" y2="4660"/>
+    <line class="exit" x1="46" y1="4690" x2="46" y2="4720"/>
+    <line class="exit" x1="46" y1="4690" x2="76" y2="4690"/>
+    <line class="exit" x1="46" y1="4720" x2="46" y2="4750"/>
+    <line class="exit" x1="46" y1="4720" x2="76" y2="4720"/>
+    <line class="exit" x1="46" y1="4750" x2="46" y2="4780"/>
+    <line class="exit" x1="46" y1="4750" x2="76" y2="4750"/>
+    <line class="exit" x1="46" y1="4780" x2="46" y2="4810"/>
+    <line class="exit" x1="46" y1="4780" x2="76" y2="4780"/>
+    <line class="exit" x1="46" y1="4810" x2="46" y2="4840"/>
+    <line class="exit" x1="46" y1="4810" x2="76" y2="4810"/>
+    <line class="exit" x1="46" y1="4840" x2="46" y2="4870"/>
+    <line class="exit" x1="46" y1="4840" x2="76" y2="4840"/>
+    <line class="exit" x1="46" y1="4870" x2="46" y2="4900"/>
+    <line class="exit" x1="46" y1="4870" x2="76" y2="4870"/>
+    <line class="exit" x1="46" y1="4900" x2="46" y2="4930"/>
+    <line class="exit" x1="46" y1="4900" x2="76" y2="4900"/>
+    <line class="exit" x1="46" y1="4930" x2="46" y2="4960"/>
+    <line class="exit" x1="46" y1="4930" x2="76" y2="4930"/>
+    <line class="exit" x1="46" y1="4960" x2="46" y2="4990"/>
+    <line class="exit" x1="46" y1="4960" x2="76" y2="4960"/>
+    <line class="exit" x1="46" y1="4990" x2="46" y2="5020"/>
+    <line class="exit" x1="46" y1="4990" x2="76" y2="4990"/>
+    <line class="exit" x1="46" y1="5020" x2="46" y2="5050"/>
+    <line class="exit" x1="46" y1="5020" x2="76" y2="5020"/>
+    <line class="exit" x1="46" y1="5050" x2="46" y2="5080"/>
+    <line class="exit" x1="46" y1="5050" x2="76" y2="5050"/>
+    <line class="exit" x1="46" y1="5080" x2="46" y2="5110"/>
+    <line class="exit" x1="46" y1="5080" x2="76" y2="5080"/>
+    <line class="exit" x1="46" y1="5110" x2="46" y2="5140"/>
+    <line class="exit" x1="46" y1="5110" x2="76" y2="5110"/>
+    <line class="exit" x1="46" y1="5140" x2="46" y2="5170"/>
+    <line class="exit" x1="46" y1="5140" x2="76" y2="5140"/>
+    <line class="exit" x1="46" y1="5170" x2="46" y2="5200"/>
+    <line class="exit" x1="46" y1="5170" x2="76" y2="5170"/>
+    <line class="exit" x1="46" y1="5200" x2="46" y2="5230"/>
+    <line class="exit" x1="46" y1="5200" x2="76" y2="5200"/>
+    <line class="exit" x1="46" y1="5230" x2="46" y2="5260"/>
+    <line class="exit" x1="46" y1="5230" x2="76" y2="5230"/>
+    <line class="exit" x1="46" y1="5260" x2="46" y2="5290"/>
+    <line class="exit" x1="46" y1="5260" x2="76" y2="5260"/>
+    <line class="exit" x1="46" y1="5290" x2="46" y2="5320"/>
+    <line class="exit" x1="46" y1="5290" x2="76" y2="5290"/>
+    <line class="exit" x1="46" y1="5320" x2="46" y2="5350"/>
+    <line class="exit" x1="46" y1="5320" x2="76" y2="5320"/>
+    <line class="exit" x1="46" y1="5350" x2="46" y2="5380"/>
+    <line class="exit" x1="46" y1="5350" x2="76" y2="5350"/>
+    <line class="exit" x1="46" y1="5380" x2="46" y2="5410"/>
+    <line class="exit" x1="46" y1="5380" x2="76" y2="5380"/>
+    <line class="exit" x1="46" y1="5410" x2="46" y2="5440"/>
+    <line class="exit" x1="46" y1="5410" x2="76" y2="5410"/>
+    <line class="exit" x1="46" y1="5440" x2="46" y2="5470"/>
+    <line class="exit" x1="46" y1="5440" x2="76" y2="5440"/>
+    <line class="exit" x1="46" y1="5470" x2="46" y2="5500"/>
+    <line class="exit" x1="46" y1="5470" x2="76" y2="5470"/>
+    <line class="exit" x1="46" y1="5500" x2="46" y2="5530"/>
+    <line class="exit" x1="46" y1="5500" x2="76" y2="5500"/>
+    <line class="exit" x1="46" y1="5530" x2="46" y2="5560"/>
+    <line class="exit" x1="46" y1="5530" x2="76" y2="5530"/>
+    <line class="exit" x1="46" y1="5560" x2="76" y2="5560"/>
+    <line class="exit" x1="76" y1="4060" x2="76" y2="4090"/>
+    <line class="exit" x1="76" y1="4060" x2="106" y2="4060"/>
+    <line class="exit" x1="76" y1="4090" x2="76" y2="4120"/>
+    <line class="exit" x1="76" y1="4090" x2="106" y2="4090"/>
+    <line class="exit" x1="76" y1="4120" x2="76" y2="4150"/>
+    <line class="exit" x1="76" y1="4120" x2="106" y2="4120"/>
+    <line class="exit" x1="76" y1="4150" x2="76" y2="4180"/>
+    <line class="exit" x1="76" y1="4150" x2="106" y2="4150"/>
+    <line class="exit" x1="76" y1="4180" x2="76" y2="4210"/>
+    <line class="exit" x1="76" y1="4180" x2="106" y2="4180"/>
+    <line class="exit" x1="76" y1="4210" x2="76" y2="4240"/>
+    <line class="exit" x1="76" y1="4210" x2="106" y2="4210"/>
+    <line class="exit" x1="76" y1="4240" x2="76" y2="4270"/>
+    <line class="exit" x1="76" y1="4240" x2="106" y2="4240"/>
+    <line class="exit" x1="76" y1="4270" x2="76" y2="4300"/>
+    <line class="exit" x1="76" y1="4270" x2="106" y2="4270"/>
+    <line class="exit" x1="76" y1="4300" x2="76" y2="4330"/>
+    <line class="exit" x1="76" y1="4300" x2="106" y2="4300"/>
+    <line class="exit" x1="76" y1="4330" x2="76" y2="4360"/>
+    <line class="exit" x1="76" y1="4330" x2="106" y2="4330"/>
+    <line class="exit" x1="76" y1="4360" x2="76" y2="4390"/>
+    <line class="exit" x1="76" y1="4360" x2="106" y2="4360"/>
+    <line class="exit" x1="76" y1="4390" x2="76" y2="4420"/>
+    <line class="exit" x1="76" y1="4390" x2="106" y2="4390"/>
+    <line class="exit" x1="76" y1="4420" x2="76" y2="4450"/>
+    <line class="exit" x1="76" y1="4420" x2="106" y2="4420"/>
+    <line class="exit" x1="76" y1="4450" x2="76" y2="4480"/>
+    <line class="exit" x1="76" y1="4450" x2="106" y2="4450"/>
+    <line class="exit" x1="76" y1="4480" x2="76" y2="4510"/>
+    <line class="exit" x1="76" y1="4480" x2="106" y2="4480"/>
+    <line class="exit" x1="76" y1="4510" x2="76" y2="4540"/>
+    <line class="exit" x1="76" y1="4510" x2="106" y2="4510"/>
+    <line class="exit" x1="76" y1="4540" x2="76" y2="4570"/>
+    <line class="exit" x1="76" y1="4540" x2="106" y2="4540"/>
+    <line class="exit" x1="76" y1="4570" x2="76" y2="4600"/>
+    <line class="exit" x1="76" y1="4570" x2="106" y2="4570"/>
+    <line class="exit" x1="76" y1="4600" x2="76" y2="4630"/>
+    <line class="exit" x1="76" y1="4600" x2="106" y2="4600"/>
+    <line class="exit" x1="76" y1="4630" x2="76" y2="4660"/>
+    <line class="exit" x1="76" y1="4630" x2="106" y2="4630"/>
+    <line class="exit" x1="76" y1="4660" x2="76" y2="4690"/>
+    <line class="exit" x1="76" y1="4660" x2="106" y2="4660"/>
+    <line class="exit" x1="76" y1="4690" x2="76" y2="4720"/>
+    <line class="exit" x1="76" y1="4690" x2="106" y2="4690"/>
+    <line class="exit" x1="76" y1="4720" x2="76" y2="4750"/>
+    <line class="exit" x1="76" y1="4720" x2="106" y2="4720"/>
+    <line class="exit" x1="76" y1="4750" x2="76" y2="4780"/>
+    <line class="exit" x1="76" y1="4750" x2="106" y2="4750"/>
+    <line class="exit" x1="76" y1="4780" x2="76" y2="4810"/>
+    <line class="exit" x1="76" y1="4780" x2="106" y2="4780"/>
+    <line class="exit" x1="76" y1="4810" x2="76" y2="4840"/>
+    <line class="exit" x1="76" y1="4810" x2="106" y2="4810"/>
+    <line class="exit" x1="76" y1="4840" x2="76" y2="4870"/>
+    <line class="exit" x1="76" y1="4840" x2="106" y2="4840"/>
+    <line class="exit" x1="76" y1="4870" x2="76" y2="4900"/>
+    <line class="exit" x1="76" y1="4870" x2="106" y2="4870"/>
+    <line class="exit" x1="76" y1="4900" x2="76" y2="4930"/>
+    <line class="exit" x1="76" y1="4900" x2="106" y2="4900"/>
+    <line class="exit" x1="76" y1="4930" x2="76" y2="4960"/>
+    <line class="exit" x1="76" y1="4930" x2="106" y2="4930"/>
+    <line class="exit" x1="76" y1="4960" x2="76" y2="4990"/>
+    <line class="exit" x1="76" y1="4960" x2="106" y2="4960"/>
+    <line class="exit" x1="76" y1="4990" x2="76" y2="5020"/>
+    <line class="exit" x1="76" y1="4990" x2="106" y2="4990"/>
+    <line class="exit" x1="76" y1="5020" x2="76" y2="5050"/>
+    <line class="exit" x1="76" y1="5020" x2="106" y2="5020"/>
+    <line class="exit" x1="76" y1="5050" x2="76" y2="5080"/>
+    <line class="exit" x1="76" y1="5050" x2="106" y2="5050"/>
+    <line class="exit" x1="76" y1="5080" x2="76" y2="5110"/>
+    <line class="exit" x1="76" y1="5080" x2="106" y2="5080"/>
+    <line class="exit" x1="76" y1="5110" x2="76" y2="5140"/>
+    <line class="exit" x1="76" y1="5110" x2="106" y2="5110"/>
+    <line class="exit" x1="76" y1="5140" x2="76" y2="5170"/>
+    <line class="exit" x1="76" y1="5140" x2="106" y2="5140"/>
+    <line class="exit" x1="76" y1="5170" x2="76" y2="5200"/>
+    <line class="exit" x1="76" y1="5170" x2="106" y2="5170"/>
+    <line class="exit" x1="76" y1="5200" x2="76" y2="5230"/>
+    <line class="exit" x1="76" y1="5200" x2="106" y2="5200"/>
+    <line class="exit" x1="76" y1="5230" x2="76" y2="5260"/>
+    <line class="exit" x1="76" y1="5230" x2="106" y2="5230"/>
+    <line class="exit" x1="76" y1="5260" x2="76" y2="5290"/>
+    <line class="exit" x1="76" y1="5260" x2="106" y2="5260"/>
+    <line class="exit" x1="76" y1="5290" x2="76" y2="5320"/>
+    <line class="exit" x1="76" y1="5290" x2="106" y2="5290"/>
+    <line class="exit" x1="76" y1="5320" x2="76" y2="5350"/>
+    <line class="exit" x1="76" y1="5320" x2="106" y2="5320"/>
+    <line class="exit" x1="76" y1="5350" x2="76" y2="5380"/>
+    <line class="exit" x1="76" y1="5350" x2="106" y2="5350"/>
+    <line class="exit" x1="76" y1="5380" x2="76" y2="5410"/>
+    <line class="exit" x1="76" y1="5380" x2="106" y2="5380"/>
+    <line class="exit" x1="76" y1="5410" x2="76" y2="5440"/>
+    <line class="exit" x1="76" y1="5410" x2="106" y2="5410"/>
+    <line class="exit" x1="76" y1="5440" x2="76" y2="5470"/>
+    <line class="exit" x1="76" y1="5440" x2="106" y2="5440"/>
+    <line class="exit" x1="76" y1="5470" x2="76" y2="5500"/>
+    <line class="exit" x1="76" y1="5470" x2="106" y2="5470"/>
+    <line class="exit" x1="76" y1="5500" x2="76" y2="5530"/>
+    <line class="exit" x1="76" y1="5500" x2="106" y2="5500"/>
+    <line class="exit" x1="76" y1="5530" x2="76" y2="5560"/>
+    <line class="exit" x1="76" y1="5530" x2="106" y2="5530"/>
+    <line class="exit" x1="76" y1="5560" x2="106" y2="5560"/>
+    <line class="exit" x1="106" y1="4060" x2="106" y2="4090"/>
+    <line class="exit" x1="106" y1="4060" x2="136" y2="4060"/>
+    <line class="exit" x1="106" y1="4090" x2="106" y2="4120"/>
+    <line class="exit" x1="106" y1="4090" x2="136" y2="4090"/>
+    <line class="exit" x1="106" y1="4120" x2="106" y2="4150"/>
+    <line class="exit" x1="106" y1="4120" x2="136" y2="4120"/>
+    <line class="exit" x1="106" y1="4150" x2="106" y2="4180"/>
+    <line class="exit" x1="106" y1="4150" x2="136" y2="4150"/>
+    <line class="exit" x1="106" y1="4180" x2="106" y2="4210"/>
+    <line class="exit" x1="106" y1="4180" x2="136" y2="4180"/>
+    <line class="exit" x1="106" y1="4210" x2="106" y2="4240"/>
+    <line class="exit" x1="106" y1="4210" x2="136" y2="4210"/>
+    <line class="exit" x1="106" y1="4240" x2="106" y2="4270"/>
+    <line class="exit" x1="106" y1="4240" x2="136" y2="4240"/>
+    <line class="exit" x1="106" y1="4270" x2="106" y2="4300"/>
+    <line class="exit" x1="106" y1="4270" x2="136" y2="4270"/>
+    <line class="exit" x1="106" y1="4300" x2="106" y2="4330"/>
+    <line class="exit" x1="106" y1="4300" x2="136" y2="4300"/>
+    <line class="exit" x1="106" y1="4330" x2="106" y2="4360"/>
+    <line class="exit" x1="106" y1="4330" x2="136" y2="4330"/>
+    <line class="exit" x1="106" y1="4360" x2="106" y2="4390"/>
+    <line class="exit" x1="106" y1="4360" x2="136" y2="4360"/>
+    <line class="exit" x1="106" y1="4390" x2="106" y2="4420"/>
+    <line class="exit" x1="106" y1="4390" x2="136" y2="4390"/>
+    <line class="exit" x1="106" y1="4420" x2="106" y2="4450"/>
+    <line class="exit" x1="106" y1="4420" x2="136" y2="4420"/>
+    <line class="exit" x1="106" y1="4450" x2="106" y2="4480"/>
+    <line class="exit" x1="106" y1="4450" x2="136" y2="4450"/>
+    <line class="exit" x1="106" y1="4480" x2="106" y2="4510"/>
+    <line class="exit" x1="106" y1="4480" x2="136" y2="4480"/>
+    <line class="exit" x1="106" y1="4510" x2="106" y2="4540"/>
+    <line class="exit" x1="106" y1="4510" x2="136" y2="4510"/>
+    <line class="exit" x1="106" y1="4540" x2="106" y2="4570"/>
+    <line class="exit" x1="106" y1="4540" x2="136" y2="4540"/>
+    <line class="exit" x1="106" y1="4570" x2="106" y2="4600"/>
+    <line class="exit" x1="106" y1="4570" x2="136" y2="4570"/>
+    <line class="exit" x1="106" y1="4600" x2="106" y2="4630"/>
+    <line class="exit" x1="106" y1="4600" x2="136" y2="4600"/>
+    <line class="exit" x1="106" y1="4630" x2="106" y2="4660"/>
+    <line class="exit" x1="106" y1="4630" x2="136" y2="4630"/>
+    <line class="exit" x1="106" y1="4660" x2="106" y2="4690"/>
+    <line class="exit" x1="106" y1="4660" x2="136" y2="4660"/>
+    <line class="exit" x1="106" y1="4690" x2="106" y2="4720"/>
+    <line class="exit" x1="106" y1="4690" x2="136" y2="4690"/>
+    <line class="exit" x1="106" y1="4720" x2="106" y2="4750"/>
+    <line class="exit" x1="106" y1="4720" x2="136" y2="4720"/>
+    <line class="exit" x1="106" y1="4750" x2="106" y2="4780"/>
+    <line class="exit" x1="106" y1="4750" x2="136" y2="4750"/>
+    <line class="exit" x1="106" y1="4780" x2="106" y2="4810"/>
+    <line class="exit" x1="106" y1="4780" x2="136" y2="4780"/>
+    <line class="exit" x1="106" y1="4810" x2="106" y2="4840"/>
+    <line class="exit" x1="106" y1="4810" x2="136" y2="4810"/>
+    <line class="exit" x1="106" y1="4840" x2="106" y2="4870"/>
+    <line class="exit" x1="106" y1="4840" x2="136" y2="4840"/>
+    <line class="exit" x1="106" y1="4870" x2="106" y2="4900"/>
+    <line class="exit" x1="106" y1="4870" x2="136" y2="4870"/>
+    <line class="exit" x1="106" y1="4900" x2="106" y2="4930"/>
+    <line class="exit" x1="106" y1="4900" x2="136" y2="4900"/>
+    <line class="exit" x1="106" y1="4930" x2="106" y2="4960"/>
+    <line class="exit" x1="106" y1="4930" x2="136" y2="4930"/>
+    <line class="exit" x1="106" y1="4960" x2="106" y2="4990"/>
+    <line class="exit" x1="106" y1="4960" x2="136" y2="4960"/>
+    <line class="exit" x1="106" y1="4990" x2="106" y2="5020"/>
+    <line class="exit" x1="106" y1="4990" x2="136" y2="4990"/>
+    <line class="exit" x1="106" y1="5020" x2="106" y2="5050"/>
+    <line class="exit" x1="106" y1="5020" x2="136" y2="5020"/>
+    <line class="exit" x1="106" y1="5050" x2="106" y2="5080"/>
+    <line class="exit" x1="106" y1="5050" x2="136" y2="5050"/>
+    <line class="exit" x1="106" y1="5080" x2="106" y2="5110"/>
+    <line class="exit" x1="106" y1="5080" x2="136" y2="5080"/>
+    <line class="exit" x1="106" y1="5110" x2="106" y2="5140"/>
+    <line class="exit" x1="106" y1="5110" x2="136" y2="5110"/>
+    <line class="exit" x1="106" y1="5140" x2="106" y2="5170"/>
+    <line class="exit" x1="106" y1="5140" x2="136" y2="5140"/>
+    <line class="exit" x1="106" y1="5170" x2="106" y2="5200"/>
+    <line class="exit" x1="106" y1="5170" x2="136" y2="5170"/>
+    <line class="exit" x1="106" y1="5200" x2="106" y2="5230"/>
+    <line class="exit" x1="106" y1="5200" x2="136" y2="5200"/>
+    <line class="exit" x1="106" y1="5230" x2="106" y2="5260"/>
+    <line class="exit" x1="106" y1="5230" x2="136" y2="5230"/>
+    <line class="exit" x1="106" y1="5260" x2="106" y2="5290"/>
+    <line class="exit" x1="106" y1="5260" x2="136" y2="5260"/>
+    <line class="exit" x1="106" y1="5290" x2="106" y2="5320"/>
+    <line class="exit" x1="106" y1="5290" x2="136" y2="5290"/>
+    <line class="exit" x1="106" y1="5320" x2="106" y2="5350"/>
+    <line class="exit" x1="106" y1="5320" x2="136" y2="5320"/>
+    <line class="exit" x1="106" y1="5350" x2="106" y2="5380"/>
+    <line class="exit" x1="106" y1="5350" x2="136" y2="5350"/>
+    <line class="exit" x1="106" y1="5380" x2="106" y2="5410"/>
+    <line class="exit" x1="106" y1="5380" x2="136" y2="5380"/>
+    <line class="exit" x1="106" y1="5410" x2="106" y2="5440"/>
+    <line class="exit" x1="106" y1="5410" x2="136" y2="5410"/>
+    <line class="exit" x1="106" y1="5440" x2="106" y2="5470"/>
+    <line class="exit" x1="106" y1="5440" x2="136" y2="5440"/>
+    <line class="exit" x1="106" y1="5470" x2="106" y2="5500"/>
+    <line class="exit" x1="106" y1="5470" x2="136" y2="5470"/>
+    <line class="exit" x1="106" y1="5500" x2="106" y2="5530"/>
+    <line class="exit" x1="106" y1="5500" x2="136" y2="5500"/>
+    <line class="exit" x1="106" y1="5530" x2="106" y2="5560"/>
+    <line class="exit" x1="106" y1="5530" x2="136" y2="5530"/>
+    <line class="exit" x1="106" y1="5560" x2="136" y2="5560"/>
+    <line class="exit" x1="136" y1="4060" x2="136" y2="4090"/>
+    <line class="exit" x1="136" y1="4060" x2="166" y2="4060"/>
+    <line class="exit" x1="136" y1="4090" x2="136" y2="4120"/>
+    <line class="exit" x1="136" y1="4090" x2="166" y2="4090"/>
+    <line class="exit" x1="136" y1="4120" x2="136" y2="4150"/>
+    <line class="exit" x1="136" y1="4120" x2="166" y2="4120"/>
+    <line class="exit" x1="136" y1="4150" x2="136" y2="4180"/>
+    <line class="exit" x1="136" y1="4150" x2="166" y2="4150"/>
+    <line class="exit" x1="136" y1="4180" x2="136" y2="4210"/>
+    <line class="exit" x1="136" y1="4180" x2="166" y2="4180"/>
+    <line class="exit" x1="136" y1="4210" x2="136" y2="4240"/>
+    <line class="exit" x1="136" y1="4210" x2="166" y2="4210"/>
+    <line class="exit" x1="136" y1="4240" x2="136" y2="4270"/>
+    <line class="exit" x1="136" y1="4240" x2="166" y2="4240"/>
+    <line class="exit" x1="136" y1="4270" x2="136" y2="4300"/>
+    <line class="exit" x1="136" y1="4270" x2="166" y2="4270"/>
+    <line class="exit" x1="136" y1="4300" x2="136" y2="4330"/>
+    <line class="exit" x1="136" y1="4300" x2="166" y2="4300"/>
+    <line class="exit" x1="136" y1="4330" x2="136" y2="4360"/>
+    <line class="exit" x1="136" y1="4330" x2="166" y2="4330"/>
+    <line class="exit" x1="136" y1="4360" x2="136" y2="4390"/>
+    <line class="exit" x1="136" y1="4360" x2="166" y2="4360"/>
+    <line class="exit" x1="136" y1="4390" x2="136" y2="4420"/>
+    <line class="exit" x1="136" y1="4390" x2="166" y2="4390"/>
+    <line class="exit" x1="136" y1="4420" x2="136" y2="4450"/>
+    <line class="exit" x1="136" y1="4420" x2="166" y2="4420"/>
+    <line class="exit" x1="136" y1="4450" x2="136" y2="4480"/>
+    <line class="exit" x1="136" y1="4450" x2="166" y2="4450"/>
+    <line class="exit" x1="136" y1="4480" x2="136" y2="4510"/>
+    <line class="exit" x1="136" y1="4480" x2="166" y2="4480"/>
+    <line class="exit" x1="136" y1="4510" x2="136" y2="4540"/>
+    <line class="exit" x1="136" y1="4510" x2="166" y2="4510"/>
+    <line class="exit" x1="136" y1="4540" x2="136" y2="4570"/>
+    <line class="exit" x1="136" y1="4540" x2="166" y2="4540"/>
+    <line class="exit" x1="136" y1="4570" x2="136" y2="4600"/>
+    <line class="exit" x1="136" y1="4570" x2="166" y2="4570"/>
+    <line class="exit" x1="136" y1="4600" x2="136" y2="4630"/>
+    <line class="exit" x1="136" y1="4600" x2="166" y2="4600"/>
+    <line class="exit" x1="136" y1="4630" x2="136" y2="4660"/>
+    <line class="exit" x1="136" y1="4630" x2="166" y2="4630"/>
+    <line class="exit" x1="136" y1="4660" x2="136" y2="4690"/>
+    <line class="exit" x1="136" y1="4660" x2="166" y2="4660"/>
+    <line class="exit" x1="136" y1="4690" x2="136" y2="4720"/>
+    <line class="exit" x1="136" y1="4690" x2="166" y2="4690"/>
+    <line class="exit" x1="136" y1="4720" x2="136" y2="4750"/>
+    <line class="exit" x1="136" y1="4720" x2="166" y2="4720"/>
+    <line class="exit" x1="136" y1="4750" x2="136" y2="4780"/>
+    <line class="exit" x1="136" y1="4750" x2="166" y2="4750"/>
+    <line class="exit" x1="136" y1="4780" x2="136" y2="4810"/>
+    <line class="exit" x1="136" y1="4780" x2="166" y2="4780"/>
+    <line class="exit" x1="136" y1="4810" x2="136" y2="4840"/>
+    <line class="exit" x1="136" y1="4810" x2="166" y2="4810"/>
+    <line class="exit" x1="136" y1="4840" x2="136" y2="4870"/>
+    <line class="exit" x1="136" y1="4840" x2="166" y2="4840"/>
+    <line class="exit" x1="136" y1="4870" x2="136" y2="4900"/>
+    <line class="exit" x1="136" y1="4870" x2="166" y2="4870"/>
+    <line class="exit" x1="136" y1="4900" x2="136" y2="4930"/>
+    <line class="exit" x1="136" y1="4900" x2="166" y2="4900"/>
+    <line class="exit" x1="136" y1="4930" x2="136" y2="4960"/>
+    <line class="exit" x1="136" y1="4930" x2="166" y2="4930"/>
+    <line class="exit" x1="136" y1="4960" x2="136" y2="4990"/>
+    <line class="exit" x1="136" y1="4960" x2="166" y2="4960"/>
+    <line class="exit" x1="136" y1="4990" x2="136" y2="5020"/>
+    <line class="exit" x1="136" y1="4990" x2="166" y2="4990"/>
+    <line class="exit" x1="136" y1="5020" x2="136" y2="5050"/>
+    <line class="exit" x1="136" y1="5020" x2="166" y2="5020"/>
+    <line class="exit" x1="136" y1="5050" x2="136" y2="5080"/>
+    <line class="exit" x1="136" y1="5050" x2="166" y2="5050"/>
+    <line class="exit" x1="136" y1="5080" x2="136" y2="5110"/>
+    <line class="exit" x1="136" y1="5080" x2="166" y2="5080"/>
+    <line class="exit" x1="136" y1="5110" x2="136" y2="5140"/>
+    <line class="exit" x1="136" y1="5110" x2="166" y2="5110"/>
+    <line class="exit" x1="136" y1="5140" x2="136" y2="5170"/>
+    <line class="exit" x1="136" y1="5140" x2="166" y2="5140"/>
+    <line class="exit" x1="136" y1="5170" x2="136" y2="5200"/>
+    <line class="exit" x1="136" y1="5170" x2="166" y2="5170"/>
+    <line class="exit" x1="136" y1="5200" x2="136" y2="5230"/>
+    <line class="exit" x1="136" y1="5200" x2="166" y2="5200"/>
+    <line class="exit" x1="136" y1="5230" x2="136" y2="5260"/>
+    <line class="exit" x1="136" y1="5230" x2="166" y2="5230"/>
+    <line class="exit" x1="136" y1="5260" x2="136" y2="5290"/>
+    <line class="exit" x1="136" y1="5260" x2="166" y2="5260"/>
+    <line class="exit" x1="136" y1="5290" x2="136" y2="5320"/>
+    <line class="exit" x1="136" y1="5290" x2="166" y2="5290"/>
+    <line class="exit" x1="136" y1="5320" x2="136" y2="5350"/>
+    <line class="exit" x1="136" y1="5320" x2="166" y2="5320"/>
+    <line class="exit" x1="136" y1="5350" x2="136" y2="5380"/>
+    <line class="exit" x1="136" y1="5350" x2="166" y2="5350"/>
+    <line class="exit" x1="136" y1="5380" x2="136" y2="5410"/>
+    <line class="exit" x1="136" y1="5380" x2="166" y2="5380"/>
+    <line class="exit" x1="136" y1="5410" x2="136" y2="5440"/>
+    <line class="exit" x1="136" y1="5410" x2="166" y2="5410"/>
+    <line class="exit" x1="136" y1="5440" x2="136" y2="5470"/>
+    <line class="exit" x1="136" y1="5440" x2="166" y2="5440"/>
+    <line class="exit" x1="136" y1="5470" x2="136" y2="5500"/>
+    <line class="exit" x1="136" y1="5470" x2="166" y2="5470"/>
+    <line class="exit" x1="136" y1="5500" x2="136" y2="5530"/>
+    <line class="exit" x1="136" y1="5500" x2="166" y2="5500"/>
+    <line class="exit" x1="136" y1="5530" x2="136" y2="5560"/>
+    <line class="exit" x1="136" y1="5530" x2="166" y2="5530"/>
+    <line class="exit" x1="136" y1="5560" x2="166" y2="5560"/>
+    <line class="exit" x1="166" y1="4060" x2="166" y2="4090"/>
+    <line class="exit" x1="166" y1="4060" x2="196" y2="4060"/>
+    <line class="exit" x1="166" y1="4090" x2="166" y2="4120"/>
+    <line class="exit" x1="166" y1="4090" x2="196" y2="4090"/>
+    <line class="exit" x1="166" y1="4120" x2="166" y2="4150"/>
+    <line class="exit" x1="166" y1="4120" x2="196" y2="4120"/>
+    <line class="exit" x1="166" y1="4150" x2="166" y2="4180"/>
+    <line class="exit" x1="166" y1="4150" x2="196" y2="4150"/>
+    <line class="exit" x1="166" y1="4180" x2="166" y2="4210"/>
+    <line class="exit" x1="166" y1="4180" x2="196" y2="4180"/>
+    <line class="exit" x1="166" y1="4210" x2="166" y2="4240"/>
+    <line class="exit" x1="166" y1="4210" x2="196" y2="4210"/>
+    <line class="exit" x1="166" y1="4240" x2="166" y2="4270"/>
+    <line class="exit" x1="166" y1="4240" x2="196" y2="4240"/>
+    <line class="exit" x1="166" y1="4270" x2="166" y2="4300"/>
+    <line class="exit" x1="166" y1="4270" x2="196" y2="4270"/>
+    <line class="exit" x1="166" y1="4300" x2="166" y2="4330"/>
+    <line class="exit" x1="166" y1="4300" x2="196" y2="4300"/>
+    <line class="exit" x1="166" y1="4330" x2="166" y2="4360"/>
+    <line class="exit" x1="166" y1="4330" x2="196" y2="4330"/>
+    <line class="exit" x1="166" y1="4360" x2="166" y2="4390"/>
+    <line class="exit" x1="166" y1="4360" x2="196" y2="4360"/>
+    <line class="exit" x1="166" y1="4390" x2="166" y2="4420"/>
+    <line class="exit" x1="166" y1="4390" x2="196" y2="4390"/>
+    <line class="exit" x1="166" y1="4420" x2="166" y2="4450"/>
+    <line class="exit" x1="166" y1="4420" x2="196" y2="4420"/>
+    <line class="exit" x1="166" y1="4450" x2="166" y2="4480"/>
+    <line class="exit" x1="166" y1="4450" x2="196" y2="4450"/>
+    <line class="exit" x1="166" y1="4480" x2="166" y2="4510"/>
+    <line class="exit" x1="166" y1="4480" x2="196" y2="4480"/>
+    <line class="exit" x1="166" y1="4510" x2="166" y2="4540"/>
+    <line class="exit" x1="166" y1="4510" x2="196" y2="4510"/>
+    <line class="exit" x1="166" y1="4540" x2="166" y2="4570"/>
+    <line class="exit" x1="166" y1="4540" x2="196" y2="4540"/>
+    <line class="exit" x1="166" y1="4570" x2="166" y2="4600"/>
+    <line class="exit" x1="166" y1="4570" x2="196" y2="4570"/>
+    <line class="exit" x1="166" y1="4600" x2="166" y2="4630"/>
+    <line class="exit" x1="166" y1="4600" x2="196" y2="4600"/>
+    <line class="exit" x1="166" y1="4630" x2="166" y2="4660"/>
+    <line class="exit" x1="166" y1="4630" x2="196" y2="4630"/>
+    <line class="exit" x1="166" y1="4660" x2="166" y2="4690"/>
+    <line class="exit" x1="166" y1="4660" x2="196" y2="4660"/>
+    <line class="exit" x1="166" y1="4690" x2="166" y2="4720"/>
+    <line class="exit" x1="166" y1="4690" x2="196" y2="4690"/>
+    <line class="exit" x1="166" y1="4720" x2="166" y2="4750"/>
+    <line class="exit" x1="166" y1="4720" x2="196" y2="4720"/>
+    <line class="exit" x1="166" y1="4750" x2="166" y2="4780"/>
+    <line class="exit" x1="166" y1="4750" x2="196" y2="4750"/>
+    <line class="exit" x1="166" y1="4780" x2="166" y2="4810"/>
+    <line class="exit" x1="166" y1="4780" x2="196" y2="4780"/>
+    <line class="exit" x1="166" y1="4810" x2="166" y2="4840"/>
+    <line class="exit" x1="166" y1="4810" x2="196" y2="4810"/>
+    <line class="exit" x1="166" y1="4840" x2="166" y2="4870"/>
+    <line class="exit" x1="166" y1="4840" x2="196" y2="4840"/>
+    <line class="exit" x1="166" y1="4870" x2="166" y2="4900"/>
+    <line class="exit" x1="166" y1="4870" x2="196" y2="4870"/>
+    <line class="exit" x1="166" y1="4900" x2="166" y2="4930"/>
+    <line class="exit" x1="166" y1="4900" x2="196" y2="4900"/>
+    <line class="exit" x1="166" y1="4930" x2="166" y2="4960"/>
+    <line class="exit" x1="166" y1="4930" x2="196" y2="4930"/>
+    <line class="exit" x1="166" y1="4960" x2="166" y2="4990"/>
+    <line class="exit" x1="166" y1="4960" x2="196" y2="4960"/>
+    <line class="exit" x1="166" y1="4990" x2="166" y2="5020"/>
+    <line class="exit" x1="166" y1="4990" x2="196" y2="4990"/>
+    <line class="exit" x1="166" y1="5020" x2="166" y2="5050"/>
+    <line class="exit" x1="166" y1="5020" x2="196" y2="5020"/>
+    <line class="exit" x1="166" y1="5050" x2="166" y2="5080"/>
+    <line class="exit" x1="166" y1="5050" x2="196" y2="5050"/>
+    <line class="exit" x1="166" y1="5080" x2="166" y2="5110"/>
+    <line class="exit" x1="166" y1="5080" x2="196" y2="5080"/>
+    <line class="exit" x1="166" y1="5110" x2="166" y2="5140"/>
+    <line class="exit" x1="166" y1="5110" x2="196" y2="5110"/>
+    <line class="exit" x1="166" y1="5140" x2="166" y2="5170"/>
+    <line class="exit" x1="166" y1="5140" x2="196" y2="5140"/>
+    <line class="exit" x1="166" y1="5170" x2="166" y2="5200"/>
+    <line class="exit" x1="166" y1="5170" x2="196" y2="5170"/>
+    <line class="exit" x1="166" y1="5200" x2="166" y2="5230"/>
+    <line class="exit" x1="166" y1="5200" x2="196" y2="5200"/>
+    <line class="exit" x1="166" y1="5230" x2="166" y2="5260"/>
+    <line class="exit" x1="166" y1="5230" x2="196" y2="5230"/>
+    <line class="exit" x1="166" y1="5260" x2="166" y2="5290"/>
+    <line class="exit" x1="166" y1="5260" x2="196" y2="5260"/>
+    <line class="exit" x1="166" y1="5290" x2="166" y2="5320"/>
+    <line class="exit" x1="166" y1="5290" x2="196" y2="5290"/>
+    <line class="exit" x1="166" y1="5320" x2="166" y2="5350"/>
+    <line class="exit" x1="166" y1="5320" x2="196" y2="5320"/>
+    <line class="exit" x1="166" y1="5350" x2="166" y2="5380"/>
+    <line class="exit" x1="166" y1="5350" x2="196" y2="5350"/>
+    <line class="exit" x1="166" y1="5380" x2="166" y2="5410"/>
+    <line class="exit" x1="166" y1="5380" x2="196" y2="5380"/>
+    <line class="exit" x1="166" y1="5410" x2="166" y2="5440"/>
+    <line class="exit" x1="166" y1="5410" x2="196" y2="5410"/>
+    <line class="exit" x1="166" y1="5440" x2="166" y2="5470"/>
+    <line class="exit" x1="166" y1="5440" x2="196" y2="5440"/>
+    <line class="exit" x1="166" y1="5470" x2="166" y2="5500"/>
+    <line class="exit" x1="166" y1="5470" x2="196" y2="5470"/>
+    <line class="exit" x1="166" y1="5500" x2="166" y2="5530"/>
+    <line class="exit" x1="166" y1="5500" x2="196" y2="5500"/>
+    <line class="exit" x1="166" y1="5530" x2="166" y2="5560"/>
+    <line class="exit" x1="166" y1="5530" x2="196" y2="5530"/>
+    <line class="exit" x1="166" y1="5560" x2="196" y2="5560"/>
+    <line class="exit" x1="196" y1="4060" x2="196" y2="4090"/>
+    <line class="exit" x1="196" y1="4060" x2="226" y2="4060"/>
+    <line class="exit" x1="196" y1="4090" x2="196" y2="4120"/>
+    <line class="exit" x1="196" y1="4090" x2="226" y2="4090"/>
+    <line class="exit" x1="196" y1="4120" x2="196" y2="4150"/>
+    <line class="exit" x1="196" y1="4120" x2="226" y2="4120"/>
+    <line class="exit" x1="196" y1="4150" x2="196" y2="4180"/>
+    <line class="exit" x1="196" y1="4150" x2="226" y2="4150"/>
+    <line class="exit" x1="196" y1="4180" x2="196" y2="4210"/>
+    <line class="exit" x1="196" y1="4180" x2="226" y2="4180"/>
+    <line class="exit" x1="196" y1="4210" x2="196" y2="4240"/>
+    <line class="exit" x1="196" y1="4210" x2="226" y2="4210"/>
+    <line class="exit" x1="196" y1="4240" x2="196" y2="4270"/>
+    <line class="exit" x1="196" y1="4240" x2="226" y2="4240"/>
+    <line class="exit" x1="196" y1="4270" x2="196" y2="4300"/>
+    <line class="exit" x1="196" y1="4270" x2="226" y2="4270"/>
+    <line class="exit" x1="196" y1="4300" x2="196" y2="4330"/>
+    <line class="exit" x1="196" y1="4300" x2="226" y2="4300"/>
+    <line class="exit" x1="196" y1="4330" x2="196" y2="4360"/>
+    <line class="exit" x1="196" y1="4330" x2="226" y2="4330"/>
+    <line class="exit" x1="196" y1="4360" x2="196" y2="4390"/>
+    <line class="exit" x1="196" y1="4360" x2="226" y2="4360"/>
+    <line class="exit" x1="196" y1="4390" x2="196" y2="4420"/>
+    <line class="exit" x1="196" y1="4390" x2="226" y2="4390"/>
+    <line class="exit" x1="196" y1="4420" x2="196" y2="4450"/>
+    <line class="exit" x1="196" y1="4420" x2="226" y2="4420"/>
+    <line class="exit" x1="196" y1="4450" x2="196" y2="4480"/>
+    <line class="exit" x1="196" y1="4450" x2="226" y2="4450"/>
+    <line class="exit" x1="196" y1="4480" x2="196" y2="4510"/>
+    <line class="exit" x1="196" y1="4480" x2="226" y2="4480"/>
+    <line class="exit" x1="196" y1="4510" x2="196" y2="4540"/>
+    <line class="exit" x1="196" y1="4510" x2="226" y2="4510"/>
+    <line class="exit" x1="196" y1="4540" x2="196" y2="4570"/>
+    <line class="exit" x1="196" y1="4540" x2="226" y2="4540"/>
+    <line class="exit" x1="196" y1="4570" x2="196" y2="4600"/>
+    <line class="exit" x1="196" y1="4570" x2="226" y2="4570"/>
+    <line class="exit" x1="196" y1="4600" x2="196" y2="4630"/>
+    <line class="exit" x1="196" y1="4600" x2="226" y2="4600"/>
+    <line class="exit" x1="196" y1="4630" x2="196" y2="4660"/>
+    <line class="exit" x1="196" y1="4630" x2="226" y2="4630"/>
+    <line class="exit" x1="196" y1="4660" x2="196" y2="4690"/>
+    <line class="exit" x1="196" y1="4660" x2="226" y2="4660"/>
+    <line class="exit" x1="196" y1="4690" x2="196" y2="4720"/>
+    <line class="exit" x1="196" y1="4690" x2="226" y2="4690"/>
+    <line class="exit" x1="196" y1="4720" x2="196" y2="4750"/>
+    <line class="exit" x1="196" y1="4720" x2="226" y2="4720"/>
+    <line class="exit" x1="196" y1="4750" x2="196" y2="4780"/>
+    <line class="exit" x1="196" y1="4750" x2="226" y2="4750"/>
+    <line class="exit" x1="196" y1="4780" x2="196" y2="4810"/>
+    <line class="exit" x1="196" y1="4780" x2="226" y2="4780"/>
+    <line class="exit" x1="196" y1="4810" x2="196" y2="4840"/>
+    <line class="exit" x1="196" y1="4810" x2="226" y2="4810"/>
+    <line class="exit" x1="196" y1="4840" x2="196" y2="4870"/>
+    <line class="exit" x1="196" y1="4840" x2="226" y2="4840"/>
+    <line class="exit" x1="196" y1="4870" x2="196" y2="4900"/>
+    <line class="exit" x1="196" y1="4870" x2="226" y2="4870"/>
+    <line class="exit" x1="196" y1="4900" x2="196" y2="4930"/>
+    <line class="exit" x1="196" y1="4900" x2="226" y2="4900"/>
+    <line class="exit" x1="196" y1="4930" x2="196" y2="4960"/>
+    <line class="exit" x1="196" y1="4930" x2="226" y2="4930"/>
+    <line class="exit" x1="196" y1="4960" x2="196" y2="4990"/>
+    <line class="exit" x1="196" y1="4960" x2="226" y2="4960"/>
+    <line class="exit" x1="196" y1="4990" x2="196" y2="5020"/>
+    <line class="exit" x1="196" y1="4990" x2="226" y2="4990"/>
+    <line class="exit" x1="196" y1="5020" x2="196" y2="5050"/>
+    <line class="exit" x1="196" y1="5020" x2="226" y2="5020"/>
+    <line class="exit" x1="196" y1="5050" x2="196" y2="5080"/>
+    <line class="exit" x1="196" y1="5050" x2="226" y2="5050"/>
+    <line class="exit" x1="196" y1="5080" x2="196" y2="5110"/>
+    <line class="exit" x1="196" y1="5080" x2="226" y2="5080"/>
+    <line class="exit" x1="196" y1="5110" x2="196" y2="5140"/>
+    <line class="exit" x1="196" y1="5110" x2="226" y2="5110"/>
+    <line class="exit" x1="196" y1="5140" x2="196" y2="5170"/>
+    <line class="exit" x1="196" y1="5140" x2="226" y2="5140"/>
+    <line class="exit" x1="196" y1="5170" x2="196" y2="5200"/>
+    <line class="exit" x1="196" y1="5170" x2="226" y2="5170"/>
+    <line class="exit" x1="196" y1="5200" x2="196" y2="5230"/>
+    <line class="exit" x1="196" y1="5200" x2="226" y2="5200"/>
+    <line class="exit" x1="196" y1="5230" x2="196" y2="5260"/>
+    <line class="exit" x1="196" y1="5230" x2="226" y2="5230"/>
+    <line class="exit" x1="196" y1="5260" x2="196" y2="5290"/>
+    <line class="exit" x1="196" y1="5260" x2="226" y2="5260"/>
+    <line class="exit" x1="196" y1="5290" x2="196" y2="5320"/>
+    <line class="exit" x1="196" y1="5290" x2="226" y2="5290"/>
+    <line class="exit" x1="196" y1="5320" x2="196" y2="5350"/>
+    <line class="exit" x1="196" y1="5320" x2="226" y2="5320"/>
+    <line class="exit" x1="196" y1="5350" x2="196" y2="5380"/>
+    <line class="exit" x1="196" y1="5350" x2="226" y2="5350"/>
+    <line class="exit" x1="196" y1="5380" x2="196" y2="5410"/>
+    <line class="exit" x1="196" y1="5380" x2="226" y2="5380"/>
+    <line class="exit" x1="196" y1="5410" x2="196" y2="5440"/>
+    <line class="exit" x1="196" y1="5410" x2="226" y2="5410"/>
+    <line class="exit" x1="196" y1="5440" x2="196" y2="5470"/>
+    <line class="exit" x1="196" y1="5440" x2="226" y2="5440"/>
+    <line class="exit" x1="196" y1="5470" x2="196" y2="5500"/>
+    <line class="exit" x1="196" y1="5470" x2="226" y2="5470"/>
+    <line class="exit" x1="196" y1="5500" x2="196" y2="5530"/>
+    <line class="exit" x1="196" y1="5500" x2="226" y2="5500"/>
+    <line class="exit" x1="196" y1="5530" x2="196" y2="5560"/>
+    <line class="exit" x1="196" y1="5530" x2="226" y2="5530"/>
+    <line class="exit" x1="196" y1="5560" x2="226" y2="5560"/>
+    <line class="exit" x1="226" y1="4060" x2="226" y2="4090"/>
+    <line class="exit" x1="226" y1="4060" x2="256" y2="4060"/>
+    <line class="exit" x1="226" y1="4090" x2="226" y2="4120"/>
+    <line class="exit" x1="226" y1="4090" x2="256" y2="4090"/>
+    <line class="exit" x1="226" y1="4120" x2="226" y2="4150"/>
+    <line class="exit" x1="226" y1="4120" x2="256" y2="4120"/>
+    <line class="exit" x1="226" y1="4150" x2="226" y2="4180"/>
+    <line class="exit" x1="226" y1="4150" x2="256" y2="4150"/>
+    <line class="exit" x1="226" y1="4180" x2="226" y2="4210"/>
+    <line class="exit" x1="226" y1="4180" x2="256" y2="4180"/>
+    <line class="exit" x1="226" y1="4210" x2="226" y2="4240"/>
+    <line class="exit" x1="226" y1="4210" x2="256" y2="4210"/>
+    <line class="exit" x1="226" y1="4240" x2="226" y2="4270"/>
+    <line class="exit" x1="226" y1="4240" x2="256" y2="4240"/>
+    <line class="exit" x1="226" y1="4270" x2="226" y2="4300"/>
+    <line class="exit" x1="226" y1="4270" x2="256" y2="4270"/>
+    <line class="exit" x1="226" y1="4300" x2="226" y2="4330"/>
+    <line class="exit" x1="226" y1="4300" x2="256" y2="4300"/>
+    <line class="exit" x1="226" y1="4330" x2="226" y2="4360"/>
+    <line class="exit" x1="226" y1="4330" x2="256" y2="4330"/>
+    <line class="exit" x1="226" y1="4360" x2="226" y2="4390"/>
+    <line class="exit" x1="226" y1="4360" x2="256" y2="4360"/>
+    <line class="exit" x1="226" y1="4390" x2="226" y2="4420"/>
+    <line class="exit" x1="226" y1="4390" x2="256" y2="4390"/>
+    <line class="exit" x1="226" y1="4420" x2="226" y2="4450"/>
+    <line class="exit" x1="226" y1="4420" x2="256" y2="4420"/>
+    <line class="exit" x1="226" y1="4450" x2="226" y2="4480"/>
+    <line class="exit" x1="226" y1="4450" x2="256" y2="4450"/>
+    <line class="exit" x1="226" y1="4480" x2="226" y2="4510"/>
+    <line class="exit" x1="226" y1="4480" x2="256" y2="4480"/>
+    <line class="exit" x1="226" y1="4510" x2="226" y2="4540"/>
+    <line class="exit" x1="226" y1="4510" x2="256" y2="4510"/>
+    <line class="exit" x1="226" y1="4540" x2="226" y2="4570"/>
+    <line class="exit" x1="226" y1="4540" x2="256" y2="4540"/>
+    <line class="exit" x1="226" y1="4570" x2="226" y2="4600"/>
+    <line class="exit" x1="226" y1="4570" x2="256" y2="4570"/>
+    <line class="exit" x1="226" y1="4600" x2="226" y2="4630"/>
+    <line class="exit" x1="226" y1="4600" x2="256" y2="4600"/>
+    <line class="exit" x1="226" y1="4630" x2="226" y2="4660"/>
+    <line class="exit" x1="226" y1="4630" x2="256" y2="4630"/>
+    <line class="exit" x1="226" y1="4660" x2="226" y2="4690"/>
+    <line class="exit" x1="226" y1="4660" x2="256" y2="4660"/>
+    <line class="exit" x1="226" y1="4690" x2="226" y2="4720"/>
+    <line class="exit" x1="226" y1="4690" x2="256" y2="4690"/>
+    <line class="exit" x1="226" y1="4720" x2="226" y2="4750"/>
+    <line class="exit" x1="226" y1="4720" x2="256" y2="4720"/>
+    <line class="exit" x1="226" y1="4750" x2="226" y2="4780"/>
+    <line class="exit" x1="226" y1="4750" x2="256" y2="4750"/>
+    <line class="exit" x1="226" y1="4780" x2="226" y2="4810"/>
+    <line class="exit" x1="226" y1="4780" x2="256" y2="4780"/>
+    <line class="exit" x1="226" y1="4810" x2="226" y2="4840"/>
+    <line class="exit" x1="226" y1="4810" x2="256" y2="4810"/>
+    <line class="exit" x1="226" y1="4840" x2="226" y2="4870"/>
+    <line class="exit" x1="226" y1="4840" x2="256" y2="4840"/>
+    <line class="exit" x1="226" y1="4870" x2="226" y2="4900"/>
+    <line class="exit" x1="226" y1="4870" x2="256" y2="4870"/>
+    <line class="exit" x1="226" y1="4900" x2="226" y2="4930"/>
+    <line class="exit" x1="226" y1="4900" x2="256" y2="4900"/>
+    <line class="exit" x1="226" y1="4930" x2="226" y2="4960"/>
+    <line class="exit" x1="226" y1="4930" x2="256" y2="4930"/>
+    <line class="exit" x1="226" y1="4960" x2="226" y2="4990"/>
+    <line class="exit" x1="226" y1="4960" x2="256" y2="4960"/>
+    <line class="exit" x1="226" y1="4990" x2="226" y2="5020"/>
+    <line class="exit" x1="226" y1="4990" x2="256" y2="4990"/>
+    <line class="exit" x1="226" y1="5020" x2="226" y2="5050"/>
+    <line class="exit" x1="226" y1="5020" x2="256" y2="5020"/>
+    <line class="exit" x1="226" y1="5050" x2="226" y2="5080"/>
+    <line class="exit" x1="226" y1="5050" x2="256" y2="5050"/>
+    <line class="exit" x1="226" y1="5080" x2="226" y2="5110"/>
+    <line class="exit" x1="226" y1="5080" x2="256" y2="5080"/>
+    <line class="exit" x1="226" y1="5110" x2="226" y2="5140"/>
+    <line class="exit" x1="226" y1="5110" x2="256" y2="5110"/>
+    <line class="exit" x1="226" y1="5140" x2="226" y2="5170"/>
+    <line class="exit" x1="226" y1="5140" x2="256" y2="5140"/>
+    <line class="exit" x1="226" y1="5170" x2="226" y2="5200"/>
+    <line class="exit" x1="226" y1="5170" x2="256" y2="5170"/>
+    <line class="exit" x1="226" y1="5200" x2="226" y2="5230"/>
+    <line class="exit" x1="226" y1="5200" x2="256" y2="5200"/>
+    <line class="exit" x1="226" y1="5230" x2="226" y2="5260"/>
+    <line class="exit" x1="226" y1="5230" x2="256" y2="5230"/>
+    <line class="exit" x1="226" y1="5260" x2="226" y2="5290"/>
+    <line class="exit" x1="226" y1="5260" x2="256" y2="5260"/>
+    <line class="exit" x1="226" y1="5290" x2="226" y2="5320"/>
+    <line class="exit" x1="226" y1="5290" x2="256" y2="5290"/>
+    <line class="exit" x1="226" y1="5320" x2="226" y2="5350"/>
+    <line class="exit" x1="226" y1="5320" x2="256" y2="5320"/>
+    <line class="exit" x1="226" y1="5350" x2="226" y2="5380"/>
+    <line class="exit" x1="226" y1="5350" x2="256" y2="5350"/>
+    <line class="exit" x1="226" y1="5380" x2="226" y2="5410"/>
+    <line class="exit" x1="226" y1="5380" x2="256" y2="5380"/>
+    <line class="exit" x1="226" y1="5410" x2="226" y2="5440"/>
+    <line class="exit" x1="226" y1="5410" x2="256" y2="5410"/>
+    <line class="exit" x1="226" y1="5440" x2="226" y2="5470"/>
+    <line class="exit" x1="226" y1="5440" x2="256" y2="5440"/>
+    <line class="exit" x1="226" y1="5470" x2="226" y2="5500"/>
+    <line class="exit" x1="226" y1="5470" x2="256" y2="5470"/>
+    <line class="exit" x1="226" y1="5500" x2="226" y2="5530"/>
+    <line class="exit" x1="226" y1="5500" x2="256" y2="5500"/>
+    <line class="exit" x1="226" y1="5530" x2="226" y2="5560"/>
+    <line class="exit" x1="226" y1="5530" x2="256" y2="5530"/>
+    <line class="exit" x1="226" y1="5560" x2="256" y2="5560"/>
+    <line class="exit" x1="256" y1="4060" x2="256" y2="4090"/>
+    <line class="exit" x1="256" y1="4090" x2="256" y2="4120"/>
+    <line class="exit" x1="256" y1="4120" x2="256" y2="4150"/>
+    <line class="exit" x1="256" y1="4150" x2="256" y2="4180"/>
+    <line class="exit" x1="256" y1="4180" x2="256" y2="4210"/>
+    <line class="exit" x1="256" y1="4210" x2="256" y2="4240"/>
+    <line class="exit" x1="256" y1="4240" x2="256" y2="4270"/>
+    <line class="exit" x1="256" y1="4270" x2="256" y2="4300"/>
+    <line class="exit" x1="256" y1="4300" x2="256" y2="4330"/>
+    <line class="exit" x1="256" y1="4330" x2="256" y2="4360"/>
+    <line class="exit" x1="256" y1="4360" x2="256" y2="4390"/>
+    <line class="exit" x1="256" y1="4390" x2="256" y2="4420"/>
+    <line class="exit" x1="256" y1="4420" x2="256" y2="4450"/>
+    <line class="exit" x1="256" y1="4450" x2="256" y2="4480"/>
+    <line class="exit" x1="256" y1="4480" x2="256" y2="4510"/>
+    <line class="exit" x1="256" y1="4510" x2="256" y2="4540"/>
+    <line class="exit" x1="256" y1="4540" x2="256" y2="4570"/>
+    <line class="exit" x1="256" y1="4570" x2="256" y2="4600"/>
+    <line class="exit" x1="256" y1="4600" x2="256" y2="4630"/>
+    <line class="exit" x1="256" y1="4630" x2="256" y2="4660"/>
+    <line class="exit" x1="256" y1="4660" x2="256" y2="4690"/>
+    <line class="exit" x1="256" y1="4690" x2="256" y2="4720"/>
+    <line class="exit" x1="256" y1="4720" x2="256" y2="4750"/>
+    <line class="exit" x1="256" y1="4750" x2="256" y2="4780"/>
+    <line class="exit" x1="256" y1="4780" x2="256" y2="4810"/>
+    <line class="exit" x1="256" y1="4810" x2="256" y2="4840"/>
+    <line class="exit" x1="256" y1="4840" x2="256" y2="4870"/>
+    <line class="exit" x1="256" y1="4870" x2="256" y2="4900"/>
+    <line class="exit" x1="256" y1="4900" x2="256" y2="4930"/>
+    <line class="exit" x1="256" y1="4930" x2="256" y2="4960"/>
+    <line class="exit" x1="256" y1="4960" x2="256" y2="4990"/>
+    <line class="exit" x1="256" y1="4990" x2="256" y2="5020"/>
+    <line class="exit" x1="256" y1="5020" x2="256" y2="5050"/>
+    <line class="exit" x1="256" y1="5050" x2="256" y2="5080"/>
+    <line class="exit" x1="256" y1="5080" x2="256" y2="5110"/>
+    <line class="exit" x1="256" y1="5110" x2="256" y2="5140"/>
+    <line class="exit" x1="256" y1="5140" x2="256" y2="5170"/>
+    <line class="exit" x1="256" y1="5170" x2="256" y2="5200"/>
+    <line class="exit" x1="256" y1="5200" x2="256" y2="5230"/>
+    <line class="exit" x1="256" y1="5230" x2="256" y2="5260"/>
+    <line class="exit" x1="256" y1="5260" x2="256" y2="5290"/>
+    <line class="exit" x1="256" y1="5290" x2="256" y2="5320"/>
+    <line class="exit" x1="256" y1="5320" x2="256" y2="5350"/>
+    <line class="exit" x1="256" y1="5350" x2="256" y2="5380"/>
+    <line class="exit" x1="256" y1="5380" x2="256" y2="5410"/>
+    <line class="exit" x1="256" y1="5410" x2="256" y2="5440"/>
+    <line class="exit" x1="256" y1="5440" x2="256" y2="5470"/>
+    <line class="exit" x1="256" y1="5470" x2="256" y2="5500"/>
+    <line class="exit" x1="256" y1="5500" x2="256" y2="5530"/>
+    <line class="exit" x1="256" y1="5530" x2="256" y2="5560"/>
+  </g>
+
+  <g id="layer-rooms">
+    <rect id="lib-distortion" class="lib-distortion" x="0" y="0" width="0" height="0" visibility="hidden"/>
+    <circle id="lib-orb" class="lib-orb" cx="0" cy="0" r="0" visibility="hidden"/>
+    <path id="lib-arrow" class="lib-arrow" d="M 0 0" visibility="hidden"/>
+    <rect id="room-lib-46-4060" class="room indoor" x="31" y="4045" width="30" height="30"/>
+    <rect id="room-lib-46-4090" class="room indoor" x="31" y="4075" width="30" height="30"/>
+    <rect id="room-lib-46-4120" class="room indoor" x="31" y="4105" width="30" height="30"/>
+    <rect id="room-lib-46-4150" class="room indoor" x="31" y="4135" width="30" height="30"/>
+    <rect id="room-lib-46-4180" class="room indoor" x="31" y="4165" width="30" height="30"/>
+    <rect id="room-lib-46-4210" class="room indoor" x="31" y="4195" width="30" height="30"/>
+    <rect id="room-lib-46-4240" class="room indoor" x="31" y="4225" width="30" height="30"/>
+    <rect id="room-lib-46-4270" class="room indoor" x="31" y="4255" width="30" height="30"/>
+    <rect id="room-lib-46-4300" class="room indoor" x="31" y="4285" width="30" height="30"/>
+    <rect id="room-lib-46-4330" class="room indoor" x="31" y="4315" width="30" height="30"/>
+    <rect id="room-lib-46-4360" class="room indoor" x="31" y="4345" width="30" height="30"/>
+    <rect id="room-lib-46-4390" class="room indoor" x="31" y="4375" width="30" height="30"/>
+    <rect id="room-lib-46-4420" class="room indoor" x="31" y="4405" width="30" height="30"/>
+    <rect id="room-lib-46-4450" class="room indoor" x="31" y="4435" width="30" height="30"/>
+    <rect id="room-lib-46-4480" class="room indoor" x="31" y="4465" width="30" height="30"/>
+    <rect id="room-lib-46-4510" class="room indoor" x="31" y="4495" width="30" height="30"/>
+    <rect id="room-lib-46-4540" class="room indoor" x="31" y="4525" width="30" height="30"/>
+    <rect id="room-lib-46-4570" class="room indoor" x="31" y="4555" width="30" height="30"/>
+    <rect id="room-lib-46-4600" class="room indoor" x="31" y="4585" width="30" height="30"/>
+    <rect id="room-lib-46-4630" class="room indoor" x="31" y="4615" width="30" height="30"/>
+    <rect id="room-lib-46-4660" class="room indoor" x="31" y="4645" width="30" height="30"/>
+    <rect id="room-lib-46-4690" class="room indoor" x="31" y="4675" width="30" height="30"/>
+    <rect id="room-lib-46-4720" class="room indoor" x="31" y="4705" width="30" height="30"/>
+    <rect id="room-lib-46-4750" class="room indoor" x="31" y="4735" width="30" height="30"/>
+    <rect id="room-lib-46-4780" class="room indoor" x="31" y="4765" width="30" height="30"/>
+    <rect id="room-lib-46-4810" class="room indoor" x="31" y="4795" width="30" height="30"/>
+    <rect id="room-lib-46-4840" class="room indoor" x="31" y="4825" width="30" height="30"/>
+    <rect id="room-lib-46-4870" class="room indoor" x="31" y="4855" width="30" height="30"/>
+    <rect id="room-lib-46-4900" class="room indoor" x="31" y="4885" width="30" height="30"/>
+    <rect id="room-lib-46-4930" class="room indoor" x="31" y="4915" width="30" height="30"/>
+    <rect id="room-lib-46-4960" class="room indoor" x="31" y="4945" width="30" height="30"/>
+    <rect id="room-lib-46-4990" class="room indoor" x="31" y="4975" width="30" height="30"/>
+    <rect id="room-lib-46-5020" class="room indoor" x="31" y="5005" width="30" height="30"/>
+    <rect id="room-lib-46-5050" class="room indoor" x="31" y="5035" width="30" height="30"/>
+    <rect id="room-lib-46-5080" class="room indoor" x="31" y="5065" width="30" height="30"/>
+    <rect id="room-lib-46-5110" class="room indoor" x="31" y="5095" width="30" height="30"/>
+    <rect id="room-lib-46-5140" class="room indoor" x="31" y="5125" width="30" height="30"/>
+    <rect id="room-lib-46-5170" class="room indoor" x="31" y="5155" width="30" height="30"/>
+    <rect id="room-lib-46-5200" class="room indoor" x="31" y="5185" width="30" height="30"/>
+    <rect id="room-lib-46-5230" class="room indoor" x="31" y="5215" width="30" height="30"/>
+    <rect id="room-lib-46-5260" class="room indoor" x="31" y="5245" width="30" height="30"/>
+    <rect id="room-lib-46-5290" class="room indoor" x="31" y="5275" width="30" height="30"/>
+    <rect id="room-lib-46-5320" class="room indoor" x="31" y="5305" width="30" height="30"/>
+    <rect id="room-lib-46-5350" class="room indoor" x="31" y="5335" width="30" height="30"/>
+    <rect id="room-lib-46-5380" class="room indoor" x="31" y="5365" width="30" height="30"/>
+    <rect id="room-lib-46-5410" class="room indoor" x="31" y="5395" width="30" height="30"/>
+    <rect id="room-lib-46-5440" class="room indoor" x="31" y="5425" width="30" height="30"/>
+    <rect id="room-lib-46-5470" class="room indoor" x="31" y="5455" width="30" height="30"/>
+    <rect id="room-lib-46-5500" class="room indoor" x="31" y="5485" width="30" height="30"/>
+    <rect id="room-lib-46-5530" class="room indoor" x="31" y="5515" width="30" height="30"/>
+    <rect id="room-lib-46-5560" class="room indoor" x="31" y="5545" width="30" height="30"/>
+    <rect id="room-lib-76-4060" class="room indoor" x="61" y="4045" width="30" height="30"/>
+    <rect id="room-lib-76-4090" class="room indoor" x="61" y="4075" width="30" height="30"/>
+    <rect id="room-lib-76-4120" class="room indoor" x="61" y="4105" width="30" height="30"/>
+    <rect id="room-lib-76-4150" class="room indoor" x="61" y="4135" width="30" height="30"/>
+    <rect id="room-lib-76-4180" class="room indoor" x="61" y="4165" width="30" height="30"/>
+    <rect id="room-lib-76-4210" class="room indoor" x="61" y="4195" width="30" height="30"/>
+    <rect id="room-lib-76-4240" class="room indoor" x="61" y="4225" width="30" height="30"/>
+    <rect id="room-lib-76-4270" class="room indoor" x="61" y="4255" width="30" height="30"/>
+    <rect id="room-lib-76-4300" class="room indoor" x="61" y="4285" width="30" height="30"/>
+    <rect id="room-lib-76-4330" class="room indoor" x="61" y="4315" width="30" height="30"/>
+    <rect id="room-lib-76-4360" class="room indoor" x="61" y="4345" width="30" height="30"/>
+    <rect id="room-lib-76-4390" class="room indoor" x="61" y="4375" width="30" height="30"/>
+    <rect id="room-lib-76-4420" class="room indoor" x="61" y="4405" width="30" height="30"/>
+    <rect id="room-lib-76-4450" class="room indoor" x="61" y="4435" width="30" height="30"/>
+    <rect id="room-lib-76-4480" class="room indoor" x="61" y="4465" width="30" height="30"/>
+    <rect id="room-lib-76-4510" class="room indoor" x="61" y="4495" width="30" height="30"/>
+    <rect id="room-lib-76-4540" class="room indoor" x="61" y="4525" width="30" height="30"/>
+    <rect id="room-lib-76-4570" class="room indoor" x="61" y="4555" width="30" height="30"/>
+    <rect id="room-lib-76-4600" class="room indoor" x="61" y="4585" width="30" height="30"/>
+    <rect id="room-lib-76-4630" class="room indoor" x="61" y="4615" width="30" height="30"/>
+    <rect id="room-lib-76-4660" class="room indoor" x="61" y="4645" width="30" height="30"/>
+    <rect id="room-lib-76-4690" class="room indoor" x="61" y="4675" width="30" height="30"/>
+    <rect id="room-lib-76-4720" class="room indoor" x="61" y="4705" width="30" height="30"/>
+    <rect id="room-lib-76-4750" class="room indoor" x="61" y="4735" width="30" height="30"/>
+    <rect id="room-lib-76-4780" class="room indoor" x="61" y="4765" width="30" height="30"/>
+    <rect id="room-lib-76-4810" class="room indoor" x="61" y="4795" width="30" height="30"/>
+    <rect id="room-lib-76-4840" class="room indoor" x="61" y="4825" width="30" height="30"/>
+    <rect id="room-lib-76-4870" class="room indoor" x="61" y="4855" width="30" height="30"/>
+    <rect id="room-lib-76-4900" class="room indoor" x="61" y="4885" width="30" height="30"/>
+    <rect id="room-lib-76-4930" class="room indoor" x="61" y="4915" width="30" height="30"/>
+    <rect id="room-lib-76-4960" class="room indoor" x="61" y="4945" width="30" height="30"/>
+    <rect id="room-lib-76-4990" class="room indoor" x="61" y="4975" width="30" height="30"/>
+    <rect id="room-lib-76-5020" class="room indoor" x="61" y="5005" width="30" height="30"/>
+    <rect id="room-lib-76-5050" class="room indoor" x="61" y="5035" width="30" height="30"/>
+    <rect id="room-lib-76-5080" class="room indoor" x="61" y="5065" width="30" height="30"/>
+    <rect id="room-lib-76-5110" class="room indoor" x="61" y="5095" width="30" height="30"/>
+    <rect id="room-lib-76-5140" class="room indoor" x="61" y="5125" width="30" height="30"/>
+    <rect id="room-lib-76-5170" class="room indoor" x="61" y="5155" width="30" height="30"/>
+    <rect id="room-lib-76-5200" class="room indoor" x="61" y="5185" width="30" height="30"/>
+    <rect id="room-lib-76-5230" class="room indoor" x="61" y="5215" width="30" height="30"/>
+    <rect id="room-lib-76-5260" class="room indoor" x="61" y="5245" width="30" height="30"/>
+    <rect id="room-lib-76-5290" class="room indoor" x="61" y="5275" width="30" height="30"/>
+    <rect id="room-lib-76-5320" class="room indoor" x="61" y="5305" width="30" height="30"/>
+    <rect id="room-lib-76-5350" class="room indoor" x="61" y="5335" width="30" height="30"/>
+    <rect id="room-lib-76-5380" class="room indoor" x="61" y="5365" width="30" height="30"/>
+    <rect id="room-lib-76-5410" class="room indoor" x="61" y="5395" width="30" height="30"/>
+    <rect id="room-lib-76-5440" class="room indoor" x="61" y="5425" width="30" height="30"/>
+    <rect id="room-lib-76-5470" class="room indoor" x="61" y="5455" width="30" height="30"/>
+    <rect id="room-lib-76-5500" class="room indoor" x="61" y="5485" width="30" height="30"/>
+    <rect id="room-lib-76-5530" class="room indoor" x="61" y="5515" width="30" height="30"/>
+    <rect id="room-lib-76-5560" class="room indoor" x="61" y="5545" width="30" height="30"/>
+    <rect id="room-lib-106-4060" class="room indoor" x="91" y="4045" width="30" height="30"/>
+    <rect id="room-lib-106-4090" class="room indoor" x="91" y="4075" width="30" height="30"/>
+    <rect id="room-lib-106-4120" class="room indoor" x="91" y="4105" width="30" height="30"/>
+    <rect id="room-lib-106-4150" class="room indoor" x="91" y="4135" width="30" height="30"/>
+    <rect id="room-lib-106-4180" class="room indoor" x="91" y="4165" width="30" height="30"/>
+    <rect id="room-lib-106-4210" class="room indoor" x="91" y="4195" width="30" height="30"/>
+    <rect id="room-lib-106-4240" class="room indoor" x="91" y="4225" width="30" height="30"/>
+    <rect id="room-lib-106-4270" class="room indoor" x="91" y="4255" width="30" height="30"/>
+    <rect id="room-lib-106-4300" class="room indoor" x="91" y="4285" width="30" height="30"/>
+    <rect id="room-lib-106-4330" class="room indoor" x="91" y="4315" width="30" height="30"/>
+    <rect id="room-lib-106-4360" class="room indoor" x="91" y="4345" width="30" height="30"/>
+    <rect id="room-lib-106-4390" class="room indoor" x="91" y="4375" width="30" height="30"/>
+    <rect id="room-lib-106-4420" class="room indoor" x="91" y="4405" width="30" height="30"/>
+    <rect id="room-lib-106-4450" class="room indoor" x="91" y="4435" width="30" height="30"/>
+    <rect id="room-lib-106-4480" class="room indoor" x="91" y="4465" width="30" height="30"/>
+    <rect id="room-lib-106-4510" class="room indoor" x="91" y="4495" width="30" height="30"/>
+    <rect id="room-lib-106-4540" class="room indoor" x="91" y="4525" width="30" height="30"/>
+    <rect id="room-lib-106-4570" class="room indoor" x="91" y="4555" width="30" height="30"/>
+    <rect id="room-lib-106-4600" class="room indoor" x="91" y="4585" width="30" height="30"/>
+    <rect id="room-lib-106-4630" class="room indoor" x="91" y="4615" width="30" height="30"/>
+    <rect id="room-lib-106-4660" class="room indoor" x="91" y="4645" width="30" height="30"/>
+    <rect id="room-lib-106-4690" class="room indoor" x="91" y="4675" width="30" height="30"/>
+    <rect id="room-lib-106-4720" class="room indoor" x="91" y="4705" width="30" height="30"/>
+    <rect id="room-lib-106-4750" class="room indoor" x="91" y="4735" width="30" height="30"/>
+    <rect id="room-lib-106-4780" class="room indoor" x="91" y="4765" width="30" height="30"/>
+    <rect id="room-lib-106-4810" class="room indoor" x="91" y="4795" width="30" height="30"/>
+    <rect id="room-lib-106-4840" class="room indoor" x="91" y="4825" width="30" height="30"/>
+    <rect id="room-lib-106-4870" class="room indoor" x="91" y="4855" width="30" height="30"/>
+    <rect id="room-lib-106-4900" class="room indoor" x="91" y="4885" width="30" height="30"/>
+    <rect id="room-lib-106-4930" class="room indoor" x="91" y="4915" width="30" height="30"/>
+    <rect id="room-lib-106-4960" class="room indoor" x="91" y="4945" width="30" height="30"/>
+    <rect id="room-lib-106-4990" class="room indoor" x="91" y="4975" width="30" height="30"/>
+    <rect id="room-lib-106-5020" class="room indoor" x="91" y="5005" width="30" height="30"/>
+    <rect id="room-lib-106-5050" class="room indoor" x="91" y="5035" width="30" height="30"/>
+    <rect id="room-lib-106-5080" class="room indoor" x="91" y="5065" width="30" height="30"/>
+    <rect id="room-lib-106-5110" class="room indoor" x="91" y="5095" width="30" height="30"/>
+    <rect id="room-lib-106-5140" class="room indoor" x="91" y="5125" width="30" height="30"/>
+    <rect id="room-lib-106-5170" class="room indoor" x="91" y="5155" width="30" height="30"/>
+    <rect id="room-lib-106-5200" class="room indoor" x="91" y="5185" width="30" height="30"/>
+    <rect id="room-lib-106-5230" class="room indoor" x="91" y="5215" width="30" height="30"/>
+    <rect id="room-lib-106-5260" class="room indoor" x="91" y="5245" width="30" height="30"/>
+    <rect id="room-lib-106-5290" class="room indoor" x="91" y="5275" width="30" height="30"/>
+    <rect id="room-lib-106-5320" class="room indoor" x="91" y="5305" width="30" height="30"/>
+    <rect id="room-lib-106-5350" class="room indoor" x="91" y="5335" width="30" height="30"/>
+    <rect id="room-lib-106-5380" class="room indoor" x="91" y="5365" width="30" height="30"/>
+    <rect id="room-lib-106-5410" class="room indoor" x="91" y="5395" width="30" height="30"/>
+    <rect id="room-lib-106-5440" class="room indoor" x="91" y="5425" width="30" height="30"/>
+    <rect id="room-lib-106-5470" class="room indoor" x="91" y="5455" width="30" height="30"/>
+    <rect id="room-lib-106-5500" class="room indoor" x="91" y="5485" width="30" height="30"/>
+    <rect id="room-lib-106-5530" class="room indoor" x="91" y="5515" width="30" height="30"/>
+    <rect id="room-lib-106-5560" class="room indoor" x="91" y="5545" width="30" height="30"/>
+    <rect id="room-lib-136-4060" class="room indoor" x="121" y="4045" width="30" height="30"/>
+    <rect id="room-lib-136-4090" class="room indoor" x="121" y="4075" width="30" height="30"/>
+    <rect id="room-lib-136-4120" class="room indoor" x="121" y="4105" width="30" height="30"/>
+    <rect id="room-lib-136-4150" class="room indoor" x="121" y="4135" width="30" height="30"/>
+    <rect id="room-lib-136-4180" class="room indoor" x="121" y="4165" width="30" height="30"/>
+    <rect id="room-lib-136-4210" class="room indoor" x="121" y="4195" width="30" height="30"/>
+    <rect id="room-lib-136-4240" class="room indoor" x="121" y="4225" width="30" height="30"/>
+    <rect id="room-lib-136-4270" class="room indoor" x="121" y="4255" width="30" height="30"/>
+    <rect id="room-lib-136-4300" class="room indoor" x="121" y="4285" width="30" height="30"/>
+    <rect id="room-lib-136-4330" class="room indoor" x="121" y="4315" width="30" height="30"/>
+    <rect id="room-lib-136-4360" class="room indoor" x="121" y="4345" width="30" height="30"/>
+    <rect id="room-lib-136-4390" class="room indoor" x="121" y="4375" width="30" height="30"/>
+    <rect id="room-lib-136-4420" class="room indoor" x="121" y="4405" width="30" height="30"/>
+    <rect id="room-lib-136-4450" class="room indoor" x="121" y="4435" width="30" height="30"/>
+    <rect id="room-lib-136-4480" class="room indoor" x="121" y="4465" width="30" height="30"/>
+    <rect id="room-lib-136-4510" class="room indoor" x="121" y="4495" width="30" height="30"/>
+    <rect id="room-lib-136-4540" class="room indoor" x="121" y="4525" width="30" height="30"/>
+    <rect id="room-lib-136-4570" class="room indoor" x="121" y="4555" width="30" height="30"/>
+    <rect id="room-lib-136-4600" class="room indoor" x="121" y="4585" width="30" height="30"/>
+    <rect id="room-lib-136-4630" class="room indoor" x="121" y="4615" width="30" height="30"/>
+    <rect id="room-lib-136-4660" class="room indoor" x="121" y="4645" width="30" height="30"/>
+    <rect id="room-lib-136-4690" class="room indoor" x="121" y="4675" width="30" height="30"/>
+    <rect id="room-lib-136-4720" class="room indoor" x="121" y="4705" width="30" height="30"/>
+    <rect id="room-lib-136-4750" class="room indoor" x="121" y="4735" width="30" height="30"/>
+    <rect id="room-lib-136-4780" class="room indoor" x="121" y="4765" width="30" height="30"/>
+    <rect id="room-lib-136-4810" class="room indoor" x="121" y="4795" width="30" height="30"/>
+    <rect id="room-lib-136-4840" class="room indoor" x="121" y="4825" width="30" height="30"/>
+    <rect id="room-lib-136-4870" class="room indoor" x="121" y="4855" width="30" height="30"/>
+    <rect id="room-lib-136-4900" class="room indoor" x="121" y="4885" width="30" height="30"/>
+    <rect id="room-lib-136-4930" class="room indoor" x="121" y="4915" width="30" height="30"/>
+    <rect id="room-lib-136-4960" class="room indoor" x="121" y="4945" width="30" height="30"/>
+    <rect id="room-lib-136-4990" class="room indoor" x="121" y="4975" width="30" height="30"/>
+    <rect id="room-lib-136-5020" class="room indoor" x="121" y="5005" width="30" height="30"/>
+    <rect id="room-lib-136-5050" class="room indoor" x="121" y="5035" width="30" height="30"/>
+    <rect id="room-lib-136-5080" class="room indoor" x="121" y="5065" width="30" height="30"/>
+    <rect id="room-lib-136-5110" class="room indoor" x="121" y="5095" width="30" height="30"/>
+    <rect id="room-lib-136-5140" class="room indoor" x="121" y="5125" width="30" height="30"/>
+    <rect id="room-lib-136-5170" class="room indoor" x="121" y="5155" width="30" height="30"/>
+    <rect id="room-lib-136-5200" class="room indoor" x="121" y="5185" width="30" height="30"/>
+    <rect id="room-lib-136-5230" class="room indoor" x="121" y="5215" width="30" height="30"/>
+    <rect id="room-lib-136-5260" class="room indoor" x="121" y="5245" width="30" height="30"/>
+    <rect id="room-lib-136-5290" class="room indoor" x="121" y="5275" width="30" height="30"/>
+    <rect id="room-lib-136-5320" class="room indoor" x="121" y="5305" width="30" height="30"/>
+    <rect id="room-lib-136-5350" class="room indoor" x="121" y="5335" width="30" height="30"/>
+    <rect id="room-lib-136-5380" class="room indoor" x="121" y="5365" width="30" height="30"/>
+    <rect id="room-lib-136-5410" class="room indoor" x="121" y="5395" width="30" height="30"/>
+    <rect id="room-lib-136-5440" class="room indoor" x="121" y="5425" width="30" height="30"/>
+    <rect id="room-lib-136-5470" class="room indoor" x="121" y="5455" width="30" height="30"/>
+    <rect id="room-lib-136-5500" class="room indoor" x="121" y="5485" width="30" height="30"/>
+    <rect id="room-lib-136-5530" class="room indoor" x="121" y="5515" width="30" height="30"/>
+    <rect id="room-lib-136-5560" class="room indoor" x="121" y="5545" width="30" height="30"/>
+    <rect id="room-lib-166-4060" class="room indoor" x="151" y="4045" width="30" height="30"/>
+    <rect id="room-lib-166-4090" class="room indoor" x="151" y="4075" width="30" height="30"/>
+    <rect id="room-lib-166-4120" class="room indoor" x="151" y="4105" width="30" height="30"/>
+    <rect id="room-lib-166-4150" class="room indoor" x="151" y="4135" width="30" height="30"/>
+    <rect id="room-lib-166-4180" class="room indoor" x="151" y="4165" width="30" height="30"/>
+    <rect id="room-lib-166-4210" class="room indoor" x="151" y="4195" width="30" height="30"/>
+    <rect id="room-lib-166-4240" class="room indoor" x="151" y="4225" width="30" height="30"/>
+    <rect id="room-lib-166-4270" class="room indoor" x="151" y="4255" width="30" height="30"/>
+    <rect id="room-lib-166-4300" class="room indoor" x="151" y="4285" width="30" height="30"/>
+    <rect id="room-lib-166-4330" class="room indoor" x="151" y="4315" width="30" height="30"/>
+    <rect id="room-lib-166-4360" class="room indoor" x="151" y="4345" width="30" height="30"/>
+    <rect id="room-lib-166-4390" class="room indoor" x="151" y="4375" width="30" height="30"/>
+    <rect id="room-lib-166-4420" class="room indoor" x="151" y="4405" width="30" height="30"/>
+    <rect id="room-lib-166-4450" class="room indoor" x="151" y="4435" width="30" height="30"/>
+    <rect id="room-lib-166-4480" class="room indoor" x="151" y="4465" width="30" height="30"/>
+    <rect id="room-lib-166-4510" class="room indoor" x="151" y="4495" width="30" height="30"/>
+    <rect id="room-lib-166-4540" class="room indoor" x="151" y="4525" width="30" height="30"/>
+    <rect id="room-lib-166-4570" class="room indoor" x="151" y="4555" width="30" height="30"/>
+    <rect id="room-lib-166-4600" class="room indoor" x="151" y="4585" width="30" height="30"/>
+    <rect id="room-lib-166-4630" class="room indoor" x="151" y="4615" width="30" height="30"/>
+    <rect id="room-lib-166-4660" class="room indoor" x="151" y="4645" width="30" height="30"/>
+    <rect id="room-lib-166-4690" class="room indoor" x="151" y="4675" width="30" height="30"/>
+    <rect id="room-lib-166-4720" class="room indoor" x="151" y="4705" width="30" height="30"/>
+    <rect id="room-lib-166-4750" class="room indoor" x="151" y="4735" width="30" height="30"/>
+    <rect id="room-lib-166-4780" class="room indoor" x="151" y="4765" width="30" height="30"/>
+    <rect id="room-lib-166-4810" class="room indoor" x="151" y="4795" width="30" height="30"/>
+    <rect id="room-lib-166-4840" class="room indoor" x="151" y="4825" width="30" height="30"/>
+    <rect id="room-lib-166-4870" class="room indoor" x="151" y="4855" width="30" height="30"/>
+    <rect id="room-lib-166-4900" class="room indoor" x="151" y="4885" width="30" height="30"/>
+    <rect id="room-lib-166-4930" class="room indoor" x="151" y="4915" width="30" height="30"/>
+    <rect id="room-lib-166-4960" class="room indoor" x="151" y="4945" width="30" height="30"/>
+    <rect id="room-lib-166-4990" class="room indoor" x="151" y="4975" width="30" height="30"/>
+    <rect id="room-lib-166-5020" class="room indoor" x="151" y="5005" width="30" height="30"/>
+    <rect id="room-lib-166-5050" class="room indoor" x="151" y="5035" width="30" height="30"/>
+    <rect id="room-lib-166-5080" class="room indoor" x="151" y="5065" width="30" height="30"/>
+    <rect id="room-lib-166-5110" class="room indoor" x="151" y="5095" width="30" height="30"/>
+    <rect id="room-lib-166-5140" class="room indoor" x="151" y="5125" width="30" height="30"/>
+    <rect id="room-lib-166-5170" class="room indoor" x="151" y="5155" width="30" height="30"/>
+    <rect id="room-lib-166-5200" class="room indoor" x="151" y="5185" width="30" height="30"/>
+    <rect id="room-lib-166-5230" class="room indoor" x="151" y="5215" width="30" height="30"/>
+    <rect id="room-lib-166-5260" class="room indoor" x="151" y="5245" width="30" height="30"/>
+    <rect id="room-lib-166-5290" class="room indoor" x="151" y="5275" width="30" height="30"/>
+    <rect id="room-lib-166-5320" class="room indoor" x="151" y="5305" width="30" height="30"/>
+    <rect id="room-lib-166-5350" class="room indoor" x="151" y="5335" width="30" height="30"/>
+    <rect id="room-lib-166-5380" class="room indoor" x="151" y="5365" width="30" height="30"/>
+    <rect id="room-lib-166-5410" class="room indoor" x="151" y="5395" width="30" height="30"/>
+    <rect id="room-lib-166-5440" class="room indoor" x="151" y="5425" width="30" height="30"/>
+    <rect id="room-lib-166-5470" class="room indoor" x="151" y="5455" width="30" height="30"/>
+    <rect id="room-lib-166-5500" class="room indoor" x="151" y="5485" width="30" height="30"/>
+    <rect id="room-lib-166-5530" class="room indoor" x="151" y="5515" width="30" height="30"/>
+    <rect id="room-lib-166-5560" class="room indoor" x="151" y="5545" width="30" height="30"/>
+    <rect id="room-lib-196-4060" class="room indoor" x="181" y="4045" width="30" height="30"/>
+    <rect id="room-lib-196-4090" class="room indoor" x="181" y="4075" width="30" height="30"/>
+    <rect id="room-lib-196-4120" class="room indoor" x="181" y="4105" width="30" height="30"/>
+    <rect id="room-lib-196-4150" class="room indoor" x="181" y="4135" width="30" height="30"/>
+    <rect id="room-lib-196-4180" class="room indoor" x="181" y="4165" width="30" height="30"/>
+    <rect id="room-lib-196-4210" class="room indoor" x="181" y="4195" width="30" height="30"/>
+    <rect id="room-lib-196-4240" class="room indoor" x="181" y="4225" width="30" height="30"/>
+    <rect id="room-lib-196-4270" class="room indoor" x="181" y="4255" width="30" height="30"/>
+    <rect id="room-lib-196-4300" class="room indoor" x="181" y="4285" width="30" height="30"/>
+    <rect id="room-lib-196-4330" class="room indoor" x="181" y="4315" width="30" height="30"/>
+    <rect id="room-lib-196-4360" class="room indoor" x="181" y="4345" width="30" height="30"/>
+    <rect id="room-lib-196-4390" class="room indoor" x="181" y="4375" width="30" height="30"/>
+    <rect id="room-lib-196-4420" class="room indoor" x="181" y="4405" width="30" height="30"/>
+    <rect id="room-lib-196-4450" class="room indoor" x="181" y="4435" width="30" height="30"/>
+    <rect id="room-lib-196-4480" class="room indoor" x="181" y="4465" width="30" height="30"/>
+    <rect id="room-lib-196-4510" class="room indoor" x="181" y="4495" width="30" height="30"/>
+    <rect id="room-lib-196-4540" class="room indoor" x="181" y="4525" width="30" height="30"/>
+    <rect id="room-lib-196-4570" class="room indoor" x="181" y="4555" width="30" height="30"/>
+    <rect id="room-lib-196-4600" class="room indoor" x="181" y="4585" width="30" height="30"/>
+    <rect id="room-lib-196-4630" class="room indoor" x="181" y="4615" width="30" height="30"/>
+    <rect id="room-lib-196-4660" class="room indoor" x="181" y="4645" width="30" height="30"/>
+    <rect id="room-lib-196-4690" class="room indoor" x="181" y="4675" width="30" height="30"/>
+    <rect id="room-lib-196-4720" class="room indoor" x="181" y="4705" width="30" height="30"/>
+    <rect id="room-lib-196-4750" class="room indoor" x="181" y="4735" width="30" height="30"/>
+    <rect id="room-lib-196-4780" class="room indoor" x="181" y="4765" width="30" height="30"/>
+    <rect id="room-lib-196-4810" class="room indoor" x="181" y="4795" width="30" height="30"/>
+    <rect id="room-lib-196-4840" class="room indoor" x="181" y="4825" width="30" height="30"/>
+    <rect id="room-lib-196-4870" class="room indoor" x="181" y="4855" width="30" height="30"/>
+    <rect id="room-lib-196-4900" class="room indoor" x="181" y="4885" width="30" height="30"/>
+    <rect id="room-lib-196-4930" class="room indoor" x="181" y="4915" width="30" height="30"/>
+    <rect id="room-lib-196-4960" class="room indoor" x="181" y="4945" width="30" height="30"/>
+    <rect id="room-lib-196-4990" class="room indoor" x="181" y="4975" width="30" height="30"/>
+    <rect id="room-lib-196-5020" class="room indoor" x="181" y="5005" width="30" height="30"/>
+    <rect id="room-lib-196-5050" class="room indoor" x="181" y="5035" width="30" height="30"/>
+    <rect id="room-lib-196-5080" class="room indoor" x="181" y="5065" width="30" height="30"/>
+    <rect id="room-lib-196-5110" class="room indoor" x="181" y="5095" width="30" height="30"/>
+    <rect id="room-lib-196-5140" class="room indoor" x="181" y="5125" width="30" height="30"/>
+    <rect id="room-lib-196-5170" class="room indoor" x="181" y="5155" width="30" height="30"/>
+    <rect id="room-lib-196-5200" class="room indoor" x="181" y="5185" width="30" height="30"/>
+    <rect id="room-lib-196-5230" class="room indoor" x="181" y="5215" width="30" height="30"/>
+    <rect id="room-lib-196-5260" class="room indoor" x="181" y="5245" width="30" height="30"/>
+    <rect id="room-lib-196-5290" class="room indoor" x="181" y="5275" width="30" height="30"/>
+    <rect id="room-lib-196-5320" class="room indoor" x="181" y="5305" width="30" height="30"/>
+    <rect id="room-lib-196-5350" class="room indoor" x="181" y="5335" width="30" height="30"/>
+    <rect id="room-lib-196-5380" class="room indoor" x="181" y="5365" width="30" height="30"/>
+    <rect id="room-lib-196-5410" class="room indoor" x="181" y="5395" width="30" height="30"/>
+    <rect id="room-lib-196-5440" class="room indoor" x="181" y="5425" width="30" height="30"/>
+    <rect id="room-lib-196-5470" class="room indoor" x="181" y="5455" width="30" height="30"/>
+    <rect id="room-lib-196-5500" class="room indoor" x="181" y="5485" width="30" height="30"/>
+    <rect id="room-lib-196-5530" class="room indoor" x="181" y="5515" width="30" height="30"/>
+    <rect id="room-lib-196-5560" class="room indoor" x="181" y="5545" width="30" height="30"/>
+    <rect id="room-lib-226-4060" class="room indoor" x="211" y="4045" width="30" height="30"/>
+    <rect id="room-lib-226-4090" class="room indoor" x="211" y="4075" width="30" height="30"/>
+    <rect id="room-lib-226-4120" class="room indoor" x="211" y="4105" width="30" height="30"/>
+    <rect id="room-lib-226-4150" class="room indoor" x="211" y="4135" width="30" height="30"/>
+    <rect id="room-lib-226-4180" class="room indoor" x="211" y="4165" width="30" height="30"/>
+    <rect id="room-lib-226-4210" class="room indoor" x="211" y="4195" width="30" height="30"/>
+    <rect id="room-lib-226-4240" class="room indoor" x="211" y="4225" width="30" height="30"/>
+    <rect id="room-lib-226-4270" class="room indoor" x="211" y="4255" width="30" height="30"/>
+    <rect id="room-lib-226-4300" class="room indoor" x="211" y="4285" width="30" height="30"/>
+    <rect id="room-lib-226-4330" class="room indoor" x="211" y="4315" width="30" height="30"/>
+    <rect id="room-lib-226-4360" class="room indoor" x="211" y="4345" width="30" height="30"/>
+    <rect id="room-lib-226-4390" class="room indoor" x="211" y="4375" width="30" height="30"/>
+    <rect id="room-lib-226-4420" class="room indoor" x="211" y="4405" width="30" height="30"/>
+    <rect id="room-lib-226-4450" class="room indoor" x="211" y="4435" width="30" height="30"/>
+    <rect id="room-lib-226-4480" class="room indoor" x="211" y="4465" width="30" height="30"/>
+    <rect id="room-lib-226-4510" class="room indoor" x="211" y="4495" width="30" height="30"/>
+    <rect id="room-lib-226-4540" class="room indoor" x="211" y="4525" width="30" height="30"/>
+    <rect id="room-lib-226-4570" class="room indoor" x="211" y="4555" width="30" height="30"/>
+    <rect id="room-lib-226-4600" class="room indoor" x="211" y="4585" width="30" height="30"/>
+    <rect id="room-lib-226-4630" class="room indoor" x="211" y="4615" width="30" height="30"/>
+    <rect id="room-lib-226-4660" class="room indoor" x="211" y="4645" width="30" height="30"/>
+    <rect id="room-lib-226-4690" class="room indoor" x="211" y="4675" width="30" height="30"/>
+    <rect id="room-lib-226-4720" class="room indoor" x="211" y="4705" width="30" height="30"/>
+    <rect id="room-lib-226-4750" class="room indoor" x="211" y="4735" width="30" height="30"/>
+    <rect id="room-lib-226-4780" class="room indoor" x="211" y="4765" width="30" height="30"/>
+    <rect id="room-lib-226-4810" class="room indoor" x="211" y="4795" width="30" height="30"/>
+    <rect id="room-lib-226-4840" class="room indoor" x="211" y="4825" width="30" height="30"/>
+    <rect id="room-lib-226-4870" class="room indoor" x="211" y="4855" width="30" height="30"/>
+    <rect id="room-lib-226-4900" class="room indoor" x="211" y="4885" width="30" height="30"/>
+    <rect id="room-lib-226-4930" class="room indoor" x="211" y="4915" width="30" height="30"/>
+    <rect id="room-lib-226-4960" class="room indoor" x="211" y="4945" width="30" height="30"/>
+    <rect id="room-lib-226-4990" class="room indoor" x="211" y="4975" width="30" height="30"/>
+    <rect id="room-lib-226-5020" class="room indoor" x="211" y="5005" width="30" height="30"/>
+    <rect id="room-lib-226-5050" class="room indoor" x="211" y="5035" width="30" height="30"/>
+    <rect id="room-lib-226-5080" class="room indoor" x="211" y="5065" width="30" height="30"/>
+    <rect id="room-lib-226-5110" class="room indoor" x="211" y="5095" width="30" height="30"/>
+    <rect id="room-lib-226-5140" class="room indoor" x="211" y="5125" width="30" height="30"/>
+    <rect id="room-lib-226-5170" class="room indoor" x="211" y="5155" width="30" height="30"/>
+    <rect id="room-lib-226-5200" class="room indoor" x="211" y="5185" width="30" height="30"/>
+    <rect id="room-lib-226-5230" class="room indoor" x="211" y="5215" width="30" height="30"/>
+    <rect id="room-lib-226-5260" class="room indoor" x="211" y="5245" width="30" height="30"/>
+    <rect id="room-lib-226-5290" class="room indoor" x="211" y="5275" width="30" height="30"/>
+    <rect id="room-lib-226-5320" class="room indoor" x="211" y="5305" width="30" height="30"/>
+    <rect id="room-lib-226-5350" class="room indoor" x="211" y="5335" width="30" height="30"/>
+    <rect id="room-lib-226-5380" class="room indoor" x="211" y="5365" width="30" height="30"/>
+    <rect id="room-lib-226-5410" class="room indoor" x="211" y="5395" width="30" height="30"/>
+    <rect id="room-lib-226-5440" class="room indoor" x="211" y="5425" width="30" height="30"/>
+    <rect id="room-lib-226-5470" class="room indoor" x="211" y="5455" width="30" height="30"/>
+    <rect id="room-lib-226-5500" class="room indoor" x="211" y="5485" width="30" height="30"/>
+    <rect id="room-lib-226-5530" class="room indoor" x="211" y="5515" width="30" height="30"/>
+    <rect id="room-lib-226-5560" class="room indoor" x="211" y="5545" width="30" height="30"/>
+    <rect id="room-lib-256-4060" class="room indoor" x="241" y="4045" width="30" height="30"/>
+    <rect id="room-lib-256-4090" class="room indoor" x="241" y="4075" width="30" height="30"/>
+    <rect id="room-lib-256-4120" class="room indoor" x="241" y="4105" width="30" height="30"/>
+    <rect id="room-lib-256-4150" class="room indoor" x="241" y="4135" width="30" height="30"/>
+    <rect id="room-lib-256-4180" class="room indoor" x="241" y="4165" width="30" height="30"/>
+    <rect id="room-lib-256-4210" class="room indoor" x="241" y="4195" width="30" height="30"/>
+    <rect id="room-lib-256-4240" class="room indoor" x="241" y="4225" width="30" height="30"/>
+    <rect id="room-lib-256-4270" class="room indoor" x="241" y="4255" width="30" height="30"/>
+    <rect id="room-lib-256-4300" class="room indoor" x="241" y="4285" width="30" height="30"/>
+    <rect id="room-lib-256-4330" class="room indoor" x="241" y="4315" width="30" height="30"/>
+    <rect id="room-lib-256-4360" class="room indoor" x="241" y="4345" width="30" height="30"/>
+    <rect id="room-lib-256-4390" class="room indoor" x="241" y="4375" width="30" height="30"/>
+    <rect id="room-lib-256-4420" class="room indoor" x="241" y="4405" width="30" height="30"/>
+    <rect id="room-lib-256-4450" class="room indoor" x="241" y="4435" width="30" height="30"/>
+    <rect id="room-lib-256-4480" class="room indoor" x="241" y="4465" width="30" height="30"/>
+    <rect id="room-lib-256-4510" class="room indoor" x="241" y="4495" width="30" height="30"/>
+    <rect id="room-lib-256-4540" class="room indoor" x="241" y="4525" width="30" height="30"/>
+    <rect id="room-lib-256-4570" class="room indoor" x="241" y="4555" width="30" height="30"/>
+    <rect id="room-lib-256-4600" class="room indoor" x="241" y="4585" width="30" height="30"/>
+    <rect id="room-lib-256-4630" class="room indoor" x="241" y="4615" width="30" height="30"/>
+    <rect id="room-lib-256-4660" class="room indoor" x="241" y="4645" width="30" height="30"/>
+    <rect id="room-lib-256-4690" class="room indoor" x="241" y="4675" width="30" height="30"/>
+    <rect id="room-lib-256-4720" class="room indoor" x="241" y="4705" width="30" height="30"/>
+    <rect id="room-lib-256-4750" class="room indoor" x="241" y="4735" width="30" height="30"/>
+    <rect id="room-lib-256-4780" class="room indoor" x="241" y="4765" width="30" height="30"/>
+    <rect id="room-lib-256-4810" class="room indoor" x="241" y="4795" width="30" height="30"/>
+    <rect id="room-lib-256-4840" class="room indoor" x="241" y="4825" width="30" height="30"/>
+    <rect id="room-lib-256-4870" class="room indoor" x="241" y="4855" width="30" height="30"/>
+    <rect id="room-lib-256-4900" class="room indoor" x="241" y="4885" width="30" height="30"/>
+    <rect id="room-lib-256-4930" class="room indoor" x="241" y="4915" width="30" height="30"/>
+    <rect id="room-lib-256-4960" class="room indoor" x="241" y="4945" width="30" height="30"/>
+    <rect id="room-lib-256-4990" class="room indoor" x="241" y="4975" width="30" height="30"/>
+    <rect id="room-lib-256-5020" class="room indoor" x="241" y="5005" width="30" height="30"/>
+    <rect id="room-lib-256-5050" class="room indoor" x="241" y="5035" width="30" height="30"/>
+    <rect id="room-lib-256-5080" class="room indoor" x="241" y="5065" width="30" height="30"/>
+    <rect id="room-lib-256-5110" class="room indoor" x="241" y="5095" width="30" height="30"/>
+    <rect id="room-lib-256-5140" class="room indoor" x="241" y="5125" width="30" height="30"/>
+    <rect id="room-lib-256-5170" class="room indoor" x="241" y="5155" width="30" height="30"/>
+    <rect id="room-lib-256-5200" class="room indoor" x="241" y="5185" width="30" height="30"/>
+    <rect id="room-lib-256-5230" class="room indoor" x="241" y="5215" width="30" height="30"/>
+    <rect id="room-lib-256-5260" class="room indoor" x="241" y="5245" width="30" height="30"/>
+    <rect id="room-lib-256-5290" class="room indoor" x="241" y="5275" width="30" height="30"/>
+    <rect id="room-lib-256-5320" class="room indoor" x="241" y="5305" width="30" height="30"/>
+    <rect id="room-lib-256-5350" class="room indoor" x="241" y="5335" width="30" height="30"/>
+    <rect id="room-lib-256-5380" class="room indoor" x="241" y="5365" width="30" height="30"/>
+    <rect id="room-lib-256-5410" class="room indoor" x="241" y="5395" width="30" height="30"/>
+    <rect id="room-lib-256-5440" class="room indoor" x="241" y="5425" width="30" height="30"/>
+    <rect id="room-lib-256-5470" class="room indoor" x="241" y="5455" width="30" height="30"/>
+    <rect id="room-lib-256-5500" class="room indoor" x="241" y="5485" width="30" height="30"/>
+    <rect id="room-lib-256-5530" class="room indoor" x="241" y="5515" width="30" height="30"/>
+    <rect id="room-lib-256-5560" class="room indoor" x="241" y="5545" width="30" height="30"/>
+  </g>
+
+  <g id="layer-labels"><!-- labels --></g>
+
+</svg>

@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 578 590"
+     class="map-svg"
+     data-map-id="30">
+
+  <g id="layer-artwork"><!-- artwork --></g>
+
+  <g id="layer-exits">
+    <line id="edge-cae6eb9b556284aada2249afcb7ffa1c21432074-fb323cf9d2228554ee3d10137e600cb2c3c3d6a9" class="exit" x1="258" y1="133" x2="230" y2="161"/>
+    <line id="edge-6cd74dd78a1a7bf36cc7b3f5a67b5ba1244e9742-fb323cf9d2228554ee3d10137e600cb2c3c3d6a9" class="exit" x1="202" y1="189" x2="230" y2="161"/>
+    <line id="edge-2fa992002228aa37682279bf5f605bb109d320aa-6cd74dd78a1a7bf36cc7b3f5a67b5ba1244e9742" class="exit" x1="202" y1="216" x2="202" y2="189"/>
+    <line id="edge-132873fa4975892574f3daf5b50ab657bb884563-2fa992002228aa37682279bf5f605bb109d320aa" class="exit" x1="174" y1="216" x2="202" y2="216"/>
+    <line id="edge-132873fa4975892574f3daf5b50ab657bb884563-6ed20923e814d3ec28c1f377b547e4ea6e434ae3" class="exit" x1="174" y1="216" x2="174" y2="244"/>
+    <line id="edge-6ed20923e814d3ec28c1f377b547e4ea6e434ae3-cafc662703a4e6afdbf93d50416cdbe8509a2cce" class="exit" x1="174" y1="244" x2="202" y2="272"/>
+    <line id="edge-6ed20923e814d3ec28c1f377b547e4ea6e434ae3-d287c45e572ae26344dc37c483acd9b7d803a255" class="exit" x1="174" y1="244" x2="174" y2="272"/>
+    <line id="edge-6ed20923e814d3ec28c1f377b547e4ea6e434ae3-d2e1821b050d182e4811c32760db07169fcc2ff4" class="exit" x1="174" y1="244" x2="202" y2="244"/>
+    <line id="edge-b12505ab1ef83596cef62e5907782eb4d5e551de-d2e1821b050d182e4811c32760db07169fcc2ff4" class="exit" x1="417" y1="167" x2="202" y2="244"/>
+    <line id="edge-cafc662703a4e6afdbf93d50416cdbe8509a2cce-d2e1821b050d182e4811c32760db07169fcc2ff4" class="exit" x1="202" y1="272" x2="202" y2="244"/>
+    <line id="edge-d287c45e572ae26344dc37c483acd9b7d803a255-d2e1821b050d182e4811c32760db07169fcc2ff4" class="exit" x1="174" y1="272" x2="202" y2="244"/>
+    <line id="edge-cafc662703a4e6afdbf93d50416cdbe8509a2cce-d287c45e572ae26344dc37c483acd9b7d803a255" class="exit" x1="202" y1="272" x2="174" y2="272"/>
+    <line id="edge-32c27a93dc9b5fdbca80c87a69b5cda3c15a3608-4fb9fa191fcee3c47158cda36183b4d846ed29f4" class="exit" x1="389" y1="195" x2="389" y2="167"/>
+    <line id="edge-4fb9fa191fcee3c47158cda36183b4d846ed29f4-b12505ab1ef83596cef62e5907782eb4d5e551de" class="exit" x1="389" y1="167" x2="417" y2="167"/>
+    <line id="edge-16d3f19f946f07805548a07c7b2730fe448e4860-b12505ab1ef83596cef62e5907782eb4d5e551de" class="exit" x1="445" y1="167" x2="417" y2="167"/>
+    <line id="edge-2ab9faca2a3945478405ac9a933928dcc7e5f63b-b12505ab1ef83596cef62e5907782eb4d5e551de" class="exit" x1="417" y1="139" x2="417" y2="167"/>
+    <line id="edge-2cb7fd29e8271e80bf28d5d4d9a51ddb4fce8b01-b12505ab1ef83596cef62e5907782eb4d5e551de" class="exit" x1="417" y1="195" x2="417" y2="167"/>
+    <line id="edge-7ab71833c2d39fa66640fe7370d6776f6a041bb2-b12505ab1ef83596cef62e5907782eb4d5e551de" class="exit" x1="233" y1="428" x2="417" y2="167"/>
+    <line id="edge-2cb7fd29e8271e80bf28d5d4d9a51ddb4fce8b01-389df22ff65e009690f6aac7702cd6cd0b630b28" class="exit" x1="417" y1="195" x2="445" y2="195"/>
+    <line id="edge-389df22ff65e009690f6aac7702cd6cd0b630b28-42bdf65d9e5de389c48c2833cef0f8920628dd5f" class="exit" x1="445" y1="195" x2="473" y2="195"/>
+    <line id="edge-1f892ff4e2b779d0436eef387e928b752baa3e64-42bdf65d9e5de389c48c2833cef0f8920628dd5f" class="exit" x1="473" y1="223" x2="473" y2="195"/>
+    <line id="edge-42bdf65d9e5de389c48c2833cef0f8920628dd5f-d1e85e8ad2078b4453c014254549b377e14f536e" class="exit" x1="473" y1="195" x2="473" y2="167"/>
+    <line id="edge-1eb7e0bf89cfbc4fb6ddf4c852078fd033503bfa-1f892ff4e2b779d0436eef387e928b752baa3e64" class="exit" x1="473" y1="251" x2="473" y2="223"/>
+    <line id="edge-1f892ff4e2b779d0436eef387e928b752baa3e64-4cb9be970c38a493157097f7e2e5c48885305d12" class="exit" x1="473" y1="223" x2="501" y2="223"/>
+    <line id="edge-1f892ff4e2b779d0436eef387e928b752baa3e64-c38bf004f6112660b491beb64f4a5e9e944b1aff" class="exit" x1="473" y1="223" x2="445" y2="251"/>
+    <line id="edge-2ab9faca2a3945478405ac9a933928dcc7e5f63b-c779eacce785c5cffd7b90357cd3e02d3dab4e65" class="exit" x1="417" y1="139" x2="445" y2="111"/>
+    <line id="edge-2ab9faca2a3945478405ac9a933928dcc7e5f63b-d0ee3f7634b1632ebe8722eb4ca7ee9f76c7a636" class="exit" x1="417" y1="139" x2="389" y2="111"/>
+    <line id="edge-3c426f34777ef3c08e02d16ced62b1882f3bb9b6-d0ee3f7634b1632ebe8722eb4ca7ee9f76c7a636" class="exit" x1="361" y1="111" x2="389" y2="111"/>
+    <line id="edge-5241876bf0d8c1f5632fc79d716782672d2b0b6b-d0ee3f7634b1632ebe8722eb4ca7ee9f76c7a636" class="exit" x1="389" y1="83" x2="389" y2="111"/>
+    <line id="edge-096cdfe7b5dade966a9f3460204e3ad401f67763-5241876bf0d8c1f5632fc79d716782672d2b0b6b" class="exit" x1="417" y1="83" x2="389" y2="83"/>
+    <line id="edge-5241876bf0d8c1f5632fc79d716782672d2b0b6b-9f9eca3fdd40b2cc97b4b3d8c2b7b915213a587e" class="exit" x1="389" y1="83" x2="361" y2="83"/>
+    <line id="edge-58e3596c6937f9509a14e1e988aee19470b77e98-c779eacce785c5cffd7b90357cd3e02d3dab4e65" class="exit" x1="473" y1="83" x2="445" y2="111"/>
+    <line id="edge-58e3596c6937f9509a14e1e988aee19470b77e98-809a718195c02dc5d8c3f4fee41d938d84a212d1" class="exit" x1="473" y1="83" x2="501" y2="83"/>
+    <line id="edge-809a718195c02dc5d8c3f4fee41d938d84a212d1-c94b403390f802c2c44064f52dfc1b587d324c40" class="exit" x1="501" y1="83" x2="529" y2="83"/>
+    <line id="edge-809a718195c02dc5d8c3f4fee41d938d84a212d1-ed3d101ed3aa6ca385a1f25c35bb4dcc487a3455" class="exit" x1="501" y1="83" x2="501" y2="55"/>
+    <line id="edge-a613d346a670073f454837578ad8f5cee9fd8f01-ed3d101ed3aa6ca385a1f25c35bb4dcc487a3455" class="exit" x1="529" y1="55" x2="501" y2="55"/>
+    <line id="edge-975f54c7822aea28545f4c1a58be5baf53fd084d-c94b403390f802c2c44064f52dfc1b587d324c40" class="exit" x1="557" y1="83" x2="529" y2="83"/>
+    <line id="edge-0f4875e6fd8b26d56d55cf7d7183566de2206ac2-7ab71833c2d39fa66640fe7370d6776f6a041bb2" class="exit" x1="233" y1="400" x2="233" y2="428"/>
+    <line id="edge-1963ed8573fae0064bbf6e81d62f26fe75b79a57-7ab71833c2d39fa66640fe7370d6776f6a041bb2" class="exit" x1="261" y1="428" x2="233" y2="428"/>
+    <line id="edge-3c7cc39b7aab12f2bbf3d3449a0124f33f755396-7ab71833c2d39fa66640fe7370d6776f6a041bb2" class="exit" x1="233" y1="456" x2="233" y2="428"/>
+    <line id="edge-3e3fd6299717e9fad9bec1b61cb62db1127db9a1-7ab71833c2d39fa66640fe7370d6776f6a041bb2" class="exit" x1="205" y1="428" x2="233" y2="428"/>
+    <line id="edge-3e3fd6299717e9fad9bec1b61cb62db1127db9a1-6174cd9f1b5d1a35f89c767a4e84aba3d0d6015f" class="exit" x1="205" y1="428" x2="177" y2="456"/>
+    <line id="edge-3408fc5b1da2c621b57dec5e8d4c144f91bb3989-6174cd9f1b5d1a35f89c767a4e84aba3d0d6015f" class="exit" x1="149" y1="456" x2="177" y2="456"/>
+    <line id="edge-6174cd9f1b5d1a35f89c767a4e84aba3d0d6015f-9b2cf4ec7a7b2acd976893c405e113756f67a7ae" class="exit" x1="177" y1="456" x2="177" y2="484"/>
+    <line id="edge-0f4875e6fd8b26d56d55cf7d7183566de2206ac2-34e6720b711f58b60350fe8fc08e4cd7dcca1497" class="exit" x1="233" y1="400" x2="233" y2="372"/>
+    <line id="edge-28b9161330fffac41a1ab6515295342307422317-34e6720b711f58b60350fe8fc08e4cd7dcca1497" class="exit" x1="261" y1="344" x2="233" y2="372"/>
+    <line id="edge-2ddaa465d93aec638e8bb36e616ebbf7b7bba0d1-34e6720b711f58b60350fe8fc08e4cd7dcca1497" class="exit" x1="205" y1="344" x2="233" y2="372"/>
+    <line id="edge-34e6720b711f58b60350fe8fc08e4cd7dcca1497-9662e8ed60c4e8d1a93a66fc6a753854537901be" class="exit" x1="233" y1="372" x2="205" y2="372"/>
+    <line id="edge-2ddaa465d93aec638e8bb36e616ebbf7b7bba0d1-c1f0e905818619f018776eb02983c7ede489d196" class="exit" x1="205" y1="344" x2="205" y2="316"/>
+    <line id="edge-0a2f65042684d6532b191c2d7bcb9425b8cdc8ca-1963ed8573fae0064bbf6e81d62f26fe75b79a57" class="exit" x1="261" y1="400" x2="261" y2="428"/>
+    <line id="edge-1963ed8573fae0064bbf6e81d62f26fe75b79a57-53f0766c505efa93a87a671b74b154ca9935531d" class="exit" x1="261" y1="428" x2="289" y2="400"/>
+    <line id="edge-36098b13cfe79eb18cf2102406aeaf749c3dd748-53f0766c505efa93a87a671b74b154ca9935531d" class="exit" x1="289" y1="372" x2="289" y2="400"/>
+    <line id="edge-53f0766c505efa93a87a671b74b154ca9935531d-97cc8c39c2edc9d30f4403750ed35947e64a22a3" class="exit" x1="289" y1="400" x2="317" y2="400"/>
+    <line id="edge-97cc8c39c2edc9d30f4403750ed35947e64a22a3-eb72ff61597e3d245bfced71cdd4f4d82d5571cf" class="exit" x1="317" y1="400" x2="317" y2="428"/>
+    <line id="edge-97cc8c39c2edc9d30f4403750ed35947e64a22a3-fa83e8de822f330c6e638cc22b33020062fd6b40" class="exit" x1="317" y1="400" x2="317" y2="372"/>
+    <line id="edge-5749f1dd4ec58ed03791ca62aa8e2e96caae8486-eb72ff61597e3d245bfced71cdd4f4d82d5571cf" class="exit" x1="345" y1="428" x2="317" y2="428"/>
+    <line id="edge-aa157bb30b2f189e64225ef7647413614cec9b79-eb72ff61597e3d245bfced71cdd4f4d82d5571cf" class="exit" x1="317" y1="456" x2="317" y2="428"/>
+    <line id="edge-873b85d07b34088e7d63b5542885d92fe4175650-aa157bb30b2f189e64225ef7647413614cec9b79" class="exit" x1="317" y1="484" x2="317" y2="456"/>
+    <line id="edge-aa157bb30b2f189e64225ef7647413614cec9b79-e0294ac963f7e58c779cd9c41efb1f6e942b2459" class="exit" x1="317" y1="456" x2="289" y2="456"/>
+    <line id="edge-873b85d07b34088e7d63b5542885d92fe4175650-eb210c70f90aac64ca90066a2fcee626c7278fdb" class="exit" x1="317" y1="484" x2="289" y2="484"/>
+    <line id="edge-e0294ac963f7e58c779cd9c41efb1f6e942b2459-eb210c70f90aac64ca90066a2fcee626c7278fdb" class="exit" x1="289" y1="456" x2="289" y2="484"/>
+  </g>
+
+  <g id="layer-rooms">
+    <rect id="room-cae6eb9b556284aada2249afcb7ffa1c21432074" class="room indoor" x="250" y="125" width="16" height="16" rx="4"><title>tunnel</title></rect>
+    <rect id="room-fb323cf9d2228554ee3d10137e600cb2c3c3d6a9" class="room indoor" x="222" y="153" width="16" height="16" rx="4"><title>tunnel</title></rect>
+    <rect id="room-6cd74dd78a1a7bf36cc7b3f5a67b5ba1244e9742" class="room indoor" x="194" y="181" width="16" height="16" rx="4"><title>tunnel</title></rect>
+    <rect id="room-2fa992002228aa37682279bf5f605bb109d320aa" class="room indoor" x="194" y="208" width="16" height="16" rx="4"><title>tunnel</title></rect>
+    <rect id="room-132873fa4975892574f3daf5b50ab657bb884563" class="room indoor" x="166" y="208" width="16" height="16" rx="4"><title>tunnel</title></rect>
+    <rect id="room-6ed20923e814d3ec28c1f377b547e4ea6e434ae3" class="room indoor" x="166" y="236" width="16" height="16" rx="4"><title>cave</title></rect>
+    <rect id="room-d2e1821b050d182e4811c32760db07169fcc2ff4" class="room indoor" x="194" y="236" width="16" height="16" rx="4"><title>cave</title></rect>
+    <rect id="room-cafc662703a4e6afdbf93d50416cdbe8509a2cce" class="room indoor" x="194" y="264" width="16" height="16" rx="4"><title>cave</title></rect>
+    <rect id="room-d287c45e572ae26344dc37c483acd9b7d803a255" class="room indoor" x="166" y="264" width="16" height="16" rx="4"><title>cave</title></rect>
+    <rect id="room-4fb9fa191fcee3c47158cda36183b4d846ed29f4" class="room indoor" x="381" y="159" width="16" height="16" rx="4"><title>tunnel</title></rect>
+    <rect id="room-b12505ab1ef83596cef62e5907782eb4d5e551de" class="room indoor" x="409" y="159" width="16" height="16" rx="4"><title>stairwell</title></rect>
+    <rect id="room-32c27a93dc9b5fdbca80c87a69b5cda3c15a3608" class="room indoor" x="381" y="187" width="16" height="16" rx="4"><title>Inhumation Office</title></rect>
+    <rect id="room-16d3f19f946f07805548a07c7b2730fe448e4860" class="room indoor" x="437" y="159" width="16" height="16" rx="4"><title>large room</title></rect>
+    <rect id="room-2cb7fd29e8271e80bf28d5d4d9a51ddb4fce8b01" class="room indoor" x="409" y="187" width="16" height="16" rx="4"><title>tunnel</title></rect>
+    <rect id="room-389df22ff65e009690f6aac7702cd6cd0b630b28" class="room indoor" x="437" y="187" width="16" height="16" rx="4"><title>tunnel</title></rect>
+    <rect id="room-42bdf65d9e5de389c48c2833cef0f8920628dd5f" class="room indoor" x="465" y="187" width="16" height="16" rx="4"><title>tunnel</title></rect>
+    <rect id="room-d1e85e8ad2078b4453c014254549b377e14f536e" class="room indoor" x="465" y="159" width="16" height="16" rx="4"><title>Hashishim Voting Room</title></rect>
+    <rect id="room-1f892ff4e2b779d0436eef387e928b752baa3e64" class="room indoor" x="465" y="215" width="16" height="16" rx="4"><title>tunnel</title></rect>
+    <rect id="room-4cb9be970c38a493157097f7e2e5c48885305d12" class="room indoor" x="493" y="215" width="16" height="16" rx="4"><title>leatherworking room</title></rect>
+    <rect id="room-c38bf004f6112660b491beb64f4a5e9e944b1aff" class="room indoor" x="437" y="243" width="16" height="16" rx="4"><title>forge</title></rect>
+    <rect id="room-2ab9faca2a3945478405ac9a933928dcc7e5f63b" class="room indoor" x="409" y="131" width="16" height="16" rx="4"><title>tunnel</title></rect>
+    <rect id="room-d0ee3f7634b1632ebe8722eb4ca7ee9f76c7a636" class="room indoor" x="381" y="103" width="16" height="16" rx="4"><title>tunnel</title></rect>
+    <rect id="room-3c426f34777ef3c08e02d16ced62b1882f3bb9b6" class="room indoor" x="353" y="103" width="16" height="16" rx="4"><title>small room</title></rect>
+    <rect id="room-5241876bf0d8c1f5632fc79d716782672d2b0b6b" class="room indoor" x="381" y="75" width="16" height="16" rx="4"><title>tunnel</title></rect>
+    <rect id="room-9f9eca3fdd40b2cc97b4b3d8c2b7b915213a587e" class="room indoor" x="353" y="75" width="16" height="16" rx="4"><title>noticeboard room</title></rect>
+    <rect id="room-096cdfe7b5dade966a9f3460204e3ad401f67763" class="room indoor" x="409" y="75" width="16" height="16" rx="4"><title>library</title></rect>
+    <rect id="room-c779eacce785c5cffd7b90357cd3e02d3dab4e65" class="room indoor" x="437" y="103" width="16" height="16" rx="4"><title>tunnel</title></rect>
+    <rect id="room-58e3596c6937f9509a14e1e988aee19470b77e98" class="room indoor" x="465" y="75" width="16" height="16" rx="4"><title>tunnel</title></rect>
+    <rect id="room-809a718195c02dc5d8c3f4fee41d938d84a212d1" class="room indoor" x="493" y="75" width="16" height="16" rx="4"><title>tunnel</title></rect>
+    <rect id="room-ed3d101ed3aa6ca385a1f25c35bb4dcc487a3455" class="room indoor" x="493" y="47" width="16" height="16" rx="4"><title>clothes shop</title></rect>
+    <rect id="room-a613d346a670073f454837578ad8f5cee9fd8f01" class="room indoor" x="521" y="47" width="16" height="16" rx="4"><title>tiny room</title></rect>
+    <rect id="room-c94b403390f802c2c44064f52dfc1b587d324c40" class="room indoor" x="521" y="75" width="16" height="16" rx="4"><title>equipment shop</title></rect>
+    <rect id="room-975f54c7822aea28545f4c1a58be5baf53fd084d" class="room indoor" x="549" y="75" width="16" height="16" rx="4"><title>tiny alcove</title></rect>
+    <rect id="room-7ab71833c2d39fa66640fe7370d6776f6a041bb2" class="room indoor" x="225" y="420" width="16" height="16" rx="4"><title>stairwell</title></rect>
+    <rect id="room-3c7cc39b7aab12f2bbf3d3449a0124f33f755396" class="room indoor" x="225" y="448" width="16" height="16" rx="4"><title>boardroom</title></rect>
+    <rect id="room-3e3fd6299717e9fad9bec1b61cb62db1127db9a1" class="room indoor" x="197" y="420" width="16" height="16" rx="4"><title>tunnel</title></rect>
+    <rect id="room-6174cd9f1b5d1a35f89c767a4e84aba3d0d6015f" class="room indoor" x="169" y="448" width="16" height="16" rx="4"><title>tunnel</title></rect>
+    <rect id="room-9b2cf4ec7a7b2acd976893c405e113756f67a7ae" class="room indoor" x="169" y="476" width="16" height="16" rx="4"><title>Office of the Lord of the Mountain</title></rect>
+    <rect id="room-3408fc5b1da2c621b57dec5e8d4c144f91bb3989" class="room indoor" x="141" y="448" width="16" height="16" rx="4"><title>Office of the Malik Iman</title></rect>
+    <rect id="room-0f4875e6fd8b26d56d55cf7d7183566de2206ac2" class="room indoor" x="225" y="392" width="16" height="16" rx="4"><title>tunnel</title></rect>
+    <rect id="room-34e6720b711f58b60350fe8fc08e4cd7dcca1497" class="room indoor" x="225" y="364" width="16" height="16" rx="4"><title>tunnel</title></rect>
+    <rect id="room-28b9161330fffac41a1ab6515295342307422317" class="room indoor" x="253" y="336" width="16" height="16" rx="4"><title>dimly-lit training room</title></rect>
+    <rect id="room-9662e8ed60c4e8d1a93a66fc6a753854537901be" class="room indoor" x="197" y="364" width="16" height="16" rx="4"><title>tattoo room</title></rect>
+    <rect id="room-2ddaa465d93aec638e8bb36e616ebbf7b7bba0d1" class="room indoor" x="197" y="336" width="16" height="16" rx="4"><title>tunnel</title></rect>
+    <rect id="room-c1f0e905818619f018776eb02983c7ede489d196" class="room indoor" x="197" y="308" width="16" height="16" rx="4"><title>hashishim laboratory</title></rect>
+    <rect id="room-1963ed8573fae0064bbf6e81d62f26fe75b79a57" class="room indoor" x="253" y="420" width="16" height="16" rx="4"><title>tunnel</title></rect>
+    <rect id="room-0a2f65042684d6532b191c2d7bcb9425b8cdc8ca" class="room indoor" x="253" y="392" width="16" height="16" rx="4"><title>kitchen and dining room</title></rect>
+    <rect id="room-53f0766c505efa93a87a671b74b154ca9935531d" class="room indoor" x="281" y="392" width="16" height="16" rx="4"><title>tunnel</title></rect>
+    <rect id="room-36098b13cfe79eb18cf2102406aeaf749c3dd748" class="room indoor" x="281" y="364" width="16" height="16" rx="4"><title>training room</title></rect>
+    <rect id="room-97cc8c39c2edc9d30f4403750ed35947e64a22a3" class="room indoor" x="309" y="392" width="16" height="16" rx="4"><title>tunnel</title></rect>
+    <rect id="room-fa83e8de822f330c6e638cc22b33020062fd6b40" class="room indoor" x="309" y="364" width="16" height="16" rx="4"><title>casing training room</title></rect>
+    <rect id="room-eb72ff61597e3d245bfced71cdd4f4d82d5571cf" class="room indoor" x="309" y="420" width="16" height="16" rx="4"><title>tunnel</title></rect>
+    <rect id="room-5749f1dd4ec58ed03791ca62aa8e2e96caae8486" class="room indoor" x="337" y="420" width="16" height="16" rx="4"><title>training room</title></rect>
+    <rect id="room-aa157bb30b2f189e64225ef7647413614cec9b79" class="room indoor" x="309" y="448" width="16" height="16" rx="4"><title>sandy room</title></rect>
+    <rect id="room-873b85d07b34088e7d63b5542885d92fe4175650" class="room indoor" x="309" y="476" width="16" height="16" rx="4"><title>sandy room</title></rect>
+    <rect id="room-eb210c70f90aac64ca90066a2fcee626c7278fdb" class="room indoor" x="281" y="476" width="16" height="16" rx="4"><title>sandy room</title></rect>
+    <rect id="room-e0294ac963f7e58c779cd9c41efb1f6e942b2459" class="room indoor" x="281" y="448" width="16" height="16" rx="4"><title>sandy room</title></rect>
+    <rect id="room-1eb7e0bf89cfbc4fb6ddf4c852078fd033503bfa" class="room indoor" x="465" y="243" width="16" height="16" rx="4"><title>pottery room</title></rect>
+  </g>
+
+  <g id="layer-labels">
+    <text class="map-label" x="258" y="121">tunnel</text>
+    <text class="map-label" x="230" y="149">tunnel</text>
+    <text class="map-label" x="202" y="177">tunnel</text>
+    <text class="map-label" x="202" y="204">tunnel</text>
+    <text class="map-label" x="174" y="204">tunnel</text>
+    <text class="map-label" x="174" y="232">cave</text>
+    <text class="map-label" x="202" y="232">cave</text>
+    <text class="map-label" x="202" y="260">cave</text>
+    <text class="map-label" x="174" y="260">cave</text>
+    <text class="map-label" x="389" y="155">tunnel</text>
+    <text class="map-label" x="417" y="155">stairwell</text>
+    <text class="map-label" x="389" y="183">Inhumation Office</text>
+    <text class="map-label" x="445" y="155">large room</text>
+    <text class="map-label" x="417" y="183">tunnel</text>
+    <text class="map-label" x="445" y="183">tunnel</text>
+    <text class="map-label" x="473" y="183">tunnel</text>
+    <text class="map-label" x="473" y="155">Hashishim Voting Room</text>
+    <text class="map-label" x="473" y="211">tunnel</text>
+    <text class="map-label" x="501" y="211">leatherworking room</text>
+    <text class="map-label" x="445" y="239">forge</text>
+    <text class="map-label" x="417" y="127">tunnel</text>
+    <text class="map-label" x="389" y="99">tunnel</text>
+    <text class="map-label" x="361" y="99">small room</text>
+    <text class="map-label" x="389" y="71">tunnel</text>
+    <text class="map-label" x="361" y="71">noticeboard room</text>
+    <text class="map-label" x="417" y="71">library</text>
+    <text class="map-label" x="445" y="99">tunnel</text>
+    <text class="map-label" x="473" y="71">tunnel</text>
+    <text class="map-label" x="501" y="71">tunnel</text>
+    <text class="map-label" x="501" y="43">clothes shop</text>
+    <text class="map-label" x="529" y="43">tiny room</text>
+    <text class="map-label" x="529" y="71">equipment shop</text>
+    <text class="map-label" x="557" y="71">tiny alcove</text>
+    <text class="map-label" x="233" y="416">stairwell</text>
+    <text class="map-label" x="233" y="444">boardroom</text>
+    <text class="map-label" x="205" y="416">tunnel</text>
+    <text class="map-label" x="177" y="444">tunnel</text>
+    <text class="map-label" x="177" y="472">Office of the Lord of the Mountain</text>
+    <text class="map-label" x="149" y="444">Office of the Malik Iman</text>
+    <text class="map-label" x="233" y="388">tunnel</text>
+    <text class="map-label" x="233" y="360">tunnel</text>
+    <text class="map-label" x="261" y="332">dimly-lit training room</text>
+    <text class="map-label" x="205" y="360">tattoo room</text>
+    <text class="map-label" x="205" y="332">tunnel</text>
+    <text class="map-label" x="205" y="304">hashishim laboratory</text>
+    <text class="map-label" x="261" y="416">tunnel</text>
+    <text class="map-label" x="261" y="388">kitchen and dining room</text>
+    <text class="map-label" x="289" y="388">tunnel</text>
+    <text class="map-label" x="289" y="360">training room</text>
+    <text class="map-label" x="317" y="388">tunnel</text>
+    <text class="map-label" x="317" y="360">casing training room</text>
+    <text class="map-label" x="317" y="416">tunnel</text>
+    <text class="map-label" x="345" y="416">training room</text>
+    <text class="map-label" x="317" y="444">sandy room</text>
+    <text class="map-label" x="317" y="472">sandy room</text>
+    <text class="map-label" x="289" y="472">sandy room</text>
+    <text class="map-label" x="289" y="444">sandy room</text>
+    <text class="map-label" x="473" y="239">pottery room</text>
+  </g>
+
+</svg>

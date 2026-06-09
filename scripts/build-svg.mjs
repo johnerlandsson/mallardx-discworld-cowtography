@@ -192,3 +192,73 @@ ${tiles.join('\n')}
 
 </svg>`
 }
+
+// ─── CLI ─────────────────────────────────────────────────────────────────────
+
+async function buildOneSvg(db, mapId, mapMeta) {
+  const outPath = path.join(OUT_DIR, mapMeta.file.replace('.png', '.svg'))
+  const roomRows = queryRooms(db, mapId)
+  const exitRows = queryExits(db, mapId)
+
+  let svg
+  try {
+    const existing = await fs.readFile(outPath, 'utf8')
+    const oldIds = new Set([...existing.matchAll(/id="room-([^"]+)"/g)].map(m => m[1]))
+    const newIds = new Set(roomRows.map(r => r.id))
+    const added   = [...newIds].filter(id => !oldIds.has(id)).length
+    const removed = [...oldIds].filter(id => !newIds.has(id)).length
+    if (added > 0 || removed > 0) {
+      console.log(`[build-svg] map ${mapId}: +${added} rooms, -${removed} removed — update labels manually`)
+    }
+    svg = updateExistingSvg(existing, mapMeta, roomRows, exitRows)
+  } catch {
+    svg = buildNewSvg(mapMeta, roomRows, exitRows, mapId)
+  }
+
+  await fs.writeFile(outPath, svg, 'utf8')
+  console.log(`[build-svg]   ✓ ${path.basename(outPath)}  (${roomRows.length} rooms, ${exitRows.length} exits)`)
+}
+
+async function main() {
+  const args = process.argv.slice(2)
+
+  const dbFlagIdx  = args.indexOf('--db')
+  const mapFlagIdx = args.indexOf('--map')
+  const dbPath     = dbFlagIdx  !== -1 ? path.resolve(args[dbFlagIdx  + 1]) : DEFAULT_DB
+  const onlyMapId  = mapFlagIdx !== -1 ? Number(args[mapFlagIdx + 1])       : null
+
+  try { await fs.access(dbPath) } catch {
+    throw new Error(`DB not found at ${dbPath}\nRun 'npm run build:data' first, or pass --db /path/to/_quowmap_database.db`)
+  }
+
+  const db = new Database(dbPath, { readonly: true })
+  await fs.mkdir(OUT_DIR, { recursive: true })
+
+  // UU Library — always use the dedicated generator; skip if already exists
+  if (onlyMapId === null || onlyMapId === 47) {
+    const libPath = path.join(OUT_DIR, 'uu_library_full.svg')
+    try {
+      await fs.access(libPath)
+      console.log('[build-svg]   ✓ uu_library_full.svg  (exists; delete to regenerate)')
+    } catch {
+      await fs.writeFile(libPath, buildLibrarySvg(), 'utf8')
+      console.log('[build-svg]   ✓ uu_library_full.svg  (tile-grid, generated)')
+    }
+  }
+
+  // Standard maps — all except 47 (UU Library) and 99 (World Disc — stays PNG)
+  const mapIds = Object.keys(maps).map(Number).filter(id => id !== 47 && id !== 99)
+  for (const mapId of mapIds.sort((a, b) => a - b)) {
+    if (onlyMapId !== null && mapId !== onlyMapId) continue
+    const meta = maps[mapId]
+    if (!meta) continue
+    await buildOneSvg(db, mapId, meta)
+  }
+
+  db.close()
+  console.log('[build-svg] done.')
+}
+
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
+  main().catch(e => { console.error(`[build-svg] FAILED: ${e.message}`); process.exit(1) })
+}

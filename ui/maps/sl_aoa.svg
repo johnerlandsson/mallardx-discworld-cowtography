@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 410 385"
+     class="map-svg"
+     data-map-id="40">
+
+  <g id="layer-artwork"><!-- artwork --></g>
+
+  <g id="layer-exits">
+    <line id="edge-572f3c54b5dece1f8fd35b74eb87f99482004a7d-86b74a34d55943ff4139c94a7df029b3e51fb74e" class="exit" x1="47" y1="87" x2="47" y2="111"/>
+    <line id="edge-40098c8bc07fb039e8633b9cd2d2850298b119a7-86b74a34d55943ff4139c94a7df029b3e51fb74e" class="exit" x1="47" y1="135" x2="47" y2="111"/>
+    <line id="edge-4ae3ad5514a77b70c241bcb8dc00867795f02f44-86b74a34d55943ff4139c94a7df029b3e51fb74e" class="exit" x1="71" y1="111" x2="47" y2="111"/>
+    <line id="edge-6bf874be4f0b6b7bc720600fc79eaad3bc25f9e4-86b74a34d55943ff4139c94a7df029b3e51fb74e" class="exit" x1="23" y1="111" x2="47" y2="111"/>
+    <line id="edge-4ae3ad5514a77b70c241bcb8dc00867795f02f44-a95f98659aa8f47bbb092ce99a939e2a7031ea27" class="exit" x1="71" y1="111" x2="71" y2="135"/>
+    <line id="edge-9c385e70826768cc32f0d0299eb5424d2e7e31ab-a95f98659aa8f47bbb092ce99a939e2a7031ea27" class="exit" x1="71" y1="160" x2="71" y2="135"/>
+    <line id="edge-40098c8bc07fb039e8633b9cd2d2850298b119a7-4d9ac13d2ce254076d296b189dd3d3e73a824a61" class="exit" x1="47" y1="135" x2="23" y2="135"/>
+    <line id="edge-40098c8bc07fb039e8633b9cd2d2850298b119a7-90aa5c30d9cc48009be20d3e6753231b7c4b43d7" class="exit" x1="47" y1="135" x2="170" y2="135"/>
+    <line id="edge-40098c8bc07fb039e8633b9cd2d2850298b119a7-a4916638726b48abc1fffe19bd1026f538662c07" class="exit" x1="47" y1="135" x2="47" y2="159"/>
+    <line id="edge-4d9ac13d2ce254076d296b189dd3d3e73a824a61-a94bfd42dbfda19146f2aa4987d8168efdf5a5e0" class="exit" x1="23" y1="135" x2="23" y2="159"/>
+    <line id="edge-776fb02306d6c603b49943cf6e13313f897c1f8a-a4916638726b48abc1fffe19bd1026f538662c07" class="exit" x1="47" y1="185" x2="47" y2="159"/>
+    <line id="edge-776fb02306d6c603b49943cf6e13313f897c1f8a-78af4dbf51cb732d3cc9205c4a85004e24a8028f" class="exit" x1="47" y1="185" x2="19" y2="185"/>
+    <line id="edge-776fb02306d6c603b49943cf6e13313f897c1f8a-d9ce01056f6eb615108c89d4e1fe0a699d80bb8c" class="exit" x1="47" y1="185" x2="75" y2="185"/>
+    <line id="edge-119deeebd60c3dbef0fc8fca7291771be154467f-d9ce01056f6eb615108c89d4e1fe0a699d80bb8c" class="exit" x1="75" y1="213" x2="75" y2="185"/>
+    <line id="edge-119deeebd60c3dbef0fc8fca7291771be154467f-7aacf597eff89c9f84b33788cc6a154995a16ab7" class="exit" x1="75" y1="213" x2="75" y2="241"/>
+    <line id="edge-78af4dbf51cb732d3cc9205c4a85004e24a8028f-852de57fb75873893821373555a39bd202f55aa6" class="exit" x1="19" y1="185" x2="19" y2="213"/>
+    <line id="edge-852de57fb75873893821373555a39bd202f55aa6-cff86225cc9ea639c7a576735ac57ebfa15d18a7" class="exit" x1="19" y1="213" x2="19" y2="241"/>
+    <line id="edge-8c3733c176e3dbde537b1eb401e89246412fbe34-cff86225cc9ea639c7a576735ac57ebfa15d18a7" class="exit" x1="47" y1="241" x2="19" y2="241"/>
+    <line id="edge-7aacf597eff89c9f84b33788cc6a154995a16ab7-8c3733c176e3dbde537b1eb401e89246412fbe34" class="exit" x1="75" y1="241" x2="47" y2="241"/>
+    <line id="edge-0daf68f6440a37689d59116b20cec2a8d1a49437-90aa5c30d9cc48009be20d3e6753231b7c4b43d7" class="exit" x1="145" y1="159" x2="170" y2="135"/>
+    <line id="edge-365404fb8d70c8138f728cd0d3226499f5b36e41-90aa5c30d9cc48009be20d3e6753231b7c4b43d7" class="exit" x1="170" y1="159" x2="170" y2="135"/>
+    <line id="edge-8dab2c209a34472b254b5e4f70b87f67b7322eca-90aa5c30d9cc48009be20d3e6753231b7c4b43d7" class="exit" x1="170" y1="111" x2="170" y2="135"/>
+    <line id="edge-380d8af5e7776df4a720f367f4f5db359951535e-8dab2c209a34472b254b5e4f70b87f67b7322eca" class="exit" x1="170" y1="87" x2="170" y2="111"/>
+    <line id="edge-2c174bfd8a9a34c396eba703ab3e2cb8bd751a27-380d8af5e7776df4a720f367f4f5db359951535e" class="exit" x1="146" y1="87" x2="170" y2="87"/>
+    <line id="edge-380d8af5e7776df4a720f367f4f5db359951535e-99da9d8ac1f7d8d9287ee755743da3e58d451aa9" class="exit" x1="170" y1="87" x2="170" y2="63"/>
+    <line id="edge-380d8af5e7776df4a720f367f4f5db359951535e-a912b984781ff90fd70a42c66bb82eef0e270f0b" class="exit" x1="170" y1="87" x2="194" y2="87"/>
+    <line id="edge-0f66baa64b424216b289cd8801afd951260bddac-365404fb8d70c8138f728cd0d3226499f5b36e41" class="exit" x1="293" y1="159" x2="170" y2="159"/>
+    <line id="edge-0f66baa64b424216b289cd8801afd951260bddac-2a9911e8efb45a960d2f6a1fffc28761903cfc60" class="exit" x1="293" y1="159" x2="293" y2="135"/>
+    <line id="edge-2a9911e8efb45a960d2f6a1fffc28761903cfc60-375905c93d0b436477125681c2282feeef4232cc" class="exit" x1="293" y1="135" x2="269" y2="135"/>
+    <line id="edge-2a9911e8efb45a960d2f6a1fffc28761903cfc60-41498cbd310d0c423e8ee562620318975b8989b0" class="exit" x1="293" y1="135" x2="293" y2="111"/>
+    <line id="edge-2a9911e8efb45a960d2f6a1fffc28761903cfc60-50d4e9a919df63f42d0d4565e4393a3386784628" class="exit" x1="293" y1="135" x2="318" y2="135"/>
+    <line id="edge-0840fca351c5c8ff8c37e624b41de66627e53c33-375905c93d0b436477125681c2282feeef4232cc" class="exit" x1="269" y1="111" x2="269" y2="135"/>
+    <line id="edge-0840fca351c5c8ff8c37e624b41de66627e53c33-41498cbd310d0c423e8ee562620318975b8989b0" class="exit" x1="269" y1="111" x2="293" y2="111"/>
+    <line id="edge-34b4fd6ffd16cfd2dd22fe1fca89e94a18dc7728-41498cbd310d0c423e8ee562620318975b8989b0" class="exit" x1="293" y1="87" x2="293" y2="111"/>
+    <line id="edge-41498cbd310d0c423e8ee562620318975b8989b0-f535897927e88d983b1b6aab422bf3c0ab7b862b" class="exit" x1="293" y1="111" x2="317" y2="111"/>
+  </g>
+
+  <g id="layer-rooms">
+    <rect id="room-572f3c54b5dece1f8fd35b74eb87f99482004a7d" class="room indoor" x="39" y="79" width="16" height="16" rx="4"><title>Academy of Artificers</title></rect>
+    <rect id="room-86b74a34d55943ff4139c94a7df029b3e51fb74e" class="room indoor" x="39" y="103" width="16" height="16" rx="4"><title>corridor</title></rect>
+    <rect id="room-6bf874be4f0b6b7bc720600fc79eaad3bc25f9e4" class="room indoor" x="15" y="103" width="16" height="16" rx="4"><title>Office of the Headmaster</title></rect>
+    <rect id="room-4ae3ad5514a77b70c241bcb8dc00867795f02f44" class="room indoor" x="63" y="103" width="16" height="16" rx="4"><title>Stapleton&#x27;s Student Supplies</title></rect>
+    <rect id="room-a95f98659aa8f47bbb092ce99a939e2a7031ea27" class="room indoor" x="63" y="127" width="16" height="16" rx="4"><title>Academy Legibles</title></rect>
+    <rect id="room-9c385e70826768cc32f0d0299eb5424d2e7e31ab" class="room indoor" x="63" y="152" width="16" height="16" rx="4"><title>Gildworthy&#x27;s workshop</title></rect>
+    <rect id="room-40098c8bc07fb039e8633b9cd2d2850298b119a7" class="room indoor" x="39" y="127" width="16" height="16" rx="4"><title>stairwell</title></rect>
+    <rect id="room-4d9ac13d2ce254076d296b189dd3d3e73a824a61" class="room indoor" x="15" y="127" width="16" height="16" rx="4"><title>Cat and Fiddle Coffee Shop</title></rect>
+    <rect id="room-a94bfd42dbfda19146f2aa4987d8168efdf5a5e0" class="room indoor" x="15" y="151" width="16" height="16" rx="4"><title>Hammered Anvil Student Deli</title></rect>
+    <rect id="room-a4916638726b48abc1fffe19bd1026f538662c07" class="room indoor" x="39" y="151" width="16" height="16" rx="4"><title>hall</title></rect>
+    <rect id="room-776fb02306d6c603b49943cf6e13313f897c1f8a" class="room indoor" x="39" y="177" width="16" height="16" rx="4"><title>overgrown garden</title></rect>
+    <rect id="room-d9ce01056f6eb615108c89d4e1fe0a699d80bb8c" class="room indoor" x="67" y="177" width="16" height="16" rx="4"><title>overgrown garden</title></rect>
+    <rect id="room-119deeebd60c3dbef0fc8fca7291771be154467f" class="room indoor" x="67" y="205" width="16" height="16" rx="4"><title>overgrown garden</title></rect>
+    <rect id="room-78af4dbf51cb732d3cc9205c4a85004e24a8028f" class="room indoor" x="11" y="177" width="16" height="16" rx="4"><title>overgrown garden</title></rect>
+    <rect id="room-852de57fb75873893821373555a39bd202f55aa6" class="room indoor" x="11" y="205" width="16" height="16" rx="4"><title>overgrown garden</title></rect>
+    <rect id="room-cff86225cc9ea639c7a576735ac57ebfa15d18a7" class="room indoor" x="11" y="233" width="16" height="16" rx="4"><title>overgrown garden</title></rect>
+    <rect id="room-8c3733c176e3dbde537b1eb401e89246412fbe34" class="room indoor" x="39" y="233" width="16" height="16" rx="4"><title>overgrown garden</title></rect>
+    <rect id="room-7aacf597eff89c9f84b33788cc6a154995a16ab7" class="room indoor" x="67" y="233" width="16" height="16" rx="4"><title>overgrown garden</title></rect>
+    <rect id="room-90aa5c30d9cc48009be20d3e6753231b7c4b43d7" class="room indoor" x="162" y="127" width="16" height="16" rx="4"><title>hall</title></rect>
+    <rect id="room-8dab2c209a34472b254b5e4f70b87f67b7322eca" class="room indoor" x="162" y="103" width="16" height="16" rx="4"><title>hall</title></rect>
+    <rect id="room-380d8af5e7776df4a720f367f4f5db359951535e" class="room indoor" x="162" y="79" width="16" height="16" rx="4"><title>landing</title></rect>
+    <rect id="room-2c174bfd8a9a34c396eba703ab3e2cb8bd751a27" class="room indoor" x="138" y="79" width="16" height="16" rx="4"><title>study</title></rect>
+    <rect id="room-99da9d8ac1f7d8d9287ee755743da3e58d451aa9" class="room indoor" x="162" y="55" width="16" height="16" rx="4"><title>classroom</title></rect>
+    <rect id="room-a912b984781ff90fd70a42c66bb82eef0e270f0b" class="room indoor" x="186" y="79" width="16" height="16" rx="4"><title>lounge</title></rect>
+    <rect id="room-365404fb8d70c8138f728cd0d3226499f5b36e41" class="room indoor" x="162" y="151" width="16" height="16" rx="4"><title>stairwell</title></rect>
+    <rect id="room-0f66baa64b424216b289cd8801afd951260bddac" class="room indoor" x="285" y="151" width="16" height="16" rx="4"><title>stairwell</title></rect>
+    <rect id="room-2a9911e8efb45a960d2f6a1fffc28761903cfc60" class="room indoor" x="285" y="127" width="16" height="16" rx="4"><title>hallway</title></rect>
+    <rect id="room-375905c93d0b436477125681c2282feeef4232cc" class="room indoor" x="261" y="127" width="16" height="16" rx="4"><title>Schmit and Weestone&#x27;s</title></rect>
+    <rect id="room-0840fca351c5c8ff8c37e624b41de66627e53c33" class="room indoor" x="261" y="103" width="16" height="16" rx="4"><title>gymnasium</title></rect>
+    <rect id="room-41498cbd310d0c423e8ee562620318975b8989b0" class="room indoor" x="285" y="103" width="16" height="16" rx="4"><title>commons</title></rect>
+    <rect id="room-34b4fd6ffd16cfd2dd22fe1fca89e94a18dc7728" class="room indoor" x="285" y="79" width="16" height="16" rx="4"><title>Academy Library</title></rect>
+    <rect id="room-f535897927e88d983b1b6aab422bf3c0ab7b862b" class="room indoor" x="309" y="103" width="16" height="16" rx="4"><title>small library</title></rect>
+    <rect id="room-50d4e9a919df63f42d0d4565e4393a3386784628" class="room indoor" x="310" y="127" width="16" height="16" rx="4"><title>Brimstone&#x27;s</title></rect>
+    <rect id="room-da25a14dfee057f9840ff64a65a9a4003482977e" class="room indoor" x="39" y="261" width="16" height="16" rx="4"><title>secret garden</title></rect>
+    <rect id="room-5a92994c4031b496b1754eab65cc6bb306936976" class="room indoor" x="39" y="362" width="16" height="16" rx="4"><title>tavern entrance</title></rect>
+    <rect id="room-7dbff613a51411310139bc669950dbffd9f9393e" class="room indoor" x="64" y="338" width="16" height="16" rx="4"><title>billiards room</title></rect>
+    <rect id="room-b40500341df08abc0018419eb9e00f7be3089d98" class="room indoor" x="64" y="314" width="16" height="16" rx="4"><title>smoking room</title></rect>
+    <rect id="room-5b3035d568cf0b6aa422e45344fd7c5837cee785" class="room indoor" x="39" y="314" width="16" height="16" rx="4"><title>public dining room</title></rect>
+    <rect id="room-35acc2106177fefc6261dd83ca0fdb496c5cbefc" class="room indoor" x="39" y="338" width="16" height="16" rx="4"><title>pub</title></rect>
+    <rect id="room-c99fdd06e87c4038b4e3d93e4ac1d34a31311fe6" class="room indoor" x="14" y="338" width="16" height="16" rx="4"><title>darts room</title></rect>
+    <rect id="room-8f1ab70b6fd745a5348ebde31897aa9cbf2a5bf0" class="room indoor" x="39" y="290" width="16" height="16" rx="4"><title>tavern kitchen</title></rect>
+    <rect id="room-348f51a4787bf9dbc867bbd91d603cd4b2cd8f3d" class="room indoor" x="14" y="314" width="16" height="16" rx="4"><title>private dining area</title></rect>
+    <rect id="room-4d2c7164903ac2f226a53bd51ba3fdbefb7d59d1" class="room indoor" x="39" y="151" width="16" height="16" rx="4"><title>old wine cellar</title></rect>
+    <rect id="room-7fbcd1aba50786798362276886c18a605a3b5fe7" class="room indoor" x="39" y="151" width="16" height="16" rx="4"><title>dark cellar</title></rect>
+    <rect id="room-StoLatLibrary" class="room indoor" x="285" y="59" width="16" height="16" rx="4"><title>library</title></rect>
+    <rect id="room-5edcbd0e5b87279b1ea2eaf714036b73833d6c81" class="room indoor" x="310" y="151" width="16" height="16" rx="4"><title>recharging alcove</title></rect>
+    <rect id="room-5912e744f46a9830f190799b66b10abc1851e96b" class="room indoor" x="39" y="151" width="16" height="16" rx="4"><title>secret cellar</title></rect>
+    <rect id="room-0daf68f6440a37689d59116b20cec2a8d1a49437" class="room indoor" x="137" y="151" width="16" height="16" rx="4"><title>Rubayak Suite</title></rect>
+  </g>
+
+  <g id="layer-labels">
+    <text class="map-label" x="47" y="75">Academy of Artificers</text>
+    <text class="map-label" x="47" y="99">corridor</text>
+    <text class="map-label" x="23" y="99">Office of the Headmaster</text>
+    <text class="map-label" x="71" y="99">Stapleton&#x27;s Student Supplies</text>
+    <text class="map-label" x="71" y="123">Academy Legibles</text>
+    <text class="map-label" x="71" y="148">Gildworthy&#x27;s workshop</text>
+    <text class="map-label" x="47" y="123">stairwell</text>
+    <text class="map-label" x="23" y="123">Cat and Fiddle Coffee Shop</text>
+    <text class="map-label" x="23" y="147">Hammered Anvil Student Deli</text>
+    <text class="map-label" x="47" y="147">hall</text>
+    <text class="map-label" x="47" y="173">overgrown garden</text>
+    <text class="map-label" x="75" y="173">overgrown garden</text>
+    <text class="map-label" x="75" y="201">overgrown garden</text>
+    <text class="map-label" x="19" y="173">overgrown garden</text>
+    <text class="map-label" x="19" y="201">overgrown garden</text>
+    <text class="map-label" x="19" y="229">overgrown garden</text>
+    <text class="map-label" x="47" y="229">overgrown garden</text>
+    <text class="map-label" x="75" y="229">overgrown garden</text>
+    <text class="map-label" x="170" y="123">hall</text>
+    <text class="map-label" x="170" y="99">hall</text>
+    <text class="map-label" x="170" y="75">landing</text>
+    <text class="map-label" x="146" y="75">study</text>
+    <text class="map-label" x="170" y="51">classroom</text>
+    <text class="map-label" x="194" y="75">lounge</text>
+    <text class="map-label" x="170" y="147">stairwell</text>
+    <text class="map-label" x="293" y="147">stairwell</text>
+    <text class="map-label" x="293" y="123">hallway</text>
+    <text class="map-label" x="269" y="123">Schmit and Weestone&#x27;s</text>
+    <text class="map-label" x="269" y="99">gymnasium</text>
+    <text class="map-label" x="293" y="99">commons</text>
+    <text class="map-label" x="293" y="75">Academy Library</text>
+    <text class="map-label" x="317" y="99">small library</text>
+    <text class="map-label" x="318" y="123">Brimstone&#x27;s</text>
+    <text class="map-label" x="47" y="257">secret garden</text>
+    <text class="map-label" x="47" y="358">tavern entrance</text>
+    <text class="map-label" x="72" y="334">billiards room</text>
+    <text class="map-label" x="72" y="310">smoking room</text>
+    <text class="map-label" x="47" y="310">public dining room</text>
+    <text class="map-label" x="47" y="334">pub</text>
+    <text class="map-label" x="22" y="334">darts room</text>
+    <text class="map-label" x="47" y="286">tavern kitchen</text>
+    <text class="map-label" x="22" y="310">private dining area</text>
+    <text class="map-label" x="47" y="147">old wine cellar</text>
+    <text class="map-label" x="47" y="147">dark cellar</text>
+    <text class="map-label" x="293" y="55">library</text>
+    <text class="map-label" x="318" y="147">recharging alcove</text>
+    <text class="map-label" x="47" y="147">secret cellar</text>
+    <text class="map-label" x="145" y="147">Rubayak Suite</text>
+  </g>
+
+</svg>
