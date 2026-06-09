@@ -62,4 +62,32 @@ test('returns nil for nil inputs', function()
   assert(pathfind.find_path(exits, 'A', nil) == nil)
 end)
 
+-- ── distances_from ────────────────────────────────────────────────────────────
+
+test('distances_from: correct distances from A', function()
+  local dist = pathfind.distances_from(exits, 'A')
+  assert(dist['A'] == 0, 'A should be 0')
+  assert(dist['B'] == 1, 'B should be 1')
+  assert(dist['C'] == 2, 'C should be 2')
+  assert(dist['D'] == 2, 'D should be 2')
+end)
+
+test('distances_from: start not in exits returns empty table', function()
+  local dist = pathfind.distances_from(exits, 'Z')
+  assert(next(dist) == nil, 'expected empty table')
+end)
+
+test('distances_from: nil start returns empty table', function()
+  local dist = pathfind.distances_from(exits, nil)
+  assert(next(dist) == nil, 'expected empty table')
+end)
+
+test('distances_from: unreachable room absent from result', function()
+  local exits2 = { A = { B = 'n' }, B = { A = 's' }, X = {} }
+  local dist = pathfind.distances_from(exits2, 'A')
+  assert(dist['A'] == 0)
+  assert(dist['B'] == 1)
+  assert(dist['X'] == nil, 'X is unreachable from A')
+end)
+
 print(string.format('\n%d tests passed.', passed))

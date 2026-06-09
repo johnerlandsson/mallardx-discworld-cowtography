@@ -64,4 +64,26 @@ function M.find_path(exits, start_id, target_id)
   return table.concat(path, ';'), #path
 end
 
+-- distances_from(exits, start_id)
+-- Returns { [room_id] = steps } for all rooms reachable from start_id.
+function M.distances_from(exits, start_id)
+  if start_id == nil or exits[start_id] == nil then return {} end
+  local dist  = { [start_id] = 0 }
+  local queue = { start_id }
+  local head  = 1
+  while head <= #queue do
+    local room = queue[head]
+    head = head + 1
+    if exits[room] then
+      for neighbor in pairs(exits[room]) do
+        if dist[neighbor] == nil then
+          dist[neighbor] = dist[room] + 1
+          queue[#queue + 1] = neighbor
+        end
+      end
+    end
+  end
+  return dist
+end
+
 return M

@@ -1,5 +1,5 @@
 local M = {}
-local MAX_RESULTS = 30
+local MAX_RESULTS = 200
 
 function M.search_rooms(rooms, query)
   local q = string.lower(query)

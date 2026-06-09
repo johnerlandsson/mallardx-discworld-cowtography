@@ -40,11 +40,11 @@ test('room: result has room_id, name, location', function()
   assert(res[1].location == 'Broad Way')
 end)
 
-test('room: capped at 30 results', function()
+test('room: capped at 200 results', function()
   local big = {}
-  for i = 1, 50 do big['room' .. i] = 'test room ' .. i end
+  for i = 1, 250 do big['room' .. i] = 'test room ' .. i end
   local res = search.search_rooms(big, 'test')
-  assert(#res == 30, 'expected 30, got ' .. #res)
+  assert(#res == 200, 'expected 200, got ' .. #res)
 end)
 
 -- ── search_items ──────────────────────────────────────────────────────────────
