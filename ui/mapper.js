@@ -80,9 +80,13 @@ function drawFacingArrow(cx, cy, facing, zoom) {
     ctx.lineTo(cx - r,     cy);
     ctx.lineTo(cx - r + w, cy + w);
   }
-  ctx.strokeStyle = "rgba(255, 210, 60, 0.95)";
-  ctx.lineWidth = 2.5 * zoom;
   ctx.lineJoin = "round";
+  // Dark outline first so the chevron reads on both light and dark map tiles.
+  ctx.strokeStyle = "rgba(0, 0, 0, 0.7)";
+  ctx.lineWidth = 5 * zoom;
+  ctx.stroke();
+  ctx.strokeStyle = "rgba(255, 210, 60, 1)";
+  ctx.lineWidth = 2.5 * zoom;
   ctx.stroke();
 }
 
@@ -101,8 +105,12 @@ function drawDistortionBar(cx, cy, dir, zoom) {
 function drawOrbRing(cx, cy, zoom) {
   ctx.beginPath();
   ctx.arc(cx, cy, 9 * zoom, 0, Math.PI * 2);
-  ctx.strokeStyle = "rgba(255, 140, 0, 0.85)";
-  ctx.lineWidth = 2 * zoom;
+  // Dark outline so the ring reads on the white library background.
+  ctx.strokeStyle = "rgba(0, 0, 0, 0.6)";
+  ctx.lineWidth = 4.5 * zoom;
+  ctx.stroke();
+  ctx.strokeStyle = "rgba(255, 140, 0, 1)";
+  ctx.lineWidth = 2.5 * zoom;
   ctx.stroke();
 }
 
@@ -173,7 +181,7 @@ function redraw() {
       const ry = offsetY + py * zoom;
       ctx.beginPath();
       ctx.arc(rx, ry, 4, 0, Math.PI * 2);
-      ctx.fillStyle = "rgba(160, 32, 240, 0.45)";
+      ctx.fillStyle = "rgba(0, 210, 255, 0.8)";
       ctx.fill();
     }
   }
