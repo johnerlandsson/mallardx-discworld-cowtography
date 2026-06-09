@@ -64,6 +64,7 @@ async function loadSvgMap(mapId, x, y) {
   if (!meta) return;
   const gen = ++loadGeneration;
   const res     = await fetch(`maps/${meta.file.replace(".png", ".svg")}`);
+  if (!res.ok) throw new Error(`HTTP ${res.status} loading map ${mapId}`);
   const svgText = await res.text();
   if (gen !== loadGeneration) return;  // superseded by a later load
   clearContainer();
