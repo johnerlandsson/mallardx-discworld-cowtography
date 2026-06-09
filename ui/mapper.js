@@ -24,6 +24,8 @@ let currentRoomsForMap = []; // [{ id, x, y, short }] for hover tooltip
 const ZOOMS = [0.75, 1.0, 1.5];
 let zoomIdx = 1;
 let routeRoomIds = [];       // ordered room IDs for current route highlight
+let libraryOverlay = null;   // { facing, distortion, orb } from Lua
+let lastKnownMapId = null;   // for L-space detection (null → was on map 47 → L-space)
 
 // ─── Image loading ────────────────────────────────────────────────────────
 function swapImage(next) {
@@ -54,6 +56,71 @@ function indexRoomsForMap(mapId) {
   }
 }
 
+// ─── UU Library drawing helpers ───────────────────────────────────────────
+
+// Directional arrow (chevron) showing which way the player is facing.
+function drawFacingArrow(cx, cy, facing, zoom) {
+  const r = 12 * zoom;   // distance from centre
+  const w = 5  * zoom;   // wing spread
+  ctx.beginPath();
+  if (facing === 'n') {
+    ctx.moveTo(cx - w, cy - r + w);
+    ctx.lineTo(cx,     cy - r);
+    ctx.lineTo(cx + w, cy - r + w);
+  } else if (facing === 's') {
+    ctx.moveTo(cx - w, cy + r - w);
+    ctx.lineTo(cx,     cy + r);
+    ctx.lineTo(cx + w, cy + r - w);
+  } else if (facing === 'e') {
+    ctx.moveTo(cx + r - w, cy - w);
+    ctx.lineTo(cx + r,     cy);
+    ctx.lineTo(cx + r - w, cy + w);
+  } else if (facing === 'w') {
+    ctx.moveTo(cx - r + w, cy - w);
+    ctx.lineTo(cx - r,     cy);
+    ctx.lineTo(cx - r + w, cy + w);
+  }
+  ctx.strokeStyle = "rgba(255, 210, 60, 0.95)";
+  ctx.lineWidth = 2.5 * zoom;
+  ctx.lineJoin = "round";
+  ctx.stroke();
+}
+
+// Red bar across one edge of the current room showing a distortion direction.
+function drawDistortionBar(cx, cy, dir, zoom) {
+  const half = 10 * zoom;  // half-width of bar along the edge
+  const thick = 4 * zoom;  // bar thickness (into the room)
+  ctx.fillStyle = "rgba(220, 20, 20, 0.9)";
+  if      (dir === 'n') ctx.fillRect(cx - half, cy - half - thick, half * 2, thick);
+  else if (dir === 's') ctx.fillRect(cx - half, cy + half,         half * 2, thick);
+  else if (dir === 'e') ctx.fillRect(cx + half,         cy - half, thick, half * 2);
+  else if (dir === 'w') ctx.fillRect(cx - half - thick, cy - half, thick, half * 2);
+}
+
+// Orange ring showing an escaped spell orb at the current position.
+function drawOrbRing(cx, cy, zoom) {
+  ctx.beginPath();
+  ctx.arc(cx, cy, 9 * zoom, 0, Math.PI * 2);
+  ctx.strokeStyle = "rgba(255, 140, 0, 0.85)";
+  ctx.lineWidth = 2 * zoom;
+  ctx.stroke();
+}
+
+// Translucent overlay with text when the player is lost in L-space.
+function drawLSpaceOverlay(cw, ch) {
+  ctx.fillStyle = "rgba(60, 0, 80, 0.55)";
+  ctx.fillRect(0, 0, cw, ch);
+  ctx.textAlign = "center";
+  ctx.textBaseline = "middle";
+  ctx.fillStyle = "#cc88ff";
+  ctx.font = "bold 15px sans-serif";
+  ctx.fillText("Lost in L-space", cw / 2, ch / 2 - 11);
+  ctx.fillStyle = "#888888";
+  ctx.font = "12px sans-serif";
+  ctx.fillText("Find a Gap in the exits.", cw / 2, ch / 2 + 11);
+  ctx.textBaseline = "alphabetic";
+}
+
 // ─── Drawing ──────────────────────────────────────────────────────────────
 function redraw() {
   // Size canvas's drawing buffer to its CSS size (handles resize).
@@ -65,8 +132,15 @@ function redraw() {
   ctx.fillStyle = "#0a0a0a";
   ctx.fillRect(0, 0, cw, ch);
 
+  const inLSpace = current === null && lastKnownMapId === 47;
+
   if (!currentImage || !currentImage.complete || currentImage.naturalWidth === 0) {
-    $mapName.textContent = headerText(data.maps, current);
+    if (inLSpace) {
+      $mapName.textContent = "L-space";
+      drawLSpaceOverlay(cw, ch);
+    } else {
+      $mapName.textContent = headerText(data.maps, current);
+    }
     return;
   }
 
@@ -108,6 +182,14 @@ function redraw() {
     const { px, py } = markerPixel(currentImage, current, meta);
     const mx = offsetX + px * zoom;
     const my = offsetY + py * zoom;
+
+    // UU Library: distortion bar and orb ring — drawn before position marker.
+    if (current.mapId === 47 && libraryOverlay) {
+      if (libraryOverlay.distortion) drawDistortionBar(mx, my, libraryOverlay.distortion, zoom);
+      if (libraryOverlay.orb)        drawOrbRing(mx, my, zoom);
+    }
+
+    // Position marker.
     ctx.beginPath();
     ctx.arc(mx, my, 5, 0, Math.PI * 2);
     ctx.fillStyle = "#ff3b30";
@@ -115,9 +197,20 @@ function redraw() {
     ctx.lineWidth = 1.5;
     ctx.strokeStyle = "#fff";
     ctx.stroke();
+
+    // UU Library: facing arrow — drawn on top of the position marker.
+    if (current.mapId === 47 && libraryOverlay?.facing) {
+      drawFacingArrow(mx, my, libraryOverlay.facing, zoom);
+    }
   }
 
-  $mapName.textContent = headerText(data.maps, current);
+  // UU Library: thaum depth in panel header.
+  if (current?.mapId === 47) {
+    const thaums = Math.floor((((4850 - current.y) - 10) / 30) * 5);
+    $mapName.textContent = `UU Library — ${thaums} thaums`;
+  } else {
+    $mapName.textContent = headerText(data.maps, current);
+  }
   $canvas.classList.toggle("dimmed", current == null && currentImage != null);
 
   // Remember offsets so the hover handler can map screen → data-space.
@@ -186,6 +279,7 @@ window.mudPanel.on("room_info", (frame) => {
   if (mapDidChange(current, next)) {
     swapImage(next);
   }
+  if (next !== null) lastKnownMapId = next.mapId;
   current = next;
   redraw();
 });
@@ -200,7 +294,12 @@ window.mudPanel.on("route_clear", () => {
   redraw();
 });
 
-// Signal readiness; Lua replays last room and route if it has them.
+window.mudPanel.on("library_overlay", (frame) => {
+  libraryOverlay = frame;
+  redraw();
+});
+
+// Signal readiness; Lua replays last room, route and library overlay.
 window.mudPanel.send("ready", {});
 
 // Initial draw so the placeholder header renders.

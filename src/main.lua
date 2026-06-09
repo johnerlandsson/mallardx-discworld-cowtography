@@ -47,8 +47,9 @@ local function post_route_clear()
 end
 
 panel:on_message("ready", function()
-  if last_payload then post_room(last_payload) end
-  if last_route   then panel:post("route_set", { rooms = last_route }) end
+  if last_payload     then post_room(last_payload) end
+  if last_route       then panel:post("route_set",      { rooms = last_route }) end
+  if last_lib_overlay then panel:post("library_overlay", last_lib_overlay) end
 end)
 
 local MAX_DISPLAY = 10
@@ -90,6 +91,82 @@ local walk_steps       = {}
 local walk_pos         = 0
 local walk_target_name = ''
 
+-- ─── UU Library ──────────────────────────────────────────────────────────────
+-- Directions in the library are relative (forward/backward/left/right).
+-- Facing (n/s/e/w) is maintained by turn commands; strafing doesn't change it.
+-- Distortions, orbs and l-space are overlaid on the map panel.
+
+local lib_in_library      = false
+local lib_facing          = 'n'
+local lib_distortion_here = nil    -- 'n'|'e'|'s'|'w' or nil
+local lib_orb_here        = false
+local last_lib_overlay    = nil
+
+local TURN_LEFT  = { n='w', w='s', s='e', e='n' }
+local TURN_RIGHT = { n='e', e='s', s='w', w='n' }
+local OPPOSITE   = { n='s', s='n', e='w', w='e' }
+
+local function relative_to_cardinal(rel)
+  if     rel == 'up ahead of'    then return lib_facing
+  elseif rel == 'to the right of' then return TURN_RIGHT[lib_facing]
+  elseif rel == 'behind'          then return OPPOSITE[lib_facing]
+  elseif rel == 'to the left of'  then return TURN_LEFT[lib_facing]
+  end
+  return lib_facing
+end
+
+local function post_library_overlay()
+  local payload = {
+    facing     = lib_facing,
+    distortion = lib_distortion_here,
+    orb        = lib_orb_here,
+  }
+  last_lib_overlay = payload
+  panel:post("library_overlay", payload)
+end
+
+-- Turn commands: rotate facing, pass command through to MUD.
+mud.alias([[^turn (?:left|lt)$]], function(m)
+  lib_facing = TURN_LEFT[lib_facing]
+  mud.send(m.text)
+  post_library_overlay()
+end)
+
+mud.alias([[^turn (?:right|rt)$]], function(m)
+  lib_facing = TURN_RIGHT[lib_facing]
+  mud.send(m.text)
+  post_library_overlay()
+end)
+
+mud.alias([[^turn around$]], function(m)
+  lib_facing = OPPOSITE[lib_facing]
+  mud.send(m.text)
+  post_library_overlay()
+end)
+
+-- Distortion visible with known direction (fires when you look at the room).
+mud.trigger([[^(?:> )?There is a strange distortion in space and time (.+) you!$]], function(m)
+  lib_distortion_here = relative_to_cardinal(m[1])
+  post_library_overlay()
+end)
+
+-- Distortion forming warning (direction unknown until you look).
+mud.trigger([[^(?:> )?(?:You notice an odd rippling in the air\.|The awful sound of nails being dragged down a blackboard fills the area briefly\.|A distortion in time and space is forming!)$]], function()
+  note('  A distortion is forming nearby! Type look to see where.', C.err)
+end)
+
+-- Distortion vanished or successfully sealed.
+mud.trigger([[^(?:> )?The (?:distortion fades away|area seems more mundane than before|room seems to return to normal)\.$]], function()
+  lib_distortion_here = nil
+  post_library_overlay()
+end)
+
+-- Escaped spell orb visible in room.
+mud.trigger([[(?:a|A) (?:tiny speck|small point|moderately-sized ball|large orb|substantial sphere) of energy is tracing a .+? pattern in the air]], function()
+  lib_orb_here = true
+  post_library_overlay()
+end)
+
 -- ─── World lifecycle ─────────────────────────────────────────────────────────
 
 local function seed_room()
@@ -118,6 +195,17 @@ gmcp.on('room.info', function(_, data)
     current_room  = data.identifier
     last_payload  = data
     post_room(data)
+
+    -- UU Library: clear per-room overlays on each room transition.
+    -- Detect library from GMCP name; reset facing to north on fresh entry.
+    lib_orb_here        = false
+    lib_distortion_here = nil
+    local entering_library = data.name and data.name:lower():find('library') ~= nil
+    if entering_library and not lib_in_library then
+      lib_facing = 'n'  -- entered from south entrance, facing north
+    end
+    lib_in_library = entering_library or false
+    post_library_overlay()
 
     if walk_pos > 0 then
       if walk_pos < #walk_steps then
@@ -323,4 +411,14 @@ mud.alias([[^dbclear$]], function()
   walk_target_name = ''
   post_route_clear()
   note('  Route cleared.', C.muted)
+end)
+
+-- ─── libclear ────────────────────────────────────────────────────────────────
+-- Manually clear library overlays (distortion + orb) without changing rooms.
+
+mud.alias([[^libclear$]], function()
+  lib_distortion_here = nil
+  lib_orb_here        = false
+  post_library_overlay()
+  note('  Library overlays cleared.', C.muted)
 end)
