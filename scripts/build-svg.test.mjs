@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import Database from 'better-sqlite3'
-import { queryRooms, queryExits, edgeId, roomElement, exitElement } from './build-svg.mjs'
+import { queryRooms, queryExits, edgeId, roomElement, exitElement, buildNewSvg, updateExistingSvg } from './build-svg.mjs'
 
 function makeDb() {
   const db = new Database(':memory:')
@@ -121,5 +121,93 @@ describe('exitElement', () => {
 
   it('returns empty string when either endpoint is missing', () => {
     expect(exitElement('r1', 'missing', rooms)).toBe('')
+  })
+})
+
+describe('buildNewSvg', () => {
+  const mapMeta = { maxX: 500, maxY: 400, topLevel: true }
+  const rooms   = [
+    { id: 'r1', x: 100, y: 100, short: 'Square' },
+    { id: 'r2', x: 200, y: 100, short: 'Street' },
+  ]
+  const exits = [{ from: 'r1', to: 'r2' }]
+
+  it('has correct viewBox', () => {
+    const svg = buildNewSvg(mapMeta, rooms, exits, 7)
+    expect(svg).toContain('viewBox="0 0 500 400"')
+  })
+
+  it('has data-map-id and class="map-svg"', () => {
+    const svg = buildNewSvg(mapMeta, rooms, exits, 7)
+    expect(svg).toContain('data-map-id="7"')
+    expect(svg).toContain('class="map-svg"')
+  })
+
+  it('has four layers in order: artwork, exits, rooms, labels', () => {
+    const svg = buildNewSvg(mapMeta, rooms, exits, 7)
+    const pos = id => svg.indexOf(`id="${id}"`)
+    expect(pos('layer-artwork')).toBeLessThan(pos('layer-exits'))
+    expect(pos('layer-exits')).toBeLessThan(pos('layer-rooms'))
+    expect(pos('layer-rooms')).toBeLessThan(pos('layer-labels'))
+  })
+
+  it('uses circles for topLevel maps', () => {
+    const svg = buildNewSvg(mapMeta, rooms, exits, 7)
+    expect(svg).toContain('<circle id="room-r1"')
+  })
+
+  it('uses rects for non-topLevel maps', () => {
+    const svg = buildNewSvg({ ...mapMeta, topLevel: false }, rooms, exits, 7)
+    expect(svg).toContain('<rect id="room-r1"')
+  })
+
+  it('includes exit lines', () => {
+    const svg = buildNewSvg(mapMeta, rooms, exits, 7)
+    expect(svg).toContain(`id="${edgeId('r1', 'r2')}"`)
+  })
+
+  it('seeds layer-labels with text for each room', () => {
+    const svg = buildNewSvg(mapMeta, rooms, exits, 7)
+    expect(svg).toContain('<text')
+    expect(svg).toContain('Square')
+    expect(svg).toContain('Street')
+  })
+})
+
+describe('updateExistingSvg', () => {
+  const mapMeta  = { maxX: 500, maxY: 400, topLevel: false }
+  const origRooms = [{ id: 'r1', x: 10, y: 10, short: 'Alpha' }, { id: 'r2', x: 50, y: 10, short: 'Beta' }]
+  const origExits = [{ from: 'r1', to: 'r2' }]
+  const makeSvg   = () => buildNewSvg(mapMeta, origRooms, origExits, 3)
+
+  it('preserves layer-artwork content', () => {
+    const svg = makeSvg().replace(
+      '<g id="layer-artwork"><!-- artwork --></g>',
+      '<g id="layer-artwork"><rect class="map-water" x="0" y="0" width="10" height="10"/></g>'
+    )
+    expect(updateExistingSvg(svg, mapMeta, origRooms, origExits)).toContain('class="map-water"')
+  })
+
+  it('replaces exits layer — new exit present, old exit gone', () => {
+    const newRooms = [{ id: 'r1', x: 10, y: 10, short: 'Alpha' }, { id: 'r3', x: 90, y: 10, short: 'Gamma' }]
+    const newExits = [{ from: 'r1', to: 'r3' }]
+    const updated  = updateExistingSvg(makeSvg(), mapMeta, newRooms, newExits)
+    expect(updated).toContain(`id="${edgeId('r1', 'r3')}"`)
+    expect(updated).not.toContain(`id="${edgeId('r1', 'r2')}"`)
+  })
+
+  it('replaces rooms layer — new room present, old room gone', () => {
+    const newRooms = [{ id: 'r3', x: 90, y: 10, short: 'Gamma' }]
+    const updated  = updateExistingSvg(makeSvg(), mapMeta, newRooms, [])
+    expect(updated).toContain('id="room-r3"')
+    expect(updated).not.toContain('id="room-r1"')
+  })
+
+  it('preserves layer-labels content', () => {
+    const svg = makeSvg().replace(
+      '<g id="layer-labels">',
+      '<g id="layer-labels"><text class="map-label">Hand-crafted label</text>'
+    )
+    expect(updateExistingSvg(svg, mapMeta, origRooms, origExits)).toContain('Hand-crafted label')
   })
 })

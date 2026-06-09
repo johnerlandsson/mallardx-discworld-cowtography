@@ -77,3 +77,52 @@ export function exitElement(fromId, toId, rooms) {
   if (!from || !to) return ''
   return `<line id="${edgeId(fromId, toId)}" class="exit" x1="${from.x}" y1="${from.y}" x2="${to.x}" y2="${to.y}"/>`
 }
+
+// ─── Map SVG builders ────────────────────────────────────────────────────────
+
+export function buildNewSvg(mapMeta, rooms, exits, mapId = '') {
+  const isIndoor = !mapMeta.topLevel
+
+  const exitLines  = exits.map(e => '    ' + exitElement(e.from, e.to, rooms)).filter(Boolean).join('\n')
+  const roomShapes = rooms.map(r => '    ' + roomElement(r.id, r.x, r.y, r.short, isIndoor)).join('\n')
+  const labelTexts = rooms.map(r =>
+    `    <text class="map-label" x="${r.x}" y="${r.y - 12}">${escapeXml(r.short)}</text>`
+  ).join('\n')
+
+  return `<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 ${mapMeta.maxX} ${mapMeta.maxY}"
+     class="map-svg"
+     data-map-id="${mapId}">
+
+  <g id="layer-artwork"><!-- artwork --></g>
+
+  <g id="layer-exits">
+${exitLines}
+  </g>
+
+  <g id="layer-rooms">
+${roomShapes}
+  </g>
+
+  <g id="layer-labels">
+${labelTexts}
+  </g>
+
+</svg>`
+}
+
+export function updateExistingSvg(existingSvg, mapMeta, rooms, exits) {
+  const isIndoor   = !mapMeta.topLevel
+  const exitLines  = exits.map(e => '    ' + exitElement(e.from, e.to, rooms)).filter(Boolean).join('\n')
+  const roomShapes = rooms.map(r => '    ' + roomElement(r.id, r.x, r.y, r.short, isIndoor)).join('\n')
+
+  let svg = existingSvg.replace(
+    /(<g id="layer-exits">)([\s\S]*?)(<\/g>)/,
+    `$1\n${exitLines}\n  $3`
+  )
+  svg = svg.replace(
+    /(<g id="layer-rooms">)([\s\S]*?)(<\/g>)/,
+    `$1\n${roomShapes}\n  $3`
+  )
+  return svg
+}
