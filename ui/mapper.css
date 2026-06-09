@@ -1,15 +1,12 @@
-/* `--bg`, `--fg`, `--accent` are pushed live by the Mallard host via `set-theme`
- * into the iframe's :root inline style; the values below are first-paint
- * fallbacks (and the standalone-browser preview palette). `--muted` is a
- * plugin-only token routed through the host's `--fg-muted`. `--marker` stays
- * fixed because it's the "you are here" canvas indicator — visual identity,
- * not theme decoration. */
+/* `--bg`, `--fg`, `--accent` pushed live by Mallard host via `set-theme`.
+ * Values below are first-paint fallbacks and standalone preview palette. */
 :root {
-  --bg: #1a1a1a;
-  --fg: #eaeaea;
-  --muted: var(--fg-muted, #888);
-  --accent: #4ade80;
-  --marker: #ff3b30;
+  --bg:          #1a1a1a;
+  --fg:          #eaeaea;
+  --muted:       var(--fg-muted, #888);
+  --accent:      #4ade80;
+  --bg-elevated: #0f0f0f;
+  --border:      #2a2a2a;
 }
 
 html, body { margin: 0; padding: 0; height: 100%; }
@@ -27,110 +24,96 @@ body {
   align-items: center;
   height: 24px;
   padding: 0 8px;
-  background: var(--bg-elevated, #0f0f0f);
-  border-bottom: 1px solid var(--border, #2a2a2a);
+  background: var(--bg-elevated);
+  border-bottom: 1px solid var(--border);
   font-size: 12px;
   flex: 0 0 auto;
 }
-.map-header .map-name {
-  flex: 0 1 auto;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.map-header .spacer { flex: 1 1 auto; }
+.map-header .map-name { flex: 0 1 auto; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.map-header .spacer   { flex: 1 1 auto; }
 .map-header button {
-  width: 20px;
-  height: 18px;
-  margin-left: 4px;
+  width: 20px; height: 18px; margin-left: 4px;
   background: color-mix(in srgb, var(--fg, #ddd) 10%, transparent);
   color: var(--fg);
-  border: 1px solid var(--border, #3a3a3a);
-  border-radius: 3px;
-  cursor: pointer;
-  font-size: 14px;
-  line-height: 1;
-  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 3px; cursor: pointer; font-size: 14px; line-height: 1; padding: 0;
 }
-.map-header button:hover { background: color-mix(in srgb, var(--fg, #ddd) 20%, transparent); }
+.map-header button:hover    { background: color-mix(in srgb, var(--fg, #ddd) 20%, transparent); }
 .map-header button:disabled { opacity: 0.4; cursor: not-allowed; }
 
-.canvas-wrap {
+/* ─── Map container ────────────────────────────────────────────────────────── */
+.map-container {
   flex: 1 1 auto;
   position: relative;
   overflow: hidden;
+  background: var(--bg);
+  touch-action: none;
 }
-.map-canvas {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-.map-canvas.dimmed { opacity: 0.35; }
 
-/* ─── L-space overlay ────────────────────────────────────────────────────── */
+/* ─── Inline SVG maps ──────────────────────────────────────────────────────── */
+.map-svg { width: 100%; height: 100%; display: block; }
+
+.room         { fill: var(--bg); stroke: var(--fg); stroke-width: 2; }
+.room.route   { fill: #0d2d4a;   stroke: #00d2ff;   stroke-width: 2.5; }
+.room.current { fill: #ff3b30;   stroke: #fff;      stroke-width: 2.5; }
+.exit         { stroke: #3a3a3a; stroke-width: 1.5; fill: none; }
+.exit.route   { stroke: #00d2ff; stroke-width: 2.5; }
+
+/* ─── UU Library overlay ───────────────────────────────────────────────────── */
+.lib-distortion { fill: rgba(220, 20, 20, 0.9); }
+.lib-orb        { fill: rgba(255, 140, 0, 0.9); stroke: rgba(0,0,0,0.6); stroke-width: 1.5; }
+.lib-arrow      { stroke: rgba(255, 210, 60, 1); stroke-width: 2.5; fill: none; stroke-linejoin: round; }
+
+/* ─── World disc fallback (map 99) ─────────────────────────────────────────── */
+.world-map    { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
+.world-canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+
+/* ─── Semantic classes for hand-crafted SVG elements ───────────────────────── */
+.map-label       { fill: var(--fg);          font-size: 10px; font-family: sans-serif; }
+.map-label-muted { fill: var(--muted);       font-size: 10px; font-family: sans-serif; }
+.map-area-fill   { fill: var(--bg-elevated); }
+.map-area-stroke { stroke: var(--border);    fill: none; }
+.map-water       { fill: #0d1f2d; }
+.map-accent      { fill: var(--accent); }
+
+/* ─── L-space overlay ──────────────────────────────────────────────────────── */
 .lspace-overlay[hidden] { display: none; }
 .lspace-overlay {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  z-index: 5;
-  background: #000;
+  position: absolute; inset: 0;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  overflow: hidden; z-index: 5; background: #000;
 }
 .lspace-overlay::before {
-  content: '';
-  position: absolute;
-  inset: -100%;
+  content: ''; position: absolute; inset: -100%;
   background: conic-gradient(
     from 0deg at 50% 50%,
-    #1a003a 0deg,
-    #002244 60deg,
-    #003322 120deg,
-    #220055 180deg,
-    #001133 240deg,
-    #330022 300deg,
-    #1a003a 360deg
+    #1a003a 0deg, #002244 60deg, #003322 120deg,
+    #220055 180deg, #001133 240deg, #330022 300deg, #1a003a 360deg
   );
   animation: lspace-spin 10s linear infinite;
 }
 .lspace-overlay::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(ellipse at 50% 50%,
-    rgba(0,0,0,0) 0%,
-    rgba(0,0,0,0.35) 40%,
-    rgba(0,0,0,0.88) 100%
-  );
+  content: ''; position: absolute; inset: 0;
+  background: radial-gradient(ellipse at 50% 50%, rgba(0,0,0,0) 0%, rgba(0,0,0,0.35) 40%, rgba(0,0,0,0.88) 100%);
   animation: lspace-breathe 4s ease-in-out infinite;
 }
 @keyframes lspace-spin    { to { transform: rotate(360deg); } }
 @keyframes lspace-breathe { 0%, 100% { opacity: 1; } 50% { opacity: 0.55; } }
 
 .lspace-title {
-  position: relative;
-  z-index: 1;
-  font-size: 17px;
-  font-weight: bold;
-  letter-spacing: 0.06em;
+  position: relative; z-index: 1;
+  font-size: 17px; font-weight: bold; letter-spacing: 0.06em;
   color: #eebdff;
   text-shadow: 0 0 8px #cc44ff, 0 0 24px #8800cc, 0 0 52px #440088;
   animation: lspace-glow 3s ease-in-out infinite;
 }
 .lspace-sub {
-  position: relative;
-  z-index: 1;
-  font-size: 11px;
-  color: #667788;
-  margin-top: 10px;
-  letter-spacing: 0.08em;
+  position: relative; z-index: 1;
+  font-size: 11px; color: #667788; margin-top: 10px; letter-spacing: 0.08em;
   animation: lspace-drift 7s ease-in-out infinite;
 }
 @keyframes lspace-glow {
-  0%, 100% { transform: scale(1);    text-shadow: 0 0  8px #cc44ff, 0 0 24px #8800cc, 0 0 52px #440088; }
+  0%, 100% { transform: scale(1);     text-shadow: 0 0  8px #cc44ff, 0 0 24px #8800cc, 0 0 52px #440088; }
   50%       { transform: scale(1.06); text-shadow: 0 0 16px #ff99ff, 0 0 40px #cc44ff, 0 0 80px #8800cc; }
 }
 @keyframes lspace-drift {
@@ -140,14 +123,9 @@ body {
 }
 
 .tooltip {
-  position: absolute;
-  pointer-events: none;
-  background: var(--bg-elevated, rgba(0, 0, 0, 0.85));
-  color: var(--fg);
-  font-size: 11px;
-  padding: 3px 6px;
-  border-radius: 3px;
-  border: 1px solid var(--border, #3a3a3a);
-  white-space: nowrap;
-  z-index: 10;
+  position: absolute; pointer-events: none;
+  background: var(--bg-elevated, rgba(0,0,0,0.85));
+  color: var(--fg); font-size: 11px;
+  padding: 3px 6px; border-radius: 3px; border: 1px solid var(--border);
+  white-space: nowrap; z-index: 10;
 }
