@@ -70,3 +70,21 @@ export function generateNpcItemsLua(db) {
   lines.push('}')
   return lines.join('\n')
 }
+
+export function generateExitsLua(db) {
+  const rows = db.prepare('SELECT room_id, connect_id, exit FROM room_exits').all()
+
+  const byRoom = new Map()
+  for (const row of rows) {
+    if (!byRoom.has(row.room_id)) byRoom.set(row.room_id, [])
+    byRoom.get(row.room_id).push({ neighbor: row.connect_id, dir: row.exit })
+  }
+
+  const lines = [HEADER + 'return {']
+  for (const [roomId, exits] of byRoom) {
+    const parts = exits.map(e => `[${luaStr(e.neighbor)}] = ${luaStr(e.dir)}`).join(', ')
+    lines.push(`  [${luaStr(roomId)}] = { ${parts} },`)
+  }
+  lines.push('}')
+  return lines.join('\n')
+}

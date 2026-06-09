@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import Database from 'better-sqlite3'
-import { generateRoomsLua, generateItemsLua, generateNpcsLua, generateNpcItemsLua } from './build-db.mjs'
+import { generateRoomsLua, generateItemsLua, generateNpcsLua, generateNpcItemsLua, generateExitsLua } from './build-db.mjs'
 
 function makeDb() {
   const db = new Database(':memory:')
@@ -109,5 +109,43 @@ describe('generateNpcItemsLua', () => {
     expect(lua).toContain("npc = 'city guard'")
     expect(lua).toContain("room_id = 'r2'")
     expect(lua).toContain("location = 'market square'")
+  })
+})
+
+function makeExitsDb() {
+  const db = new Database(':memory:')
+  db.exec(`
+    CREATE TABLE room_exits (
+      room_id TEXT NOT NULL, connect_id TEXT NOT NULL,
+      exit TEXT NOT NULL, guessed INTEGER NOT NULL
+    )
+  `)
+  db.prepare("INSERT INTO room_exits VALUES ('r1','r2','n',0)").run()
+  db.prepare("INSERT INTO room_exits VALUES ('r2','r1','s',0)").run()
+  db.prepare("INSERT INTO room_exits VALUES ('r1','r3','e',0)").run()
+  return db
+}
+
+describe('generateExitsLua', () => {
+  it('groups exits by room_id into nested tables', () => {
+    const db = makeExitsDb()
+    const lua = generateExitsLua(db)
+    expect(lua).toContain("['r1'] = {")
+    expect(lua).toContain("['r2'] = 'n'")
+    expect(lua).toContain("['r3'] = 'e'")
+  })
+
+  it('includes reverse direction from r2', () => {
+    const db = makeExitsDb()
+    const lua = generateExitsLua(db)
+    expect(lua).toContain("['r2'] = {")
+    expect(lua).toContain("['r1'] = 's'")
+  })
+
+  it('is a valid Lua table literal', () => {
+    const db = makeExitsDb()
+    const lua = generateExitsLua(db)
+    expect(lua).toContain('return {')
+    expect(lua.trim()).toMatch(/\}$/)
   })
 })
