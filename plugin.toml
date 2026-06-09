@@ -1,0 +1,20 @@
+id                  = "net.mallard.discworld-dbsearch"
+name                = "Discworld DB Search"
+version             = "0.1.0"
+description         = "Search Quow's Discworld map database for rooms, items, shops and NPCs, and speedwalk to any result. Requires mallardx-discworld-mapper."
+language            = "lua"
+entry               = "src/main.lua"
+mallard_api_version = "1.0"
+minimum_app_version = "0.6.0"
+authors             = ["Wizard Quack"]
+license             = "MIT"
+
+[worlds]
+match = ["discworld.starturtle.net:*"]
+
+[permissions]
+sends       = true
+gmcp_access = ["room.info"]
+
+[gmcp]
+advertise = ["room.info"]
