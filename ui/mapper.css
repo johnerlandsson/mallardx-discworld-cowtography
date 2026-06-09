@@ -68,6 +68,7 @@ body {
 .map-canvas.dimmed { opacity: 0.35; }
 
 /* ─── L-space overlay ────────────────────────────────────────────────────── */
+.lspace-overlay[hidden] { display: none; }
 .lspace-overlay {
   position: absolute;
   inset: 0;
