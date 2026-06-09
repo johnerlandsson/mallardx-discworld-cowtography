@@ -90,6 +90,27 @@ local walk_steps       = {}
 local walk_pos         = 0
 local walk_target_name = ''
 
+-- ─── World lifecycle ─────────────────────────────────────────────────────────
+
+local function seed_room()
+  local raw = gmcp.get("room.info")
+  if raw then
+    local id = raw:match('"identifier"%s*:%s*"([^"]+)"')
+    if id then current_room = id end
+  end
+end
+
+local function reset_walk()
+  walk_steps       = {}
+  walk_pos         = 0
+  walk_target_name = ''
+  post_route_clear()
+end
+
+seed_room()
+world.on("connect",    seed_room)
+world.on("disconnect", reset_walk)
+
 -- ─── GMCP ────────────────────────────────────────────────────────────────────
 
 gmcp.on('room.info', function(_, data)

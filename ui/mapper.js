@@ -181,7 +181,7 @@ const ro = new ResizeObserver(() => redraw());
 ro.observe($canvas);
 
 // ─── Host messages ────────────────────────────────────────────────────────
-panel.on("room_info", (frame) => {
+window.mudPanel.on("room_info", (frame) => {
   const next = resolveRoom(data, frame);
   if (mapDidChange(current, next)) {
     swapImage(next);
@@ -190,20 +190,18 @@ panel.on("room_info", (frame) => {
   redraw();
 });
 
-panel.on("route_set", (frame) => {
+window.mudPanel.on("route_set", (frame) => {
   routeRoomIds = Array.isArray(frame.rooms) ? frame.rooms : [];
   redraw();
 });
 
-panel.on("route_clear", () => {
+window.mudPanel.on("route_clear", () => {
   routeRoomIds = [];
   redraw();
 });
 
-// Signal readiness; Lua replays last_payload if it has one.
-// plugin_panel_post requires a non-null data arg — empty object is the convention
-// established by showcase + discworld-chat.
-panel.post("ready", {});
+// Signal readiness; Lua replays last room and route if it has them.
+window.mudPanel.send("ready", {});
 
 // Initial draw so the placeholder header renders.
 redraw();
