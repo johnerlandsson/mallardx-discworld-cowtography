@@ -299,6 +299,14 @@ panel.on("library_overlay", (frame) => {
   redraw();
 });
 
+panel.on("library_position", (frame) => {
+  const next = { mapId: 47, x: frame.x, y: frame.y, short: null };
+  if (mapDidChange(current, next)) swapImage(next);
+  lastKnownMapId = 47;
+  current = next;
+  redraw();
+});
+
 // Signal readiness; Lua replays last room, route and library overlay.
 panel.post("ready", {});
 

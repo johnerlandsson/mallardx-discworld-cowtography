@@ -47,9 +47,13 @@ local function post_route_clear()
 end
 
 panel:on_message("ready", function()
-  if last_payload     then post_room(last_payload) end
-  if last_route       then panel:post("route_set",      { rooms = last_route }) end
-  if last_lib_overlay then panel:post("library_overlay", last_lib_overlay) end
+  if lib_in_library then
+    if last_lib_position then panel:post("library_position", last_lib_position) end
+    if last_lib_overlay  then panel:post("library_overlay",  last_lib_overlay)  end
+  else
+    if last_payload then post_room(last_payload) end
+    if last_route   then panel:post("route_set", { rooms = last_route }) end
+  end
 end)
 
 local MAX_DISPLAY = 10
@@ -98,13 +102,28 @@ local walk_target_name = ''
 
 local lib_in_library      = false
 local lib_facing          = 'n'
-local lib_distortion_here = nil    -- 'n'|'e'|'s'|'w' or nil
+local lib_x               = 166      -- current position on map 47 (tile units)
+local lib_y               = 4810
+local lib_last_move       = nil      -- cardinal dir of last move attempt; consumed on GMCP
+local lib_distortion_here = nil      -- 'n'|'e'|'s'|'w' or nil
 local lib_orb_here        = false
 local last_lib_overlay    = nil
+local last_lib_position   = nil
 
 local TURN_LEFT  = { n='w', w='s', s='e', e='n' }
 local TURN_RIGHT = { n='e', e='s', s='w', w='n' }
 local OPPOSITE   = { n='s', s='n', e='w', w='e' }
+
+-- Shift position by one tile in cardinal direction; apply x-wrap (Quow §8890).
+local function lib_apply_move(card)
+  local nx = lib_x + ((card=='e' and 30) or (card=='w' and -30) or 0)
+  local ny = lib_y + ((card=='n' and -30) or (card=='s' and  30) or 0)
+  if     nx >= 262 then nx = nx - 240
+  elseif nx <= 37  then nx = nx + 240
+  end
+  lib_x = nx
+  lib_y = ny
+end
 
 local function relative_to_cardinal(rel)
   if     rel == 'up ahead of'    then return lib_facing
@@ -125,6 +144,12 @@ local function post_library_overlay()
   panel:post("library_overlay", payload)
 end
 
+local function post_library_position()
+  local payload = { x = lib_x, y = lib_y }
+  last_lib_position = payload
+  panel:post("library_position", payload)
+end
+
 -- Turn commands: rotate facing, pass command through to MUD.
 mud.alias([[^turn (?:left|lt)$]], function(m)
   lib_facing = TURN_LEFT[lib_facing]
@@ -142,6 +167,27 @@ mud.alias([[^turn around$]], function(m)
   lib_facing = OPPOSITE[lib_facing]
   mud.send(m.text)
   post_library_overlay()
+end)
+
+-- Strafe/walk commands: record intended move direction; GMCP confirms arrival.
+mud.alias([[^(?:forward|fw)$]], function(m)
+  if lib_in_library then lib_last_move = lib_facing end
+  mud.send(m.text)
+end)
+
+mud.alias([[^(?:backward|bw)$]], function(m)
+  if lib_in_library then lib_last_move = OPPOSITE[lib_facing] end
+  mud.send(m.text)
+end)
+
+mud.alias([[^(?:left|lt)$]], function(m)
+  if lib_in_library then lib_last_move = TURN_LEFT[lib_facing] end
+  mud.send(m.text)
+end)
+
+mud.alias([[^(?:right|rt)$]], function(m)
+  if lib_in_library then lib_last_move = TURN_RIGHT[lib_facing] end
+  mud.send(m.text)
 end)
 
 -- Distortion visible with known direction (fires when you look at the room).
@@ -192,20 +238,33 @@ world.on("disconnect", reset_walk)
 
 gmcp.on('room.info', function(_, data)
   if type(data) == 'table' and data.identifier then
-    current_room  = data.identifier
-    last_payload  = data
-    post_room(data)
+    current_room = data.identifier
 
     -- UU Library: clear per-room overlays on each room transition.
-    -- Detect library from GMCP name; reset facing to north on fresh entry.
     lib_orb_here        = false
     lib_distortion_here = nil
     local entering_library = data.name and data.name:lower():find('library') ~= nil
-    if entering_library and not lib_in_library then
-      lib_facing = 'n'  -- entered from south entrance, facing north
+
+    if entering_library then
+      if not lib_in_library then
+        -- Fresh entry from outside: reset position and facing.
+        lib_facing = 'n'
+        lib_x      = 166
+        lib_y      = 4810
+      elseif lib_last_move then
+        -- Moving within library: apply the pending tile shift.
+        lib_apply_move(lib_last_move)
+      end
+      lib_last_move  = nil
+      lib_in_library = true
+      post_library_overlay()
+      post_library_position()
+    else
+      lib_in_library = false
+      lib_last_move  = nil
+      last_payload   = data
+      post_room(data)
     end
-    lib_in_library = entering_library or false
-    post_library_overlay()
 
     if walk_pos > 0 then
       if walk_pos < #walk_steps then
