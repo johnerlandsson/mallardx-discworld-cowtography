@@ -23,8 +23,8 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="5.3511706"
-     inkscape:cx="310.67969"
-     inkscape:cy="378.60875"
+     inkscape:cx="280.77969"
+     inkscape:cy="333.75875"
      inkscape:window-width="2573"
      inkscape:window-height="1011"
      inkscape:window-x="26"
@@ -36,29 +36,32 @@
     <!-- artwork -->
     <text
        xml:space="preserve"
-       x="282.70499"
-       y="327.70926"
+       x="298.224"
+       y="320.04739"
        id="text8"
        class="map-label"
-       font-size="10px"><tspan
+       font-size="8px"
+       text-align="center"><tspan
          sodipodi:role="line"
          id="tspan8"
-         x="282.70499"
-         y="327.70926">LIBRARY</tspan></text>
+         x="298.224"
+         y="320.04739">LIBRARY</tspan></text>
     <text
        xml:space="preserve"
-       x="256.22498"
-       y="316.47165"
+       x="281.7175"
+       y="308.91464"
        id="text9"
        class="map-label-muted"
-       font-size="10px"><tspan
+       font-size="7px"
+       text-align="center"><tspan
          sodipodi:role="line"
          id="tspan9"
-         x="256.22498"
-         y="316.47165">(WARNING L-SPACE)</tspan></text>
+         x="281.7175"
+         y="308.91464">(WARNING L-SPACE)</tspan></text>
     <path
-       d="m 303,361 -0.2625,-29"
+       d="M 303,361 302.17688,347 314.46,335.34938 v -11.30199"
        id="path9"
+       sodipodi:nodetypes="cccc"
        class="exit" />
   </g>
   <g

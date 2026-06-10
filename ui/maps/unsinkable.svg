@@ -23,17 +23,185 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="3.1128405"
-     inkscape:cx="215.39812"
-     inkscape:cy="128.5"
+     inkscape:cx="221.50187"
+     inkscape:cy="145.205"
      inkscape:window-width="2573"
      inkscape:window-height="1011"
      inkscape:window-x="26"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer-labels" />
+     inkscape:current-layer="layer-artwork" />
   <g
      id="layer-artwork">
     <!-- artwork -->
+    <text
+       xml:space="preserve"
+       x="260.892"
+       y="44.653748"
+       id="text6"
+       class="map-label"
+       font-size="8"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         x="260.892"
+         y="44.653748"
+         style="font-size:8px">LOWER DECK</tspan></text>
+    <text
+       xml:space="preserve"
+       x="275.94"
+       y="54.726875"
+       id="text7"
+       class="map-label-muted"
+       font-size="7px"><tspan
+         sodipodi:role="line"
+         x="275.94"
+         y="54.726875"
+         style="font-size:8px"
+         id="tspan8">FORE</tspan></text>
+    <text
+       xml:space="preserve"
+       x="283.35199"
+       y="103.00791"
+       id="text9"
+       class="map-label"
+       font-size="8px"><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         x="283.35199"
+         y="103.00791"
+         style="font-size:8px">C</tspan></text>
+    <text
+       xml:space="preserve"
+       x="283.35199"
+       y="136.92"
+       id="text10"
+       class="map-label"
+       font-size="8px"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         x="283.35199"
+         y="136.92"
+         style="font-size:8px">B</tspan></text>
+    <text
+       xml:space="preserve"
+       x="283.35199"
+       y="165.0876"
+       id="text11"
+       class="map-label"
+       font-size="8px"><tspan
+         sodipodi:role="line"
+         id="tspan11"
+         x="283.35199"
+         y="165.0876"
+         style="font-size:8px">A</tspan></text>
+    <text
+       xml:space="preserve"
+       x="318.66626"
+       y="80.860001"
+       id="text12"
+       class="map-label-muted"
+       font-size="7px"><tspan
+         sodipodi:role="line"
+         x="318.66626"
+         y="80.860001"
+         style="font-size:8px"
+         id="tspan12">STARBOARD</tspan></text>
+    <text
+       xml:space="preserve"
+       x="232.50174"
+       y="80.860001"
+       id="text13"
+       class="map-label-muted"
+       font-size="7px"><tspan
+         sodipodi:role="line"
+         x="232.50174"
+         y="80.860001"
+         style="font-size:8px"
+         id="tspan13">PORT</tspan></text>
+    <text
+       xml:space="preserve"
+       x="214.43924"
+       y="112.8"
+       id="text14"
+       class="map-label-muted"
+       font-size="7px"><tspan
+         sodipodi:role="line"
+         x="214.43924"
+         y="112.8"
+         style="font-size:8px"
+         id="tspan14">DRAGONS</tspan></text>
+    <text
+       xml:space="preserve"
+       x="318.29828"
+       y="112.8"
+       id="text15"
+       class="map-label-muted"
+       font-size="7px"><tspan
+         sodipodi:role="line"
+         x="318.29828"
+         y="112.8"
+         style="font-size:8px"
+         id="tspan15">DRAGONS</tspan></text>
+    <text
+       xml:space="preserve"
+       x="233.58575"
+       y="166.92"
+       id="text16"
+       class="map-label"
+       font-size="8px"><tspan
+         sodipodi:role="line"
+         id="tspan16"
+         x="233.58575"
+         y="166.92"
+         style="font-size:8px">BOILER</tspan></text>
+    <text
+       xml:space="preserve"
+       x="309.224"
+       y="166.92"
+       id="text17"
+       class="map-label"
+       font-size="8px"><tspan
+         sodipodi:role="line"
+         id="tspan17"
+         x="309.224"
+         y="166.92"
+         style="font-size:8px">BOILER</tspan></text>
+    <text
+       xml:space="preserve"
+       x="309.59198"
+       y="176.7121"
+       id="text18"
+       class="map-label-muted"
+       font-size="7px"><tspan
+         sodipodi:role="line"
+         x="309.59198"
+         y="176.7121"
+         style="font-size:8px"
+         id="tspan18">STARBOARD</tspan></text>
+    <text
+       xml:space="preserve"
+       x="240.81776"
+       y="176.7121"
+       id="text19"
+       class="map-label-muted"
+       font-size="7px"><tspan
+         sodipodi:role="line"
+         x="240.81776"
+         y="176.7121"
+         style="font-size:8px"
+         id="tspan19">PORT</tspan></text>
+    <text
+       xml:space="preserve"
+       x="279.09198"
+       y="187.08188"
+       id="text20"
+       class="map-label-muted"
+       font-size="7px"><tspan
+         sodipodi:role="line"
+         x="279.09198"
+         y="187.08188"
+         style="font-size:8px"
+         id="tspan20">AFT</tspan></text>
   </g>
   <g
      id="layer-exits"
@@ -445,16 +613,5 @@
   <g
      id="layer-labels">
     <!-- labels -->
-    <text
-       xml:space="preserve"
-       x="260.892"
-       y="44.653748"
-       id="text6"
-       class="map-label"><tspan
-         sodipodi:role="line"
-         id="tspan6"
-         x="260.892"
-         y="44.653748"
-         style="font-size:8px">LOWER DECK</tspan></text>
   </g>
 </svg>
