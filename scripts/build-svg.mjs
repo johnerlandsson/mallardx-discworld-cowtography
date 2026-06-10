@@ -224,7 +224,7 @@ export function buildLibraryExitsContent(exitsArray = [], missingSet = new Set()
     // SVG x increases east, y decreases northward — delta[1] is row-space so negate for SVG y
     const x2 = x1 + delta[0] * STUB_LEN
     const y2 = y1 - delta[1] * STUB_LEN
-    lines.push(`    <line class="exit" x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}"/>`)
+    lines.push(`    <line class="exit lib-exit" x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}"/>`)
   }
 
   const addNormal = (col, row, col2, row2) => {
@@ -234,7 +234,7 @@ export function buildLibraryExitsContent(exitsArray = [], missingSet = new Set()
     if (missingSet.has(`${col-1},${row-1}`) || missingSet.has(`${col2-1},${row2-1}`)) return
     const [x1, y1] = roomXY(col, row)
     const [x2, y2] = roomXY(col2, row2)
-    lines.push(`    <line class="exit" x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}"/>`)
+    lines.push(`    <line class="exit lib-exit" x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}"/>`)
   }
 
   for (const [col, row, dirs] of exitsArray) {
