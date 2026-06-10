@@ -8,6 +8,7 @@
     "test:lua": "lua tests/search_test.lua && lua tests/pathfind_test.lua",
     "build:data": "node scripts/build-db.mjs",
     "build:svg": "node scripts/build-svg.mjs",
+    "sync:svg": "node scripts/sync-svg-js.mjs",
     "pack": "zip -r discworld-cowtography-0.6.0.mallardx plugin.toml README.md src/ ui/"
   },
   "devDependencies": {
