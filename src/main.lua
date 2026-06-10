@@ -312,10 +312,10 @@ gmcp.on('room.info', function(_, data)
       lib_in_library = false
       lib_move_queue = {}
       lib_checkpoint = nil
-      if name_lower:find('mysterious') ~= nil then
-        -- L-space rooms have GMCP name "mysterious library". Post lspace
-        -- directly instead of post_room() to avoid resolveRoom finding the
-        -- map-56 DB entries and blinking the quow_specials image.
+      if name_lower:find('mysterious') ~= nil
+      or name_lower:find('maze of twisting') ~= nil then
+        -- L-space rooms: "mysterious library", "maze of twisting shelves, all alike", etc.
+        -- Post lspace directly to avoid resolveRoom finding map-56 DB entries.
         lib_in_lspace = true
         panel:post("lspace", {})
       else
