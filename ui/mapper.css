@@ -58,7 +58,7 @@ body {
 .room.current { fill: #ff3b30;   stroke: #fff;      stroke-width: 2.03; }
 .exit         { stroke: #3a3a3a; stroke-width: 1.82; fill: none; }
 .exit.route   { stroke: #00d2ff; stroke-width: 3.03; }
-.lib-exit     { stroke-width: 2.18; }
+.lib-exit     { stroke-width: 3; }
 .stair-symbol { fill: var(--fg); pointer-events: none; }
 
 /* ─── UU Library overlay ───────────────────────────────────────────────────── */
