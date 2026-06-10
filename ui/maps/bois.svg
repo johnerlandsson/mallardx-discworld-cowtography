@@ -105,213 +105,110 @@
   </g>
 
   <g id="layer-rooms">
-    <circle id="room-a2419925c6cc42e592a43f0cfc03d34c10940ea5" class="room outdoor" data-label="centre of the square" cx="239" cy="169" r="8"/>
-    <circle id="room-80f8ac7814016571086d2c472839a6bba2688b38" class="room outdoor" data-label="northeast corner of the square" cx="253" cy="155" r="8"/>
-    <circle id="room-71d56713694f91bd20751dc47352a8cc6dfca45d" class="room outdoor" data-label="small general store" cx="264" cy="155" r="8"/>
-    <circle id="room-ac310bc3aa78d40d6b181bf2ea8d450a22a57b88" class="room outdoor" data-label="northern edge of the square" cx="239" cy="155" r="8"/>
-    <circle id="room-20b9efb6921a6e41a61b7179a53066da922d7983" class="room outdoor" data-label="Woodcutters&#x27; Guild" cx="249" cy="145" r="8"/>
-    <circle id="room-8c2595cd9a6c415f9670beeed7ee07122e1174d8" class="room outdoor" data-label="woodwork shop" cx="239" cy="145" r="8"/>
-    <circle id="room-03933d41f644b18282d766da780c639fa2bf0ec2" class="room outdoor" data-label="northwest corner of the square" cx="225" cy="155" r="8"/>
-    <circle id="room-a8287464a6c182e0e878704ad26eb7bc215110fb" class="room outdoor" data-label="western edge of the square" cx="225" cy="169" r="8"/>
-    <circle id="room-590ba199fcefe1cb43a8ca73f5723c8829f376a3" class="room outdoor" data-label="small cake shop" cx="215" cy="179" r="8"/>
-    <circle id="room-11c94c09699f89b742177945c02a5885f766a9ad" class="room outdoor" data-label="eastern edge of the square" cx="253" cy="169" r="8"/>
-    <circle id="room-a9db147a9472c2b3dc92797c71cabe4e5291ddd4" class="room outdoor" data-label="southeast corner of the square" cx="253" cy="183" r="8"/>
-    <circle id="room-a8a10433cf292c31c272e23940d813cafd169cdc" class="room outdoor" data-label="southern edge of the square" cx="239" cy="183" r="8"/>
-    <circle id="room-e0d2944fa20f6c3f77071b6692fe6a0284fb57f3" class="room outdoor" data-label="southwestern corner of the square" cx="225" cy="183" r="8"/>
-    <circle id="room-1f270665a20a58a4c9e3f0f4269086511e69685a" class="room outdoor" data-label="Bois Village Inn" cx="225" cy="194" r="8"/>
-    <circle id="room-42fc66e3a3d2d219435c82afd199ff7117e9086f" class="room outdoor" data-label="small room" cx="235" cy="204" r="8"/>
-    <circle id="room-631c763481627177ad319580021484e41ca5d787" class="room outdoor" data-label="village hall common room" cx="263" cy="193" r="8"/>
-    <circle id="room-ca812ea7a72af42ba1192c8e9e43f24ca8786e4a" class="room outdoor" data-label="converted storeroom" cx="271" cy="201" r="8"/>
-    <circle id="room-6f1e3c2f1895fe23fc991808f421286f9d233b1e" class="room outdoor" data-label="end of Brindille Alley" cx="253" cy="197" r="8"/>
-    <circle id="room-b5e098102e7e2c53d2eb9bc1cc4d7ec1b231ea83" class="room outdoor" data-label="middle of Brindille Alley" cx="267" cy="211" r="8"/>
-    <circle id="room-043a221c6a81406c921bf3f15a9ba2a8c4bdfe85" class="room outdoor" data-label="southern end of Brindille Alley" cx="267" cy="225" r="8"/>
-    <circle id="room-d999ea490274369058c4f51cd2de13ec5c27bfc7" class="room outdoor" data-label="western end of Fleuve Alley" cx="267" cy="183" r="8"/>
-    <circle id="room-e3a910b34cfc38211b3f7ea06e2931ac72ddfa67" class="room outdoor" data-label="middle of Fleuve Alley" cx="281" cy="183" r="8"/>
-    <circle id="room-94b3f006b58c208d8ed0be7aefbdbedf4e4416db" class="room outdoor" data-label="end of Fleuve Alley" cx="295" cy="183" r="8"/>
-    <circle id="room-791a35bfce56a0330b821e431a9d5c0ceaaa39eb" class="room outdoor" data-label="pier" cx="309" cy="183" r="8"/>
-    <circle id="room-340f4ab170ea743ef436292f32041516b64673f2" class="room outdoor" data-label="visa office" cx="295" cy="195" r="8"/>
-    <circle id="room-d878db9ed11a54e4e077ea1b858fc705dbdc3322" class="room outdoor" data-label="crossroads" cx="211" cy="141" r="8"/>
-    <circle id="room-0eb90470f630d578fdba45f435298f98197d0995" class="room outdoor" data-label="wooden pier" cx="197" cy="127" r="8"/>
-    <circle id="room-779c3d160a8c1a8d6ee767427a284e2874716ad4" class="room outdoor" data-label="end of the pier" cx="183" cy="113" r="8"/>
-    <circle id="room-4cfd8590b2dfe5ddabdb33fc5756d333b58179ac" class="room outdoor" data-label="forest trail" cx="197" cy="155" r="8"/>
-    <circle id="room-d2092dbbee59c19275ca7919be046439f02e70c4" class="room outdoor" data-label="forest trail" cx="183" cy="169" r="8"/>
-    <circle id="room-5a864d03b2387a9065f7d234f349dbefd8545b50" class="room outdoor" data-label="forest trail" cx="183" cy="183" r="8"/>
-    <circle id="room-5ad44311f3e8a4d26ad5df912c0a6e879ccd02f1" class="room outdoor" data-label="forest trail" cx="169" cy="197" r="8"/>
-    <circle id="room-c65b0227fbc1f2005ca4977e49c1b49f87c1108b" class="room outdoor" data-label="forest trail" cx="169" cy="211" r="8"/>
-    <circle id="room-911d069402126d413bb97bbd7c4c18dfdad1679d" class="room outdoor" data-label="forest trail" cx="169" cy="225" r="8"/>
-    <circle id="room-aa54bd49a8b454f5d8d5b76c12496c9d92895575" class="room outdoor" data-label="forest trail" cx="155" cy="239" r="8"/>
-    <circle id="room-2803d9c224097d357f6eb0d798bb50ae0329e6e0" class="room outdoor" data-label="forest trail" cx="141" cy="253" r="8"/>
-    <circle id="room-2befe432d591b6ffbb006f989f5e858fe38101e4" class="room outdoor" data-label="forest trail" cx="141" cy="267" r="8"/>
-    <circle id="room-e4545fa998654cbad41b9e813dbb8f8164429fd2" class="room outdoor" data-label="forest trail" cx="127" cy="281" r="8"/>
-    <circle id="room-b4378b772fd4c2bedbeaa705d15a3fc398cdfdd1" class="room outdoor" data-label="forest trail" cx="127" cy="295" r="8"/>
-    <circle id="room-d4a96743ab4bfffcb0ac9c6393e0583d9b1a43fb" class="room outdoor" data-label="forest trail" cx="127" cy="309" r="8"/>
-    <circle id="room-b876f31ec25df7c2cab1cfb3ddc9dfe34762ef24" class="room outdoor" data-label="forest trail" cx="155" cy="281" r="8"/>
-    <circle id="room-e33d593824bce92d18c8d93d1ac840d6bdddd29a" class="room outdoor" data-label="forest trail" cx="169" cy="281" r="8"/>
-    <circle id="room-58502717a7ea0276fcaeef34ef3d081eb3a2acd3" class="room outdoor" data-label="forest trail" cx="183" cy="267" r="8"/>
-    <circle id="room-c7df2723e36eb500cef9cd52b86e0ae5922b66ff" class="room outdoor" data-label="small clearing" cx="197" cy="281" r="8"/>
-    <circle id="room-936bc4a5ba062ae0fa3b179d1d3ff745b99902cc" class="room outdoor" data-label="forest trail" cx="225" cy="127" r="8"/>
-    <circle id="room-929db27ab847a55c56a23945b2d5691e53718e9d" class="room outdoor" data-label="forest trail" cx="239" cy="127" r="8"/>
-    <circle id="room-a4672f381d3d170829117308eead9f714bf3a40e" class="room outdoor" data-label="forest trail" cx="253" cy="113" r="8"/>
-    <circle id="room-50950eed09be42c4996a8dc2e62d735d0dbd8910" class="room outdoor" data-label="forest trail" cx="267" cy="113" r="8"/>
-    <circle id="room-5c48e02acaf51ec36f128b99082a9822d66de495" class="room outdoor" data-label="forest trail" cx="281" cy="113" r="8"/>
-    <circle id="room-375319535fa63a7772eccb22759fdc5534484f32" class="room outdoor" data-label="forest trail" cx="295" cy="99" r="8"/>
-    <circle id="room-1b2504a03322c7d61728e7868cdac0e39054c65a" class="room outdoor" data-label="forest trail" cx="337" cy="99" r="8"/>
-    <circle id="room-c877e6ca3d7bfdcd429212954410cbade5972690" class="room outdoor" data-label="forest trail" cx="351" cy="85" r="8"/>
-    <circle id="room-60327249973bc5ddbbd22a2691f0d5e3ce2aba3d" class="room outdoor" data-label="forest trail" cx="365" cy="71" r="8"/>
-    <circle id="room-78c85f20284f58e836a664de3061d8f1fe677345" class="room outdoor" data-label="forest trail" cx="365" cy="57" r="8"/>
-    <circle id="room-8214b194814676c820b568fcdf68acec08122fef" class="room outdoor" data-label="forest trail" cx="379" cy="43" r="8"/>
-    <circle id="room-7f9f0cf18846f5f4f84d3c1e992391fc67142c0f" class="room outdoor" data-label="forest trail" cx="379" cy="29" r="8"/>
-    <circle id="room-61e6362d2a8ca873079f1fc5ad07dbb379348c60" class="room outdoor" data-label="outside a house" cx="365" cy="15" r="8"/>
-    <circle id="room-858d55f35ac27144449ed5f9fa8ca13ff7b011a5" class="room outdoor" data-label="cosy living room" cx="354" cy="15" r="8"/>
-    <circle id="room-492f4def3ec815553c7cdcc04abdb830f3559f51" class="room outdoor" data-label="warm kitchen" cx="354" cy="5" r="8"/>
-    <circle id="room-b7f12ad392eeebfa3a88a40c702ce8e4e3d7b1fa" class="room outdoor" data-label="small bedroom" cx="344" cy="5" r="8"/>
-    <circle id="room-1851df8886f295c77915c690578d33ac6a7b6727" class="room outdoor" data-label="forest trail" cx="351" cy="113" r="8"/>
-    <circle id="room-33954756c55fdc242a0af31413278db9b1c6b749" class="room outdoor" data-label="forest trail" cx="365" cy="113" r="8"/>
-    <circle id="room-4efe61eccf06fdf199b8a50c0ed73ca2225e0055" class="room outdoor" data-label="forest trail" cx="379" cy="113" r="8"/>
-    <circle id="room-66b047f6978e29fb1b6707a1ad05f3ee48295349" class="room outdoor" data-label="forest trail" cx="393" cy="127" r="8"/>
-    <circle id="room-36cb399f71ab68938b8eba6bb9505694e1e641af" class="room outdoor" data-label="forest trail" cx="407" cy="141" r="8"/>
-    <circle id="room-0e80d71e9e91748dd665803c12fc3516634a91ec" class="room outdoor" data-label="narrow forest track" cx="421" cy="141" r="8"/>
-    <circle id="room-9c0aa6a605a6a73859f056e04b27f8dde1d2e1b5" class="room outdoor" data-label="track through a forest" cx="435" cy="127" r="8"/>
-    <circle id="room-9334f4f00d0c2a6de98e11152f2928f126f26d47" class="room outdoor" data-label="forest trail" cx="449" cy="113" r="8"/>
-    <circle id="room-1b9394ecd94ddc0ae68dca31d5184c3c9c75f616" class="room outdoor" data-label="forest trail" cx="463" cy="99" r="8"/>
-    <circle id="room-18b552d116e31840afdb13b6703e680917e6134d" class="room outdoor" data-label="forest trail" cx="379" cy="141" r="8"/>
-    <circle id="room-d7ab9f0efc468e4274c638fd6fc3c5f7d1c8d150" class="room outdoor" data-label="forest trail" cx="379" cy="155" r="8"/>
-    <circle id="room-e6e6491172b54711f7a84943aeddcdbca3e341bf" class="room outdoor" data-label="forest trail" cx="365" cy="169" r="8"/>
-    <circle id="room-633deb4c3f8faa92731b94faf468c9011ee91fcb" class="room outdoor" data-label="forest trail" cx="351" cy="183" r="8"/>
-    <circle id="room-97c0dccbeb9b467a5e03eb28c31b8788ce9fbb5c" class="room outdoor" data-label="small forest clearing" cx="351" cy="197" r="8"/>
-    <circle id="room-85039711f85652789db6c5807443ee6d85b034ef" class="room outdoor" data-label="forest trail" cx="393" cy="169" r="8"/>
-    <circle id="room-65675b80cb910d1a2f6ff3a4e9c8d82550b57843" class="room outdoor" data-label="forest trail" cx="407" cy="169" r="8"/>
-    <circle id="room-461db6cd68f52b376fda999d246389764f38c6ba" class="room outdoor" data-label="forest trail" cx="421" cy="169" r="8"/>
-    <circle id="room-54e96b5f8c0089fa7c1b2af647d2a1ba5a8bd0ee" class="room outdoor" data-label="forest trail" cx="435" cy="155" r="8"/>
-    <circle id="room-ba9639ec45a2d13218f9a0a7ae149367c4add408" class="room outdoor" data-label="small forest clearing" cx="449" cy="155" r="8"/>
-    <circle id="room-5a6e007ba0038a7b8903eae635f2f01ca280e085" class="room outdoor" data-label="forest trail" cx="435" cy="183" r="8"/>
-    <circle id="room-4ae774fa5266a67c91190c9c8086b1541852d35d" class="room outdoor" data-label="forest trail" cx="449" cy="197" r="8"/>
-    <circle id="room-9024230a2938b78d0d62f8c80ef9f28c0a1bae5b" class="room outdoor" data-label="small forest clearing" cx="449" cy="211" r="8"/>
-    <circle id="room-b55dc949f3d460b4ea42376e6a044e3a00b451fb" class="room outdoor" data-label="cosy brick cottage" cx="449" cy="222" r="8"/>
-    <circle id="room-9bb659158dc1790fade307d8cc761307d982719a" class="room outdoor" data-label="crate" cx="309" cy="183" r="8"/>
-    <circle id="room-ad431f7fb0dcd59e802c93d929505431ab0e93ef" class="room outdoor" data-label="main deck" cx="324" cy="183" r="8"/>
-    <circle id="room-0627e181c93e5d40ce8e512dac87fc670dd1d549" class="room outdoor" data-label="wheelhouse" cx="324" cy="183" r="8"/>
-    <circle id="room-f18cd0ac68995b6f928079e50e97284f670ab990" class="room outdoor" data-label="hold" cx="324" cy="183" r="8"/>
-    <circle id="room-8d72ba64b8effe79c728d15727503d33727b51df" class="room outdoor" data-label="engine room" cx="324" cy="183" r="8"/>
-    <circle id="room-47a6ea5de98be19a3660fd806559908d32d51661" class="room outdoor" data-label="the lake" cx="180" cy="110" r="8"/>
-    <circle id="room-f4d1922203e036aec84a141f50a01729f936586f" class="room outdoor" data-label="the lake" cx="166" cy="110" r="8"/>
-    <circle id="room-bb76a6001333946bee374635487d569a0ac93c3a" class="room outdoor" data-label="the surface" cx="169" cy="113" r="8"/>
-    <circle id="room-1395b8192b30eea47ca50741784933edbbaccbd0" class="room outdoor" data-label="the surface" cx="169" cy="99" r="8"/>
-    <circle id="room-f17218e85a7ffd663ed62a5cc7e9ba8bcfbe67cd" class="room outdoor" data-label="the surface" cx="183" cy="99" r="8"/>
-    <circle id="room-a3dab60afcbc1390fdcfe9eade2e0f2dbf2de0ee" class="room outdoor" data-label="the surface" cx="197" cy="99" r="8"/>
-    <circle id="room-7c25c1c1c1e0d30afba43cec81e9a4184a50d33c" class="room outdoor" data-label="the surface" cx="197" cy="113" r="8"/>
-    <circle id="room-cb24f54a3bce0d8670acdc61c22727c7d50c5138" class="room outdoor" data-label="the lake" cx="194" cy="110" r="8"/>
-    <circle id="room-a97f20f35ac0dff31530de05d1dd723c8f869a52" class="room outdoor" data-label="the lake" cx="194" cy="96" r="8"/>
-    <circle id="room-1e76a259a432cb8b0598c978de2d415194b1a847" class="room outdoor" data-label="the lake" cx="180" cy="96" r="8"/>
-    <circle id="room-70dc39f6f7aa310ce79182dd5b5691759e26cecb" class="room outdoor" data-label="the lake" cx="166" cy="96" r="8"/>
-    <circle id="room-b0f2bef412f98ed95dcf3bc5d564d2fac8efbcc3" class="room outdoor" data-label="cosy downstairs room" cx="208" cy="281" r="8"/>
-    <circle id="room-be9e320f1a26dc084a2c97532298ee770101e5aa" class="room outdoor" data-label="small loft room" cx="218" cy="271" r="8"/>
-    <circle id="room-211810c8a192c4d3b3ad295843e3a30e4385fce5" class="room outdoor" data-label="boughs of an ancient oak" cx="239" cy="169" r="8"/>
+    <circle id="room-a2419925c6cc42e592a43f0cfc03d34c10940ea5" class="room outdoor" data-label="centre of the square" cx="239" cy="169" r="4"/>
+    <circle id="room-80f8ac7814016571086d2c472839a6bba2688b38" class="room outdoor" data-label="northeast corner of the square" cx="253" cy="155" r="4"/>
+    <circle id="room-71d56713694f91bd20751dc47352a8cc6dfca45d" class="room outdoor" data-label="small general store" cx="264" cy="155" r="4"/>
+    <circle id="room-ac310bc3aa78d40d6b181bf2ea8d450a22a57b88" class="room outdoor" data-label="northern edge of the square" cx="239" cy="155" r="4"/>
+    <circle id="room-20b9efb6921a6e41a61b7179a53066da922d7983" class="room outdoor" data-label="Woodcutters&#x27; Guild" cx="249" cy="145" r="4"/>
+    <circle id="room-8c2595cd9a6c415f9670beeed7ee07122e1174d8" class="room outdoor" data-label="woodwork shop" cx="239" cy="145" r="4"/>
+    <circle id="room-03933d41f644b18282d766da780c639fa2bf0ec2" class="room outdoor" data-label="northwest corner of the square" cx="225" cy="155" r="4"/>
+    <circle id="room-a8287464a6c182e0e878704ad26eb7bc215110fb" class="room outdoor" data-label="western edge of the square" cx="225" cy="169" r="4"/>
+    <circle id="room-590ba199fcefe1cb43a8ca73f5723c8829f376a3" class="room outdoor" data-label="small cake shop" cx="215" cy="179" r="4"/>
+    <circle id="room-11c94c09699f89b742177945c02a5885f766a9ad" class="room outdoor" data-label="eastern edge of the square" cx="253" cy="169" r="4"/>
+    <circle id="room-a9db147a9472c2b3dc92797c71cabe4e5291ddd4" class="room outdoor" data-label="southeast corner of the square" cx="253" cy="183" r="4"/>
+    <circle id="room-a8a10433cf292c31c272e23940d813cafd169cdc" class="room outdoor" data-label="southern edge of the square" cx="239" cy="183" r="4"/>
+    <circle id="room-e0d2944fa20f6c3f77071b6692fe6a0284fb57f3" class="room outdoor" data-label="southwestern corner of the square" cx="225" cy="183" r="4"/>
+    <circle id="room-1f270665a20a58a4c9e3f0f4269086511e69685a" class="room outdoor" data-label="Bois Village Inn" cx="225" cy="194" r="4"/>
+    <circle id="room-42fc66e3a3d2d219435c82afd199ff7117e9086f" class="room outdoor" data-label="small room" cx="235" cy="204" r="4"/>
+    <circle id="room-631c763481627177ad319580021484e41ca5d787" class="room outdoor" data-label="village hall common room" cx="263" cy="193" r="4"/>
+    <circle id="room-ca812ea7a72af42ba1192c8e9e43f24ca8786e4a" class="room outdoor" data-label="converted storeroom" cx="271" cy="201" r="4"/>
+    <circle id="room-6f1e3c2f1895fe23fc991808f421286f9d233b1e" class="room outdoor" data-label="end of Brindille Alley" cx="253" cy="197" r="4"/>
+    <circle id="room-b5e098102e7e2c53d2eb9bc1cc4d7ec1b231ea83" class="room outdoor" data-label="middle of Brindille Alley" cx="267" cy="211" r="4"/>
+    <circle id="room-043a221c6a81406c921bf3f15a9ba2a8c4bdfe85" class="room outdoor" data-label="southern end of Brindille Alley" cx="267" cy="225" r="4"/>
+    <circle id="room-d999ea490274369058c4f51cd2de13ec5c27bfc7" class="room outdoor" data-label="western end of Fleuve Alley" cx="267" cy="183" r="4"/>
+    <circle id="room-e3a910b34cfc38211b3f7ea06e2931ac72ddfa67" class="room outdoor" data-label="middle of Fleuve Alley" cx="281" cy="183" r="4"/>
+    <circle id="room-94b3f006b58c208d8ed0be7aefbdbedf4e4416db" class="room outdoor" data-label="end of Fleuve Alley" cx="295" cy="183" r="4"/>
+    <circle id="room-791a35bfce56a0330b821e431a9d5c0ceaaa39eb" class="room outdoor" data-label="pier" cx="309" cy="183" r="4"/>
+    <circle id="room-340f4ab170ea743ef436292f32041516b64673f2" class="room outdoor" data-label="visa office" cx="295" cy="195" r="4"/>
+    <circle id="room-d878db9ed11a54e4e077ea1b858fc705dbdc3322" class="room outdoor" data-label="crossroads" cx="211" cy="141" r="4"/>
+    <circle id="room-0eb90470f630d578fdba45f435298f98197d0995" class="room outdoor" data-label="wooden pier" cx="197" cy="127" r="4"/>
+    <circle id="room-779c3d160a8c1a8d6ee767427a284e2874716ad4" class="room outdoor" data-label="end of the pier" cx="183" cy="113" r="4"/>
+    <circle id="room-4cfd8590b2dfe5ddabdb33fc5756d333b58179ac" class="room outdoor" data-label="forest trail" cx="197" cy="155" r="4"/>
+    <circle id="room-d2092dbbee59c19275ca7919be046439f02e70c4" class="room outdoor" data-label="forest trail" cx="183" cy="169" r="4"/>
+    <circle id="room-5a864d03b2387a9065f7d234f349dbefd8545b50" class="room outdoor" data-label="forest trail" cx="183" cy="183" r="4"/>
+    <circle id="room-5ad44311f3e8a4d26ad5df912c0a6e879ccd02f1" class="room outdoor" data-label="forest trail" cx="169" cy="197" r="4"/>
+    <circle id="room-c65b0227fbc1f2005ca4977e49c1b49f87c1108b" class="room outdoor" data-label="forest trail" cx="169" cy="211" r="4"/>
+    <circle id="room-911d069402126d413bb97bbd7c4c18dfdad1679d" class="room outdoor" data-label="forest trail" cx="169" cy="225" r="4"/>
+    <circle id="room-aa54bd49a8b454f5d8d5b76c12496c9d92895575" class="room outdoor" data-label="forest trail" cx="155" cy="239" r="4"/>
+    <circle id="room-2803d9c224097d357f6eb0d798bb50ae0329e6e0" class="room outdoor" data-label="forest trail" cx="141" cy="253" r="4"/>
+    <circle id="room-2befe432d591b6ffbb006f989f5e858fe38101e4" class="room outdoor" data-label="forest trail" cx="141" cy="267" r="4"/>
+    <circle id="room-e4545fa998654cbad41b9e813dbb8f8164429fd2" class="room outdoor" data-label="forest trail" cx="127" cy="281" r="4"/>
+    <circle id="room-b4378b772fd4c2bedbeaa705d15a3fc398cdfdd1" class="room outdoor" data-label="forest trail" cx="127" cy="295" r="4"/>
+    <circle id="room-d4a96743ab4bfffcb0ac9c6393e0583d9b1a43fb" class="room outdoor" data-label="forest trail" cx="127" cy="309" r="4"/>
+    <circle id="room-b876f31ec25df7c2cab1cfb3ddc9dfe34762ef24" class="room outdoor" data-label="forest trail" cx="155" cy="281" r="4"/>
+    <circle id="room-e33d593824bce92d18c8d93d1ac840d6bdddd29a" class="room outdoor" data-label="forest trail" cx="169" cy="281" r="4"/>
+    <circle id="room-58502717a7ea0276fcaeef34ef3d081eb3a2acd3" class="room outdoor" data-label="forest trail" cx="183" cy="267" r="4"/>
+    <circle id="room-c7df2723e36eb500cef9cd52b86e0ae5922b66ff" class="room outdoor" data-label="small clearing" cx="197" cy="281" r="4"/>
+    <circle id="room-936bc4a5ba062ae0fa3b179d1d3ff745b99902cc" class="room outdoor" data-label="forest trail" cx="225" cy="127" r="4"/>
+    <circle id="room-929db27ab847a55c56a23945b2d5691e53718e9d" class="room outdoor" data-label="forest trail" cx="239" cy="127" r="4"/>
+    <circle id="room-a4672f381d3d170829117308eead9f714bf3a40e" class="room outdoor" data-label="forest trail" cx="253" cy="113" r="4"/>
+    <circle id="room-50950eed09be42c4996a8dc2e62d735d0dbd8910" class="room outdoor" data-label="forest trail" cx="267" cy="113" r="4"/>
+    <circle id="room-5c48e02acaf51ec36f128b99082a9822d66de495" class="room outdoor" data-label="forest trail" cx="281" cy="113" r="4"/>
+    <circle id="room-375319535fa63a7772eccb22759fdc5534484f32" class="room outdoor" data-label="forest trail" cx="295" cy="99" r="4"/>
+    <circle id="room-1b2504a03322c7d61728e7868cdac0e39054c65a" class="room outdoor" data-label="forest trail" cx="337" cy="99" r="4"/>
+    <circle id="room-c877e6ca3d7bfdcd429212954410cbade5972690" class="room outdoor" data-label="forest trail" cx="351" cy="85" r="4"/>
+    <circle id="room-60327249973bc5ddbbd22a2691f0d5e3ce2aba3d" class="room outdoor" data-label="forest trail" cx="365" cy="71" r="4"/>
+    <circle id="room-78c85f20284f58e836a664de3061d8f1fe677345" class="room outdoor" data-label="forest trail" cx="365" cy="57" r="4"/>
+    <circle id="room-8214b194814676c820b568fcdf68acec08122fef" class="room outdoor" data-label="forest trail" cx="379" cy="43" r="4"/>
+    <circle id="room-7f9f0cf18846f5f4f84d3c1e992391fc67142c0f" class="room outdoor" data-label="forest trail" cx="379" cy="29" r="4"/>
+    <circle id="room-61e6362d2a8ca873079f1fc5ad07dbb379348c60" class="room outdoor" data-label="outside a house" cx="365" cy="15" r="4"/>
+    <circle id="room-858d55f35ac27144449ed5f9fa8ca13ff7b011a5" class="room outdoor" data-label="cosy living room" cx="354" cy="15" r="4"/>
+    <circle id="room-492f4def3ec815553c7cdcc04abdb830f3559f51" class="room outdoor" data-label="warm kitchen" cx="354" cy="5" r="4"/>
+    <circle id="room-b7f12ad392eeebfa3a88a40c702ce8e4e3d7b1fa" class="room outdoor" data-label="small bedroom" cx="344" cy="5" r="4"/>
+    <circle id="room-1851df8886f295c77915c690578d33ac6a7b6727" class="room outdoor" data-label="forest trail" cx="351" cy="113" r="4"/>
+    <circle id="room-33954756c55fdc242a0af31413278db9b1c6b749" class="room outdoor" data-label="forest trail" cx="365" cy="113" r="4"/>
+    <circle id="room-4efe61eccf06fdf199b8a50c0ed73ca2225e0055" class="room outdoor" data-label="forest trail" cx="379" cy="113" r="4"/>
+    <circle id="room-66b047f6978e29fb1b6707a1ad05f3ee48295349" class="room outdoor" data-label="forest trail" cx="393" cy="127" r="4"/>
+    <circle id="room-36cb399f71ab68938b8eba6bb9505694e1e641af" class="room outdoor" data-label="forest trail" cx="407" cy="141" r="4"/>
+    <circle id="room-0e80d71e9e91748dd665803c12fc3516634a91ec" class="room outdoor" data-label="narrow forest track" cx="421" cy="141" r="4"/>
+    <circle id="room-9c0aa6a605a6a73859f056e04b27f8dde1d2e1b5" class="room outdoor" data-label="track through a forest" cx="435" cy="127" r="4"/>
+    <circle id="room-9334f4f00d0c2a6de98e11152f2928f126f26d47" class="room outdoor" data-label="forest trail" cx="449" cy="113" r="4"/>
+    <circle id="room-1b9394ecd94ddc0ae68dca31d5184c3c9c75f616" class="room outdoor" data-label="forest trail" cx="463" cy="99" r="4"/>
+    <circle id="room-18b552d116e31840afdb13b6703e680917e6134d" class="room outdoor" data-label="forest trail" cx="379" cy="141" r="4"/>
+    <circle id="room-d7ab9f0efc468e4274c638fd6fc3c5f7d1c8d150" class="room outdoor" data-label="forest trail" cx="379" cy="155" r="4"/>
+    <circle id="room-e6e6491172b54711f7a84943aeddcdbca3e341bf" class="room outdoor" data-label="forest trail" cx="365" cy="169" r="4"/>
+    <circle id="room-633deb4c3f8faa92731b94faf468c9011ee91fcb" class="room outdoor" data-label="forest trail" cx="351" cy="183" r="4"/>
+    <circle id="room-97c0dccbeb9b467a5e03eb28c31b8788ce9fbb5c" class="room outdoor" data-label="small forest clearing" cx="351" cy="197" r="4"/>
+    <circle id="room-85039711f85652789db6c5807443ee6d85b034ef" class="room outdoor" data-label="forest trail" cx="393" cy="169" r="4"/>
+    <circle id="room-65675b80cb910d1a2f6ff3a4e9c8d82550b57843" class="room outdoor" data-label="forest trail" cx="407" cy="169" r="4"/>
+    <circle id="room-461db6cd68f52b376fda999d246389764f38c6ba" class="room outdoor" data-label="forest trail" cx="421" cy="169" r="4"/>
+    <circle id="room-54e96b5f8c0089fa7c1b2af647d2a1ba5a8bd0ee" class="room outdoor" data-label="forest trail" cx="435" cy="155" r="4"/>
+    <circle id="room-ba9639ec45a2d13218f9a0a7ae149367c4add408" class="room outdoor" data-label="small forest clearing" cx="449" cy="155" r="4"/>
+    <circle id="room-5a6e007ba0038a7b8903eae635f2f01ca280e085" class="room outdoor" data-label="forest trail" cx="435" cy="183" r="4"/>
+    <circle id="room-4ae774fa5266a67c91190c9c8086b1541852d35d" class="room outdoor" data-label="forest trail" cx="449" cy="197" r="4"/>
+    <circle id="room-9024230a2938b78d0d62f8c80ef9f28c0a1bae5b" class="room outdoor" data-label="small forest clearing" cx="449" cy="211" r="4"/>
+    <circle id="room-b55dc949f3d460b4ea42376e6a044e3a00b451fb" class="room outdoor" data-label="cosy brick cottage" cx="449" cy="222" r="4"/>
+    <circle id="room-9bb659158dc1790fade307d8cc761307d982719a" class="room outdoor" data-label="crate" cx="309" cy="183" r="4"/>
+    <circle id="room-ad431f7fb0dcd59e802c93d929505431ab0e93ef" class="room outdoor" data-label="main deck" cx="324" cy="183" r="4"/>
+    <circle id="room-0627e181c93e5d40ce8e512dac87fc670dd1d549" class="room outdoor" data-label="wheelhouse" cx="324" cy="183" r="4"/>
+    <circle id="room-f18cd0ac68995b6f928079e50e97284f670ab990" class="room outdoor" data-label="hold" cx="324" cy="183" r="4"/>
+    <circle id="room-8d72ba64b8effe79c728d15727503d33727b51df" class="room outdoor" data-label="engine room" cx="324" cy="183" r="4"/>
+    <circle id="room-47a6ea5de98be19a3660fd806559908d32d51661" class="room outdoor" data-label="the lake" cx="180" cy="110" r="4"/>
+    <circle id="room-f4d1922203e036aec84a141f50a01729f936586f" class="room outdoor" data-label="the lake" cx="166" cy="110" r="4"/>
+    <circle id="room-bb76a6001333946bee374635487d569a0ac93c3a" class="room outdoor" data-label="the surface" cx="169" cy="113" r="4"/>
+    <circle id="room-1395b8192b30eea47ca50741784933edbbaccbd0" class="room outdoor" data-label="the surface" cx="169" cy="99" r="4"/>
+    <circle id="room-f17218e85a7ffd663ed62a5cc7e9ba8bcfbe67cd" class="room outdoor" data-label="the surface" cx="183" cy="99" r="4"/>
+    <circle id="room-a3dab60afcbc1390fdcfe9eade2e0f2dbf2de0ee" class="room outdoor" data-label="the surface" cx="197" cy="99" r="4"/>
+    <circle id="room-7c25c1c1c1e0d30afba43cec81e9a4184a50d33c" class="room outdoor" data-label="the surface" cx="197" cy="113" r="4"/>
+    <circle id="room-cb24f54a3bce0d8670acdc61c22727c7d50c5138" class="room outdoor" data-label="the lake" cx="194" cy="110" r="4"/>
+    <circle id="room-a97f20f35ac0dff31530de05d1dd723c8f869a52" class="room outdoor" data-label="the lake" cx="194" cy="96" r="4"/>
+    <circle id="room-1e76a259a432cb8b0598c978de2d415194b1a847" class="room outdoor" data-label="the lake" cx="180" cy="96" r="4"/>
+    <circle id="room-70dc39f6f7aa310ce79182dd5b5691759e26cecb" class="room outdoor" data-label="the lake" cx="166" cy="96" r="4"/>
+    <circle id="room-b0f2bef412f98ed95dcf3bc5d564d2fac8efbcc3" class="room outdoor" data-label="cosy downstairs room" cx="208" cy="281" r="4"/>
+    <circle id="room-be9e320f1a26dc084a2c97532298ee770101e5aa" class="room outdoor" data-label="small loft room" cx="218" cy="271" r="4"/>
+    <circle id="room-211810c8a192c4d3b3ad295843e3a30e4385fce5" class="room outdoor" data-label="boughs of an ancient oak" cx="239" cy="169" r="4"/>
   </g>
 
-  <g id="layer-labels">
-    <text class="map-label" x="239" y="157">centre of the square</text>
-    <text class="map-label" x="253" y="143">northeast corner of the square</text>
-    <text class="map-label" x="264" y="143">small general store</text>
-    <text class="map-label" x="239" y="143">northern edge of the square</text>
-    <text class="map-label" x="249" y="133">Woodcutters&#x27; Guild</text>
-    <text class="map-label" x="239" y="133">woodwork shop</text>
-    <text class="map-label" x="225" y="143">northwest corner of the square</text>
-    <text class="map-label" x="225" y="157">western edge of the square</text>
-    <text class="map-label" x="215" y="167">small cake shop</text>
-    <text class="map-label" x="253" y="157">eastern edge of the square</text>
-    <text class="map-label" x="253" y="171">southeast corner of the square</text>
-    <text class="map-label" x="239" y="171">southern edge of the square</text>
-    <text class="map-label" x="225" y="171">southwestern corner of the square</text>
-    <text class="map-label" x="225" y="182">Bois Village Inn</text>
-    <text class="map-label" x="235" y="192">small room</text>
-    <text class="map-label" x="263" y="181">village hall common room</text>
-    <text class="map-label" x="271" y="189">converted storeroom</text>
-    <text class="map-label" x="253" y="185">end of Brindille Alley</text>
-    <text class="map-label" x="267" y="199">middle of Brindille Alley</text>
-    <text class="map-label" x="267" y="213">southern end of Brindille Alley</text>
-    <text class="map-label" x="267" y="171">western end of Fleuve Alley</text>
-    <text class="map-label" x="281" y="171">middle of Fleuve Alley</text>
-    <text class="map-label" x="295" y="171">end of Fleuve Alley</text>
-    <text class="map-label" x="309" y="171">pier</text>
-    <text class="map-label" x="295" y="183">visa office</text>
-    <text class="map-label" x="211" y="129">crossroads</text>
-    <text class="map-label" x="197" y="115">wooden pier</text>
-    <text class="map-label" x="183" y="101">end of the pier</text>
-    <text class="map-label" x="197" y="143">forest trail</text>
-    <text class="map-label" x="183" y="157">forest trail</text>
-    <text class="map-label" x="183" y="171">forest trail</text>
-    <text class="map-label" x="169" y="185">forest trail</text>
-    <text class="map-label" x="169" y="199">forest trail</text>
-    <text class="map-label" x="169" y="213">forest trail</text>
-    <text class="map-label" x="155" y="227">forest trail</text>
-    <text class="map-label" x="141" y="241">forest trail</text>
-    <text class="map-label" x="141" y="255">forest trail</text>
-    <text class="map-label" x="127" y="269">forest trail</text>
-    <text class="map-label" x="127" y="283">forest trail</text>
-    <text class="map-label" x="127" y="297">forest trail</text>
-    <text class="map-label" x="155" y="269">forest trail</text>
-    <text class="map-label" x="169" y="269">forest trail</text>
-    <text class="map-label" x="183" y="255">forest trail</text>
-    <text class="map-label" x="197" y="269">small clearing</text>
-    <text class="map-label" x="225" y="115">forest trail</text>
-    <text class="map-label" x="239" y="115">forest trail</text>
-    <text class="map-label" x="253" y="101">forest trail</text>
-    <text class="map-label" x="267" y="101">forest trail</text>
-    <text class="map-label" x="281" y="101">forest trail</text>
-    <text class="map-label" x="295" y="87">forest trail</text>
-    <text class="map-label" x="337" y="87">forest trail</text>
-    <text class="map-label" x="351" y="73">forest trail</text>
-    <text class="map-label" x="365" y="59">forest trail</text>
-    <text class="map-label" x="365" y="45">forest trail</text>
-    <text class="map-label" x="379" y="31">forest trail</text>
-    <text class="map-label" x="379" y="17">forest trail</text>
-    <text class="map-label" x="365" y="3">outside a house</text>
-    <text class="map-label" x="354" y="3">cosy living room</text>
-    <text class="map-label" x="354" y="-7">warm kitchen</text>
-    <text class="map-label" x="344" y="-7">small bedroom</text>
-    <text class="map-label" x="351" y="101">forest trail</text>
-    <text class="map-label" x="365" y="101">forest trail</text>
-    <text class="map-label" x="379" y="101">forest trail</text>
-    <text class="map-label" x="393" y="115">forest trail</text>
-    <text class="map-label" x="407" y="129">forest trail</text>
-    <text class="map-label" x="421" y="129">narrow forest track</text>
-    <text class="map-label" x="435" y="115">track through a forest</text>
-    <text class="map-label" x="449" y="101">forest trail</text>
-    <text class="map-label" x="463" y="87">forest trail</text>
-    <text class="map-label" x="379" y="129">forest trail</text>
-    <text class="map-label" x="379" y="143">forest trail</text>
-    <text class="map-label" x="365" y="157">forest trail</text>
-    <text class="map-label" x="351" y="171">forest trail</text>
-    <text class="map-label" x="351" y="185">small forest clearing</text>
-    <text class="map-label" x="393" y="157">forest trail</text>
-    <text class="map-label" x="407" y="157">forest trail</text>
-    <text class="map-label" x="421" y="157">forest trail</text>
-    <text class="map-label" x="435" y="143">forest trail</text>
-    <text class="map-label" x="449" y="143">small forest clearing</text>
-    <text class="map-label" x="435" y="171">forest trail</text>
-    <text class="map-label" x="449" y="185">forest trail</text>
-    <text class="map-label" x="449" y="199">small forest clearing</text>
-    <text class="map-label" x="449" y="210">cosy brick cottage</text>
-    <text class="map-label" x="309" y="171">crate</text>
-    <text class="map-label" x="324" y="171">main deck</text>
-    <text class="map-label" x="324" y="171">wheelhouse</text>
-    <text class="map-label" x="324" y="171">hold</text>
-    <text class="map-label" x="324" y="171">engine room</text>
-    <text class="map-label" x="180" y="98">the lake</text>
-    <text class="map-label" x="166" y="98">the lake</text>
-    <text class="map-label" x="169" y="101">the surface</text>
-    <text class="map-label" x="169" y="87">the surface</text>
-    <text class="map-label" x="183" y="87">the surface</text>
-    <text class="map-label" x="197" y="87">the surface</text>
-    <text class="map-label" x="197" y="101">the surface</text>
-    <text class="map-label" x="194" y="98">the lake</text>
-    <text class="map-label" x="194" y="84">the lake</text>
-    <text class="map-label" x="180" y="84">the lake</text>
-    <text class="map-label" x="166" y="84">the lake</text>
-    <text class="map-label" x="208" y="269">cosy downstairs room</text>
-    <text class="map-label" x="218" y="259">small loft room</text>
-    <text class="map-label" x="239" y="157">boughs of an ancient oak</text>
-  </g>
+  <g id="layer-labels"><!-- labels --></g>
 
 </svg>

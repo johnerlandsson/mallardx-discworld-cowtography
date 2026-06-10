@@ -33,849 +33,428 @@
   </g>
 
   <g id="layer-rooms">
-    <rect id="room-1a1b3c2f5ec258cb33cae78105da14eadf3aed45" class="room indoor" data-label="sewer" x="187" y="598" width="16" height="16" rx="4"/>
-    <rect id="room-ed219dd5513085f350b1827d147cac6e801e09b0" class="room indoor" data-label="sewer" x="292" y="577" width="16" height="16" rx="4"/>
-    <rect id="room-77c10dabe8457f0e44066aead773a966e9bf3727" class="room indoor" data-label="sewer" x="355" y="472" width="16" height="16" rx="4"/>
-    <rect id="room-343eac2f1aeb59437c9fb2031f23c579d7131c72" class="room indoor" data-label="sewer" x="271" y="367" width="16" height="16" rx="4"/>
-    <rect id="room-38c6760b1dc6456447af60fef13ee7cb551ad98c" class="room indoor" data-label="sewer" x="166" y="262" width="16" height="16" rx="4"/>
-    <rect id="room-29c393a8c50a9c45b5d469eaadfcc100b1838dd4" class="room indoor" data-label="sewer" x="229" y="178" width="16" height="16" rx="4"/>
-    <rect id="room-12b4767cf970a99ab708011ed2f025dcabb9ab9d" class="room indoor" data-label="sewer" x="271" y="52" width="16" height="16" rx="4"/>
-    <rect id="room-807e7b42fea67fe13c188dd085819ca2afe85ea3" class="room indoor" data-label="sewer" x="313" y="94" width="16" height="16" rx="4"/>
-    <rect id="room-e660a285d400e1f4842a51fd0519bb65669dd4a3" class="room indoor" data-label="sewer" x="544" y="157" width="16" height="16" rx="4"/>
-    <rect id="room-a368f91956c2174bc05bcc9b4d2263323730de51" class="room indoor" data-label="sewer" x="691" y="94" width="16" height="16" rx="4"/>
-    <rect id="room-b907e8c168db58fee06e818429953b140452def0" class="room indoor" data-label="west side of the underground docks" x="775" y="136" width="16" height="16" rx="4"/>
-    <rect id="room-c0c753165239c4dccbdcc22c83642ad4c78e6f0c" class="room indoor" data-label="northwest corner of the underground docks" x="775" y="115" width="16" height="16" rx="4"/>
-    <rect id="room-b3e27ffaa5ec1386fc36ecc3ef04106d57ef1dd3" class="room indoor" data-label="northeast corner of the underground docks" x="796" y="115" width="16" height="16" rx="4"/>
-    <rect id="room-f03b1b83eb69b745d226cfb6d858490ed6f41305" class="room indoor" data-label="winch room" x="817" y="115" width="16" height="16" rx="4"/>
-    <rect id="room-e5d03fd282ca5a742e890a1f903fade43fb0177a" class="room indoor" data-label="underground harbour" x="796" y="136" width="16" height="16" rx="4"/>
-    <rect id="room-aa45e863d7e2a4ce067e587b93bcf7f5aebfc79c" class="room indoor" data-label="southeast corner of the underground docks" x="796" y="157" width="16" height="16" rx="4"/>
-    <rect id="room-e5e94784739b83d39b9bae3e004fa4267c03f428" class="room indoor" data-label="southwest corner of the underground docks" x="775" y="157" width="16" height="16" rx="4"/>
-    <rect id="room-4ef8a508f6fbe09b95a57f8cc1717ff5c95c4b06" class="room indoor" data-label="untidy office" x="754" y="157" width="16" height="16" rx="4"/>
-    <rect id="room-1f598feb4206629d77dff98e534de11f755f883b" class="room indoor" data-label="comfortable office" x="733" y="157" width="16" height="16" rx="4"/>
-    <rect id="room-425ea805db768ae123605903233b685f15f87cea" class="room indoor" data-label="sewer" x="733" y="199" width="16" height="16" rx="4"/>
-    <rect id="room-a83925f899b49bb4e534a46c9b89ea38cc535b47" class="room indoor" data-label="sewer" x="691" y="388" width="16" height="16" rx="4"/>
-    <rect id="room-e7e67c57f8924a91df73396c366d9622af58d743" class="room indoor" data-label="sewer" x="691" y="577" width="16" height="16" rx="4"/>
-    <rect id="room-1d7973382863a80adb3af0eac94f27518bd8b97e" class="room indoor" data-label="sewer" x="565" y="430" width="16" height="16" rx="4"/>
-    <rect id="room-834072de72759be79b5ce32ce59002024056ce17" class="room indoor" data-label="sewer" x="439" y="535" width="16" height="16" rx="4"/>
-    <rect id="room-27c2dd5b2ea7feac0c19b16052a482d7c33715b2" class="room indoor" data-label="sewer" x="397" y="304" width="16" height="16" rx="4"/>
-    <rect id="room-1b399bbddd7fbb95306f06e59c7dc52e6fd331bd" class="room indoor" data-label="sewer" x="334" y="241" width="16" height="16" rx="4"/>
-    <rect id="room-f38afad5a89c313cdd69e8219567bcc9ad9f13c6" class="room indoor" data-label="sewer" x="586" y="283" width="16" height="16" rx="4"/>
-    <rect id="room-78f986e7ac91f0a8b412d60558a0c880ea0ddf8b" class="room indoor" data-label="dank underground area" x="607" y="409" width="16" height="16" rx="4"/>
-    <rect id="room-5e8e1d0a8f264c14182c8300c3fde8f7140de20f" class="room indoor" data-label="dank underground area" x="607" y="388" width="16" height="16" rx="4"/>
-    <rect id="room-ac2f0d5e954b99c2401b03d5410d5ea85895ec2b" class="room indoor" data-label="dank underground area" x="586" y="409" width="16" height="16" rx="4"/>
-    <rect id="room-af7f1c7960d8b915acc715a5a5e4c6fb4420cf2b" class="room indoor" data-label="dank underground area" x="565" y="409" width="16" height="16" rx="4"/>
-    <rect id="room-9667b861500e12f67e0ad2c76528a176cc937729" class="room indoor" data-label="dank underground area" x="565" y="388" width="16" height="16" rx="4"/>
-    <rect id="room-9b79f4521e9309e2561dd5e5d0a914dcdfc0c0d2" class="room indoor" data-label="sewer" x="607" y="262" width="16" height="16" rx="4"/>
-    <rect id="room-cfb3071d2a1ae32664098af4ab569b1aac2933f7" class="room indoor" data-label="sewer" x="628" y="262" width="16" height="16" rx="4"/>
-    <rect id="room-b6e58822ef144be155a071384107301859532d62" class="room indoor" data-label="sewer" x="649" y="241" width="16" height="16" rx="4"/>
-    <rect id="room-421c2f9d01fcd21385823d9500ffdf9665e7e7d7" class="room indoor" data-label="sewer" x="649" y="220" width="16" height="16" rx="4"/>
-    <rect id="room-147593042d79c447e28548ca8b746cfc8499bf32" class="room indoor" data-label="sewer" x="649" y="199" width="16" height="16" rx="4"/>
-    <rect id="room-ff8b1b36401763a391bbbeec7dbf7ca6b4f3d73b" class="room indoor" data-label="sewer" x="670" y="178" width="16" height="16" rx="4"/>
-    <rect id="room-6d43b51aaa2f82cc838345ee2481ea86ff76ee89" class="room indoor" data-label="sewer" x="691" y="178" width="16" height="16" rx="4"/>
-    <rect id="room-d40dfdec4dee3090ef4d9dc15f74198d40cb93c7" class="room indoor" data-label="sewer" x="712" y="178" width="16" height="16" rx="4"/>
-    <rect id="room-2260b4811078f00d668b207d5047adac2c032e04" class="room indoor" data-label="sewer" x="712" y="220" width="16" height="16" rx="4"/>
-    <rect id="room-db989d09a53890f4342b93a7a5bc9e37482d89f9" class="room indoor" data-label="sewer" x="691" y="220" width="16" height="16" rx="4"/>
-    <rect id="room-c021b247bbb9fa4adb7ecf52730ec36d443c558b" class="room indoor" data-label="sewer" x="670" y="241" width="16" height="16" rx="4"/>
-    <rect id="room-1a88243fd4697d751d74fc925b6b8f7e620b176f" class="room indoor" data-label="sewer" x="691" y="262" width="16" height="16" rx="4"/>
-    <rect id="room-d5f313986d2b33186c14eea8a8d1484bebd0ac7b" class="room indoor" data-label="sewer" x="712" y="262" width="16" height="16" rx="4"/>
-    <rect id="room-d64d8c8d957a7e1768806c5f9c7659646e8df01c" class="room indoor" data-label="sewer" x="733" y="241" width="16" height="16" rx="4"/>
-    <rect id="room-5e680db7ce1946d5e5f78b2463ce102cfb39ca81" class="room indoor" data-label="sewer" x="754" y="199" width="16" height="16" rx="4"/>
-    <rect id="room-d059523a938daa5ed1b4e8d75bba8cae9a54cdb0" class="room indoor" data-label="sewer" x="775" y="178" width="16" height="16" rx="4"/>
-    <rect id="room-ea0f179d44126ccfa23afa2455788481124d5816" class="room indoor" data-label="sewer" x="754" y="136" width="16" height="16" rx="4"/>
-    <rect id="room-06d44e92d16559a24ef2dab82564ca3d8a9920ac" class="room indoor" data-label="sewer" x="733" y="136" width="16" height="16" rx="4"/>
-    <rect id="room-23d37fe80eda35c02e94194c0626f3a87a5b5dfd" class="room indoor" data-label="sewer" x="712" y="115" width="16" height="16" rx="4"/>
-    <rect id="room-2cbf48cb063285712dab90d34b30115a953a160c" class="room indoor" data-label="sewer" x="691" y="136" width="16" height="16" rx="4"/>
-    <rect id="room-9d52ca5b912f5cc425cd4b9834da509bbf8b4013" class="room indoor" data-label="sewer" x="670" y="157" width="16" height="16" rx="4"/>
-    <rect id="room-ed1d3dafe6ab56528df4e91dcc04d238934ca3bc" class="room indoor" data-label="sewer" x="670" y="73" width="16" height="16" rx="4"/>
-    <rect id="room-fe8dcda376c1f4a251fc3e001e674b9999146c6f" class="room indoor" data-label="sewer" x="649" y="52" width="16" height="16" rx="4"/>
-    <rect id="room-b0a61746ea969732253b435e2f2b55b26741f07f" class="room indoor" data-label="sewer" x="628" y="52" width="16" height="16" rx="4"/>
-    <rect id="room-45fbb90fe43f3309274606fb863bb444f27ac22b" class="room indoor" data-label="sewer" x="607" y="52" width="16" height="16" rx="4"/>
-    <rect id="room-f92bf80db1763cfb1dfaed9813983989971f8b79" class="room indoor" data-label="sewer" x="607" y="31" width="16" height="16" rx="4"/>
-    <rect id="room-5e112efda4f8b1500f21718c526bca885653f1b9" class="room indoor" data-label="sewer" x="586" y="31" width="16" height="16" rx="4"/>
-    <rect id="room-325f86cf6e0f5e7267be9fcdcf1cffd6ddab93ab" class="room indoor" data-label="sewer" x="565" y="10" width="16" height="16" rx="4"/>
-    <rect id="room-434377369f88383fc345fbd9018ac49c856209a0" class="room indoor" data-label="sewer" x="544" y="31" width="16" height="16" rx="4"/>
-    <rect id="room-7cd06bef9da153fe9170bc92ced8539fbcb03778" class="room indoor" data-label="sewer" x="544" y="52" width="16" height="16" rx="4"/>
-    <rect id="room-921f4a5846962a074969ad4c06cf7b851da319d9" class="room indoor" data-label="sewer" x="544" y="73" width="16" height="16" rx="4"/>
-    <rect id="room-1dea19e07d772b443bf6c5d7ab5349a41e5ac365" class="room indoor" data-label="sewer" x="565" y="73" width="16" height="16" rx="4"/>
-    <rect id="room-09279f6cb312272ad65ab4f30397247128f7046c" class="room indoor" data-label="sewer" x="586" y="73" width="16" height="16" rx="4"/>
-    <rect id="room-8f59a2a91b634cb5ec613bfb40dc7399bb9e2b62" class="room indoor" data-label="sewer" x="586" y="94" width="16" height="16" rx="4"/>
-    <rect id="room-735874f6e1fb4fb43a86253d71d1ddb711e89c97" class="room indoor" data-label="sewer" x="607" y="115" width="16" height="16" rx="4"/>
-    <rect id="room-5e897139520f3a8261242984e2d2e2c1ef935008" class="room indoor" data-label="sewer" x="628" y="136" width="16" height="16" rx="4"/>
-    <rect id="room-e157582666c2e8aad9867f910951ce7e5f696ad9" class="room indoor" data-label="sewer" x="649" y="136" width="16" height="16" rx="4"/>
-    <rect id="room-fd3f8d6a448a06a6f3e67f4f3e85712557397317" class="room indoor" data-label="sewer" x="649" y="115" width="16" height="16" rx="4"/>
-    <rect id="room-91dbaf83c15746a560da3c41bf07241ead793a61" class="room indoor" data-label="sewer" x="649" y="94" width="16" height="16" rx="4"/>
-    <rect id="room-8f46b926798e887657a4b9f28e19a1e6f121d05f" class="room indoor" data-label="sewer" x="628" y="157" width="16" height="16" rx="4"/>
-    <rect id="room-7e12bbf924813b81ac7e948fe2efe2ada7f18783" class="room indoor" data-label="sewer" x="607" y="178" width="16" height="16" rx="4"/>
-    <rect id="room-5191b557502a08a28632bda910b80ba68d21e48b" class="room indoor" data-label="sewer" x="607" y="199" width="16" height="16" rx="4"/>
-    <rect id="room-470d494a82aa3b1abe90afce3ecb65d7e7545783" class="room indoor" data-label="sewer" x="607" y="220" width="16" height="16" rx="4"/>
-    <rect id="room-a2548aa53d0bf6314a896d7fcc129d3f70830725" class="room indoor" data-label="sewer" x="586" y="241" width="16" height="16" rx="4"/>
-    <rect id="room-3cf2f44d1a1238db32d2238b40bcf32dfc5c2b9e" class="room indoor" data-label="sewer" x="628" y="283" width="16" height="16" rx="4"/>
-    <rect id="room-04a8d8a2c66b59ffb56165ae549bf7cf59cd0737" class="room indoor" data-label="sewer" x="628" y="304" width="16" height="16" rx="4"/>
-    <rect id="room-b5f943d816f1b5055e639701c549417230dda9d1" class="room indoor" data-label="sewer" x="649" y="304" width="16" height="16" rx="4"/>
-    <rect id="room-3202e8fa405c0f736e1ed92c21548c757b1410cd" class="room indoor" data-label="sewer" x="670" y="304" width="16" height="16" rx="4"/>
-    <rect id="room-070a5a94db29f313156d6cdfecd3c8deee4bf169" class="room indoor" data-label="sewer" x="691" y="325" width="16" height="16" rx="4"/>
-    <rect id="room-2cf69910b021296f994b62e85943cd62f1179d94" class="room indoor" data-label="sewer" x="712" y="325" width="16" height="16" rx="4"/>
-    <rect id="room-0f0e987d06977b59efb93598c37fe147cb9e2c18" class="room indoor" data-label="sewer" x="712" y="304" width="16" height="16" rx="4"/>
-    <rect id="room-db4eac54bbbfe505d523ea6b72bcd9a41ce6fda0" class="room indoor" data-label="sewer" x="712" y="283" width="16" height="16" rx="4"/>
-    <rect id="room-49e904447454770c323b57ced59aafa9454df3c1" class="room indoor" data-label="sewer" x="670" y="346" width="16" height="16" rx="4"/>
-    <rect id="room-adafacdfe4b657581817b2c5c36b319380ed4955" class="room indoor" data-label="sewer" x="649" y="325" width="16" height="16" rx="4"/>
-    <rect id="room-e51595ccf306157ba28335637fcfee4f39427b98" class="room indoor" data-label="sewer" x="670" y="367" width="16" height="16" rx="4"/>
-    <rect id="room-1ec5997c42fe29ccdebf190f949b8e1e3e8c1bf2" class="room indoor" data-label="sewer" x="691" y="409" width="16" height="16" rx="4"/>
-    <rect id="room-65f2d87f985a44e651e6c401104c58f4aa867990" class="room indoor" data-label="sewer" x="712" y="409" width="16" height="16" rx="4"/>
-    <rect id="room-f525fcb607681b2971d4bc01fa6630617b588abb" class="room indoor" data-label="sewer" x="712" y="430" width="16" height="16" rx="4"/>
-    <rect id="room-efeda556c2f348d53d55f2badbd50f5eeacc1856" class="room indoor" data-label="sewer" x="712" y="451" width="16" height="16" rx="4"/>
-    <rect id="room-eaaee6e38d7f2477c8aef6c980ebc1525d33f244" class="room indoor" data-label="sewer" x="712" y="472" width="16" height="16" rx="4"/>
-    <rect id="room-401ae0928ffb43d32a438f238c3c3bc3354fc105" class="room indoor" data-label="sewer" x="733" y="472" width="16" height="16" rx="4"/>
-    <rect id="room-0e57b280516b5d2b5cd8573d6a4ed19cee3888a4" class="room indoor" data-label="sewer" x="754" y="472" width="16" height="16" rx="4"/>
-    <rect id="room-d5647370a3b5865b90621a8549bf0d7fa64713fc" class="room indoor" data-label="sewer" x="775" y="493" width="16" height="16" rx="4"/>
-    <rect id="room-108db3168b9ca397de507c27947c5f26da9fcee1" class="room indoor" data-label="sewer" x="754" y="514" width="16" height="16" rx="4"/>
-    <rect id="room-6dc8d30edf835523d43977022e6b104856dcc60a" class="room indoor" data-label="sewer" x="775" y="535" width="16" height="16" rx="4"/>
-    <rect id="room-c9fb2499ce4de1ccf2a7bc2e5cb1ec70034128db" class="room indoor" data-label="sewer" x="775" y="556" width="16" height="16" rx="4"/>
-    <rect id="room-c30628f181946314fc015fdc36d40d7226bde814" class="room indoor" data-label="sewer" x="754" y="556" width="16" height="16" rx="4"/>
-    <rect id="room-d9bd641743d0f16faf7f46ddcd2565ff3aac6f4b" class="room indoor" data-label="sewer" x="733" y="556" width="16" height="16" rx="4"/>
-    <rect id="room-324a2f1936df21b18addf1ee7c6828f0ef75489f" class="room indoor" data-label="sewer" x="733" y="577" width="16" height="16" rx="4"/>
-    <rect id="room-df5978c6ff3b30136f7cbc1f6393e04ad6ea088a" class="room indoor" data-label="sewer" x="712" y="577" width="16" height="16" rx="4"/>
-    <rect id="room-844309dbb10355f867130a0b69ac08c429b78c71" class="room indoor" data-label="sewer" x="670" y="577" width="16" height="16" rx="4"/>
-    <rect id="room-2d25bd50994d184649bb0c1cf5f058202f2eebd0" class="room indoor" data-label="sewer" x="649" y="598" width="16" height="16" rx="4"/>
-    <rect id="room-a0a10a903cb44d1471add9621bb42aa5f588e5ea" class="room indoor" data-label="sewer" x="670" y="556" width="16" height="16" rx="4"/>
-    <rect id="room-8cafe71d1a15d15a23f06332897bae27b65d6880" class="room indoor" data-label="sewer" x="649" y="535" width="16" height="16" rx="4"/>
-    <rect id="room-1dcf236200a74814830815656ca32438dbf68cc1" class="room indoor" data-label="sewer" x="670" y="514" width="16" height="16" rx="4"/>
-    <rect id="room-d66a01da42df9e4c1a91a34c37361e4035c7f7df" class="room indoor" data-label="sewer" x="691" y="493" width="16" height="16" rx="4"/>
-    <rect id="room-70c60c045b1ae93ad66e873a2572f7c37625a015" class="room indoor" data-label="sewer" x="712" y="514" width="16" height="16" rx="4"/>
-    <rect id="room-c4d43242eb62f1b0a03f2e3486c4ec5f2270c130" class="room indoor" data-label="sewer" x="712" y="535" width="16" height="16" rx="4"/>
-    <rect id="room-d8b548598f1c1737aa48ff194eb371fec9760e01" class="room indoor" data-label="sewer" x="670" y="472" width="16" height="16" rx="4"/>
-    <rect id="room-c77b8a1b56fd61653f1b7fb07f4baaa237878248" class="room indoor" data-label="sewer" x="649" y="451" width="16" height="16" rx="4"/>
-    <rect id="room-826d7a1980c9c8079ef7d47ce43f7b3debe839d1" class="room indoor" data-label="sewer" x="628" y="430" width="16" height="16" rx="4"/>
-    <rect id="room-a848d32b13e1c7278c330e99335ca5a840f5f8c1" class="room indoor" data-label="sewer" x="628" y="409" width="16" height="16" rx="4"/>
-    <rect id="room-541c6ddd251789709aa3a5b64d54c3ab9824a4e0" class="room indoor" data-label="sewer" x="628" y="388" width="16" height="16" rx="4"/>
-    <rect id="room-02dab91ea088eef65f18598f0e35c428e39019ef" class="room indoor" data-label="sewer" x="649" y="388" width="16" height="16" rx="4"/>
-    <rect id="room-6361b1f222a7768a5004d320900635218b96bc2e" class="room indoor" data-label="sewer" x="670" y="409" width="16" height="16" rx="4"/>
-    <rect id="room-5ad56ec6161d43e20c5634accfee100907307df6" class="room indoor" data-label="sewer" x="607" y="367" width="16" height="16" rx="4"/>
-    <rect id="room-d8e65eb43d1229377df897045a860622c71585c8" class="room indoor" data-label="sewer" x="628" y="346" width="16" height="16" rx="4"/>
-    <rect id="room-bce5e8d1c9b9ed6c509beec56d93479655e1660a" class="room indoor" data-label="sewer" x="586" y="346" width="16" height="16" rx="4"/>
-    <rect id="room-775cee369fa64cf6d82ab0d521749e32b764ce6c" class="room indoor" data-label="sewer" x="565" y="325" width="16" height="16" rx="4"/>
-    <rect id="room-29b23f45b4c5515210d71c2bd73e007751ad0c1a" class="room indoor" data-label="sewer" x="565" y="304" width="16" height="16" rx="4"/>
-    <rect id="room-c986df8276535a1037e9a8220eb3781565e40cd6" class="room indoor" data-label="sewer" x="544" y="325" width="16" height="16" rx="4"/>
-    <rect id="room-e2b611a3ca112ecfa59b1126ead616e8a202e9b4" class="room indoor" data-label="sewer" x="523" y="304" width="16" height="16" rx="4"/>
-    <rect id="room-a2c3262786f4c04d358caca77261798254289ef3" class="room indoor" data-label="sewer" x="523" y="283" width="16" height="16" rx="4"/>
-    <rect id="room-3f69a3e5ebec8ddf7577928b9dea90d40e173780" class="room indoor" data-label="sewer" x="523" y="262" width="16" height="16" rx="4"/>
-    <rect id="room-3bb1112bad9fb70b241c32f3535a816428ea6bb2" class="room indoor" data-label="sewer" x="544" y="241" width="16" height="16" rx="4"/>
-    <rect id="room-a6c4f4302a6b0e5e50ac4f718456ab7189edee05" class="room indoor" data-label="sewer" x="565" y="241" width="16" height="16" rx="4"/>
-    <rect id="room-bd4ad4b952ff90a4d05402b69ff36ebb5557830f" class="room indoor" data-label="sewer" x="565" y="220" width="16" height="16" rx="4"/>
-    <rect id="room-8a8c184eb8f2ce97d9cc1d04fd10f48649db9d58" class="room indoor" data-label="sewer" x="565" y="199" width="16" height="16" rx="4"/>
-    <rect id="room-cd653631ab74e5a4e7d802adb2537934d31aa09a" class="room indoor" data-label="sewer" x="544" y="199" width="16" height="16" rx="4"/>
-    <rect id="room-649c34926aa4a344fce34f98084ce19e088c7ce1" class="room indoor" data-label="sewer" x="523" y="220" width="16" height="16" rx="4"/>
-    <rect id="room-27b94da1e308b0f073bd4d047bb2d88c488a5f6f" class="room indoor" data-label="sewer" x="523" y="178" width="16" height="16" rx="4"/>
-    <rect id="room-84c5ab2d2761bbb9ea56ff2973f8773795a8c05c" class="room indoor" data-label="sewer" x="565" y="136" width="16" height="16" rx="4"/>
-    <rect id="room-8d71066eec00fcfe4dbfedb433c36d44a6c8c8d6" class="room indoor" data-label="sewer" x="586" y="157" width="16" height="16" rx="4"/>
-    <rect id="room-46a8ac850c3b149f83858f8b2d1b0857b99e55d0" class="room indoor" data-label="sewer" x="565" y="115" width="16" height="16" rx="4"/>
-    <rect id="room-563c7374da58a6171df21fc502435d805b153c14" class="room indoor" data-label="sewer" x="523" y="31" width="16" height="16" rx="4"/>
-    <rect id="room-8c6e641a53f8be7a98672e780f9778b089f1d4ab" class="room indoor" data-label="sewer" x="502" y="31" width="16" height="16" rx="4"/>
-    <rect id="room-8b81ab638f95d94d9aad4e9670f476de75c97d2c" class="room indoor" data-label="sewer" x="481" y="31" width="16" height="16" rx="4"/>
-    <rect id="room-d02c184d9b1aed463540a2617ddaedbb5de13715" class="room indoor" data-label="sewer" x="460" y="10" width="16" height="16" rx="4"/>
-    <rect id="room-9aaaf2471690cf8d8cc3683e8e364fd7082d8e53" class="room indoor" data-label="sewer" x="439" y="10" width="16" height="16" rx="4"/>
-    <rect id="room-ef729c9232384b7aafbc488167963a5f6dcbfa03" class="room indoor" data-label="sewer" x="418" y="10" width="16" height="16" rx="4"/>
-    <rect id="room-b8235bd1665d0332fa66069db3c561dac10fec39" class="room indoor" data-label="sewer" x="397" y="31" width="16" height="16" rx="4"/>
-    <rect id="room-ce7022bc37218ca75b2b3bdc98887c4550ad0231" class="room indoor" data-label="sewer" x="376" y="31" width="16" height="16" rx="4"/>
-    <rect id="room-083dc6a0ef956faf260157edbd11558f8d1d6d2f" class="room indoor" data-label="sewer" x="334" y="10" width="16" height="16" rx="4"/>
-    <rect id="room-9e3ccfbc63634bdec2031f742804cb765634bece" class="room indoor" data-label="sewer" x="313" y="31" width="16" height="16" rx="4"/>
-    <rect id="room-128130839eaf59bf25dffe9edf3c001f061db2da" class="room indoor" data-label="sewer" x="313" y="52" width="16" height="16" rx="4"/>
-    <rect id="room-5701d56cb1dde69a932978c2625f1363c8ba29c4" class="room indoor" data-label="sewer" x="292" y="73" width="16" height="16" rx="4"/>
-    <rect id="room-0b616034e63a2ec86657d0e6405604df4d4179a4" class="room indoor" data-label="sewer" x="292" y="94" width="16" height="16" rx="4"/>
-    <rect id="room-013c981b861a196dc680aae32c49840c113db673" class="room indoor" data-label="sewer" x="334" y="94" width="16" height="16" rx="4"/>
-    <rect id="room-89d1ffd0f64ce558c479c6544ba19ba77c62fd95" class="room indoor" data-label="sewer" x="355" y="94" width="16" height="16" rx="4"/>
-    <rect id="room-e16b7f55771be5d3c08c67889b4a6c80a8c059b9" class="room indoor" data-label="sewer" x="376" y="73" width="16" height="16" rx="4"/>
-    <rect id="room-4a6694292d9460fe95c79f1e4180f5c2dee1819c" class="room indoor" data-label="sewer" x="397" y="73" width="16" height="16" rx="4"/>
-    <rect id="room-242698e41126d9b30df15cd0476bbfa5cafa1bf3" class="room indoor" data-label="sewer" x="397" y="52" width="16" height="16" rx="4"/>
-    <rect id="room-93807e7c579664b25bae2be57a7072e7cc5842f5" class="room indoor" data-label="sewer" x="418" y="73" width="16" height="16" rx="4"/>
-    <rect id="room-fd048752d973e13121d79395e2dad04962ea392b" class="room indoor" data-label="sewer" x="418" y="94" width="16" height="16" rx="4"/>
-    <rect id="room-1c1ee6f41a5dc27e32a042499905e4c20e3ad2d9" class="room indoor" data-label="sewer" x="418" y="115" width="16" height="16" rx="4"/>
-    <rect id="room-96a4334a917c6548c64ed9d317a89b8ceae0695b" class="room indoor" data-label="sewer" x="439" y="115" width="16" height="16" rx="4"/>
-    <rect id="room-c5b071c4cf6b1deea6a4180731eab660f1a5b328" class="room indoor" data-label="sewer" x="460" y="115" width="16" height="16" rx="4"/>
-    <rect id="room-226c610ac0cbd586f87bfcc704da960f993a8193" class="room indoor" data-label="sewer" x="460" y="94" width="16" height="16" rx="4"/>
-    <rect id="room-354a67d2bed3688daf01477418921638617f20af" class="room indoor" data-label="sewer" x="481" y="73" width="16" height="16" rx="4"/>
-    <rect id="room-15e24d04ee39bafb24db77998f40e414c139e6ec" class="room indoor" data-label="sewer" x="460" y="52" width="16" height="16" rx="4"/>
-    <rect id="room-6a0f2d90750a2fea96eb64c6c286260916097bb5" class="room indoor" data-label="sewer" x="481" y="115" width="16" height="16" rx="4"/>
-    <rect id="room-fb7901c6bce68608a1aa93502093f1ad7f560b62" class="room indoor" data-label="sewer" x="502" y="115" width="16" height="16" rx="4"/>
-    <rect id="room-a5403c7d090074ba486389c43572fe0a9d317167" class="room indoor" data-label="sewer" x="523" y="94" width="16" height="16" rx="4"/>
-    <rect id="room-6549aab6a4a4aeda37bdff9ec3673fdd71bb17f4" class="room indoor" data-label="sewer" x="439" y="136" width="16" height="16" rx="4"/>
-    <rect id="room-8d97e53e2381ec227db085973cf6af40354b8834" class="room indoor" data-label="sewer" x="439" y="157" width="16" height="16" rx="4"/>
-    <rect id="room-9f08aa3178f49cb5358b948c4a37f9e2d51585b9" class="room indoor" data-label="sewer" x="460" y="157" width="16" height="16" rx="4"/>
-    <rect id="room-0120be58972a0d2654f842a284fae9faff8b1950" class="room indoor" data-label="sewer" x="460" y="178" width="16" height="16" rx="4"/>
-    <rect id="room-9321f5c3c1624c8963e8f7b1850c9602c77bece0" class="room indoor" data-label="sewer" x="439" y="199" width="16" height="16" rx="4"/>
-    <rect id="room-8c8e196ba62733b4e91d6976fca1e180c76c6d18" class="room indoor" data-label="sewer" x="418" y="178" width="16" height="16" rx="4"/>
-    <rect id="room-a24297621c93f5218d930c434ce4b0a01c11fa31" class="room indoor" data-label="sewer" x="397" y="178" width="16" height="16" rx="4"/>
-    <rect id="room-8c78f7896613dd35ee381ca2262531efb15fac70" class="room indoor" data-label="sewer" x="376" y="178" width="16" height="16" rx="4"/>
-    <rect id="room-26236eeda056fc7395cbab545b86d9c29d760dc1" class="room indoor" data-label="sewer" x="376" y="157" width="16" height="16" rx="4"/>
-    <rect id="room-31d459b8c58c239379a73b6f586e4debd582b2bc" class="room indoor" data-label="sewer" x="376" y="136" width="16" height="16" rx="4"/>
-    <rect id="room-dca8d37301dc94d2d8f436c6bd60193a52167545" class="room indoor" data-label="sewer" x="397" y="136" width="16" height="16" rx="4"/>
-    <rect id="room-793856d0ebc865c84b9910ddc7343a2cc650979e" class="room indoor" data-label="sewer" x="397" y="115" width="16" height="16" rx="4"/>
-    <rect id="room-1cfb65e5c00eb8e607a2a1f8ae1846bdbb5268b5" class="room indoor" data-label="sewer" x="355" y="136" width="16" height="16" rx="4"/>
-    <rect id="room-0bc04c5633dc86378165d3df1baee85223a89361" class="room indoor" data-label="sewer" x="334" y="136" width="16" height="16" rx="4"/>
-    <rect id="room-2b6b58743a0df4c333f87304b8f51629257f57b7" class="room indoor" data-label="sewer" x="334" y="115" width="16" height="16" rx="4"/>
-    <rect id="room-5dec37b6d2fc23018c78628bdf69d8d6f3da134f" class="room indoor" data-label="sewer" x="334" y="157" width="16" height="16" rx="4"/>
-    <rect id="room-e0294c269f1b367d4a1ca12bae1d4bcbd9bc952f" class="room indoor" data-label="sewer" x="334" y="178" width="16" height="16" rx="4"/>
-    <rect id="room-0b7f027e54f6590e6a749aadf1042b08cbdb7a72" class="room indoor" data-label="sewer" x="355" y="178" width="16" height="16" rx="4"/>
-    <rect id="room-14befe9c56315d378d4b8251f6735e47e6c39fcc" class="room indoor" data-label="sewer" x="313" y="199" width="16" height="16" rx="4"/>
-    <rect id="room-eea369b4c3254b723ff14b75b10ca283cbf3884c" class="room indoor" data-label="sewer" x="292" y="220" width="16" height="16" rx="4"/>
-    <rect id="room-c55b348b87b451e3244496d2ccc9b0e4388c9d62" class="room indoor" data-label="sewer" x="271" y="199" width="16" height="16" rx="4"/>
-    <rect id="room-326624be7a586aa380667ed9c2278961de6db88f" class="room indoor" data-label="sewer" x="271" y="178" width="16" height="16" rx="4"/>
-    <rect id="room-89a0bd1bd88841c1b30d357922dd083324a93bc9" class="room indoor" data-label="sewer" x="271" y="157" width="16" height="16" rx="4"/>
-    <rect id="room-3044d53f18d2fcc5cce7bf03cd355385699b6929" class="room indoor" data-label="sewer" x="271" y="136" width="16" height="16" rx="4"/>
-    <rect id="room-7e1ab2a693a4557adce63e1f503a08cda9254d65" class="room indoor" data-label="sewer" x="292" y="115" width="16" height="16" rx="4"/>
-    <rect id="room-d27f42bdf5f237b0015666fc6389b82be6d35450" class="room indoor" data-label="sewer" x="250" y="73" width="16" height="16" rx="4"/>
-    <rect id="room-8f1b100f225ee73bf5378befdeafb794d457bd16" class="room indoor" data-label="sewer" x="229" y="73" width="16" height="16" rx="4"/>
-    <rect id="room-106aae7371c2001d7a0448b41371e227c62fe0ce" class="room indoor" data-label="sewer" x="208" y="94" width="16" height="16" rx="4"/>
-    <rect id="room-85544d94d94382a86530fcf7073c20d7e6a38124" class="room indoor" data-label="sewer" x="187" y="115" width="16" height="16" rx="4"/>
-    <rect id="room-fc7d9a19fe9b1fd26df814deab67566a9091de2a" class="room indoor" data-label="sewer" x="187" y="136" width="16" height="16" rx="4"/>
-    <rect id="room-7974bc5340f080570e4ee9521d99d5322d8b3736" class="room indoor" data-label="sewer" x="208" y="157" width="16" height="16" rx="4"/>
-    <rect id="room-d5d0c23f2915e0a54c813f034a70d4cc0c74a7da" class="room indoor" data-label="sewer" x="229" y="136" width="16" height="16" rx="4"/>
-    <rect id="room-204b881935c069cd6d72d6e31b226dfb4b0a717c" class="room indoor" data-label="sewer" x="250" y="136" width="16" height="16" rx="4"/>
-    <rect id="room-0e0b417537c8f3a411ea78447373db1622a17447" class="room indoor" data-label="sewer" x="208" y="199" width="16" height="16" rx="4"/>
-    <rect id="room-2c62c493f130929bd551cc4b82177b5fd30d098f" class="room indoor" data-label="sewer" x="187" y="220" width="16" height="16" rx="4"/>
-    <rect id="room-5aa6c8cccdac5df3d2c62a762861a3e9a56c6e7b" class="room indoor" data-label="sewer" x="166" y="199" width="16" height="16" rx="4"/>
-    <rect id="room-48773c08f442944869f6337e6fed3069b1f8e842" class="room indoor" data-label="sewer" x="145" y="178" width="16" height="16" rx="4"/>
-    <rect id="room-3347fa63bb69a90c0a73d1f4a4c5db5488579aea" class="room indoor" data-label="sewer" x="145" y="157" width="16" height="16" rx="4"/>
-    <rect id="room-828e913e537ddaab420ea277079b9d12b33a5c6e" class="room indoor" data-label="sewer" x="166" y="157" width="16" height="16" rx="4"/>
-    <rect id="room-ade7c71c608e1d4242b26fcd786c501ad7743ef8" class="room indoor" data-label="sewer" x="124" y="199" width="16" height="16" rx="4"/>
-    <rect id="room-e58af3d512d099b8e6223637862eccce8dc3eadd" class="room indoor" data-label="sewer" x="124" y="220" width="16" height="16" rx="4"/>
-    <rect id="room-b12ffbbd3e3250073e9f7e91584db5f9d971edd9" class="room indoor" data-label="sewer" x="124" y="241" width="16" height="16" rx="4"/>
-    <rect id="room-d555ba3a8247e79bc29f46c0d8124d542e944226" class="room indoor" data-label="sewer" x="124" y="262" width="16" height="16" rx="4"/>
-    <rect id="room-f1c5fb219e988e4fb66d56ee94f04a2723d74b15" class="room indoor" data-label="sewer" x="124" y="283" width="16" height="16" rx="4"/>
-    <rect id="room-b3ab98e926fda816895fe593ef3bd4067c6e8cfc" class="room indoor" data-label="sewer" x="103" y="304" width="16" height="16" rx="4"/>
-    <rect id="room-71e826776f6a05f2159dc230c7982786c96f01c6" class="room indoor" data-label="sewer" x="124" y="325" width="16" height="16" rx="4"/>
-    <rect id="room-b6b3d9e2825fe1c14b05c0bf6dd03a083223a62e" class="room indoor" data-label="sewer" x="145" y="325" width="16" height="16" rx="4"/>
-    <rect id="room-90095bc7fb41f5cad233cb715499c85455c8fa38" class="room indoor" data-label="sewer" x="124" y="346" width="16" height="16" rx="4"/>
-    <rect id="room-3523ebefb8bca668dec256afe2bae31a6815a1c5" class="room indoor" data-label="sewer" x="124" y="367" width="16" height="16" rx="4"/>
-    <rect id="room-f2c908fc480c867321cc55e09eed316e57895f66" class="room indoor" data-label="sewer" x="145" y="367" width="16" height="16" rx="4"/>
-    <rect id="room-8861a63486dded3f87129b13944ce2cb795a6513" class="room indoor" data-label="sewer" x="145" y="388" width="16" height="16" rx="4"/>
-    <rect id="room-311ea2eaf0030d92322c90c39c832a8ea4ae3e1a" class="room indoor" data-label="sewer" x="124" y="409" width="16" height="16" rx="4"/>
-    <rect id="room-ea96bad2c059d9b13d38a680f3cb724e340efcfc" class="room indoor" data-label="sewer" x="103" y="409" width="16" height="16" rx="4"/>
-    <rect id="room-0790871e89771219b6b48523c5b51fef8590218b" class="room indoor" data-label="sewer" x="103" y="430" width="16" height="16" rx="4"/>
-    <rect id="room-3a41a1f03e7a5ef18d71bde5379a0195f3771b5b" class="room indoor" data-label="sewer" x="103" y="451" width="16" height="16" rx="4"/>
-    <rect id="room-e8719bcd50aa2494034c397b417d2159e3bc8443" class="room indoor" data-label="sewer" x="124" y="451" width="16" height="16" rx="4"/>
-    <rect id="room-6eea1c53658c7d4937fe0eae689b50c03233531c" class="room indoor" data-label="sewer" x="145" y="451" width="16" height="16" rx="4"/>
-    <rect id="room-408a6f24337bfd99c57fbd57f8654261f5d448df" class="room indoor" data-label="sewer" x="145" y="472" width="16" height="16" rx="4"/>
-    <rect id="room-94cedb4a5f8e13b5a3d0f82dd0e01fba0156aa14" class="room indoor" data-label="sewer" x="145" y="493" width="16" height="16" rx="4"/>
-    <rect id="room-fe7048cad5b4f71343996479a6fdf573c7c88451" class="room indoor" data-label="sewer" x="166" y="514" width="16" height="16" rx="4"/>
-    <rect id="room-f99974c188d3d5bc93007ae375b218be7f9347af" class="room indoor" data-label="sewer" x="166" y="535" width="16" height="16" rx="4"/>
-    <rect id="room-96a27671ea05678e86f40e8a4de4a4321d1d4470" class="room indoor" data-label="sewer" x="187" y="556" width="16" height="16" rx="4"/>
-    <rect id="room-dddf7f25c76bb8095ee2ba569928f527577f6f05" class="room indoor" data-label="sewer" x="208" y="577" width="16" height="16" rx="4"/>
-    <rect id="room-6efcc4d5b114994bc94abff774b1f2b1adb09184" class="room indoor" data-label="sewer" x="229" y="577" width="16" height="16" rx="4"/>
-    <rect id="room-9a811c435dc58f2b822667fd79e730856b9a6d11" class="room indoor" data-label="sewer" x="250" y="598" width="16" height="16" rx="4"/>
-    <rect id="room-77e3507c7bcf854f0b7d74084d3a4ed6f2d38ddd" class="room indoor" data-label="sewer" x="229" y="619" width="16" height="16" rx="4"/>
-    <rect id="room-63c2308b678d157d970cf16e78651d1101831c64" class="room indoor" data-label="sewer" x="208" y="619" width="16" height="16" rx="4"/>
-    <rect id="room-78d3dc4a5e867d386717357aac92ae6cdc144f67" class="room indoor" data-label="sewer" x="187" y="493" width="16" height="16" rx="4"/>
-    <rect id="room-51cdd99f70a552ad80193e0c91208020cb519001" class="room indoor" data-label="sewer" x="208" y="472" width="16" height="16" rx="4"/>
-    <rect id="room-8b0e4b90b905af04e86ea0a06ea410d2962ef855" class="room indoor" data-label="sewer" x="229" y="472" width="16" height="16" rx="4"/>
-    <rect id="room-beb45d389cf2bfc1454accd08df0a02fd62a9f3e" class="room indoor" data-label="sewer" x="250" y="472" width="16" height="16" rx="4"/>
-    <rect id="room-992d64e3580a6fbab44409eafdb80543c07942dc" class="room indoor" data-label="sewer" x="250" y="493" width="16" height="16" rx="4"/>
-    <rect id="room-0b3a006c7d454dde3190fe55e7f921de79b308d8" class="room indoor" data-label="sewer" x="229" y="514" width="16" height="16" rx="4"/>
-    <rect id="room-4b785953cb5693b127ccd10eccb7b09454d59e0a" class="room indoor" data-label="sewer" x="229" y="535" width="16" height="16" rx="4"/>
-    <rect id="room-4f0b881076470856810cf6b7d1110f28f4e4332a" class="room indoor" data-label="sewer" x="250" y="556" width="16" height="16" rx="4"/>
-    <rect id="room-f139b49aeca296c7309fb159979f832381fe583c" class="room indoor" data-label="sewer" x="271" y="556" width="16" height="16" rx="4"/>
-    <rect id="room-a910487cb52fd86e9412f8a4622bbe176a1dd573" class="room indoor" data-label="sewer" x="313" y="577" width="16" height="16" rx="4"/>
-    <rect id="room-95118337986ac0cb45928ff7d47c1af6423cd1ac" class="room indoor" data-label="sewer" x="271" y="619" width="16" height="16" rx="4"/>
-    <rect id="room-a3d62ac11c10070b0106d1059ea7a9c3201077e4" class="room indoor" data-label="sewer" x="292" y="619" width="16" height="16" rx="4"/>
-    <rect id="room-e6bc195ad5ab7cae082b2a9e5ae4f9c798dbd38e" class="room indoor" data-label="sewer" x="313" y="640" width="16" height="16" rx="4"/>
-    <rect id="room-c08278ee2ff61e82f9d92d0dc2dc633d4ad4dd2b" class="room indoor" data-label="sewer" x="313" y="661" width="16" height="16" rx="4"/>
-    <rect id="room-545377bb0ea57b0541d53045f6f41256aff61ddb" class="room indoor" data-label="sewer" x="334" y="682" width="16" height="16" rx="4"/>
-    <rect id="room-323a08c70400eba81c41dd3232762e13ba21271d" class="room indoor" data-label="sewer" x="355" y="682" width="16" height="16" rx="4"/>
-    <rect id="room-4828999e9043ff70aa5ce35ef22e9ae0d6da0e6e" class="room indoor" data-label="sewer" x="376" y="661" width="16" height="16" rx="4"/>
-    <rect id="room-6cad48c34862ee48e89bcb3280cf39d2bdc376df" class="room indoor" data-label="sewer" x="397" y="661" width="16" height="16" rx="4"/>
-    <rect id="room-c4d8149f94111a8bc8e128ac2fb6219d73e6784d" class="room indoor" data-label="sewer" x="418" y="682" width="16" height="16" rx="4"/>
-    <rect id="room-ea5c0259291c7b355f088a9d2d1efdae06ae2908" class="room indoor" data-label="sewer" x="439" y="682" width="16" height="16" rx="4"/>
-    <rect id="room-dc286484830b7d815a8d799efa87819795be6f14" class="room indoor" data-label="sewer" x="460" y="661" width="16" height="16" rx="4"/>
-    <rect id="room-c4292f1e2f2e035f00c995d0a7ee15692c4654f3" class="room indoor" data-label="sewer" x="460" y="640" width="16" height="16" rx="4"/>
-    <rect id="room-41461bc6c717b8487e2563467638c5e268bfff4c" class="room indoor" data-label="sewer" x="439" y="640" width="16" height="16" rx="4"/>
-    <rect id="room-0167c56507eb6016bc965065718cfc59a5496d47" class="room indoor" data-label="sewer" x="418" y="640" width="16" height="16" rx="4"/>
-    <rect id="room-23edef0c8baa3c83adf6f8ba76f934167f6caf1e" class="room indoor" data-label="sewer" x="397" y="619" width="16" height="16" rx="4"/>
-    <rect id="room-da9698c3b8d9682ab24cf7aaa1f1afef41c35bee" class="room indoor" data-label="sewer" x="397" y="598" width="16" height="16" rx="4"/>
-    <rect id="room-941392c8c87b2e484281bf27cfa4ba17bceb16d0" class="room indoor" data-label="sewer" x="376" y="598" width="16" height="16" rx="4"/>
-    <rect id="room-dae20c8cc12d790264171ba7111274e73d6242ae" class="room indoor" data-label="sewer" x="355" y="598" width="16" height="16" rx="4"/>
-    <rect id="room-d5b9302b37604328fb05a2a0ea2b23bbeec5bac5" class="room indoor" data-label="sewer" x="334" y="619" width="16" height="16" rx="4"/>
-    <rect id="room-f6dbc364bf70733b07fcee1537962370d1b16a1f" class="room indoor" data-label="sewer" x="334" y="640" width="16" height="16" rx="4"/>
-    <rect id="room-9ae786a422a09e1ec60ca77b00277b345daf2657" class="room indoor" data-label="sewer" x="439" y="619" width="16" height="16" rx="4"/>
-    <rect id="room-361626fb1fbd6693e9493663f191d6a6459ee8de" class="room indoor" data-label="sewer" x="439" y="598" width="16" height="16" rx="4"/>
-    <rect id="room-1c7310de76bdf6998ba636a8086d26604cca5c4e" class="room indoor" data-label="sewer" x="439" y="577" width="16" height="16" rx="4"/>
-    <rect id="room-b884e5b1d3a75c3baf0af1b568bac2ceb0469580" class="room indoor" data-label="sewer" x="418" y="556" width="16" height="16" rx="4"/>
-    <rect id="room-da6beecf8a6696403f79cd55844fecab0f97c43b" class="room indoor" data-label="sewer" x="397" y="535" width="16" height="16" rx="4"/>
-    <rect id="room-ccd2d864320827e3e11d555bf1d7dd98a53de785" class="room indoor" data-label="sewer" x="397" y="514" width="16" height="16" rx="4"/>
-    <rect id="room-36caaa3fddb397bbe7678ea027cd8fc5f709d76a" class="room indoor" data-label="sewer" x="397" y="493" width="16" height="16" rx="4"/>
-    <rect id="room-aecdcdac8b1fc7132a02227ceaea08d5cdf746e2" class="room indoor" data-label="sewer" x="397" y="472" width="16" height="16" rx="4"/>
-    <rect id="room-02fbd8eb1c5a23584db8a2f665b28af21ed4bb72" class="room indoor" data-label="sewer" x="376" y="451" width="16" height="16" rx="4"/>
-    <rect id="room-0cd09032eaae99d258b612e35518987408d1d742" class="room indoor" data-label="sewer" x="376" y="430" width="16" height="16" rx="4"/>
-    <rect id="room-5570489686653e971f0e351413945c13877d837e" class="room indoor" data-label="sewer" x="355" y="409" width="16" height="16" rx="4"/>
-    <rect id="room-3187110326197fcfc25439e11b1a46352b379b88" class="room indoor" data-label="sewer" x="334" y="388" width="16" height="16" rx="4"/>
-    <rect id="room-8e5aa8b58aa38445641b527bbc0182bd98d48b69" class="room indoor" data-label="sewer" x="313" y="409" width="16" height="16" rx="4"/>
-    <rect id="room-9a828544179954c0b7efcf4401039f22ea9189c2" class="room indoor" data-label="sewer" x="292" y="388" width="16" height="16" rx="4"/>
-    <rect id="room-c4f9703f0ce4e9e6d3d764c7447a55ccf33cc3eb" class="room indoor" data-label="sewer" x="313" y="367" width="16" height="16" rx="4"/>
-    <rect id="room-25feda6e213540089d84f183689ed1e9f11b644c" class="room indoor" data-label="sewer" x="250" y="388" width="16" height="16" rx="4"/>
-    <rect id="room-a3a45ca2924acf6cbd3902420ede762da6c9e83f" class="room indoor" data-label="sewer" x="271" y="409" width="16" height="16" rx="4"/>
-    <rect id="room-15f9dfb123ceb4f46c5c8f72c09019c531e2a53e" class="room indoor" data-label="sewer" x="271" y="430" width="16" height="16" rx="4"/>
-    <rect id="room-76591f208f01d2498c55db4b0ecda7901d408d2d" class="room indoor" data-label="sewer" x="292" y="451" width="16" height="16" rx="4"/>
-    <rect id="room-22f097493cdb43f882efce361f11dc470c33f642" class="room indoor" data-label="sewer" x="292" y="472" width="16" height="16" rx="4"/>
-    <rect id="room-dd5d93d81cd517266f3f57bd985b360b196c2940" class="room indoor" data-label="sewer" x="313" y="472" width="16" height="16" rx="4"/>
-    <rect id="room-f4562b5eda04574c5ce238dbde81935b7dec67a9" class="room indoor" data-label="sewer" x="271" y="472" width="16" height="16" rx="4"/>
-    <rect id="room-3b65116c8e301d2262f93d9b090f73a2c7819e98" class="room indoor" data-label="sewer" x="229" y="451" width="16" height="16" rx="4"/>
-    <rect id="room-22dc4c64614ec763b18ffe06bd87b363e26b7354" class="room indoor" data-label="sewer" x="229" y="430" width="16" height="16" rx="4"/>
-    <rect id="room-9053effb2adfc65723a4d638d99b191a6990c654" class="room indoor" data-label="sewer" x="229" y="409" width="16" height="16" rx="4"/>
-    <rect id="room-800d3f389d5e451f08d4e4c7b46b1ec9534d6e2b" class="room indoor" data-label="sewer" x="208" y="409" width="16" height="16" rx="4"/>
-    <rect id="room-37bd2c4c328658abc3becf4466cd8702d7cae22f" class="room indoor" data-label="sewer" x="187" y="388" width="16" height="16" rx="4"/>
-    <rect id="room-f4625a75ae76f1bc2692bba1d231a2288613af9b" class="room indoor" data-label="sewer" x="166" y="388" width="16" height="16" rx="4"/>
-    <rect id="room-082c8046f5dc08cc6af1e9cd29626992f3270b7a" class="room indoor" data-label="sewer" x="166" y="409" width="16" height="16" rx="4"/>
-    <rect id="room-c10e01fe4b460c9d9c5eccb5f354b116eb4cda67" class="room indoor" data-label="sewer" x="166" y="430" width="16" height="16" rx="4"/>
-    <rect id="room-140e9226649724a302e1d9a4f7c2bbb3997993c2" class="room indoor" data-label="sewer" x="208" y="367" width="16" height="16" rx="4"/>
-    <rect id="room-fc3e7f88232f42807dc40a163b69db16a1d03e67" class="room indoor" data-label="sewer" x="208" y="346" width="16" height="16" rx="4"/>
-    <rect id="room-ff3f734eac93bfdf682680c2fb7850f2f7183df9" class="room indoor" data-label="sewer" x="208" y="325" width="16" height="16" rx="4"/>
-    <rect id="room-4915a15cf69f0374651e9f2d0ef7aa754d6721e7" class="room indoor" data-label="sewer" x="229" y="346" width="16" height="16" rx="4"/>
-    <rect id="room-2f436669c4332fa8e5cb95f5c4920517ebef5b3b" class="room indoor" data-label="sewer" x="250" y="346" width="16" height="16" rx="4"/>
-    <rect id="room-9f9b28f9b1dbda671487576788d985599a7fcc2d" class="room indoor" data-label="sewer" x="271" y="346" width="16" height="16" rx="4"/>
-    <rect id="room-a6dfeb43268dd037b9ff68c1ce90b4e43abbb045" class="room indoor" data-label="sewer" x="250" y="325" width="16" height="16" rx="4"/>
-    <rect id="room-be6c039a89eb243d0dcf58ecd5c7a6887011086a" class="room indoor" data-label="sewer" x="229" y="304" width="16" height="16" rx="4"/>
-    <rect id="room-dba6f7c8487dcceecf663ea28bb7a866838b1c69" class="room indoor" data-label="sewer" x="229" y="283" width="16" height="16" rx="4"/>
-    <rect id="room-a143dd3de67843fc29acc322cd65816692942228" class="room indoor" data-label="sewer" x="208" y="262" width="16" height="16" rx="4"/>
-    <rect id="room-4b53f144a999aa2357e04a45a1a888686bbceff1" class="room indoor" data-label="sewer" x="187" y="241" width="16" height="16" rx="4"/>
-    <rect id="room-6322e6f9fed7697b533c8bd2bffc2695a3d6bd5f" class="room indoor" data-label="sewer" x="229" y="220" width="16" height="16" rx="4"/>
-    <rect id="room-577c9c2d1cd092d0094bdcb4efdbb5c29a31c549" class="room indoor" data-label="sewer" x="250" y="241" width="16" height="16" rx="4"/>
-    <rect id="room-759e024b5aa4d5951eef36b38a9fdbfd1220e65d" class="room indoor" data-label="sewer" x="250" y="262" width="16" height="16" rx="4"/>
-    <rect id="room-4ad01f4966a046d0fc9bffb8d45b51f4ed8b1a93" class="room indoor" data-label="sewer" x="271" y="262" width="16" height="16" rx="4"/>
-    <rect id="room-8c39aa3901ebb50fe945f5c9b75541d3473c4209" class="room indoor" data-label="sewer" x="292" y="241" width="16" height="16" rx="4"/>
-    <rect id="room-a7407b549044031ae621012c649bde8b9b505f3b" class="room indoor" data-label="sewer" x="313" y="262" width="16" height="16" rx="4"/>
-    <rect id="room-46d6b481a38f3d399af31c362e16ab330f2e7121" class="room indoor" data-label="sewer" x="334" y="283" width="16" height="16" rx="4"/>
-    <rect id="room-585be368ecaacb4fdf4cf414fd7a607ed76c39cc" class="room indoor" data-label="sewer" x="313" y="304" width="16" height="16" rx="4"/>
-    <rect id="room-1603d8b25e17ac782ae3d4c75daeb1d2bf82ea5d" class="room indoor" data-label="sewer" x="292" y="304" width="16" height="16" rx="4"/>
-    <rect id="room-727b398989f6ff891334088b5f33e5a1f7ca2db4" class="room indoor" data-label="sewer" x="271" y="304" width="16" height="16" rx="4"/>
-    <rect id="room-3c3cf3399417aaa41d3d128e48fce06ef8760d33" class="room indoor" data-label="sewer" x="313" y="325" width="16" height="16" rx="4"/>
-    <rect id="room-3b7e39f602c1374169b35daf0b4fa1e52f54d507" class="room indoor" data-label="sewer" x="313" y="346" width="16" height="16" rx="4"/>
-    <rect id="room-098096ae93d2b736de34f69a66747df4d2cb7bd1" class="room indoor" data-label="sewer" x="355" y="367" width="16" height="16" rx="4"/>
-    <rect id="room-94154c8f42ec1db067d023a6222537824ea3cdf0" class="room indoor" data-label="sewer" x="376" y="346" width="16" height="16" rx="4"/>
-    <rect id="room-68470b78fdccc4284c447344bbfd55baa9e73505" class="room indoor" data-label="sewer" x="355" y="325" width="16" height="16" rx="4"/>
-    <rect id="room-29abb48f11264696d67b0e7ed6d7dd5a5dd63ad2" class="room indoor" data-label="sewer" x="355" y="304" width="16" height="16" rx="4"/>
-    <rect id="room-6e8a0f11e9391425e29619c9fae8f8d09177e965" class="room indoor" data-label="sewer" x="397" y="367" width="16" height="16" rx="4"/>
-    <rect id="room-dbf96addcbfc058e91965fe0fdf8d59a50674947" class="room indoor" data-label="sewer" x="418" y="367" width="16" height="16" rx="4"/>
-    <rect id="room-a03f5fe73087e78240a0c483f430805c89f1eed1" class="room indoor" data-label="sewer" x="418" y="388" width="16" height="16" rx="4"/>
-    <rect id="room-53bda70b516887d61d64d4c2b62263256bea5274" class="room indoor" data-label="sewer" x="397" y="409" width="16" height="16" rx="4"/>
-    <rect id="room-21c28c077720ace4f73c7e6d332acc86aa48913f" class="room indoor" data-label="sewer" x="439" y="409" width="16" height="16" rx="4"/>
-    <rect id="room-eba926378b1130e3ac111734cbc479c70fb120c4" class="room indoor" data-label="sewer" x="439" y="430" width="16" height="16" rx="4"/>
-    <rect id="room-3efc4073bde9f2d17ac2302bbca2c567f9cab535" class="room indoor" data-label="sewer" x="439" y="451" width="16" height="16" rx="4"/>
-    <rect id="room-b20ebf74d401f203edd5707bfd13a71d12743d1a" class="room indoor" data-label="sewer" x="418" y="472" width="16" height="16" rx="4"/>
-    <rect id="room-354935178267b886cacf1e63dc61b6b87c7dfc86" class="room indoor" data-label="sewer" x="460" y="451" width="16" height="16" rx="4"/>
-    <rect id="room-cda0ae95ce2dfc460336ff4ebaefd53f343cab85" class="room indoor" data-label="sewer" x="481" y="451" width="16" height="16" rx="4"/>
-    <rect id="room-d6d2325f59cef7122f53662d6006086fcd667952" class="room indoor" data-label="sewer" x="502" y="472" width="16" height="16" rx="4"/>
-    <rect id="room-0466619fd7b785059a4e7d5533844bf25758f977" class="room indoor" data-label="sewer" x="481" y="493" width="16" height="16" rx="4"/>
-    <rect id="room-b39e6c6a9f42b7abe640eadda287675d12806152" class="room indoor" data-label="sewer" x="460" y="514" width="16" height="16" rx="4"/>
-    <rect id="room-74332e40b1a70883c019aed1b0ab87595db34f96" class="room indoor" data-label="sewer" x="481" y="430" width="16" height="16" rx="4"/>
-    <rect id="room-aa0e86892043413dc2884004e8804a124e84ced5" class="room indoor" data-label="sewer" x="502" y="430" width="16" height="16" rx="4"/>
-    <rect id="room-6cb912971c182ecd2b8bf48e4ed28a15ed9d86af" class="room indoor" data-label="sewer" x="502" y="409" width="16" height="16" rx="4"/>
-    <rect id="room-c3231a4217728f8a835c9c9dca8ecf3060d256dd" class="room indoor" data-label="sewer" x="481" y="388" width="16" height="16" rx="4"/>
-    <rect id="room-c181d0f215cb8c8d680015a475432c34e17f329c" class="room indoor" data-label="sewer" x="502" y="367" width="16" height="16" rx="4"/>
-    <rect id="room-46ad15bb44e9209a21d541d54eeac706183cc1b4" class="room indoor" data-label="sewer" x="523" y="367" width="16" height="16" rx="4"/>
-    <rect id="room-58af4c2f1e15c19b3ccf31876caac55cc2f2329c" class="room indoor" data-label="sewer" x="544" y="388" width="16" height="16" rx="4"/>
-    <rect id="room-777a08c9d7654a7791f39cf59c79858b66dae3e7" class="room indoor" data-label="sewer" x="544" y="409" width="16" height="16" rx="4"/>
-    <rect id="room-1217618e3e3df07eccecd75ecbb099e535ac14b0" class="room indoor" data-label="sewer" x="523" y="409" width="16" height="16" rx="4"/>
-    <rect id="room-e320d5b0bd2b8ea80550de9b7319e58a45cc1524" class="room indoor" data-label="sewer" x="502" y="346" width="16" height="16" rx="4"/>
-    <rect id="room-1fbf128322645b2ec06a8ada937cf86a9c54263a" class="room indoor" data-label="sewer" x="502" y="325" width="16" height="16" rx="4"/>
-    <rect id="room-fe2cb1ff57aa44847bb018b562f799b4bd158f2f" class="room indoor" data-label="sewer" x="481" y="304" width="16" height="16" rx="4"/>
-    <rect id="room-8f04ede6441d519fb749979432ea45a39be799c5" class="room indoor" data-label="sewer" x="502" y="283" width="16" height="16" rx="4"/>
-    <rect id="room-2176d4b542343e6882d9d7af4683ff81c30f3963" class="room indoor" data-label="sewer" x="481" y="262" width="16" height="16" rx="4"/>
-    <rect id="room-3a4c02ed97049bbc4f2182e4f4b1ca41ac575c74" class="room indoor" data-label="sewer" x="481" y="241" width="16" height="16" rx="4"/>
-    <rect id="room-c1367f1637792f1a5c130e455a6886e4f629ed62" class="room indoor" data-label="sewer" x="460" y="220" width="16" height="16" rx="4"/>
-    <rect id="room-878451f417bfa44d001b935e6de3c1616fef4d28" class="room indoor" data-label="sewer" x="460" y="262" width="16" height="16" rx="4"/>
-    <rect id="room-ed3b69305db9211c34e2463f8568f2780348ad6e" class="room indoor" data-label="sewer" x="439" y="283" width="16" height="16" rx="4"/>
-    <rect id="room-2ca7fe428056dc65f1369690dc8b10456ed59ef3" class="room indoor" data-label="sewer" x="418" y="262" width="16" height="16" rx="4"/>
-    <rect id="room-cb1b5a0d54162c41d78fea7c0573332c0e949e1a" class="room indoor" data-label="sewer" x="418" y="241" width="16" height="16" rx="4"/>
-    <rect id="room-4ed21e160f539ed06be849448171171fa38404de" class="room indoor" data-label="sewer" x="397" y="220" width="16" height="16" rx="4"/>
-    <rect id="room-02077bd654f2790d7a270ed0de0aca1c5dbe493e" class="room indoor" data-label="sewer" x="376" y="220" width="16" height="16" rx="4"/>
-    <rect id="room-9ef36c95ea53658219c2a67f78e4490dafbaf394" class="room indoor" data-label="sewer" x="376" y="199" width="16" height="16" rx="4"/>
-    <rect id="room-5f6f7500d66e0306675c02c87891faa00afac5bb" class="room indoor" data-label="sewer" x="355" y="241" width="16" height="16" rx="4"/>
-    <rect id="room-11823bb7ac8505323a6dd827b2a2036950e9654e" class="room indoor" data-label="sewer" x="376" y="262" width="16" height="16" rx="4"/>
-    <rect id="room-47dce51271800f8f89094b554d97eafc64f90504" class="room indoor" data-label="sewer" x="397" y="283" width="16" height="16" rx="4"/>
-    <rect id="room-ff3b62bd09594cd3239018b863d79e0d18fc2c8c" class="room indoor" data-label="sewer" x="397" y="325" width="16" height="16" rx="4"/>
-    <rect id="room-57b9a4f2505b8cf622d5e552fa14f8e4b56d90de" class="room indoor" data-label="sewer" x="439" y="346" width="16" height="16" rx="4"/>
-    <rect id="room-75e6f1f54179fe9d0a9b43169ac9bced4dcb5b3d" class="room indoor" data-label="sewer" x="460" y="325" width="16" height="16" rx="4"/>
-    <rect id="room-849548a0baf2296226b22064ec4b46914f87f0d2" class="room indoor" data-label="sewer" x="460" y="304" width="16" height="16" rx="4"/>
-    <rect id="room-1d81a1a495737be0182026c1b29c1da3783f7a86" class="room indoor" data-label="sewer" x="586" y="430" width="16" height="16" rx="4"/>
-    <rect id="room-99e8a71363f5f8a91222c563c0c486a09ff83aad" class="room indoor" data-label="sewer" x="607" y="451" width="16" height="16" rx="4"/>
-    <rect id="room-9930aad82f26b417e587156e33f31af6dee89132" class="room indoor" data-label="sewer" x="607" y="472" width="16" height="16" rx="4"/>
-    <rect id="room-cf65563b1dcf6b18f963d66eef40a5baed76608f" class="room indoor" data-label="sewer" x="586" y="493" width="16" height="16" rx="4"/>
-    <rect id="room-806926e2db9e886e2cf572f7686b7173cc031d88" class="room indoor" data-label="sewer" x="565" y="493" width="16" height="16" rx="4"/>
-    <rect id="room-12a3f93309562c5b9c2a10dba17c48aade330433" class="room indoor" data-label="sewer" x="565" y="472" width="16" height="16" rx="4"/>
-    <rect id="room-b2713d981c2c6d42d6c38f4e7bdbe03684c93aad" class="room indoor" data-label="sewer" x="565" y="451" width="16" height="16" rx="4"/>
-    <rect id="room-e328200930c60b3e0342342f069d5cfb330d3433" class="room indoor" data-label="sewer" x="544" y="493" width="16" height="16" rx="4"/>
-    <rect id="room-8fdc16da26bf3b3e364ca093c30d591d2c5b9214" class="room indoor" data-label="sewer" x="523" y="493" width="16" height="16" rx="4"/>
-    <rect id="room-38ca02dafb7e74b48b48ba4ebce9898ee117aba6" class="room indoor" data-label="sewer" x="523" y="514" width="16" height="16" rx="4"/>
-    <rect id="room-11b0912d5b1802913fb99b7ba0ecfee5df0e1695" class="room indoor" data-label="sewer" x="523" y="535" width="16" height="16" rx="4"/>
-    <rect id="room-96feb24bcb4b70e6b65eaf221868311f09825213" class="room indoor" data-label="sewer" x="502" y="556" width="16" height="16" rx="4"/>
-    <rect id="room-69ef6cb6df2c33522236f292a3ba1ab9a3595894" class="room indoor" data-label="sewer" x="544" y="535" width="16" height="16" rx="4"/>
-    <rect id="room-65256a917733bd474688fb98ef3ba4cd9e46930b" class="room indoor" data-label="sewer" x="565" y="556" width="16" height="16" rx="4"/>
-    <rect id="room-c5fabb1358587370a6294693623ee3a3dc42bd6b" class="room indoor" data-label="sewer" x="586" y="514" width="16" height="16" rx="4"/>
-    <rect id="room-a80dd24572e9b0cd91ba06033bd8c95372083cfd" class="room indoor" data-label="sewer" x="628" y="556" width="16" height="16" rx="4"/>
-    <rect id="room-a17e57a2a2f6d503fc4eeb351384c0c900d32e86" class="room indoor" data-label="sewer" x="607" y="535" width="16" height="16" rx="4"/>
-    <rect id="room-c67ee75c91efa89a885ad71a07d0aa05198b1c2e" class="room indoor" data-label="sewer" x="607" y="556" width="16" height="16" rx="4"/>
-    <rect id="room-42b26dbefaa16294824361d8a351f937d4d7023a" class="room indoor" data-label="sewer" x="586" y="577" width="16" height="16" rx="4"/>
-    <rect id="room-51ed1c22ebaa6637c35b99779232906577a0e4bb" class="room indoor" data-label="sewer" x="586" y="598" width="16" height="16" rx="4"/>
-    <rect id="room-8c4c8afa3f6de03a368bafd5007bdb0a31266015" class="room indoor" data-label="sewer" x="607" y="598" width="16" height="16" rx="4"/>
-    <rect id="room-5d088cedda9a579fdc6539f4d30339c72ef2a795" class="room indoor" data-label="sewer" x="628" y="598" width="16" height="16" rx="4"/>
-    <rect id="room-b3dd582cf3bd9761ff451ce51af5cca7ee5cb4c0" class="room indoor" data-label="sewer" x="565" y="619" width="16" height="16" rx="4"/>
-    <rect id="room-042e2f038aeede7588388b9c02515e1554a373c6" class="room indoor" data-label="sewer" x="607" y="619" width="16" height="16" rx="4"/>
-    <rect id="room-0e3262fb3a4ef58cd452c52dc89653e37e9d685c" class="room indoor" data-label="sewer" x="607" y="640" width="16" height="16" rx="4"/>
-    <rect id="room-8e9ef1a437a93da38c324a9ef5b2f9dc0e808c7e" class="room indoor" data-label="sewer" x="586" y="661" width="16" height="16" rx="4"/>
-    <rect id="room-db6f47ee44c39eca57fbaaeb47b19e8d263eb2b8" class="room indoor" data-label="sewer" x="565" y="661" width="16" height="16" rx="4"/>
-    <rect id="room-baa2ae64d57734b75121fe8109b50664ef33943f" class="room indoor" data-label="sewer" x="544" y="661" width="16" height="16" rx="4"/>
-    <rect id="room-065895b5b23b868bbbe1d9121902a6d58837af95" class="room indoor" data-label="sewer" x="523" y="682" width="16" height="16" rx="4"/>
-    <rect id="room-53967c1e97c1e4f0bd36e8f061d58ea608377ba1" class="room indoor" data-label="sewer" x="502" y="661" width="16" height="16" rx="4"/>
-    <rect id="room-7e029660049eab14f9a3b3d88f37f265dc761fec" class="room indoor" data-label="sewer" x="481" y="640" width="16" height="16" rx="4"/>
-    <rect id="room-1fa5ca4cb1f62117d35cd8599375e9abd45d196c" class="room indoor" data-label="sewer" x="481" y="619" width="16" height="16" rx="4"/>
-    <rect id="room-018cb70121f4ac7093927a6e37c6024334c206b6" class="room indoor" data-label="sewer" x="481" y="598" width="16" height="16" rx="4"/>
-    <rect id="room-9eedebef33a0027b380c3b0cf1e7756bdfae8a9d" class="room indoor" data-label="sewer" x="481" y="577" width="16" height="16" rx="4"/>
-    <rect id="room-e1973a3265b394eae81cc0b8f8050bdff81deddd" class="room indoor" data-label="sewer" x="502" y="598" width="16" height="16" rx="4"/>
-    <rect id="room-f95bf37a5adf7662814c95b06c5e30f94fd34bc0" class="room indoor" data-label="sewer" x="523" y="598" width="16" height="16" rx="4"/>
-    <rect id="room-76aa27b4486040ec2be2559a15f2de8908260e21" class="room indoor" data-label="sewer" x="544" y="619" width="16" height="16" rx="4"/>
-    <rect id="room-4d027a7f7ca5f1799ebaf3c9369768b06c7cfe0a" class="room indoor" data-label="sewer" x="544" y="577" width="16" height="16" rx="4"/>
-    <rect id="room-7fc65c4a519ed59c1d0a3d1270c733030bf54845" class="room indoor" data-label="sewer" x="355" y="577" width="16" height="16" rx="4"/>
-    <rect id="room-dcb84804e11b4c077e225d70eb528843fca38136" class="room indoor" data-label="sewer" x="334" y="577" width="16" height="16" rx="4"/>
-    <rect id="room-eb01332bf0f0eba27ae6359d2be0e88e36b4f393" class="room indoor" data-label="sewer" x="355" y="556" width="16" height="16" rx="4"/>
-    <rect id="room-712c21b23ead82c0976687231b2057de17f86b63" class="room indoor" data-label="sewer" x="334" y="535" width="16" height="16" rx="4"/>
-    <rect id="room-73b2d7bfa1a119dda1e73a86558e46d2110f21b1" class="room indoor" data-label="sewer" x="313" y="514" width="16" height="16" rx="4"/>
-    <rect id="room-ee057195ebabb2ea1c20a71b70a019a425ac085f" class="room indoor" data-label="sewer" x="313" y="493" width="16" height="16" rx="4"/>
-    <rect id="room-e50853e8d7fc5a792175dd9a878b03c9994c4a6a" class="room indoor" data-label="sewer" x="334" y="493" width="16" height="16" rx="4"/>
-    <rect id="room-0c63d95af8ec4dc179a558a74a4f22401f7cd16c" class="room indoor" data-label="sewer" x="145" y="283" width="16" height="16" rx="4"/>
-    <rect id="room-5ec0c2f09b6f6ea647dac157fe82e43944015e4a" class="room indoor" data-label="sewer" x="145" y="304" width="16" height="16" rx="4"/>
-    <rect id="room-19e6166d7304f2e7025805fa43a441f65ae2dff5" class="room indoor" data-label="sewer" x="502" y="136" width="16" height="16" rx="4"/>
-    <rect id="room-67292d7dc8f3b8e95585201cd7138aae446f69a6" class="room indoor" data-label="sewer" x="502" y="157" width="16" height="16" rx="4"/>
-    <rect id="room-0588bc7820b359b4184042cc7237e2de5e261dab" class="room indoor" data-label="inside of the shadowy hut" x="733" y="76" width="16" height="16" rx="4"/>
-    <rect id="room-8b0743e4004225f1807c6e423b6821ac043d777a" class="room indoor" data-label="entrance to a secret place" x="754" y="76" width="16" height="16" rx="4"/>
-    <rect id="room-440426c9813595a71217ec1ec6cc5ccedaa51a95" class="room indoor" data-label="dark shower stall" x="754" y="55" width="16" height="16" rx="4"/>
-    <rect id="room-5ccecf310d116964b585d8286b8b5e7f692fad40" class="room indoor" data-label="place to mingle" x="775" y="76" width="16" height="16" rx="4"/>
-    <rect id="room-42e7d7af6ffa43b1a0317d4d8f1cc8fcea1e7bab" class="room indoor" data-label="cramped shop" x="796" y="76" width="16" height="16" rx="4"/>
-    <rect id="room-d5a77a58764294bdae7a1bb86f57381f8ff4d776" class="room indoor" data-label="launder room" x="817" y="76" width="16" height="16" rx="4"/>
-    <rect id="room-14aacf58544594bf6231b5cd74f1dabb4e09786f" class="room indoor" data-label="main office of Genua Thieves Guild." x="775" y="97" width="16" height="16" rx="4"/>
-    <rect id="room-4fae7cccf50e2551579ea8e5d22d9153b4415792" class="room indoor" data-label="sewer" x="355" y="31" width="16" height="16" rx="4"/>
-    <rect id="room-92efe39a8cb9df88500bcf31baaa4ff90905ea59" class="room indoor" data-label="sewer" x="355" y="10" width="16" height="16" rx="4"/>
+    <rect id="room-1a1b3c2f5ec258cb33cae78105da14eadf3aed45" class="room indoor" data-label="sewer" x="191" y="602" width="8" height="8" rx="2"/>
+    <rect id="room-ed219dd5513085f350b1827d147cac6e801e09b0" class="room indoor" data-label="sewer" x="296" y="581" width="8" height="8" rx="2"/>
+    <rect id="room-77c10dabe8457f0e44066aead773a966e9bf3727" class="room indoor" data-label="sewer" x="359" y="476" width="8" height="8" rx="2"/>
+    <rect id="room-343eac2f1aeb59437c9fb2031f23c579d7131c72" class="room indoor" data-label="sewer" x="275" y="371" width="8" height="8" rx="2"/>
+    <rect id="room-38c6760b1dc6456447af60fef13ee7cb551ad98c" class="room indoor" data-label="sewer" x="170" y="266" width="8" height="8" rx="2"/>
+    <rect id="room-29c393a8c50a9c45b5d469eaadfcc100b1838dd4" class="room indoor" data-label="sewer" x="233" y="182" width="8" height="8" rx="2"/>
+    <rect id="room-12b4767cf970a99ab708011ed2f025dcabb9ab9d" class="room indoor" data-label="sewer" x="275" y="56" width="8" height="8" rx="2"/>
+    <rect id="room-807e7b42fea67fe13c188dd085819ca2afe85ea3" class="room indoor" data-label="sewer" x="317" y="98" width="8" height="8" rx="2"/>
+    <rect id="room-e660a285d400e1f4842a51fd0519bb65669dd4a3" class="room indoor" data-label="sewer" x="548" y="161" width="8" height="8" rx="2"/>
+    <rect id="room-a368f91956c2174bc05bcc9b4d2263323730de51" class="room indoor" data-label="sewer" x="695" y="98" width="8" height="8" rx="2"/>
+    <rect id="room-b907e8c168db58fee06e818429953b140452def0" class="room indoor" data-label="west side of the underground docks" x="779" y="140" width="8" height="8" rx="2"/>
+    <rect id="room-c0c753165239c4dccbdcc22c83642ad4c78e6f0c" class="room indoor" data-label="northwest corner of the underground docks" x="779" y="119" width="8" height="8" rx="2"/>
+    <rect id="room-b3e27ffaa5ec1386fc36ecc3ef04106d57ef1dd3" class="room indoor" data-label="northeast corner of the underground docks" x="800" y="119" width="8" height="8" rx="2"/>
+    <rect id="room-f03b1b83eb69b745d226cfb6d858490ed6f41305" class="room indoor" data-label="winch room" x="821" y="119" width="8" height="8" rx="2"/>
+    <rect id="room-e5d03fd282ca5a742e890a1f903fade43fb0177a" class="room indoor" data-label="underground harbour" x="800" y="140" width="8" height="8" rx="2"/>
+    <rect id="room-aa45e863d7e2a4ce067e587b93bcf7f5aebfc79c" class="room indoor" data-label="southeast corner of the underground docks" x="800" y="161" width="8" height="8" rx="2"/>
+    <rect id="room-e5e94784739b83d39b9bae3e004fa4267c03f428" class="room indoor" data-label="southwest corner of the underground docks" x="779" y="161" width="8" height="8" rx="2"/>
+    <rect id="room-4ef8a508f6fbe09b95a57f8cc1717ff5c95c4b06" class="room indoor" data-label="untidy office" x="758" y="161" width="8" height="8" rx="2"/>
+    <rect id="room-1f598feb4206629d77dff98e534de11f755f883b" class="room indoor" data-label="comfortable office" x="737" y="161" width="8" height="8" rx="2"/>
+    <rect id="room-425ea805db768ae123605903233b685f15f87cea" class="room indoor" data-label="sewer" x="737" y="203" width="8" height="8" rx="2"/>
+    <rect id="room-a83925f899b49bb4e534a46c9b89ea38cc535b47" class="room indoor" data-label="sewer" x="695" y="392" width="8" height="8" rx="2"/>
+    <rect id="room-e7e67c57f8924a91df73396c366d9622af58d743" class="room indoor" data-label="sewer" x="695" y="581" width="8" height="8" rx="2"/>
+    <rect id="room-1d7973382863a80adb3af0eac94f27518bd8b97e" class="room indoor" data-label="sewer" x="569" y="434" width="8" height="8" rx="2"/>
+    <rect id="room-834072de72759be79b5ce32ce59002024056ce17" class="room indoor" data-label="sewer" x="443" y="539" width="8" height="8" rx="2"/>
+    <rect id="room-27c2dd5b2ea7feac0c19b16052a482d7c33715b2" class="room indoor" data-label="sewer" x="401" y="308" width="8" height="8" rx="2"/>
+    <rect id="room-1b399bbddd7fbb95306f06e59c7dc52e6fd331bd" class="room indoor" data-label="sewer" x="338" y="245" width="8" height="8" rx="2"/>
+    <rect id="room-f38afad5a89c313cdd69e8219567bcc9ad9f13c6" class="room indoor" data-label="sewer" x="590" y="287" width="8" height="8" rx="2"/>
+    <rect id="room-78f986e7ac91f0a8b412d60558a0c880ea0ddf8b" class="room indoor" data-label="dank underground area" x="611" y="413" width="8" height="8" rx="2"/>
+    <rect id="room-5e8e1d0a8f264c14182c8300c3fde8f7140de20f" class="room indoor" data-label="dank underground area" x="611" y="392" width="8" height="8" rx="2"/>
+    <rect id="room-ac2f0d5e954b99c2401b03d5410d5ea85895ec2b" class="room indoor" data-label="dank underground area" x="590" y="413" width="8" height="8" rx="2"/>
+    <rect id="room-af7f1c7960d8b915acc715a5a5e4c6fb4420cf2b" class="room indoor" data-label="dank underground area" x="569" y="413" width="8" height="8" rx="2"/>
+    <rect id="room-9667b861500e12f67e0ad2c76528a176cc937729" class="room indoor" data-label="dank underground area" x="569" y="392" width="8" height="8" rx="2"/>
+    <rect id="room-9b79f4521e9309e2561dd5e5d0a914dcdfc0c0d2" class="room indoor" data-label="sewer" x="611" y="266" width="8" height="8" rx="2"/>
+    <rect id="room-cfb3071d2a1ae32664098af4ab569b1aac2933f7" class="room indoor" data-label="sewer" x="632" y="266" width="8" height="8" rx="2"/>
+    <rect id="room-b6e58822ef144be155a071384107301859532d62" class="room indoor" data-label="sewer" x="653" y="245" width="8" height="8" rx="2"/>
+    <rect id="room-421c2f9d01fcd21385823d9500ffdf9665e7e7d7" class="room indoor" data-label="sewer" x="653" y="224" width="8" height="8" rx="2"/>
+    <rect id="room-147593042d79c447e28548ca8b746cfc8499bf32" class="room indoor" data-label="sewer" x="653" y="203" width="8" height="8" rx="2"/>
+    <rect id="room-ff8b1b36401763a391bbbeec7dbf7ca6b4f3d73b" class="room indoor" data-label="sewer" x="674" y="182" width="8" height="8" rx="2"/>
+    <rect id="room-6d43b51aaa2f82cc838345ee2481ea86ff76ee89" class="room indoor" data-label="sewer" x="695" y="182" width="8" height="8" rx="2"/>
+    <rect id="room-d40dfdec4dee3090ef4d9dc15f74198d40cb93c7" class="room indoor" data-label="sewer" x="716" y="182" width="8" height="8" rx="2"/>
+    <rect id="room-2260b4811078f00d668b207d5047adac2c032e04" class="room indoor" data-label="sewer" x="716" y="224" width="8" height="8" rx="2"/>
+    <rect id="room-db989d09a53890f4342b93a7a5bc9e37482d89f9" class="room indoor" data-label="sewer" x="695" y="224" width="8" height="8" rx="2"/>
+    <rect id="room-c021b247bbb9fa4adb7ecf52730ec36d443c558b" class="room indoor" data-label="sewer" x="674" y="245" width="8" height="8" rx="2"/>
+    <rect id="room-1a88243fd4697d751d74fc925b6b8f7e620b176f" class="room indoor" data-label="sewer" x="695" y="266" width="8" height="8" rx="2"/>
+    <rect id="room-d5f313986d2b33186c14eea8a8d1484bebd0ac7b" class="room indoor" data-label="sewer" x="716" y="266" width="8" height="8" rx="2"/>
+    <rect id="room-d64d8c8d957a7e1768806c5f9c7659646e8df01c" class="room indoor" data-label="sewer" x="737" y="245" width="8" height="8" rx="2"/>
+    <rect id="room-5e680db7ce1946d5e5f78b2463ce102cfb39ca81" class="room indoor" data-label="sewer" x="758" y="203" width="8" height="8" rx="2"/>
+    <rect id="room-d059523a938daa5ed1b4e8d75bba8cae9a54cdb0" class="room indoor" data-label="sewer" x="779" y="182" width="8" height="8" rx="2"/>
+    <rect id="room-ea0f179d44126ccfa23afa2455788481124d5816" class="room indoor" data-label="sewer" x="758" y="140" width="8" height="8" rx="2"/>
+    <rect id="room-06d44e92d16559a24ef2dab82564ca3d8a9920ac" class="room indoor" data-label="sewer" x="737" y="140" width="8" height="8" rx="2"/>
+    <rect id="room-23d37fe80eda35c02e94194c0626f3a87a5b5dfd" class="room indoor" data-label="sewer" x="716" y="119" width="8" height="8" rx="2"/>
+    <rect id="room-2cbf48cb063285712dab90d34b30115a953a160c" class="room indoor" data-label="sewer" x="695" y="140" width="8" height="8" rx="2"/>
+    <rect id="room-9d52ca5b912f5cc425cd4b9834da509bbf8b4013" class="room indoor" data-label="sewer" x="674" y="161" width="8" height="8" rx="2"/>
+    <rect id="room-ed1d3dafe6ab56528df4e91dcc04d238934ca3bc" class="room indoor" data-label="sewer" x="674" y="77" width="8" height="8" rx="2"/>
+    <rect id="room-fe8dcda376c1f4a251fc3e001e674b9999146c6f" class="room indoor" data-label="sewer" x="653" y="56" width="8" height="8" rx="2"/>
+    <rect id="room-b0a61746ea969732253b435e2f2b55b26741f07f" class="room indoor" data-label="sewer" x="632" y="56" width="8" height="8" rx="2"/>
+    <rect id="room-45fbb90fe43f3309274606fb863bb444f27ac22b" class="room indoor" data-label="sewer" x="611" y="56" width="8" height="8" rx="2"/>
+    <rect id="room-f92bf80db1763cfb1dfaed9813983989971f8b79" class="room indoor" data-label="sewer" x="611" y="35" width="8" height="8" rx="2"/>
+    <rect id="room-5e112efda4f8b1500f21718c526bca885653f1b9" class="room indoor" data-label="sewer" x="590" y="35" width="8" height="8" rx="2"/>
+    <rect id="room-325f86cf6e0f5e7267be9fcdcf1cffd6ddab93ab" class="room indoor" data-label="sewer" x="569" y="14" width="8" height="8" rx="2"/>
+    <rect id="room-434377369f88383fc345fbd9018ac49c856209a0" class="room indoor" data-label="sewer" x="548" y="35" width="8" height="8" rx="2"/>
+    <rect id="room-7cd06bef9da153fe9170bc92ced8539fbcb03778" class="room indoor" data-label="sewer" x="548" y="56" width="8" height="8" rx="2"/>
+    <rect id="room-921f4a5846962a074969ad4c06cf7b851da319d9" class="room indoor" data-label="sewer" x="548" y="77" width="8" height="8" rx="2"/>
+    <rect id="room-1dea19e07d772b443bf6c5d7ab5349a41e5ac365" class="room indoor" data-label="sewer" x="569" y="77" width="8" height="8" rx="2"/>
+    <rect id="room-09279f6cb312272ad65ab4f30397247128f7046c" class="room indoor" data-label="sewer" x="590" y="77" width="8" height="8" rx="2"/>
+    <rect id="room-8f59a2a91b634cb5ec613bfb40dc7399bb9e2b62" class="room indoor" data-label="sewer" x="590" y="98" width="8" height="8" rx="2"/>
+    <rect id="room-735874f6e1fb4fb43a86253d71d1ddb711e89c97" class="room indoor" data-label="sewer" x="611" y="119" width="8" height="8" rx="2"/>
+    <rect id="room-5e897139520f3a8261242984e2d2e2c1ef935008" class="room indoor" data-label="sewer" x="632" y="140" width="8" height="8" rx="2"/>
+    <rect id="room-e157582666c2e8aad9867f910951ce7e5f696ad9" class="room indoor" data-label="sewer" x="653" y="140" width="8" height="8" rx="2"/>
+    <rect id="room-fd3f8d6a448a06a6f3e67f4f3e85712557397317" class="room indoor" data-label="sewer" x="653" y="119" width="8" height="8" rx="2"/>
+    <rect id="room-91dbaf83c15746a560da3c41bf07241ead793a61" class="room indoor" data-label="sewer" x="653" y="98" width="8" height="8" rx="2"/>
+    <rect id="room-8f46b926798e887657a4b9f28e19a1e6f121d05f" class="room indoor" data-label="sewer" x="632" y="161" width="8" height="8" rx="2"/>
+    <rect id="room-7e12bbf924813b81ac7e948fe2efe2ada7f18783" class="room indoor" data-label="sewer" x="611" y="182" width="8" height="8" rx="2"/>
+    <rect id="room-5191b557502a08a28632bda910b80ba68d21e48b" class="room indoor" data-label="sewer" x="611" y="203" width="8" height="8" rx="2"/>
+    <rect id="room-470d494a82aa3b1abe90afce3ecb65d7e7545783" class="room indoor" data-label="sewer" x="611" y="224" width="8" height="8" rx="2"/>
+    <rect id="room-a2548aa53d0bf6314a896d7fcc129d3f70830725" class="room indoor" data-label="sewer" x="590" y="245" width="8" height="8" rx="2"/>
+    <rect id="room-3cf2f44d1a1238db32d2238b40bcf32dfc5c2b9e" class="room indoor" data-label="sewer" x="632" y="287" width="8" height="8" rx="2"/>
+    <rect id="room-04a8d8a2c66b59ffb56165ae549bf7cf59cd0737" class="room indoor" data-label="sewer" x="632" y="308" width="8" height="8" rx="2"/>
+    <rect id="room-b5f943d816f1b5055e639701c549417230dda9d1" class="room indoor" data-label="sewer" x="653" y="308" width="8" height="8" rx="2"/>
+    <rect id="room-3202e8fa405c0f736e1ed92c21548c757b1410cd" class="room indoor" data-label="sewer" x="674" y="308" width="8" height="8" rx="2"/>
+    <rect id="room-070a5a94db29f313156d6cdfecd3c8deee4bf169" class="room indoor" data-label="sewer" x="695" y="329" width="8" height="8" rx="2"/>
+    <rect id="room-2cf69910b021296f994b62e85943cd62f1179d94" class="room indoor" data-label="sewer" x="716" y="329" width="8" height="8" rx="2"/>
+    <rect id="room-0f0e987d06977b59efb93598c37fe147cb9e2c18" class="room indoor" data-label="sewer" x="716" y="308" width="8" height="8" rx="2"/>
+    <rect id="room-db4eac54bbbfe505d523ea6b72bcd9a41ce6fda0" class="room indoor" data-label="sewer" x="716" y="287" width="8" height="8" rx="2"/>
+    <rect id="room-49e904447454770c323b57ced59aafa9454df3c1" class="room indoor" data-label="sewer" x="674" y="350" width="8" height="8" rx="2"/>
+    <rect id="room-adafacdfe4b657581817b2c5c36b319380ed4955" class="room indoor" data-label="sewer" x="653" y="329" width="8" height="8" rx="2"/>
+    <rect id="room-e51595ccf306157ba28335637fcfee4f39427b98" class="room indoor" data-label="sewer" x="674" y="371" width="8" height="8" rx="2"/>
+    <rect id="room-1ec5997c42fe29ccdebf190f949b8e1e3e8c1bf2" class="room indoor" data-label="sewer" x="695" y="413" width="8" height="8" rx="2"/>
+    <rect id="room-65f2d87f985a44e651e6c401104c58f4aa867990" class="room indoor" data-label="sewer" x="716" y="413" width="8" height="8" rx="2"/>
+    <rect id="room-f525fcb607681b2971d4bc01fa6630617b588abb" class="room indoor" data-label="sewer" x="716" y="434" width="8" height="8" rx="2"/>
+    <rect id="room-efeda556c2f348d53d55f2badbd50f5eeacc1856" class="room indoor" data-label="sewer" x="716" y="455" width="8" height="8" rx="2"/>
+    <rect id="room-eaaee6e38d7f2477c8aef6c980ebc1525d33f244" class="room indoor" data-label="sewer" x="716" y="476" width="8" height="8" rx="2"/>
+    <rect id="room-401ae0928ffb43d32a438f238c3c3bc3354fc105" class="room indoor" data-label="sewer" x="737" y="476" width="8" height="8" rx="2"/>
+    <rect id="room-0e57b280516b5d2b5cd8573d6a4ed19cee3888a4" class="room indoor" data-label="sewer" x="758" y="476" width="8" height="8" rx="2"/>
+    <rect id="room-d5647370a3b5865b90621a8549bf0d7fa64713fc" class="room indoor" data-label="sewer" x="779" y="497" width="8" height="8" rx="2"/>
+    <rect id="room-108db3168b9ca397de507c27947c5f26da9fcee1" class="room indoor" data-label="sewer" x="758" y="518" width="8" height="8" rx="2"/>
+    <rect id="room-6dc8d30edf835523d43977022e6b104856dcc60a" class="room indoor" data-label="sewer" x="779" y="539" width="8" height="8" rx="2"/>
+    <rect id="room-c9fb2499ce4de1ccf2a7bc2e5cb1ec70034128db" class="room indoor" data-label="sewer" x="779" y="560" width="8" height="8" rx="2"/>
+    <rect id="room-c30628f181946314fc015fdc36d40d7226bde814" class="room indoor" data-label="sewer" x="758" y="560" width="8" height="8" rx="2"/>
+    <rect id="room-d9bd641743d0f16faf7f46ddcd2565ff3aac6f4b" class="room indoor" data-label="sewer" x="737" y="560" width="8" height="8" rx="2"/>
+    <rect id="room-324a2f1936df21b18addf1ee7c6828f0ef75489f" class="room indoor" data-label="sewer" x="737" y="581" width="8" height="8" rx="2"/>
+    <rect id="room-df5978c6ff3b30136f7cbc1f6393e04ad6ea088a" class="room indoor" data-label="sewer" x="716" y="581" width="8" height="8" rx="2"/>
+    <rect id="room-844309dbb10355f867130a0b69ac08c429b78c71" class="room indoor" data-label="sewer" x="674" y="581" width="8" height="8" rx="2"/>
+    <rect id="room-2d25bd50994d184649bb0c1cf5f058202f2eebd0" class="room indoor" data-label="sewer" x="653" y="602" width="8" height="8" rx="2"/>
+    <rect id="room-a0a10a903cb44d1471add9621bb42aa5f588e5ea" class="room indoor" data-label="sewer" x="674" y="560" width="8" height="8" rx="2"/>
+    <rect id="room-8cafe71d1a15d15a23f06332897bae27b65d6880" class="room indoor" data-label="sewer" x="653" y="539" width="8" height="8" rx="2"/>
+    <rect id="room-1dcf236200a74814830815656ca32438dbf68cc1" class="room indoor" data-label="sewer" x="674" y="518" width="8" height="8" rx="2"/>
+    <rect id="room-d66a01da42df9e4c1a91a34c37361e4035c7f7df" class="room indoor" data-label="sewer" x="695" y="497" width="8" height="8" rx="2"/>
+    <rect id="room-70c60c045b1ae93ad66e873a2572f7c37625a015" class="room indoor" data-label="sewer" x="716" y="518" width="8" height="8" rx="2"/>
+    <rect id="room-c4d43242eb62f1b0a03f2e3486c4ec5f2270c130" class="room indoor" data-label="sewer" x="716" y="539" width="8" height="8" rx="2"/>
+    <rect id="room-d8b548598f1c1737aa48ff194eb371fec9760e01" class="room indoor" data-label="sewer" x="674" y="476" width="8" height="8" rx="2"/>
+    <rect id="room-c77b8a1b56fd61653f1b7fb07f4baaa237878248" class="room indoor" data-label="sewer" x="653" y="455" width="8" height="8" rx="2"/>
+    <rect id="room-826d7a1980c9c8079ef7d47ce43f7b3debe839d1" class="room indoor" data-label="sewer" x="632" y="434" width="8" height="8" rx="2"/>
+    <rect id="room-a848d32b13e1c7278c330e99335ca5a840f5f8c1" class="room indoor" data-label="sewer" x="632" y="413" width="8" height="8" rx="2"/>
+    <rect id="room-541c6ddd251789709aa3a5b64d54c3ab9824a4e0" class="room indoor" data-label="sewer" x="632" y="392" width="8" height="8" rx="2"/>
+    <rect id="room-02dab91ea088eef65f18598f0e35c428e39019ef" class="room indoor" data-label="sewer" x="653" y="392" width="8" height="8" rx="2"/>
+    <rect id="room-6361b1f222a7768a5004d320900635218b96bc2e" class="room indoor" data-label="sewer" x="674" y="413" width="8" height="8" rx="2"/>
+    <rect id="room-5ad56ec6161d43e20c5634accfee100907307df6" class="room indoor" data-label="sewer" x="611" y="371" width="8" height="8" rx="2"/>
+    <rect id="room-d8e65eb43d1229377df897045a860622c71585c8" class="room indoor" data-label="sewer" x="632" y="350" width="8" height="8" rx="2"/>
+    <rect id="room-bce5e8d1c9b9ed6c509beec56d93479655e1660a" class="room indoor" data-label="sewer" x="590" y="350" width="8" height="8" rx="2"/>
+    <rect id="room-775cee369fa64cf6d82ab0d521749e32b764ce6c" class="room indoor" data-label="sewer" x="569" y="329" width="8" height="8" rx="2"/>
+    <rect id="room-29b23f45b4c5515210d71c2bd73e007751ad0c1a" class="room indoor" data-label="sewer" x="569" y="308" width="8" height="8" rx="2"/>
+    <rect id="room-c986df8276535a1037e9a8220eb3781565e40cd6" class="room indoor" data-label="sewer" x="548" y="329" width="8" height="8" rx="2"/>
+    <rect id="room-e2b611a3ca112ecfa59b1126ead616e8a202e9b4" class="room indoor" data-label="sewer" x="527" y="308" width="8" height="8" rx="2"/>
+    <rect id="room-a2c3262786f4c04d358caca77261798254289ef3" class="room indoor" data-label="sewer" x="527" y="287" width="8" height="8" rx="2"/>
+    <rect id="room-3f69a3e5ebec8ddf7577928b9dea90d40e173780" class="room indoor" data-label="sewer" x="527" y="266" width="8" height="8" rx="2"/>
+    <rect id="room-3bb1112bad9fb70b241c32f3535a816428ea6bb2" class="room indoor" data-label="sewer" x="548" y="245" width="8" height="8" rx="2"/>
+    <rect id="room-a6c4f4302a6b0e5e50ac4f718456ab7189edee05" class="room indoor" data-label="sewer" x="569" y="245" width="8" height="8" rx="2"/>
+    <rect id="room-bd4ad4b952ff90a4d05402b69ff36ebb5557830f" class="room indoor" data-label="sewer" x="569" y="224" width="8" height="8" rx="2"/>
+    <rect id="room-8a8c184eb8f2ce97d9cc1d04fd10f48649db9d58" class="room indoor" data-label="sewer" x="569" y="203" width="8" height="8" rx="2"/>
+    <rect id="room-cd653631ab74e5a4e7d802adb2537934d31aa09a" class="room indoor" data-label="sewer" x="548" y="203" width="8" height="8" rx="2"/>
+    <rect id="room-649c34926aa4a344fce34f98084ce19e088c7ce1" class="room indoor" data-label="sewer" x="527" y="224" width="8" height="8" rx="2"/>
+    <rect id="room-27b94da1e308b0f073bd4d047bb2d88c488a5f6f" class="room indoor" data-label="sewer" x="527" y="182" width="8" height="8" rx="2"/>
+    <rect id="room-84c5ab2d2761bbb9ea56ff2973f8773795a8c05c" class="room indoor" data-label="sewer" x="569" y="140" width="8" height="8" rx="2"/>
+    <rect id="room-8d71066eec00fcfe4dbfedb433c36d44a6c8c8d6" class="room indoor" data-label="sewer" x="590" y="161" width="8" height="8" rx="2"/>
+    <rect id="room-46a8ac850c3b149f83858f8b2d1b0857b99e55d0" class="room indoor" data-label="sewer" x="569" y="119" width="8" height="8" rx="2"/>
+    <rect id="room-563c7374da58a6171df21fc502435d805b153c14" class="room indoor" data-label="sewer" x="527" y="35" width="8" height="8" rx="2"/>
+    <rect id="room-8c6e641a53f8be7a98672e780f9778b089f1d4ab" class="room indoor" data-label="sewer" x="506" y="35" width="8" height="8" rx="2"/>
+    <rect id="room-8b81ab638f95d94d9aad4e9670f476de75c97d2c" class="room indoor" data-label="sewer" x="485" y="35" width="8" height="8" rx="2"/>
+    <rect id="room-d02c184d9b1aed463540a2617ddaedbb5de13715" class="room indoor" data-label="sewer" x="464" y="14" width="8" height="8" rx="2"/>
+    <rect id="room-9aaaf2471690cf8d8cc3683e8e364fd7082d8e53" class="room indoor" data-label="sewer" x="443" y="14" width="8" height="8" rx="2"/>
+    <rect id="room-ef729c9232384b7aafbc488167963a5f6dcbfa03" class="room indoor" data-label="sewer" x="422" y="14" width="8" height="8" rx="2"/>
+    <rect id="room-b8235bd1665d0332fa66069db3c561dac10fec39" class="room indoor" data-label="sewer" x="401" y="35" width="8" height="8" rx="2"/>
+    <rect id="room-ce7022bc37218ca75b2b3bdc98887c4550ad0231" class="room indoor" data-label="sewer" x="380" y="35" width="8" height="8" rx="2"/>
+    <rect id="room-083dc6a0ef956faf260157edbd11558f8d1d6d2f" class="room indoor" data-label="sewer" x="338" y="14" width="8" height="8" rx="2"/>
+    <rect id="room-9e3ccfbc63634bdec2031f742804cb765634bece" class="room indoor" data-label="sewer" x="317" y="35" width="8" height="8" rx="2"/>
+    <rect id="room-128130839eaf59bf25dffe9edf3c001f061db2da" class="room indoor" data-label="sewer" x="317" y="56" width="8" height="8" rx="2"/>
+    <rect id="room-5701d56cb1dde69a932978c2625f1363c8ba29c4" class="room indoor" data-label="sewer" x="296" y="77" width="8" height="8" rx="2"/>
+    <rect id="room-0b616034e63a2ec86657d0e6405604df4d4179a4" class="room indoor" data-label="sewer" x="296" y="98" width="8" height="8" rx="2"/>
+    <rect id="room-013c981b861a196dc680aae32c49840c113db673" class="room indoor" data-label="sewer" x="338" y="98" width="8" height="8" rx="2"/>
+    <rect id="room-89d1ffd0f64ce558c479c6544ba19ba77c62fd95" class="room indoor" data-label="sewer" x="359" y="98" width="8" height="8" rx="2"/>
+    <rect id="room-e16b7f55771be5d3c08c67889b4a6c80a8c059b9" class="room indoor" data-label="sewer" x="380" y="77" width="8" height="8" rx="2"/>
+    <rect id="room-4a6694292d9460fe95c79f1e4180f5c2dee1819c" class="room indoor" data-label="sewer" x="401" y="77" width="8" height="8" rx="2"/>
+    <rect id="room-242698e41126d9b30df15cd0476bbfa5cafa1bf3" class="room indoor" data-label="sewer" x="401" y="56" width="8" height="8" rx="2"/>
+    <rect id="room-93807e7c579664b25bae2be57a7072e7cc5842f5" class="room indoor" data-label="sewer" x="422" y="77" width="8" height="8" rx="2"/>
+    <rect id="room-fd048752d973e13121d79395e2dad04962ea392b" class="room indoor" data-label="sewer" x="422" y="98" width="8" height="8" rx="2"/>
+    <rect id="room-1c1ee6f41a5dc27e32a042499905e4c20e3ad2d9" class="room indoor" data-label="sewer" x="422" y="119" width="8" height="8" rx="2"/>
+    <rect id="room-96a4334a917c6548c64ed9d317a89b8ceae0695b" class="room indoor" data-label="sewer" x="443" y="119" width="8" height="8" rx="2"/>
+    <rect id="room-c5b071c4cf6b1deea6a4180731eab660f1a5b328" class="room indoor" data-label="sewer" x="464" y="119" width="8" height="8" rx="2"/>
+    <rect id="room-226c610ac0cbd586f87bfcc704da960f993a8193" class="room indoor" data-label="sewer" x="464" y="98" width="8" height="8" rx="2"/>
+    <rect id="room-354a67d2bed3688daf01477418921638617f20af" class="room indoor" data-label="sewer" x="485" y="77" width="8" height="8" rx="2"/>
+    <rect id="room-15e24d04ee39bafb24db77998f40e414c139e6ec" class="room indoor" data-label="sewer" x="464" y="56" width="8" height="8" rx="2"/>
+    <rect id="room-6a0f2d90750a2fea96eb64c6c286260916097bb5" class="room indoor" data-label="sewer" x="485" y="119" width="8" height="8" rx="2"/>
+    <rect id="room-fb7901c6bce68608a1aa93502093f1ad7f560b62" class="room indoor" data-label="sewer" x="506" y="119" width="8" height="8" rx="2"/>
+    <rect id="room-a5403c7d090074ba486389c43572fe0a9d317167" class="room indoor" data-label="sewer" x="527" y="98" width="8" height="8" rx="2"/>
+    <rect id="room-6549aab6a4a4aeda37bdff9ec3673fdd71bb17f4" class="room indoor" data-label="sewer" x="443" y="140" width="8" height="8" rx="2"/>
+    <rect id="room-8d97e53e2381ec227db085973cf6af40354b8834" class="room indoor" data-label="sewer" x="443" y="161" width="8" height="8" rx="2"/>
+    <rect id="room-9f08aa3178f49cb5358b948c4a37f9e2d51585b9" class="room indoor" data-label="sewer" x="464" y="161" width="8" height="8" rx="2"/>
+    <rect id="room-0120be58972a0d2654f842a284fae9faff8b1950" class="room indoor" data-label="sewer" x="464" y="182" width="8" height="8" rx="2"/>
+    <rect id="room-9321f5c3c1624c8963e8f7b1850c9602c77bece0" class="room indoor" data-label="sewer" x="443" y="203" width="8" height="8" rx="2"/>
+    <rect id="room-8c8e196ba62733b4e91d6976fca1e180c76c6d18" class="room indoor" data-label="sewer" x="422" y="182" width="8" height="8" rx="2"/>
+    <rect id="room-a24297621c93f5218d930c434ce4b0a01c11fa31" class="room indoor" data-label="sewer" x="401" y="182" width="8" height="8" rx="2"/>
+    <rect id="room-8c78f7896613dd35ee381ca2262531efb15fac70" class="room indoor" data-label="sewer" x="380" y="182" width="8" height="8" rx="2"/>
+    <rect id="room-26236eeda056fc7395cbab545b86d9c29d760dc1" class="room indoor" data-label="sewer" x="380" y="161" width="8" height="8" rx="2"/>
+    <rect id="room-31d459b8c58c239379a73b6f586e4debd582b2bc" class="room indoor" data-label="sewer" x="380" y="140" width="8" height="8" rx="2"/>
+    <rect id="room-dca8d37301dc94d2d8f436c6bd60193a52167545" class="room indoor" data-label="sewer" x="401" y="140" width="8" height="8" rx="2"/>
+    <rect id="room-793856d0ebc865c84b9910ddc7343a2cc650979e" class="room indoor" data-label="sewer" x="401" y="119" width="8" height="8" rx="2"/>
+    <rect id="room-1cfb65e5c00eb8e607a2a1f8ae1846bdbb5268b5" class="room indoor" data-label="sewer" x="359" y="140" width="8" height="8" rx="2"/>
+    <rect id="room-0bc04c5633dc86378165d3df1baee85223a89361" class="room indoor" data-label="sewer" x="338" y="140" width="8" height="8" rx="2"/>
+    <rect id="room-2b6b58743a0df4c333f87304b8f51629257f57b7" class="room indoor" data-label="sewer" x="338" y="119" width="8" height="8" rx="2"/>
+    <rect id="room-5dec37b6d2fc23018c78628bdf69d8d6f3da134f" class="room indoor" data-label="sewer" x="338" y="161" width="8" height="8" rx="2"/>
+    <rect id="room-e0294c269f1b367d4a1ca12bae1d4bcbd9bc952f" class="room indoor" data-label="sewer" x="338" y="182" width="8" height="8" rx="2"/>
+    <rect id="room-0b7f027e54f6590e6a749aadf1042b08cbdb7a72" class="room indoor" data-label="sewer" x="359" y="182" width="8" height="8" rx="2"/>
+    <rect id="room-14befe9c56315d378d4b8251f6735e47e6c39fcc" class="room indoor" data-label="sewer" x="317" y="203" width="8" height="8" rx="2"/>
+    <rect id="room-eea369b4c3254b723ff14b75b10ca283cbf3884c" class="room indoor" data-label="sewer" x="296" y="224" width="8" height="8" rx="2"/>
+    <rect id="room-c55b348b87b451e3244496d2ccc9b0e4388c9d62" class="room indoor" data-label="sewer" x="275" y="203" width="8" height="8" rx="2"/>
+    <rect id="room-326624be7a586aa380667ed9c2278961de6db88f" class="room indoor" data-label="sewer" x="275" y="182" width="8" height="8" rx="2"/>
+    <rect id="room-89a0bd1bd88841c1b30d357922dd083324a93bc9" class="room indoor" data-label="sewer" x="275" y="161" width="8" height="8" rx="2"/>
+    <rect id="room-3044d53f18d2fcc5cce7bf03cd355385699b6929" class="room indoor" data-label="sewer" x="275" y="140" width="8" height="8" rx="2"/>
+    <rect id="room-7e1ab2a693a4557adce63e1f503a08cda9254d65" class="room indoor" data-label="sewer" x="296" y="119" width="8" height="8" rx="2"/>
+    <rect id="room-d27f42bdf5f237b0015666fc6389b82be6d35450" class="room indoor" data-label="sewer" x="254" y="77" width="8" height="8" rx="2"/>
+    <rect id="room-8f1b100f225ee73bf5378befdeafb794d457bd16" class="room indoor" data-label="sewer" x="233" y="77" width="8" height="8" rx="2"/>
+    <rect id="room-106aae7371c2001d7a0448b41371e227c62fe0ce" class="room indoor" data-label="sewer" x="212" y="98" width="8" height="8" rx="2"/>
+    <rect id="room-85544d94d94382a86530fcf7073c20d7e6a38124" class="room indoor" data-label="sewer" x="191" y="119" width="8" height="8" rx="2"/>
+    <rect id="room-fc7d9a19fe9b1fd26df814deab67566a9091de2a" class="room indoor" data-label="sewer" x="191" y="140" width="8" height="8" rx="2"/>
+    <rect id="room-7974bc5340f080570e4ee9521d99d5322d8b3736" class="room indoor" data-label="sewer" x="212" y="161" width="8" height="8" rx="2"/>
+    <rect id="room-d5d0c23f2915e0a54c813f034a70d4cc0c74a7da" class="room indoor" data-label="sewer" x="233" y="140" width="8" height="8" rx="2"/>
+    <rect id="room-204b881935c069cd6d72d6e31b226dfb4b0a717c" class="room indoor" data-label="sewer" x="254" y="140" width="8" height="8" rx="2"/>
+    <rect id="room-0e0b417537c8f3a411ea78447373db1622a17447" class="room indoor" data-label="sewer" x="212" y="203" width="8" height="8" rx="2"/>
+    <rect id="room-2c62c493f130929bd551cc4b82177b5fd30d098f" class="room indoor" data-label="sewer" x="191" y="224" width="8" height="8" rx="2"/>
+    <rect id="room-5aa6c8cccdac5df3d2c62a762861a3e9a56c6e7b" class="room indoor" data-label="sewer" x="170" y="203" width="8" height="8" rx="2"/>
+    <rect id="room-48773c08f442944869f6337e6fed3069b1f8e842" class="room indoor" data-label="sewer" x="149" y="182" width="8" height="8" rx="2"/>
+    <rect id="room-3347fa63bb69a90c0a73d1f4a4c5db5488579aea" class="room indoor" data-label="sewer" x="149" y="161" width="8" height="8" rx="2"/>
+    <rect id="room-828e913e537ddaab420ea277079b9d12b33a5c6e" class="room indoor" data-label="sewer" x="170" y="161" width="8" height="8" rx="2"/>
+    <rect id="room-ade7c71c608e1d4242b26fcd786c501ad7743ef8" class="room indoor" data-label="sewer" x="128" y="203" width="8" height="8" rx="2"/>
+    <rect id="room-e58af3d512d099b8e6223637862eccce8dc3eadd" class="room indoor" data-label="sewer" x="128" y="224" width="8" height="8" rx="2"/>
+    <rect id="room-b12ffbbd3e3250073e9f7e91584db5f9d971edd9" class="room indoor" data-label="sewer" x="128" y="245" width="8" height="8" rx="2"/>
+    <rect id="room-d555ba3a8247e79bc29f46c0d8124d542e944226" class="room indoor" data-label="sewer" x="128" y="266" width="8" height="8" rx="2"/>
+    <rect id="room-f1c5fb219e988e4fb66d56ee94f04a2723d74b15" class="room indoor" data-label="sewer" x="128" y="287" width="8" height="8" rx="2"/>
+    <rect id="room-b3ab98e926fda816895fe593ef3bd4067c6e8cfc" class="room indoor" data-label="sewer" x="107" y="308" width="8" height="8" rx="2"/>
+    <rect id="room-71e826776f6a05f2159dc230c7982786c96f01c6" class="room indoor" data-label="sewer" x="128" y="329" width="8" height="8" rx="2"/>
+    <rect id="room-b6b3d9e2825fe1c14b05c0bf6dd03a083223a62e" class="room indoor" data-label="sewer" x="149" y="329" width="8" height="8" rx="2"/>
+    <rect id="room-90095bc7fb41f5cad233cb715499c85455c8fa38" class="room indoor" data-label="sewer" x="128" y="350" width="8" height="8" rx="2"/>
+    <rect id="room-3523ebefb8bca668dec256afe2bae31a6815a1c5" class="room indoor" data-label="sewer" x="128" y="371" width="8" height="8" rx="2"/>
+    <rect id="room-f2c908fc480c867321cc55e09eed316e57895f66" class="room indoor" data-label="sewer" x="149" y="371" width="8" height="8" rx="2"/>
+    <rect id="room-8861a63486dded3f87129b13944ce2cb795a6513" class="room indoor" data-label="sewer" x="149" y="392" width="8" height="8" rx="2"/>
+    <rect id="room-311ea2eaf0030d92322c90c39c832a8ea4ae3e1a" class="room indoor" data-label="sewer" x="128" y="413" width="8" height="8" rx="2"/>
+    <rect id="room-ea96bad2c059d9b13d38a680f3cb724e340efcfc" class="room indoor" data-label="sewer" x="107" y="413" width="8" height="8" rx="2"/>
+    <rect id="room-0790871e89771219b6b48523c5b51fef8590218b" class="room indoor" data-label="sewer" x="107" y="434" width="8" height="8" rx="2"/>
+    <rect id="room-3a41a1f03e7a5ef18d71bde5379a0195f3771b5b" class="room indoor" data-label="sewer" x="107" y="455" width="8" height="8" rx="2"/>
+    <rect id="room-e8719bcd50aa2494034c397b417d2159e3bc8443" class="room indoor" data-label="sewer" x="128" y="455" width="8" height="8" rx="2"/>
+    <rect id="room-6eea1c53658c7d4937fe0eae689b50c03233531c" class="room indoor" data-label="sewer" x="149" y="455" width="8" height="8" rx="2"/>
+    <rect id="room-408a6f24337bfd99c57fbd57f8654261f5d448df" class="room indoor" data-label="sewer" x="149" y="476" width="8" height="8" rx="2"/>
+    <rect id="room-94cedb4a5f8e13b5a3d0f82dd0e01fba0156aa14" class="room indoor" data-label="sewer" x="149" y="497" width="8" height="8" rx="2"/>
+    <rect id="room-fe7048cad5b4f71343996479a6fdf573c7c88451" class="room indoor" data-label="sewer" x="170" y="518" width="8" height="8" rx="2"/>
+    <rect id="room-f99974c188d3d5bc93007ae375b218be7f9347af" class="room indoor" data-label="sewer" x="170" y="539" width="8" height="8" rx="2"/>
+    <rect id="room-96a27671ea05678e86f40e8a4de4a4321d1d4470" class="room indoor" data-label="sewer" x="191" y="560" width="8" height="8" rx="2"/>
+    <rect id="room-dddf7f25c76bb8095ee2ba569928f527577f6f05" class="room indoor" data-label="sewer" x="212" y="581" width="8" height="8" rx="2"/>
+    <rect id="room-6efcc4d5b114994bc94abff774b1f2b1adb09184" class="room indoor" data-label="sewer" x="233" y="581" width="8" height="8" rx="2"/>
+    <rect id="room-9a811c435dc58f2b822667fd79e730856b9a6d11" class="room indoor" data-label="sewer" x="254" y="602" width="8" height="8" rx="2"/>
+    <rect id="room-77e3507c7bcf854f0b7d74084d3a4ed6f2d38ddd" class="room indoor" data-label="sewer" x="233" y="623" width="8" height="8" rx="2"/>
+    <rect id="room-63c2308b678d157d970cf16e78651d1101831c64" class="room indoor" data-label="sewer" x="212" y="623" width="8" height="8" rx="2"/>
+    <rect id="room-78d3dc4a5e867d386717357aac92ae6cdc144f67" class="room indoor" data-label="sewer" x="191" y="497" width="8" height="8" rx="2"/>
+    <rect id="room-51cdd99f70a552ad80193e0c91208020cb519001" class="room indoor" data-label="sewer" x="212" y="476" width="8" height="8" rx="2"/>
+    <rect id="room-8b0e4b90b905af04e86ea0a06ea410d2962ef855" class="room indoor" data-label="sewer" x="233" y="476" width="8" height="8" rx="2"/>
+    <rect id="room-beb45d389cf2bfc1454accd08df0a02fd62a9f3e" class="room indoor" data-label="sewer" x="254" y="476" width="8" height="8" rx="2"/>
+    <rect id="room-992d64e3580a6fbab44409eafdb80543c07942dc" class="room indoor" data-label="sewer" x="254" y="497" width="8" height="8" rx="2"/>
+    <rect id="room-0b3a006c7d454dde3190fe55e7f921de79b308d8" class="room indoor" data-label="sewer" x="233" y="518" width="8" height="8" rx="2"/>
+    <rect id="room-4b785953cb5693b127ccd10eccb7b09454d59e0a" class="room indoor" data-label="sewer" x="233" y="539" width="8" height="8" rx="2"/>
+    <rect id="room-4f0b881076470856810cf6b7d1110f28f4e4332a" class="room indoor" data-label="sewer" x="254" y="560" width="8" height="8" rx="2"/>
+    <rect id="room-f139b49aeca296c7309fb159979f832381fe583c" class="room indoor" data-label="sewer" x="275" y="560" width="8" height="8" rx="2"/>
+    <rect id="room-a910487cb52fd86e9412f8a4622bbe176a1dd573" class="room indoor" data-label="sewer" x="317" y="581" width="8" height="8" rx="2"/>
+    <rect id="room-95118337986ac0cb45928ff7d47c1af6423cd1ac" class="room indoor" data-label="sewer" x="275" y="623" width="8" height="8" rx="2"/>
+    <rect id="room-a3d62ac11c10070b0106d1059ea7a9c3201077e4" class="room indoor" data-label="sewer" x="296" y="623" width="8" height="8" rx="2"/>
+    <rect id="room-e6bc195ad5ab7cae082b2a9e5ae4f9c798dbd38e" class="room indoor" data-label="sewer" x="317" y="644" width="8" height="8" rx="2"/>
+    <rect id="room-c08278ee2ff61e82f9d92d0dc2dc633d4ad4dd2b" class="room indoor" data-label="sewer" x="317" y="665" width="8" height="8" rx="2"/>
+    <rect id="room-545377bb0ea57b0541d53045f6f41256aff61ddb" class="room indoor" data-label="sewer" x="338" y="686" width="8" height="8" rx="2"/>
+    <rect id="room-323a08c70400eba81c41dd3232762e13ba21271d" class="room indoor" data-label="sewer" x="359" y="686" width="8" height="8" rx="2"/>
+    <rect id="room-4828999e9043ff70aa5ce35ef22e9ae0d6da0e6e" class="room indoor" data-label="sewer" x="380" y="665" width="8" height="8" rx="2"/>
+    <rect id="room-6cad48c34862ee48e89bcb3280cf39d2bdc376df" class="room indoor" data-label="sewer" x="401" y="665" width="8" height="8" rx="2"/>
+    <rect id="room-c4d8149f94111a8bc8e128ac2fb6219d73e6784d" class="room indoor" data-label="sewer" x="422" y="686" width="8" height="8" rx="2"/>
+    <rect id="room-ea5c0259291c7b355f088a9d2d1efdae06ae2908" class="room indoor" data-label="sewer" x="443" y="686" width="8" height="8" rx="2"/>
+    <rect id="room-dc286484830b7d815a8d799efa87819795be6f14" class="room indoor" data-label="sewer" x="464" y="665" width="8" height="8" rx="2"/>
+    <rect id="room-c4292f1e2f2e035f00c995d0a7ee15692c4654f3" class="room indoor" data-label="sewer" x="464" y="644" width="8" height="8" rx="2"/>
+    <rect id="room-41461bc6c717b8487e2563467638c5e268bfff4c" class="room indoor" data-label="sewer" x="443" y="644" width="8" height="8" rx="2"/>
+    <rect id="room-0167c56507eb6016bc965065718cfc59a5496d47" class="room indoor" data-label="sewer" x="422" y="644" width="8" height="8" rx="2"/>
+    <rect id="room-23edef0c8baa3c83adf6f8ba76f934167f6caf1e" class="room indoor" data-label="sewer" x="401" y="623" width="8" height="8" rx="2"/>
+    <rect id="room-da9698c3b8d9682ab24cf7aaa1f1afef41c35bee" class="room indoor" data-label="sewer" x="401" y="602" width="8" height="8" rx="2"/>
+    <rect id="room-941392c8c87b2e484281bf27cfa4ba17bceb16d0" class="room indoor" data-label="sewer" x="380" y="602" width="8" height="8" rx="2"/>
+    <rect id="room-dae20c8cc12d790264171ba7111274e73d6242ae" class="room indoor" data-label="sewer" x="359" y="602" width="8" height="8" rx="2"/>
+    <rect id="room-d5b9302b37604328fb05a2a0ea2b23bbeec5bac5" class="room indoor" data-label="sewer" x="338" y="623" width="8" height="8" rx="2"/>
+    <rect id="room-f6dbc364bf70733b07fcee1537962370d1b16a1f" class="room indoor" data-label="sewer" x="338" y="644" width="8" height="8" rx="2"/>
+    <rect id="room-9ae786a422a09e1ec60ca77b00277b345daf2657" class="room indoor" data-label="sewer" x="443" y="623" width="8" height="8" rx="2"/>
+    <rect id="room-361626fb1fbd6693e9493663f191d6a6459ee8de" class="room indoor" data-label="sewer" x="443" y="602" width="8" height="8" rx="2"/>
+    <rect id="room-1c7310de76bdf6998ba636a8086d26604cca5c4e" class="room indoor" data-label="sewer" x="443" y="581" width="8" height="8" rx="2"/>
+    <rect id="room-b884e5b1d3a75c3baf0af1b568bac2ceb0469580" class="room indoor" data-label="sewer" x="422" y="560" width="8" height="8" rx="2"/>
+    <rect id="room-da6beecf8a6696403f79cd55844fecab0f97c43b" class="room indoor" data-label="sewer" x="401" y="539" width="8" height="8" rx="2"/>
+    <rect id="room-ccd2d864320827e3e11d555bf1d7dd98a53de785" class="room indoor" data-label="sewer" x="401" y="518" width="8" height="8" rx="2"/>
+    <rect id="room-36caaa3fddb397bbe7678ea027cd8fc5f709d76a" class="room indoor" data-label="sewer" x="401" y="497" width="8" height="8" rx="2"/>
+    <rect id="room-aecdcdac8b1fc7132a02227ceaea08d5cdf746e2" class="room indoor" data-label="sewer" x="401" y="476" width="8" height="8" rx="2"/>
+    <rect id="room-02fbd8eb1c5a23584db8a2f665b28af21ed4bb72" class="room indoor" data-label="sewer" x="380" y="455" width="8" height="8" rx="2"/>
+    <rect id="room-0cd09032eaae99d258b612e35518987408d1d742" class="room indoor" data-label="sewer" x="380" y="434" width="8" height="8" rx="2"/>
+    <rect id="room-5570489686653e971f0e351413945c13877d837e" class="room indoor" data-label="sewer" x="359" y="413" width="8" height="8" rx="2"/>
+    <rect id="room-3187110326197fcfc25439e11b1a46352b379b88" class="room indoor" data-label="sewer" x="338" y="392" width="8" height="8" rx="2"/>
+    <rect id="room-8e5aa8b58aa38445641b527bbc0182bd98d48b69" class="room indoor" data-label="sewer" x="317" y="413" width="8" height="8" rx="2"/>
+    <rect id="room-9a828544179954c0b7efcf4401039f22ea9189c2" class="room indoor" data-label="sewer" x="296" y="392" width="8" height="8" rx="2"/>
+    <rect id="room-c4f9703f0ce4e9e6d3d764c7447a55ccf33cc3eb" class="room indoor" data-label="sewer" x="317" y="371" width="8" height="8" rx="2"/>
+    <rect id="room-25feda6e213540089d84f183689ed1e9f11b644c" class="room indoor" data-label="sewer" x="254" y="392" width="8" height="8" rx="2"/>
+    <rect id="room-a3a45ca2924acf6cbd3902420ede762da6c9e83f" class="room indoor" data-label="sewer" x="275" y="413" width="8" height="8" rx="2"/>
+    <rect id="room-15f9dfb123ceb4f46c5c8f72c09019c531e2a53e" class="room indoor" data-label="sewer" x="275" y="434" width="8" height="8" rx="2"/>
+    <rect id="room-76591f208f01d2498c55db4b0ecda7901d408d2d" class="room indoor" data-label="sewer" x="296" y="455" width="8" height="8" rx="2"/>
+    <rect id="room-22f097493cdb43f882efce361f11dc470c33f642" class="room indoor" data-label="sewer" x="296" y="476" width="8" height="8" rx="2"/>
+    <rect id="room-dd5d93d81cd517266f3f57bd985b360b196c2940" class="room indoor" data-label="sewer" x="317" y="476" width="8" height="8" rx="2"/>
+    <rect id="room-f4562b5eda04574c5ce238dbde81935b7dec67a9" class="room indoor" data-label="sewer" x="275" y="476" width="8" height="8" rx="2"/>
+    <rect id="room-3b65116c8e301d2262f93d9b090f73a2c7819e98" class="room indoor" data-label="sewer" x="233" y="455" width="8" height="8" rx="2"/>
+    <rect id="room-22dc4c64614ec763b18ffe06bd87b363e26b7354" class="room indoor" data-label="sewer" x="233" y="434" width="8" height="8" rx="2"/>
+    <rect id="room-9053effb2adfc65723a4d638d99b191a6990c654" class="room indoor" data-label="sewer" x="233" y="413" width="8" height="8" rx="2"/>
+    <rect id="room-800d3f389d5e451f08d4e4c7b46b1ec9534d6e2b" class="room indoor" data-label="sewer" x="212" y="413" width="8" height="8" rx="2"/>
+    <rect id="room-37bd2c4c328658abc3becf4466cd8702d7cae22f" class="room indoor" data-label="sewer" x="191" y="392" width="8" height="8" rx="2"/>
+    <rect id="room-f4625a75ae76f1bc2692bba1d231a2288613af9b" class="room indoor" data-label="sewer" x="170" y="392" width="8" height="8" rx="2"/>
+    <rect id="room-082c8046f5dc08cc6af1e9cd29626992f3270b7a" class="room indoor" data-label="sewer" x="170" y="413" width="8" height="8" rx="2"/>
+    <rect id="room-c10e01fe4b460c9d9c5eccb5f354b116eb4cda67" class="room indoor" data-label="sewer" x="170" y="434" width="8" height="8" rx="2"/>
+    <rect id="room-140e9226649724a302e1d9a4f7c2bbb3997993c2" class="room indoor" data-label="sewer" x="212" y="371" width="8" height="8" rx="2"/>
+    <rect id="room-fc3e7f88232f42807dc40a163b69db16a1d03e67" class="room indoor" data-label="sewer" x="212" y="350" width="8" height="8" rx="2"/>
+    <rect id="room-ff3f734eac93bfdf682680c2fb7850f2f7183df9" class="room indoor" data-label="sewer" x="212" y="329" width="8" height="8" rx="2"/>
+    <rect id="room-4915a15cf69f0374651e9f2d0ef7aa754d6721e7" class="room indoor" data-label="sewer" x="233" y="350" width="8" height="8" rx="2"/>
+    <rect id="room-2f436669c4332fa8e5cb95f5c4920517ebef5b3b" class="room indoor" data-label="sewer" x="254" y="350" width="8" height="8" rx="2"/>
+    <rect id="room-9f9b28f9b1dbda671487576788d985599a7fcc2d" class="room indoor" data-label="sewer" x="275" y="350" width="8" height="8" rx="2"/>
+    <rect id="room-a6dfeb43268dd037b9ff68c1ce90b4e43abbb045" class="room indoor" data-label="sewer" x="254" y="329" width="8" height="8" rx="2"/>
+    <rect id="room-be6c039a89eb243d0dcf58ecd5c7a6887011086a" class="room indoor" data-label="sewer" x="233" y="308" width="8" height="8" rx="2"/>
+    <rect id="room-dba6f7c8487dcceecf663ea28bb7a866838b1c69" class="room indoor" data-label="sewer" x="233" y="287" width="8" height="8" rx="2"/>
+    <rect id="room-a143dd3de67843fc29acc322cd65816692942228" class="room indoor" data-label="sewer" x="212" y="266" width="8" height="8" rx="2"/>
+    <rect id="room-4b53f144a999aa2357e04a45a1a888686bbceff1" class="room indoor" data-label="sewer" x="191" y="245" width="8" height="8" rx="2"/>
+    <rect id="room-6322e6f9fed7697b533c8bd2bffc2695a3d6bd5f" class="room indoor" data-label="sewer" x="233" y="224" width="8" height="8" rx="2"/>
+    <rect id="room-577c9c2d1cd092d0094bdcb4efdbb5c29a31c549" class="room indoor" data-label="sewer" x="254" y="245" width="8" height="8" rx="2"/>
+    <rect id="room-759e024b5aa4d5951eef36b38a9fdbfd1220e65d" class="room indoor" data-label="sewer" x="254" y="266" width="8" height="8" rx="2"/>
+    <rect id="room-4ad01f4966a046d0fc9bffb8d45b51f4ed8b1a93" class="room indoor" data-label="sewer" x="275" y="266" width="8" height="8" rx="2"/>
+    <rect id="room-8c39aa3901ebb50fe945f5c9b75541d3473c4209" class="room indoor" data-label="sewer" x="296" y="245" width="8" height="8" rx="2"/>
+    <rect id="room-a7407b549044031ae621012c649bde8b9b505f3b" class="room indoor" data-label="sewer" x="317" y="266" width="8" height="8" rx="2"/>
+    <rect id="room-46d6b481a38f3d399af31c362e16ab330f2e7121" class="room indoor" data-label="sewer" x="338" y="287" width="8" height="8" rx="2"/>
+    <rect id="room-585be368ecaacb4fdf4cf414fd7a607ed76c39cc" class="room indoor" data-label="sewer" x="317" y="308" width="8" height="8" rx="2"/>
+    <rect id="room-1603d8b25e17ac782ae3d4c75daeb1d2bf82ea5d" class="room indoor" data-label="sewer" x="296" y="308" width="8" height="8" rx="2"/>
+    <rect id="room-727b398989f6ff891334088b5f33e5a1f7ca2db4" class="room indoor" data-label="sewer" x="275" y="308" width="8" height="8" rx="2"/>
+    <rect id="room-3c3cf3399417aaa41d3d128e48fce06ef8760d33" class="room indoor" data-label="sewer" x="317" y="329" width="8" height="8" rx="2"/>
+    <rect id="room-3b7e39f602c1374169b35daf0b4fa1e52f54d507" class="room indoor" data-label="sewer" x="317" y="350" width="8" height="8" rx="2"/>
+    <rect id="room-098096ae93d2b736de34f69a66747df4d2cb7bd1" class="room indoor" data-label="sewer" x="359" y="371" width="8" height="8" rx="2"/>
+    <rect id="room-94154c8f42ec1db067d023a6222537824ea3cdf0" class="room indoor" data-label="sewer" x="380" y="350" width="8" height="8" rx="2"/>
+    <rect id="room-68470b78fdccc4284c447344bbfd55baa9e73505" class="room indoor" data-label="sewer" x="359" y="329" width="8" height="8" rx="2"/>
+    <rect id="room-29abb48f11264696d67b0e7ed6d7dd5a5dd63ad2" class="room indoor" data-label="sewer" x="359" y="308" width="8" height="8" rx="2"/>
+    <rect id="room-6e8a0f11e9391425e29619c9fae8f8d09177e965" class="room indoor" data-label="sewer" x="401" y="371" width="8" height="8" rx="2"/>
+    <rect id="room-dbf96addcbfc058e91965fe0fdf8d59a50674947" class="room indoor" data-label="sewer" x="422" y="371" width="8" height="8" rx="2"/>
+    <rect id="room-a03f5fe73087e78240a0c483f430805c89f1eed1" class="room indoor" data-label="sewer" x="422" y="392" width="8" height="8" rx="2"/>
+    <rect id="room-53bda70b516887d61d64d4c2b62263256bea5274" class="room indoor" data-label="sewer" x="401" y="413" width="8" height="8" rx="2"/>
+    <rect id="room-21c28c077720ace4f73c7e6d332acc86aa48913f" class="room indoor" data-label="sewer" x="443" y="413" width="8" height="8" rx="2"/>
+    <rect id="room-eba926378b1130e3ac111734cbc479c70fb120c4" class="room indoor" data-label="sewer" x="443" y="434" width="8" height="8" rx="2"/>
+    <rect id="room-3efc4073bde9f2d17ac2302bbca2c567f9cab535" class="room indoor" data-label="sewer" x="443" y="455" width="8" height="8" rx="2"/>
+    <rect id="room-b20ebf74d401f203edd5707bfd13a71d12743d1a" class="room indoor" data-label="sewer" x="422" y="476" width="8" height="8" rx="2"/>
+    <rect id="room-354935178267b886cacf1e63dc61b6b87c7dfc86" class="room indoor" data-label="sewer" x="464" y="455" width="8" height="8" rx="2"/>
+    <rect id="room-cda0ae95ce2dfc460336ff4ebaefd53f343cab85" class="room indoor" data-label="sewer" x="485" y="455" width="8" height="8" rx="2"/>
+    <rect id="room-d6d2325f59cef7122f53662d6006086fcd667952" class="room indoor" data-label="sewer" x="506" y="476" width="8" height="8" rx="2"/>
+    <rect id="room-0466619fd7b785059a4e7d5533844bf25758f977" class="room indoor" data-label="sewer" x="485" y="497" width="8" height="8" rx="2"/>
+    <rect id="room-b39e6c6a9f42b7abe640eadda287675d12806152" class="room indoor" data-label="sewer" x="464" y="518" width="8" height="8" rx="2"/>
+    <rect id="room-74332e40b1a70883c019aed1b0ab87595db34f96" class="room indoor" data-label="sewer" x="485" y="434" width="8" height="8" rx="2"/>
+    <rect id="room-aa0e86892043413dc2884004e8804a124e84ced5" class="room indoor" data-label="sewer" x="506" y="434" width="8" height="8" rx="2"/>
+    <rect id="room-6cb912971c182ecd2b8bf48e4ed28a15ed9d86af" class="room indoor" data-label="sewer" x="506" y="413" width="8" height="8" rx="2"/>
+    <rect id="room-c3231a4217728f8a835c9c9dca8ecf3060d256dd" class="room indoor" data-label="sewer" x="485" y="392" width="8" height="8" rx="2"/>
+    <rect id="room-c181d0f215cb8c8d680015a475432c34e17f329c" class="room indoor" data-label="sewer" x="506" y="371" width="8" height="8" rx="2"/>
+    <rect id="room-46ad15bb44e9209a21d541d54eeac706183cc1b4" class="room indoor" data-label="sewer" x="527" y="371" width="8" height="8" rx="2"/>
+    <rect id="room-58af4c2f1e15c19b3ccf31876caac55cc2f2329c" class="room indoor" data-label="sewer" x="548" y="392" width="8" height="8" rx="2"/>
+    <rect id="room-777a08c9d7654a7791f39cf59c79858b66dae3e7" class="room indoor" data-label="sewer" x="548" y="413" width="8" height="8" rx="2"/>
+    <rect id="room-1217618e3e3df07eccecd75ecbb099e535ac14b0" class="room indoor" data-label="sewer" x="527" y="413" width="8" height="8" rx="2"/>
+    <rect id="room-e320d5b0bd2b8ea80550de9b7319e58a45cc1524" class="room indoor" data-label="sewer" x="506" y="350" width="8" height="8" rx="2"/>
+    <rect id="room-1fbf128322645b2ec06a8ada937cf86a9c54263a" class="room indoor" data-label="sewer" x="506" y="329" width="8" height="8" rx="2"/>
+    <rect id="room-fe2cb1ff57aa44847bb018b562f799b4bd158f2f" class="room indoor" data-label="sewer" x="485" y="308" width="8" height="8" rx="2"/>
+    <rect id="room-8f04ede6441d519fb749979432ea45a39be799c5" class="room indoor" data-label="sewer" x="506" y="287" width="8" height="8" rx="2"/>
+    <rect id="room-2176d4b542343e6882d9d7af4683ff81c30f3963" class="room indoor" data-label="sewer" x="485" y="266" width="8" height="8" rx="2"/>
+    <rect id="room-3a4c02ed97049bbc4f2182e4f4b1ca41ac575c74" class="room indoor" data-label="sewer" x="485" y="245" width="8" height="8" rx="2"/>
+    <rect id="room-c1367f1637792f1a5c130e455a6886e4f629ed62" class="room indoor" data-label="sewer" x="464" y="224" width="8" height="8" rx="2"/>
+    <rect id="room-878451f417bfa44d001b935e6de3c1616fef4d28" class="room indoor" data-label="sewer" x="464" y="266" width="8" height="8" rx="2"/>
+    <rect id="room-ed3b69305db9211c34e2463f8568f2780348ad6e" class="room indoor" data-label="sewer" x="443" y="287" width="8" height="8" rx="2"/>
+    <rect id="room-2ca7fe428056dc65f1369690dc8b10456ed59ef3" class="room indoor" data-label="sewer" x="422" y="266" width="8" height="8" rx="2"/>
+    <rect id="room-cb1b5a0d54162c41d78fea7c0573332c0e949e1a" class="room indoor" data-label="sewer" x="422" y="245" width="8" height="8" rx="2"/>
+    <rect id="room-4ed21e160f539ed06be849448171171fa38404de" class="room indoor" data-label="sewer" x="401" y="224" width="8" height="8" rx="2"/>
+    <rect id="room-02077bd654f2790d7a270ed0de0aca1c5dbe493e" class="room indoor" data-label="sewer" x="380" y="224" width="8" height="8" rx="2"/>
+    <rect id="room-9ef36c95ea53658219c2a67f78e4490dafbaf394" class="room indoor" data-label="sewer" x="380" y="203" width="8" height="8" rx="2"/>
+    <rect id="room-5f6f7500d66e0306675c02c87891faa00afac5bb" class="room indoor" data-label="sewer" x="359" y="245" width="8" height="8" rx="2"/>
+    <rect id="room-11823bb7ac8505323a6dd827b2a2036950e9654e" class="room indoor" data-label="sewer" x="380" y="266" width="8" height="8" rx="2"/>
+    <rect id="room-47dce51271800f8f89094b554d97eafc64f90504" class="room indoor" data-label="sewer" x="401" y="287" width="8" height="8" rx="2"/>
+    <rect id="room-ff3b62bd09594cd3239018b863d79e0d18fc2c8c" class="room indoor" data-label="sewer" x="401" y="329" width="8" height="8" rx="2"/>
+    <rect id="room-57b9a4f2505b8cf622d5e552fa14f8e4b56d90de" class="room indoor" data-label="sewer" x="443" y="350" width="8" height="8" rx="2"/>
+    <rect id="room-75e6f1f54179fe9d0a9b43169ac9bced4dcb5b3d" class="room indoor" data-label="sewer" x="464" y="329" width="8" height="8" rx="2"/>
+    <rect id="room-849548a0baf2296226b22064ec4b46914f87f0d2" class="room indoor" data-label="sewer" x="464" y="308" width="8" height="8" rx="2"/>
+    <rect id="room-1d81a1a495737be0182026c1b29c1da3783f7a86" class="room indoor" data-label="sewer" x="590" y="434" width="8" height="8" rx="2"/>
+    <rect id="room-99e8a71363f5f8a91222c563c0c486a09ff83aad" class="room indoor" data-label="sewer" x="611" y="455" width="8" height="8" rx="2"/>
+    <rect id="room-9930aad82f26b417e587156e33f31af6dee89132" class="room indoor" data-label="sewer" x="611" y="476" width="8" height="8" rx="2"/>
+    <rect id="room-cf65563b1dcf6b18f963d66eef40a5baed76608f" class="room indoor" data-label="sewer" x="590" y="497" width="8" height="8" rx="2"/>
+    <rect id="room-806926e2db9e886e2cf572f7686b7173cc031d88" class="room indoor" data-label="sewer" x="569" y="497" width="8" height="8" rx="2"/>
+    <rect id="room-12a3f93309562c5b9c2a10dba17c48aade330433" class="room indoor" data-label="sewer" x="569" y="476" width="8" height="8" rx="2"/>
+    <rect id="room-b2713d981c2c6d42d6c38f4e7bdbe03684c93aad" class="room indoor" data-label="sewer" x="569" y="455" width="8" height="8" rx="2"/>
+    <rect id="room-e328200930c60b3e0342342f069d5cfb330d3433" class="room indoor" data-label="sewer" x="548" y="497" width="8" height="8" rx="2"/>
+    <rect id="room-8fdc16da26bf3b3e364ca093c30d591d2c5b9214" class="room indoor" data-label="sewer" x="527" y="497" width="8" height="8" rx="2"/>
+    <rect id="room-38ca02dafb7e74b48b48ba4ebce9898ee117aba6" class="room indoor" data-label="sewer" x="527" y="518" width="8" height="8" rx="2"/>
+    <rect id="room-11b0912d5b1802913fb99b7ba0ecfee5df0e1695" class="room indoor" data-label="sewer" x="527" y="539" width="8" height="8" rx="2"/>
+    <rect id="room-96feb24bcb4b70e6b65eaf221868311f09825213" class="room indoor" data-label="sewer" x="506" y="560" width="8" height="8" rx="2"/>
+    <rect id="room-69ef6cb6df2c33522236f292a3ba1ab9a3595894" class="room indoor" data-label="sewer" x="548" y="539" width="8" height="8" rx="2"/>
+    <rect id="room-65256a917733bd474688fb98ef3ba4cd9e46930b" class="room indoor" data-label="sewer" x="569" y="560" width="8" height="8" rx="2"/>
+    <rect id="room-c5fabb1358587370a6294693623ee3a3dc42bd6b" class="room indoor" data-label="sewer" x="590" y="518" width="8" height="8" rx="2"/>
+    <rect id="room-a80dd24572e9b0cd91ba06033bd8c95372083cfd" class="room indoor" data-label="sewer" x="632" y="560" width="8" height="8" rx="2"/>
+    <rect id="room-a17e57a2a2f6d503fc4eeb351384c0c900d32e86" class="room indoor" data-label="sewer" x="611" y="539" width="8" height="8" rx="2"/>
+    <rect id="room-c67ee75c91efa89a885ad71a07d0aa05198b1c2e" class="room indoor" data-label="sewer" x="611" y="560" width="8" height="8" rx="2"/>
+    <rect id="room-42b26dbefaa16294824361d8a351f937d4d7023a" class="room indoor" data-label="sewer" x="590" y="581" width="8" height="8" rx="2"/>
+    <rect id="room-51ed1c22ebaa6637c35b99779232906577a0e4bb" class="room indoor" data-label="sewer" x="590" y="602" width="8" height="8" rx="2"/>
+    <rect id="room-8c4c8afa3f6de03a368bafd5007bdb0a31266015" class="room indoor" data-label="sewer" x="611" y="602" width="8" height="8" rx="2"/>
+    <rect id="room-5d088cedda9a579fdc6539f4d30339c72ef2a795" class="room indoor" data-label="sewer" x="632" y="602" width="8" height="8" rx="2"/>
+    <rect id="room-b3dd582cf3bd9761ff451ce51af5cca7ee5cb4c0" class="room indoor" data-label="sewer" x="569" y="623" width="8" height="8" rx="2"/>
+    <rect id="room-042e2f038aeede7588388b9c02515e1554a373c6" class="room indoor" data-label="sewer" x="611" y="623" width="8" height="8" rx="2"/>
+    <rect id="room-0e3262fb3a4ef58cd452c52dc89653e37e9d685c" class="room indoor" data-label="sewer" x="611" y="644" width="8" height="8" rx="2"/>
+    <rect id="room-8e9ef1a437a93da38c324a9ef5b2f9dc0e808c7e" class="room indoor" data-label="sewer" x="590" y="665" width="8" height="8" rx="2"/>
+    <rect id="room-db6f47ee44c39eca57fbaaeb47b19e8d263eb2b8" class="room indoor" data-label="sewer" x="569" y="665" width="8" height="8" rx="2"/>
+    <rect id="room-baa2ae64d57734b75121fe8109b50664ef33943f" class="room indoor" data-label="sewer" x="548" y="665" width="8" height="8" rx="2"/>
+    <rect id="room-065895b5b23b868bbbe1d9121902a6d58837af95" class="room indoor" data-label="sewer" x="527" y="686" width="8" height="8" rx="2"/>
+    <rect id="room-53967c1e97c1e4f0bd36e8f061d58ea608377ba1" class="room indoor" data-label="sewer" x="506" y="665" width="8" height="8" rx="2"/>
+    <rect id="room-7e029660049eab14f9a3b3d88f37f265dc761fec" class="room indoor" data-label="sewer" x="485" y="644" width="8" height="8" rx="2"/>
+    <rect id="room-1fa5ca4cb1f62117d35cd8599375e9abd45d196c" class="room indoor" data-label="sewer" x="485" y="623" width="8" height="8" rx="2"/>
+    <rect id="room-018cb70121f4ac7093927a6e37c6024334c206b6" class="room indoor" data-label="sewer" x="485" y="602" width="8" height="8" rx="2"/>
+    <rect id="room-9eedebef33a0027b380c3b0cf1e7756bdfae8a9d" class="room indoor" data-label="sewer" x="485" y="581" width="8" height="8" rx="2"/>
+    <rect id="room-e1973a3265b394eae81cc0b8f8050bdff81deddd" class="room indoor" data-label="sewer" x="506" y="602" width="8" height="8" rx="2"/>
+    <rect id="room-f95bf37a5adf7662814c95b06c5e30f94fd34bc0" class="room indoor" data-label="sewer" x="527" y="602" width="8" height="8" rx="2"/>
+    <rect id="room-76aa27b4486040ec2be2559a15f2de8908260e21" class="room indoor" data-label="sewer" x="548" y="623" width="8" height="8" rx="2"/>
+    <rect id="room-4d027a7f7ca5f1799ebaf3c9369768b06c7cfe0a" class="room indoor" data-label="sewer" x="548" y="581" width="8" height="8" rx="2"/>
+    <rect id="room-7fc65c4a519ed59c1d0a3d1270c733030bf54845" class="room indoor" data-label="sewer" x="359" y="581" width="8" height="8" rx="2"/>
+    <rect id="room-dcb84804e11b4c077e225d70eb528843fca38136" class="room indoor" data-label="sewer" x="338" y="581" width="8" height="8" rx="2"/>
+    <rect id="room-eb01332bf0f0eba27ae6359d2be0e88e36b4f393" class="room indoor" data-label="sewer" x="359" y="560" width="8" height="8" rx="2"/>
+    <rect id="room-712c21b23ead82c0976687231b2057de17f86b63" class="room indoor" data-label="sewer" x="338" y="539" width="8" height="8" rx="2"/>
+    <rect id="room-73b2d7bfa1a119dda1e73a86558e46d2110f21b1" class="room indoor" data-label="sewer" x="317" y="518" width="8" height="8" rx="2"/>
+    <rect id="room-ee057195ebabb2ea1c20a71b70a019a425ac085f" class="room indoor" data-label="sewer" x="317" y="497" width="8" height="8" rx="2"/>
+    <rect id="room-e50853e8d7fc5a792175dd9a878b03c9994c4a6a" class="room indoor" data-label="sewer" x="338" y="497" width="8" height="8" rx="2"/>
+    <rect id="room-0c63d95af8ec4dc179a558a74a4f22401f7cd16c" class="room indoor" data-label="sewer" x="149" y="287" width="8" height="8" rx="2"/>
+    <rect id="room-5ec0c2f09b6f6ea647dac157fe82e43944015e4a" class="room indoor" data-label="sewer" x="149" y="308" width="8" height="8" rx="2"/>
+    <rect id="room-19e6166d7304f2e7025805fa43a441f65ae2dff5" class="room indoor" data-label="sewer" x="506" y="140" width="8" height="8" rx="2"/>
+    <rect id="room-67292d7dc8f3b8e95585201cd7138aae446f69a6" class="room indoor" data-label="sewer" x="506" y="161" width="8" height="8" rx="2"/>
+    <rect id="room-0588bc7820b359b4184042cc7237e2de5e261dab" class="room indoor" data-label="inside of the shadowy hut" x="737" y="80" width="8" height="8" rx="2"/>
+    <rect id="room-8b0743e4004225f1807c6e423b6821ac043d777a" class="room indoor" data-label="entrance to a secret place" x="758" y="80" width="8" height="8" rx="2"/>
+    <rect id="room-440426c9813595a71217ec1ec6cc5ccedaa51a95" class="room indoor" data-label="dark shower stall" x="758" y="59" width="8" height="8" rx="2"/>
+    <rect id="room-5ccecf310d116964b585d8286b8b5e7f692fad40" class="room indoor" data-label="place to mingle" x="779" y="80" width="8" height="8" rx="2"/>
+    <rect id="room-42e7d7af6ffa43b1a0317d4d8f1cc8fcea1e7bab" class="room indoor" data-label="cramped shop" x="800" y="80" width="8" height="8" rx="2"/>
+    <rect id="room-d5a77a58764294bdae7a1bb86f57381f8ff4d776" class="room indoor" data-label="launder room" x="821" y="80" width="8" height="8" rx="2"/>
+    <rect id="room-14aacf58544594bf6231b5cd74f1dabb4e09786f" class="room indoor" data-label="main office of Genua Thieves Guild." x="779" y="101" width="8" height="8" rx="2"/>
+    <rect id="room-4fae7cccf50e2551579ea8e5d22d9153b4415792" class="room indoor" data-label="sewer" x="359" y="35" width="8" height="8" rx="2"/>
+    <rect id="room-92efe39a8cb9df88500bcf31baaa4ff90905ea59" class="room indoor" data-label="sewer" x="359" y="14" width="8" height="8" rx="2"/>
   </g>
 
-  <g id="layer-labels">
-    <text class="map-label" x="195" y="594">sewer</text>
-    <text class="map-label" x="300" y="573">sewer</text>
-    <text class="map-label" x="363" y="468">sewer</text>
-    <text class="map-label" x="279" y="363">sewer</text>
-    <text class="map-label" x="174" y="258">sewer</text>
-    <text class="map-label" x="237" y="174">sewer</text>
-    <text class="map-label" x="279" y="48">sewer</text>
-    <text class="map-label" x="321" y="90">sewer</text>
-    <text class="map-label" x="552" y="153">sewer</text>
-    <text class="map-label" x="699" y="90">sewer</text>
-    <text class="map-label" x="783" y="132">west side of the underground docks</text>
-    <text class="map-label" x="783" y="111">northwest corner of the underground docks</text>
-    <text class="map-label" x="804" y="111">northeast corner of the underground docks</text>
-    <text class="map-label" x="825" y="111">winch room</text>
-    <text class="map-label" x="804" y="132">underground harbour</text>
-    <text class="map-label" x="804" y="153">southeast corner of the underground docks</text>
-    <text class="map-label" x="783" y="153">southwest corner of the underground docks</text>
-    <text class="map-label" x="762" y="153">untidy office</text>
-    <text class="map-label" x="741" y="153">comfortable office</text>
-    <text class="map-label" x="741" y="195">sewer</text>
-    <text class="map-label" x="699" y="384">sewer</text>
-    <text class="map-label" x="699" y="573">sewer</text>
-    <text class="map-label" x="573" y="426">sewer</text>
-    <text class="map-label" x="447" y="531">sewer</text>
-    <text class="map-label" x="405" y="300">sewer</text>
-    <text class="map-label" x="342" y="237">sewer</text>
-    <text class="map-label" x="594" y="279">sewer</text>
-    <text class="map-label" x="615" y="405">dank underground area</text>
-    <text class="map-label" x="615" y="384">dank underground area</text>
-    <text class="map-label" x="594" y="405">dank underground area</text>
-    <text class="map-label" x="573" y="405">dank underground area</text>
-    <text class="map-label" x="573" y="384">dank underground area</text>
-    <text class="map-label" x="615" y="258">sewer</text>
-    <text class="map-label" x="636" y="258">sewer</text>
-    <text class="map-label" x="657" y="237">sewer</text>
-    <text class="map-label" x="657" y="216">sewer</text>
-    <text class="map-label" x="657" y="195">sewer</text>
-    <text class="map-label" x="678" y="174">sewer</text>
-    <text class="map-label" x="699" y="174">sewer</text>
-    <text class="map-label" x="720" y="174">sewer</text>
-    <text class="map-label" x="720" y="216">sewer</text>
-    <text class="map-label" x="699" y="216">sewer</text>
-    <text class="map-label" x="678" y="237">sewer</text>
-    <text class="map-label" x="699" y="258">sewer</text>
-    <text class="map-label" x="720" y="258">sewer</text>
-    <text class="map-label" x="741" y="237">sewer</text>
-    <text class="map-label" x="762" y="195">sewer</text>
-    <text class="map-label" x="783" y="174">sewer</text>
-    <text class="map-label" x="762" y="132">sewer</text>
-    <text class="map-label" x="741" y="132">sewer</text>
-    <text class="map-label" x="720" y="111">sewer</text>
-    <text class="map-label" x="699" y="132">sewer</text>
-    <text class="map-label" x="678" y="153">sewer</text>
-    <text class="map-label" x="678" y="69">sewer</text>
-    <text class="map-label" x="657" y="48">sewer</text>
-    <text class="map-label" x="636" y="48">sewer</text>
-    <text class="map-label" x="615" y="48">sewer</text>
-    <text class="map-label" x="615" y="27">sewer</text>
-    <text class="map-label" x="594" y="27">sewer</text>
-    <text class="map-label" x="573" y="6">sewer</text>
-    <text class="map-label" x="552" y="27">sewer</text>
-    <text class="map-label" x="552" y="48">sewer</text>
-    <text class="map-label" x="552" y="69">sewer</text>
-    <text class="map-label" x="573" y="69">sewer</text>
-    <text class="map-label" x="594" y="69">sewer</text>
-    <text class="map-label" x="594" y="90">sewer</text>
-    <text class="map-label" x="615" y="111">sewer</text>
-    <text class="map-label" x="636" y="132">sewer</text>
-    <text class="map-label" x="657" y="132">sewer</text>
-    <text class="map-label" x="657" y="111">sewer</text>
-    <text class="map-label" x="657" y="90">sewer</text>
-    <text class="map-label" x="636" y="153">sewer</text>
-    <text class="map-label" x="615" y="174">sewer</text>
-    <text class="map-label" x="615" y="195">sewer</text>
-    <text class="map-label" x="615" y="216">sewer</text>
-    <text class="map-label" x="594" y="237">sewer</text>
-    <text class="map-label" x="636" y="279">sewer</text>
-    <text class="map-label" x="636" y="300">sewer</text>
-    <text class="map-label" x="657" y="300">sewer</text>
-    <text class="map-label" x="678" y="300">sewer</text>
-    <text class="map-label" x="699" y="321">sewer</text>
-    <text class="map-label" x="720" y="321">sewer</text>
-    <text class="map-label" x="720" y="300">sewer</text>
-    <text class="map-label" x="720" y="279">sewer</text>
-    <text class="map-label" x="678" y="342">sewer</text>
-    <text class="map-label" x="657" y="321">sewer</text>
-    <text class="map-label" x="678" y="363">sewer</text>
-    <text class="map-label" x="699" y="405">sewer</text>
-    <text class="map-label" x="720" y="405">sewer</text>
-    <text class="map-label" x="720" y="426">sewer</text>
-    <text class="map-label" x="720" y="447">sewer</text>
-    <text class="map-label" x="720" y="468">sewer</text>
-    <text class="map-label" x="741" y="468">sewer</text>
-    <text class="map-label" x="762" y="468">sewer</text>
-    <text class="map-label" x="783" y="489">sewer</text>
-    <text class="map-label" x="762" y="510">sewer</text>
-    <text class="map-label" x="783" y="531">sewer</text>
-    <text class="map-label" x="783" y="552">sewer</text>
-    <text class="map-label" x="762" y="552">sewer</text>
-    <text class="map-label" x="741" y="552">sewer</text>
-    <text class="map-label" x="741" y="573">sewer</text>
-    <text class="map-label" x="720" y="573">sewer</text>
-    <text class="map-label" x="678" y="573">sewer</text>
-    <text class="map-label" x="657" y="594">sewer</text>
-    <text class="map-label" x="678" y="552">sewer</text>
-    <text class="map-label" x="657" y="531">sewer</text>
-    <text class="map-label" x="678" y="510">sewer</text>
-    <text class="map-label" x="699" y="489">sewer</text>
-    <text class="map-label" x="720" y="510">sewer</text>
-    <text class="map-label" x="720" y="531">sewer</text>
-    <text class="map-label" x="678" y="468">sewer</text>
-    <text class="map-label" x="657" y="447">sewer</text>
-    <text class="map-label" x="636" y="426">sewer</text>
-    <text class="map-label" x="636" y="405">sewer</text>
-    <text class="map-label" x="636" y="384">sewer</text>
-    <text class="map-label" x="657" y="384">sewer</text>
-    <text class="map-label" x="678" y="405">sewer</text>
-    <text class="map-label" x="615" y="363">sewer</text>
-    <text class="map-label" x="636" y="342">sewer</text>
-    <text class="map-label" x="594" y="342">sewer</text>
-    <text class="map-label" x="573" y="321">sewer</text>
-    <text class="map-label" x="573" y="300">sewer</text>
-    <text class="map-label" x="552" y="321">sewer</text>
-    <text class="map-label" x="531" y="300">sewer</text>
-    <text class="map-label" x="531" y="279">sewer</text>
-    <text class="map-label" x="531" y="258">sewer</text>
-    <text class="map-label" x="552" y="237">sewer</text>
-    <text class="map-label" x="573" y="237">sewer</text>
-    <text class="map-label" x="573" y="216">sewer</text>
-    <text class="map-label" x="573" y="195">sewer</text>
-    <text class="map-label" x="552" y="195">sewer</text>
-    <text class="map-label" x="531" y="216">sewer</text>
-    <text class="map-label" x="531" y="174">sewer</text>
-    <text class="map-label" x="573" y="132">sewer</text>
-    <text class="map-label" x="594" y="153">sewer</text>
-    <text class="map-label" x="573" y="111">sewer</text>
-    <text class="map-label" x="531" y="27">sewer</text>
-    <text class="map-label" x="510" y="27">sewer</text>
-    <text class="map-label" x="489" y="27">sewer</text>
-    <text class="map-label" x="468" y="6">sewer</text>
-    <text class="map-label" x="447" y="6">sewer</text>
-    <text class="map-label" x="426" y="6">sewer</text>
-    <text class="map-label" x="405" y="27">sewer</text>
-    <text class="map-label" x="384" y="27">sewer</text>
-    <text class="map-label" x="342" y="6">sewer</text>
-    <text class="map-label" x="321" y="27">sewer</text>
-    <text class="map-label" x="321" y="48">sewer</text>
-    <text class="map-label" x="300" y="69">sewer</text>
-    <text class="map-label" x="300" y="90">sewer</text>
-    <text class="map-label" x="342" y="90">sewer</text>
-    <text class="map-label" x="363" y="90">sewer</text>
-    <text class="map-label" x="384" y="69">sewer</text>
-    <text class="map-label" x="405" y="69">sewer</text>
-    <text class="map-label" x="405" y="48">sewer</text>
-    <text class="map-label" x="426" y="69">sewer</text>
-    <text class="map-label" x="426" y="90">sewer</text>
-    <text class="map-label" x="426" y="111">sewer</text>
-    <text class="map-label" x="447" y="111">sewer</text>
-    <text class="map-label" x="468" y="111">sewer</text>
-    <text class="map-label" x="468" y="90">sewer</text>
-    <text class="map-label" x="489" y="69">sewer</text>
-    <text class="map-label" x="468" y="48">sewer</text>
-    <text class="map-label" x="489" y="111">sewer</text>
-    <text class="map-label" x="510" y="111">sewer</text>
-    <text class="map-label" x="531" y="90">sewer</text>
-    <text class="map-label" x="447" y="132">sewer</text>
-    <text class="map-label" x="447" y="153">sewer</text>
-    <text class="map-label" x="468" y="153">sewer</text>
-    <text class="map-label" x="468" y="174">sewer</text>
-    <text class="map-label" x="447" y="195">sewer</text>
-    <text class="map-label" x="426" y="174">sewer</text>
-    <text class="map-label" x="405" y="174">sewer</text>
-    <text class="map-label" x="384" y="174">sewer</text>
-    <text class="map-label" x="384" y="153">sewer</text>
-    <text class="map-label" x="384" y="132">sewer</text>
-    <text class="map-label" x="405" y="132">sewer</text>
-    <text class="map-label" x="405" y="111">sewer</text>
-    <text class="map-label" x="363" y="132">sewer</text>
-    <text class="map-label" x="342" y="132">sewer</text>
-    <text class="map-label" x="342" y="111">sewer</text>
-    <text class="map-label" x="342" y="153">sewer</text>
-    <text class="map-label" x="342" y="174">sewer</text>
-    <text class="map-label" x="363" y="174">sewer</text>
-    <text class="map-label" x="321" y="195">sewer</text>
-    <text class="map-label" x="300" y="216">sewer</text>
-    <text class="map-label" x="279" y="195">sewer</text>
-    <text class="map-label" x="279" y="174">sewer</text>
-    <text class="map-label" x="279" y="153">sewer</text>
-    <text class="map-label" x="279" y="132">sewer</text>
-    <text class="map-label" x="300" y="111">sewer</text>
-    <text class="map-label" x="258" y="69">sewer</text>
-    <text class="map-label" x="237" y="69">sewer</text>
-    <text class="map-label" x="216" y="90">sewer</text>
-    <text class="map-label" x="195" y="111">sewer</text>
-    <text class="map-label" x="195" y="132">sewer</text>
-    <text class="map-label" x="216" y="153">sewer</text>
-    <text class="map-label" x="237" y="132">sewer</text>
-    <text class="map-label" x="258" y="132">sewer</text>
-    <text class="map-label" x="216" y="195">sewer</text>
-    <text class="map-label" x="195" y="216">sewer</text>
-    <text class="map-label" x="174" y="195">sewer</text>
-    <text class="map-label" x="153" y="174">sewer</text>
-    <text class="map-label" x="153" y="153">sewer</text>
-    <text class="map-label" x="174" y="153">sewer</text>
-    <text class="map-label" x="132" y="195">sewer</text>
-    <text class="map-label" x="132" y="216">sewer</text>
-    <text class="map-label" x="132" y="237">sewer</text>
-    <text class="map-label" x="132" y="258">sewer</text>
-    <text class="map-label" x="132" y="279">sewer</text>
-    <text class="map-label" x="111" y="300">sewer</text>
-    <text class="map-label" x="132" y="321">sewer</text>
-    <text class="map-label" x="153" y="321">sewer</text>
-    <text class="map-label" x="132" y="342">sewer</text>
-    <text class="map-label" x="132" y="363">sewer</text>
-    <text class="map-label" x="153" y="363">sewer</text>
-    <text class="map-label" x="153" y="384">sewer</text>
-    <text class="map-label" x="132" y="405">sewer</text>
-    <text class="map-label" x="111" y="405">sewer</text>
-    <text class="map-label" x="111" y="426">sewer</text>
-    <text class="map-label" x="111" y="447">sewer</text>
-    <text class="map-label" x="132" y="447">sewer</text>
-    <text class="map-label" x="153" y="447">sewer</text>
-    <text class="map-label" x="153" y="468">sewer</text>
-    <text class="map-label" x="153" y="489">sewer</text>
-    <text class="map-label" x="174" y="510">sewer</text>
-    <text class="map-label" x="174" y="531">sewer</text>
-    <text class="map-label" x="195" y="552">sewer</text>
-    <text class="map-label" x="216" y="573">sewer</text>
-    <text class="map-label" x="237" y="573">sewer</text>
-    <text class="map-label" x="258" y="594">sewer</text>
-    <text class="map-label" x="237" y="615">sewer</text>
-    <text class="map-label" x="216" y="615">sewer</text>
-    <text class="map-label" x="195" y="489">sewer</text>
-    <text class="map-label" x="216" y="468">sewer</text>
-    <text class="map-label" x="237" y="468">sewer</text>
-    <text class="map-label" x="258" y="468">sewer</text>
-    <text class="map-label" x="258" y="489">sewer</text>
-    <text class="map-label" x="237" y="510">sewer</text>
-    <text class="map-label" x="237" y="531">sewer</text>
-    <text class="map-label" x="258" y="552">sewer</text>
-    <text class="map-label" x="279" y="552">sewer</text>
-    <text class="map-label" x="321" y="573">sewer</text>
-    <text class="map-label" x="279" y="615">sewer</text>
-    <text class="map-label" x="300" y="615">sewer</text>
-    <text class="map-label" x="321" y="636">sewer</text>
-    <text class="map-label" x="321" y="657">sewer</text>
-    <text class="map-label" x="342" y="678">sewer</text>
-    <text class="map-label" x="363" y="678">sewer</text>
-    <text class="map-label" x="384" y="657">sewer</text>
-    <text class="map-label" x="405" y="657">sewer</text>
-    <text class="map-label" x="426" y="678">sewer</text>
-    <text class="map-label" x="447" y="678">sewer</text>
-    <text class="map-label" x="468" y="657">sewer</text>
-    <text class="map-label" x="468" y="636">sewer</text>
-    <text class="map-label" x="447" y="636">sewer</text>
-    <text class="map-label" x="426" y="636">sewer</text>
-    <text class="map-label" x="405" y="615">sewer</text>
-    <text class="map-label" x="405" y="594">sewer</text>
-    <text class="map-label" x="384" y="594">sewer</text>
-    <text class="map-label" x="363" y="594">sewer</text>
-    <text class="map-label" x="342" y="615">sewer</text>
-    <text class="map-label" x="342" y="636">sewer</text>
-    <text class="map-label" x="447" y="615">sewer</text>
-    <text class="map-label" x="447" y="594">sewer</text>
-    <text class="map-label" x="447" y="573">sewer</text>
-    <text class="map-label" x="426" y="552">sewer</text>
-    <text class="map-label" x="405" y="531">sewer</text>
-    <text class="map-label" x="405" y="510">sewer</text>
-    <text class="map-label" x="405" y="489">sewer</text>
-    <text class="map-label" x="405" y="468">sewer</text>
-    <text class="map-label" x="384" y="447">sewer</text>
-    <text class="map-label" x="384" y="426">sewer</text>
-    <text class="map-label" x="363" y="405">sewer</text>
-    <text class="map-label" x="342" y="384">sewer</text>
-    <text class="map-label" x="321" y="405">sewer</text>
-    <text class="map-label" x="300" y="384">sewer</text>
-    <text class="map-label" x="321" y="363">sewer</text>
-    <text class="map-label" x="258" y="384">sewer</text>
-    <text class="map-label" x="279" y="405">sewer</text>
-    <text class="map-label" x="279" y="426">sewer</text>
-    <text class="map-label" x="300" y="447">sewer</text>
-    <text class="map-label" x="300" y="468">sewer</text>
-    <text class="map-label" x="321" y="468">sewer</text>
-    <text class="map-label" x="279" y="468">sewer</text>
-    <text class="map-label" x="237" y="447">sewer</text>
-    <text class="map-label" x="237" y="426">sewer</text>
-    <text class="map-label" x="237" y="405">sewer</text>
-    <text class="map-label" x="216" y="405">sewer</text>
-    <text class="map-label" x="195" y="384">sewer</text>
-    <text class="map-label" x="174" y="384">sewer</text>
-    <text class="map-label" x="174" y="405">sewer</text>
-    <text class="map-label" x="174" y="426">sewer</text>
-    <text class="map-label" x="216" y="363">sewer</text>
-    <text class="map-label" x="216" y="342">sewer</text>
-    <text class="map-label" x="216" y="321">sewer</text>
-    <text class="map-label" x="237" y="342">sewer</text>
-    <text class="map-label" x="258" y="342">sewer</text>
-    <text class="map-label" x="279" y="342">sewer</text>
-    <text class="map-label" x="258" y="321">sewer</text>
-    <text class="map-label" x="237" y="300">sewer</text>
-    <text class="map-label" x="237" y="279">sewer</text>
-    <text class="map-label" x="216" y="258">sewer</text>
-    <text class="map-label" x="195" y="237">sewer</text>
-    <text class="map-label" x="237" y="216">sewer</text>
-    <text class="map-label" x="258" y="237">sewer</text>
-    <text class="map-label" x="258" y="258">sewer</text>
-    <text class="map-label" x="279" y="258">sewer</text>
-    <text class="map-label" x="300" y="237">sewer</text>
-    <text class="map-label" x="321" y="258">sewer</text>
-    <text class="map-label" x="342" y="279">sewer</text>
-    <text class="map-label" x="321" y="300">sewer</text>
-    <text class="map-label" x="300" y="300">sewer</text>
-    <text class="map-label" x="279" y="300">sewer</text>
-    <text class="map-label" x="321" y="321">sewer</text>
-    <text class="map-label" x="321" y="342">sewer</text>
-    <text class="map-label" x="363" y="363">sewer</text>
-    <text class="map-label" x="384" y="342">sewer</text>
-    <text class="map-label" x="363" y="321">sewer</text>
-    <text class="map-label" x="363" y="300">sewer</text>
-    <text class="map-label" x="405" y="363">sewer</text>
-    <text class="map-label" x="426" y="363">sewer</text>
-    <text class="map-label" x="426" y="384">sewer</text>
-    <text class="map-label" x="405" y="405">sewer</text>
-    <text class="map-label" x="447" y="405">sewer</text>
-    <text class="map-label" x="447" y="426">sewer</text>
-    <text class="map-label" x="447" y="447">sewer</text>
-    <text class="map-label" x="426" y="468">sewer</text>
-    <text class="map-label" x="468" y="447">sewer</text>
-    <text class="map-label" x="489" y="447">sewer</text>
-    <text class="map-label" x="510" y="468">sewer</text>
-    <text class="map-label" x="489" y="489">sewer</text>
-    <text class="map-label" x="468" y="510">sewer</text>
-    <text class="map-label" x="489" y="426">sewer</text>
-    <text class="map-label" x="510" y="426">sewer</text>
-    <text class="map-label" x="510" y="405">sewer</text>
-    <text class="map-label" x="489" y="384">sewer</text>
-    <text class="map-label" x="510" y="363">sewer</text>
-    <text class="map-label" x="531" y="363">sewer</text>
-    <text class="map-label" x="552" y="384">sewer</text>
-    <text class="map-label" x="552" y="405">sewer</text>
-    <text class="map-label" x="531" y="405">sewer</text>
-    <text class="map-label" x="510" y="342">sewer</text>
-    <text class="map-label" x="510" y="321">sewer</text>
-    <text class="map-label" x="489" y="300">sewer</text>
-    <text class="map-label" x="510" y="279">sewer</text>
-    <text class="map-label" x="489" y="258">sewer</text>
-    <text class="map-label" x="489" y="237">sewer</text>
-    <text class="map-label" x="468" y="216">sewer</text>
-    <text class="map-label" x="468" y="258">sewer</text>
-    <text class="map-label" x="447" y="279">sewer</text>
-    <text class="map-label" x="426" y="258">sewer</text>
-    <text class="map-label" x="426" y="237">sewer</text>
-    <text class="map-label" x="405" y="216">sewer</text>
-    <text class="map-label" x="384" y="216">sewer</text>
-    <text class="map-label" x="384" y="195">sewer</text>
-    <text class="map-label" x="363" y="237">sewer</text>
-    <text class="map-label" x="384" y="258">sewer</text>
-    <text class="map-label" x="405" y="279">sewer</text>
-    <text class="map-label" x="405" y="321">sewer</text>
-    <text class="map-label" x="447" y="342">sewer</text>
-    <text class="map-label" x="468" y="321">sewer</text>
-    <text class="map-label" x="468" y="300">sewer</text>
-    <text class="map-label" x="594" y="426">sewer</text>
-    <text class="map-label" x="615" y="447">sewer</text>
-    <text class="map-label" x="615" y="468">sewer</text>
-    <text class="map-label" x="594" y="489">sewer</text>
-    <text class="map-label" x="573" y="489">sewer</text>
-    <text class="map-label" x="573" y="468">sewer</text>
-    <text class="map-label" x="573" y="447">sewer</text>
-    <text class="map-label" x="552" y="489">sewer</text>
-    <text class="map-label" x="531" y="489">sewer</text>
-    <text class="map-label" x="531" y="510">sewer</text>
-    <text class="map-label" x="531" y="531">sewer</text>
-    <text class="map-label" x="510" y="552">sewer</text>
-    <text class="map-label" x="552" y="531">sewer</text>
-    <text class="map-label" x="573" y="552">sewer</text>
-    <text class="map-label" x="594" y="510">sewer</text>
-    <text class="map-label" x="636" y="552">sewer</text>
-    <text class="map-label" x="615" y="531">sewer</text>
-    <text class="map-label" x="615" y="552">sewer</text>
-    <text class="map-label" x="594" y="573">sewer</text>
-    <text class="map-label" x="594" y="594">sewer</text>
-    <text class="map-label" x="615" y="594">sewer</text>
-    <text class="map-label" x="636" y="594">sewer</text>
-    <text class="map-label" x="573" y="615">sewer</text>
-    <text class="map-label" x="615" y="615">sewer</text>
-    <text class="map-label" x="615" y="636">sewer</text>
-    <text class="map-label" x="594" y="657">sewer</text>
-    <text class="map-label" x="573" y="657">sewer</text>
-    <text class="map-label" x="552" y="657">sewer</text>
-    <text class="map-label" x="531" y="678">sewer</text>
-    <text class="map-label" x="510" y="657">sewer</text>
-    <text class="map-label" x="489" y="636">sewer</text>
-    <text class="map-label" x="489" y="615">sewer</text>
-    <text class="map-label" x="489" y="594">sewer</text>
-    <text class="map-label" x="489" y="573">sewer</text>
-    <text class="map-label" x="510" y="594">sewer</text>
-    <text class="map-label" x="531" y="594">sewer</text>
-    <text class="map-label" x="552" y="615">sewer</text>
-    <text class="map-label" x="552" y="573">sewer</text>
-    <text class="map-label" x="363" y="573">sewer</text>
-    <text class="map-label" x="342" y="573">sewer</text>
-    <text class="map-label" x="363" y="552">sewer</text>
-    <text class="map-label" x="342" y="531">sewer</text>
-    <text class="map-label" x="321" y="510">sewer</text>
-    <text class="map-label" x="321" y="489">sewer</text>
-    <text class="map-label" x="342" y="489">sewer</text>
-    <text class="map-label" x="153" y="279">sewer</text>
-    <text class="map-label" x="153" y="300">sewer</text>
-    <text class="map-label" x="510" y="132">sewer</text>
-    <text class="map-label" x="510" y="153">sewer</text>
-    <text class="map-label" x="741" y="72">inside of the shadowy hut</text>
-    <text class="map-label" x="762" y="72">entrance to a secret place</text>
-    <text class="map-label" x="762" y="51">dark shower stall</text>
-    <text class="map-label" x="783" y="72">place to mingle</text>
-    <text class="map-label" x="804" y="72">cramped shop</text>
-    <text class="map-label" x="825" y="72">launder room</text>
-    <text class="map-label" x="783" y="93">main office of Genua Thieves Guild.</text>
-    <text class="map-label" x="363" y="27">sewer</text>
-    <text class="map-label" x="363" y="6">sewer</text>
-  </g>
+  <g id="layer-labels"><!-- labels --></g>
 
 </svg>

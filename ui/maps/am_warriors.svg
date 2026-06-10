@@ -27,47 +27,27 @@
   </g>
 
   <g id="layer-rooms">
-    <rect id="room-22cb1754a73395759e82a1dbe8c51dd8be5b9401" class="room indoor" data-label="Weapon Masters&#x27; Court&#x27;s bar" x="393" y="103" width="16" height="16" rx="4"/>
-    <rect id="room-4eac413f2e3a4a44f3a673ecdb0dbe4683b4fab4" class="room indoor" data-label="Weapon Masters&#x27; Court recruitment centre" x="393" y="127" width="16" height="16" rx="4"/>
-    <rect id="room-65f5f055eef03f846ef0198c397d03bea70cb675" class="room indoor" data-label="fighting pit" x="393" y="151" width="16" height="16" rx="4"/>
-    <rect id="room-591fbb893e9e0fc9876b9144467cd498b5616578" class="room indoor" data-label="Weapon Masters&#x27; Court practice centre" x="425" y="127" width="16" height="16" rx="4"/>
-    <rect id="room-305627fd4ae44deb99a08820224b4a7acc719b8b" class="room indoor" data-label="Weapon Masters&#x27; Court smithy" x="425" y="151" width="16" height="16" rx="4"/>
-    <rect id="room-62f6b3f50ef49ca7fd8105ecf96764e0b1a9463a" class="room indoor" data-label="Weapon Masters&#x27; Court armoury" x="425" y="103" width="16" height="16" rx="4"/>
-    <rect id="room-f3a806329d4a147a45597c3983851736f4479446" class="room indoor" data-label="landing" x="481" y="102" width="16" height="16" rx="4"/>
-    <rect id="room-e4f74aa8c18b572fc5d7ccb7f560e9a722ae11b6" class="room indoor" data-label="balcony" x="457" y="103" width="16" height="16" rx="4"/>
-    <rect id="room-d5b54f04904f81f73dbec4da0bd5d263b3910d77" class="room indoor" data-label="lobby of the Palace Guard" x="127" y="97" width="16" height="16" rx="4"/>
-    <rect id="room-4711f12f0554ca2a531c485a87f4dd115da8e20d" class="room indoor" data-label="Palace Guard message room" x="103" y="73" width="16" height="16" rx="4"/>
-    <rect id="room-2b1f073a1de9cee7708c98fbf5d54182d57ebc96" class="room indoor" data-label="northern corner of a courtyard" x="103" y="121" width="16" height="16" rx="4"/>
-    <rect id="room-597206ad46db04edee523461b0849d14a535d1fe" class="room indoor" data-label="Palace Guard training area" x="79" y="97" width="16" height="16" rx="4"/>
-    <rect id="room-337a7e6f801aa9937ab51c3822fee16cad0d2cc7" class="room indoor" data-label="arena for armed combat" x="55" y="73" width="16" height="16" rx="4"/>
-    <rect id="room-0d0af79d73e61a5a0f26305e268f714263d265f9" class="room indoor" data-label="eastern corner of a courtyard" x="131" y="149" width="16" height="16" rx="4"/>
-    <rect id="room-40bb6bad8a07db87bf75b4d8f15dd8866bf7dc02" class="room indoor" data-label="southern corner of a courtyard" x="103" y="177" width="16" height="16" rx="4"/>
-    <rect id="room-d8d7736fcd7c173602a8c975fb3f5c558c052720" class="room indoor" data-label="western corner of a courtyard" x="75" y="149" width="16" height="16" rx="4"/>
-    <rect id="room-6159fbd9e5f18945824a54fbd11d5d1239818c19" class="room indoor" data-label="Palace Guard smithy" x="51" y="125" width="16" height="16" rx="4"/>
-    <rect id="room-9734cf06ac2ff728b531b00e1bc99763b0bb982d" class="room indoor" data-label="Palace Guard armoury" x="19" y="101" width="16" height="16" rx="4"/>
-    <rect id="room-6aab94d9d2009ac8d1a007389e539256972864b0" class="room indoor" data-label="office of the Guildmaster of the Ankh-Morpork Palace Guard" x="155" y="125" width="16" height="16" rx="4"/>
+    <rect id="room-22cb1754a73395759e82a1dbe8c51dd8be5b9401" class="room indoor" data-label="Weapon Masters&#x27; Court&#x27;s bar" x="397" y="107" width="8" height="8" rx="2"/>
+    <rect id="room-4eac413f2e3a4a44f3a673ecdb0dbe4683b4fab4" class="room indoor" data-label="Weapon Masters&#x27; Court recruitment centre" x="397" y="131" width="8" height="8" rx="2"/>
+    <rect id="room-65f5f055eef03f846ef0198c397d03bea70cb675" class="room indoor" data-label="fighting pit" x="397" y="155" width="8" height="8" rx="2"/>
+    <rect id="room-591fbb893e9e0fc9876b9144467cd498b5616578" class="room indoor" data-label="Weapon Masters&#x27; Court practice centre" x="429" y="131" width="8" height="8" rx="2"/>
+    <rect id="room-305627fd4ae44deb99a08820224b4a7acc719b8b" class="room indoor" data-label="Weapon Masters&#x27; Court smithy" x="429" y="155" width="8" height="8" rx="2"/>
+    <rect id="room-62f6b3f50ef49ca7fd8105ecf96764e0b1a9463a" class="room indoor" data-label="Weapon Masters&#x27; Court armoury" x="429" y="107" width="8" height="8" rx="2"/>
+    <rect id="room-f3a806329d4a147a45597c3983851736f4479446" class="room indoor" data-label="landing" x="485" y="106" width="8" height="8" rx="2"/>
+    <rect id="room-e4f74aa8c18b572fc5d7ccb7f560e9a722ae11b6" class="room indoor" data-label="balcony" x="461" y="107" width="8" height="8" rx="2"/>
+    <rect id="room-d5b54f04904f81f73dbec4da0bd5d263b3910d77" class="room indoor" data-label="lobby of the Palace Guard" x="131" y="101" width="8" height="8" rx="2"/>
+    <rect id="room-4711f12f0554ca2a531c485a87f4dd115da8e20d" class="room indoor" data-label="Palace Guard message room" x="107" y="77" width="8" height="8" rx="2"/>
+    <rect id="room-2b1f073a1de9cee7708c98fbf5d54182d57ebc96" class="room indoor" data-label="northern corner of a courtyard" x="107" y="125" width="8" height="8" rx="2"/>
+    <rect id="room-597206ad46db04edee523461b0849d14a535d1fe" class="room indoor" data-label="Palace Guard training area" x="83" y="101" width="8" height="8" rx="2"/>
+    <rect id="room-337a7e6f801aa9937ab51c3822fee16cad0d2cc7" class="room indoor" data-label="arena for armed combat" x="59" y="77" width="8" height="8" rx="2"/>
+    <rect id="room-0d0af79d73e61a5a0f26305e268f714263d265f9" class="room indoor" data-label="eastern corner of a courtyard" x="135" y="153" width="8" height="8" rx="2"/>
+    <rect id="room-40bb6bad8a07db87bf75b4d8f15dd8866bf7dc02" class="room indoor" data-label="southern corner of a courtyard" x="107" y="181" width="8" height="8" rx="2"/>
+    <rect id="room-d8d7736fcd7c173602a8c975fb3f5c558c052720" class="room indoor" data-label="western corner of a courtyard" x="79" y="153" width="8" height="8" rx="2"/>
+    <rect id="room-6159fbd9e5f18945824a54fbd11d5d1239818c19" class="room indoor" data-label="Palace Guard smithy" x="55" y="129" width="8" height="8" rx="2"/>
+    <rect id="room-9734cf06ac2ff728b531b00e1bc99763b0bb982d" class="room indoor" data-label="Palace Guard armoury" x="23" y="105" width="8" height="8" rx="2"/>
+    <rect id="room-6aab94d9d2009ac8d1a007389e539256972864b0" class="room indoor" data-label="office of the Guildmaster of the Ankh-Morpork Palace Guard" x="159" y="129" width="8" height="8" rx="2"/>
   </g>
 
-  <g id="layer-labels">
-    <text class="map-label" x="401" y="99">Weapon Masters&#x27; Court&#x27;s bar</text>
-    <text class="map-label" x="401" y="123">Weapon Masters&#x27; Court recruitment centre</text>
-    <text class="map-label" x="401" y="147">fighting pit</text>
-    <text class="map-label" x="433" y="123">Weapon Masters&#x27; Court practice centre</text>
-    <text class="map-label" x="433" y="147">Weapon Masters&#x27; Court smithy</text>
-    <text class="map-label" x="433" y="99">Weapon Masters&#x27; Court armoury</text>
-    <text class="map-label" x="489" y="98">landing</text>
-    <text class="map-label" x="465" y="99">balcony</text>
-    <text class="map-label" x="135" y="93">lobby of the Palace Guard</text>
-    <text class="map-label" x="111" y="69">Palace Guard message room</text>
-    <text class="map-label" x="111" y="117">northern corner of a courtyard</text>
-    <text class="map-label" x="87" y="93">Palace Guard training area</text>
-    <text class="map-label" x="63" y="69">arena for armed combat</text>
-    <text class="map-label" x="139" y="145">eastern corner of a courtyard</text>
-    <text class="map-label" x="111" y="173">southern corner of a courtyard</text>
-    <text class="map-label" x="83" y="145">western corner of a courtyard</text>
-    <text class="map-label" x="59" y="121">Palace Guard smithy</text>
-    <text class="map-label" x="27" y="97">Palace Guard armoury</text>
-    <text class="map-label" x="163" y="121">office of the Guildmaster of the Ankh-Morpork Palace Guard</text>
-  </g>
+  <g id="layer-labels"><!-- labels --></g>
 
 </svg>

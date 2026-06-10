@@ -46,81 +46,44 @@
   </g>
 
   <g id="layer-rooms">
-    <rect id="room-ab65749bc71efdbb979b04ba3d853a2810fea296" class="room indoor" data-label="underground cavern" x="105" y="174" width="16" height="16" rx="4"/>
-    <rect id="room-3418fdc0ff5a89484a3f7fcd7b07060150a071ac" class="room indoor" data-label="underground tunnel" x="105" y="160" width="16" height="16" rx="4"/>
-    <rect id="room-8b9bb1fcf3e1e71314a1fd59efbdc52b85183d4b" class="room indoor" data-label="underground tunnel" x="119" y="174" width="16" height="16" rx="4"/>
-    <rect id="room-6aefdeae01a060f142c0ca09cceba81963d58f48" class="room indoor" data-label="underground tunnel" x="119" y="146" width="16" height="16" rx="4"/>
-    <rect id="room-89a1a32eff14059077966c99916b37626eef6024" class="room indoor" data-label="underground tunnel" x="119" y="132" width="16" height="16" rx="4"/>
-    <rect id="room-c314088c88b160b90281881484f3ea18a9b93e7a" class="room indoor" data-label="underground tunnel" x="133" y="118" width="16" height="16" rx="4"/>
-    <rect id="room-439dabe0e0a56582476a75beac88169750f72b4e" class="room indoor" data-label="underground tunnel" x="147" y="118" width="16" height="16" rx="4"/>
-    <rect id="room-9679e7e1da18fd0039f8aba75f817a1dee623af2" class="room indoor" data-label="underground tunnel" x="161" y="104" width="16" height="16" rx="4"/>
-    <rect id="room-89fb0ca2659585c675cfa44feec5da3e8029044b" class="room indoor" data-label="underground tunnel" x="147" y="90" width="16" height="16" rx="4"/>
-    <rect id="room-10a91ce78d6834ffb9a322080cacf7884a73c83c" class="room indoor" data-label="underground tunnel" x="133" y="90" width="16" height="16" rx="4"/>
-    <rect id="room-2d4e7ff1de758950fdf0f1f4a74c14694db7d096" class="room indoor" data-label="underground tunnel" x="119" y="90" width="16" height="16" rx="4"/>
-    <rect id="room-57ac117e907fcf4cecbc351e99f7ea45342c3d09" class="room indoor" data-label="underground tunnel" x="105" y="104" width="16" height="16" rx="4"/>
-    <rect id="room-ab608012464d8dc209fdcbd22f107c8fcba7ec83" class="room indoor" data-label="underground tunnel" x="91" y="104" width="16" height="16" rx="4"/>
-    <rect id="room-b86381285fa32c38cf07d2c64140caaef08369b7" class="room indoor" data-label="underground tunnel" x="77" y="104" width="16" height="16" rx="4"/>
-    <rect id="room-9e6c6997536e2117b70db844284e939eeaefc988" class="room indoor" data-label="underground tunnel" x="133" y="76" width="16" height="16" rx="4"/>
-    <rect id="room-6b64a3ef89c2144922e37916416b6a79d0ed5b3e" class="room indoor" data-label="underground tunnel" x="147" y="62" width="16" height="16" rx="4"/>
-    <rect id="room-e30ac54ea1fe373c4eba7db603b292d37ac2c095" class="room indoor" data-label="underground tunnel" x="147" y="48" width="16" height="16" rx="4"/>
-    <rect id="room-da3b05c5e2efc374949c4e113f1131dd90486c06" class="room indoor" data-label="underground tunnel" x="133" y="34" width="16" height="16" rx="4"/>
-    <rect id="room-44f6636095ef0a417c8fabdee23618ab4b5e1321" class="room indoor" data-label="underground tunnel" x="133" y="20" width="16" height="16" rx="4"/>
-    <rect id="room-c803eef33361e82d7a7dc6c6449d6ba8f8473e34" class="room indoor" data-label="underground tunnel" x="119" y="6" width="16" height="16" rx="4"/>
-    <rect id="room-75011868b7acf25aa617f97bbd0e5a959df76d49" class="room indoor" data-label="underground tunnel" x="105" y="20" width="16" height="16" rx="4"/>
-    <rect id="room-8209708bfd2f74a468180ed2b6b52cd1fc11ac08" class="room indoor" data-label="underground tunnel" x="105" y="34" width="16" height="16" rx="4"/>
-    <rect id="room-bd1e1df4fae5b029c151f89008238de38a765796" class="room indoor" data-label="underground tunnel" x="91" y="48" width="16" height="16" rx="4"/>
-    <rect id="room-224e26e08b3cdbddee6668f4a351a0a544536fea" class="room indoor" data-label="underground tunnel" x="77" y="48" width="16" height="16" rx="4"/>
-    <rect id="room-a496f31c17437de70c1dd1065daedb4114b620f2" class="room indoor" data-label="underground tunnel" x="63" y="62" width="16" height="16" rx="4"/>
-    <rect id="room-bfbede5a179f2b80c2a04c4710618313a5e61e4e" class="room indoor" data-label="underground tunnel" x="63" y="76" width="16" height="16" rx="4"/>
-    <rect id="room-99ec4f44362a8697ccb6cc6e43f5dca56f3e348a" class="room indoor" data-label="underground tunnel" x="63" y="90" width="16" height="16" rx="4"/>
-    <rect id="room-43457c2d2d116c6578b4330c9570dacbe8664da5" class="room indoor" data-label="underground tunnel" x="91" y="118" width="16" height="16" rx="4"/>
-    <rect id="room-68c587b5b5cc8a5109c19490d0de898e43b84274" class="room indoor" data-label="underground tunnel" x="91" y="132" width="16" height="16" rx="4"/>
-    <rect id="room-5167ce7273e77f9ce1473852cd2e582cc47f7123" class="room indoor" data-label="underground tunnel" x="105" y="146" width="16" height="16" rx="4"/>
-    <rect id="room-ffef2d80417f6a8893ebe62caab979a50d4c7b42" class="room indoor" data-label="underground tunnel" x="133" y="188" width="16" height="16" rx="4"/>
-    <rect id="room-714493872f4f3bc3bfcee689a7b965c55b640076" class="room indoor" data-label="underground tunnel" x="119" y="202" width="16" height="16" rx="4"/>
-    <rect id="room-fcfd3d34a714739bbc0864caf15325302d6398d1" class="room indoor" data-label="underground tunnel" x="133" y="202" width="16" height="16" rx="4"/>
-    <rect id="room-1c62e0cef7ba62e3bdf824ba74211289ad05bfc6" class="room indoor" data-label="underground tunnel" x="133" y="216" width="16" height="16" rx="4"/>
-    <rect id="room-f1283a40b1c1dafcb40d0f857a72da80d8063984" class="room indoor" data-label="underground cavern" x="147" y="230" width="16" height="16" rx="4"/>
-    <rect id="room-a6b70b577ab148a7dbab8f5a3fbda797cdd22bda" class="room indoor" data-label="rocky crag jutting out from a waterfall" x="161" y="244" width="16" height="16" rx="4"/>
+    <rect id="room-ab65749bc71efdbb979b04ba3d853a2810fea296" class="room indoor" data-label="underground cavern" x="109" y="178" width="8" height="8" rx="2"/>
+    <rect id="room-3418fdc0ff5a89484a3f7fcd7b07060150a071ac" class="room indoor" data-label="underground tunnel" x="109" y="164" width="8" height="8" rx="2"/>
+    <rect id="room-8b9bb1fcf3e1e71314a1fd59efbdc52b85183d4b" class="room indoor" data-label="underground tunnel" x="123" y="178" width="8" height="8" rx="2"/>
+    <rect id="room-6aefdeae01a060f142c0ca09cceba81963d58f48" class="room indoor" data-label="underground tunnel" x="123" y="150" width="8" height="8" rx="2"/>
+    <rect id="room-89a1a32eff14059077966c99916b37626eef6024" class="room indoor" data-label="underground tunnel" x="123" y="136" width="8" height="8" rx="2"/>
+    <rect id="room-c314088c88b160b90281881484f3ea18a9b93e7a" class="room indoor" data-label="underground tunnel" x="137" y="122" width="8" height="8" rx="2"/>
+    <rect id="room-439dabe0e0a56582476a75beac88169750f72b4e" class="room indoor" data-label="underground tunnel" x="151" y="122" width="8" height="8" rx="2"/>
+    <rect id="room-9679e7e1da18fd0039f8aba75f817a1dee623af2" class="room indoor" data-label="underground tunnel" x="165" y="108" width="8" height="8" rx="2"/>
+    <rect id="room-89fb0ca2659585c675cfa44feec5da3e8029044b" class="room indoor" data-label="underground tunnel" x="151" y="94" width="8" height="8" rx="2"/>
+    <rect id="room-10a91ce78d6834ffb9a322080cacf7884a73c83c" class="room indoor" data-label="underground tunnel" x="137" y="94" width="8" height="8" rx="2"/>
+    <rect id="room-2d4e7ff1de758950fdf0f1f4a74c14694db7d096" class="room indoor" data-label="underground tunnel" x="123" y="94" width="8" height="8" rx="2"/>
+    <rect id="room-57ac117e907fcf4cecbc351e99f7ea45342c3d09" class="room indoor" data-label="underground tunnel" x="109" y="108" width="8" height="8" rx="2"/>
+    <rect id="room-ab608012464d8dc209fdcbd22f107c8fcba7ec83" class="room indoor" data-label="underground tunnel" x="95" y="108" width="8" height="8" rx="2"/>
+    <rect id="room-b86381285fa32c38cf07d2c64140caaef08369b7" class="room indoor" data-label="underground tunnel" x="81" y="108" width="8" height="8" rx="2"/>
+    <rect id="room-9e6c6997536e2117b70db844284e939eeaefc988" class="room indoor" data-label="underground tunnel" x="137" y="80" width="8" height="8" rx="2"/>
+    <rect id="room-6b64a3ef89c2144922e37916416b6a79d0ed5b3e" class="room indoor" data-label="underground tunnel" x="151" y="66" width="8" height="8" rx="2"/>
+    <rect id="room-e30ac54ea1fe373c4eba7db603b292d37ac2c095" class="room indoor" data-label="underground tunnel" x="151" y="52" width="8" height="8" rx="2"/>
+    <rect id="room-da3b05c5e2efc374949c4e113f1131dd90486c06" class="room indoor" data-label="underground tunnel" x="137" y="38" width="8" height="8" rx="2"/>
+    <rect id="room-44f6636095ef0a417c8fabdee23618ab4b5e1321" class="room indoor" data-label="underground tunnel" x="137" y="24" width="8" height="8" rx="2"/>
+    <rect id="room-c803eef33361e82d7a7dc6c6449d6ba8f8473e34" class="room indoor" data-label="underground tunnel" x="123" y="10" width="8" height="8" rx="2"/>
+    <rect id="room-75011868b7acf25aa617f97bbd0e5a959df76d49" class="room indoor" data-label="underground tunnel" x="109" y="24" width="8" height="8" rx="2"/>
+    <rect id="room-8209708bfd2f74a468180ed2b6b52cd1fc11ac08" class="room indoor" data-label="underground tunnel" x="109" y="38" width="8" height="8" rx="2"/>
+    <rect id="room-bd1e1df4fae5b029c151f89008238de38a765796" class="room indoor" data-label="underground tunnel" x="95" y="52" width="8" height="8" rx="2"/>
+    <rect id="room-224e26e08b3cdbddee6668f4a351a0a544536fea" class="room indoor" data-label="underground tunnel" x="81" y="52" width="8" height="8" rx="2"/>
+    <rect id="room-a496f31c17437de70c1dd1065daedb4114b620f2" class="room indoor" data-label="underground tunnel" x="67" y="66" width="8" height="8" rx="2"/>
+    <rect id="room-bfbede5a179f2b80c2a04c4710618313a5e61e4e" class="room indoor" data-label="underground tunnel" x="67" y="80" width="8" height="8" rx="2"/>
+    <rect id="room-99ec4f44362a8697ccb6cc6e43f5dca56f3e348a" class="room indoor" data-label="underground tunnel" x="67" y="94" width="8" height="8" rx="2"/>
+    <rect id="room-43457c2d2d116c6578b4330c9570dacbe8664da5" class="room indoor" data-label="underground tunnel" x="95" y="122" width="8" height="8" rx="2"/>
+    <rect id="room-68c587b5b5cc8a5109c19490d0de898e43b84274" class="room indoor" data-label="underground tunnel" x="95" y="136" width="8" height="8" rx="2"/>
+    <rect id="room-5167ce7273e77f9ce1473852cd2e582cc47f7123" class="room indoor" data-label="underground tunnel" x="109" y="150" width="8" height="8" rx="2"/>
+    <rect id="room-ffef2d80417f6a8893ebe62caab979a50d4c7b42" class="room indoor" data-label="underground tunnel" x="137" y="192" width="8" height="8" rx="2"/>
+    <rect id="room-714493872f4f3bc3bfcee689a7b965c55b640076" class="room indoor" data-label="underground tunnel" x="123" y="206" width="8" height="8" rx="2"/>
+    <rect id="room-fcfd3d34a714739bbc0864caf15325302d6398d1" class="room indoor" data-label="underground tunnel" x="137" y="206" width="8" height="8" rx="2"/>
+    <rect id="room-1c62e0cef7ba62e3bdf824ba74211289ad05bfc6" class="room indoor" data-label="underground tunnel" x="137" y="220" width="8" height="8" rx="2"/>
+    <rect id="room-f1283a40b1c1dafcb40d0f857a72da80d8063984" class="room indoor" data-label="underground cavern" x="151" y="234" width="8" height="8" rx="2"/>
+    <rect id="room-a6b70b577ab148a7dbab8f5a3fbda797cdd22bda" class="room indoor" data-label="rocky crag jutting out from a waterfall" x="165" y="248" width="8" height="8" rx="2"/>
   </g>
 
-  <g id="layer-labels">
-    <text class="map-label" x="113" y="170">underground cavern</text>
-    <text class="map-label" x="113" y="156">underground tunnel</text>
-    <text class="map-label" x="127" y="170">underground tunnel</text>
-    <text class="map-label" x="127" y="142">underground tunnel</text>
-    <text class="map-label" x="127" y="128">underground tunnel</text>
-    <text class="map-label" x="141" y="114">underground tunnel</text>
-    <text class="map-label" x="155" y="114">underground tunnel</text>
-    <text class="map-label" x="169" y="100">underground tunnel</text>
-    <text class="map-label" x="155" y="86">underground tunnel</text>
-    <text class="map-label" x="141" y="86">underground tunnel</text>
-    <text class="map-label" x="127" y="86">underground tunnel</text>
-    <text class="map-label" x="113" y="100">underground tunnel</text>
-    <text class="map-label" x="99" y="100">underground tunnel</text>
-    <text class="map-label" x="85" y="100">underground tunnel</text>
-    <text class="map-label" x="141" y="72">underground tunnel</text>
-    <text class="map-label" x="155" y="58">underground tunnel</text>
-    <text class="map-label" x="155" y="44">underground tunnel</text>
-    <text class="map-label" x="141" y="30">underground tunnel</text>
-    <text class="map-label" x="141" y="16">underground tunnel</text>
-    <text class="map-label" x="127" y="2">underground tunnel</text>
-    <text class="map-label" x="113" y="16">underground tunnel</text>
-    <text class="map-label" x="113" y="30">underground tunnel</text>
-    <text class="map-label" x="99" y="44">underground tunnel</text>
-    <text class="map-label" x="85" y="44">underground tunnel</text>
-    <text class="map-label" x="71" y="58">underground tunnel</text>
-    <text class="map-label" x="71" y="72">underground tunnel</text>
-    <text class="map-label" x="71" y="86">underground tunnel</text>
-    <text class="map-label" x="99" y="114">underground tunnel</text>
-    <text class="map-label" x="99" y="128">underground tunnel</text>
-    <text class="map-label" x="113" y="142">underground tunnel</text>
-    <text class="map-label" x="141" y="184">underground tunnel</text>
-    <text class="map-label" x="127" y="198">underground tunnel</text>
-    <text class="map-label" x="141" y="198">underground tunnel</text>
-    <text class="map-label" x="141" y="212">underground tunnel</text>
-    <text class="map-label" x="155" y="226">underground cavern</text>
-    <text class="map-label" x="169" y="240">rocky crag jutting out from a waterfall</text>
-  </g>
+  <g id="layer-labels"><!-- labels --></g>
 
 </svg>

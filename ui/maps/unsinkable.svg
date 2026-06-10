@@ -38,51 +38,29 @@
   </g>
 
   <g id="layer-rooms">
-    <rect id="room-cc132ec2ee473ae6a3293cc7c07ea34aa573b08a" class="room indoor" data-label="starboard side of the upper deck" x="135" y="116" width="16" height="16" rx="4"/>
-    <rect id="room-bb128c612942e5adb1f2568ef0b0ecf95bf435dd" class="room indoor" data-label="starboard aft corner of the upper deck" x="135" y="144" width="16" height="16" rx="4"/>
-    <rect id="room-300d37af6bc80eeb8b1d85bba0dc9e349bfdb0c5" class="room indoor" data-label="aft end of the upper deck" x="107" y="144" width="16" height="16" rx="4"/>
-    <rect id="room-b6278d2a3a3f2f6ebdf33ba6c37dd21a681aa6ad" class="room indoor" data-label="port aft corner of the upper deck" x="79" y="144" width="16" height="16" rx="4"/>
-    <rect id="room-afe5ba7685f3ad5d6e2c72a1a26a1c4e49c8b121" class="room indoor" data-label="port side of the upper deck" x="79" y="116" width="16" height="16" rx="4"/>
-    <rect id="room-276f933f8ae0836c030480f9913b5839b99f412c" class="room indoor" data-label="middle of the upper deck" x="107" y="116" width="16" height="16" rx="4"/>
-    <rect id="room-01cef59ef1d5914600f1cf94d4f3f9fb8f585020" class="room indoor" data-label="atop the mast" x="25" y="115" width="16" height="16" rx="4"/>
-    <rect id="room-7061b06e4b2dcc679cbb7f708ff75024c60aa5ad" class="room indoor" data-label="starboard fore corner of the upper deck" x="135" y="84" width="16" height="16" rx="4"/>
-    <rect id="room-21de9d4c3c3c9b4cd41483937f63c98f20c856c8" class="room indoor" data-label="fore end of the upper deck" x="107" y="56" width="16" height="16" rx="4"/>
-    <rect id="room-549b279912bf26749f193103f5a698d1763c4195" class="room indoor" data-label="port fore corner of the upper deck" x="79" y="84" width="16" height="16" rx="4"/>
-    <rect id="room-fb106e274d6161cebcbba8dfb256b718f896d800" class="room indoor" data-label="bridge of the SS Unsinkable" x="107" y="84" width="16" height="16" rx="4"/>
-    <rect id="room-bb1f4ee5a2a4e1dca0a91559d4934c2710080ffd" class="room indoor" data-label="starboard corridor of the lower deck" x="306" y="115" width="16" height="16" rx="4"/>
-    <rect id="room-69785e30295575f22400335deda7284980a8647b" class="room indoor" data-label="starboard boiler room" x="306" y="143" width="16" height="16" rx="4"/>
-    <rect id="room-8380ae44a26adabd8cfcc4c66315fccaf375dd96" class="room indoor" data-label="Store B" x="278" y="115" width="16" height="16" rx="4"/>
-    <rect id="room-7011a9bed74b1a416349e8b251f0d312c1c01311" class="room indoor" data-label="starboard fore corner of the lower deck" x="306" y="83" width="16" height="16" rx="4"/>
-    <rect id="room-37ceaa9225c6079b6f4c1c1822f6586c8f3562c1" class="room indoor" data-label="fore corner of the lower deck" x="278" y="55" width="16" height="16" rx="4"/>
-    <rect id="room-a3acea848c2fb367e7d38792d3a5c58e45aac205" class="room indoor" data-label="port fore corner of the lower deck" x="250" y="83" width="16" height="16" rx="4"/>
-    <rect id="room-68c73bf8cbd4bdf2d5f056dfb0c4f7f873c43357" class="room indoor" data-label="Store C" x="278" y="83" width="16" height="16" rx="4"/>
-    <rect id="room-9af6f1f64b8728b62a572a0540be43110cb109ad" class="room indoor" data-label="port corridor of the lower deck" x="250" y="115" width="16" height="16" rx="4"/>
-    <rect id="room-8fb3cbee200ce4c47426e357635cf027354a0645" class="room indoor" data-label="port boiler room" x="250" y="143" width="16" height="16" rx="4"/>
-    <rect id="room-e97301502f9725e070d40542e02b9df68384c223" class="room indoor" data-label="Store A" x="278" y="143" width="16" height="16" rx="4"/>
+    <rect id="room-cc132ec2ee473ae6a3293cc7c07ea34aa573b08a" class="room indoor" data-label="starboard side of the upper deck" x="139" y="120" width="8" height="8" rx="2"/>
+    <rect id="room-bb128c612942e5adb1f2568ef0b0ecf95bf435dd" class="room indoor" data-label="starboard aft corner of the upper deck" x="139" y="148" width="8" height="8" rx="2"/>
+    <rect id="room-300d37af6bc80eeb8b1d85bba0dc9e349bfdb0c5" class="room indoor" data-label="aft end of the upper deck" x="111" y="148" width="8" height="8" rx="2"/>
+    <rect id="room-b6278d2a3a3f2f6ebdf33ba6c37dd21a681aa6ad" class="room indoor" data-label="port aft corner of the upper deck" x="83" y="148" width="8" height="8" rx="2"/>
+    <rect id="room-afe5ba7685f3ad5d6e2c72a1a26a1c4e49c8b121" class="room indoor" data-label="port side of the upper deck" x="83" y="120" width="8" height="8" rx="2"/>
+    <rect id="room-276f933f8ae0836c030480f9913b5839b99f412c" class="room indoor" data-label="middle of the upper deck" x="111" y="120" width="8" height="8" rx="2"/>
+    <rect id="room-01cef59ef1d5914600f1cf94d4f3f9fb8f585020" class="room indoor" data-label="atop the mast" x="29" y="119" width="8" height="8" rx="2"/>
+    <rect id="room-7061b06e4b2dcc679cbb7f708ff75024c60aa5ad" class="room indoor" data-label="starboard fore corner of the upper deck" x="139" y="88" width="8" height="8" rx="2"/>
+    <rect id="room-21de9d4c3c3c9b4cd41483937f63c98f20c856c8" class="room indoor" data-label="fore end of the upper deck" x="111" y="60" width="8" height="8" rx="2"/>
+    <rect id="room-549b279912bf26749f193103f5a698d1763c4195" class="room indoor" data-label="port fore corner of the upper deck" x="83" y="88" width="8" height="8" rx="2"/>
+    <rect id="room-fb106e274d6161cebcbba8dfb256b718f896d800" class="room indoor" data-label="bridge of the SS Unsinkable" x="111" y="88" width="8" height="8" rx="2"/>
+    <rect id="room-bb1f4ee5a2a4e1dca0a91559d4934c2710080ffd" class="room indoor" data-label="starboard corridor of the lower deck" x="310" y="119" width="8" height="8" rx="2"/>
+    <rect id="room-69785e30295575f22400335deda7284980a8647b" class="room indoor" data-label="starboard boiler room" x="310" y="147" width="8" height="8" rx="2"/>
+    <rect id="room-8380ae44a26adabd8cfcc4c66315fccaf375dd96" class="room indoor" data-label="Store B" x="282" y="119" width="8" height="8" rx="2"/>
+    <rect id="room-7011a9bed74b1a416349e8b251f0d312c1c01311" class="room indoor" data-label="starboard fore corner of the lower deck" x="310" y="87" width="8" height="8" rx="2"/>
+    <rect id="room-37ceaa9225c6079b6f4c1c1822f6586c8f3562c1" class="room indoor" data-label="fore corner of the lower deck" x="282" y="59" width="8" height="8" rx="2"/>
+    <rect id="room-a3acea848c2fb367e7d38792d3a5c58e45aac205" class="room indoor" data-label="port fore corner of the lower deck" x="254" y="87" width="8" height="8" rx="2"/>
+    <rect id="room-68c73bf8cbd4bdf2d5f056dfb0c4f7f873c43357" class="room indoor" data-label="Store C" x="282" y="87" width="8" height="8" rx="2"/>
+    <rect id="room-9af6f1f64b8728b62a572a0540be43110cb109ad" class="room indoor" data-label="port corridor of the lower deck" x="254" y="119" width="8" height="8" rx="2"/>
+    <rect id="room-8fb3cbee200ce4c47426e357635cf027354a0645" class="room indoor" data-label="port boiler room" x="254" y="147" width="8" height="8" rx="2"/>
+    <rect id="room-e97301502f9725e070d40542e02b9df68384c223" class="room indoor" data-label="Store A" x="282" y="147" width="8" height="8" rx="2"/>
   </g>
 
-  <g id="layer-labels">
-    <text class="map-label" x="143" y="112">starboard side of the upper deck</text>
-    <text class="map-label" x="143" y="140">starboard aft corner of the upper deck</text>
-    <text class="map-label" x="115" y="140">aft end of the upper deck</text>
-    <text class="map-label" x="87" y="140">port aft corner of the upper deck</text>
-    <text class="map-label" x="87" y="112">port side of the upper deck</text>
-    <text class="map-label" x="115" y="112">middle of the upper deck</text>
-    <text class="map-label" x="33" y="111">atop the mast</text>
-    <text class="map-label" x="143" y="80">starboard fore corner of the upper deck</text>
-    <text class="map-label" x="115" y="52">fore end of the upper deck</text>
-    <text class="map-label" x="87" y="80">port fore corner of the upper deck</text>
-    <text class="map-label" x="115" y="80">bridge of the SS Unsinkable</text>
-    <text class="map-label" x="314" y="111">starboard corridor of the lower deck</text>
-    <text class="map-label" x="314" y="139">starboard boiler room</text>
-    <text class="map-label" x="286" y="111">Store B</text>
-    <text class="map-label" x="314" y="79">starboard fore corner of the lower deck</text>
-    <text class="map-label" x="286" y="51">fore corner of the lower deck</text>
-    <text class="map-label" x="258" y="79">port fore corner of the lower deck</text>
-    <text class="map-label" x="286" y="79">Store C</text>
-    <text class="map-label" x="258" y="111">port corridor of the lower deck</text>
-    <text class="map-label" x="258" y="139">port boiler room</text>
-    <text class="map-label" x="286" y="139">Store A</text>
-  </g>
+  <g id="layer-labels"><!-- labels --></g>
 
 </svg>

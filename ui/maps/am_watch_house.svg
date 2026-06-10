@@ -90,163 +90,85 @@
   </g>
 
   <g id="layer-rooms">
-    <rect id="room-e4323daefa982b5bbc15bdbe3ba57752df4c1e7d" class="room indoor" data-label="northeastern part of the main hall" x="80" y="96" width="16" height="16" rx="4"/>
-    <rect id="room-38e0caedf0ff789f97b6d7e8e2a18fad9ab0f2fd" class="room indoor" data-label="canteen" x="104" y="96" width="16" height="16" rx="4"/>
-    <rect id="room-a91f881f9b8387aece66202c8c4af29845f2b557" class="room indoor" data-label="kitchen" x="128" y="96" width="16" height="16" rx="4"/>
-    <rect id="room-ed5ed573b174bcece88c3026247b4db114376547" class="room indoor" data-label="northwestern part of the main hall" x="56" y="96" width="16" height="16" rx="4"/>
-    <rect id="room-dff316ced22bf977b5b85319417619f55cf5427a" class="room indoor" data-label="southwestern part of the main hall" x="56" y="120" width="16" height="16" rx="4"/>
-    <rect id="room-bb12561776cc64eee575ef49a01fa16c4af3c157" class="room indoor" data-label="tea room" x="56" y="144" width="16" height="16" rx="4"/>
-    <rect id="room-da386c9ef7bc8bc6b783b873bf423bc186b717f8" class="room indoor" data-label="southeastern part of the main hall" x="80" y="120" width="16" height="16" rx="4"/>
-    <rect id="room-75779c028e33c650afb0da590c30e13233037ff4" class="room indoor" data-label="corridor" x="104" y="120" width="16" height="16" rx="4"/>
-    <rect id="room-9e40c07e260a43f14dc9c836835dbc1224e5a849" class="room indoor" data-label="corridor" x="104" y="144" width="16" height="16" rx="4"/>
-    <rect id="room-001b1d37a206af4bda0bbbab028846039595d452" class="room indoor" data-label="men&#x27;s dressing room" x="80" y="144" width="16" height="16" rx="4"/>
-    <rect id="room-e89dfc0fc7ca85e470f6088959f8dc2e04fa9b5e" class="room indoor" data-label="corridor-junction" x="104" y="168" width="16" height="16" rx="4"/>
-    <rect id="room-7c1f023e45c77a1656827735299710d61769fc0e" class="room indoor" data-label="women&#x27;s dressing room" x="80" y="168" width="16" height="16" rx="4"/>
-    <rect id="room-e60350c1af1e8f42bd568a2b821add57cf635606" class="room indoor" data-label="corridor" x="104" y="192" width="16" height="16" rx="4"/>
-    <rect id="room-43913fcff5de196f8e801d6810346011fa49f10b" class="room indoor" data-label="corridor" x="104" y="216" width="16" height="16" rx="4"/>
-    <rect id="room-e946d1b1c0ae54f55938d176143b5b9085f54b2a" class="room indoor" data-label="eastern part of the training ground" x="104" y="242" width="16" height="16" rx="4"/>
-    <rect id="room-effd227afd7bd5661384eed1e5abb1816292196a" class="room indoor" data-label="western part of the training ground" x="76" y="242" width="16" height="16" rx="4"/>
-    <rect id="room-42ec9933c09cb4fb475bbd81b66a90308be65975" class="room indoor" data-label="corridor" x="80" y="216" width="16" height="16" rx="4"/>
-    <rect id="room-a354edb8beab37712ffa33e68b17482171832faf" class="room indoor" data-label="interrogation room" x="80" y="192" width="16" height="16" rx="4"/>
-    <rect id="room-0e7d9e718872efa5e99d00f9166a1a52b6b9de1f" class="room indoor" data-label="corridor" x="56" y="216" width="16" height="16" rx="4"/>
-    <rect id="room-45cb06d71364647001ae5236ea1832d5b4cbff65" class="room indoor" data-label="bare room" x="56" y="192" width="16" height="16" rx="4"/>
-    <rect id="room-f2dd78929943ee0d53e7a813c73e92499431937b" class="room indoor" data-label="stairwell" x="281" y="171" width="16" height="16" rx="4"/>
-    <rect id="room-e3396647c4af3d6a859754f365b30d93b3f0de66" class="room indoor" data-label="corridor" x="305" y="171" width="16" height="16" rx="4"/>
-    <rect id="room-23df74bcdc7136f4c9745f3b3aa7fb4618fd05a3" class="room indoor" data-label="corridor" x="329" y="171" width="16" height="16" rx="4"/>
-    <rect id="room-506cf7c5be93e3189f3b1c96b45c308a358548d3" class="room indoor" data-label="old armoury" x="329" y="147" width="16" height="16" rx="4"/>
-    <rect id="room-14363e2121b91d9a5f860548bba820784e3d659c" class="room indoor" data-label="corridor" x="353" y="171" width="16" height="16" rx="4"/>
-    <rect id="room-65c089fbb74abe38e8c8c13b55b346a8fad82c51" class="room indoor" data-label="room full of pipes" x="353" y="147" width="16" height="16" rx="4"/>
-    <rect id="room-174e69727d2965e2076884c41903622d04ca521f" class="room indoor" data-label="corridor" x="281" y="147" width="16" height="16" rx="4"/>
-    <rect id="room-280b9a0993f4c2abcf8227f7d750cc44b0d9692f" class="room indoor" data-label="corridor" x="401" y="171" width="16" height="16" rx="4"/>
-    <rect id="room-8c6ec17a9134a53f13bc6b2feeddbc45fb81b76b" class="room indoor" data-label="storeroom" x="425" y="171" width="16" height="16" rx="4"/>
-    <rect id="room-0ad512d3ec4e95fc106f302641992c06535a8233" class="room indoor" data-label="corridor" x="401" y="147" width="16" height="16" rx="4"/>
-    <rect id="room-2beb0e385dbebfda36b074eb8f5db747bd610bdb" class="room indoor" data-label="archive" x="425" y="147" width="16" height="16" rx="4"/>
-    <rect id="room-863c8480aed91e9b4b88023d34256e6ce7d91d9a" class="room indoor" data-label="corridor" x="401" y="100" width="16" height="16" rx="4"/>
-    <rect id="room-63f33530da59738fd1ab7a52c3dd4b5b8363f725" class="room indoor" data-label="corridor" x="425" y="100" width="16" height="16" rx="4"/>
-    <rect id="room-d0f19f26c5a12a73817d5b391a8aeadd85e464c1" class="room indoor" data-label="Captain Carrot&#x27;s room" x="401" y="76" width="16" height="16" rx="4"/>
-    <rect id="room-7147c2010cfb431b50c1ae2fecb5893bf3fc846a" class="room indoor" data-label="corridor" x="377" y="100" width="16" height="16" rx="4"/>
-    <rect id="room-2f91a90be2c771b24ed72a3a75b1920ec277c353" class="room indoor" data-label="room full of junk" x="377" y="124" width="16" height="16" rx="4"/>
-    <rect id="room-9c133e18f2f64cad66e9ddf6b3815c120e142c82" class="room indoor" data-label="corridor" x="353" y="100" width="16" height="16" rx="4"/>
-    <rect id="room-f80370cf035e26791bad591cc9e0a4412b8eb392" class="room indoor" data-label="corridor" x="353" y="76" width="16" height="16" rx="4"/>
-    <rect id="room-c1a3c3cb5de46fe1cc227dcd86b65a78552a070b" class="room indoor" data-label="Commander Vimes&#x27; office" x="377" y="76" width="16" height="16" rx="4"/>
-    <rect id="room-8a69a64960e495dd53365f85f7a53e64ca95caf2" class="room indoor" data-label="corridor" x="329" y="100" width="16" height="16" rx="4"/>
-    <rect id="room-adf74cee18da7945b6d6e4a496298bebe967e8a9" class="room indoor" data-label="room" x="329" y="124" width="16" height="16" rx="4"/>
-    <rect id="room-e0902734d6bcf1be4763036446e5b3984d811dca" class="room indoor" data-label="balcony" x="305" y="100" width="16" height="16" rx="4"/>
-    <rect id="room-fe31d06bbe69eca1b48ca634f646ff8699a138f4" class="room indoor" data-label="assignment room" x="305" y="124" width="16" height="16" rx="4"/>
-    <rect id="room-d3ed288e87c1a1d81517c1d4dd022dc9c8d48c74" class="room indoor" data-label="junction" x="281" y="100" width="16" height="16" rx="4"/>
-    <rect id="room-f8e2873643260fb93623c23ca9caf584447bd088" class="room indoor" data-label="stairwell" x="176" y="120" width="16" height="16" rx="4"/>
-    <rect id="room-fef9e62f305c72a18a1269d0fbfe32b05aa65f63" class="room indoor" data-label="corridor" x="152" y="120" width="16" height="16" rx="4"/>
-    <rect id="room-bf31c1171f6364127419287e7b526cc8a369dad4" class="room indoor" data-label="corridor" x="128" y="120" width="16" height="16" rx="4"/>
-    <rect id="room-c3e340e672656faca84e109857f441c5f20e65a4" class="room indoor" data-label="Littlebottom&#x27;s office" x="152" y="96" width="16" height="16" rx="4"/>
-    <rect id="room-431f3cc333eb591a62e0818eb9ea452e79ded09d" class="room indoor" data-label="locker room" x="128" y="144" width="16" height="16" rx="4"/>
-    <rect id="room-1cb90592d555424999ee624e9d13f0265d22446c" class="room indoor" data-label="corridor" x="128" y="168" width="16" height="16" rx="4"/>
-    <rect id="room-dfc1b69df1f92cec64bb6d33f6ebff176372d6d8" class="room indoor" data-label="corridor" x="152" y="168" width="16" height="16" rx="4"/>
-    <rect id="room-f51061ff25732d1390b12b7569b2aa8636fb3973" class="room indoor" data-label="corridor" x="176" y="168" width="16" height="16" rx="4"/>
-    <rect id="room-9d1398289c8182bfdd1e58222a7a7ae6485379a9" class="room indoor" data-label="corridor" x="200" y="168" width="16" height="16" rx="4"/>
-    <rect id="room-e06bf67fcabff99d29fa281df745b30607023cbe" class="room indoor" data-label="guild office" x="176" y="144" width="16" height="16" rx="4"/>
-    <rect id="room-fed2ded8a63f3227b629ef98fb65c32fa197ea71" class="room indoor" data-label="corridor" x="418" y="254" width="16" height="16" rx="4"/>
-    <rect id="room-3d1b328a9e77db781d6d26502015503502ca1791" class="room indoor" data-label="corridor" x="394" y="254" width="16" height="16" rx="4"/>
-    <rect id="room-a9a2f5d97684cb08e47ce171089f3c3da649082b" class="room indoor" data-label="corridor" x="370" y="254" width="16" height="16" rx="4"/>
-    <rect id="room-9f2e587994ffa1765e454eeb1ed3e32f3d30129d" class="room indoor" data-label="corridor" x="346" y="254" width="16" height="16" rx="4"/>
-    <rect id="room-620710c69028308bc9ee8b981466fbb14659bef9" class="room indoor" data-label="large room" x="322" y="254" width="16" height="16" rx="4"/>
-    <rect id="room-89df80382bd2cd503e1dc8f3aff6eff710c9e7d0" class="room indoor" data-label="maximum security prison cell" x="322" y="230" width="16" height="16" rx="4"/>
-    <rect id="room-317645d8de185f9aacb73590f78256b1936cbb33" class="room indoor" data-label="small, uncomfortable prison cell" x="298" y="231" width="16" height="16" rx="4"/>
-    <rect id="room-4fd07ea1a2cf447535b02d6420c16985c78bbd18" class="room indoor" data-label="small prison cell" x="298" y="254" width="16" height="16" rx="4"/>
-    <rect id="room-85f68e1c1804bd7486775a84ef034408a25da0bb" class="room indoor" data-label="small prison cell" x="298" y="278" width="16" height="16" rx="4"/>
-    <rect id="room-3b2a13df9d2b7e1ee3ce8d4fcf10a594ad27600d" class="room indoor" data-label="large prison cell" x="322" y="278" width="16" height="16" rx="4"/>
-    <rect id="room-1e68d4d09992750ae7ee64f94222064d64be4d61" class="room indoor" data-label="cell" x="346" y="230" width="16" height="16" rx="4"/>
-    <rect id="room-7411fbee3969dace510b6c920d79c70e3a490208" class="room indoor" data-label="cell" x="346" y="278" width="16" height="16" rx="4"/>
-    <rect id="room-eb14d6eb1e2073ba0ca42b10e61207f9c4ceb2ef" class="room indoor" data-label="cell" x="370" y="230" width="16" height="16" rx="4"/>
-    <rect id="room-104023ce7fbb221b8e6bb1506dfb6bf157b1f3de" class="room indoor" data-label="Igor&#x27;s laboratory" x="370" y="278" width="16" height="16" rx="4"/>
-    <rect id="room-28ef221b06da7cef4b70ae9aa054b42124b8d118" class="room indoor" data-label="cold room" x="351" y="298" width="16" height="16" rx="4"/>
-    <rect id="room-52eec27a7c55af2e4aac3d94676af659de7224ba" class="room indoor" data-label="cell" x="394" y="230" width="16" height="16" rx="4"/>
-    <rect id="room-9db2f453e107344495876a79730023fd0cf8404c" class="room indoor" data-label="cell" x="394" y="278" width="16" height="16" rx="4"/>
-    <rect id="room-99327f687e7d90eb34a9dd37d0a93093599a45a7" class="room indoor" data-label="corridor" x="152" y="192" width="16" height="16" rx="4"/>
-    <rect id="room-d5367d2362f23b7bed04496d7c14c6ebf92796e9" class="room indoor" data-label="storeroom" x="128" y="192" width="16" height="16" rx="4"/>
-    <rect id="room-63520a8746c01dc39e543b10c831919807fdc070" class="room indoor" data-label="room with a lot of pipes" x="176" y="192" width="16" height="16" rx="4"/>
-    <rect id="room-191297bb95441593532ffd6504b0ec5ed5417e2a" class="room indoor" data-label="corridor" x="152" y="216" width="16" height="16" rx="4"/>
-    <rect id="room-04d8d9bdc376bb5af4b4c3e56fc4d60615c1f146" class="room indoor" data-label="boiler room" x="176" y="216" width="16" height="16" rx="4"/>
-    <rect id="room-2686328aa9565c6118e159487bf1379435841838" class="room indoor" data-label="armoury" x="128" y="216" width="16" height="16" rx="4"/>
+    <rect id="room-e4323daefa982b5bbc15bdbe3ba57752df4c1e7d" class="room indoor" data-label="northeastern part of the main hall" x="84" y="100" width="8" height="8" rx="2"/>
+    <rect id="room-38e0caedf0ff789f97b6d7e8e2a18fad9ab0f2fd" class="room indoor" data-label="canteen" x="108" y="100" width="8" height="8" rx="2"/>
+    <rect id="room-a91f881f9b8387aece66202c8c4af29845f2b557" class="room indoor" data-label="kitchen" x="132" y="100" width="8" height="8" rx="2"/>
+    <rect id="room-ed5ed573b174bcece88c3026247b4db114376547" class="room indoor" data-label="northwestern part of the main hall" x="60" y="100" width="8" height="8" rx="2"/>
+    <rect id="room-dff316ced22bf977b5b85319417619f55cf5427a" class="room indoor" data-label="southwestern part of the main hall" x="60" y="124" width="8" height="8" rx="2"/>
+    <rect id="room-bb12561776cc64eee575ef49a01fa16c4af3c157" class="room indoor" data-label="tea room" x="60" y="148" width="8" height="8" rx="2"/>
+    <rect id="room-da386c9ef7bc8bc6b783b873bf423bc186b717f8" class="room indoor" data-label="southeastern part of the main hall" x="84" y="124" width="8" height="8" rx="2"/>
+    <rect id="room-75779c028e33c650afb0da590c30e13233037ff4" class="room indoor" data-label="corridor" x="108" y="124" width="8" height="8" rx="2"/>
+    <rect id="room-9e40c07e260a43f14dc9c836835dbc1224e5a849" class="room indoor" data-label="corridor" x="108" y="148" width="8" height="8" rx="2"/>
+    <rect id="room-001b1d37a206af4bda0bbbab028846039595d452" class="room indoor" data-label="men&#x27;s dressing room" x="84" y="148" width="8" height="8" rx="2"/>
+    <rect id="room-e89dfc0fc7ca85e470f6088959f8dc2e04fa9b5e" class="room indoor" data-label="corridor-junction" x="108" y="172" width="8" height="8" rx="2"/>
+    <rect id="room-7c1f023e45c77a1656827735299710d61769fc0e" class="room indoor" data-label="women&#x27;s dressing room" x="84" y="172" width="8" height="8" rx="2"/>
+    <rect id="room-e60350c1af1e8f42bd568a2b821add57cf635606" class="room indoor" data-label="corridor" x="108" y="196" width="8" height="8" rx="2"/>
+    <rect id="room-43913fcff5de196f8e801d6810346011fa49f10b" class="room indoor" data-label="corridor" x="108" y="220" width="8" height="8" rx="2"/>
+    <rect id="room-e946d1b1c0ae54f55938d176143b5b9085f54b2a" class="room indoor" data-label="eastern part of the training ground" x="108" y="246" width="8" height="8" rx="2"/>
+    <rect id="room-effd227afd7bd5661384eed1e5abb1816292196a" class="room indoor" data-label="western part of the training ground" x="80" y="246" width="8" height="8" rx="2"/>
+    <rect id="room-42ec9933c09cb4fb475bbd81b66a90308be65975" class="room indoor" data-label="corridor" x="84" y="220" width="8" height="8" rx="2"/>
+    <rect id="room-a354edb8beab37712ffa33e68b17482171832faf" class="room indoor" data-label="interrogation room" x="84" y="196" width="8" height="8" rx="2"/>
+    <rect id="room-0e7d9e718872efa5e99d00f9166a1a52b6b9de1f" class="room indoor" data-label="corridor" x="60" y="220" width="8" height="8" rx="2"/>
+    <rect id="room-45cb06d71364647001ae5236ea1832d5b4cbff65" class="room indoor" data-label="bare room" x="60" y="196" width="8" height="8" rx="2"/>
+    <rect id="room-f2dd78929943ee0d53e7a813c73e92499431937b" class="room indoor" data-label="stairwell" x="285" y="175" width="8" height="8" rx="2"/>
+    <rect id="room-e3396647c4af3d6a859754f365b30d93b3f0de66" class="room indoor" data-label="corridor" x="309" y="175" width="8" height="8" rx="2"/>
+    <rect id="room-23df74bcdc7136f4c9745f3b3aa7fb4618fd05a3" class="room indoor" data-label="corridor" x="333" y="175" width="8" height="8" rx="2"/>
+    <rect id="room-506cf7c5be93e3189f3b1c96b45c308a358548d3" class="room indoor" data-label="old armoury" x="333" y="151" width="8" height="8" rx="2"/>
+    <rect id="room-14363e2121b91d9a5f860548bba820784e3d659c" class="room indoor" data-label="corridor" x="357" y="175" width="8" height="8" rx="2"/>
+    <rect id="room-65c089fbb74abe38e8c8c13b55b346a8fad82c51" class="room indoor" data-label="room full of pipes" x="357" y="151" width="8" height="8" rx="2"/>
+    <rect id="room-174e69727d2965e2076884c41903622d04ca521f" class="room indoor" data-label="corridor" x="285" y="151" width="8" height="8" rx="2"/>
+    <rect id="room-280b9a0993f4c2abcf8227f7d750cc44b0d9692f" class="room indoor" data-label="corridor" x="405" y="175" width="8" height="8" rx="2"/>
+    <rect id="room-8c6ec17a9134a53f13bc6b2feeddbc45fb81b76b" class="room indoor" data-label="storeroom" x="429" y="175" width="8" height="8" rx="2"/>
+    <rect id="room-0ad512d3ec4e95fc106f302641992c06535a8233" class="room indoor" data-label="corridor" x="405" y="151" width="8" height="8" rx="2"/>
+    <rect id="room-2beb0e385dbebfda36b074eb8f5db747bd610bdb" class="room indoor" data-label="archive" x="429" y="151" width="8" height="8" rx="2"/>
+    <rect id="room-863c8480aed91e9b4b88023d34256e6ce7d91d9a" class="room indoor" data-label="corridor" x="405" y="104" width="8" height="8" rx="2"/>
+    <rect id="room-63f33530da59738fd1ab7a52c3dd4b5b8363f725" class="room indoor" data-label="corridor" x="429" y="104" width="8" height="8" rx="2"/>
+    <rect id="room-d0f19f26c5a12a73817d5b391a8aeadd85e464c1" class="room indoor" data-label="Captain Carrot&#x27;s room" x="405" y="80" width="8" height="8" rx="2"/>
+    <rect id="room-7147c2010cfb431b50c1ae2fecb5893bf3fc846a" class="room indoor" data-label="corridor" x="381" y="104" width="8" height="8" rx="2"/>
+    <rect id="room-2f91a90be2c771b24ed72a3a75b1920ec277c353" class="room indoor" data-label="room full of junk" x="381" y="128" width="8" height="8" rx="2"/>
+    <rect id="room-9c133e18f2f64cad66e9ddf6b3815c120e142c82" class="room indoor" data-label="corridor" x="357" y="104" width="8" height="8" rx="2"/>
+    <rect id="room-f80370cf035e26791bad591cc9e0a4412b8eb392" class="room indoor" data-label="corridor" x="357" y="80" width="8" height="8" rx="2"/>
+    <rect id="room-c1a3c3cb5de46fe1cc227dcd86b65a78552a070b" class="room indoor" data-label="Commander Vimes&#x27; office" x="381" y="80" width="8" height="8" rx="2"/>
+    <rect id="room-8a69a64960e495dd53365f85f7a53e64ca95caf2" class="room indoor" data-label="corridor" x="333" y="104" width="8" height="8" rx="2"/>
+    <rect id="room-adf74cee18da7945b6d6e4a496298bebe967e8a9" class="room indoor" data-label="room" x="333" y="128" width="8" height="8" rx="2"/>
+    <rect id="room-e0902734d6bcf1be4763036446e5b3984d811dca" class="room indoor" data-label="balcony" x="309" y="104" width="8" height="8" rx="2"/>
+    <rect id="room-fe31d06bbe69eca1b48ca634f646ff8699a138f4" class="room indoor" data-label="assignment room" x="309" y="128" width="8" height="8" rx="2"/>
+    <rect id="room-d3ed288e87c1a1d81517c1d4dd022dc9c8d48c74" class="room indoor" data-label="junction" x="285" y="104" width="8" height="8" rx="2"/>
+    <rect id="room-f8e2873643260fb93623c23ca9caf584447bd088" class="room indoor" data-label="stairwell" x="180" y="124" width="8" height="8" rx="2"/>
+    <rect id="room-fef9e62f305c72a18a1269d0fbfe32b05aa65f63" class="room indoor" data-label="corridor" x="156" y="124" width="8" height="8" rx="2"/>
+    <rect id="room-bf31c1171f6364127419287e7b526cc8a369dad4" class="room indoor" data-label="corridor" x="132" y="124" width="8" height="8" rx="2"/>
+    <rect id="room-c3e340e672656faca84e109857f441c5f20e65a4" class="room indoor" data-label="Littlebottom&#x27;s office" x="156" y="100" width="8" height="8" rx="2"/>
+    <rect id="room-431f3cc333eb591a62e0818eb9ea452e79ded09d" class="room indoor" data-label="locker room" x="132" y="148" width="8" height="8" rx="2"/>
+    <rect id="room-1cb90592d555424999ee624e9d13f0265d22446c" class="room indoor" data-label="corridor" x="132" y="172" width="8" height="8" rx="2"/>
+    <rect id="room-dfc1b69df1f92cec64bb6d33f6ebff176372d6d8" class="room indoor" data-label="corridor" x="156" y="172" width="8" height="8" rx="2"/>
+    <rect id="room-f51061ff25732d1390b12b7569b2aa8636fb3973" class="room indoor" data-label="corridor" x="180" y="172" width="8" height="8" rx="2"/>
+    <rect id="room-9d1398289c8182bfdd1e58222a7a7ae6485379a9" class="room indoor" data-label="corridor" x="204" y="172" width="8" height="8" rx="2"/>
+    <rect id="room-e06bf67fcabff99d29fa281df745b30607023cbe" class="room indoor" data-label="guild office" x="180" y="148" width="8" height="8" rx="2"/>
+    <rect id="room-fed2ded8a63f3227b629ef98fb65c32fa197ea71" class="room indoor" data-label="corridor" x="422" y="258" width="8" height="8" rx="2"/>
+    <rect id="room-3d1b328a9e77db781d6d26502015503502ca1791" class="room indoor" data-label="corridor" x="398" y="258" width="8" height="8" rx="2"/>
+    <rect id="room-a9a2f5d97684cb08e47ce171089f3c3da649082b" class="room indoor" data-label="corridor" x="374" y="258" width="8" height="8" rx="2"/>
+    <rect id="room-9f2e587994ffa1765e454eeb1ed3e32f3d30129d" class="room indoor" data-label="corridor" x="350" y="258" width="8" height="8" rx="2"/>
+    <rect id="room-620710c69028308bc9ee8b981466fbb14659bef9" class="room indoor" data-label="large room" x="326" y="258" width="8" height="8" rx="2"/>
+    <rect id="room-89df80382bd2cd503e1dc8f3aff6eff710c9e7d0" class="room indoor" data-label="maximum security prison cell" x="326" y="234" width="8" height="8" rx="2"/>
+    <rect id="room-317645d8de185f9aacb73590f78256b1936cbb33" class="room indoor" data-label="small, uncomfortable prison cell" x="302" y="235" width="8" height="8" rx="2"/>
+    <rect id="room-4fd07ea1a2cf447535b02d6420c16985c78bbd18" class="room indoor" data-label="small prison cell" x="302" y="258" width="8" height="8" rx="2"/>
+    <rect id="room-85f68e1c1804bd7486775a84ef034408a25da0bb" class="room indoor" data-label="small prison cell" x="302" y="282" width="8" height="8" rx="2"/>
+    <rect id="room-3b2a13df9d2b7e1ee3ce8d4fcf10a594ad27600d" class="room indoor" data-label="large prison cell" x="326" y="282" width="8" height="8" rx="2"/>
+    <rect id="room-1e68d4d09992750ae7ee64f94222064d64be4d61" class="room indoor" data-label="cell" x="350" y="234" width="8" height="8" rx="2"/>
+    <rect id="room-7411fbee3969dace510b6c920d79c70e3a490208" class="room indoor" data-label="cell" x="350" y="282" width="8" height="8" rx="2"/>
+    <rect id="room-eb14d6eb1e2073ba0ca42b10e61207f9c4ceb2ef" class="room indoor" data-label="cell" x="374" y="234" width="8" height="8" rx="2"/>
+    <rect id="room-104023ce7fbb221b8e6bb1506dfb6bf157b1f3de" class="room indoor" data-label="Igor&#x27;s laboratory" x="374" y="282" width="8" height="8" rx="2"/>
+    <rect id="room-28ef221b06da7cef4b70ae9aa054b42124b8d118" class="room indoor" data-label="cold room" x="355" y="302" width="8" height="8" rx="2"/>
+    <rect id="room-52eec27a7c55af2e4aac3d94676af659de7224ba" class="room indoor" data-label="cell" x="398" y="234" width="8" height="8" rx="2"/>
+    <rect id="room-9db2f453e107344495876a79730023fd0cf8404c" class="room indoor" data-label="cell" x="398" y="282" width="8" height="8" rx="2"/>
+    <rect id="room-99327f687e7d90eb34a9dd37d0a93093599a45a7" class="room indoor" data-label="corridor" x="156" y="196" width="8" height="8" rx="2"/>
+    <rect id="room-d5367d2362f23b7bed04496d7c14c6ebf92796e9" class="room indoor" data-label="storeroom" x="132" y="196" width="8" height="8" rx="2"/>
+    <rect id="room-63520a8746c01dc39e543b10c831919807fdc070" class="room indoor" data-label="room with a lot of pipes" x="180" y="196" width="8" height="8" rx="2"/>
+    <rect id="room-191297bb95441593532ffd6504b0ec5ed5417e2a" class="room indoor" data-label="corridor" x="156" y="220" width="8" height="8" rx="2"/>
+    <rect id="room-04d8d9bdc376bb5af4b4c3e56fc4d60615c1f146" class="room indoor" data-label="boiler room" x="180" y="220" width="8" height="8" rx="2"/>
+    <rect id="room-2686328aa9565c6118e159487bf1379435841838" class="room indoor" data-label="armoury" x="132" y="220" width="8" height="8" rx="2"/>
   </g>
 
-  <g id="layer-labels">
-    <text class="map-label" x="88" y="92">northeastern part of the main hall</text>
-    <text class="map-label" x="112" y="92">canteen</text>
-    <text class="map-label" x="136" y="92">kitchen</text>
-    <text class="map-label" x="64" y="92">northwestern part of the main hall</text>
-    <text class="map-label" x="64" y="116">southwestern part of the main hall</text>
-    <text class="map-label" x="64" y="140">tea room</text>
-    <text class="map-label" x="88" y="116">southeastern part of the main hall</text>
-    <text class="map-label" x="112" y="116">corridor</text>
-    <text class="map-label" x="112" y="140">corridor</text>
-    <text class="map-label" x="88" y="140">men&#x27;s dressing room</text>
-    <text class="map-label" x="112" y="164">corridor-junction</text>
-    <text class="map-label" x="88" y="164">women&#x27;s dressing room</text>
-    <text class="map-label" x="112" y="188">corridor</text>
-    <text class="map-label" x="112" y="212">corridor</text>
-    <text class="map-label" x="112" y="238">eastern part of the training ground</text>
-    <text class="map-label" x="84" y="238">western part of the training ground</text>
-    <text class="map-label" x="88" y="212">corridor</text>
-    <text class="map-label" x="88" y="188">interrogation room</text>
-    <text class="map-label" x="64" y="212">corridor</text>
-    <text class="map-label" x="64" y="188">bare room</text>
-    <text class="map-label" x="289" y="167">stairwell</text>
-    <text class="map-label" x="313" y="167">corridor</text>
-    <text class="map-label" x="337" y="167">corridor</text>
-    <text class="map-label" x="337" y="143">old armoury</text>
-    <text class="map-label" x="361" y="167">corridor</text>
-    <text class="map-label" x="361" y="143">room full of pipes</text>
-    <text class="map-label" x="289" y="143">corridor</text>
-    <text class="map-label" x="409" y="167">corridor</text>
-    <text class="map-label" x="433" y="167">storeroom</text>
-    <text class="map-label" x="409" y="143">corridor</text>
-    <text class="map-label" x="433" y="143">archive</text>
-    <text class="map-label" x="409" y="96">corridor</text>
-    <text class="map-label" x="433" y="96">corridor</text>
-    <text class="map-label" x="409" y="72">Captain Carrot&#x27;s room</text>
-    <text class="map-label" x="385" y="96">corridor</text>
-    <text class="map-label" x="385" y="120">room full of junk</text>
-    <text class="map-label" x="361" y="96">corridor</text>
-    <text class="map-label" x="361" y="72">corridor</text>
-    <text class="map-label" x="385" y="72">Commander Vimes&#x27; office</text>
-    <text class="map-label" x="337" y="96">corridor</text>
-    <text class="map-label" x="337" y="120">room</text>
-    <text class="map-label" x="313" y="96">balcony</text>
-    <text class="map-label" x="313" y="120">assignment room</text>
-    <text class="map-label" x="289" y="96">junction</text>
-    <text class="map-label" x="184" y="116">stairwell</text>
-    <text class="map-label" x="160" y="116">corridor</text>
-    <text class="map-label" x="136" y="116">corridor</text>
-    <text class="map-label" x="160" y="92">Littlebottom&#x27;s office</text>
-    <text class="map-label" x="136" y="140">locker room</text>
-    <text class="map-label" x="136" y="164">corridor</text>
-    <text class="map-label" x="160" y="164">corridor</text>
-    <text class="map-label" x="184" y="164">corridor</text>
-    <text class="map-label" x="208" y="164">corridor</text>
-    <text class="map-label" x="184" y="140">guild office</text>
-    <text class="map-label" x="426" y="250">corridor</text>
-    <text class="map-label" x="402" y="250">corridor</text>
-    <text class="map-label" x="378" y="250">corridor</text>
-    <text class="map-label" x="354" y="250">corridor</text>
-    <text class="map-label" x="330" y="250">large room</text>
-    <text class="map-label" x="330" y="226">maximum security prison cell</text>
-    <text class="map-label" x="306" y="227">small, uncomfortable prison cell</text>
-    <text class="map-label" x="306" y="250">small prison cell</text>
-    <text class="map-label" x="306" y="274">small prison cell</text>
-    <text class="map-label" x="330" y="274">large prison cell</text>
-    <text class="map-label" x="354" y="226">cell</text>
-    <text class="map-label" x="354" y="274">cell</text>
-    <text class="map-label" x="378" y="226">cell</text>
-    <text class="map-label" x="378" y="274">Igor&#x27;s laboratory</text>
-    <text class="map-label" x="359" y="294">cold room</text>
-    <text class="map-label" x="402" y="226">cell</text>
-    <text class="map-label" x="402" y="274">cell</text>
-    <text class="map-label" x="160" y="188">corridor</text>
-    <text class="map-label" x="136" y="188">storeroom</text>
-    <text class="map-label" x="184" y="188">room with a lot of pipes</text>
-    <text class="map-label" x="160" y="212">corridor</text>
-    <text class="map-label" x="184" y="212">boiler room</text>
-    <text class="map-label" x="136" y="212">armoury</text>
-  </g>
+  <g id="layer-labels"><!-- labels --></g>
 
 </svg>

@@ -70,125 +70,66 @@
   </g>
 
   <g id="layer-rooms">
-    <rect id="room-cae6eb9b556284aada2249afcb7ffa1c21432074" class="room indoor" data-label="tunnel" x="250" y="125" width="16" height="16" rx="4"/>
-    <rect id="room-fb323cf9d2228554ee3d10137e600cb2c3c3d6a9" class="room indoor" data-label="tunnel" x="222" y="153" width="16" height="16" rx="4"/>
-    <rect id="room-6cd74dd78a1a7bf36cc7b3f5a67b5ba1244e9742" class="room indoor" data-label="tunnel" x="194" y="181" width="16" height="16" rx="4"/>
-    <rect id="room-2fa992002228aa37682279bf5f605bb109d320aa" class="room indoor" data-label="tunnel" x="194" y="208" width="16" height="16" rx="4"/>
-    <rect id="room-132873fa4975892574f3daf5b50ab657bb884563" class="room indoor" data-label="tunnel" x="166" y="208" width="16" height="16" rx="4"/>
-    <rect id="room-6ed20923e814d3ec28c1f377b547e4ea6e434ae3" class="room indoor" data-label="cave" x="166" y="236" width="16" height="16" rx="4"/>
-    <rect id="room-d2e1821b050d182e4811c32760db07169fcc2ff4" class="room indoor" data-label="cave" x="194" y="236" width="16" height="16" rx="4"/>
-    <rect id="room-cafc662703a4e6afdbf93d50416cdbe8509a2cce" class="room indoor" data-label="cave" x="194" y="264" width="16" height="16" rx="4"/>
-    <rect id="room-d287c45e572ae26344dc37c483acd9b7d803a255" class="room indoor" data-label="cave" x="166" y="264" width="16" height="16" rx="4"/>
-    <rect id="room-4fb9fa191fcee3c47158cda36183b4d846ed29f4" class="room indoor" data-label="tunnel" x="381" y="159" width="16" height="16" rx="4"/>
-    <rect id="room-b12505ab1ef83596cef62e5907782eb4d5e551de" class="room indoor" data-label="stairwell" x="409" y="159" width="16" height="16" rx="4"/>
-    <rect id="room-32c27a93dc9b5fdbca80c87a69b5cda3c15a3608" class="room indoor" data-label="Inhumation Office" x="381" y="187" width="16" height="16" rx="4"/>
-    <rect id="room-16d3f19f946f07805548a07c7b2730fe448e4860" class="room indoor" data-label="large room" x="437" y="159" width="16" height="16" rx="4"/>
-    <rect id="room-2cb7fd29e8271e80bf28d5d4d9a51ddb4fce8b01" class="room indoor" data-label="tunnel" x="409" y="187" width="16" height="16" rx="4"/>
-    <rect id="room-389df22ff65e009690f6aac7702cd6cd0b630b28" class="room indoor" data-label="tunnel" x="437" y="187" width="16" height="16" rx="4"/>
-    <rect id="room-42bdf65d9e5de389c48c2833cef0f8920628dd5f" class="room indoor" data-label="tunnel" x="465" y="187" width="16" height="16" rx="4"/>
-    <rect id="room-d1e85e8ad2078b4453c014254549b377e14f536e" class="room indoor" data-label="Hashishim Voting Room" x="465" y="159" width="16" height="16" rx="4"/>
-    <rect id="room-1f892ff4e2b779d0436eef387e928b752baa3e64" class="room indoor" data-label="tunnel" x="465" y="215" width="16" height="16" rx="4"/>
-    <rect id="room-4cb9be970c38a493157097f7e2e5c48885305d12" class="room indoor" data-label="leatherworking room" x="493" y="215" width="16" height="16" rx="4"/>
-    <rect id="room-c38bf004f6112660b491beb64f4a5e9e944b1aff" class="room indoor" data-label="forge" x="437" y="243" width="16" height="16" rx="4"/>
-    <rect id="room-2ab9faca2a3945478405ac9a933928dcc7e5f63b" class="room indoor" data-label="tunnel" x="409" y="131" width="16" height="16" rx="4"/>
-    <rect id="room-d0ee3f7634b1632ebe8722eb4ca7ee9f76c7a636" class="room indoor" data-label="tunnel" x="381" y="103" width="16" height="16" rx="4"/>
-    <rect id="room-3c426f34777ef3c08e02d16ced62b1882f3bb9b6" class="room indoor" data-label="small room" x="353" y="103" width="16" height="16" rx="4"/>
-    <rect id="room-5241876bf0d8c1f5632fc79d716782672d2b0b6b" class="room indoor" data-label="tunnel" x="381" y="75" width="16" height="16" rx="4"/>
-    <rect id="room-9f9eca3fdd40b2cc97b4b3d8c2b7b915213a587e" class="room indoor" data-label="noticeboard room" x="353" y="75" width="16" height="16" rx="4"/>
-    <rect id="room-096cdfe7b5dade966a9f3460204e3ad401f67763" class="room indoor" data-label="library" x="409" y="75" width="16" height="16" rx="4"/>
-    <rect id="room-c779eacce785c5cffd7b90357cd3e02d3dab4e65" class="room indoor" data-label="tunnel" x="437" y="103" width="16" height="16" rx="4"/>
-    <rect id="room-58e3596c6937f9509a14e1e988aee19470b77e98" class="room indoor" data-label="tunnel" x="465" y="75" width="16" height="16" rx="4"/>
-    <rect id="room-809a718195c02dc5d8c3f4fee41d938d84a212d1" class="room indoor" data-label="tunnel" x="493" y="75" width="16" height="16" rx="4"/>
-    <rect id="room-ed3d101ed3aa6ca385a1f25c35bb4dcc487a3455" class="room indoor" data-label="clothes shop" x="493" y="47" width="16" height="16" rx="4"/>
-    <rect id="room-a613d346a670073f454837578ad8f5cee9fd8f01" class="room indoor" data-label="tiny room" x="521" y="47" width="16" height="16" rx="4"/>
-    <rect id="room-c94b403390f802c2c44064f52dfc1b587d324c40" class="room indoor" data-label="equipment shop" x="521" y="75" width="16" height="16" rx="4"/>
-    <rect id="room-975f54c7822aea28545f4c1a58be5baf53fd084d" class="room indoor" data-label="tiny alcove" x="549" y="75" width="16" height="16" rx="4"/>
-    <rect id="room-7ab71833c2d39fa66640fe7370d6776f6a041bb2" class="room indoor" data-label="stairwell" x="225" y="420" width="16" height="16" rx="4"/>
-    <rect id="room-3c7cc39b7aab12f2bbf3d3449a0124f33f755396" class="room indoor" data-label="boardroom" x="225" y="448" width="16" height="16" rx="4"/>
-    <rect id="room-3e3fd6299717e9fad9bec1b61cb62db1127db9a1" class="room indoor" data-label="tunnel" x="197" y="420" width="16" height="16" rx="4"/>
-    <rect id="room-6174cd9f1b5d1a35f89c767a4e84aba3d0d6015f" class="room indoor" data-label="tunnel" x="169" y="448" width="16" height="16" rx="4"/>
-    <rect id="room-9b2cf4ec7a7b2acd976893c405e113756f67a7ae" class="room indoor" data-label="Office of the Lord of the Mountain" x="169" y="476" width="16" height="16" rx="4"/>
-    <rect id="room-3408fc5b1da2c621b57dec5e8d4c144f91bb3989" class="room indoor" data-label="Office of the Malik Iman" x="141" y="448" width="16" height="16" rx="4"/>
-    <rect id="room-0f4875e6fd8b26d56d55cf7d7183566de2206ac2" class="room indoor" data-label="tunnel" x="225" y="392" width="16" height="16" rx="4"/>
-    <rect id="room-34e6720b711f58b60350fe8fc08e4cd7dcca1497" class="room indoor" data-label="tunnel" x="225" y="364" width="16" height="16" rx="4"/>
-    <rect id="room-28b9161330fffac41a1ab6515295342307422317" class="room indoor" data-label="dimly-lit training room" x="253" y="336" width="16" height="16" rx="4"/>
-    <rect id="room-9662e8ed60c4e8d1a93a66fc6a753854537901be" class="room indoor" data-label="tattoo room" x="197" y="364" width="16" height="16" rx="4"/>
-    <rect id="room-2ddaa465d93aec638e8bb36e616ebbf7b7bba0d1" class="room indoor" data-label="tunnel" x="197" y="336" width="16" height="16" rx="4"/>
-    <rect id="room-c1f0e905818619f018776eb02983c7ede489d196" class="room indoor" data-label="hashishim laboratory" x="197" y="308" width="16" height="16" rx="4"/>
-    <rect id="room-1963ed8573fae0064bbf6e81d62f26fe75b79a57" class="room indoor" data-label="tunnel" x="253" y="420" width="16" height="16" rx="4"/>
-    <rect id="room-0a2f65042684d6532b191c2d7bcb9425b8cdc8ca" class="room indoor" data-label="kitchen and dining room" x="253" y="392" width="16" height="16" rx="4"/>
-    <rect id="room-53f0766c505efa93a87a671b74b154ca9935531d" class="room indoor" data-label="tunnel" x="281" y="392" width="16" height="16" rx="4"/>
-    <rect id="room-36098b13cfe79eb18cf2102406aeaf749c3dd748" class="room indoor" data-label="training room" x="281" y="364" width="16" height="16" rx="4"/>
-    <rect id="room-97cc8c39c2edc9d30f4403750ed35947e64a22a3" class="room indoor" data-label="tunnel" x="309" y="392" width="16" height="16" rx="4"/>
-    <rect id="room-fa83e8de822f330c6e638cc22b33020062fd6b40" class="room indoor" data-label="casing training room" x="309" y="364" width="16" height="16" rx="4"/>
-    <rect id="room-eb72ff61597e3d245bfced71cdd4f4d82d5571cf" class="room indoor" data-label="tunnel" x="309" y="420" width="16" height="16" rx="4"/>
-    <rect id="room-5749f1dd4ec58ed03791ca62aa8e2e96caae8486" class="room indoor" data-label="training room" x="337" y="420" width="16" height="16" rx="4"/>
-    <rect id="room-aa157bb30b2f189e64225ef7647413614cec9b79" class="room indoor" data-label="sandy room" x="309" y="448" width="16" height="16" rx="4"/>
-    <rect id="room-873b85d07b34088e7d63b5542885d92fe4175650" class="room indoor" data-label="sandy room" x="309" y="476" width="16" height="16" rx="4"/>
-    <rect id="room-eb210c70f90aac64ca90066a2fcee626c7278fdb" class="room indoor" data-label="sandy room" x="281" y="476" width="16" height="16" rx="4"/>
-    <rect id="room-e0294ac963f7e58c779cd9c41efb1f6e942b2459" class="room indoor" data-label="sandy room" x="281" y="448" width="16" height="16" rx="4"/>
-    <rect id="room-1eb7e0bf89cfbc4fb6ddf4c852078fd033503bfa" class="room indoor" data-label="pottery room" x="465" y="243" width="16" height="16" rx="4"/>
+    <rect id="room-cae6eb9b556284aada2249afcb7ffa1c21432074" class="room indoor" data-label="tunnel" x="254" y="129" width="8" height="8" rx="2"/>
+    <rect id="room-fb323cf9d2228554ee3d10137e600cb2c3c3d6a9" class="room indoor" data-label="tunnel" x="226" y="157" width="8" height="8" rx="2"/>
+    <rect id="room-6cd74dd78a1a7bf36cc7b3f5a67b5ba1244e9742" class="room indoor" data-label="tunnel" x="198" y="185" width="8" height="8" rx="2"/>
+    <rect id="room-2fa992002228aa37682279bf5f605bb109d320aa" class="room indoor" data-label="tunnel" x="198" y="212" width="8" height="8" rx="2"/>
+    <rect id="room-132873fa4975892574f3daf5b50ab657bb884563" class="room indoor" data-label="tunnel" x="170" y="212" width="8" height="8" rx="2"/>
+    <rect id="room-6ed20923e814d3ec28c1f377b547e4ea6e434ae3" class="room indoor" data-label="cave" x="170" y="240" width="8" height="8" rx="2"/>
+    <rect id="room-d2e1821b050d182e4811c32760db07169fcc2ff4" class="room indoor" data-label="cave" x="198" y="240" width="8" height="8" rx="2"/>
+    <rect id="room-cafc662703a4e6afdbf93d50416cdbe8509a2cce" class="room indoor" data-label="cave" x="198" y="268" width="8" height="8" rx="2"/>
+    <rect id="room-d287c45e572ae26344dc37c483acd9b7d803a255" class="room indoor" data-label="cave" x="170" y="268" width="8" height="8" rx="2"/>
+    <rect id="room-4fb9fa191fcee3c47158cda36183b4d846ed29f4" class="room indoor" data-label="tunnel" x="385" y="163" width="8" height="8" rx="2"/>
+    <rect id="room-b12505ab1ef83596cef62e5907782eb4d5e551de" class="room indoor" data-label="stairwell" x="413" y="163" width="8" height="8" rx="2"/>
+    <rect id="room-32c27a93dc9b5fdbca80c87a69b5cda3c15a3608" class="room indoor" data-label="Inhumation Office" x="385" y="191" width="8" height="8" rx="2"/>
+    <rect id="room-16d3f19f946f07805548a07c7b2730fe448e4860" class="room indoor" data-label="large room" x="441" y="163" width="8" height="8" rx="2"/>
+    <rect id="room-2cb7fd29e8271e80bf28d5d4d9a51ddb4fce8b01" class="room indoor" data-label="tunnel" x="413" y="191" width="8" height="8" rx="2"/>
+    <rect id="room-389df22ff65e009690f6aac7702cd6cd0b630b28" class="room indoor" data-label="tunnel" x="441" y="191" width="8" height="8" rx="2"/>
+    <rect id="room-42bdf65d9e5de389c48c2833cef0f8920628dd5f" class="room indoor" data-label="tunnel" x="469" y="191" width="8" height="8" rx="2"/>
+    <rect id="room-d1e85e8ad2078b4453c014254549b377e14f536e" class="room indoor" data-label="Hashishim Voting Room" x="469" y="163" width="8" height="8" rx="2"/>
+    <rect id="room-1f892ff4e2b779d0436eef387e928b752baa3e64" class="room indoor" data-label="tunnel" x="469" y="219" width="8" height="8" rx="2"/>
+    <rect id="room-4cb9be970c38a493157097f7e2e5c48885305d12" class="room indoor" data-label="leatherworking room" x="497" y="219" width="8" height="8" rx="2"/>
+    <rect id="room-c38bf004f6112660b491beb64f4a5e9e944b1aff" class="room indoor" data-label="forge" x="441" y="247" width="8" height="8" rx="2"/>
+    <rect id="room-2ab9faca2a3945478405ac9a933928dcc7e5f63b" class="room indoor" data-label="tunnel" x="413" y="135" width="8" height="8" rx="2"/>
+    <rect id="room-d0ee3f7634b1632ebe8722eb4ca7ee9f76c7a636" class="room indoor" data-label="tunnel" x="385" y="107" width="8" height="8" rx="2"/>
+    <rect id="room-3c426f34777ef3c08e02d16ced62b1882f3bb9b6" class="room indoor" data-label="small room" x="357" y="107" width="8" height="8" rx="2"/>
+    <rect id="room-5241876bf0d8c1f5632fc79d716782672d2b0b6b" class="room indoor" data-label="tunnel" x="385" y="79" width="8" height="8" rx="2"/>
+    <rect id="room-9f9eca3fdd40b2cc97b4b3d8c2b7b915213a587e" class="room indoor" data-label="noticeboard room" x="357" y="79" width="8" height="8" rx="2"/>
+    <rect id="room-096cdfe7b5dade966a9f3460204e3ad401f67763" class="room indoor" data-label="library" x="413" y="79" width="8" height="8" rx="2"/>
+    <rect id="room-c779eacce785c5cffd7b90357cd3e02d3dab4e65" class="room indoor" data-label="tunnel" x="441" y="107" width="8" height="8" rx="2"/>
+    <rect id="room-58e3596c6937f9509a14e1e988aee19470b77e98" class="room indoor" data-label="tunnel" x="469" y="79" width="8" height="8" rx="2"/>
+    <rect id="room-809a718195c02dc5d8c3f4fee41d938d84a212d1" class="room indoor" data-label="tunnel" x="497" y="79" width="8" height="8" rx="2"/>
+    <rect id="room-ed3d101ed3aa6ca385a1f25c35bb4dcc487a3455" class="room indoor" data-label="clothes shop" x="497" y="51" width="8" height="8" rx="2"/>
+    <rect id="room-a613d346a670073f454837578ad8f5cee9fd8f01" class="room indoor" data-label="tiny room" x="525" y="51" width="8" height="8" rx="2"/>
+    <rect id="room-c94b403390f802c2c44064f52dfc1b587d324c40" class="room indoor" data-label="equipment shop" x="525" y="79" width="8" height="8" rx="2"/>
+    <rect id="room-975f54c7822aea28545f4c1a58be5baf53fd084d" class="room indoor" data-label="tiny alcove" x="553" y="79" width="8" height="8" rx="2"/>
+    <rect id="room-7ab71833c2d39fa66640fe7370d6776f6a041bb2" class="room indoor" data-label="stairwell" x="229" y="424" width="8" height="8" rx="2"/>
+    <rect id="room-3c7cc39b7aab12f2bbf3d3449a0124f33f755396" class="room indoor" data-label="boardroom" x="229" y="452" width="8" height="8" rx="2"/>
+    <rect id="room-3e3fd6299717e9fad9bec1b61cb62db1127db9a1" class="room indoor" data-label="tunnel" x="201" y="424" width="8" height="8" rx="2"/>
+    <rect id="room-6174cd9f1b5d1a35f89c767a4e84aba3d0d6015f" class="room indoor" data-label="tunnel" x="173" y="452" width="8" height="8" rx="2"/>
+    <rect id="room-9b2cf4ec7a7b2acd976893c405e113756f67a7ae" class="room indoor" data-label="Office of the Lord of the Mountain" x="173" y="480" width="8" height="8" rx="2"/>
+    <rect id="room-3408fc5b1da2c621b57dec5e8d4c144f91bb3989" class="room indoor" data-label="Office of the Malik Iman" x="145" y="452" width="8" height="8" rx="2"/>
+    <rect id="room-0f4875e6fd8b26d56d55cf7d7183566de2206ac2" class="room indoor" data-label="tunnel" x="229" y="396" width="8" height="8" rx="2"/>
+    <rect id="room-34e6720b711f58b60350fe8fc08e4cd7dcca1497" class="room indoor" data-label="tunnel" x="229" y="368" width="8" height="8" rx="2"/>
+    <rect id="room-28b9161330fffac41a1ab6515295342307422317" class="room indoor" data-label="dimly-lit training room" x="257" y="340" width="8" height="8" rx="2"/>
+    <rect id="room-9662e8ed60c4e8d1a93a66fc6a753854537901be" class="room indoor" data-label="tattoo room" x="201" y="368" width="8" height="8" rx="2"/>
+    <rect id="room-2ddaa465d93aec638e8bb36e616ebbf7b7bba0d1" class="room indoor" data-label="tunnel" x="201" y="340" width="8" height="8" rx="2"/>
+    <rect id="room-c1f0e905818619f018776eb02983c7ede489d196" class="room indoor" data-label="hashishim laboratory" x="201" y="312" width="8" height="8" rx="2"/>
+    <rect id="room-1963ed8573fae0064bbf6e81d62f26fe75b79a57" class="room indoor" data-label="tunnel" x="257" y="424" width="8" height="8" rx="2"/>
+    <rect id="room-0a2f65042684d6532b191c2d7bcb9425b8cdc8ca" class="room indoor" data-label="kitchen and dining room" x="257" y="396" width="8" height="8" rx="2"/>
+    <rect id="room-53f0766c505efa93a87a671b74b154ca9935531d" class="room indoor" data-label="tunnel" x="285" y="396" width="8" height="8" rx="2"/>
+    <rect id="room-36098b13cfe79eb18cf2102406aeaf749c3dd748" class="room indoor" data-label="training room" x="285" y="368" width="8" height="8" rx="2"/>
+    <rect id="room-97cc8c39c2edc9d30f4403750ed35947e64a22a3" class="room indoor" data-label="tunnel" x="313" y="396" width="8" height="8" rx="2"/>
+    <rect id="room-fa83e8de822f330c6e638cc22b33020062fd6b40" class="room indoor" data-label="casing training room" x="313" y="368" width="8" height="8" rx="2"/>
+    <rect id="room-eb72ff61597e3d245bfced71cdd4f4d82d5571cf" class="room indoor" data-label="tunnel" x="313" y="424" width="8" height="8" rx="2"/>
+    <rect id="room-5749f1dd4ec58ed03791ca62aa8e2e96caae8486" class="room indoor" data-label="training room" x="341" y="424" width="8" height="8" rx="2"/>
+    <rect id="room-aa157bb30b2f189e64225ef7647413614cec9b79" class="room indoor" data-label="sandy room" x="313" y="452" width="8" height="8" rx="2"/>
+    <rect id="room-873b85d07b34088e7d63b5542885d92fe4175650" class="room indoor" data-label="sandy room" x="313" y="480" width="8" height="8" rx="2"/>
+    <rect id="room-eb210c70f90aac64ca90066a2fcee626c7278fdb" class="room indoor" data-label="sandy room" x="285" y="480" width="8" height="8" rx="2"/>
+    <rect id="room-e0294ac963f7e58c779cd9c41efb1f6e942b2459" class="room indoor" data-label="sandy room" x="285" y="452" width="8" height="8" rx="2"/>
+    <rect id="room-1eb7e0bf89cfbc4fb6ddf4c852078fd033503bfa" class="room indoor" data-label="pottery room" x="469" y="247" width="8" height="8" rx="2"/>
   </g>
 
-  <g id="layer-labels">
-    <text class="map-label" x="258" y="121">tunnel</text>
-    <text class="map-label" x="230" y="149">tunnel</text>
-    <text class="map-label" x="202" y="177">tunnel</text>
-    <text class="map-label" x="202" y="204">tunnel</text>
-    <text class="map-label" x="174" y="204">tunnel</text>
-    <text class="map-label" x="174" y="232">cave</text>
-    <text class="map-label" x="202" y="232">cave</text>
-    <text class="map-label" x="202" y="260">cave</text>
-    <text class="map-label" x="174" y="260">cave</text>
-    <text class="map-label" x="389" y="155">tunnel</text>
-    <text class="map-label" x="417" y="155">stairwell</text>
-    <text class="map-label" x="389" y="183">Inhumation Office</text>
-    <text class="map-label" x="445" y="155">large room</text>
-    <text class="map-label" x="417" y="183">tunnel</text>
-    <text class="map-label" x="445" y="183">tunnel</text>
-    <text class="map-label" x="473" y="183">tunnel</text>
-    <text class="map-label" x="473" y="155">Hashishim Voting Room</text>
-    <text class="map-label" x="473" y="211">tunnel</text>
-    <text class="map-label" x="501" y="211">leatherworking room</text>
-    <text class="map-label" x="445" y="239">forge</text>
-    <text class="map-label" x="417" y="127">tunnel</text>
-    <text class="map-label" x="389" y="99">tunnel</text>
-    <text class="map-label" x="361" y="99">small room</text>
-    <text class="map-label" x="389" y="71">tunnel</text>
-    <text class="map-label" x="361" y="71">noticeboard room</text>
-    <text class="map-label" x="417" y="71">library</text>
-    <text class="map-label" x="445" y="99">tunnel</text>
-    <text class="map-label" x="473" y="71">tunnel</text>
-    <text class="map-label" x="501" y="71">tunnel</text>
-    <text class="map-label" x="501" y="43">clothes shop</text>
-    <text class="map-label" x="529" y="43">tiny room</text>
-    <text class="map-label" x="529" y="71">equipment shop</text>
-    <text class="map-label" x="557" y="71">tiny alcove</text>
-    <text class="map-label" x="233" y="416">stairwell</text>
-    <text class="map-label" x="233" y="444">boardroom</text>
-    <text class="map-label" x="205" y="416">tunnel</text>
-    <text class="map-label" x="177" y="444">tunnel</text>
-    <text class="map-label" x="177" y="472">Office of the Lord of the Mountain</text>
-    <text class="map-label" x="149" y="444">Office of the Malik Iman</text>
-    <text class="map-label" x="233" y="388">tunnel</text>
-    <text class="map-label" x="233" y="360">tunnel</text>
-    <text class="map-label" x="261" y="332">dimly-lit training room</text>
-    <text class="map-label" x="205" y="360">tattoo room</text>
-    <text class="map-label" x="205" y="332">tunnel</text>
-    <text class="map-label" x="205" y="304">hashishim laboratory</text>
-    <text class="map-label" x="261" y="416">tunnel</text>
-    <text class="map-label" x="261" y="388">kitchen and dining room</text>
-    <text class="map-label" x="289" y="388">tunnel</text>
-    <text class="map-label" x="289" y="360">training room</text>
-    <text class="map-label" x="317" y="388">tunnel</text>
-    <text class="map-label" x="317" y="360">casing training room</text>
-    <text class="map-label" x="317" y="416">tunnel</text>
-    <text class="map-label" x="345" y="416">training room</text>
-    <text class="map-label" x="317" y="444">sandy room</text>
-    <text class="map-label" x="317" y="472">sandy room</text>
-    <text class="map-label" x="289" y="472">sandy room</text>
-    <text class="map-label" x="289" y="444">sandy room</text>
-    <text class="map-label" x="473" y="239">pottery room</text>
-  </g>
+  <g id="layer-labels"><!-- labels --></g>
 
 </svg>

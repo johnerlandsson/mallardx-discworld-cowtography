@@ -34,113 +34,60 @@
   </g>
 
   <g id="layer-rooms">
-    <rect id="room-478644b40fa9f74a36a10331e09809901c6665fd" class="room indoor" data-label="bone yard" x="34" y="95" width="16" height="16" rx="4"/>
-    <rect id="room-f6893f1f9224ec2f06b09de5931d01999b99ac2f" class="room indoor" data-label="bone yard" x="48" y="81" width="16" height="16" rx="4"/>
-    <rect id="room-3a3ef689eee7855865b9129a134ed1d876476a69" class="room indoor" data-label="bone yard" x="34" y="81" width="16" height="16" rx="4"/>
-    <rect id="room-17d34e597aaa94dc41ebfae4ff31594e59cf8910" class="room indoor" data-label="bone yard" x="20" y="81" width="16" height="16" rx="4"/>
-    <rect id="room-661abff584c9f9244f82c353179d14495d281242" class="room indoor" data-label="bone yard" x="20" y="95" width="16" height="16" rx="4"/>
-    <rect id="room-1782dd584f7b1b206686b108d8282b048378e949" class="room indoor" data-label="bone yard" x="6" y="95" width="16" height="16" rx="4"/>
-    <rect id="room-cfaf6b4bd85ce80a1aa122817c3cd23971217efb" class="room indoor" data-label="bone yard" x="48" y="95" width="16" height="16" rx="4"/>
-    <rect id="room-fe393db808126e1f0cfb1d334b81b900f06b50f7" class="room indoor" data-label="bone yard" x="62" y="95" width="16" height="16" rx="4"/>
-    <rect id="room-fd40c159e781e543f1b23dc07759234ad4c5cedd" class="room indoor" data-label="bone yard" x="48" y="109" width="16" height="16" rx="4"/>
-    <rect id="room-dd7d749ba0bb8f96376d7c6880b2aa31408fbc10" class="room indoor" data-label="bone yard" x="34" y="109" width="16" height="16" rx="4"/>
-    <rect id="room-23fc41c6d879a536f3ded5ca3b50da64aa2bb974" class="room indoor" data-label="bone yard" x="34" y="123" width="16" height="16" rx="4"/>
-    <rect id="room-d23bd7242161c9c5c75aba92ce9c38e04c16d220" class="room indoor" data-label="hide" x="34" y="134" width="16" height="16" rx="4"/>
-    <rect id="room-26ad80f157ed313ea5f37842eb0ea892d725c49f" class="room indoor" data-label="bone yard" x="20" y="109" width="16" height="16" rx="4"/>
-    <rect id="room-621ad935076ac5cad30b1fd424a61d1115e2a803" class="room indoor" data-label="sheer wall" x="167" y="120" width="16" height="16" rx="4"/>
-    <rect id="room-1ed7f5c450a9768c93e4bc2a243c0e917e8de154" class="room indoor" data-label="sheer wall" x="181" y="120" width="16" height="16" rx="4"/>
-    <rect id="room-fd8642ba22f3fc3ea7e2552c7f2a4394dd12cdb7" class="room indoor" data-label="sheer wall" x="195" y="120" width="16" height="16" rx="4"/>
-    <rect id="room-b1d67648a6b5016e51dcd47cbd24671f25dd5f2e" class="room indoor" data-label="sheer wall" x="195" y="106" width="16" height="16" rx="4"/>
-    <rect id="room-b9be2f69d68b488a68218888fbb832dab8170175" class="room indoor" data-label="sheer wall" x="209" y="106" width="16" height="16" rx="4"/>
-    <rect id="room-045c2cf3399111459963dd6764e715093ad911f3" class="room indoor" data-label="sheer wall" x="209" y="120" width="16" height="16" rx="4"/>
-    <rect id="room-daf1a2c5d4b45efe51276e9c3a0b4806551e8748" class="room indoor" data-label="sheer wall" x="195" y="134" width="16" height="16" rx="4"/>
-    <rect id="room-a2d8ccc102c4d6b1c1ab975d3d220fae0d54ad0d" class="room indoor" data-label="sheer wall" x="167" y="106" width="16" height="16" rx="4"/>
-    <rect id="room-d595ff0e078afc034ea1a1038c90006bb0aedeaa" class="room indoor" data-label="sheer wall" x="167" y="92" width="16" height="16" rx="4"/>
-    <rect id="room-a9034ec9c5f89108dcc480f4d160b3ba377ec051" class="room indoor" data-label="sheer wall" x="181" y="92" width="16" height="16" rx="4"/>
-    <rect id="room-995251b2916b8cd7eaed64d9285c55320728ec7c" class="room indoor" data-label="nursery" x="195" y="92" width="16" height="16" rx="4"/>
-    <rect id="room-6ef6ebd73f6d5817c409feeaabd93704731b4005" class="room indoor" data-label="sheer wall" x="167" y="78" width="16" height="16" rx="4"/>
-    <rect id="room-ca3d7bd734b151678c613616d6fa2ffd4815920b" class="room indoor" data-label="sheer wall" x="167" y="64" width="16" height="16" rx="4"/>
-    <rect id="room-b5c2ecb9428b6b28661c304e25d426b2c6e18c02" class="room indoor" data-label="nursery" x="167" y="50" width="16" height="16" rx="4"/>
-    <rect id="room-1ce540452628cb4afe0054d2d0cc02ceff02e8b7" class="room indoor" data-label="sheer wall" x="181" y="64" width="16" height="16" rx="4"/>
-    <rect id="room-fcac0745fdd9c966ae1843170a4575d2749210cc" class="room indoor" data-label="nursery" x="181" y="50" width="16" height="16" rx="4"/>
-    <rect id="room-3c2a0a8e8e7daf2479f4519aeb4a3c4afe9662d3" class="room indoor" data-label="sheer wall" x="195" y="64" width="16" height="16" rx="4"/>
-    <rect id="room-d8ce3c234204dc36122fb9548583489fd17d9ada" class="room indoor" data-label="nursery" x="195" y="50" width="16" height="16" rx="4"/>
-    <rect id="room-a892aa8f0a9c48ae92e960328756df5303183f0d" class="room indoor" data-label="sheer wall" x="223" y="64" width="16" height="16" rx="4"/>
-    <rect id="room-d1bde9f0d8d3bb6c70a04e7c8b85ef1f34c9cd40" class="room indoor" data-label="nursery" x="223" y="50" width="16" height="16" rx="4"/>
-    <rect id="room-eafc660e34336e4a8ead9a9376ead0803b4fa420" class="room indoor" data-label="sheer wall" x="223" y="78" width="16" height="16" rx="4"/>
-    <rect id="room-d9460e46d58062eb08edd908d2caa3a3f0d28b65" class="room indoor" data-label="sheer wall" x="237" y="78" width="16" height="16" rx="4"/>
-    <rect id="room-6b51267eb2943352fcc233e06b3b3ce2e51712f4" class="room indoor" data-label="sheer wall" x="237" y="64" width="16" height="16" rx="4"/>
-    <rect id="room-93a4580784b360fa1d20e0eae61d82c72c88c3d1" class="room indoor" data-label="sheer wall" x="237" y="50" width="16" height="16" rx="4"/>
-    <rect id="room-0edb76b551bae03c05dbcf9e688f61039fcfcd21" class="room indoor" data-label="enormous plateau" x="362" y="116" width="16" height="16" rx="4"/>
-    <rect id="room-685f4dd2503ee994310794c258a147ed40b0687b" class="room indoor" data-label="bone yard" x="34" y="67" width="16" height="16" rx="4"/>
-    <rect id="room-768b6065fdb4c1f9fa72f3db0e311c761c8afe29" class="room indoor" data-label="back of the nursery" x="205" y="50" width="16" height="16" rx="4"/>
-    <rect id="room-9ad81bf462dcc76eaa7e7a86ca78c3a0c2e8d7b3" class="room indoor" data-label="Misty&#x27;s home" x="34" y="95" width="16" height="16" rx="4"/>
-    <rect id="room-d31f2ee1b3c132d1aa7175a7b34bd5124b34439a" class="room indoor" data-label="mist balcony" x="34" y="95" width="16" height="16" rx="4"/>
-    <rect id="room-1c1831b8b0c01d44ca3864fd9c93676e69929833" class="room indoor" data-label="mist path" x="34" y="95" width="16" height="16" rx="4"/>
-    <rect id="room-0c88c05ea3fdd62c781496d77e0d91bcda8a7843" class="room indoor" data-label="mist path" x="34" y="95" width="16" height="16" rx="4"/>
-    <rect id="room-97c519f3aec0a8f5889a69b7069f012ec231e67c" class="room indoor" data-label="mist path" x="34" y="95" width="16" height="16" rx="4"/>
-    <rect id="room-c15b8640cec39395763a6794e5bbe7fa2a92c081" class="room indoor" data-label="mist path" x="34" y="95" width="16" height="16" rx="4"/>
-    <rect id="room-79ef0cbe11a8fe7104798119bb8a18f089c8511d" class="room indoor" data-label="mist path" x="34" y="95" width="16" height="16" rx="4"/>
-    <rect id="room-fb91ca60e1d96e2d8a364812f8a5e7f302aec89f" class="room indoor" data-label="mist path" x="34" y="95" width="16" height="16" rx="4"/>
-    <rect id="room-9fbe052d38931fbbf38b40ab3d0b6f6ae8745070" class="room indoor" data-label="mist path" x="34" y="95" width="16" height="16" rx="4"/>
-    <rect id="room-318916177aebfa01b4e91ce4d6cc5be3ac90259a" class="room indoor" data-label="mist path" x="34" y="95" width="16" height="16" rx="4"/>
-    <rect id="room-2675d5d39cdef4ae013fa3574a9e15c66ecaecbb" class="room indoor" data-label="mist path" x="34" y="95" width="16" height="16" rx="4"/>
-    <rect id="room-8c5626ddb37577d2318ba55bfe514b3585ff395c" class="room indoor" data-label="mist path" x="34" y="95" width="16" height="16" rx="4"/>
+    <rect id="room-478644b40fa9f74a36a10331e09809901c6665fd" class="room indoor" data-label="bone yard" x="38" y="99" width="8" height="8" rx="2"/>
+    <rect id="room-f6893f1f9224ec2f06b09de5931d01999b99ac2f" class="room indoor" data-label="bone yard" x="52" y="85" width="8" height="8" rx="2"/>
+    <rect id="room-3a3ef689eee7855865b9129a134ed1d876476a69" class="room indoor" data-label="bone yard" x="38" y="85" width="8" height="8" rx="2"/>
+    <rect id="room-17d34e597aaa94dc41ebfae4ff31594e59cf8910" class="room indoor" data-label="bone yard" x="24" y="85" width="8" height="8" rx="2"/>
+    <rect id="room-661abff584c9f9244f82c353179d14495d281242" class="room indoor" data-label="bone yard" x="24" y="99" width="8" height="8" rx="2"/>
+    <rect id="room-1782dd584f7b1b206686b108d8282b048378e949" class="room indoor" data-label="bone yard" x="10" y="99" width="8" height="8" rx="2"/>
+    <rect id="room-cfaf6b4bd85ce80a1aa122817c3cd23971217efb" class="room indoor" data-label="bone yard" x="52" y="99" width="8" height="8" rx="2"/>
+    <rect id="room-fe393db808126e1f0cfb1d334b81b900f06b50f7" class="room indoor" data-label="bone yard" x="66" y="99" width="8" height="8" rx="2"/>
+    <rect id="room-fd40c159e781e543f1b23dc07759234ad4c5cedd" class="room indoor" data-label="bone yard" x="52" y="113" width="8" height="8" rx="2"/>
+    <rect id="room-dd7d749ba0bb8f96376d7c6880b2aa31408fbc10" class="room indoor" data-label="bone yard" x="38" y="113" width="8" height="8" rx="2"/>
+    <rect id="room-23fc41c6d879a536f3ded5ca3b50da64aa2bb974" class="room indoor" data-label="bone yard" x="38" y="127" width="8" height="8" rx="2"/>
+    <rect id="room-d23bd7242161c9c5c75aba92ce9c38e04c16d220" class="room indoor" data-label="hide" x="38" y="138" width="8" height="8" rx="2"/>
+    <rect id="room-26ad80f157ed313ea5f37842eb0ea892d725c49f" class="room indoor" data-label="bone yard" x="24" y="113" width="8" height="8" rx="2"/>
+    <rect id="room-621ad935076ac5cad30b1fd424a61d1115e2a803" class="room indoor" data-label="sheer wall" x="171" y="124" width="8" height="8" rx="2"/>
+    <rect id="room-1ed7f5c450a9768c93e4bc2a243c0e917e8de154" class="room indoor" data-label="sheer wall" x="185" y="124" width="8" height="8" rx="2"/>
+    <rect id="room-fd8642ba22f3fc3ea7e2552c7f2a4394dd12cdb7" class="room indoor" data-label="sheer wall" x="199" y="124" width="8" height="8" rx="2"/>
+    <rect id="room-b1d67648a6b5016e51dcd47cbd24671f25dd5f2e" class="room indoor" data-label="sheer wall" x="199" y="110" width="8" height="8" rx="2"/>
+    <rect id="room-b9be2f69d68b488a68218888fbb832dab8170175" class="room indoor" data-label="sheer wall" x="213" y="110" width="8" height="8" rx="2"/>
+    <rect id="room-045c2cf3399111459963dd6764e715093ad911f3" class="room indoor" data-label="sheer wall" x="213" y="124" width="8" height="8" rx="2"/>
+    <rect id="room-daf1a2c5d4b45efe51276e9c3a0b4806551e8748" class="room indoor" data-label="sheer wall" x="199" y="138" width="8" height="8" rx="2"/>
+    <rect id="room-a2d8ccc102c4d6b1c1ab975d3d220fae0d54ad0d" class="room indoor" data-label="sheer wall" x="171" y="110" width="8" height="8" rx="2"/>
+    <rect id="room-d595ff0e078afc034ea1a1038c90006bb0aedeaa" class="room indoor" data-label="sheer wall" x="171" y="96" width="8" height="8" rx="2"/>
+    <rect id="room-a9034ec9c5f89108dcc480f4d160b3ba377ec051" class="room indoor" data-label="sheer wall" x="185" y="96" width="8" height="8" rx="2"/>
+    <rect id="room-995251b2916b8cd7eaed64d9285c55320728ec7c" class="room indoor" data-label="nursery" x="199" y="96" width="8" height="8" rx="2"/>
+    <rect id="room-6ef6ebd73f6d5817c409feeaabd93704731b4005" class="room indoor" data-label="sheer wall" x="171" y="82" width="8" height="8" rx="2"/>
+    <rect id="room-ca3d7bd734b151678c613616d6fa2ffd4815920b" class="room indoor" data-label="sheer wall" x="171" y="68" width="8" height="8" rx="2"/>
+    <rect id="room-b5c2ecb9428b6b28661c304e25d426b2c6e18c02" class="room indoor" data-label="nursery" x="171" y="54" width="8" height="8" rx="2"/>
+    <rect id="room-1ce540452628cb4afe0054d2d0cc02ceff02e8b7" class="room indoor" data-label="sheer wall" x="185" y="68" width="8" height="8" rx="2"/>
+    <rect id="room-fcac0745fdd9c966ae1843170a4575d2749210cc" class="room indoor" data-label="nursery" x="185" y="54" width="8" height="8" rx="2"/>
+    <rect id="room-3c2a0a8e8e7daf2479f4519aeb4a3c4afe9662d3" class="room indoor" data-label="sheer wall" x="199" y="68" width="8" height="8" rx="2"/>
+    <rect id="room-d8ce3c234204dc36122fb9548583489fd17d9ada" class="room indoor" data-label="nursery" x="199" y="54" width="8" height="8" rx="2"/>
+    <rect id="room-a892aa8f0a9c48ae92e960328756df5303183f0d" class="room indoor" data-label="sheer wall" x="227" y="68" width="8" height="8" rx="2"/>
+    <rect id="room-d1bde9f0d8d3bb6c70a04e7c8b85ef1f34c9cd40" class="room indoor" data-label="nursery" x="227" y="54" width="8" height="8" rx="2"/>
+    <rect id="room-eafc660e34336e4a8ead9a9376ead0803b4fa420" class="room indoor" data-label="sheer wall" x="227" y="82" width="8" height="8" rx="2"/>
+    <rect id="room-d9460e46d58062eb08edd908d2caa3a3f0d28b65" class="room indoor" data-label="sheer wall" x="241" y="82" width="8" height="8" rx="2"/>
+    <rect id="room-6b51267eb2943352fcc233e06b3b3ce2e51712f4" class="room indoor" data-label="sheer wall" x="241" y="68" width="8" height="8" rx="2"/>
+    <rect id="room-93a4580784b360fa1d20e0eae61d82c72c88c3d1" class="room indoor" data-label="sheer wall" x="241" y="54" width="8" height="8" rx="2"/>
+    <rect id="room-0edb76b551bae03c05dbcf9e688f61039fcfcd21" class="room indoor" data-label="enormous plateau" x="366" y="120" width="8" height="8" rx="2"/>
+    <rect id="room-685f4dd2503ee994310794c258a147ed40b0687b" class="room indoor" data-label="bone yard" x="38" y="71" width="8" height="8" rx="2"/>
+    <rect id="room-768b6065fdb4c1f9fa72f3db0e311c761c8afe29" class="room indoor" data-label="back of the nursery" x="209" y="54" width="8" height="8" rx="2"/>
+    <rect id="room-9ad81bf462dcc76eaa7e7a86ca78c3a0c2e8d7b3" class="room indoor" data-label="Misty&#x27;s home" x="38" y="99" width="8" height="8" rx="2"/>
+    <rect id="room-d31f2ee1b3c132d1aa7175a7b34bd5124b34439a" class="room indoor" data-label="mist balcony" x="38" y="99" width="8" height="8" rx="2"/>
+    <rect id="room-1c1831b8b0c01d44ca3864fd9c93676e69929833" class="room indoor" data-label="mist path" x="38" y="99" width="8" height="8" rx="2"/>
+    <rect id="room-0c88c05ea3fdd62c781496d77e0d91bcda8a7843" class="room indoor" data-label="mist path" x="38" y="99" width="8" height="8" rx="2"/>
+    <rect id="room-97c519f3aec0a8f5889a69b7069f012ec231e67c" class="room indoor" data-label="mist path" x="38" y="99" width="8" height="8" rx="2"/>
+    <rect id="room-c15b8640cec39395763a6794e5bbe7fa2a92c081" class="room indoor" data-label="mist path" x="38" y="99" width="8" height="8" rx="2"/>
+    <rect id="room-79ef0cbe11a8fe7104798119bb8a18f089c8511d" class="room indoor" data-label="mist path" x="38" y="99" width="8" height="8" rx="2"/>
+    <rect id="room-fb91ca60e1d96e2d8a364812f8a5e7f302aec89f" class="room indoor" data-label="mist path" x="38" y="99" width="8" height="8" rx="2"/>
+    <rect id="room-9fbe052d38931fbbf38b40ab3d0b6f6ae8745070" class="room indoor" data-label="mist path" x="38" y="99" width="8" height="8" rx="2"/>
+    <rect id="room-318916177aebfa01b4e91ce4d6cc5be3ac90259a" class="room indoor" data-label="mist path" x="38" y="99" width="8" height="8" rx="2"/>
+    <rect id="room-2675d5d39cdef4ae013fa3574a9e15c66ecaecbb" class="room indoor" data-label="mist path" x="38" y="99" width="8" height="8" rx="2"/>
+    <rect id="room-8c5626ddb37577d2318ba55bfe514b3585ff395c" class="room indoor" data-label="mist path" x="38" y="99" width="8" height="8" rx="2"/>
   </g>
 
-  <g id="layer-labels">
-    <text class="map-label" x="42" y="91">bone yard</text>
-    <text class="map-label" x="56" y="77">bone yard</text>
-    <text class="map-label" x="42" y="77">bone yard</text>
-    <text class="map-label" x="28" y="77">bone yard</text>
-    <text class="map-label" x="28" y="91">bone yard</text>
-    <text class="map-label" x="14" y="91">bone yard</text>
-    <text class="map-label" x="56" y="91">bone yard</text>
-    <text class="map-label" x="70" y="91">bone yard</text>
-    <text class="map-label" x="56" y="105">bone yard</text>
-    <text class="map-label" x="42" y="105">bone yard</text>
-    <text class="map-label" x="42" y="119">bone yard</text>
-    <text class="map-label" x="42" y="130">hide</text>
-    <text class="map-label" x="28" y="105">bone yard</text>
-    <text class="map-label" x="175" y="116">sheer wall</text>
-    <text class="map-label" x="189" y="116">sheer wall</text>
-    <text class="map-label" x="203" y="116">sheer wall</text>
-    <text class="map-label" x="203" y="102">sheer wall</text>
-    <text class="map-label" x="217" y="102">sheer wall</text>
-    <text class="map-label" x="217" y="116">sheer wall</text>
-    <text class="map-label" x="203" y="130">sheer wall</text>
-    <text class="map-label" x="175" y="102">sheer wall</text>
-    <text class="map-label" x="175" y="88">sheer wall</text>
-    <text class="map-label" x="189" y="88">sheer wall</text>
-    <text class="map-label" x="203" y="88">nursery</text>
-    <text class="map-label" x="175" y="74">sheer wall</text>
-    <text class="map-label" x="175" y="60">sheer wall</text>
-    <text class="map-label" x="175" y="46">nursery</text>
-    <text class="map-label" x="189" y="60">sheer wall</text>
-    <text class="map-label" x="189" y="46">nursery</text>
-    <text class="map-label" x="203" y="60">sheer wall</text>
-    <text class="map-label" x="203" y="46">nursery</text>
-    <text class="map-label" x="231" y="60">sheer wall</text>
-    <text class="map-label" x="231" y="46">nursery</text>
-    <text class="map-label" x="231" y="74">sheer wall</text>
-    <text class="map-label" x="245" y="74">sheer wall</text>
-    <text class="map-label" x="245" y="60">sheer wall</text>
-    <text class="map-label" x="245" y="46">sheer wall</text>
-    <text class="map-label" x="370" y="112">enormous plateau</text>
-    <text class="map-label" x="42" y="63">bone yard</text>
-    <text class="map-label" x="213" y="46">back of the nursery</text>
-    <text class="map-label" x="42" y="91">Misty&#x27;s home</text>
-    <text class="map-label" x="42" y="91">mist balcony</text>
-    <text class="map-label" x="42" y="91">mist path</text>
-    <text class="map-label" x="42" y="91">mist path</text>
-    <text class="map-label" x="42" y="91">mist path</text>
-    <text class="map-label" x="42" y="91">mist path</text>
-    <text class="map-label" x="42" y="91">mist path</text>
-    <text class="map-label" x="42" y="91">mist path</text>
-    <text class="map-label" x="42" y="91">mist path</text>
-    <text class="map-label" x="42" y="91">mist path</text>
-    <text class="map-label" x="42" y="91">mist path</text>
-    <text class="map-label" x="42" y="91">mist path</text>
-  </g>
+  <g id="layer-labels"><!-- labels --></g>
 
 </svg>

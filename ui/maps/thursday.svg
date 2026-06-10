@@ -17,25 +17,16 @@
   </g>
 
   <g id="layer-rooms">
-    <rect id="room-0a697023b66971ffa8e4840ea09d38581dbf93ee" class="room indoor" data-label="desert island" x="159" y="59" width="16" height="16" rx="4"/>
-    <rect id="room-2d1c5ed16f679a41bf280bea9a850a7d9551d710" class="room indoor" data-label="desert island" x="131" y="87" width="16" height="16" rx="4"/>
-    <rect id="room-faf8efeadb7e10f57041c653a82675c023a5fdbe" class="room indoor" data-label="desert island" x="103" y="115" width="16" height="16" rx="4"/>
-    <rect id="room-2455e402e36813885602fbab4e307864c422a773" class="room indoor" data-label="desert island" x="75" y="87" width="16" height="16" rx="4"/>
-    <rect id="room-75f455188d8f3185f4e3ad5a43437851479adc2f" class="room indoor" data-label="desert island" x="47" y="59" width="16" height="16" rx="4"/>
-    <rect id="room-dee0079b400e7b59c48d77526ddf07d7e28539b2" class="room indoor" data-label="desert island" x="75" y="31" width="16" height="16" rx="4"/>
-    <rect id="room-97da4e4119cd9ad1db5465fbde9e70d66fb1ebb8" class="room indoor" data-label="desert island" x="103" y="3" width="16" height="16" rx="4"/>
-    <rect id="room-905a8aeba3eb28f8064c7a54e7a2d415d6d740b1" class="room indoor" data-label="desert island" x="131" y="31" width="16" height="16" rx="4"/>
+    <rect id="room-0a697023b66971ffa8e4840ea09d38581dbf93ee" class="room indoor" data-label="desert island" x="163" y="63" width="8" height="8" rx="2"/>
+    <rect id="room-2d1c5ed16f679a41bf280bea9a850a7d9551d710" class="room indoor" data-label="desert island" x="135" y="91" width="8" height="8" rx="2"/>
+    <rect id="room-faf8efeadb7e10f57041c653a82675c023a5fdbe" class="room indoor" data-label="desert island" x="107" y="119" width="8" height="8" rx="2"/>
+    <rect id="room-2455e402e36813885602fbab4e307864c422a773" class="room indoor" data-label="desert island" x="79" y="91" width="8" height="8" rx="2"/>
+    <rect id="room-75f455188d8f3185f4e3ad5a43437851479adc2f" class="room indoor" data-label="desert island" x="51" y="63" width="8" height="8" rx="2"/>
+    <rect id="room-dee0079b400e7b59c48d77526ddf07d7e28539b2" class="room indoor" data-label="desert island" x="79" y="35" width="8" height="8" rx="2"/>
+    <rect id="room-97da4e4119cd9ad1db5465fbde9e70d66fb1ebb8" class="room indoor" data-label="desert island" x="107" y="7" width="8" height="8" rx="2"/>
+    <rect id="room-905a8aeba3eb28f8064c7a54e7a2d415d6d740b1" class="room indoor" data-label="desert island" x="135" y="35" width="8" height="8" rx="2"/>
   </g>
 
-  <g id="layer-labels">
-    <text class="map-label" x="167" y="55">desert island</text>
-    <text class="map-label" x="139" y="83">desert island</text>
-    <text class="map-label" x="111" y="111">desert island</text>
-    <text class="map-label" x="83" y="83">desert island</text>
-    <text class="map-label" x="55" y="55">desert island</text>
-    <text class="map-label" x="83" y="27">desert island</text>
-    <text class="map-label" x="111" y="-1">desert island</text>
-    <text class="map-label" x="139" y="27">desert island</text>
-  </g>
+  <g id="layer-labels"><!-- labels --></g>
 
 </svg>

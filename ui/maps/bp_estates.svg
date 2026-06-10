@@ -482,811 +482,409 @@
   </g>
 
   <g id="layer-rooms">
-    <rect id="room-5e4ba01e54fbdacb3a68265022a1ee48e341e75f" class="room indoor" data-label="winding path through the Hong orchard" x="435" y="147" width="16" height="16" rx="4"/>
-    <rect id="room-34007dd63b0dfd721f476339acc5406afd9583b3" class="room indoor" data-label="cherry blossom orchard" x="421" y="133" width="16" height="16" rx="4"/>
-    <rect id="room-774645e1d5d95b9c70717eec38f2728c123563ea" class="room indoor" data-label="composting station" x="407" y="119" width="16" height="16" rx="4"/>
-    <rect id="room-fa3fb1919658898cd05c5063663b8bf6104b5de7" class="room indoor" data-label="Hong&#x27;s cherry orchard" x="421" y="119" width="16" height="16" rx="4"/>
-    <rect id="room-70c6609fe33db373ae6a24be784c3d3fb4156cad" class="room indoor" data-label="cherry blossom orchard" x="435" y="119" width="16" height="16" rx="4"/>
-    <rect id="room-a70061ec44e4508bfdc029c605807231e294a38c" class="room indoor" data-label="cherry blossom orchard" x="449" y="119" width="16" height="16" rx="4"/>
-    <rect id="room-ce4025c4f140d88bc2c258a1a64b5ac056b9bd8a" class="room indoor" data-label="cherry blossom orchard" x="449" y="133" width="16" height="16" rx="4"/>
-    <rect id="room-66d5ebc2d9e05b08f5e0a0db99755d28f351a3aa" class="room indoor" data-label="cherry blossom orchard" x="435" y="133" width="16" height="16" rx="4"/>
-    <rect id="room-b77fbc26ccd111825571dfd6ba207496d697bc23" class="room indoor" data-label="winding path through the orchard at the main doors to the estate" x="449" y="147" width="16" height="16" rx="4"/>
-    <rect id="room-27eab7974c004ee67de9a81c71f785b8a5b8cfb1" class="room indoor" data-label="cherry blossom orchard" x="449" y="161" width="16" height="16" rx="4"/>
-    <rect id="room-310fdac5beeb13091e0c6ea0b79ca964c4eedcf4" class="room indoor" data-label="entrance to Hong Hall" x="463" y="147" width="16" height="16" rx="4"/>
-    <rect id="room-a5fb84e09be814af5fe0b12e327be059dec2668e" class="room indoor" data-label="hallway that gives access to the dining room and the trophy room" x="463" y="133" width="16" height="16" rx="4"/>
-    <rect id="room-d8e21cec864d4e28376138050481995e0cacd441" class="room indoor" data-label="hallway within the elegant walls of the Hong estate" x="463" y="119" width="16" height="16" rx="4"/>
-    <rect id="room-3264e33d24146d28424cd71e371def288b6890c0" class="room indoor" data-label="Hong family trophy room" x="477" y="119" width="16" height="16" rx="4"/>
-    <rect id="room-9cab00494f7b9831618059798fa053c03e892d3d" class="room indoor" data-label="bottom of a stairwell" x="491" y="119" width="16" height="16" rx="4"/>
-    <rect id="room-83e00448af3eb35c11cc2d808ed7d70384db3041" class="room indoor" data-label="top of a stairwell on the first floor of the estate" x="491" y="14" width="16" height="16" rx="4"/>
-    <rect id="room-17820084fb6591d0fb6912fd00331258784a8642" class="room indoor" data-label="room where the financial records of the Family are kept" x="491" y="28" width="16" height="16" rx="4"/>
-    <rect id="room-16d2cb882900ca6cf54b8dff71ee253dbb87b232" class="room indoor" data-label="end of a short hallway on the first floor of the estate" x="477" y="14" width="16" height="16" rx="4"/>
-    <rect id="room-652fc462de468acc19732dc022e7ec48c9c5e836" class="room indoor" data-label="private bedroom of Lord Hong" x="477" y="28" width="16" height="16" rx="4"/>
-    <rect id="room-f1e2b7ad6f4fa910bac72a34b7f9b30f7aa2c612" class="room indoor" data-label="room used by Lord Hong for meditation" x="477" y="42" width="16" height="16" rx="4"/>
-    <rect id="room-e8a3bba642302aa733ccc17c9cbd11e4d3dbff20" class="room indoor" data-label="end of a short hallway on the first floor of the estate" x="505" y="14" width="16" height="16" rx="4"/>
-    <rect id="room-e1a9b03816205a9af9515456d62d75644fa01d63" class="room indoor" data-label="hunting gallery of the Hongs" x="505" y="28" width="16" height="16" rx="4"/>
-    <rect id="room-efc93431eaa2ab95b79d891b537fc40ce3788f7b" class="room indoor" data-label="room that the Hongs use to worship their ancestors" x="505" y="119" width="16" height="16" rx="4"/>
-    <rect id="room-10a084e662ef326b32c651f53d604135f6e271fe" class="room indoor" data-label="small well-decorated corridor with a view out to the back garden" x="519" y="119" width="16" height="16" rx="4"/>
-    <rect id="room-2eb576bb8b63e42cf5f3e62a39ae3d3e681e36fe" class="room indoor" data-label="east part of the garden room" x="519" y="133" width="16" height="16" rx="4"/>
-    <rect id="room-48a5020fec199837e364499baad349567f18e81f" class="room indoor" data-label="back hallway" x="519" y="147" width="16" height="16" rx="4"/>
-    <rect id="room-1e996f28e7b0b54caabfd23d6c4b106297c689af" class="room indoor" data-label="tea garden" x="533" y="147" width="16" height="16" rx="4"/>
-    <rect id="room-b99b50898bd5689b3e8e1fb52cfb5d3ce5a33076" class="room indoor" data-label="tea garden" x="533" y="161" width="16" height="16" rx="4"/>
-    <rect id="room-ed69a173dbeccf1e0a8178f8893c1746c71b6834" class="room indoor" data-label="tea garden" x="547" y="147" width="16" height="16" rx="4"/>
-    <rect id="room-5693a2661257eedb1fd705e683aa7a4984341c73" class="room indoor" data-label="tea garden" x="547" y="133" width="16" height="16" rx="4"/>
-    <rect id="room-fe09003fc683e470ac79981f3aefb25f9361da79" class="room indoor" data-label="tea garden" x="533" y="133" width="16" height="16" rx="4"/>
-    <rect id="room-a6710b209cf8ef0e36a2565f47b82b35c37b9028" class="room indoor" data-label="tea garden" x="547" y="119" width="16" height="16" rx="4"/>
-    <rect id="room-c2e297d656a430f87bfe50c7ca673696d3005c1f" class="room indoor" data-label="tea garden" x="533" y="119" width="16" height="16" rx="4"/>
-    <rect id="room-6ee919ed0cc839f3e960fea59068bd3b741d00e5" class="room indoor" data-label="large concert room of the Hong household" x="519" y="161" width="16" height="16" rx="4"/>
-    <rect id="room-cfbffcdf7fc8171b899e716916b38d84193bf9aa" class="room indoor" data-label="stairwell within the Hong estate" x="519" y="175" width="16" height="16" rx="4"/>
-    <rect id="room-ee2acc3bee9008cecc5e47d875436ea136686615" class="room indoor" data-label="bottom of a stairwell in the basement" x="519" y="219" width="16" height="16" rx="4"/>
-    <rect id="room-48cd4ac10f3ff5d1aeaf58804c1a39ed36d3e6e2" class="room indoor" data-label="large kitchens of the Hong household" x="519" y="205" width="16" height="16" rx="4"/>
-    <rect id="room-508c8f21a5393eec5dd8204d63f5a4baec626c5b" class="room indoor" data-label="large and well-stocked pantry" x="506" y="205" width="16" height="16" rx="4"/>
-    <rect id="room-170713e62ac5712969e917bdb5635d19d1b330ad" class="room indoor" data-label="hallway in the basement" x="505" y="219" width="16" height="16" rx="4"/>
-    <rect id="room-d2a5dbc03983096caa549839f375b302f70e4306" class="room indoor" data-label="hallway in the basement" x="491" y="219" width="16" height="16" rx="4"/>
-    <rect id="room-6738e5714e0a5d9a5faeb501446ecf9052145b4c" class="room indoor" data-label="holding cell" x="491" y="205" width="16" height="16" rx="4"/>
-    <rect id="room-d57055f687640b5c3466b9c7c553fb887b058273" class="room indoor" data-label="holding cell" x="477" y="205" width="16" height="16" rx="4"/>
-    <rect id="room-7a522afffbe171f955dc7dbf3cf7ced33d8c7ffe" class="room indoor" data-label="room that serves as a ready room for the guards" x="463" y="205" width="16" height="16" rx="4"/>
-    <rect id="room-88cd6428b2d71280f40571cc2c64493816f223c0" class="room indoor" data-label="infamous Hong family torture chamber" x="463" y="219" width="16" height="16" rx="4"/>
-    <rect id="room-056653d25781d2f1d75f8e920ab5520cb72f7bc9" class="room indoor" data-label="Hong family library" x="505" y="175" width="16" height="16" rx="4"/>
-    <rect id="room-6f7c4e53e6a45222bfc3ef17a45f97ebed2a0449" class="room indoor" data-label="bottom of a stairwell" x="491" y="175" width="16" height="16" rx="4"/>
-    <rect id="room-339bc85e0fed81f26cb529d8ebe3d070facd7304" class="room indoor" data-label="Hong war strategy room" x="477" y="175" width="16" height="16" rx="4"/>
-    <rect id="room-a4c3f194109e493ac231e77d6d72d29026399a74" class="room indoor" data-label="hallway running through the Hong estate" x="463" y="175" width="16" height="16" rx="4"/>
-    <rect id="room-1bbac72733913b31adf706be5c402c46c8b71107" class="room indoor" data-label="hallway within the walls of the Hong Estate" x="463" y="161" width="16" height="16" rx="4"/>
-    <rect id="room-183bc5b61e5246acbac96320738ac08f5ed2217f" class="room indoor" data-label="dining room of the Hong household" x="477" y="133" width="16" height="16" rx="4"/>
-    <rect id="room-47d2ef8cf1fcf61161874b19a3c3ee3243fbbf59" class="room indoor" data-label="Hong Hall" x="477" y="147" width="16" height="16" rx="4"/>
-    <rect id="room-7b1aba8cc687121731bab6facd101f872f6d7403" class="room indoor" data-label="writing room of the Hongs" x="477" y="161" width="16" height="16" rx="4"/>
-    <rect id="room-28bb1c73ac17fa263ba4723a35b4a4df7f1c35cd" class="room indoor" data-label="spacious atrium of the Hong Estate" x="491" y="147" width="16" height="16" rx="4"/>
-    <rect id="room-49faa9417ec34d2faf1aa9d3f6819f8ab3900ee8" class="room indoor" data-label="back hallway" x="505" y="147" width="16" height="16" rx="4"/>
-    <rect id="room-52d3e37363cb504cf02ed187b2f988007028faab" class="room indoor" data-label="west part of the garden room" x="505" y="133" width="16" height="16" rx="4"/>
-    <rect id="room-4e8c9d8f632233afae903cc5d23d0d464c635724" class="room indoor" data-label="music room of the Hong household" x="505" y="161" width="16" height="16" rx="4"/>
-    <rect id="room-25d5020741ac7e5954c86df427a1076e2f441c1f" class="room indoor" data-label="tea room of the Hongs" x="491" y="161" width="16" height="16" rx="4"/>
-    <rect id="room-a7704097ddd3235564c97add74fdbd7d27ed9e70" class="room indoor" data-label="art gallery of the Hongs" x="491" y="133" width="16" height="16" rx="4"/>
-    <rect id="room-12f955ff007f252730fc71c5e32a5368e234d144" class="room indoor" data-label="top of a stairwell" x="491" y="70" width="16" height="16" rx="4"/>
-    <rect id="room-d9869b3bac8946dc12a04cfdc6e1bfd82cb90710" class="room indoor" data-label="end of a short hallway on the first floor of the estate" x="477" y="70" width="16" height="16" rx="4"/>
-    <rect id="room-0d8b619d94b44fac42174b895494a93e61a8bcd8" class="room indoor" data-label="room with a multitude of weapons hanging from the walls" x="477" y="56" width="16" height="16" rx="4"/>
-    <rect id="room-14469ac045ac570fa3bbb2ce264736b4d64fa230" class="room indoor" data-label="city planning room of the Hongs" x="491" y="56" width="16" height="16" rx="4"/>
-    <rect id="room-338e1ad9383e0d370e4fbe1c48537ccb95862707" class="room indoor" data-label="end of a short hallway on the first floor of the estate" x="505" y="70" width="16" height="16" rx="4"/>
-    <rect id="room-da9371f2c8742b0674facc8e1457437b7510ae5d" class="room indoor" data-label="untidy bedroom of Lord Hong&#x27;s son" x="505" y="56" width="16" height="16" rx="4"/>
-    <rect id="room-081a29a8ca3817e0ddbf1636514f948dda65accc" class="room indoor" data-label="untidy, junk-filled room" x="505" y="42" width="16" height="16" rx="4"/>
-    <rect id="room-945dc5c345a9fc1e6cc9897c1478e9e11c181858" class="room indoor" data-label="Golden Gate at the entrance to the Fang Estate" x="532" y="498" width="16" height="16" rx="4"/>
-    <rect id="room-0fc3d5c84c30810a9f56c4b1f1ec3f8989992ccd" class="room indoor" data-label="lake shore of Tora Lake" x="518" y="498" width="16" height="16" rx="4"/>
-    <rect id="room-3127fac96b90749ed1453d31db9da01fbe9f9078" class="room indoor" data-label="lake shore of Tora Lake" x="518" y="484" width="16" height="16" rx="4"/>
-    <rect id="room-a5e194063b2af6c6e9eb081d82bd7cad2df91a34" class="room indoor" data-label="lake shore of Tora Lake" x="504" y="470" width="16" height="16" rx="4"/>
-    <rect id="room-f50aff0fdc57422f5e078b8ac54c1c66b5e66cd4" class="room indoor" data-label="Flog Course" x="504" y="428" width="16" height="16" rx="4"/>
-    <rect id="room-ed003962abb40d01f1e7f81929550b8690173400" class="room indoor" data-label="Flog Course" x="504" y="414" width="16" height="16" rx="4"/>
-    <rect id="room-5cf8e4d611a7f265e64b6191c4c67403a378263e" class="room indoor" data-label="Flog Course" x="490" y="414" width="16" height="16" rx="4"/>
-    <rect id="room-0cd81b9da2b79ee3cb8f68aa52bdc4c6fc8b6ff6" class="room indoor" data-label="Flog Course" x="476" y="414" width="16" height="16" rx="4"/>
-    <rect id="room-fdb39675da366ea706f52a761720b5374696c4ed" class="room indoor" data-label="Flog Course" x="476" y="400" width="16" height="16" rx="4"/>
-    <rect id="room-9da771ebb3339e040fc6bf9c484f2ff67ee7abcd" class="room indoor" data-label="Flog Course" x="490" y="400" width="16" height="16" rx="4"/>
-    <rect id="room-c1a87035b47f7fbf38cc1ba51156e9794e54d401" class="room indoor" data-label="Flog Course" x="504" y="400" width="16" height="16" rx="4"/>
-    <rect id="room-0b3ca76f02abc6023da67ca153a3f597ea763918" class="room indoor" data-label="eastern edge of the flog course" x="518" y="400" width="16" height="16" rx="4"/>
-    <rect id="room-fa39109b916ca1e2915d80735884cffcf855b298" class="room indoor" data-label="Flog Course" x="532" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-4fc482ea697f8de4ea92c1bcb5a9395f4305640b" class="room indoor" data-label="Flog Course" x="518" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-987b97f9c34b886552a601bd305e82f0485d0c34" class="room indoor" data-label="Flog Course" x="504" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-8c604f66edc0bd8ab89a8a616a7ba3275d4e2932" class="room indoor" data-label="sand trap" x="501" y="382" width="16" height="16" rx="4"/>
-    <rect id="room-f3a19e1d3f582189d43dc572067dc617604e08f9" class="room indoor" data-label="Flog Course" x="490" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-3f7602f4ca23fc427cc85264997f855792a1568e" class="room indoor" data-label="Flog Course" x="476" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-cdfbd493183207742c851c0562840e20e5ce23a4" class="room indoor" data-label="lake shore of Tora Lake" x="490" y="456" width="16" height="16" rx="4"/>
-    <rect id="room-2d941456bc1568fc258a7fe8b2f7f2fc43babc44" class="room indoor" data-label="lake shore of Tora Lake" x="490" y="442" width="16" height="16" rx="4"/>
-    <rect id="room-45019fc38e925dbb1ca42dd96d98afe572caa6c7" class="room indoor" data-label="lake shore of Tora Lake" x="476" y="428" width="16" height="16" rx="4"/>
-    <rect id="room-401477bbd51f974cceac758b8bed28534bfccd94" class="room indoor" data-label="lake shore of Tora Lake" x="462" y="428" width="16" height="16" rx="4"/>
-    <rect id="room-e57acc21c4bb0b896fd8468c05599c2515f8ded2" class="room indoor" data-label="lake shore of Tora Lake" x="448" y="414" width="16" height="16" rx="4"/>
-    <rect id="room-3d2f35282df5240b2b2d3345de166728659ffc20" class="room indoor" data-label="lake shore of Tora Lake" x="434" y="414" width="16" height="16" rx="4"/>
-    <rect id="room-bf52a9de8403d3058ecc488e675b75d195a0bb54" class="room indoor" data-label="lake shore of Tora Lake" x="420" y="414" width="16" height="16" rx="4"/>
-    <rect id="room-a8642e3e1e1a9db43bc12aa53a56b721bd29f32a" class="room indoor" data-label="lake shore of Tora Lake" x="406" y="428" width="16" height="16" rx="4"/>
-    <rect id="room-72c8f3c21900d05c2b1152219c1a7126df38d74c" class="room indoor" data-label="lake shore of Tora Lake" x="392" y="428" width="16" height="16" rx="4"/>
-    <rect id="room-ff5791f9da041fc9e022e02d0080ca741e89ea69" class="room indoor" data-label="lake shore of Tora Lake" x="378" y="414" width="16" height="16" rx="4"/>
-    <rect id="room-5f474d98596b25c37ca449d702473bba61426c86" class="room indoor" data-label="lake shore of Tora Lake" x="364" y="414" width="16" height="16" rx="4"/>
-    <rect id="room-fd33f5c7430536f95aefde5fbfd6f45a2f27c443" class="room indoor" data-label="lake shore of Tora Lake" x="350" y="414" width="16" height="16" rx="4"/>
-    <rect id="room-cfa16d4ed7b2c13d6d34f3557b8f64e082f26d9a" class="room indoor" data-label="lake shore of Tora Lake" x="336" y="428" width="16" height="16" rx="4"/>
-    <rect id="room-61de56f04cd756a11c92b0bb7545d28b444f5bb2" class="room indoor" data-label="lake shore of Tora Lake" x="322" y="442" width="16" height="16" rx="4"/>
-    <rect id="room-ca63a710e04ba820f9aacf8f643d98aa16684848" class="room indoor" data-label="lake shore of Tora Lake" x="308" y="442" width="16" height="16" rx="4"/>
-    <rect id="room-450f20260405e980e0c1085fe6b4a45aba3e6cfc" class="room indoor" data-label="lake shore of Tora Lake" x="322" y="428" width="16" height="16" rx="4"/>
-    <rect id="room-b4d70fa6d261b316c5070499e25a9555e4cfd7e5" class="room indoor" data-label="lake shore of Tora Lake" x="294" y="456" width="16" height="16" rx="4"/>
-    <rect id="room-5e4018329d2248d69023bd8a1f72709c6b322366" class="room indoor" data-label="lake shore of Tora Lake" x="294" y="470" width="16" height="16" rx="4"/>
-    <rect id="room-4fc3e326ca0269fb0cc9c2d533aeb6c31fc3d8d4" class="room indoor" data-label="lake shore of Tora Lake" x="280" y="484" width="16" height="16" rx="4"/>
-    <rect id="room-e57e80333ae841d39c877c173191917f28902ae5" class="room indoor" data-label="lake shore of Tora Lake" x="280" y="498" width="16" height="16" rx="4"/>
-    <rect id="room-f6bcd017ee52848f3fc92f8ae5560f8d8d8007ae" class="room indoor" data-label="lake shore of Tora Lake" x="266" y="512" width="16" height="16" rx="4"/>
-    <rect id="room-215beacd3892a26fe6044fbd19c9a7116b31ea91" class="room indoor" data-label="lake shore of Tora Lake" x="266" y="526" width="16" height="16" rx="4"/>
-    <rect id="room-b14dff7279d6c85466588b5dcf48aa65e4235322" class="room indoor" data-label="lake shore of Tora Lake" x="280" y="540" width="16" height="16" rx="4"/>
-    <rect id="room-3cb8943048b37f4a4611bf694cbbc88967307d04" class="room indoor" data-label="lake shore of Tora Lake" x="266" y="540" width="16" height="16" rx="4"/>
-    <rect id="room-fbd353758114eb55a95c1ab76377b8a17e6aa164" class="room indoor" data-label="lake shore of Tora Lake" x="280" y="554" width="16" height="16" rx="4"/>
-    <rect id="room-5af10168f4bd8da987565765c78b1a2c66435f3b" class="room indoor" data-label="lake shore of Tora Lake" x="294" y="568" width="16" height="16" rx="4"/>
-    <rect id="room-dcd99c2da6743e93f5e142fa5c732c325ef0c576" class="room indoor" data-label="lake shore of Tora Lake" x="308" y="554" width="16" height="16" rx="4"/>
-    <rect id="room-df42436fd8d37edab07e1e453d1c549a71b9596b" class="room indoor" data-label="lake shore of Tora Lake" x="322" y="568" width="16" height="16" rx="4"/>
-    <rect id="room-27684ec703e57c46e180703d3aeb2ca0c4a719db" class="room indoor" data-label="lake shore of Tora Lake" x="308" y="568" width="16" height="16" rx="4"/>
-    <rect id="room-06a8281740555daffa93e24285bed73f7fe81f76" class="room indoor" data-label="lake shore of Tora Lake" x="336" y="568" width="16" height="16" rx="4"/>
-    <rect id="room-509ba9b7d4c4bcc7a163c6986f980f3202c0ae42" class="room indoor" data-label="lake shore of Tora Lake" x="350" y="582" width="16" height="16" rx="4"/>
-    <rect id="room-fbbf3d446b161bce7fe3c999a6511b1e3d554b45" class="room indoor" data-label="lake shore of Tora Lake" x="364" y="582" width="16" height="16" rx="4"/>
-    <rect id="room-172291cf7c31115284c80c4d9704192537fd193f" class="room indoor" data-label="lake shore of Tora Lake" x="378" y="582" width="16" height="16" rx="4"/>
-    <rect id="room-e6a8e895346f65f7bff46d10fe43775b4c72d1bf" class="room indoor" data-label="lake shore of Tora Lake" x="392" y="596" width="16" height="16" rx="4"/>
-    <rect id="room-03cb179978b593bc3e146f3ba714ee1b4e19ced0" class="room indoor" data-label="lake shore of Tora Lake" x="406" y="596" width="16" height="16" rx="4"/>
-    <rect id="room-4cd6861acdb519e8559fdaed00c953933ad599e7" class="room indoor" data-label="lake shore of Tora Lake" x="420" y="596" width="16" height="16" rx="4"/>
-    <rect id="room-6a4f2ae3b6019fcc28898d17e07cef1fc62112b9" class="room indoor" data-label="lake shore of Tora Lake" x="434" y="582" width="16" height="16" rx="4"/>
-    <rect id="room-3c111fc58a32a195fd267e3aa43ba19101351f1a" class="room indoor" data-label="lake shore of Tora Lake" x="448" y="582" width="16" height="16" rx="4"/>
-    <rect id="room-88a803de01d7adcc87a543ca3cd848eea963bd51" class="room indoor" data-label="end of a short pier" x="448" y="568" width="16" height="16" rx="4"/>
-    <rect id="room-d67b5d56263b399a465a544255999812986aa75a" class="room indoor" data-label="middle of a wooden pier" x="448" y="554" width="16" height="16" rx="4"/>
-    <rect id="room-2928e2079a08fbe9fdc0764825c84260eddfcd45" class="room indoor" data-label="middle of a wooden pier" x="434" y="540" width="16" height="16" rx="4"/>
-    <rect id="room-58e86709564a9e3debed4f5dca9e47cd6dab0016" class="room indoor" data-label="east entrance to the Fang Pagoda" x="434" y="526" width="16" height="16" rx="4"/>
-    <rect id="room-0b3925c76eb9796528e28422a76af8206048bff0" class="room indoor" data-label="eastern section of the Fang art gallery" x="102" y="574" width="16" height="16" rx="4"/>
-    <rect id="room-252878295cd4a7ae63bf4f06076745e1d45d418d" class="room indoor" data-label="entrance gallery of the Fang house" x="88" y="574" width="16" height="16" rx="4"/>
-    <rect id="room-1e88b4f127ad54ac5eaad3c12b62c5238ea306c1" class="room indoor" data-label="west entrance to the Fang Pagoda" x="392" y="526" width="16" height="16" rx="4"/>
-    <rect id="room-5b2a8170c81d243f8b757cbaf33ce8069add7f0a" class="room indoor" data-label="middle of a wooden pier" x="392" y="540" width="16" height="16" rx="4"/>
-    <rect id="room-96eb75f86395cd65fb336619c54c54599dd146ad" class="room indoor" data-label="middle of a wooden pier" x="378" y="554" width="16" height="16" rx="4"/>
-    <rect id="room-e53d1609378f0dc557e4c25faab1c937779930df" class="room indoor" data-label="end of a short pier outside the Fang Estate" x="378" y="568" width="16" height="16" rx="4"/>
-    <rect id="room-b6368bb8737fb3c1d5ddc0773dab72af6417406b" class="room indoor" data-label="north section of the Fang art gallery" x="88" y="560" width="16" height="16" rx="4"/>
-    <rect id="room-4a7184ac695e448f4f3e02fdba324141cb7d3478" class="room indoor" data-label="Fang family entertainment room" x="102" y="560" width="16" height="16" rx="4"/>
-    <rect id="room-4df959b934373ce822b86cd879cf601a48150dbe" class="room indoor" data-label="tea room in the Fang pagoda" x="116" y="560" width="16" height="16" rx="4"/>
-    <rect id="room-49e8af8f8713c3fb7e14d94d5a8ca4500f58b355" class="room indoor" data-label="bonsai garden just outside the door to the tea room" x="130" y="560" width="16" height="16" rx="4"/>
-    <rect id="room-fb5d2662e17c1af5ef1d59ea138cf204de86fdcd" class="room indoor" data-label="western end of the bonsai garden near the Pagoda" x="144" y="546" width="16" height="16" rx="4"/>
-    <rect id="room-e99365ba116f99d9e536ab2f1c36151123e5d3c9" class="room indoor" data-label="junction of meandering paths in the bonsai garden" x="158" y="546" width="16" height="16" rx="4"/>
-    <rect id="room-66bd3d55287129705c6d59d22d0791c88510e7a8" class="room indoor" data-label="quiet corner of the bonsai garden" x="172" y="546" width="16" height="16" rx="4"/>
-    <rect id="room-a17c9662228ab2e636053db1e958e39b3227bbae" class="room indoor" data-label="eastern end of a covered walkway" x="130" y="532" width="16" height="16" rx="4"/>
-    <rect id="room-693bdc755331c01c740e50f493810975b7030fb7" class="room indoor" data-label="covered walkway south of the northeastern wing" x="116" y="532" width="16" height="16" rx="4"/>
-    <rect id="room-4dccca2dc72cefd57268c6dfa34c503fca728fe0" class="room indoor" data-label="corridor just inside from the covered walkway" x="116" y="518" width="16" height="16" rx="4"/>
-    <rect id="room-c4160ff5b88b34747ed2ff6607312cc3ace5321d" class="room indoor" data-label="hallway outside the ancestors&#x27; shrine" x="130" y="504" width="16" height="16" rx="4"/>
-    <rect id="room-06e2f5ecebcc1397b23cb0bdff3126bb727619b5" class="room indoor" data-label="shrine dedicated to Fang family ancestors" x="130" y="490" width="16" height="16" rx="4"/>
-    <rect id="room-45fa2cec8dad0fabc2f1fa75a4b67abd68838a0d" class="room indoor" data-label="small patio near the shrine" x="144" y="490" width="16" height="16" rx="4"/>
-    <rect id="room-dbbe314c089e928400ccd30f3ceb961758123acf" class="room indoor" data-label="small shrine to Shoji" x="116" y="490" width="16" height="16" rx="4"/>
-    <rect id="room-b71128dcadf0c7e555c2c1b4590593f7547578ad" class="room indoor" data-label="covered walkway outside the Fang Pagoda" x="102" y="532" width="16" height="16" rx="4"/>
-    <rect id="room-e9baa7e6d2d28bc87aac3d7e07d20a7d594202f5" class="room indoor" data-label="south hallway" x="102" y="546" width="16" height="16" rx="4"/>
-    <rect id="room-bbdaa1b3484d32e146ef635d750858ba254bebe0" class="room indoor" data-label="hallway in the ground floor of the Fang Estate" x="116" y="546" width="16" height="16" rx="4"/>
-    <rect id="room-63cd1ee5a7c6102e0c9585a0e876ba579748b7e6" class="room indoor" data-label="room full of sleeping and snoring servants" x="130" y="546" width="16" height="16" rx="4"/>
-    <rect id="room-b858e0243af008aaed2260ef667c43e79f1509a8" class="room indoor" data-label="covered walkway along the north side of the Fang Pagoda" x="88" y="532" width="16" height="16" rx="4"/>
-    <rect id="room-71c6f43c58d7c31104c5a1140c9adba2dfd97b7b" class="room indoor" data-label="covered walkway between the Fang Pagoda and the northwestern wing" x="74" y="532" width="16" height="16" rx="4"/>
-    <rect id="room-b56054f7e2516a5f95da958698b57d82c7d9398d" class="room indoor" data-label="Lord Fang&#x27;s study" x="74" y="518" width="16" height="16" rx="4"/>
-    <rect id="room-0cbca6a17a62bd7987d27e5560b79cfd56a3b2d1" class="room indoor" data-label="Fang family library" x="60" y="504" width="16" height="16" rx="4"/>
-    <rect id="room-19783add7cb1a9faea3836c76db0dd84e0d8454f" class="room indoor" data-label="Fang family armoury" x="60" y="490" width="16" height="16" rx="4"/>
-    <rect id="room-7ba2c806cffae0d02c8b21951bdddcced245cc71" class="room indoor" data-label="small patio" x="60" y="476" width="16" height="16" rx="4"/>
-    <rect id="room-b659139ee83a4df266d9c6792a4f7cb0e2105ea1" class="room indoor" data-label="Fang family trophy room" x="74" y="490" width="16" height="16" rx="4"/>
-    <rect id="room-20e7e72902180930e8ad78ec8a1fbfbd07db39de" class="room indoor" data-label="Fang family war room" x="74" y="504" width="16" height="16" rx="4"/>
-    <rect id="room-8f8102ef4ab4c1b99074a77a6c3d109bcae735c5" class="room indoor" data-label="western end of a covered walkway" x="60" y="532" width="16" height="16" rx="4"/>
-    <rect id="room-0e8d47b14036d404467fc834f9fc24a7b31dd714" class="room indoor" data-label="lotus gardens" x="46" y="546" width="16" height="16" rx="4"/>
-    <rect id="room-f02934a17889af9b4ac61e40ce33a64d3f57cb4b" class="room indoor" data-label="lotus gardens" x="32" y="546" width="16" height="16" rx="4"/>
-    <rect id="room-b0cbe71a8aabff7c061d09ca028a3287ad87565d" class="room indoor" data-label="sandscape in the lotus gardens" x="18" y="546" width="16" height="16" rx="4"/>
-    <rect id="room-9cee9ca8b87e32e276ae7fc7dae9383250653c0f" class="room indoor" data-label="entrance to the lotus gardens" x="60" y="560" width="16" height="16" rx="4"/>
-    <rect id="room-12949c75a6491bbf6251f3e0966d04c60b0a01fa" class="room indoor" data-label="large banquet hall" x="74" y="560" width="16" height="16" rx="4"/>
-    <rect id="room-10fa08f87d8366f19c4c9c55d063600ad237d5d6" class="room indoor" data-label="Fang kitchen" x="74" y="546" width="16" height="16" rx="4"/>
-    <rect id="room-e4caade2ea2ec421fe1757cdedcb8cc5695afdc9" class="room indoor" data-label="pantry in the Fang Estate" x="60" y="546" width="16" height="16" rx="4"/>
-    <rect id="room-923c341073d8a974ae49bd1fb399ef1726989850" class="room indoor" data-label="bottom of the stairwell leading to the upper levels" x="88" y="547" width="16" height="16" rx="4"/>
-    <rect id="room-f6d4e8adb53e73eb82dd3e6f8c2f223971c03211" class="room indoor" data-label="wide, square foyer on the first floor" x="88" y="430" width="16" height="16" rx="4"/>
-    <rect id="room-fde101565c21b7778f60512ce05fbe2d6db38946" class="room indoor" data-label="a first floor hallway" x="88" y="416" width="16" height="16" rx="4"/>
-    <rect id="room-783c4edff7cbde9f2daabeaba2a75a30f776303f" class="room indoor" data-label="hallway leading through the first floor" x="74" y="430" width="16" height="16" rx="4"/>
-    <rect id="room-5a41729063d3a0af67ec44f5231c9039915a0c56" class="room indoor" data-label="writing room of Lord Fang" x="74" y="444" width="16" height="16" rx="4"/>
-    <rect id="room-897a3090e710c2cb421f32d83458a4fa3484a3d0" class="room indoor" data-label="Fang Family Finance room" x="88" y="444" width="16" height="16" rx="4"/>
-    <rect id="room-d0cd7cdd7695a5d4d3c5d945deee8f8b549fa50f" class="room indoor" data-label="Lord and Lady Fang&#x27;s master bedroom" x="60" y="444" width="16" height="16" rx="4"/>
-    <rect id="room-a9b03e73d5feea163bd51e5e12a52c7bf1715b98" class="room indoor" data-label="first floor hallway outside Lord and Lady Fang&#x27;s bedroom" x="60" y="430" width="16" height="16" rx="4"/>
-    <rect id="room-ed1c9a780c9d53bdeb3c6ea3b1e2b635af08bbfd" class="room indoor" data-label="corridor on the first floor of the Fang Pagoda" x="102" y="416" width="16" height="16" rx="4"/>
-    <rect id="room-7928b3f644d0bd5eb079baa4592ae42f99a3790c" class="room indoor" data-label="music room of the Fang estate" x="102" y="430" width="16" height="16" rx="4"/>
-    <rect id="room-c0bc8831ade9ab493dc6e2f3de31e1aac722146b" class="room indoor" data-label="first floor hallway" x="116" y="430" width="16" height="16" rx="4"/>
-    <rect id="room-0cd6f0295ff1fb83135e4f0ad4c911127cdf44b9" class="room indoor" data-label="Flog Course viewing gallery" x="130" y="430" width="16" height="16" rx="4"/>
-    <rect id="room-db66ae7c5967dbf401e039b6cc8e20d94ad435da" class="room indoor" data-label="washroom in the Fang Pagoda" x="130" y="444" width="16" height="16" rx="4"/>
-    <rect id="room-87662fb0506140e8146110af8f6fc56c19238b7f" class="room indoor" data-label="first floor guest bedroom" x="116" y="444" width="16" height="16" rx="4"/>
-    <rect id="room-8d1aaa52ddb231bbf906e334f0313acdffae621d" class="room indoor" data-label="Fang inhumation office" x="102" y="444" width="16" height="16" rx="4"/>
-    <rect id="room-4fed269f5f0be2826e6c9af79c824269f78933e0" class="room indoor" data-label="landing at the top level of the house" x="88" y="368" width="16" height="16" rx="4"/>
-    <rect id="room-138685d53798fdeba6948bca2630bc0e4ffb7baa" class="room indoor" data-label="observatory at the top of the Fang Pagoda" x="88" y="382" width="16" height="16" rx="4"/>
-    <rect id="room-5ee5d8e533ea4ddf3f6dd59032717d007fe1e6bb" class="room indoor" data-label="paper filled room" x="102" y="368" width="16" height="16" rx="4"/>
-    <rect id="room-562d9b064b7ce971ecd23c21c9f5e89fa4bf2f27" class="room indoor" data-label="cramped printing room" x="102" y="382" width="16" height="16" rx="4"/>
-    <rect id="room-ed104642e3a4aede7fa037e6238fae87a0481620" class="room indoor" data-label="lake shore of Tora Lake" x="462" y="582" width="16" height="16" rx="4"/>
-    <rect id="room-20fceb3cc5137774177a2b7f34d10136b54a9341" class="room indoor" data-label="lake shore of Tora Lake" x="476" y="582" width="16" height="16" rx="4"/>
-    <rect id="room-e4a77e6d0fb6199c3c7e0ec4e1833d66545b4372" class="room indoor" data-label="lake shore of Tora Lake" x="490" y="568" width="16" height="16" rx="4"/>
-    <rect id="room-ff7d594be0658aae9cb232b10224af0ab94dd3f4" class="room indoor" data-label="lake shore of Tora Lake" x="504" y="568" width="16" height="16" rx="4"/>
-    <rect id="room-e020c3c0a63538670674cd5483586e8594e87de9" class="room indoor" data-label="lake shore of Tora Lake" x="518" y="554" width="16" height="16" rx="4"/>
-    <rect id="room-da7fc47e3451bcf332a6c0406e6767d2f08e18cc" class="room indoor" data-label="lake shore of Tora Lake" x="518" y="540" width="16" height="16" rx="4"/>
-    <rect id="room-70ff20d16c1e1439e3cefaf0ffa99f519c513634" class="room indoor" data-label="lake shore of Tora Lake" x="532" y="526" width="16" height="16" rx="4"/>
-    <rect id="room-9cd91a1dfc827d4657756a11256d4ea92c0ed6dd" class="room indoor" data-label="lake shore of Tora Lake" x="532" y="512" width="16" height="16" rx="4"/>
-    <rect id="room-1459588f1c06219074498e08dcdd833cccccec26" class="room indoor" data-label="entryway to a guardhouse" x="546" y="512" width="16" height="16" rx="4"/>
-    <rect id="room-2040eac3bcc8835a11511ed30129cf3023b53909" class="room indoor" data-label="office of the captain" x="546" y="526" width="16" height="16" rx="4"/>
-    <rect id="room-9a0a49398a5dfa9d8a6519d79393aeeabf61ffe2" class="room indoor" data-label="Fang guardhouse" x="560" y="512" width="16" height="16" rx="4"/>
-    <rect id="room-8f6252117c1db158ba60adc897690d4ea39f6795" class="room indoor" data-label="unused-looking Fang dungeon" x="560" y="526" width="16" height="16" rx="4"/>
-    <rect id="room-f02bd3eaea000ca979a6b3c623d342ff4d9159fa" class="room indoor" data-label="dock at the base of the Tang Island cliffs" x="69" y="163" width="16" height="16" rx="4"/>
-    <rect id="room-0073da072a55672a026482d0e46aa2ff9417ce9e" class="room indoor" data-label="gravel path" x="76" y="135" width="16" height="16" rx="4"/>
-    <rect id="room-24928af9e47c430b8e086ae870d4978e4bd6f0a6" class="room indoor" data-label="gravel path" x="62" y="121" width="16" height="16" rx="4"/>
-    <rect id="room-541ce5c677ccb23cb0f7c639b3ac71a03286ac3e" class="room indoor" data-label="gravel path" x="62" y="107" width="16" height="16" rx="4"/>
-    <rect id="room-5d11e0d6c4a9d8f7a9489c36b0f0c3d1dca7eb8b" class="room indoor" data-label="gravel path" x="76" y="93" width="16" height="16" rx="4"/>
-    <rect id="room-be338565d4590363b468f6d4606121a04227b050" class="room indoor" data-label="gravel path" x="90" y="79" width="16" height="16" rx="4"/>
-    <rect id="room-c7ded8ee6188f88172983b4c33f6f4681b9a17a0" class="room indoor" data-label="precarious precipice" x="104" y="79" width="16" height="16" rx="4"/>
-    <rect id="room-416615828aafe3be9343e96e3336c4d2b530f7c4" class="room indoor" data-label="watch landing" x="118" y="79" width="16" height="16" rx="4"/>
-    <rect id="room-fd0629003bef22488fabcf42649f47f4c66d7688" class="room indoor" data-label="gravel path" x="132" y="79" width="16" height="16" rx="4"/>
-    <rect id="room-d3095e542c9e6dbfee0986c079d12ab7c53e141c" class="room indoor" data-label="gravel path" x="146" y="93" width="16" height="16" rx="4"/>
-    <rect id="room-c8d0863e1f373fc85b2186848e3166902dc87534" class="room indoor" data-label="gravel path" x="160" y="107" width="16" height="16" rx="4"/>
-    <rect id="room-efe10d56fad73b7557017d51c39d0eb9dd571a84" class="room indoor" data-label="gravel path" x="160" y="121" width="16" height="16" rx="4"/>
-    <rect id="room-5bdfe3b280fb9faebac82c2a13de3c14f0011f6e" class="room indoor" data-label="clifftop path south of a tangled garden" x="146" y="135" width="16" height="16" rx="4"/>
-    <rect id="room-d6a2ffb4af4157519c52cc9e291a0daa0b78dbbe" class="room indoor" data-label="overgrown garden" x="146" y="121" width="16" height="16" rx="4"/>
-    <rect id="room-dd138a926e618466fb9b3f96611754024d6858f0" class="room indoor" data-label="overgrown garden" x="146" y="107" width="16" height="16" rx="4"/>
-    <rect id="room-9b9bc9802e24cf378b55c211e7e248d33870241b" class="room indoor" data-label="clifftop path at the Tang estate&#x27;s southeast corner" x="132" y="149" width="16" height="16" rx="4"/>
-    <rect id="room-8e43e036abfafcd35c3246f748be9ffe0fabc4c3" class="room indoor" data-label="small landing at the entrance to Tang estate" x="118" y="149" width="16" height="16" rx="4"/>
-    <rect id="room-2eeae54e9e08525e304d6f75fc330c5b83e52a8a" class="room indoor" data-label="dusty entrance to the Tang Estate" x="118" y="135" width="16" height="16" rx="4"/>
-    <rect id="room-d95aab1a44dc6be7c96ee215a84575f170a59aac" class="room indoor" data-label="dusty reception room" x="132" y="135" width="16" height="16" rx="4"/>
-    <rect id="room-d335c839b34e339b90ac46545433346e652cf329" class="room indoor" data-label="ground floor hallway outside two rooms" x="118" y="121" width="16" height="16" rx="4"/>
-    <rect id="room-e72d938554eff8726191a2d4439caf01f8a390b1" class="room indoor" data-label="family tea room" x="132" y="121" width="16" height="16" rx="4"/>
-    <rect id="room-731b23204f4cfa4e0345a634d84944b22e8bbef1" class="room indoor" data-label="furniture repair room" x="104" y="121" width="16" height="16" rx="4"/>
-    <rect id="room-2d1dd2f54ea6f466424864d1a533998c434c5fdb" class="room indoor" data-label="hallway outside the dining room" x="118" y="107" width="16" height="16" rx="4"/>
-    <rect id="room-5eb82ed4bccaa1352b0a2ba3965dce358721cbba" class="room indoor" data-label="political planning room" x="132" y="107" width="16" height="16" rx="4"/>
-    <rect id="room-97a5395a24a412980bc923ca71351fd2b3084760" class="room indoor" data-label="financial records room" x="104" y="107" width="16" height="16" rx="4"/>
-    <rect id="room-d1cefa9a80062cd28af0e8ea8456b51e06e587cf" class="room indoor" data-label="dining room" x="118" y="93" width="16" height="16" rx="4"/>
-    <rect id="room-49c3db577b0ea3258106d5cc9814428dd1856387" class="room indoor" data-label="drawing room in the Tang Estate" x="132" y="93" width="16" height="16" rx="4"/>
-    <rect id="room-1ad32c59d54e44060d0fed2bcfa055191cc5ee99" class="room indoor" data-label="kitchen" x="104" y="93" width="16" height="16" rx="4"/>
-    <rect id="room-ba43312d8fd93fd8739d053a616bef21fd8a0e3c" class="room indoor" data-label="servants&#x27; quarters" x="90" y="93" width="16" height="16" rx="4"/>
-    <rect id="room-5d21ed9c657fd103976b8eb15188990ea3db342a" class="room indoor" data-label="servants&#x27; quarters" x="90" y="107" width="16" height="16" rx="4"/>
-    <rect id="room-405c93174ebbca4466e5c7f497fd1d93a681eddc" class="room indoor" data-label="hallway just off the entrance hall" x="104" y="135" width="16" height="16" rx="4"/>
-    <rect id="room-504ccd51b7d1799d6253197b0d03c5de4d389b23" class="room indoor" data-label="landing at the ground floor level of the estate&#x27;s main stairwell, just outside the trophy room" x="90" y="135" width="16" height="16" rx="4"/>
-    <rect id="room-3e202be121aa417e88bcc73dff496045bbdaa7d0" class="room indoor" data-label="Tang trophy room" x="90" y="121" width="16" height="16" rx="4"/>
-    <rect id="room-12fb280a6ca6f0d6548502a9e69fe0f664bb99d5" class="room indoor" data-label="cramped passageway underneath the Tang Estate" x="89" y="236" width="16" height="16" rx="4"/>
-    <rect id="room-dd28ce0b7708fd990804ebb6b9b502fe6dc49124" class="room indoor" data-label="cramped passageway underneath the Tang Estate" x="103" y="236" width="16" height="16" rx="4"/>
-    <rect id="room-c808444027250203faf025faa909a58db8cbbaae" class="room indoor" data-label="vaulted chamber" x="117" y="236" width="16" height="16" rx="4"/>
-    <rect id="room-f53f264ed13e2e682171de9becb7fe4dc3e904e6" class="room indoor" data-label="dimly lit corridor underneath the Tang Estate" x="117" y="222" width="16" height="16" rx="4"/>
-    <rect id="room-801ec001ca99e8271a07ec91afaaba93e0555ef1" class="room indoor" data-label="guard room" x="131" y="222" width="16" height="16" rx="4"/>
-    <rect id="room-47b8da00c7f9e5f0014f2843ce054c2df40cf7b5" class="room indoor" data-label="Tang treasury" x="103" y="222" width="16" height="16" rx="4"/>
-    <rect id="room-bd7ac7883d8a02d83508898a9c69b4611889cfe0" class="room indoor" data-label="dimly lit corridor" x="117" y="208" width="16" height="16" rx="4"/>
-    <rect id="room-93c27ae8c01feaa0faf34708a023aa8570927f52" class="room indoor" data-label="dungeon cell" x="131" y="208" width="16" height="16" rx="4"/>
-    <rect id="room-64f5712c21c76212bf5b7248121ee6d5b0dfa68e" class="room indoor" data-label="dungeon cell" x="103" y="208" width="16" height="16" rx="4"/>
-    <rect id="room-6469a51b11338245eed042c89837faaf99ea14b4" class="room indoor" data-label="dimly lit corridor underneath the Tang Estate" x="117" y="194" width="16" height="16" rx="4"/>
-    <rect id="room-72f447572c8fdd79046b2e479db566d75773fe6e" class="room indoor" data-label="dungeon cell" x="131" y="194" width="16" height="16" rx="4"/>
-    <rect id="room-da796e830a263e5ec2a8a82ba46e306d915b9814" class="room indoor" data-label="dungeon cell" x="103" y="194" width="16" height="16" rx="4"/>
-    <rect id="room-3c7065a68758c8e891c382d3ce59105285004454" class="room indoor" data-label="landing at the end of the first floor hallway" x="90" y="53" width="16" height="16" rx="4"/>
-    <rect id="room-913f0504c2e45aec1733f821dcba829d23202f57" class="room indoor" data-label="Tang family library" x="90" y="39" width="16" height="16" rx="4"/>
-    <rect id="room-936c188fcb05156235a244f6b35ab9b3fd023983" class="room indoor" data-label="hallway on the first floor of the Tang Estate" x="104" y="53" width="16" height="16" rx="4"/>
-    <rect id="room-72fc5d1898b71fc1bb42b6b973737a06fc77761a" class="room indoor" data-label="dusty hallway outside the family study" x="118" y="53" width="16" height="16" rx="4"/>
-    <rect id="room-07cfc598b34276cda5db4d6c88c74a2a306c98e5" class="room indoor" data-label="Lord Tang&#x27;s study" x="132" y="53" width="16" height="16" rx="4"/>
-    <rect id="room-a64b1e4a0e47cb6cc289a098e61f519daf4967aa" class="room indoor" data-label="hallway past its prime" x="118" y="39" width="16" height="16" rx="4"/>
-    <rect id="room-625df340661b3632fffa8278987e1e2b611677db" class="room indoor" data-label="dimly lit interrogation room" x="132" y="39" width="16" height="16" rx="4"/>
-    <rect id="room-0233f062568f22d9802fd4f876054ec839243a82" class="room indoor" data-label="family dressing room" x="104" y="39" width="16" height="16" rx="4"/>
-    <rect id="room-9dbd62248eb36de196fa83e1c45bfadd3cbfdeba" class="room indoor" data-label="hallway just outside the estate&#x27;s bedrooms and the first floor balcony" x="118" y="25" width="16" height="16" rx="4"/>
-    <rect id="room-87d8b87015fa1b0b9be1c06bf4e61931f00877d8" class="room indoor" data-label="guest bedroom" x="132" y="25" width="16" height="16" rx="4"/>
-    <rect id="room-a1d0089a02d30c81d8ed8476f27da25f7a2b5628" class="room indoor" data-label="bedroom of Lord and Lady Tang" x="104" y="25" width="16" height="16" rx="4"/>
-    <rect id="room-d0744bb0ccbb0e593a115148bb7ce13b8ae125df" class="room indoor" data-label="crumbling balcony overlooking Tang Bay" x="118" y="11" width="16" height="16" rx="4"/>
-    <rect id="room-f48c20da84c06dd1397d48d615fc2f6874cc2fb6" class="room indoor" data-label="crumbling balcony overlooking Tang Bay" x="132" y="11" width="16" height="16" rx="4"/>
-    <rect id="room-cb441bd0aae3803f57f5675abafd8e2ad203aa4b" class="room indoor" data-label="crumbling balcony overlooking Tang Bay" x="104" y="11" width="16" height="16" rx="4"/>
-    <rect id="room-2351c92d23765359e154525457c5952f08061780" class="room indoor" data-label="gravel path" x="104" y="149" width="16" height="16" rx="4"/>
-    <rect id="room-33c5c8c21edc6ac3f31a9f45debf5b655e01cbec" class="room indoor" data-label="gravel path" x="90" y="149" width="16" height="16" rx="4"/>
-    <rect id="room-950d2d00ec8b19ab53eac4318d9759811f7fb3f1" class="room indoor" data-label="overgrown garden" x="76" y="121" width="16" height="16" rx="4"/>
-    <rect id="room-6625626982dee10d282c1c73563a925000c5238a" class="room indoor" data-label="overgrown garden" x="76" y="107" width="16" height="16" rx="4"/>
-    <rect id="room-88f27c396e45db66c0a7d6f305ab7d7ffeb6d9c3" class="room indoor" data-label="gateway to the McSweeney Estate" x="891" y="639" width="16" height="16" rx="4"/>
-    <rect id="room-80b57f70d5433ba8c5b5cb462fb77025ee364bd4" class="room indoor" data-label="driveway" x="877" y="639" width="16" height="16" rx="4"/>
-    <rect id="room-0ce05209b977e80ecb3403159e72c1363df4bd31" class="room indoor" data-label="driveway" x="863" y="639" width="16" height="16" rx="4"/>
-    <rect id="room-eeafcb01a5485e8235595044003f33b4571d3b2d" class="room indoor" data-label="path" x="849" y="639" width="16" height="16" rx="4"/>
-    <rect id="room-4d8e3f551d869231a98c8725c8c51330eda16cdc" class="room indoor" data-label="path" x="835" y="625" width="16" height="16" rx="4"/>
-    <rect id="room-5d5bb8b512e3ee6b817fe4ec2bf858b415cde559" class="room indoor" data-label="garden path" x="821" y="611" width="16" height="16" rx="4"/>
-    <rect id="room-14dc51a887e60ef4e830ea531dc6c02fe4f83564" class="room indoor" data-label="garden path" x="807" y="611" width="16" height="16" rx="4"/>
-    <rect id="room-74b2d361e3755d0d8567dbe690e8ced1f737de76" class="room indoor" data-label="path through the gardens" x="793" y="597" width="16" height="16" rx="4"/>
-    <rect id="room-55040ef9f29726c1148b42a6601e7650a54fc7bc" class="room indoor" data-label="garden path" x="793" y="583" width="16" height="16" rx="4"/>
-    <rect id="room-09874f6ac125c87949f8ab8eae7b789348882eca" class="room indoor" data-label="garden path" x="793" y="569" width="16" height="16" rx="4"/>
-    <rect id="room-4ae5c27314990c8489464e1af1426ac071dc004b" class="room indoor" data-label="garden path" x="807" y="555" width="16" height="16" rx="4"/>
-    <rect id="room-a3c7ddf94aaa802cf63aa1e6bd519f434e31fb0a" class="room indoor" data-label="pagoda" x="793" y="541" width="16" height="16" rx="4"/>
-    <rect id="room-91e828090900689b6eba2f76cf57560f21fac20d" class="room indoor" data-label="garden path" x="821" y="541" width="16" height="16" rx="4"/>
-    <rect id="room-191f2056b1821609ad252b4dffe80311c89ead02" class="room indoor" data-label="garden path" x="835" y="527" width="16" height="16" rx="4"/>
-    <rect id="room-3cff549d5f8137a821a7be6e3c8ed76700655413" class="room indoor" data-label="path around the yard" x="849" y="527" width="16" height="16" rx="4"/>
-    <rect id="room-5d648b8c05ef7da3473ad5db9f326fe75281e32a" class="room indoor" data-label="path around the yard" x="849" y="513" width="16" height="16" rx="4"/>
-    <rect id="room-9bc261694b69d8646c6ffbe4d0a26a27198a8772" class="room indoor" data-label="path around the yard" x="863" y="499" width="16" height="16" rx="4"/>
-    <rect id="room-5f9de726cb955019da6ba695c8f14c7b084ec3a3" class="room indoor" data-label="garden shed" x="849" y="485" width="16" height="16" rx="4"/>
-    <rect id="room-b813ce4230c9e602085d8c6e8c6f506709841265" class="room indoor" data-label="path around the yard" x="877" y="499" width="16" height="16" rx="4"/>
-    <rect id="room-b36907b21a5ccb08e8d97a28dc3e755e77ebcd92" class="room indoor" data-label="path around the yard" x="891" y="499" width="16" height="16" rx="4"/>
-    <rect id="room-eff2d9b8565a66a740b0bfb42ab13490bd3a928d" class="room indoor" data-label="conservatory" x="891" y="485" width="16" height="16" rx="4"/>
-    <rect id="room-8755a9ed5ab3505677246f0674bd2536cf0ad18e" class="room indoor" data-label="conservatory" x="891" y="471" width="16" height="16" rx="4"/>
-    <rect id="room-c541919c446aff2eeb9a6a900b4055f9a1a20ac4" class="room indoor" data-label="distillery" x="891" y="457" width="16" height="16" rx="4"/>
-    <rect id="room-c4fd237c530cb85ca41ed5e188531437c158c922" class="room indoor" data-label="conservatory" x="877" y="471" width="16" height="16" rx="4"/>
-    <rect id="room-4d2f53fbc403425c0d51563a7c696345a02cf0f8" class="room indoor" data-label="path around the yard" x="905" y="499" width="16" height="16" rx="4"/>
-    <rect id="room-33b2a6078f990104af0f1f1ebc24dea0cdfd0521" class="room indoor" data-label="stable yard" x="919" y="499" width="16" height="16" rx="4"/>
-    <rect id="room-2f7ee212728f5085ee8568f7b4520bfd50a96d4d" class="room indoor" data-label="carriage shed" x="919" y="485" width="16" height="16" rx="4"/>
-    <rect id="room-48e67ff9710ba5318d81fd72d3831e45c36cb2db" class="room indoor" data-label="grooms&#x27; quarters" x="905" y="485" width="16" height="16" rx="4"/>
-    <rect id="room-80730810cf8a1dd7a85387f400cfc66c55715af3" class="room indoor" data-label="stable" x="919" y="471" width="16" height="16" rx="4"/>
-    <rect id="room-a5b85e48df261c327084316077471939d72d1c5a" class="room indoor" data-label="stable" x="933" y="471" width="16" height="16" rx="4"/>
-    <rect id="room-3c775fef07a2563619a9526e97754d455058fcf9" class="room indoor" data-label="stable" x="933" y="485" width="16" height="16" rx="4"/>
-    <rect id="room-294043cf16dbf0cad60da6b5c92f8859de67acdc" class="room indoor" data-label="stable yard" x="933" y="499" width="16" height="16" rx="4"/>
-    <rect id="room-0c23384f977a8f8191232c30b7251c6b47271fb9" class="room indoor" data-label="tack room" x="947" y="485" width="16" height="16" rx="4"/>
-    <rect id="room-b429dc399414fc4595187a1aaae58a67c39cbb55" class="room indoor" data-label="smithy" x="947" y="471" width="16" height="16" rx="4"/>
-    <rect id="room-e6f0e780111725ae6738660d2f16b987202a1fc0" class="room indoor" data-label="kennel" x="961" y="485" width="16" height="16" rx="4"/>
-    <rect id="room-b58e57314510c4ca881f54d4efe7915ca537814c" class="room indoor" data-label="kennel" x="961" y="471" width="16" height="16" rx="4"/>
-    <rect id="room-0d4cb5c8c3ac014a45260b1658795e76cb23e38f" class="room indoor" data-label="stable yard" x="947" y="499" width="16" height="16" rx="4"/>
-    <rect id="room-c80f8db0c63a79e3a20631110107d84f62dd8e21" class="room indoor" data-label="path around the yard" x="933" y="513" width="16" height="16" rx="4"/>
-    <rect id="room-41fcc87895b890ece9847af7d32eb371ba60f08e" class="room indoor" data-label="path around the yard" x="933" y="527" width="16" height="16" rx="4"/>
-    <rect id="room-bdafd44a4a6b9ee2e046add3f55b1b23d14db606" class="room indoor" data-label="path around the yard" x="933" y="541" width="16" height="16" rx="4"/>
-    <rect id="room-5dae1f56de4c045e39aa7cd71541fcc15e68b26e" class="room indoor" data-label="path behind the halls leading to the birdhouse" x="947" y="541" width="16" height="16" rx="4"/>
-    <rect id="room-e98de78c1014c5ce599ec89d25b1f44ff23e15b4" class="room indoor" data-label="birdhouse" x="947" y="527" width="16" height="16" rx="4"/>
-    <rect id="room-98a215d44c520b7fd180ab7a154754db698c5516" class="room indoor" data-label="birdhouse cage" x="947" y="513" width="16" height="16" rx="4"/>
-    <rect id="room-39378da9580dc25271b69964aa9948a560c9c92d" class="room indoor" data-label="path around the yard" x="919" y="555" width="16" height="16" rx="4"/>
-    <rect id="room-f1950f698e6bbf411365f431171a62cedc6d65f6" class="room indoor" data-label="path around the yard" x="905" y="555" width="16" height="16" rx="4"/>
-    <rect id="room-9b858050ffd3f7c3390e50254dc3e93e00fb9f89" class="room indoor" data-label="path around the yard" x="891" y="555" width="16" height="16" rx="4"/>
-    <rect id="room-e974cbf99075eea06d0a5fedc34e95d00a58083f" class="room indoor" data-label="servants&#x27; entrance" x="877" y="555" width="16" height="16" rx="4"/>
-    <rect id="room-6a3f07422ff5d0ba059d4858975e86b02a7b0cbf" class="room indoor" data-label="small garden" x="877" y="541" width="16" height="16" rx="4"/>
-    <rect id="room-181b5919e34e649815f8bbdfcda9361dfb93acf1" class="room indoor" data-label="path around the yard" x="863" y="541" width="16" height="16" rx="4"/>
-    <rect id="room-566f677c1faee5b6585329d110dc65354d6067aa" class="room indoor" data-label="kitchen" x="877" y="569" width="16" height="16" rx="4"/>
-    <rect id="room-b3a1234fb94f7f1de706aa1ceb9039621e08b68e" class="room indoor" data-label="pantry" x="863" y="569" width="16" height="16" rx="4"/>
-    <rect id="room-76b1b0c1f2c906985053bf5f3e2252bb477289f4" class="room indoor" data-label="scullery" x="891" y="569" width="16" height="16" rx="4"/>
-    <rect id="room-fa3817ce89195b1465b4bb0723d57e936d86ab7e" class="room indoor" data-label="corridor in the main hall" x="891" y="583" width="16" height="16" rx="4"/>
-    <rect id="room-643177d2b52d1ce5759371bc65647c82e73ed497" class="room indoor" data-label="library" x="877" y="583" width="16" height="16" rx="4"/>
-    <rect id="room-199682b4306d3f06b2e6da013d1b0d0032e400cd" class="room indoor" data-label="guard station at the entrance to the women&#x27;s hall" x="863" y="583" width="16" height="16" rx="4"/>
-    <rect id="room-ab1479b8012431149d4863cd59efe2a5ce8b2990" class="room indoor" data-label="visitors&#x27; bathroom" x="877" y="597" width="16" height="16" rx="4"/>
-    <rect id="room-776e69ced1cdd886ec3bba1a45062eed192f6d2d" class="room indoor" data-label="reception hall" x="891" y="597" width="16" height="16" rx="4"/>
-    <rect id="room-a4a93b269a40e4b3ea721d61580553c7be44c6ea" class="room indoor" data-label="dressing room" x="905" y="597" width="16" height="16" rx="4"/>
-    <rect id="room-1051fdbd3559665c22646a3dd0727d8ae594e5f9" class="room indoor" data-label="main tea room" x="905" y="583" width="16" height="16" rx="4"/>
-    <rect id="room-293caf737773302536c237701b1d5415f9670c37" class="room indoor" data-label="Lord McSweeney&#x27;s office and financial headquarters" x="905" y="569" width="16" height="16" rx="4"/>
-    <rect id="room-dd76687db9e4168821781728486312aac5c264cd" class="room indoor" data-label="reception room for the men&#x27;s hall" x="919" y="583" width="16" height="16" rx="4"/>
-    <rect id="room-3cce846425e84dbe80c3672782431905ed00c3fc" class="room indoor" data-label="corridor leading through the men&#x27;s hall" x="933" y="583" width="16" height="16" rx="4"/>
-    <rect id="room-6255a51c4b9ded1e70a9d167373f6bc708805019" class="room indoor" data-label="men&#x27;s tea room" x="947" y="583" width="16" height="16" rx="4"/>
-    <rect id="room-c5a5a3aebb13edc2a9ea9f7678b9bd84b31cafa1" class="room indoor" data-label="Lord McSweeney&#x27;s private bedroom" x="947" y="597" width="16" height="16" rx="4"/>
-    <rect id="room-50f74815d3f5b0cb11d236297abc12a6d7981a94" class="room indoor" data-label="corridor in the men&#x27;s hall outside the tea room" x="961" y="583" width="16" height="16" rx="4"/>
-    <rect id="room-b81a89274effc8fb3d1da19f56fb5756e9b09c67" class="room indoor" data-label="anteroom to the men&#x27;s dojo" x="961" y="569" width="16" height="16" rx="4"/>
-    <rect id="room-8ad0f3e3b662e8d60192c1952e1515c210874579" class="room indoor" data-label="men&#x27;s dojo" x="961" y="555" width="16" height="16" rx="4"/>
-    <rect id="room-b39547c7fe7514c354f6f54b10aa7a7e958ab781" class="room indoor" data-label="guest bedroom off the mens&#x27; hall" x="947" y="569" width="16" height="16" rx="4"/>
-    <rect id="room-99ecf78b38d98a6e8f12940e0fb900ad4f2b6305" class="room indoor" data-label="guest bedroom in the mens&#x27; hall" x="947" y="555" width="16" height="16" rx="4"/>
-    <rect id="room-25dd0cf48bbe00c760f03622bbef9ca5d4474a7f" class="room indoor" data-label="landing on the upper floor of the McSweeney guest hall" x="891" y="411" width="16" height="16" rx="4"/>
-    <rect id="room-873f217d5f7d22ae269b681daee5fa39a2baae78" class="room indoor" data-label="landing on the first floor of the McSweeney guest hall" x="877" y="411" width="16" height="16" rx="4"/>
-    <rect id="room-edbd3509dc69f43bcb483da8f091084cb4b19406" class="room indoor" data-label="Room of the Pearl Tiger" x="877" y="397" width="16" height="16" rx="4"/>
-    <rect id="room-27ebe3a2db5e301108ac36049e7839906c19e148" class="room indoor" data-label="Suite of Harmonious Animals" x="891" y="397" width="16" height="16" rx="4"/>
-    <rect id="room-279d6d40b1028a5cd560daa10d810861effe84a6" class="room indoor" data-label="Room of the Onyx Turtle" x="891" y="383" width="16" height="16" rx="4"/>
-    <rect id="room-4b26e8d8c6e298ee76351033837f40fdecd3bf94" class="room indoor" data-label="cubicle" x="905" y="397" width="16" height="16" rx="4"/>
-    <rect id="room-fb85e651d7d2b946ad0e6b46fd4080d2edbe64f5" class="room indoor" data-label="Phoenix Suite" x="891" y="425" width="16" height="16" rx="4"/>
-    <rect id="room-292ee6fdd70b145c4a331d36ec18bf616feb15b5" class="room indoor" data-label="Room of the Fiery Phoenix" x="877" y="425" width="16" height="16" rx="4"/>
-    <rect id="room-045cf37cfd2357bcfd9f3975c48f67932bb97718" class="room indoor" data-label="cubicle" x="905" y="425" width="16" height="16" rx="4"/>
-    <rect id="room-b34645c0ce785aebf1ed1078f3fd59ddff39ac91" class="room indoor" data-label="eastern landing" x="905" y="411" width="16" height="16" rx="4"/>
-    <rect id="room-ec9a032ff724ddc65125f26bcf2af65e0abfb862" class="room indoor" data-label="Jade Dragon Suite" x="919" y="411" width="16" height="16" rx="4"/>
-    <rect id="room-42708afeafa5e3fb28743f5a4f9a2bf9d80a5423" class="room indoor" data-label="Room of the Jade Dragon" x="919" y="397" width="16" height="16" rx="4"/>
-    <rect id="room-0c68a8f51ab0d914e6745e90772de7f02026908e" class="room indoor" data-label="cubicle" x="919" y="425" width="16" height="16" rx="4"/>
-    <rect id="room-88a1c3a29b068292cb525f181c32142b96b2ad8d" class="room indoor" data-label="attic" x="892" y="348" width="16" height="16" rx="4"/>
-    <rect id="room-23a770b367c3eb29d325051afcf137e806c824c5" class="room indoor" data-label="waiting room" x="891" y="611" width="16" height="16" rx="4"/>
-    <rect id="room-1e133a1dc400ed3da3062cd03eaeffbe5f40e361" class="room indoor" data-label="pathway outside the entrance to the McSweeney Estate" x="877" y="625" width="16" height="16" rx="4"/>
-    <rect id="room-e0a98c6b25868833054eeba95c1d36c0bea53988" class="room indoor" data-label="path" x="863" y="625" width="16" height="16" rx="4"/>
-    <rect id="room-8b5c8baca90e70594eb085517e148872e2b73fef" class="room indoor" data-label="path" x="849" y="625" width="16" height="16" rx="4"/>
-    <rect id="room-90b40d7c2c3873ca302762547a8af2e17e685acd" class="room indoor" data-label="quiet studio" x="847" y="122" width="16" height="16" rx="4"/>
-    <rect id="room-c3d9154c16973f31a98bd407d0b4b93b76a59992" class="room indoor" data-label="Lady Sung&#x27;s private gardens" x="861" y="122" width="16" height="16" rx="4"/>
-    <rect id="room-f3bd03448a4a2a9a65f1c5019975b643e44072ff" class="room indoor" data-label="Lady Sung&#x27;s private gardens" x="875" y="122" width="16" height="16" rx="4"/>
-    <rect id="room-1c0c82db9ab375f26f0988c9789335f1400ea360" class="room indoor" data-label="Lady Sung&#x27;s private gardens" x="889" y="122" width="16" height="16" rx="4"/>
-    <rect id="room-880d35b2e3cf1f4fa5d58d1d84d71af987741256" class="room indoor" data-label="Lady Sung&#x27;s private gardens" x="903" y="122" width="16" height="16" rx="4"/>
-    <rect id="room-1aac0ea10cbd07ad2945fd6b3baa9c629c686eae" class="room indoor" data-label="large, traditional dining room" x="917" y="122" width="16" height="16" rx="4"/>
-    <rect id="room-7e896a62b871501e6d73ce5ef5fe6ca668045660" class="room indoor" data-label="end of the hallway outside the dining room" x="917" y="136" width="16" height="16" rx="4"/>
-    <rect id="room-65d8422e8a840fc16a459051df184a4f78e8e324" class="room indoor" data-label="corridor leading through the Sung Estate" x="917" y="150" width="16" height="16" rx="4"/>
-    <rect id="room-9978fa3eba60ad5e74b6cc1844fd81f6a05fe1a2" class="room indoor" data-label="kitchen and pantry" x="931" y="150" width="16" height="16" rx="4"/>
-    <rect id="room-89c44db454f85f871bc608e8e93c58d4df9044a3" class="room indoor" data-label="grimy servants&#x27; quarters" x="931" y="136" width="16" height="16" rx="4"/>
-    <rect id="room-896e678f5d0b89555d12da6d4015d648d46b5459" class="room indoor" data-label="quiet hallway within the Sung Estate" x="903" y="150" width="16" height="16" rx="4"/>
-    <rect id="room-0f7223f7ff7b27c20f8139924d1e81c49949746a" class="room indoor" data-label="reception area" x="889" y="136" width="16" height="16" rx="4"/>
-    <rect id="room-c0e0ed118d744742f3077395ec6c04b35e645242" class="room indoor" data-label="music room" x="903" y="136" width="16" height="16" rx="4"/>
-    <rect id="room-a9330e0ef1854c8d43ffe0ab780c008bb4a9cc8c" class="room indoor" data-label="downstairs hallway, just outside the library" x="875" y="150" width="16" height="16" rx="4"/>
-    <rect id="room-778b02b2dd8fc0383125824d6f0ed023e03d4bae" class="room indoor" data-label="Sung family library" x="875" y="136" width="16" height="16" rx="4"/>
-    <rect id="room-04c0954048ef365093b8b25baf519555fbe906e2" class="room indoor" data-label="midway along the ground floor hallway" x="861" y="150" width="16" height="16" rx="4"/>
-    <rect id="room-c8be2c03d376d1149dad40c65c5b7aa87c27ba9a" class="room indoor" data-label="Sung family study" x="861" y="136" width="16" height="16" rx="4"/>
-    <rect id="room-a5571495637eaa79feeb7ab6981d05f3ccfc5bb4" class="room indoor" data-label="hallway in the Sung Estate just outside the studio" x="847" y="136" width="16" height="16" rx="4"/>
-    <rect id="room-1f577060e35827a91c74da00afe5b5c91ad8ef01" class="room indoor" data-label="hallway within the walls of the Sung Estate" x="847" y="150" width="16" height="16" rx="4"/>
-    <rect id="room-b3da9b0268a3abc085e09d2b6d130fde9feea968" class="room indoor" data-label="west end of a hallway in the basement" x="847" y="206" width="16" height="16" rx="4"/>
-    <rect id="room-cccb470bf70b4866f8ac36d40f83e6dacfc3a6b0" class="room indoor" data-label="Sung treasury" x="847" y="192" width="16" height="16" rx="4"/>
-    <rect id="room-96e243093ff91f874c71572f84db2f6576e13351" class="room indoor" data-label="east end of a basement" x="861" y="206" width="16" height="16" rx="4"/>
-    <rect id="room-838298d1046f9fdaed9f4f9b1024d445a0c7c7ee" class="room indoor" data-label="storage cell" x="861" y="192" width="16" height="16" rx="4"/>
-    <rect id="room-966f2743738beb0331a0b8d968d07ef247f9b87d" class="room indoor" data-label="dingy cell" x="875" y="192" width="16" height="16" rx="4"/>
-    <rect id="room-6931783e88e594d4ecf37b8acf0a220f74f7a7c7" class="room indoor" data-label="plush cell" x="875" y="206" width="16" height="16" rx="4"/>
-    <rect id="room-0ceae3f8c3d98c43959ae410bc87aa6e480ae119" class="room indoor" data-label="upstairs hallway, near a stairwell" x="847" y="47" width="16" height="16" rx="4"/>
-    <rect id="room-71081ad557810037f38b2b19f080037caab05353" class="room indoor" data-label="north end of a hallway" x="847" y="33" width="16" height="16" rx="4"/>
-    <rect id="room-7b630387bfce9d00becc94ddab8d7f9b70c3f46b" class="room indoor" data-label="meeting room" x="847" y="19" width="16" height="16" rx="4"/>
-    <rect id="room-ba3bbf825cb2d4f6bf8f3aecd644af661f26b102" class="room indoor" data-label="upstairs hallway, outside of a bedroom" x="861" y="47" width="16" height="16" rx="4"/>
-    <rect id="room-922543b0ddd9f9c01a61cb69fa7c88feaaed93aa" class="room indoor" data-label="Lady Sung&#x27;s bedroom" x="861" y="33" width="16" height="16" rx="4"/>
-    <rect id="room-269627fe440221b8db2615708c288d4593bec8b1" class="room indoor" data-label="west end of a balcony" x="861" y="19" width="16" height="16" rx="4"/>
-    <rect id="room-6efe3347418df219a0bccf2c7c99239e3afc8749" class="room indoor" data-label="east end of a balcony" x="875" y="19" width="16" height="16" rx="4"/>
-    <rect id="room-6d890bda8ca48fbd03f0202a43530bf94a0daeba" class="room indoor" data-label="Lord Sung&#x27;s bedroom" x="875" y="33" width="16" height="16" rx="4"/>
-    <rect id="room-feae77c8cce475a874447a32da727c84f412828b" class="room indoor" data-label="upstairs hallway outside a bedroom" x="875" y="47" width="16" height="16" rx="4"/>
-    <rect id="room-eaa048bac5316751f2bff74c9c728ea0935b189d" class="room indoor" data-label="midway along the upstairs hallway" x="889" y="47" width="16" height="16" rx="4"/>
-    <rect id="room-c82c0faa552598a7d8df5aa4353745ee185f9b33" class="room indoor" data-label="pottery room" x="889" y="33" width="16" height="16" rx="4"/>
-    <rect id="room-358f43edaf228c943c9ff51e3a815ed6f5095c1d" class="room indoor" data-label="near the east end of the upstairs hallway" x="903" y="47" width="16" height="16" rx="4"/>
-    <rect id="room-577e38ae8a447c340c291b79ac060792b8f518c1" class="room indoor" data-label="meditation room" x="903" y="33" width="16" height="16" rx="4"/>
-    <rect id="room-4151dce8630ebe3345b6403e3ce29d17682742ec" class="room indoor" data-label="east end of the upstairs hallway" x="917" y="47" width="16" height="16" rx="4"/>
-    <rect id="room-df26b96c2bdd1690c87516a112c5a1f57aa4bea3" class="room indoor" data-label="upstairs hallway, outside a door" x="917" y="33" width="16" height="16" rx="4"/>
-    <rect id="room-a55830a3c1e7f9cf7e8d144a12cab5d8519fc8f8" class="room indoor" data-label="storage room" x="917" y="19" width="16" height="16" rx="4"/>
-    <rect id="room-3396e5970d1203a2c5b7eade02223bfcd6508c70" class="room indoor" data-label="near the end of the piers" x="69" y="163" width="16" height="16" rx="4"/>
-    <rect id="room-86398380624abbf5566ab20313185582d296e0a7" class="room indoor" data-label="entrance chamber to the women&#x27;s hall" x="849" y="583" width="16" height="16" rx="4"/>
-    <rect id="room-adb3e82af3b3d3558292cae49b2564208ff6ef3d" class="room indoor" data-label="corridor leading through the women&#x27;s hall" x="835" y="583" width="16" height="16" rx="4"/>
-    <rect id="room-ecf08c6a4c868c062adc62ea4810b12ef8bc11a1" class="room indoor" data-label="Hall of Harmonious Fountains" x="821" y="583" width="16" height="16" rx="4"/>
-    <rect id="room-97996c0dc3d56a72f759919866c9eb8a41dfa8c7" class="room indoor" data-label="women&#x27;s tea room" x="821" y="597" width="16" height="16" rx="4"/>
-    <rect id="room-8eb17317d48b62daf42ef6da3406dbcc6df53eb1" class="room indoor" data-label="end of a corridor leading through the women&#x27;s hall" x="835" y="597" width="16" height="16" rx="4"/>
-    <rect id="room-a7957e2e4de5c1dfaf11f75c73a4185dba45832e" class="room indoor" data-label="Octagon Court" x="835" y="569" width="16" height="16" rx="4"/>
-    <rect id="room-3560145d027552c7ebc4597d1632d7efdf7511cc" class="room indoor" data-label="guest bedroom in the women&#x27;s hall" x="835" y="555" width="16" height="16" rx="4"/>
-    <rect id="room-5422fcab40f11547d8ee2248c88b890f79821d94" class="room indoor" data-label="guest bedroom in the women&#x27;s hall" x="821" y="555" width="16" height="16" rx="4"/>
-    <rect id="room-2ba5a2b2160bc6ff59b1451c3a13c05da5ab0b66" class="room indoor" data-label="small, pretty bedroom in the women&#x27;s hall" x="821" y="569" width="16" height="16" rx="4"/>
-    <rect id="room-27f46a46c162bfb158969e5e3abef0165d60d6af" class="room indoor" data-label="inside of a closet" x="891" y="569" width="16" height="16" rx="4"/>
-    <rect id="room-c372617552e141402aff74e4654757b853213475" class="room indoor" data-label="Lord McSweeney&#x27;s dressing room" x="947" y="597" width="16" height="16" rx="4"/>
-    <rect id="room-978c286140d7e459656feabdf53a9d602919e464" class="room indoor" data-label="grand entrance hall of the Sung Estate" x="889" y="150" width="16" height="16" rx="4"/>
-    <rect id="room-8ab93f0a7151f04cb744412e98aa985e609bbd05" class="room indoor" data-label="hallway in the basement" x="477" y="219" width="16" height="16" rx="4"/>
+    <rect id="room-5e4ba01e54fbdacb3a68265022a1ee48e341e75f" class="room indoor" data-label="winding path through the Hong orchard" x="439" y="151" width="8" height="8" rx="2"/>
+    <rect id="room-34007dd63b0dfd721f476339acc5406afd9583b3" class="room indoor" data-label="cherry blossom orchard" x="425" y="137" width="8" height="8" rx="2"/>
+    <rect id="room-774645e1d5d95b9c70717eec38f2728c123563ea" class="room indoor" data-label="composting station" x="411" y="123" width="8" height="8" rx="2"/>
+    <rect id="room-fa3fb1919658898cd05c5063663b8bf6104b5de7" class="room indoor" data-label="Hong&#x27;s cherry orchard" x="425" y="123" width="8" height="8" rx="2"/>
+    <rect id="room-70c6609fe33db373ae6a24be784c3d3fb4156cad" class="room indoor" data-label="cherry blossom orchard" x="439" y="123" width="8" height="8" rx="2"/>
+    <rect id="room-a70061ec44e4508bfdc029c605807231e294a38c" class="room indoor" data-label="cherry blossom orchard" x="453" y="123" width="8" height="8" rx="2"/>
+    <rect id="room-ce4025c4f140d88bc2c258a1a64b5ac056b9bd8a" class="room indoor" data-label="cherry blossom orchard" x="453" y="137" width="8" height="8" rx="2"/>
+    <rect id="room-66d5ebc2d9e05b08f5e0a0db99755d28f351a3aa" class="room indoor" data-label="cherry blossom orchard" x="439" y="137" width="8" height="8" rx="2"/>
+    <rect id="room-b77fbc26ccd111825571dfd6ba207496d697bc23" class="room indoor" data-label="winding path through the orchard at the main doors to the estate" x="453" y="151" width="8" height="8" rx="2"/>
+    <rect id="room-27eab7974c004ee67de9a81c71f785b8a5b8cfb1" class="room indoor" data-label="cherry blossom orchard" x="453" y="165" width="8" height="8" rx="2"/>
+    <rect id="room-310fdac5beeb13091e0c6ea0b79ca964c4eedcf4" class="room indoor" data-label="entrance to Hong Hall" x="467" y="151" width="8" height="8" rx="2"/>
+    <rect id="room-a5fb84e09be814af5fe0b12e327be059dec2668e" class="room indoor" data-label="hallway that gives access to the dining room and the trophy room" x="467" y="137" width="8" height="8" rx="2"/>
+    <rect id="room-d8e21cec864d4e28376138050481995e0cacd441" class="room indoor" data-label="hallway within the elegant walls of the Hong estate" x="467" y="123" width="8" height="8" rx="2"/>
+    <rect id="room-3264e33d24146d28424cd71e371def288b6890c0" class="room indoor" data-label="Hong family trophy room" x="481" y="123" width="8" height="8" rx="2"/>
+    <rect id="room-9cab00494f7b9831618059798fa053c03e892d3d" class="room indoor" data-label="bottom of a stairwell" x="495" y="123" width="8" height="8" rx="2"/>
+    <rect id="room-83e00448af3eb35c11cc2d808ed7d70384db3041" class="room indoor" data-label="top of a stairwell on the first floor of the estate" x="495" y="18" width="8" height="8" rx="2"/>
+    <rect id="room-17820084fb6591d0fb6912fd00331258784a8642" class="room indoor" data-label="room where the financial records of the Family are kept" x="495" y="32" width="8" height="8" rx="2"/>
+    <rect id="room-16d2cb882900ca6cf54b8dff71ee253dbb87b232" class="room indoor" data-label="end of a short hallway on the first floor of the estate" x="481" y="18" width="8" height="8" rx="2"/>
+    <rect id="room-652fc462de468acc19732dc022e7ec48c9c5e836" class="room indoor" data-label="private bedroom of Lord Hong" x="481" y="32" width="8" height="8" rx="2"/>
+    <rect id="room-f1e2b7ad6f4fa910bac72a34b7f9b30f7aa2c612" class="room indoor" data-label="room used by Lord Hong for meditation" x="481" y="46" width="8" height="8" rx="2"/>
+    <rect id="room-e8a3bba642302aa733ccc17c9cbd11e4d3dbff20" class="room indoor" data-label="end of a short hallway on the first floor of the estate" x="509" y="18" width="8" height="8" rx="2"/>
+    <rect id="room-e1a9b03816205a9af9515456d62d75644fa01d63" class="room indoor" data-label="hunting gallery of the Hongs" x="509" y="32" width="8" height="8" rx="2"/>
+    <rect id="room-efc93431eaa2ab95b79d891b537fc40ce3788f7b" class="room indoor" data-label="room that the Hongs use to worship their ancestors" x="509" y="123" width="8" height="8" rx="2"/>
+    <rect id="room-10a084e662ef326b32c651f53d604135f6e271fe" class="room indoor" data-label="small well-decorated corridor with a view out to the back garden" x="523" y="123" width="8" height="8" rx="2"/>
+    <rect id="room-2eb576bb8b63e42cf5f3e62a39ae3d3e681e36fe" class="room indoor" data-label="east part of the garden room" x="523" y="137" width="8" height="8" rx="2"/>
+    <rect id="room-48a5020fec199837e364499baad349567f18e81f" class="room indoor" data-label="back hallway" x="523" y="151" width="8" height="8" rx="2"/>
+    <rect id="room-1e996f28e7b0b54caabfd23d6c4b106297c689af" class="room indoor" data-label="tea garden" x="537" y="151" width="8" height="8" rx="2"/>
+    <rect id="room-b99b50898bd5689b3e8e1fb52cfb5d3ce5a33076" class="room indoor" data-label="tea garden" x="537" y="165" width="8" height="8" rx="2"/>
+    <rect id="room-ed69a173dbeccf1e0a8178f8893c1746c71b6834" class="room indoor" data-label="tea garden" x="551" y="151" width="8" height="8" rx="2"/>
+    <rect id="room-5693a2661257eedb1fd705e683aa7a4984341c73" class="room indoor" data-label="tea garden" x="551" y="137" width="8" height="8" rx="2"/>
+    <rect id="room-fe09003fc683e470ac79981f3aefb25f9361da79" class="room indoor" data-label="tea garden" x="537" y="137" width="8" height="8" rx="2"/>
+    <rect id="room-a6710b209cf8ef0e36a2565f47b82b35c37b9028" class="room indoor" data-label="tea garden" x="551" y="123" width="8" height="8" rx="2"/>
+    <rect id="room-c2e297d656a430f87bfe50c7ca673696d3005c1f" class="room indoor" data-label="tea garden" x="537" y="123" width="8" height="8" rx="2"/>
+    <rect id="room-6ee919ed0cc839f3e960fea59068bd3b741d00e5" class="room indoor" data-label="large concert room of the Hong household" x="523" y="165" width="8" height="8" rx="2"/>
+    <rect id="room-cfbffcdf7fc8171b899e716916b38d84193bf9aa" class="room indoor" data-label="stairwell within the Hong estate" x="523" y="179" width="8" height="8" rx="2"/>
+    <rect id="room-ee2acc3bee9008cecc5e47d875436ea136686615" class="room indoor" data-label="bottom of a stairwell in the basement" x="523" y="223" width="8" height="8" rx="2"/>
+    <rect id="room-48cd4ac10f3ff5d1aeaf58804c1a39ed36d3e6e2" class="room indoor" data-label="large kitchens of the Hong household" x="523" y="209" width="8" height="8" rx="2"/>
+    <rect id="room-508c8f21a5393eec5dd8204d63f5a4baec626c5b" class="room indoor" data-label="large and well-stocked pantry" x="510" y="209" width="8" height="8" rx="2"/>
+    <rect id="room-170713e62ac5712969e917bdb5635d19d1b330ad" class="room indoor" data-label="hallway in the basement" x="509" y="223" width="8" height="8" rx="2"/>
+    <rect id="room-d2a5dbc03983096caa549839f375b302f70e4306" class="room indoor" data-label="hallway in the basement" x="495" y="223" width="8" height="8" rx="2"/>
+    <rect id="room-6738e5714e0a5d9a5faeb501446ecf9052145b4c" class="room indoor" data-label="holding cell" x="495" y="209" width="8" height="8" rx="2"/>
+    <rect id="room-d57055f687640b5c3466b9c7c553fb887b058273" class="room indoor" data-label="holding cell" x="481" y="209" width="8" height="8" rx="2"/>
+    <rect id="room-7a522afffbe171f955dc7dbf3cf7ced33d8c7ffe" class="room indoor" data-label="room that serves as a ready room for the guards" x="467" y="209" width="8" height="8" rx="2"/>
+    <rect id="room-88cd6428b2d71280f40571cc2c64493816f223c0" class="room indoor" data-label="infamous Hong family torture chamber" x="467" y="223" width="8" height="8" rx="2"/>
+    <rect id="room-056653d25781d2f1d75f8e920ab5520cb72f7bc9" class="room indoor" data-label="Hong family library" x="509" y="179" width="8" height="8" rx="2"/>
+    <rect id="room-6f7c4e53e6a45222bfc3ef17a45f97ebed2a0449" class="room indoor" data-label="bottom of a stairwell" x="495" y="179" width="8" height="8" rx="2"/>
+    <rect id="room-339bc85e0fed81f26cb529d8ebe3d070facd7304" class="room indoor" data-label="Hong war strategy room" x="481" y="179" width="8" height="8" rx="2"/>
+    <rect id="room-a4c3f194109e493ac231e77d6d72d29026399a74" class="room indoor" data-label="hallway running through the Hong estate" x="467" y="179" width="8" height="8" rx="2"/>
+    <rect id="room-1bbac72733913b31adf706be5c402c46c8b71107" class="room indoor" data-label="hallway within the walls of the Hong Estate" x="467" y="165" width="8" height="8" rx="2"/>
+    <rect id="room-183bc5b61e5246acbac96320738ac08f5ed2217f" class="room indoor" data-label="dining room of the Hong household" x="481" y="137" width="8" height="8" rx="2"/>
+    <rect id="room-47d2ef8cf1fcf61161874b19a3c3ee3243fbbf59" class="room indoor" data-label="Hong Hall" x="481" y="151" width="8" height="8" rx="2"/>
+    <rect id="room-7b1aba8cc687121731bab6facd101f872f6d7403" class="room indoor" data-label="writing room of the Hongs" x="481" y="165" width="8" height="8" rx="2"/>
+    <rect id="room-28bb1c73ac17fa263ba4723a35b4a4df7f1c35cd" class="room indoor" data-label="spacious atrium of the Hong Estate" x="495" y="151" width="8" height="8" rx="2"/>
+    <rect id="room-49faa9417ec34d2faf1aa9d3f6819f8ab3900ee8" class="room indoor" data-label="back hallway" x="509" y="151" width="8" height="8" rx="2"/>
+    <rect id="room-52d3e37363cb504cf02ed187b2f988007028faab" class="room indoor" data-label="west part of the garden room" x="509" y="137" width="8" height="8" rx="2"/>
+    <rect id="room-4e8c9d8f632233afae903cc5d23d0d464c635724" class="room indoor" data-label="music room of the Hong household" x="509" y="165" width="8" height="8" rx="2"/>
+    <rect id="room-25d5020741ac7e5954c86df427a1076e2f441c1f" class="room indoor" data-label="tea room of the Hongs" x="495" y="165" width="8" height="8" rx="2"/>
+    <rect id="room-a7704097ddd3235564c97add74fdbd7d27ed9e70" class="room indoor" data-label="art gallery of the Hongs" x="495" y="137" width="8" height="8" rx="2"/>
+    <rect id="room-12f955ff007f252730fc71c5e32a5368e234d144" class="room indoor" data-label="top of a stairwell" x="495" y="74" width="8" height="8" rx="2"/>
+    <rect id="room-d9869b3bac8946dc12a04cfdc6e1bfd82cb90710" class="room indoor" data-label="end of a short hallway on the first floor of the estate" x="481" y="74" width="8" height="8" rx="2"/>
+    <rect id="room-0d8b619d94b44fac42174b895494a93e61a8bcd8" class="room indoor" data-label="room with a multitude of weapons hanging from the walls" x="481" y="60" width="8" height="8" rx="2"/>
+    <rect id="room-14469ac045ac570fa3bbb2ce264736b4d64fa230" class="room indoor" data-label="city planning room of the Hongs" x="495" y="60" width="8" height="8" rx="2"/>
+    <rect id="room-338e1ad9383e0d370e4fbe1c48537ccb95862707" class="room indoor" data-label="end of a short hallway on the first floor of the estate" x="509" y="74" width="8" height="8" rx="2"/>
+    <rect id="room-da9371f2c8742b0674facc8e1457437b7510ae5d" class="room indoor" data-label="untidy bedroom of Lord Hong&#x27;s son" x="509" y="60" width="8" height="8" rx="2"/>
+    <rect id="room-081a29a8ca3817e0ddbf1636514f948dda65accc" class="room indoor" data-label="untidy, junk-filled room" x="509" y="46" width="8" height="8" rx="2"/>
+    <rect id="room-945dc5c345a9fc1e6cc9897c1478e9e11c181858" class="room indoor" data-label="Golden Gate at the entrance to the Fang Estate" x="536" y="502" width="8" height="8" rx="2"/>
+    <rect id="room-0fc3d5c84c30810a9f56c4b1f1ec3f8989992ccd" class="room indoor" data-label="lake shore of Tora Lake" x="522" y="502" width="8" height="8" rx="2"/>
+    <rect id="room-3127fac96b90749ed1453d31db9da01fbe9f9078" class="room indoor" data-label="lake shore of Tora Lake" x="522" y="488" width="8" height="8" rx="2"/>
+    <rect id="room-a5e194063b2af6c6e9eb081d82bd7cad2df91a34" class="room indoor" data-label="lake shore of Tora Lake" x="508" y="474" width="8" height="8" rx="2"/>
+    <rect id="room-f50aff0fdc57422f5e078b8ac54c1c66b5e66cd4" class="room indoor" data-label="Flog Course" x="508" y="432" width="8" height="8" rx="2"/>
+    <rect id="room-ed003962abb40d01f1e7f81929550b8690173400" class="room indoor" data-label="Flog Course" x="508" y="418" width="8" height="8" rx="2"/>
+    <rect id="room-5cf8e4d611a7f265e64b6191c4c67403a378263e" class="room indoor" data-label="Flog Course" x="494" y="418" width="8" height="8" rx="2"/>
+    <rect id="room-0cd81b9da2b79ee3cb8f68aa52bdc4c6fc8b6ff6" class="room indoor" data-label="Flog Course" x="480" y="418" width="8" height="8" rx="2"/>
+    <rect id="room-fdb39675da366ea706f52a761720b5374696c4ed" class="room indoor" data-label="Flog Course" x="480" y="404" width="8" height="8" rx="2"/>
+    <rect id="room-9da771ebb3339e040fc6bf9c484f2ff67ee7abcd" class="room indoor" data-label="Flog Course" x="494" y="404" width="8" height="8" rx="2"/>
+    <rect id="room-c1a87035b47f7fbf38cc1ba51156e9794e54d401" class="room indoor" data-label="Flog Course" x="508" y="404" width="8" height="8" rx="2"/>
+    <rect id="room-0b3ca76f02abc6023da67ca153a3f597ea763918" class="room indoor" data-label="eastern edge of the flog course" x="522" y="404" width="8" height="8" rx="2"/>
+    <rect id="room-fa39109b916ca1e2915d80735884cffcf855b298" class="room indoor" data-label="Flog Course" x="536" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-4fc482ea697f8de4ea92c1bcb5a9395f4305640b" class="room indoor" data-label="Flog Course" x="522" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-987b97f9c34b886552a601bd305e82f0485d0c34" class="room indoor" data-label="Flog Course" x="508" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-8c604f66edc0bd8ab89a8a616a7ba3275d4e2932" class="room indoor" data-label="sand trap" x="505" y="386" width="8" height="8" rx="2"/>
+    <rect id="room-f3a19e1d3f582189d43dc572067dc617604e08f9" class="room indoor" data-label="Flog Course" x="494" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-3f7602f4ca23fc427cc85264997f855792a1568e" class="room indoor" data-label="Flog Course" x="480" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-cdfbd493183207742c851c0562840e20e5ce23a4" class="room indoor" data-label="lake shore of Tora Lake" x="494" y="460" width="8" height="8" rx="2"/>
+    <rect id="room-2d941456bc1568fc258a7fe8b2f7f2fc43babc44" class="room indoor" data-label="lake shore of Tora Lake" x="494" y="446" width="8" height="8" rx="2"/>
+    <rect id="room-45019fc38e925dbb1ca42dd96d98afe572caa6c7" class="room indoor" data-label="lake shore of Tora Lake" x="480" y="432" width="8" height="8" rx="2"/>
+    <rect id="room-401477bbd51f974cceac758b8bed28534bfccd94" class="room indoor" data-label="lake shore of Tora Lake" x="466" y="432" width="8" height="8" rx="2"/>
+    <rect id="room-e57acc21c4bb0b896fd8468c05599c2515f8ded2" class="room indoor" data-label="lake shore of Tora Lake" x="452" y="418" width="8" height="8" rx="2"/>
+    <rect id="room-3d2f35282df5240b2b2d3345de166728659ffc20" class="room indoor" data-label="lake shore of Tora Lake" x="438" y="418" width="8" height="8" rx="2"/>
+    <rect id="room-bf52a9de8403d3058ecc488e675b75d195a0bb54" class="room indoor" data-label="lake shore of Tora Lake" x="424" y="418" width="8" height="8" rx="2"/>
+    <rect id="room-a8642e3e1e1a9db43bc12aa53a56b721bd29f32a" class="room indoor" data-label="lake shore of Tora Lake" x="410" y="432" width="8" height="8" rx="2"/>
+    <rect id="room-72c8f3c21900d05c2b1152219c1a7126df38d74c" class="room indoor" data-label="lake shore of Tora Lake" x="396" y="432" width="8" height="8" rx="2"/>
+    <rect id="room-ff5791f9da041fc9e022e02d0080ca741e89ea69" class="room indoor" data-label="lake shore of Tora Lake" x="382" y="418" width="8" height="8" rx="2"/>
+    <rect id="room-5f474d98596b25c37ca449d702473bba61426c86" class="room indoor" data-label="lake shore of Tora Lake" x="368" y="418" width="8" height="8" rx="2"/>
+    <rect id="room-fd33f5c7430536f95aefde5fbfd6f45a2f27c443" class="room indoor" data-label="lake shore of Tora Lake" x="354" y="418" width="8" height="8" rx="2"/>
+    <rect id="room-cfa16d4ed7b2c13d6d34f3557b8f64e082f26d9a" class="room indoor" data-label="lake shore of Tora Lake" x="340" y="432" width="8" height="8" rx="2"/>
+    <rect id="room-61de56f04cd756a11c92b0bb7545d28b444f5bb2" class="room indoor" data-label="lake shore of Tora Lake" x="326" y="446" width="8" height="8" rx="2"/>
+    <rect id="room-ca63a710e04ba820f9aacf8f643d98aa16684848" class="room indoor" data-label="lake shore of Tora Lake" x="312" y="446" width="8" height="8" rx="2"/>
+    <rect id="room-450f20260405e980e0c1085fe6b4a45aba3e6cfc" class="room indoor" data-label="lake shore of Tora Lake" x="326" y="432" width="8" height="8" rx="2"/>
+    <rect id="room-b4d70fa6d261b316c5070499e25a9555e4cfd7e5" class="room indoor" data-label="lake shore of Tora Lake" x="298" y="460" width="8" height="8" rx="2"/>
+    <rect id="room-5e4018329d2248d69023bd8a1f72709c6b322366" class="room indoor" data-label="lake shore of Tora Lake" x="298" y="474" width="8" height="8" rx="2"/>
+    <rect id="room-4fc3e326ca0269fb0cc9c2d533aeb6c31fc3d8d4" class="room indoor" data-label="lake shore of Tora Lake" x="284" y="488" width="8" height="8" rx="2"/>
+    <rect id="room-e57e80333ae841d39c877c173191917f28902ae5" class="room indoor" data-label="lake shore of Tora Lake" x="284" y="502" width="8" height="8" rx="2"/>
+    <rect id="room-f6bcd017ee52848f3fc92f8ae5560f8d8d8007ae" class="room indoor" data-label="lake shore of Tora Lake" x="270" y="516" width="8" height="8" rx="2"/>
+    <rect id="room-215beacd3892a26fe6044fbd19c9a7116b31ea91" class="room indoor" data-label="lake shore of Tora Lake" x="270" y="530" width="8" height="8" rx="2"/>
+    <rect id="room-b14dff7279d6c85466588b5dcf48aa65e4235322" class="room indoor" data-label="lake shore of Tora Lake" x="284" y="544" width="8" height="8" rx="2"/>
+    <rect id="room-3cb8943048b37f4a4611bf694cbbc88967307d04" class="room indoor" data-label="lake shore of Tora Lake" x="270" y="544" width="8" height="8" rx="2"/>
+    <rect id="room-fbd353758114eb55a95c1ab76377b8a17e6aa164" class="room indoor" data-label="lake shore of Tora Lake" x="284" y="558" width="8" height="8" rx="2"/>
+    <rect id="room-5af10168f4bd8da987565765c78b1a2c66435f3b" class="room indoor" data-label="lake shore of Tora Lake" x="298" y="572" width="8" height="8" rx="2"/>
+    <rect id="room-dcd99c2da6743e93f5e142fa5c732c325ef0c576" class="room indoor" data-label="lake shore of Tora Lake" x="312" y="558" width="8" height="8" rx="2"/>
+    <rect id="room-df42436fd8d37edab07e1e453d1c549a71b9596b" class="room indoor" data-label="lake shore of Tora Lake" x="326" y="572" width="8" height="8" rx="2"/>
+    <rect id="room-27684ec703e57c46e180703d3aeb2ca0c4a719db" class="room indoor" data-label="lake shore of Tora Lake" x="312" y="572" width="8" height="8" rx="2"/>
+    <rect id="room-06a8281740555daffa93e24285bed73f7fe81f76" class="room indoor" data-label="lake shore of Tora Lake" x="340" y="572" width="8" height="8" rx="2"/>
+    <rect id="room-509ba9b7d4c4bcc7a163c6986f980f3202c0ae42" class="room indoor" data-label="lake shore of Tora Lake" x="354" y="586" width="8" height="8" rx="2"/>
+    <rect id="room-fbbf3d446b161bce7fe3c999a6511b1e3d554b45" class="room indoor" data-label="lake shore of Tora Lake" x="368" y="586" width="8" height="8" rx="2"/>
+    <rect id="room-172291cf7c31115284c80c4d9704192537fd193f" class="room indoor" data-label="lake shore of Tora Lake" x="382" y="586" width="8" height="8" rx="2"/>
+    <rect id="room-e6a8e895346f65f7bff46d10fe43775b4c72d1bf" class="room indoor" data-label="lake shore of Tora Lake" x="396" y="600" width="8" height="8" rx="2"/>
+    <rect id="room-03cb179978b593bc3e146f3ba714ee1b4e19ced0" class="room indoor" data-label="lake shore of Tora Lake" x="410" y="600" width="8" height="8" rx="2"/>
+    <rect id="room-4cd6861acdb519e8559fdaed00c953933ad599e7" class="room indoor" data-label="lake shore of Tora Lake" x="424" y="600" width="8" height="8" rx="2"/>
+    <rect id="room-6a4f2ae3b6019fcc28898d17e07cef1fc62112b9" class="room indoor" data-label="lake shore of Tora Lake" x="438" y="586" width="8" height="8" rx="2"/>
+    <rect id="room-3c111fc58a32a195fd267e3aa43ba19101351f1a" class="room indoor" data-label="lake shore of Tora Lake" x="452" y="586" width="8" height="8" rx="2"/>
+    <rect id="room-88a803de01d7adcc87a543ca3cd848eea963bd51" class="room indoor" data-label="end of a short pier" x="452" y="572" width="8" height="8" rx="2"/>
+    <rect id="room-d67b5d56263b399a465a544255999812986aa75a" class="room indoor" data-label="middle of a wooden pier" x="452" y="558" width="8" height="8" rx="2"/>
+    <rect id="room-2928e2079a08fbe9fdc0764825c84260eddfcd45" class="room indoor" data-label="middle of a wooden pier" x="438" y="544" width="8" height="8" rx="2"/>
+    <rect id="room-58e86709564a9e3debed4f5dca9e47cd6dab0016" class="room indoor" data-label="east entrance to the Fang Pagoda" x="438" y="530" width="8" height="8" rx="2"/>
+    <rect id="room-0b3925c76eb9796528e28422a76af8206048bff0" class="room indoor" data-label="eastern section of the Fang art gallery" x="106" y="578" width="8" height="8" rx="2"/>
+    <rect id="room-252878295cd4a7ae63bf4f06076745e1d45d418d" class="room indoor" data-label="entrance gallery of the Fang house" x="92" y="578" width="8" height="8" rx="2"/>
+    <rect id="room-1e88b4f127ad54ac5eaad3c12b62c5238ea306c1" class="room indoor" data-label="west entrance to the Fang Pagoda" x="396" y="530" width="8" height="8" rx="2"/>
+    <rect id="room-5b2a8170c81d243f8b757cbaf33ce8069add7f0a" class="room indoor" data-label="middle of a wooden pier" x="396" y="544" width="8" height="8" rx="2"/>
+    <rect id="room-96eb75f86395cd65fb336619c54c54599dd146ad" class="room indoor" data-label="middle of a wooden pier" x="382" y="558" width="8" height="8" rx="2"/>
+    <rect id="room-e53d1609378f0dc557e4c25faab1c937779930df" class="room indoor" data-label="end of a short pier outside the Fang Estate" x="382" y="572" width="8" height="8" rx="2"/>
+    <rect id="room-b6368bb8737fb3c1d5ddc0773dab72af6417406b" class="room indoor" data-label="north section of the Fang art gallery" x="92" y="564" width="8" height="8" rx="2"/>
+    <rect id="room-4a7184ac695e448f4f3e02fdba324141cb7d3478" class="room indoor" data-label="Fang family entertainment room" x="106" y="564" width="8" height="8" rx="2"/>
+    <rect id="room-4df959b934373ce822b86cd879cf601a48150dbe" class="room indoor" data-label="tea room in the Fang pagoda" x="120" y="564" width="8" height="8" rx="2"/>
+    <rect id="room-49e8af8f8713c3fb7e14d94d5a8ca4500f58b355" class="room indoor" data-label="bonsai garden just outside the door to the tea room" x="134" y="564" width="8" height="8" rx="2"/>
+    <rect id="room-fb5d2662e17c1af5ef1d59ea138cf204de86fdcd" class="room indoor" data-label="western end of the bonsai garden near the Pagoda" x="148" y="550" width="8" height="8" rx="2"/>
+    <rect id="room-e99365ba116f99d9e536ab2f1c36151123e5d3c9" class="room indoor" data-label="junction of meandering paths in the bonsai garden" x="162" y="550" width="8" height="8" rx="2"/>
+    <rect id="room-66bd3d55287129705c6d59d22d0791c88510e7a8" class="room indoor" data-label="quiet corner of the bonsai garden" x="176" y="550" width="8" height="8" rx="2"/>
+    <rect id="room-a17c9662228ab2e636053db1e958e39b3227bbae" class="room indoor" data-label="eastern end of a covered walkway" x="134" y="536" width="8" height="8" rx="2"/>
+    <rect id="room-693bdc755331c01c740e50f493810975b7030fb7" class="room indoor" data-label="covered walkway south of the northeastern wing" x="120" y="536" width="8" height="8" rx="2"/>
+    <rect id="room-4dccca2dc72cefd57268c6dfa34c503fca728fe0" class="room indoor" data-label="corridor just inside from the covered walkway" x="120" y="522" width="8" height="8" rx="2"/>
+    <rect id="room-c4160ff5b88b34747ed2ff6607312cc3ace5321d" class="room indoor" data-label="hallway outside the ancestors&#x27; shrine" x="134" y="508" width="8" height="8" rx="2"/>
+    <rect id="room-06e2f5ecebcc1397b23cb0bdff3126bb727619b5" class="room indoor" data-label="shrine dedicated to Fang family ancestors" x="134" y="494" width="8" height="8" rx="2"/>
+    <rect id="room-45fa2cec8dad0fabc2f1fa75a4b67abd68838a0d" class="room indoor" data-label="small patio near the shrine" x="148" y="494" width="8" height="8" rx="2"/>
+    <rect id="room-dbbe314c089e928400ccd30f3ceb961758123acf" class="room indoor" data-label="small shrine to Shoji" x="120" y="494" width="8" height="8" rx="2"/>
+    <rect id="room-b71128dcadf0c7e555c2c1b4590593f7547578ad" class="room indoor" data-label="covered walkway outside the Fang Pagoda" x="106" y="536" width="8" height="8" rx="2"/>
+    <rect id="room-e9baa7e6d2d28bc87aac3d7e07d20a7d594202f5" class="room indoor" data-label="south hallway" x="106" y="550" width="8" height="8" rx="2"/>
+    <rect id="room-bbdaa1b3484d32e146ef635d750858ba254bebe0" class="room indoor" data-label="hallway in the ground floor of the Fang Estate" x="120" y="550" width="8" height="8" rx="2"/>
+    <rect id="room-63cd1ee5a7c6102e0c9585a0e876ba579748b7e6" class="room indoor" data-label="room full of sleeping and snoring servants" x="134" y="550" width="8" height="8" rx="2"/>
+    <rect id="room-b858e0243af008aaed2260ef667c43e79f1509a8" class="room indoor" data-label="covered walkway along the north side of the Fang Pagoda" x="92" y="536" width="8" height="8" rx="2"/>
+    <rect id="room-71c6f43c58d7c31104c5a1140c9adba2dfd97b7b" class="room indoor" data-label="covered walkway between the Fang Pagoda and the northwestern wing" x="78" y="536" width="8" height="8" rx="2"/>
+    <rect id="room-b56054f7e2516a5f95da958698b57d82c7d9398d" class="room indoor" data-label="Lord Fang&#x27;s study" x="78" y="522" width="8" height="8" rx="2"/>
+    <rect id="room-0cbca6a17a62bd7987d27e5560b79cfd56a3b2d1" class="room indoor" data-label="Fang family library" x="64" y="508" width="8" height="8" rx="2"/>
+    <rect id="room-19783add7cb1a9faea3836c76db0dd84e0d8454f" class="room indoor" data-label="Fang family armoury" x="64" y="494" width="8" height="8" rx="2"/>
+    <rect id="room-7ba2c806cffae0d02c8b21951bdddcced245cc71" class="room indoor" data-label="small patio" x="64" y="480" width="8" height="8" rx="2"/>
+    <rect id="room-b659139ee83a4df266d9c6792a4f7cb0e2105ea1" class="room indoor" data-label="Fang family trophy room" x="78" y="494" width="8" height="8" rx="2"/>
+    <rect id="room-20e7e72902180930e8ad78ec8a1fbfbd07db39de" class="room indoor" data-label="Fang family war room" x="78" y="508" width="8" height="8" rx="2"/>
+    <rect id="room-8f8102ef4ab4c1b99074a77a6c3d109bcae735c5" class="room indoor" data-label="western end of a covered walkway" x="64" y="536" width="8" height="8" rx="2"/>
+    <rect id="room-0e8d47b14036d404467fc834f9fc24a7b31dd714" class="room indoor" data-label="lotus gardens" x="50" y="550" width="8" height="8" rx="2"/>
+    <rect id="room-f02934a17889af9b4ac61e40ce33a64d3f57cb4b" class="room indoor" data-label="lotus gardens" x="36" y="550" width="8" height="8" rx="2"/>
+    <rect id="room-b0cbe71a8aabff7c061d09ca028a3287ad87565d" class="room indoor" data-label="sandscape in the lotus gardens" x="22" y="550" width="8" height="8" rx="2"/>
+    <rect id="room-9cee9ca8b87e32e276ae7fc7dae9383250653c0f" class="room indoor" data-label="entrance to the lotus gardens" x="64" y="564" width="8" height="8" rx="2"/>
+    <rect id="room-12949c75a6491bbf6251f3e0966d04c60b0a01fa" class="room indoor" data-label="large banquet hall" x="78" y="564" width="8" height="8" rx="2"/>
+    <rect id="room-10fa08f87d8366f19c4c9c55d063600ad237d5d6" class="room indoor" data-label="Fang kitchen" x="78" y="550" width="8" height="8" rx="2"/>
+    <rect id="room-e4caade2ea2ec421fe1757cdedcb8cc5695afdc9" class="room indoor" data-label="pantry in the Fang Estate" x="64" y="550" width="8" height="8" rx="2"/>
+    <rect id="room-923c341073d8a974ae49bd1fb399ef1726989850" class="room indoor" data-label="bottom of the stairwell leading to the upper levels" x="92" y="551" width="8" height="8" rx="2"/>
+    <rect id="room-f6d4e8adb53e73eb82dd3e6f8c2f223971c03211" class="room indoor" data-label="wide, square foyer on the first floor" x="92" y="434" width="8" height="8" rx="2"/>
+    <rect id="room-fde101565c21b7778f60512ce05fbe2d6db38946" class="room indoor" data-label="a first floor hallway" x="92" y="420" width="8" height="8" rx="2"/>
+    <rect id="room-783c4edff7cbde9f2daabeaba2a75a30f776303f" class="room indoor" data-label="hallway leading through the first floor" x="78" y="434" width="8" height="8" rx="2"/>
+    <rect id="room-5a41729063d3a0af67ec44f5231c9039915a0c56" class="room indoor" data-label="writing room of Lord Fang" x="78" y="448" width="8" height="8" rx="2"/>
+    <rect id="room-897a3090e710c2cb421f32d83458a4fa3484a3d0" class="room indoor" data-label="Fang Family Finance room" x="92" y="448" width="8" height="8" rx="2"/>
+    <rect id="room-d0cd7cdd7695a5d4d3c5d945deee8f8b549fa50f" class="room indoor" data-label="Lord and Lady Fang&#x27;s master bedroom" x="64" y="448" width="8" height="8" rx="2"/>
+    <rect id="room-a9b03e73d5feea163bd51e5e12a52c7bf1715b98" class="room indoor" data-label="first floor hallway outside Lord and Lady Fang&#x27;s bedroom" x="64" y="434" width="8" height="8" rx="2"/>
+    <rect id="room-ed1c9a780c9d53bdeb3c6ea3b1e2b635af08bbfd" class="room indoor" data-label="corridor on the first floor of the Fang Pagoda" x="106" y="420" width="8" height="8" rx="2"/>
+    <rect id="room-7928b3f644d0bd5eb079baa4592ae42f99a3790c" class="room indoor" data-label="music room of the Fang estate" x="106" y="434" width="8" height="8" rx="2"/>
+    <rect id="room-c0bc8831ade9ab493dc6e2f3de31e1aac722146b" class="room indoor" data-label="first floor hallway" x="120" y="434" width="8" height="8" rx="2"/>
+    <rect id="room-0cd6f0295ff1fb83135e4f0ad4c911127cdf44b9" class="room indoor" data-label="Flog Course viewing gallery" x="134" y="434" width="8" height="8" rx="2"/>
+    <rect id="room-db66ae7c5967dbf401e039b6cc8e20d94ad435da" class="room indoor" data-label="washroom in the Fang Pagoda" x="134" y="448" width="8" height="8" rx="2"/>
+    <rect id="room-87662fb0506140e8146110af8f6fc56c19238b7f" class="room indoor" data-label="first floor guest bedroom" x="120" y="448" width="8" height="8" rx="2"/>
+    <rect id="room-8d1aaa52ddb231bbf906e334f0313acdffae621d" class="room indoor" data-label="Fang inhumation office" x="106" y="448" width="8" height="8" rx="2"/>
+    <rect id="room-4fed269f5f0be2826e6c9af79c824269f78933e0" class="room indoor" data-label="landing at the top level of the house" x="92" y="372" width="8" height="8" rx="2"/>
+    <rect id="room-138685d53798fdeba6948bca2630bc0e4ffb7baa" class="room indoor" data-label="observatory at the top of the Fang Pagoda" x="92" y="386" width="8" height="8" rx="2"/>
+    <rect id="room-5ee5d8e533ea4ddf3f6dd59032717d007fe1e6bb" class="room indoor" data-label="paper filled room" x="106" y="372" width="8" height="8" rx="2"/>
+    <rect id="room-562d9b064b7ce971ecd23c21c9f5e89fa4bf2f27" class="room indoor" data-label="cramped printing room" x="106" y="386" width="8" height="8" rx="2"/>
+    <rect id="room-ed104642e3a4aede7fa037e6238fae87a0481620" class="room indoor" data-label="lake shore of Tora Lake" x="466" y="586" width="8" height="8" rx="2"/>
+    <rect id="room-20fceb3cc5137774177a2b7f34d10136b54a9341" class="room indoor" data-label="lake shore of Tora Lake" x="480" y="586" width="8" height="8" rx="2"/>
+    <rect id="room-e4a77e6d0fb6199c3c7e0ec4e1833d66545b4372" class="room indoor" data-label="lake shore of Tora Lake" x="494" y="572" width="8" height="8" rx="2"/>
+    <rect id="room-ff7d594be0658aae9cb232b10224af0ab94dd3f4" class="room indoor" data-label="lake shore of Tora Lake" x="508" y="572" width="8" height="8" rx="2"/>
+    <rect id="room-e020c3c0a63538670674cd5483586e8594e87de9" class="room indoor" data-label="lake shore of Tora Lake" x="522" y="558" width="8" height="8" rx="2"/>
+    <rect id="room-da7fc47e3451bcf332a6c0406e6767d2f08e18cc" class="room indoor" data-label="lake shore of Tora Lake" x="522" y="544" width="8" height="8" rx="2"/>
+    <rect id="room-70ff20d16c1e1439e3cefaf0ffa99f519c513634" class="room indoor" data-label="lake shore of Tora Lake" x="536" y="530" width="8" height="8" rx="2"/>
+    <rect id="room-9cd91a1dfc827d4657756a11256d4ea92c0ed6dd" class="room indoor" data-label="lake shore of Tora Lake" x="536" y="516" width="8" height="8" rx="2"/>
+    <rect id="room-1459588f1c06219074498e08dcdd833cccccec26" class="room indoor" data-label="entryway to a guardhouse" x="550" y="516" width="8" height="8" rx="2"/>
+    <rect id="room-2040eac3bcc8835a11511ed30129cf3023b53909" class="room indoor" data-label="office of the captain" x="550" y="530" width="8" height="8" rx="2"/>
+    <rect id="room-9a0a49398a5dfa9d8a6519d79393aeeabf61ffe2" class="room indoor" data-label="Fang guardhouse" x="564" y="516" width="8" height="8" rx="2"/>
+    <rect id="room-8f6252117c1db158ba60adc897690d4ea39f6795" class="room indoor" data-label="unused-looking Fang dungeon" x="564" y="530" width="8" height="8" rx="2"/>
+    <rect id="room-f02bd3eaea000ca979a6b3c623d342ff4d9159fa" class="room indoor" data-label="dock at the base of the Tang Island cliffs" x="73" y="167" width="8" height="8" rx="2"/>
+    <rect id="room-0073da072a55672a026482d0e46aa2ff9417ce9e" class="room indoor" data-label="gravel path" x="80" y="139" width="8" height="8" rx="2"/>
+    <rect id="room-24928af9e47c430b8e086ae870d4978e4bd6f0a6" class="room indoor" data-label="gravel path" x="66" y="125" width="8" height="8" rx="2"/>
+    <rect id="room-541ce5c677ccb23cb0f7c639b3ac71a03286ac3e" class="room indoor" data-label="gravel path" x="66" y="111" width="8" height="8" rx="2"/>
+    <rect id="room-5d11e0d6c4a9d8f7a9489c36b0f0c3d1dca7eb8b" class="room indoor" data-label="gravel path" x="80" y="97" width="8" height="8" rx="2"/>
+    <rect id="room-be338565d4590363b468f6d4606121a04227b050" class="room indoor" data-label="gravel path" x="94" y="83" width="8" height="8" rx="2"/>
+    <rect id="room-c7ded8ee6188f88172983b4c33f6f4681b9a17a0" class="room indoor" data-label="precarious precipice" x="108" y="83" width="8" height="8" rx="2"/>
+    <rect id="room-416615828aafe3be9343e96e3336c4d2b530f7c4" class="room indoor" data-label="watch landing" x="122" y="83" width="8" height="8" rx="2"/>
+    <rect id="room-fd0629003bef22488fabcf42649f47f4c66d7688" class="room indoor" data-label="gravel path" x="136" y="83" width="8" height="8" rx="2"/>
+    <rect id="room-d3095e542c9e6dbfee0986c079d12ab7c53e141c" class="room indoor" data-label="gravel path" x="150" y="97" width="8" height="8" rx="2"/>
+    <rect id="room-c8d0863e1f373fc85b2186848e3166902dc87534" class="room indoor" data-label="gravel path" x="164" y="111" width="8" height="8" rx="2"/>
+    <rect id="room-efe10d56fad73b7557017d51c39d0eb9dd571a84" class="room indoor" data-label="gravel path" x="164" y="125" width="8" height="8" rx="2"/>
+    <rect id="room-5bdfe3b280fb9faebac82c2a13de3c14f0011f6e" class="room indoor" data-label="clifftop path south of a tangled garden" x="150" y="139" width="8" height="8" rx="2"/>
+    <rect id="room-d6a2ffb4af4157519c52cc9e291a0daa0b78dbbe" class="room indoor" data-label="overgrown garden" x="150" y="125" width="8" height="8" rx="2"/>
+    <rect id="room-dd138a926e618466fb9b3f96611754024d6858f0" class="room indoor" data-label="overgrown garden" x="150" y="111" width="8" height="8" rx="2"/>
+    <rect id="room-9b9bc9802e24cf378b55c211e7e248d33870241b" class="room indoor" data-label="clifftop path at the Tang estate&#x27;s southeast corner" x="136" y="153" width="8" height="8" rx="2"/>
+    <rect id="room-8e43e036abfafcd35c3246f748be9ffe0fabc4c3" class="room indoor" data-label="small landing at the entrance to Tang estate" x="122" y="153" width="8" height="8" rx="2"/>
+    <rect id="room-2eeae54e9e08525e304d6f75fc330c5b83e52a8a" class="room indoor" data-label="dusty entrance to the Tang Estate" x="122" y="139" width="8" height="8" rx="2"/>
+    <rect id="room-d95aab1a44dc6be7c96ee215a84575f170a59aac" class="room indoor" data-label="dusty reception room" x="136" y="139" width="8" height="8" rx="2"/>
+    <rect id="room-d335c839b34e339b90ac46545433346e652cf329" class="room indoor" data-label="ground floor hallway outside two rooms" x="122" y="125" width="8" height="8" rx="2"/>
+    <rect id="room-e72d938554eff8726191a2d4439caf01f8a390b1" class="room indoor" data-label="family tea room" x="136" y="125" width="8" height="8" rx="2"/>
+    <rect id="room-731b23204f4cfa4e0345a634d84944b22e8bbef1" class="room indoor" data-label="furniture repair room" x="108" y="125" width="8" height="8" rx="2"/>
+    <rect id="room-2d1dd2f54ea6f466424864d1a533998c434c5fdb" class="room indoor" data-label="hallway outside the dining room" x="122" y="111" width="8" height="8" rx="2"/>
+    <rect id="room-5eb82ed4bccaa1352b0a2ba3965dce358721cbba" class="room indoor" data-label="political planning room" x="136" y="111" width="8" height="8" rx="2"/>
+    <rect id="room-97a5395a24a412980bc923ca71351fd2b3084760" class="room indoor" data-label="financial records room" x="108" y="111" width="8" height="8" rx="2"/>
+    <rect id="room-d1cefa9a80062cd28af0e8ea8456b51e06e587cf" class="room indoor" data-label="dining room" x="122" y="97" width="8" height="8" rx="2"/>
+    <rect id="room-49c3db577b0ea3258106d5cc9814428dd1856387" class="room indoor" data-label="drawing room in the Tang Estate" x="136" y="97" width="8" height="8" rx="2"/>
+    <rect id="room-1ad32c59d54e44060d0fed2bcfa055191cc5ee99" class="room indoor" data-label="kitchen" x="108" y="97" width="8" height="8" rx="2"/>
+    <rect id="room-ba43312d8fd93fd8739d053a616bef21fd8a0e3c" class="room indoor" data-label="servants&#x27; quarters" x="94" y="97" width="8" height="8" rx="2"/>
+    <rect id="room-5d21ed9c657fd103976b8eb15188990ea3db342a" class="room indoor" data-label="servants&#x27; quarters" x="94" y="111" width="8" height="8" rx="2"/>
+    <rect id="room-405c93174ebbca4466e5c7f497fd1d93a681eddc" class="room indoor" data-label="hallway just off the entrance hall" x="108" y="139" width="8" height="8" rx="2"/>
+    <rect id="room-504ccd51b7d1799d6253197b0d03c5de4d389b23" class="room indoor" data-label="landing at the ground floor level of the estate&#x27;s main stairwell, just outside the trophy room" x="94" y="139" width="8" height="8" rx="2"/>
+    <rect id="room-3e202be121aa417e88bcc73dff496045bbdaa7d0" class="room indoor" data-label="Tang trophy room" x="94" y="125" width="8" height="8" rx="2"/>
+    <rect id="room-12fb280a6ca6f0d6548502a9e69fe0f664bb99d5" class="room indoor" data-label="cramped passageway underneath the Tang Estate" x="93" y="240" width="8" height="8" rx="2"/>
+    <rect id="room-dd28ce0b7708fd990804ebb6b9b502fe6dc49124" class="room indoor" data-label="cramped passageway underneath the Tang Estate" x="107" y="240" width="8" height="8" rx="2"/>
+    <rect id="room-c808444027250203faf025faa909a58db8cbbaae" class="room indoor" data-label="vaulted chamber" x="121" y="240" width="8" height="8" rx="2"/>
+    <rect id="room-f53f264ed13e2e682171de9becb7fe4dc3e904e6" class="room indoor" data-label="dimly lit corridor underneath the Tang Estate" x="121" y="226" width="8" height="8" rx="2"/>
+    <rect id="room-801ec001ca99e8271a07ec91afaaba93e0555ef1" class="room indoor" data-label="guard room" x="135" y="226" width="8" height="8" rx="2"/>
+    <rect id="room-47b8da00c7f9e5f0014f2843ce054c2df40cf7b5" class="room indoor" data-label="Tang treasury" x="107" y="226" width="8" height="8" rx="2"/>
+    <rect id="room-bd7ac7883d8a02d83508898a9c69b4611889cfe0" class="room indoor" data-label="dimly lit corridor" x="121" y="212" width="8" height="8" rx="2"/>
+    <rect id="room-93c27ae8c01feaa0faf34708a023aa8570927f52" class="room indoor" data-label="dungeon cell" x="135" y="212" width="8" height="8" rx="2"/>
+    <rect id="room-64f5712c21c76212bf5b7248121ee6d5b0dfa68e" class="room indoor" data-label="dungeon cell" x="107" y="212" width="8" height="8" rx="2"/>
+    <rect id="room-6469a51b11338245eed042c89837faaf99ea14b4" class="room indoor" data-label="dimly lit corridor underneath the Tang Estate" x="121" y="198" width="8" height="8" rx="2"/>
+    <rect id="room-72f447572c8fdd79046b2e479db566d75773fe6e" class="room indoor" data-label="dungeon cell" x="135" y="198" width="8" height="8" rx="2"/>
+    <rect id="room-da796e830a263e5ec2a8a82ba46e306d915b9814" class="room indoor" data-label="dungeon cell" x="107" y="198" width="8" height="8" rx="2"/>
+    <rect id="room-3c7065a68758c8e891c382d3ce59105285004454" class="room indoor" data-label="landing at the end of the first floor hallway" x="94" y="57" width="8" height="8" rx="2"/>
+    <rect id="room-913f0504c2e45aec1733f821dcba829d23202f57" class="room indoor" data-label="Tang family library" x="94" y="43" width="8" height="8" rx="2"/>
+    <rect id="room-936c188fcb05156235a244f6b35ab9b3fd023983" class="room indoor" data-label="hallway on the first floor of the Tang Estate" x="108" y="57" width="8" height="8" rx="2"/>
+    <rect id="room-72fc5d1898b71fc1bb42b6b973737a06fc77761a" class="room indoor" data-label="dusty hallway outside the family study" x="122" y="57" width="8" height="8" rx="2"/>
+    <rect id="room-07cfc598b34276cda5db4d6c88c74a2a306c98e5" class="room indoor" data-label="Lord Tang&#x27;s study" x="136" y="57" width="8" height="8" rx="2"/>
+    <rect id="room-a64b1e4a0e47cb6cc289a098e61f519daf4967aa" class="room indoor" data-label="hallway past its prime" x="122" y="43" width="8" height="8" rx="2"/>
+    <rect id="room-625df340661b3632fffa8278987e1e2b611677db" class="room indoor" data-label="dimly lit interrogation room" x="136" y="43" width="8" height="8" rx="2"/>
+    <rect id="room-0233f062568f22d9802fd4f876054ec839243a82" class="room indoor" data-label="family dressing room" x="108" y="43" width="8" height="8" rx="2"/>
+    <rect id="room-9dbd62248eb36de196fa83e1c45bfadd3cbfdeba" class="room indoor" data-label="hallway just outside the estate&#x27;s bedrooms and the first floor balcony" x="122" y="29" width="8" height="8" rx="2"/>
+    <rect id="room-87d8b87015fa1b0b9be1c06bf4e61931f00877d8" class="room indoor" data-label="guest bedroom" x="136" y="29" width="8" height="8" rx="2"/>
+    <rect id="room-a1d0089a02d30c81d8ed8476f27da25f7a2b5628" class="room indoor" data-label="bedroom of Lord and Lady Tang" x="108" y="29" width="8" height="8" rx="2"/>
+    <rect id="room-d0744bb0ccbb0e593a115148bb7ce13b8ae125df" class="room indoor" data-label="crumbling balcony overlooking Tang Bay" x="122" y="15" width="8" height="8" rx="2"/>
+    <rect id="room-f48c20da84c06dd1397d48d615fc2f6874cc2fb6" class="room indoor" data-label="crumbling balcony overlooking Tang Bay" x="136" y="15" width="8" height="8" rx="2"/>
+    <rect id="room-cb441bd0aae3803f57f5675abafd8e2ad203aa4b" class="room indoor" data-label="crumbling balcony overlooking Tang Bay" x="108" y="15" width="8" height="8" rx="2"/>
+    <rect id="room-2351c92d23765359e154525457c5952f08061780" class="room indoor" data-label="gravel path" x="108" y="153" width="8" height="8" rx="2"/>
+    <rect id="room-33c5c8c21edc6ac3f31a9f45debf5b655e01cbec" class="room indoor" data-label="gravel path" x="94" y="153" width="8" height="8" rx="2"/>
+    <rect id="room-950d2d00ec8b19ab53eac4318d9759811f7fb3f1" class="room indoor" data-label="overgrown garden" x="80" y="125" width="8" height="8" rx="2"/>
+    <rect id="room-6625626982dee10d282c1c73563a925000c5238a" class="room indoor" data-label="overgrown garden" x="80" y="111" width="8" height="8" rx="2"/>
+    <rect id="room-88f27c396e45db66c0a7d6f305ab7d7ffeb6d9c3" class="room indoor" data-label="gateway to the McSweeney Estate" x="895" y="643" width="8" height="8" rx="2"/>
+    <rect id="room-80b57f70d5433ba8c5b5cb462fb77025ee364bd4" class="room indoor" data-label="driveway" x="881" y="643" width="8" height="8" rx="2"/>
+    <rect id="room-0ce05209b977e80ecb3403159e72c1363df4bd31" class="room indoor" data-label="driveway" x="867" y="643" width="8" height="8" rx="2"/>
+    <rect id="room-eeafcb01a5485e8235595044003f33b4571d3b2d" class="room indoor" data-label="path" x="853" y="643" width="8" height="8" rx="2"/>
+    <rect id="room-4d8e3f551d869231a98c8725c8c51330eda16cdc" class="room indoor" data-label="path" x="839" y="629" width="8" height="8" rx="2"/>
+    <rect id="room-5d5bb8b512e3ee6b817fe4ec2bf858b415cde559" class="room indoor" data-label="garden path" x="825" y="615" width="8" height="8" rx="2"/>
+    <rect id="room-14dc51a887e60ef4e830ea531dc6c02fe4f83564" class="room indoor" data-label="garden path" x="811" y="615" width="8" height="8" rx="2"/>
+    <rect id="room-74b2d361e3755d0d8567dbe690e8ced1f737de76" class="room indoor" data-label="path through the gardens" x="797" y="601" width="8" height="8" rx="2"/>
+    <rect id="room-55040ef9f29726c1148b42a6601e7650a54fc7bc" class="room indoor" data-label="garden path" x="797" y="587" width="8" height="8" rx="2"/>
+    <rect id="room-09874f6ac125c87949f8ab8eae7b789348882eca" class="room indoor" data-label="garden path" x="797" y="573" width="8" height="8" rx="2"/>
+    <rect id="room-4ae5c27314990c8489464e1af1426ac071dc004b" class="room indoor" data-label="garden path" x="811" y="559" width="8" height="8" rx="2"/>
+    <rect id="room-a3c7ddf94aaa802cf63aa1e6bd519f434e31fb0a" class="room indoor" data-label="pagoda" x="797" y="545" width="8" height="8" rx="2"/>
+    <rect id="room-91e828090900689b6eba2f76cf57560f21fac20d" class="room indoor" data-label="garden path" x="825" y="545" width="8" height="8" rx="2"/>
+    <rect id="room-191f2056b1821609ad252b4dffe80311c89ead02" class="room indoor" data-label="garden path" x="839" y="531" width="8" height="8" rx="2"/>
+    <rect id="room-3cff549d5f8137a821a7be6e3c8ed76700655413" class="room indoor" data-label="path around the yard" x="853" y="531" width="8" height="8" rx="2"/>
+    <rect id="room-5d648b8c05ef7da3473ad5db9f326fe75281e32a" class="room indoor" data-label="path around the yard" x="853" y="517" width="8" height="8" rx="2"/>
+    <rect id="room-9bc261694b69d8646c6ffbe4d0a26a27198a8772" class="room indoor" data-label="path around the yard" x="867" y="503" width="8" height="8" rx="2"/>
+    <rect id="room-5f9de726cb955019da6ba695c8f14c7b084ec3a3" class="room indoor" data-label="garden shed" x="853" y="489" width="8" height="8" rx="2"/>
+    <rect id="room-b813ce4230c9e602085d8c6e8c6f506709841265" class="room indoor" data-label="path around the yard" x="881" y="503" width="8" height="8" rx="2"/>
+    <rect id="room-b36907b21a5ccb08e8d97a28dc3e755e77ebcd92" class="room indoor" data-label="path around the yard" x="895" y="503" width="8" height="8" rx="2"/>
+    <rect id="room-eff2d9b8565a66a740b0bfb42ab13490bd3a928d" class="room indoor" data-label="conservatory" x="895" y="489" width="8" height="8" rx="2"/>
+    <rect id="room-8755a9ed5ab3505677246f0674bd2536cf0ad18e" class="room indoor" data-label="conservatory" x="895" y="475" width="8" height="8" rx="2"/>
+    <rect id="room-c541919c446aff2eeb9a6a900b4055f9a1a20ac4" class="room indoor" data-label="distillery" x="895" y="461" width="8" height="8" rx="2"/>
+    <rect id="room-c4fd237c530cb85ca41ed5e188531437c158c922" class="room indoor" data-label="conservatory" x="881" y="475" width="8" height="8" rx="2"/>
+    <rect id="room-4d2f53fbc403425c0d51563a7c696345a02cf0f8" class="room indoor" data-label="path around the yard" x="909" y="503" width="8" height="8" rx="2"/>
+    <rect id="room-33b2a6078f990104af0f1f1ebc24dea0cdfd0521" class="room indoor" data-label="stable yard" x="923" y="503" width="8" height="8" rx="2"/>
+    <rect id="room-2f7ee212728f5085ee8568f7b4520bfd50a96d4d" class="room indoor" data-label="carriage shed" x="923" y="489" width="8" height="8" rx="2"/>
+    <rect id="room-48e67ff9710ba5318d81fd72d3831e45c36cb2db" class="room indoor" data-label="grooms&#x27; quarters" x="909" y="489" width="8" height="8" rx="2"/>
+    <rect id="room-80730810cf8a1dd7a85387f400cfc66c55715af3" class="room indoor" data-label="stable" x="923" y="475" width="8" height="8" rx="2"/>
+    <rect id="room-a5b85e48df261c327084316077471939d72d1c5a" class="room indoor" data-label="stable" x="937" y="475" width="8" height="8" rx="2"/>
+    <rect id="room-3c775fef07a2563619a9526e97754d455058fcf9" class="room indoor" data-label="stable" x="937" y="489" width="8" height="8" rx="2"/>
+    <rect id="room-294043cf16dbf0cad60da6b5c92f8859de67acdc" class="room indoor" data-label="stable yard" x="937" y="503" width="8" height="8" rx="2"/>
+    <rect id="room-0c23384f977a8f8191232c30b7251c6b47271fb9" class="room indoor" data-label="tack room" x="951" y="489" width="8" height="8" rx="2"/>
+    <rect id="room-b429dc399414fc4595187a1aaae58a67c39cbb55" class="room indoor" data-label="smithy" x="951" y="475" width="8" height="8" rx="2"/>
+    <rect id="room-e6f0e780111725ae6738660d2f16b987202a1fc0" class="room indoor" data-label="kennel" x="965" y="489" width="8" height="8" rx="2"/>
+    <rect id="room-b58e57314510c4ca881f54d4efe7915ca537814c" class="room indoor" data-label="kennel" x="965" y="475" width="8" height="8" rx="2"/>
+    <rect id="room-0d4cb5c8c3ac014a45260b1658795e76cb23e38f" class="room indoor" data-label="stable yard" x="951" y="503" width="8" height="8" rx="2"/>
+    <rect id="room-c80f8db0c63a79e3a20631110107d84f62dd8e21" class="room indoor" data-label="path around the yard" x="937" y="517" width="8" height="8" rx="2"/>
+    <rect id="room-41fcc87895b890ece9847af7d32eb371ba60f08e" class="room indoor" data-label="path around the yard" x="937" y="531" width="8" height="8" rx="2"/>
+    <rect id="room-bdafd44a4a6b9ee2e046add3f55b1b23d14db606" class="room indoor" data-label="path around the yard" x="937" y="545" width="8" height="8" rx="2"/>
+    <rect id="room-5dae1f56de4c045e39aa7cd71541fcc15e68b26e" class="room indoor" data-label="path behind the halls leading to the birdhouse" x="951" y="545" width="8" height="8" rx="2"/>
+    <rect id="room-e98de78c1014c5ce599ec89d25b1f44ff23e15b4" class="room indoor" data-label="birdhouse" x="951" y="531" width="8" height="8" rx="2"/>
+    <rect id="room-98a215d44c520b7fd180ab7a154754db698c5516" class="room indoor" data-label="birdhouse cage" x="951" y="517" width="8" height="8" rx="2"/>
+    <rect id="room-39378da9580dc25271b69964aa9948a560c9c92d" class="room indoor" data-label="path around the yard" x="923" y="559" width="8" height="8" rx="2"/>
+    <rect id="room-f1950f698e6bbf411365f431171a62cedc6d65f6" class="room indoor" data-label="path around the yard" x="909" y="559" width="8" height="8" rx="2"/>
+    <rect id="room-9b858050ffd3f7c3390e50254dc3e93e00fb9f89" class="room indoor" data-label="path around the yard" x="895" y="559" width="8" height="8" rx="2"/>
+    <rect id="room-e974cbf99075eea06d0a5fedc34e95d00a58083f" class="room indoor" data-label="servants&#x27; entrance" x="881" y="559" width="8" height="8" rx="2"/>
+    <rect id="room-6a3f07422ff5d0ba059d4858975e86b02a7b0cbf" class="room indoor" data-label="small garden" x="881" y="545" width="8" height="8" rx="2"/>
+    <rect id="room-181b5919e34e649815f8bbdfcda9361dfb93acf1" class="room indoor" data-label="path around the yard" x="867" y="545" width="8" height="8" rx="2"/>
+    <rect id="room-566f677c1faee5b6585329d110dc65354d6067aa" class="room indoor" data-label="kitchen" x="881" y="573" width="8" height="8" rx="2"/>
+    <rect id="room-b3a1234fb94f7f1de706aa1ceb9039621e08b68e" class="room indoor" data-label="pantry" x="867" y="573" width="8" height="8" rx="2"/>
+    <rect id="room-76b1b0c1f2c906985053bf5f3e2252bb477289f4" class="room indoor" data-label="scullery" x="895" y="573" width="8" height="8" rx="2"/>
+    <rect id="room-fa3817ce89195b1465b4bb0723d57e936d86ab7e" class="room indoor" data-label="corridor in the main hall" x="895" y="587" width="8" height="8" rx="2"/>
+    <rect id="room-643177d2b52d1ce5759371bc65647c82e73ed497" class="room indoor" data-label="library" x="881" y="587" width="8" height="8" rx="2"/>
+    <rect id="room-199682b4306d3f06b2e6da013d1b0d0032e400cd" class="room indoor" data-label="guard station at the entrance to the women&#x27;s hall" x="867" y="587" width="8" height="8" rx="2"/>
+    <rect id="room-ab1479b8012431149d4863cd59efe2a5ce8b2990" class="room indoor" data-label="visitors&#x27; bathroom" x="881" y="601" width="8" height="8" rx="2"/>
+    <rect id="room-776e69ced1cdd886ec3bba1a45062eed192f6d2d" class="room indoor" data-label="reception hall" x="895" y="601" width="8" height="8" rx="2"/>
+    <rect id="room-a4a93b269a40e4b3ea721d61580553c7be44c6ea" class="room indoor" data-label="dressing room" x="909" y="601" width="8" height="8" rx="2"/>
+    <rect id="room-1051fdbd3559665c22646a3dd0727d8ae594e5f9" class="room indoor" data-label="main tea room" x="909" y="587" width="8" height="8" rx="2"/>
+    <rect id="room-293caf737773302536c237701b1d5415f9670c37" class="room indoor" data-label="Lord McSweeney&#x27;s office and financial headquarters" x="909" y="573" width="8" height="8" rx="2"/>
+    <rect id="room-dd76687db9e4168821781728486312aac5c264cd" class="room indoor" data-label="reception room for the men&#x27;s hall" x="923" y="587" width="8" height="8" rx="2"/>
+    <rect id="room-3cce846425e84dbe80c3672782431905ed00c3fc" class="room indoor" data-label="corridor leading through the men&#x27;s hall" x="937" y="587" width="8" height="8" rx="2"/>
+    <rect id="room-6255a51c4b9ded1e70a9d167373f6bc708805019" class="room indoor" data-label="men&#x27;s tea room" x="951" y="587" width="8" height="8" rx="2"/>
+    <rect id="room-c5a5a3aebb13edc2a9ea9f7678b9bd84b31cafa1" class="room indoor" data-label="Lord McSweeney&#x27;s private bedroom" x="951" y="601" width="8" height="8" rx="2"/>
+    <rect id="room-50f74815d3f5b0cb11d236297abc12a6d7981a94" class="room indoor" data-label="corridor in the men&#x27;s hall outside the tea room" x="965" y="587" width="8" height="8" rx="2"/>
+    <rect id="room-b81a89274effc8fb3d1da19f56fb5756e9b09c67" class="room indoor" data-label="anteroom to the men&#x27;s dojo" x="965" y="573" width="8" height="8" rx="2"/>
+    <rect id="room-8ad0f3e3b662e8d60192c1952e1515c210874579" class="room indoor" data-label="men&#x27;s dojo" x="965" y="559" width="8" height="8" rx="2"/>
+    <rect id="room-b39547c7fe7514c354f6f54b10aa7a7e958ab781" class="room indoor" data-label="guest bedroom off the mens&#x27; hall" x="951" y="573" width="8" height="8" rx="2"/>
+    <rect id="room-99ecf78b38d98a6e8f12940e0fb900ad4f2b6305" class="room indoor" data-label="guest bedroom in the mens&#x27; hall" x="951" y="559" width="8" height="8" rx="2"/>
+    <rect id="room-25dd0cf48bbe00c760f03622bbef9ca5d4474a7f" class="room indoor" data-label="landing on the upper floor of the McSweeney guest hall" x="895" y="415" width="8" height="8" rx="2"/>
+    <rect id="room-873f217d5f7d22ae269b681daee5fa39a2baae78" class="room indoor" data-label="landing on the first floor of the McSweeney guest hall" x="881" y="415" width="8" height="8" rx="2"/>
+    <rect id="room-edbd3509dc69f43bcb483da8f091084cb4b19406" class="room indoor" data-label="Room of the Pearl Tiger" x="881" y="401" width="8" height="8" rx="2"/>
+    <rect id="room-27ebe3a2db5e301108ac36049e7839906c19e148" class="room indoor" data-label="Suite of Harmonious Animals" x="895" y="401" width="8" height="8" rx="2"/>
+    <rect id="room-279d6d40b1028a5cd560daa10d810861effe84a6" class="room indoor" data-label="Room of the Onyx Turtle" x="895" y="387" width="8" height="8" rx="2"/>
+    <rect id="room-4b26e8d8c6e298ee76351033837f40fdecd3bf94" class="room indoor" data-label="cubicle" x="909" y="401" width="8" height="8" rx="2"/>
+    <rect id="room-fb85e651d7d2b946ad0e6b46fd4080d2edbe64f5" class="room indoor" data-label="Phoenix Suite" x="895" y="429" width="8" height="8" rx="2"/>
+    <rect id="room-292ee6fdd70b145c4a331d36ec18bf616feb15b5" class="room indoor" data-label="Room of the Fiery Phoenix" x="881" y="429" width="8" height="8" rx="2"/>
+    <rect id="room-045cf37cfd2357bcfd9f3975c48f67932bb97718" class="room indoor" data-label="cubicle" x="909" y="429" width="8" height="8" rx="2"/>
+    <rect id="room-b34645c0ce785aebf1ed1078f3fd59ddff39ac91" class="room indoor" data-label="eastern landing" x="909" y="415" width="8" height="8" rx="2"/>
+    <rect id="room-ec9a032ff724ddc65125f26bcf2af65e0abfb862" class="room indoor" data-label="Jade Dragon Suite" x="923" y="415" width="8" height="8" rx="2"/>
+    <rect id="room-42708afeafa5e3fb28743f5a4f9a2bf9d80a5423" class="room indoor" data-label="Room of the Jade Dragon" x="923" y="401" width="8" height="8" rx="2"/>
+    <rect id="room-0c68a8f51ab0d914e6745e90772de7f02026908e" class="room indoor" data-label="cubicle" x="923" y="429" width="8" height="8" rx="2"/>
+    <rect id="room-88a1c3a29b068292cb525f181c32142b96b2ad8d" class="room indoor" data-label="attic" x="896" y="352" width="8" height="8" rx="2"/>
+    <rect id="room-23a770b367c3eb29d325051afcf137e806c824c5" class="room indoor" data-label="waiting room" x="895" y="615" width="8" height="8" rx="2"/>
+    <rect id="room-1e133a1dc400ed3da3062cd03eaeffbe5f40e361" class="room indoor" data-label="pathway outside the entrance to the McSweeney Estate" x="881" y="629" width="8" height="8" rx="2"/>
+    <rect id="room-e0a98c6b25868833054eeba95c1d36c0bea53988" class="room indoor" data-label="path" x="867" y="629" width="8" height="8" rx="2"/>
+    <rect id="room-8b5c8baca90e70594eb085517e148872e2b73fef" class="room indoor" data-label="path" x="853" y="629" width="8" height="8" rx="2"/>
+    <rect id="room-90b40d7c2c3873ca302762547a8af2e17e685acd" class="room indoor" data-label="quiet studio" x="851" y="126" width="8" height="8" rx="2"/>
+    <rect id="room-c3d9154c16973f31a98bd407d0b4b93b76a59992" class="room indoor" data-label="Lady Sung&#x27;s private gardens" x="865" y="126" width="8" height="8" rx="2"/>
+    <rect id="room-f3bd03448a4a2a9a65f1c5019975b643e44072ff" class="room indoor" data-label="Lady Sung&#x27;s private gardens" x="879" y="126" width="8" height="8" rx="2"/>
+    <rect id="room-1c0c82db9ab375f26f0988c9789335f1400ea360" class="room indoor" data-label="Lady Sung&#x27;s private gardens" x="893" y="126" width="8" height="8" rx="2"/>
+    <rect id="room-880d35b2e3cf1f4fa5d58d1d84d71af987741256" class="room indoor" data-label="Lady Sung&#x27;s private gardens" x="907" y="126" width="8" height="8" rx="2"/>
+    <rect id="room-1aac0ea10cbd07ad2945fd6b3baa9c629c686eae" class="room indoor" data-label="large, traditional dining room" x="921" y="126" width="8" height="8" rx="2"/>
+    <rect id="room-7e896a62b871501e6d73ce5ef5fe6ca668045660" class="room indoor" data-label="end of the hallway outside the dining room" x="921" y="140" width="8" height="8" rx="2"/>
+    <rect id="room-65d8422e8a840fc16a459051df184a4f78e8e324" class="room indoor" data-label="corridor leading through the Sung Estate" x="921" y="154" width="8" height="8" rx="2"/>
+    <rect id="room-9978fa3eba60ad5e74b6cc1844fd81f6a05fe1a2" class="room indoor" data-label="kitchen and pantry" x="935" y="154" width="8" height="8" rx="2"/>
+    <rect id="room-89c44db454f85f871bc608e8e93c58d4df9044a3" class="room indoor" data-label="grimy servants&#x27; quarters" x="935" y="140" width="8" height="8" rx="2"/>
+    <rect id="room-896e678f5d0b89555d12da6d4015d648d46b5459" class="room indoor" data-label="quiet hallway within the Sung Estate" x="907" y="154" width="8" height="8" rx="2"/>
+    <rect id="room-0f7223f7ff7b27c20f8139924d1e81c49949746a" class="room indoor" data-label="reception area" x="893" y="140" width="8" height="8" rx="2"/>
+    <rect id="room-c0e0ed118d744742f3077395ec6c04b35e645242" class="room indoor" data-label="music room" x="907" y="140" width="8" height="8" rx="2"/>
+    <rect id="room-a9330e0ef1854c8d43ffe0ab780c008bb4a9cc8c" class="room indoor" data-label="downstairs hallway, just outside the library" x="879" y="154" width="8" height="8" rx="2"/>
+    <rect id="room-778b02b2dd8fc0383125824d6f0ed023e03d4bae" class="room indoor" data-label="Sung family library" x="879" y="140" width="8" height="8" rx="2"/>
+    <rect id="room-04c0954048ef365093b8b25baf519555fbe906e2" class="room indoor" data-label="midway along the ground floor hallway" x="865" y="154" width="8" height="8" rx="2"/>
+    <rect id="room-c8be2c03d376d1149dad40c65c5b7aa87c27ba9a" class="room indoor" data-label="Sung family study" x="865" y="140" width="8" height="8" rx="2"/>
+    <rect id="room-a5571495637eaa79feeb7ab6981d05f3ccfc5bb4" class="room indoor" data-label="hallway in the Sung Estate just outside the studio" x="851" y="140" width="8" height="8" rx="2"/>
+    <rect id="room-1f577060e35827a91c74da00afe5b5c91ad8ef01" class="room indoor" data-label="hallway within the walls of the Sung Estate" x="851" y="154" width="8" height="8" rx="2"/>
+    <rect id="room-b3da9b0268a3abc085e09d2b6d130fde9feea968" class="room indoor" data-label="west end of a hallway in the basement" x="851" y="210" width="8" height="8" rx="2"/>
+    <rect id="room-cccb470bf70b4866f8ac36d40f83e6dacfc3a6b0" class="room indoor" data-label="Sung treasury" x="851" y="196" width="8" height="8" rx="2"/>
+    <rect id="room-96e243093ff91f874c71572f84db2f6576e13351" class="room indoor" data-label="east end of a basement" x="865" y="210" width="8" height="8" rx="2"/>
+    <rect id="room-838298d1046f9fdaed9f4f9b1024d445a0c7c7ee" class="room indoor" data-label="storage cell" x="865" y="196" width="8" height="8" rx="2"/>
+    <rect id="room-966f2743738beb0331a0b8d968d07ef247f9b87d" class="room indoor" data-label="dingy cell" x="879" y="196" width="8" height="8" rx="2"/>
+    <rect id="room-6931783e88e594d4ecf37b8acf0a220f74f7a7c7" class="room indoor" data-label="plush cell" x="879" y="210" width="8" height="8" rx="2"/>
+    <rect id="room-0ceae3f8c3d98c43959ae410bc87aa6e480ae119" class="room indoor" data-label="upstairs hallway, near a stairwell" x="851" y="51" width="8" height="8" rx="2"/>
+    <rect id="room-71081ad557810037f38b2b19f080037caab05353" class="room indoor" data-label="north end of a hallway" x="851" y="37" width="8" height="8" rx="2"/>
+    <rect id="room-7b630387bfce9d00becc94ddab8d7f9b70c3f46b" class="room indoor" data-label="meeting room" x="851" y="23" width="8" height="8" rx="2"/>
+    <rect id="room-ba3bbf825cb2d4f6bf8f3aecd644af661f26b102" class="room indoor" data-label="upstairs hallway, outside of a bedroom" x="865" y="51" width="8" height="8" rx="2"/>
+    <rect id="room-922543b0ddd9f9c01a61cb69fa7c88feaaed93aa" class="room indoor" data-label="Lady Sung&#x27;s bedroom" x="865" y="37" width="8" height="8" rx="2"/>
+    <rect id="room-269627fe440221b8db2615708c288d4593bec8b1" class="room indoor" data-label="west end of a balcony" x="865" y="23" width="8" height="8" rx="2"/>
+    <rect id="room-6efe3347418df219a0bccf2c7c99239e3afc8749" class="room indoor" data-label="east end of a balcony" x="879" y="23" width="8" height="8" rx="2"/>
+    <rect id="room-6d890bda8ca48fbd03f0202a43530bf94a0daeba" class="room indoor" data-label="Lord Sung&#x27;s bedroom" x="879" y="37" width="8" height="8" rx="2"/>
+    <rect id="room-feae77c8cce475a874447a32da727c84f412828b" class="room indoor" data-label="upstairs hallway outside a bedroom" x="879" y="51" width="8" height="8" rx="2"/>
+    <rect id="room-eaa048bac5316751f2bff74c9c728ea0935b189d" class="room indoor" data-label="midway along the upstairs hallway" x="893" y="51" width="8" height="8" rx="2"/>
+    <rect id="room-c82c0faa552598a7d8df5aa4353745ee185f9b33" class="room indoor" data-label="pottery room" x="893" y="37" width="8" height="8" rx="2"/>
+    <rect id="room-358f43edaf228c943c9ff51e3a815ed6f5095c1d" class="room indoor" data-label="near the east end of the upstairs hallway" x="907" y="51" width="8" height="8" rx="2"/>
+    <rect id="room-577e38ae8a447c340c291b79ac060792b8f518c1" class="room indoor" data-label="meditation room" x="907" y="37" width="8" height="8" rx="2"/>
+    <rect id="room-4151dce8630ebe3345b6403e3ce29d17682742ec" class="room indoor" data-label="east end of the upstairs hallway" x="921" y="51" width="8" height="8" rx="2"/>
+    <rect id="room-df26b96c2bdd1690c87516a112c5a1f57aa4bea3" class="room indoor" data-label="upstairs hallway, outside a door" x="921" y="37" width="8" height="8" rx="2"/>
+    <rect id="room-a55830a3c1e7f9cf7e8d144a12cab5d8519fc8f8" class="room indoor" data-label="storage room" x="921" y="23" width="8" height="8" rx="2"/>
+    <rect id="room-3396e5970d1203a2c5b7eade02223bfcd6508c70" class="room indoor" data-label="near the end of the piers" x="73" y="167" width="8" height="8" rx="2"/>
+    <rect id="room-86398380624abbf5566ab20313185582d296e0a7" class="room indoor" data-label="entrance chamber to the women&#x27;s hall" x="853" y="587" width="8" height="8" rx="2"/>
+    <rect id="room-adb3e82af3b3d3558292cae49b2564208ff6ef3d" class="room indoor" data-label="corridor leading through the women&#x27;s hall" x="839" y="587" width="8" height="8" rx="2"/>
+    <rect id="room-ecf08c6a4c868c062adc62ea4810b12ef8bc11a1" class="room indoor" data-label="Hall of Harmonious Fountains" x="825" y="587" width="8" height="8" rx="2"/>
+    <rect id="room-97996c0dc3d56a72f759919866c9eb8a41dfa8c7" class="room indoor" data-label="women&#x27;s tea room" x="825" y="601" width="8" height="8" rx="2"/>
+    <rect id="room-8eb17317d48b62daf42ef6da3406dbcc6df53eb1" class="room indoor" data-label="end of a corridor leading through the women&#x27;s hall" x="839" y="601" width="8" height="8" rx="2"/>
+    <rect id="room-a7957e2e4de5c1dfaf11f75c73a4185dba45832e" class="room indoor" data-label="Octagon Court" x="839" y="573" width="8" height="8" rx="2"/>
+    <rect id="room-3560145d027552c7ebc4597d1632d7efdf7511cc" class="room indoor" data-label="guest bedroom in the women&#x27;s hall" x="839" y="559" width="8" height="8" rx="2"/>
+    <rect id="room-5422fcab40f11547d8ee2248c88b890f79821d94" class="room indoor" data-label="guest bedroom in the women&#x27;s hall" x="825" y="559" width="8" height="8" rx="2"/>
+    <rect id="room-2ba5a2b2160bc6ff59b1451c3a13c05da5ab0b66" class="room indoor" data-label="small, pretty bedroom in the women&#x27;s hall" x="825" y="573" width="8" height="8" rx="2"/>
+    <rect id="room-27f46a46c162bfb158969e5e3abef0165d60d6af" class="room indoor" data-label="inside of a closet" x="895" y="573" width="8" height="8" rx="2"/>
+    <rect id="room-c372617552e141402aff74e4654757b853213475" class="room indoor" data-label="Lord McSweeney&#x27;s dressing room" x="951" y="601" width="8" height="8" rx="2"/>
+    <rect id="room-978c286140d7e459656feabdf53a9d602919e464" class="room indoor" data-label="grand entrance hall of the Sung Estate" x="893" y="154" width="8" height="8" rx="2"/>
+    <rect id="room-8ab93f0a7151f04cb744412e98aa985e609bbd05" class="room indoor" data-label="hallway in the basement" x="481" y="223" width="8" height="8" rx="2"/>
   </g>
 
-  <g id="layer-labels">
-    <text class="map-label" x="443" y="143">winding path through the Hong orchard</text>
-    <text class="map-label" x="429" y="129">cherry blossom orchard</text>
-    <text class="map-label" x="415" y="115">composting station</text>
-    <text class="map-label" x="429" y="115">Hong&#x27;s cherry orchard</text>
-    <text class="map-label" x="443" y="115">cherry blossom orchard</text>
-    <text class="map-label" x="457" y="115">cherry blossom orchard</text>
-    <text class="map-label" x="457" y="129">cherry blossom orchard</text>
-    <text class="map-label" x="443" y="129">cherry blossom orchard</text>
-    <text class="map-label" x="457" y="143">winding path through the orchard at the main doors to the estate</text>
-    <text class="map-label" x="457" y="157">cherry blossom orchard</text>
-    <text class="map-label" x="471" y="143">entrance to Hong Hall</text>
-    <text class="map-label" x="471" y="129">hallway that gives access to the dining room and the trophy room</text>
-    <text class="map-label" x="471" y="115">hallway within the elegant walls of the Hong estate</text>
-    <text class="map-label" x="485" y="115">Hong family trophy room</text>
-    <text class="map-label" x="499" y="115">bottom of a stairwell</text>
-    <text class="map-label" x="499" y="10">top of a stairwell on the first floor of the estate</text>
-    <text class="map-label" x="499" y="24">room where the financial records of the Family are kept</text>
-    <text class="map-label" x="485" y="10">end of a short hallway on the first floor of the estate</text>
-    <text class="map-label" x="485" y="24">private bedroom of Lord Hong</text>
-    <text class="map-label" x="485" y="38">room used by Lord Hong for meditation</text>
-    <text class="map-label" x="513" y="10">end of a short hallway on the first floor of the estate</text>
-    <text class="map-label" x="513" y="24">hunting gallery of the Hongs</text>
-    <text class="map-label" x="513" y="115">room that the Hongs use to worship their ancestors</text>
-    <text class="map-label" x="527" y="115">small well-decorated corridor with a view out to the back garden</text>
-    <text class="map-label" x="527" y="129">east part of the garden room</text>
-    <text class="map-label" x="527" y="143">back hallway</text>
-    <text class="map-label" x="541" y="143">tea garden</text>
-    <text class="map-label" x="541" y="157">tea garden</text>
-    <text class="map-label" x="555" y="143">tea garden</text>
-    <text class="map-label" x="555" y="129">tea garden</text>
-    <text class="map-label" x="541" y="129">tea garden</text>
-    <text class="map-label" x="555" y="115">tea garden</text>
-    <text class="map-label" x="541" y="115">tea garden</text>
-    <text class="map-label" x="527" y="157">large concert room of the Hong household</text>
-    <text class="map-label" x="527" y="171">stairwell within the Hong estate</text>
-    <text class="map-label" x="527" y="215">bottom of a stairwell in the basement</text>
-    <text class="map-label" x="527" y="201">large kitchens of the Hong household</text>
-    <text class="map-label" x="514" y="201">large and well-stocked pantry</text>
-    <text class="map-label" x="513" y="215">hallway in the basement</text>
-    <text class="map-label" x="499" y="215">hallway in the basement</text>
-    <text class="map-label" x="499" y="201">holding cell</text>
-    <text class="map-label" x="485" y="201">holding cell</text>
-    <text class="map-label" x="471" y="201">room that serves as a ready room for the guards</text>
-    <text class="map-label" x="471" y="215">infamous Hong family torture chamber</text>
-    <text class="map-label" x="513" y="171">Hong family library</text>
-    <text class="map-label" x="499" y="171">bottom of a stairwell</text>
-    <text class="map-label" x="485" y="171">Hong war strategy room</text>
-    <text class="map-label" x="471" y="171">hallway running through the Hong estate</text>
-    <text class="map-label" x="471" y="157">hallway within the walls of the Hong Estate</text>
-    <text class="map-label" x="485" y="129">dining room of the Hong household</text>
-    <text class="map-label" x="485" y="143">Hong Hall</text>
-    <text class="map-label" x="485" y="157">writing room of the Hongs</text>
-    <text class="map-label" x="499" y="143">spacious atrium of the Hong Estate</text>
-    <text class="map-label" x="513" y="143">back hallway</text>
-    <text class="map-label" x="513" y="129">west part of the garden room</text>
-    <text class="map-label" x="513" y="157">music room of the Hong household</text>
-    <text class="map-label" x="499" y="157">tea room of the Hongs</text>
-    <text class="map-label" x="499" y="129">art gallery of the Hongs</text>
-    <text class="map-label" x="499" y="66">top of a stairwell</text>
-    <text class="map-label" x="485" y="66">end of a short hallway on the first floor of the estate</text>
-    <text class="map-label" x="485" y="52">room with a multitude of weapons hanging from the walls</text>
-    <text class="map-label" x="499" y="52">city planning room of the Hongs</text>
-    <text class="map-label" x="513" y="66">end of a short hallway on the first floor of the estate</text>
-    <text class="map-label" x="513" y="52">untidy bedroom of Lord Hong&#x27;s son</text>
-    <text class="map-label" x="513" y="38">untidy, junk-filled room</text>
-    <text class="map-label" x="540" y="494">Golden Gate at the entrance to the Fang Estate</text>
-    <text class="map-label" x="526" y="494">lake shore of Tora Lake</text>
-    <text class="map-label" x="526" y="480">lake shore of Tora Lake</text>
-    <text class="map-label" x="512" y="466">lake shore of Tora Lake</text>
-    <text class="map-label" x="512" y="424">Flog Course</text>
-    <text class="map-label" x="512" y="410">Flog Course</text>
-    <text class="map-label" x="498" y="410">Flog Course</text>
-    <text class="map-label" x="484" y="410">Flog Course</text>
-    <text class="map-label" x="484" y="396">Flog Course</text>
-    <text class="map-label" x="498" y="396">Flog Course</text>
-    <text class="map-label" x="512" y="396">Flog Course</text>
-    <text class="map-label" x="526" y="396">eastern edge of the flog course</text>
-    <text class="map-label" x="540" y="382">Flog Course</text>
-    <text class="map-label" x="526" y="382">Flog Course</text>
-    <text class="map-label" x="512" y="382">Flog Course</text>
-    <text class="map-label" x="509" y="378">sand trap</text>
-    <text class="map-label" x="498" y="382">Flog Course</text>
-    <text class="map-label" x="484" y="382">Flog Course</text>
-    <text class="map-label" x="498" y="452">lake shore of Tora Lake</text>
-    <text class="map-label" x="498" y="438">lake shore of Tora Lake</text>
-    <text class="map-label" x="484" y="424">lake shore of Tora Lake</text>
-    <text class="map-label" x="470" y="424">lake shore of Tora Lake</text>
-    <text class="map-label" x="456" y="410">lake shore of Tora Lake</text>
-    <text class="map-label" x="442" y="410">lake shore of Tora Lake</text>
-    <text class="map-label" x="428" y="410">lake shore of Tora Lake</text>
-    <text class="map-label" x="414" y="424">lake shore of Tora Lake</text>
-    <text class="map-label" x="400" y="424">lake shore of Tora Lake</text>
-    <text class="map-label" x="386" y="410">lake shore of Tora Lake</text>
-    <text class="map-label" x="372" y="410">lake shore of Tora Lake</text>
-    <text class="map-label" x="358" y="410">lake shore of Tora Lake</text>
-    <text class="map-label" x="344" y="424">lake shore of Tora Lake</text>
-    <text class="map-label" x="330" y="438">lake shore of Tora Lake</text>
-    <text class="map-label" x="316" y="438">lake shore of Tora Lake</text>
-    <text class="map-label" x="330" y="424">lake shore of Tora Lake</text>
-    <text class="map-label" x="302" y="452">lake shore of Tora Lake</text>
-    <text class="map-label" x="302" y="466">lake shore of Tora Lake</text>
-    <text class="map-label" x="288" y="480">lake shore of Tora Lake</text>
-    <text class="map-label" x="288" y="494">lake shore of Tora Lake</text>
-    <text class="map-label" x="274" y="508">lake shore of Tora Lake</text>
-    <text class="map-label" x="274" y="522">lake shore of Tora Lake</text>
-    <text class="map-label" x="288" y="536">lake shore of Tora Lake</text>
-    <text class="map-label" x="274" y="536">lake shore of Tora Lake</text>
-    <text class="map-label" x="288" y="550">lake shore of Tora Lake</text>
-    <text class="map-label" x="302" y="564">lake shore of Tora Lake</text>
-    <text class="map-label" x="316" y="550">lake shore of Tora Lake</text>
-    <text class="map-label" x="330" y="564">lake shore of Tora Lake</text>
-    <text class="map-label" x="316" y="564">lake shore of Tora Lake</text>
-    <text class="map-label" x="344" y="564">lake shore of Tora Lake</text>
-    <text class="map-label" x="358" y="578">lake shore of Tora Lake</text>
-    <text class="map-label" x="372" y="578">lake shore of Tora Lake</text>
-    <text class="map-label" x="386" y="578">lake shore of Tora Lake</text>
-    <text class="map-label" x="400" y="592">lake shore of Tora Lake</text>
-    <text class="map-label" x="414" y="592">lake shore of Tora Lake</text>
-    <text class="map-label" x="428" y="592">lake shore of Tora Lake</text>
-    <text class="map-label" x="442" y="578">lake shore of Tora Lake</text>
-    <text class="map-label" x="456" y="578">lake shore of Tora Lake</text>
-    <text class="map-label" x="456" y="564">end of a short pier</text>
-    <text class="map-label" x="456" y="550">middle of a wooden pier</text>
-    <text class="map-label" x="442" y="536">middle of a wooden pier</text>
-    <text class="map-label" x="442" y="522">east entrance to the Fang Pagoda</text>
-    <text class="map-label" x="110" y="570">eastern section of the Fang art gallery</text>
-    <text class="map-label" x="96" y="570">entrance gallery of the Fang house</text>
-    <text class="map-label" x="400" y="522">west entrance to the Fang Pagoda</text>
-    <text class="map-label" x="400" y="536">middle of a wooden pier</text>
-    <text class="map-label" x="386" y="550">middle of a wooden pier</text>
-    <text class="map-label" x="386" y="564">end of a short pier outside the Fang Estate</text>
-    <text class="map-label" x="96" y="556">north section of the Fang art gallery</text>
-    <text class="map-label" x="110" y="556">Fang family entertainment room</text>
-    <text class="map-label" x="124" y="556">tea room in the Fang pagoda</text>
-    <text class="map-label" x="138" y="556">bonsai garden just outside the door to the tea room</text>
-    <text class="map-label" x="152" y="542">western end of the bonsai garden near the Pagoda</text>
-    <text class="map-label" x="166" y="542">junction of meandering paths in the bonsai garden</text>
-    <text class="map-label" x="180" y="542">quiet corner of the bonsai garden</text>
-    <text class="map-label" x="138" y="528">eastern end of a covered walkway</text>
-    <text class="map-label" x="124" y="528">covered walkway south of the northeastern wing</text>
-    <text class="map-label" x="124" y="514">corridor just inside from the covered walkway</text>
-    <text class="map-label" x="138" y="500">hallway outside the ancestors&#x27; shrine</text>
-    <text class="map-label" x="138" y="486">shrine dedicated to Fang family ancestors</text>
-    <text class="map-label" x="152" y="486">small patio near the shrine</text>
-    <text class="map-label" x="124" y="486">small shrine to Shoji</text>
-    <text class="map-label" x="110" y="528">covered walkway outside the Fang Pagoda</text>
-    <text class="map-label" x="110" y="542">south hallway</text>
-    <text class="map-label" x="124" y="542">hallway in the ground floor of the Fang Estate</text>
-    <text class="map-label" x="138" y="542">room full of sleeping and snoring servants</text>
-    <text class="map-label" x="96" y="528">covered walkway along the north side of the Fang Pagoda</text>
-    <text class="map-label" x="82" y="528">covered walkway between the Fang Pagoda and the northwestern wing</text>
-    <text class="map-label" x="82" y="514">Lord Fang&#x27;s study</text>
-    <text class="map-label" x="68" y="500">Fang family library</text>
-    <text class="map-label" x="68" y="486">Fang family armoury</text>
-    <text class="map-label" x="68" y="472">small patio</text>
-    <text class="map-label" x="82" y="486">Fang family trophy room</text>
-    <text class="map-label" x="82" y="500">Fang family war room</text>
-    <text class="map-label" x="68" y="528">western end of a covered walkway</text>
-    <text class="map-label" x="54" y="542">lotus gardens</text>
-    <text class="map-label" x="40" y="542">lotus gardens</text>
-    <text class="map-label" x="26" y="542">sandscape in the lotus gardens</text>
-    <text class="map-label" x="68" y="556">entrance to the lotus gardens</text>
-    <text class="map-label" x="82" y="556">large banquet hall</text>
-    <text class="map-label" x="82" y="542">Fang kitchen</text>
-    <text class="map-label" x="68" y="542">pantry in the Fang Estate</text>
-    <text class="map-label" x="96" y="543">bottom of the stairwell leading to the upper levels</text>
-    <text class="map-label" x="96" y="426">wide, square foyer on the first floor</text>
-    <text class="map-label" x="96" y="412">a first floor hallway</text>
-    <text class="map-label" x="82" y="426">hallway leading through the first floor</text>
-    <text class="map-label" x="82" y="440">writing room of Lord Fang</text>
-    <text class="map-label" x="96" y="440">Fang Family Finance room</text>
-    <text class="map-label" x="68" y="440">Lord and Lady Fang&#x27;s master bedroom</text>
-    <text class="map-label" x="68" y="426">first floor hallway outside Lord and Lady Fang&#x27;s bedroom</text>
-    <text class="map-label" x="110" y="412">corridor on the first floor of the Fang Pagoda</text>
-    <text class="map-label" x="110" y="426">music room of the Fang estate</text>
-    <text class="map-label" x="124" y="426">first floor hallway</text>
-    <text class="map-label" x="138" y="426">Flog Course viewing gallery</text>
-    <text class="map-label" x="138" y="440">washroom in the Fang Pagoda</text>
-    <text class="map-label" x="124" y="440">first floor guest bedroom</text>
-    <text class="map-label" x="110" y="440">Fang inhumation office</text>
-    <text class="map-label" x="96" y="364">landing at the top level of the house</text>
-    <text class="map-label" x="96" y="378">observatory at the top of the Fang Pagoda</text>
-    <text class="map-label" x="110" y="364">paper filled room</text>
-    <text class="map-label" x="110" y="378">cramped printing room</text>
-    <text class="map-label" x="470" y="578">lake shore of Tora Lake</text>
-    <text class="map-label" x="484" y="578">lake shore of Tora Lake</text>
-    <text class="map-label" x="498" y="564">lake shore of Tora Lake</text>
-    <text class="map-label" x="512" y="564">lake shore of Tora Lake</text>
-    <text class="map-label" x="526" y="550">lake shore of Tora Lake</text>
-    <text class="map-label" x="526" y="536">lake shore of Tora Lake</text>
-    <text class="map-label" x="540" y="522">lake shore of Tora Lake</text>
-    <text class="map-label" x="540" y="508">lake shore of Tora Lake</text>
-    <text class="map-label" x="554" y="508">entryway to a guardhouse</text>
-    <text class="map-label" x="554" y="522">office of the captain</text>
-    <text class="map-label" x="568" y="508">Fang guardhouse</text>
-    <text class="map-label" x="568" y="522">unused-looking Fang dungeon</text>
-    <text class="map-label" x="77" y="159">dock at the base of the Tang Island cliffs</text>
-    <text class="map-label" x="84" y="131">gravel path</text>
-    <text class="map-label" x="70" y="117">gravel path</text>
-    <text class="map-label" x="70" y="103">gravel path</text>
-    <text class="map-label" x="84" y="89">gravel path</text>
-    <text class="map-label" x="98" y="75">gravel path</text>
-    <text class="map-label" x="112" y="75">precarious precipice</text>
-    <text class="map-label" x="126" y="75">watch landing</text>
-    <text class="map-label" x="140" y="75">gravel path</text>
-    <text class="map-label" x="154" y="89">gravel path</text>
-    <text class="map-label" x="168" y="103">gravel path</text>
-    <text class="map-label" x="168" y="117">gravel path</text>
-    <text class="map-label" x="154" y="131">clifftop path south of a tangled garden</text>
-    <text class="map-label" x="154" y="117">overgrown garden</text>
-    <text class="map-label" x="154" y="103">overgrown garden</text>
-    <text class="map-label" x="140" y="145">clifftop path at the Tang estate&#x27;s southeast corner</text>
-    <text class="map-label" x="126" y="145">small landing at the entrance to Tang estate</text>
-    <text class="map-label" x="126" y="131">dusty entrance to the Tang Estate</text>
-    <text class="map-label" x="140" y="131">dusty reception room</text>
-    <text class="map-label" x="126" y="117">ground floor hallway outside two rooms</text>
-    <text class="map-label" x="140" y="117">family tea room</text>
-    <text class="map-label" x="112" y="117">furniture repair room</text>
-    <text class="map-label" x="126" y="103">hallway outside the dining room</text>
-    <text class="map-label" x="140" y="103">political planning room</text>
-    <text class="map-label" x="112" y="103">financial records room</text>
-    <text class="map-label" x="126" y="89">dining room</text>
-    <text class="map-label" x="140" y="89">drawing room in the Tang Estate</text>
-    <text class="map-label" x="112" y="89">kitchen</text>
-    <text class="map-label" x="98" y="89">servants&#x27; quarters</text>
-    <text class="map-label" x="98" y="103">servants&#x27; quarters</text>
-    <text class="map-label" x="112" y="131">hallway just off the entrance hall</text>
-    <text class="map-label" x="98" y="131">landing at the ground floor level of the estate&#x27;s main stairwell, just outside the trophy room</text>
-    <text class="map-label" x="98" y="117">Tang trophy room</text>
-    <text class="map-label" x="97" y="232">cramped passageway underneath the Tang Estate</text>
-    <text class="map-label" x="111" y="232">cramped passageway underneath the Tang Estate</text>
-    <text class="map-label" x="125" y="232">vaulted chamber</text>
-    <text class="map-label" x="125" y="218">dimly lit corridor underneath the Tang Estate</text>
-    <text class="map-label" x="139" y="218">guard room</text>
-    <text class="map-label" x="111" y="218">Tang treasury</text>
-    <text class="map-label" x="125" y="204">dimly lit corridor</text>
-    <text class="map-label" x="139" y="204">dungeon cell</text>
-    <text class="map-label" x="111" y="204">dungeon cell</text>
-    <text class="map-label" x="125" y="190">dimly lit corridor underneath the Tang Estate</text>
-    <text class="map-label" x="139" y="190">dungeon cell</text>
-    <text class="map-label" x="111" y="190">dungeon cell</text>
-    <text class="map-label" x="98" y="49">landing at the end of the first floor hallway</text>
-    <text class="map-label" x="98" y="35">Tang family library</text>
-    <text class="map-label" x="112" y="49">hallway on the first floor of the Tang Estate</text>
-    <text class="map-label" x="126" y="49">dusty hallway outside the family study</text>
-    <text class="map-label" x="140" y="49">Lord Tang&#x27;s study</text>
-    <text class="map-label" x="126" y="35">hallway past its prime</text>
-    <text class="map-label" x="140" y="35">dimly lit interrogation room</text>
-    <text class="map-label" x="112" y="35">family dressing room</text>
-    <text class="map-label" x="126" y="21">hallway just outside the estate&#x27;s bedrooms and the first floor balcony</text>
-    <text class="map-label" x="140" y="21">guest bedroom</text>
-    <text class="map-label" x="112" y="21">bedroom of Lord and Lady Tang</text>
-    <text class="map-label" x="126" y="7">crumbling balcony overlooking Tang Bay</text>
-    <text class="map-label" x="140" y="7">crumbling balcony overlooking Tang Bay</text>
-    <text class="map-label" x="112" y="7">crumbling balcony overlooking Tang Bay</text>
-    <text class="map-label" x="112" y="145">gravel path</text>
-    <text class="map-label" x="98" y="145">gravel path</text>
-    <text class="map-label" x="84" y="117">overgrown garden</text>
-    <text class="map-label" x="84" y="103">overgrown garden</text>
-    <text class="map-label" x="899" y="635">gateway to the McSweeney Estate</text>
-    <text class="map-label" x="885" y="635">driveway</text>
-    <text class="map-label" x="871" y="635">driveway</text>
-    <text class="map-label" x="857" y="635">path</text>
-    <text class="map-label" x="843" y="621">path</text>
-    <text class="map-label" x="829" y="607">garden path</text>
-    <text class="map-label" x="815" y="607">garden path</text>
-    <text class="map-label" x="801" y="593">path through the gardens</text>
-    <text class="map-label" x="801" y="579">garden path</text>
-    <text class="map-label" x="801" y="565">garden path</text>
-    <text class="map-label" x="815" y="551">garden path</text>
-    <text class="map-label" x="801" y="537">pagoda</text>
-    <text class="map-label" x="829" y="537">garden path</text>
-    <text class="map-label" x="843" y="523">garden path</text>
-    <text class="map-label" x="857" y="523">path around the yard</text>
-    <text class="map-label" x="857" y="509">path around the yard</text>
-    <text class="map-label" x="871" y="495">path around the yard</text>
-    <text class="map-label" x="857" y="481">garden shed</text>
-    <text class="map-label" x="885" y="495">path around the yard</text>
-    <text class="map-label" x="899" y="495">path around the yard</text>
-    <text class="map-label" x="899" y="481">conservatory</text>
-    <text class="map-label" x="899" y="467">conservatory</text>
-    <text class="map-label" x="899" y="453">distillery</text>
-    <text class="map-label" x="885" y="467">conservatory</text>
-    <text class="map-label" x="913" y="495">path around the yard</text>
-    <text class="map-label" x="927" y="495">stable yard</text>
-    <text class="map-label" x="927" y="481">carriage shed</text>
-    <text class="map-label" x="913" y="481">grooms&#x27; quarters</text>
-    <text class="map-label" x="927" y="467">stable</text>
-    <text class="map-label" x="941" y="467">stable</text>
-    <text class="map-label" x="941" y="481">stable</text>
-    <text class="map-label" x="941" y="495">stable yard</text>
-    <text class="map-label" x="955" y="481">tack room</text>
-    <text class="map-label" x="955" y="467">smithy</text>
-    <text class="map-label" x="969" y="481">kennel</text>
-    <text class="map-label" x="969" y="467">kennel</text>
-    <text class="map-label" x="955" y="495">stable yard</text>
-    <text class="map-label" x="941" y="509">path around the yard</text>
-    <text class="map-label" x="941" y="523">path around the yard</text>
-    <text class="map-label" x="941" y="537">path around the yard</text>
-    <text class="map-label" x="955" y="537">path behind the halls leading to the birdhouse</text>
-    <text class="map-label" x="955" y="523">birdhouse</text>
-    <text class="map-label" x="955" y="509">birdhouse cage</text>
-    <text class="map-label" x="927" y="551">path around the yard</text>
-    <text class="map-label" x="913" y="551">path around the yard</text>
-    <text class="map-label" x="899" y="551">path around the yard</text>
-    <text class="map-label" x="885" y="551">servants&#x27; entrance</text>
-    <text class="map-label" x="885" y="537">small garden</text>
-    <text class="map-label" x="871" y="537">path around the yard</text>
-    <text class="map-label" x="885" y="565">kitchen</text>
-    <text class="map-label" x="871" y="565">pantry</text>
-    <text class="map-label" x="899" y="565">scullery</text>
-    <text class="map-label" x="899" y="579">corridor in the main hall</text>
-    <text class="map-label" x="885" y="579">library</text>
-    <text class="map-label" x="871" y="579">guard station at the entrance to the women&#x27;s hall</text>
-    <text class="map-label" x="885" y="593">visitors&#x27; bathroom</text>
-    <text class="map-label" x="899" y="593">reception hall</text>
-    <text class="map-label" x="913" y="593">dressing room</text>
-    <text class="map-label" x="913" y="579">main tea room</text>
-    <text class="map-label" x="913" y="565">Lord McSweeney&#x27;s office and financial headquarters</text>
-    <text class="map-label" x="927" y="579">reception room for the men&#x27;s hall</text>
-    <text class="map-label" x="941" y="579">corridor leading through the men&#x27;s hall</text>
-    <text class="map-label" x="955" y="579">men&#x27;s tea room</text>
-    <text class="map-label" x="955" y="593">Lord McSweeney&#x27;s private bedroom</text>
-    <text class="map-label" x="969" y="579">corridor in the men&#x27;s hall outside the tea room</text>
-    <text class="map-label" x="969" y="565">anteroom to the men&#x27;s dojo</text>
-    <text class="map-label" x="969" y="551">men&#x27;s dojo</text>
-    <text class="map-label" x="955" y="565">guest bedroom off the mens&#x27; hall</text>
-    <text class="map-label" x="955" y="551">guest bedroom in the mens&#x27; hall</text>
-    <text class="map-label" x="899" y="407">landing on the upper floor of the McSweeney guest hall</text>
-    <text class="map-label" x="885" y="407">landing on the first floor of the McSweeney guest hall</text>
-    <text class="map-label" x="885" y="393">Room of the Pearl Tiger</text>
-    <text class="map-label" x="899" y="393">Suite of Harmonious Animals</text>
-    <text class="map-label" x="899" y="379">Room of the Onyx Turtle</text>
-    <text class="map-label" x="913" y="393">cubicle</text>
-    <text class="map-label" x="899" y="421">Phoenix Suite</text>
-    <text class="map-label" x="885" y="421">Room of the Fiery Phoenix</text>
-    <text class="map-label" x="913" y="421">cubicle</text>
-    <text class="map-label" x="913" y="407">eastern landing</text>
-    <text class="map-label" x="927" y="407">Jade Dragon Suite</text>
-    <text class="map-label" x="927" y="393">Room of the Jade Dragon</text>
-    <text class="map-label" x="927" y="421">cubicle</text>
-    <text class="map-label" x="900" y="344">attic</text>
-    <text class="map-label" x="899" y="607">waiting room</text>
-    <text class="map-label" x="885" y="621">pathway outside the entrance to the McSweeney Estate</text>
-    <text class="map-label" x="871" y="621">path</text>
-    <text class="map-label" x="857" y="621">path</text>
-    <text class="map-label" x="855" y="118">quiet studio</text>
-    <text class="map-label" x="869" y="118">Lady Sung&#x27;s private gardens</text>
-    <text class="map-label" x="883" y="118">Lady Sung&#x27;s private gardens</text>
-    <text class="map-label" x="897" y="118">Lady Sung&#x27;s private gardens</text>
-    <text class="map-label" x="911" y="118">Lady Sung&#x27;s private gardens</text>
-    <text class="map-label" x="925" y="118">large, traditional dining room</text>
-    <text class="map-label" x="925" y="132">end of the hallway outside the dining room</text>
-    <text class="map-label" x="925" y="146">corridor leading through the Sung Estate</text>
-    <text class="map-label" x="939" y="146">kitchen and pantry</text>
-    <text class="map-label" x="939" y="132">grimy servants&#x27; quarters</text>
-    <text class="map-label" x="911" y="146">quiet hallway within the Sung Estate</text>
-    <text class="map-label" x="897" y="132">reception area</text>
-    <text class="map-label" x="911" y="132">music room</text>
-    <text class="map-label" x="883" y="146">downstairs hallway, just outside the library</text>
-    <text class="map-label" x="883" y="132">Sung family library</text>
-    <text class="map-label" x="869" y="146">midway along the ground floor hallway</text>
-    <text class="map-label" x="869" y="132">Sung family study</text>
-    <text class="map-label" x="855" y="132">hallway in the Sung Estate just outside the studio</text>
-    <text class="map-label" x="855" y="146">hallway within the walls of the Sung Estate</text>
-    <text class="map-label" x="855" y="202">west end of a hallway in the basement</text>
-    <text class="map-label" x="855" y="188">Sung treasury</text>
-    <text class="map-label" x="869" y="202">east end of a basement</text>
-    <text class="map-label" x="869" y="188">storage cell</text>
-    <text class="map-label" x="883" y="188">dingy cell</text>
-    <text class="map-label" x="883" y="202">plush cell</text>
-    <text class="map-label" x="855" y="43">upstairs hallway, near a stairwell</text>
-    <text class="map-label" x="855" y="29">north end of a hallway</text>
-    <text class="map-label" x="855" y="15">meeting room</text>
-    <text class="map-label" x="869" y="43">upstairs hallway, outside of a bedroom</text>
-    <text class="map-label" x="869" y="29">Lady Sung&#x27;s bedroom</text>
-    <text class="map-label" x="869" y="15">west end of a balcony</text>
-    <text class="map-label" x="883" y="15">east end of a balcony</text>
-    <text class="map-label" x="883" y="29">Lord Sung&#x27;s bedroom</text>
-    <text class="map-label" x="883" y="43">upstairs hallway outside a bedroom</text>
-    <text class="map-label" x="897" y="43">midway along the upstairs hallway</text>
-    <text class="map-label" x="897" y="29">pottery room</text>
-    <text class="map-label" x="911" y="43">near the east end of the upstairs hallway</text>
-    <text class="map-label" x="911" y="29">meditation room</text>
-    <text class="map-label" x="925" y="43">east end of the upstairs hallway</text>
-    <text class="map-label" x="925" y="29">upstairs hallway, outside a door</text>
-    <text class="map-label" x="925" y="15">storage room</text>
-    <text class="map-label" x="77" y="159">near the end of the piers</text>
-    <text class="map-label" x="857" y="579">entrance chamber to the women&#x27;s hall</text>
-    <text class="map-label" x="843" y="579">corridor leading through the women&#x27;s hall</text>
-    <text class="map-label" x="829" y="579">Hall of Harmonious Fountains</text>
-    <text class="map-label" x="829" y="593">women&#x27;s tea room</text>
-    <text class="map-label" x="843" y="593">end of a corridor leading through the women&#x27;s hall</text>
-    <text class="map-label" x="843" y="565">Octagon Court</text>
-    <text class="map-label" x="843" y="551">guest bedroom in the women&#x27;s hall</text>
-    <text class="map-label" x="829" y="551">guest bedroom in the women&#x27;s hall</text>
-    <text class="map-label" x="829" y="565">small, pretty bedroom in the women&#x27;s hall</text>
-    <text class="map-label" x="899" y="565">inside of a closet</text>
-    <text class="map-label" x="955" y="593">Lord McSweeney&#x27;s dressing room</text>
-    <text class="map-label" x="897" y="146">grand entrance hall of the Sung Estate</text>
-    <text class="map-label" x="485" y="215">hallway in the basement</text>
-  </g>
+  <g id="layer-labels"><!-- labels --></g>
 
 </svg>

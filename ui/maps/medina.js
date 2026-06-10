@@ -1,0 +1,1 @@
+export default "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     viewBox=\"0 0 311 249\"\n     class=\"map-svg\"\n     data-map-id=\"58\">\n\n  <g id=\"layer-artwork\"><!-- artwork --></g>\n\n  <g id=\"layer-exits\">\n\n  </g>\n\n  <g id=\"layer-rooms\">\n\n  </g>\n\n  <g id=\"layer-labels\"><!-- labels --></g>\n\n</svg>";

@@ -112,171 +112,89 @@
   </g>
 
   <g id="layer-rooms">
-    <rect id="room-e59f1c8f73806c54b29c2823bd7f8de936647fe7" class="room indoor" data-label="entrance to the Temple of Blind Io" x="213" y="90" width="16" height="16" rx="4"/>
-    <rect id="room-390f28100270174173c2a6fdecfad543986f99dd" class="room indoor" data-label="hallway" x="213" y="64" width="16" height="16" rx="4"/>
-    <rect id="room-1b36457a8b9666e84b18536cc2de715dc48e520d" class="room indoor" data-label="hallway" x="213" y="40" width="16" height="16" rx="4"/>
-    <rect id="room-0f86278e418b8475036ed189582f8a2f77585f6f" class="room indoor" data-label="temple shop" x="237" y="40" width="16" height="16" rx="4"/>
-    <rect id="room-9edbe9ff1299403a0313f784ff97a2246bf5fdc9" class="room indoor" data-label="Low Altar of the Temple of Blind Io" x="213" y="16" width="16" height="16" rx="4"/>
-    <rect id="room-840b9c022df7df6517f9c6bfd0315f4ce02e4201" class="room indoor" data-label="hallway" x="189" y="40" width="16" height="16" rx="4"/>
-    <rect id="room-b3b83c6b6a793f4fd3d81ce9a7d14cfad1d3a655" class="room indoor" data-label="sheet shrouded room" x="189" y="16" width="16" height="16" rx="4"/>
-    <rect id="room-82904f67e9503c63145b4d6fed4c8e157926c827" class="room indoor" data-label="sheet shrouded room" x="189" y="64" width="16" height="16" rx="4"/>
-    <rect id="room-3e535794716371c5bcc29a037e7c08878b438f1a" class="room indoor" data-label="Main Hall of the Temple of Blind Io" x="165" y="40" width="16" height="16" rx="4"/>
-    <rect id="room-afaff16aec0303e7383b5cc17672d8935017be1a" class="room indoor" data-label="High Altar of the Temple of Blind Io" x="166" y="15" width="16" height="16" rx="4"/>
-    <rect id="room-0dd4f89a4a426dde74df94505e55c1e5410b0a0a" class="room indoor" data-label="entrance hall of the Temple of Small Gods" x="213" y="144" width="16" height="16" rx="4"/>
-    <rect id="room-51dc555b97c0906a20ab019418d273cc5685758d" class="room indoor" data-label="middle of the northern cloister" x="213" y="168" width="16" height="16" rx="4"/>
-    <rect id="room-fb46c0a576c3e718ff45d6e4a5a555b83370b574" class="room indoor" data-label="eastern end of the northern cloister" x="237" y="168" width="16" height="16" rx="4"/>
-    <rect id="room-edebe9f3675e53109b6497b4a326fc973d8e8d54" class="room indoor" data-label="northern end of the eastern cloister" x="261" y="192" width="16" height="16" rx="4"/>
-    <rect id="room-662e956094f4bc8f65c8ce96db1373874ccfeb62" class="room indoor" data-label="middle of the eastern cloister" x="261" y="216" width="16" height="16" rx="4"/>
-    <rect id="room-c66f072bc7efb4d407104437811ff5d2837cc2c6" class="room indoor" data-label="southern end of the eastern cloister" x="261" y="240" width="16" height="16" rx="4"/>
-    <rect id="room-aa3567d8f1daaf64766bb77fc899e395dd42acb0" class="room indoor" data-label="eastern end of the southern cloister" x="237" y="264" width="16" height="16" rx="4"/>
-    <rect id="room-d0ff2a012e90381b84804580923a68288eb40108" class="room indoor" data-label="southern cloister middle" x="213" y="264" width="16" height="16" rx="4"/>
-    <rect id="room-7c36d5df53870165969412fd05ab98bc6e1cc330" class="room indoor" data-label="southern cloister western end" x="189" y="264" width="16" height="16" rx="4"/>
-    <rect id="room-7ed3df2355f6e3c710dfec0824d25168bef069fc" class="room indoor" data-label="western cloister southern end" x="165" y="240" width="16" height="16" rx="4"/>
-    <rect id="room-544fe781bb2c61d5929c3dd383b9922bc7bb2dbc" class="room indoor" data-label="western cloister middle" x="165" y="216" width="16" height="16" rx="4"/>
-    <rect id="room-005358ac1865eb36d8edf7f20f78747cea36cf50" class="room indoor" data-label="northern end of the western cloister" x="165" y="192" width="16" height="16" rx="4"/>
-    <rect id="room-40281d78239b764bd8c4ae25b1624362cae501b4" class="room indoor" data-label="western end of the northern cloister" x="189" y="168" width="16" height="16" rx="4"/>
-    <rect id="room-09a11bdb16b8b9cecca0c27eca26b369612d0fce" class="room indoor" data-label="north of atrium centre" x="213" y="192" width="16" height="16" rx="4"/>
-    <rect id="room-cb5ac699e665dadaec86ee813ce133e98eabb6e5" class="room indoor" data-label="northwest from the atrium centre" x="189" y="192" width="16" height="16" rx="4"/>
-    <rect id="room-1c6bc24d4424b1fd112e1734fe2107f688ca786c" class="room indoor" data-label="northeast of atrium centre" x="237" y="192" width="16" height="16" rx="4"/>
-    <rect id="room-192d23f38d668bf08ea6da1800f16a012ed7edac" class="room indoor" data-label="point east from the atrium centre" x="237" y="216" width="16" height="16" rx="4"/>
-    <rect id="room-66554124844ec7ce36bf94728b529c27a2618016" class="room indoor" data-label="centre of the atrium" x="213" y="216" width="16" height="16" rx="4"/>
-    <rect id="room-0e51e445e88dd8c4d1fa00a255b1e7434e1c9665" class="room indoor" data-label="west from the atrium centre" x="189" y="216" width="16" height="16" rx="4"/>
-    <rect id="room-414166a6a246aac10ad531cbb6063bcc0beb1229" class="room indoor" data-label="southwest from the atrium centre" x="189" y="240" width="16" height="16" rx="4"/>
-    <rect id="room-15988c0c2a377ac3f71d5abd3b1ceaec3663b77c" class="room indoor" data-label="just south from the atrium centre" x="213" y="240" width="16" height="16" rx="4"/>
-    <rect id="room-56ae70f3fdd615d4cac42375c7a99e067660ab0a" class="room indoor" data-label="southeast from the atrium centre" x="237" y="240" width="16" height="16" rx="4"/>
-    <rect id="room-fbb5cc5bc3c8d26c0f98f350a85e322eb703ed9b" class="room indoor" data-label="western most point of the eastern corridor" x="285" y="216" width="16" height="16" rx="4"/>
-    <rect id="room-73606d2f232e5848ed98d21231789a89da7c3d73" class="room indoor" data-label="Chapel of Gapp" x="285" y="192" width="16" height="16" rx="4"/>
-    <rect id="room-0e122142f3840ef3d94a9261b59943275fbdeee9" class="room indoor" data-label="Chapel of Fish" x="285" y="240" width="16" height="16" rx="4"/>
-    <rect id="room-c2f0d5460dd5ab4aec118b337fae3e6b3dda35a2" class="room indoor" data-label="Chapel of Sandelfon" x="309" y="216" width="16" height="16" rx="4"/>
-    <rect id="room-e4e1b55860177ac149a3aa1b242c2e634bacb660" class="room indoor" data-label="Chapel of Sek" x="309" y="192" width="16" height="16" rx="4"/>
-    <rect id="room-f3e68cec5e839d9f52daab8adddeacece5dcf381" class="room indoor" data-label="Chapel of Gufnork" x="309" y="240" width="16" height="16" rx="4"/>
-    <rect id="room-c96a1222edd608455413dd81be109c6441e05628" class="room indoor" data-label="northern part of the temple gardens" x="335" y="216" width="16" height="16" rx="4"/>
-    <rect id="room-53bbbeac657eb23cca7dda93d208b34b30953941" class="room indoor" data-label="small garden" x="335" y="188" width="16" height="16" rx="4"/>
-    <rect id="room-18c958313f70590bbeb5102dfde60f196007cd6b" class="room indoor" data-label="middle part of the Temple gardens" x="335" y="259" width="16" height="16" rx="4"/>
-    <rect id="room-802aab6a05b134188dfc8540c0526b74a7521078" class="room indoor" data-label="bottom part of the Temple gardens" x="282" y="312" width="16" height="16" rx="4"/>
-    <rect id="room-26fce4c5b58cfacfdc3039b5e38b8fc1cf275129" class="room indoor" data-label="southernmost point of the southern corridor" x="213" y="312" width="16" height="16" rx="4"/>
-    <rect id="room-13c33a2610639d0964b07ea27c650c46c2bb2434" class="room indoor" data-label="relic shop" x="213" y="336" width="16" height="16" rx="4"/>
-    <rect id="room-96fbb85b40e6b5bf50eaea8f3da113a432a0b7a2" class="room indoor" data-label="Temple furniture shop" x="189" y="312" width="16" height="16" rx="4"/>
-    <rect id="room-6a6b7b9d0c115960d8994da4f9408b0f85a428b6" class="room indoor" data-label="northernmost point of the southern corridor" x="213" y="288" width="16" height="16" rx="4"/>
-    <rect id="room-06eacb063ebb4ef3627f778d92cdecd0089a78b1" class="room indoor" data-label="incense shop" x="189" y="288" width="16" height="16" rx="4"/>
-    <rect id="room-b4ef49ae5608c6cbf1440df70c1aef91d6f2e88b" class="room indoor" data-label="miscellaneous shop" x="237" y="288" width="16" height="16" rx="4"/>
-    <rect id="room-5eaac335035633da8e8024e5781fb39254a19dd1" class="room indoor" data-label="eastern most point of the western corridor" x="141" y="216" width="16" height="16" rx="4"/>
-    <rect id="room-3e48e4470f8cf37b3b79e383cc92b83b52c1ff4f" class="room indoor" data-label="voting office" x="141" y="192" width="16" height="16" rx="4"/>
-    <rect id="room-22cd5d99796e340f8a203693796f6bbe1013e580" class="room indoor" data-label="western most point of the western corridor" x="117" y="216" width="16" height="16" rx="4"/>
-    <rect id="room-9e777568bcddba90e800b0a136acbdd3cea4c9e1" class="room indoor" data-label="small chapel" x="117" y="192" width="16" height="16" rx="4"/>
-    <rect id="room-2b9cc2386e4e280d3a89737da4c44d38c360c87a" class="room indoor" data-label="temporary filing room" x="117" y="240" width="16" height="16" rx="4"/>
-    <rect id="room-87e8845db8ddbc2bd00d4c85c289ff3a8c984041" class="room indoor" data-label="deep filing room" x="117" y="264" width="16" height="16" rx="4"/>
-    <rect id="room-456ea310bcdfab6567c0add915c1c6289d2d21ef" class="room indoor" data-label="middle west part of the gallery" x="166" y="444" width="16" height="16" rx="4"/>
-    <rect id="room-7f13275b37c05a12cc40b727f9a8069c9c92679d" class="room indoor" data-label="top west part of the gallery" x="166" y="420" width="16" height="16" rx="4"/>
-    <rect id="room-8e358f76959309baabf44c5ee9a9f0d0c277e9c7" class="room indoor" data-label="northwest part of the gallery" x="190" y="396" width="16" height="16" rx="4"/>
-    <rect id="room-95d31d7b4b608eabb4e614bb4c4d1c643a990b6b" class="room indoor" data-label="north part of the gallery" x="214" y="396" width="16" height="16" rx="4"/>
-    <rect id="room-c7d0f30d51ab5d65aeccecce83d8f9e8669c7fba" class="room indoor" data-label="northeast part of the gallery" x="238" y="396" width="16" height="16" rx="4"/>
-    <rect id="room-961597a1e87c3535e207b0555685d7801a06661b" class="room indoor" data-label="top eastern part of the gallery" x="262" y="420" width="16" height="16" rx="4"/>
-    <rect id="room-5ea7c3f389db8fbd7297be18e642a3c63b494252" class="room indoor" data-label="middle part of the eastern gallery" x="262" y="444" width="16" height="16" rx="4"/>
-    <rect id="room-436d3631fed4edd5aa983ae00da6a75518346c18" class="room indoor" data-label="southern part of the eastern gallery" x="262" y="468" width="16" height="16" rx="4"/>
-    <rect id="room-7d728758e48ac00b3a6059f12ed7c4640730d6d9" class="room indoor" data-label="southeastern part of the gallery" x="238" y="492" width="16" height="16" rx="4"/>
-    <rect id="room-3d71496a59f5a866a7642874033154019f7f7aca" class="room indoor" data-label="south part of the gallery" x="214" y="492" width="16" height="16" rx="4"/>
-    <rect id="room-f53a8836c3902d19114cdbd734718bce981caafc" class="room indoor" data-label="southwest part of the gallery" x="190" y="492" width="16" height="16" rx="4"/>
-    <rect id="room-12e840d363e9b7545ba4f763eaf874ebc454bd16" class="room indoor" data-label="bottom west part of the gallery" x="166" y="468" width="16" height="16" rx="4"/>
-    <rect id="room-36e95c9526b828565b4b4a28d60b289b5c0a95bf" class="room indoor" data-label="southern stairs" x="213" y="663" width="16" height="16" rx="4"/>
-    <rect id="room-4a2aeb66873fd7edb8a80a9efddb99b0bd9ba66e" class="room indoor" data-label="stair connector" x="213" y="616" width="16" height="16" rx="4"/>
-    <rect id="room-d1a22f7425988121051e70138693817f7cb92a6b" class="room indoor" data-label="western stairs" x="164" y="615" width="16" height="16" rx="4"/>
-    <rect id="room-fdec4bf87f80ee0fcb594e2a7851a510e15933de" class="room indoor" data-label="northern stairs" x="212" y="568" width="16" height="16" rx="4"/>
-    <rect id="room-685ece4c64d88b655452174a2eab5cac50634a0a" class="room indoor" data-label="eastern stairs" x="262" y="616" width="16" height="16" rx="4"/>
-    <rect id="room-a6e332ad7573d40734523cc149dffd5c404a6cce" class="room indoor" data-label="lighting room" x="213" y="443" width="16" height="16" rx="4"/>
-    <rect id="room-faa29b8e282688b8fd32974fc1045595d316853e" class="room indoor" data-label="Templar&#x27;s room" x="236" y="591" width="16" height="16" rx="4"/>
-    <rect id="room-0368b75d0b0c36d01c4e0256700d2876f84390c2" class="room indoor" data-label="bell tower" x="257" y="567" width="16" height="16" rx="4"/>
-    <rect id="room-59622e6f43568cf700e373ae35c976fa4e05d305" class="room indoor" data-label="entrance to the Guild School" x="142" y="444" width="16" height="16" rx="4"/>
-    <rect id="room-a901ef2c3033c04368acddf33e11792697c01d3b" class="room indoor" data-label="small chapel" x="142" y="420" width="16" height="16" rx="4"/>
-    <rect id="room-6c68c089beeba77ed36eb12a6d1d98bf0c736010" class="room indoor" data-label="classroom" x="142" y="468" width="16" height="16" rx="4"/>
-    <rect id="room-234d5a9c14adeafdd05a0528fe682934382a0bc2" class="room indoor" data-label="end of a cramped corridor" x="118" y="444" width="16" height="16" rx="4"/>
-    <rect id="room-6c4072051a038b8f14a51371342f3ecdd0c6126e" class="room indoor" data-label="classroom" x="118" y="420" width="16" height="16" rx="4"/>
-    <rect id="room-4677c81ba509a9703973460e4d97ffafd4a59fa6" class="room indoor" data-label="small chapel" x="118" y="468" width="16" height="16" rx="4"/>
-    <rect id="room-8d58878fa4fdf27522121c5a7ae1e8aed4f6bde8" class="room indoor" data-label="dry and dusty room" x="94" y="444" width="16" height="16" rx="4"/>
+    <rect id="room-e59f1c8f73806c54b29c2823bd7f8de936647fe7" class="room indoor" data-label="entrance to the Temple of Blind Io" x="217" y="94" width="8" height="8" rx="2"/>
+    <rect id="room-390f28100270174173c2a6fdecfad543986f99dd" class="room indoor" data-label="hallway" x="217" y="68" width="8" height="8" rx="2"/>
+    <rect id="room-1b36457a8b9666e84b18536cc2de715dc48e520d" class="room indoor" data-label="hallway" x="217" y="44" width="8" height="8" rx="2"/>
+    <rect id="room-0f86278e418b8475036ed189582f8a2f77585f6f" class="room indoor" data-label="temple shop" x="241" y="44" width="8" height="8" rx="2"/>
+    <rect id="room-9edbe9ff1299403a0313f784ff97a2246bf5fdc9" class="room indoor" data-label="Low Altar of the Temple of Blind Io" x="217" y="20" width="8" height="8" rx="2"/>
+    <rect id="room-840b9c022df7df6517f9c6bfd0315f4ce02e4201" class="room indoor" data-label="hallway" x="193" y="44" width="8" height="8" rx="2"/>
+    <rect id="room-b3b83c6b6a793f4fd3d81ce9a7d14cfad1d3a655" class="room indoor" data-label="sheet shrouded room" x="193" y="20" width="8" height="8" rx="2"/>
+    <rect id="room-82904f67e9503c63145b4d6fed4c8e157926c827" class="room indoor" data-label="sheet shrouded room" x="193" y="68" width="8" height="8" rx="2"/>
+    <rect id="room-3e535794716371c5bcc29a037e7c08878b438f1a" class="room indoor" data-label="Main Hall of the Temple of Blind Io" x="169" y="44" width="8" height="8" rx="2"/>
+    <rect id="room-afaff16aec0303e7383b5cc17672d8935017be1a" class="room indoor" data-label="High Altar of the Temple of Blind Io" x="170" y="19" width="8" height="8" rx="2"/>
+    <rect id="room-0dd4f89a4a426dde74df94505e55c1e5410b0a0a" class="room indoor" data-label="entrance hall of the Temple of Small Gods" x="217" y="148" width="8" height="8" rx="2"/>
+    <rect id="room-51dc555b97c0906a20ab019418d273cc5685758d" class="room indoor" data-label="middle of the northern cloister" x="217" y="172" width="8" height="8" rx="2"/>
+    <rect id="room-fb46c0a576c3e718ff45d6e4a5a555b83370b574" class="room indoor" data-label="eastern end of the northern cloister" x="241" y="172" width="8" height="8" rx="2"/>
+    <rect id="room-edebe9f3675e53109b6497b4a326fc973d8e8d54" class="room indoor" data-label="northern end of the eastern cloister" x="265" y="196" width="8" height="8" rx="2"/>
+    <rect id="room-662e956094f4bc8f65c8ce96db1373874ccfeb62" class="room indoor" data-label="middle of the eastern cloister" x="265" y="220" width="8" height="8" rx="2"/>
+    <rect id="room-c66f072bc7efb4d407104437811ff5d2837cc2c6" class="room indoor" data-label="southern end of the eastern cloister" x="265" y="244" width="8" height="8" rx="2"/>
+    <rect id="room-aa3567d8f1daaf64766bb77fc899e395dd42acb0" class="room indoor" data-label="eastern end of the southern cloister" x="241" y="268" width="8" height="8" rx="2"/>
+    <rect id="room-d0ff2a012e90381b84804580923a68288eb40108" class="room indoor" data-label="southern cloister middle" x="217" y="268" width="8" height="8" rx="2"/>
+    <rect id="room-7c36d5df53870165969412fd05ab98bc6e1cc330" class="room indoor" data-label="southern cloister western end" x="193" y="268" width="8" height="8" rx="2"/>
+    <rect id="room-7ed3df2355f6e3c710dfec0824d25168bef069fc" class="room indoor" data-label="western cloister southern end" x="169" y="244" width="8" height="8" rx="2"/>
+    <rect id="room-544fe781bb2c61d5929c3dd383b9922bc7bb2dbc" class="room indoor" data-label="western cloister middle" x="169" y="220" width="8" height="8" rx="2"/>
+    <rect id="room-005358ac1865eb36d8edf7f20f78747cea36cf50" class="room indoor" data-label="northern end of the western cloister" x="169" y="196" width="8" height="8" rx="2"/>
+    <rect id="room-40281d78239b764bd8c4ae25b1624362cae501b4" class="room indoor" data-label="western end of the northern cloister" x="193" y="172" width="8" height="8" rx="2"/>
+    <rect id="room-09a11bdb16b8b9cecca0c27eca26b369612d0fce" class="room indoor" data-label="north of atrium centre" x="217" y="196" width="8" height="8" rx="2"/>
+    <rect id="room-cb5ac699e665dadaec86ee813ce133e98eabb6e5" class="room indoor" data-label="northwest from the atrium centre" x="193" y="196" width="8" height="8" rx="2"/>
+    <rect id="room-1c6bc24d4424b1fd112e1734fe2107f688ca786c" class="room indoor" data-label="northeast of atrium centre" x="241" y="196" width="8" height="8" rx="2"/>
+    <rect id="room-192d23f38d668bf08ea6da1800f16a012ed7edac" class="room indoor" data-label="point east from the atrium centre" x="241" y="220" width="8" height="8" rx="2"/>
+    <rect id="room-66554124844ec7ce36bf94728b529c27a2618016" class="room indoor" data-label="centre of the atrium" x="217" y="220" width="8" height="8" rx="2"/>
+    <rect id="room-0e51e445e88dd8c4d1fa00a255b1e7434e1c9665" class="room indoor" data-label="west from the atrium centre" x="193" y="220" width="8" height="8" rx="2"/>
+    <rect id="room-414166a6a246aac10ad531cbb6063bcc0beb1229" class="room indoor" data-label="southwest from the atrium centre" x="193" y="244" width="8" height="8" rx="2"/>
+    <rect id="room-15988c0c2a377ac3f71d5abd3b1ceaec3663b77c" class="room indoor" data-label="just south from the atrium centre" x="217" y="244" width="8" height="8" rx="2"/>
+    <rect id="room-56ae70f3fdd615d4cac42375c7a99e067660ab0a" class="room indoor" data-label="southeast from the atrium centre" x="241" y="244" width="8" height="8" rx="2"/>
+    <rect id="room-fbb5cc5bc3c8d26c0f98f350a85e322eb703ed9b" class="room indoor" data-label="western most point of the eastern corridor" x="289" y="220" width="8" height="8" rx="2"/>
+    <rect id="room-73606d2f232e5848ed98d21231789a89da7c3d73" class="room indoor" data-label="Chapel of Gapp" x="289" y="196" width="8" height="8" rx="2"/>
+    <rect id="room-0e122142f3840ef3d94a9261b59943275fbdeee9" class="room indoor" data-label="Chapel of Fish" x="289" y="244" width="8" height="8" rx="2"/>
+    <rect id="room-c2f0d5460dd5ab4aec118b337fae3e6b3dda35a2" class="room indoor" data-label="Chapel of Sandelfon" x="313" y="220" width="8" height="8" rx="2"/>
+    <rect id="room-e4e1b55860177ac149a3aa1b242c2e634bacb660" class="room indoor" data-label="Chapel of Sek" x="313" y="196" width="8" height="8" rx="2"/>
+    <rect id="room-f3e68cec5e839d9f52daab8adddeacece5dcf381" class="room indoor" data-label="Chapel of Gufnork" x="313" y="244" width="8" height="8" rx="2"/>
+    <rect id="room-c96a1222edd608455413dd81be109c6441e05628" class="room indoor" data-label="northern part of the temple gardens" x="339" y="220" width="8" height="8" rx="2"/>
+    <rect id="room-53bbbeac657eb23cca7dda93d208b34b30953941" class="room indoor" data-label="small garden" x="339" y="192" width="8" height="8" rx="2"/>
+    <rect id="room-18c958313f70590bbeb5102dfde60f196007cd6b" class="room indoor" data-label="middle part of the Temple gardens" x="339" y="263" width="8" height="8" rx="2"/>
+    <rect id="room-802aab6a05b134188dfc8540c0526b74a7521078" class="room indoor" data-label="bottom part of the Temple gardens" x="286" y="316" width="8" height="8" rx="2"/>
+    <rect id="room-26fce4c5b58cfacfdc3039b5e38b8fc1cf275129" class="room indoor" data-label="southernmost point of the southern corridor" x="217" y="316" width="8" height="8" rx="2"/>
+    <rect id="room-13c33a2610639d0964b07ea27c650c46c2bb2434" class="room indoor" data-label="relic shop" x="217" y="340" width="8" height="8" rx="2"/>
+    <rect id="room-96fbb85b40e6b5bf50eaea8f3da113a432a0b7a2" class="room indoor" data-label="Temple furniture shop" x="193" y="316" width="8" height="8" rx="2"/>
+    <rect id="room-6a6b7b9d0c115960d8994da4f9408b0f85a428b6" class="room indoor" data-label="northernmost point of the southern corridor" x="217" y="292" width="8" height="8" rx="2"/>
+    <rect id="room-06eacb063ebb4ef3627f778d92cdecd0089a78b1" class="room indoor" data-label="incense shop" x="193" y="292" width="8" height="8" rx="2"/>
+    <rect id="room-b4ef49ae5608c6cbf1440df70c1aef91d6f2e88b" class="room indoor" data-label="miscellaneous shop" x="241" y="292" width="8" height="8" rx="2"/>
+    <rect id="room-5eaac335035633da8e8024e5781fb39254a19dd1" class="room indoor" data-label="eastern most point of the western corridor" x="145" y="220" width="8" height="8" rx="2"/>
+    <rect id="room-3e48e4470f8cf37b3b79e383cc92b83b52c1ff4f" class="room indoor" data-label="voting office" x="145" y="196" width="8" height="8" rx="2"/>
+    <rect id="room-22cd5d99796e340f8a203693796f6bbe1013e580" class="room indoor" data-label="western most point of the western corridor" x="121" y="220" width="8" height="8" rx="2"/>
+    <rect id="room-9e777568bcddba90e800b0a136acbdd3cea4c9e1" class="room indoor" data-label="small chapel" x="121" y="196" width="8" height="8" rx="2"/>
+    <rect id="room-2b9cc2386e4e280d3a89737da4c44d38c360c87a" class="room indoor" data-label="temporary filing room" x="121" y="244" width="8" height="8" rx="2"/>
+    <rect id="room-87e8845db8ddbc2bd00d4c85c289ff3a8c984041" class="room indoor" data-label="deep filing room" x="121" y="268" width="8" height="8" rx="2"/>
+    <rect id="room-456ea310bcdfab6567c0add915c1c6289d2d21ef" class="room indoor" data-label="middle west part of the gallery" x="170" y="448" width="8" height="8" rx="2"/>
+    <rect id="room-7f13275b37c05a12cc40b727f9a8069c9c92679d" class="room indoor" data-label="top west part of the gallery" x="170" y="424" width="8" height="8" rx="2"/>
+    <rect id="room-8e358f76959309baabf44c5ee9a9f0d0c277e9c7" class="room indoor" data-label="northwest part of the gallery" x="194" y="400" width="8" height="8" rx="2"/>
+    <rect id="room-95d31d7b4b608eabb4e614bb4c4d1c643a990b6b" class="room indoor" data-label="north part of the gallery" x="218" y="400" width="8" height="8" rx="2"/>
+    <rect id="room-c7d0f30d51ab5d65aeccecce83d8f9e8669c7fba" class="room indoor" data-label="northeast part of the gallery" x="242" y="400" width="8" height="8" rx="2"/>
+    <rect id="room-961597a1e87c3535e207b0555685d7801a06661b" class="room indoor" data-label="top eastern part of the gallery" x="266" y="424" width="8" height="8" rx="2"/>
+    <rect id="room-5ea7c3f389db8fbd7297be18e642a3c63b494252" class="room indoor" data-label="middle part of the eastern gallery" x="266" y="448" width="8" height="8" rx="2"/>
+    <rect id="room-436d3631fed4edd5aa983ae00da6a75518346c18" class="room indoor" data-label="southern part of the eastern gallery" x="266" y="472" width="8" height="8" rx="2"/>
+    <rect id="room-7d728758e48ac00b3a6059f12ed7c4640730d6d9" class="room indoor" data-label="southeastern part of the gallery" x="242" y="496" width="8" height="8" rx="2"/>
+    <rect id="room-3d71496a59f5a866a7642874033154019f7f7aca" class="room indoor" data-label="south part of the gallery" x="218" y="496" width="8" height="8" rx="2"/>
+    <rect id="room-f53a8836c3902d19114cdbd734718bce981caafc" class="room indoor" data-label="southwest part of the gallery" x="194" y="496" width="8" height="8" rx="2"/>
+    <rect id="room-12e840d363e9b7545ba4f763eaf874ebc454bd16" class="room indoor" data-label="bottom west part of the gallery" x="170" y="472" width="8" height="8" rx="2"/>
+    <rect id="room-36e95c9526b828565b4b4a28d60b289b5c0a95bf" class="room indoor" data-label="southern stairs" x="217" y="667" width="8" height="8" rx="2"/>
+    <rect id="room-4a2aeb66873fd7edb8a80a9efddb99b0bd9ba66e" class="room indoor" data-label="stair connector" x="217" y="620" width="8" height="8" rx="2"/>
+    <rect id="room-d1a22f7425988121051e70138693817f7cb92a6b" class="room indoor" data-label="western stairs" x="168" y="619" width="8" height="8" rx="2"/>
+    <rect id="room-fdec4bf87f80ee0fcb594e2a7851a510e15933de" class="room indoor" data-label="northern stairs" x="216" y="572" width="8" height="8" rx="2"/>
+    <rect id="room-685ece4c64d88b655452174a2eab5cac50634a0a" class="room indoor" data-label="eastern stairs" x="266" y="620" width="8" height="8" rx="2"/>
+    <rect id="room-a6e332ad7573d40734523cc149dffd5c404a6cce" class="room indoor" data-label="lighting room" x="217" y="447" width="8" height="8" rx="2"/>
+    <rect id="room-faa29b8e282688b8fd32974fc1045595d316853e" class="room indoor" data-label="Templar&#x27;s room" x="240" y="595" width="8" height="8" rx="2"/>
+    <rect id="room-0368b75d0b0c36d01c4e0256700d2876f84390c2" class="room indoor" data-label="bell tower" x="261" y="571" width="8" height="8" rx="2"/>
+    <rect id="room-59622e6f43568cf700e373ae35c976fa4e05d305" class="room indoor" data-label="entrance to the Guild School" x="146" y="448" width="8" height="8" rx="2"/>
+    <rect id="room-a901ef2c3033c04368acddf33e11792697c01d3b" class="room indoor" data-label="small chapel" x="146" y="424" width="8" height="8" rx="2"/>
+    <rect id="room-6c68c089beeba77ed36eb12a6d1d98bf0c736010" class="room indoor" data-label="classroom" x="146" y="472" width="8" height="8" rx="2"/>
+    <rect id="room-234d5a9c14adeafdd05a0528fe682934382a0bc2" class="room indoor" data-label="end of a cramped corridor" x="122" y="448" width="8" height="8" rx="2"/>
+    <rect id="room-6c4072051a038b8f14a51371342f3ecdd0c6126e" class="room indoor" data-label="classroom" x="122" y="424" width="8" height="8" rx="2"/>
+    <rect id="room-4677c81ba509a9703973460e4d97ffafd4a59fa6" class="room indoor" data-label="small chapel" x="122" y="472" width="8" height="8" rx="2"/>
+    <rect id="room-8d58878fa4fdf27522121c5a7ae1e8aed4f6bde8" class="room indoor" data-label="dry and dusty room" x="98" y="448" width="8" height="8" rx="2"/>
   </g>
 
-  <g id="layer-labels">
-    <text class="map-label" x="221" y="86">entrance to the Temple of Blind Io</text>
-    <text class="map-label" x="221" y="60">hallway</text>
-    <text class="map-label" x="221" y="36">hallway</text>
-    <text class="map-label" x="245" y="36">temple shop</text>
-    <text class="map-label" x="221" y="12">Low Altar of the Temple of Blind Io</text>
-    <text class="map-label" x="197" y="36">hallway</text>
-    <text class="map-label" x="197" y="12">sheet shrouded room</text>
-    <text class="map-label" x="197" y="60">sheet shrouded room</text>
-    <text class="map-label" x="173" y="36">Main Hall of the Temple of Blind Io</text>
-    <text class="map-label" x="174" y="11">High Altar of the Temple of Blind Io</text>
-    <text class="map-label" x="221" y="140">entrance hall of the Temple of Small Gods</text>
-    <text class="map-label" x="221" y="164">middle of the northern cloister</text>
-    <text class="map-label" x="245" y="164">eastern end of the northern cloister</text>
-    <text class="map-label" x="269" y="188">northern end of the eastern cloister</text>
-    <text class="map-label" x="269" y="212">middle of the eastern cloister</text>
-    <text class="map-label" x="269" y="236">southern end of the eastern cloister</text>
-    <text class="map-label" x="245" y="260">eastern end of the southern cloister</text>
-    <text class="map-label" x="221" y="260">southern cloister middle</text>
-    <text class="map-label" x="197" y="260">southern cloister western end</text>
-    <text class="map-label" x="173" y="236">western cloister southern end</text>
-    <text class="map-label" x="173" y="212">western cloister middle</text>
-    <text class="map-label" x="173" y="188">northern end of the western cloister</text>
-    <text class="map-label" x="197" y="164">western end of the northern cloister</text>
-    <text class="map-label" x="221" y="188">north of atrium centre</text>
-    <text class="map-label" x="197" y="188">northwest from the atrium centre</text>
-    <text class="map-label" x="245" y="188">northeast of atrium centre</text>
-    <text class="map-label" x="245" y="212">point east from the atrium centre</text>
-    <text class="map-label" x="221" y="212">centre of the atrium</text>
-    <text class="map-label" x="197" y="212">west from the atrium centre</text>
-    <text class="map-label" x="197" y="236">southwest from the atrium centre</text>
-    <text class="map-label" x="221" y="236">just south from the atrium centre</text>
-    <text class="map-label" x="245" y="236">southeast from the atrium centre</text>
-    <text class="map-label" x="293" y="212">western most point of the eastern corridor</text>
-    <text class="map-label" x="293" y="188">Chapel of Gapp</text>
-    <text class="map-label" x="293" y="236">Chapel of Fish</text>
-    <text class="map-label" x="317" y="212">Chapel of Sandelfon</text>
-    <text class="map-label" x="317" y="188">Chapel of Sek</text>
-    <text class="map-label" x="317" y="236">Chapel of Gufnork</text>
-    <text class="map-label" x="343" y="212">northern part of the temple gardens</text>
-    <text class="map-label" x="343" y="184">small garden</text>
-    <text class="map-label" x="343" y="255">middle part of the Temple gardens</text>
-    <text class="map-label" x="290" y="308">bottom part of the Temple gardens</text>
-    <text class="map-label" x="221" y="308">southernmost point of the southern corridor</text>
-    <text class="map-label" x="221" y="332">relic shop</text>
-    <text class="map-label" x="197" y="308">Temple furniture shop</text>
-    <text class="map-label" x="221" y="284">northernmost point of the southern corridor</text>
-    <text class="map-label" x="197" y="284">incense shop</text>
-    <text class="map-label" x="245" y="284">miscellaneous shop</text>
-    <text class="map-label" x="149" y="212">eastern most point of the western corridor</text>
-    <text class="map-label" x="149" y="188">voting office</text>
-    <text class="map-label" x="125" y="212">western most point of the western corridor</text>
-    <text class="map-label" x="125" y="188">small chapel</text>
-    <text class="map-label" x="125" y="236">temporary filing room</text>
-    <text class="map-label" x="125" y="260">deep filing room</text>
-    <text class="map-label" x="174" y="440">middle west part of the gallery</text>
-    <text class="map-label" x="174" y="416">top west part of the gallery</text>
-    <text class="map-label" x="198" y="392">northwest part of the gallery</text>
-    <text class="map-label" x="222" y="392">north part of the gallery</text>
-    <text class="map-label" x="246" y="392">northeast part of the gallery</text>
-    <text class="map-label" x="270" y="416">top eastern part of the gallery</text>
-    <text class="map-label" x="270" y="440">middle part of the eastern gallery</text>
-    <text class="map-label" x="270" y="464">southern part of the eastern gallery</text>
-    <text class="map-label" x="246" y="488">southeastern part of the gallery</text>
-    <text class="map-label" x="222" y="488">south part of the gallery</text>
-    <text class="map-label" x="198" y="488">southwest part of the gallery</text>
-    <text class="map-label" x="174" y="464">bottom west part of the gallery</text>
-    <text class="map-label" x="221" y="659">southern stairs</text>
-    <text class="map-label" x="221" y="612">stair connector</text>
-    <text class="map-label" x="172" y="611">western stairs</text>
-    <text class="map-label" x="220" y="564">northern stairs</text>
-    <text class="map-label" x="270" y="612">eastern stairs</text>
-    <text class="map-label" x="221" y="439">lighting room</text>
-    <text class="map-label" x="244" y="587">Templar&#x27;s room</text>
-    <text class="map-label" x="265" y="563">bell tower</text>
-    <text class="map-label" x="150" y="440">entrance to the Guild School</text>
-    <text class="map-label" x="150" y="416">small chapel</text>
-    <text class="map-label" x="150" y="464">classroom</text>
-    <text class="map-label" x="126" y="440">end of a cramped corridor</text>
-    <text class="map-label" x="126" y="416">classroom</text>
-    <text class="map-label" x="126" y="464">small chapel</text>
-    <text class="map-label" x="102" y="440">dry and dusty room</text>
-  </g>
+  <g id="layer-labels"><!-- labels --></g>
 
 </svg>

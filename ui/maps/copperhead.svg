@@ -49,85 +49,46 @@
   </g>
 
   <g id="layer-rooms">
-    <circle id="room-0599afdbf4ccd7fa337394294d59506135dc5dd8" class="room outdoor" data-label="northwest corner of the Copperhead village square" cx="55" cy="47" r="8"/>
-    <circle id="room-69b0d9b6e6e2d1d3045b9b563cf39478a84a94b0" class="room outdoor" data-label="southwest corner of the Copperhead village square" cx="55" cy="61" r="8"/>
-    <circle id="room-6ae6278cf740bf60fd8d6d39fc77860fce85e8ca" class="room outdoor" data-label="southeast corner of the Copperhead village square" cx="69" cy="61" r="8"/>
-    <circle id="room-cb58661deea9f3d7e0a360a1ead16206c9d60eb6" class="room outdoor" data-label="northeast corner of the Copperhead village square" cx="69" cy="47" r="8"/>
-    <circle id="room-ee2bb6f40b325607285b0508906568a37314a98b" class="room outdoor" data-label="smithy" cx="55" cy="36" r="8"/>
-    <circle id="room-dd3b8b435c2620b459aabf4c1dcd1c8bd791d74c" class="room outdoor" data-label="broomstick shop" cx="69" cy="36" r="8"/>
-    <circle id="room-d2b53366511991f11de8874a3598a0267707a8b8" class="room outdoor" data-label="high altar of Sandelfon in Copperhead" cx="80" cy="47" r="8"/>
-    <circle id="room-49d92a9de117843c348cce0d52d0dd99309c0ac8" class="room outdoor" data-label="rickety stall" cx="67" cy="59" r="8"/>
-    <circle id="room-68c387d1c69b7e89da999ebbf8bc4a9d3d595f92" class="room outdoor" data-label="north end of Granite Street" cx="55" cy="75" r="8"/>
-    <circle id="room-a23f2a5acd4c5f57617d551e012cd907699ea01c" class="room outdoor" data-label="south end of Granite Street" cx="55" cy="89" r="8"/>
-    <circle id="room-960fcf86a8751c922cbd4328e298188169491afe" class="room outdoor" data-label="cottage" cx="66" cy="89" r="8"/>
-    <circle id="room-795b66503f2575895150d078cb8f42d7065fc38a" class="room outdoor" data-label="Beard and Badger" cx="44" cy="75" r="8"/>
-    <circle id="room-8f19a7ebbef505bb2e5803a318f3cff2bbe5b9b4" class="room outdoor" data-label="garden of the Beard and Badger" cx="33" cy="75" r="8"/>
-    <circle id="room-5971d2fff7558b7b9992832b15d4690389123f9d" class="room outdoor" data-label="kitchen of the Beard and Badger" cx="44" cy="64" r="8"/>
-    <circle id="room-dbe91b4395adce5e7969a90f5a5a40468c57ab66" class="room outdoor" data-label="kitchen garden of the Beard and Badger" cx="33" cy="64" r="8"/>
-    <circle id="room-554347c9d007fcbde57c82f53c156469588bb710" class="room outdoor" data-label="path to the mines" cx="83" cy="75" r="8"/>
-    <circle id="room-5b5c6ad5183c287d4d87e00df3ecf6e663a88c64" class="room outdoor" data-label="path to the mines" cx="83" cy="89" r="8"/>
-    <circle id="room-204e80045f0e590c57df02bea7f79469606178ba" class="room outdoor" data-label="entrance to a tunnel" cx="97" cy="103" r="8"/>
-    <circle id="room-9a5fd127925511ee2bab86eb7c1e6774e4c95ce4" class="room outdoor" data-label="busy intersection" cx="164" cy="92" r="8"/>
-    <circle id="room-679bd4d42bcf95d4bb42053278997bd32be82341" class="room outdoor" data-label="tunnel to Mineshaft Five" cx="164" cy="80" r="8"/>
-    <circle id="room-1b730b1b2da14ce71e06a49dae4de442517cbf25" class="room outdoor" data-label="tunnel to Mineshaft Five" cx="164" cy="68" r="8"/>
-    <circle id="room-d4fa95f42e2971fc03debb0d5aa11373b92c367b" class="room outdoor" data-label="tunnel to Mineshaft Five" cx="164" cy="56" r="8"/>
-    <circle id="room-aca81468bd2e4d700397d5c57c5dde2b9c0c9ecc" class="room outdoor" data-label="tunnel to Mineshaft Five" cx="164" cy="44" r="8"/>
-    <circle id="room-eaa1216480796741b7068944c0273f980e7d2dd5" class="room outdoor" data-label="entrance to Mineshaft Five" cx="164" cy="32" r="8"/>
-    <circle id="room-516f7c964d1491ea62368322ce7dbd31a19967de" class="room outdoor" data-label="tunnel to Mineshaft Four" cx="176" cy="80" r="8"/>
-    <circle id="room-a6d36480d5a771cb77be5863767eee01515288a2" class="room outdoor" data-label="tunnel to Mineshaft Four" cx="188" cy="68" r="8"/>
-    <circle id="room-fba09597be80d95ecc66e9b98e9d4bb59cd18179" class="room outdoor" data-label="tunnel to Mineshaft Four" cx="200" cy="56" r="8"/>
-    <circle id="room-75ae5fc6d2b87ea9d4da8974a2f36b0b5cb18cf5" class="room outdoor" data-label="entrance to Mineshaft Four" cx="212" cy="44" r="8"/>
-    <circle id="room-3c394735809737e75e9d4ee3264b90879e1fa34a" class="room outdoor" data-label="entrance to Mineshaft One" cx="152" cy="104" r="8"/>
-    <circle id="room-237273ce6444e078c76c0f4275d4c66ea81811a3" class="room outdoor" data-label="tunnel to Mineshaft Three" cx="176" cy="92" r="8"/>
-    <circle id="room-6f725b7b9945336162e684661e6c8c5e149d71b3" class="room outdoor" data-label="tunnel to Mineshaft Three" cx="188" cy="92" r="8"/>
-    <circle id="room-dfd67a82b490b024b1c07d9ae943d782ee0d92e7" class="room outdoor" data-label="entrance to Mineshaft Three" cx="200" cy="92" r="8"/>
-    <circle id="room-93c1bd3dbd290cd1ce24823e91b251702fe39c2a" class="room outdoor" data-label="tunnel to Mineshaft Two" cx="164" cy="104" r="8"/>
-    <circle id="room-bedb0e8c1dbf3964b432d856edd5efffcf2bd761" class="room outdoor" data-label="entrance to Mineshaft Two" cx="164" cy="116" r="8"/>
-    <circle id="room-78ab12b18ef21b8b875c848aa1c31a48fe10f546" class="room outdoor" data-label="[player shop]" cx="55" cy="47" r="8"/>
-    <circle id="room-226b431202e3a3ea0a4c300b289f15919bd77e95" class="room outdoor" data-label="holy corridor" cx="80" cy="57" r="8"/>
-    <circle id="room-6a1f57c4aa89cd8ef1f3957ffd0b632186cfe387" class="room outdoor" data-label="[player house]" cx="66" cy="89" r="8"/>
-    <circle id="room-324b719668052bcfda759a1e8d6eebbb2e26bf65" class="room outdoor" data-label="[player house]" cx="66" cy="89" r="8"/>
+    <circle id="room-0599afdbf4ccd7fa337394294d59506135dc5dd8" class="room outdoor" data-label="northwest corner of the Copperhead village square" cx="55" cy="47" r="4"/>
+    <circle id="room-69b0d9b6e6e2d1d3045b9b563cf39478a84a94b0" class="room outdoor" data-label="southwest corner of the Copperhead village square" cx="55" cy="61" r="4"/>
+    <circle id="room-6ae6278cf740bf60fd8d6d39fc77860fce85e8ca" class="room outdoor" data-label="southeast corner of the Copperhead village square" cx="69" cy="61" r="4"/>
+    <circle id="room-cb58661deea9f3d7e0a360a1ead16206c9d60eb6" class="room outdoor" data-label="northeast corner of the Copperhead village square" cx="69" cy="47" r="4"/>
+    <circle id="room-ee2bb6f40b325607285b0508906568a37314a98b" class="room outdoor" data-label="smithy" cx="55" cy="36" r="4"/>
+    <circle id="room-dd3b8b435c2620b459aabf4c1dcd1c8bd791d74c" class="room outdoor" data-label="broomstick shop" cx="69" cy="36" r="4"/>
+    <circle id="room-d2b53366511991f11de8874a3598a0267707a8b8" class="room outdoor" data-label="high altar of Sandelfon in Copperhead" cx="80" cy="47" r="4"/>
+    <circle id="room-49d92a9de117843c348cce0d52d0dd99309c0ac8" class="room outdoor" data-label="rickety stall" cx="67" cy="59" r="4"/>
+    <circle id="room-68c387d1c69b7e89da999ebbf8bc4a9d3d595f92" class="room outdoor" data-label="north end of Granite Street" cx="55" cy="75" r="4"/>
+    <circle id="room-a23f2a5acd4c5f57617d551e012cd907699ea01c" class="room outdoor" data-label="south end of Granite Street" cx="55" cy="89" r="4"/>
+    <circle id="room-960fcf86a8751c922cbd4328e298188169491afe" class="room outdoor" data-label="cottage" cx="66" cy="89" r="4"/>
+    <circle id="room-795b66503f2575895150d078cb8f42d7065fc38a" class="room outdoor" data-label="Beard and Badger" cx="44" cy="75" r="4"/>
+    <circle id="room-8f19a7ebbef505bb2e5803a318f3cff2bbe5b9b4" class="room outdoor" data-label="garden of the Beard and Badger" cx="33" cy="75" r="4"/>
+    <circle id="room-5971d2fff7558b7b9992832b15d4690389123f9d" class="room outdoor" data-label="kitchen of the Beard and Badger" cx="44" cy="64" r="4"/>
+    <circle id="room-dbe91b4395adce5e7969a90f5a5a40468c57ab66" class="room outdoor" data-label="kitchen garden of the Beard and Badger" cx="33" cy="64" r="4"/>
+    <circle id="room-554347c9d007fcbde57c82f53c156469588bb710" class="room outdoor" data-label="path to the mines" cx="83" cy="75" r="4"/>
+    <circle id="room-5b5c6ad5183c287d4d87e00df3ecf6e663a88c64" class="room outdoor" data-label="path to the mines" cx="83" cy="89" r="4"/>
+    <circle id="room-204e80045f0e590c57df02bea7f79469606178ba" class="room outdoor" data-label="entrance to a tunnel" cx="97" cy="103" r="4"/>
+    <circle id="room-9a5fd127925511ee2bab86eb7c1e6774e4c95ce4" class="room outdoor" data-label="busy intersection" cx="164" cy="92" r="4"/>
+    <circle id="room-679bd4d42bcf95d4bb42053278997bd32be82341" class="room outdoor" data-label="tunnel to Mineshaft Five" cx="164" cy="80" r="4"/>
+    <circle id="room-1b730b1b2da14ce71e06a49dae4de442517cbf25" class="room outdoor" data-label="tunnel to Mineshaft Five" cx="164" cy="68" r="4"/>
+    <circle id="room-d4fa95f42e2971fc03debb0d5aa11373b92c367b" class="room outdoor" data-label="tunnel to Mineshaft Five" cx="164" cy="56" r="4"/>
+    <circle id="room-aca81468bd2e4d700397d5c57c5dde2b9c0c9ecc" class="room outdoor" data-label="tunnel to Mineshaft Five" cx="164" cy="44" r="4"/>
+    <circle id="room-eaa1216480796741b7068944c0273f980e7d2dd5" class="room outdoor" data-label="entrance to Mineshaft Five" cx="164" cy="32" r="4"/>
+    <circle id="room-516f7c964d1491ea62368322ce7dbd31a19967de" class="room outdoor" data-label="tunnel to Mineshaft Four" cx="176" cy="80" r="4"/>
+    <circle id="room-a6d36480d5a771cb77be5863767eee01515288a2" class="room outdoor" data-label="tunnel to Mineshaft Four" cx="188" cy="68" r="4"/>
+    <circle id="room-fba09597be80d95ecc66e9b98e9d4bb59cd18179" class="room outdoor" data-label="tunnel to Mineshaft Four" cx="200" cy="56" r="4"/>
+    <circle id="room-75ae5fc6d2b87ea9d4da8974a2f36b0b5cb18cf5" class="room outdoor" data-label="entrance to Mineshaft Four" cx="212" cy="44" r="4"/>
+    <circle id="room-3c394735809737e75e9d4ee3264b90879e1fa34a" class="room outdoor" data-label="entrance to Mineshaft One" cx="152" cy="104" r="4"/>
+    <circle id="room-237273ce6444e078c76c0f4275d4c66ea81811a3" class="room outdoor" data-label="tunnel to Mineshaft Three" cx="176" cy="92" r="4"/>
+    <circle id="room-6f725b7b9945336162e684661e6c8c5e149d71b3" class="room outdoor" data-label="tunnel to Mineshaft Three" cx="188" cy="92" r="4"/>
+    <circle id="room-dfd67a82b490b024b1c07d9ae943d782ee0d92e7" class="room outdoor" data-label="entrance to Mineshaft Three" cx="200" cy="92" r="4"/>
+    <circle id="room-93c1bd3dbd290cd1ce24823e91b251702fe39c2a" class="room outdoor" data-label="tunnel to Mineshaft Two" cx="164" cy="104" r="4"/>
+    <circle id="room-bedb0e8c1dbf3964b432d856edd5efffcf2bd761" class="room outdoor" data-label="entrance to Mineshaft Two" cx="164" cy="116" r="4"/>
+    <circle id="room-78ab12b18ef21b8b875c848aa1c31a48fe10f546" class="room outdoor" data-label="[player shop]" cx="55" cy="47" r="4"/>
+    <circle id="room-226b431202e3a3ea0a4c300b289f15919bd77e95" class="room outdoor" data-label="holy corridor" cx="80" cy="57" r="4"/>
+    <circle id="room-6a1f57c4aa89cd8ef1f3957ffd0b632186cfe387" class="room outdoor" data-label="[player house]" cx="66" cy="89" r="4"/>
+    <circle id="room-324b719668052bcfda759a1e8d6eebbb2e26bf65" class="room outdoor" data-label="[player house]" cx="66" cy="89" r="4"/>
   </g>
 
-  <g id="layer-labels">
-    <text class="map-label" x="55" y="35">northwest corner of the Copperhead village square</text>
-    <text class="map-label" x="55" y="49">southwest corner of the Copperhead village square</text>
-    <text class="map-label" x="69" y="49">southeast corner of the Copperhead village square</text>
-    <text class="map-label" x="69" y="35">northeast corner of the Copperhead village square</text>
-    <text class="map-label" x="55" y="24">smithy</text>
-    <text class="map-label" x="69" y="24">broomstick shop</text>
-    <text class="map-label" x="80" y="35">high altar of Sandelfon in Copperhead</text>
-    <text class="map-label" x="67" y="47">rickety stall</text>
-    <text class="map-label" x="55" y="63">north end of Granite Street</text>
-    <text class="map-label" x="55" y="77">south end of Granite Street</text>
-    <text class="map-label" x="66" y="77">cottage</text>
-    <text class="map-label" x="44" y="63">Beard and Badger</text>
-    <text class="map-label" x="33" y="63">garden of the Beard and Badger</text>
-    <text class="map-label" x="44" y="52">kitchen of the Beard and Badger</text>
-    <text class="map-label" x="33" y="52">kitchen garden of the Beard and Badger</text>
-    <text class="map-label" x="83" y="63">path to the mines</text>
-    <text class="map-label" x="83" y="77">path to the mines</text>
-    <text class="map-label" x="97" y="91">entrance to a tunnel</text>
-    <text class="map-label" x="164" y="80">busy intersection</text>
-    <text class="map-label" x="164" y="68">tunnel to Mineshaft Five</text>
-    <text class="map-label" x="164" y="56">tunnel to Mineshaft Five</text>
-    <text class="map-label" x="164" y="44">tunnel to Mineshaft Five</text>
-    <text class="map-label" x="164" y="32">tunnel to Mineshaft Five</text>
-    <text class="map-label" x="164" y="20">entrance to Mineshaft Five</text>
-    <text class="map-label" x="176" y="68">tunnel to Mineshaft Four</text>
-    <text class="map-label" x="188" y="56">tunnel to Mineshaft Four</text>
-    <text class="map-label" x="200" y="44">tunnel to Mineshaft Four</text>
-    <text class="map-label" x="212" y="32">entrance to Mineshaft Four</text>
-    <text class="map-label" x="152" y="92">entrance to Mineshaft One</text>
-    <text class="map-label" x="176" y="80">tunnel to Mineshaft Three</text>
-    <text class="map-label" x="188" y="80">tunnel to Mineshaft Three</text>
-    <text class="map-label" x="200" y="80">entrance to Mineshaft Three</text>
-    <text class="map-label" x="164" y="92">tunnel to Mineshaft Two</text>
-    <text class="map-label" x="164" y="104">entrance to Mineshaft Two</text>
-    <text class="map-label" x="55" y="35">[player shop]</text>
-    <text class="map-label" x="80" y="45">holy corridor</text>
-    <text class="map-label" x="66" y="77">[player house]</text>
-    <text class="map-label" x="66" y="77">[player house]</text>
-  </g>
+  <g id="layer-labels"><!-- labels --></g>
 
 </svg>

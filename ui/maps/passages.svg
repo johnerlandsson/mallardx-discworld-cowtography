@@ -10,23 +10,15 @@
   </g>
 
   <g id="layer-rooms">
-    <rect id="room-e261da3b6304b3cc50553bbf6878117278810765" class="room indoor" data-label="Pishe&#x27;s moorlands" x="30" y="65" width="16" height="16" rx="4"/>
-    <rect id="room-cf2a7dcb17ff6a3a4693cdf906dc73cb083eb964" class="room indoor" data-label="Hat&#x27;s chamber" x="134" y="20" width="16" height="16" rx="4"/>
-    <rect id="room-4c8f5a4c8890b674e62db6cb15d72e50103fcc26" class="room indoor" data-label="Gufnork&#x27;s chamber" x="97" y="20" width="16" height="16" rx="4"/>
-    <rect id="room-49ee43a936c1fce7958802a340afd82e388cf596" class="room indoor" data-label="Gapp&#x27;s chamber" x="60" y="20" width="16" height="16" rx="4"/>
-    <rect id="room-fdf99c4e3d6487f952140fa48752ec154bf5c876" class="room indoor" data-label="Sandelfon&#x27;s chamber" x="72" y="65" width="16" height="16" rx="4"/>
-    <rect id="room-f85434e3c014e5c9b6bf9210c03623fc273792ca" class="room indoor" data-label="Fish&#x27;s chamber" x="18" y="20" width="16" height="16" rx="4"/>
-    <rect id="room-8fa09bbc734b0972fa7f7eabca3edc8c62a38bdf" class="room indoor" data-label="Sek&#x27;s chamber" x="112" y="65" width="16" height="16" rx="4"/>
+    <rect id="room-e261da3b6304b3cc50553bbf6878117278810765" class="room indoor" data-label="Pishe&#x27;s moorlands" x="34" y="69" width="8" height="8" rx="2"/>
+    <rect id="room-cf2a7dcb17ff6a3a4693cdf906dc73cb083eb964" class="room indoor" data-label="Hat&#x27;s chamber" x="138" y="24" width="8" height="8" rx="2"/>
+    <rect id="room-4c8f5a4c8890b674e62db6cb15d72e50103fcc26" class="room indoor" data-label="Gufnork&#x27;s chamber" x="101" y="24" width="8" height="8" rx="2"/>
+    <rect id="room-49ee43a936c1fce7958802a340afd82e388cf596" class="room indoor" data-label="Gapp&#x27;s chamber" x="64" y="24" width="8" height="8" rx="2"/>
+    <rect id="room-fdf99c4e3d6487f952140fa48752ec154bf5c876" class="room indoor" data-label="Sandelfon&#x27;s chamber" x="76" y="69" width="8" height="8" rx="2"/>
+    <rect id="room-f85434e3c014e5c9b6bf9210c03623fc273792ca" class="room indoor" data-label="Fish&#x27;s chamber" x="22" y="24" width="8" height="8" rx="2"/>
+    <rect id="room-8fa09bbc734b0972fa7f7eabca3edc8c62a38bdf" class="room indoor" data-label="Sek&#x27;s chamber" x="116" y="69" width="8" height="8" rx="2"/>
   </g>
 
-  <g id="layer-labels">
-    <text class="map-label" x="38" y="61">Pishe&#x27;s moorlands</text>
-    <text class="map-label" x="142" y="16">Hat&#x27;s chamber</text>
-    <text class="map-label" x="105" y="16">Gufnork&#x27;s chamber</text>
-    <text class="map-label" x="68" y="16">Gapp&#x27;s chamber</text>
-    <text class="map-label" x="80" y="61">Sandelfon&#x27;s chamber</text>
-    <text class="map-label" x="26" y="16">Fish&#x27;s chamber</text>
-    <text class="map-label" x="120" y="61">Sek&#x27;s chamber</text>
-  </g>
+  <g id="layer-labels"><!-- labels --></g>
 
 </svg>

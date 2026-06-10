@@ -98,181 +98,94 @@
   </g>
 
   <g id="layer-rooms">
-    <rect id="room-8817da35e947db5de18a5cb513f64f32812d34a9" class="room indoor" data-label="Portico of the Thieves&#x27; Guild Building" x="451" y="292" width="16" height="16" rx="4"/>
-    <rect id="room-fca4d62329576c1387d4c7e0299abd6adc3b10f6" class="room indoor" data-label="entrance hall of the Thieves&#x27; Guild" x="423" y="292" width="16" height="16" rx="4"/>
-    <rect id="room-3acd32d8e006a8aba5ae772b0fd8473aed00cbab" class="room indoor" data-label="entrance hall of the Thieves&#x27; Guild" x="423" y="320" width="16" height="16" rx="4"/>
-    <rect id="room-53818160d0841388eb28ab67b21b5c3a02e888a0" class="room indoor" data-label="overgrown garden" x="423" y="348" width="16" height="16" rx="4"/>
-    <rect id="room-d40cc7b20aea8ae2780793201326db32d6d6bf78" class="room indoor" data-label="untended garden" x="395" y="348" width="16" height="16" rx="4"/>
-    <rect id="room-33870a9619a9f3cc71e9c5713707c341710171e5" class="room indoor" data-label="overgrown garden" x="367" y="348" width="16" height="16" rx="4"/>
-    <rect id="room-7c0173078c9a0d5adc831ab0ea79f734fadc4613" class="room indoor" data-label="overgrown garden" x="339" y="348" width="16" height="16" rx="4"/>
-    <rect id="room-c3d65549c97783dc9b6a7e987386c76aafa858ac" class="room indoor" data-label="overgrown garden" x="311" y="348" width="16" height="16" rx="4"/>
-    <rect id="room-8043c78ce28affbb05790b079a210684dadde552" class="room indoor" data-label="corridor in the Thieves&#x27; Guild" x="311" y="320" width="16" height="16" rx="4"/>
-    <rect id="room-35c22aacce452fbad3b15f329fe9a93f66f30555" class="room indoor" data-label="corridor in the Thieves&#x27; Guild" x="311" y="292" width="16" height="16" rx="4"/>
-    <rect id="room-9f73260d85556ae9502be864df413d47de1c0e6d" class="room indoor" data-label="corridor in the Thieves&#x27; Guild" x="311" y="264" width="16" height="16" rx="4"/>
-    <rect id="room-f23755a5e337810ee11656003bcb2340ec3e6639" class="room indoor" data-label="guild gardens" x="311" y="236" width="16" height="16" rx="4"/>
-    <rect id="room-e636a280cb61550cdeff91f633e9b7a612e06975" class="room indoor" data-label="guild gardens" x="339" y="236" width="16" height="16" rx="4"/>
-    <rect id="room-e6716783008f7d6e28886c89162b6b823b2c560e" class="room indoor" data-label="guild gardens" x="367" y="236" width="16" height="16" rx="4"/>
-    <rect id="room-48e1b7db3a709aa24f4c09919b9b01e97aed855d" class="room indoor" data-label="guild gardens" x="395" y="236" width="16" height="16" rx="4"/>
-    <rect id="room-0c7d64e577c1799d05d298a8a29380320fa41650" class="room indoor" data-label="guild gardens" x="423" y="236" width="16" height="16" rx="4"/>
-    <rect id="room-3cff37dbf56975096f9cac42b5d222286bce8648" class="room indoor" data-label="entrance hall of the Thieves&#x27; Guild" x="423" y="264" width="16" height="16" rx="4"/>
-    <rect id="room-4e2c1bddc2d6984c71face8ae41588cbdb15cc65" class="room indoor" data-label="corridor in the Thieves&#x27; Guild" x="395" y="292" width="16" height="16" rx="4"/>
-    <rect id="room-79002da3efa5bcfe8a0680719b6c28d659bf10ec" class="room indoor" data-label="Thieves&#x27; Guild receipt office" x="395" y="320" width="16" height="16" rx="4"/>
-    <rect id="room-a8b43a894fe2b56e2f378b5275f70652a238c715" class="room indoor" data-label="corridor in the Thieves&#x27; Guild" x="367" y="292" width="16" height="16" rx="4"/>
-    <rect id="room-9027f971d4f387ebb677ba1dcfced7ab1c494591" class="room indoor" data-label="Thieves&#x27; Guild communications room" x="367" y="320" width="16" height="16" rx="4"/>
-    <rect id="room-51efbfde5a33500aea728d5c1b904f28d153c10f" class="room indoor" data-label="corridor in the Thieves&#x27; Guild" x="339" y="292" width="16" height="16" rx="4"/>
-    <rect id="room-83babeda02be8dadb15b163306d2e95ec99b11b7" class="room indoor" data-label="Thieves&#x27; Guild hospital" x="338" y="264" width="16" height="16" rx="4"/>
-    <rect id="room-f8797e1f0df24b04fe9ab65d03f64b04007c31bd" class="room indoor" data-label="insurance office" x="339" y="320" width="16" height="16" rx="4"/>
-    <rect id="room-34453e5c0493545aa790f917f2b0d6f262126e29" class="room indoor" data-label="ambush and backstab classroom" x="248" y="292" width="16" height="16" rx="4"/>
-    <rect id="room-e288e964b36bf6e6483216bf2d28fcbec4026cc0" class="room indoor" data-label="Thieves&#x27; Guild kitchen" x="219" y="292" width="16" height="16" rx="4"/>
-    <rect id="room-d51f3c3131fb24a9118fb6874c65a9ac979af829" class="room indoor" data-label="lockpick classroom" x="248" y="264" width="16" height="16" rx="4"/>
-    <rect id="room-f9f5807ab35742f6b87c114bcbc4c7b0152c8941" class="room indoor" data-label="hiding object classroom" x="219" y="264" width="16" height="16" rx="4"/>
-    <rect id="room-a68c9c82c0b4c23aef8170834d9a14cdea70781c" class="room indoor" data-label="palming and sleight of hand classroom" x="191" y="264" width="16" height="16" rx="4"/>
-    <rect id="room-775db29a0948398e5c9ff7c55cdd1f758553416f" class="room indoor" data-label="inside stealth classroom" x="248" y="320" width="16" height="16" rx="4"/>
-    <rect id="room-6f3b37dbaa2ca396ecc4484a9a48d21aa5a8485c" class="room indoor" data-label="Thieves&#x27; Guild Armoury" x="219" y="320" width="16" height="16" rx="4"/>
-    <rect id="room-34595d2af6c44d1ef556e21a7cb00c593209adae" class="room indoor" data-label="Thieves&#x27; Guild smithy" x="191" y="320" width="16" height="16" rx="4"/>
-    <rect id="room-a1a735cf2e98098775d82919d743290360cdc598" class="room indoor" data-label="Thieves&#x27; Guild refectory" x="191" y="292" width="16" height="16" rx="4"/>
-    <rect id="room-dddc72193ce628c291192cceeb1d266193929d4f" class="room indoor" data-label="fired and thrown classroom" x="163" y="292" width="16" height="16" rx="4"/>
-    <rect id="room-b7ce5cb55ce03e88f1f611bbbeae924e79ab1306" class="room indoor" data-label="outside stealth classroom" x="163" y="264" width="16" height="16" rx="4"/>
-    <rect id="room-1a91b4d419937092f2a8ebfd089146b3dd559ef4" class="room indoor" data-label="climbing classroom" x="163" y="320" width="16" height="16" rx="4"/>
-    <rect id="room-7a69c826b727275e70fb8c8a05892efb6ea6d691" class="room indoor" data-label="Thieves&#x27; Guild museum" x="311" y="440" width="16" height="16" rx="4"/>
-    <rect id="room-e50f387377932283915772d19b9375e09eceb9cf" class="room indoor" data-label="Heavy Stuff" x="311" y="412" width="16" height="16" rx="4"/>
-    <rect id="room-774a6967fde682aa4a3b50358897968b3410b57c" class="room indoor" data-label="launder room" x="311" y="467" width="16" height="16" rx="4"/>
-    <rect id="room-c5c53d1a55138b90d18d6b0859b81ad15f9b2ece" class="room indoor" data-label="Thieves&#x27; Guild library" x="339" y="440" width="16" height="16" rx="4"/>
-    <rect id="room-1ca80ebfb8423cfb42ed4b5f40e89c1682ff95dd" class="room indoor" data-label="Nicolette&#x27;s Custom Costumes and Tailoring" x="367" y="440" width="16" height="16" rx="4"/>
-    <rect id="room-0debdcab62434cdf629a03f09f8ee11a1f53db03" class="room indoor" data-label="hiding person classroom" x="219" y="129" width="16" height="16" rx="4"/>
-    <rect id="room-b44baf16289a7d294944047fc789d2d33accb79e" class="room indoor" data-label="Thieves&#x27; Guild quota room" x="219" y="101" width="16" height="16" rx="4"/>
-    <rect id="room-0518521daac20d3c4de3916d6121df59533c955c" class="room indoor" data-label="passing and stealing classroom" x="247" y="101" width="16" height="16" rx="4"/>
-    <rect id="room-0093553cfe7766e2ec49ce316928d1f23aff59c9" class="room indoor" data-label="casing classroom" x="247" y="129" width="16" height="16" rx="4"/>
-    <rect id="room-efaf088b06d7c59b5feb65ba91d1da13ce2fd1ef" class="room indoor" data-label="Thieves&#x27; Guild Plan Room" x="247" y="157" width="16" height="16" rx="4"/>
-    <rect id="room-074e0f9503cb6d5f115db1132b073bffea69e517" class="room indoor" data-label="dodging classroom" x="219" y="157" width="16" height="16" rx="4"/>
-    <rect id="room-730cd548f31d4002f8a237be898f6482f6cd5046" class="room indoor" data-label="Thieves&#x27; Guild Research Room" x="191" y="157" width="16" height="16" rx="4"/>
-    <rect id="room-e13409c2d8974613cec7fb4909464ee0eb0d0b1a" class="room indoor" data-label="bookkeeping office" x="191" y="101" width="16" height="16" rx="4"/>
-    <rect id="room-c3c20fdebff2396b4c6ca36ceb8947eb5417cba7" class="room indoor" data-label="combat practice room" x="191" y="129" width="16" height="16" rx="4"/>
-    <rect id="room-10998345bde8c55118e98adc9a7cef5d872c170f" class="room indoor" data-label="Thieves&#x27; Guild chapter room" x="219" y="16" width="16" height="16" rx="4"/>
-    <rect id="room-40dcb9a690caabeb2afeaf9502a642b7a726f2c5" class="room indoor" data-label="Main Hall of the Thieves&#x27; Guild" x="311" y="129" width="16" height="16" rx="4"/>
-    <rect id="room-1fb8eea7765aa2f60adff16ddaa8b7c696c05fa1" class="room indoor" data-label="The office of the Assistant Guildmistress" x="311" y="101" width="16" height="16" rx="4"/>
-    <rect id="room-2f7b07c4cfce9c015cda684188000ffcd103d8f8" class="room indoor" data-label="balcony" x="311" y="73" width="16" height="16" rx="4"/>
-    <rect id="room-41e99a98ed9b5b77c6c343bcc64c800aae205118" class="room indoor" data-label="The office of the Monitor of Cutpurses" x="311" y="157" width="16" height="16" rx="4"/>
-    <rect id="room-f938925be5f759da8bb92fea95d658ba206d3496" class="room indoor" data-label="balcony" x="311" y="185" width="16" height="16" rx="4"/>
-    <rect id="room-925479ded861f2eaa6ba4fa7d3848f1d67133469" class="room indoor" data-label="balcony" x="339" y="185" width="16" height="16" rx="4"/>
-    <rect id="room-483c21a31ff91a87efdefe404ebbc31378cff2c3" class="room indoor" data-label="The office of the Monitor of Muggers" x="339" y="157" width="16" height="16" rx="4"/>
-    <rect id="room-e20a6063adbd1757d44dcaa5ef8f577cc8ecd76a" class="room indoor" data-label="Main Hall of the Thieves&#x27; Guild" x="339" y="129" width="16" height="16" rx="4"/>
-    <rect id="room-46cf9e8384ebf8138db09102eb91099d3dc2b30d" class="room indoor" data-label="The office of the Monitor of Smugglers" x="339" y="101" width="16" height="16" rx="4"/>
-    <rect id="room-4194bcb1acd0d5afcba99e418b33b0689c5df7ca" class="room indoor" data-label="balcony" x="339" y="73" width="16" height="16" rx="4"/>
-    <rect id="room-d658f10c85767e5173f4d294a6957716efb2b05e" class="room indoor" data-label="balcony" x="367" y="73" width="16" height="16" rx="4"/>
-    <rect id="room-94cd043da28cb4fc74a54c4852cab43d09c6ea2d" class="room indoor" data-label="The office of the Monitor of Prowlers" x="367" y="101" width="16" height="16" rx="4"/>
-    <rect id="room-e5e975c6501514ddcffe9494f21364b7fae564b4" class="room indoor" data-label="Main Hall of the Thieves&#x27; Guild" x="367" y="129" width="16" height="16" rx="4"/>
-    <rect id="room-ef60bab885a29684d6109f1d25bc883f50c1cd2a" class="room indoor" data-label="The office of the Monitor of Safecrackers" x="367" y="157" width="16" height="16" rx="4"/>
-    <rect id="room-e01316d858eac63e0b2cc4e52921514d900cefc4" class="room indoor" data-label="balcony" x="367" y="185" width="16" height="16" rx="4"/>
-    <rect id="room-ba3cad72e1eb709611dc4533d21034d1521c5fdc" class="room indoor" data-label="Main Hall of the Thieves&#x27; Guild" x="423" y="129" width="16" height="16" rx="4"/>
-    <rect id="room-4289d340ebe36d328df506bb777ef988d13d0816" class="room indoor" data-label="The office of the Guildmistress" x="423" y="101" width="16" height="16" rx="4"/>
-    <rect id="room-d66688353fdfb447d40eb71e5a3d0d1a4a9a9136" class="room indoor" data-label="balcony" x="423" y="73" width="16" height="16" rx="4"/>
-    <rect id="room-61b1095c72f42f63ae420bd5610265e5900deb81" class="room indoor" data-label="office of the Thieves&#x27; Guild recruitmaster" x="423" y="157" width="16" height="16" rx="4"/>
-    <rect id="room-6942e3348e555aa7cf722eef55a4953deb8e38a1" class="room indoor" data-label="balcony" x="423" y="185" width="16" height="16" rx="4"/>
-    <rect id="room-55fd1e102b5481b31b96191e4aaa2715cd21c3c6" class="room indoor" data-label="cellar corridor" x="368" y="580" width="16" height="16" rx="4"/>
-    <rect id="room-94d124a6a16e3c037f5cc84ac39de9d0cbe27a05" class="room indoor" data-label="cellar corridor" x="368" y="608" width="16" height="16" rx="4"/>
-    <rect id="room-c34f7bdd3ca3a9f725e869471c33ae0606300868" class="room indoor" data-label="lounge" x="368" y="636" width="16" height="16" rx="4"/>
-    <rect id="room-2acb72bf9c57f9fc413fdf284b8c7b3d3c7af9b8" class="room indoor" data-label="[player shop]" x="396" y="636" width="16" height="16" rx="4"/>
-    <rect id="room-bb8a3dd24ca7f2102f02c94b0f0fc5803fec5581" class="room indoor" data-label="bathroom" x="396" y="608" width="16" height="16" rx="4"/>
-    <rect id="room-96a64680d514726c16575b4c260ffc0c2cd6e8e9" class="room indoor" data-label="storeroom" x="340" y="608" width="16" height="16" rx="4"/>
-    <rect id="room-bbb66f54ae197158ea0b9eb58940d3ac35033c81" class="room indoor" data-label="cutpurses&#x27; dormitory" x="340" y="580" width="16" height="16" rx="4"/>
-    <rect id="room-3153de7a7bbf7e9e2bf48f357bd7d5ffa4582118" class="room indoor" data-label="muggers&#x27; dormitory" x="396" y="580" width="16" height="16" rx="4"/>
-    <rect id="room-fe7de0de7d52237610f2cd2d97056ff42746f631" class="room indoor" data-label="cellar corridor" x="368" y="552" width="16" height="16" rx="4"/>
-    <rect id="room-d02dcc0a7c1217294d85a13e785d8622d3283570" class="room indoor" data-label="smugglers&#x27; dormitory" x="340" y="552" width="16" height="16" rx="4"/>
-    <rect id="room-3a5a7defcf62fab6b29ece1b86b0d257e029852d" class="room indoor" data-label="prowlers&#x27; dormitory" x="396" y="552" width="16" height="16" rx="4"/>
-    <rect id="room-c5189957a088916b2d32e7b0baa6d34fef2289d4" class="room indoor" data-label="safecrackers&#x27; dormitory" x="368" y="524" width="16" height="16" rx="4"/>
-    <rect id="room-fa9aa885afb7f7799771dbb52eb6e87d92525be0" class="room indoor" data-label="Thieves&#x27; Guild Voting Room" x="395" y="264" width="16" height="16" rx="4"/>
-    <rect id="room-ca1a0a3ace14a43e10b2c09120286fe90e5300c8" class="room indoor" data-label="Thieves&#x27; Guild roof" x="311" y="129" width="16" height="16" rx="4"/>
-    <rect id="room-93a6ebc766f495d1e36357f0d84866b66c462d5c" class="room indoor" data-label="Thieves&#x27; Guild ledge" x="279" y="129" width="16" height="16" rx="4"/>
+    <rect id="room-8817da35e947db5de18a5cb513f64f32812d34a9" class="room indoor" data-label="Portico of the Thieves&#x27; Guild Building" x="455" y="296" width="8" height="8" rx="2"/>
+    <rect id="room-fca4d62329576c1387d4c7e0299abd6adc3b10f6" class="room indoor" data-label="entrance hall of the Thieves&#x27; Guild" x="427" y="296" width="8" height="8" rx="2"/>
+    <rect id="room-3acd32d8e006a8aba5ae772b0fd8473aed00cbab" class="room indoor" data-label="entrance hall of the Thieves&#x27; Guild" x="427" y="324" width="8" height="8" rx="2"/>
+    <rect id="room-53818160d0841388eb28ab67b21b5c3a02e888a0" class="room indoor" data-label="overgrown garden" x="427" y="352" width="8" height="8" rx="2"/>
+    <rect id="room-d40cc7b20aea8ae2780793201326db32d6d6bf78" class="room indoor" data-label="untended garden" x="399" y="352" width="8" height="8" rx="2"/>
+    <rect id="room-33870a9619a9f3cc71e9c5713707c341710171e5" class="room indoor" data-label="overgrown garden" x="371" y="352" width="8" height="8" rx="2"/>
+    <rect id="room-7c0173078c9a0d5adc831ab0ea79f734fadc4613" class="room indoor" data-label="overgrown garden" x="343" y="352" width="8" height="8" rx="2"/>
+    <rect id="room-c3d65549c97783dc9b6a7e987386c76aafa858ac" class="room indoor" data-label="overgrown garden" x="315" y="352" width="8" height="8" rx="2"/>
+    <rect id="room-8043c78ce28affbb05790b079a210684dadde552" class="room indoor" data-label="corridor in the Thieves&#x27; Guild" x="315" y="324" width="8" height="8" rx="2"/>
+    <rect id="room-35c22aacce452fbad3b15f329fe9a93f66f30555" class="room indoor" data-label="corridor in the Thieves&#x27; Guild" x="315" y="296" width="8" height="8" rx="2"/>
+    <rect id="room-9f73260d85556ae9502be864df413d47de1c0e6d" class="room indoor" data-label="corridor in the Thieves&#x27; Guild" x="315" y="268" width="8" height="8" rx="2"/>
+    <rect id="room-f23755a5e337810ee11656003bcb2340ec3e6639" class="room indoor" data-label="guild gardens" x="315" y="240" width="8" height="8" rx="2"/>
+    <rect id="room-e636a280cb61550cdeff91f633e9b7a612e06975" class="room indoor" data-label="guild gardens" x="343" y="240" width="8" height="8" rx="2"/>
+    <rect id="room-e6716783008f7d6e28886c89162b6b823b2c560e" class="room indoor" data-label="guild gardens" x="371" y="240" width="8" height="8" rx="2"/>
+    <rect id="room-48e1b7db3a709aa24f4c09919b9b01e97aed855d" class="room indoor" data-label="guild gardens" x="399" y="240" width="8" height="8" rx="2"/>
+    <rect id="room-0c7d64e577c1799d05d298a8a29380320fa41650" class="room indoor" data-label="guild gardens" x="427" y="240" width="8" height="8" rx="2"/>
+    <rect id="room-3cff37dbf56975096f9cac42b5d222286bce8648" class="room indoor" data-label="entrance hall of the Thieves&#x27; Guild" x="427" y="268" width="8" height="8" rx="2"/>
+    <rect id="room-4e2c1bddc2d6984c71face8ae41588cbdb15cc65" class="room indoor" data-label="corridor in the Thieves&#x27; Guild" x="399" y="296" width="8" height="8" rx="2"/>
+    <rect id="room-79002da3efa5bcfe8a0680719b6c28d659bf10ec" class="room indoor" data-label="Thieves&#x27; Guild receipt office" x="399" y="324" width="8" height="8" rx="2"/>
+    <rect id="room-a8b43a894fe2b56e2f378b5275f70652a238c715" class="room indoor" data-label="corridor in the Thieves&#x27; Guild" x="371" y="296" width="8" height="8" rx="2"/>
+    <rect id="room-9027f971d4f387ebb677ba1dcfced7ab1c494591" class="room indoor" data-label="Thieves&#x27; Guild communications room" x="371" y="324" width="8" height="8" rx="2"/>
+    <rect id="room-51efbfde5a33500aea728d5c1b904f28d153c10f" class="room indoor" data-label="corridor in the Thieves&#x27; Guild" x="343" y="296" width="8" height="8" rx="2"/>
+    <rect id="room-83babeda02be8dadb15b163306d2e95ec99b11b7" class="room indoor" data-label="Thieves&#x27; Guild hospital" x="342" y="268" width="8" height="8" rx="2"/>
+    <rect id="room-f8797e1f0df24b04fe9ab65d03f64b04007c31bd" class="room indoor" data-label="insurance office" x="343" y="324" width="8" height="8" rx="2"/>
+    <rect id="room-34453e5c0493545aa790f917f2b0d6f262126e29" class="room indoor" data-label="ambush and backstab classroom" x="252" y="296" width="8" height="8" rx="2"/>
+    <rect id="room-e288e964b36bf6e6483216bf2d28fcbec4026cc0" class="room indoor" data-label="Thieves&#x27; Guild kitchen" x="223" y="296" width="8" height="8" rx="2"/>
+    <rect id="room-d51f3c3131fb24a9118fb6874c65a9ac979af829" class="room indoor" data-label="lockpick classroom" x="252" y="268" width="8" height="8" rx="2"/>
+    <rect id="room-f9f5807ab35742f6b87c114bcbc4c7b0152c8941" class="room indoor" data-label="hiding object classroom" x="223" y="268" width="8" height="8" rx="2"/>
+    <rect id="room-a68c9c82c0b4c23aef8170834d9a14cdea70781c" class="room indoor" data-label="palming and sleight of hand classroom" x="195" y="268" width="8" height="8" rx="2"/>
+    <rect id="room-775db29a0948398e5c9ff7c55cdd1f758553416f" class="room indoor" data-label="inside stealth classroom" x="252" y="324" width="8" height="8" rx="2"/>
+    <rect id="room-6f3b37dbaa2ca396ecc4484a9a48d21aa5a8485c" class="room indoor" data-label="Thieves&#x27; Guild Armoury" x="223" y="324" width="8" height="8" rx="2"/>
+    <rect id="room-34595d2af6c44d1ef556e21a7cb00c593209adae" class="room indoor" data-label="Thieves&#x27; Guild smithy" x="195" y="324" width="8" height="8" rx="2"/>
+    <rect id="room-a1a735cf2e98098775d82919d743290360cdc598" class="room indoor" data-label="Thieves&#x27; Guild refectory" x="195" y="296" width="8" height="8" rx="2"/>
+    <rect id="room-dddc72193ce628c291192cceeb1d266193929d4f" class="room indoor" data-label="fired and thrown classroom" x="167" y="296" width="8" height="8" rx="2"/>
+    <rect id="room-b7ce5cb55ce03e88f1f611bbbeae924e79ab1306" class="room indoor" data-label="outside stealth classroom" x="167" y="268" width="8" height="8" rx="2"/>
+    <rect id="room-1a91b4d419937092f2a8ebfd089146b3dd559ef4" class="room indoor" data-label="climbing classroom" x="167" y="324" width="8" height="8" rx="2"/>
+    <rect id="room-7a69c826b727275e70fb8c8a05892efb6ea6d691" class="room indoor" data-label="Thieves&#x27; Guild museum" x="315" y="444" width="8" height="8" rx="2"/>
+    <rect id="room-e50f387377932283915772d19b9375e09eceb9cf" class="room indoor" data-label="Heavy Stuff" x="315" y="416" width="8" height="8" rx="2"/>
+    <rect id="room-774a6967fde682aa4a3b50358897968b3410b57c" class="room indoor" data-label="launder room" x="315" y="471" width="8" height="8" rx="2"/>
+    <rect id="room-c5c53d1a55138b90d18d6b0859b81ad15f9b2ece" class="room indoor" data-label="Thieves&#x27; Guild library" x="343" y="444" width="8" height="8" rx="2"/>
+    <rect id="room-1ca80ebfb8423cfb42ed4b5f40e89c1682ff95dd" class="room indoor" data-label="Nicolette&#x27;s Custom Costumes and Tailoring" x="371" y="444" width="8" height="8" rx="2"/>
+    <rect id="room-0debdcab62434cdf629a03f09f8ee11a1f53db03" class="room indoor" data-label="hiding person classroom" x="223" y="133" width="8" height="8" rx="2"/>
+    <rect id="room-b44baf16289a7d294944047fc789d2d33accb79e" class="room indoor" data-label="Thieves&#x27; Guild quota room" x="223" y="105" width="8" height="8" rx="2"/>
+    <rect id="room-0518521daac20d3c4de3916d6121df59533c955c" class="room indoor" data-label="passing and stealing classroom" x="251" y="105" width="8" height="8" rx="2"/>
+    <rect id="room-0093553cfe7766e2ec49ce316928d1f23aff59c9" class="room indoor" data-label="casing classroom" x="251" y="133" width="8" height="8" rx="2"/>
+    <rect id="room-efaf088b06d7c59b5feb65ba91d1da13ce2fd1ef" class="room indoor" data-label="Thieves&#x27; Guild Plan Room" x="251" y="161" width="8" height="8" rx="2"/>
+    <rect id="room-074e0f9503cb6d5f115db1132b073bffea69e517" class="room indoor" data-label="dodging classroom" x="223" y="161" width="8" height="8" rx="2"/>
+    <rect id="room-730cd548f31d4002f8a237be898f6482f6cd5046" class="room indoor" data-label="Thieves&#x27; Guild Research Room" x="195" y="161" width="8" height="8" rx="2"/>
+    <rect id="room-e13409c2d8974613cec7fb4909464ee0eb0d0b1a" class="room indoor" data-label="bookkeeping office" x="195" y="105" width="8" height="8" rx="2"/>
+    <rect id="room-c3c20fdebff2396b4c6ca36ceb8947eb5417cba7" class="room indoor" data-label="combat practice room" x="195" y="133" width="8" height="8" rx="2"/>
+    <rect id="room-10998345bde8c55118e98adc9a7cef5d872c170f" class="room indoor" data-label="Thieves&#x27; Guild chapter room" x="223" y="20" width="8" height="8" rx="2"/>
+    <rect id="room-40dcb9a690caabeb2afeaf9502a642b7a726f2c5" class="room indoor" data-label="Main Hall of the Thieves&#x27; Guild" x="315" y="133" width="8" height="8" rx="2"/>
+    <rect id="room-1fb8eea7765aa2f60adff16ddaa8b7c696c05fa1" class="room indoor" data-label="The office of the Assistant Guildmistress" x="315" y="105" width="8" height="8" rx="2"/>
+    <rect id="room-2f7b07c4cfce9c015cda684188000ffcd103d8f8" class="room indoor" data-label="balcony" x="315" y="77" width="8" height="8" rx="2"/>
+    <rect id="room-41e99a98ed9b5b77c6c343bcc64c800aae205118" class="room indoor" data-label="The office of the Monitor of Cutpurses" x="315" y="161" width="8" height="8" rx="2"/>
+    <rect id="room-f938925be5f759da8bb92fea95d658ba206d3496" class="room indoor" data-label="balcony" x="315" y="189" width="8" height="8" rx="2"/>
+    <rect id="room-925479ded861f2eaa6ba4fa7d3848f1d67133469" class="room indoor" data-label="balcony" x="343" y="189" width="8" height="8" rx="2"/>
+    <rect id="room-483c21a31ff91a87efdefe404ebbc31378cff2c3" class="room indoor" data-label="The office of the Monitor of Muggers" x="343" y="161" width="8" height="8" rx="2"/>
+    <rect id="room-e20a6063adbd1757d44dcaa5ef8f577cc8ecd76a" class="room indoor" data-label="Main Hall of the Thieves&#x27; Guild" x="343" y="133" width="8" height="8" rx="2"/>
+    <rect id="room-46cf9e8384ebf8138db09102eb91099d3dc2b30d" class="room indoor" data-label="The office of the Monitor of Smugglers" x="343" y="105" width="8" height="8" rx="2"/>
+    <rect id="room-4194bcb1acd0d5afcba99e418b33b0689c5df7ca" class="room indoor" data-label="balcony" x="343" y="77" width="8" height="8" rx="2"/>
+    <rect id="room-d658f10c85767e5173f4d294a6957716efb2b05e" class="room indoor" data-label="balcony" x="371" y="77" width="8" height="8" rx="2"/>
+    <rect id="room-94cd043da28cb4fc74a54c4852cab43d09c6ea2d" class="room indoor" data-label="The office of the Monitor of Prowlers" x="371" y="105" width="8" height="8" rx="2"/>
+    <rect id="room-e5e975c6501514ddcffe9494f21364b7fae564b4" class="room indoor" data-label="Main Hall of the Thieves&#x27; Guild" x="371" y="133" width="8" height="8" rx="2"/>
+    <rect id="room-ef60bab885a29684d6109f1d25bc883f50c1cd2a" class="room indoor" data-label="The office of the Monitor of Safecrackers" x="371" y="161" width="8" height="8" rx="2"/>
+    <rect id="room-e01316d858eac63e0b2cc4e52921514d900cefc4" class="room indoor" data-label="balcony" x="371" y="189" width="8" height="8" rx="2"/>
+    <rect id="room-ba3cad72e1eb709611dc4533d21034d1521c5fdc" class="room indoor" data-label="Main Hall of the Thieves&#x27; Guild" x="427" y="133" width="8" height="8" rx="2"/>
+    <rect id="room-4289d340ebe36d328df506bb777ef988d13d0816" class="room indoor" data-label="The office of the Guildmistress" x="427" y="105" width="8" height="8" rx="2"/>
+    <rect id="room-d66688353fdfb447d40eb71e5a3d0d1a4a9a9136" class="room indoor" data-label="balcony" x="427" y="77" width="8" height="8" rx="2"/>
+    <rect id="room-61b1095c72f42f63ae420bd5610265e5900deb81" class="room indoor" data-label="office of the Thieves&#x27; Guild recruitmaster" x="427" y="161" width="8" height="8" rx="2"/>
+    <rect id="room-6942e3348e555aa7cf722eef55a4953deb8e38a1" class="room indoor" data-label="balcony" x="427" y="189" width="8" height="8" rx="2"/>
+    <rect id="room-55fd1e102b5481b31b96191e4aaa2715cd21c3c6" class="room indoor" data-label="cellar corridor" x="372" y="584" width="8" height="8" rx="2"/>
+    <rect id="room-94d124a6a16e3c037f5cc84ac39de9d0cbe27a05" class="room indoor" data-label="cellar corridor" x="372" y="612" width="8" height="8" rx="2"/>
+    <rect id="room-c34f7bdd3ca3a9f725e869471c33ae0606300868" class="room indoor" data-label="lounge" x="372" y="640" width="8" height="8" rx="2"/>
+    <rect id="room-2acb72bf9c57f9fc413fdf284b8c7b3d3c7af9b8" class="room indoor" data-label="[player shop]" x="400" y="640" width="8" height="8" rx="2"/>
+    <rect id="room-bb8a3dd24ca7f2102f02c94b0f0fc5803fec5581" class="room indoor" data-label="bathroom" x="400" y="612" width="8" height="8" rx="2"/>
+    <rect id="room-96a64680d514726c16575b4c260ffc0c2cd6e8e9" class="room indoor" data-label="storeroom" x="344" y="612" width="8" height="8" rx="2"/>
+    <rect id="room-bbb66f54ae197158ea0b9eb58940d3ac35033c81" class="room indoor" data-label="cutpurses&#x27; dormitory" x="344" y="584" width="8" height="8" rx="2"/>
+    <rect id="room-3153de7a7bbf7e9e2bf48f357bd7d5ffa4582118" class="room indoor" data-label="muggers&#x27; dormitory" x="400" y="584" width="8" height="8" rx="2"/>
+    <rect id="room-fe7de0de7d52237610f2cd2d97056ff42746f631" class="room indoor" data-label="cellar corridor" x="372" y="556" width="8" height="8" rx="2"/>
+    <rect id="room-d02dcc0a7c1217294d85a13e785d8622d3283570" class="room indoor" data-label="smugglers&#x27; dormitory" x="344" y="556" width="8" height="8" rx="2"/>
+    <rect id="room-3a5a7defcf62fab6b29ece1b86b0d257e029852d" class="room indoor" data-label="prowlers&#x27; dormitory" x="400" y="556" width="8" height="8" rx="2"/>
+    <rect id="room-c5189957a088916b2d32e7b0baa6d34fef2289d4" class="room indoor" data-label="safecrackers&#x27; dormitory" x="372" y="528" width="8" height="8" rx="2"/>
+    <rect id="room-fa9aa885afb7f7799771dbb52eb6e87d92525be0" class="room indoor" data-label="Thieves&#x27; Guild Voting Room" x="399" y="268" width="8" height="8" rx="2"/>
+    <rect id="room-ca1a0a3ace14a43e10b2c09120286fe90e5300c8" class="room indoor" data-label="Thieves&#x27; Guild roof" x="315" y="133" width="8" height="8" rx="2"/>
+    <rect id="room-93a6ebc766f495d1e36357f0d84866b66c462d5c" class="room indoor" data-label="Thieves&#x27; Guild ledge" x="283" y="133" width="8" height="8" rx="2"/>
   </g>
 
-  <g id="layer-labels">
-    <text class="map-label" x="459" y="288">Portico of the Thieves&#x27; Guild Building</text>
-    <text class="map-label" x="431" y="288">entrance hall of the Thieves&#x27; Guild</text>
-    <text class="map-label" x="431" y="316">entrance hall of the Thieves&#x27; Guild</text>
-    <text class="map-label" x="431" y="344">overgrown garden</text>
-    <text class="map-label" x="403" y="344">untended garden</text>
-    <text class="map-label" x="375" y="344">overgrown garden</text>
-    <text class="map-label" x="347" y="344">overgrown garden</text>
-    <text class="map-label" x="319" y="344">overgrown garden</text>
-    <text class="map-label" x="319" y="316">corridor in the Thieves&#x27; Guild</text>
-    <text class="map-label" x="319" y="288">corridor in the Thieves&#x27; Guild</text>
-    <text class="map-label" x="319" y="260">corridor in the Thieves&#x27; Guild</text>
-    <text class="map-label" x="319" y="232">guild gardens</text>
-    <text class="map-label" x="347" y="232">guild gardens</text>
-    <text class="map-label" x="375" y="232">guild gardens</text>
-    <text class="map-label" x="403" y="232">guild gardens</text>
-    <text class="map-label" x="431" y="232">guild gardens</text>
-    <text class="map-label" x="431" y="260">entrance hall of the Thieves&#x27; Guild</text>
-    <text class="map-label" x="403" y="288">corridor in the Thieves&#x27; Guild</text>
-    <text class="map-label" x="403" y="316">Thieves&#x27; Guild receipt office</text>
-    <text class="map-label" x="375" y="288">corridor in the Thieves&#x27; Guild</text>
-    <text class="map-label" x="375" y="316">Thieves&#x27; Guild communications room</text>
-    <text class="map-label" x="347" y="288">corridor in the Thieves&#x27; Guild</text>
-    <text class="map-label" x="346" y="260">Thieves&#x27; Guild hospital</text>
-    <text class="map-label" x="347" y="316">insurance office</text>
-    <text class="map-label" x="256" y="288">ambush and backstab classroom</text>
-    <text class="map-label" x="227" y="288">Thieves&#x27; Guild kitchen</text>
-    <text class="map-label" x="256" y="260">lockpick classroom</text>
-    <text class="map-label" x="227" y="260">hiding object classroom</text>
-    <text class="map-label" x="199" y="260">palming and sleight of hand classroom</text>
-    <text class="map-label" x="256" y="316">inside stealth classroom</text>
-    <text class="map-label" x="227" y="316">Thieves&#x27; Guild Armoury</text>
-    <text class="map-label" x="199" y="316">Thieves&#x27; Guild smithy</text>
-    <text class="map-label" x="199" y="288">Thieves&#x27; Guild refectory</text>
-    <text class="map-label" x="171" y="288">fired and thrown classroom</text>
-    <text class="map-label" x="171" y="260">outside stealth classroom</text>
-    <text class="map-label" x="171" y="316">climbing classroom</text>
-    <text class="map-label" x="319" y="436">Thieves&#x27; Guild museum</text>
-    <text class="map-label" x="319" y="408">Heavy Stuff</text>
-    <text class="map-label" x="319" y="463">launder room</text>
-    <text class="map-label" x="347" y="436">Thieves&#x27; Guild library</text>
-    <text class="map-label" x="375" y="436">Nicolette&#x27;s Custom Costumes and Tailoring</text>
-    <text class="map-label" x="227" y="125">hiding person classroom</text>
-    <text class="map-label" x="227" y="97">Thieves&#x27; Guild quota room</text>
-    <text class="map-label" x="255" y="97">passing and stealing classroom</text>
-    <text class="map-label" x="255" y="125">casing classroom</text>
-    <text class="map-label" x="255" y="153">Thieves&#x27; Guild Plan Room</text>
-    <text class="map-label" x="227" y="153">dodging classroom</text>
-    <text class="map-label" x="199" y="153">Thieves&#x27; Guild Research Room</text>
-    <text class="map-label" x="199" y="97">bookkeeping office</text>
-    <text class="map-label" x="199" y="125">combat practice room</text>
-    <text class="map-label" x="227" y="12">Thieves&#x27; Guild chapter room</text>
-    <text class="map-label" x="319" y="125">Main Hall of the Thieves&#x27; Guild</text>
-    <text class="map-label" x="319" y="97">The office of the Assistant Guildmistress</text>
-    <text class="map-label" x="319" y="69">balcony</text>
-    <text class="map-label" x="319" y="153">The office of the Monitor of Cutpurses</text>
-    <text class="map-label" x="319" y="181">balcony</text>
-    <text class="map-label" x="347" y="181">balcony</text>
-    <text class="map-label" x="347" y="153">The office of the Monitor of Muggers</text>
-    <text class="map-label" x="347" y="125">Main Hall of the Thieves&#x27; Guild</text>
-    <text class="map-label" x="347" y="97">The office of the Monitor of Smugglers</text>
-    <text class="map-label" x="347" y="69">balcony</text>
-    <text class="map-label" x="375" y="69">balcony</text>
-    <text class="map-label" x="375" y="97">The office of the Monitor of Prowlers</text>
-    <text class="map-label" x="375" y="125">Main Hall of the Thieves&#x27; Guild</text>
-    <text class="map-label" x="375" y="153">The office of the Monitor of Safecrackers</text>
-    <text class="map-label" x="375" y="181">balcony</text>
-    <text class="map-label" x="431" y="125">Main Hall of the Thieves&#x27; Guild</text>
-    <text class="map-label" x="431" y="97">The office of the Guildmistress</text>
-    <text class="map-label" x="431" y="69">balcony</text>
-    <text class="map-label" x="431" y="153">office of the Thieves&#x27; Guild recruitmaster</text>
-    <text class="map-label" x="431" y="181">balcony</text>
-    <text class="map-label" x="376" y="576">cellar corridor</text>
-    <text class="map-label" x="376" y="604">cellar corridor</text>
-    <text class="map-label" x="376" y="632">lounge</text>
-    <text class="map-label" x="404" y="632">[player shop]</text>
-    <text class="map-label" x="404" y="604">bathroom</text>
-    <text class="map-label" x="348" y="604">storeroom</text>
-    <text class="map-label" x="348" y="576">cutpurses&#x27; dormitory</text>
-    <text class="map-label" x="404" y="576">muggers&#x27; dormitory</text>
-    <text class="map-label" x="376" y="548">cellar corridor</text>
-    <text class="map-label" x="348" y="548">smugglers&#x27; dormitory</text>
-    <text class="map-label" x="404" y="548">prowlers&#x27; dormitory</text>
-    <text class="map-label" x="376" y="520">safecrackers&#x27; dormitory</text>
-    <text class="map-label" x="403" y="260">Thieves&#x27; Guild Voting Room</text>
-    <text class="map-label" x="319" y="125">Thieves&#x27; Guild roof</text>
-    <text class="map-label" x="287" y="125">Thieves&#x27; Guild ledge</text>
-  </g>
+  <g id="layer-labels"><!-- labels --></g>
 
 </svg>

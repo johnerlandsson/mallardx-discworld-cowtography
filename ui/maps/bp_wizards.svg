@@ -162,461 +162,234 @@
   </g>
 
   <g id="layer-rooms">
-    <rect id="room-69689afecf305db4bc84a7dfc9dac90a42a16d6e" class="room indoor" data-label="tiny room in a pocket just off the edge of L-space" x="93" y="509" width="16" height="16" rx="4"/>
-    <rect id="room-23bb78df97af9bf961bb501c934f2a53a59ab29c" class="room indoor" data-label="gymnasium" x="93" y="464" width="16" height="16" rx="4"/>
-    <rect id="room-ab468a4a0ae73109808802732b27d0beb206dfed" class="room indoor" data-label="cellar" x="105" y="476" width="16" height="16" rx="4"/>
-    <rect id="room-f5f579d64ca5fdef3ca76d33a9b287d9161a6034" class="room indoor" data-label="majestic courtyard" x="68" y="382" width="16" height="16" rx="4"/>
-    <rect id="room-b4321bd59ef87685459110db6d4ff72352e8d0ae" class="room indoor" data-label="legibles alcove" x="108" y="382" width="16" height="16" rx="4"/>
-    <rect id="room-95d7631eb376f923076cf3c9dc820061e954df82" class="room indoor" data-label="wizards&#x27; billiards room" x="68" y="362" width="16" height="16" rx="4"/>
-    <rect id="room-4702b88982ad53aa52b36605181801ef997bfa9d" class="room indoor" data-label="upstairs billiards room" x="68" y="342" width="16" height="16" rx="4"/>
-    <rect id="room-5e5eba8206168b42adecb2b5ee800243e70dbe46" class="room indoor" data-label="stylish alcove" x="28" y="382" width="16" height="16" rx="4"/>
-    <rect id="room-7ace1dc7b16b100c01edade4d305f469f15f4056" class="room indoor" data-label="hidden alcove" x="8" y="382" width="16" height="16" rx="4"/>
-    <rect id="room-ba00570d0ec1d90e155851d7e607b49ec37a8b3c" class="room indoor" data-label="hidden alcove" x="-4" y="370" width="16" height="16" rx="4"/>
-    <rect id="room-a9e4e82da06cb3b8a2d196bc21a170f5d6dcfe2f" class="room indoor" data-label="arena alcove" x="27" y="423" width="16" height="16" rx="4"/>
-    <rect id="room-fa2f98e2aa25f7c035762b1ab73442422cb0477d" class="room indoor" data-label="sticky alcove" x="109" y="423" width="16" height="16" rx="4"/>
-    <rect id="room-7690fa46d43f18eb41d5054f57c9efdcd35d261a" class="room indoor" data-label="candied kitchen" x="109" y="443" width="16" height="16" rx="4"/>
-    <rect id="room-409d2a664c9edba80a9a16ea1f06432d21fdf1bf" class="room indoor" data-label="mysterious alcove" x="68" y="423" width="16" height="16" rx="4"/>
-    <rect id="room-d7771ac3fe2f8b7761e5c61c56c2cbead72130cc" class="room indoor" data-label="The Exclusive Lounge of the Venerable Ancestors" x="109" y="341" width="16" height="16" rx="4"/>
-    <rect id="room-b23a5ff18d1c813c126edff440b3a97ceeba9ef9" class="room indoor" data-label="The Exclusive Lounge of Reckless Encouragement" x="27" y="341" width="16" height="16" rx="4"/>
-    <rect id="room-39478da1c518453511f359c9f580e654e43dc7fb" class="room indoor" data-label="Library" x="141" y="509" width="16" height="16" rx="4"/>
-    <rect id="room-bd54fe8c123dc7a4cbf309dc58fd9c04c5d7c75b" class="room indoor" data-label="Library" x="141" y="489" width="16" height="16" rx="4"/>
-    <rect id="room-6d0c96dae65c23baae046d441e0de53764c40bda" class="room indoor" data-label="Library" x="161" y="489" width="16" height="16" rx="4"/>
-    <rect id="room-23e78e01ddb0e48124f6351f883454636e6bc570" class="room indoor" data-label="Library" x="181" y="509" width="16" height="16" rx="4"/>
-    <rect id="room-6a37448637dd1ad4fe9460567f0f675cebbdcaac" class="room indoor" data-label="Library" x="201" y="529" width="16" height="16" rx="4"/>
-    <rect id="room-1883c9970f6069801a7884a4656e4fff5be77b71" class="room indoor" data-label="Library" x="201" y="549" width="16" height="16" rx="4"/>
-    <rect id="room-58e45970f220c18b04fc83d1c2368937634e2049" class="room indoor" data-label="Library" x="221" y="569" width="16" height="16" rx="4"/>
-    <rect id="room-1b98c064044eff90463d73f481d8bd07d10e3cbc" class="room indoor" data-label="Library" x="241" y="569" width="16" height="16" rx="4"/>
-    <rect id="room-d0d8d1a095199a5f3900b4ff1a98b8983c712ab8" class="room indoor" data-label="Library" x="241" y="549" width="16" height="16" rx="4"/>
-    <rect id="room-574b2cc1f01bcc74282caff5edbcb9bf6991ce6d" class="room indoor" data-label="Library" x="241" y="529" width="16" height="16" rx="4"/>
-    <rect id="room-bba16b9e8335eddbc8f3609118de45c013fa9794" class="room indoor" data-label="Library" x="221" y="509" width="16" height="16" rx="4"/>
-    <rect id="room-7e06ded93189666a6698f056f804968641e5f80e" class="room indoor" data-label="Library" x="221" y="489" width="16" height="16" rx="4"/>
-    <rect id="room-f651e4d30f03495ff525f3b991ad11fd485230c7" class="room indoor" data-label="Library" x="241" y="489" width="16" height="16" rx="4"/>
-    <rect id="room-24c83ae814979149767d58d029e924f146ed5082" class="room indoor" data-label="Library" x="201" y="469" width="16" height="16" rx="4"/>
-    <rect id="room-edd0576e3c72d8e290f52b25fdc2fed5a148c08e" class="room indoor" data-label="Library" x="181" y="469" width="16" height="16" rx="4"/>
-    <rect id="room-542464ed5f1f84859f239a72766a8aceb6ff74a1" class="room indoor" data-label="Library" x="221" y="449" width="16" height="16" rx="4"/>
-    <rect id="room-df3b5eecac47edbfd5d647d9b5d87a81fafbefd8" class="room indoor" data-label="Library" x="269" y="401" width="16" height="16" rx="4"/>
-    <rect id="room-456b20a8f020b1a08ba8b245c3c56a92cbb32f12" class="room indoor" data-label="Library" x="269" y="381" width="16" height="16" rx="4"/>
-    <rect id="room-dbdad83070376206c919f5f0e01d1849168dab7a" class="room indoor" data-label="Library" x="289" y="361" width="16" height="16" rx="4"/>
-    <rect id="room-3beb3ef60b19a3d776a2603ebf2672d5f68ea73c" class="room indoor" data-label="Library" x="309" y="361" width="16" height="16" rx="4"/>
-    <rect id="room-560aa7821c375fc916f9dfdb4db11c730afdf49c" class="room indoor" data-label="Library" x="309" y="381" width="16" height="16" rx="4"/>
-    <rect id="room-66d95aa5e1dd950ada91e2026801a9d93749dee1" class="room indoor" data-label="Library" x="289" y="381" width="16" height="16" rx="4"/>
-    <rect id="room-9dd012988f374357f35b54db17791664193a06b1" class="room indoor" data-label="Library" x="269" y="361" width="16" height="16" rx="4"/>
-    <rect id="room-4779180bbabea8ae0d2bc102e5f48ad2cdb48b4b" class="room indoor" data-label="Library" x="289" y="341" width="16" height="16" rx="4"/>
-    <rect id="room-d5dc606c640fba52b2463a6377121d64111f01f8" class="room indoor" data-label="Library" x="309" y="321" width="16" height="16" rx="4"/>
-    <rect id="room-0ba221af205922e91bfbe34e66fb1c85d935346c" class="room indoor" data-label="Library" x="309" y="301" width="16" height="16" rx="4"/>
-    <rect id="room-537a184bd627f724d28c27d0cf650c16ac010c4f" class="room indoor" data-label="Library" x="329" y="321" width="16" height="16" rx="4"/>
-    <rect id="room-df7c69850f83a1ec77fa9760b525606e14d952da" class="room indoor" data-label="Library" x="329" y="341" width="16" height="16" rx="4"/>
-    <rect id="room-4db17bb045cab10b64add732e37249d0365c9c0e" class="room indoor" data-label="Library" x="349" y="361" width="16" height="16" rx="4"/>
-    <rect id="room-1cf6aa4a8e35433fa19a59fcc5aa9d7784c91f37" class="room indoor" data-label="Library" x="369" y="381" width="16" height="16" rx="4"/>
-    <rect id="room-338f9ee60a14e4a22fa07072a936353bd1a06710" class="room indoor" data-label="Library" x="369" y="361" width="16" height="16" rx="4"/>
-    <rect id="room-efc1272bfe0171a6246941fdabac9f7a0934a495" class="room indoor" data-label="Library" x="349" y="381" width="16" height="16" rx="4"/>
-    <rect id="room-996e040558ac4d34d3736c1b5f5445e01ba67383" class="room indoor" data-label="Library" x="329" y="401" width="16" height="16" rx="4"/>
-    <rect id="room-2b9ffd4d5e7ec46c155b141faacf8d7e49fbddf8" class="room indoor" data-label="Library" x="309" y="341" width="16" height="16" rx="4"/>
-    <rect id="room-4cb7d18c14da9172deb16567a1693c43d4f9bdbc" class="room indoor" data-label="Library" x="289" y="321" width="16" height="16" rx="4"/>
-    <rect id="room-28fc2301c6a3d364c309639d08d1ed496634cfca" class="room indoor" data-label="Library" x="269" y="321" width="16" height="16" rx="4"/>
-    <rect id="room-63341e9f1d30a48be8dd94470d2cffabc314f55f" class="room indoor" data-label="Library" x="269" y="301" width="16" height="16" rx="4"/>
-    <rect id="room-94eee72712da3d62efdd6d9741507c4e0a8af603" class="room indoor" data-label="Library" x="289" y="301" width="16" height="16" rx="4"/>
-    <rect id="room-68673f74225a9ccc4a9ef9616f7649eb44348026" class="room indoor" data-label="Library" x="289" y="281" width="16" height="16" rx="4"/>
-    <rect id="room-b7875501f5bfd1999493d8570cc63178d6e73581" class="room indoor" data-label="Library" x="249" y="321" width="16" height="16" rx="4"/>
-    <rect id="room-b696f3642ffe74d14d1759d729922e797ef6771a" class="room indoor" data-label="Library" x="229" y="341" width="16" height="16" rx="4"/>
-    <rect id="room-1c617eb4da4f483b8ebe619c3cb7ab61240c44c8" class="room indoor" data-label="Library" x="209" y="361" width="16" height="16" rx="4"/>
-    <rect id="room-ebb800d0567f23c641fd8e78b4259c9c6faefe5a" class="room indoor" data-label="Library" x="189" y="341" width="16" height="16" rx="4"/>
-    <rect id="room-d32bb288f4b9cce91bdef7b28bb6368c96d87b3d" class="room indoor" data-label="Library" x="169" y="341" width="16" height="16" rx="4"/>
-    <rect id="room-85457bc28b82d0819f18d785a0782aa4300068f9" class="room indoor" data-label="Library" x="189" y="321" width="16" height="16" rx="4"/>
-    <rect id="room-6c06f60a658f5f8e2bb408819711f841eb94bdc8" class="room indoor" data-label="Library" x="189" y="301" width="16" height="16" rx="4"/>
-    <rect id="room-40a28b292058c20c781abd356cea2d33df9cedf1" class="room indoor" data-label="Library" x="169" y="281" width="16" height="16" rx="4"/>
-    <rect id="room-ca0a26c728e730ca18277fd8ec943ed4b89fa0d3" class="room indoor" data-label="Library" x="209" y="301" width="16" height="16" rx="4"/>
-    <rect id="room-9863cf39fc579d771ee4ce7f17488c63eec66fc3" class="room indoor" data-label="Library" x="229" y="321" width="16" height="16" rx="4"/>
-    <rect id="room-531f7bcd7d48da6572e58e65f6719bbe271e900b" class="room indoor" data-label="Library" x="249" y="341" width="16" height="16" rx="4"/>
-    <rect id="room-b717bc85e9b66a16cbdca0bdcadac2c4755c903c" class="room indoor" data-label="Library" x="249" y="281" width="16" height="16" rx="4"/>
-    <rect id="room-099eb4fe137de68dd4b708560d69050870426070" class="room indoor" data-label="Library" x="229" y="281" width="16" height="16" rx="4"/>
-    <rect id="room-d6234c1d9f88959a8e1f1643993a2f2bdf09d81c" class="room indoor" data-label="Library" x="226" y="56" width="16" height="16" rx="4"/>
-    <rect id="room-0e9edd1ad630fe11910480e10e0f1993da99fe4d" class="room indoor" data-label="Library" x="206" y="56" width="16" height="16" rx="4"/>
-    <rect id="room-823bc54864daa31eb3bb4a28f9cb6649462fe066" class="room indoor" data-label="Library" x="206" y="36" width="16" height="16" rx="4"/>
-    <rect id="room-ac795f07d5c968f428f04ee2fcd08647f612d4b4" class="room indoor" data-label="Library" x="186" y="36" width="16" height="16" rx="4"/>
-    <rect id="room-6246389e3a3f160a118d811d2daae0ac2cd58945" class="room indoor" data-label="Library" x="126" y="36" width="16" height="16" rx="4"/>
-    <rect id="room-4235f43cfa8fc2147af53a19e2f7b59da6d1f223" class="room indoor" data-label="Library" x="126" y="16" width="16" height="16" rx="4"/>
-    <rect id="room-c73385a6df39e273b6e5496fe0adfaf62baa0c3e" class="room indoor" data-label="Library" x="66" y="36" width="16" height="16" rx="4"/>
-    <rect id="room-ddff7127c6802cb0d2bf78d1c5a4f92832d3beb6" class="room indoor" data-label="Library" x="66" y="96" width="16" height="16" rx="4"/>
-    <rect id="room-faeb8bdb5629c6b2c1211506b6622bcdd57ed78b" class="room indoor" data-label="Library" x="66" y="156" width="16" height="16" rx="4"/>
-    <rect id="room-dfd45b634f9d21df79c1dfd4c007df48352b2c88" class="room indoor" data-label="Library" x="126" y="156" width="16" height="16" rx="4"/>
-    <rect id="room-be50f561e70c8836cca3424a8bb1d0b5c3283326" class="room indoor" data-label="Library" x="186" y="156" width="16" height="16" rx="4"/>
-    <rect id="room-1b17ea42bad9be02b9baa2fe1f7cb39daf08ccfa" class="room indoor" data-label="Library" x="186" y="96" width="16" height="16" rx="4"/>
-    <rect id="room-a1acf34a867dfa1c5745cdd097a3e9ec09b72e85" class="room indoor" data-label="Library" x="106" y="96" width="16" height="16" rx="4"/>
-    <rect id="room-9081f12756a716baac6594a9f0aedbe5fdf9a1c3" class="room indoor" data-label="Library" x="66" y="176" width="16" height="16" rx="4"/>
-    <rect id="room-cc7db7473d455690dda47a3078fb481207b09a80" class="room indoor" data-label="Library" x="46" y="176" width="16" height="16" rx="4"/>
-    <rect id="room-08f690ef8a1ac487e89d24bf7f54d294f18274c2" class="room indoor" data-label="Library" x="46" y="156" width="16" height="16" rx="4"/>
-    <rect id="room-0719672e7a3a3a74a605ce49eb44365289adecca" class="room indoor" data-label="Library" x="46" y="196" width="16" height="16" rx="4"/>
-    <rect id="room-0cc31774755e2913070132a34754f5551e0fde46" class="room indoor" data-label="Library" x="66" y="196" width="16" height="16" rx="4"/>
-    <rect id="room-f0b36708efe79d21093caa32ecc47df861df3aa1" class="room indoor" data-label="Library" x="26" y="196" width="16" height="16" rx="4"/>
-    <rect id="room-6e3097ae6ae1df69ff035e7eb2fd169caaf10a0a" class="room indoor" data-label="Library" x="6" y="196" width="16" height="16" rx="4"/>
-    <rect id="room-9a1349af371b774bdf97d052fdd7ef60bf95cd59" class="room indoor" data-label="Library" x="186" y="176" width="16" height="16" rx="4"/>
-    <rect id="room-86f8d35742f3e516235f266895f2868bfc0a4f27" class="room indoor" data-label="Library" x="181" y="729" width="16" height="16" rx="4"/>
-    <rect id="room-b90d60a43e902fb50cb3f5402612e3e68fce4930" class="room indoor" data-label="Library" x="181" y="749" width="16" height="16" rx="4"/>
-    <rect id="room-246739d773f2cc721a723c23b902bc6136461d1f" class="room indoor" data-label="Library" x="161" y="709" width="16" height="16" rx="4"/>
-    <rect id="room-9a0aff8e9d0484aee72c9e1a314e16623d26d19b" class="room indoor" data-label="Library" x="161" y="689" width="16" height="16" rx="4"/>
-    <rect id="room-c161cf1ccbfef004aa0d695c93e4b4d411e26a2f" class="room indoor" data-label="Library" x="141" y="689" width="16" height="16" rx="4"/>
-    <rect id="room-04443ad61d2469ae93c1a06912535f0c1a39e803" class="room indoor" data-label="Library" x="181" y="669" width="16" height="16" rx="4"/>
-    <rect id="room-5ab052db1faced8e28b42ed7b5ee745365809dfb" class="room indoor" data-label="Library" x="201" y="669" width="16" height="16" rx="4"/>
-    <rect id="room-bc8f389a1215e40cd7229b04cd4755d346038aca" class="room indoor" data-label="Library" x="221" y="689" width="16" height="16" rx="4"/>
-    <rect id="room-d55c9f9389885fdb2792af78cb2f9a85a43afe43" class="room indoor" data-label="Library" x="241" y="709" width="16" height="16" rx="4"/>
-    <rect id="room-422fe68cf3e55d8a09be129a66255820eb193337" class="room indoor" data-label="Library" x="241" y="729" width="16" height="16" rx="4"/>
-    <rect id="room-0460f01be21452561c19ed71899ca55f0546cf59" class="room indoor" data-label="Library" x="221" y="749" width="16" height="16" rx="4"/>
-    <rect id="room-132e4d043cfbdc58bad9be010791648c16ad95a4" class="room indoor" data-label="Library" x="261" y="729" width="16" height="16" rx="4"/>
-    <rect id="room-03d5e3c94f35d388e0c841a09e285c50a0b64d55" class="room indoor" data-label="Library" x="281" y="709" width="16" height="16" rx="4"/>
-    <rect id="room-c2b6acbecd35d469e5dde15f8097393936525bc2" class="room indoor" data-label="Library" x="301" y="709" width="16" height="16" rx="4"/>
-    <rect id="room-1d49fb3bb726cee1546716065b95c5d3bb5b22fc" class="room indoor" data-label="Library" x="321" y="689" width="16" height="16" rx="4"/>
-    <rect id="room-ef44a357e8b7ed627f746efb0bd8646194b00830" class="room indoor" data-label="Library" x="321" y="669" width="16" height="16" rx="4"/>
-    <rect id="room-2e65f76814361c8d9ce42eca96b1de9569629f0b" class="room indoor" data-label="Library" x="221" y="649" width="16" height="16" rx="4"/>
-    <rect id="room-5b982172ccd8b0cdeb252c803490a70fe2888bbc" class="room indoor" data-label="Library" x="201" y="629" width="16" height="16" rx="4"/>
-    <rect id="room-9ca7dfb706e214fa8a5769b89f7b5b467b69266d" class="room indoor" data-label="Library" x="181" y="629" width="16" height="16" rx="4"/>
-    <rect id="room-ad74fb5543a52dba0aa1881ad950cb377982d510" class="room indoor" data-label="Library" x="181" y="609" width="16" height="16" rx="4"/>
-    <rect id="room-10a06f7da7751ff5734099b57ef38e9f8b7163b6" class="room indoor" data-label="Library" x="161" y="629" width="16" height="16" rx="4"/>
-    <rect id="room-f56ab2c07efd041fa2d581fd133324b46e6be8e9" class="room indoor" data-label="Library" x="241" y="649" width="16" height="16" rx="4"/>
-    <rect id="room-042adaa3b198dfa1f60bc790fc622b30afbcf37a" class="room indoor" data-label="Library" x="261" y="629" width="16" height="16" rx="4"/>
-    <rect id="room-11ab62bec629e62a37156b0d4eb8366889bc371e" class="room indoor" data-label="Library" x="281" y="649" width="16" height="16" rx="4"/>
-    <rect id="room-ba43dad189ce4f05cc20fd120f0425684eecceb8" class="room indoor" data-label="Library" x="281" y="669" width="16" height="16" rx="4"/>
-    <rect id="room-2102603e53372b92b42a634d73189a76a8c5b0e4" class="room indoor" data-label="Library" x="261" y="609" width="16" height="16" rx="4"/>
-    <rect id="room-d027a90a9ef6ac4978ef10259a83057e58cc1037" class="room indoor" data-label="Library" x="261" y="589" width="16" height="16" rx="4"/>
-    <rect id="room-31f43a973754d749a3f4b2cd0e2afee3b11ecda7" class="room indoor" data-label="Library" x="26" y="176" width="16" height="16" rx="4"/>
-    <rect id="room-a8d63378d2a636be24344ca2041c90bbb15f454f" class="room indoor" data-label="Library" x="106" y="116" width="16" height="16" rx="4"/>
-    <rect id="room-0ea504bbc21424a039df8539ba5ea5a96d44d025" class="room indoor" data-label="Library" x="126" y="116" width="16" height="16" rx="4"/>
-    <rect id="room-518b65036d905d8d058fa58bbc3090f4dd7838a0" class="room indoor" data-label="Library" x="126" y="136" width="16" height="16" rx="4"/>
-    <rect id="room-914906b2f8a74c562a8a35215dbcaa9931f9175a" class="room indoor" data-label="Library" x="106" y="76" width="16" height="16" rx="4"/>
-    <rect id="room-9a608a8b44d89428ad34d45ca6c5a89d5e610d66" class="room indoor" data-label="Library" x="126" y="76" width="16" height="16" rx="4"/>
-    <rect id="room-237d25a6d985082ef09d23c986c9251107c19036" class="room indoor" data-label="Library" x="146" y="76" width="16" height="16" rx="4"/>
-    <rect id="room-0a7dc632ff816d952291145872e782f72c9e51db" class="room indoor" data-label="Library" x="166" y="76" width="16" height="16" rx="4"/>
-    <rect id="room-78db6be3e58c35d338c48a662a1394a6cf2be668" class="room indoor" data-label="Library" x="146" y="96" width="16" height="16" rx="4"/>
-    <rect id="room-0df5dc2f5d0b0aa4228426406bc58a779d037614" class="room indoor" data-label="Library" x="94" y="84" width="16" height="16" rx="4"/>
-    <rect id="room-e7bb794871a5986e5115ee0418d3c8bf947474f9" class="room indoor" data-label="Library" x="82" y="72" width="16" height="16" rx="4"/>
-    <rect id="room-acf5ca5831169801902e6547d2169a230572b2a5" class="room indoor" data-label="Library" x="158" y="88" width="16" height="16" rx="4"/>
-    <rect id="room-d882b4a792eb8e59d8725c18049d8e8917550e28" class="room indoor" data-label="Library" x="141" y="226" width="16" height="16" rx="4"/>
-    <rect id="room-e560b6dfc49839ef2d6e2053c1be2baa72981801" class="room indoor" data-label="Library" x="104" y="271" width="16" height="16" rx="4"/>
-    <rect id="room-33351e02c2566bbeb430c954aeaa14c4ed31543c" class="room indoor" data-label="Library" x="91" y="258" width="16" height="16" rx="4"/>
-    <rect id="room-e88d0eed3d8300e83caf70965cfa11ff75fd0857" class="room indoor" data-label="Library" x="106" y="258" width="16" height="16" rx="4"/>
-    <rect id="room-912a654b58e66ead28c1857085660e3385dfe51d" class="room indoor" data-label="Library" x="120" y="258" width="16" height="16" rx="4"/>
-    <rect id="room-77da546472749985aaa355bb9d976bd6a36cdef4" class="room indoor" data-label="Library" x="134" y="271" width="16" height="16" rx="4"/>
-    <rect id="room-534a47df000810ca716b11dbcab83384fd95d643" class="room indoor" data-label="Library" x="148" y="271" width="16" height="16" rx="4"/>
-    <rect id="room-cdfa217b4d87a4b880f7cebca5346d8ef0da3a55" class="room indoor" data-label="Library" x="148" y="257" width="16" height="16" rx="4"/>
-    <rect id="room-3170bb3bfe4d3e6172415299d981991b4f00498b" class="room indoor" data-label="Library" x="133" y="243" width="16" height="16" rx="4"/>
-    <rect id="room-f1e3221f1914d18d47c91b8de26f2c375ae06b76" class="room indoor" data-label="Library" x="133" y="189" width="16" height="16" rx="4"/>
-    <rect id="room-228036866bbd7da066bae0568dd4deea68558420" class="room indoor" data-label="Library" x="169" y="226" width="16" height="16" rx="4"/>
-    <rect id="room-52386e06ab24a5c7af7f4b86d85a04fad4007f80" class="room indoor" data-label="Library" x="155" y="226" width="16" height="16" rx="4"/>
-    <rect id="room-48948f2bf81f42b8e37740ad6e0f9e0bfb3021c9" class="room indoor" data-label="Library" x="155" y="240" width="16" height="16" rx="4"/>
-    <rect id="room-515dd20566044476ec38c5fa95388440742ff75d" class="room indoor" data-label="small hobble" x="125" y="476" width="16" height="16" rx="4"/>
-    <rect id="room-3b59d41317cc50934698326b654ac5234cc5dfd3" class="room indoor" data-label="under the willow" x="167" y="417" width="16" height="16" rx="4"/>
-    <rect id="room-ac04e9957c65a5c6d9fce94077efbd2153a1d625" class="room indoor" data-label="willow tree" x="167" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-ab4848fcebf7952dea5e2edcf3f8b98fed407db1" class="room indoor" data-label="willow tree" x="167" y="373" width="16" height="16" rx="4"/>
-    <rect id="room-fa81e8c1e3c9ad5cf4b69dcb324ff39455f17b33" class="room indoor" data-label="willow tree" x="154" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-0066e2520ac2707e2e5861a670e37f18e359e855" class="room indoor" data-label="willow tree" x="154" y="373" width="16" height="16" rx="4"/>
-    <rect id="room-dd3ae1c42fbeb018b7319002b8d065770ebfa50b" class="room indoor" data-label="willow tree" x="180" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-229ddbf62819c273ca98ed26fe68085688a3da45" class="room indoor" data-label="willow tree" x="180" y="373" width="16" height="16" rx="4"/>
-    <rect id="room-be4568d954260519770a94f234c9d092c54c97c1" class="room indoor" data-label="willow tree" x="180" y="399" width="16" height="16" rx="4"/>
-    <rect id="room-2354219626352afcee0d663f5f64dbcb6373f2fc" class="room indoor" data-label="willow tree" x="167" y="399" width="16" height="16" rx="4"/>
-    <rect id="room-9b750ea85fabb721611a6186f1baaad873715e05" class="room indoor" data-label="willow tree" x="154" y="399" width="16" height="16" rx="4"/>
-    <rect id="room-e8a670edf8237b8781fffbe8516a5324e1c0de31" class="room indoor" data-label="willow tree" x="154" y="373" width="16" height="16" rx="4"/>
-    <rect id="room-07a7e7d8edb0de2998e00df9a15a48de369828d2" class="room indoor" data-label="willow tree" x="167" y="373" width="16" height="16" rx="4"/>
-    <rect id="room-57fb2663f6ccb4730fe829d938816a32b0c59d3e" class="room indoor" data-label="willow tree" x="180" y="373" width="16" height="16" rx="4"/>
-    <rect id="room-656abc50907af60d4e7ac4aa8e4f052447233a9a" class="room indoor" data-label="willow tree" x="180" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-c1ec858bc4b545793d4e726724ebfef8991fd175" class="room indoor" data-label="willow tree" x="180" y="399" width="16" height="16" rx="4"/>
-    <rect id="room-1d7b9e24321d8249969fc1562aaa0db664337369" class="room indoor" data-label="willow tree" x="167" y="399" width="16" height="16" rx="4"/>
-    <rect id="room-082766dbd321a451e58947d0db001a9678e386ed" class="room indoor" data-label="willow tree" x="154" y="399" width="16" height="16" rx="4"/>
-    <rect id="room-388496081f6b63a73542bd4fd8c4b3fb3da855b1" class="room indoor" data-label="willow tree" x="154" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-8d06e2ce73096e4e68d16325fd7b959f4c5c9916" class="room indoor" data-label="willow tree" x="167" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-8a18008ecae5513c4a582701f45aa7ff28082913" class="room indoor" data-label="willow tree" x="167" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-2b83e715864f428418dc6e97e882b5e45d89c8d4" class="room indoor" data-label="willow tree" x="180" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-477084cd9270e59680aab1e667802eae71d78f71" class="room indoor" data-label="willow tree" x="180" y="373" width="16" height="16" rx="4"/>
-    <rect id="room-506aacef99376f54d6348e127bdd4257f3c79b0c" class="room indoor" data-label="willow tree" x="167" y="373" width="16" height="16" rx="4"/>
-    <rect id="room-d5f64e97a199e8a5bdfc258ae38258b97dc008ef" class="room indoor" data-label="willow tree" x="154" y="373" width="16" height="16" rx="4"/>
-    <rect id="room-117c759c38b49bdb53d52db7cf719c907ffe5a76" class="room indoor" data-label="willow tree" x="154" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-de9f9432ddf6ae99e0abaea47deeddc2d213174d" class="room indoor" data-label="willow tree" x="154" y="399" width="16" height="16" rx="4"/>
-    <rect id="room-f23f3a104e4ba8b60e817f8ca8c16d5e37046864" class="room indoor" data-label="willow tree" x="167" y="399" width="16" height="16" rx="4"/>
-    <rect id="room-89d5ad2e6a12fc473d8164ec27fbb0a0108ecc8b" class="room indoor" data-label="willow tree" x="180" y="399" width="16" height="16" rx="4"/>
-    <rect id="room-8870b2b0bacf19ee6afa593fff5dbdf3f8c968b7" class="room indoor" data-label="willow tree" x="167" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-0cea3f1c1cbc584ea4f7148f05f8a8b3e585b158" class="room indoor" data-label="willow tree" x="167" y="373" width="16" height="16" rx="4"/>
-    <rect id="room-1132dcfa2abc68bb377a11b15a62de04bd8972d3" class="room indoor" data-label="willow tree" x="180" y="373" width="16" height="16" rx="4"/>
-    <rect id="room-98f390e4fd9922fb7ae016ff37bc32616a01f5e1" class="room indoor" data-label="willow tree" x="180" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-56806ba0d3eaec78a24bf26698000c12c6b69d74" class="room indoor" data-label="willow tree" x="154" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-4af16e0e42175b3555175ebb3624ff3780121374" class="room indoor" data-label="willow tree" x="154" y="373" width="16" height="16" rx="4"/>
-    <rect id="room-c483b329bf4712b81ec69d43e6789f143fa926b5" class="room indoor" data-label="willow tree" x="154" y="399" width="16" height="16" rx="4"/>
-    <rect id="room-246b2b5678ea9349b56804249f7b257b5547af49" class="room indoor" data-label="willow tree" x="167" y="399" width="16" height="16" rx="4"/>
-    <rect id="room-281552d0183a504af6404ecfacfafe8bb59d7735" class="room indoor" data-label="willow tree" x="180" y="399" width="16" height="16" rx="4"/>
-    <rect id="room-56a066fb2b8aa2c33b866f9099652c86580c4b5b" class="room indoor" data-label="willow tree" x="167" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-8e4af15a37a244bc381785aa7877e3eeae7ec771" class="room indoor" data-label="willow tree" x="154" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-ba6fae9486d5dffff5f7fd57289186bf81c5b2b4" class="room indoor" data-label="willow tree" x="154" y="373" width="16" height="16" rx="4"/>
-    <rect id="room-e7d79fffa2f2aad321ab46599314620f0b9b7f09" class="room indoor" data-label="willow tree" x="167" y="373" width="16" height="16" rx="4"/>
-    <rect id="room-78f6dc264e47daf3224607c06722d3a1dae2c201" class="room indoor" data-label="willow tree" x="167" y="399" width="16" height="16" rx="4"/>
-    <rect id="room-06cdde13cd6adddcbe86a8ed7356026afee729ab" class="room indoor" data-label="willow tree" x="154" y="399" width="16" height="16" rx="4"/>
-    <rect id="room-496c4a6992c85966d82dd113266b1282b42e6ebc" class="room indoor" data-label="willow tree" x="180" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-bdff6d896d396da1bfb02871d24d6867b6795e52" class="room indoor" data-label="willow tree" x="180" y="399" width="16" height="16" rx="4"/>
-    <rect id="room-819819ad1f6c1cbf850df8c0578f5135183911a7" class="room indoor" data-label="willow tree" x="180" y="373" width="16" height="16" rx="4"/>
-    <rect id="room-1a94abd43046c9cf74268e21354e651182788097" class="room indoor" data-label="willow tree" x="167" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-6ce8ff8ba28aa4c9fc749a793bb4612577b8e503" class="room indoor" data-label="willow tree" x="167" y="399" width="16" height="16" rx="4"/>
-    <rect id="room-5be18cd4cd091da4b0acb5a8ca0d485001331c55" class="room indoor" data-label="willow tree" x="180" y="399" width="16" height="16" rx="4"/>
-    <rect id="room-55f9a5f224ce0790761f5cb52dc24c0df2068be3" class="room indoor" data-label="willow tree" x="180" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-4bd18ab5e88db3d347c8dc2084871dcde058d613" class="room indoor" data-label="willow tree" x="180" y="373" width="16" height="16" rx="4"/>
-    <rect id="room-13423fde15e7ca66794831e8e0303681742de949" class="room indoor" data-label="willow tree" x="167" y="373" width="16" height="16" rx="4"/>
-    <rect id="room-dc81566395da269d3768a9ab86af464269fdcc26" class="room indoor" data-label="willow tree" x="154" y="373" width="16" height="16" rx="4"/>
-    <rect id="room-23cc671234ed93e3d9ce503894a6c43917af4520" class="room indoor" data-label="willow tree" x="154" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-6f188167e5b07585c7be18e4639ebd5f6339fd7a" class="room indoor" data-label="willow tree" x="154" y="399" width="16" height="16" rx="4"/>
-    <rect id="room-7fe6402aa1a251efb88ba83c1f65f1d3d66a56a0" class="room indoor" data-label="willow tree" x="167" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-9c57db47c0072c66b3f13fff98b5e1aa5409e083" class="room indoor" data-label="willow tree" x="167" y="373" width="16" height="16" rx="4"/>
-    <rect id="room-d269d2b805dd0cb42d11940aefa0c6121337fb17" class="room indoor" data-label="willow tree" x="154" y="373" width="16" height="16" rx="4"/>
-    <rect id="room-d1c0f125a7cda46f10710e1c772259fc5942f596" class="room indoor" data-label="willow tree" x="154" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-c2b85f7876998bc55c1011b639294c4a5fc3388c" class="room indoor" data-label="willow tree" x="154" y="399" width="16" height="16" rx="4"/>
-    <rect id="room-4bbbdd9b17108b519eaa524aa42ce4f59ccccd84" class="room indoor" data-label="willow tree" x="167" y="399" width="16" height="16" rx="4"/>
-    <rect id="room-30d544e0718c0c0d4973778b16a4fe221f7c1494" class="room indoor" data-label="willow tree" x="180" y="399" width="16" height="16" rx="4"/>
-    <rect id="room-32a22b8d9f680991892477a4c71d0bc39ee05cce" class="room indoor" data-label="willow tree" x="180" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-57fc64d9e7f5f89be5d2491ad0d73cfb021f948f" class="room indoor" data-label="willow tree" x="180" y="373" width="16" height="16" rx="4"/>
-    <rect id="room-9f65bdea7c248cd870b8d58a0095333eb49bb594" class="room indoor" data-label="willow tree" x="167" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-2d62696027751c8d00b11055471e12a04e164bbb" class="room indoor" data-label="willow tree" x="167" y="399" width="16" height="16" rx="4"/>
-    <rect id="room-cc518f89ecb4f25612c13f8422c2ebee11e15eda" class="room indoor" data-label="willow tree" x="180" y="399" width="16" height="16" rx="4"/>
-    <rect id="room-ee292eb932c5e3e4980dbcace7fa93e81be47906" class="room indoor" data-label="willow tree" x="180" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-7751f12d3a4351926a2cc3846d684bafdaebd5fc" class="room indoor" data-label="willow tree" x="180" y="373" width="16" height="16" rx="4"/>
-    <rect id="room-372a727672d3f5db1f9a98bb7ee148d177ea0678" class="room indoor" data-label="willow tree" x="167" y="373" width="16" height="16" rx="4"/>
-    <rect id="room-44338b128cfb76ac9a353ecf243964d7f5c55343" class="room indoor" data-label="willow tree" x="154" y="373" width="16" height="16" rx="4"/>
-    <rect id="room-7520c4594b2e9abc925c559c028621b8112b145b" class="room indoor" data-label="willow tree" x="154" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-98b056a05b6602ce3b7e9c8834e5ebff8da2ea0a" class="room indoor" data-label="willow tree" x="154" y="399" width="16" height="16" rx="4"/>
-    <rect id="room-6aad4b140645d5f3cf8b139ca074a0515f707415" class="room indoor" data-label="willow tree" x="167" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-a9871f81c3620fb5bd3eceea0fed8d6c36ba197e" class="room indoor" data-label="willow tree" x="167" y="373" width="16" height="16" rx="4"/>
-    <rect id="room-ab79cb08f67bff9a11afa82120870caedd94ce1a" class="room indoor" data-label="willow tree" x="154" y="373" width="16" height="16" rx="4"/>
-    <rect id="room-e98d93e9f349efe69a88ddbf3a8a2cf851cce0dc" class="room indoor" data-label="willow tree" x="154" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-dc527aa543262faff460b7d7f15a4b446da3d97a" class="room indoor" data-label="willow tree" x="154" y="399" width="16" height="16" rx="4"/>
-    <rect id="room-5a7ce9614a1a56974a941206f9b5c9468d7d677d" class="room indoor" data-label="willow tree" x="167" y="399" width="16" height="16" rx="4"/>
-    <rect id="room-7e26b61779f1b8fe44392f5290563452e90590bd" class="room indoor" data-label="willow tree" x="180" y="399" width="16" height="16" rx="4"/>
-    <rect id="room-c9591dd1784519d1f01aa063306aafdfb060cdc5" class="room indoor" data-label="willow tree" x="180" y="386" width="16" height="16" rx="4"/>
-    <rect id="room-f7700b92a2faf433ea50a55460d9145f6edc47ed" class="room indoor" data-label="willow tree" x="180" y="373" width="16" height="16" rx="4"/>
-    <rect id="room-591c4cf27e093bff883704640edc6601b6984d6c" class="room indoor" data-label="arcane lounge" x="22" y="299" width="16" height="16" rx="4"/>
-    <rect id="room-16e11b4fb6d6e383e5f78e47dfa36dfe8982f2e4" class="room indoor" data-label="small apothecary" x="22" y="283" width="16" height="16" rx="4"/>
+    <rect id="room-69689afecf305db4bc84a7dfc9dac90a42a16d6e" class="room indoor" data-label="tiny room in a pocket just off the edge of L-space" x="97" y="513" width="8" height="8" rx="2"/>
+    <rect id="room-23bb78df97af9bf961bb501c934f2a53a59ab29c" class="room indoor" data-label="gymnasium" x="97" y="468" width="8" height="8" rx="2"/>
+    <rect id="room-ab468a4a0ae73109808802732b27d0beb206dfed" class="room indoor" data-label="cellar" x="109" y="480" width="8" height="8" rx="2"/>
+    <rect id="room-f5f579d64ca5fdef3ca76d33a9b287d9161a6034" class="room indoor" data-label="majestic courtyard" x="72" y="386" width="8" height="8" rx="2"/>
+    <rect id="room-b4321bd59ef87685459110db6d4ff72352e8d0ae" class="room indoor" data-label="legibles alcove" x="112" y="386" width="8" height="8" rx="2"/>
+    <rect id="room-95d7631eb376f923076cf3c9dc820061e954df82" class="room indoor" data-label="wizards&#x27; billiards room" x="72" y="366" width="8" height="8" rx="2"/>
+    <rect id="room-4702b88982ad53aa52b36605181801ef997bfa9d" class="room indoor" data-label="upstairs billiards room" x="72" y="346" width="8" height="8" rx="2"/>
+    <rect id="room-5e5eba8206168b42adecb2b5ee800243e70dbe46" class="room indoor" data-label="stylish alcove" x="32" y="386" width="8" height="8" rx="2"/>
+    <rect id="room-7ace1dc7b16b100c01edade4d305f469f15f4056" class="room indoor" data-label="hidden alcove" x="12" y="386" width="8" height="8" rx="2"/>
+    <rect id="room-ba00570d0ec1d90e155851d7e607b49ec37a8b3c" class="room indoor" data-label="hidden alcove" x="0" y="374" width="8" height="8" rx="2"/>
+    <rect id="room-a9e4e82da06cb3b8a2d196bc21a170f5d6dcfe2f" class="room indoor" data-label="arena alcove" x="31" y="427" width="8" height="8" rx="2"/>
+    <rect id="room-fa2f98e2aa25f7c035762b1ab73442422cb0477d" class="room indoor" data-label="sticky alcove" x="113" y="427" width="8" height="8" rx="2"/>
+    <rect id="room-7690fa46d43f18eb41d5054f57c9efdcd35d261a" class="room indoor" data-label="candied kitchen" x="113" y="447" width="8" height="8" rx="2"/>
+    <rect id="room-409d2a664c9edba80a9a16ea1f06432d21fdf1bf" class="room indoor" data-label="mysterious alcove" x="72" y="427" width="8" height="8" rx="2"/>
+    <rect id="room-d7771ac3fe2f8b7761e5c61c56c2cbead72130cc" class="room indoor" data-label="The Exclusive Lounge of the Venerable Ancestors" x="113" y="345" width="8" height="8" rx="2"/>
+    <rect id="room-b23a5ff18d1c813c126edff440b3a97ceeba9ef9" class="room indoor" data-label="The Exclusive Lounge of Reckless Encouragement" x="31" y="345" width="8" height="8" rx="2"/>
+    <rect id="room-39478da1c518453511f359c9f580e654e43dc7fb" class="room indoor" data-label="Library" x="145" y="513" width="8" height="8" rx="2"/>
+    <rect id="room-bd54fe8c123dc7a4cbf309dc58fd9c04c5d7c75b" class="room indoor" data-label="Library" x="145" y="493" width="8" height="8" rx="2"/>
+    <rect id="room-6d0c96dae65c23baae046d441e0de53764c40bda" class="room indoor" data-label="Library" x="165" y="493" width="8" height="8" rx="2"/>
+    <rect id="room-23e78e01ddb0e48124f6351f883454636e6bc570" class="room indoor" data-label="Library" x="185" y="513" width="8" height="8" rx="2"/>
+    <rect id="room-6a37448637dd1ad4fe9460567f0f675cebbdcaac" class="room indoor" data-label="Library" x="205" y="533" width="8" height="8" rx="2"/>
+    <rect id="room-1883c9970f6069801a7884a4656e4fff5be77b71" class="room indoor" data-label="Library" x="205" y="553" width="8" height="8" rx="2"/>
+    <rect id="room-58e45970f220c18b04fc83d1c2368937634e2049" class="room indoor" data-label="Library" x="225" y="573" width="8" height="8" rx="2"/>
+    <rect id="room-1b98c064044eff90463d73f481d8bd07d10e3cbc" class="room indoor" data-label="Library" x="245" y="573" width="8" height="8" rx="2"/>
+    <rect id="room-d0d8d1a095199a5f3900b4ff1a98b8983c712ab8" class="room indoor" data-label="Library" x="245" y="553" width="8" height="8" rx="2"/>
+    <rect id="room-574b2cc1f01bcc74282caff5edbcb9bf6991ce6d" class="room indoor" data-label="Library" x="245" y="533" width="8" height="8" rx="2"/>
+    <rect id="room-bba16b9e8335eddbc8f3609118de45c013fa9794" class="room indoor" data-label="Library" x="225" y="513" width="8" height="8" rx="2"/>
+    <rect id="room-7e06ded93189666a6698f056f804968641e5f80e" class="room indoor" data-label="Library" x="225" y="493" width="8" height="8" rx="2"/>
+    <rect id="room-f651e4d30f03495ff525f3b991ad11fd485230c7" class="room indoor" data-label="Library" x="245" y="493" width="8" height="8" rx="2"/>
+    <rect id="room-24c83ae814979149767d58d029e924f146ed5082" class="room indoor" data-label="Library" x="205" y="473" width="8" height="8" rx="2"/>
+    <rect id="room-edd0576e3c72d8e290f52b25fdc2fed5a148c08e" class="room indoor" data-label="Library" x="185" y="473" width="8" height="8" rx="2"/>
+    <rect id="room-542464ed5f1f84859f239a72766a8aceb6ff74a1" class="room indoor" data-label="Library" x="225" y="453" width="8" height="8" rx="2"/>
+    <rect id="room-df3b5eecac47edbfd5d647d9b5d87a81fafbefd8" class="room indoor" data-label="Library" x="273" y="405" width="8" height="8" rx="2"/>
+    <rect id="room-456b20a8f020b1a08ba8b245c3c56a92cbb32f12" class="room indoor" data-label="Library" x="273" y="385" width="8" height="8" rx="2"/>
+    <rect id="room-dbdad83070376206c919f5f0e01d1849168dab7a" class="room indoor" data-label="Library" x="293" y="365" width="8" height="8" rx="2"/>
+    <rect id="room-3beb3ef60b19a3d776a2603ebf2672d5f68ea73c" class="room indoor" data-label="Library" x="313" y="365" width="8" height="8" rx="2"/>
+    <rect id="room-560aa7821c375fc916f9dfdb4db11c730afdf49c" class="room indoor" data-label="Library" x="313" y="385" width="8" height="8" rx="2"/>
+    <rect id="room-66d95aa5e1dd950ada91e2026801a9d93749dee1" class="room indoor" data-label="Library" x="293" y="385" width="8" height="8" rx="2"/>
+    <rect id="room-9dd012988f374357f35b54db17791664193a06b1" class="room indoor" data-label="Library" x="273" y="365" width="8" height="8" rx="2"/>
+    <rect id="room-4779180bbabea8ae0d2bc102e5f48ad2cdb48b4b" class="room indoor" data-label="Library" x="293" y="345" width="8" height="8" rx="2"/>
+    <rect id="room-d5dc606c640fba52b2463a6377121d64111f01f8" class="room indoor" data-label="Library" x="313" y="325" width="8" height="8" rx="2"/>
+    <rect id="room-0ba221af205922e91bfbe34e66fb1c85d935346c" class="room indoor" data-label="Library" x="313" y="305" width="8" height="8" rx="2"/>
+    <rect id="room-537a184bd627f724d28c27d0cf650c16ac010c4f" class="room indoor" data-label="Library" x="333" y="325" width="8" height="8" rx="2"/>
+    <rect id="room-df7c69850f83a1ec77fa9760b525606e14d952da" class="room indoor" data-label="Library" x="333" y="345" width="8" height="8" rx="2"/>
+    <rect id="room-4db17bb045cab10b64add732e37249d0365c9c0e" class="room indoor" data-label="Library" x="353" y="365" width="8" height="8" rx="2"/>
+    <rect id="room-1cf6aa4a8e35433fa19a59fcc5aa9d7784c91f37" class="room indoor" data-label="Library" x="373" y="385" width="8" height="8" rx="2"/>
+    <rect id="room-338f9ee60a14e4a22fa07072a936353bd1a06710" class="room indoor" data-label="Library" x="373" y="365" width="8" height="8" rx="2"/>
+    <rect id="room-efc1272bfe0171a6246941fdabac9f7a0934a495" class="room indoor" data-label="Library" x="353" y="385" width="8" height="8" rx="2"/>
+    <rect id="room-996e040558ac4d34d3736c1b5f5445e01ba67383" class="room indoor" data-label="Library" x="333" y="405" width="8" height="8" rx="2"/>
+    <rect id="room-2b9ffd4d5e7ec46c155b141faacf8d7e49fbddf8" class="room indoor" data-label="Library" x="313" y="345" width="8" height="8" rx="2"/>
+    <rect id="room-4cb7d18c14da9172deb16567a1693c43d4f9bdbc" class="room indoor" data-label="Library" x="293" y="325" width="8" height="8" rx="2"/>
+    <rect id="room-28fc2301c6a3d364c309639d08d1ed496634cfca" class="room indoor" data-label="Library" x="273" y="325" width="8" height="8" rx="2"/>
+    <rect id="room-63341e9f1d30a48be8dd94470d2cffabc314f55f" class="room indoor" data-label="Library" x="273" y="305" width="8" height="8" rx="2"/>
+    <rect id="room-94eee72712da3d62efdd6d9741507c4e0a8af603" class="room indoor" data-label="Library" x="293" y="305" width="8" height="8" rx="2"/>
+    <rect id="room-68673f74225a9ccc4a9ef9616f7649eb44348026" class="room indoor" data-label="Library" x="293" y="285" width="8" height="8" rx="2"/>
+    <rect id="room-b7875501f5bfd1999493d8570cc63178d6e73581" class="room indoor" data-label="Library" x="253" y="325" width="8" height="8" rx="2"/>
+    <rect id="room-b696f3642ffe74d14d1759d729922e797ef6771a" class="room indoor" data-label="Library" x="233" y="345" width="8" height="8" rx="2"/>
+    <rect id="room-1c617eb4da4f483b8ebe619c3cb7ab61240c44c8" class="room indoor" data-label="Library" x="213" y="365" width="8" height="8" rx="2"/>
+    <rect id="room-ebb800d0567f23c641fd8e78b4259c9c6faefe5a" class="room indoor" data-label="Library" x="193" y="345" width="8" height="8" rx="2"/>
+    <rect id="room-d32bb288f4b9cce91bdef7b28bb6368c96d87b3d" class="room indoor" data-label="Library" x="173" y="345" width="8" height="8" rx="2"/>
+    <rect id="room-85457bc28b82d0819f18d785a0782aa4300068f9" class="room indoor" data-label="Library" x="193" y="325" width="8" height="8" rx="2"/>
+    <rect id="room-6c06f60a658f5f8e2bb408819711f841eb94bdc8" class="room indoor" data-label="Library" x="193" y="305" width="8" height="8" rx="2"/>
+    <rect id="room-40a28b292058c20c781abd356cea2d33df9cedf1" class="room indoor" data-label="Library" x="173" y="285" width="8" height="8" rx="2"/>
+    <rect id="room-ca0a26c728e730ca18277fd8ec943ed4b89fa0d3" class="room indoor" data-label="Library" x="213" y="305" width="8" height="8" rx="2"/>
+    <rect id="room-9863cf39fc579d771ee4ce7f17488c63eec66fc3" class="room indoor" data-label="Library" x="233" y="325" width="8" height="8" rx="2"/>
+    <rect id="room-531f7bcd7d48da6572e58e65f6719bbe271e900b" class="room indoor" data-label="Library" x="253" y="345" width="8" height="8" rx="2"/>
+    <rect id="room-b717bc85e9b66a16cbdca0bdcadac2c4755c903c" class="room indoor" data-label="Library" x="253" y="285" width="8" height="8" rx="2"/>
+    <rect id="room-099eb4fe137de68dd4b708560d69050870426070" class="room indoor" data-label="Library" x="233" y="285" width="8" height="8" rx="2"/>
+    <rect id="room-d6234c1d9f88959a8e1f1643993a2f2bdf09d81c" class="room indoor" data-label="Library" x="230" y="60" width="8" height="8" rx="2"/>
+    <rect id="room-0e9edd1ad630fe11910480e10e0f1993da99fe4d" class="room indoor" data-label="Library" x="210" y="60" width="8" height="8" rx="2"/>
+    <rect id="room-823bc54864daa31eb3bb4a28f9cb6649462fe066" class="room indoor" data-label="Library" x="210" y="40" width="8" height="8" rx="2"/>
+    <rect id="room-ac795f07d5c968f428f04ee2fcd08647f612d4b4" class="room indoor" data-label="Library" x="190" y="40" width="8" height="8" rx="2"/>
+    <rect id="room-6246389e3a3f160a118d811d2daae0ac2cd58945" class="room indoor" data-label="Library" x="130" y="40" width="8" height="8" rx="2"/>
+    <rect id="room-4235f43cfa8fc2147af53a19e2f7b59da6d1f223" class="room indoor" data-label="Library" x="130" y="20" width="8" height="8" rx="2"/>
+    <rect id="room-c73385a6df39e273b6e5496fe0adfaf62baa0c3e" class="room indoor" data-label="Library" x="70" y="40" width="8" height="8" rx="2"/>
+    <rect id="room-ddff7127c6802cb0d2bf78d1c5a4f92832d3beb6" class="room indoor" data-label="Library" x="70" y="100" width="8" height="8" rx="2"/>
+    <rect id="room-faeb8bdb5629c6b2c1211506b6622bcdd57ed78b" class="room indoor" data-label="Library" x="70" y="160" width="8" height="8" rx="2"/>
+    <rect id="room-dfd45b634f9d21df79c1dfd4c007df48352b2c88" class="room indoor" data-label="Library" x="130" y="160" width="8" height="8" rx="2"/>
+    <rect id="room-be50f561e70c8836cca3424a8bb1d0b5c3283326" class="room indoor" data-label="Library" x="190" y="160" width="8" height="8" rx="2"/>
+    <rect id="room-1b17ea42bad9be02b9baa2fe1f7cb39daf08ccfa" class="room indoor" data-label="Library" x="190" y="100" width="8" height="8" rx="2"/>
+    <rect id="room-a1acf34a867dfa1c5745cdd097a3e9ec09b72e85" class="room indoor" data-label="Library" x="110" y="100" width="8" height="8" rx="2"/>
+    <rect id="room-9081f12756a716baac6594a9f0aedbe5fdf9a1c3" class="room indoor" data-label="Library" x="70" y="180" width="8" height="8" rx="2"/>
+    <rect id="room-cc7db7473d455690dda47a3078fb481207b09a80" class="room indoor" data-label="Library" x="50" y="180" width="8" height="8" rx="2"/>
+    <rect id="room-08f690ef8a1ac487e89d24bf7f54d294f18274c2" class="room indoor" data-label="Library" x="50" y="160" width="8" height="8" rx="2"/>
+    <rect id="room-0719672e7a3a3a74a605ce49eb44365289adecca" class="room indoor" data-label="Library" x="50" y="200" width="8" height="8" rx="2"/>
+    <rect id="room-0cc31774755e2913070132a34754f5551e0fde46" class="room indoor" data-label="Library" x="70" y="200" width="8" height="8" rx="2"/>
+    <rect id="room-f0b36708efe79d21093caa32ecc47df861df3aa1" class="room indoor" data-label="Library" x="30" y="200" width="8" height="8" rx="2"/>
+    <rect id="room-6e3097ae6ae1df69ff035e7eb2fd169caaf10a0a" class="room indoor" data-label="Library" x="10" y="200" width="8" height="8" rx="2"/>
+    <rect id="room-9a1349af371b774bdf97d052fdd7ef60bf95cd59" class="room indoor" data-label="Library" x="190" y="180" width="8" height="8" rx="2"/>
+    <rect id="room-86f8d35742f3e516235f266895f2868bfc0a4f27" class="room indoor" data-label="Library" x="185" y="733" width="8" height="8" rx="2"/>
+    <rect id="room-b90d60a43e902fb50cb3f5402612e3e68fce4930" class="room indoor" data-label="Library" x="185" y="753" width="8" height="8" rx="2"/>
+    <rect id="room-246739d773f2cc721a723c23b902bc6136461d1f" class="room indoor" data-label="Library" x="165" y="713" width="8" height="8" rx="2"/>
+    <rect id="room-9a0aff8e9d0484aee72c9e1a314e16623d26d19b" class="room indoor" data-label="Library" x="165" y="693" width="8" height="8" rx="2"/>
+    <rect id="room-c161cf1ccbfef004aa0d695c93e4b4d411e26a2f" class="room indoor" data-label="Library" x="145" y="693" width="8" height="8" rx="2"/>
+    <rect id="room-04443ad61d2469ae93c1a06912535f0c1a39e803" class="room indoor" data-label="Library" x="185" y="673" width="8" height="8" rx="2"/>
+    <rect id="room-5ab052db1faced8e28b42ed7b5ee745365809dfb" class="room indoor" data-label="Library" x="205" y="673" width="8" height="8" rx="2"/>
+    <rect id="room-bc8f389a1215e40cd7229b04cd4755d346038aca" class="room indoor" data-label="Library" x="225" y="693" width="8" height="8" rx="2"/>
+    <rect id="room-d55c9f9389885fdb2792af78cb2f9a85a43afe43" class="room indoor" data-label="Library" x="245" y="713" width="8" height="8" rx="2"/>
+    <rect id="room-422fe68cf3e55d8a09be129a66255820eb193337" class="room indoor" data-label="Library" x="245" y="733" width="8" height="8" rx="2"/>
+    <rect id="room-0460f01be21452561c19ed71899ca55f0546cf59" class="room indoor" data-label="Library" x="225" y="753" width="8" height="8" rx="2"/>
+    <rect id="room-132e4d043cfbdc58bad9be010791648c16ad95a4" class="room indoor" data-label="Library" x="265" y="733" width="8" height="8" rx="2"/>
+    <rect id="room-03d5e3c94f35d388e0c841a09e285c50a0b64d55" class="room indoor" data-label="Library" x="285" y="713" width="8" height="8" rx="2"/>
+    <rect id="room-c2b6acbecd35d469e5dde15f8097393936525bc2" class="room indoor" data-label="Library" x="305" y="713" width="8" height="8" rx="2"/>
+    <rect id="room-1d49fb3bb726cee1546716065b95c5d3bb5b22fc" class="room indoor" data-label="Library" x="325" y="693" width="8" height="8" rx="2"/>
+    <rect id="room-ef44a357e8b7ed627f746efb0bd8646194b00830" class="room indoor" data-label="Library" x="325" y="673" width="8" height="8" rx="2"/>
+    <rect id="room-2e65f76814361c8d9ce42eca96b1de9569629f0b" class="room indoor" data-label="Library" x="225" y="653" width="8" height="8" rx="2"/>
+    <rect id="room-5b982172ccd8b0cdeb252c803490a70fe2888bbc" class="room indoor" data-label="Library" x="205" y="633" width="8" height="8" rx="2"/>
+    <rect id="room-9ca7dfb706e214fa8a5769b89f7b5b467b69266d" class="room indoor" data-label="Library" x="185" y="633" width="8" height="8" rx="2"/>
+    <rect id="room-ad74fb5543a52dba0aa1881ad950cb377982d510" class="room indoor" data-label="Library" x="185" y="613" width="8" height="8" rx="2"/>
+    <rect id="room-10a06f7da7751ff5734099b57ef38e9f8b7163b6" class="room indoor" data-label="Library" x="165" y="633" width="8" height="8" rx="2"/>
+    <rect id="room-f56ab2c07efd041fa2d581fd133324b46e6be8e9" class="room indoor" data-label="Library" x="245" y="653" width="8" height="8" rx="2"/>
+    <rect id="room-042adaa3b198dfa1f60bc790fc622b30afbcf37a" class="room indoor" data-label="Library" x="265" y="633" width="8" height="8" rx="2"/>
+    <rect id="room-11ab62bec629e62a37156b0d4eb8366889bc371e" class="room indoor" data-label="Library" x="285" y="653" width="8" height="8" rx="2"/>
+    <rect id="room-ba43dad189ce4f05cc20fd120f0425684eecceb8" class="room indoor" data-label="Library" x="285" y="673" width="8" height="8" rx="2"/>
+    <rect id="room-2102603e53372b92b42a634d73189a76a8c5b0e4" class="room indoor" data-label="Library" x="265" y="613" width="8" height="8" rx="2"/>
+    <rect id="room-d027a90a9ef6ac4978ef10259a83057e58cc1037" class="room indoor" data-label="Library" x="265" y="593" width="8" height="8" rx="2"/>
+    <rect id="room-31f43a973754d749a3f4b2cd0e2afee3b11ecda7" class="room indoor" data-label="Library" x="30" y="180" width="8" height="8" rx="2"/>
+    <rect id="room-a8d63378d2a636be24344ca2041c90bbb15f454f" class="room indoor" data-label="Library" x="110" y="120" width="8" height="8" rx="2"/>
+    <rect id="room-0ea504bbc21424a039df8539ba5ea5a96d44d025" class="room indoor" data-label="Library" x="130" y="120" width="8" height="8" rx="2"/>
+    <rect id="room-518b65036d905d8d058fa58bbc3090f4dd7838a0" class="room indoor" data-label="Library" x="130" y="140" width="8" height="8" rx="2"/>
+    <rect id="room-914906b2f8a74c562a8a35215dbcaa9931f9175a" class="room indoor" data-label="Library" x="110" y="80" width="8" height="8" rx="2"/>
+    <rect id="room-9a608a8b44d89428ad34d45ca6c5a89d5e610d66" class="room indoor" data-label="Library" x="130" y="80" width="8" height="8" rx="2"/>
+    <rect id="room-237d25a6d985082ef09d23c986c9251107c19036" class="room indoor" data-label="Library" x="150" y="80" width="8" height="8" rx="2"/>
+    <rect id="room-0a7dc632ff816d952291145872e782f72c9e51db" class="room indoor" data-label="Library" x="170" y="80" width="8" height="8" rx="2"/>
+    <rect id="room-78db6be3e58c35d338c48a662a1394a6cf2be668" class="room indoor" data-label="Library" x="150" y="100" width="8" height="8" rx="2"/>
+    <rect id="room-0df5dc2f5d0b0aa4228426406bc58a779d037614" class="room indoor" data-label="Library" x="98" y="88" width="8" height="8" rx="2"/>
+    <rect id="room-e7bb794871a5986e5115ee0418d3c8bf947474f9" class="room indoor" data-label="Library" x="86" y="76" width="8" height="8" rx="2"/>
+    <rect id="room-acf5ca5831169801902e6547d2169a230572b2a5" class="room indoor" data-label="Library" x="162" y="92" width="8" height="8" rx="2"/>
+    <rect id="room-d882b4a792eb8e59d8725c18049d8e8917550e28" class="room indoor" data-label="Library" x="145" y="230" width="8" height="8" rx="2"/>
+    <rect id="room-e560b6dfc49839ef2d6e2053c1be2baa72981801" class="room indoor" data-label="Library" x="108" y="275" width="8" height="8" rx="2"/>
+    <rect id="room-33351e02c2566bbeb430c954aeaa14c4ed31543c" class="room indoor" data-label="Library" x="95" y="262" width="8" height="8" rx="2"/>
+    <rect id="room-e88d0eed3d8300e83caf70965cfa11ff75fd0857" class="room indoor" data-label="Library" x="110" y="262" width="8" height="8" rx="2"/>
+    <rect id="room-912a654b58e66ead28c1857085660e3385dfe51d" class="room indoor" data-label="Library" x="124" y="262" width="8" height="8" rx="2"/>
+    <rect id="room-77da546472749985aaa355bb9d976bd6a36cdef4" class="room indoor" data-label="Library" x="138" y="275" width="8" height="8" rx="2"/>
+    <rect id="room-534a47df000810ca716b11dbcab83384fd95d643" class="room indoor" data-label="Library" x="152" y="275" width="8" height="8" rx="2"/>
+    <rect id="room-cdfa217b4d87a4b880f7cebca5346d8ef0da3a55" class="room indoor" data-label="Library" x="152" y="261" width="8" height="8" rx="2"/>
+    <rect id="room-3170bb3bfe4d3e6172415299d981991b4f00498b" class="room indoor" data-label="Library" x="137" y="247" width="8" height="8" rx="2"/>
+    <rect id="room-f1e3221f1914d18d47c91b8de26f2c375ae06b76" class="room indoor" data-label="Library" x="137" y="193" width="8" height="8" rx="2"/>
+    <rect id="room-228036866bbd7da066bae0568dd4deea68558420" class="room indoor" data-label="Library" x="173" y="230" width="8" height="8" rx="2"/>
+    <rect id="room-52386e06ab24a5c7af7f4b86d85a04fad4007f80" class="room indoor" data-label="Library" x="159" y="230" width="8" height="8" rx="2"/>
+    <rect id="room-48948f2bf81f42b8e37740ad6e0f9e0bfb3021c9" class="room indoor" data-label="Library" x="159" y="244" width="8" height="8" rx="2"/>
+    <rect id="room-515dd20566044476ec38c5fa95388440742ff75d" class="room indoor" data-label="small hobble" x="129" y="480" width="8" height="8" rx="2"/>
+    <rect id="room-3b59d41317cc50934698326b654ac5234cc5dfd3" class="room indoor" data-label="under the willow" x="171" y="421" width="8" height="8" rx="2"/>
+    <rect id="room-ac04e9957c65a5c6d9fce94077efbd2153a1d625" class="room indoor" data-label="willow tree" x="171" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-ab4848fcebf7952dea5e2edcf3f8b98fed407db1" class="room indoor" data-label="willow tree" x="171" y="377" width="8" height="8" rx="2"/>
+    <rect id="room-fa81e8c1e3c9ad5cf4b69dcb324ff39455f17b33" class="room indoor" data-label="willow tree" x="158" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-0066e2520ac2707e2e5861a670e37f18e359e855" class="room indoor" data-label="willow tree" x="158" y="377" width="8" height="8" rx="2"/>
+    <rect id="room-dd3ae1c42fbeb018b7319002b8d065770ebfa50b" class="room indoor" data-label="willow tree" x="184" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-229ddbf62819c273ca98ed26fe68085688a3da45" class="room indoor" data-label="willow tree" x="184" y="377" width="8" height="8" rx="2"/>
+    <rect id="room-be4568d954260519770a94f234c9d092c54c97c1" class="room indoor" data-label="willow tree" x="184" y="403" width="8" height="8" rx="2"/>
+    <rect id="room-2354219626352afcee0d663f5f64dbcb6373f2fc" class="room indoor" data-label="willow tree" x="171" y="403" width="8" height="8" rx="2"/>
+    <rect id="room-9b750ea85fabb721611a6186f1baaad873715e05" class="room indoor" data-label="willow tree" x="158" y="403" width="8" height="8" rx="2"/>
+    <rect id="room-e8a670edf8237b8781fffbe8516a5324e1c0de31" class="room indoor" data-label="willow tree" x="158" y="377" width="8" height="8" rx="2"/>
+    <rect id="room-07a7e7d8edb0de2998e00df9a15a48de369828d2" class="room indoor" data-label="willow tree" x="171" y="377" width="8" height="8" rx="2"/>
+    <rect id="room-57fb2663f6ccb4730fe829d938816a32b0c59d3e" class="room indoor" data-label="willow tree" x="184" y="377" width="8" height="8" rx="2"/>
+    <rect id="room-656abc50907af60d4e7ac4aa8e4f052447233a9a" class="room indoor" data-label="willow tree" x="184" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-c1ec858bc4b545793d4e726724ebfef8991fd175" class="room indoor" data-label="willow tree" x="184" y="403" width="8" height="8" rx="2"/>
+    <rect id="room-1d7b9e24321d8249969fc1562aaa0db664337369" class="room indoor" data-label="willow tree" x="171" y="403" width="8" height="8" rx="2"/>
+    <rect id="room-082766dbd321a451e58947d0db001a9678e386ed" class="room indoor" data-label="willow tree" x="158" y="403" width="8" height="8" rx="2"/>
+    <rect id="room-388496081f6b63a73542bd4fd8c4b3fb3da855b1" class="room indoor" data-label="willow tree" x="158" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-8d06e2ce73096e4e68d16325fd7b959f4c5c9916" class="room indoor" data-label="willow tree" x="171" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-8a18008ecae5513c4a582701f45aa7ff28082913" class="room indoor" data-label="willow tree" x="171" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-2b83e715864f428418dc6e97e882b5e45d89c8d4" class="room indoor" data-label="willow tree" x="184" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-477084cd9270e59680aab1e667802eae71d78f71" class="room indoor" data-label="willow tree" x="184" y="377" width="8" height="8" rx="2"/>
+    <rect id="room-506aacef99376f54d6348e127bdd4257f3c79b0c" class="room indoor" data-label="willow tree" x="171" y="377" width="8" height="8" rx="2"/>
+    <rect id="room-d5f64e97a199e8a5bdfc258ae38258b97dc008ef" class="room indoor" data-label="willow tree" x="158" y="377" width="8" height="8" rx="2"/>
+    <rect id="room-117c759c38b49bdb53d52db7cf719c907ffe5a76" class="room indoor" data-label="willow tree" x="158" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-de9f9432ddf6ae99e0abaea47deeddc2d213174d" class="room indoor" data-label="willow tree" x="158" y="403" width="8" height="8" rx="2"/>
+    <rect id="room-f23f3a104e4ba8b60e817f8ca8c16d5e37046864" class="room indoor" data-label="willow tree" x="171" y="403" width="8" height="8" rx="2"/>
+    <rect id="room-89d5ad2e6a12fc473d8164ec27fbb0a0108ecc8b" class="room indoor" data-label="willow tree" x="184" y="403" width="8" height="8" rx="2"/>
+    <rect id="room-8870b2b0bacf19ee6afa593fff5dbdf3f8c968b7" class="room indoor" data-label="willow tree" x="171" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-0cea3f1c1cbc584ea4f7148f05f8a8b3e585b158" class="room indoor" data-label="willow tree" x="171" y="377" width="8" height="8" rx="2"/>
+    <rect id="room-1132dcfa2abc68bb377a11b15a62de04bd8972d3" class="room indoor" data-label="willow tree" x="184" y="377" width="8" height="8" rx="2"/>
+    <rect id="room-98f390e4fd9922fb7ae016ff37bc32616a01f5e1" class="room indoor" data-label="willow tree" x="184" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-56806ba0d3eaec78a24bf26698000c12c6b69d74" class="room indoor" data-label="willow tree" x="158" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-4af16e0e42175b3555175ebb3624ff3780121374" class="room indoor" data-label="willow tree" x="158" y="377" width="8" height="8" rx="2"/>
+    <rect id="room-c483b329bf4712b81ec69d43e6789f143fa926b5" class="room indoor" data-label="willow tree" x="158" y="403" width="8" height="8" rx="2"/>
+    <rect id="room-246b2b5678ea9349b56804249f7b257b5547af49" class="room indoor" data-label="willow tree" x="171" y="403" width="8" height="8" rx="2"/>
+    <rect id="room-281552d0183a504af6404ecfacfafe8bb59d7735" class="room indoor" data-label="willow tree" x="184" y="403" width="8" height="8" rx="2"/>
+    <rect id="room-56a066fb2b8aa2c33b866f9099652c86580c4b5b" class="room indoor" data-label="willow tree" x="171" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-8e4af15a37a244bc381785aa7877e3eeae7ec771" class="room indoor" data-label="willow tree" x="158" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-ba6fae9486d5dffff5f7fd57289186bf81c5b2b4" class="room indoor" data-label="willow tree" x="158" y="377" width="8" height="8" rx="2"/>
+    <rect id="room-e7d79fffa2f2aad321ab46599314620f0b9b7f09" class="room indoor" data-label="willow tree" x="171" y="377" width="8" height="8" rx="2"/>
+    <rect id="room-78f6dc264e47daf3224607c06722d3a1dae2c201" class="room indoor" data-label="willow tree" x="171" y="403" width="8" height="8" rx="2"/>
+    <rect id="room-06cdde13cd6adddcbe86a8ed7356026afee729ab" class="room indoor" data-label="willow tree" x="158" y="403" width="8" height="8" rx="2"/>
+    <rect id="room-496c4a6992c85966d82dd113266b1282b42e6ebc" class="room indoor" data-label="willow tree" x="184" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-bdff6d896d396da1bfb02871d24d6867b6795e52" class="room indoor" data-label="willow tree" x="184" y="403" width="8" height="8" rx="2"/>
+    <rect id="room-819819ad1f6c1cbf850df8c0578f5135183911a7" class="room indoor" data-label="willow tree" x="184" y="377" width="8" height="8" rx="2"/>
+    <rect id="room-1a94abd43046c9cf74268e21354e651182788097" class="room indoor" data-label="willow tree" x="171" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-6ce8ff8ba28aa4c9fc749a793bb4612577b8e503" class="room indoor" data-label="willow tree" x="171" y="403" width="8" height="8" rx="2"/>
+    <rect id="room-5be18cd4cd091da4b0acb5a8ca0d485001331c55" class="room indoor" data-label="willow tree" x="184" y="403" width="8" height="8" rx="2"/>
+    <rect id="room-55f9a5f224ce0790761f5cb52dc24c0df2068be3" class="room indoor" data-label="willow tree" x="184" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-4bd18ab5e88db3d347c8dc2084871dcde058d613" class="room indoor" data-label="willow tree" x="184" y="377" width="8" height="8" rx="2"/>
+    <rect id="room-13423fde15e7ca66794831e8e0303681742de949" class="room indoor" data-label="willow tree" x="171" y="377" width="8" height="8" rx="2"/>
+    <rect id="room-dc81566395da269d3768a9ab86af464269fdcc26" class="room indoor" data-label="willow tree" x="158" y="377" width="8" height="8" rx="2"/>
+    <rect id="room-23cc671234ed93e3d9ce503894a6c43917af4520" class="room indoor" data-label="willow tree" x="158" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-6f188167e5b07585c7be18e4639ebd5f6339fd7a" class="room indoor" data-label="willow tree" x="158" y="403" width="8" height="8" rx="2"/>
+    <rect id="room-7fe6402aa1a251efb88ba83c1f65f1d3d66a56a0" class="room indoor" data-label="willow tree" x="171" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-9c57db47c0072c66b3f13fff98b5e1aa5409e083" class="room indoor" data-label="willow tree" x="171" y="377" width="8" height="8" rx="2"/>
+    <rect id="room-d269d2b805dd0cb42d11940aefa0c6121337fb17" class="room indoor" data-label="willow tree" x="158" y="377" width="8" height="8" rx="2"/>
+    <rect id="room-d1c0f125a7cda46f10710e1c772259fc5942f596" class="room indoor" data-label="willow tree" x="158" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-c2b85f7876998bc55c1011b639294c4a5fc3388c" class="room indoor" data-label="willow tree" x="158" y="403" width="8" height="8" rx="2"/>
+    <rect id="room-4bbbdd9b17108b519eaa524aa42ce4f59ccccd84" class="room indoor" data-label="willow tree" x="171" y="403" width="8" height="8" rx="2"/>
+    <rect id="room-30d544e0718c0c0d4973778b16a4fe221f7c1494" class="room indoor" data-label="willow tree" x="184" y="403" width="8" height="8" rx="2"/>
+    <rect id="room-32a22b8d9f680991892477a4c71d0bc39ee05cce" class="room indoor" data-label="willow tree" x="184" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-57fc64d9e7f5f89be5d2491ad0d73cfb021f948f" class="room indoor" data-label="willow tree" x="184" y="377" width="8" height="8" rx="2"/>
+    <rect id="room-9f65bdea7c248cd870b8d58a0095333eb49bb594" class="room indoor" data-label="willow tree" x="171" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-2d62696027751c8d00b11055471e12a04e164bbb" class="room indoor" data-label="willow tree" x="171" y="403" width="8" height="8" rx="2"/>
+    <rect id="room-cc518f89ecb4f25612c13f8422c2ebee11e15eda" class="room indoor" data-label="willow tree" x="184" y="403" width="8" height="8" rx="2"/>
+    <rect id="room-ee292eb932c5e3e4980dbcace7fa93e81be47906" class="room indoor" data-label="willow tree" x="184" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-7751f12d3a4351926a2cc3846d684bafdaebd5fc" class="room indoor" data-label="willow tree" x="184" y="377" width="8" height="8" rx="2"/>
+    <rect id="room-372a727672d3f5db1f9a98bb7ee148d177ea0678" class="room indoor" data-label="willow tree" x="171" y="377" width="8" height="8" rx="2"/>
+    <rect id="room-44338b128cfb76ac9a353ecf243964d7f5c55343" class="room indoor" data-label="willow tree" x="158" y="377" width="8" height="8" rx="2"/>
+    <rect id="room-7520c4594b2e9abc925c559c028621b8112b145b" class="room indoor" data-label="willow tree" x="158" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-98b056a05b6602ce3b7e9c8834e5ebff8da2ea0a" class="room indoor" data-label="willow tree" x="158" y="403" width="8" height="8" rx="2"/>
+    <rect id="room-6aad4b140645d5f3cf8b139ca074a0515f707415" class="room indoor" data-label="willow tree" x="171" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-a9871f81c3620fb5bd3eceea0fed8d6c36ba197e" class="room indoor" data-label="willow tree" x="171" y="377" width="8" height="8" rx="2"/>
+    <rect id="room-ab79cb08f67bff9a11afa82120870caedd94ce1a" class="room indoor" data-label="willow tree" x="158" y="377" width="8" height="8" rx="2"/>
+    <rect id="room-e98d93e9f349efe69a88ddbf3a8a2cf851cce0dc" class="room indoor" data-label="willow tree" x="158" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-dc527aa543262faff460b7d7f15a4b446da3d97a" class="room indoor" data-label="willow tree" x="158" y="403" width="8" height="8" rx="2"/>
+    <rect id="room-5a7ce9614a1a56974a941206f9b5c9468d7d677d" class="room indoor" data-label="willow tree" x="171" y="403" width="8" height="8" rx="2"/>
+    <rect id="room-7e26b61779f1b8fe44392f5290563452e90590bd" class="room indoor" data-label="willow tree" x="184" y="403" width="8" height="8" rx="2"/>
+    <rect id="room-c9591dd1784519d1f01aa063306aafdfb060cdc5" class="room indoor" data-label="willow tree" x="184" y="390" width="8" height="8" rx="2"/>
+    <rect id="room-f7700b92a2faf433ea50a55460d9145f6edc47ed" class="room indoor" data-label="willow tree" x="184" y="377" width="8" height="8" rx="2"/>
+    <rect id="room-591c4cf27e093bff883704640edc6601b6984d6c" class="room indoor" data-label="arcane lounge" x="26" y="303" width="8" height="8" rx="2"/>
+    <rect id="room-16e11b4fb6d6e383e5f78e47dfa36dfe8982f2e4" class="room indoor" data-label="small apothecary" x="26" y="287" width="8" height="8" rx="2"/>
   </g>
 
-  <g id="layer-labels">
-    <text class="map-label" x="101" y="505">tiny room in a pocket just off the edge of L-space</text>
-    <text class="map-label" x="101" y="460">gymnasium</text>
-    <text class="map-label" x="113" y="472">cellar</text>
-    <text class="map-label" x="76" y="378">majestic courtyard</text>
-    <text class="map-label" x="116" y="378">legibles alcove</text>
-    <text class="map-label" x="76" y="358">wizards&#x27; billiards room</text>
-    <text class="map-label" x="76" y="338">upstairs billiards room</text>
-    <text class="map-label" x="36" y="378">stylish alcove</text>
-    <text class="map-label" x="16" y="378">hidden alcove</text>
-    <text class="map-label" x="4" y="366">hidden alcove</text>
-    <text class="map-label" x="35" y="419">arena alcove</text>
-    <text class="map-label" x="117" y="419">sticky alcove</text>
-    <text class="map-label" x="117" y="439">candied kitchen</text>
-    <text class="map-label" x="76" y="419">mysterious alcove</text>
-    <text class="map-label" x="117" y="337">The Exclusive Lounge of the Venerable Ancestors</text>
-    <text class="map-label" x="35" y="337">The Exclusive Lounge of Reckless Encouragement</text>
-    <text class="map-label" x="149" y="505">Library</text>
-    <text class="map-label" x="149" y="485">Library</text>
-    <text class="map-label" x="169" y="485">Library</text>
-    <text class="map-label" x="189" y="505">Library</text>
-    <text class="map-label" x="209" y="525">Library</text>
-    <text class="map-label" x="209" y="545">Library</text>
-    <text class="map-label" x="229" y="565">Library</text>
-    <text class="map-label" x="249" y="565">Library</text>
-    <text class="map-label" x="249" y="545">Library</text>
-    <text class="map-label" x="249" y="525">Library</text>
-    <text class="map-label" x="229" y="505">Library</text>
-    <text class="map-label" x="229" y="485">Library</text>
-    <text class="map-label" x="249" y="485">Library</text>
-    <text class="map-label" x="209" y="465">Library</text>
-    <text class="map-label" x="189" y="465">Library</text>
-    <text class="map-label" x="229" y="445">Library</text>
-    <text class="map-label" x="277" y="397">Library</text>
-    <text class="map-label" x="277" y="377">Library</text>
-    <text class="map-label" x="297" y="357">Library</text>
-    <text class="map-label" x="317" y="357">Library</text>
-    <text class="map-label" x="317" y="377">Library</text>
-    <text class="map-label" x="297" y="377">Library</text>
-    <text class="map-label" x="277" y="357">Library</text>
-    <text class="map-label" x="297" y="337">Library</text>
-    <text class="map-label" x="317" y="317">Library</text>
-    <text class="map-label" x="317" y="297">Library</text>
-    <text class="map-label" x="337" y="317">Library</text>
-    <text class="map-label" x="337" y="337">Library</text>
-    <text class="map-label" x="357" y="357">Library</text>
-    <text class="map-label" x="377" y="377">Library</text>
-    <text class="map-label" x="377" y="357">Library</text>
-    <text class="map-label" x="357" y="377">Library</text>
-    <text class="map-label" x="337" y="397">Library</text>
-    <text class="map-label" x="317" y="337">Library</text>
-    <text class="map-label" x="297" y="317">Library</text>
-    <text class="map-label" x="277" y="317">Library</text>
-    <text class="map-label" x="277" y="297">Library</text>
-    <text class="map-label" x="297" y="297">Library</text>
-    <text class="map-label" x="297" y="277">Library</text>
-    <text class="map-label" x="257" y="317">Library</text>
-    <text class="map-label" x="237" y="337">Library</text>
-    <text class="map-label" x="217" y="357">Library</text>
-    <text class="map-label" x="197" y="337">Library</text>
-    <text class="map-label" x="177" y="337">Library</text>
-    <text class="map-label" x="197" y="317">Library</text>
-    <text class="map-label" x="197" y="297">Library</text>
-    <text class="map-label" x="177" y="277">Library</text>
-    <text class="map-label" x="217" y="297">Library</text>
-    <text class="map-label" x="237" y="317">Library</text>
-    <text class="map-label" x="257" y="337">Library</text>
-    <text class="map-label" x="257" y="277">Library</text>
-    <text class="map-label" x="237" y="277">Library</text>
-    <text class="map-label" x="234" y="52">Library</text>
-    <text class="map-label" x="214" y="52">Library</text>
-    <text class="map-label" x="214" y="32">Library</text>
-    <text class="map-label" x="194" y="32">Library</text>
-    <text class="map-label" x="134" y="32">Library</text>
-    <text class="map-label" x="134" y="12">Library</text>
-    <text class="map-label" x="74" y="32">Library</text>
-    <text class="map-label" x="74" y="92">Library</text>
-    <text class="map-label" x="74" y="152">Library</text>
-    <text class="map-label" x="134" y="152">Library</text>
-    <text class="map-label" x="194" y="152">Library</text>
-    <text class="map-label" x="194" y="92">Library</text>
-    <text class="map-label" x="114" y="92">Library</text>
-    <text class="map-label" x="74" y="172">Library</text>
-    <text class="map-label" x="54" y="172">Library</text>
-    <text class="map-label" x="54" y="152">Library</text>
-    <text class="map-label" x="54" y="192">Library</text>
-    <text class="map-label" x="74" y="192">Library</text>
-    <text class="map-label" x="34" y="192">Library</text>
-    <text class="map-label" x="14" y="192">Library</text>
-    <text class="map-label" x="194" y="172">Library</text>
-    <text class="map-label" x="189" y="725">Library</text>
-    <text class="map-label" x="189" y="745">Library</text>
-    <text class="map-label" x="169" y="705">Library</text>
-    <text class="map-label" x="169" y="685">Library</text>
-    <text class="map-label" x="149" y="685">Library</text>
-    <text class="map-label" x="189" y="665">Library</text>
-    <text class="map-label" x="209" y="665">Library</text>
-    <text class="map-label" x="229" y="685">Library</text>
-    <text class="map-label" x="249" y="705">Library</text>
-    <text class="map-label" x="249" y="725">Library</text>
-    <text class="map-label" x="229" y="745">Library</text>
-    <text class="map-label" x="269" y="725">Library</text>
-    <text class="map-label" x="289" y="705">Library</text>
-    <text class="map-label" x="309" y="705">Library</text>
-    <text class="map-label" x="329" y="685">Library</text>
-    <text class="map-label" x="329" y="665">Library</text>
-    <text class="map-label" x="229" y="645">Library</text>
-    <text class="map-label" x="209" y="625">Library</text>
-    <text class="map-label" x="189" y="625">Library</text>
-    <text class="map-label" x="189" y="605">Library</text>
-    <text class="map-label" x="169" y="625">Library</text>
-    <text class="map-label" x="249" y="645">Library</text>
-    <text class="map-label" x="269" y="625">Library</text>
-    <text class="map-label" x="289" y="645">Library</text>
-    <text class="map-label" x="289" y="665">Library</text>
-    <text class="map-label" x="269" y="605">Library</text>
-    <text class="map-label" x="269" y="585">Library</text>
-    <text class="map-label" x="34" y="172">Library</text>
-    <text class="map-label" x="114" y="112">Library</text>
-    <text class="map-label" x="134" y="112">Library</text>
-    <text class="map-label" x="134" y="132">Library</text>
-    <text class="map-label" x="114" y="72">Library</text>
-    <text class="map-label" x="134" y="72">Library</text>
-    <text class="map-label" x="154" y="72">Library</text>
-    <text class="map-label" x="174" y="72">Library</text>
-    <text class="map-label" x="154" y="92">Library</text>
-    <text class="map-label" x="102" y="80">Library</text>
-    <text class="map-label" x="90" y="68">Library</text>
-    <text class="map-label" x="166" y="84">Library</text>
-    <text class="map-label" x="149" y="222">Library</text>
-    <text class="map-label" x="112" y="267">Library</text>
-    <text class="map-label" x="99" y="254">Library</text>
-    <text class="map-label" x="114" y="254">Library</text>
-    <text class="map-label" x="128" y="254">Library</text>
-    <text class="map-label" x="142" y="267">Library</text>
-    <text class="map-label" x="156" y="267">Library</text>
-    <text class="map-label" x="156" y="253">Library</text>
-    <text class="map-label" x="141" y="239">Library</text>
-    <text class="map-label" x="141" y="185">Library</text>
-    <text class="map-label" x="177" y="222">Library</text>
-    <text class="map-label" x="163" y="222">Library</text>
-    <text class="map-label" x="163" y="236">Library</text>
-    <text class="map-label" x="133" y="472">small hobble</text>
-    <text class="map-label" x="175" y="413">under the willow</text>
-    <text class="map-label" x="175" y="382">willow tree</text>
-    <text class="map-label" x="175" y="369">willow tree</text>
-    <text class="map-label" x="162" y="382">willow tree</text>
-    <text class="map-label" x="162" y="369">willow tree</text>
-    <text class="map-label" x="188" y="382">willow tree</text>
-    <text class="map-label" x="188" y="369">willow tree</text>
-    <text class="map-label" x="188" y="395">willow tree</text>
-    <text class="map-label" x="175" y="395">willow tree</text>
-    <text class="map-label" x="162" y="395">willow tree</text>
-    <text class="map-label" x="162" y="369">willow tree</text>
-    <text class="map-label" x="175" y="369">willow tree</text>
-    <text class="map-label" x="188" y="369">willow tree</text>
-    <text class="map-label" x="188" y="382">willow tree</text>
-    <text class="map-label" x="188" y="395">willow tree</text>
-    <text class="map-label" x="175" y="395">willow tree</text>
-    <text class="map-label" x="162" y="395">willow tree</text>
-    <text class="map-label" x="162" y="382">willow tree</text>
-    <text class="map-label" x="175" y="382">willow tree</text>
-    <text class="map-label" x="175" y="382">willow tree</text>
-    <text class="map-label" x="188" y="382">willow tree</text>
-    <text class="map-label" x="188" y="369">willow tree</text>
-    <text class="map-label" x="175" y="369">willow tree</text>
-    <text class="map-label" x="162" y="369">willow tree</text>
-    <text class="map-label" x="162" y="382">willow tree</text>
-    <text class="map-label" x="162" y="395">willow tree</text>
-    <text class="map-label" x="175" y="395">willow tree</text>
-    <text class="map-label" x="188" y="395">willow tree</text>
-    <text class="map-label" x="175" y="382">willow tree</text>
-    <text class="map-label" x="175" y="369">willow tree</text>
-    <text class="map-label" x="188" y="369">willow tree</text>
-    <text class="map-label" x="188" y="382">willow tree</text>
-    <text class="map-label" x="162" y="382">willow tree</text>
-    <text class="map-label" x="162" y="369">willow tree</text>
-    <text class="map-label" x="162" y="395">willow tree</text>
-    <text class="map-label" x="175" y="395">willow tree</text>
-    <text class="map-label" x="188" y="395">willow tree</text>
-    <text class="map-label" x="175" y="382">willow tree</text>
-    <text class="map-label" x="162" y="382">willow tree</text>
-    <text class="map-label" x="162" y="369">willow tree</text>
-    <text class="map-label" x="175" y="369">willow tree</text>
-    <text class="map-label" x="175" y="395">willow tree</text>
-    <text class="map-label" x="162" y="395">willow tree</text>
-    <text class="map-label" x="188" y="382">willow tree</text>
-    <text class="map-label" x="188" y="395">willow tree</text>
-    <text class="map-label" x="188" y="369">willow tree</text>
-    <text class="map-label" x="175" y="382">willow tree</text>
-    <text class="map-label" x="175" y="395">willow tree</text>
-    <text class="map-label" x="188" y="395">willow tree</text>
-    <text class="map-label" x="188" y="382">willow tree</text>
-    <text class="map-label" x="188" y="369">willow tree</text>
-    <text class="map-label" x="175" y="369">willow tree</text>
-    <text class="map-label" x="162" y="369">willow tree</text>
-    <text class="map-label" x="162" y="382">willow tree</text>
-    <text class="map-label" x="162" y="395">willow tree</text>
-    <text class="map-label" x="175" y="382">willow tree</text>
-    <text class="map-label" x="175" y="369">willow tree</text>
-    <text class="map-label" x="162" y="369">willow tree</text>
-    <text class="map-label" x="162" y="382">willow tree</text>
-    <text class="map-label" x="162" y="395">willow tree</text>
-    <text class="map-label" x="175" y="395">willow tree</text>
-    <text class="map-label" x="188" y="395">willow tree</text>
-    <text class="map-label" x="188" y="382">willow tree</text>
-    <text class="map-label" x="188" y="369">willow tree</text>
-    <text class="map-label" x="175" y="382">willow tree</text>
-    <text class="map-label" x="175" y="395">willow tree</text>
-    <text class="map-label" x="188" y="395">willow tree</text>
-    <text class="map-label" x="188" y="382">willow tree</text>
-    <text class="map-label" x="188" y="369">willow tree</text>
-    <text class="map-label" x="175" y="369">willow tree</text>
-    <text class="map-label" x="162" y="369">willow tree</text>
-    <text class="map-label" x="162" y="382">willow tree</text>
-    <text class="map-label" x="162" y="395">willow tree</text>
-    <text class="map-label" x="175" y="382">willow tree</text>
-    <text class="map-label" x="175" y="369">willow tree</text>
-    <text class="map-label" x="162" y="369">willow tree</text>
-    <text class="map-label" x="162" y="382">willow tree</text>
-    <text class="map-label" x="162" y="395">willow tree</text>
-    <text class="map-label" x="175" y="395">willow tree</text>
-    <text class="map-label" x="188" y="395">willow tree</text>
-    <text class="map-label" x="188" y="382">willow tree</text>
-    <text class="map-label" x="188" y="369">willow tree</text>
-    <text class="map-label" x="30" y="295">arcane lounge</text>
-    <text class="map-label" x="30" y="279">small apothecary</text>
-  </g>
+  <g id="layer-labels"><!-- labels --></g>
 
 </svg>

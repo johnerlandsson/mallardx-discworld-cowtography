@@ -39,7 +39,7 @@ function resetZoom(mapId) {
   const meta = data.maps[mapId];
   if (!meta) return;
   const ratio = $container.clientHeight / Math.max($container.clientWidth, 1);
-  viewBox.w = meta.maxX / 6;
+  viewBox.w = meta.maxX / 4;
   viewBox.h = viewBox.w * ratio;
 }
 
@@ -63,9 +63,7 @@ async function loadSvgMap(mapId, x, y) {
   const meta = data.maps[mapId];
   if (!meta) return;
   const gen = ++loadGeneration;
-  const res     = await fetch(`maps/${meta.file.replace(".png", ".svg")}`);
-  if (!res.ok) throw new Error(`HTTP ${res.status} loading map ${mapId}`);
-  const svgText = await res.text();
+  const { default: svgText } = await import(`./maps/${meta.file.replace(".png", ".js")}`);
   if (gen !== loadGeneration) return;  // superseded by a later load
   clearContainer();
   const wrap = document.createElement("div");
