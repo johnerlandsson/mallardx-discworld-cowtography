@@ -108,6 +108,7 @@ local lib_facing          = 'n'
 local lib_x               = 166      -- current position on map 47 (tile units)
 local lib_y               = 4810
 local lib_move_queue      = {}       -- pending cardinal moves; aliases push, GMCP pops
+local lib_checkpoint      = nil      -- {x,y,facing} saved just before each GMCP-applied move
 local lib_distortion_here = nil      -- 'n'|'e'|'s'|'w' or nil
 local lib_orb_here        = false
 local last_lib_overlay    = nil
@@ -191,6 +192,18 @@ end)
 mud.alias([[^(?:right|rt)$]], function(m)
   if lib_in_library then table.insert(lib_move_queue, TURN_RIGHT[lib_facing]) end
   mud.send(m.text)
+end)
+
+-- Blocked-move handler. The UU Library returns one of three messages when
+-- a direction is invalid. Since these mean the command wasn't processed,
+-- GMCP never fires — we just discard the stale queue entry and clear any
+-- checkpoint left over from the previous successful move.
+mud.trigger([[^(?:> )?(?:What\?|That doesn't work\.|Try something else\.)\s*$]], function()
+  if not lib_in_library then return end
+  lib_checkpoint = nil
+  if #lib_move_queue > 0 then
+    table.remove(lib_move_queue, 1)
+  end
 end)
 
 -- Distortion visible with known direction (fires when you look at the room).
@@ -284,11 +297,12 @@ gmcp.on('room.info', function(_, data)
         lib_y          = 4810
         lib_move_queue = {}
       elseif #lib_move_queue > 0 then
-        -- Moving within library: pop the oldest pending move (FIFO so rapid
-        -- input before GMCP responds doesn't collapse multiple steps into one).
+        -- Moving within library: save a checkpoint for rollback (in case the
+        -- "no exit" trigger fires after GMCP), then apply the queued move.
+        lib_checkpoint = { x = lib_x, y = lib_y, facing = lib_facing }
         local move = table.remove(lib_move_queue, 1)
         lib_apply_move(move)
-        lib_facing = move
+        lib_facing = move  -- facing updates to the direction physically moved
       end
       lib_in_library = true
       lib_in_lspace  = false
@@ -297,6 +311,7 @@ gmcp.on('room.info', function(_, data)
     else
       lib_in_library = false
       lib_move_queue = {}
+      lib_checkpoint = nil
       if name_lower:find('mysterious') ~= nil then
         -- L-space rooms have GMCP name "mysterious library". Post lspace
         -- directly instead of post_room() to avoid resolveRoom finding the
