@@ -84,6 +84,8 @@ body {
 .map-area-stroke { stroke: var(--border);    fill: none; }
 .map-water       { fill: #0d1f2d; }
 .map-accent      { fill: var(--accent); }
+.anno-box        { stroke: var(--fg); stroke-width: 0.75; fill: var(--bg-elevated); }
+.anno-rule       { stroke: var(--fg); stroke-width: 0.5;  fill: none; opacity: 0.4; }
 
 /* ─── Special screens (Darkness, Labyrinth, Mines, Rat Farm, Unknown) ─────── */
 .special-screen[hidden] { display: none; }

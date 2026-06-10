@@ -188,7 +188,7 @@ const LIB_ENTRY_Y   = 4810
 const LIB_STEP      = 30
 const LIB_ROWS      = 160  // rows going north from entrance
 const LIB_LEFT_PAD  = 25   // extra space left of rooms for row numbers
-const LIB_RIGHT_PAD = 165  // extra space right of rooms for book list
+const LIB_RIGHT_PAD = 450  // extra space right of rooms for book list
 
 function libViewBox(booksCount = 0) {
   const tileSize = Math.round(LIB_STEP * 2 / 3)
@@ -332,13 +332,26 @@ export function buildLibraryBookList(booksArray = []) {
   const x      = LIB_COLS[LIB_COLS.length - 1] + 10 + 20  // 286: right of room tiles
   const LINE   = 12
   const FONT   = 9  // matches .lib-book-list font-size
+  const PAD    = 4
+  const HDR_H  = 12
   const sorted = [...booksArray].sort((a, b) => a[2] - b[2])
   const n      = sorted.length
   const startY = LIB_ENTRY_Y - (n - 1) * LINE - FONT       // bottom-align last item with row 1
+  const half   = Math.round(LIB_STEP * 2 / 3) / 2          // = 10
+  const boxX   = x - PAD
+  const boxW   = LIB_COLS[LIB_COLS.length - 1] + half + LIB_RIGHT_PAD - x
+  const boxY   = startY - HDR_H - PAD * 3
+  const boxH   = LIB_ENTRY_Y - boxY + FONT + PAD
+  const ruleY  = startY - PAD
   const items  = sorted.map(([,, number, description], i) =>
     `    <text class="lib-book-list" x="${x}" y="${startY + i * LINE}" dominant-baseline="hanging">${escapeXml(`${number}: ${description}`)}</text>`
   )
-  return items.join('\n') + '\n  '
+  return [
+    `    <rect class="anno-box" x="${boxX}" y="${boxY}" width="${boxW}" height="${boxH}" rx="2"/>`,
+    `    <text class="map-label" x="${x}" y="${boxY + PAD}" dominant-baseline="hanging">Books</text>`,
+    `    <line class="anno-rule" x1="${boxX}" y1="${ruleY}" x2="${boxX + boxW}" y2="${ruleY}"/>`,
+    ...items,
+  ].join('\n') + '\n  '
 }
 
 function buildAllLibraryLabels(tablesArray, gapsArray, booksArray) {

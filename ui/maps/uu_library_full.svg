@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="11 25 420 5012"
+     viewBox="11 25 705 5012"
      class="map-svg"
      data-map-id="47">
 
@@ -1757,7 +1757,10 @@
     <text class="lib-row-num" x="32" y="340" text-anchor="end" dominant-baseline="central">150</text>
     <text class="lib-row-num" x="32" y="190" text-anchor="end" dominant-baseline="central">155</text>
     <text class="lib-row-num" x="32" y="40" text-anchor="end" dominant-baseline="central">160</text>
-      <text class="lib-book-list" x="286" y="4621" dominant-baseline="hanging">1: Woddeley&#x27;s Occult Primer - a closed thin book</text>
+      <rect class="anno-box" x="282" y="4597" width="430" height="226" rx="2"/>
+    <text class="map-label" x="286" y="4601" dominant-baseline="hanging">Books</text>
+    <line class="anno-rule" x1="282" y1="4617" x2="712" y2="4617"/>
+    <text class="lib-book-list" x="286" y="4621" dominant-baseline="hanging">1: Woddeley&#x27;s Occult Primer - a closed thin book</text>
     <text class="lib-book-list" x="286" y="4633" dominant-baseline="hanging">2: A book of poetry - a slim book</text>
     <text class="lib-book-list" x="286" y="4645" dominant-baseline="hanging">3: Invoakatyons in thee Mysterie of Wynd - a rather torn volume</text>
     <text class="lib-book-list" x="286" y="4657" dominant-baseline="hanging">4: Spelles of thee Arte of Fyre - a slightly charred grimoire</text>
