@@ -6,12 +6,12 @@
   <g id="layer-artwork"><!-- artwork --></g>
 
   <g id="layer-exits">
-    <line id="edge-04fd563a7f8d4ccfc83661bbec60971ac9aa72ca-7e727e52d2794b8c5261c5b5daf184231c0ecafe" class="exit" x1="355" y1="316" x2="388" y2="291"/>
+    null
   </g>
 
   <g id="layer-rooms">
-    <rect id="room-04fd563a7f8d4ccfc83661bbec60971ac9aa72ca" class="room indoor" data-label="front of a travelling shop" x="351" y="312" width="8" height="8" rx="2"/>
-    <rect id="room-7e727e52d2794b8c5261c5b5daf184231c0ecafe" class="room indoor" data-label="small room containing the multiverse" x="384" y="287" width="8" height="8" rx="2"/>
+    <rect id="room-04fd563a7f8d4ccfc83661bbec60971ac9aa72ca" class="room indoor" data-label="front of a travelling shop" x="351" y="312" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="355,313 352.5,318 357.5,318"/>
+    <rect id="room-7e727e52d2794b8c5261c5b5daf184231c0ecafe" class="room indoor" data-label="small room containing the multiverse" x="384" y="287" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="388,294 385.5,289 390.5,289"/>
   </g>
 
   <g id="layer-labels"><!-- labels --></g>

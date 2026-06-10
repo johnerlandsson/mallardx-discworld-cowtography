@@ -23,7 +23,7 @@
     <line id="edge-68c387d1c69b7e89da999ebbf8bc4a9d3d595f92-795b66503f2575895150d078cb8f42d7065fc38a" class="exit" x1="55" y1="75" x2="44" y2="75"/>
     <line id="edge-68c387d1c69b7e89da999ebbf8bc4a9d3d595f92-a23f2a5acd4c5f57617d551e012cd907699ea01c" class="exit" x1="55" y1="75" x2="55" y2="89"/>
     <line id="edge-960fcf86a8751c922cbd4328e298188169491afe-a23f2a5acd4c5f57617d551e012cd907699ea01c" class="exit" x1="66" y1="89" x2="55" y2="89"/>
-    <line id="edge-324b719668052bcfda759a1e8d6eebbb2e26bf65-960fcf86a8751c922cbd4328e298188169491afe" class="exit" x1="66" y1="89" x2="66" y2="89"/>
+    null
     <line id="edge-6a1f57c4aa89cd8ef1f3957ffd0b632186cfe387-960fcf86a8751c922cbd4328e298188169491afe" class="exit" x1="66" y1="89" x2="66" y2="89"/>
     <line id="edge-5971d2fff7558b7b9992832b15d4690389123f9d-795b66503f2575895150d078cb8f42d7065fc38a" class="exit" x1="44" y1="64" x2="44" y2="75"/>
     <line id="edge-795b66503f2575895150d078cb8f42d7065fc38a-8f19a7ebbef505bb2e5803a318f3cff2bbe5b9b4" class="exit" x1="44" y1="75" x2="33" y2="75"/>
@@ -59,7 +59,7 @@
     <circle id="room-49d92a9de117843c348cce0d52d0dd99309c0ac8" class="room outdoor" data-label="rickety stall" cx="67" cy="59" r="4"/>
     <circle id="room-68c387d1c69b7e89da999ebbf8bc4a9d3d595f92" class="room outdoor" data-label="north end of Granite Street" cx="55" cy="75" r="4"/>
     <circle id="room-a23f2a5acd4c5f57617d551e012cd907699ea01c" class="room outdoor" data-label="south end of Granite Street" cx="55" cy="89" r="4"/>
-    <circle id="room-960fcf86a8751c922cbd4328e298188169491afe" class="room outdoor" data-label="cottage" cx="66" cy="89" r="4"/>
+    <circle id="room-960fcf86a8751c922cbd4328e298188169491afe" class="room outdoor" data-label="cottage" cx="66" cy="89" r="4"/><polygon class="stair-symbol" points="66,86 63.5,91 68.5,91"/>
     <circle id="room-795b66503f2575895150d078cb8f42d7065fc38a" class="room outdoor" data-label="Beard and Badger" cx="44" cy="75" r="4"/>
     <circle id="room-8f19a7ebbef505bb2e5803a318f3cff2bbe5b9b4" class="room outdoor" data-label="garden of the Beard and Badger" cx="33" cy="75" r="4"/>
     <circle id="room-5971d2fff7558b7b9992832b15d4690389123f9d" class="room outdoor" data-label="kitchen of the Beard and Badger" cx="44" cy="64" r="4"/>
@@ -86,7 +86,7 @@
     <circle id="room-78ab12b18ef21b8b875c848aa1c31a48fe10f546" class="room outdoor" data-label="[player shop]" cx="55" cy="47" r="4"/>
     <circle id="room-226b431202e3a3ea0a4c300b289f15919bd77e95" class="room outdoor" data-label="holy corridor" cx="80" cy="57" r="4"/>
     <circle id="room-6a1f57c4aa89cd8ef1f3957ffd0b632186cfe387" class="room outdoor" data-label="[player house]" cx="66" cy="89" r="4"/>
-    <circle id="room-324b719668052bcfda759a1e8d6eebbb2e26bf65" class="room outdoor" data-label="[player house]" cx="66" cy="89" r="4"/>
+    <circle id="room-324b719668052bcfda759a1e8d6eebbb2e26bf65" class="room outdoor" data-label="[player house]" cx="66" cy="89" r="4"/><polygon class="stair-symbol" points="66,92 63.5,87 68.5,87"/>
   </g>
 
   <g id="layer-labels"><!-- labels --></g>

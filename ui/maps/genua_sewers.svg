@@ -21,7 +21,7 @@
     <line id="edge-aa45e863d7e2a4ce067e587b93bcf7f5aebfc79c-d059523a938daa5ed1b4e8d75bba8cae9a54cdb0" class="exit" x1="804" y1="165" x2="783" y2="186"/>
     <line id="edge-aa45e863d7e2a4ce067e587b93bcf7f5aebfc79c-e5e94784739b83d39b9bae3e004fa4267c03f428" class="exit" x1="804" y1="165" x2="783" y2="165"/>
     <line id="edge-4ef8a508f6fbe09b95a57f8cc1717ff5c95c4b06-e5e94784739b83d39b9bae3e004fa4267c03f428" class="exit" x1="762" y1="165" x2="783" y2="165"/>
-    <line id="edge-1f598feb4206629d77dff98e534de11f755f883b-4ef8a508f6fbe09b95a57f8cc1717ff5c95c4b06" class="exit" x1="741" y1="165" x2="762" y2="165"/>
+    null
     <line id="edge-425ea805db768ae123605903233b685f15f87cea-5e680db7ce1946d5e5f78b2463ce102cfb39ca81" class="exit" x1="741" y1="207" x2="762" y2="207"/>
     <line id="edge-5e8e1d0a8f264c14182c8300c3fde8f7140de20f-78f986e7ac91f0a8b412d60558a0c880ea0ddf8b" class="exit" x1="615" y1="396" x2="615" y2="417"/>
     <line id="edge-78f986e7ac91f0a8b412d60558a0c880ea0ddf8b-ac2f0d5e954b99c2401b03d5410d5ea85895ec2b" class="exit" x1="615" y1="417" x2="594" y2="417"/>
@@ -50,8 +50,8 @@
     <rect id="room-e5d03fd282ca5a742e890a1f903fade43fb0177a" class="room indoor" data-label="underground harbour" x="800" y="140" width="8" height="8" rx="2"/>
     <rect id="room-aa45e863d7e2a4ce067e587b93bcf7f5aebfc79c" class="room indoor" data-label="southeast corner of the underground docks" x="800" y="161" width="8" height="8" rx="2"/>
     <rect id="room-e5e94784739b83d39b9bae3e004fa4267c03f428" class="room indoor" data-label="southwest corner of the underground docks" x="779" y="161" width="8" height="8" rx="2"/>
-    <rect id="room-4ef8a508f6fbe09b95a57f8cc1717ff5c95c4b06" class="room indoor" data-label="untidy office" x="758" y="161" width="8" height="8" rx="2"/>
-    <rect id="room-1f598feb4206629d77dff98e534de11f755f883b" class="room indoor" data-label="comfortable office" x="737" y="161" width="8" height="8" rx="2"/>
+    <rect id="room-4ef8a508f6fbe09b95a57f8cc1717ff5c95c4b06" class="room indoor" data-label="untidy office" x="758" y="161" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="762,162 759.5,167 764.5,167"/>
+    <rect id="room-1f598feb4206629d77dff98e534de11f755f883b" class="room indoor" data-label="comfortable office" x="737" y="161" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="741,168 738.5,163 743.5,163"/>
     <rect id="room-425ea805db768ae123605903233b685f15f87cea" class="room indoor" data-label="sewer" x="737" y="203" width="8" height="8" rx="2"/>
     <rect id="room-a83925f899b49bb4e534a46c9b89ea38cc535b47" class="room indoor" data-label="sewer" x="695" y="392" width="8" height="8" rx="2"/>
     <rect id="room-e7e67c57f8924a91df73396c366d9622af58d743" class="room indoor" data-label="sewer" x="695" y="581" width="8" height="8" rx="2"/>

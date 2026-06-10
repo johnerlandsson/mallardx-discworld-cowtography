@@ -5,12 +5,25 @@ import { mapDidChange, headerText } from "./render.js";
 const data = { rooms, maps, terrain };
 
 // ─── DOM refs ─────────────────────────────────────────────────────────────
-const $mapName   = document.querySelector(".map-name");
-const $container = document.querySelector(".map-container");
-const $lspace    = document.querySelector(".lspace-overlay");
-const $tooltip   = document.querySelector(".tooltip");
-const $zoomIn    = document.querySelector(".zoom-in");
-const $zoomOut   = document.querySelector(".zoom-out");
+const $mapName      = document.querySelector(".map-name");
+const $container    = document.querySelector(".map-container");
+const $lspace       = document.querySelector(".lspace-overlay");
+const $special      = document.querySelector(".special-screen");
+const $specialTitle = $special.querySelector(".special-title");
+const $specialSub   = $special.querySelector(".special-sub");
+const $tooltip      = document.querySelector(".tooltip");
+const $zoomIn       = document.querySelector(".zoom-in");
+const $zoomOut      = document.querySelector(".zoom-out");
+
+const SPECIAL_SCREENS = {
+  unknown:   { title: "Unknown Location",  sub: "No map data for this room." },
+  darkness:  { title: "Darkness",          sub: "You cannot see a thing."    },
+  labyrinth: { title: "Labyrinth",         sub: "The passages twist and turn." },
+  mines:     { title: "Mines",             sub: ""                            },
+  rat_farm:  { title: "Rat Farm",          sub: ""                            },
+};
+
+const LSPACE_COLORS = ["#cc44ff", "#00d2ff", "#4ade80", "#ff9f43", "#ff6b6b", "#ffd32a", "#ffffff"];
 
 // ─── State ────────────────────────────────────────────────────────────────
 let current        = null;  // { mapId, x, y, short, roomId } | null
@@ -21,6 +34,7 @@ let lastKnownMapId = null;
 let viewBox        = { x: 0, y: 0, w: 0, h: 0 };
 let drag           = null;  // { screenX, screenY, vbX, vbY } | null
 let loadGeneration = 0;
+let lspaceAnim     = null;  // requestAnimationFrame id for L-space bouncer
 
 // World-disc canvas state (map 99 only)
 let worldImg    = null;
@@ -39,7 +53,8 @@ function resetZoom(mapId) {
   const meta = data.maps[mapId];
   if (!meta) return;
   const ratio = $container.clientHeight / Math.max($container.clientWidth, 1);
-  viewBox.w = meta.maxX / 4;
+  // Library: wide enough to show all 8 columns (x=36–266) when centred on entrance (x≈165)
+  viewBox.w = mapId === 47 ? 280 : meta.maxX / 4;
   viewBox.h = viewBox.w * ratio;
 }
 
@@ -50,9 +65,62 @@ function centerOnRoom(x, y) {
 }
 
 // ─── SVG loading ──────────────────────────────────────────────────────────
+// ─── L-space DVD bouncer ──────────────────────────────────────────────────
+// Persisted across stop/start so brief room events don't reset the bounce position
+const lspaceState = { x: -1, y: -1, vx: 1.5, vy: 1.1, colorIdx: 0 };
+
+function startLSpaceAnim() {
+  if (lspaceAnim !== null) return;
+  const badge = $lspace.querySelector(".lspace-badge");
+  const s = lspaceState;
+  badge.style.color = LSPACE_COLORS[s.colorIdx];
+
+  function step() {
+    const cw = $lspace.clientWidth;
+    const ch = $lspace.clientHeight;
+    const bw = badge.offsetWidth;
+    const bh = badge.offsetHeight;
+    if (s.x < 0) { s.x = (cw - bw) / 2; s.y = (ch - bh) / 2; }
+    s.x += s.vx;
+    s.y += s.vy;
+    let hitX = false, hitY = false;
+    if (s.x <= 0)          { s.x = 0;       s.vx =  Math.abs(s.vx); hitX = true; }
+    if (s.x + bw >= cw)    { s.x = cw - bw; s.vx = -Math.abs(s.vx); hitX = true; }
+    if (s.y <= 0)          { s.y = 0;       s.vy =  Math.abs(s.vy); hitY = true; }
+    if (s.y + bh >= ch)    { s.y = ch - bh; s.vy = -Math.abs(s.vy); hitY = true; }
+    if (hitX && hitY) {
+      s.colorIdx = (s.colorIdx + 1 + Math.floor(Math.random() * (LSPACE_COLORS.length - 1))) % LSPACE_COLORS.length;
+      badge.style.color = LSPACE_COLORS[s.colorIdx];
+    }
+    badge.style.transform = `translate(${s.x}px, ${s.y}px)`;
+    lspaceAnim = requestAnimationFrame(step);
+  }
+  lspaceAnim = requestAnimationFrame(step);
+}
+
+function stopLSpaceAnim() {
+  if (lspaceAnim === null) return;
+  cancelAnimationFrame(lspaceAnim);
+  lspaceAnim = null;
+}
+
+function showSpecialScreen(name) {
+  const info = SPECIAL_SCREENS[name] ?? { title: name, sub: "" };
+  $specialTitle.textContent = info.title;
+  $specialSub.textContent   = info.sub;
+  $specialSub.hidden        = !info.sub;
+  $special.hidden = false;
+}
+
+function hideSpecialScreen() {
+  $special.hidden = true;
+}
+
 function clearContainer() {
   for (const child of [...$container.children]) {
-    if (!child.classList.contains("lspace-overlay") && !child.classList.contains("tooltip")) {
+    if (!child.classList.contains("lspace-overlay") &&
+        !child.classList.contains("special-screen") &&
+        !child.classList.contains("tooltip")) {
       child.remove();
     }
   }
@@ -120,7 +188,15 @@ function applyState() {
     el.classList.remove("current", "route");
   });
   if (current?.roomId) {
-    currentSvg.querySelector(`#room-${CSS.escape(current.roomId)}`)?.classList.add("current");
+    const el = currentSvg.querySelector(`#room-${CSS.escape(current.roomId)}`);
+    if (el) {
+      el.classList.add("current");
+      // Multiple rooms can share the same coordinates (multi-floor buildings).
+      // Move this element to the end of its layer so it paints on top.
+      const sib = el.nextElementSibling;
+      el.parentNode.appendChild(el);
+      if (sib?.classList.contains("stair-symbol")) el.parentNode.appendChild(sib);
+    }
   }
   for (const id of routeRoomIds) {
     currentSvg.querySelector(`#room-${CSS.escape(id)}`)?.classList.add("route");
@@ -152,9 +228,14 @@ function wireTooltip() {
 
 // ─── Header ───────────────────────────────────────────────────────────────
 function updateHeader() {
-  const inLSpace = current === null && lastKnownMapId === 47;
+  const inLSpace  = current === null && lastKnownMapId === 47;
+  const inUnknown = current === null && !inLSpace && $special.hidden;
   $lspace.hidden = !inLSpace;
-  if (inLSpace) { $mapName.textContent = "L-space"; return; }
+  if (inLSpace)  startLSpaceAnim();
+  else           stopLSpaceAnim();
+  if (inLSpace)   { hideSpecialScreen(); $mapName.textContent = "L-space"; return; }
+  if (inUnknown)  { showSpecialScreen("unknown"); $mapName.textContent = ""; return; }
+  if (current !== null) hideSpecialScreen();
   if (current?.mapId === 47) {
     const thaums = Math.floor((((4850 - current.y) - 10) / 30) * 5);
     $mapName.textContent = `UU Library — ${thaums} thaums`;
@@ -262,6 +343,10 @@ new ResizeObserver(() => {
 // ─── Host messages ────────────────────────────────────────────────────────
 panel.on("room_info", async (frame) => {
   const next = resolveRoom(data, frame);
+  // library_position is authoritative for map 47. Ignore room_info events
+  // that would keep us on map 47 or set current to null while already there —
+  // only process if the event signals leaving the library entirely.
+  if (current?.mapId === 47 && (next === null || next.mapId === 47)) return;
 
   if (mapDidChange(current, next)) {
     if (next?.mapId === 99) {
@@ -329,6 +414,14 @@ panel.on("lspace", () => {
   lastKnownMapId = 47;
   current = null;
   updateHeader();
+});
+
+panel.on("special_screen", (frame) => {
+  current = null;
+  stopLSpaceAnim();
+  $lspace.hidden = true;
+  showSpecialScreen(frame.name);
+  $mapName.textContent = $specialTitle.textContent;
 });
 
 panel.post("ready", {});

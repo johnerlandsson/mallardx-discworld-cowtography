@@ -95,7 +95,7 @@
     <line id="edge-5557667f18264aa34e22562673256e294ef89e6f-8fc618f351cb4a24a531ae544c45d3077aa2d33f" class="exit" x1="65" y1="149" x2="75" y2="149"/>
     <line id="edge-8fc618f351cb4a24a531ae544c45d3077aa2d33f-e4200a6ca6fe43cad5d05f1998e2107cdcf7a620" class="exit" x1="75" y1="149" x2="75" y2="139"/>
     <line id="edge-13b93a263468c0b9b634563d52c071388c624860-2b996723e2d395c22a01c73f7cea9bcb6bfc4755" class="exit" x1="65" y1="169" x2="75" y2="169"/>
-    <line id="edge-16d914694833b8b0ee357eb628ea44a430729d38-b08268e06a868da9f1944c624c13eddb2676b863" class="exit" x1="131" y1="168" x2="85" y2="169"/>
+    null
     <line id="edge-16d914694833b8b0ee357eb628ea44a430729d38-2b0eb24d13c330d061bd2d5bf1009346e8705b14" class="exit" x1="131" y1="168" x2="141" y2="168"/>
     <line id="edge-17eca490fbf53162e12524433ee068c9b71485b8-2b0eb24d13c330d061bd2d5bf1009346e8705b14" class="exit" x1="151" y1="168" x2="141" y2="168"/>
     <line id="edge-2b0eb24d13c330d061bd2d5bf1009346e8705b14-b8909d41814d6165d14e73135033d1b691b61409" class="exit" x1="141" y1="168" x2="141" y2="158"/>
@@ -163,8 +163,8 @@
     <rect id="room-e4200a6ca6fe43cad5d05f1998e2107cdcf7a620" class="room indoor" data-label="public communal toilet" x="71" y="135" width="8" height="8" rx="2"/>
     <rect id="room-2b996723e2d395c22a01c73f7cea9bcb6bfc4755" class="room indoor" data-label="citizens&#x27; oath swearing and records, Tyrant&#x27;s Palace" x="71" y="165" width="8" height="8" rx="2"/>
     <rect id="room-13b93a263468c0b9b634563d52c071388c624860" class="room indoor" data-label="voting room, Tyrant&#x27;s Palace" x="61" y="165" width="8" height="8" rx="2"/>
-    <rect id="room-b08268e06a868da9f1944c624c13eddb2676b863" class="room indoor" data-label="bottom of a spiral staircase in the Tyrant&#x27;s Palace" x="81" y="165" width="8" height="8" rx="2"/>
-    <rect id="room-16d914694833b8b0ee357eb628ea44a430729d38" class="room indoor" data-label="top of a spiral staircase in the Tyrant&#x27;s Palace" x="127" y="164" width="8" height="8" rx="2"/>
+    <rect id="room-b08268e06a868da9f1944c624c13eddb2676b863" class="room indoor" data-label="bottom of a spiral staircase in the Tyrant&#x27;s Palace" x="81" y="165" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="85,166 82.5,171 87.5,171"/>
+    <rect id="room-16d914694833b8b0ee357eb628ea44a430729d38" class="room indoor" data-label="top of a spiral staircase in the Tyrant&#x27;s Palace" x="127" y="164" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="131,171 128.5,166 133.5,166"/>
     <rect id="room-2b0eb24d13c330d061bd2d5bf1009346e8705b14" class="room indoor" data-label="Frog Board, Tyrant&#x27;s Palace" x="137" y="164" width="8" height="8" rx="2"/>
     <rect id="room-17eca490fbf53162e12524433ee068c9b71485b8" class="room indoor" data-label="Flame Board, Tyrant&#x27;s Palace" x="147" y="164" width="8" height="8" rx="2"/>
     <rect id="room-c47ecca5bbd69da7dffbd57aed2a15c1e2b40148" class="room indoor" data-label="Playerkiller board room" x="157" y="164" width="8" height="8" rx="2"/>

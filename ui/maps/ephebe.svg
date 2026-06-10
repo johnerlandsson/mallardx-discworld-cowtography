@@ -30,10 +30,10 @@
     <line id="edge-0c828c66abee4806d836887f7a105cd892640c0c-532108fada1f630822e2b5493d849ea190abb296" class="exit" x1="509" y1="597" x2="519" y2="587"/>
     <line id="edge-532108fada1f630822e2b5493d849ea190abb296-d56a0d1905583a84d4dd60a65fc7b4379732bde4" class="exit" x1="519" y1="587" x2="505" y2="573"/>
     <line id="edge-6fbb8964d22fcdabc89085881256ab49f409fb86-d56a0d1905583a84d4dd60a65fc7b4379732bde4" class="exit" x1="491" y1="573" x2="505" y2="573"/>
-    <line id="edge-305ce0e5a92d70d9f11f925a3be172e77d60c791-6fbb8964d22fcdabc89085881256ab49f409fb86" class="exit" x1="491" y1="562" x2="491" y2="573"/>
+    null
     <line id="edge-4ef34088865bf77ee041effc943e712841ef6545-6fbb8964d22fcdabc89085881256ab49f409fb86" class="exit" x1="477" y1="573" x2="491" y2="573"/>
     <line id="edge-5b336cdb52e508bd22b89ae17f023f32d866de9c-6fbb8964d22fcdabc89085881256ab49f409fb86" class="exit" x1="491" y1="562" x2="491" y2="573"/>
-    <line id="edge-305ce0e5a92d70d9f11f925a3be172e77d60c791-5b336cdb52e508bd22b89ae17f023f32d866de9c" class="exit" x1="491" y1="562" x2="491" y2="562"/>
+    null
     <line id="edge-65f1364b724226dfa1d003f9d39f2480fa6f05ec-f4f3433a0ef37e385d0fabc78e64609466dc576f" class="exit" x1="491" y1="531" x2="477" y2="545"/>
     <line id="edge-65f1364b724226dfa1d003f9d39f2480fa6f05ec-67d96ca6f671ebee877910ee2b59517e250f9478" class="exit" x1="491" y1="531" x2="491" y2="517"/>
     <line id="edge-65f1364b724226dfa1d003f9d39f2480fa6f05ec-7ebc925a02da1e15abb34ec1c1ca1cc168af70ed" class="exit" x1="491" y1="531" x2="505" y2="531"/>
@@ -139,12 +139,12 @@
     <line id="edge-59e4bdbe742a37ee7b391d3a8af34ecbf4d8964d-ce5b133ac1752446dd3eba4981569e4c238e4e02" class="exit" x1="319" y1="527" x2="328" y2="518"/>
     <line id="edge-db9efc881fd55f0516f15b9a4ccdd5731b137d1e-dfb0bc23d3f9a96c71e0b87aef9c87f2b9e89be2" class="exit" x1="323" y1="461" x2="309" y2="461"/>
     <line id="edge-016f2d119a52c862177c30080fb81e15551e0a6b-dfb0bc23d3f9a96c71e0b87aef9c87f2b9e89be2" class="exit" x1="295" y1="475" x2="309" y2="461"/>
-    <line id="edge-dd8c42edb5bda4f1127dec5e4a814efa8b5bafc4-dfb0bc23d3f9a96c71e0b87aef9c87f2b9e89be2" class="exit" x1="300" y1="449" x2="309" y2="461"/>
+    null
     <line id="edge-016f2d119a52c862177c30080fb81e15551e0a6b-e5484f220b9d29276ca0d3a3dc0280d3800751a3" class="exit" x1="295" y1="475" x2="281" y2="475"/>
     <line id="edge-1114fef693254b938eac4add48b31d2d30b818e6-e5484f220b9d29276ca0d3a3dc0280d3800751a3" class="exit" x1="281" y1="462" x2="281" y2="475"/>
     <line id="edge-4b5ad1c87e25a1b322d77bf699c865133cc1a0a8-e5484f220b9d29276ca0d3a3dc0280d3800751a3" class="exit" x1="267" y1="475" x2="281" y2="475"/>
     <line id="edge-0d5094bb79913ae37e1639c87b30ba033f4f2f96-1114fef693254b938eac4add48b31d2d30b818e6" class="exit" x1="281" y1="450" x2="281" y2="462"/>
-    <line id="edge-0d5094bb79913ae37e1639c87b30ba033f4f2f96-aa5d45d1ccf14a52531cd368a3aedb50e8f8fba9" class="exit" x1="281" y1="450" x2="281" y2="450"/>
+    null
     <line id="edge-4b5ad1c87e25a1b322d77bf699c865133cc1a0a8-550a3368b7fcf0b0a378789bb613ff34eb85d7eb" class="exit" x1="267" y1="475" x2="253" y2="461"/>
     <line id="edge-550a3368b7fcf0b0a378789bb613ff34eb85d7eb-df0dae40197d805adb8fc303ee3daa4f8342fc8b" class="exit" x1="253" y1="461" x2="239" y2="447"/>
     <line id="edge-1dd0c16439a49faec684bfd51a3e8277f9a5da10-df0dae40197d805adb8fc303ee3daa4f8342fc8b" class="exit" x1="225" y1="461" x2="239" y2="447"/>
@@ -172,12 +172,12 @@
     <line id="edge-783219e639517111bb7976cd955d93c3d61b58cd-7b7d6f7d32f08041d30e6e01e37639cf547626eb" class="exit" x1="124" y1="391" x2="113" y2="391"/>
     <line id="edge-7b7d6f7d32f08041d30e6e01e37639cf547626eb-d6e31349389223cb069447292118bf2987d64aaf" class="exit" x1="113" y1="391" x2="99" y2="377"/>
     <line id="edge-783219e639517111bb7976cd955d93c3d61b58cd-b1af471fbf737429b940cac18e4ce1533b368b08" class="exit" x1="124" y1="391" x2="124" y2="391"/>
-    <line id="edge-783219e639517111bb7976cd955d93c3d61b58cd-e288fce19a9b035da849f51068f8275bb8bbf4d3" class="exit" x1="124" y1="391" x2="124" y2="391"/>
+    null
     <line id="edge-d6e31349389223cb069447292118bf2987d64aaf-dece45cd4537e2fcaa1410898c8fab7dc2434e72" class="exit" x1="99" y1="377" x2="99" y2="363"/>
     <line id="edge-46d6868c2a9bb0e78dee97c2ef8c65e886439e24-dece45cd4537e2fcaa1410898c8fab7dc2434e72" class="exit" x1="99" y1="349" x2="99" y2="363"/>
     <line id="edge-46d6868c2a9bb0e78dee97c2ef8c65e886439e24-556052482b7eb733ccb4851d0819587e694271a8" class="exit" x1="99" y1="349" x2="99" y2="335"/>
     <line id="edge-46d6868c2a9bb0e78dee97c2ef8c65e886439e24-b0e18e0c3dfc6ef230d6bd79d94650a69962e611" class="exit" x1="99" y1="349" x2="113" y2="349"/>
-    <line id="edge-050e7bfca765509b68e7985c50c66e3166acdafd-b0e18e0c3dfc6ef230d6bd79d94650a69962e611" class="exit" x1="119" y1="345" x2="113" y2="349"/>
+    null
     <line id="edge-6f2441d86c684b9e358b595ba31bba963fd6af25-b0e18e0c3dfc6ef230d6bd79d94650a69962e611" class="exit" x1="127" y1="363" x2="113" y2="349"/>
     <line id="edge-3e36a8ee9c55f4ff229c08a2aab4850804c22c3a-6f2441d86c684b9e358b595ba31bba963fd6af25" class="exit" x1="141" y1="377" x2="127" y2="363"/>
     <line id="edge-3e36a8ee9c55f4ff229c08a2aab4850804c22c3a-778b138ea4099cce3e0c9c1b3ef04f8b0134583f" class="exit" x1="141" y1="377" x2="141" y2="391"/>
@@ -197,8 +197,8 @@
     <line id="edge-51dc5cc9886a2b6aab294c502962bc78945fde54-96af0ab82384c13010ac74fe73737caef06c2595" class="exit" x1="99" y1="307" x2="88" y2="307"/>
     <line id="edge-51dc5cc9886a2b6aab294c502962bc78945fde54-aa6d8a065482f3d03218818cad9d7a065c2d23c7" class="exit" x1="99" y1="307" x2="113" y2="307"/>
     <line id="edge-0dcb5461b7f0d813990ee4a8fed0cce13c01a486-96af0ab82384c13010ac74fe73737caef06c2595" class="exit" x1="88" y1="307" x2="88" y2="307"/>
-    <line id="edge-9f9ad0609ba1d68fbf00237c1894800981efd8e7-b8aa559f6f6673b65ec5b4d0f2db46f21ccc3263" class="exit" x1="23" y1="313" x2="22" y2="286"/>
-    <line id="edge-9f9ad0609ba1d68fbf00237c1894800981efd8e7-f78e6fbc4c1d868a3fb9be63c0830505efd1033b" class="exit" x1="23" y1="313" x2="23" y2="338"/>
+    null
+    null
     <line id="edge-b8aa559f6f6673b65ec5b4d0f2db46f21ccc3263-e29478ba510826921366bdb5bd3c6e3266a2685a" class="exit" x1="22" y1="286" x2="35" y2="286"/>
     <line id="edge-7e95e73b9e75def577ac0a62285f7c5cad53fd6d-e29478ba510826921366bdb5bd3c6e3266a2685a" class="exit" x1="22" y1="299" x2="35" y2="286"/>
     <line id="edge-879b9bbb632a3ead8c92752bfadb0682d4aa9b34-e29478ba510826921366bdb5bd3c6e3266a2685a" class="exit" x1="35" y1="299" x2="35" y2="286"/>
@@ -397,7 +397,7 @@
     <line id="edge-af9d48a2e4e1487fddf0a1f83e204c894a5c3847-e86fe138dbe79c34a87ec7a1885e4793231b5bde" class="exit" x1="281" y1="181" x2="295" y2="195"/>
     <line id="edge-3f048dd596042209050b0eb61448a8ae9f40a69a-e86fe138dbe79c34a87ec7a1885e4793231b5bde" class="exit" x1="295" y1="181" x2="295" y2="195"/>
     <line id="edge-42817266b0e02f96a9d9c328e8d86078fdff7443-e86fe138dbe79c34a87ec7a1885e4793231b5bde" class="exit" x1="309" y1="209" x2="295" y2="195"/>
-    <line id="edge-4da8fd81aa0b5a2f2ee06cc4ca52ed5c618a95cd-e86fe138dbe79c34a87ec7a1885e4793231b5bde" class="exit" x1="290" y1="200" x2="295" y2="195"/>
+    null
     <line id="edge-da3fa82728256e97aa583c5368b52ab3e1a469d7-e86fe138dbe79c34a87ec7a1885e4793231b5bde" class="exit" x1="309" y1="181" x2="295" y2="195"/>
     <line id="edge-db6c59925b9698d6a366d9872668d7c30de446fe-e86fe138dbe79c34a87ec7a1885e4793231b5bde" class="exit" x1="309" y1="195" x2="295" y2="195"/>
     <line id="edge-158d9e545104aa44dace4c9f3f199ee265aeae8a-3f048dd596042209050b0eb61448a8ae9f40a69a" class="exit" x1="295" y1="167" x2="295" y2="181"/>
@@ -418,10 +418,10 @@
     <line id="edge-648da675296d252985adf2f04b09eb869f0d2b89-bc07656b864ccde97a70c0888445f8ce5cf86ec4" class="exit" x1="337" y1="223" x2="323" y2="223"/>
     <line id="edge-3ccc88fab9e22150c0a07ad3670786de135835f9-551a62bfa27065a906fde11acc50d7b69136c307" class="exit" x1="323" y1="209" x2="323" y2="195"/>
     <line id="edge-3ccc88fab9e22150c0a07ad3670786de135835f9-648da675296d252985adf2f04b09eb869f0d2b89" class="exit" x1="323" y1="209" x2="337" y2="223"/>
-    <line id="edge-008b5c0b63e2be97a7e95ea5748a471a88cac36e-551a62bfa27065a906fde11acc50d7b69136c307" class="exit" x1="322" y1="181" x2="323" y2="195"/>
+    null
     <line id="edge-1f944cbccce6ee5fb85c9c8a79a19362bf14015a-648da675296d252985adf2f04b09eb869f0d2b89" class="exit" x1="337" y1="237" x2="337" y2="223"/>
     <line id="edge-4064c938b803bb0993333733ceb240c0fc4116e1-648da675296d252985adf2f04b09eb869f0d2b89" class="exit" x1="351" y1="237" x2="337" y2="223"/>
-    <line id="edge-648da675296d252985adf2f04b09eb869f0d2b89-854fcfc6ff9d5c5f974187e8787d3e5a89f7dd27" class="exit" x1="337" y1="223" x2="337" y2="207"/>
+    null
     <line id="edge-0484cfeed3ba4045cf2d14fa239e1b6d83bf69a5-1f944cbccce6ee5fb85c9c8a79a19362bf14015a" class="exit" x1="351" y1="251" x2="337" y2="237"/>
     <line id="edge-1f944cbccce6ee5fb85c9c8a79a19362bf14015a-4064c938b803bb0993333733ceb240c0fc4116e1" class="exit" x1="337" y1="237" x2="351" y2="237"/>
     <line id="edge-1f944cbccce6ee5fb85c9c8a79a19362bf14015a-a7c8760b063b395c6f06cb4487fe916669ab6d60" class="exit" x1="337" y1="237" x2="337" y2="251"/>
@@ -447,7 +447,7 @@
     <line id="edge-ca852f1dac3f56806d17231c1b34659e0c10af82-dc04efca8bf680c4e9c93b757050388131653770" class="exit" x1="351" y1="279" x2="351" y2="265"/>
     <line id="edge-0484cfeed3ba4045cf2d14fa239e1b6d83bf69a5-dc04efca8bf680c4e9c93b757050388131653770" class="exit" x1="351" y1="251" x2="351" y2="265"/>
     <line id="edge-0484cfeed3ba4045cf2d14fa239e1b6d83bf69a5-4064c938b803bb0993333733ceb240c0fc4116e1" class="exit" x1="351" y1="251" x2="351" y2="237"/>
-    <line id="edge-0484cfeed3ba4045cf2d14fa239e1b6d83bf69a5-e337a8b7dd6ac6149e789421893de50a2eb7d7b8" class="exit" x1="351" y1="251" x2="351" y2="229"/>
+    null
     <line id="edge-98d3a500cc3debf3750e6a787f218a0f5162ec97-cdf29d76cc63c3fdd1d302f35586a635c712abc6" class="exit" x1="323" y1="307" x2="323" y2="293"/>
     <line id="edge-7d71b8bb21c065ab8e7aee1c67c45f823ce1484f-98d3a500cc3debf3750e6a787f218a0f5162ec97" class="exit" x1="323" y1="321" x2="323" y2="307"/>
     <line id="edge-98d3a500cc3debf3750e6a787f218a0f5162ec97-b2c143d9cc9da3ed9830a8d8352294a31ba5f3b2" class="exit" x1="323" y1="307" x2="309" y2="321"/>
@@ -743,7 +743,7 @@
     <line id="edge-20fc928291d57131d5e7069987ce7d9ebf87cb42-9d3fecf24a7418dff996e67a0950aa6752748e02" class="exit" x1="351" y1="209" x2="351" y2="223"/>
     <line id="edge-99efdda67decc85da9f008918b06df2a25328133-9d3fecf24a7418dff996e67a0950aa6752748e02" class="exit" x1="365" y1="223" x2="351" y2="223"/>
     <line id="edge-9d3fecf24a7418dff996e67a0950aa6752748e02-9e5e132a62e1f9d415434a452dca73072d2dea14" class="exit" x1="351" y1="223" x2="365" y2="209"/>
-    <line id="edge-9d3fecf24a7418dff996e67a0950aa6752748e02-e337a8b7dd6ac6149e789421893de50a2eb7d7b8" class="exit" x1="351" y1="223" x2="351" y2="229"/>
+    null
     <line id="edge-20fc928291d57131d5e7069987ce7d9ebf87cb42-99efdda67decc85da9f008918b06df2a25328133" class="exit" x1="351" y1="209" x2="365" y2="223"/>
     <line id="edge-5baae2c3e78f50bf0b540cc28cca7a9cd96d0d39-99efdda67decc85da9f008918b06df2a25328133" class="exit" x1="379" y1="209" x2="365" y2="223"/>
     <line id="edge-99efdda67decc85da9f008918b06df2a25328133-9e5e132a62e1f9d415434a452dca73072d2dea14" class="exit" x1="365" y1="223" x2="365" y2="209"/>
@@ -761,7 +761,7 @@
     <line id="edge-20fc928291d57131d5e7069987ce7d9ebf87cb42-3c079ab765809ee3244d10759bda907e9d2535e7" class="exit" x1="351" y1="209" x2="337" y2="195"/>
     <line id="edge-20fc928291d57131d5e7069987ce7d9ebf87cb42-cf403f6076b94864330c5fb0af534acaf2b9853e" class="exit" x1="351" y1="209" x2="351" y2="195"/>
     <line id="edge-38bd17f65dfa3c924d7ad587db316514c3241792-3c079ab765809ee3244d10759bda907e9d2535e7" class="exit" x1="337" y1="181" x2="337" y2="195"/>
-    <line id="edge-3c079ab765809ee3244d10759bda907e9d2535e7-854fcfc6ff9d5c5f974187e8787d3e5a89f7dd27" class="exit" x1="337" y1="195" x2="337" y2="207"/>
+    null
     <line id="edge-3c079ab765809ee3244d10759bda907e9d2535e7-cf403f6076b94864330c5fb0af534acaf2b9853e" class="exit" x1="337" y1="195" x2="351" y2="195"/>
     <line id="edge-3c079ab765809ee3244d10759bda907e9d2535e7-f9c6a76039b402e5905f9374291ff3f4cb1a7eda" class="exit" x1="337" y1="195" x2="351" y2="181"/>
     <line id="edge-1a637c18efbb959e2df1148839dfbd2b565a22a1-cf403f6076b94864330c5fb0af534acaf2b9853e" class="exit" x1="365" y1="195" x2="351" y2="195"/>
@@ -788,7 +788,7 @@
     <line id="edge-38bd17f65dfa3c924d7ad587db316514c3241792-7af492167d152906cb28204149b14a9229ef5a49" class="exit" x1="337" y1="181" x2="337" y2="167"/>
     <line id="edge-38bd17f65dfa3c924d7ad587db316514c3241792-b5b129335d60c005c3153ad627ff49a75e3e93f5" class="exit" x1="337" y1="181" x2="323" y2="167"/>
     <line id="edge-38bd17f65dfa3c924d7ad587db316514c3241792-bbc6bf1abc27a616e135584a411e69f6e77dfb96" class="exit" x1="337" y1="181" x2="351" y2="167"/>
-    <line id="edge-008b5c0b63e2be97a7e95ea5748a471a88cac36e-b5b129335d60c005c3153ad627ff49a75e3e93f5" class="exit" x1="322" y1="181" x2="323" y2="167"/>
+    null
     <line id="edge-4caf96f0077630abaacc0aeae056d4675a0ef702-b5b129335d60c005c3153ad627ff49a75e3e93f5" class="exit" x1="337" y1="153" x2="323" y2="167"/>
     <line id="edge-7af492167d152906cb28204149b14a9229ef5a49-b5b129335d60c005c3153ad627ff49a75e3e93f5" class="exit" x1="337" y1="167" x2="323" y2="167"/>
     <line id="edge-a2e64ab558feb3a2e993558831566ad66d22ebdd-b5b129335d60c005c3153ad627ff49a75e3e93f5" class="exit" x1="323" y1="153" x2="323" y2="167"/>
@@ -832,7 +832,7 @@
     <line id="edge-4f0d72f9553e44ab5dc421d453b251e8db10f1eb-ff38fad9924c77fdf61727533d23de391b24f19e" class="exit" x1="393" y1="139" x2="379" y2="139"/>
     <line id="edge-4f0d72f9553e44ab5dc421d453b251e8db10f1eb-6a935db9764ff93e06d0e34a48b5abd0eade7c9e" class="exit" x1="393" y1="139" x2="407" y2="139"/>
     <line id="edge-1869baf6bbb434dd66c422d9152e6346ad063fb7-6a935db9764ff93e06d0e34a48b5abd0eade7c9e" class="exit" x1="421" y1="139" x2="407" y2="139"/>
-    <line id="edge-1869baf6bbb434dd66c422d9152e6346ad063fb7-e9723f6d06108bdad9fc26a860da5a49b3468c10" class="exit" x1="421" y1="139" x2="433" y2="139"/>
+    null
     <line id="edge-053253bf6b96d937d66f1109b38ad5f436966bd5-a6c7ec1017ed89a186779e8e3d8066257e4b1389" class="exit" x1="379" y1="125" x2="393" y2="111"/>
     <line id="edge-1d3179cad9d92b47884cbb1ab4343f50fda2c6c2-a6c7ec1017ed89a186779e8e3d8066257e4b1389" class="exit" x1="393" y1="97" x2="393" y2="111"/>
     <line id="edge-1d3179cad9d92b47884cbb1ab4343f50fda2c6c2-54762b979f4955c5c1a1d1a9cb1b712071ad74c1" class="exit" x1="393" y1="97" x2="407" y2="83"/>
@@ -849,7 +849,7 @@
     <line id="edge-2b3887f5a6a1644f7e684f1a52f2be6c236132f7-915a77cdb499fa6399808d58f2c45d0e9e510d7c" class="exit" x1="363" y1="80" x2="363" y2="69"/>
     <line id="edge-915a77cdb499fa6399808d58f2c45d0e9e510d7c-c05b464cb794c33fb49053f1f0474b86666eed17" class="exit" x1="363" y1="69" x2="352" y2="69"/>
     <line id="edge-915a77cdb499fa6399808d58f2c45d0e9e510d7c-d134b85be89193bf3e057f2a4407d95f1024a2cc" class="exit" x1="363" y1="69" x2="363" y2="58"/>
-    <line id="edge-4cb025651b7c5e59719aa488ae61d34b576128dd-c05b464cb794c33fb49053f1f0474b86666eed17" class="exit" x1="352" y1="29" x2="352" y2="69"/>
+    null
     <line id="edge-91c9eb61ac64d3a2b5a263ea566bb7ef2666461b-c05b464cb794c33fb49053f1f0474b86666eed17" class="exit" x1="341" y1="69" x2="352" y2="69"/>
     <line id="edge-c05b464cb794c33fb49053f1f0474b86666eed17-c4b451011daab986c82c0cbabbe54d285d7e00b4" class="exit" x1="352" y1="69" x2="352" y2="58"/>
     <line id="edge-91c9eb61ac64d3a2b5a263ea566bb7ef2666461b-dd7446d54fcd0cabf43371dcf1ec1b30fa360972" class="exit" x1="341" y1="69" x2="341" y2="80"/>
@@ -860,13 +860,13 @@
     <line id="edge-4cb025651b7c5e59719aa488ae61d34b576128dd-5c2f105a2cd4d6e0c8cb8206641c956822a12973" class="exit" x1="352" y1="29" x2="341" y2="29"/>
     <line id="edge-4cb025651b7c5e59719aa488ae61d34b576128dd-6539ed633b7357d40d0a73b97e50a11981092ac6" class="exit" x1="352" y1="29" x2="352" y2="18"/>
     <line id="edge-4cb025651b7c5e59719aa488ae61d34b576128dd-e163334796be5bfd03839286d3451cb0d4950b2d" class="exit" x1="352" y1="29" x2="352" y2="40"/>
-    <line id="edge-4cb025651b7c5e59719aa488ae61d34b576128dd-e94164e2b1340b50eec3f3094c4b46ae02fc8915" class="exit" x1="352" y1="29" x2="322" y2="74"/>
+    null
     <line id="edge-5c2f105a2cd4d6e0c8cb8206641c956822a12973-6539ed633b7357d40d0a73b97e50a11981092ac6" class="exit" x1="341" y1="29" x2="352" y2="18"/>
     <line id="edge-5c2f105a2cd4d6e0c8cb8206641c956822a12973-e163334796be5bfd03839286d3451cb0d4950b2d" class="exit" x1="341" y1="29" x2="352" y2="40"/>
     <line id="edge-1c013f0382fa4194b2f4a075d3be47fdcec33caa-6539ed633b7357d40d0a73b97e50a11981092ac6" class="exit" x1="363" y1="29" x2="352" y2="18"/>
     <line id="edge-1c013f0382fa4194b2f4a075d3be47fdcec33caa-e163334796be5bfd03839286d3451cb0d4950b2d" class="exit" x1="363" y1="29" x2="352" y2="40"/>
-    <line id="edge-e94164e2b1340b50eec3f3094c4b46ae02fc8915-ed132a796d6b50a211fdab8d217aba72787e21db" class="exit" x1="322" y1="74" x2="322" y2="52"/>
-    <line id="edge-45eb4496ec41b9389f999036f8a006890bb22987-ed132a796d6b50a211fdab8d217aba72787e21db" class="exit" x1="322" y1="29" x2="322" y2="52"/>
+    null
+    null
     <line id="edge-47cd0cd0c3022cb092b76f78ace1af2a143de8ee-8f4d2cae45e079805e8b8f212b6a78b0b7643b50" class="exit" x1="337" y1="125" x2="323" y2="125"/>
     <line id="edge-2ce34edc89247147dbfac589febeaf355cb35d2c-8f4d2cae45e079805e8b8f212b6a78b0b7643b50" class="exit" x1="309" y1="125" x2="323" y2="125"/>
     <line id="edge-2ce34edc89247147dbfac589febeaf355cb35d2c-566a991341dc0e26d08b2aa2ae34a6cc961e35e7" class="exit" x1="309" y1="125" x2="295" y2="139"/>
@@ -942,7 +942,7 @@
     <line id="edge-28b6005ecece1ed1f1c34c53faa13eee7cdcb261-d7f9b60ba57c41992b23f5f13e01e8804462a3fb" class="exit" x1="617" y1="433" x2="631" y2="447"/>
     <line id="edge-d7f9b60ba57c41992b23f5f13e01e8804462a3fb-da8467a6c0f549f7f19535828c31e8776c67f5cc" class="exit" x1="631" y1="447" x2="642" y2="447"/>
     <line id="edge-797c38ab3cd831b109c783a2e1f6e3e6d1747a99-da8467a6c0f549f7f19535828c31e8776c67f5cc" class="exit" x1="642" y1="447" x2="642" y2="447"/>
-    <line id="edge-797c38ab3cd831b109c783a2e1f6e3e6d1747a99-fa943c8333e8a1ecfc72c29fcea438c31ed9a247" class="exit" x1="642" y1="447" x2="642" y2="447"/>
+    null
     <line id="edge-ae89e9d856fe5229299afc3eaad5feec2ae5e8c5-e9ef0be1f4eb8ef21393496f43cec56bf72929a4" class="exit" x1="607" y1="429" x2="596" y2="440"/>
     <line id="edge-39f8946fdf171486d9b4081497e32ab105a80de7-d192d19d7cc4104836015e5420008ef73fccc4b7" class="exit" x1="603" y1="391" x2="603" y2="405"/>
     <line id="edge-39f8946fdf171486d9b4081497e32ab105a80de7-f17270dd7ca6b4c8a4ee9278bf7a7bc0eef4b030" class="exit" x1="603" y1="391" x2="617" y2="391"/>
@@ -989,8 +989,8 @@
     <line id="edge-2cc008fe43b10b95ef61b6e525b138d1321c9d5c-9cf83b56779fa1e8e1afe186d025bf742b5ec306" class="exit" x1="217" y1="248" x2="228" y2="248"/>
     <line id="edge-9cf83b56779fa1e8e1afe186d025bf742b5ec306-f1184b84e0b0911a7402772ef199f416bde48183" class="exit" x1="228" y1="248" x2="217" y2="259"/>
     <line id="edge-2cc008fe43b10b95ef61b6e525b138d1321c9d5c-f1184b84e0b0911a7402772ef199f416bde48183" class="exit" x1="217" y1="248" x2="217" y2="259"/>
-    <line id="edge-25387a8a77fa30969760e245477602a68eed7ce3-72c030bf88185865cceb188cbb68842944be3d77" class="exit" x1="281" y1="128" x2="281" y2="128"/>
-    <line id="edge-25387a8a77fa30969760e245477602a68eed7ce3-afa48adfede4568b2dd8eab2010139104812fd6d" class="exit" x1="281" y1="128" x2="281" y2="128"/>
+    null
+    null
     <line id="edge-25387a8a77fa30969760e245477602a68eed7ce3-d9ce7ad72374a1b260ca6967d569e994dfcc5c5d" class="exit" x1="281" y1="128" x2="281" y2="128"/>
     <line id="edge-04e5997d9cf5aeea16c10eb82d871cdef6b25ced-468fb568e146ceb5f0b6875579cfa75569e60c6d" class="exit" x1="200" y1="433" x2="211" y2="433"/>
     <line id="edge-3b78e05d8929b62acf36cb53ce369f3f59b21fd4-468fb568e146ceb5f0b6875579cfa75569e60c6d" class="exit" x1="200" y1="444" x2="211" y2="433"/>
@@ -998,34 +998,34 @@
     <line id="edge-468fb568e146ceb5f0b6875579cfa75569e60c6d-d56a899f970f0661861bca1bc12e7f2dc44c9d33" class="exit" x1="211" y1="433" x2="222" y2="433"/>
     <line id="edge-04e5997d9cf5aeea16c10eb82d871cdef6b25ced-47aeb996fdf372c9bb1a646dd588f07881f218d3" class="exit" x1="200" y1="433" x2="200" y2="433"/>
     <line id="edge-04e5997d9cf5aeea16c10eb82d871cdef6b25ced-7f80fd567f65168bac136e74d85e25e5f790649f" class="exit" x1="200" y1="433" x2="200" y2="433"/>
-    <line id="edge-04e5997d9cf5aeea16c10eb82d871cdef6b25ced-80ebc8ced3ac35804dfb5d499241dcef842820e1" class="exit" x1="200" y1="433" x2="200" y2="433"/>
+    null
     <line id="edge-2bbe09e348c2cd6a7aad121b05a9740fece23404-3b78e05d8929b62acf36cb53ce369f3f59b21fd4" class="exit" x1="200" y1="444" x2="200" y2="444"/>
-    <line id="edge-3b78e05d8929b62acf36cb53ce369f3f59b21fd4-737ccfeae4ddb9a10fabf0945c7d2e01a2db4e7b" class="exit" x1="200" y1="444" x2="200" y2="444"/>
+    null
     <line id="edge-3b78e05d8929b62acf36cb53ce369f3f59b21fd4-c4b8b0fd6c5ae44e7a7eef22ac1cbe1e5974bab1" class="exit" x1="200" y1="444" x2="200" y2="444"/>
-    <line id="edge-59b639a7d7185435bd6a60e32ebdc47bd99d4f18-6caf14542b1d5c3a5531e60ba2652a5108a7941f" class="exit" x1="222" y1="444" x2="222" y2="444"/>
+    null
     <line id="edge-59b639a7d7185435bd6a60e32ebdc47bd99d4f18-d12ffa3841f5599e7f61f4701fbeb60e53a26c51" class="exit" x1="222" y1="444" x2="222" y2="444"/>
     <line id="edge-d56a899f970f0661861bca1bc12e7f2dc44c9d33-e9073318ac50988caad0e2911b51fa4fd53475dc" class="exit" x1="222" y1="433" x2="222" y2="433"/>
-    <line id="edge-d56a899f970f0661861bca1bc12e7f2dc44c9d33-fa0d38569ebfb279b1913db3a37c0c5df60c3c8e" class="exit" x1="222" y1="433" x2="222" y2="433"/>
-    <line id="edge-0d9a57f169b6564cb24302b2f91aae00bd5f741b-abb00e64c3e78b56af406b5023a0b03c247d3346" class="exit" x1="449" y1="458" x2="449" y2="458"/>
-    <line id="edge-343b25c0abec0a3cc635dfdd010ed4a1735cd1b6-abb00e64c3e78b56af406b5023a0b03c247d3346" class="exit" x1="449" y1="458" x2="449" y2="458"/>
+    null
+    null
+    null
     <line id="edge-abb00e64c3e78b56af406b5023a0b03c247d3346-c43d13c9858b5e9f76e2dd1b2a1a40d1b935c21a" class="exit" x1="449" y1="458" x2="449" y2="458"/>
     <line id="edge-2d5f67fff7e76dbea9dec70bf031a8161d9f06f7-3742c9c5166b5fffb7cfae38fed3bd2b9fc46122" class="exit" x1="491" y1="360" x2="491" y2="360"/>
     <line id="edge-2d5f67fff7e76dbea9dec70bf031a8161d9f06f7-7878a2ee28314039964d54a95f33f815ff1aade9" class="exit" x1="491" y1="360" x2="491" y2="360"/>
     <line id="edge-094c71acbdfa8d03963f64e8dc7beb9d493f87d0-2b116fa94d84130d3493b89e2abc494cf6d50a0f" class="exit" x1="365" y1="450" x2="365" y2="450"/>
     <line id="edge-094c71acbdfa8d03963f64e8dc7beb9d493f87d0-e87af0e48cae3390fdfd34e7104dc8f20dfb3c1c" class="exit" x1="365" y1="450" x2="365" y2="450"/>
-    <line id="edge-094c71acbdfa8d03963f64e8dc7beb9d493f87d0-f3ebc75829afeedaf379df53745b7b68d5d80239" class="exit" x1="365" y1="450" x2="365" y2="450"/>
+    null
     <line id="edge-9bfafafac02d181f44e61194778f1113b98ef54f-db4cb8c9e65d0424bf124809e3efb4acf064f215" class="exit" x1="505" y1="391" x2="494" y2="391"/>
     <line id="edge-787d74ed2aa608bd613b0a9c20d3ead38a36a8d2-f17270dd7ca6b4c8a4ee9278bf7a7bc0eef4b030" class="exit" x1="628" y1="391" x2="617" y2="391"/>
     <line id="edge-850cfde746515f81a9f9e9b50aab59bbd6cb6d32-f17270dd7ca6b4c8a4ee9278bf7a7bc0eef4b030" class="exit" x1="617" y1="380" x2="617" y2="391"/>
     <line id="edge-e19d92d548347d7fff05a4df493e615f3cc89ac8-f17270dd7ca6b4c8a4ee9278bf7a7bc0eef4b030" class="exit" x1="617" y1="402" x2="617" y2="391"/>
     <line id="edge-850cfde746515f81a9f9e9b50aab59bbd6cb6d32-a34f1ddd29e386382e87bb6fbd78fd207828dd25" class="exit" x1="617" y1="380" x2="617" y2="380"/>
-    <line id="edge-850cfde746515f81a9f9e9b50aab59bbd6cb6d32-e0bfd8f96c9c767ab9e5a9892ceb8f0f6efa26db" class="exit" x1="617" y1="380" x2="617" y2="380"/>
-    <line id="edge-0631f6b6b805ad01db6d005325dfe0e4e22ebd45-787d74ed2aa608bd613b0a9c20d3ead38a36a8d2" class="exit" x1="628" y1="391" x2="628" y2="391"/>
+    null
+    null
     <line id="edge-43b9c2bbcb1765f203aaa637bf658266d329fc6a-787d74ed2aa608bd613b0a9c20d3ead38a36a8d2" class="exit" x1="628" y1="391" x2="628" y2="391"/>
-    <line id="edge-09a9ca60ab9271e1192c2b305a1c05ec69f2c152-e19d92d548347d7fff05a4df493e615f3cc89ac8" class="exit" x1="617" y1="402" x2="617" y2="402"/>
+    null
     <line id="edge-dde978cbd95ab094aa8cf3a302ad04f389eedd5f-e19d92d548347d7fff05a4df493e615f3cc89ac8" class="exit" x1="617" y1="402" x2="617" y2="402"/>
     <line id="edge-32acdfdcab75050b0d32d99ef3a851737640a130-bf656ce67e35ff28ed2b93df04663c2f85f1b606" class="exit" x1="141" y1="402" x2="141" y2="402"/>
-    <line id="edge-66c9a84dcc6b331d76016a17b5134e54b8156dd3-bf656ce67e35ff28ed2b93df04663c2f85f1b606" class="exit" x1="141" y1="402" x2="141" y2="402"/>
+    null
     <line id="edge-050e7bfca765509b68e7985c50c66e3166acdafd-c323f6d20b3d960750799a065dc80c75fe92aba2" class="exit" x1="119" y1="345" x2="119" y2="345"/>
     <line id="edge-8d792954b75e6f2045d4fc6dac3318900f6fd942-c323f6d20b3d960750799a065dc80c75fe92aba2" class="exit" x1="119" y1="345" x2="119" y2="345"/>
     <line id="edge-9a239d2ea00f107aee617e2b3ca146e4189f3408-c323f6d20b3d960750799a065dc80c75fe92aba2" class="exit" x1="119" y1="345" x2="119" y2="345"/>
@@ -1038,7 +1038,7 @@
     <line id="edge-abbdae0a2042c4908ab92a168e8e684c0753a0aa-fa0d38569ebfb279b1913db3a37c0c5df60c3c8e" class="exit" x1="222" y1="433" x2="222" y2="433"/>
     <line id="edge-6caf14542b1d5c3a5531e60ba2652a5108a7941f-96bcb7602fa1c545bdc4170fd0ab4be07e28da30" class="exit" x1="222" y1="444" x2="222" y2="444"/>
     <line id="edge-737ccfeae4ddb9a10fabf0945c7d2e01a2db4e7b-fee103a7ca4d43d58126baadcde2044de7344c1c" class="exit" x1="200" y1="444" x2="200" y2="444"/>
-    <line id="edge-2bbe09e348c2cd6a7aad121b05a9740fece23404-fee103a7ca4d43d58126baadcde2044de7344c1c" class="exit" x1="200" y1="444" x2="200" y2="444"/>
+    null
     <line id="edge-5f456ee5e786a213f619a6c5fddde7abaccd65c6-80ebc8ced3ac35804dfb5d499241dcef842820e1" class="exit" x1="200" y1="433" x2="200" y2="433"/>
     <line id="edge-72c030bf88185865cceb188cbb68842944be3d77-c5ac7f3103b6d48fdb2461d4d54006a7f3477e46" class="exit" x1="281" y1="128" x2="281" y2="128"/>
     <line id="edge-ddeee2e301169215b13cc5e587f4932b126795d3-e87af0e48cae3390fdfd34e7104dc8f20dfb3c1c" class="exit" x1="365" y1="450" x2="365" y2="450"/>
@@ -1051,17 +1051,17 @@
     <line id="edge-789f6cdeacd61175b0a3dde5b92104be329fda0e-8aea62e7f1fd60480fcc545baeda5db7e4b0fc12" class="exit" x1="449" y1="458" x2="449" y2="458"/>
     <line id="edge-3742c9c5166b5fffb7cfae38fed3bd2b9fc46122-7878a2ee28314039964d54a95f33f815ff1aade9" class="exit" x1="491" y1="360" x2="491" y2="360"/>
     <line id="edge-5683313fb7c44e1ac31f0a0f76c648104604941f-7878a2ee28314039964d54a95f33f815ff1aade9" class="exit" x1="491" y1="360" x2="491" y2="360"/>
-    <line id="edge-0d502433cb9894c733a42b19e508a5be9bc0003f-3742c9c5166b5fffb7cfae38fed3bd2b9fc46122" class="exit" x1="491" y1="360" x2="491" y2="360"/>
+    null
     <line id="edge-3742c9c5166b5fffb7cfae38fed3bd2b9fc46122-5683313fb7c44e1ac31f0a0f76c648104604941f" class="exit" x1="491" y1="360" x2="491" y2="360"/>
     <line id="edge-3742c9c5166b5fffb7cfae38fed3bd2b9fc46122-c020146387df72ed323a4e8e5eb07f0e4448a85b" class="exit" x1="491" y1="360" x2="491" y2="360"/>
     <line id="edge-3742c9c5166b5fffb7cfae38fed3bd2b9fc46122-da64597bd3e53984d05f4e4658cf8fce30afee1d" class="exit" x1="491" y1="360" x2="491" y2="360"/>
     <line id="edge-3742c9c5166b5fffb7cfae38fed3bd2b9fc46122-e0fa3a30f69f085ccb9a1c59e6a928e0d291ee29" class="exit" x1="491" y1="360" x2="491" y2="360"/>
     <line id="edge-5683313fb7c44e1ac31f0a0f76c648104604941f-e0fa3a30f69f085ccb9a1c59e6a928e0d291ee29" class="exit" x1="491" y1="360" x2="491" y2="360"/>
-    <line id="edge-02dee78d2b635b2ddc3ff86ac65ee5306a3ac51f-91ad9cd95c42a7f5608762118176ef39108d5dd8" class="exit" x1="631" y1="492" x2="631" y2="492"/>
-    <line id="edge-02dee78d2b635b2ddc3ff86ac65ee5306a3ac51f-91e538322c06e6fbec35c91b3ea4ceaa8cd8e240" class="exit" x1="631" y1="492" x2="631" y2="492"/>
-    <line id="edge-90717c0a8dcefeb134504d923430e87f27cbc1cf-91ad9cd95c42a7f5608762118176ef39108d5dd8" class="exit" x1="631" y1="492" x2="631" y2="492"/>
-    <line id="edge-627181996ee26efc92f754cdd5bb2c8f35d5e5a3-90717c0a8dcefeb134504d923430e87f27cbc1cf" class="exit" x1="631" y1="492" x2="631" y2="492"/>
-    <line id="edge-627181996ee26efc92f754cdd5bb2c8f35d5e5a3-aa985e42d0ab4a7eadce26d3cb4a74a6dac9c090" class="exit" x1="631" y1="492" x2="631" y2="492"/>
+    null
+    null
+    null
+    null
+    null
     <line id="edge-a91e4bfda81de1aaaa0ed061a5ca21549d188b9d-e0bfd8f96c9c767ab9e5a9892ceb8f0f6efa26db" class="exit" x1="617" y1="380" x2="617" y2="380"/>
     <line id="edge-0631f6b6b805ad01db6d005325dfe0e4e22ebd45-bbe5a24cc31522909c19da98b3eefe834a533d14" class="exit" x1="628" y1="391" x2="628" y2="391"/>
     <line id="edge-09316b02a7f1959f03cc5c45c3874c670c66e912-09a9ca60ab9271e1192c2b305a1c05ec69f2c152" class="exit" x1="617" y1="402" x2="617" y2="402"/>
@@ -1084,9 +1084,9 @@
     <circle id="room-532108fada1f630822e2b5493d849ea190abb296" class="room outdoor" data-label="Tuvelpit Road between two shops" cx="519" cy="587" r="4"/>
     <circle id="room-0c828c66abee4806d836887f7a105cd892640c0c" class="room outdoor" data-label="sports equipment shop" cx="509" cy="597" r="4"/>
     <circle id="room-d56a0d1905583a84d4dd60a65fc7b4379732bde4" class="room outdoor" data-label="Tuvelpit Road" cx="505" cy="573" r="4"/>
-    <circle id="room-6fbb8964d22fcdabc89085881256ab49f409fb86" class="room outdoor" data-label="Tuvelpit Road, outside the house of Zaxiteles the potter" cx="491" cy="573" r="4"/>
-    <circle id="room-5b336cdb52e508bd22b89ae17f023f32d866de9c" class="room outdoor" data-label="well scrubbed white circular room" cx="491" cy="562" r="4"/>
-    <circle id="room-305ce0e5a92d70d9f11f925a3be172e77d60c791" class="room outdoor" data-label="flat white rooftop, piled with stacks of pottery" cx="491" cy="562" r="4"/>
+    <circle id="room-6fbb8964d22fcdabc89085881256ab49f409fb86" class="room outdoor" data-label="Tuvelpit Road, outside the house of Zaxiteles the potter" cx="491" cy="573" r="4"/><polygon class="stair-symbol" points="491,570 488.5,575 493.5,575"/>
+    <circle id="room-5b336cdb52e508bd22b89ae17f023f32d866de9c" class="room outdoor" data-label="well scrubbed white circular room" cx="491" cy="562" r="4"/><polygon class="stair-symbol" points="491,559 488.5,564 493.5,564"/>
+    <circle id="room-305ce0e5a92d70d9f11f925a3be172e77d60c791" class="room outdoor" data-label="flat white rooftop, piled with stacks of pottery" cx="491" cy="562" r="4"/><polygon class="stair-symbol" points="491,559 493.5,562 491,565 488.5,562"/>
     <circle id="room-4ef34088865bf77ee041effc943e712841ef6545" class="room outdoor" data-label="Tuvelpit Road, near the Paradox Gates" cx="477" cy="573" r="4"/>
     <circle id="room-f4f3433a0ef37e385d0fabc78e64609466dc576f" class="room outdoor" data-label="stretch of Paradox Avenue" cx="477" cy="545" r="4"/>
     <circle id="room-65f1364b724226dfa1d003f9d39f2480fa6f05ec" class="room outdoor" data-label="by a plaza" cx="491" cy="531" r="4"/>
@@ -1163,16 +1163,16 @@
     <circle id="room-ce5b133ac1752446dd3eba4981569e4c238e4e02" class="room outdoor" data-label="skin trader" cx="328" cy="518" r="4"/>
     <circle id="room-f228ff8958d4544d84fa0961455198a9d312e2c1" class="room outdoor" data-label="The Tyrant Taverna" cx="285" cy="521" r="4"/>
     <circle id="room-db9efc881fd55f0516f15b9a4ccdd5731b137d1e" class="room outdoor" data-label="eastern end of Philosopher&#x27;s walk" cx="323" cy="461" r="4"/>
-    <circle id="room-dfb0bc23d3f9a96c71e0b87aef9c87f2b9e89be2" class="room outdoor" data-label="near the eastern end of Philosopher&#x27;s walk" cx="309" cy="461" r="4"/>
+    <circle id="room-dfb0bc23d3f9a96c71e0b87aef9c87f2b9e89be2" class="room outdoor" data-label="near the eastern end of Philosopher&#x27;s walk" cx="309" cy="461" r="4"/><polygon class="stair-symbol" points="309,458 306.5,463 311.5,463"/>
     <circle id="room-016f2d119a52c862177c30080fb81e15551e0a6b" class="room outdoor" data-label="busy stretch of Philosopher&#x27;s walk" cx="295" cy="475" r="4"/>
     <circle id="room-e5484f220b9d29276ca0d3a3dc0280d3800751a3" class="room outdoor" data-label="Philosopher&#x27;s walk outside a toga shop" cx="281" cy="475" r="4"/>
     <circle id="room-1114fef693254b938eac4add48b31d2d30b818e6" class="room outdoor" data-label="lively toga shop" cx="281" cy="462" r="4"/>
-    <circle id="room-0d5094bb79913ae37e1639c87b30ba033f4f2f96" class="room outdoor" data-label="back room of a toga shop" cx="281" cy="450" r="4"/>
+    <circle id="room-0d5094bb79913ae37e1639c87b30ba033f4f2f96" class="room outdoor" data-label="back room of a toga shop" cx="281" cy="450" r="4"/><polygon class="stair-symbol" points="281,453 278.5,448 283.5,448"/>
     <circle id="room-4b5ad1c87e25a1b322d77bf699c865133cc1a0a8" class="room outdoor" data-label="busy stretch of Philosopher&#x27;s walk" cx="267" cy="475" r="4"/>
     <circle id="room-550a3368b7fcf0b0a378789bb613ff34eb85d7eb" class="room outdoor" data-label="stretch of Philosopher&#x27;s walk" cx="253" cy="461" r="4"/>
-    <circle id="room-dd8c42edb5bda4f1127dec5e4a814efa8b5bafc4" class="room outdoor" data-label="messy rooftop" cx="300" cy="449" r="4"/>
+    <circle id="room-dd8c42edb5bda4f1127dec5e4a814efa8b5bafc4" class="room outdoor" data-label="messy rooftop" cx="300" cy="449" r="4"/><polygon class="stair-symbol" points="300,452 297.5,447 302.5,447"/>
     <circle id="room-df0dae40197d805adb8fc303ee3daa4f8342fc8b" class="room outdoor" data-label="the cusp of a sharp bend of Philosopher&#x27;s walk" cx="239" cy="447" r="4"/>
-    <circle id="room-aa5d45d1ccf14a52531cd368a3aedb50e8f8fba9" class="room outdoor" data-label="humid passageway beneath the toga shop" cx="281" cy="450" r="4"/>
+    <circle id="room-aa5d45d1ccf14a52531cd368a3aedb50e8f8fba9" class="room outdoor" data-label="humid passageway beneath the toga shop" cx="281" cy="450" r="4"/><polygon class="stair-symbol" points="281,447 278.5,452 283.5,452"/>
     <circle id="room-698987e6ff90bebbf0a18cb30f23ab0325de2cc8" class="room outdoor" data-label="bath house beneath the toga shop" cx="281" cy="450" r="4"/>
     <circle id="room-1dd0c16439a49faec684bfd51a3e8277f9a5da10" class="room outdoor" data-label="Philosopher&#x27;s walk by a sharp bend" cx="225" cy="461" r="4"/>
     <circle id="room-c37609410836c46051ca3573382a8f1c59d9d28e" class="room outdoor" data-label="bend in Philosopher&#x27;s walk" cx="225" cy="475" r="4"/>
@@ -1193,13 +1193,13 @@
     <circle id="room-e22e32ac47e8312df03df74def79b625a4d66ce3" class="room outdoor" data-label="Logical Lane" cx="113" cy="405" r="4"/>
     <circle id="room-fc85c546209195bca42bff54204e78e13e616b98" class="room outdoor" data-label="inside the Djelian embassy" cx="124" cy="405" r="4"/>
     <circle id="room-7b7d6f7d32f08041d30e6e01e37639cf547626eb" class="room outdoor" data-label="Logical Lane" cx="113" cy="391" r="4"/>
-    <circle id="room-783219e639517111bb7976cd955d93c3d61b58cd" class="room outdoor" data-label="Klatchian Continental Bank" cx="124" cy="391" r="4"/>
+    <circle id="room-783219e639517111bb7976cd955d93c3d61b58cd" class="room outdoor" data-label="Klatchian Continental Bank" cx="124" cy="391" r="4"/><polygon class="stair-symbol" points="124,394 121.5,389 126.5,389"/>
     <circle id="room-b1af471fbf737429b940cac18e4ce1533b368b08" class="room outdoor" data-label="personal banking area" cx="124" cy="391" r="4"/>
-    <circle id="room-e288fce19a9b035da849f51068f8275bb8bbf4d3" class="room outdoor" data-label="cool, dry basement" cx="124" cy="391" r="4"/>
+    <circle id="room-e288fce19a9b035da849f51068f8275bb8bbf4d3" class="room outdoor" data-label="cool, dry basement" cx="124" cy="391" r="4"/><polygon class="stair-symbol" points="124,388 121.5,393 126.5,393"/>
     <circle id="room-d6e31349389223cb069447292118bf2987d64aaf" class="room outdoor" data-label="Logical Lane" cx="99" cy="377" r="4"/>
     <circle id="room-dece45cd4537e2fcaa1410898c8fab7dc2434e72" class="room outdoor" data-label="Logical Lane" cx="99" cy="363" r="4"/>
     <circle id="room-46d6868c2a9bb0e78dee97c2ef8c65e886439e24" class="room outdoor" data-label="Logical Lane" cx="99" cy="349" r="4"/>
-    <circle id="room-b0e18e0c3dfc6ef230d6bd79d94650a69962e611" class="room outdoor" data-label="The beginning of Ponder Alley, east of Logical Lane" cx="113" cy="349" r="4"/>
+    <circle id="room-b0e18e0c3dfc6ef230d6bd79d94650a69962e611" class="room outdoor" data-label="The beginning of Ponder Alley, east of Logical Lane" cx="113" cy="349" r="4"/><polygon class="stair-symbol" points="113,346 110.5,351 115.5,351"/>
     <circle id="room-6f2441d86c684b9e358b595ba31bba963fd6af25" class="room outdoor" data-label="Partway down Ponder Alley" cx="127" cy="363" r="4"/>
     <circle id="room-3e36a8ee9c55f4ff229c08a2aab4850804c22c3a" class="room outdoor" data-label="fork in Ponder Alley" cx="141" cy="377" r="4"/>
     <circle id="room-f162454cb7a502b79660368fbff351f76529c75f" class="room outdoor" data-label="off-shoot from Ponder Alley" cx="127" cy="377" r="4"/>
@@ -1211,14 +1211,14 @@
     <circle id="room-51dc5cc9886a2b6aab294c502962bc78945fde54" class="room outdoor" data-label="Logical Lane, just outside a tavern near the citadel" cx="99" cy="307" r="4"/>
     <circle id="room-96af0ab82384c13010ac74fe73737caef06c2595" class="room outdoor" data-label="inside a tavern" cx="88" cy="307" r="4"/>
     <circle id="room-0dcb5461b7f0d813990ee4a8fed0cce13c01a486" class="room outdoor" data-label="inside a tavern" cx="88" cy="307" r="4"/>
-    <circle id="room-9f9ad0609ba1d68fbf00237c1894800981efd8e7" class="room outdoor" data-label="stairwell in the Thousand and Two Nights of Ephebe bar" cx="23" cy="313" r="4"/>
-    <circle id="room-b8aa559f6f6673b65ec5b4d0f2db46f21ccc3263" class="room outdoor" data-label="the top of a stairwell" cx="22" cy="286" r="4"/>
+    <circle id="room-9f9ad0609ba1d68fbf00237c1894800981efd8e7" class="room outdoor" data-label="stairwell in the Thousand and Two Nights of Ephebe bar" cx="23" cy="313" r="4"/><polygon class="stair-symbol" points="23,310 25.5,313 23,316 20.5,313"/>
+    <circle id="room-b8aa559f6f6673b65ec5b4d0f2db46f21ccc3263" class="room outdoor" data-label="the top of a stairwell" cx="22" cy="286" r="4"/><polygon class="stair-symbol" points="22,289 19.5,284 24.5,284"/>
     <circle id="room-e29478ba510826921366bdb5bd3c6e3266a2685a" class="room outdoor" data-label="The Grove That Is Or Maybe Isn&#x27;t Bar and Roof Garden" cx="35" cy="286" r="4"/>
     <circle id="room-879b9bbb632a3ead8c92752bfadb0682d4aa9b34" class="room outdoor" data-label="sheltered roof garden" cx="35" cy="299" r="4"/>
     <circle id="room-7e95e73b9e75def577ac0a62285f7c5cad53fd6d" class="room outdoor" data-label="sheltered roof garden" cx="22" cy="299" r="4"/>
     <circle id="room-3230c8a2cd372fad2dd09317ec8a604c343e06d2" class="room outdoor" data-label="sun-kissed atrium" cx="34" cy="324" r="4"/>
     <circle id="room-cd745c9b8b7eb8668e0b2852af19be5047c03db8" class="room outdoor" data-label="Amaryllis&#x27; Taverna" cx="34" cy="313" r="4"/>
-    <circle id="room-f78e6fbc4c1d868a3fb9be63c0830505efd1033b" class="room outdoor" data-label="The bottom of a stairwell" cx="23" cy="338" r="4"/>
+    <circle id="room-f78e6fbc4c1d868a3fb9be63c0830505efd1033b" class="room outdoor" data-label="The bottom of a stairwell" cx="23" cy="338" r="4"/><polygon class="stair-symbol" points="23,335 20.5,340 25.5,340"/>
     <circle id="room-e8e8fc7913ceeb0fc9dba71b77214e594be06e5a" class="room outdoor" data-label="the basement, outside an unusually gloomy club" cx="34" cy="338" r="4"/>
     <circle id="room-62d36b900f326c2484cc10a4646d8a3445edd6e0" class="room outdoor" data-label="a walk-in cupboard" cx="23" cy="349" r="4"/>
     <circle id="room-096de999c11b04acc630d9347034a53f058d071e" class="room outdoor" data-label="the Flaming Ram&#x27;s Skull Club" cx="34" cy="349" r="4"/>
@@ -1285,7 +1285,7 @@
     <circle id="room-ebf21cdcae0a0f8141d30eb49dc90f548900238e" class="room outdoor" data-label="Slouching Gardens of Ephebe, just west of Lighthouse Lookout" cx="281" cy="153" r="4"/>
     <circle id="room-f4949e23d9ae05eb9b104ea3aa99630e2dc095be" class="room outdoor" data-label="Street of Enlightenment, looking down towards the harbour" cx="281" cy="167" r="4"/>
     <circle id="room-af9d48a2e4e1487fddf0a1f83e204c894a5c3847" class="room outdoor" data-label="Slouching Gardens of Ephebe" cx="281" cy="181" r="4"/>
-    <circle id="room-e86fe138dbe79c34a87ec7a1885e4793231b5bde" class="room outdoor" data-label="Slouching Gardens of Ephebe at the back end of a horse" cx="295" cy="195" r="4"/>
+    <circle id="room-e86fe138dbe79c34a87ec7a1885e4793231b5bde" class="room outdoor" data-label="Slouching Gardens of Ephebe at the back end of a horse" cx="295" cy="195" r="4"/><polygon class="stair-symbol" points="295,192 292.5,197 297.5,197"/>
     <circle id="room-3f048dd596042209050b0eb61448a8ae9f40a69a" class="room outdoor" data-label="Street of Enlightenment, looking down towards the harbour" cx="295" cy="181" r="4"/>
     <circle id="room-158d9e545104aa44dace4c9f3f199ee265aeae8a" class="room outdoor" data-label="Slouching Gardens of Ephebe, just south of Lighthouse Lookout" cx="295" cy="167" r="4"/>
     <circle id="room-d2915f55b3f719a0fca03f401f75ecc22d725f48" class="room outdoor" data-label="Lighthouse Lookout" cx="295" cy="153" r="4"/>
@@ -1294,8 +1294,8 @@
     <circle id="room-42817266b0e02f96a9d9c328e8d86078fdff7443" class="room outdoor" data-label="Slouching Gardens of Ephebe at the front end of a horse" cx="309" cy="209" r="4"/>
     <circle id="room-bc07656b864ccde97a70c0888445f8ce5cf86ec4" class="room outdoor" data-label="Slouching Gardens of Ephebe, just northwest of some trellising" cx="323" cy="223" r="4"/>
     <circle id="room-3ccc88fab9e22150c0a07ad3670786de135835f9" class="room outdoor" data-label="Street of Enlightenment, looking out across the market" cx="323" cy="209" r="4"/>
-    <circle id="room-551a62bfa27065a906fde11acc50d7b69136c307" class="room outdoor" data-label="Street of Enlightenment, looking out across the market" cx="323" cy="195" r="4"/>
-    <circle id="room-648da675296d252985adf2f04b09eb869f0d2b89" class="room outdoor" data-label="Street of Enlightenment, looking out across the market" cx="337" cy="223" r="4"/>
+    <circle id="room-551a62bfa27065a906fde11acc50d7b69136c307" class="room outdoor" data-label="Street of Enlightenment, looking out across the market" cx="323" cy="195" r="4"/><polygon class="stair-symbol" points="323,198 320.5,193 325.5,193"/>
+    <circle id="room-648da675296d252985adf2f04b09eb869f0d2b89" class="room outdoor" data-label="Street of Enlightenment, looking out across the market" cx="337" cy="223" r="4"/><polygon class="stair-symbol" points="337,226 334.5,221 339.5,221"/>
     <circle id="room-1f944cbccce6ee5fb85c9c8a79a19362bf14015a" class="room outdoor" data-label="Slouching Gardens of Ephebe inside a wood and stone structure" cx="337" cy="237" r="4"/>
     <circle id="room-a7c8760b063b395c6f06cb4487fe916669ab6d60" class="room outdoor" data-label="Slouching Gardens of Ephebe inside a vine covered structure" cx="337" cy="251" r="4"/>
     <circle id="room-7fae52e8d5e3ddda00020563e9cd0c51e9a52024" class="room outdoor" data-label="Slouching Gardens of Ephebe inside a vine covered structure" cx="337" cy="265" r="4"/>
@@ -1304,7 +1304,7 @@
     <circle id="room-3c5fca4bbb13a2f51248fb83b95448488f54685b" class="room outdoor" data-label="Street of Enlightenment, looking out across the market" cx="337" cy="307" r="4"/>
     <circle id="room-ca852f1dac3f56806d17231c1b34659e0c10af82" class="room outdoor" data-label="Street of Enlightenment, looking out across the market" cx="351" cy="279" r="4"/>
     <circle id="room-dc04efca8bf680c4e9c93b757050388131653770" class="room outdoor" data-label="Street of Enlightenment, looking out across the market" cx="351" cy="265" r="4"/>
-    <circle id="room-0484cfeed3ba4045cf2d14fa239e1b6d83bf69a5" class="room outdoor" data-label="Street of Enlightenment, looking out across the market" cx="351" cy="251" r="4"/>
+    <circle id="room-0484cfeed3ba4045cf2d14fa239e1b6d83bf69a5" class="room outdoor" data-label="Street of Enlightenment, looking out across the market" cx="351" cy="251" r="4"/><polygon class="stair-symbol" points="351,254 348.5,249 353.5,249"/>
     <circle id="room-4064c938b803bb0993333733ceb240c0fc4116e1" class="room outdoor" data-label="Street of Enlightenment, looking out across the market" cx="351" cy="237" r="4"/>
     <circle id="room-cdf29d76cc63c3fdd1d302f35586a635c712abc6" class="room outdoor" data-label="Slouching Gardens of Ephebe, just southwest of some trellising" cx="323" cy="293" r="4"/>
     <circle id="room-98d3a500cc3debf3750e6a787f218a0f5162ec97" class="room outdoor" data-label="Slouching Gardens of Ephebe looking out of the city" cx="323" cy="307" r="4"/>
@@ -1430,13 +1430,13 @@
     <circle id="room-36525ac6ad7adef4b31f964ba7952eb156c30027" class="room outdoor" data-label="Dockside Walk, at the south end of a market" cx="379" cy="237" r="4"/>
     <circle id="room-4c9b04fc5c87eb5f2c742dde897ed2be2ac8aa80" class="room outdoor" data-label="Krimat&#x27;s Foreign Exchange" cx="379" cy="248" r="4"/>
     <circle id="room-684c9d9a70b6e730c4e66cfd5b944f851d0930a3" class="room outdoor" data-label="The southern end of Dockside Market" cx="365" cy="237" r="4"/>
-    <circle id="room-9d3fecf24a7418dff996e67a0950aa6752748e02" class="room outdoor" data-label="grassy area between stalls" cx="351" cy="223" r="4"/>
+    <circle id="room-9d3fecf24a7418dff996e67a0950aa6752748e02" class="room outdoor" data-label="grassy area between stalls" cx="351" cy="223" r="4"/><polygon class="stair-symbol" points="351,220 348.5,225 353.5,225"/>
     <circle id="room-99efdda67decc85da9f008918b06df2a25328133" class="room outdoor" data-label="tiny park on the south end of the Dock Market" cx="365" cy="223" r="4"/>
     <circle id="room-ab6ef96245a8ba7c9602724dcd9aa64c3f39e1dc" class="room outdoor" data-label="Dockside Walk, near the south end of a market" cx="379" cy="223" r="4"/>
     <circle id="room-5baae2c3e78f50bf0b540cc28cca7a9cd96d0d39" class="room outdoor" data-label="Dockside Walk, east of the southern end of Dockside Market" cx="379" cy="209" r="4"/>
     <circle id="room-9e5e132a62e1f9d415434a452dca73072d2dea14" class="room outdoor" data-label="Penguin Fountain" cx="365" cy="209" r="4"/>
     <circle id="room-20fc928291d57131d5e7069987ce7d9ebf87cb42" class="room outdoor" data-label="a grassy area between stalls" cx="351" cy="209" r="4"/>
-    <circle id="room-3c079ab765809ee3244d10759bda907e9d2535e7" class="room outdoor" data-label="small jewellery stall" cx="337" cy="195" r="4"/>
+    <circle id="room-3c079ab765809ee3244d10759bda907e9d2535e7" class="room outdoor" data-label="small jewellery stall" cx="337" cy="195" r="4"/><polygon class="stair-symbol" points="337,192 334.5,197 339.5,197"/>
     <circle id="room-cf403f6076b94864330c5fb0af534acaf2b9853e" class="room outdoor" data-label="small canopied stall" cx="351" cy="195" r="4"/>
     <circle id="room-1a637c18efbb959e2df1148839dfbd2b565a22a1" class="room outdoor" data-label="An arena without an arena" cx="365" cy="195" r="4"/>
     <circle id="room-eaa4d62a317bb84ba3d6edd4bcc86bc79894b55c" class="room outdoor" data-label="Dockside Walk, near the centre of Dockside Market" cx="379" cy="195" r="4"/>
@@ -1444,7 +1444,7 @@
     <circle id="room-d0c382a3e617479cc7299cc8ac3f93ee367cd75d" class="room outdoor" data-label="donkey pen" cx="365" cy="181" r="4"/>
     <circle id="room-f9c6a76039b402e5905f9374291ff3f4cb1a7eda" class="room outdoor" data-label="open area at the market" cx="351" cy="181" r="4"/>
     <circle id="room-38bd17f65dfa3c924d7ad587db316514c3241792" class="room outdoor" data-label="towel stand" cx="337" cy="181" r="4"/>
-    <circle id="room-b5b129335d60c005c3153ad627ff49a75e3e93f5" class="room outdoor" data-label="stand full of fruit and vegetables" cx="323" cy="167" r="4"/>
+    <circle id="room-b5b129335d60c005c3153ad627ff49a75e3e93f5" class="room outdoor" data-label="stand full of fruit and vegetables" cx="323" cy="167" r="4"/><polygon class="stair-symbol" points="323,164 320.5,169 325.5,169"/>
     <circle id="room-7af492167d152906cb28204149b14a9229ef5a49" class="room outdoor" data-label="make-shift kebab stall" cx="337" cy="167" r="4"/>
     <circle id="room-bbc6bf1abc27a616e135584a411e69f6e77dfb96" class="room outdoor" data-label="stall of needful things" cx="351" cy="167" r="4"/>
     <circle id="room-d0ba5b22e0c2bb57f9cb8db45ec010d08af1b032" class="room outdoor" data-label="goat pen" cx="365" cy="167" r="4"/>
@@ -1463,7 +1463,7 @@
     <circle id="room-ff38fad9924c77fdf61727533d23de391b24f19e" class="room outdoor" data-label="junction of Dockside Walk and Inconsistent Street" cx="379" cy="139" r="4"/>
     <circle id="room-4f0d72f9553e44ab5dc421d453b251e8db10f1eb" class="room outdoor" data-label="north pier" cx="393" cy="139" r="4"/>
     <circle id="room-6a935db9764ff93e06d0e34a48b5abd0eade7c9e" class="room outdoor" data-label="pier" cx="407" cy="139" r="4"/>
-    <circle id="room-1869baf6bbb434dd66c422d9152e6346ad063fb7" class="room outdoor" data-label="pier" cx="421" cy="139" r="4"/>
+    <circle id="room-1869baf6bbb434dd66c422d9152e6346ad063fb7" class="room outdoor" data-label="pier" cx="421" cy="139" r="4"/><polygon class="stair-symbol" points="421,142 418.5,137 423.5,137"/>
     <circle id="room-053253bf6b96d937d66f1109b38ad5f436966bd5" class="room outdoor" data-label="Dockside Walk, near some piers" cx="379" cy="125" r="4"/>
     <circle id="room-a6c7ec1017ed89a186779e8e3d8066257e4b1389" class="room outdoor" data-label="Dockside Walk transforming into a path" cx="393" cy="111" r="4"/>
     <circle id="room-1d3179cad9d92b47884cbb1ab4343f50fda2c6c2" class="room outdoor" data-label="path heading towards the lighthouse" cx="393" cy="97" r="4"/>
@@ -1476,27 +1476,27 @@
     <circle id="room-b7b07847d900d275db29581f378b5076be2b32ea" class="room outdoor" data-label="southern hallway of the Ephebe lighthouse ground floor" cx="352" cy="80" r="4"/>
     <circle id="room-2b3887f5a6a1644f7e684f1a52f2be6c236132f7" class="room outdoor" data-label="southeastern hallway of the Ephebe lighthouse ground floor" cx="363" cy="80" r="4"/>
     <circle id="room-915a77cdb499fa6399808d58f2c45d0e9e510d7c" class="room outdoor" data-label="eastern hallway of the Ephebe lighthouse ground floor" cx="363" cy="69" r="4"/>
-    <circle id="room-c05b464cb794c33fb49053f1f0474b86666eed17" class="room outdoor" data-label="central staircase of the Ephebe lighthouse ground floor" cx="352" cy="69" r="4"/>
+    <circle id="room-c05b464cb794c33fb49053f1f0474b86666eed17" class="room outdoor" data-label="central staircase of the Ephebe lighthouse ground floor" cx="352" cy="69" r="4"/><polygon class="stair-symbol" points="352,66 349.5,71 354.5,71"/>
     <circle id="room-dd7446d54fcd0cabf43371dcf1ec1b30fa360972" class="room outdoor" data-label="southwestern hallway of the Ephebe lighthouse ground floor" cx="341" cy="80" r="4"/>
     <circle id="room-91c9eb61ac64d3a2b5a263ea566bb7ef2666461b" class="room outdoor" data-label="western hallway of the Ephebe lighthouse ground floor" cx="341" cy="69" r="4"/>
     <circle id="room-d134b85be89193bf3e057f2a4407d95f1024a2cc" class="room outdoor" data-label="northeastern hallway of the Ephebe lighthouse ground floor" cx="363" cy="58" r="4"/>
     <circle id="room-c4b451011daab986c82c0cbabbe54d285d7e00b4" class="room outdoor" data-label="northern hallway of the Ephebe lighthouse ground floor" cx="352" cy="58" r="4"/>
     <circle id="room-7b14632e853e1354cfd2158f572175456f1de538" class="room outdoor" data-label="northwestern hallway of the Ephebe lighthouse ground floor" cx="341" cy="58" r="4"/>
-    <circle id="room-4cb025651b7c5e59719aa488ae61d34b576128dd" class="room outdoor" data-label="central staircase of the Ephebe lighthouse first floor" cx="352" cy="29" r="4"/>
+    <circle id="room-4cb025651b7c5e59719aa488ae61d34b576128dd" class="room outdoor" data-label="central staircase of the Ephebe lighthouse first floor" cx="352" cy="29" r="4"/><polygon class="stair-symbol" points="352,26 354.5,29 352,32 349.5,29"/>
     <circle id="room-5c2f105a2cd4d6e0c8cb8206641c956822a12973" class="room outdoor" data-label="western perimeter of the Ephebe lighthouse first floor" cx="341" cy="29" r="4"/>
     <circle id="room-6539ed633b7357d40d0a73b97e50a11981092ac6" class="room outdoor" data-label="northern perimeter of the Ephebe lighthouse first floor" cx="352" cy="18" r="4"/>
     <circle id="room-1c013f0382fa4194b2f4a075d3be47fdcec33caa" class="room outdoor" data-label="eastern perimeter of the Ephebe lighthouse first floor" cx="363" cy="29" r="4"/>
     <circle id="room-e163334796be5bfd03839286d3451cb0d4950b2d" class="room outdoor" data-label="southern perimeter of the Ephebe lighthouse first floor" cx="352" cy="40" r="4"/>
-    <circle id="room-e94164e2b1340b50eec3f3094c4b46ae02fc8915" class="room outdoor" data-label="stairwell of the Ephebe lighthouse" cx="322" cy="74" r="4"/>
-    <circle id="room-ed132a796d6b50a211fdab8d217aba72787e21db" class="room outdoor" data-label="stairwell of the Ephebe lighthouse" cx="322" cy="52" r="4"/>
-    <circle id="room-45eb4496ec41b9389f999036f8a006890bb22987" class="room outdoor" data-label="Ephebe lighthouse top floor" cx="322" cy="29" r="4"/>
+    <circle id="room-e94164e2b1340b50eec3f3094c4b46ae02fc8915" class="room outdoor" data-label="stairwell of the Ephebe lighthouse" cx="322" cy="74" r="4"/><polygon class="stair-symbol" points="322,71 324.5,74 322,77 319.5,74"/>
+    <circle id="room-ed132a796d6b50a211fdab8d217aba72787e21db" class="room outdoor" data-label="stairwell of the Ephebe lighthouse" cx="322" cy="52" r="4"/><polygon class="stair-symbol" points="322,49 324.5,52 322,55 319.5,52"/>
+    <circle id="room-45eb4496ec41b9389f999036f8a006890bb22987" class="room outdoor" data-label="Ephebe lighthouse top floor" cx="322" cy="29" r="4"/><polygon class="stair-symbol" points="322,32 319.5,27 324.5,27"/>
     <circle id="room-47cd0cd0c3022cb092b76f78ace1af2a143de8ee" class="room outdoor" data-label="somewhere along Inconsistent Street" cx="337" cy="125" r="4"/>
     <circle id="room-8f4d2cae45e079805e8b8f212b6a78b0b7643b50" class="room outdoor" data-label="somewhere along Inconsistent Street" cx="323" cy="125" r="4"/>
     <circle id="room-2ce34edc89247147dbfac589febeaf355cb35d2c" class="room outdoor" data-label="somewhere along Inconsistent Street" cx="309" cy="125" r="4"/>
     <circle id="room-566a991341dc0e26d08b2aa2ae34a6cc961e35e7" class="room outdoor" data-label="somewhere along Inconsistent Street" cx="295" cy="139" r="4"/>
-    <circle id="room-008b5c0b63e2be97a7e95ea5748a471a88cac36e" class="room outdoor" data-label="Stairs above the Dock Market" cx="322" cy="181" r="4"/>
-    <circle id="room-854fcfc6ff9d5c5f974187e8787d3e5a89f7dd27" class="room outdoor" data-label="Stairs above the Dock Market" cx="337" cy="207" r="4"/>
-    <circle id="room-e337a8b7dd6ac6149e789421893de50a2eb7d7b8" class="room outdoor" data-label="stairs above the Dock Market" cx="351" cy="229" r="4"/>
+    <circle id="room-008b5c0b63e2be97a7e95ea5748a471a88cac36e" class="room outdoor" data-label="Stairs above the Dock Market" cx="322" cy="181" r="4"/><polygon class="stair-symbol" points="322,178 324.5,181 322,184 319.5,181"/>
+    <circle id="room-854fcfc6ff9d5c5f974187e8787d3e5a89f7dd27" class="room outdoor" data-label="Stairs above the Dock Market" cx="337" cy="207" r="4"/><polygon class="stair-symbol" points="337,204 339.5,207 337,210 334.5,207"/>
+    <circle id="room-e337a8b7dd6ac6149e789421893de50a2eb7d7b8" class="room outdoor" data-label="stairs above the Dock Market" cx="351" cy="229" r="4"/><polygon class="stair-symbol" points="351,226 353.5,229 351,232 348.5,229"/>
     <circle id="room-d34896e0320b940df827f90035e012d19233e3c7" class="room outdoor" data-label="Dockside Walk, outside a rowdy taverna" cx="463" cy="321" r="4"/>
     <circle id="room-c9cb69f2027b32cd36f7ba1b33295c2411002e19" class="room outdoor" data-label="Severed Head" cx="453" cy="331" r="4"/>
     <circle id="room-85ae4ae908bd1a2742cf7a4f7e1e11816852b9ed" class="room outdoor" data-label="Dockside Walk, near Paradox Avenue" cx="477" cy="321" r="4"/>
@@ -1560,8 +1560,8 @@
     <circle id="room-810af9751c07ba2542262b669bff08b8812683b8" class="room outdoor" data-label="Petulia Avenue, somewhere between Eureka Chase and Poleis Gate" cx="631" cy="461" r="4"/>
     <circle id="room-d7f9b60ba57c41992b23f5f13e01e8804462a3fb" class="room outdoor" data-label="middle of Petulia Avenue" cx="631" cy="447" r="4"/>
     <circle id="room-da8467a6c0f549f7f19535828c31e8776c67f5cc" class="room outdoor" data-label="Epiolios&#x27; Ephebian Endive" cx="642" cy="447" r="4"/>
-    <circle id="room-797c38ab3cd831b109c783a2e1f6e3e6d1747a99" class="room outdoor" data-label="kitchen of Epiolios&#x27; Ephebian Endive" cx="642" cy="447" r="4"/>
-    <circle id="room-fa943c8333e8a1ecfc72c29fcea438c31ed9a247" class="room outdoor" data-label="bedroom of Adrianna and Endro" cx="642" cy="447" r="4"/>
+    <circle id="room-797c38ab3cd831b109c783a2e1f6e3e6d1747a99" class="room outdoor" data-label="kitchen of Epiolios&#x27; Ephebian Endive" cx="642" cy="447" r="4"/><polygon class="stair-symbol" points="642,444 639.5,449 644.5,449"/>
+    <circle id="room-fa943c8333e8a1ecfc72c29fcea438c31ed9a247" class="room outdoor" data-label="bedroom of Adrianna and Endro" cx="642" cy="447" r="4"/><polygon class="stair-symbol" points="642,450 639.5,445 644.5,445"/>
     <circle id="room-28b6005ecece1ed1f1c34c53faa13eee7cdcb261" class="room outdoor" data-label="narrow section of Petulia Avenue" cx="617" cy="433" r="4"/>
     <circle id="room-ae89e9d856fe5229299afc3eaad5feec2ae5e8c5" class="room outdoor" data-label="entrance to the temple of Fedecks" cx="607" cy="429" r="4"/>
     <circle id="room-e9ef0be1f4eb8ef21393496f43cec56bf72929a4" class="room outdoor" data-label="high altar of Fedecks" cx="596" cy="440" r="4"/>
@@ -1602,7 +1602,7 @@
     <circle id="room-7c7fcccd51039b0fad9db03db5b280739c0582ed" class="room outdoor" data-label="Contradiction Close" cx="729" cy="223" r="4"/>
     <circle id="room-1de7c5a15240f40632a8408962be9afbdec7c198" class="room outdoor" data-label="marble works on Contradiction Close" cx="739" cy="213" r="4"/>
     <circle id="room-2379000fc8201ae4dba99781e1f3bc948481d2f4" class="room outdoor" data-label="end of Contradiction Close" cx="743" cy="237" r="4"/>
-    <circle id="room-4da8fd81aa0b5a2f2ee06cc4ca52ed5c618a95cd" class="room outdoor" data-label="belly of the horse" cx="290" cy="200" r="4"/>
+    <circle id="room-4da8fd81aa0b5a2f2ee06cc4ca52ed5c618a95cd" class="room outdoor" data-label="belly of the horse" cx="290" cy="200" r="4"/><polygon class="stair-symbol" points="290,203 287.5,198 292.5,198"/>
     <circle id="room-eb15744f62cfc03335f09ae9120fb7e9f39b413e" class="room outdoor" data-label="Shop in Temple of Flatulus" cx="280" cy="298" r="4"/>
     <circle id="room-c8a700322a3b99bd962dc06b407273d46642a834" class="room outdoor" data-label="octiron-lined strongroom" cx="124" cy="391" r="4"/>
     <circle id="room-b3bffd89980ae8c5d7b76fcf621a3b275faabf31" class="room outdoor" data-label="Klatchian Foreign Legion recruitment tent" cx="365" cy="167" r="4"/>
@@ -1617,29 +1617,29 @@
     <circle id="room-2cc008fe43b10b95ef61b6e525b138d1321c9d5c" class="room outdoor" data-label="scruffy corner of the Temple of Patina" cx="217" cy="248" r="4"/>
     <circle id="room-f1184b84e0b0911a7402772ef199f416bde48183" class="room outdoor" data-label="Costlee Coffee in the Temple of Patina" cx="217" cy="259" r="4"/>
     <circle id="room-c312535c7f08f5b07340b6c15156cf854df63f87" class="room outdoor" data-label="near the ceiling of the Temple of Patina" cx="228" cy="248" r="4"/>
-    <circle id="room-25387a8a77fa30969760e245477602a68eed7ce3" class="room outdoor" data-label="living room" cx="281" cy="128" r="4"/>
+    <circle id="room-25387a8a77fa30969760e245477602a68eed7ce3" class="room outdoor" data-label="living room" cx="281" cy="128" r="4"/><polygon class="stair-symbol" points="281,125 283.5,128 281,131 278.5,128"/>
     <circle id="room-468fb568e146ceb5f0b6875579cfa75569e60c6d" class="room outdoor" data-label="Courtyard Garden" cx="211" cy="433" r="4"/>
-    <circle id="room-04e5997d9cf5aeea16c10eb82d871cdef6b25ced" class="room outdoor" data-label="hallway" cx="200" cy="433" r="4"/>
-    <circle id="room-3b78e05d8929b62acf36cb53ce369f3f59b21fd4" class="room outdoor" data-label="hallway" cx="200" cy="444" r="4"/>
-    <circle id="room-59b639a7d7185435bd6a60e32ebdc47bd99d4f18" class="room outdoor" data-label="living room" cx="222" cy="444" r="4"/>
-    <circle id="room-d56a899f970f0661861bca1bc12e7f2dc44c9d33" class="room outdoor" data-label="living room" cx="222" cy="433" r="4"/>
-    <circle id="room-abb00e64c3e78b56af406b5023a0b03c247d3346" class="room outdoor" data-label="hallway" cx="449" cy="458" r="4"/>
+    <circle id="room-04e5997d9cf5aeea16c10eb82d871cdef6b25ced" class="room outdoor" data-label="hallway" cx="200" cy="433" r="4"/><polygon class="stair-symbol" points="200,430 197.5,435 202.5,435"/>
+    <circle id="room-3b78e05d8929b62acf36cb53ce369f3f59b21fd4" class="room outdoor" data-label="hallway" cx="200" cy="444" r="4"/><polygon class="stair-symbol" points="200,441 197.5,446 202.5,446"/>
+    <circle id="room-59b639a7d7185435bd6a60e32ebdc47bd99d4f18" class="room outdoor" data-label="living room" cx="222" cy="444" r="4"/><polygon class="stair-symbol" points="222,441 219.5,446 224.5,446"/>
+    <circle id="room-d56a899f970f0661861bca1bc12e7f2dc44c9d33" class="room outdoor" data-label="living room" cx="222" cy="433" r="4"/><polygon class="stair-symbol" points="222,430 219.5,435 224.5,435"/>
+    <circle id="room-abb00e64c3e78b56af406b5023a0b03c247d3346" class="room outdoor" data-label="hallway" cx="449" cy="458" r="4"/><polygon class="stair-symbol" points="449,455 451.5,458 449,461 446.5,458"/>
     <circle id="room-2d5f67fff7e76dbea9dec70bf031a8161d9f06f7" class="room outdoor" data-label="hallway" cx="491" cy="360" r="4"/>
     <circle id="room-e8efd8ea4f6d026929a237adfe2a2f3edaec125c" class="room outdoor" data-label="[player shop]" cx="516" cy="377" r="4"/>
     <circle id="room-eb2565111f00846b83af80f3d8689ed82ad3e419" class="room outdoor" data-label="wood workshop" cx="561" cy="604" r="4"/>
-    <circle id="room-094c71acbdfa8d03963f64e8dc7beb9d493f87d0" class="room outdoor" data-label="spacious vestibule" cx="365" cy="450" r="4"/>
+    <circle id="room-094c71acbdfa8d03963f64e8dc7beb9d493f87d0" class="room outdoor" data-label="spacious vestibule" cx="365" cy="450" r="4"/><polygon class="stair-symbol" points="365,447 362.5,452 367.5,452"/>
     <circle id="room-9bfafafac02d181f44e61194778f1113b98ef54f" class="room outdoor" data-label="A dark spot behind the clematis" cx="505" cy="391" r="4"/>
     <circle id="room-db4cb8c9e65d0424bf124809e3efb4acf064f215" class="room outdoor" data-label="A roof garden" cx="494" cy="391" r="4"/>
     <circle id="room-f17270dd7ca6b4c8a4ee9278bf7a7bc0eef4b030" class="room outdoor" data-label="communal courtyard" cx="617" cy="391" r="4"/>
-    <circle id="room-850cfde746515f81a9f9e9b50aab59bbd6cb6d32" class="room outdoor" data-label="living room" cx="617" cy="380" r="4"/>
-    <circle id="room-787d74ed2aa608bd613b0a9c20d3ead38a36a8d2" class="room outdoor" data-label="living room" cx="628" cy="391" r="4"/>
-    <circle id="room-e19d92d548347d7fff05a4df493e615f3cc89ac8" class="room outdoor" data-label="living room" cx="617" cy="402" r="4"/>
+    <circle id="room-850cfde746515f81a9f9e9b50aab59bbd6cb6d32" class="room outdoor" data-label="living room" cx="617" cy="380" r="4"/><polygon class="stair-symbol" points="617,377 614.5,382 619.5,382"/>
+    <circle id="room-787d74ed2aa608bd613b0a9c20d3ead38a36a8d2" class="room outdoor" data-label="living room" cx="628" cy="391" r="4"/><polygon class="stair-symbol" points="628,388 625.5,393 630.5,393"/>
+    <circle id="room-e19d92d548347d7fff05a4df493e615f3cc89ac8" class="room outdoor" data-label="living room" cx="617" cy="402" r="4"/><polygon class="stair-symbol" points="617,399 614.5,404 619.5,404"/>
     <circle id="room-1ffb86bcfbb496f5cb85e5588a05bedf74264201" class="room outdoor" data-label="[player shop]" cx="365" cy="248" r="4"/>
-    <circle id="room-bf656ce67e35ff28ed2b93df04663c2f85f1b606" class="room outdoor" data-label="meditation room" cx="141" cy="402" r="4"/>
-    <circle id="room-050e7bfca765509b68e7985c50c66e3166acdafd" class="room outdoor" data-label="flat section of roof" cx="119" cy="345" r="4"/>
+    <circle id="room-bf656ce67e35ff28ed2b93df04663c2f85f1b606" class="room outdoor" data-label="meditation room" cx="141" cy="402" r="4"/><polygon class="stair-symbol" points="141,399 138.5,404 143.5,404"/>
+    <circle id="room-050e7bfca765509b68e7985c50c66e3166acdafd" class="room outdoor" data-label="flat section of roof" cx="119" cy="345" r="4"/><polygon class="stair-symbol" points="119,348 116.5,343 121.5,343"/>
     <circle id="room-c323f6d20b3d960750799a065dc80c75fe92aba2" class="room outdoor" data-label="armoury" cx="119" cy="345" r="4"/>
     <circle id="room-2fd80cc156dab459939d17473128adf6cd46246f" class="room outdoor" data-label="entrance" cx="631" cy="492" r="4"/>
-    <circle id="room-e9723f6d06108bdad9fc26a860da5a49b3468c10" class="room outdoor" data-label="small wooden platform" cx="433" cy="139" r="4"/>
+    <circle id="room-e9723f6d06108bdad9fc26a860da5a49b3468c10" class="room outdoor" data-label="small wooden platform" cx="433" cy="139" r="4"/><polygon class="stair-symbol" points="433,136 430.5,141 435.5,141"/>
     <circle id="room-035e4d95b8f2aaad3b88131da23c5995fefd78f7" class="room outdoor" data-label="rock above the pool in the Slouching Gardens" cx="225" cy="139" r="4"/>
     <circle id="room-d601043703839727f26bdb50c479cf1e5ba45476" class="room outdoor" data-label="rock between two fountains on Pragmatic Place" cx="113" cy="265" r="4"/>
     <circle id="room-c28ea1f23d4e30c9437f54582081f317839f63bd" class="room outdoor" data-label="vestry" cx="282" cy="261" r="4"/>
@@ -1655,59 +1655,59 @@
     <circle id="room-9a239d2ea00f107aee617e2b3ca146e4189f3408" class="room outdoor" data-label="[player house]" cx="119" cy="345" r="4"/>
     <circle id="room-8d792954b75e6f2045d4fc6dac3318900f6fd942" class="room outdoor" data-label="[player house]" cx="119" cy="345" r="4"/>
     <circle id="room-32acdfdcab75050b0d32d99ef3a851737640a130" class="room outdoor" data-label="[player house]" cx="141" cy="402" r="4"/>
-    <circle id="room-66c9a84dcc6b331d76016a17b5134e54b8156dd3" class="room outdoor" data-label="[player house]" cx="141" cy="402" r="4"/>
+    <circle id="room-66c9a84dcc6b331d76016a17b5134e54b8156dd3" class="room outdoor" data-label="[player house]" cx="141" cy="402" r="4"/><polygon class="stair-symbol" points="141,405 138.5,400 143.5,400"/>
     <circle id="room-e9073318ac50988caad0e2911b51fa4fd53475dc" class="room outdoor" data-label="[player house]" cx="222" cy="433" r="4"/>
-    <circle id="room-fa0d38569ebfb279b1913db3a37c0c5df60c3c8e" class="room outdoor" data-label="[player house]" cx="222" cy="433" r="4"/>
+    <circle id="room-fa0d38569ebfb279b1913db3a37c0c5df60c3c8e" class="room outdoor" data-label="[player house]" cx="222" cy="433" r="4"/><polygon class="stair-symbol" points="222,436 219.5,431 224.5,431"/>
     <circle id="room-abbdae0a2042c4908ab92a168e8e684c0753a0aa" class="room outdoor" data-label="[player house]" cx="222" cy="433" r="4"/>
-    <circle id="room-6caf14542b1d5c3a5531e60ba2652a5108a7941f" class="room outdoor" data-label="[player house]" cx="222" cy="444" r="4"/>
+    <circle id="room-6caf14542b1d5c3a5531e60ba2652a5108a7941f" class="room outdoor" data-label="[player house]" cx="222" cy="444" r="4"/><polygon class="stair-symbol" points="222,447 219.5,442 224.5,442"/>
     <circle id="room-96bcb7602fa1c545bdc4170fd0ab4be07e28da30" class="room outdoor" data-label="[player house]" cx="222" cy="444" r="4"/>
     <circle id="room-d12ffa3841f5599e7f61f4701fbeb60e53a26c51" class="room outdoor" data-label="[player house]" cx="222" cy="444" r="4"/>
-    <circle id="room-737ccfeae4ddb9a10fabf0945c7d2e01a2db4e7b" class="room outdoor" data-label="[player house]" cx="200" cy="444" r="4"/>
-    <circle id="room-fee103a7ca4d43d58126baadcde2044de7344c1c" class="room outdoor" data-label="[player house]" cx="200" cy="444" r="4"/>
-    <circle id="room-2bbe09e348c2cd6a7aad121b05a9740fece23404" class="room outdoor" data-label="[player house]" cx="200" cy="444" r="4"/>
+    <circle id="room-737ccfeae4ddb9a10fabf0945c7d2e01a2db4e7b" class="room outdoor" data-label="[player house]" cx="200" cy="444" r="4"/><polygon class="stair-symbol" points="200,447 197.5,442 202.5,442"/>
+    <circle id="room-fee103a7ca4d43d58126baadcde2044de7344c1c" class="room outdoor" data-label="[player house]" cx="200" cy="444" r="4"/><polygon class="stair-symbol" points="200,447 197.5,442 202.5,442"/>
+    <circle id="room-2bbe09e348c2cd6a7aad121b05a9740fece23404" class="room outdoor" data-label="[player house]" cx="200" cy="444" r="4"/><polygon class="stair-symbol" points="200,441 197.5,446 202.5,446"/>
     <circle id="room-c4b8b0fd6c5ae44e7a7eef22ac1cbe1e5974bab1" class="room outdoor" data-label="[player house]" cx="200" cy="444" r="4"/>
     <circle id="room-47aeb996fdf372c9bb1a646dd588f07881f218d3" class="room outdoor" data-label="[player house]" cx="200" cy="433" r="4"/>
     <circle id="room-7f80fd567f65168bac136e74d85e25e5f790649f" class="room outdoor" data-label="[player house]" cx="200" cy="433" r="4"/>
-    <circle id="room-80ebc8ced3ac35804dfb5d499241dcef842820e1" class="room outdoor" data-label="[player house]" cx="200" cy="433" r="4"/>
+    <circle id="room-80ebc8ced3ac35804dfb5d499241dcef842820e1" class="room outdoor" data-label="[player house]" cx="200" cy="433" r="4"/><polygon class="stair-symbol" points="200,436 197.5,431 202.5,431"/>
     <circle id="room-5f456ee5e786a213f619a6c5fddde7abaccd65c6" class="room outdoor" data-label="[player house]" cx="200" cy="433" r="4"/>
     <circle id="room-d9ce7ad72374a1b260ca6967d569e994dfcc5c5d" class="room outdoor" data-label="[player house]" cx="281" cy="128" r="4"/>
-    <circle id="room-afa48adfede4568b2dd8eab2010139104812fd6d" class="room outdoor" data-label="[player house]" cx="281" cy="128" r="4"/>
-    <circle id="room-72c030bf88185865cceb188cbb68842944be3d77" class="room outdoor" data-label="[player house]" cx="281" cy="128" r="4"/>
+    <circle id="room-afa48adfede4568b2dd8eab2010139104812fd6d" class="room outdoor" data-label="[player house]" cx="281" cy="128" r="4"/><polygon class="stair-symbol" points="281,131 278.5,126 283.5,126"/>
+    <circle id="room-72c030bf88185865cceb188cbb68842944be3d77" class="room outdoor" data-label="[player house]" cx="281" cy="128" r="4"/><polygon class="stair-symbol" points="281,125 278.5,130 283.5,130"/>
     <circle id="room-c5ac7f3103b6d48fdb2461d4d54006a7f3477e46" class="room outdoor" data-label="[player house]" cx="281" cy="128" r="4"/>
     <circle id="room-2b116fa94d84130d3493b89e2abc494cf6d50a0f" class="room outdoor" data-label="[player house]" cx="365" cy="450" r="4"/>
     <circle id="room-e87af0e48cae3390fdfd34e7104dc8f20dfb3c1c" class="room outdoor" data-label="[player house]" cx="365" cy="450" r="4"/>
     <circle id="room-ddeee2e301169215b13cc5e587f4932b126795d3" class="room outdoor" data-label="[player house]" cx="365" cy="450" r="4"/>
-    <circle id="room-f3ebc75829afeedaf379df53745b7b68d5d80239" class="room outdoor" data-label="[player house]" cx="365" cy="450" r="4"/>
+    <circle id="room-f3ebc75829afeedaf379df53745b7b68d5d80239" class="room outdoor" data-label="[player house]" cx="365" cy="450" r="4"/><polygon class="stair-symbol" points="365,453 362.5,448 367.5,448"/>
     <circle id="room-d5dddd510bf34b29eb377c4e81456a7fc5e8de2c" class="room outdoor" data-label="[player house]" cx="365" cy="450" r="4"/>
     <circle id="room-0e82ae0c107580d81f0a0a46079a36520d8f027a" class="room outdoor" data-label="[player house]" cx="365" cy="450" r="4"/>
     <circle id="room-7aea22c21780ac6e0070d31ff51aeb366c435701" class="room outdoor" data-label="[player house]" cx="365" cy="450" r="4"/>
     <circle id="room-c43d13c9858b5e9f76e2dd1b2a1a40d1b935c21a" class="room outdoor" data-label="[player house]" cx="449" cy="458" r="4"/>
-    <circle id="room-343b25c0abec0a3cc635dfdd010ed4a1735cd1b6" class="room outdoor" data-label="[player house]" cx="449" cy="458" r="4"/>
-    <circle id="room-0d9a57f169b6564cb24302b2f91aae00bd5f741b" class="room outdoor" data-label="[player house]" cx="449" cy="458" r="4"/>
+    <circle id="room-343b25c0abec0a3cc635dfdd010ed4a1735cd1b6" class="room outdoor" data-label="[player house]" cx="449" cy="458" r="4"/><polygon class="stair-symbol" points="449,455 446.5,460 451.5,460"/>
+    <circle id="room-0d9a57f169b6564cb24302b2f91aae00bd5f741b" class="room outdoor" data-label="[player house]" cx="449" cy="458" r="4"/><polygon class="stair-symbol" points="449,461 446.5,456 451.5,456"/>
     <circle id="room-bff111a9b7623843d9a6d4abd897027e5aed69c4" class="room outdoor" data-label="[player house]" cx="449" cy="458" r="4"/>
     <circle id="room-789f6cdeacd61175b0a3dde5b92104be329fda0e" class="room outdoor" data-label="[player house]" cx="449" cy="458" r="4"/>
     <circle id="room-8aea62e7f1fd60480fcc545baeda5db7e4b0fc12" class="room outdoor" data-label="[player house]" cx="449" cy="458" r="4"/>
     <circle id="room-7878a2ee28314039964d54a95f33f815ff1aade9" class="room outdoor" data-label="[player house]" cx="491" cy="360" r="4"/>
-    <circle id="room-3742c9c5166b5fffb7cfae38fed3bd2b9fc46122" class="room outdoor" data-label="[player house]" cx="491" cy="360" r="4"/>
+    <circle id="room-3742c9c5166b5fffb7cfae38fed3bd2b9fc46122" class="room outdoor" data-label="[player house]" cx="491" cy="360" r="4"/><polygon class="stair-symbol" points="491,363 488.5,358 493.5,358"/>
     <circle id="room-5683313fb7c44e1ac31f0a0f76c648104604941f" class="room outdoor" data-label="[player house]" cx="491" cy="360" r="4"/>
     <circle id="room-e0fa3a30f69f085ccb9a1c59e6a928e0d291ee29" class="room outdoor" data-label="[player house]" cx="491" cy="360" r="4"/>
-    <circle id="room-0d502433cb9894c733a42b19e508a5be9bc0003f" class="room outdoor" data-label="[player house]" cx="491" cy="360" r="4"/>
+    <circle id="room-0d502433cb9894c733a42b19e508a5be9bc0003f" class="room outdoor" data-label="[player house]" cx="491" cy="360" r="4"/><polygon class="stair-symbol" points="491,357 488.5,362 493.5,362"/>
     <circle id="room-c020146387df72ed323a4e8e5eb07f0e4448a85b" class="room outdoor" data-label="[player house]" cx="491" cy="360" r="4"/>
     <circle id="room-da64597bd3e53984d05f4e4658cf8fce30afee1d" class="room outdoor" data-label="[player house]" cx="491" cy="360" r="4"/>
-    <circle id="room-02dee78d2b635b2ddc3ff86ac65ee5306a3ac51f" class="room outdoor" data-label="[player house]" cx="631" cy="492" r="4"/>
-    <circle id="room-91e538322c06e6fbec35c91b3ea4ceaa8cd8e240" class="room outdoor" data-label="[player house]" cx="631" cy="492" r="4"/>
-    <circle id="room-91ad9cd95c42a7f5608762118176ef39108d5dd8" class="room outdoor" data-label="[player house]" cx="631" cy="492" r="4"/>
-    <circle id="room-90717c0a8dcefeb134504d923430e87f27cbc1cf" class="room outdoor" data-label="[player house]" cx="631" cy="492" r="4"/>
-    <circle id="room-627181996ee26efc92f754cdd5bb2c8f35d5e5a3" class="room outdoor" data-label="[player house]" cx="631" cy="492" r="4"/>
-    <circle id="room-aa985e42d0ab4a7eadce26d3cb4a74a6dac9c090" class="room outdoor" data-label="[player house]" cx="631" cy="492" r="4"/>
+    <circle id="room-02dee78d2b635b2ddc3ff86ac65ee5306a3ac51f" class="room outdoor" data-label="[player house]" cx="631" cy="492" r="4"/><polygon class="stair-symbol" points="631,489 633.5,492 631,495 628.5,492"/>
+    <circle id="room-91e538322c06e6fbec35c91b3ea4ceaa8cd8e240" class="room outdoor" data-label="[player house]" cx="631" cy="492" r="4"/><polygon class="stair-symbol" points="631,489 628.5,494 633.5,494"/>
+    <circle id="room-91ad9cd95c42a7f5608762118176ef39108d5dd8" class="room outdoor" data-label="[player house]" cx="631" cy="492" r="4"/><polygon class="stair-symbol" points="631,489 633.5,492 631,495 628.5,492"/>
+    <circle id="room-90717c0a8dcefeb134504d923430e87f27cbc1cf" class="room outdoor" data-label="[player house]" cx="631" cy="492" r="4"/><polygon class="stair-symbol" points="631,489 633.5,492 631,495 628.5,492"/>
+    <circle id="room-627181996ee26efc92f754cdd5bb2c8f35d5e5a3" class="room outdoor" data-label="[player house]" cx="631" cy="492" r="4"/><polygon class="stair-symbol" points="631,489 633.5,492 631,495 628.5,492"/>
+    <circle id="room-aa985e42d0ab4a7eadce26d3cb4a74a6dac9c090" class="room outdoor" data-label="[player house]" cx="631" cy="492" r="4"/><polygon class="stair-symbol" points="631,495 628.5,490 633.5,490"/>
     <circle id="room-a34f1ddd29e386382e87bb6fbd78fd207828dd25" class="room outdoor" data-label="[player house]" cx="617" cy="380" r="4"/>
-    <circle id="room-e0bfd8f96c9c767ab9e5a9892ceb8f0f6efa26db" class="room outdoor" data-label="[player house]" cx="617" cy="380" r="4"/>
+    <circle id="room-e0bfd8f96c9c767ab9e5a9892ceb8f0f6efa26db" class="room outdoor" data-label="[player house]" cx="617" cy="380" r="4"/><polygon class="stair-symbol" points="617,383 614.5,378 619.5,378"/>
     <circle id="room-a91e4bfda81de1aaaa0ed061a5ca21549d188b9d" class="room outdoor" data-label="[player house]" cx="617" cy="380" r="4"/>
     <circle id="room-43b9c2bbcb1765f203aaa637bf658266d329fc6a" class="room outdoor" data-label="[player house]" cx="628" cy="391" r="4"/>
-    <circle id="room-0631f6b6b805ad01db6d005325dfe0e4e22ebd45" class="room outdoor" data-label="[player house]" cx="628" cy="391" r="4"/>
+    <circle id="room-0631f6b6b805ad01db6d005325dfe0e4e22ebd45" class="room outdoor" data-label="[player house]" cx="628" cy="391" r="4"/><polygon class="stair-symbol" points="628,394 625.5,389 630.5,389"/>
     <circle id="room-bbe5a24cc31522909c19da98b3eefe834a533d14" class="room outdoor" data-label="[player house]" cx="628" cy="391" r="4"/>
     <circle id="room-dde978cbd95ab094aa8cf3a302ad04f389eedd5f" class="room outdoor" data-label="[player house]" cx="617" cy="402" r="4"/>
-    <circle id="room-09a9ca60ab9271e1192c2b305a1c05ec69f2c152" class="room outdoor" data-label="[player house]" cx="617" cy="402" r="4"/>
+    <circle id="room-09a9ca60ab9271e1192c2b305a1c05ec69f2c152" class="room outdoor" data-label="[player house]" cx="617" cy="402" r="4"/><polygon class="stair-symbol" points="617,405 614.5,400 619.5,400"/>
     <circle id="room-09316b02a7f1959f03cc5c45c3874c670c66e912" class="room outdoor" data-label="[player house]" cx="617" cy="402" r="4"/>
   </g>
 

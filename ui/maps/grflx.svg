@@ -44,7 +44,7 @@
     <line id="edge-42cc8e8d400b8b9229f0b28352081d949b276dca-7faa2b8f46fda39e512066dcd844fef413f0366b" class="exit" x1="603" y1="222" x2="583" y2="202"/>
     <line id="edge-7faa2b8f46fda39e512066dcd844fef413f0366b-9b61426230fa82ca08f292adf128e2134b39c641" class="exit" x1="583" y1="202" x2="603" y2="202"/>
     <line id="edge-42cc8e8d400b8b9229f0b28352081d949b276dca-9b61426230fa82ca08f292adf128e2134b39c641" class="exit" x1="603" y1="222" x2="603" y2="202"/>
-    <line id="edge-72019ab24d167fe86b553234428d611d440241b5-aa5d3cfcb0ad8df1e4737d8c5e2d8151cf8acb86" class="exit" x1="303" y1="262" x2="303" y2="222"/>
+    null
     <line id="edge-aa5d3cfcb0ad8df1e4737d8c5e2d8151cf8acb86-de4e8ed869fd0d6a6795fe5ed504e3c3400946eb" class="exit" x1="303" y1="222" x2="323" y2="222"/>
     <line id="edge-5406e564343fda9a97d5f27255baa04e2ab44a5f-de4e8ed869fd0d6a6795fe5ed504e3c3400946eb" class="exit" x1="343" y1="202" x2="323" y2="222"/>
     <line id="edge-8d79b3a75d076e7dea0def6c32cc7c70e5cbc436-de4e8ed869fd0d6a6795fe5ed504e3c3400946eb" class="exit" x1="323" y1="242" x2="323" y2="222"/>
@@ -135,13 +135,13 @@
     <rect id="room-7faa2b8f46fda39e512066dcd844fef413f0366b" class="room indoor" data-label="northwestern part of a forest clearing" x="579" y="198" width="8" height="8" rx="2"/>
     <rect id="room-9b61426230fa82ca08f292adf128e2134b39c641" class="room indoor" data-label="northeastern part of a forest clearing" x="599" y="198" width="8" height="8" rx="2"/>
     <rect id="room-42cc8e8d400b8b9229f0b28352081d949b276dca" class="room indoor" data-label="southeastern part of a forest clearing" x="599" y="218" width="8" height="8" rx="2"/>
-    <rect id="room-aa5d3cfcb0ad8df1e4737d8c5e2d8151cf8acb86" class="room indoor" data-label="narrow passageway leading down" x="299" y="218" width="8" height="8" rx="2"/>
+    <rect id="room-aa5d3cfcb0ad8df1e4737d8c5e2d8151cf8acb86" class="room indoor" data-label="narrow passageway leading down" x="299" y="218" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="303,225 300.5,220 305.5,220"/>
     <rect id="room-de4e8ed869fd0d6a6795fe5ed504e3c3400946eb" class="room indoor" data-label="irregular passageway dotted with rim pools" x="319" y="218" width="8" height="8" rx="2"/>
     <rect id="room-8d79b3a75d076e7dea0def6c32cc7c70e5cbc436" class="room indoor" data-label="cave filled with water" x="319" y="238" width="8" height="8" rx="2"/>
     <rect id="room-5406e564343fda9a97d5f27255baa04e2ab44a5f" class="room indoor" data-label="narrow passageway with rim pools" x="339" y="198" width="8" height="8" rx="2"/>
     <rect id="room-fcc311043aeff5941e612d01f9141ca53a70fc32" class="room indoor" data-label="gloomy tunnel with a collapsed south wall" x="359" y="198" width="8" height="8" rx="2"/>
     <rect id="room-9c6da28cd342030de373338ea92bc74af9624166" class="room indoor" data-label="flooded cavern with smooth, carved walls" x="379" y="178" width="8" height="8" rx="2"/>
-    <rect id="room-72019ab24d167fe86b553234428d611d440241b5" class="room indoor" data-label="cave" x="299" y="258" width="8" height="8" rx="2"/>
+    <rect id="room-72019ab24d167fe86b553234428d611d440241b5" class="room indoor" data-label="cave" x="299" y="258" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="303,259 300.5,264 305.5,264"/>
     <rect id="room-a1511e4ca8a70d93d551347494fc97ce2da41c62" class="room indoor" data-label="cave" x="279" y="258" width="8" height="8" rx="2"/>
     <rect id="room-d73c3f706c6f1839c94af1a2271d4faa5b7318be" class="room indoor" data-label="cave" x="259" y="258" width="8" height="8" rx="2"/>
     <rect id="room-f7a0c67b412ef21acb6e4647df124b1576043d3c" class="room indoor" data-label="grflx den" x="239" y="278" width="8" height="8" rx="2"/>

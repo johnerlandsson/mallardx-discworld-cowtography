@@ -20,11 +20,11 @@
     <line id="edge-19715ceb11fdd4faa1637909479e0ee9e8ac3bbc-ed2dfe5fda70e44a2dca924e7fdec59a748f6ad3" class="exit" x1="107" y1="303" x2="83" y2="303"/>
     <line id="edge-95f9fe0a1cb28da8ebe30d039d9b679d367374b2-e3b5f6caa81ff0414d1a600c42ab9a23a399000d" class="exit" x1="107" y1="279" x2="83" y2="279"/>
     <line id="edge-de29ba72afe14719cc8f947da7c055570cff5250-e3b5f6caa81ff0414d1a600c42ab9a23a399000d" class="exit" x1="59" y1="279" x2="83" y2="279"/>
-    <line id="edge-6f87804a168150fb1d7038cd0dd5d08cbecfcd0d-e2f937ef0825598f5e8e16865e6b33784556a99a" class="exit" x1="155" y1="255" x2="156" y2="45"/>
+    null
     <line id="edge-3be04a5909ef8c3ddd0b68435f1e4a7de3529931-fd34732e8f4e759a6a55cc390008f77e672f26cd" class="exit" x1="227" y1="279" x2="203" y2="279"/>
     <line id="edge-3be04a5909ef8c3ddd0b68435f1e4a7de3529931-4b33e2707f5da27e69e6a86628a450c23f9ac212" class="exit" x1="227" y1="279" x2="251" y2="279"/>
-    <line id="edge-b8eef46583135f34268f9fb1e4edfaae14d6a50e-c7126b50ca4c74ff8eed6159d2ffc1dc0059777f" class="exit" x1="212" y1="149" x2="203" y2="303"/>
-    <line id="edge-4f117c2b5abd5b32005762c823312e0e9ce62972-e3e95035c18885a79f52e2b5d78c5228d56a0e51" class="exit" x1="203" y1="255" x2="212" y2="45"/>
+    null
+    null
     <line id="edge-1e650ac96cec4390cd1d53b439fb2fec737ed881-e3e95035c18885a79f52e2b5d78c5228d56a0e51" class="exit" x1="240" y1="45" x2="212" y2="45"/>
     <line id="edge-492c41567a22e374535155da26f39993e4571c5f-e3e95035c18885a79f52e2b5d78c5228d56a0e51" class="exit" x1="184" y1="45" x2="212" y2="45"/>
     <line id="edge-1e650ac96cec4390cd1d53b439fb2fec737ed881-7625ff5656bc9e330050b75a37a81706ce3ca16f" class="exit" x1="240" y1="45" x2="292" y2="97"/>
@@ -38,7 +38,7 @@
     <line id="edge-0d01f7e9e90f7e426179ebd16dbdab6683d8d54e-eb1ea0740fad34a923b9ee0bf31ae8451c57559c" class="exit" x1="20" y1="97" x2="72" y2="149"/>
     <line id="edge-0d01f7e9e90f7e426179ebd16dbdab6683d8d54e-abb8cd7d4f23bfc90e18f865eb30c6e3da174d39" class="exit" x1="20" y1="97" x2="72" y2="45"/>
     <line id="edge-a0855e08dabd798e9b207fe14d40a32d98f7d086-abb8cd7d4f23bfc90e18f865eb30c6e3da174d39" class="exit" x1="100" y1="45" x2="72" y2="45"/>
-    <line id="edge-a0855e08dabd798e9b207fe14d40a32d98f7d086-b26d4bf4a8618e96f6788a50afbe7a6ad1ef023f" class="exit" x1="100" y1="45" x2="107" y2="255"/>
+    null
     <line id="edge-a0855e08dabd798e9b207fe14d40a32d98f7d086-d836f36e684ed9e705a8e732ce5d1923127da65a" class="exit" x1="100" y1="45" x2="128" y2="45"/>
   </g>
 
@@ -54,19 +54,19 @@
     <rect id="room-e3b5f6caa81ff0414d1a600c42ab9a23a399000d" class="room indoor" data-label="stone passageway" x="79" y="275" width="8" height="8" rx="2"/>
     <rect id="room-de29ba72afe14719cc8f947da7c055570cff5250" class="room indoor" data-label="stone stairwell" x="55" y="275" width="8" height="8" rx="2"/>
     <rect id="room-b26d4bf4a8618e96f6788a50afbe7a6ad1ef023f" class="room indoor" data-label="stone stairwell" x="103" y="251" width="8" height="8" rx="2"/>
-    <rect id="room-6f87804a168150fb1d7038cd0dd5d08cbecfcd0d" class="room indoor" data-label="stone stairwell" x="151" y="251" width="8" height="8" rx="2"/>
-    <rect id="room-e2f937ef0825598f5e8e16865e6b33784556a99a" class="room indoor" data-label="champions&#x27; box" x="152" y="41" width="8" height="8" rx="2"/>
+    <rect id="room-6f87804a168150fb1d7038cd0dd5d08cbecfcd0d" class="room indoor" data-label="stone stairwell" x="151" y="251" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="155,252 152.5,257 157.5,257"/>
+    <rect id="room-e2f937ef0825598f5e8e16865e6b33784556a99a" class="room indoor" data-label="champions&#x27; box" x="152" y="41" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="156,48 153.5,43 158.5,43"/>
     <rect id="room-fd34732e8f4e759a6a55cc390008f77e672f26cd" class="room indoor" data-label="stone passageway" x="199" y="275" width="8" height="8" rx="2"/>
     <rect id="room-3be04a5909ef8c3ddd0b68435f1e4a7de3529931" class="room indoor" data-label="stone passageway" x="223" y="275" width="8" height="8" rx="2"/>
     <rect id="room-4b33e2707f5da27e69e6a86628a450c23f9ac212" class="room indoor" data-label="stone stairwell" x="247" y="275" width="8" height="8" rx="2"/>
-    <rect id="room-c7126b50ca4c74ff8eed6159d2ffc1dc0059777f" class="room indoor" data-label="stone stairwell" x="199" y="299" width="8" height="8" rx="2"/>
-    <rect id="room-4f117c2b5abd5b32005762c823312e0e9ce62972" class="room indoor" data-label="stone stairwell" x="199" y="251" width="8" height="8" rx="2"/>
+    <rect id="room-c7126b50ca4c74ff8eed6159d2ffc1dc0059777f" class="room indoor" data-label="stone stairwell" x="199" y="299" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="203,300 200.5,305 205.5,305"/>
+    <rect id="room-4f117c2b5abd5b32005762c823312e0e9ce62972" class="room indoor" data-label="stone stairwell" x="199" y="251" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="203,252 200.5,257 205.5,257"/>
     <rect id="room-e3e95035c18885a79f52e2b5d78c5228d56a0e51" class="room indoor" data-label="northeastern stands" x="208" y="41" width="8" height="8" rx="2"/>
     <rect id="room-492c41567a22e374535155da26f39993e4571c5f" class="room indoor" data-label="northeastern stands" x="180" y="41" width="8" height="8" rx="2"/>
     <rect id="room-1e650ac96cec4390cd1d53b439fb2fec737ed881" class="room indoor" data-label="northeastern stands" x="236" y="41" width="8" height="8" rx="2"/>
     <rect id="room-7625ff5656bc9e330050b75a37a81706ce3ca16f" class="room indoor" data-label="eastern stands" x="288" y="93" width="8" height="8" rx="2"/>
     <rect id="room-aeadbab1ca63072dd36dfedad2023c048d39bd16" class="room indoor" data-label="southeastern stands" x="236" y="145" width="8" height="8" rx="2"/>
-    <rect id="room-b8eef46583135f34268f9fb1e4edfaae14d6a50e" class="room indoor" data-label="southeastern stands" x="208" y="145" width="8" height="8" rx="2"/>
+    <rect id="room-b8eef46583135f34268f9fb1e4edfaae14d6a50e" class="room indoor" data-label="southeastern stands" x="208" y="145" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="212,152 209.5,147 214.5,147"/>
     <rect id="room-08c45b84577c84eca19407dadbad5d16ce50784e" class="room indoor" data-label="southeastern stands" x="180" y="145" width="8" height="8" rx="2"/>
     <rect id="room-381fc47c59a04d088f355c1be893e3098f17afa3" class="room indoor" data-label="southern stands" x="152" y="145" width="8" height="8" rx="2"/>
     <rect id="room-0aa9aace4e5e54fd64c18ad342b1a377b3a9be3a" class="room indoor" data-label="southwestern stands" x="124" y="145" width="8" height="8" rx="2"/>
@@ -74,7 +74,7 @@
     <rect id="room-eb1ea0740fad34a923b9ee0bf31ae8451c57559c" class="room indoor" data-label="southwestern stands" x="68" y="145" width="8" height="8" rx="2"/>
     <rect id="room-0d01f7e9e90f7e426179ebd16dbdab6683d8d54e" class="room indoor" data-label="western stands" x="16" y="93" width="8" height="8" rx="2"/>
     <rect id="room-abb8cd7d4f23bfc90e18f865eb30c6e3da174d39" class="room indoor" data-label="northwestern stands" x="68" y="41" width="8" height="8" rx="2"/>
-    <rect id="room-a0855e08dabd798e9b207fe14d40a32d98f7d086" class="room indoor" data-label="northwestern stands" x="96" y="41" width="8" height="8" rx="2"/>
+    <rect id="room-a0855e08dabd798e9b207fe14d40a32d98f7d086" class="room indoor" data-label="northwestern stands" x="96" y="41" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="100,48 97.5,43 102.5,43"/>
     <rect id="room-d836f36e684ed9e705a8e732ce5d1923127da65a" class="room indoor" data-label="northwestern stands" x="124" y="41" width="8" height="8" rx="2"/>
     <rect id="room-517b4318bba294e27459e61d7845b5eba3f5b4db" class="room indoor" data-label="west gate room" x="44" y="93" width="8" height="8" rx="2"/>
     <rect id="room-edc9c102f072e53e469591319fafa15a4da82e13" class="room indoor" data-label="western side of the arena" x="68" y="93" width="8" height="8" rx="2"/>

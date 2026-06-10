@@ -6,7 +6,7 @@
   <g id="layer-artwork"><!-- artwork --></g>
 
   <g id="layer-exits">
-    <line id="edge-c3fb3ef3ee59d1c56556fb61089ea00b2c44f971-eee01e7d96b0e95cec5269c23db9e1ef24b164d9" class="exit" x1="584" y1="579" x2="568" y2="557"/>
+    null
     <line id="edge-1d7ee12a909fb9271b722f31767c83043de23f49-c3fb3ef3ee59d1c56556fb61089ea00b2c44f971" class="exit" x1="612" y1="579" x2="584" y2="579"/>
     <line id="edge-1d7ee12a909fb9271b722f31767c83043de23f49-b0281adbb4d8eef876738a1eb206648a0ad8ecc0" class="exit" x1="612" y1="579" x2="640" y2="579"/>
     <line id="edge-b0281adbb4d8eef876738a1eb206648a0ad8ecc0-b88700aab99f698f3a82d2c4d0bb918b7588e379" class="exit" x1="640" y1="579" x2="668" y2="579"/>
@@ -57,20 +57,20 @@
     <line id="edge-4f6e9dcd6d01ee5312f8adede0ce1d25766933a9-9485665c7592683e2f5d9f73d0d9e322bef464f3" class="exit" x1="864" y1="299" x2="892" y2="299"/>
     <line id="edge-41c8e1119023ae76d5d0e7752694b01cbc95c09e-4f6e9dcd6d01ee5312f8adede0ce1d25766933a9" class="exit" x1="864" y1="270" x2="864" y2="299"/>
     <line id="edge-4f6e9dcd6d01ee5312f8adede0ce1d25766933a9-a2d501594260631fac71ede7b500a37169b821fb" class="exit" x1="864" y1="299" x2="836" y2="299"/>
-    <line id="edge-41c8e1119023ae76d5d0e7752694b01cbc95c09e-a3c15cbd48d1d08b8ce9971405812846d636d914" class="exit" x1="864" y1="270" x2="166" y2="336"/>
+    null
     <line id="edge-8e964c6f43ed57468f8931a00d86ce740e79ed31-a2d501594260631fac71ede7b500a37169b821fb" class="exit" x1="808" y1="299" x2="836" y2="299"/>
     <line id="edge-6f023ec9e647fa17e27fd357b46e61f75af4ab7a-8e964c6f43ed57468f8931a00d86ce740e79ed31" class="exit" x1="808" y1="327" x2="808" y2="299"/>
-    <line id="edge-27485829265d1afe37436dbbb2344fed1a4122fd-6f023ec9e647fa17e27fd357b46e61f75af4ab7a" class="exit" x1="142" y1="454" x2="808" y2="327"/>
+    null
     <line id="edge-6f023ec9e647fa17e27fd357b46e61f75af4ab7a-963e57b35c5c710eef150c02237327e1050f66eb" class="exit" x1="808" y1="327" x2="808" y2="355"/>
     <line id="edge-963e57b35c5c710eef150c02237327e1050f66eb-d2fb4de365a75da989facedab62f6c3ee2742a33" class="exit" x1="808" y1="355" x2="808" y2="383"/>
     <line id="edge-7dd20e5c90205aa7c65026f09e960e66aec89970-a3c15cbd48d1d08b8ce9971405812846d636d914" class="exit" x1="194" y1="336" x2="166" y2="336"/>
     <line id="edge-8809148f72102acc7c3683ed3163a6f9f56c669a-a3c15cbd48d1d08b8ce9971405812846d636d914" class="exit" x1="166" y1="364" x2="166" y2="336"/>
     <line id="edge-a3c15cbd48d1d08b8ce9971405812846d636d914-bb8061841251cab282fbe219bace0ef60985017b" class="exit" x1="166" y1="336" x2="166" y2="308"/>
     <line id="edge-a3c15cbd48d1d08b8ce9971405812846d636d914-f7da53cc74752a2f72ee7716d0ae79d67f14887c" class="exit" x1="166" y1="336" x2="138" y2="336"/>
-    <line id="edge-27485829265d1afe37436dbbb2344fed1a4122fd-d382a2bd6420e9de5b5b6f40bb964c15ec2b7d51" class="exit" x1="142" y1="454" x2="110" y2="393"/>
+    null
     <line id="edge-27485829265d1afe37436dbbb2344fed1a4122fd-dcc90894d30784efd40ec42fbced2fc987d86363" class="exit" x1="142" y1="454" x2="142" y2="482"/>
     <line id="edge-0b73fc558b9d7fc48378eb6b446bebeda7dbcfaf-d382a2bd6420e9de5b5b6f40bb964c15ec2b7d51" class="exit" x1="138" y1="393" x2="110" y2="393"/>
-    <line id="edge-65e52e67398ff2e937eaea5d8759715235378387-d382a2bd6420e9de5b5b6f40bb964c15ec2b7d51" class="exit" x1="857" y1="143" x2="110" y2="393"/>
+    null
     <line id="edge-6fb9c9107daee12cf5dd51450aa3696115b4f384-d382a2bd6420e9de5b5b6f40bb964c15ec2b7d51" class="exit" x1="110" y1="364" x2="110" y2="393"/>
     <line id="edge-d382a2bd6420e9de5b5b6f40bb964c15ec2b7d51-efe6785d4a5df3a6e107ad6165ec6b944f29c9f1" class="exit" x1="110" y1="393" x2="110" y2="420"/>
     <line id="edge-e2a7807e740198eaaaaef2f7662a01c18acb16e9-efe6785d4a5df3a6e107ad6165ec6b944f29c9f1" class="exit" x1="82" y1="420" x2="110" y2="420"/>
@@ -232,8 +232,8 @@
 
   <g id="layer-rooms">
     <rect id="room-5e05bef4f24fedd01536ef5a44a657aef89617be" class="room indoor" data-label="small alley" x="536" y="553" width="8" height="8" rx="2"/>
-    <rect id="room-eee01e7d96b0e95cec5269c23db9e1ef24b164d9" class="room indoor" data-label="large mossy courtyard" x="564" y="553" width="8" height="8" rx="2"/>
-    <rect id="room-c3fb3ef3ee59d1c56556fb61089ea00b2c44f971" class="room indoor" data-label="foot of a staircase" x="580" y="575" width="8" height="8" rx="2"/>
+    <rect id="room-eee01e7d96b0e95cec5269c23db9e1ef24b164d9" class="room indoor" data-label="large mossy courtyard" x="564" y="553" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="568,560 565.5,555 570.5,555"/>
+    <rect id="room-c3fb3ef3ee59d1c56556fb61089ea00b2c44f971" class="room indoor" data-label="foot of a staircase" x="580" y="575" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="584,576 581.5,581 586.5,581"/>
     <rect id="room-1d7ee12a909fb9271b722f31767c83043de23f49" class="room indoor" data-label="near the western end of the long corridor" x="608" y="575" width="8" height="8" rx="2"/>
     <rect id="room-b0281adbb4d8eef876738a1eb206648a0ad8ecc0" class="room indoor" data-label="western part of the long corridor" x="636" y="575" width="8" height="8" rx="2"/>
     <rect id="room-b88700aab99f698f3a82d2c4d0bb918b7588e379" class="room indoor" data-label="middle of the long corridor" x="664" y="575" width="8" height="8" rx="2"/>
@@ -281,15 +281,15 @@
     <rect id="room-77b37e04ac486da1f70f363b5cec71641b6cb3a2" class="room indoor" data-label="corner of two corridors" x="916" y="295" width="8" height="8" rx="2"/>
     <rect id="room-9485665c7592683e2f5d9f73d0d9e322bef464f3" class="room indoor" data-label="east side of a corridor" x="888" y="295" width="8" height="8" rx="2"/>
     <rect id="room-4f6e9dcd6d01ee5312f8adede0ce1d25766933a9" class="room indoor" data-label="middle of a corridor" x="860" y="295" width="8" height="8" rx="2"/>
-    <rect id="room-41c8e1119023ae76d5d0e7752694b01cbc95c09e" class="room indoor" data-label="stairway" x="860" y="266" width="8" height="8" rx="2"/>
+    <rect id="room-41c8e1119023ae76d5d0e7752694b01cbc95c09e" class="room indoor" data-label="stairway" x="860" y="266" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="864,267 861.5,272 866.5,272"/>
     <rect id="room-a2d501594260631fac71ede7b500a37169b821fb" class="room indoor" data-label="west side of a corridor" x="832" y="295" width="8" height="8" rx="2"/>
     <rect id="room-8e964c6f43ed57468f8931a00d86ce740e79ed31" class="room indoor" data-label="corner of two corridors" x="804" y="295" width="8" height="8" rx="2"/>
-    <rect id="room-6f023ec9e647fa17e27fd357b46e61f75af4ab7a" class="room indoor" data-label="north end of the average corridor" x="804" y="323" width="8" height="8" rx="2"/>
+    <rect id="room-6f023ec9e647fa17e27fd357b46e61f75af4ab7a" class="room indoor" data-label="north end of the average corridor" x="804" y="323" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="808,324 805.5,329 810.5,329"/>
     <rect id="room-963e57b35c5c710eef150c02237327e1050f66eb" class="room indoor" data-label="middle of the average corridor" x="804" y="351" width="8" height="8" rx="2"/>
     <rect id="room-d2fb4de365a75da989facedab62f6c3ee2742a33" class="room indoor" data-label="south end of the average corridor" x="804" y="379" width="8" height="8" rx="2"/>
-    <rect id="room-a3c15cbd48d1d08b8ce9971405812846d636d914" class="room indoor" data-label="the southern end of the Residence Hall&#x27;s ground floor" x="162" y="332" width="8" height="8" rx="2"/>
-    <rect id="room-27485829265d1afe37436dbbb2344fed1a4122fd" class="room indoor" data-label="hallway" x="138" y="450" width="8" height="8" rx="2"/>
-    <rect id="room-d382a2bd6420e9de5b5b6f40bb964c15ec2b7d51" class="room indoor" data-label="cheerful and well-lit hallway" x="106" y="389" width="8" height="8" rx="2"/>
+    <rect id="room-a3c15cbd48d1d08b8ce9971405812846d636d914" class="room indoor" data-label="the southern end of the Residence Hall&#x27;s ground floor" x="162" y="332" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="166,339 163.5,334 168.5,334"/>
+    <rect id="room-27485829265d1afe37436dbbb2344fed1a4122fd" class="room indoor" data-label="hallway" x="138" y="450" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="142,451 139.5,456 144.5,456"/>
+    <rect id="room-d382a2bd6420e9de5b5b6f40bb964c15ec2b7d51" class="room indoor" data-label="cheerful and well-lit hallway" x="106" y="389" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="110,390 112.5,393 110,396 107.5,393"/>
     <rect id="room-efe6785d4a5df3a6e107ad6165ec6b944f29c9f1" class="room indoor" data-label="corridor" x="106" y="416" width="8" height="8" rx="2"/>
     <rect id="room-e2a7807e740198eaaaaef2f7662a01c18acb16e9" class="room indoor" data-label="ground floor of the workshops corridor" x="78" y="416" width="8" height="8" rx="2"/>
     <rect id="room-ede9465d65f6e10bcc2e0a472d4dfc5cc557499a" class="room indoor" data-label="wizard&#x27;s workroom" x="78" y="388" width="8" height="8" rx="2"/>
@@ -321,7 +321,7 @@
     <rect id="room-ab9be74f235d637f503d28cea9bc2bb579bc5e57" class="room indoor" data-label="the southwestern corner of the Great Hall" x="134" y="416" width="8" height="8" rx="2"/>
     <rect id="room-0e2a9cdb4da279d919023c30cbf16b71c1c7b5fc" class="room indoor" data-label="the southern side of the Great Hall" x="162" y="416" width="8" height="8" rx="2"/>
     <rect id="room-b6601fa17bb9baab5a1edc9dc99ac4b8ccdca05a" class="room indoor" data-label="the southeastern corner of the Great Hall" x="190" y="416" width="8" height="8" rx="2"/>
-    <rect id="room-65e52e67398ff2e937eaea5d8759715235378387" class="room indoor" data-label="landing in Unseen University" x="853" y="139" width="8" height="8" rx="2"/>
+    <rect id="room-65e52e67398ff2e937eaea5d8759715235378387" class="room indoor" data-label="landing in Unseen University" x="853" y="139" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="857,146 854.5,141 859.5,141"/>
     <rect id="room-d7e15ef43e742e052f075a7ed74f8cbbc1ccf67d" class="room indoor" data-label="hallway" x="853" y="111" width="8" height="8" rx="2"/>
     <rect id="room-3ef1a3b2243b072c9307857732a229cbec562766" class="room indoor" data-label="hallway" x="825" y="111" width="8" height="8" rx="2"/>
     <rect id="room-34d2a7ab1a6ae5f345f6085294230dbf23fea243" class="room indoor" data-label="hallway" x="853" y="83" width="8" height="8" rx="2"/>

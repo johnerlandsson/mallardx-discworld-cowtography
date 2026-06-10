@@ -11,7 +11,7 @@
     <line id="edge-4eac413f2e3a4a44f3a673ecdb0dbe4683b4fab4-65f5f055eef03f846ef0198c397d03bea70cb675" class="exit" x1="401" y1="135" x2="401" y2="159"/>
     <line id="edge-305627fd4ae44deb99a08820224b4a7acc719b8b-591fbb893e9e0fc9876b9144467cd498b5616578" class="exit" x1="433" y1="159" x2="433" y2="135"/>
     <line id="edge-591fbb893e9e0fc9876b9144467cd498b5616578-62f6b3f50ef49ca7fd8105ecf96764e0b1a9463a" class="exit" x1="433" y1="135" x2="433" y2="111"/>
-    <line id="edge-591fbb893e9e0fc9876b9144467cd498b5616578-f3a806329d4a147a45597c3983851736f4479446" class="exit" x1="433" y1="135" x2="489" y2="110"/>
+    null
     <line id="edge-e4f74aa8c18b572fc5d7ccb7f560e9a722ae11b6-f3a806329d4a147a45597c3983851736f4479446" class="exit" x1="465" y1="111" x2="489" y2="110"/>
     <line id="edge-2b1f073a1de9cee7708c98fbf5d54182d57ebc96-d5b54f04904f81f73dbec4da0bd5d263b3910d77" class="exit" x1="111" y1="129" x2="135" y2="105"/>
     <line id="edge-4711f12f0554ca2a531c485a87f4dd115da8e20d-d5b54f04904f81f73dbec4da0bd5d263b3910d77" class="exit" x1="111" y1="81" x2="135" y2="105"/>
@@ -30,10 +30,10 @@
     <rect id="room-22cb1754a73395759e82a1dbe8c51dd8be5b9401" class="room indoor" data-label="Weapon Masters&#x27; Court&#x27;s bar" x="397" y="107" width="8" height="8" rx="2"/>
     <rect id="room-4eac413f2e3a4a44f3a673ecdb0dbe4683b4fab4" class="room indoor" data-label="Weapon Masters&#x27; Court recruitment centre" x="397" y="131" width="8" height="8" rx="2"/>
     <rect id="room-65f5f055eef03f846ef0198c397d03bea70cb675" class="room indoor" data-label="fighting pit" x="397" y="155" width="8" height="8" rx="2"/>
-    <rect id="room-591fbb893e9e0fc9876b9144467cd498b5616578" class="room indoor" data-label="Weapon Masters&#x27; Court practice centre" x="429" y="131" width="8" height="8" rx="2"/>
+    <rect id="room-591fbb893e9e0fc9876b9144467cd498b5616578" class="room indoor" data-label="Weapon Masters&#x27; Court practice centre" x="429" y="131" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="433,132 430.5,137 435.5,137"/>
     <rect id="room-305627fd4ae44deb99a08820224b4a7acc719b8b" class="room indoor" data-label="Weapon Masters&#x27; Court smithy" x="429" y="155" width="8" height="8" rx="2"/>
     <rect id="room-62f6b3f50ef49ca7fd8105ecf96764e0b1a9463a" class="room indoor" data-label="Weapon Masters&#x27; Court armoury" x="429" y="107" width="8" height="8" rx="2"/>
-    <rect id="room-f3a806329d4a147a45597c3983851736f4479446" class="room indoor" data-label="landing" x="485" y="106" width="8" height="8" rx="2"/>
+    <rect id="room-f3a806329d4a147a45597c3983851736f4479446" class="room indoor" data-label="landing" x="485" y="106" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="489,113 486.5,108 491.5,108"/>
     <rect id="room-e4f74aa8c18b572fc5d7ccb7f560e9a722ae11b6" class="room indoor" data-label="balcony" x="461" y="107" width="8" height="8" rx="2"/>
     <rect id="room-d5b54f04904f81f73dbec4da0bd5d263b3910d77" class="room indoor" data-label="lobby of the Palace Guard" x="131" y="101" width="8" height="8" rx="2"/>
     <rect id="room-4711f12f0554ca2a531c485a87f4dd115da8e20d" class="room indoor" data-label="Palace Guard message room" x="107" y="77" width="8" height="8" rx="2"/>

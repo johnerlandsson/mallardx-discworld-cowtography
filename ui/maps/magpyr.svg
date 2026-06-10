@@ -39,7 +39,7 @@
     <line id="edge-629d503d147dc2fc80751e7249ed6c8ff92e523f-a93be0dbcef609379899907e36c7cb262d092357" class="exit" x1="81" y1="380" x2="101" y2="380"/>
     <line id="edge-8cc983f8b7516c14fff456508df8a75ca1cf48cf-a93be0dbcef609379899907e36c7cb262d092357" class="exit" x1="121" y1="380" x2="101" y2="380"/>
     <line id="edge-357227f4c5df5d485e9243e931a6d071401268bf-408defad6339db516a7dda0e50ef644a63dc5f4a" class="exit" x1="121" y1="360" x2="101" y2="360"/>
-    <line id="edge-408defad6339db516a7dda0e50ef644a63dc5f4a-b2985c0cfca979db12a4ea001782fe01166047ce" class="exit" x1="101" y1="360" x2="108" y2="353"/>
+    null
     <line id="edge-408defad6339db516a7dda0e50ef644a63dc5f4a-de2f770a4e0002698fec5941542d6123bd47e8d4" class="exit" x1="101" y1="360" x2="81" y2="360"/>
     <line id="edge-1acda10e9bcf3bb9035f22f4578f04f396efda07-ba1ab4cf8646b8fe7fee5241e7359c81ac5cfae3" class="exit" x1="141" y1="420" x2="141" y2="400"/>
     <line id="edge-06e45277067f70e6bd67d41ced46ff400be17156-ac68ad4178aa1ed94e7332843bcee518aa40406f" class="exit" x1="181" y1="280" x2="161" y2="300"/>
@@ -74,11 +74,11 @@
     <line id="edge-3064c770f610c945b76bed7f7cfe53a6419f23dc-7f6d733988edeb47f7eb2e7576951b902b0b2964" class="exit" x1="241" y1="320" x2="241" y2="300"/>
     <line id="edge-3064c770f610c945b76bed7f7cfe53a6419f23dc-acc0c649248536fac319a382dcd81e0924669f63" class="exit" x1="241" y1="320" x2="241" y2="340"/>
     <line id="edge-acc0c649248536fac319a382dcd81e0924669f63-c8d3ef66f260c5f04f51637977e100c8135ddde8" class="exit" x1="241" y1="340" x2="261" y2="360"/>
-    <line id="edge-7698e9e91eceb7bc574876f0483acb439205d0b8-c8d3ef66f260c5f04f51637977e100c8135ddde8" class="exit" x1="261" y1="310" x2="261" y2="360"/>
-    <line id="edge-c8d3ef66f260c5f04f51637977e100c8135ddde8-fb4e5911d15eeae4e2f2ebe124ac5499003a333b" class="exit" x1="261" y1="360" x2="401" y2="360"/>
-    <line id="edge-1e4ab1913288820377688c1913fe9e6dc86e6766-7698e9e91eceb7bc574876f0483acb439205d0b8" class="exit" x1="261" y1="260" x2="261" y2="310"/>
+    null
+    null
+    null
     <line id="edge-1e4ab1913288820377688c1913fe9e6dc86e6766-9b165aac399bff01bf74a133eaf14799b8a35996" class="exit" x1="261" y1="260" x2="241" y2="240"/>
-    <line id="edge-1e4ab1913288820377688c1913fe9e6dc86e6766-a8d4e1ed4c7d5c311b23dee62f7031332d2dc513" class="exit" x1="261" y1="260" x2="261" y2="140"/>
+    null
     <line id="edge-9b165aac399bff01bf74a133eaf14799b8a35996-d6d389cb5943b10839c9bb40446a5e291f66f829" class="exit" x1="241" y1="240" x2="241" y2="220"/>
     <line id="edge-4b96766d97d3d745bd9d0214d4f188b7bcd4fdb7-d6d389cb5943b10839c9bb40446a5e291f66f829" class="exit" x1="241" y1="200" x2="241" y2="220"/>
     <line id="edge-4b96766d97d3d745bd9d0214d4f188b7bcd4fdb7-60247312a1e6e3dc8a5066cded48b8f81f720b79" class="exit" x1="241" y1="200" x2="241" y2="180"/>
@@ -106,8 +106,8 @@
     <line id="edge-8ada15f90b60df91c147a4b28dbc3d6d2effb8aa-fbe14bd8874c7e5aec00ef500b0cc9657515cb75" class="exit" x1="181" y1="20" x2="201" y2="20"/>
     <line id="edge-11b0ad7ae23b52f1cc82d25d90017cfaf3bdfb16-fbe14bd8874c7e5aec00ef500b0cc9657515cb75" class="exit" x1="221" y1="20" x2="201" y2="20"/>
     <line id="edge-9b0d72561d41a88f600132a37aa6e155a7332153-fbe14bd8874c7e5aec00ef500b0cc9657515cb75" class="exit" x1="201" y1="40" x2="201" y2="20"/>
-    <line id="edge-44632796bf4bc020830e91e82a4ba5cb6f066fc7-9b0d72561d41a88f600132a37aa6e155a7332153" class="exit" x1="209" y1="48" x2="201" y2="40"/>
-    <line id="edge-44632796bf4bc020830e91e82a4ba5cb6f066fc7-a9a743ca474ab0dc74275a5b35b254ad0a7c7557" class="exit" x1="209" y1="48" x2="217" y2="56"/>
+    null
+    null
     <line id="edge-11b0ad7ae23b52f1cc82d25d90017cfaf3bdfb16-edd2e6b3af5911cc719919c1d62669315e191f1e" class="exit" x1="221" y1="20" x2="241" y2="20"/>
     <line id="edge-cc1efe1d8ecd3deade85236652119162f19e40fa-edd2e6b3af5911cc719919c1d62669315e191f1e" class="exit" x1="241" y1="40" x2="241" y2="20"/>
     <line id="edge-7c04cee97b0936887a0c2ce198c273838f96231a-cc1efe1d8ecd3deade85236652119162f19e40fa" class="exit" x1="241" y1="60" x2="241" y2="40"/>
@@ -185,10 +185,10 @@
     <rect id="room-a93be0dbcef609379899907e36c7cb262d092357" class="room indoor" data-label="stable" x="97" y="376" width="8" height="8" rx="2"/>
     <rect id="room-8cc983f8b7516c14fff456508df8a75ca1cf48cf" class="room indoor" data-label="horse stall" x="117" y="376" width="8" height="8" rx="2"/>
     <rect id="room-629d503d147dc2fc80751e7249ed6c8ff92e523f" class="room indoor" data-label="horse stall" x="77" y="376" width="8" height="8" rx="2"/>
-    <rect id="room-408defad6339db516a7dda0e50ef644a63dc5f4a" class="room indoor" data-label="stable" x="97" y="356" width="8" height="8" rx="2"/>
+    <rect id="room-408defad6339db516a7dda0e50ef644a63dc5f4a" class="room indoor" data-label="stable" x="97" y="356" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="101,357 98.5,362 103.5,362"/>
     <rect id="room-de2f770a4e0002698fec5941542d6123bd47e8d4" class="room indoor" data-label="horse stall" x="77" y="356" width="8" height="8" rx="2"/>
     <rect id="room-357227f4c5df5d485e9243e931a6d071401268bf" class="room indoor" data-label="horse stall" x="117" y="356" width="8" height="8" rx="2"/>
-    <rect id="room-b2985c0cfca979db12a4ea001782fe01166047ce" class="room indoor" data-label="hay loft" x="104" y="349" width="8" height="8" rx="2"/>
+    <rect id="room-b2985c0cfca979db12a4ea001782fe01166047ce" class="room indoor" data-label="hay loft" x="104" y="349" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="108,356 105.5,351 110.5,351"/>
     <rect id="room-1acda10e9bcf3bb9035f22f4578f04f396efda07" class="room indoor" data-label="front gate" x="137" y="416" width="8" height="8" rx="2"/>
     <rect id="room-ba1ab4cf8646b8fe7fee5241e7359c81ac5cfae3" class="room indoor" data-label="front gate of Magpyr Castle" x="137" y="396" width="8" height="8" rx="2"/>
     <rect id="room-1973e4d24a46ef25d87e43400b1556d9d23df7bd" class="room indoor" data-label="foyer" x="137" y="296" width="8" height="8" rx="2"/>
@@ -212,9 +212,9 @@
     <rect id="room-7f6d733988edeb47f7eb2e7576951b902b0b2964" class="room indoor" data-label="grand hall" x="237" y="296" width="8" height="8" rx="2"/>
     <rect id="room-3064c770f610c945b76bed7f7cfe53a6419f23dc" class="room indoor" data-label="grand hall" x="237" y="316" width="8" height="8" rx="2"/>
     <rect id="room-acc0c649248536fac319a382dcd81e0924669f63" class="room indoor" data-label="grand hall" x="237" y="336" width="8" height="8" rx="2"/>
-    <rect id="room-c8d3ef66f260c5f04f51637977e100c8135ddde8" class="room indoor" data-label="staircase" x="257" y="356" width="8" height="8" rx="2"/>
-    <rect id="room-7698e9e91eceb7bc574876f0483acb439205d0b8" class="room indoor" data-label="staircase" x="257" y="306" width="8" height="8" rx="2"/>
-    <rect id="room-1e4ab1913288820377688c1913fe9e6dc86e6766" class="room indoor" data-label="middle of the staircase" x="257" y="256" width="8" height="8" rx="2"/>
+    <rect id="room-c8d3ef66f260c5f04f51637977e100c8135ddde8" class="room indoor" data-label="staircase" x="257" y="356" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="261,357 263.5,360 261,363 258.5,360"/>
+    <rect id="room-7698e9e91eceb7bc574876f0483acb439205d0b8" class="room indoor" data-label="staircase" x="257" y="306" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="261,307 263.5,310 261,313 258.5,310"/>
+    <rect id="room-1e4ab1913288820377688c1913fe9e6dc86e6766" class="room indoor" data-label="middle of the staircase" x="257" y="256" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="261,257 263.5,260 261,263 258.5,260"/>
     <rect id="room-9b165aac399bff01bf74a133eaf14799b8a35996" class="room indoor" data-label="hallway near a stairwell" x="237" y="236" width="8" height="8" rx="2"/>
     <rect id="room-d6d389cb5943b10839c9bb40446a5e291f66f829" class="room indoor" data-label="hallway" x="237" y="216" width="8" height="8" rx="2"/>
     <rect id="room-4b96766d97d3d745bd9d0214d4f188b7bcd4fdb7" class="room indoor" data-label="bend in a hallway" x="237" y="196" width="8" height="8" rx="2"/>
@@ -228,7 +228,7 @@
     <rect id="room-7435255c792be89994ef29674e4f6400d57f05cf" class="room indoor" data-label="hallway" x="157" y="196" width="8" height="8" rx="2"/>
     <rect id="room-b27bd220e11de63111c0909eac6b15210fcfa36f" class="room indoor" data-label="hallway" x="157" y="176" width="8" height="8" rx="2"/>
     <rect id="room-9b9cea467949f8489588ef44c6a79317b6f06946" class="room indoor" data-label="alcove at the end of a hallway" x="157" y="156" width="8" height="8" rx="2"/>
-    <rect id="room-a8d4e1ed4c7d5c311b23dee62f7031332d2dc513" class="room indoor" data-label="top of the staircase" x="257" y="136" width="8" height="8" rx="2"/>
+    <rect id="room-a8d4e1ed4c7d5c311b23dee62f7031332d2dc513" class="room indoor" data-label="top of the staircase" x="257" y="136" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="261,143 258.5,138 263.5,138"/>
     <rect id="room-5fec0fd9557e5ae252f1497fea6f893530d1c685" class="room indoor" data-label="roof" x="237" y="116" width="8" height="8" rx="2"/>
     <rect id="room-787adc5882ee44d1121009809a33d3be06362da3" class="room indoor" data-label="roof" x="217" y="116" width="8" height="8" rx="2"/>
     <rect id="room-2b681654c55e3d2adc3efa066efa0ba4978b90fe" class="room indoor" data-label="roof" x="197" y="116" width="8" height="8" rx="2"/>
@@ -241,16 +241,16 @@
     <rect id="room-093d26a716f50c3566e45112c052fcabb112d6c3" class="room indoor" data-label="roof" x="157" y="16" width="8" height="8" rx="2"/>
     <rect id="room-8ada15f90b60df91c147a4b28dbc3d6d2effb8aa" class="room indoor" data-label="roof" x="177" y="16" width="8" height="8" rx="2"/>
     <rect id="room-fbe14bd8874c7e5aec00ef500b0cc9657515cb75" class="room indoor" data-label="roof" x="197" y="16" width="8" height="8" rx="2"/>
-    <rect id="room-9b0d72561d41a88f600132a37aa6e155a7332153" class="room indoor" data-label="roof stair" x="197" y="36" width="8" height="8" rx="2"/>
-    <rect id="room-44632796bf4bc020830e91e82a4ba5cb6f066fc7" class="room indoor" data-label="roof stair" x="205" y="44" width="8" height="8" rx="2"/>
-    <rect id="room-a9a743ca474ab0dc74275a5b35b254ad0a7c7557" class="room indoor" data-label="roof top" x="213" y="52" width="8" height="8" rx="2"/>
+    <rect id="room-9b0d72561d41a88f600132a37aa6e155a7332153" class="room indoor" data-label="roof stair" x="197" y="36" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="201,37 198.5,42 203.5,42"/>
+    <rect id="room-44632796bf4bc020830e91e82a4ba5cb6f066fc7" class="room indoor" data-label="roof stair" x="205" y="44" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="209,45 211.5,48 209,51 206.5,48"/>
+    <rect id="room-a9a743ca474ab0dc74275a5b35b254ad0a7c7557" class="room indoor" data-label="roof top" x="213" y="52" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="217,59 214.5,54 219.5,54"/>
     <rect id="room-11b0ad7ae23b52f1cc82d25d90017cfaf3bdfb16" class="room indoor" data-label="roof" x="217" y="16" width="8" height="8" rx="2"/>
     <rect id="room-edd2e6b3af5911cc719919c1d62669315e191f1e" class="room indoor" data-label="roof" x="237" y="16" width="8" height="8" rx="2"/>
     <rect id="room-cc1efe1d8ecd3deade85236652119162f19e40fa" class="room indoor" data-label="roof" x="237" y="36" width="8" height="8" rx="2"/>
     <rect id="room-7c04cee97b0936887a0c2ce198c273838f96231a" class="room indoor" data-label="roof" x="237" y="56" width="8" height="8" rx="2"/>
     <rect id="room-268615ca525cdfcdfca138337401df9dd06e61b3" class="room indoor" data-label="roof" x="237" y="76" width="8" height="8" rx="2"/>
     <rect id="room-5a6b0c28282120dc2d8b503412cf74241aed9917" class="room indoor" data-label="roof" x="237" y="96" width="8" height="8" rx="2"/>
-    <rect id="room-fb4e5911d15eeae4e2f2ebe124ac5499003a333b" class="room indoor" data-label="bottom of the staircase" x="397" y="356" width="8" height="8" rx="2"/>
+    <rect id="room-fb4e5911d15eeae4e2f2ebe124ac5499003a333b" class="room indoor" data-label="bottom of the staircase" x="397" y="356" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="401,357 398.5,362 403.5,362"/>
     <rect id="room-38e0fad35bd4588ca1cb329e6d85b11a05db021e" class="room indoor" data-label="Igor&#x27;s room" x="377" y="336" width="8" height="8" rx="2"/>
     <rect id="room-f8f3cece72e8ad8c4a5c2c56d8a3c690d6bd187c" class="room indoor" data-label="privy" x="377" y="316" width="8" height="8" rx="2"/>
     <rect id="room-4a5ff4bb5de897cdfe8626e9a63ea0890585b3b5" class="room indoor" data-label="crypt vault" x="357" y="336" width="8" height="8" rx="2"/>

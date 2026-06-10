@@ -8,18 +8,18 @@
   <g id="layer-exits">
     <line id="edge-3366ea4fb55a46580f5ab5d6264af9616a51d601-55496e679819763751baf7a874228ca98687d547" class="exit" x1="464" y1="81" x2="436" y2="53"/>
     <line id="edge-06035cb7f96092f3e4675510b292a455ea7e2fcc-55496e679819763751baf7a874228ca98687d547" class="exit" x1="464" y1="53" x2="436" y2="53"/>
-    <line id="edge-06035cb7f96092f3e4675510b292a455ea7e2fcc-25e11902534f2b18de7f93cd531f1c36b2c678e7" class="exit" x1="464" y1="53" x2="483" y2="27"/>
+    null
     <line id="edge-06035cb7f96092f3e4675510b292a455ea7e2fcc-4644cb33c6c9f7ed701c45d07b4b53c5d575915c" class="exit" x1="464" y1="53" x2="492" y2="81"/>
-    <line id="edge-4644cb33c6c9f7ed701c45d07b4b53c5d575915c-c30e844d0cc6035207992cd727c1eaf661a52b7c" class="exit" x1="492" y1="81" x2="510" y2="57"/>
+    null
   </g>
 
   <g id="layer-rooms">
     <rect id="room-3366ea4fb55a46580f5ab5d6264af9616a51d601" class="room indoor" data-label="overgrown moat" x="460" y="77" width="8" height="8" rx="2"/>
     <rect id="room-55496e679819763751baf7a874228ca98687d547" class="room indoor" data-label="castle ruins" x="432" y="49" width="8" height="8" rx="2"/>
-    <rect id="room-06035cb7f96092f3e4675510b292a455ea7e2fcc" class="room indoor" data-label="mystical castle ruins" x="460" y="49" width="8" height="8" rx="2"/>
-    <rect id="room-4644cb33c6c9f7ed701c45d07b4b53c5d575915c" class="room indoor" data-label="sanctuary" x="488" y="77" width="8" height="8" rx="2"/>
-    <rect id="room-c30e844d0cc6035207992cd727c1eaf661a52b7c" class="room indoor" data-label="belfry" x="506" y="53" width="8" height="8" rx="2"/>
-    <rect id="room-25e11902534f2b18de7f93cd531f1c36b2c678e7" class="room indoor" data-label="spectator gallery" x="479" y="23" width="8" height="8" rx="2"/>
+    <rect id="room-06035cb7f96092f3e4675510b292a455ea7e2fcc" class="room indoor" data-label="mystical castle ruins" x="460" y="49" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="464,50 461.5,55 466.5,55"/>
+    <rect id="room-4644cb33c6c9f7ed701c45d07b4b53c5d575915c" class="room indoor" data-label="sanctuary" x="488" y="77" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="492,78 489.5,83 494.5,83"/>
+    <rect id="room-c30e844d0cc6035207992cd727c1eaf661a52b7c" class="room indoor" data-label="belfry" x="506" y="53" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="510,60 507.5,55 512.5,55"/>
+    <rect id="room-25e11902534f2b18de7f93cd531f1c36b2c678e7" class="room indoor" data-label="spectator gallery" x="479" y="23" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="483,30 480.5,25 485.5,25"/>
     <rect id="room-52a3f54ac7f4d46f73dd262bb9f7f2822000e396" class="room indoor" data-label="Secret Passageway" x="303" y="183" width="8" height="8" rx="2"/>
     <rect id="room-2f8eb67f8bf8caa0c7f9a69e20ac30982c689938" class="room indoor" data-label="Secret Passageway" x="303" y="135" width="8" height="8" rx="2"/>
     <rect id="room-304bb3686957ac6ab74dd5d076d93a87ad0478a3" class="room indoor" data-label="Prison Hallway" x="303" y="87" width="8" height="8" rx="2"/>

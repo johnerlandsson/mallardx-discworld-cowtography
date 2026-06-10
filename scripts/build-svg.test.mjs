@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import Database from 'better-sqlite3'
-import { queryRooms, queryExits, edgeId, roomElement, exitElement, buildNewSvg, updateExistingSvg, buildLibrarySvg, buildLibraryLabelsContent, buildLibraryRowNumbers, buildLibraryBookList, buildLibraryExitsContent } from './build-svg.mjs'
+import { queryRooms, queryExits, queryStairRooms, edgeId, roomElement, stairSymbol, exitElement, buildNewSvg, updateExistingSvg, buildLibrarySvg, buildLibraryLabelsContent, buildLibraryRowNumbers, buildLibraryBookList, buildLibraryExitsContent } from './build-svg.mjs'
 
 function makeDb() {
   const db = new Database(':memory:')
@@ -39,7 +39,7 @@ describe('queryRooms', () => {
 })
 
 describe('queryExits', () => {
-  it('returns deduplicated pairs for rooms on the same map', () => {
+  it('returns deduplicated pairs with isVertical:false for horizontal exits', () => {
     const db = makeDb()
     db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0,   0, 'a')").run()
     db.prepare("INSERT INTO rooms VALUES ('r2', 1, 100, 0, 'b')").run()
@@ -49,13 +49,80 @@ describe('queryExits', () => {
     db.prepare("INSERT INTO room_exits VALUES ('r1', 'r3', 'n', 0)").run() // cross-map — exclude
     const exits = queryExits(db, 1)
     expect(exits).toHaveLength(1)
-    expect(exits[0]).toEqual({ from: 'r1', to: 'r2' })
+    expect(exits[0]).toEqual({ from: 'r1', to: 'r2', isVertical: false })
+  })
+
+  it('marks pair as isVertical:true when all exits between rooms are vertical', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'a')").run()
+    db.prepare("INSERT INTO rooms VALUES ('r2', 1, 0, 0, 'b')").run()
+    db.prepare("INSERT INTO room_exits VALUES ('r1', 'r2', 'u', 0)").run()
+    db.prepare("INSERT INTO room_exits VALUES ('r2', 'r1', 'd', 0)").run()
+    const exits = queryExits(db, 1)
+    expect(exits).toHaveLength(1)
+    expect(exits[0].isVertical).toBe(true)
+  })
+
+  it('keeps isVertical:false when rooms share both horizontal and vertical exits', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'a')").run()
+    db.prepare("INSERT INTO rooms VALUES ('r2', 1, 0, 0, 'b')").run()
+    db.prepare("INSERT INTO room_exits VALUES ('r1', 'r2', 'n', 0)").run()
+    db.prepare("INSERT INTO room_exits VALUES ('r1', 'r2', 'u', 0)").run()
+    const exits = queryExits(db, 1)
+    expect(exits).toHaveLength(1)
+    expect(exits[0].isVertical).toBe(false)
   })
 
   it('returns empty array when no exits on map', () => {
     const db = makeDb()
     db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'a')").run()
     expect(queryExits(db, 1)).toEqual([])
+  })
+})
+
+describe('queryStairRooms', () => {
+  it('returns empty map when no vertical exits', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'a')").run()
+    db.prepare("INSERT INTO rooms VALUES ('r2', 1, 0, 0, 'b')").run()
+    db.prepare("INSERT INTO room_exits VALUES ('r1', 'r2', 'n', 0)").run()
+    expect(queryStairRooms(db, 1).size).toBe(0)
+  })
+
+  it('sets hasUp for u exit', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'a')").run()
+    db.prepare("INSERT INTO rooms VALUES ('r2', 1, 0, 0, 'b')").run()
+    db.prepare("INSERT INTO room_exits VALUES ('r1', 'r2', 'u', 0)").run()
+    const m = queryStairRooms(db, 1)
+    expect(m.get('r1')).toEqual({ hasUp: true, hasDown: false })
+  })
+
+  it('sets hasDown for d exit', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'a')").run()
+    db.prepare("INSERT INTO rooms VALUES ('r2', 1, 0, 0, 'b')").run()
+    db.prepare("INSERT INTO room_exits VALUES ('r1', 'r2', 'd', 0)").run()
+    const m = queryStairRooms(db, 1)
+    expect(m.get('r1')).toEqual({ hasUp: false, hasDown: true })
+  })
+
+  it('sets both for stairs exit', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'a')").run()
+    db.prepare("INSERT INTO rooms VALUES ('r2', 1, 0, 0, 'b')").run()
+    db.prepare("INSERT INTO room_exits VALUES ('r1', 'r2', 'stairs', 0)").run()
+    const m = queryStairRooms(db, 1)
+    expect(m.get('r1')).toEqual({ hasUp: true, hasDown: true })
+  })
+
+  it('excludes vertical exits to other maps', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'a')").run()
+    db.prepare("INSERT INTO rooms VALUES ('r2', 2, 0, 0, 'b')").run()
+    db.prepare("INSERT INTO room_exits VALUES ('r1', 'r2', 'u', 0)").run()
+    expect(queryStairRooms(db, 1).size).toBe(0)
   })
 })
 
@@ -70,6 +137,27 @@ describe('edgeId', () => {
 
   it('formats as edge-{lo}-{hi} in sorted order', () => {
     expect(edgeId('bbb', 'aaa')).toBe('edge-aaa-bbb')
+  })
+})
+
+describe('stairSymbol', () => {
+  it('returns an up triangle for hasUp only', () => {
+    const s = stairSymbol(10, 20, true, false)
+    expect(s).toContain('class="stair-symbol"')
+    expect(s).toContain('<polygon')
+    expect(s).toContain('10,17')   // apex y = 20-3
+  })
+
+  it('returns a down triangle for hasDown only', () => {
+    const s = stairSymbol(10, 20, false, true)
+    expect(s).toContain('10,23')   // apex y = 20+3
+  })
+
+  it('returns a diamond (single polygon) for both', () => {
+    const s = stairSymbol(10, 20, true, true)
+    expect(s).toContain('10,17')   // top apex y = 20-3
+    expect(s).toContain('10,23')   // bottom apex y = 20+3
+    expect((s.match(/<polygon/g) ?? []).length).toBe(1)
   })
 })
 
@@ -103,6 +191,18 @@ describe('roomElement', () => {
     expect(el).toContain('&amp;')     // escaped ampersand
     expect(el).toContain('&lt;')      // escaped less-than
   })
+
+  it('appends a stair symbol polygon when stair is provided', () => {
+    const el = roomElement('r1', 10, 20, 'Room', false, { hasUp: true, hasDown: false })
+    expect(el).toContain('<circle')
+    expect(el).toContain('class="stair-symbol"')
+    expect(el).toContain('<polygon')
+  })
+
+  it('returns no polygon when stair is null', () => {
+    const el = roomElement('r1', 10, 20, 'Room', false, null)
+    expect(el).not.toContain('<polygon')
+  })
 })
 
 describe('exitElement', () => {
@@ -117,6 +217,10 @@ describe('exitElement', () => {
     expect(el).toContain('x2="50"')
     expect(el).toContain('y2="80"')
     expect(el).toContain('class="exit"')
+  })
+
+  it('returns null for vertical exits', () => {
+    expect(exitElement('r1', 'r2', rooms, true)).toBeNull()
   })
 
   it('returns empty string when either endpoint is missing', () => {

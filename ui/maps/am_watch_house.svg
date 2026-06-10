@@ -30,7 +30,7 @@
     <line id="edge-0e7d9e718872efa5e99d00f9166a1a52b6b9de1f-42ec9933c09cb4fb475bbd81b66a90308be65975" class="exit" x1="64" y1="224" x2="88" y2="224"/>
     <line id="edge-42ec9933c09cb4fb475bbd81b66a90308be65975-a354edb8beab37712ffa33e68b17482171832faf" class="exit" x1="88" y1="224" x2="88" y2="200"/>
     <line id="edge-0e7d9e718872efa5e99d00f9166a1a52b6b9de1f-45cb06d71364647001ae5236ea1832d5b4cbff65" class="exit" x1="64" y1="224" x2="64" y2="200"/>
-    <line id="edge-0e7d9e718872efa5e99d00f9166a1a52b6b9de1f-f2dd78929943ee0d53e7a813c73e92499431937b" class="exit" x1="64" y1="224" x2="289" y2="179"/>
+    null
     <line id="edge-174e69727d2965e2076884c41903622d04ca521f-f2dd78929943ee0d53e7a813c73e92499431937b" class="exit" x1="289" y1="155" x2="289" y2="179"/>
     <line id="edge-e3396647c4af3d6a859754f365b30d93b3f0de66-f2dd78929943ee0d53e7a813c73e92499431937b" class="exit" x1="313" y1="179" x2="289" y2="179"/>
     <line id="edge-23df74bcdc7136f4c9745f3b3aa7fb4618fd05a3-e3396647c4af3d6a859754f365b30d93b3f0de66" class="exit" x1="337" y1="179" x2="313" y2="179"/>
@@ -46,7 +46,7 @@
     <line id="edge-63f33530da59738fd1ab7a52c3dd4b5b8363f725-863c8480aed91e9b4b88023d34256e6ce7d91d9a" class="exit" x1="433" y1="108" x2="409" y2="108"/>
     <line id="edge-7147c2010cfb431b50c1ae2fecb5893bf3fc846a-863c8480aed91e9b4b88023d34256e6ce7d91d9a" class="exit" x1="385" y1="108" x2="409" y2="108"/>
     <line id="edge-863c8480aed91e9b4b88023d34256e6ce7d91d9a-d0f19f26c5a12a73817d5b391a8aeadd85e464c1" class="exit" x1="409" y1="108" x2="409" y2="84"/>
-    <line id="edge-63f33530da59738fd1ab7a52c3dd4b5b8363f725-f8e2873643260fb93623c23ca9caf584447bd088" class="exit" x1="433" y1="108" x2="184" y2="128"/>
+    null
     <line id="edge-2f91a90be2c771b24ed72a3a75b1920ec277c353-7147c2010cfb431b50c1ae2fecb5893bf3fc846a" class="exit" x1="385" y1="132" x2="385" y2="108"/>
     <line id="edge-7147c2010cfb431b50c1ae2fecb5893bf3fc846a-9c133e18f2f64cad66e9ddf6b3815c120e142c82" class="exit" x1="385" y1="108" x2="361" y2="108"/>
     <line id="edge-8a69a64960e495dd53365f85f7a53e64ca95caf2-9c133e18f2f64cad66e9ddf6b3815c120e142c82" class="exit" x1="337" y1="108" x2="361" y2="108"/>
@@ -65,7 +65,7 @@
     <line id="edge-dfc1b69df1f92cec64bb6d33f6ebff176372d6d8-f51061ff25732d1390b12b7569b2aa8636fb3973" class="exit" x1="160" y1="176" x2="184" y2="176"/>
     <line id="edge-9d1398289c8182bfdd1e58222a7a7ae6485379a9-f51061ff25732d1390b12b7569b2aa8636fb3973" class="exit" x1="208" y1="176" x2="184" y2="176"/>
     <line id="edge-e06bf67fcabff99d29fa281df745b30607023cbe-f51061ff25732d1390b12b7569b2aa8636fb3973" class="exit" x1="184" y1="152" x2="184" y2="176"/>
-    <line id="edge-9d1398289c8182bfdd1e58222a7a7ae6485379a9-fed2ded8a63f3227b629ef98fb65c32fa197ea71" class="exit" x1="208" y1="176" x2="426" y2="262"/>
+    null
     <line id="edge-3d1b328a9e77db781d6d26502015503502ca1791-fed2ded8a63f3227b629ef98fb65c32fa197ea71" class="exit" x1="402" y1="262" x2="426" y2="262"/>
     <line id="edge-3d1b328a9e77db781d6d26502015503502ca1791-52eec27a7c55af2e4aac3d94676af659de7224ba" class="exit" x1="402" y1="262" x2="402" y2="238"/>
     <line id="edge-3d1b328a9e77db781d6d26502015503502ca1791-9db2f453e107344495876a79730023fd0cf8404c" class="exit" x1="402" y1="262" x2="402" y2="286"/>
@@ -81,7 +81,7 @@
     <line id="edge-4fd07ea1a2cf447535b02d6420c16985c78bbd18-620710c69028308bc9ee8b981466fbb14659bef9" class="exit" x1="306" y1="262" x2="330" y2="262"/>
     <line id="edge-620710c69028308bc9ee8b981466fbb14659bef9-85f68e1c1804bd7486775a84ef034408a25da0bb" class="exit" x1="330" y1="262" x2="306" y2="286"/>
     <line id="edge-620710c69028308bc9ee8b981466fbb14659bef9-89df80382bd2cd503e1dc8f3aff6eff710c9e7d0" class="exit" x1="330" y1="262" x2="330" y2="238"/>
-    <line id="edge-104023ce7fbb221b8e6bb1506dfb6bf157b1f3de-28ef221b06da7cef4b70ae9aa054b42124b8d118" class="exit" x1="378" y1="286" x2="359" y2="306"/>
+    null
     <line id="edge-191297bb95441593532ffd6504b0ec5ed5417e2a-99327f687e7d90eb34a9dd37d0a93093599a45a7" class="exit" x1="160" y1="224" x2="160" y2="200"/>
     <line id="edge-63520a8746c01dc39e543b10c831919807fdc070-99327f687e7d90eb34a9dd37d0a93093599a45a7" class="exit" x1="184" y1="200" x2="160" y2="200"/>
     <line id="edge-99327f687e7d90eb34a9dd37d0a93093599a45a7-d5367d2362f23b7bed04496d7c14c6ebf92796e9" class="exit" x1="160" y1="200" x2="136" y2="200"/>
@@ -108,7 +108,7 @@
     <rect id="room-effd227afd7bd5661384eed1e5abb1816292196a" class="room indoor" data-label="western part of the training ground" x="80" y="246" width="8" height="8" rx="2"/>
     <rect id="room-42ec9933c09cb4fb475bbd81b66a90308be65975" class="room indoor" data-label="corridor" x="84" y="220" width="8" height="8" rx="2"/>
     <rect id="room-a354edb8beab37712ffa33e68b17482171832faf" class="room indoor" data-label="interrogation room" x="84" y="196" width="8" height="8" rx="2"/>
-    <rect id="room-0e7d9e718872efa5e99d00f9166a1a52b6b9de1f" class="room indoor" data-label="corridor" x="60" y="220" width="8" height="8" rx="2"/>
+    <rect id="room-0e7d9e718872efa5e99d00f9166a1a52b6b9de1f" class="room indoor" data-label="corridor" x="60" y="220" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="64,221 61.5,226 66.5,226"/>
     <rect id="room-45cb06d71364647001ae5236ea1832d5b4cbff65" class="room indoor" data-label="bare room" x="60" y="196" width="8" height="8" rx="2"/>
     <rect id="room-f2dd78929943ee0d53e7a813c73e92499431937b" class="room indoor" data-label="stairwell" x="285" y="175" width="8" height="8" rx="2"/>
     <rect id="room-e3396647c4af3d6a859754f365b30d93b3f0de66" class="room indoor" data-label="corridor" x="309" y="175" width="8" height="8" rx="2"/>
@@ -122,7 +122,7 @@
     <rect id="room-0ad512d3ec4e95fc106f302641992c06535a8233" class="room indoor" data-label="corridor" x="405" y="151" width="8" height="8" rx="2"/>
     <rect id="room-2beb0e385dbebfda36b074eb8f5db747bd610bdb" class="room indoor" data-label="archive" x="429" y="151" width="8" height="8" rx="2"/>
     <rect id="room-863c8480aed91e9b4b88023d34256e6ce7d91d9a" class="room indoor" data-label="corridor" x="405" y="104" width="8" height="8" rx="2"/>
-    <rect id="room-63f33530da59738fd1ab7a52c3dd4b5b8363f725" class="room indoor" data-label="corridor" x="429" y="104" width="8" height="8" rx="2"/>
+    <rect id="room-63f33530da59738fd1ab7a52c3dd4b5b8363f725" class="room indoor" data-label="corridor" x="429" y="104" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="433,111 430.5,106 435.5,106"/>
     <rect id="room-d0f19f26c5a12a73817d5b391a8aeadd85e464c1" class="room indoor" data-label="Captain Carrot&#x27;s room" x="405" y="80" width="8" height="8" rx="2"/>
     <rect id="room-7147c2010cfb431b50c1ae2fecb5893bf3fc846a" class="room indoor" data-label="corridor" x="381" y="104" width="8" height="8" rx="2"/>
     <rect id="room-2f91a90be2c771b24ed72a3a75b1920ec277c353" class="room indoor" data-label="room full of junk" x="381" y="128" width="8" height="8" rx="2"/>
@@ -134,7 +134,7 @@
     <rect id="room-e0902734d6bcf1be4763036446e5b3984d811dca" class="room indoor" data-label="balcony" x="309" y="104" width="8" height="8" rx="2"/>
     <rect id="room-fe31d06bbe69eca1b48ca634f646ff8699a138f4" class="room indoor" data-label="assignment room" x="309" y="128" width="8" height="8" rx="2"/>
     <rect id="room-d3ed288e87c1a1d81517c1d4dd022dc9c8d48c74" class="room indoor" data-label="junction" x="285" y="104" width="8" height="8" rx="2"/>
-    <rect id="room-f8e2873643260fb93623c23ca9caf584447bd088" class="room indoor" data-label="stairwell" x="180" y="124" width="8" height="8" rx="2"/>
+    <rect id="room-f8e2873643260fb93623c23ca9caf584447bd088" class="room indoor" data-label="stairwell" x="180" y="124" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="184,125 181.5,130 186.5,130"/>
     <rect id="room-fef9e62f305c72a18a1269d0fbfe32b05aa65f63" class="room indoor" data-label="corridor" x="156" y="124" width="8" height="8" rx="2"/>
     <rect id="room-bf31c1171f6364127419287e7b526cc8a369dad4" class="room indoor" data-label="corridor" x="132" y="124" width="8" height="8" rx="2"/>
     <rect id="room-c3e340e672656faca84e109857f441c5f20e65a4" class="room indoor" data-label="Littlebottom&#x27;s office" x="156" y="100" width="8" height="8" rx="2"/>
@@ -142,9 +142,9 @@
     <rect id="room-1cb90592d555424999ee624e9d13f0265d22446c" class="room indoor" data-label="corridor" x="132" y="172" width="8" height="8" rx="2"/>
     <rect id="room-dfc1b69df1f92cec64bb6d33f6ebff176372d6d8" class="room indoor" data-label="corridor" x="156" y="172" width="8" height="8" rx="2"/>
     <rect id="room-f51061ff25732d1390b12b7569b2aa8636fb3973" class="room indoor" data-label="corridor" x="180" y="172" width="8" height="8" rx="2"/>
-    <rect id="room-9d1398289c8182bfdd1e58222a7a7ae6485379a9" class="room indoor" data-label="corridor" x="204" y="172" width="8" height="8" rx="2"/>
+    <rect id="room-9d1398289c8182bfdd1e58222a7a7ae6485379a9" class="room indoor" data-label="corridor" x="204" y="172" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="208,179 205.5,174 210.5,174"/>
     <rect id="room-e06bf67fcabff99d29fa281df745b30607023cbe" class="room indoor" data-label="guild office" x="180" y="148" width="8" height="8" rx="2"/>
-    <rect id="room-fed2ded8a63f3227b629ef98fb65c32fa197ea71" class="room indoor" data-label="corridor" x="422" y="258" width="8" height="8" rx="2"/>
+    <rect id="room-fed2ded8a63f3227b629ef98fb65c32fa197ea71" class="room indoor" data-label="corridor" x="422" y="258" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="426,259 423.5,264 428.5,264"/>
     <rect id="room-3d1b328a9e77db781d6d26502015503502ca1791" class="room indoor" data-label="corridor" x="398" y="258" width="8" height="8" rx="2"/>
     <rect id="room-a9a2f5d97684cb08e47ce171089f3c3da649082b" class="room indoor" data-label="corridor" x="374" y="258" width="8" height="8" rx="2"/>
     <rect id="room-9f2e587994ffa1765e454eeb1ed3e32f3d30129d" class="room indoor" data-label="corridor" x="350" y="258" width="8" height="8" rx="2"/>
@@ -157,8 +157,8 @@
     <rect id="room-1e68d4d09992750ae7ee64f94222064d64be4d61" class="room indoor" data-label="cell" x="350" y="234" width="8" height="8" rx="2"/>
     <rect id="room-7411fbee3969dace510b6c920d79c70e3a490208" class="room indoor" data-label="cell" x="350" y="282" width="8" height="8" rx="2"/>
     <rect id="room-eb14d6eb1e2073ba0ca42b10e61207f9c4ceb2ef" class="room indoor" data-label="cell" x="374" y="234" width="8" height="8" rx="2"/>
-    <rect id="room-104023ce7fbb221b8e6bb1506dfb6bf157b1f3de" class="room indoor" data-label="Igor&#x27;s laboratory" x="374" y="282" width="8" height="8" rx="2"/>
-    <rect id="room-28ef221b06da7cef4b70ae9aa054b42124b8d118" class="room indoor" data-label="cold room" x="355" y="302" width="8" height="8" rx="2"/>
+    <rect id="room-104023ce7fbb221b8e6bb1506dfb6bf157b1f3de" class="room indoor" data-label="Igor&#x27;s laboratory" x="374" y="282" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="378,289 375.5,284 380.5,284"/>
+    <rect id="room-28ef221b06da7cef4b70ae9aa054b42124b8d118" class="room indoor" data-label="cold room" x="355" y="302" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="359,309 356.5,304 361.5,304"/>
     <rect id="room-52eec27a7c55af2e4aac3d94676af659de7224ba" class="room indoor" data-label="cell" x="398" y="234" width="8" height="8" rx="2"/>
     <rect id="room-9db2f453e107344495876a79730023fd0cf8404c" class="room indoor" data-label="cell" x="398" y="282" width="8" height="8" rx="2"/>
     <rect id="room-99327f687e7d90eb34a9dd37d0a93093599a45a7" class="room indoor" data-label="corridor" x="156" y="196" width="8" height="8" rx="2"/>

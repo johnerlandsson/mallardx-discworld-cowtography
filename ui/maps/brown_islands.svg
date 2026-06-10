@@ -39,7 +39,7 @@
     <line id="edge-94ec25e2b8f4f5ae6b3fc363687d031c03406aa0-dfa7fee6d5b82abf6680f2e4b2e6043cd8f7f5bb" class="exit" x1="77" y1="157" x2="105" y2="157"/>
     <line id="edge-c3e3c46773e4cb6b7b7c257e58666fbe306be023-dfa7fee6d5b82abf6680f2e4b2e6043cd8f7f5bb" class="exit" x1="105" y1="129" x2="105" y2="157"/>
     <line id="edge-2b610a2f2a05f79e376b9b56d8513b906e3abac3-c3e3c46773e4cb6b7b7c257e58666fbe306be023" class="exit" x1="77" y1="129" x2="105" y2="129"/>
-    <line id="edge-9217032cfbba083b72044841cfe19208dd250494-e105ad4f0d5013f7686b32f8b33ad304d76f99a5" class="exit" x1="141" y1="73" x2="141" y2="73"/>
+    null
   </g>
 
   <g id="layer-rooms">
@@ -68,8 +68,8 @@
     <rect id="room-dfa7fee6d5b82abf6680f2e4b2e6043cd8f7f5bb" class="room indoor" data-label="sea just west of a pier" x="101" y="153" width="8" height="8" rx="2"/>
     <rect id="room-c3e3c46773e4cb6b7b7c257e58666fbe306be023" class="room indoor" data-label="sea-shore by a pier" x="101" y="125" width="8" height="8" rx="2"/>
     <rect id="room-2b610a2f2a05f79e376b9b56d8513b906e3abac3" class="room indoor" data-label="sea-shore" x="73" y="125" width="8" height="8" rx="2"/>
-    <rect id="room-9217032cfbba083b72044841cfe19208dd250494" class="room indoor" data-label="front of a ferry shop" x="137" y="69" width="8" height="8" rx="2"/>
-    <rect id="room-e105ad4f0d5013f7686b32f8b33ad304d76f99a5" class="room indoor" data-label="dimly lit cellar" x="137" y="69" width="8" height="8" rx="2"/>
+    <rect id="room-9217032cfbba083b72044841cfe19208dd250494" class="room indoor" data-label="front of a ferry shop" x="137" y="69" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="141,76 138.5,71 143.5,71"/>
+    <rect id="room-e105ad4f0d5013f7686b32f8b33ad304d76f99a5" class="room indoor" data-label="dimly lit cellar" x="137" y="69" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="141,70 138.5,75 143.5,75"/>
     <rect id="room-19c5968935538da2e81a88f39e5d8927a00eaca5" class="room indoor" data-label="top of a totem pole" x="129" y="41" width="8" height="8" rx="2"/>
   </g>
 

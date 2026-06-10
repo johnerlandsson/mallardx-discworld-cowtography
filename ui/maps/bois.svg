@@ -35,7 +35,7 @@
     <line id="edge-a9db147a9472c2b3dc92797c71cabe4e5291ddd4-d999ea490274369058c4f51cd2de13ec5c27bfc7" class="exit" x1="253" y1="183" x2="267" y2="183"/>
     <line id="edge-a8a10433cf292c31c272e23940d813cafd169cdc-e0d2944fa20f6c3f77071b6692fe6a0284fb57f3" class="exit" x1="239" y1="183" x2="225" y2="183"/>
     <line id="edge-1f270665a20a58a4c9e3f0f4269086511e69685a-e0d2944fa20f6c3f77071b6692fe6a0284fb57f3" class="exit" x1="225" y1="194" x2="225" y2="183"/>
-    <line id="edge-1f270665a20a58a4c9e3f0f4269086511e69685a-42fc66e3a3d2d219435c82afd199ff7117e9086f" class="exit" x1="225" y1="194" x2="235" y2="204"/>
+    null
     <line id="edge-631c763481627177ad319580021484e41ca5d787-ca812ea7a72af42ba1192c8e9e43f24ca8786e4a" class="exit" x1="263" y1="193" x2="271" y2="201"/>
     <line id="edge-6f1e3c2f1895fe23fc991808f421286f9d233b1e-b5e098102e7e2c53d2eb9bc1cc4d7ec1b231ea83" class="exit" x1="253" y1="197" x2="267" y2="211"/>
     <line id="edge-043a221c6a81406c921bf3f15a9ba2a8c4bdfe85-b5e098102e7e2c53d2eb9bc1cc4d7ec1b231ea83" class="exit" x1="267" y1="225" x2="267" y2="211"/>
@@ -78,7 +78,7 @@
     <line id="edge-61e6362d2a8ca873079f1fc5ad07dbb379348c60-7f9f0cf18846f5f4f84d3c1e992391fc67142c0f" class="exit" x1="365" y1="15" x2="379" y2="29"/>
     <line id="edge-61e6362d2a8ca873079f1fc5ad07dbb379348c60-858d55f35ac27144449ed5f9fa8ca13ff7b011a5" class="exit" x1="365" y1="15" x2="354" y2="15"/>
     <line id="edge-492f4def3ec815553c7cdcc04abdb830f3559f51-858d55f35ac27144449ed5f9fa8ca13ff7b011a5" class="exit" x1="354" y1="5" x2="354" y2="15"/>
-    <line id="edge-858d55f35ac27144449ed5f9fa8ca13ff7b011a5-b7f12ad392eeebfa3a88a40c702ce8e4e3d7b1fa" class="exit" x1="354" y1="15" x2="344" y2="5"/>
+    null
     <line id="edge-1851df8886f295c77915c690578d33ac6a7b6727-33954756c55fdc242a0af31413278db9b1c6b749" class="exit" x1="351" y1="113" x2="365" y2="113"/>
     <line id="edge-33954756c55fdc242a0af31413278db9b1c6b749-4efe61eccf06fdf199b8a50c0ed73ca2225e0055" class="exit" x1="365" y1="113" x2="379" y2="113"/>
     <line id="edge-4efe61eccf06fdf199b8a50c0ed73ca2225e0055-66b047f6978e29fb1b6707a1ad05f3ee48295349" class="exit" x1="379" y1="113" x2="393" y2="127"/>
@@ -101,7 +101,7 @@
     <line id="edge-4ae774fa5266a67c91190c9c8086b1541852d35d-5a6e007ba0038a7b8903eae635f2f01ca280e085" class="exit" x1="449" y1="197" x2="435" y2="183"/>
     <line id="edge-4ae774fa5266a67c91190c9c8086b1541852d35d-9024230a2938b78d0d62f8c80ef9f28c0a1bae5b" class="exit" x1="449" y1="197" x2="449" y2="211"/>
     <line id="edge-9024230a2938b78d0d62f8c80ef9f28c0a1bae5b-b55dc949f3d460b4ea42376e6a044e3a00b451fb" class="exit" x1="449" y1="211" x2="449" y2="222"/>
-    <line id="edge-b0f2bef412f98ed95dcf3bc5d564d2fac8efbcc3-be9e320f1a26dc084a2c97532298ee770101e5aa" class="exit" x1="208" y1="281" x2="218" y2="271"/>
+    null
   </g>
 
   <g id="layer-rooms">
@@ -118,8 +118,8 @@
     <circle id="room-a9db147a9472c2b3dc92797c71cabe4e5291ddd4" class="room outdoor" data-label="southeast corner of the square" cx="253" cy="183" r="4"/>
     <circle id="room-a8a10433cf292c31c272e23940d813cafd169cdc" class="room outdoor" data-label="southern edge of the square" cx="239" cy="183" r="4"/>
     <circle id="room-e0d2944fa20f6c3f77071b6692fe6a0284fb57f3" class="room outdoor" data-label="southwestern corner of the square" cx="225" cy="183" r="4"/>
-    <circle id="room-1f270665a20a58a4c9e3f0f4269086511e69685a" class="room outdoor" data-label="Bois Village Inn" cx="225" cy="194" r="4"/>
-    <circle id="room-42fc66e3a3d2d219435c82afd199ff7117e9086f" class="room outdoor" data-label="small room" cx="235" cy="204" r="4"/>
+    <circle id="room-1f270665a20a58a4c9e3f0f4269086511e69685a" class="room outdoor" data-label="Bois Village Inn" cx="225" cy="194" r="4"/><polygon class="stair-symbol" points="225,191 222.5,196 227.5,196"/>
+    <circle id="room-42fc66e3a3d2d219435c82afd199ff7117e9086f" class="room outdoor" data-label="small room" cx="235" cy="204" r="4"/><polygon class="stair-symbol" points="235,207 232.5,202 237.5,202"/>
     <circle id="room-631c763481627177ad319580021484e41ca5d787" class="room outdoor" data-label="village hall common room" cx="263" cy="193" r="4"/>
     <circle id="room-ca812ea7a72af42ba1192c8e9e43f24ca8786e4a" class="room outdoor" data-label="converted storeroom" cx="271" cy="201" r="4"/>
     <circle id="room-6f1e3c2f1895fe23fc991808f421286f9d233b1e" class="room outdoor" data-label="end of Brindille Alley" cx="253" cy="197" r="4"/>
@@ -162,9 +162,9 @@
     <circle id="room-8214b194814676c820b568fcdf68acec08122fef" class="room outdoor" data-label="forest trail" cx="379" cy="43" r="4"/>
     <circle id="room-7f9f0cf18846f5f4f84d3c1e992391fc67142c0f" class="room outdoor" data-label="forest trail" cx="379" cy="29" r="4"/>
     <circle id="room-61e6362d2a8ca873079f1fc5ad07dbb379348c60" class="room outdoor" data-label="outside a house" cx="365" cy="15" r="4"/>
-    <circle id="room-858d55f35ac27144449ed5f9fa8ca13ff7b011a5" class="room outdoor" data-label="cosy living room" cx="354" cy="15" r="4"/>
+    <circle id="room-858d55f35ac27144449ed5f9fa8ca13ff7b011a5" class="room outdoor" data-label="cosy living room" cx="354" cy="15" r="4"/><polygon class="stair-symbol" points="354,12 351.5,17 356.5,17"/>
     <circle id="room-492f4def3ec815553c7cdcc04abdb830f3559f51" class="room outdoor" data-label="warm kitchen" cx="354" cy="5" r="4"/>
-    <circle id="room-b7f12ad392eeebfa3a88a40c702ce8e4e3d7b1fa" class="room outdoor" data-label="small bedroom" cx="344" cy="5" r="4"/>
+    <circle id="room-b7f12ad392eeebfa3a88a40c702ce8e4e3d7b1fa" class="room outdoor" data-label="small bedroom" cx="344" cy="5" r="4"/><polygon class="stair-symbol" points="344,8 341.5,3 346.5,3"/>
     <circle id="room-1851df8886f295c77915c690578d33ac6a7b6727" class="room outdoor" data-label="forest trail" cx="351" cy="113" r="4"/>
     <circle id="room-33954756c55fdc242a0af31413278db9b1c6b749" class="room outdoor" data-label="forest trail" cx="365" cy="113" r="4"/>
     <circle id="room-4efe61eccf06fdf199b8a50c0ed73ca2225e0055" class="room outdoor" data-label="forest trail" cx="379" cy="113" r="4"/>
@@ -204,8 +204,8 @@
     <circle id="room-a97f20f35ac0dff31530de05d1dd723c8f869a52" class="room outdoor" data-label="the lake" cx="194" cy="96" r="4"/>
     <circle id="room-1e76a259a432cb8b0598c978de2d415194b1a847" class="room outdoor" data-label="the lake" cx="180" cy="96" r="4"/>
     <circle id="room-70dc39f6f7aa310ce79182dd5b5691759e26cecb" class="room outdoor" data-label="the lake" cx="166" cy="96" r="4"/>
-    <circle id="room-b0f2bef412f98ed95dcf3bc5d564d2fac8efbcc3" class="room outdoor" data-label="cosy downstairs room" cx="208" cy="281" r="4"/>
-    <circle id="room-be9e320f1a26dc084a2c97532298ee770101e5aa" class="room outdoor" data-label="small loft room" cx="218" cy="271" r="4"/>
+    <circle id="room-b0f2bef412f98ed95dcf3bc5d564d2fac8efbcc3" class="room outdoor" data-label="cosy downstairs room" cx="208" cy="281" r="4"/><polygon class="stair-symbol" points="208,278 205.5,283 210.5,283"/>
+    <circle id="room-be9e320f1a26dc084a2c97532298ee770101e5aa" class="room outdoor" data-label="small loft room" cx="218" cy="271" r="4"/><polygon class="stair-symbol" points="218,274 215.5,269 220.5,269"/>
     <circle id="room-211810c8a192c4d3b3ad295843e3a30e4385fce5" class="room outdoor" data-label="boughs of an ancient oak" cx="239" cy="169" r="4"/>
   </g>
 

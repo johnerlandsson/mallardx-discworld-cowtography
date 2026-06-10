@@ -32,10 +32,10 @@
     <line id="edge-baf3280d0ceb8d31739741577a37a8fe65a8989c-df29f5ecff703c0aa26ee12b5a08a375f4b33086" class="exit" x1="127" y1="101" x2="127" y2="88"/>
     <line id="edge-27fbad4e83c4795545c5679be4c2ce3f7622997b-546928087aabaee1162d5b21383bcec56aaec540" class="exit" x1="141" y1="115" x2="141" y2="101"/>
     <line id="edge-27fbad4e83c4795545c5679be4c2ce3f7622997b-60c31b58b16050060261eb4017f37019de0d70f3" class="exit" x1="141" y1="115" x2="141" y2="129"/>
-    <line id="edge-2180012b2b3619e9ae21bf760a76d072a8ac5f2c-329e2483a388e713adc3706562ea35694c0caf36" class="exit" x1="127" y1="115" x2="127" y2="55"/>
+    null
     <line id="edge-15ebc768fdd8a1ab54a41f32579516a46acb4ea3-329e2483a388e713adc3706562ea35694c0caf36" class="exit" x1="113" y1="55" x2="127" y2="55"/>
     <line id="edge-15ebc768fdd8a1ab54a41f32579516a46acb4ea3-5825d8a087746daf2162be55f1ac309a86353c67" class="exit" x1="113" y1="55" x2="99" y2="55"/>
-    <line id="edge-591f81af59ed9748f3e243eea6f9d5b7b59f7e8e-c0b8cfdb479f07d54d965d18edd51cf178523d2f" class="exit" x1="287" y1="115" x2="99" y2="115"/>
+    null
     <line id="edge-44388c9a7bde5eb9bc24c9e930c1e3ab98dddf69-591f81af59ed9748f3e243eea6f9d5b7b59f7e8e" class="exit" x1="287" y1="129" x2="287" y2="115"/>
     <line id="edge-591f81af59ed9748f3e243eea6f9d5b7b59f7e8e-ac557817d6c6afb6fb933c0850cae398b6bff53c" class="exit" x1="287" y1="115" x2="273" y2="115"/>
     <line id="edge-ac557817d6c6afb6fb933c0850cae398b6bff53c-efc239c4f3c998286650fd51927a33cec953c6a8" class="exit" x1="273" y1="115" x2="259" y2="115"/>
@@ -129,12 +129,12 @@
     <rect id="room-546928087aabaee1162d5b21383bcec56aaec540" class="room indoor" data-label="library reading room" x="137" y="97" width="8" height="8" rx="2"/>
     <rect id="room-27fbad4e83c4795545c5679be4c2ce3f7622997b" class="room indoor" data-label="cool library" x="137" y="111" width="8" height="8" rx="2"/>
     <rect id="room-60c31b58b16050060261eb4017f37019de0d70f3" class="room indoor" data-label="Cool shop" x="137" y="125" width="8" height="8" rx="2"/>
-    <rect id="room-2180012b2b3619e9ae21bf760a76d072a8ac5f2c" class="room indoor" data-label="bottom of a spiral staircase" x="123" y="111" width="8" height="8" rx="2"/>
-    <rect id="room-329e2483a388e713adc3706562ea35694c0caf36" class="room indoor" data-label="Cool bar" x="123" y="51" width="8" height="8" rx="2"/>
+    <rect id="room-2180012b2b3619e9ae21bf760a76d072a8ac5f2c" class="room indoor" data-label="bottom of a spiral staircase" x="123" y="111" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="127,112 124.5,117 129.5,117"/>
+    <rect id="room-329e2483a388e713adc3706562ea35694c0caf36" class="room indoor" data-label="Cool bar" x="123" y="51" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="127,58 124.5,53 129.5,53"/>
     <rect id="room-15ebc768fdd8a1ab54a41f32579516a46acb4ea3" class="room indoor" data-label="Cool bar" x="109" y="51" width="8" height="8" rx="2"/>
     <rect id="room-5825d8a087746daf2162be55f1ac309a86353c67" class="room indoor" data-label="Cool balcony" x="95" y="51" width="8" height="8" rx="2"/>
-    <rect id="room-c0b8cfdb479f07d54d965d18edd51cf178523d2f" class="room indoor" data-label="top of a stairwell" x="95" y="111" width="8" height="8" rx="2"/>
-    <rect id="room-591f81af59ed9748f3e243eea6f9d5b7b59f7e8e" class="room indoor" data-label="bottom of a flight of stairs" x="283" y="111" width="8" height="8" rx="2"/>
+    <rect id="room-c0b8cfdb479f07d54d965d18edd51cf178523d2f" class="room indoor" data-label="top of a stairwell" x="95" y="111" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="99,118 96.5,113 101.5,113"/>
+    <rect id="room-591f81af59ed9748f3e243eea6f9d5b7b59f7e8e" class="room indoor" data-label="bottom of a flight of stairs" x="283" y="111" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="287,112 284.5,117 289.5,117"/>
     <rect id="room-ac557817d6c6afb6fb933c0850cae398b6bff53c" class="room indoor" data-label="corridor, west of some stairs" x="269" y="111" width="8" height="8" rx="2"/>
     <rect id="room-efc239c4f3c998286650fd51927a33cec953c6a8" class="room indoor" data-label="bend in a corridor" x="255" y="111" width="8" height="8" rx="2"/>
     <rect id="room-b794549c75f0f422533f0c926d4ed4f5e13b77c7" class="room indoor" data-label="sharp bend in a corridor" x="241" y="125" width="8" height="8" rx="2"/>

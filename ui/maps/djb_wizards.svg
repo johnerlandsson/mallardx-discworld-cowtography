@@ -38,7 +38,7 @@
     <line id="edge-13dc07155f0988b698165c253551caffa84e3388-1e92d592ffe28ed71975cc521e40085ed0b8db88" class="exit" x1="378" y1="210" x2="351" y2="210"/>
     <line id="edge-1e92d592ffe28ed71975cc521e40085ed0b8db88-8d9017e23c981dbe4c9ebc8090095ff12244c0b9" class="exit" x1="351" y1="210" x2="323" y2="238"/>
     <line id="edge-1e92d592ffe28ed71975cc521e40085ed0b8db88-f9c4df57897d9576f532f78bb0e6c54753453e00" class="exit" x1="351" y1="210" x2="351" y2="238"/>
-    <line id="edge-6e58ca43824681a69a633bf1ea5ef56b264fb21b-8d9017e23c981dbe4c9ebc8090095ff12244c0b9" class="exit" x1="322" y1="322" x2="323" y2="238"/>
+    null
     <line id="edge-8d9017e23c981dbe4c9ebc8090095ff12244c0b9-f9c4df57897d9576f532f78bb0e6c54753453e00" class="exit" x1="323" y1="238" x2="351" y2="238"/>
     <line id="edge-4f023b5dad1910712837b6ac0f747d0871ea7f5a-f9c4df57897d9576f532f78bb0e6c54753453e00" class="exit" x1="379" y1="238" x2="351" y2="238"/>
     <line id="edge-6e58ca43824681a69a633bf1ea5ef56b264fb21b-b573c5e84150e4da56d1833f90b4ae6b5b03bc32" class="exit" x1="322" y1="322" x2="322" y2="294"/>
@@ -46,7 +46,7 @@
     <line id="edge-118bb3cf718100d55a0d7a26f39d582a219925e1-b573c5e84150e4da56d1833f90b4ae6b5b03bc32" class="exit" x1="350" y1="294" x2="322" y2="294"/>
     <line id="edge-118bb3cf718100d55a0d7a26f39d582a219925e1-e7961ad532c34820dddc82d80f8b91424d2b538f" class="exit" x1="350" y1="294" x2="350" y2="266"/>
     <line id="edge-ad4fb9aa900217a34254a4d4d312bf1ae031d04e-e7961ad532c34820dddc82d80f8b91424d2b538f" class="exit" x1="322" y1="266" x2="350" y2="266"/>
-    <line id="edge-13dc07155f0988b698165c253551caffa84e3388-f8801dd50082d159a2d455abb09dd0d5faf7ae1b" class="exit" x1="378" y1="210" x2="379" y2="98"/>
+    null
     <line id="edge-82a49dea7a9d4d3cb1c9203dd39252789cdc6411-f8801dd50082d159a2d455abb09dd0d5faf7ae1b" class="exit" x1="379" y1="70" x2="379" y2="98"/>
     <line id="edge-bf1e401e389c80dea5b1bdc20854fd12e9fce4bb-f8801dd50082d159a2d455abb09dd0d5faf7ae1b" class="exit" x1="379" y1="126" x2="379" y2="98"/>
     <line id="edge-eee65b4e1a5d7eb7c57604bbc9f0a5df4d3a46e6-f8801dd50082d159a2d455abb09dd0d5faf7ae1b" class="exit" x1="351" y1="98" x2="379" y2="98"/>
@@ -94,17 +94,17 @@
     <rect id="room-f294db081f330382e25afbac84e11e12e35df400" class="room indoor" data-label="northern edge of Toad Hall" x="347" y="178" width="8" height="8" rx="2"/>
     <rect id="room-1fb60be6a5f04c409d1648bff430a526afe84f05" class="room indoor" data-label="Chancellor&#x27;s office" x="375" y="178" width="8" height="8" rx="2"/>
     <rect id="room-1e92d592ffe28ed71975cc521e40085ed0b8db88" class="room indoor" data-label="centre of Toad Hall" x="347" y="206" width="8" height="8" rx="2"/>
-    <rect id="room-8d9017e23c981dbe4c9ebc8090095ff12244c0b9" class="room indoor" data-label="southwestern corner of Toad Hall" x="319" y="234" width="8" height="8" rx="2"/>
+    <rect id="room-8d9017e23c981dbe4c9ebc8090095ff12244c0b9" class="room indoor" data-label="southwestern corner of Toad Hall" x="319" y="234" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="323,241 320.5,236 325.5,236"/>
     <rect id="room-f9c4df57897d9576f532f78bb0e6c54753453e00" class="room indoor" data-label="southern edge of Toad Hall" x="347" y="234" width="8" height="8" rx="2"/>
-    <rect id="room-6e58ca43824681a69a633bf1ea5ef56b264fb21b" class="room indoor" data-label="southwestern corner of the cellar" x="318" y="318" width="8" height="8" rx="2"/>
+    <rect id="room-6e58ca43824681a69a633bf1ea5ef56b264fb21b" class="room indoor" data-label="southwestern corner of the cellar" x="318" y="318" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="322,319 319.5,324 324.5,324"/>
     <rect id="room-bb4b9aa198a6f9eb89ec3cbaf827e3d6a3d1eb0f" class="room indoor" data-label="eastern end of the cellar" x="346" y="318" width="8" height="8" rx="2"/>
     <rect id="room-b573c5e84150e4da56d1833f90b4ae6b5b03bc32" class="room indoor" data-label="west end of the dining hall" x="318" y="290" width="8" height="8" rx="2"/>
     <rect id="room-118bb3cf718100d55a0d7a26f39d582a219925e1" class="room indoor" data-label="east end of the dining hall" x="346" y="290" width="8" height="8" rx="2"/>
     <rect id="room-e7961ad532c34820dddc82d80f8b91424d2b538f" class="room indoor" data-label="guild&#x27;s kitchen" x="346" y="262" width="8" height="8" rx="2"/>
     <rect id="room-ad4fb9aa900217a34254a4d4d312bf1ae031d04e" class="room indoor" data-label="guild&#x27;s kitchen" x="318" y="262" width="8" height="8" rx="2"/>
     <rect id="room-4f023b5dad1910712837b6ac0f747d0871ea7f5a" class="room indoor" data-label="Headmaster&#x27;s anteroom" x="375" y="234" width="8" height="8" rx="2"/>
-    <rect id="room-13dc07155f0988b698165c253551caffa84e3388" class="room indoor" data-label="eastern end of Toad Hall" x="374" y="206" width="8" height="8" rx="2"/>
-    <rect id="room-f8801dd50082d159a2d455abb09dd0d5faf7ae1b" class="room indoor" data-label="eastern end of the first floor lounge" x="375" y="94" width="8" height="8" rx="2"/>
+    <rect id="room-13dc07155f0988b698165c253551caffa84e3388" class="room indoor" data-label="eastern end of Toad Hall" x="374" y="206" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="378,207 375.5,212 380.5,212"/>
+    <rect id="room-f8801dd50082d159a2d455abb09dd0d5faf7ae1b" class="room indoor" data-label="eastern end of the first floor lounge" x="375" y="94" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="379,101 376.5,96 381.5,96"/>
     <rect id="room-82a49dea7a9d4d3cb1c9203dd39252789cdc6411" class="room indoor" data-label="northeastern end of the first floor lounge" x="375" y="66" width="8" height="8" rx="2"/>
     <rect id="room-bf1e401e389c80dea5b1bdc20854fd12e9fce4bb" class="room indoor" data-label="southeastern end of the first floor lounge" x="375" y="122" width="8" height="8" rx="2"/>
     <rect id="room-eee65b4e1a5d7eb7c57604bbc9f0a5df4d3a46e6" class="room indoor" data-label="centre of the corridor" x="347" y="94" width="8" height="8" rx="2"/>

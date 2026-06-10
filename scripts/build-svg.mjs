@@ -16,29 +16,71 @@ const LIB_CONFIG    = path.join(REPO_ROOT, 'ui', 'data', 'uu_library.json')
 
 // ─── DB queries ──────────────────────────────────────────────────────────────
 
+// Exit directions that represent vertical movement between floors.
+// These suppress the connecting line and show a symbol inside the room instead.
+const VERTICAL_EXITS = new Set([
+  'u', 'd',
+  'climb up', 'climb down', 'climb ladder',
+  'stairs', 'staircase', 'trapdoor', 'ladder',
+])
+
+// Directions that mean "going up" and "going down" for symbol selection.
+const UP_DIRS   = new Set(['u', 'climb up', 'climb ladder', 'ladder'])
+const DOWN_DIRS = new Set(['d', 'climb down', 'trapdoor'])
+// stairs/staircase are ambiguous — mark the room as having both directions.
+const BOTH_DIRS = new Set(['stairs', 'staircase'])
+
 export function queryRooms(db, mapId) {
   return db.prepare(
     'SELECT room_id AS id, xpos AS x, ypos AS y, room_short AS short FROM rooms WHERE map_id = ?'
   ).all(mapId)
 }
 
+// Returns deduplicated same-map exit pairs with an isVertical flag.
+// A pair is vertical only when ALL exits between those two rooms are vertical —
+// if two rooms are connected by both 'n' and 'u', the horizontal line is kept.
 export function queryExits(db, mapId) {
   const rows = db.prepare(`
-    SELECT re.room_id AS "from", re.connect_id AS "to"
+    SELECT re.room_id AS "from", re.connect_id AS "to", re.exit AS dir
     FROM room_exits re
     JOIN rooms r1 ON re.room_id    = r1.room_id AND r1.map_id = ?
     JOIN rooms r2 ON re.connect_id = r2.room_id AND r2.map_id = ?
   `).all(mapId, mapId)
 
-  const seen = new Set()
-  const result = []
+  const seen = new Map()
   for (const row of rows) {
     const key = [row.from, row.to].sort().join('\0')
+    const isVert = VERTICAL_EXITS.has(row.dir)
     if (!seen.has(key)) {
-      seen.add(key)
       const [a, b] = [row.from, row.to].sort()
-      result.push({ from: a, to: b })
+      seen.set(key, { from: a, to: b, allVertical: isVert })
+    } else if (!isVert) {
+      seen.get(key).allVertical = false
     }
+  }
+  return [...seen.values()].map(({ from, to, allVertical }) => ({
+    from, to, isVertical: allVertical,
+  }))
+}
+
+// Returns a Map<roomId, {hasUp, hasDown}> for rooms that have same-map vertical exits.
+export function queryStairRooms(db, mapId) {
+  const dirs = [...VERTICAL_EXITS]
+  const placeholders = dirs.map(() => '?').join(',')
+  const rows = db.prepare(`
+    SELECT re.room_id AS id, re.exit AS dir
+    FROM room_exits re
+    JOIN rooms r1 ON re.room_id    = r1.room_id AND r1.map_id = ?
+    JOIN rooms r2 ON re.connect_id = r2.room_id AND r2.map_id = ?
+    WHERE re.exit IN (${placeholders})
+  `).all(mapId, mapId, ...dirs)
+
+  const result = new Map()
+  for (const { id, dir } of rows) {
+    if (!result.has(id)) result.set(id, { hasUp: false, hasDown: false })
+    const entry = result.get(id)
+    if (UP_DIRS.has(dir)   || BOTH_DIRS.has(dir)) entry.hasUp   = true
+    if (DOWN_DIRS.has(dir) || BOTH_DIRS.has(dir)) entry.hasDown = true
   }
   return result
 }
@@ -64,15 +106,31 @@ function escapeXml(str) {
 
 // ─── SVG element generators ──────────────────────────────────────────────────
 
-export function roomElement(id, x, y, short, isIndoor) {
-  const label = short ? ` data-label="${escapeXml(short)}"` : ''
-  if (isIndoor) {
-    return `<rect id="room-${id}" class="room indoor"${label} x="${x - 4}" y="${y - 4}" width="8" height="8" rx="2"/>`
+// Returns SVG polygon(s) for the stair direction indicator inside a room.
+// ▲ up-only, ▼ down-only, ◆ both (diamond).
+export function stairSymbol(x, y, hasUp, hasDown) {
+  if (hasUp && hasDown) {
+    return `<polygon class="stair-symbol" points="${x},${y - 3} ${x + 2.5},${y} ${x},${y + 3} ${x - 2.5},${y}"/>`
   }
-  return `<circle id="room-${id}" class="room outdoor"${label} cx="${x}" cy="${y}" r="4"/>`
+  if (hasUp) {
+    return `<polygon class="stair-symbol" points="${x},${y - 3} ${x - 2.5},${y + 2} ${x + 2.5},${y + 2}"/>`
+  }
+  return `<polygon class="stair-symbol" points="${x},${y + 3} ${x - 2.5},${y - 2} ${x + 2.5},${y - 2}"/>`
 }
 
-export function exitElement(fromId, toId, rooms) {
+// stair: null | {hasUp, hasDown}
+export function roomElement(id, x, y, short, isIndoor, stair = null) {
+  const label = short ? ` data-label="${escapeXml(short)}"` : ''
+  const shape = isIndoor
+    ? `<rect id="room-${id}" class="room indoor"${label} x="${x - 4}" y="${y - 4}" width="8" height="8" rx="2"/>`
+    : `<circle id="room-${id}" class="room outdoor"${label} cx="${x}" cy="${y}" r="4"/>`
+  if (!stair) return shape
+  return shape + stairSymbol(x, y, stair.hasUp, stair.hasDown)
+}
+
+// Returns null for vertical exit pairs (no line drawn).
+export function exitElement(fromId, toId, rooms, isVertical = false) {
+  if (isVertical) return null
   const from = rooms.find(r => r.id === fromId)
   const to   = rooms.find(r => r.id === toId)
   if (!from || !to) return ''
@@ -81,11 +139,11 @@ export function exitElement(fromId, toId, rooms) {
 
 // ─── Map SVG builders ────────────────────────────────────────────────────────
 
-export function buildNewSvg(mapMeta, rooms, exits, mapId = '') {
+export function buildNewSvg(mapMeta, rooms, exits, mapId = '', stairRooms = new Map()) {
   const isIndoor = !mapMeta.topLevel
 
-  const exitLines  = exits.map(e => '    ' + exitElement(e.from, e.to, rooms)).filter(Boolean).join('\n')
-  const roomShapes = rooms.map(r => '    ' + roomElement(r.id, r.x, r.y, r.short, isIndoor)).join('\n')
+  const exitLines  = exits.map(e => '    ' + exitElement(e.from, e.to, rooms, e.isVertical)).filter(Boolean).join('\n')
+  const roomShapes = rooms.map(r => '    ' + roomElement(r.id, r.x, r.y, r.short, isIndoor, stairRooms.get(r.id) ?? null)).join('\n')
 
   return `<svg xmlns="http://www.w3.org/2000/svg"
      viewBox="0 0 ${mapMeta.maxX} ${mapMeta.maxY}"
@@ -107,10 +165,10 @@ ${roomShapes}
 </svg>`
 }
 
-export function updateExistingSvg(existingSvg, mapMeta, rooms, exits) {
+export function updateExistingSvg(existingSvg, mapMeta, rooms, exits, stairRooms = new Map()) {
   const isIndoor   = !mapMeta.topLevel
-  const exitLines  = exits.map(e => '    ' + exitElement(e.from, e.to, rooms)).filter(Boolean).join('\n')
-  const roomShapes = rooms.map(r => '    ' + roomElement(r.id, r.x, r.y, r.short, isIndoor)).join('\n')
+  const exitLines  = exits.map(e => '    ' + exitElement(e.from, e.to, rooms, e.isVertical)).filter(Boolean).join('\n')
+  const roomShapes = rooms.map(r => '    ' + roomElement(r.id, r.x, r.y, r.short, isIndoor, stairRooms.get(r.id) ?? null)).join('\n')
 
   let svg = existingSvg.replace(
     /(<g id="layer-exits">)([\s\S]*?)(<\/g>)/,
@@ -359,8 +417,9 @@ async function readLibraryConfig() {
 
 async function buildOneSvg(db, mapId, mapMeta) {
   const outPath = path.join(OUT_DIR, mapMeta.file.replace('.png', '.svg'))
-  const roomRows = queryRooms(db, mapId)
-  const exitRows = queryExits(db, mapId)
+  const roomRows   = queryRooms(db, mapId)
+  const exitRows   = queryExits(db, mapId)
+  const stairRooms = queryStairRooms(db, mapId)
 
   let svg
   try {
@@ -372,10 +431,10 @@ async function buildOneSvg(db, mapId, mapMeta) {
     if (added > 0 || removed > 0) {
       console.log(`[build-svg] map ${mapId}: +${added} rooms, -${removed} removed — update labels manually`)
     }
-    svg = updateExistingSvg(existing, mapMeta, roomRows, exitRows)
+    svg = updateExistingSvg(existing, mapMeta, roomRows, exitRows, stairRooms)
   } catch (e) {
     if (e.code !== 'ENOENT') throw e
-    svg = buildNewSvg(mapMeta, roomRows, exitRows, mapId)
+    svg = buildNewSvg(mapMeta, roomRows, exitRows, mapId, stairRooms)
   }
 
   await fs.writeFile(outPath, svg, 'utf8')

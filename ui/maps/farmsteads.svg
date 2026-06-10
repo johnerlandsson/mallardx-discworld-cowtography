@@ -38,13 +38,13 @@
     <line id="edge-61b298874b043f2429297ad0f7451da88a08d739-a08652b7643a985b1cff7f63faf64fe0dde55cf8" class="exit" x1="417" y1="199" x2="389" y2="199"/>
     <line id="edge-23709d1f4197618c8048acf48435cca92aac1ad0-61b298874b043f2429297ad0f7451da88a08d739" class="exit" x1="445" y1="199" x2="417" y2="199"/>
     <line id="edge-61b298874b043f2429297ad0f7451da88a08d739-c6b7a2925b57378d3d9cb11f1d7b527d226edc14" class="exit" x1="417" y1="199" x2="417" y2="171"/>
-    <line id="edge-23709d1f4197618c8048acf48435cca92aac1ad0-eb35ca5696454ddbab95cac51d1c72fbb7e986e8" class="exit" x1="445" y1="199" x2="445" y2="223"/>
+    null
     <line id="edge-5fbec141bfacef2e1680ffe129ebc9313ce71ef3-61d4bb406d16b0694655e340146ad0ccbeeae985" class="exit" x1="417" y1="115" x2="445" y2="115"/>
     <line id="edge-61d4bb406d16b0694655e340146ad0ccbeeae985-a320328c401db9ab066c32ed3a38768459c72567" class="exit" x1="445" y1="115" x2="473" y2="115"/>
-    <line id="edge-61d4bb406d16b0694655e340146ad0ccbeeae985-fcf6d2100690ec5d38992bec94065b21d152a853" class="exit" x1="445" y1="115" x2="445" y2="91"/>
+    null
     <line id="edge-a320328c401db9ab066c32ed3a38768459c72567-c527212481a69746d2613a2c50bb085bab4c40b5" class="exit" x1="473" y1="115" x2="473" y2="143"/>
-    <line id="edge-1f28a840ada60cf8e58aed3a53baa06cd38f0b48-c527212481a69746d2613a2c50bb085bab4c40b5" class="exit" x1="495" y1="121" x2="473" y2="143"/>
-    <line id="edge-1f28a840ada60cf8e58aed3a53baa06cd38f0b48-c5e34ba9710c709d65c01b964c4e7002c679f300" class="exit" x1="495" y1="121" x2="495" y2="97"/>
+    null
+    null
     <line id="edge-0f538e49226c7c977ca09e904dececda10538782-fcf6d2100690ec5d38992bec94065b21d152a853" class="exit" x1="417" y1="91" x2="445" y2="91"/>
     <line id="edge-b991cb2bb664b2c38e6efbaa6e83ac4a0f267224-fcf6d2100690ec5d38992bec94065b21d152a853" class="exit" x1="473" y1="91" x2="445" y2="91"/>
   </g>
@@ -71,16 +71,16 @@
     <rect id="room-8cd089f254725933e268f2da401547618f2d9479" class="room indoor" data-label="western side of the Chronides farmyard" x="385" y="167" width="8" height="8" rx="2"/>
     <rect id="room-a08652b7643a985b1cff7f63faf64fe0dde55cf8" class="room indoor" data-label="west end of the barn" x="385" y="195" width="8" height="8" rx="2"/>
     <rect id="room-61b298874b043f2429297ad0f7451da88a08d739" class="room indoor" data-label="centre of the barn" x="413" y="195" width="8" height="8" rx="2"/>
-    <rect id="room-23709d1f4197618c8048acf48435cca92aac1ad0" class="room indoor" data-label="east end of the barn" x="441" y="195" width="8" height="8" rx="2"/>
-    <rect id="room-eb35ca5696454ddbab95cac51d1c72fbb7e986e8" class="room indoor" data-label="hayloft" x="441" y="219" width="8" height="8" rx="2"/>
+    <rect id="room-23709d1f4197618c8048acf48435cca92aac1ad0" class="room indoor" data-label="east end of the barn" x="441" y="195" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="445,196 442.5,201 447.5,201"/>
+    <rect id="room-eb35ca5696454ddbab95cac51d1c72fbb7e986e8" class="room indoor" data-label="hayloft" x="441" y="219" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="445,226 442.5,221 447.5,221"/>
     <rect id="room-c6b7a2925b57378d3d9cb11f1d7b527d226edc14" class="room indoor" data-label="middle of the Chronides farmyard" x="413" y="167" width="8" height="8" rx="2"/>
     <rect id="room-5fbec141bfacef2e1680ffe129ebc9313ce71ef3" class="room indoor" data-label="andron" x="413" y="111" width="8" height="8" rx="2"/>
-    <rect id="room-61d4bb406d16b0694655e340146ad0ccbeeae985" class="room indoor" data-label="kitchen" x="441" y="111" width="8" height="8" rx="2"/>
+    <rect id="room-61d4bb406d16b0694655e340146ad0ccbeeae985" class="room indoor" data-label="kitchen" x="441" y="111" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="445,112 442.5,117 447.5,117"/>
     <rect id="room-a320328c401db9ab066c32ed3a38768459c72567" class="room indoor" data-label="living room" x="469" y="111" width="8" height="8" rx="2"/>
-    <rect id="room-c527212481a69746d2613a2c50bb085bab4c40b5" class="room indoor" data-label="storeroom" x="469" y="139" width="8" height="8" rx="2"/>
-    <rect id="room-1f28a840ada60cf8e58aed3a53baa06cd38f0b48" class="room indoor" data-label="small landing" x="491" y="117" width="8" height="8" rx="2"/>
-    <rect id="room-c5e34ba9710c709d65c01b964c4e7002c679f300" class="room indoor" data-label="defensive tower" x="491" y="93" width="8" height="8" rx="2"/>
-    <rect id="room-fcf6d2100690ec5d38992bec94065b21d152a853" class="room indoor" data-label="slave&#x27;s bedroom" x="441" y="87" width="8" height="8" rx="2"/>
+    <rect id="room-c527212481a69746d2613a2c50bb085bab4c40b5" class="room indoor" data-label="storeroom" x="469" y="139" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="473,140 470.5,145 475.5,145"/>
+    <rect id="room-1f28a840ada60cf8e58aed3a53baa06cd38f0b48" class="room indoor" data-label="small landing" x="491" y="117" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="495,118 497.5,121 495,124 492.5,121"/>
+    <rect id="room-c5e34ba9710c709d65c01b964c4e7002c679f300" class="room indoor" data-label="defensive tower" x="491" y="93" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="495,100 492.5,95 497.5,95"/>
+    <rect id="room-fcf6d2100690ec5d38992bec94065b21d152a853" class="room indoor" data-label="slave&#x27;s bedroom" x="441" y="87" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="445,94 442.5,89 447.5,89"/>
     <rect id="room-b991cb2bb664b2c38e6efbaa6e83ac4a0f267224" class="room indoor" data-label="master bedroom" x="469" y="87" width="8" height="8" rx="2"/>
     <rect id="room-0f538e49226c7c977ca09e904dececda10538782" class="room indoor" data-label="women&#x27;s quarters" x="413" y="87" width="8" height="8" rx="2"/>
     <rect id="room-3d38d64eb584226ebf19ea6224ac2927d3e18d71" class="room indoor" data-label="tomato farm" x="357" y="83" width="8" height="8" rx="2"/>
