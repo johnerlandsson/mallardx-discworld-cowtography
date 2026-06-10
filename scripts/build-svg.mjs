@@ -330,9 +330,11 @@ export function buildLibraryRowNumbers() {
 export function buildLibraryBookList(booksArray = []) {
   if (!booksArray.length) return ''
   const x      = LIB_COLS[LIB_COLS.length - 1] + 10 + 20  // 286: right of room tiles
-  const startY = LIB_ENTRY_Y + 15                           // below entrance row
   const LINE   = 12
+  const FONT   = 9  // matches .lib-book-list font-size
   const sorted = [...booksArray].sort((a, b) => a[2] - b[2])
+  const n      = sorted.length
+  const startY = LIB_ENTRY_Y - (n - 1) * LINE - FONT       // bottom-align last item with row 1
   const items  = sorted.map(([,, number, description], i) =>
     `    <text class="lib-book-list" x="${x}" y="${startY + i * LINE}" dominant-baseline="hanging">${escapeXml(`${number}: ${description}`)}</text>`
   )
