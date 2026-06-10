@@ -53,11 +53,11 @@ body {
 /* ─── Inline SVG maps ──────────────────────────────────────────────────────── */
 .map-svg { width: 100%; height: 100%; display: block; }
 
-.room         { fill: var(--bg); stroke: var(--fg); stroke-width: 1.8; }
-.room.route   { fill: #0d2d4a;   stroke: #00d2ff;   stroke-width: 2.25; }
-.room.current { fill: #ff3b30;   stroke: #fff;      stroke-width: 2.25; }
-.exit         { stroke: #3a3a3a; stroke-width: 1.65; fill: none; }
-.exit.route   { stroke: #00d2ff; stroke-width: 2.75; }
+.room         { fill: var(--bg); stroke: var(--fg); stroke-width: 1.62; }
+.room.route   { fill: #0d2d4a;   stroke: #00d2ff;   stroke-width: 2.03; }
+.room.current { fill: #ff3b30;   stroke: #fff;      stroke-width: 2.03; }
+.exit         { stroke: #3a3a3a; stroke-width: 1.82; fill: none; }
+.exit.route   { stroke: #00d2ff; stroke-width: 3.03; }
 .stair-symbol { fill: var(--fg); pointer-events: none; }
 
 /* ─── UU Library overlay ───────────────────────────────────────────────────── */
