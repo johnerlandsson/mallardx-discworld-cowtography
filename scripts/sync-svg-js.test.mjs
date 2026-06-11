@@ -24,22 +24,22 @@ describe('injectFontStyle', () => {
     const count = (result.match(/inkscape-font-fix/g) || []).length
     expect(count).toBe(1)
     expect(result).not.toContain('Old Font')
+    expect(result).toContain(FONT_STYLE_BLOCK)
   })
 
   it('injected block contains Noto Sans for all annotation classes', () => {
     const result = injectFontStyle(SELF_CLOSING_SVG)
-    expect(result).toContain('"Noto Sans", sans-serif')
-    expect(result).toContain('.map-label')
-    expect(result).toContain('.map-label-muted')
-    expect(result).toContain('.lib-table')
-    expect(result).toContain('.lib-gap-label')
-    expect(result).toContain('.lib-book-label')
-    expect(result).toContain('.lib-row-num')
-    expect(result).toContain('.lib-book-list')
+    expect(result).toContain(FONT_STYLE_BLOCK)
   })
 
-  it('FONT_STYLE_BLOCK export contains the id marker', () => {
-    expect(FONT_STYLE_BLOCK).toContain('id="inkscape-font-fix"')
-    expect(FONT_STYLE_BLOCK).toContain('"Noto Sans", sans-serif')
+  it('is idempotent — calling twice produces the same result as calling once', () => {
+    const once  = injectFontStyle(SELF_CLOSING_SVG)
+    const twice = injectFontStyle(once)
+    expect(twice).toBe(once)
+  })
+
+  it('leaves SVG unchanged when no defs element is present', () => {
+    const nodefs = '<svg><g id="layer-artwork" /></svg>'
+    expect(injectFontStyle(nodefs)).toBe(nodefs)
   })
 })

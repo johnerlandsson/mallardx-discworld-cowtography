@@ -27,16 +27,18 @@ import { fileURLToPath } from 'node:url'
 
 const OUT_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', 'ui', 'maps')
 
-const svgs = (await fs.readdir(OUT_DIR)).filter(f => f.endsWith('.svg'))
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
+  const svgs = (await fs.readdir(OUT_DIR)).filter(f => f.endsWith('.svg'))
 
-for (const file of svgs) {
-  const svgPath    = path.join(OUT_DIR, file)
-  const jsPath     = svgPath.replace('.svg', '.js')
-  const svg        = await fs.readFile(svgPath, 'utf8')
-  const updatedSvg = injectFontStyle(svg)
-  await fs.writeFile(svgPath, updatedSvg, 'utf8')
-  await fs.writeFile(jsPath, `export default ${JSON.stringify(updatedSvg)};\n`, 'utf8')
-  console.log(`  synced  ${file}`)
+  for (const file of svgs) {
+    const svgPath    = path.join(OUT_DIR, file)
+    const jsPath     = svgPath.replace(/\.svg$/, '.js')
+    const svg        = await fs.readFile(svgPath, 'utf8')
+    const updatedSvg = injectFontStyle(svg)
+    if (updatedSvg !== svg) await fs.writeFile(svgPath, updatedSvg, 'utf8')
+    await fs.writeFile(jsPath, `export default ${JSON.stringify(updatedSvg)};\n`, 'utf8')
+    console.log(`  synced  ${file}`)
+  }
+
+  console.log(`done — ${svgs.length} files synced.`)
 }
-
-console.log(`done — ${svgs.length} files synced.`)
