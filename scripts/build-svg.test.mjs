@@ -298,12 +298,13 @@ describe('buildNewSvg', () => {
     expect(svg).toContain('class="map-svg"')
   })
 
-  it('has four layers in order: artwork, exits, rooms, labels', () => {
+  it('has five layers in order: artwork, exits, rooms, room-labels, labels', () => {
     const svg = buildNewSvg(mapMeta, rooms, exits, 7)
     const pos = id => svg.indexOf(`id="${id}"`)
     expect(pos('layer-artwork')).toBeLessThan(pos('layer-exits'))
     expect(pos('layer-exits')).toBeLessThan(pos('layer-rooms'))
-    expect(pos('layer-rooms')).toBeLessThan(pos('layer-labels'))
+    expect(pos('layer-rooms')).toBeLessThan(pos('layer-room-labels'))
+    expect(pos('layer-room-labels')).toBeLessThan(pos('layer-labels'))
   })
 
   it('uses circles for topLevel maps', () => {
@@ -364,6 +365,23 @@ describe('updateExistingSvg', () => {
     )
     expect(updateExistingSvg(svg, mapMeta, origRooms, origExits)).toContain('Hand-crafted label')
   })
+
+  it('inserts layer-room-labels after layer-rooms when missing from existing SVG', () => {
+    // Simulate old SVG without the new layer
+    const oldSvg = makeSvg().replace('\n\n  <g id="layer-room-labels"></g>', '')
+    const updated = updateExistingSvg(oldSvg, mapMeta, origRooms, origExits)
+    const pos = id => updated.indexOf(`id="${id}"`)
+    expect(pos('layer-room-labels')).toBeGreaterThan(pos('layer-rooms'))
+    expect(pos('layer-room-labels')).toBeLessThan(pos('layer-labels'))
+  })
+
+  it('preserves existing layer-room-labels content on update', () => {
+    const svg = makeSvg().replace(
+      '<g id="layer-room-labels"></g>',
+      '<g id="layer-room-labels"><text class="room-type-label" x="10" y="20">X</text></g>'
+    )
+    expect(updateExistingSvg(svg, mapMeta, origRooms, origExits)).toContain('>X<')
+  })
 })
 
 describe('buildLibrarySvg', () => {
@@ -423,11 +441,15 @@ describe('buildLibrarySvg', () => {
     expect(svg).not.toContain('class="exit"')
   })
 
-  it('has all four layers', () => {
+  it('has all five layers in order', () => {
+    const pos = id => svg.indexOf(`id="${id}"`)
     expect(svg).toContain('id="layer-artwork"')
     expect(svg).toContain('id="layer-exits"')
     expect(svg).toContain('id="layer-rooms"')
+    expect(svg).toContain('id="layer-room-labels"')
     expect(svg).toContain('id="layer-labels"')
+    expect(pos('layer-rooms')).toBeLessThan(pos('layer-room-labels'))
+    expect(pos('layer-room-labels')).toBeLessThan(pos('layer-labels'))
   })
 
   it('lib-arrow renders after room tiles (z-order fix)', () => {

@@ -224,6 +224,8 @@ ${exitLines}
 ${roomShapes}
   </g>
 
+  <g id="layer-room-labels"></g>
+
   <g id="layer-labels"><!-- labels --></g>
 
 </svg>`
@@ -242,6 +244,12 @@ export function updateExistingSvg(existingSvg, mapMeta, rooms, exits, stairRooms
     /(<g id="layer-rooms">)([\s\S]*?)(<\/g>)/,
     `$1\n${roomShapes}\n  $3`
   )
+  if (!svg.includes('id="layer-room-labels"')) {
+    svg = svg.replace(
+      /(\n  <g id="layer-labels">)/,
+      `\n\n  <g id="layer-room-labels"></g>$1`
+    )
+  }
   return svg
 }
 
@@ -444,6 +452,8 @@ export function buildLibrarySvg(missingSet = new Set(), tablesArray = [], gapsAr
 ${buildLibraryRoomsContent(missingSet, gapsArray, booksArray)}
   </g>
 
+  <g id="layer-room-labels"></g>
+
   <g id="layer-labels">
 ${allLabels}  </g>
 
@@ -467,6 +477,12 @@ function updateLibrarySvg(existingSvg, missingSet, tablesArray = [], gapsArray =
     /(<g id="layer-labels">)([\s\S]*?)(<\/g>)/,
     `$1\n${allLabels}  $3`
   )
+  if (!svg.includes('id="layer-room-labels"')) {
+    svg = svg.replace(
+      /(\n  <g id="layer-labels">)/,
+      `\n\n  <g id="layer-room-labels"></g>$1`
+    )
+  }
   return svg
 }
 
