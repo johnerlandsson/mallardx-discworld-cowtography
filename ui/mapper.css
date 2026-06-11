@@ -150,10 +150,3 @@ body {
   font-size: 0.65rem; margin-top: 0.2em; letter-spacing: 0.07em; opacity: 0.5;
 }
 
-.tooltip {
-  position: absolute; pointer-events: none;
-  background: var(--bg-elevated, rgba(0,0,0,0.85));
-  color: var(--fg); font-size: 11px;
-  padding: 3px 6px; border-radius: 3px; border: 1px solid var(--border);
-  white-space: nowrap; z-index: 10;
-}

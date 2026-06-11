@@ -11,7 +11,6 @@ const $lspace       = document.querySelector(".lspace-overlay");
 const $special      = document.querySelector(".special-screen");
 const $specialTitle = $special.querySelector(".special-title");
 const $specialSub   = $special.querySelector(".special-sub");
-const $tooltip      = document.querySelector(".tooltip");
 const $zoomIn       = document.querySelector(".zoom-in");
 const $zoomOut      = document.querySelector(".zoom-out");
 
@@ -227,16 +226,12 @@ function wireTooltip() {
     const roomEl = e.target.closest(".room");
     const label  = roomEl?.dataset.label ?? "";
     if (label) {
-      const rect = $container.getBoundingClientRect();
-      $tooltip.hidden    = false;
-      $tooltip.textContent = label;
-      $tooltip.style.left  = `${e.clientX - rect.left + 12}px`;
-      $tooltip.style.top   = `${e.clientY - rect.top  + 12}px`;
+      panel.tooltip.show({ x: e.clientX, y: e.clientY, width: 0, height: 0 }, { title: label });
     } else {
-      $tooltip.hidden = true;
+      panel.tooltip.hide();
     }
   });
-  currentSvg.addEventListener("pointerleave", () => { $tooltip.hidden = true; });
+  currentSvg.addEventListener("pointerleave", () => { panel.tooltip.hide(); });
 }
 
 // ─── Header ───────────────────────────────────────────────────────────────
