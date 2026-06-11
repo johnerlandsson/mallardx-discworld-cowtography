@@ -65,6 +65,7 @@ body {
 .room.current { fill: #ff3b30;   stroke: #fff;      stroke-width: 2.03; }
 .exit         { stroke: #3a3a3a; stroke-width: 1.82; fill: none; }
 .exit.route   { stroke: #00d2ff; stroke-width: 3.03; }
+.exit-offmap  { stroke: var(--muted); stroke-width: 1.5; stroke-dasharray: 3 2; fill: none; }
 .lib-exit     { stroke-width: 3; }
 .stair-symbol { fill: var(--fg); pointer-events: none; }
 .room-type-label { font-family: "Noto Sans", sans-serif; font-size: 4.5px; font-weight: bold; fill: #eaeaea; pointer-events: none; transform: translateY(-0.3px); }
