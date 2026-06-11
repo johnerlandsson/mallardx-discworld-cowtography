@@ -75,4 +75,52 @@ An annotation box is:
 
 ## Layers
 
-Work only in **`layer-artwork`**. Other layers (rooms, exits, labels) are managed by the build script and will be overwritten on the next `build:svg` run. Use Inkscape's Layers panel (Layer → Layers…) to confirm you are on the correct layer before drawing.
+| Layer | Purpose | Preserved |
+|---|---|---|
+| `layer-artwork` | Background art, area fills, annotation boxes | ✓ |
+| `layer-exits` | Exit lines — **do not edit** | generated |
+| `layer-rooms` | Room shapes — **do not edit** | generated |
+| `layer-room-labels` | In-room annotation text (see below) | ✓ |
+| `layer-labels` | Map text labels, anno-boxes — **do not edit standard maps** | generated |
+
+Work only in **`layer-artwork`** for background art and **`layer-room-labels`** for in-room annotations. Other layers are overwritten on every `build:svg` run.
+
+## In-room annotations
+
+You can place custom text (a letter, symbol, or short code) inside a room circle or square. These must go in **`layer-room-labels`** — this layer renders on top of room fills and is preserved across `build:svg` runs.
+
+If `layer-room-labels` is not visible in Inkscape's layers panel, run `npm run build:svg` once to regenerate the SVG with the new layer.
+
+### Finding the room center coordinates
+
+Open the generated `.svg` in a text editor and search for the room's `id` attribute:
+
+- **Outdoor circle:** `<circle id="room-XXXX" ... cx="100" cy="200" r="4"/>` → center is `(100, 200)`
+- **Indoor rect:** `<rect id="room-XXXX" ... x="96" y="196" width="8" height="8"/>` → center is `x + 4, y + 4` = `(100, 200)`
+
+The `data-label` attribute on room elements shows the room's short name, which can help you identify the right room.
+
+### Text element attributes
+
+Set these in the XML editor (Shift+Ctrl+X):
+
+| Attribute | Value | Purpose |
+|---|---|---|
+| `class` | `room-type-label` | Noto Sans bold 4.5px, light fill |
+| `text-anchor` | `middle` | Horizontal centering |
+| `dominant-baseline` | `central` | Vertical centering |
+| `x` | room center X | e.g. `100` |
+| `y` | room center Y | e.g. `200` |
+
+The `room-type-label` class sets `font-size: 4.5px; font-weight: bold; fill: #eaeaea`. For untyped (plain) rooms with the dark background, use `fill="var(--fg)"` instead of the class.
+
+Do not override `font-family` in Inkscape — the class controls it.
+
+### Workflow
+
+1. Run `npm run build:svg` to ensure `layer-room-labels` exists in the SVG
+2. Open the SVG in Inkscape — switch to the `layer-room-labels` layer
+3. Draw a `<text>` element at the room center with the attributes above
+4. Save in Inkscape
+5. Run `npm run sync:svg` to update the `.js` module
+6. Reload the plugin in Mallard
