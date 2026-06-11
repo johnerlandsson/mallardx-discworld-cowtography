@@ -1097,17 +1097,17 @@
     <circle id="room-32226a1fa4f3a7534e4db7f02d0b1d5a88c555d9" class="room outdoor room-access" data-label="Antithesis Lane" cx="491" cy="489" r="4"/><text class="room-type-label" x="491" y="489" text-anchor="middle" dominant-baseline="central">X</text>
     <circle id="room-5eaf427250c52f9b9ebca905013e528895e59da6" class="room outdoor room-armour" data-label="engraving shop" cx="491" cy="478" r="4"/><text class="room-type-label" x="491" y="478" text-anchor="middle" dominant-baseline="central">A</text>
     <circle id="room-57c05b0b807fa921e0acfb26493fa4996a043d36" class="room outdoor" data-label="Southern Gardens" cx="477" cy="503" r="4"/>
-    <circle id="room-6b920576ef12d0e2787c065c67e92fe77da18dc2" class="room outdoor" data-label="[player shop]" cx="477" cy="503" r="4"/>
+    <circle id="room-6b920576ef12d0e2787c065c67e92fe77da18dc2" class="room outdoor room-pshop" data-label="[player shop]" cx="477" cy="503" r="4"/><text class="room-type-label" x="477" y="503" text-anchor="middle" dominant-baseline="central">P</text>
     <circle id="room-a911a7d8f3855723466628d410c02452be50b7a8" class="room outdoor" data-label="Southern Gardens" cx="477" cy="489" r="4"/>
-    <circle id="room-d8e6fd2776b409a96d7d05a05b1c2149459cebac" class="room outdoor" data-label="[player shop]" cx="477" cy="489" r="4"/>
+    <circle id="room-d8e6fd2776b409a96d7d05a05b1c2149459cebac" class="room outdoor room-pshop" data-label="[player shop]" cx="477" cy="489" r="4"/><text class="room-type-label" x="477" y="489" text-anchor="middle" dominant-baseline="central">P</text>
     <circle id="room-7899518740db02fbeba283e7f51c2149d1c71a03" class="room outdoor" data-label="Southern Gardens" cx="463" cy="489" r="4"/>
-    <circle id="room-50898d68490acce66b7e9a7ab648e2bffeb91e74" class="room outdoor" data-label="[player shop]" cx="463" cy="489" r="4"/>
+    <circle id="room-50898d68490acce66b7e9a7ab648e2bffeb91e74" class="room outdoor room-pshop" data-label="[player shop]" cx="463" cy="489" r="4"/><text class="room-type-label" x="463" y="489" text-anchor="middle" dominant-baseline="central">P</text>
     <circle id="room-19ad4a8929217b20a045c22dda17a865f97e2215" class="room outdoor" data-label="Southern Gardens" cx="463" cy="503" r="4"/>
-    <circle id="room-7b4395c3f9f5ecb6199efd6451ca1fce23442a79" class="room outdoor" data-label="[player shop]" cx="463" cy="503" r="4"/>
+    <circle id="room-7b4395c3f9f5ecb6199efd6451ca1fce23442a79" class="room outdoor room-pshop" data-label="[player shop]" cx="463" cy="503" r="4"/><text class="room-type-label" x="463" y="503" text-anchor="middle" dominant-baseline="central">P</text>
     <circle id="room-3776434aead03b571de3dc5e44e898cba51a7add" class="room outdoor" data-label="Southern Gardens" cx="463" cy="517" r="4"/>
-    <circle id="room-5243b18d1b371c34f39e634f188b25d9416e7acd" class="room outdoor" data-label="[player shop]" cx="463" cy="517" r="4"/>
+    <circle id="room-5243b18d1b371c34f39e634f188b25d9416e7acd" class="room outdoor room-pshop" data-label="[player shop]" cx="463" cy="517" r="4"/><text class="room-type-label" x="463" y="517" text-anchor="middle" dominant-baseline="central">P</text>
     <circle id="room-8d6c157d6bee2c0fd3933f0b73f3f54a4a9552d8" class="room outdoor" data-label="Southern Gardens" cx="477" cy="517" r="4"/>
-    <circle id="room-66c6319c33e2d7972bacd923dc193972ec021eb8" class="room outdoor" data-label="[player shop]" cx="477" cy="517" r="4"/>
+    <circle id="room-66c6319c33e2d7972bacd923dc193972ec021eb8" class="room outdoor room-pshop" data-label="[player shop]" cx="477" cy="517" r="4"/><text class="room-type-label" x="477" y="517" text-anchor="middle" dominant-baseline="central">P</text>
     <circle id="room-28188e634321d20c69d5d60196de406d9a09a485" class="room outdoor" data-label="Southern Gardens" cx="449" cy="503" r="4"/>
     <circle id="room-53a5904d59bba5a0e8a560f2bff2e63a04ee627c" class="room outdoor" data-label="Southern Gardens" cx="449" cy="517" r="4"/>
     <circle id="room-3a9d20376a4b7a087f54e13068383b4df5544311" class="room outdoor" data-label="Southern Gardens" cx="449" cy="531" r="4"/>
@@ -1385,7 +1385,7 @@
     <circle id="room-bb138a9349adf67346cc5819aa31c990084ef2f6" class="room outdoor" data-label="abandoned stall" cx="379" cy="349" r="4"/>
     <circle id="room-78896e4cf33010ca9438160182e794eb929ea583" class="room outdoor room-access" data-label="boring area of the Harbour Market, with only a cobbler&#x27;s stall to make it interesting" cx="393" cy="349" r="4"/><text class="room-type-label" x="393" y="349" text-anchor="middle" dominant-baseline="central">X</text>
     <circle id="room-5b7c6cc0ad1ed4b5250a681a390918afe25835a2" class="room outdoor" data-label="Impartiality Avenue" cx="407" cy="349" r="4"/>
-    <circle id="room-69fe2f5e7ef5df80de47f3569c3086f2b9fe8a1e" class="room outdoor" data-label="neat branch of Bing&#x27;s bank" cx="418" cy="349" r="4"/>
+    <circle id="room-69fe2f5e7ef5df80de47f3569c3086f2b9fe8a1e" class="room outdoor room-bank" data-label="neat branch of Bing&#x27;s bank" cx="418" cy="349" r="4"/><text class="room-type-label" x="418" y="349" text-anchor="middle" dominant-baseline="central">$</text>
     <circle id="room-10052aaf26ad35faa0d7d5a48351aec96cf306ce" class="room outdoor" data-label="Impartiality Avenue by a shrine to Glaxos" cx="407" cy="335" r="4"/>
     <circle id="room-c4ef5a570d4d747808791e2181c848fc7443fefe" class="room outdoor" data-label="Temple of Glaxos" cx="418" cy="335" r="4"/>
     <circle id="room-042500d70cc8f34907e82e43e5c2d9dc99688b47" class="room outdoor room-shop" data-label="section of the Harbour Market by a stall selling backpacks" cx="393" cy="335" r="4"/><text class="room-type-label" x="393" y="335" text-anchor="middle" dominant-baseline="central">S</text>
@@ -1625,7 +1625,7 @@
     <circle id="room-d56a899f970f0661861bca1bc12e7f2dc44c9d33" class="room outdoor" data-label="living room" cx="222" cy="433" r="4"/><polygon class="stair-symbol" points="222,430 219.5,435 224.5,435"/>
     <circle id="room-abb00e64c3e78b56af406b5023a0b03c247d3346" class="room outdoor" data-label="hallway" cx="449" cy="458" r="4"/><polygon class="stair-symbol" points="449,455 451.5,458 449,461 446.5,458"/>
     <circle id="room-2d5f67fff7e76dbea9dec70bf031a8161d9f06f7" class="room outdoor" data-label="hallway" cx="491" cy="360" r="4"/>
-    <circle id="room-e8efd8ea4f6d026929a237adfe2a2f3edaec125c" class="room outdoor" data-label="[player shop]" cx="516" cy="377" r="4"/>
+    <circle id="room-e8efd8ea4f6d026929a237adfe2a2f3edaec125c" class="room outdoor room-pshop" data-label="[player shop]" cx="516" cy="377" r="4"/><text class="room-type-label" x="516" y="377" text-anchor="middle" dominant-baseline="central">P</text>
     <circle id="room-eb2565111f00846b83af80f3d8689ed82ad3e419" class="room outdoor room-clothes" data-label="wood workshop" cx="561" cy="604" r="4"/><text class="room-type-label" x="561" y="604" text-anchor="middle" dominant-baseline="central">C</text>
     <circle id="room-094c71acbdfa8d03963f64e8dc7beb9d493f87d0" class="room outdoor" data-label="spacious vestibule" cx="365" cy="450" r="4"/><polygon class="stair-symbol" points="365,447 362.5,452 367.5,452"/>
     <circle id="room-9bfafafac02d181f44e61194778f1113b98ef54f" class="room outdoor" data-label="A dark spot behind the clematis" cx="505" cy="391" r="4"/>
@@ -1634,7 +1634,7 @@
     <circle id="room-850cfde746515f81a9f9e9b50aab59bbd6cb6d32" class="room outdoor" data-label="living room" cx="617" cy="380" r="4"/><polygon class="stair-symbol" points="617,377 614.5,382 619.5,382"/>
     <circle id="room-787d74ed2aa608bd613b0a9c20d3ead38a36a8d2" class="room outdoor" data-label="living room" cx="628" cy="391" r="4"/><polygon class="stair-symbol" points="628,388 625.5,393 630.5,393"/>
     <circle id="room-e19d92d548347d7fff05a4df493e615f3cc89ac8" class="room outdoor" data-label="living room" cx="617" cy="402" r="4"/><polygon class="stair-symbol" points="617,399 614.5,404 619.5,404"/>
-    <circle id="room-1ffb86bcfbb496f5cb85e5588a05bedf74264201" class="room outdoor" data-label="[player shop]" cx="365" cy="248" r="4"/>
+    <circle id="room-1ffb86bcfbb496f5cb85e5588a05bedf74264201" class="room outdoor room-pshop" data-label="[player shop]" cx="365" cy="248" r="4"/><text class="room-type-label" x="365" y="248" text-anchor="middle" dominant-baseline="central">P</text>
     <circle id="room-bf656ce67e35ff28ed2b93df04663c2f85f1b606" class="room outdoor" data-label="meditation room" cx="141" cy="402" r="4"/><polygon class="stair-symbol" points="141,399 138.5,404 143.5,404"/>
     <circle id="room-050e7bfca765509b68e7985c50c66e3166acdafd" class="room outdoor" data-label="flat section of roof" cx="119" cy="345" r="4"/><polygon class="stair-symbol" points="119,348 116.5,343 121.5,343"/>
     <circle id="room-c323f6d20b3d960750799a065dc80c75fe92aba2" class="room outdoor" data-label="armoury" cx="119" cy="345" r="4"/>

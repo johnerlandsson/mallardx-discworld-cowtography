@@ -172,7 +172,7 @@
     <rect id="room-55fd1e102b5481b31b96191e4aaa2715cd21c3c6" class="room indoor" data-label="cellar corridor" x="372" y="584" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="376,585 373.5,590 378.5,590"/>
     <rect id="room-94d124a6a16e3c037f5cc84ac39de9d0cbe27a05" class="room indoor" data-label="cellar corridor" x="372" y="612" width="8" height="8" rx="2"/>
     <rect id="room-c34f7bdd3ca3a9f725e869471c33ae0606300868" class="room indoor" data-label="lounge" x="372" y="640" width="8" height="8" rx="2"/>
-    <rect id="room-2acb72bf9c57f9fc413fdf284b8c7b3d3c7af9b8" class="room indoor" data-label="[player shop]" x="400" y="640" width="8" height="8" rx="2"/>
+    <rect id="room-2acb72bf9c57f9fc413fdf284b8c7b3d3c7af9b8" class="room indoor room-pshop" data-label="[player shop]" x="400" y="640" width="8" height="8" rx="2"/><text class="room-type-label" x="404" y="644" text-anchor="middle" dominant-baseline="central">P</text>
     <rect id="room-bb8a3dd24ca7f2102f02c94b0f0fc5803fec5581" class="room indoor" data-label="bathroom" x="400" y="612" width="8" height="8" rx="2"/>
     <rect id="room-96a64680d514726c16575b4c260ffc0c2cd6e8e9" class="room indoor" data-label="storeroom" x="344" y="612" width="8" height="8" rx="2"/>
     <rect id="room-bbb66f54ae197158ea0b9eb58940d3ac35033c81" class="room indoor" data-label="cutpurses&#x27; dormitory" x="344" y="584" width="8" height="8" rx="2"/>

@@ -1382,7 +1382,7 @@
     <circle id="room-b210eb9f0242cc265546d7898ac60e0f12817277" class="room outdoor" data-label="Garlic Street east of the bazaar" cx="494" cy="425" r="4"/>
     <circle id="room-1fb8ec5a1f1c29d2aef81fd20d88bae58e0064e9" class="room outdoor" data-label="Garlic Street southeast of the bazaar" cx="480" cy="425" r="4"/>
     <circle id="room-44408d86685482c895bd5fb5c064208d9b004965" class="room outdoor" data-label="southeastern corner of the east bazaar" cx="480" cy="411" r="4"/>
-    <circle id="room-bae3ae4e25b6758817814b1bb4c69842607b729e" class="room outdoor" data-label="[player shop]" cx="491" cy="411" r="4"/>
+    <circle id="room-bae3ae4e25b6758817814b1bb4c69842607b729e" class="room outdoor room-pshop" data-label="[player shop]" cx="491" cy="411" r="4"/><text class="room-type-label" x="491" y="411" text-anchor="middle" dominant-baseline="central">P</text>
     <circle id="room-267a1e0b26795f7a67211c71c9b265c35f306aae" class="room outdoor" data-label="eastern side of the east bazaar" cx="480" cy="397" r="4"/>
     <circle id="room-cd288cae38a7bad77691cd26763d687e10bb4937" class="room outdoor" data-label="northeastern corner of the east bazaar" cx="480" cy="383" r="4"/>
     <circle id="room-c77e2cfa1dff2569b09e74decbb16bc0d488206f" class="room outdoor" data-label="language school foyer" cx="491" cy="383" r="4"/><polygon class="stair-symbol" points="491,380 488.5,385 493.5,385"/>
@@ -1509,7 +1509,7 @@
     <circle id="room-ea339b022b59880b3a9312ebf433bcb90f125657" class="room outdoor" data-label="reception corridor" cx="86" cy="187" r="4"/>
     <circle id="room-3f545320010e36a11d9a319115d6079af50e279a" class="room outdoor" data-label="middle of Market Street" cx="382" cy="369" r="4"/>
     <circle id="room-02b6ae2589b52df023cea5ac3921a67b13c58ae1" class="room outdoor" data-label="Djelibeybi Real Estate Agency" cx="372" cy="379" r="4"/>
-    <circle id="room-abded00cf8ea30c9726940db61634abb4bf236f8" class="room outdoor" data-label="[player shop]" cx="382" cy="358" r="4"/>
+    <circle id="room-abded00cf8ea30c9726940db61634abb4bf236f8" class="room outdoor room-pshop" data-label="[player shop]" cx="382" cy="358" r="4"/><text class="room-type-label" x="382" y="358" text-anchor="middle" dominant-baseline="central">P</text>
     <circle id="room-cb9e5cd533896c01ca22759af288eb4742c5bf24" class="room outdoor" data-label="Market Street" cx="326" cy="355" r="4"/>
     <circle id="room-1a5ad9d766f5cf2ff7345bb33c66fa80ce352582" class="room outdoor" data-label="entrance to the Hood" cx="148" cy="227" r="4"/>
     <circle id="room-b39911dbdf637942dcdc56bfd1668e26fda14e83" class="room outdoor" data-label="Hood&#x27;s southeastern plaza" cx="148" cy="214" r="4"/>

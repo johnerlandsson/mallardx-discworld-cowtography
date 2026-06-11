@@ -514,7 +514,7 @@
     <circle id="room-35b2556979ea2afcf858b73a4c568dc55225b0f3" class="room outdoor room-access" data-label="magic shop" cx="1372" cy="488" r="4"/><text class="room-type-label" x="1372" y="488" text-anchor="middle" dominant-baseline="central">X</text>
     <circle id="room-a0152aec7e4dfed9e3eaea06ff56c024e741fcfc" class="room outdoor room-food" data-label="loud pub" cx="1372" cy="456" r="4"/><text class="room-type-label" x="1372" y="456" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-1a002d22b72b99db6cb99ed91450fa5726f14785" class="room outdoor" data-label="road running through Hillshire" cx="1386" cy="467" r="4"/>
-    <circle id="room-7a4ee137e6b6402ed78da377e17511ff88a47e89" class="room outdoor" data-label="local branch of Bing&#x27;s Bank" cx="1386" cy="478" r="4"/>
+    <circle id="room-7a4ee137e6b6402ed78da377e17511ff88a47e89" class="room outdoor room-bank" data-label="local branch of Bing&#x27;s Bank" cx="1386" cy="478" r="4"/><text class="room-type-label" x="1386" y="478" text-anchor="middle" dominant-baseline="central">$</text>
     <circle id="room-fd2acb87f146f5467499c2a761ed722d162bbb45" class="room outdoor room-shop" data-label="store in Hillshire" cx="1386" cy="456" r="4"/><text class="room-type-label" x="1386" y="456" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-08cf386b43ab319d3c366a371f243bbcc688feed" class="room outdoor" data-label="road running through Hillshire" cx="1400" cy="467" r="4"/>
     <circle id="room-30744a3d524d9cdab9cfc178815da992433b6af7" class="room outdoor room-clothes" data-label="Silver Starr Boutique" cx="1410" cy="477" r="4"/><text class="room-type-label" x="1410" y="477" text-anchor="middle" dominant-baseline="central">C</text>
@@ -716,7 +716,7 @@
     <circle id="room-8ee6f05a721d93d15599518c1706a3c79880498b" class="room outdoor" data-label="main street" cx="98" cy="139" r="4"/>
     <circle id="room-2cda85780d464235cd8d1fa81398b045f92c17c6" class="room outdoor" data-label="dark alley" cx="112" cy="139" r="4"/>
     <circle id="room-e4102e9f23f4b4de3ae1d0a592131df8ff8baad6" class="room outdoor" data-label="dark alley" cx="126" cy="139" r="4"/>
-    <circle id="room-39e919ea64735659751d43c8f052d66b4f18c4ac" class="room outdoor" data-label="[player shop]" cx="126" cy="150" r="4"/>
+    <circle id="room-39e919ea64735659751d43c8f052d66b4f18c4ac" class="room outdoor room-pshop" data-label="[player shop]" cx="126" cy="150" r="4"/><text class="room-type-label" x="126" y="150" text-anchor="middle" dominant-baseline="central">P</text>
     <circle id="room-d4533b88ff75986296dae71da146f21cd14a086a" class="room outdoor" data-label="dark alley" cx="140" cy="139" r="4"/>
     <circle id="room-d216295f2d9da67baeb309e36c25fe1025b4edf3" class="room outdoor room-clothes" data-label="Mrs Cosmopilite&#x27;s clothes store" cx="140" cy="128" r="4"/><text class="room-type-label" x="140" y="128" text-anchor="middle" dominant-baseline="central">C</text>
     <circle id="room-96f361938f09ccb02c4298ec28a2fc58438d4d7f" class="room outdoor" data-label="changing room" cx="140" cy="128" r="4"/>

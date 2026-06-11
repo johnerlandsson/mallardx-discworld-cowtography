@@ -413,9 +413,9 @@
     <circle id="room-92711a44d40f0ed2fc6691569ef04f4d6df17c18" class="room outdoor" data-label="southeastern corner of the town square" cx="701" cy="657" r="4"/>
     <circle id="room-364a4b871a7922afbd4703c98e1af477dc9b676d" class="room outdoor" data-label="southern side of the town square" cx="687" cy="657" r="4"/>
     <circle id="room-4b6c4ac59ea01c5c73a1abcec6b52b7fb8d466fe" class="room outdoor room-food" data-label="Escrow bakery and confectionery" cx="673" cy="668" r="4"/><text class="room-type-label" x="673" y="668" text-anchor="middle" dominant-baseline="central">F</text>
-    <circle id="room-c8eb2874de9ad3cf41e7120edf09a0dbb5a77585" class="room outdoor" data-label="Lancrastian Farmers&#x27; Cooperative Bank" cx="688" cy="669" r="4"/>
+    <circle id="room-c8eb2874de9ad3cf41e7120edf09a0dbb5a77585" class="room outdoor room-bank" data-label="Lancrastian Farmers&#x27; Cooperative Bank" cx="688" cy="669" r="4"/><text class="room-type-label" x="688" y="669" text-anchor="middle" dominant-baseline="central">$</text>
     <circle id="room-7710af7f3cf4094a3f2401c46418217b467f6d46" class="room outdoor room-access" data-label="Escrow jewellery shop" cx="701" cy="668" r="4"/><text class="room-type-label" x="701" y="668" text-anchor="middle" dominant-baseline="central">X</text>
-    <circle id="room-6a3d281117681b9211d1dcc48bb5bc8fe1d5ceb1" class="room outdoor" data-label="[player shop]" cx="711" cy="667" r="4"/>
+    <circle id="room-6a3d281117681b9211d1dcc48bb5bc8fe1d5ceb1" class="room outdoor room-pshop" data-label="[player shop]" cx="711" cy="667" r="4"/><text class="room-type-label" x="711" y="667" text-anchor="middle" dominant-baseline="central">P</text>
     <circle id="room-3cf7feaf2a7ec911151186c69dd9a53493955246" class="room outdoor" data-label="side street" cx="687" cy="615" r="4"/>
     <circle id="room-0d96663f3ff503ca797b35af737e5cdff6455d92" class="room outdoor" data-label="side street" cx="687" cy="601" r="4"/>
     <circle id="room-590a95fbde4e333af9c2e3337bfd7870c21932fd" class="room outdoor" data-label="Fair Street" cx="687" cy="587" r="4"/>

@@ -5849,8 +5849,8 @@
     <circle id="room-04a520a94250176a6c4e222c880d47d71abe8e98" class="room outdoor" data-label="Brookless Lane, outside a classy looking shop" cx="1012" cy="284" r="4"/>
     <circle id="room-97f4081f8a0944dcf08b3c109836ce07e76cedfd" class="room outdoor room-shop" data-label="calligraphy shop" cx="1012" cy="297" r="4"/><text class="room-type-label" x="1012" y="297" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-741425f7207c2220c2c232cd156a42d617179951" class="room outdoor" data-label="Brookless Lane" cx="998" cy="270" r="4"/>
-    <circle id="room-1c7549fef9ae78d7ad209a838337b51d7f15d28b" class="room outdoor" data-label="Brookless Lane outside a branch of Bing&#x27;s Bank" cx="984" cy="270" r="4"/>
-    <circle id="room-4e22f04d622d486ef767840ec15774c7e34bf8e7" class="room outdoor" data-label="Bing&#x27;s First Bank on Brookless Lane" cx="984" cy="281" r="4"/>
+    <circle id="room-1c7549fef9ae78d7ad209a838337b51d7f15d28b" class="room outdoor room-bank" data-label="Brookless Lane outside a branch of Bing&#x27;s Bank" cx="984" cy="270" r="4"/><text class="room-type-label" x="984" y="270" text-anchor="middle" dominant-baseline="central">$</text>
+    <circle id="room-4e22f04d622d486ef767840ec15774c7e34bf8e7" class="room outdoor room-bank" data-label="Bing&#x27;s First Bank on Brookless Lane" cx="984" cy="281" r="4"/><text class="room-type-label" x="984" y="281" text-anchor="middle" dominant-baseline="central">$</text>
     <circle id="room-a2fdf9f9d9de3869dc2eb62c15110dce6e9dbab4" class="room outdoor" data-label="Brookless Lane" cx="970" cy="270" r="4"/>
     <circle id="room-f8859fa5e56875da11f8d1d0b9fea6c830d0039b" class="room outdoor" data-label="Brookless Lane" cx="956" cy="256" r="4"/>
     <circle id="room-bb50383078cb28ec7e15c1d860db7b834f804ed3" class="room outdoor" data-label="Brookless Lane, outside Collette&#x27;s Couture" cx="942" cy="256" r="4"/>
@@ -6308,7 +6308,7 @@
     <circle id="room-4c74df6f615791a23b9d9bd0d0492005543e857b" class="room outdoor" data-label="part of the middle of the Plaza of Broken Moons" cx="1026" cy="760" r="4"/>
     <circle id="room-3b0aa6e71af95751f293712e83c557ed02c5b8d3" class="room outdoor" data-label="east side of the Plaza of Broken Moons" cx="1040" cy="760" r="4"/>
     <circle id="room-e3fcf1ab53c85062bdec949ad3a7c60b4e01e627" class="room outdoor" data-label="south side of the Plaza of Broken Moons" cx="1040" cy="774" r="4"/>
-    <circle id="room-50193d819d63ff2a6060b8b55659760683cc930b" class="room outdoor" data-label="[player shop]" cx="1051" cy="774" r="4"/>
+    <circle id="room-50193d819d63ff2a6060b8b55659760683cc930b" class="room outdoor room-pshop" data-label="[player shop]" cx="1051" cy="774" r="4"/><text class="room-type-label" x="1051" y="774" text-anchor="middle" dominant-baseline="central">P</text>
     <circle id="room-aa63e6764c9931dadc245b3c2d1aef1df0bfb363" class="room outdoor room-food" data-label="Arlof Eetmmot&#x27;s Bakery" cx="1040" cy="785" r="4"/><text class="room-type-label" x="1040" y="785" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-abca0cb6dfcea39e6473dc09d86af4722493ab7b" class="room outdoor" data-label="south side of the Plaza of Broken Moons" cx="1026" cy="774" r="4"/>
     <circle id="room-2ff4a31c72f3a2b5690097250cdc1dd20704a977" class="room outdoor room-access" data-label="occult jewellery stall" cx="1023" cy="781" r="4"/><text class="room-type-label" x="1023" y="781" text-anchor="middle" dominant-baseline="central">X</text>
@@ -6848,7 +6848,7 @@
     <circle id="room-96e9334538dc74561f8671457bc911ddb777fc06" class="room outdoor room-shop" data-label="locksmith&#x27;s shop" cx="986" cy="967" r="4"/><text class="room-type-label" x="986" y="967" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-7ee0b29ed3f90ec0dba692d18b02a69341510c54" class="room outdoor" data-label="Embroidery Shop" cx="984" cy="945" r="4"/>
     <circle id="room-0a2874163b644e3dcb0cff56ee2bea8ee73be60a" class="room outdoor" data-label="Upper Broadway" cx="942" cy="886" r="4"/>
-    <circle id="room-faf3b7313a9c3dbd4a75a528230ce2545e689d7f" class="room outdoor" data-label="Bing&#x27;s First Bank" cx="953" cy="878" r="4"/>
+    <circle id="room-faf3b7313a9c3dbd4a75a528230ce2545e689d7f" class="room outdoor room-bank" data-label="Bing&#x27;s First Bank" cx="953" cy="878" r="4"/><text class="room-type-label" x="953" y="878" text-anchor="middle" dominant-baseline="central">$</text>
     <circle id="room-aa5be975ffa5cc0e1db813e8b39fb2b5f3eaabe4" class="room outdoor" data-label="Broadway Fork" cx="928" cy="872" r="4"/>
     <circle id="room-275e02bd385f8b15cd3cd7a4ef3c250d26df8a7b" class="room outdoor" data-label="Turnwise Broadway" cx="942" cy="858" r="4"/>
     <circle id="room-15b25f2fe403e4e631668746c4beb7bdf9627e4d" class="room outdoor" data-label="Guild of Town Criers" cx="942" cy="869" r="4"/>
@@ -6865,7 +6865,7 @@
     <circle id="room-3dad448900ed6cd7f256bc6598d49e7863738a23" class="room outdoor" data-label="Widdershins Broadway" cx="886" cy="886" r="4"/>
     <circle id="room-ea69753781ced679ee5f358147d6c1b28ec32305" class="room outdoor" data-label="Widdershins Broadway" cx="872" cy="886" r="4"/>
     <circle id="room-5e6a01a45bda5bf6333542393b7a4c7427fb134b" class="room outdoor" data-label="Widdershins Broadway" cx="858" cy="872" r="4"/>
-    <circle id="room-e49b3270b73a0f836e1d515fdfa20b0171abdd65" class="room outdoor" data-label="Lancrastian Farmers&#x27; Cooperative Bank" cx="848" cy="882" r="4"/>
+    <circle id="room-e49b3270b73a0f836e1d515fdfa20b0171abdd65" class="room outdoor room-bank" data-label="Lancrastian Farmers&#x27; Cooperative Bank" cx="848" cy="882" r="4"/><text class="room-type-label" x="848" y="882" text-anchor="middle" dominant-baseline="central">$</text>
     <circle id="room-d5c82529cc1b80b5362dbb2291702c4617a33246" class="room outdoor" data-label="Widdershins Broadway junction outside the Ephebian Embassy" cx="844" cy="858" r="4"/>
     <circle id="room-a1e08c1c268466b4718a7fbd2254d93466aa32ea" class="room outdoor" data-label="Ephebian Embassy" cx="834" cy="868" r="4"/>
     <circle id="room-cc341b668af320ba5fdf88814d02b6237c79d5c1" class="room outdoor" data-label="dusty back room" cx="834" cy="868" r="4"/>
@@ -7016,7 +7016,7 @@
     <circle id="room-87ae3ee346e16d0dad0a6272f9361727374964ca" class="room outdoor" data-label="Filigree Street" cx="746" cy="802" r="4"/>
     <circle id="room-047d2c350046d2613c5adecd189edaf639ddafcb" class="room outdoor room-access" data-label="Krazzander&#x27;s Magic Tricks" cx="746" cy="813" r="4"/><text class="room-type-label" x="746" y="813" text-anchor="middle" dominant-baseline="central">X</text>
     <circle id="room-4de57a18643a1837610ffd2ba21e28451cd61b78" class="room outdoor" data-label="Filigree Street between two shops" cx="760" cy="802" r="4"/>
-    <circle id="room-53ad9ac8b582dbb423a955a7dd395ce111636388" class="room outdoor" data-label="[player shop]" cx="760" cy="791" r="4"/>
+    <circle id="room-53ad9ac8b582dbb423a955a7dd395ce111636388" class="room outdoor room-pshop" data-label="[player shop]" cx="760" cy="791" r="4"/><text class="room-type-label" x="760" y="791" text-anchor="middle" dominant-baseline="central">P</text>
     <circle id="room-de58e8bd3157654fdbc22b37e44c5c8c88b82506" class="room outdoor" data-label="Filigree Street General Store" cx="760" cy="813" r="4"/>
     <circle id="room-b83cf6882b481bebccab4fc366b6e62de128f501" class="room outdoor" data-label="Filigree Street east of some shops" cx="774" cy="802" r="4"/>
     <circle id="room-84a18d4036e41c571ba619eb2a88ef53844b0232" class="room outdoor" data-label="Filigree Street" cx="788" cy="802" r="4"/>
@@ -7075,7 +7075,7 @@
     <circle id="room-4eb1bb75d9a78e52d0d982094e6da07f63e4e8b2" class="room outdoor" data-label="Warriors&#x27; Guild Memorial Hall" cx="687" cy="847" r="4"/><polygon class="stair-symbol" points="687,844 684.5,849 689.5,849"/>
     <circle id="room-c2ed14f69e331ba383dc3e62de34c0542a948e7c" class="room outdoor room-food" data-label="Warriors&#x27; Guild cafe" cx="677" cy="847" r="4"/><text class="room-type-label" x="677" y="847" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-d9a7425a2114fc2f2604c38031558109df041da7" class="room outdoor" data-label="Hall of Heroes" cx="697" cy="837" r="4"/><polygon class="stair-symbol" points="697,840 694.5,835 699.5,835"/>
-    <circle id="room-57981abe779a28f1e8b003732eb35430854670e4" class="room outdoor" data-label="[player shop]" cx="687" cy="837" r="4"/>
+    <circle id="room-57981abe779a28f1e8b003732eb35430854670e4" class="room outdoor room-pshop" data-label="[player shop]" cx="687" cy="837" r="4"/><text class="room-type-label" x="687" y="837" text-anchor="middle" dominant-baseline="central">P</text>
     <circle id="room-a92c48757172cb851b6ccd12359e1af87d116377" class="room outdoor" data-label="Heroes Street" cx="690" cy="872" r="4"/>
     <circle id="room-e946896bb5407b99f7a58bf4c007a403af7877c8" class="room outdoor room-shop" data-label="Woo Hun Ling&#x27;s Auriental Exotica and Martial Aids" cx="701" cy="872" r="4"/><text class="room-type-label" x="701" y="872" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-552ae47ec4c644e729f2c1b2777689ae5624d61d" class="room outdoor room-armour" data-label="Woo Hun Ling&#x27;s Auriental Exotica and Martial Aids" cx="701" cy="872" r="4"/><text class="room-type-label" x="701" y="872" text-anchor="middle" dominant-baseline="central">A</text>
@@ -7108,9 +7108,9 @@
     <circle id="room-d36f52c9130d54a49f0d0ab806c4b7bb2e4409b5" class="room outdoor" data-label="God Street" cx="606" cy="872" r="4"/>
     <circle id="room-cf13e9947ce4906dc5f543b4a64af2e9cda85e6a" class="room outdoor" data-label="God Street" cx="592" cy="872" r="4"/>
     <circle id="room-002a9af7e59cc99f475fdb38338f4632046e1bdb" class="room outdoor" data-label="God Street" cx="578" cy="872" r="4"/>
-    <circle id="room-aa771f716e0adf0125bea44c03ee175ebb7e7d7f" class="room outdoor" data-label="[player shop]" cx="578" cy="861" r="4"/>
+    <circle id="room-aa771f716e0adf0125bea44c03ee175ebb7e7d7f" class="room outdoor room-pshop" data-label="[player shop]" cx="578" cy="861" r="4"/><text class="room-type-label" x="578" y="861" text-anchor="middle" dominant-baseline="central">P</text>
     <circle id="room-d732fd1e700cedde26d596dbfe8cce82167300c5" class="room outdoor" data-label="God Street" cx="564" cy="872" r="4"/>
-    <circle id="room-d864bb147ebbe312510642504ae99d37d7972e06" class="room outdoor" data-label="[player shop]" cx="558" cy="883" r="4"/>
+    <circle id="room-d864bb147ebbe312510642504ae99d37d7972e06" class="room outdoor room-pshop" data-label="[player shop]" cx="558" cy="883" r="4"/><text class="room-type-label" x="558" y="883" text-anchor="middle" dominant-baseline="central">P</text>
     <circle id="room-eb6826bf71cc30adde216d74c9e45fb48a6a1648" class="room outdoor" data-label="junction of Cheap Street with Quirm and God Street" cx="550" cy="858" r="4"/>
     <circle id="room-efa8da77e876a6dd9daf1025e55ab3c6fc807893" class="room outdoor" data-label="Quirm Street outside of Mrs Cosmopilite&#x27;s" cx="550" cy="872" r="4"/>
     <circle id="room-a8d6faa4e0788be811bfaa11f40f95373a304ba0" class="room outdoor" data-label="Mrs Cosmopilite&#x27;s Clothing House" cx="548" cy="885" r="4"/>
@@ -7129,7 +7129,7 @@
     <circle id="room-3f64cfb8f393cdfaa4fd5ce54a163b988ce391e9" class="room outdoor" data-label="Attic Bee Street" cx="648" cy="956" r="4"/>
     <circle id="room-6eb9cc4451c6fb21f7645914df98f8629cb4df33" class="room outdoor" data-label="Celery Appleseed&#x27;s Juice Bar" cx="648" cy="967" r="4"/>
     <circle id="room-0ffac2ecd64050129d28ceb5b9a449a0fbfce2e3" class="room outdoor" data-label="Attic Bee Street" cx="662" cy="956" r="4"/>
-    <circle id="room-1d9b770ce1ceaa4b73efb68713947486171ee3d0" class="room outdoor" data-label="[player shop]" cx="662" cy="967" r="4"/>
+    <circle id="room-1d9b770ce1ceaa4b73efb68713947486171ee3d0" class="room outdoor room-pshop" data-label="[player shop]" cx="662" cy="967" r="4"/><text class="room-type-label" x="662" y="967" text-anchor="middle" dominant-baseline="central">P</text>
     <circle id="room-03394f57798133760584f9a1d77355516fae5ae8" class="room outdoor" data-label="Attic Bee Street" cx="676" cy="956" r="4"/>
     <circle id="room-359dd4eb7edb5d6df214110e6632883ff5ecb67b" class="room outdoor room-food" data-label="Card Shop" cx="676" cy="945" r="4"/><text class="room-type-label" x="676" y="945" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-196730ad4562b797da7aca1fd560acb07f05415e" class="room outdoor" data-label="Attic Bee Street" cx="690" cy="956" r="4"/>
@@ -7628,7 +7628,7 @@
     <circle id="room-e45d029d0aacf82a2d6f058654bb5f7a75fc53ba" class="room outdoor" data-label="junction of Welcome Soap and Mincing Street" cx="592" cy="788" r="4"/>
     <circle id="room-1b79c3e9be555f9584483e2d18b103fba4e59967" class="room outdoor" data-label="Welcome Soap" cx="606" cy="788" r="4"/>
     <circle id="room-15abe11fe0e96eb52f321d204b412354618ec83a" class="room outdoor" data-label="Welcome Soap, outside a small shop" cx="620" cy="802" r="4"/>
-    <circle id="room-e932fb2c675d244559a737bdc1745378b8bea729" class="room outdoor" data-label="[player shop]" cx="609" cy="802" r="4"/>
+    <circle id="room-e932fb2c675d244559a737bdc1745378b8bea729" class="room outdoor room-pshop" data-label="[player shop]" cx="609" cy="802" r="4"/><text class="room-type-label" x="609" y="802" text-anchor="middle" dominant-baseline="central">P</text>
     <circle id="room-60125fb2cf8f1e10d6c20c89db6d8e79343f7ed1" class="room outdoor" data-label="East Welcome Soap" cx="634" cy="802" r="4"/>
     <circle id="room-f46601a555adfdb38362a9ce05a127ffe20636cd" class="room outdoor" data-label="Welcome Soap" cx="578" cy="774" r="4"/>
     <circle id="room-578c49a984d252e2ea376ff0db3c1ff9b227049f" class="room outdoor" data-label="west end of Welcome Soap, outside a tavern" cx="564" cy="774" r="4"/>
@@ -8804,8 +8804,8 @@
     <circle id="room-cffc7b9019d6d1faf1a791c97720cc07969eacaf" class="room outdoor room-house" data-label="[player house]" cx="606" cy="953" r="4"/><polygon class="stair-symbol" points="606,956 603.5,951 608.5,951"/><text class="room-type-label" x="606" y="953" text-anchor="middle" dominant-baseline="central">H</text>
     <circle id="room-5db75bc4ec65c57ff8b6c15b1d8b386bc2e9b988" class="room outdoor room-house" data-label="[player house]" cx="606" cy="953" r="4"/><text class="room-type-label" x="606" y="953" text-anchor="middle" dominant-baseline="central">H</text>
     <circle id="room-ab358655c3628f73f921ea9917e71b8c1d8395a3" class="room outdoor room-house" data-label="[player house]" cx="606" cy="953" r="4"/><text class="room-type-label" x="606" y="953" text-anchor="middle" dominant-baseline="central">H</text>
-    <circle id="room-77dbba29c7f857efe866584b272c4fd798e502f3" class="room outdoor" data-label="[player club]" cx="760" cy="421" r="4"/>
-    <circle id="room-a0eae5d6fb56e4addb9cd76e18a7a57b7e7ba695" class="room outdoor" data-label="[player club]" cx="1072" cy="820" r="4"/>
+    <circle id="room-77dbba29c7f857efe866584b272c4fd798e502f3" class="room outdoor room-club" data-label="[player club]" cx="760" cy="421" r="4"/><text class="room-type-label" x="760" y="421" text-anchor="middle" dominant-baseline="central">G</text>
+    <circle id="room-a0eae5d6fb56e4addb9cd76e18a7a57b7e7ba695" class="room outdoor room-club" data-label="[player club]" cx="1072" cy="820" r="4"/><text class="room-type-label" x="1072" y="820" text-anchor="middle" dominant-baseline="central">G</text>
     <circle id="room-2dbe1f04f43f0697e3cd03d4505bc63367adfa44" class="room outdoor" data-label="west Ankh ferry" cx="45" cy="547" r="4"/>
     <circle id="room-a962f2a42b66b80ccb85b430802fd4a7a108c96f" class="room outdoor" data-label="grim workshop" cx="1309" cy="508" r="4"/>
   </g>

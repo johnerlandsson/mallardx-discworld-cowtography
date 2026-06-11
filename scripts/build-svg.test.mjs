@@ -790,14 +790,38 @@ describe('queryShopTypes', () => {
     expect(queryShopTypes(db, 1).get('r1')).toBe('house')
   })
 
-  it('player house detection does not overwrite a shop on the same room', () => {
+  it('auto-detects player shops from room_short', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, '[player shop]')").run()
+    expect(queryShopTypes(db, 1).get('r1')).toBe('pshop')
+  })
+
+  it('auto-detects player clubs from room_short', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, '[player club]')").run()
+    expect(queryShopTypes(db, 1).get('r1')).toBe('club')
+  })
+
+  it("auto-detects Bing's Bank from room_short", () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms VALUES (?, 1, 0, 0, ?)").run('r1', "branch of Bing's Bank")
+    expect(queryShopTypes(db, 1).get('r1')).toBe('bank')
+  })
+
+  it('auto-detects Cooperative Bank from room_short', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms VALUES (?, 1, 0, 0, ?)").run('r1', "Lancrastian Farmers' Cooperative Bank")
+    expect(queryShopTypes(db, 1).get('r1')).toBe('bank')
+  })
+
+  it('room_short detection does not overwrite a shop', () => {
     const db = makeDb()
     db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, '[player house]')").run()
     db.prepare("INSERT INTO shop_items VALUES ('r1', 'long sword', '')").run()
     expect(queryShopTypes(db, 1).get('r1')).toBe('weapon')
   })
 
-  it('manual override beats player house auto-detection', () => {
+  it('manual override beats room_short auto-detection', () => {
     const db = makeDb()
     db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, '[player house]')").run()
     expect(queryShopTypes(db, 1, { 'r1': 'pshop' }).get('r1')).toBe('pshop')

@@ -848,7 +848,7 @@
     <circle id="room-1045572db9717fcf20a12ddee61e5acb763198ea" class="room outdoor" data-label="roof of the guard house" cx="261" cy="236" r="4"/><polygon class="stair-symbol" points="261,239 258.5,234 263.5,234"/>
     <circle id="room-019d8ba6c56b379d0d353f51453eddba29a8668c" class="room outdoor" data-label="cellar of the guard house" cx="261" cy="236" r="4"/><polygon class="stair-symbol" points="261,233 258.5,238 263.5,238"/>
     <circle id="room-525c5565531260a7be34e0bbdec2d50b1fa0f749" class="room outdoor" data-label="King&#x27;s Road" cx="269" cy="250" r="4"/>
-    <circle id="room-9e30f240845166d37c2dd92ff4b3b122aa1d82eb" class="room outdoor" data-label="branch of Bing&#x27;s Bank" cx="269" cy="261" r="4"/>
+    <circle id="room-9e30f240845166d37c2dd92ff4b3b122aa1d82eb" class="room outdoor room-bank" data-label="branch of Bing&#x27;s Bank" cx="269" cy="261" r="4"/><text class="room-type-label" x="269" y="261" text-anchor="middle" dominant-baseline="central">$</text>
     <circle id="room-b1c099dedec1a29dbff6bd52a131524135562d84" class="room outdoor" data-label="somewhere in the middle of King&#x27;s Road" cx="283" cy="250" r="4"/>
     <circle id="room-c2060f3d6c2ebc310c959fe28174a0f5406b2249" class="room outdoor" data-label="King&#x27;s Road" cx="297" cy="250" r="4"/>
     <circle id="room-267190649b1394ef19b4a92aa4a8b552c0fed383" class="room outdoor" data-label="King&#x27;s Road" cx="311" cy="250" r="4"/>

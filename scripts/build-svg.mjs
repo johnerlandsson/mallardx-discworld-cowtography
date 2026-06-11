@@ -87,11 +87,20 @@ export function queryShopTypes(db, mapId, overrides = {}) {
     result.set(roomId, classifyShopItems(items))
   }
 
-  const houseRows = db.prepare(
-    `SELECT room_id FROM rooms WHERE map_id = ? AND room_short LIKE '%[player house]%'`
-  ).all(mapId)
-  for (const { room_id } of houseRows) {
-    if (!result.has(room_id)) result.set(room_id, 'house')
+  const shortTypePatterns = [
+    ['%[player house]%', 'house'],
+    ['%[player shop]%',  'pshop'],
+    ['%[player club]%',  'club'],
+    ['%Bing%bank%',      'bank'],
+    ['%Coop%bank%',      'bank'],
+  ]
+  const shortStmt = db.prepare(
+    `SELECT room_id FROM rooms WHERE map_id = ? AND room_short LIKE ? COLLATE NOCASE`
+  )
+  for (const [pattern, type] of shortTypePatterns) {
+    for (const { room_id } of shortStmt.all(mapId, pattern)) {
+      if (!result.has(room_id)) result.set(room_id, type)
+    }
   }
 
   for (const [roomId, type] of Object.entries(overrides)) {

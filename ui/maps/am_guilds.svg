@@ -51,7 +51,7 @@
   <g id="layer-rooms">
     <rect id="room-454f863eb451dcbbf77ef3ae9e514a63595ffab9" class="room indoor" data-label="Bankers&#x27; Guild entrance" x="298" y="449" width="8" height="8" rx="2"/>
     <rect id="room-3b3c6ad562cc52f8efd9a69a05a6c41a1807a77b" class="room indoor" data-label="Bankers&#x27; Guild grand hall" x="274" y="449" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="278,450 275.5,455 280.5,455"/>
-    <rect id="room-17118332ea8519844f08c5a331a9a3d097e6cd48" class="room indoor" data-label="guild branch of Bing&#x27;s Bank" x="250" y="449" width="8" height="8" rx="2"/>
+    <rect id="room-17118332ea8519844f08c5a331a9a3d097e6cd48" class="room indoor room-bank" data-label="guild branch of Bing&#x27;s Bank" x="250" y="449" width="8" height="8" rx="2"/><text class="room-type-label" x="254" y="453" text-anchor="middle" dominant-baseline="central">$</text>
     <rect id="room-4ffc206f0a39d1d3105df744b8af288e3ecc4ba3" class="room indoor" data-label="foyer of the Bankers&#x27; Guild private apartments" x="274" y="449" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="278,456 275.5,451 280.5,451"/>
     <rect id="room-13d50edc24a1918ff4109cad399d1b5566fb2b74" class="room indoor" data-label="waiting room of the Musicians&#x27; Guild" x="159" y="286" width="8" height="8" rx="2"/>
     <rect id="room-d656e22f1d7f8d65a430a6bf2be9854ccb8d048f" class="room indoor" data-label="office in the Musicians&#x27; Guild" x="160" y="261" width="8" height="8" rx="2"/>
