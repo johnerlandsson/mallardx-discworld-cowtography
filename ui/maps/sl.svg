@@ -620,7 +620,7 @@
     <circle id="room-c105ceeccb0874e3d3e9af381bc6ec38570c1e9b" class="room outdoor" data-label="Quirm Street at the intersection with Queen&#x27;s Road" cx="479" cy="152" r="4"/>
     <circle id="room-3d17a3e5252d8331d32b2dcb39d66b0f9c8cb234" class="room outdoor" data-label="section of northern Wall Street, where the wall is lined with pencil pines" cx="367" cy="26" r="4"/>
     <circle id="room-af0448cbf2b04371a2c0d63e7ff3b93eea77ea29" class="room outdoor" data-label="intersection of Quirm Street and Hill Street" cx="451" cy="152" r="4"/>
-    <circle id="room-f58cf6abde3a4436db74f285af23496fa9a23800" class="room outdoor room-food" data-label="common room of the Palace Inn" cx="423" cy="79" r="4"/><polygon class="stair-symbol" points="423,76 420.5,81 425.5,81"/><text class="room-type-label" x="423" y="79" text-anchor="middle" dominant-baseline="central">F</text>
+    <circle id="room-f58cf6abde3a4436db74f285af23496fa9a23800" class="room outdoor room-food" data-label="common room of the Palace Inn" cx="423" cy="79" r="4"/><text class="room-type-label" x="423" y="79" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-69f4ba237507adb525082b5a9b2d60ffbc8598f7" class="room outdoor" data-label="hall" cx="506" cy="396" r="4"/>
     <circle id="room-70bf64e7fa2f6259cdb694a185fc86979996c3b8" class="room outdoor" data-label="Palace Inn" cx="423" cy="79" r="4"/><polygon class="stair-symbol" points="423,82 420.5,77 425.5,77"/>
     <circle id="room-b44036a405063ae3a7a3197870e0e9d4d4beeba3" class="room outdoor" data-label="Queen&#x27;s Road" cx="367" cy="166" r="4"/>
@@ -1017,7 +1017,7 @@
     <circle id="room-600c85f55a2c43c1eb1030acdfd2f2f48dd66e62" class="room outdoor" data-label="small room" cx="553" cy="374" r="4"/>
     <circle id="room-d66eb763f4f2ffaaad9b1c3fb91e57bfa2659441" class="room outdoor" data-label="rooftop" cx="484" cy="396" r="4"/>
     <circle id="room-a2e9a15c712fd19a4c5f2c20c33e1e9c4082f574" class="room outdoor" data-label="High Altar of Pishe" cx="416" cy="398" r="4"/><polygon class="stair-symbol" points="416,395 413.5,400 418.5,400"/>
-    <circle id="room-4b117bbb3f3a583adfad4c7e368e46d8f50bdb50" class="room outdoor room-shop" data-label="temple shop" cx="416" cy="387" r="4"/><polygon class="stair-symbol" points="416,390 413.5,385 418.5,385"/><text class="room-type-label" x="416" y="387" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-4b117bbb3f3a583adfad4c7e368e46d8f50bdb50" class="room outdoor room-shop" data-label="temple shop" cx="416" cy="387" r="4"/><text class="room-type-label" x="416" y="387" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-5dd38b0c32eaeeeab8824fca412c39df9c3e304b" class="room outdoor" data-label="branches of a large tree overlooking Wall Street" cx="465" cy="292" r="4"/>
     <circle id="room-7c9a1c6486d249ff2081ffd0b5a0989acac2bf83" class="room outdoor" data-label="section of Princess Island Park" cx="297" cy="383" r="4"/>
     <circle id="room-4d4649933173d77ad438c65d2236e5e425d94d8e" class="room outdoor" data-label="by the exit to Park Lane in Princess Island Park" cx="353" cy="383" r="4"/>

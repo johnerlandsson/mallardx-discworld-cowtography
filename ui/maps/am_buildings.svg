@@ -238,7 +238,7 @@
     <rect id="room-4bdcf399913a4a773d299cee7b4a95300dbd76b9" class="room indoor" data-label="Grand Hall of Milords &amp; Miladies" x="484" y="112" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="488,119 485.5,114 490.5,114"/>
     <rect id="room-6f2efdc2039123bb50035a9201854a8c51bf7f88" class="room indoor" data-label="Benevolent Registry" x="509" y="112" width="8" height="8" rx="2"/>
     <rect id="room-315ea172adf4ac5a1d774a679e386f84b52d26e7" class="room indoor" data-label="dusty store room" x="509" y="137" width="8" height="8" rx="2"/>
-    <rect id="room-7585797c2787ac3a8057dc55fc6eec8dbe21a0f2" class="room indoor room-clothes" data-label="Seconds Department" x="460" y="136" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="464,137 461.5,142 466.5,142"/><text class="room-type-label" x="464" y="140" text-anchor="middle" dominant-baseline="central">C</text>
+    <rect id="room-7585797c2787ac3a8057dc55fc6eec8dbe21a0f2" class="room indoor room-clothes" data-label="Seconds Department" x="460" y="136" width="8" height="8" rx="2"/><text class="room-type-label" x="464" y="140" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-ae0a29b8b31ad040f8868521ab2967d7aa93844f" class="room indoor" data-label="elevator" x="484" y="136" width="8" height="8" rx="2"/>
     <rect id="room-bca23d5b0f960b18883c6f4302661500db0d7524" class="room indoor room-clothes" data-label="Mezzanine Men&#x27;s Wear" x="606" y="111" width="8" height="8" rx="2"/><text class="room-type-label" x="610" y="115" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-cd3a9906159e866ca94a0d3e5b35034bbf2ba75a" class="room indoor room-clothes" data-label="Suits You, on the Mezzanine floor" x="581" y="111" width="8" height="8" rx="2"/><text class="room-type-label" x="585" y="115" text-anchor="middle" dominant-baseline="central">C</text>
@@ -358,7 +358,7 @@
     <rect id="room-214ded505a466850f7f0f55fc3eef19f5797043c" class="room indoor" data-label="family control room" x="128" y="349" width="8" height="8" rx="2"/>
     <rect id="room-02a522b5374e994eb554347697af75a8a3d0b391" class="room indoor" data-label="club control room" x="104" y="349" width="8" height="8" rx="2"/>
     <rect id="room-1720f64c8fd19126b9f3e011c008ce3e3c5ccb0c" class="room indoor" data-label="entrance to the Mended Drum" x="1242" y="114" width="8" height="8" rx="2"/>
-    <rect id="room-964ea3c5f971d538232e683612cd41900c232bdd" class="room indoor room-food" data-label="bar of the Mended Drum" x="1242" y="86" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="1246,87 1243.5,92 1248.5,92"/><text class="room-type-label" x="1246" y="90" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-964ea3c5f971d538232e683612cd41900c232bdd" class="room indoor room-food" data-label="bar of the Mended Drum" x="1242" y="86" width="8" height="8" rx="2"/><text class="room-type-label" x="1246" y="90" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-801621fc9307a20a40cb01f59c9f97590d685ad5" class="room indoor" data-label="western part of the Mended Drum" x="1213" y="86" width="8" height="8" rx="2"/>
     <rect id="room-b19063057a9d15e84d4ca055e7aa17b321299339" class="room indoor" data-label="outside the Drum&#x27;s back door" x="1213" y="60" width="8" height="8" rx="2"/>
     <rect id="room-c5089ada29acbbdf794fbe5d743211965e4baa6b" class="room indoor" data-label="toilets of the Mended Drum" x="1242" y="62" width="8" height="8" rx="2"/>

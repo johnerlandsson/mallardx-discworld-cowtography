@@ -118,7 +118,7 @@
     <circle id="room-a9db147a9472c2b3dc92797c71cabe4e5291ddd4" class="room outdoor" data-label="southeast corner of the square" cx="253" cy="183" r="4"/>
     <circle id="room-a8a10433cf292c31c272e23940d813cafd169cdc" class="room outdoor" data-label="southern edge of the square" cx="239" cy="183" r="4"/>
     <circle id="room-e0d2944fa20f6c3f77071b6692fe6a0284fb57f3" class="room outdoor" data-label="southwestern corner of the square" cx="225" cy="183" r="4"/>
-    <circle id="room-1f270665a20a58a4c9e3f0f4269086511e69685a" class="room outdoor room-food" data-label="Bois Village Inn" cx="225" cy="194" r="4"/><polygon class="stair-symbol" points="225,191 222.5,196 227.5,196"/><text class="room-type-label" x="225" y="194" text-anchor="middle" dominant-baseline="central">F</text>
+    <circle id="room-1f270665a20a58a4c9e3f0f4269086511e69685a" class="room outdoor room-food" data-label="Bois Village Inn" cx="225" cy="194" r="4"/><text class="room-type-label" x="225" y="194" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-42fc66e3a3d2d219435c82afd199ff7117e9086f" class="room outdoor" data-label="small room" cx="235" cy="204" r="4"/><polygon class="stair-symbol" points="235,207 232.5,202 237.5,202"/>
     <circle id="room-631c763481627177ad319580021484e41ca5d787" class="room outdoor" data-label="village hall common room" cx="263" cy="193" r="4"/>
     <circle id="room-ca812ea7a72af42ba1192c8e9e43f24ca8786e4a" class="room outdoor" data-label="converted storeroom" cx="271" cy="201" r="4"/>

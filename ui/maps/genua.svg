@@ -995,12 +995,12 @@
     <circle id="room-a6ce08267bd754516e0795e19164127c97c6ada8" class="room outdoor" data-label="Market Street north of Genua&#x27;s Market" cx="638" cy="102" r="4"/>
     <circle id="room-4b5371ff5cfddb70e11625d041f94ce0653b12c3" class="room outdoor room-food" data-label="Agatean import merchant" cx="638" cy="91" r="4"/><text class="room-type-label" x="638" y="91" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-ff2f31cdf7d2b9de0838dee676b01bc093a30d8a" class="room outdoor" data-label="Market Street by a boulevard cafe" cx="624" cy="88" r="4"/><polygon class="stair-symbol" points="624,85 621.5,90 626.5,90"/>
-    <circle id="room-b0f7624f1e83dd37290043ab03abe981a9955767" class="room outdoor room-shop" data-label="Le Cafe de Grand Gros Grenouille" cx="631" cy="76" r="4"/><polygon class="stair-symbol" points="631,79 628.5,74 633.5,74"/><text class="room-type-label" x="631" y="76" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-b0f7624f1e83dd37290043ab03abe981a9955767" class="room outdoor room-shop" data-label="Le Cafe de Grand Gros Grenouille" cx="631" cy="76" r="4"/><text class="room-type-label" x="631" y="76" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-97020e690860202e34809aec2bd16770d1be96e9" class="room outdoor" data-label="Market Street" cx="610" cy="88" r="4"/>
     <circle id="room-bb2b3cdff5e3225b7f7cd9db31c82ea6fc590da9" class="room outdoor" data-label="Market Street" cx="596" cy="74" r="4"/>
     <circle id="room-6bbcf8434c60c1560c9eef4e17931b04ebf9e7a6" class="room outdoor" data-label="Voodoo Lane" cx="596" cy="88" r="4"/>
     <circle id="room-d36d85c1d6569abd2ce0edb0eab19f69260fb7c7" class="room outdoor" data-label="Voodoo Lane" cx="582" cy="102" r="4"/>
-    <circle id="room-76211fe65b8d8d0ecc1d3a9ef1d30973a5c060b4" class="room outdoor room-access" data-label="Magick Boxe" cx="593" cy="102" r="4"/><polygon class="stair-symbol" points="593,99 590.5,104 595.5,104"/><text class="room-type-label" x="593" y="102" text-anchor="middle" dominant-baseline="central">X</text>
+    <circle id="room-76211fe65b8d8d0ecc1d3a9ef1d30973a5c060b4" class="room outdoor room-access" data-label="Magick Boxe" cx="593" cy="102" r="4"/><text class="room-type-label" x="593" y="102" text-anchor="middle" dominant-baseline="central">X</text>
     <circle id="room-1f2b827e04cd98ee35a438285144e52fef1273b7" class="room outdoor" data-label="Voodoo Lane" cx="582" cy="116" r="4"/>
     <circle id="room-9f57bebd937f37b6c764d4efd790eb83313d35eb" class="room outdoor" data-label="Market Street near Llamedos Fach" cx="582" cy="74" r="4"/>
     <circle id="room-5011501edb80253520565369e3c570d90fd8abdf" class="room outdoor" data-label="Market Street near a shop" cx="568" cy="74" r="4"/>
@@ -1066,7 +1066,7 @@
     <circle id="room-2b1581f661c63969035e3faa228d63e8b34265c1" class="room outdoor" data-label="end of Dead Man&#x27;s Walk" cx="428" cy="32" r="4"/>
     <circle id="room-71e9a2d0c788f33ff990bf486bfd55ed472530b4" class="room outdoor" data-label="Nawlins Road, junction with Dead Man&#x27;s Walk" cx="428" cy="18" r="4"/>
     <circle id="room-60890b81fd65270a229631888acac27694bc3801" class="room outdoor" data-label="warehouse" cx="428" cy="7" r="4"/><polygon class="stair-symbol" points="428,4 425.5,9 430.5,9"/>
-    <circle id="room-c89efc0a273b25bb7b2214603ed30d6923e4001a" class="room outdoor room-weapon" data-label="dingy weapons store" cx="428" cy="7" r="4"/><polygon class="stair-symbol" points="428,10 425.5,5 430.5,5"/><text class="room-type-label" x="428" y="7" text-anchor="middle" dominant-baseline="central">W</text>
+    <circle id="room-c89efc0a273b25bb7b2214603ed30d6923e4001a" class="room outdoor room-weapon" data-label="dingy weapons store" cx="428" cy="7" r="4"/><text class="room-type-label" x="428" y="7" text-anchor="middle" dominant-baseline="central">W</text>
     <circle id="room-97381c8b4b1214854c6b267b43c4926615113e49" class="room outdoor" data-label="Nawlins Road, east of Dead Mans Walk" cx="442" cy="18" r="4"/>
     <circle id="room-1ae98285bfa8024aced63f4b4726d154b6a0a07e" class="room outdoor" data-label="Nawlins Road, eastern section" cx="456" cy="18" r="4"/>
     <circle id="room-b83dd50e58008246d3a2cabe428fb6ed6641cb21" class="room outdoor" data-label="Nawlins Road, eastern section" cx="470" cy="18" r="4"/>
@@ -1091,7 +1091,7 @@
     <circle id="room-c450079a738c15bf994810661f22d16286b606c6" class="room outdoor" data-label="bridge over the Genua City Park lagoon" cx="344" cy="144" r="4"/>
     <circle id="room-4b3e7c7e73aa611943fb4d145e27330addfa876f" class="room outdoor" data-label="island in the Genua City Park lagoon" cx="330" cy="144" r="4"/><polygon class="stair-symbol" points="330,141 327.5,146 332.5,146"/>
     <circle id="room-6406e512e80cdb32d65412ee6f6a81a826f6223f" class="room outdoor" data-label="island in the Genua City Park lagoon" cx="316" cy="144" r="4"/>
-    <circle id="room-2a520742919d7a71f8cdb8cef46a64ee7a5803b1" class="room outdoor room-food" data-label="Cafe Hilaire" cx="322" cy="133" r="4"/><polygon class="stair-symbol" points="322,136 319.5,131 324.5,131"/><text class="room-type-label" x="322" y="133" text-anchor="middle" dominant-baseline="central">F</text>
+    <circle id="room-2a520742919d7a71f8cdb8cef46a64ee7a5803b1" class="room outdoor room-food" data-label="Cafe Hilaire" cx="322" cy="133" r="4"/><text class="room-type-label" x="322" y="133" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-be1e511485e39e6f2c9ff87bfabf881bcb1dc287" class="room outdoor" data-label="bridge over the Genua City Park lagoon" cx="344" cy="130" r="4"/>
     <circle id="room-4a4a9e7aa96968bd80b14c76eeef6e23aed8bd6f" class="room outdoor" data-label="Genua City Park" cx="330" cy="116" r="4"/>
     <circle id="room-78f63179ad212fa740364b99671bd536207d0d0f" class="room outdoor" data-label="Genua City Park" cx="316" cy="116" r="4"/>
@@ -1126,7 +1126,7 @@
     <circle id="room-fc9938b8c2360af66508acdbe055fa730dd47982" class="room outdoor room-shop" data-label="Alfred Peacock&#x27;s Petshop" cx="333" cy="32" r="4"/><text class="room-type-label" x="333" y="32" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-01863c7c5a3f1475444589cd6e6e7d19600fa2ed" class="room outdoor" data-label="end of Tchuttifruitti Street" cx="358" cy="32" r="4"/>
     <circle id="room-07ea096f884e6160c6b2e9189690769ab7d84276" class="room outdoor" data-label="Nawlins Road, intersection with Tchuttifruitti" cx="372" cy="18" r="4"/>
-    <circle id="room-2de066045abf49984e7e455372086fe48d444836" class="room outdoor room-food" data-label="The Shipwrecked Siren" cx="372" cy="29" r="4"/><polygon class="stair-symbol" points="372,26 369.5,31 374.5,31"/><text class="room-type-label" x="372" y="29" text-anchor="middle" dominant-baseline="central">F</text>
+    <circle id="room-2de066045abf49984e7e455372086fe48d444836" class="room outdoor room-food" data-label="The Shipwrecked Siren" cx="372" cy="29" r="4"/><text class="room-type-label" x="372" y="29" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-26b8f3d470ae9bddca85b57a76c9c04e8910c9a9" class="room outdoor" data-label="hallway" cx="372" cy="29" r="4"/><polygon class="stair-symbol" points="372,32 369.5,27 374.5,27"/>
     <circle id="room-ddebd53505441353d3a0cea67f471cdd679a3f2f" class="room outdoor" data-label="a bedroom" cx="372" cy="29" r="4"/>
     <circle id="room-24368f800f9d72f8deffbbfd5ce4b88865530e81" class="room outdoor" data-label="a dormitory" cx="372" cy="29" r="4"/>
@@ -1262,11 +1262,11 @@
     <circle id="room-ceb0b65663d1f3249c26d28e6950446fd4c76027" class="room outdoor room-shop" data-label="genteel suit store" cx="523" cy="270" r="4"/><text class="room-type-label" x="523" y="270" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-074f8b204070ca9168c147aa9e54e9f59030f97f" class="room outdoor" data-label="Diamond Crescent where it meets Liquor Alley" cx="498" cy="284" r="4"/>
     <circle id="room-cdf15c2d09eff545b1bd0193b064f61901fad97c" class="room outdoor" data-label="Liquor Alley" cx="512" cy="298" r="4"/>
-    <circle id="room-ea4ff6d8f7a386c7250711eb5d0bd3faa1d6148e" class="room outdoor room-food" data-label="Bayou Bourbon" cx="512" cy="309" r="4"/><polygon class="stair-symbol" points="512,306 509.5,311 514.5,311"/><text class="room-type-label" x="512" y="309" text-anchor="middle" dominant-baseline="central">F</text>
+    <circle id="room-ea4ff6d8f7a386c7250711eb5d0bd3faa1d6148e" class="room outdoor room-food" data-label="Bayou Bourbon" cx="512" cy="309" r="4"/><text class="room-type-label" x="512" y="309" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-34a38cd060704a1bc9845d740553712ff4eeddff" class="room outdoor" data-label="Liquor Alley" cx="526" cy="298" r="4"/>
     <circle id="room-797b2d4634964cccb35832c3260c511320ca0eaf" class="room outdoor room-shop" data-label="Daiquiri Delights" cx="526" cy="287" r="4"/><text class="room-type-label" x="526" y="287" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-68fe197b252113b6e3ce7429f090aa44413a189e" class="room outdoor" data-label="Liquor Alley" cx="540" cy="298" r="4"/>
-    <circle id="room-139d6663bad4c3f41fce249bdc474a984d24b99c" class="room outdoor room-food" data-label="Absinthe House" cx="540" cy="309" r="4"/><polygon class="stair-symbol" points="540,306 537.5,311 542.5,311"/><text class="room-type-label" x="540" y="309" text-anchor="middle" dominant-baseline="central">F</text>
+    <circle id="room-139d6663bad4c3f41fce249bdc474a984d24b99c" class="room outdoor room-food" data-label="Absinthe House" cx="540" cy="309" r="4"/><text class="room-type-label" x="540" y="309" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-912a05e72f198844801ffbf6be6d29ed19a0a2e8" class="room outdoor" data-label="Liquor Alley" cx="554" cy="298" r="4"/><polygon class="stair-symbol" points="554,301 551.5,296 556.5,296"/>
     <circle id="room-661fdfa9ba89cd07087085c8894ba9041302a28d" class="room outdoor room-shop" data-label="Bayou Bites" cx="554" cy="309" r="4"/><text class="room-type-label" x="554" y="309" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-319f433c8c2b3a4adf04ccd4701994f701d4f507" class="room outdoor" data-label="intersection of Lady Brook Street and Liquor Alley" cx="568" cy="312" r="4"/>
@@ -1275,7 +1275,7 @@
     <circle id="room-e222cf581aebd6ed711dd4d0a2d6f00b105410e2" class="room outdoor room-shop" data-label="Talula&#x27;s Titillating Toys" cx="589" cy="319" r="4"/><text class="room-type-label" x="589" y="319" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-211018099a5235da713f3ced52d661d6b449767a" class="room outdoor" data-label="Liquor Alley" cx="596" cy="340" r="4"/>
     <circle id="room-8841367b7f6e55149b843b267f4c75ac73e909f6" class="room outdoor" data-label="Liquor Alley" cx="610" cy="340" r="4"/>
-    <circle id="room-e622f19406830d0443f7431d30fcf2fec64872da" class="room outdoor room-food" data-label="Lady Brook Liquor" cx="600" cy="328" r="4"/><polygon class="stair-symbol" points="600,325 597.5,330 602.5,330"/><text class="room-type-label" x="600" y="328" text-anchor="middle" dominant-baseline="central">F</text>
+    <circle id="room-e622f19406830d0443f7431d30fcf2fec64872da" class="room outdoor room-food" data-label="Lady Brook Liquor" cx="600" cy="328" r="4"/><text class="room-type-label" x="600" y="328" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-ee48d895f143d6b3f62f0ba2d11ac413bb971bd0" class="room outdoor" data-label="Lady Brook Liquor balcony" cx="600" cy="328" r="4"/><polygon class="stair-symbol" points="600,331 597.5,326 602.5,326"/>
     <circle id="room-58b36e46eb12c37776e58f3b42b7757d30169cad" class="room outdoor" data-label="riverside terrace on Vieux Promenade" cx="624" cy="340" r="4"/>
     <circle id="room-4354d204273c06f64992b55582b4226afe017b29" class="room outdoor room-food" data-label="The Canal Retreat Pub" cx="614" cy="350" r="4"/><text class="room-type-label" x="614" y="350" text-anchor="middle" dominant-baseline="central">F</text>
@@ -1339,7 +1339,7 @@
     <circle id="room-1d202487b9ae6dfeb1487096803493ad267b9455" class="room outdoor" data-label="lounge in the temple of Gapp" cx="655" cy="478" r="4"/>
     <circle id="room-bca387dd7488a10ad5615bab5486b4f020175a7c" class="room outdoor" data-label="middle of Darling Road" cx="484" cy="424" r="4"/>
     <circle id="room-7919d62c5dcbc987dd92bb39b7a43bed439d365d" class="room outdoor room-access" data-label="Annette Winters" cx="495" cy="424" r="4"/><text class="room-type-label" x="495" y="424" text-anchor="middle" dominant-baseline="central">X</text>
-    <circle id="room-a96c295c0d2f0570c10a7131560a6b574a334bf0" class="room outdoor room-clothes" data-label="clothes shop" cx="473" cy="424" r="4"/><polygon class="stair-symbol" points="473,421 470.5,426 475.5,426"/><text class="room-type-label" x="473" y="424" text-anchor="middle" dominant-baseline="central">C</text>
+    <circle id="room-a96c295c0d2f0570c10a7131560a6b574a334bf0" class="room outdoor room-clothes" data-label="clothes shop" cx="473" cy="424" r="4"/><text class="room-type-label" x="473" y="424" text-anchor="middle" dominant-baseline="central">C</text>
     <circle id="room-d5c919d5f453f0c79a77c1aeb52c5bc3cb9cb53e" class="room outdoor" data-label="middle of Darling Road" cx="470" cy="410" r="4"/>
     <circle id="room-9573d2e1cdf7e480cbce7aa10074a30864a31683" class="room outdoor room-clothes" data-label="The Loose Foot" cx="460" cy="400" r="4"/><text class="room-type-label" x="460" y="400" text-anchor="middle" dominant-baseline="central">C</text>
     <circle id="room-0b5bd2259372b915cedade1cf7386f899a996f27" class="room outdoor" data-label="heart of Darling Road" cx="470" cy="396" r="4"/>

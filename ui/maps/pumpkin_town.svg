@@ -56,7 +56,7 @@
     <circle id="room-bdaa129235e9a2209107b43c351f8b2c154ef795" class="room outdoor" data-label="prison hall" cx="455" cy="18" r="4"/>
     <circle id="room-786f922eeddebe8d739709ae43559d01bf1dbcc2" class="room outdoor" data-label="post office" cx="457" cy="50" r="4"/>
     <circle id="room-979f4cf8e3b53219d75ee6faa5c0e498ed588abc" class="room outdoor" data-label="Equipment Emporium" cx="457" cy="145" r="4"/><polygon class="stair-symbol" points="457,142 454.5,147 459.5,147"/>
-    <circle id="room-b6c94cc471cf0f91499773a663a1675680841218" class="room outdoor room-weapon" data-label="weapons and armour shop" cx="484" cy="128" r="4"/><polygon class="stair-symbol" points="484,131 481.5,126 486.5,126"/><text class="room-type-label" x="484" y="128" text-anchor="middle" dominant-baseline="central">W</text>
+    <circle id="room-b6c94cc471cf0f91499773a663a1675680841218" class="room outdoor room-weapon" data-label="weapons and armour shop" cx="484" cy="128" r="4"/><text class="room-type-label" x="484" y="128" text-anchor="middle" dominant-baseline="central">W</text>
     <circle id="room-e68699598323865ce33325e8f75d5f3f4e2e74bd" class="room outdoor" data-label="hospital" cx="423" cy="228" r="4"/><polygon class="stair-symbol" points="423,225 420.5,230 425.5,230"/>
     <circle id="room-917446ff80d14cacf75b035961cc89303d3d51e9" class="room outdoor" data-label="Combat Crib" cx="375" cy="228" r="4"/><polygon class="stair-symbol" points="375,231 372.5,226 377.5,226"/>
     <circle id="room-08d1d34063276a988008c71905bcf3b1b81ed0b6" class="room outdoor" data-label="morgue" cx="357" cy="246" r="4"/><polygon class="stair-symbol" points="357,243 354.5,248 359.5,248"/>
