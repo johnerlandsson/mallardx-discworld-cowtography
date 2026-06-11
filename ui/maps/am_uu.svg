@@ -13,6 +13,13 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs8" />
+  <style id="inkscape-font-fix">
+.map-label, .map-label-muted,
+.lib-table, .lib-gap-label, .lib-book-label,
+.lib-row-num, .lib-book-list {
+  font-family: "Noto Sans", sans-serif;
+}
+</style>
   <sodipodi:namedview
      id="namedview8"
      pagecolor="#ffffff"
@@ -23,8 +30,8 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="2.6755853"
-     inkscape:cx="220.5125"
-     inkscape:cy="117.3575"
+     inkscape:cx="235.4625"
+     inkscape:cy="312.82875"
      inkscape:window-width="2573"
      inkscape:window-height="1011"
      inkscape:window-x="26"
@@ -58,18 +65,6 @@
          id="tspan8"
          x="298.224"
          y="320.04739">LIBRARY</tspan></text>
-    <text
-       xml:space="preserve"
-       x="281.7175"
-       y="308.91464"
-       id="text9"
-       class="map-label-muted"
-       font-size="7px"
-       text-align="center"><tspan
-         sodipodi:role="line"
-         id="tspan9"
-         x="281.7175"
-         y="308.91464">(WARNING L-SPACE)</tspan></text>
     <path
        d="m 303,361 v -14.18687 l 11.46,-11.46375 v -11.30199"
        id="path9"
@@ -375,6 +370,14 @@
          id="tspan38"
          x="326.642"
          y="32.860001">CLASSROOMS</tspan></text>
+    <path
+       d="m 110,397 14,11.44653 v 21.8032 l 18,10.30696 V 450"
+       id="path1"
+       class="exit" />
+    <path
+       d="m 359,341 v 20"
+       id="path2"
+       class="exit" />
   </g>
   <g
      id="layer-exits">

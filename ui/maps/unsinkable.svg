@@ -13,6 +13,13 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs6" />
+  <style id="inkscape-font-fix">
+.map-label, .map-label-muted,
+.lib-table, .lib-gap-label, .lib-book-label,
+.lib-row-num, .lib-book-list {
+  font-family: "Noto Sans", sans-serif;
+}
+</style>
   <sodipodi:namedview
      id="namedview6"
      pagecolor="#ffffff"
