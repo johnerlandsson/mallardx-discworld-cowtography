@@ -34,7 +34,7 @@
 
   <g id="layer-rooms">
     <rect id="room-9a7a21e5d2bbde3730ec89521614405a4e8f835e" class="room indoor" data-label="courtyard of the Guild of Fools, Joculators and Clowns" x="131" y="97" width="8" height="8" rx="2"/>
-    <rect id="room-2a86af27b7989e94c8f99e823d8c124d7c180347" class="room indoor" data-label="small shop" x="159" y="69" width="8" height="8" rx="2"/>
+    <rect id="room-2a86af27b7989e94c8f99e823d8c124d7c180347" class="room indoor room-food" data-label="small shop" x="159" y="69" width="8" height="8" rx="2"/><text class="room-type-label" x="163" y="73" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-3967b71d0de19316b69e3571101afe151aae6635" class="room indoor" data-label="Fools&#x27; Guild Advancement Area" x="131" y="41" width="8" height="8" rx="2"/>
     <rect id="room-ced1bbe392ed9b20284b4e2687811a0dbcdbd095" class="room indoor" data-label="pie range" x="103" y="97" width="8" height="8" rx="2"/>
     <rect id="room-48e5e659f6684213e13cd0e7815d0585bc85ad81" class="room indoor" data-label="southeast section of the Fools&#x27; Guild courtyard" x="131" y="125" width="8" height="8" rx="2"/>
@@ -54,6 +54,8 @@
     <rect id="room-e094f27114ac1068944d1694ea5e03bc2cf60c32" class="room indoor" data-label="barrel of a cannon" x="75" y="41" width="8" height="8" rx="2"/>
   </g>
 
+
+  <g id="layer-room-labels"></g>
   <g id="layer-labels"><!-- labels --></g>
 
 </svg>

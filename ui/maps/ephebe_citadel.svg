@@ -153,7 +153,7 @@
     <rect id="room-f8fa59a91d1a3cf189b99470667eb0bb0471b56f" class="room indoor" data-label="gardens" x="96" y="104" width="8" height="8" rx="2"/>
     <rect id="room-c2343ed0bca2618edfda42c629ef6504ef9a5c7f" class="room indoor" data-label="javelin practice room" x="107" y="104" width="8" height="8" rx="2"/>
     <rect id="room-e33fbf43858788836041c741f46f1090ca47dacd" class="room indoor" data-label="sandy corner of the gardens" x="118" y="104" width="8" height="8" rx="2"/>
-    <rect id="room-f8c1451fd225aaef11f2e98ced2b11bfcf619ffa" class="room indoor" data-label="gardens by a herb bed" x="96" y="115" width="8" height="8" rx="2"/>
+    <rect id="room-f8c1451fd225aaef11f2e98ced2b11bfcf619ffa" class="room indoor room-shop" data-label="gardens by a herb bed" x="96" y="115" width="8" height="8" rx="2"/><text class="room-type-label" x="100" y="119" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-c68d7756989f5be684063f06bc9f03673be63701" class="room indoor" data-label="courtyard of the Tyrant&#x27;s Palace" x="71" y="155" width="8" height="8" rx="2"/>
     <rect id="room-40b4f355dd8107248c7fb2ef3d632d3a431831df" class="room indoor" data-label="portico" x="82" y="155" width="8" height="8" rx="2"/>
     <rect id="room-08277c1fa90c049df6dcf1cad20c8e6ba4c3a64f" class="room indoor" data-label="anteroom" x="92" y="155" width="8" height="8" rx="2"/>
@@ -177,6 +177,8 @@
     <rect id="room-15a43931e7f80edc24ef192e48fa89d8b6f5d504" class="room indoor" data-label="ledge on the side of a wall" x="85" y="82" width="8" height="8" rx="2"/>
   </g>
 
+
+  <g id="layer-room-labels"></g>
   <g id="layer-labels"><!-- labels --></g>
 
 </svg>

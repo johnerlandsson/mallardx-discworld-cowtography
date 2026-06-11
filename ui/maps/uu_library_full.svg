@@ -1692,6 +1692,8 @@
     <path id="lib-arrow" class="lib-arrow" d="M 0 0" visibility="hidden"/>
   </g>
 
+
+  <g id="layer-room-labels"></g>
   <g id="layer-labels">
     <text class="lib-table" x="106" y="4750" text-anchor="middle" dominant-baseline="central">T</text>
     <text class="lib-table" x="136" y="4660" text-anchor="middle" dominant-baseline="central">T</text>

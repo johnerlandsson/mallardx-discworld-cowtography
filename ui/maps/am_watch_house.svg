@@ -91,7 +91,7 @@
 
   <g id="layer-rooms">
     <rect id="room-e4323daefa982b5bbc15bdbe3ba57752df4c1e7d" class="room indoor" data-label="northeastern part of the main hall" x="84" y="100" width="8" height="8" rx="2"/>
-    <rect id="room-38e0caedf0ff789f97b6d7e8e2a18fad9ab0f2fd" class="room indoor" data-label="canteen" x="108" y="100" width="8" height="8" rx="2"/>
+    <rect id="room-38e0caedf0ff789f97b6d7e8e2a18fad9ab0f2fd" class="room indoor room-food" data-label="canteen" x="108" y="100" width="8" height="8" rx="2"/><text class="room-type-label" x="112" y="104" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-a91f881f9b8387aece66202c8c4af29845f2b557" class="room indoor" data-label="kitchen" x="132" y="100" width="8" height="8" rx="2"/>
     <rect id="room-ed5ed573b174bcece88c3026247b4db114376547" class="room indoor" data-label="northwestern part of the main hall" x="60" y="100" width="8" height="8" rx="2"/>
     <rect id="room-dff316ced22bf977b5b85319417619f55cf5427a" class="room indoor" data-label="southwestern part of the main hall" x="60" y="124" width="8" height="8" rx="2"/>
@@ -169,6 +169,8 @@
     <rect id="room-2686328aa9565c6118e159487bf1379435841838" class="room indoor" data-label="armoury" x="132" y="220" width="8" height="8" rx="2"/>
   </g>
 
+
+  <g id="layer-room-labels"></g>
   <g id="layer-labels"><!-- labels --></g>
 
 </svg>

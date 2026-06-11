@@ -56,7 +56,7 @@
     <rect id="room-13d50edc24a1918ff4109cad399d1b5566fb2b74" class="room indoor" data-label="waiting room of the Musicians&#x27; Guild" x="159" y="286" width="8" height="8" rx="2"/>
     <rect id="room-d656e22f1d7f8d65a430a6bf2be9854ccb8d048f" class="room indoor" data-label="office in the Musicians&#x27; Guild" x="160" y="261" width="8" height="8" rx="2"/>
     <rect id="room-43a9fc9d9acfdc64d7195e459c5dc69aff2e41ed" class="room indoor" data-label="meeting room in the Musicians&#x27; Guild" x="135" y="261" width="8" height="8" rx="2"/>
-    <rect id="room-4b8a5f240068cf36abd6ac65ce26232c14f2986f" class="room indoor" data-label="shop and craft room" x="135" y="287" width="8" height="8" rx="2"/>
+    <rect id="room-4b8a5f240068cf36abd6ac65ce26232c14f2986f" class="room indoor room-shop" data-label="shop and craft room" x="135" y="287" width="8" height="8" rx="2"/><text class="room-type-label" x="139" y="291" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-22ff3625b21dcb14ad35a521d4dfa9dc645f8d71" class="room indoor" data-label="main entrance of the Butchers&#x27; Guild" x="784" y="90" width="8" height="8" rx="2"/>
     <rect id="room-7f237c5d36553213aab1972f735868c00d8cabec" class="room indoor" data-label="elegant lobby of the Butchers&#x27; Guild" x="808" y="90" width="8" height="8" rx="2"/>
     <rect id="room-76a768fee2331dfce1dbf12dfcc3a6b71842babd" class="room indoor" data-label="inspection area" x="808" y="66" width="8" height="8" rx="2"/>
@@ -67,20 +67,20 @@
     <rect id="room-32268d4defcafc42f3d02bc79205cef07ae06c82" class="room indoor" data-label="foyer of the Guild of Alchemists" x="455" y="304" width="8" height="8" rx="2"/>
     <rect id="room-bf1a617aa15a401a133244efdeabbd483409141f" class="room indoor" data-label="Guild of Alchemists Reception" x="480" y="279" width="8" height="8" rx="2"/>
     <rect id="room-6dc1e656c17fd1135c8c32f3e887d88341e71a6a" class="room indoor" data-label="Alchemists&#x27; common room" x="455" y="279" width="8" height="8" rx="2"/>
-    <rect id="room-d3e28db0be0d5a1b7f402784f0e5d41551876ccb" class="room indoor" data-label="Guild of Alchemists&#x27; supply shop" x="455" y="328" width="8" height="8" rx="2"/>
+    <rect id="room-d3e28db0be0d5a1b7f402784f0e5d41551876ccb" class="room indoor room-clothes" data-label="Guild of Alchemists&#x27; supply shop" x="455" y="328" width="8" height="8" rx="2"/><text class="room-type-label" x="459" y="332" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-bc1dfc6b3929a692cd42ad767d182947cbc58029" class="room indoor" data-label="staircase in the Guild of Alchemists" x="431" y="304" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="435,305 432.5,310 437.5,310"/>
     <rect id="room-a6b5b1c9025e4f1e8488fd1d224d495dfefbf0f3" class="room indoor" data-label="first level of the fire escape" x="483" y="241" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="487,242 489.5,245 487,248 484.5,245"/>
     <rect id="room-7db17036079cd4fa5bd1516395e4bfebbde36409" class="room indoor" data-label="second level of the fire escape" x="483" y="150" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="487,151 489.5,154 487,157 484.5,154"/>
     <rect id="room-7a7088f6af6d8bf26558c4139b476869f8748a13" class="room indoor" data-label="top of the Alchemists&#x27; Guild fire escape" x="483" y="59" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="487,66 484.5,61 489.5,61"/>
     <rect id="room-80e55d7eb45d374a851e517007926a388fb0314d" class="room indoor" data-label="large courtyard" x="102" y="88" width="8" height="8" rx="2"/>
-    <rect id="room-6657b58f7d42e87f81cefcb3c2b941ba44dca088" class="room indoor" data-label="The Mended Pipe" x="102" y="61" width="8" height="8" rx="2"/>
+    <rect id="room-6657b58f7d42e87f81cefcb3c2b941ba44dca088" class="room indoor room-shop" data-label="The Mended Pipe" x="102" y="61" width="8" height="8" rx="2"/><text class="room-type-label" x="106" y="65" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-7fc9f5e131d4a7c6244372efc7dfb31821f5f9c8" class="room indoor" data-label="Plumbers Guild lounge" x="78" y="61" width="8" height="8" rx="2"/>
     <rect id="room-2cbe2465c6b336ad535edd1d262dba8c5767bcd5" class="room indoor" data-label="reception area for the Guild of Plumbers and Dunnykindivers" x="128" y="61" width="8" height="8" rx="2"/>
     <rect id="room-043b281a7a2bd4b9a4348a5d7b1c715b19ca1145" class="room indoor" data-label="main office of the Guild of Plumbers and Dunnykindivers" x="152" y="61" width="8" height="8" rx="2"/>
     <rect id="room-4ca3eace56fabd9b7e389e1e06cf456d4bbc47a7" class="room indoor" data-label="Plumbers&#x27; Guild shop" x="152" y="88" width="8" height="8" rx="2"/>
-    <rect id="room-7abf5d3235e3be1fb20ba13e8a8d97cfa2e7b2e1" class="room indoor" data-label="Plumbers&#x27; Guild shop" x="152" y="114" width="8" height="8" rx="2"/>
+    <rect id="room-7abf5d3235e3be1fb20ba13e8a8d97cfa2e7b2e1" class="room indoor room-shop" data-label="Plumbers&#x27; Guild shop" x="152" y="114" width="8" height="8" rx="2"/><text class="room-type-label" x="156" y="118" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-d409625b3d159b8211c7dd9a39e343c46e142db7" class="room indoor" data-label="bare and dusty storeroom" x="128" y="114" width="8" height="8" rx="2"/>
-    <rect id="room-aa73510d8d8d382ce7fba60ef46d3990ea17154e" class="room indoor" data-label="Guild of Alchemists cafeteria" x="431" y="279" width="8" height="8" rx="2"/>
+    <rect id="room-aa73510d8d8d382ce7fba60ef46d3990ea17154e" class="room indoor room-food" data-label="Guild of Alchemists cafeteria" x="431" y="279" width="8" height="8" rx="2"/><text class="room-type-label" x="435" y="283" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-1fd78d92d81b9cac5f8a0b03eb5d2b1aabfe2ccc" class="room indoor" data-label="hallway in the Guild of Alchemists" x="455" y="213" width="8" height="8" rx="2"/>
     <rect id="room-1677be8a44b28e03e29fbdecf462798a25be7629" class="room indoor" data-label="food classroom" x="455" y="189" width="8" height="8" rx="2"/>
     <rect id="room-61807251fd05be118687d128f921e0e5064f6351" class="room indoor" data-label="precious metals classroom" x="455" y="237" width="8" height="8" rx="2"/>
@@ -96,6 +96,8 @@
     <rect id="room-ea15856d667e36d30654a42693fc7f0d87902173" class="room indoor" data-label="Butchers&#x27; Guild freezer" x="760" y="42" width="8" height="8" rx="2"/>
   </g>
 
+
+  <g id="layer-room-labels"></g>
   <g id="layer-labels"><!-- labels --></g>
 
 </svg>

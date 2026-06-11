@@ -233,24 +233,24 @@
     <rect id="room-f449a64b244d36873e57250e414d7f14914c383d" class="room indoor" data-label="corridor" x="94" y="121" width="8" height="8" rx="2"/>
     <rect id="room-06a675cebf41c62d72eaca3e9aecf5b1768c2458" class="room indoor" data-label="voting foyer" x="94" y="96" width="8" height="8" rx="2"/>
     <rect id="room-56e64b57ad52d38d683fadbe2295e540d6a3600e" class="room indoor" data-label="voting booth" x="94" y="96" width="8" height="8" rx="2"/>
-    <rect id="room-902a225ed35731454e1b7b374ec808f27b258bb8" class="room indoor" data-label="Council Cafe" x="119" y="121" width="8" height="8" rx="2"/>
+    <rect id="room-902a225ed35731454e1b7b374ec808f27b258bb8" class="room indoor room-food" data-label="Council Cafe" x="119" y="121" width="8" height="8" rx="2"/><text class="room-type-label" x="123" y="125" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-0e593a9bd77a2fcf8ba4b802216b2a5084cdeb2e" class="room indoor" data-label="garden outside Milords and Miladies Pavilion" x="484" y="86" width="8" height="8" rx="2"/>
     <rect id="room-4bdcf399913a4a773d299cee7b4a95300dbd76b9" class="room indoor" data-label="Grand Hall of Milords &amp; Miladies" x="484" y="112" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="488,119 485.5,114 490.5,114"/>
     <rect id="room-6f2efdc2039123bb50035a9201854a8c51bf7f88" class="room indoor" data-label="Benevolent Registry" x="509" y="112" width="8" height="8" rx="2"/>
     <rect id="room-315ea172adf4ac5a1d774a679e386f84b52d26e7" class="room indoor" data-label="dusty store room" x="509" y="137" width="8" height="8" rx="2"/>
-    <rect id="room-7585797c2787ac3a8057dc55fc6eec8dbe21a0f2" class="room indoor" data-label="Seconds Department" x="460" y="136" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="464,137 461.5,142 466.5,142"/>
+    <rect id="room-7585797c2787ac3a8057dc55fc6eec8dbe21a0f2" class="room indoor room-clothes" data-label="Seconds Department" x="460" y="136" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="464,137 461.5,142 466.5,142"/><text class="room-type-label" x="464" y="140" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-ae0a29b8b31ad040f8868521ab2967d7aa93844f" class="room indoor" data-label="elevator" x="484" y="136" width="8" height="8" rx="2"/>
-    <rect id="room-bca23d5b0f960b18883c6f4302661500db0d7524" class="room indoor" data-label="Mezzanine Men&#x27;s Wear" x="606" y="111" width="8" height="8" rx="2"/>
-    <rect id="room-cd3a9906159e866ca94a0d3e5b35034bbf2ba75a" class="room indoor" data-label="Suits You, on the Mezzanine floor" x="581" y="111" width="8" height="8" rx="2"/>
-    <rect id="room-6f2d98026ac53db8351ae389c8618ced8aae4b58" class="room indoor" data-label="Collars and Cuffs accessories" x="631" y="111" width="8" height="8" rx="2"/>
+    <rect id="room-bca23d5b0f960b18883c6f4302661500db0d7524" class="room indoor room-clothes" data-label="Mezzanine Men&#x27;s Wear" x="606" y="111" width="8" height="8" rx="2"/><text class="room-type-label" x="610" y="115" text-anchor="middle" dominant-baseline="central">C</text>
+    <rect id="room-cd3a9906159e866ca94a0d3e5b35034bbf2ba75a" class="room indoor room-clothes" data-label="Suits You, on the Mezzanine floor" x="581" y="111" width="8" height="8" rx="2"/><text class="room-type-label" x="585" y="115" text-anchor="middle" dominant-baseline="central">C</text>
+    <rect id="room-6f2d98026ac53db8351ae389c8618ced8aae4b58" class="room indoor room-clothes" data-label="Collars and Cuffs accessories" x="631" y="111" width="8" height="8" rx="2"/><text class="room-type-label" x="635" y="115" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-8df57597712293902a936c783abace5ddfce0e58" class="room indoor" data-label="Bridal Salon foyer" x="724" y="111" width="8" height="8" rx="2"/>
-    <rect id="room-8e1be77ea1cfb0e8f1e9e628620dd724dec78177" class="room indoor" data-label="Milords &amp; Miladies Bridal Salon" x="724" y="81" width="8" height="8" rx="2"/>
+    <rect id="room-8e1be77ea1cfb0e8f1e9e628620dd724dec78177" class="room indoor room-clothes" data-label="Milords &amp; Miladies Bridal Salon" x="724" y="81" width="8" height="8" rx="2"/><text class="room-type-label" x="728" y="85" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-7d8e2c2d78af0ff15f8f038c224f331da301d080" class="room indoor" data-label="small hidden room" x="509" y="137" width="8" height="8" rx="2"/>
-    <rect id="room-2ad05c1c69504e8e3e8f8c00050010dc2aebf6cd" class="room indoor" data-label="Les Femmes Tres Chic" x="749" y="81" width="8" height="8" rx="2"/>
-    <rect id="room-129367839b1a83c3126ae36a7df0b8408a6e29c0" class="room indoor" data-label="Accessories Department" x="864" y="104" width="8" height="8" rx="2"/>
-    <rect id="room-13f5500968be2e104366e12f184f770ff783b2ae" class="room indoor" data-label="Romance Room and Engraving" x="839" y="104" width="8" height="8" rx="2"/>
+    <rect id="room-2ad05c1c69504e8e3e8f8c00050010dc2aebf6cd" class="room indoor room-clothes" data-label="Les Femmes Tres Chic" x="749" y="81" width="8" height="8" rx="2"/><text class="room-type-label" x="753" y="85" text-anchor="middle" dominant-baseline="central">C</text>
+    <rect id="room-129367839b1a83c3126ae36a7df0b8408a6e29c0" class="room indoor room-food" data-label="Accessories Department" x="864" y="104" width="8" height="8" rx="2"/><text class="room-type-label" x="868" y="108" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-13f5500968be2e104366e12f184f770ff783b2ae" class="room indoor room-access" data-label="Romance Room and Engraving" x="839" y="104" width="8" height="8" rx="2"/><text class="room-type-label" x="843" y="108" text-anchor="middle" dominant-baseline="central">X</text>
     <rect id="room-a0aa37ae6215e171f636c5bc11955b85db0ab6ca" class="room indoor" data-label="Stationery Shoppe" x="889" y="104" width="8" height="8" rx="2"/>
-    <rect id="room-dbe0c97b3bb69a0a0d9b797e020963de0c41f96b" class="room indoor" data-label="Floral Designs" x="864" y="73" width="8" height="8" rx="2"/>
+    <rect id="room-dbe0c97b3bb69a0a0d9b797e020963de0c41f96b" class="room indoor room-shop" data-label="Floral Designs" x="864" y="73" width="8" height="8" rx="2"/><text class="room-type-label" x="868" y="77" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-fc357979fb5c2e2a195948af0d1cd8b38f75a0c0" class="room indoor" data-label="Third Floor foyer" x="1017" y="112" width="8" height="8" rx="2"/>
     <rect id="room-fd53458de83f3fc108313a64fbf22ad752eff54e" class="room indoor" data-label="Pavilion Tearoom" x="993" y="112" width="8" height="8" rx="2"/>
     <rect id="room-084a704b19a5804f0710df04a1bf71b2a6d6642e" class="room indoor" data-label="Reception Salon" x="1041" y="112" width="8" height="8" rx="2"/>
@@ -261,14 +261,14 @@
     <rect id="room-27b87a3aa2288bb3cea5ef7f8b75be4238462d34" class="room indoor" data-label="roof gardens, outside the Tearoom" x="967" y="112" width="8" height="8" rx="2"/>
     <rect id="room-03d78b3b0885c5e931b7bf92b7c935c85796a0e3" class="room indoor" data-label="entrance hall of the Magical Supplies Emporium" x="394" y="415" width="8" height="8" rx="2"/>
     <rect id="room-cccd323dcbf7e3a9c7b97ed4931e87437256b64a" class="room indoor" data-label="office of the Magical Supplies Emporium" x="394" y="391" width="8" height="8" rx="2"/>
-    <rect id="room-4b403a14479ce57e703f18872b3fada397e95c02" class="room indoor" data-label="Emporium Tea Shoppe" x="394" y="439" width="8" height="8" rx="2"/>
+    <rect id="room-4b403a14479ce57e703f18872b3fada397e95c02" class="room indoor room-food" data-label="Emporium Tea Shoppe" x="394" y="439" width="8" height="8" rx="2"/><text class="room-type-label" x="398" y="443" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-6b8e09e64ec5ec1cdfd63f949d16bc4fa458acf2" class="room indoor" data-label="ground floor hallway of the Magical Supplies Emporium" x="417" y="415" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="421,416 418.5,421 423.5,421"/>
-    <rect id="room-aaa543f80c41c287dd736fd8a190afca2bebf48a" class="room indoor" data-label="Darren Spangler&#x27;s Accessories" x="417" y="391" width="8" height="8" rx="2"/>
-    <rect id="room-8edd2b9a65f2533cecc14305fafffbb722464931" class="room indoor" data-label="Rebecca Palm&#x27;s Clothing" x="442" y="391" width="8" height="8" rx="2"/>
+    <rect id="room-aaa543f80c41c287dd736fd8a190afca2bebf48a" class="room indoor room-access" data-label="Darren Spangler&#x27;s Accessories" x="417" y="391" width="8" height="8" rx="2"/><text class="room-type-label" x="421" y="395" text-anchor="middle" dominant-baseline="central">X</text>
+    <rect id="room-8edd2b9a65f2533cecc14305fafffbb722464931" class="room indoor room-clothes" data-label="Rebecca Palm&#x27;s Clothing" x="442" y="391" width="8" height="8" rx="2"/><text class="room-type-label" x="446" y="395" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-c574a64f44e0698327e7e05de3a675b9876115a3" class="room indoor" data-label="first floor landing of the Magical Supplies Emporium" x="471" y="398" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="475,405 472.5,400 477.5,400"/>
-    <rect id="room-81c516acf7f46f34444c5fb626451d2b7fdb9e41" class="room indoor" data-label="Strumplott&#x27;s Talismans" x="471" y="423" width="8" height="8" rx="2"/>
-    <rect id="room-e59e946db969b09f78c4acef1c1699fbcd06e2fa" class="room indoor" data-label="Salter Rhogain&#x27;s Legibles" x="471" y="375" width="8" height="8" rx="2"/>
-    <rect id="room-2a12d32cdc5a34705f2f7425fdbdf7ea01bc59f5" class="room indoor" data-label="Hobliet the Unnecessary&#x27;s Linear Tools" x="496" y="398" width="8" height="8" rx="2"/>
+    <rect id="room-81c516acf7f46f34444c5fb626451d2b7fdb9e41" class="room indoor room-access" data-label="Strumplott&#x27;s Talismans" x="471" y="423" width="8" height="8" rx="2"/><text class="room-type-label" x="475" y="427" text-anchor="middle" dominant-baseline="central">X</text>
+    <rect id="room-e59e946db969b09f78c4acef1c1699fbcd06e2fa" class="room indoor room-food" data-label="Salter Rhogain&#x27;s Legibles" x="471" y="375" width="8" height="8" rx="2"/><text class="room-type-label" x="475" y="379" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-2a12d32cdc5a34705f2f7425fdbdf7ea01bc59f5" class="room indoor room-shop" data-label="Hobliet the Unnecessary&#x27;s Linear Tools" x="496" y="398" width="8" height="8" rx="2"/><text class="room-type-label" x="500" y="402" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-b85fd0acbc6f39f1a94c5d066b5704dbfd0e2fa4" class="room indoor" data-label="Tarnach Fendertwin&#x27;s Quality Consumables (Ankh-Morpork)" x="495" y="374" width="8" height="8" rx="2"/>
     <rect id="room-7f0f39a873a794d682c9eed9261623e0fef2f357" class="room indoor" data-label="behind the counter of Tarnach&#x27;s shop" x="520" y="374" width="8" height="8" rx="2"/>
     <rect id="room-3077fbb368bc556a5de787a2a56374031f6736c7" class="room indoor" data-label="office of Tarnach&#x27;s shop" x="520" y="374" width="8" height="8" rx="2"/>
@@ -278,7 +278,7 @@
     <rect id="room-3ea8f0b57f705c413ab25c5b5617acd6451174ac" class="room indoor" data-label="small room" x="643" y="427" width="8" height="8" rx="2"/>
     <rect id="room-cce108f99eabf38e6fa89c1e452e655a3e54e890" class="room indoor" data-label="Hall of Heroes" x="667" y="427" width="8" height="8" rx="2"/>
     <rect id="room-9e55428959220c32faad949ff73d7c5e1e576c5e" class="room indoor" data-label="main hall" x="695" y="403" width="8" height="8" rx="2"/>
-    <rect id="room-403f0e53b1cf9c15d9c3b98eb6dfcfe40d12a0ca" class="room indoor" data-label="Apex Club bar" x="695" y="428" width="8" height="8" rx="2"/>
+    <rect id="room-403f0e53b1cf9c15d9c3b98eb6dfcfe40d12a0ca" class="room indoor room-food" data-label="Apex Club bar" x="695" y="428" width="8" height="8" rx="2"/><text class="room-type-label" x="699" y="432" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-6f4ced9fa684736eac3454cefa03f0a103b3459e" class="room indoor" data-label="dining room" x="719" y="428" width="8" height="8" rx="2"/>
     <rect id="room-cbf0f126972af2d1584d300ae1069ddd8e9521ab" class="room indoor" data-label="bottom of a staircase" x="743" y="428" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="747,429 744.5,434 749.5,434"/>
     <rect id="room-e8223eb398a588e2eaa027b49682c09f3ab560b2" class="room indoor" data-label="first floor landing" x="743" y="403" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="747,404 749.5,407 747,410 744.5,407"/>
@@ -333,7 +333,7 @@
     <rect id="room-bddaa8758f2689db4e6de474cab2e4b2e4b2943a" class="room indoor" data-label="hallway" x="964" y="360" width="8" height="8" rx="2"/>
     <rect id="room-ccd11c7bc0de622dc53d2302f2d491b0302f9640" class="room indoor" data-label="hallway" x="939" y="360" width="8" height="8" rx="2"/>
     <rect id="room-ec13e2aac3a7629bef2a22ca757e3f8f81ab6140" class="room indoor" data-label="business card printer&#x27;s shop" x="939" y="383" width="8" height="8" rx="2"/>
-    <rect id="room-3159ce4dcfacc07ee2006db42fac3016235bb263" class="room indoor" data-label="Gertrude&#x27;s Perfumery" x="939" y="336" width="8" height="8" rx="2"/>
+    <rect id="room-3159ce4dcfacc07ee2006db42fac3016235bb263" class="room indoor room-shop" data-label="Gertrude&#x27;s Perfumery" x="939" y="336" width="8" height="8" rx="2"/><text class="room-type-label" x="943" y="340" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-10442aafcb2a27a2d2ae0250f69b319336d8d724" class="room indoor" data-label="bottom of a staircase in the Flintwick Building" x="915" y="360" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="919,361 916.5,366 921.5,366"/>
     <rect id="room-142a356566a91c3d5c32ea38ce1a01edab1b8e7c" class="room indoor" data-label="stairway in the Flintwick Building" x="915" y="324" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="919,325 921.5,328 919,331 916.5,328"/>
     <rect id="room-f3396b73e9e92bef64e35964b2dc3ea7d43640d7" class="room indoor" data-label="top of a staircase in the Flintwick Building" x="915" y="288" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="919,295 916.5,290 921.5,290"/>
@@ -358,7 +358,7 @@
     <rect id="room-214ded505a466850f7f0f55fc3eef19f5797043c" class="room indoor" data-label="family control room" x="128" y="349" width="8" height="8" rx="2"/>
     <rect id="room-02a522b5374e994eb554347697af75a8a3d0b391" class="room indoor" data-label="club control room" x="104" y="349" width="8" height="8" rx="2"/>
     <rect id="room-1720f64c8fd19126b9f3e011c008ce3e3c5ccb0c" class="room indoor" data-label="entrance to the Mended Drum" x="1242" y="114" width="8" height="8" rx="2"/>
-    <rect id="room-964ea3c5f971d538232e683612cd41900c232bdd" class="room indoor" data-label="bar of the Mended Drum" x="1242" y="86" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="1246,87 1243.5,92 1248.5,92"/>
+    <rect id="room-964ea3c5f971d538232e683612cd41900c232bdd" class="room indoor room-food" data-label="bar of the Mended Drum" x="1242" y="86" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="1246,87 1243.5,92 1248.5,92"/><text class="room-type-label" x="1246" y="90" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-801621fc9307a20a40cb01f59c9f97590d685ad5" class="room indoor" data-label="western part of the Mended Drum" x="1213" y="86" width="8" height="8" rx="2"/>
     <rect id="room-b19063057a9d15e84d4ca055e7aa17b321299339" class="room indoor" data-label="outside the Drum&#x27;s back door" x="1213" y="60" width="8" height="8" rx="2"/>
     <rect id="room-c5089ada29acbbdf794fbe5d743211965e4baa6b" class="room indoor" data-label="toilets of the Mended Drum" x="1242" y="62" width="8" height="8" rx="2"/>
@@ -436,9 +436,11 @@
     <rect id="room-5128fad15be50774cabfc975ddf3556aafce045f" class="room indoor" data-label="hidden cellar" x="1274" y="324" width="8" height="8" rx="2"/>
     <rect id="room-f82e2e19afe7af5cf159f1c00458ce78680348bd" class="room indoor" data-label="hidden cellar" x="1274" y="324" width="8" height="8" rx="2"/>
     <rect id="room-4acae12c25851af79f3fd11728881f362f374c73" class="room indoor" data-label="very secret treasure chamber" x="1254" y="388" width="8" height="8" rx="2"/>
-    <rect id="room-9790af61bf6e376d7532b1e63ed88916f7bb6b52" class="room indoor" data-label="Ruffle &amp; Squeak, on the Mezzanine floor" x="654" y="111" width="8" height="8" rx="2"/>
+    <rect id="room-9790af61bf6e376d7532b1e63ed88916f7bb6b52" class="room indoor room-clothes" data-label="Ruffle &amp; Squeak, on the Mezzanine floor" x="654" y="111" width="8" height="8" rx="2"/><text class="room-type-label" x="658" y="115" text-anchor="middle" dominant-baseline="central">C</text>
   </g>
 
+
+  <g id="layer-room-labels"></g>
   <g id="layer-labels"><!-- labels --></g>
 
 </svg>

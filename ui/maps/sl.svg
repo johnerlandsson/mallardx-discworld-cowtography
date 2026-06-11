@@ -581,18 +581,18 @@
     <circle id="room-de6c09438f86f34f12896d7c79639404a24bab13" class="room outdoor" data-label="Queen&#x27;s Road" cx="465" cy="110" r="4"/>
     <circle id="room-289eebfa6dc1931940aae9fed01e1585f462ef4b" class="room outdoor" data-label="Wall Street" cx="451" cy="68" r="4"/>
     <circle id="room-31304c30c3c8eb928298bb90e5ae02f60f0a4990" class="room outdoor" data-label="northern Wall Street beside the walls of the castle grounds" cx="339" cy="26" r="4"/>
-    <circle id="room-da4bc7576f32fb4bd39e1cb69f945707c06d6036" class="room outdoor" data-label="Palace Inn stables" cx="412" cy="68" r="4"/>
+    <circle id="room-da4bc7576f32fb4bd39e1cb69f945707c06d6036" class="room outdoor room-shop" data-label="Palace Inn stables" cx="412" cy="68" r="4"/><text class="room-type-label" x="412" y="68" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-4eb542b68419b9525964603735ae7d53845fd362" class="room outdoor" data-label="drawing room" cx="495" cy="407" r="4"/>
     <circle id="room-c09bbfa75b9ecb35680c7f67295e4a9e93e36d9c" class="room outdoor" data-label="bathroom" cx="517" cy="385" r="4"/>
     <circle id="room-680632524508e502788567f377490e3a59701b9d" class="room outdoor" data-label="Queen&#x27;s Road" cx="283" cy="96" r="4"/>
     <circle id="room-81387ea145e13b14beaeaac47e0d8d12d9b84b10" class="room outdoor" data-label="hard cobbled stretch of Queen&#x27;s Road" cx="381" cy="124" r="4"/>
     <circle id="room-e4c813cde567df190ff7ec7eb6c2063220c603ef" class="room outdoor" data-label="Palace Inn" cx="423" cy="79" r="4"/>
     <circle id="room-8dce594a2d31e49a54aedc4879d4b43ee4a18257" class="room outdoor" data-label="intersection of Wall Street and Heritage Hill" cx="395" cy="54" r="4"/>
-    <circle id="room-17d1ad2e83a04affb234d55bb9d02a336be99e62" class="room outdoor" data-label="fresh and airy pet shop" cx="427" cy="142" r="4"/>
+    <circle id="room-17d1ad2e83a04affb234d55bb9d02a336be99e62" class="room outdoor room-clothes" data-label="fresh and airy pet shop" cx="427" cy="142" r="4"/><text class="room-type-label" x="427" y="142" text-anchor="middle" dominant-baseline="central">C</text>
     <circle id="room-6c61626504d080c3c69058667ce2afea18af7927" class="room outdoor" data-label="Queen&#x27;s Road" cx="367" cy="68" r="4"/>
     <circle id="room-6e3aac805677bddc0ad6c01e3d8daa60251c466c" class="room outdoor" data-label="kitchen" cx="517" cy="407" r="4"/><polygon class="stair-symbol" points="517,410 514.5,405 519.5,405"/>
     <circle id="room-f84f3a468b314f130df750163dfbcbc01c4602bd" class="room outdoor" data-label="Queen&#x27;s Road" cx="269" cy="138" r="4"/>
-    <circle id="room-afabc04e3b723dd179461ecc7a9bd8136d6a0ce5" class="room outdoor" data-label="souvenir shop" cx="370" cy="82" r="4"/>
+    <circle id="room-afabc04e3b723dd179461ecc7a9bd8136d6a0ce5" class="room outdoor room-weapon" data-label="souvenir shop" cx="370" cy="82" r="4"/><text class="room-type-label" x="370" y="82" text-anchor="middle" dominant-baseline="central">W</text>
     <circle id="room-b702fa47b524386bbb33eb0251ad0f0b8e4f4427" class="room outdoor" data-label="northern end of Hill Street" cx="437" cy="124" r="4"/>
     <circle id="room-762abf674692ac0d9a31392974e43824b3c7a895" class="room outdoor" data-label="Palace Inn" cx="423" cy="79" r="4"/>
     <circle id="room-d7334aec535e6629bdd904d6b10aa164f87db9e5" class="room outdoor" data-label="room in the Palace Inn" cx="423" cy="79" r="4"/>
@@ -607,7 +607,7 @@
     <circle id="room-cbae706b61a1944fcf0f7f2788b75598a2ced5b3" class="room outdoor" data-label="Quirm Street a little way south of Wall Street" cx="507" cy="138" r="4"/>
     <circle id="room-62fc53f93e659008c7e3f381c0a941ce8cca7258" class="room outdoor" data-label="Queen&#x27;s Road" cx="297" cy="82" r="4"/>
     <circle id="room-a5c66690683082d451cc9f6e6d1479cb607c6df5" class="room outdoor" data-label="Hill Street northwest of Quirm Street" cx="437" cy="138" r="4"/>
-    <circle id="room-8cf67129adb6cb8693fd3f70252e12e1da58934a" class="room outdoor" data-label="garden" cx="484" cy="396" r="4"/>
+    <circle id="room-8cf67129adb6cb8693fd3f70252e12e1da58934a" class="room outdoor room-shop" data-label="garden" cx="484" cy="396" r="4"/><text class="room-type-label" x="484" y="396" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-983cfe92317f50ed30c44318873ccddc0b858b7f" class="room outdoor" data-label="curve of Wall Street outside an ornate old house" cx="479" cy="82" r="4"/>
     <circle id="room-69ffa979f85ab55fedd40275b138651fa91e5c87" class="room outdoor" data-label="cobbled stretch of Queen&#x27;s Road" cx="339" cy="54" r="4"/>
     <circle id="room-4ff32bcb4841a9b8a066a0a53cf5cf3a025dee68" class="room outdoor" data-label="Queen&#x27;s Road" cx="451" cy="96" r="4"/>
@@ -620,7 +620,7 @@
     <circle id="room-c105ceeccb0874e3d3e9af381bc6ec38570c1e9b" class="room outdoor" data-label="Quirm Street at the intersection with Queen&#x27;s Road" cx="479" cy="152" r="4"/>
     <circle id="room-3d17a3e5252d8331d32b2dcb39d66b0f9c8cb234" class="room outdoor" data-label="section of northern Wall Street, where the wall is lined with pencil pines" cx="367" cy="26" r="4"/>
     <circle id="room-af0448cbf2b04371a2c0d63e7ff3b93eea77ea29" class="room outdoor" data-label="intersection of Quirm Street and Hill Street" cx="451" cy="152" r="4"/>
-    <circle id="room-f58cf6abde3a4436db74f285af23496fa9a23800" class="room outdoor" data-label="common room of the Palace Inn" cx="423" cy="79" r="4"/><polygon class="stair-symbol" points="423,76 420.5,81 425.5,81"/>
+    <circle id="room-f58cf6abde3a4436db74f285af23496fa9a23800" class="room outdoor room-food" data-label="common room of the Palace Inn" cx="423" cy="79" r="4"/><polygon class="stair-symbol" points="423,76 420.5,81 425.5,81"/><text class="room-type-label" x="423" y="79" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-69f4ba237507adb525082b5a9b2d60ffbc8598f7" class="room outdoor" data-label="hall" cx="506" cy="396" r="4"/>
     <circle id="room-70bf64e7fa2f6259cdb694a185fc86979996c3b8" class="room outdoor" data-label="Palace Inn" cx="423" cy="79" r="4"/><polygon class="stair-symbol" points="423,82 420.5,77 425.5,77"/>
     <circle id="room-b44036a405063ae3a7a3197870e0e9d4d4beeba3" class="room outdoor" data-label="Queen&#x27;s Road" cx="367" cy="166" r="4"/>
@@ -629,7 +629,7 @@
     <circle id="room-0f52a4d5bef39331c53655f92201c8b45f369e14" class="room outdoor" data-label="Wall Street" cx="437" cy="68" r="4"/>
     <circle id="room-ddb6f1db6251c2c4b0f42ec0f8e101750cee2e7d" class="room outdoor" data-label="Queen&#x27;s Road" cx="479" cy="124" r="4"/>
     <circle id="room-1871c1a595ab672ca1a53098610516abd6a788c3" class="room outdoor" data-label="Heritage Hill" cx="395" cy="96" r="4"/>
-    <circle id="room-fb6158de13cc94835177e727ec62f7b0b0b8f7ea" class="room outdoor" data-label="furniture store on Hill Street" cx="426" cy="110" r="4"/>
+    <circle id="room-fb6158de13cc94835177e727ec62f7b0b0b8f7ea" class="room outdoor room-shop" data-label="furniture store on Hill Street" cx="426" cy="110" r="4"/><text class="room-type-label" x="426" y="110" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-6ef109459e842b9403b2382cba2b44664ac78560" class="room outdoor" data-label="Queen&#x27;s Road" cx="297" cy="152" r="4"/>
     <circle id="room-5dbf8d2aad759303cdabaf40f49b97160607b5c9" class="room outdoor" data-label="hard cobbles of Queen&#x27;s Road" cx="283" cy="152" r="4"/>
     <circle id="room-ce027c2c7280b2686110c4c456f23fe124f83cf9" class="room outdoor" data-label="Quirm Street" cx="423" cy="152" r="4"/>
@@ -665,7 +665,7 @@
     <circle id="room-241357eab9f4fbdab4deeb7510fa87fcd0437932" class="room outdoor" data-label="quiet part of Grave&#x27;s Hope" cx="543" cy="68" r="4"/>
     <circle id="room-eab63f6967beb98613c030e0e5accf82ddf211ed" class="room outdoor" data-label="Grave&#x27;s Hope playground" cx="543" cy="82" r="4"/>
     <circle id="room-fd123fa0e085bb47fea1a7a70449afd58479eafd" class="room outdoor" data-label="front porch of a small cottage" cx="543" cy="57" r="4"/>
-    <circle id="room-55b1088f33b3f4b117d61ba0f699867810cc6b32" class="room outdoor" data-label="small garden" cx="543" cy="57" r="4"/>
+    <circle id="room-55b1088f33b3f4b117d61ba0f699867810cc6b32" class="room outdoor room-shop" data-label="small garden" cx="543" cy="57" r="4"/><text class="room-type-label" x="543" y="57" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-e35edfed730c4c3f0a458678c5d7c948e5416615" class="room outdoor" data-label="small kitchen" cx="543" cy="57" r="4"/><polygon class="stair-symbol" points="543,54 540.5,59 545.5,59"/>
     <circle id="room-6d6131e13f1fc0fb5d790fd82752d75a8455787b" class="room outdoor" data-label="bedroom" cx="543" cy="57" r="4"/><polygon class="stair-symbol" points="543,60 540.5,55 545.5,55"/>
     <circle id="room-952f5c4f9ebc4fca80fde149100cc0e4b187b0fc" class="room outdoor" data-label="south end of Borridge Lane" cx="557" cy="68" r="4"/>
@@ -689,7 +689,7 @@
     <circle id="room-2d5ffe2d757b7b8f7d8129b4550af4eea9ccbc96" class="room outdoor" data-label="secluded corner of the graveyard" cx="431" cy="12" r="4"/>
     <circle id="room-eee522aa55094b00a0dcfd5d87d26fe198c19513" class="room outdoor" data-label="commercial area in northern Wall Street" cx="521" cy="152" r="4"/>
     <circle id="room-a265f75057517c8d1544a0cf66d975dcd2ebf14b" class="room outdoor" data-label="north part of Wall Street" cx="521" cy="166" r="4"/>
-    <circle id="room-aacf1121cbe9e9bcfaaf99b00c4489079a2eaf4a" class="room outdoor" data-label="Gerard de Wendelle&#x27;s evening dress shop" cx="510" cy="166" r="4"/>
+    <circle id="room-aacf1121cbe9e9bcfaaf99b00c4489079a2eaf4a" class="room outdoor room-clothes" data-label="Gerard de Wendelle&#x27;s evening dress shop" cx="510" cy="166" r="4"/><text class="room-type-label" x="510" y="166" text-anchor="middle" dominant-baseline="central">C</text>
     <circle id="room-93641ac99aa52b0bd6a9351ac31788299fdf6cbd" class="room outdoor" data-label="intersection of Wall Street and Garlic Grove" cx="521" cy="180" r="4"/>
     <circle id="room-42a917f1f8910340c943730db5633f9de03879a0" class="room outdoor" data-label="eastern end of Garlic Grove, near the city gates" cx="507" cy="180" r="4"/>
     <circle id="room-ac17f20b17f3b76f3c7c37cc0e841cf3923d3c6b" class="room outdoor" data-label="olde locket shoppe" cx="501" cy="166" r="4"/>
@@ -727,7 +727,7 @@
     <circle id="room-ed41ee9d0c749e51e910f4ff897f5d895a28c998" class="room outdoor" data-label="east of the intersection of Wall Street and Cabbage Street" cx="423" cy="306" r="4"/>
     <circle id="room-9cb0415cf9a9a8d7ec6ded77713e0b34a5f3a690" class="room outdoor" data-label="edge of a residential area on Cabbage Street" cx="409" cy="306" r="4"/>
     <circle id="room-c2c4631effeb99845c7b69f279c524512a51bdd1" class="room outdoor" data-label="outside a bar" cx="423" cy="292" r="4"/>
-    <circle id="room-ab0d67469f17c9a460b62e8ae538fce64f957785" class="room outdoor" data-label="Tony Robinson&#x27;s Bar" cx="433" cy="296" r="4"/>
+    <circle id="room-ab0d67469f17c9a460b62e8ae538fce64f957785" class="room outdoor room-food" data-label="Tony Robinson&#x27;s Bar" cx="433" cy="296" r="4"/><text class="room-type-label" x="433" y="296" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-440b2e02be4e3a39e8961f10c33a6adc5d02c481" class="room outdoor" data-label="somewhere on Cabbage Street" cx="437" cy="278" r="4"/>
     <circle id="room-73103d46e0dc5ad70829a21b12a1a3f6d8691d05" class="room outdoor" data-label="Cabbage Street between large buildings" cx="437" cy="264" r="4"/>
     <circle id="room-b2d1bafdae1c2d63c7bbecbd46a7ed9908179f35" class="room outdoor" data-label="Cabbage Street, just near the junction with Hill Street" cx="451" cy="250" r="4"/>
@@ -749,27 +749,27 @@
     <circle id="room-fcc450374c7efd9da44013a9d16380c9360a2a2c" class="room outdoor" data-label="attic of a house on Garlic Grove" cx="409" cy="197" r="4"/><polygon class="stair-symbol" points="409,200 406.5,195 411.5,195"/>
     <circle id="room-fad5a4a6de6e8795c0dd405e860f31d07ebc1f29" class="room outdoor" data-label="cabbage warehouse" cx="423" cy="197" r="4"/>
     <circle id="room-38843094569acd794b250f60137772b44214a19e" class="room outdoor" data-label="eastern side of the Royal Market" cx="381" cy="222" r="4"/>
-    <circle id="room-936a10b293cec57b13175cba7ae3a5b4e9a2e7ac" class="room outdoor" data-label="wallet shop" cx="381" cy="211" r="4"/>
+    <circle id="room-936a10b293cec57b13175cba7ae3a5b4e9a2e7ac" class="room outdoor room-shop" data-label="wallet shop" cx="381" cy="211" r="4"/><text class="room-type-label" x="381" y="211" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-85016e4b426d695ebe5d8e07c6143b4f53d147f0" class="room outdoor" data-label="southeastern corner of the Royal Market" cx="381" cy="236" r="4"/>
     <circle id="room-326449a847b703d051fd8efcc2717087a2de429e" class="room outdoor" data-label="centre of the Royal Market" cx="367" cy="222" r="4"/>
     <circle id="room-2d41a796ed24ba7766028429f41aaf52ee47c0bd" class="room outdoor" data-label="corner of the Royal Market" cx="367" cy="208" r="4"/>
-    <circle id="room-696f8044c66df098d3ff3bb186c3ccde196319bd" class="room outdoor" data-label="Dog and Duck" cx="381" cy="202" r="4"/>
+    <circle id="room-696f8044c66df098d3ff3bb186c3ccde196319bd" class="room outdoor room-food" data-label="Dog and Duck" cx="381" cy="202" r="4"/><text class="room-type-label" x="381" y="202" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-6a6f948d269ff3eac09530ce53df3507e0d357a2" class="room outdoor" data-label="private bar of the Dog and Duck" cx="381" cy="202" r="4"/>
     <circle id="room-fbd6c9f45b0ce9d778ec6a9f04c901e120d01db3" class="room outdoor" data-label="seedy gambling den" cx="381" cy="202" r="4"/>
     <circle id="room-5046210619b5631c68e0572b5390bb2e6912cb08" class="room outdoor" data-label="southern side of the Royal Market" cx="367" cy="236" r="4"/>
-    <circle id="room-240b03e6d70dcff364f765d42b1b917a5be049f6" class="room outdoor" data-label="Royal Market smithy" cx="367" cy="247" r="4"/>
-    <circle id="room-98d8955f96c4f816301a0f4ff6dcd9ab5f542926" class="room outdoor" data-label="vegetable stall" cx="367" cy="236" r="4"/>
+    <circle id="room-240b03e6d70dcff364f765d42b1b917a5be049f6" class="room outdoor room-weapon" data-label="Royal Market smithy" cx="367" cy="247" r="4"/><text class="room-type-label" x="367" y="247" text-anchor="middle" dominant-baseline="central">W</text>
+    <circle id="room-98d8955f96c4f816301a0f4ff6dcd9ab5f542926" class="room outdoor room-shop" data-label="vegetable stall" cx="367" cy="236" r="4"/><text class="room-type-label" x="367" y="236" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-129fded569e28aad825d2f8ee1471368d7c16d90" class="room outdoor" data-label="western side of the Royal Market" cx="353" cy="222" r="4"/>
     <circle id="room-52dddb0a0f9f68cad1bf8942ee7573c0b675426c" class="room outdoor" data-label="southwestern corner of the Royal Market" cx="353" cy="236" r="4"/>
-    <circle id="room-c9688f127ee4481378cdfaaa015a9d9d41bf7e1c" class="room outdoor" data-label="noisy stall" cx="353" cy="236" r="4"/>
-    <circle id="room-bc5eabe2580c862cb3c7f61a0ef237024b52f972" class="room outdoor" data-label="Guntram&#x27;s Glaze and Go" cx="353" cy="256" r="4"/>
+    <circle id="room-c9688f127ee4481378cdfaaa015a9d9d41bf7e1c" class="room outdoor room-shop" data-label="noisy stall" cx="353" cy="236" r="4"/><text class="room-type-label" x="353" y="236" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-bc5eabe2580c862cb3c7f61a0ef237024b52f972" class="room outdoor room-food" data-label="Guntram&#x27;s Glaze and Go" cx="353" cy="256" r="4"/><text class="room-type-label" x="353" y="256" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-52590d13e42b2d1aa06e95659dc178b83fe44968" class="room outdoor" data-label="messy back room" cx="353" cy="267" r="4"/>
     <circle id="room-24e96bc9b96e85392152bdff221f2e45b7527910" class="room outdoor" data-label="distant corner of the Royal Market, outside a tannery" cx="339" cy="236" r="4"/>
-    <circle id="room-49b207b52975717c5ecb5c65f668d9184f560fed" class="room outdoor" data-label="smelly tannery" cx="339" cy="247" r="4"/>
+    <circle id="room-49b207b52975717c5ecb5c65f668d9184f560fed" class="room outdoor room-clothes" data-label="smelly tannery" cx="339" cy="247" r="4"/><text class="room-type-label" x="339" y="247" text-anchor="middle" dominant-baseline="central">C</text>
     <circle id="room-d774e4428c981392f5cbe931d9ae6d6d14eb24ef" class="room outdoor" data-label="northwestern corner of the Royal Market" cx="353" cy="208" r="4"/>
-    <circle id="room-29f6ea0f255582c3f84ae9033e7c83000144442d" class="room outdoor" data-label="shady stall" cx="353" cy="208" r="4"/>
-    <circle id="room-a3000663c62e863d866faa63cfe18485a9388b0a" class="room outdoor" data-label="Royal Market Jewellers" cx="344" cy="202" r="4"/>
-    <circle id="room-77a274e8231965df9615d42e2e55e6658cb25cac" class="room outdoor" data-label="Rock-A-Rama jewellery shop" cx="344" cy="209" r="4"/>
+    <circle id="room-29f6ea0f255582c3f84ae9033e7c83000144442d" class="room outdoor room-clothes" data-label="shady stall" cx="353" cy="208" r="4"/><text class="room-type-label" x="353" y="208" text-anchor="middle" dominant-baseline="central">C</text>
+    <circle id="room-a3000663c62e863d866faa63cfe18485a9388b0a" class="room outdoor room-access" data-label="Royal Market Jewellers" cx="344" cy="202" r="4"/><text class="room-type-label" x="344" y="202" text-anchor="middle" dominant-baseline="central">X</text>
+    <circle id="room-77a274e8231965df9615d42e2e55e6658cb25cac" class="room outdoor room-access" data-label="Rock-A-Rama jewellery shop" cx="344" cy="209" r="4"/><text class="room-type-label" x="344" y="209" text-anchor="middle" dominant-baseline="central">X</text>
     <circle id="room-bf84228c9f1e1059590f44aa76c9871b4f6a80cd" class="room outdoor" data-label="Queen&#x27;s Road northeast of the market" cx="367" cy="194" r="4"/>
     <circle id="room-6a9c7c68a7c6664d3cf373e999c64633fa281d64" class="room outdoor" data-label="Quirm Street" cx="353" cy="194" r="4"/>
     <circle id="room-05d7915da09463df40f15e85a4ce184b0524f9b3" class="room outdoor" data-label="near the western end of Quirm Street" cx="339" cy="194" r="4"/>
@@ -777,12 +777,12 @@
     <circle id="room-018c920bb9fb86179426a8b2b399cab95964046f" class="room outdoor" data-label="Queen&#x27;s Road" cx="325" cy="222" r="4"/>
     <circle id="room-fa940709c45d653c5ac12e1ca526d2433f14a07a" class="room outdoor" data-label="Queen&#x27;s Road" cx="339" cy="222" r="4"/>
     <circle id="room-21afdb7a4a2443160c5a662583bfb7750a8d5da8" class="room outdoor" data-label="hard cobbled stretch of Queen&#x27;s Road" cx="311" cy="222" r="4"/>
-    <circle id="room-969301539def94dd1feecde1ff23be51bd4bb426" class="room outdoor" data-label="Dragon Emporium" cx="311" cy="211" r="4"/>
-    <circle id="room-a525aed211055881f08aa86114a1e11d99fa0ac8" class="room outdoor" data-label="Wylde&#x27;s Fashionable Ladies Wear" cx="311" cy="233" r="4"/>
+    <circle id="room-969301539def94dd1feecde1ff23be51bd4bb426" class="room outdoor room-weapon" data-label="Dragon Emporium" cx="311" cy="211" r="4"/><text class="room-type-label" x="311" y="211" text-anchor="middle" dominant-baseline="central">W</text>
+    <circle id="room-a525aed211055881f08aa86114a1e11d99fa0ac8" class="room outdoor room-food" data-label="Wylde&#x27;s Fashionable Ladies Wear" cx="311" cy="233" r="4"/><text class="room-type-label" x="311" y="233" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-2fc7ce58f9a4f03e1df1ac41f0c236935d3e8484" class="room outdoor" data-label="Queen&#x27;s Road" cx="297" cy="222" r="4"/>
-    <circle id="room-97dfca398eafa97f282d20534f2a1a101e73fb06" class="room outdoor" data-label="Mrs Willikins-Boydle&#x27;s Tea Parlour and Embroidery Shop" cx="297" cy="233" r="4"/>
+    <circle id="room-97dfca398eafa97f282d20534f2a1a101e73fb06" class="room outdoor room-food" data-label="Mrs Willikins-Boydle&#x27;s Tea Parlour and Embroidery Shop" cx="297" cy="233" r="4"/><text class="room-type-label" x="297" y="233" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-28303442d3417b899ef2b8aeb66556ea348b5974" class="room outdoor" data-label="Queen&#x27;s Road" cx="283" cy="208" r="4"/>
-    <circle id="room-fcfb676ce14ac655b83a54e5c42af77795f12545" class="room outdoor" data-label="Sharp &#x27;n&#x27; Pointy Thyngs" cx="283" cy="219" r="4"/>
+    <circle id="room-fcfb676ce14ac655b83a54e5c42af77795f12545" class="room outdoor room-weapon" data-label="Sharp &#x27;n&#x27; Pointy Thyngs" cx="283" cy="219" r="4"/><text class="room-type-label" x="283" y="219" text-anchor="middle" dominant-baseline="central">W</text>
     <circle id="room-d1047ae964018616746a6678fbcf266ce6b40089" class="room outdoor" data-label="Queen&#x27;s Road" cx="269" cy="194" r="4"/>
     <circle id="room-a698d399594ec53b215a5d3345a03ffb7fe52de7" class="room outdoor" data-label="Queen&#x27;s Road" cx="255" cy="194" r="4"/>
     <circle id="room-d7b35937d758539ae91d96242a81fe39c7e3e0b7" class="room outdoor" data-label="quiet little living room" cx="255" cy="205" r="4"/>
@@ -815,7 +815,7 @@
     <circle id="room-0b49267b1ef0013be00a46879d166a6bc2d43e59" class="room outdoor" data-label="boring spot on Rimwards Road" cx="227" cy="208" r="4"/>
     <circle id="room-86f341644a41b3a8bd9991a6d65ee0f84d9604e8" class="room outdoor" data-label="Rimwards Road near the Sto Lat Military Academy" cx="241" cy="222" r="4"/>
     <circle id="room-642edc50cffcdcb609e5ec9f68a3edeb5133cbb3" class="room outdoor" data-label="Rimwards Road north of King&#x27;s Road, outside a small blue shop" cx="241" cy="236" r="4"/>
-    <circle id="room-fdb3a6bfef3999a325e406a4783f1b2be839c9b7" class="room outdoor" data-label="cluttered shop" cx="252" cy="236" r="4"/>
+    <circle id="room-fdb3a6bfef3999a325e406a4783f1b2be839c9b7" class="room outdoor room-weapon" data-label="cluttered shop" cx="252" cy="236" r="4"/><text class="room-type-label" x="252" y="236" text-anchor="middle" dominant-baseline="central">W</text>
     <circle id="room-e01ce12e1cad164e69da81d283b439bcaf24336f" class="room outdoor" data-label="intersection of King&#x27;s Road and Rimwards Road" cx="241" cy="250" r="4"/>
     <circle id="room-2db1b86f2fce47323fc8074aa8251b80b3d65a71" class="room outdoor" data-label="King&#x27;s Road" cx="227" cy="236" r="4"/>
     <circle id="room-a495cc594245d84e36f7df2ff13bf996bc044bac" class="room outdoor" data-label="King&#x27;s Road" cx="213" cy="236" r="4"/>
@@ -824,7 +824,7 @@
     <circle id="room-fb1172cfe844481869d2f88f17166c3686d2b93e" class="room outdoor" data-label="Wall Street north of the Rimwards Gate" cx="185" cy="208" r="4"/>
     <circle id="room-c013c751edc0a4cd05d9e2c788e171fa18ab8526" class="room outdoor" data-label="busy section of Wall Street" cx="185" cy="194" r="4"/>
     <circle id="room-027e98851a3dbdd96ffb7f3c98b730b802003c92" class="room outdoor" data-label="Wall Street" cx="185" cy="180" r="4"/>
-    <circle id="room-11d3e6fc785d401844e357d9ea5e7072ecd2345d" class="room outdoor" data-label="goldsmith&#x27;s" cx="196" cy="208" r="4"/>
+    <circle id="room-11d3e6fc785d401844e357d9ea5e7072ecd2345d" class="room outdoor room-access" data-label="goldsmith&#x27;s" cx="196" cy="208" r="4"/><text class="room-type-label" x="196" y="208" text-anchor="middle" dominant-baseline="central">X</text>
     <circle id="room-e01d6c24634a2b33b87d29e65ee47614cfb40322" class="room outdoor" data-label="foyer" cx="175" cy="232" r="4"/><polygon class="stair-symbol" points="175,229 172.5,234 177.5,234"/>
     <circle id="room-210dc00122c551968ce12085057758a38c1bb7f6" class="room outdoor" data-label="small room" cx="175" cy="242" r="4"/>
     <circle id="room-77a7fdce81705e9ac04ce4d7b9fb9bfebef242a8" class="room outdoor" data-label="first floor" cx="165" cy="240" r="4"/><polygon class="stair-symbol" points="165,243 162.5,238 167.5,238"/>
@@ -837,10 +837,10 @@
     <circle id="room-dfc4364720301f29537054a32f8412443884f6c5" class="room outdoor" data-label="north end of Cabbage Street" cx="199" cy="250" r="4"/>
     <circle id="room-8390dd5792ae0faabfa6c1026445ead54be6d3ae" class="room outdoor" data-label="Cabbage Street between two interesting looking buildings" cx="213" cy="278" r="4"/>
     <circle id="room-9ea4e9ec86981b3f80d31525d7f01388ab0389d8" class="room outdoor" data-label="small cosy room" cx="202" cy="278" r="4"/>
-    <circle id="room-8ad039fa62c00c0b8c9d10b4b34ff6960ef13841" class="room outdoor" data-label="Nils Beerman&#x27;s Light Store" cx="224" cy="278" r="4"/>
+    <circle id="room-8ad039fa62c00c0b8c9d10b4b34ff6960ef13841" class="room outdoor room-shop" data-label="Nils Beerman&#x27;s Light Store" cx="224" cy="278" r="4"/><text class="room-type-label" x="224" y="278" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-e9468355b0770c939ecaa34b78cf110e6fb149b9" class="room outdoor" data-label="Cabbage Street at the junction with Rimwards Road" cx="227" cy="292" r="4"/>
     <circle id="room-0c258ef80616325b38998abae4541244aaf66a00" class="room outdoor" data-label="Rimwards Road outside a Fishite temple" cx="241" cy="278" r="4"/>
-    <circle id="room-c19c93dbfe9e590b8fc474821ae680d5e7b65620" class="room outdoor" data-label="corner shop" cx="241" cy="289" r="4"/>
+    <circle id="room-c19c93dbfe9e590b8fc474821ae680d5e7b65620" class="room outdoor room-clothes" data-label="corner shop" cx="241" cy="289" r="4"/><text class="room-type-label" x="241" y="289" text-anchor="middle" dominant-baseline="central">C</text>
     <circle id="room-053880d365357881a23d70135e85e91157804c78" class="room outdoor" data-label="Rimwards Road south of King&#x27;s Road" cx="241" cy="264" r="4"/>
     <circle id="room-370d04375064a0502d322c7bf3e51cf9735e2f13" class="room outdoor" data-label="King&#x27;s Road" cx="255" cy="250" r="4"/>
     <circle id="room-82f887fa14b30760877cc695bc43abb17bbbf912" class="room outdoor" data-label="guard room" cx="261" cy="236" r="4"/>
@@ -862,8 +862,8 @@
     <circle id="room-124a4152bff7c1ac38f923304f02fc59a7b5d965" class="room outdoor" data-label="Cabbage Street southeast of the junction with Rimwards Road" cx="241" cy="306" r="4"/>
     <circle id="room-866c60b9d829a039d4d6e1ee8edc2e866a8e5179" class="room outdoor" data-label="north end of Blueberry Lane" cx="255" cy="292" r="4"/>
     <circle id="room-4e999b700dce8bcc79cc875eaadb53a293e039bd" class="room outdoor" data-label="Blueberry Lane" cx="269" cy="341" r="4"/>
-    <circle id="room-12ebb6f0c2f9ab38c168664291d9afbfbc15813b" class="room outdoor" data-label="Blueberry Lane" cx="283" cy="355" r="4"/>
-    <circle id="room-c7342cc66fdf1b2cf097db4ac95bb7288b260f9b" class="room outdoor" data-label="TomTom&#x27;s flower shop" cx="272" cy="355" r="4"/>
+    <circle id="room-12ebb6f0c2f9ab38c168664291d9afbfbc15813b" class="room outdoor room-food" data-label="Blueberry Lane" cx="283" cy="355" r="4"/><text class="room-type-label" x="283" y="355" text-anchor="middle" dominant-baseline="central">F</text>
+    <circle id="room-c7342cc66fdf1b2cf097db4ac95bb7288b260f9b" class="room outdoor room-shop" data-label="TomTom&#x27;s flower shop" cx="272" cy="355" r="4"/><text class="room-type-label" x="272" y="355" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-29682e95615e6254363623ee691dd76f4a197ecc" class="room outdoor" data-label="fork off Blueberry Lane" cx="297" cy="341" r="4"/>
     <circle id="room-7179ab5da7ba59255cd401bfe5e3a0d676997819" class="room outdoor" data-label="junction of Cabbage Street and Blueberry Lane" cx="311" cy="327" r="4"/>
     <circle id="room-ad491aefe1ef91eec71afd257a36d9ac27c95abd" class="room outdoor" data-label="west of a big junction, outside a temple" cx="297" cy="327" r="4"/>
@@ -876,7 +876,7 @@
     <circle id="room-68720d5eb549e6e33d0acea4bd6e07e9d0b06643" class="room outdoor" data-label="High Street" cx="339" cy="306" r="4"/>
     <circle id="room-cb916bf94c45f763f6fe127d72df577d75fd6318" class="room outdoor" data-label="Cabbage Street" cx="339" cy="327" r="4"/>
     <circle id="room-c5f5a3454a61dcdf787927c2b49bc161dcaf85f2" class="room outdoor" data-label="outside a shop" cx="325" cy="327" r="4"/>
-    <circle id="room-d86e5e9e2c88898479ad474c67b1b0c4232b979b" class="room outdoor" data-label="Omar Amahl&#x27;s Jewellery Shop" cx="325" cy="316" r="4"/>
+    <circle id="room-d86e5e9e2c88898479ad474c67b1b0c4232b979b" class="room outdoor room-access" data-label="Omar Amahl&#x27;s Jewellery Shop" cx="325" cy="316" r="4"/><text class="room-type-label" x="325" y="316" text-anchor="middle" dominant-baseline="central">X</text>
     <circle id="room-3d2474f7eee0a7182dfa9b0f55a46dbf88233cac" class="room outdoor" data-label="Blueberry Lane" cx="283" cy="369" r="4"/>
     <circle id="room-b4c9d645fb4a1cc36fcc118f330b938abc6bd973" class="room outdoor" data-label="junction of Blueberry Lane and Frozen Alley" cx="283" cy="383" r="4"/>
     <circle id="room-340ef12a484a78c1529b799f15106952843b7218" class="room outdoor" data-label="Frozen Alley outside of a small shop" cx="269" cy="383" r="4"/>
@@ -896,7 +896,7 @@
     <circle id="room-9eba1f20d05f98a3b5c1ebae08172fd9b97d4291" class="room outdoor" data-label="poetry corner of the shop" cx="269" cy="372" r="4"/>
     <circle id="room-3320bc1e991df33d0f9c10560b904d1b53b29446" class="room outdoor" data-label="Frozen Alley" cx="255" cy="369" r="4"/>
     <circle id="room-b76d1197306504645223a4a8765094419440ed80" class="room outdoor" data-label="Frozen Alley" cx="241" cy="355" r="4"/>
-    <circle id="room-1d37d2ede0f540a6583759a473e3f7565ac7bddc" class="room outdoor" data-label="Simone&#x27;s" cx="241" cy="344" r="4"/>
+    <circle id="room-1d37d2ede0f540a6583759a473e3f7565ac7bddc" class="room outdoor room-clothes" data-label="Simone&#x27;s" cx="241" cy="344" r="4"/><text class="room-type-label" x="241" y="344" text-anchor="middle" dominant-baseline="central">C</text>
     <circle id="room-01f92d4b856494584cac880be721b0dd9a529689" class="room outdoor" data-label="Rimwards Road where it meets Frozen Alley" cx="227" cy="355" r="4"/>
     <circle id="room-a0db1bd382811c3ac939d12d03c4e4a79b036d3f" class="room outdoor" data-label="end of southern Wall Street, southeast of Rimwards Road" cx="213" cy="355" r="4"/>
     <circle id="room-b24ab06af3997920b793baf8b911581e1b5af132" class="room outdoor" data-label="near the south-western corner of Wall Street" cx="199" cy="369" r="4"/>
@@ -910,7 +910,7 @@
     <circle id="room-e60838ca8d6d4bbe41fcff55bfcd92b0263dc566" class="room outdoor" data-label="Rimwards Road" cx="227" cy="383" r="4"/>
     <circle id="room-a24cba3c8ef0018cf35e823a0e08ab44c558d9d3" class="room outdoor" data-label="Rimwards Road" cx="227" cy="369" r="4"/>
     <circle id="room-7d35314e8bd30d3f5986f84288799232c12f7beb" class="room outdoor" data-label="southern part of Blueberry Lane" cx="283" cy="397" r="4"/>
-    <circle id="room-735b2217b6d82d2390c66ea800ec5e8a18a34a21" class="room outdoor" data-label="Gerti&#x27;s Cake shop" cx="272" cy="397" r="4"/>
+    <circle id="room-735b2217b6d82d2390c66ea800ec5e8a18a34a21" class="room outdoor room-armour" data-label="Gerti&#x27;s Cake shop" cx="272" cy="397" r="4"/><text class="room-type-label" x="272" y="397" text-anchor="middle" dominant-baseline="central">A</text>
     <circle id="room-4543cd841e4497ebb555aca5dbaf644ff5c2519e" class="room outdoor" data-label="southern part of Blueberry Lane" cx="283" cy="411" r="4"/>
     <circle id="room-b28c031642ba83b481caf9c2a075cb9e479ae98c" class="room outdoor" data-label="garden" cx="269" cy="411" r="4"/>
     <circle id="room-66519459d99f1adb7cb4171086ce7c94a08bd291" class="room outdoor" data-label="Blueberry Lane" cx="283" cy="425" r="4"/>
@@ -982,11 +982,11 @@
     <circle id="room-3c5949d1242e5533f10c4f704931a7ad23f40515" class="room outdoor" data-label="High Street" cx="381" cy="292" r="4"/>
     <circle id="room-ce76c56c9d97c4fd90c599c6fb8c8d166e17e128" class="room outdoor" data-label="High Street" cx="395" cy="292" r="4"/>
     <circle id="room-1c805e0b7c17826798ccc41b57694a7e6a4e9cd1" class="room outdoor" data-label="High Street" cx="409" cy="278" r="4"/>
-    <circle id="room-9920e00df48ac25a0ef2d674d6f57b4f07544731" class="room outdoor" data-label="swish tavern" cx="409" cy="289" r="4"/>
+    <circle id="room-9920e00df48ac25a0ef2d674d6f57b4f07544731" class="room outdoor room-food" data-label="swish tavern" cx="409" cy="289" r="4"/><text class="room-type-label" x="409" y="289" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-c117084b488dba821402162839ad882418820032" class="room outdoor" data-label="not quite so busy section of High Street" cx="409" cy="264" r="4"/>
     <circle id="room-d85fde7526314cc2f47de193606f91c64d592add" class="room outdoor" data-label="busy part of High Street" cx="409" cy="250" r="4"/>
     <circle id="room-0a38af5c0159a61a9eb31633659ea8b2134620b5" class="room outdoor" data-label="section of High Street, east of the Royal Market" cx="395" cy="236" r="4"/>
-    <circle id="room-869c41cee9d1851da0912b73d0f58da93cfd5589" class="room outdoor" data-label="cosy little stationer&#x27;s shop" cx="335" cy="208" r="4"/>
+    <circle id="room-869c41cee9d1851da0912b73d0f58da93cfd5589" class="room outdoor room-shop" data-label="cosy little stationer&#x27;s shop" cx="335" cy="208" r="4"/><text class="room-type-label" x="335" y="208" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-45de0d1f9f9ecd568312a96b4aeeb7758d62dcb4" class="room outdoor" data-label="parlour" cx="245" cy="35" r="4"/>
     <circle id="room-2eb42944956caf0ee8a8b5fda2504d5ce9b7349a" class="room outdoor" data-label="at the bottom of some stairs" cx="236" cy="44" r="4"/><polygon class="stair-symbol" points="236,41 233.5,46 238.5,46"/>
     <circle id="room-6334b33f43d9d8d9c4ff1b18d4bdb1880e777c22" class="room outdoor" data-label="servant&#x27;s quarters" cx="245" cy="53" r="4"/>
@@ -1001,36 +1001,38 @@
     <circle id="room-6a0cd787eeb3ec9177b06164ac73901168bc7426" class="room outdoor" data-label="large bedroom" cx="292" cy="26" r="4"/>
     <circle id="room-bb23515b51a728a5658da2804c1078a39e7c16e6" class="room outdoor" data-label="end of a long hallway" cx="301" cy="35" r="4"/>
     <circle id="room-1c43642fd86f895dc8c24d70346c64e722fc1626" class="room outdoor" data-label="child&#x27;s bedroom" cx="311" cy="44" r="4"/>
-    <circle id="room-dd8a05910172bf8788ca5776b4510e456533d174" class="room outdoor" data-label="hat stall" cx="339" cy="236" r="4"/>
-    <circle id="room-97ec82bf644116a44c1381348506b9481e505396" class="room outdoor" data-label="fruit stall" cx="367" cy="208" r="4"/>
-    <circle id="room-50527a3c43fbd81763dce64afc85a53e69f41ae7" class="room outdoor" data-label="bag stall" cx="381" cy="222" r="4"/>
+    <circle id="room-dd8a05910172bf8788ca5776b4510e456533d174" class="room outdoor room-clothes" data-label="hat stall" cx="339" cy="236" r="4"/><text class="room-type-label" x="339" y="236" text-anchor="middle" dominant-baseline="central">C</text>
+    <circle id="room-97ec82bf644116a44c1381348506b9481e505396" class="room outdoor room-shop" data-label="fruit stall" cx="367" cy="208" r="4"/><text class="room-type-label" x="367" y="208" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-50527a3c43fbd81763dce64afc85a53e69f41ae7" class="room outdoor room-shop" data-label="bag stall" cx="381" cy="222" r="4"/><text class="room-type-label" x="381" y="222" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-afccb35d96c735856b801993ecbad091a269c8a0" class="room outdoor" data-label="empty stall" cx="381" cy="236" r="4"/>
     <circle id="room-453c48cfc13ca498e2dba67ce8a6714c0f6a7230" class="room outdoor" data-label="cellar" cx="553" cy="396" r="4"/><polygon class="stair-symbol" points="553,393 550.5,398 555.5,398"/>
-    <circle id="room-f0d36b4f9b01fe5336970f9aa0c9310b36d6b6c6" class="room outdoor" data-label="tent" cx="353" cy="411" r="4"/>
+    <circle id="room-f0d36b4f9b01fe5336970f9aa0c9310b36d6b6c6" class="room outdoor room-shop" data-label="tent" cx="353" cy="411" r="4"/><text class="room-type-label" x="353" y="411" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-638d94a7149fa67d4d6b68776c62bafcd383ec50" class="room outdoor" data-label="dark and sinister alley" cx="392" cy="222" r="4"/>
-    <circle id="room-a97dee9af8c9659e7685c2d2bfc2743a18d25f94" class="room outdoor" data-label="small, quaint bathrobe shop" cx="402" cy="222" r="4"/>
+    <circle id="room-a97dee9af8c9659e7685c2d2bfc2743a18d25f94" class="room outdoor room-clothes" data-label="small, quaint bathrobe shop" cx="402" cy="222" r="4"/><text class="room-type-label" x="402" y="222" text-anchor="middle" dominant-baseline="central">C</text>
     <circle id="room-9de79d62ff332e2a4f0f1e4976d20c327bac838a" class="room outdoor" data-label="inhumation office" cx="542" cy="396" r="4"/>
     <circle id="room-f777b135ae76019227fa91f5a24a963a1405ca92" class="room outdoor" data-label="dank pipe" cx="542" cy="407" r="4"/>
     <circle id="room-69536d2911be136ed988f881c776adac6768d17c" class="room outdoor" data-label="inhumation office" cx="542" cy="385" r="4"/>
     <circle id="room-7551d4c0ab787849a09e38c9c871524459e04571" class="room outdoor" data-label="training room" cx="531" cy="385" r="4"/>
-    <circle id="room-0997ea0669a61c3efeca87070fca98b81393495d" class="room outdoor" data-label="guild shop" cx="553" cy="385" r="4"/>
+    <circle id="room-0997ea0669a61c3efeca87070fca98b81393495d" class="room outdoor room-clothes" data-label="guild shop" cx="553" cy="385" r="4"/><text class="room-type-label" x="553" y="385" text-anchor="middle" dominant-baseline="central">C</text>
     <circle id="room-600c85f55a2c43c1eb1030acdfd2f2f48dd66e62" class="room outdoor" data-label="small room" cx="553" cy="374" r="4"/>
     <circle id="room-d66eb763f4f2ffaaad9b1c3fb91e57bfa2659441" class="room outdoor" data-label="rooftop" cx="484" cy="396" r="4"/>
     <circle id="room-a2e9a15c712fd19a4c5f2c20c33e1e9c4082f574" class="room outdoor" data-label="High Altar of Pishe" cx="416" cy="398" r="4"/><polygon class="stair-symbol" points="416,395 413.5,400 418.5,400"/>
-    <circle id="room-4b117bbb3f3a583adfad4c7e368e46d8f50bdb50" class="room outdoor" data-label="temple shop" cx="416" cy="387" r="4"/><polygon class="stair-symbol" points="416,390 413.5,385 418.5,385"/>
+    <circle id="room-4b117bbb3f3a583adfad4c7e368e46d8f50bdb50" class="room outdoor room-shop" data-label="temple shop" cx="416" cy="387" r="4"/><polygon class="stair-symbol" points="416,390 413.5,385 418.5,385"/><text class="room-type-label" x="416" y="387" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-5dd38b0c32eaeeeab8824fca412c39df9c3e304b" class="room outdoor" data-label="branches of a large tree overlooking Wall Street" cx="465" cy="292" r="4"/>
     <circle id="room-7c9a1c6486d249ff2081ffd0b5a0989acac2bf83" class="room outdoor" data-label="section of Princess Island Park" cx="297" cy="383" r="4"/>
     <circle id="room-4d4649933173d77ad438c65d2236e5e425d94d8e" class="room outdoor" data-label="by the exit to Park Lane in Princess Island Park" cx="353" cy="383" r="4"/>
     <circle id="room-25d416a1b318610e95621c32ce5827c77566b9a0" class="room outdoor" data-label="secret chamber" cx="395" cy="96" r="4"/>
     <circle id="room-457d5f4d676ac731cf5d66077a2b33004c34f2d5" class="room outdoor" data-label="tree fort" cx="543" cy="82" r="4"/>
-    <circle id="room-5478a8cd6e65f2c6a7e0149edbc7bab704e9fc99" class="room outdoor" data-label="Hotel de Bricobracomanie" cx="448" cy="124" r="4"/>
-    <circle id="room-900a5cd3d46789001e40469374d499f561a7af28" class="room outdoor" data-label="jolly little Hogswatch shop" cx="244" cy="369" r="4"/>
-    <circle id="room-e613af0df1fd9ad8a811a8c3a49f94a7bf3217c4" class="room outdoor" data-label="charming little Hogswatch charm shop" cx="244" cy="369" r="4"/>
-    <circle id="room-9fc7ded5104c38b9c2fcaf17fe61cec3affc34ca" class="room outdoor" data-label="Hogswatch workshop" cx="244" cy="369" r="4"/>
+    <circle id="room-5478a8cd6e65f2c6a7e0149edbc7bab704e9fc99" class="room outdoor room-clothes" data-label="Hotel de Bricobracomanie" cx="448" cy="124" r="4"/><text class="room-type-label" x="448" y="124" text-anchor="middle" dominant-baseline="central">C</text>
+    <circle id="room-900a5cd3d46789001e40469374d499f561a7af28" class="room outdoor room-food" data-label="jolly little Hogswatch shop" cx="244" cy="369" r="4"/><text class="room-type-label" x="244" y="369" text-anchor="middle" dominant-baseline="central">F</text>
+    <circle id="room-e613af0df1fd9ad8a811a8c3a49f94a7bf3217c4" class="room outdoor room-access" data-label="charming little Hogswatch charm shop" cx="244" cy="369" r="4"/><text class="room-type-label" x="244" y="369" text-anchor="middle" dominant-baseline="central">X</text>
+    <circle id="room-9fc7ded5104c38b9c2fcaf17fe61cec3affc34ca" class="room outdoor room-shop" data-label="Hogswatch workshop" cx="244" cy="369" r="4"/><text class="room-type-label" x="244" y="369" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-4525132dfbe415e2b69f158d11c9ad7af365c2a9" class="room outdoor" data-label="Hogswatch tree warehouse" cx="244" cy="369" r="4"/>
     <circle id="room-2b5bdc8a41561b3799d6e3fdfa699ba0ae21fccb" class="room outdoor" data-label="small well-lit studio" cx="196" cy="194" r="4"/>
   </g>
 
+
+  <g id="layer-room-labels"></g>
   <g id="layer-labels"><!-- labels --></g>
 
 </svg>

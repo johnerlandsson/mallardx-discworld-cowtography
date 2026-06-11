@@ -153,13 +153,13 @@
     <rect id="room-c96a1222edd608455413dd81be109c6441e05628" class="room indoor" data-label="northern part of the temple gardens" x="339" y="220" width="8" height="8" rx="2"/>
     <rect id="room-53bbbeac657eb23cca7dda93d208b34b30953941" class="room indoor" data-label="small garden" x="339" y="192" width="8" height="8" rx="2"/>
     <rect id="room-18c958313f70590bbeb5102dfde60f196007cd6b" class="room indoor" data-label="middle part of the Temple gardens" x="339" y="263" width="8" height="8" rx="2"/>
-    <rect id="room-802aab6a05b134188dfc8540c0526b74a7521078" class="room indoor" data-label="bottom part of the Temple gardens" x="286" y="316" width="8" height="8" rx="2"/>
+    <rect id="room-802aab6a05b134188dfc8540c0526b74a7521078" class="room indoor room-shop" data-label="bottom part of the Temple gardens" x="286" y="316" width="8" height="8" rx="2"/><text class="room-type-label" x="290" y="320" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-26fce4c5b58cfacfdc3039b5e38b8fc1cf275129" class="room indoor" data-label="southernmost point of the southern corridor" x="217" y="316" width="8" height="8" rx="2"/>
-    <rect id="room-13c33a2610639d0964b07ea27c650c46c2bb2434" class="room indoor" data-label="relic shop" x="217" y="340" width="8" height="8" rx="2"/>
-    <rect id="room-96fbb85b40e6b5bf50eaea8f3da113a432a0b7a2" class="room indoor" data-label="Temple furniture shop" x="193" y="316" width="8" height="8" rx="2"/>
+    <rect id="room-13c33a2610639d0964b07ea27c650c46c2bb2434" class="room indoor room-clothes" data-label="relic shop" x="217" y="340" width="8" height="8" rx="2"/><text class="room-type-label" x="221" y="344" text-anchor="middle" dominant-baseline="central">C</text>
+    <rect id="room-96fbb85b40e6b5bf50eaea8f3da113a432a0b7a2" class="room indoor room-shop" data-label="Temple furniture shop" x="193" y="316" width="8" height="8" rx="2"/><text class="room-type-label" x="197" y="320" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-6a6b7b9d0c115960d8994da4f9408b0f85a428b6" class="room indoor" data-label="northernmost point of the southern corridor" x="217" y="292" width="8" height="8" rx="2"/>
-    <rect id="room-06eacb063ebb4ef3627f778d92cdecd0089a78b1" class="room indoor" data-label="incense shop" x="193" y="292" width="8" height="8" rx="2"/>
-    <rect id="room-b4ef49ae5608c6cbf1440df70c1aef91d6f2e88b" class="room indoor" data-label="miscellaneous shop" x="241" y="292" width="8" height="8" rx="2"/>
+    <rect id="room-06eacb063ebb4ef3627f778d92cdecd0089a78b1" class="room indoor room-shop" data-label="incense shop" x="193" y="292" width="8" height="8" rx="2"/><text class="room-type-label" x="197" y="296" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-b4ef49ae5608c6cbf1440df70c1aef91d6f2e88b" class="room indoor room-access" data-label="miscellaneous shop" x="241" y="292" width="8" height="8" rx="2"/><text class="room-type-label" x="245" y="296" text-anchor="middle" dominant-baseline="central">X</text>
     <rect id="room-5eaac335035633da8e8024e5781fb39254a19dd1" class="room indoor" data-label="eastern most point of the western corridor" x="145" y="220" width="8" height="8" rx="2"/>
     <rect id="room-3e48e4470f8cf37b3b79e383cc92b83b52c1ff4f" class="room indoor" data-label="voting office" x="145" y="196" width="8" height="8" rx="2"/>
     <rect id="room-22cd5d99796e340f8a203693796f6bbe1013e580" class="room indoor" data-label="western most point of the western corridor" x="121" y="220" width="8" height="8" rx="2"/>
@@ -195,6 +195,8 @@
     <rect id="room-8d58878fa4fdf27522121c5a7ae1e8aed4f6bde8" class="room indoor" data-label="dry and dusty room" x="98" y="448" width="8" height="8" rx="2"/>
   </g>
 
+
+  <g id="layer-room-labels"></g>
   <g id="layer-labels"><!-- labels --></g>
 
 </svg>

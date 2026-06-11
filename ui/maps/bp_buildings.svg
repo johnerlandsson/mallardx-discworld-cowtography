@@ -76,7 +76,7 @@
     <rect id="room-27b2986c4f3d4812ff2181464edaf49eb5678d84" class="room indoor" data-label="the first floor corridor in the Language Institute" x="368" y="57" width="8" height="8" rx="2"/>
     <rect id="room-ab4b6e036aa7c103701d213f585a1c7b882dff00" class="room indoor" data-label="Agatean learning room for Djelian students" x="344" y="57" width="8" height="8" rx="2"/>
     <rect id="room-484eaeac133fd374ff330b2a125d6d64bf99fc53" class="room indoor" data-label="Agatean classroom for Djelian students" x="344" y="33" width="8" height="8" rx="2"/>
-    <rect id="room-a05e30af7b025d1e8f86d8b9cfdff4f357029548" class="room indoor" data-label="small shop" x="368" y="81" width="8" height="8" rx="2"/>
+    <rect id="room-a05e30af7b025d1e8f86d8b9cfdff4f357029548" class="room indoor room-shop" data-label="small shop" x="368" y="81" width="8" height="8" rx="2"/><text class="room-type-label" x="372" y="85" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-b92fc00e0eaaf546f6eadb07eadbd688a9dd9d18" class="room indoor" data-label="north entrance to a friendly building" x="135" y="366" width="8" height="8" rx="2"/>
     <rect id="room-b72ab8ab69eb114374405541cf774097c0badc36" class="room indoor" data-label="octagon court" x="463" y="405" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="467,406 464.5,411 469.5,411"/>
     <rect id="room-452069897f8e5b245c4cffe4f2a4bd727c0a0b77" class="room indoor" data-label="Complaints Department" x="439" y="429" width="8" height="8" rx="2"/>
@@ -109,7 +109,7 @@
     <rect id="room-17dfea208a970f011439246d4f013af6e9a5bbc7" class="room indoor" data-label="near the eastern end of a busy hallway" x="159" y="390" width="8" height="8" rx="2"/>
     <rect id="room-f07d43212a21b8292dc9790b7daee3ce81ab1dcc" class="room indoor" data-label="history room" x="159" y="414" width="8" height="8" rx="2"/>
     <rect id="room-456c8c542ff4686a371252ccf7c11bcd5ed54a0a" class="room indoor" data-label="eastern end of a busy hallway" x="183" y="390" width="8" height="8" rx="2"/>
-    <rect id="room-a4ebe7464c25506807e1d07fbabd4aa3ab325577" class="room indoor" data-label="crowded gift shop" x="159" y="366" width="8" height="8" rx="2"/>
+    <rect id="room-a4ebe7464c25506807e1d07fbabd4aa3ab325577" class="room indoor room-clothes" data-label="crowded gift shop" x="159" y="366" width="8" height="8" rx="2"/><text class="room-type-label" x="163" y="370" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-fda3910d73cca46deb9964de8f2df8ef3da9ee8e" class="room indoor" data-label="winding maze of corridors" x="52" y="90" width="8" height="8" rx="2"/>
     <rect id="room-0f1f77b332e68972667abea6d70845c3fccf3a92" class="room indoor" data-label="shrine to Fish" x="30" y="113" width="8" height="8" rx="2"/>
     <rect id="room-9660989df76299bbe1ab49bed8c7ce8921033730" class="room indoor" data-label="top of a high tower, overlooking the Imperial District" x="141" y="24" width="8" height="8" rx="2"/>
@@ -123,9 +123,11 @@
     <rect id="room-73068e8e9963d5813a24311a7733be0d0663c12e" class="room indoor" data-label="imperial room in the Culture Institute" x="207" y="390" width="8" height="8" rx="2"/>
     <rect id="room-318fcb2234dfcb6d5ce71b4a62ca7bba1767638c" class="room indoor" data-label="republic room in the Culture Institute" x="207" y="366" width="8" height="8" rx="2"/>
     <rect id="room-11b57b1cbfb470b7b3c5f2ac69ddad833552b180" class="room indoor" data-label="exit room in the Culture Institute" x="183" y="366" width="8" height="8" rx="2"/>
-    <rect id="room-6c002ab33a87ac8cba0315580753f2a6c06c0214" class="room indoor" data-label="small office" x="96" y="112" width="8" height="8" rx="2"/>
+    <rect id="room-6c002ab33a87ac8cba0315580753f2a6c06c0214" class="room indoor room-shop" data-label="small office" x="96" y="112" width="8" height="8" rx="2"/><text class="room-type-label" x="100" y="116" text-anchor="middle" dominant-baseline="central">S</text>
   </g>
 
+
+  <g id="layer-room-labels"></g>
   <g id="layer-labels"><!-- labels --></g>
 
 </svg>

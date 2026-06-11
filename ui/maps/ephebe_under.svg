@@ -174,19 +174,19 @@
     <rect id="room-1f876aa3aaa891d42389565933df7a7e87a12b5f" class="room indoor" data-label="hut" x="308" y="155" width="8" height="8" rx="2"/>
     <rect id="room-10fe6683c4d22fcc8b708403f41e9d1e5624ee7f" class="room indoor" data-label="below the centre of Dockside Market" x="319" y="141" width="8" height="8" rx="2"/>
     <rect id="room-b97ccfabaefe91a42716d8888ca0dd8936b72034" class="room indoor" data-label="below the north end of Dockside Market" x="319" y="127" width="8" height="8" rx="2"/>
-    <rect id="room-4bd6556ec425bb83f0a4f1dcd7524800cf9da3d9" class="room indoor" data-label="small shoe shop" x="308" y="127" width="8" height="8" rx="2"/>
+    <rect id="room-4bd6556ec425bb83f0a4f1dcd7524800cf9da3d9" class="room indoor room-clothes" data-label="small shoe shop" x="308" y="127" width="8" height="8" rx="2"/><text class="room-type-label" x="312" y="131" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-15932c10ea08f900943a13e9dc2ae33b18563a37" class="room indoor" data-label="below the north end of Dockside Market" x="319" y="113" width="8" height="8" rx="2"/>
-    <rect id="room-97ec73f77e6d6e3dbe25dc24a6470018eeb06366" class="room indoor" data-label="small paint shop" x="308" y="113" width="8" height="8" rx="2"/>
+    <rect id="room-97ec73f77e6d6e3dbe25dc24a6470018eeb06366" class="room indoor room-shop" data-label="small paint shop" x="308" y="113" width="8" height="8" rx="2"/><text class="room-type-label" x="312" y="117" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-4f534de28d51b3240fe370167e492210201a471e" class="room indoor" data-label="below a pier" x="319" y="99" width="8" height="8" rx="2"/>
     <rect id="room-a203385dca4cb328292120815f134c5cbf7302ef" class="room indoor" data-label="below a pier" x="319" y="85" width="8" height="8" rx="2"/>
-    <rect id="room-9d96bfa919d0b541b4744b7007c8a01818c1aa2c" class="room indoor" data-label="small fish stall" x="308" y="85" width="8" height="8" rx="2"/>
+    <rect id="room-9d96bfa919d0b541b4744b7007c8a01818c1aa2c" class="room indoor room-shop" data-label="small fish stall" x="308" y="85" width="8" height="8" rx="2"/><text class="room-type-label" x="312" y="89" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-477014a446a7b4ac612e16a6c2bbeccc77153ca5" class="room indoor" data-label="wooden walkway just north of some piers" x="319" y="71" width="8" height="8" rx="2"/>
     <rect id="room-a8040429a13735a13c1e5f6e0eab12894eda20bf" class="room indoor" data-label="near the northwest end of the Ephebian harbour" x="333" y="57" width="8" height="8" rx="2"/>
     <rect id="room-58f11d56fb48becc0fbc1d1ee7ead62d2d7d96df" class="room indoor" data-label="near the northwest end of the Ephebian harbour" x="333" y="43" width="8" height="8" rx="2"/>
     <rect id="room-7dd2dec22548a78e410838fff3b6deee603b5045" class="room indoor" data-label="near the north end of the harbour walkway" x="347" y="29" width="8" height="8" rx="2"/>
     <rect id="room-5132416accc61c44e9943fc6f2bdfc89f0ab594f" class="room indoor" data-label="north end of a wooden walkway, near the lighthouse" x="347" y="15" width="8" height="8" rx="2"/>
     <rect id="room-4879cd396da3c8cfdde7a3e35942d0c9266bd6f8" class="room indoor" data-label="swimwear shop in a damp cave" x="309" y="61" width="8" height="8" rx="2"/>
-    <rect id="room-c11ada54b46b64627fc0bb9c45fd8271c7ee4a6d" class="room indoor" data-label="back of a damp cave" x="300" y="52" width="8" height="8" rx="2"/>
+    <rect id="room-c11ada54b46b64627fc0bb9c45fd8271c7ee4a6d" class="room indoor room-shop" data-label="back of a damp cave" x="300" y="52" width="8" height="8" rx="2"/><text class="room-type-label" x="304" y="56" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-d4c97c9239e93410d4c4a4d360a10a9d3be5a20c" class="room indoor" data-label="grimy underdock" x="215" y="126" width="8" height="8" rx="2"/>
     <rect id="room-19bb65e483717ba967c7b50b35450af465cff668" class="room indoor" data-label="grimy underdock" x="215" y="140" width="8" height="8" rx="2"/>
     <rect id="room-99723c5578b4e6c877262b5472a6663836331789" class="room indoor" data-label="grimy underdock" x="229" y="154" width="8" height="8" rx="2"/>
@@ -201,12 +201,14 @@
     <rect id="room-b62c32cd97244ebefdc18a3c13c783e5f87a99c2" class="room indoor" data-label="treacherous cliff path" x="101" y="253" width="8" height="8" rx="2"/>
     <rect id="room-8a36b03bef592e7e6da4479d9eb490f7a8b35b5f" class="room indoor" data-label="treacherous cliff path" x="101" y="267" width="8" height="8" rx="2"/>
     <rect id="room-7e310d460c58fd930642c247bb98d09c047bcf3e" class="room indoor" data-label="treacherous cliff path" x="115" y="281" width="8" height="8" rx="2"/>
-    <rect id="room-71b96a26e4e807b67accd26c407a0f9820dc4f33" class="room indoor" data-label="small shop" x="190" y="281" width="8" height="8" rx="2"/>
+    <rect id="room-71b96a26e4e807b67accd26c407a0f9820dc4f33" class="room indoor room-clothes" data-label="small shop" x="190" y="281" width="8" height="8" rx="2"/><text class="room-type-label" x="194" y="285" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-e4d9861597f021392033f410b4eec96431d6ea6b" class="room indoor" data-label="sand-filled shack" x="308" y="194" width="8" height="8" rx="2"/>
-    <rect id="room-3b408d9de897bd521a3ed60b15e9c30dd477cc19" class="room indoor" data-label="dank shop" x="308" y="169" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="312,176 309.5,171 314.5,171"/>
-    <rect id="room-53b277e30e63adab00b42e6f3a72138ecc87bbde" class="room indoor" data-label="shadowed basement" x="308" y="169" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="312,170 309.5,175 314.5,175"/>
+    <rect id="room-3b408d9de897bd521a3ed60b15e9c30dd477cc19" class="room indoor room-shop" data-label="dank shop" x="308" y="169" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="312,176 309.5,171 314.5,171"/><text class="room-type-label" x="312" y="173" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-53b277e30e63adab00b42e6f3a72138ecc87bbde" class="room indoor room-shop" data-label="shadowed basement" x="308" y="169" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="312,170 309.5,175 314.5,175"/><text class="room-type-label" x="312" y="173" text-anchor="middle" dominant-baseline="central">S</text>
   </g>
 
+
+  <g id="layer-room-labels"></g>
   <g id="layer-labels"><!-- labels --></g>
 
 </svg>

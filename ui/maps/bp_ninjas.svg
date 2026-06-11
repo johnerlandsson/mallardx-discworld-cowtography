@@ -59,13 +59,13 @@
     <rect id="room-e873d749ee68721d54e4edaa875b33f9ee88a30f" class="room indoor" data-label="poison laboratory" x="161" y="108" width="8" height="8" rx="2"/>
     <rect id="room-b52080278894c15d1872d74be4a6cda950c7fe44" class="room indoor" data-label="relaxation area" x="133" y="108" width="8" height="8" rx="2"/>
     <rect id="room-2b634e993a1873213bd43e9b35eff05376e24275" class="room indoor" data-label="corridor" x="161" y="136" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="165,137 162.5,142 167.5,142"/>
-    <rect id="room-ceb4bb101eef8a019e1d2a18642768d49ec6fbb3" class="room indoor" data-label="craft room" x="133" y="136" width="8" height="8" rx="2"/>
+    <rect id="room-ceb4bb101eef8a019e1d2a18642768d49ec6fbb3" class="room indoor room-shop" data-label="craft room" x="133" y="136" width="8" height="8" rx="2"/><text class="room-type-label" x="137" y="140" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-3eb00e2a7089da1f978f14fb04ee32f79918814c" class="room indoor" data-label="pottery room" x="189" y="136" width="8" height="8" rx="2"/>
     <rect id="room-a97f86947da7fdcda47acd43efd3c67d30f32d92" class="room indoor" data-label="hot and stuffy room" x="189" y="164" width="8" height="8" rx="2"/>
     <rect id="room-7e1d617144bae91024108eec9318f5559912e364" class="room indoor" data-label="dojo" x="133" y="164" width="8" height="8" rx="2"/>
     <rect id="room-af863425d07329326584f7f9cb2749d3705b0d5f" class="room indoor" data-label="place of healing and respite" x="105" y="136" width="8" height="8" rx="2"/>
     <rect id="room-74ed9763f95864dceeb8a616c9dc22c2c115baba" class="room indoor" data-label="well furnished room" x="105" y="164" width="8" height="8" rx="2"/>
-    <rect id="room-28b5c5ae42b55b58d72fa773d07eacd2f6404c1a" class="room indoor" data-label="shop" x="161" y="192" width="8" height="8" rx="2"/>
+    <rect id="room-28b5c5ae42b55b58d72fa773d07eacd2f6404c1a" class="room indoor room-clothes" data-label="shop" x="161" y="192" width="8" height="8" rx="2"/><text class="room-type-label" x="165" y="196" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-8cf22be9718f7acb0ab344583b44d2f16fe870e0" class="room indoor" data-label="spiky death room" x="161" y="164" width="8" height="8" rx="2"/>
     <rect id="room-13e975c78db2005d289fce053171dee2085a578b" class="room indoor" data-label="corridor" x="162" y="383" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="166,390 163.5,385 168.5,385"/>
     <rect id="room-db4317fc88673db55cc1840df774362834157f01" class="room indoor" data-label="voting room" x="190" y="383" width="8" height="8" rx="2"/>
@@ -81,10 +81,12 @@
     <rect id="room-4b417d40100b389266fab6cf17d220fde490be2e" class="room indoor" data-label="staff dormitory" x="106" y="327" width="8" height="8" rx="2"/>
     <rect id="room-141f61fd9c3d478753dc30385e27d3e69bdbcb47" class="room indoor" data-label="dormitory" x="106" y="383" width="8" height="8" rx="2"/>
     <rect id="room-fce74bfacc7fe108f3f6e5617c3011b5abe4f04d" class="room indoor" data-label="large office" x="106" y="411" width="8" height="8" rx="2"/>
-    <rect id="room-048ca886b481956edb4ec9d55c5af64f83bebaeb" class="room indoor" data-label="dimly-lit shop" x="161" y="192" width="8" height="8" rx="2"/>
+    <rect id="room-048ca886b481956edb4ec9d55c5af64f83bebaeb" class="room indoor room-weapon" data-label="dimly-lit shop" x="161" y="192" width="8" height="8" rx="2"/><text class="room-type-label" x="165" y="196" text-anchor="middle" dominant-baseline="central">W</text>
     <rect id="room-0a539cc4d45ae378d348f1f1de2a3026837bff68" class="room indoor" data-label="ledge outside the staff dormitory" x="133" y="52" width="8" height="8" rx="2"/>
   </g>
 
+
+  <g id="layer-room-labels"></g>
   <g id="layer-labels"><!-- labels --></g>
 
 </svg>

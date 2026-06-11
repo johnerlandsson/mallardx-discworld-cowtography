@@ -251,23 +251,23 @@
     <rect id="room-eb8110f376e51b57a89ae6e5815f1507c597d2b4" class="room indoor" data-label="under the docks" x="282" y="198" width="8" height="8" rx="2"/>
     <rect id="room-d2d184c2d72b50aef00fb1fa2599570416c98d3b" class="room indoor" data-label="under the docks" x="282" y="184" width="8" height="8" rx="2"/>
     <rect id="room-9f5e010fbb53bf0a7734dd6ddf8911faa3476275" class="room indoor" data-label="under the docks near a shop" x="296" y="198" width="8" height="8" rx="2"/>
-    <rect id="room-22f326e3649c67b9eb54f030055444fce724a231" class="room indoor" data-label="Elsie&#x27;s Clothing Shop" x="293" y="210" width="8" height="8" rx="2"/>
+    <rect id="room-22f326e3649c67b9eb54f030055444fce724a231" class="room indoor room-clothes" data-label="Elsie&#x27;s Clothing Shop" x="293" y="210" width="8" height="8" rx="2"/><text class="room-type-label" x="297" y="214" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-897b0d1f007bb31c3a43385b4ac4663fb9865f9a" class="room indoor" data-label="under the docks outside the Fishermen&#x27;s Guild" x="310" y="198" width="8" height="8" rx="2"/>
-    <rect id="room-33a86c039a91e8e3c0fe2f588f35c3ea53185cd2" class="room indoor" data-label="Fishermen&#x27;s Guild regional office" x="325" y="210" width="8" height="8" rx="2"/>
-    <rect id="room-e69b79381d2f0ce799a046a3888fc1c327c3fef7" class="room indoor" data-label="O-fish-ial Fishermen&#x27;s Guild Shoppe" x="335" y="210" width="8" height="8" rx="2"/>
+    <rect id="room-33a86c039a91e8e3c0fe2f588f35c3ea53185cd2" class="room indoor room-food" data-label="Fishermen&#x27;s Guild regional office" x="325" y="210" width="8" height="8" rx="2"/><text class="room-type-label" x="329" y="214" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-e69b79381d2f0ce799a046a3888fc1c327c3fef7" class="room indoor room-clothes" data-label="O-fish-ial Fishermen&#x27;s Guild Shoppe" x="335" y="210" width="8" height="8" rx="2"/><text class="room-type-label" x="339" y="214" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-42f1aff67ff271bd2e2f8937ebb6393fa3255c3e" class="room indoor" data-label="under the docks" x="212" y="198" width="8" height="8" rx="2"/>
     <rect id="room-8980347ad8164c0939fe14b788f2f80a526a1e0d" class="room indoor" data-label="under the docks" x="212" y="212" width="8" height="8" rx="2"/>
     <rect id="room-47eae2f56b6ba1ecdc8e5d1a0e738ccda399c6be" class="room indoor" data-label="under the docks" x="226" y="212" width="8" height="8" rx="2"/>
     <rect id="room-b4f5f34b446ac8e24c074dbd8b4a6e65f5877f35" class="room indoor" data-label="under the docks" x="226" y="198" width="8" height="8" rx="2"/>
     <rect id="room-8c1e1cfeb03dfd381b5ecb741a8ec1180952e741" class="room indoor" data-label="under the docks" x="240" y="198" width="8" height="8" rx="2"/>
     <rect id="room-53363645fe9ff380d275d04d2d278cc4c0516eb5" class="room indoor" data-label="under the docks" x="254" y="198" width="8" height="8" rx="2"/>
-    <rect id="room-f4cfac130550d11f61a66f161d8bc56dd8fe287c" class="room indoor" data-label="dusty furniture shop" x="226" y="223" width="8" height="8" rx="2"/>
+    <rect id="room-f4cfac130550d11f61a66f161d8bc56dd8fe287c" class="room indoor room-clothes" data-label="dusty furniture shop" x="226" y="223" width="8" height="8" rx="2"/><text class="room-type-label" x="230" y="227" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-c19252b174716e3767d0ad6bfb77a00169c3f262" class="room indoor" data-label="dark wood workshop" x="226" y="233" width="8" height="8" rx="2"/>
     <rect id="room-461278d38942f6116d5a6211b36eea4c64f29bd1" class="room indoor" data-label="under the docks" x="198" y="212" width="8" height="8" rx="2"/>
     <rect id="room-4061a45a368494915fc46a77148c25fb2ae27b21" class="room indoor" data-label="under the docks" x="184" y="212" width="8" height="8" rx="2"/>
     <rect id="room-0131a3eb0c71a1fe9429d299fac9a672c3dc4c1f" class="room indoor" data-label="small dark hut" x="184" y="223" width="8" height="8" rx="2"/>
     <rect id="room-4788594a0d55df8f03025ff2be5a18b7be9581dc" class="room indoor" data-label="under the docks outside an odd shop" x="170" y="212" width="8" height="8" rx="2"/>
-    <rect id="room-4de8d1c541ecb413d2dc7ce6e6137d3c0bd01f7c" class="room indoor" data-label="underdocks general shop" x="170" y="223" width="8" height="8" rx="2"/>
+    <rect id="room-4de8d1c541ecb413d2dc7ce6e6137d3c0bd01f7c" class="room indoor room-shop" data-label="underdocks general shop" x="170" y="223" width="8" height="8" rx="2"/><text class="room-type-label" x="174" y="227" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-8e81046eb1ac5503918b95e204f8ff209e162727" class="room indoor" data-label="under the docks" x="156" y="212" width="8" height="8" rx="2"/>
     <rect id="room-f743954e9b6a5f9b51e8617afca53193f28c799a" class="room indoor" data-label="under the docks" x="142" y="212" width="8" height="8" rx="2"/>
     <rect id="room-bf59113dbc2d004539e67402398f41441eb6e86e" class="room indoor" data-label="under the docks" x="128" y="226" width="8" height="8" rx="2"/>
@@ -816,6 +816,8 @@
     <rect id="room-00c9e154c292f4fff9b6ccf5c23f12d43ef58bcf" class="room indoor" data-label="[player house]" x="72" y="237" width="8" height="8" rx="2"/>
   </g>
 
+
+  <g id="layer-room-labels"></g>
   <g id="layer-labels"><!-- labels --></g>
 
 </svg>

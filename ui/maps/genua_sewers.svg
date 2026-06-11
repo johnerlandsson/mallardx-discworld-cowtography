@@ -448,13 +448,15 @@
     <rect id="room-8b0743e4004225f1807c6e423b6821ac043d777a" class="room indoor" data-label="entrance to a secret place" x="758" y="80" width="8" height="8" rx="2"/>
     <rect id="room-440426c9813595a71217ec1ec6cc5ccedaa51a95" class="room indoor" data-label="dark shower stall" x="758" y="59" width="8" height="8" rx="2"/>
     <rect id="room-5ccecf310d116964b585d8286b8b5e7f692fad40" class="room indoor" data-label="place to mingle" x="779" y="80" width="8" height="8" rx="2"/>
-    <rect id="room-42e7d7af6ffa43b1a0317d4d8f1cc8fcea1e7bab" class="room indoor" data-label="cramped shop" x="800" y="80" width="8" height="8" rx="2"/>
+    <rect id="room-42e7d7af6ffa43b1a0317d4d8f1cc8fcea1e7bab" class="room indoor room-clothes" data-label="cramped shop" x="800" y="80" width="8" height="8" rx="2"/><text class="room-type-label" x="804" y="84" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-d5a77a58764294bdae7a1bb86f57381f8ff4d776" class="room indoor" data-label="launder room" x="821" y="80" width="8" height="8" rx="2"/>
     <rect id="room-14aacf58544594bf6231b5cd74f1dabb4e09786f" class="room indoor" data-label="main office of Genua Thieves Guild." x="779" y="101" width="8" height="8" rx="2"/>
     <rect id="room-4fae7cccf50e2551579ea8e5d22d9153b4415792" class="room indoor" data-label="sewer" x="359" y="35" width="8" height="8" rx="2"/>
     <rect id="room-92efe39a8cb9df88500bcf31baaa4ff90905ea59" class="room indoor" data-label="sewer" x="359" y="14" width="8" height="8" rx="2"/>
   </g>
 
+
+  <g id="layer-room-labels"></g>
   <g id="layer-labels"><!-- labels --></g>
 
 </svg>

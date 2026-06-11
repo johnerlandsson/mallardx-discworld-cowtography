@@ -53,17 +53,17 @@
     <circle id="room-69b0d9b6e6e2d1d3045b9b563cf39478a84a94b0" class="room outdoor" data-label="southwest corner of the Copperhead village square" cx="55" cy="61" r="4"/>
     <circle id="room-6ae6278cf740bf60fd8d6d39fc77860fce85e8ca" class="room outdoor" data-label="southeast corner of the Copperhead village square" cx="69" cy="61" r="4"/>
     <circle id="room-cb58661deea9f3d7e0a360a1ead16206c9d60eb6" class="room outdoor" data-label="northeast corner of the Copperhead village square" cx="69" cy="47" r="4"/>
-    <circle id="room-ee2bb6f40b325607285b0508906568a37314a98b" class="room outdoor" data-label="smithy" cx="55" cy="36" r="4"/>
-    <circle id="room-dd3b8b435c2620b459aabf4c1dcd1c8bd791d74c" class="room outdoor" data-label="broomstick shop" cx="69" cy="36" r="4"/>
+    <circle id="room-ee2bb6f40b325607285b0508906568a37314a98b" class="room outdoor room-shop" data-label="smithy" cx="55" cy="36" r="4"/><text class="room-type-label" x="55" y="36" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-dd3b8b435c2620b459aabf4c1dcd1c8bd791d74c" class="room outdoor room-clothes" data-label="broomstick shop" cx="69" cy="36" r="4"/><text class="room-type-label" x="69" y="36" text-anchor="middle" dominant-baseline="central">C</text>
     <circle id="room-d2b53366511991f11de8874a3598a0267707a8b8" class="room outdoor" data-label="high altar of Sandelfon in Copperhead" cx="80" cy="47" r="4"/>
-    <circle id="room-49d92a9de117843c348cce0d52d0dd99309c0ac8" class="room outdoor" data-label="rickety stall" cx="67" cy="59" r="4"/>
+    <circle id="room-49d92a9de117843c348cce0d52d0dd99309c0ac8" class="room outdoor room-shop" data-label="rickety stall" cx="67" cy="59" r="4"/><text class="room-type-label" x="67" y="59" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-68c387d1c69b7e89da999ebbf8bc4a9d3d595f92" class="room outdoor" data-label="north end of Granite Street" cx="55" cy="75" r="4"/>
     <circle id="room-a23f2a5acd4c5f57617d551e012cd907699ea01c" class="room outdoor" data-label="south end of Granite Street" cx="55" cy="89" r="4"/>
     <circle id="room-960fcf86a8751c922cbd4328e298188169491afe" class="room outdoor" data-label="cottage" cx="66" cy="89" r="4"/><polygon class="stair-symbol" points="66,86 63.5,91 68.5,91"/>
-    <circle id="room-795b66503f2575895150d078cb8f42d7065fc38a" class="room outdoor" data-label="Beard and Badger" cx="44" cy="75" r="4"/>
+    <circle id="room-795b66503f2575895150d078cb8f42d7065fc38a" class="room outdoor room-food" data-label="Beard and Badger" cx="44" cy="75" r="4"/><text class="room-type-label" x="44" y="75" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-8f19a7ebbef505bb2e5803a318f3cff2bbe5b9b4" class="room outdoor" data-label="garden of the Beard and Badger" cx="33" cy="75" r="4"/>
     <circle id="room-5971d2fff7558b7b9992832b15d4690389123f9d" class="room outdoor" data-label="kitchen of the Beard and Badger" cx="44" cy="64" r="4"/>
-    <circle id="room-dbe91b4395adce5e7969a90f5a5a40468c57ab66" class="room outdoor" data-label="kitchen garden of the Beard and Badger" cx="33" cy="64" r="4"/>
+    <circle id="room-dbe91b4395adce5e7969a90f5a5a40468c57ab66" class="room outdoor room-shop" data-label="kitchen garden of the Beard and Badger" cx="33" cy="64" r="4"/><text class="room-type-label" x="33" y="64" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-554347c9d007fcbde57c82f53c156469588bb710" class="room outdoor" data-label="path to the mines" cx="83" cy="75" r="4"/>
     <circle id="room-5b5c6ad5183c287d4d87e00df3ecf6e663a88c64" class="room outdoor" data-label="path to the mines" cx="83" cy="89" r="4"/>
     <circle id="room-204e80045f0e590c57df02bea7f79469606178ba" class="room outdoor" data-label="entrance to a tunnel" cx="97" cy="103" r="4"/>
@@ -89,6 +89,8 @@
     <circle id="room-324b719668052bcfda759a1e8d6eebbb2e26bf65" class="room outdoor" data-label="[player house]" cx="66" cy="89" r="4"/><polygon class="stair-symbol" points="66,92 63.5,87 68.5,87"/>
   </g>
 
+
+  <g id="layer-room-labels"></g>
   <g id="layer-labels"><!-- labels --></g>
 
 </svg>
