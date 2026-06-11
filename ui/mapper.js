@@ -193,9 +193,16 @@ function applyState() {
       el.classList.add("current");
       // Multiple rooms can share the same coordinates (multi-floor buildings).
       // Move this element to the end of its layer so it paints on top.
-      const sib = el.nextElementSibling;
+      // Capture siblings before any moves (DOM order changes after appendChild).
+      const sib1 = el.nextElementSibling;
+      const sib2 = sib1?.nextElementSibling;
       el.parentNode.appendChild(el);
-      if (sib?.classList.contains("stair-symbol")) el.parentNode.appendChild(sib);
+      if (sib1?.classList.contains("stair-symbol")) {
+        el.parentNode.appendChild(sib1);
+        if (sib2?.classList.contains("room-type-label")) el.parentNode.appendChild(sib2);
+      } else if (sib1?.classList.contains("room-type-label")) {
+        el.parentNode.appendChild(sib1);
+      }
     }
   }
   for (const id of routeRoomIds) {
