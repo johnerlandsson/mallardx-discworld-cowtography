@@ -239,9 +239,9 @@ describe('roomElement (with type)', () => {
     expect(el).toContain('>F<')
   })
 
-  it('room with both stair and type contains stair polygon and type label', () => {
+  it('room with both stair and type shows type label and hides stair symbol', () => {
     const el = roomElement('r1', 10, 20, 'Bank', false, { hasUp: false, hasDown: true }, 'bank')
-    expect(el).toContain('<polygon')
+    expect(el).not.toContain('<polygon')
     expect(el).toContain('<text class="room-type-label"')
     expect(el).toContain('>$<')
   })

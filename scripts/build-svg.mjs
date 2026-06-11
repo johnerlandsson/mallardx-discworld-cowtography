@@ -212,7 +212,7 @@ export function roomElement(id, x, y, short, isIndoor, stair = null, type = null
   const shape = isIndoor
     ? `<rect id="room-${id}" class="room indoor${typeClass}${sizeClass}"${label} x="${x - hw}" y="${y - hw}" width="${hw * 2}" height="${hw * 2}" rx="${compact ? 0.75 : 2}"/>`
     : `<circle id="room-${id}" class="room outdoor${typeClass}${sizeClass}"${label} cx="${x}" cy="${y}" r="${hw}"/>`
-  const stairEl = stair ? stairSymbol(x, y, stair.hasUp, stair.hasDown) : ''
+  const stairEl = (stair && !type) ? stairSymbol(x, y, stair.hasUp, stair.hasDown) : ''
   const typeEl  = type  ? `<text class="room-type-label" x="${x}" y="${y}" text-anchor="middle" dominant-baseline="central">${TYPE_LETTERS[type]}</text>` : ''
   return shape + stairEl + typeEl
 }
