@@ -6235,29 +6235,29 @@
     <circle id="room-7318aedbf074c8a0f568919a9cab04864e9683d3" class="room outdoor" data-label="northeast corner of Unreal Estate" cx="1124" cy="606" r="4"/>
     <circle id="room-1a3c450539207beff31ca25750235ea4dd8c6cb8" class="room outdoor" data-label="northwest corner of Unreal Estate" cx="1082" cy="592" r="4"/>
     <circle id="room-03e643bca80656e6a40dc5c09f78fdc87d596157" class="room outdoor" data-label="northeastern gate of the Unseen University leading between the Fronts and Unreal Estate" cx="1069" cy="592" r="4"/>
-    <circle id="room-189a631c980a816bdbfb35395a46257a167bc60a" class="room outdoor" data-label="middle of the stone-paved plaza on the Fronts" cx="1057" cy="593" r="4"/>
-    <circle id="room-e762d083ac4c60221a60082abcaa994e1b8bce2b" class="room outdoor" data-label="next to the outer campus wall" cx="1057" cy="597" r="4"/>
-    <circle id="room-7cbfa24b630df34e7450763c3b857995f1ab9b2b" class="room outdoor" data-label="next to the low wall that surrounds New Hall&#x27;s front lawns" cx="1053" cy="597" r="4"/>
-    <circle id="room-0261ace8d9fb484f210765a98847a4905e65b365" class="room outdoor" data-label="next to the low wall that surrounds New Hall&#x27;s front lawns" cx="1049" cy="597" r="4"/>
-    <circle id="room-a32d15360e2b2ce9b8af6e77a2f0383bbad22dfe" class="room outdoor" data-label="small wall surrounding the front lawns of New Hall" cx="1045" cy="597" r="4"/>
-    <circle id="room-c70f7feb265426e3f6f490abd3febbc95ca0e31c" class="room outdoor" data-label="corner of the low wall surrounding the front lawns of New Hall" cx="1041" cy="597" r="4"/>
-    <circle id="room-d8e1d6599cf319db6d9734eeb67e892ef3f93cc8" class="room outdoor" data-label="Water Street, just west of the plaza on the Fronts" cx="1037" cy="597" r="4"/>
-    <circle id="room-1db27e944c195e75b914a3111505d336f605cfc8" class="room outdoor" data-label="Water Street, just west of the plaza on the Fronts" cx="1037" cy="593" r="4"/>
-    <circle id="room-82767932aae6b0b891f2364a7a6261bf88ed2379" class="room outdoor" data-label="western end of the plaza on the Fronts" cx="1041" cy="593" r="4"/>
-    <circle id="room-6198abcbdca9e69da4074ab55a74c6fc8b206229" class="room outdoor" data-label="near the western end of the plaza on the Fronts" cx="1045" cy="593" r="4"/>
-    <circle id="room-a41ccb854b5f4a180b38395f5398267c84f72378" class="room outdoor" data-label="middle of the stone-paved plaza on the Fronts" cx="1049" cy="593" r="4"/>
-    <circle id="room-357105bf08f3ff28f621adf68a04635400f86b6e" class="room outdoor" data-label="middle of the stone-paved plaza on the Fronts" cx="1053" cy="593" r="4"/>
-    <circle id="room-30933baeab31fccb895a0857fde3cbcedd8f369a" class="room outdoor" data-label="northeastern corner of the Fronts on a long platform running along the Ankh" cx="1057" cy="589" r="4"/>
-    <circle id="room-092ffd94d2fdd7fe7f98dbd9875fde2ba56d8d47" class="room outdoor" data-label="short wall running around the front lawns of New Hall" cx="1053" cy="589" r="4"/>
-    <circle id="room-8d47849d45caf244f3d000f54c4891dfc67d26e5" class="room outdoor" data-label="long balustrade on the northern edge of the Fronts overlooking the Ankh River" cx="1049" cy="589" r="4"/>
-    <circle id="room-6c0219659fef6ec99615d9bf80ed2ca797847d85" class="room outdoor" data-label="long balustrade on the northern edge of the Fronts overlooking the Ankh River" cx="1045" cy="589" r="4"/>
-    <circle id="room-97ecd01675fc332c84576c5e4b7e0bed48a1d668" class="room outdoor" data-label="Water Street, just inside the University Campus" cx="1041" cy="589" r="4"/>
+    <circle id="room-189a631c980a816bdbfb35395a46257a167bc60a" class="room outdoor room-compact" data-label="middle of the stone-paved plaza on the Fronts" cx="1057" cy="593" r="1.5"/>
+    <circle id="room-e762d083ac4c60221a60082abcaa994e1b8bce2b" class="room outdoor room-compact" data-label="next to the outer campus wall" cx="1057" cy="597" r="1.5"/>
+    <circle id="room-7cbfa24b630df34e7450763c3b857995f1ab9b2b" class="room outdoor room-compact" data-label="next to the low wall that surrounds New Hall&#x27;s front lawns" cx="1053" cy="597" r="1.5"/>
+    <circle id="room-0261ace8d9fb484f210765a98847a4905e65b365" class="room outdoor room-compact" data-label="next to the low wall that surrounds New Hall&#x27;s front lawns" cx="1049" cy="597" r="1.5"/>
+    <circle id="room-a32d15360e2b2ce9b8af6e77a2f0383bbad22dfe" class="room outdoor room-compact" data-label="small wall surrounding the front lawns of New Hall" cx="1045" cy="597" r="1.5"/>
+    <circle id="room-c70f7feb265426e3f6f490abd3febbc95ca0e31c" class="room outdoor room-compact" data-label="corner of the low wall surrounding the front lawns of New Hall" cx="1041" cy="597" r="1.5"/>
+    <circle id="room-d8e1d6599cf319db6d9734eeb67e892ef3f93cc8" class="room outdoor room-compact" data-label="Water Street, just west of the plaza on the Fronts" cx="1037" cy="597" r="1.5"/>
+    <circle id="room-1db27e944c195e75b914a3111505d336f605cfc8" class="room outdoor room-compact" data-label="Water Street, just west of the plaza on the Fronts" cx="1037" cy="593" r="1.5"/>
+    <circle id="room-82767932aae6b0b891f2364a7a6261bf88ed2379" class="room outdoor room-compact" data-label="western end of the plaza on the Fronts" cx="1041" cy="593" r="1.5"/>
+    <circle id="room-6198abcbdca9e69da4074ab55a74c6fc8b206229" class="room outdoor room-compact" data-label="near the western end of the plaza on the Fronts" cx="1045" cy="593" r="1.5"/>
+    <circle id="room-a41ccb854b5f4a180b38395f5398267c84f72378" class="room outdoor room-compact" data-label="middle of the stone-paved plaza on the Fronts" cx="1049" cy="593" r="1.5"/>
+    <circle id="room-357105bf08f3ff28f621adf68a04635400f86b6e" class="room outdoor room-compact" data-label="middle of the stone-paved plaza on the Fronts" cx="1053" cy="593" r="1.5"/>
+    <circle id="room-30933baeab31fccb895a0857fde3cbcedd8f369a" class="room outdoor room-compact" data-label="northeastern corner of the Fronts on a long platform running along the Ankh" cx="1057" cy="589" r="1.5"/>
+    <circle id="room-092ffd94d2fdd7fe7f98dbd9875fde2ba56d8d47" class="room outdoor room-compact" data-label="short wall running around the front lawns of New Hall" cx="1053" cy="589" r="1.5"/>
+    <circle id="room-8d47849d45caf244f3d000f54c4891dfc67d26e5" class="room outdoor room-compact" data-label="long balustrade on the northern edge of the Fronts overlooking the Ankh River" cx="1049" cy="589" r="1.5"/>
+    <circle id="room-6c0219659fef6ec99615d9bf80ed2ca797847d85" class="room outdoor room-compact" data-label="long balustrade on the northern edge of the Fronts overlooking the Ankh River" cx="1045" cy="589" r="1.5"/>
+    <circle id="room-97ecd01675fc332c84576c5e4b7e0bed48a1d668" class="room outdoor room-compact" data-label="Water Street, just inside the University Campus" cx="1041" cy="589" r="1.5"/>
     <circle id="room-619e0da435659c250309fcf9ca63eeb550e2dccf" class="room outdoor" data-label="south end of Water Bridge" cx="1040" cy="578" r="4"/>
-    <circle id="room-de51c5e74a0aa1b159d76eca77faf0aecaaa016a" class="room outdoor" data-label="Water Street, just west of the plaza on the Fronts" cx="1037" cy="601" r="4"/>
-    <circle id="room-188d76f2214eb045d0eaa616d7b68e376f8f292f" class="room outdoor" data-label="narrow alley of Water Street between New Hall and the inner campus wall" cx="1037" cy="605" r="4"/>
-    <circle id="room-69f8aa61bf16526c8740f03da88159e2330be16b" class="room outdoor" data-label="narrow alley of Water Street between New Hall and the inner campus wall" cx="1027" cy="603" r="4"/>
-    <circle id="room-a9b355c0ddecc72f91444f2b745514f0e42f98a9" class="room outdoor" data-label="Water Street at the northern entrance to the main campus and the courtyard of New Hall" cx="1027" cy="607" r="4"/>
-    <circle id="room-dfd74de63f10c59186bcff82f5000d6ff66e2d59" class="room outdoor" data-label="southern end of Water Street at the University&#x27;s exit gate to Sator Square" cx="1027" cy="611" r="4"/>
+    <circle id="room-de51c5e74a0aa1b159d76eca77faf0aecaaa016a" class="room outdoor room-compact" data-label="Water Street, just west of the plaza on the Fronts" cx="1037" cy="601" r="1.5"/>
+    <circle id="room-188d76f2214eb045d0eaa616d7b68e376f8f292f" class="room outdoor room-compact" data-label="narrow alley of Water Street between New Hall and the inner campus wall" cx="1037" cy="605" r="1.5"/>
+    <circle id="room-69f8aa61bf16526c8740f03da88159e2330be16b" class="room outdoor room-compact" data-label="narrow alley of Water Street between New Hall and the inner campus wall" cx="1027" cy="603" r="1.5"/>
+    <circle id="room-a9b355c0ddecc72f91444f2b745514f0e42f98a9" class="room outdoor room-compact" data-label="Water Street at the northern entrance to the main campus and the courtyard of New Hall" cx="1027" cy="607" r="1.5"/>
+    <circle id="room-dfd74de63f10c59186bcff82f5000d6ff66e2d59" class="room outdoor room-compact" data-label="southern end of Water Street at the University&#x27;s exit gate to Sator Square" cx="1027" cy="611" r="1.5"/>
     <circle id="room-993b4486a05acc67db4b1395ca026aa384c5cb69" class="room outdoor" data-label="southern end of Water Street at the University&#x27;s exit gate to Sator Square" cx="1026" cy="621" r="4"/>
     <circle id="room-f2c41e0a91751942a5554df760f1883fa1e670ed" class="room outdoor" data-label="northern edge of Sator Square" cx="1026" cy="634" r="4"/>
     <circle id="room-c7f8f7aeef692575fe813753721283cd3719ad79" class="room outdoor" data-label="northern edge of Sator Square" cx="1040" cy="634" r="4"/>
@@ -8096,10 +8096,10 @@
     <circle id="room-cdef34c2b919b5220e4fba06ee8b63fadf20b1f7" class="room outdoor" data-label="overgrown garden" cx="746" cy="897" r="4"/>
     <circle id="room-03d5e827a57f548a4c2240561216f8f045c87c08" class="room outdoor" data-label="Upstairs in a house" cx="746" cy="897" r="4"/><polygon class="stair-symbol" points="746,900 743.5,895 748.5,895"/>
     <circle id="room-f4660561831a03b7f6af0793596c1012e749ba20" class="room outdoor room-shop" data-label="swish store" cx="1222" cy="351" r="4"/><text class="room-type-label" x="1222" y="351" text-anchor="middle" dominant-baseline="central">S</text>
-    <circle id="room-8104aa2431fff1764e3d9e5f92cd92d5cf97d5e7" class="room outdoor" data-label="next to a low wall running around the front lawns of New Hall" cx="1041" cy="601" r="4"/>
-    <circle id="room-6f1413cab126d55dde0730f85b1e1aeecce1b034" class="room outdoor" data-label="front lawns of New Hall" cx="1045" cy="601" r="4"/>
-    <circle id="room-3208096b0b14735e52321e44e2dc2e49c7a4cca2" class="room outdoor" data-label="middle of the front lawns of New Hall" cx="1049" cy="601" r="4"/>
-    <circle id="room-43005296f96a3577861c453156a0f6fcd68074e1" class="room outdoor" data-label="front lawns of New Hall" cx="1053" cy="601" r="4"/>
+    <circle id="room-8104aa2431fff1764e3d9e5f92cd92d5cf97d5e7" class="room outdoor room-compact" data-label="next to a low wall running around the front lawns of New Hall" cx="1041" cy="601" r="1.5"/>
+    <circle id="room-6f1413cab126d55dde0730f85b1e1aeecce1b034" class="room outdoor room-compact" data-label="front lawns of New Hall" cx="1045" cy="601" r="1.5"/>
+    <circle id="room-3208096b0b14735e52321e44e2dc2e49c7a4cca2" class="room outdoor room-compact" data-label="middle of the front lawns of New Hall" cx="1049" cy="601" r="1.5"/>
+    <circle id="room-43005296f96a3577861c453156a0f6fcd68074e1" class="room outdoor room-compact" data-label="front lawns of New Hall" cx="1053" cy="601" r="1.5"/>
     <circle id="room-f81ff39684fc67c9c1c4b4ab43ba9ad27c5feab7" class="room outdoor room-shop" data-label="Who Nose" cx="329" cy="1079" r="4"/><text class="room-type-label" x="329" y="1079" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-bc75b2bfaf9225d862dfa89eabd43f95cb06fb41" class="room outdoor" data-label="old attic bedroom of the Dolly Sisters Watch House" cx="1159" cy="904" r="4"/>
     <circle id="room-3ab24ddad35c7b3f81c2fe6525213d24718fae7c" class="room outdoor" data-label="old armoury of the Dolly Sisters Watch House" cx="1159" cy="904" r="4"/>

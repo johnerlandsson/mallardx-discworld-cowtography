@@ -186,14 +186,14 @@ export function stairSymbol(x, y, hasUp, hasDown) {
 
 // stair: null | {hasUp, hasDown}
 // type: null | string (key of TYPE_LETTERS)
-// compact: true → half-size room (r=2 circle, 4×4 rect)
+// compact: true → small room (r=1.5 circle, 3×3 rect)
 export function roomElement(id, x, y, short, isIndoor, stair = null, type = null, compact = false) {
   const label     = short ? ` data-label="${escapeXml(short)}"` : ''
   const typeClass = type    ? ` room-${type}` : ''
   const sizeClass = compact ? ' room-compact'  : ''
-  const hw = compact ? 2 : 4
+  const hw = compact ? 1.5 : 4
   const shape = isIndoor
-    ? `<rect id="room-${id}" class="room indoor${typeClass}${sizeClass}"${label} x="${x - hw}" y="${y - hw}" width="${hw * 2}" height="${hw * 2}" rx="${compact ? 1 : 2}"/>`
+    ? `<rect id="room-${id}" class="room indoor${typeClass}${sizeClass}"${label} x="${x - hw}" y="${y - hw}" width="${hw * 2}" height="${hw * 2}" rx="${compact ? 0.75 : 2}"/>`
     : `<circle id="room-${id}" class="room outdoor${typeClass}${sizeClass}"${label} cx="${x}" cy="${y}" r="${hw}"/>`
   const stairEl = stair ? stairSymbol(x, y, stair.hasUp, stair.hasDown) : ''
   const typeEl  = type  ? `<text class="room-type-label" x="${x}" y="${y}" text-anchor="middle" dominant-baseline="central">${TYPE_LETTERS[type]}</text>` : ''

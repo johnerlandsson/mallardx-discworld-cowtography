@@ -62,7 +62,8 @@ body {
 
 .room         { fill: var(--bg); stroke: var(--fg); stroke-width: 0.5; }
 .room.route   { fill: #0d2d4a;   stroke: #00d2ff;   stroke-width: 2.03; }
-.room.current { fill: #ff3b30;   stroke: #fff;      stroke-width: 2.03; }
+.room.current         { fill: #ff3b30;   stroke: #fff;      stroke-width: 2.03; }
+.room-compact.current { stroke-width: 1; }
 .exit         { stroke: #3a3a3a; stroke-width: 1.82; fill: none; }
 .exit.route   { stroke: #00d2ff; stroke-width: 3.03; }
 .exit-offmap  { stroke: var(--muted); stroke-width: 1.5; stroke-dasharray: 3 2; fill: none; }
