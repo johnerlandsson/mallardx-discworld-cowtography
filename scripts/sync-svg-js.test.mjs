@@ -42,4 +42,8 @@ describe('injectFontStyle', () => {
     const nodefs = '<svg><g id="layer-artwork" /></svg>'
     expect(injectFontStyle(nodefs)).toBe(nodefs)
   })
+
+  it('includes map-label-accent in font fix selector', () => {
+    expect(FONT_STYLE_BLOCK).toContain('.map-label-accent')
+  })
 })

@@ -87,6 +87,7 @@ body {
 /* ─── Semantic classes for hand-crafted SVG elements ───────────────────────── */
 .map-label       { fill: var(--fg);          font-size: 10px; font-family: "Noto Sans", sans-serif; }
 .map-label-muted { fill: var(--muted);       font-size: 10px; font-family: "Noto Sans", sans-serif; }
+.map-label-accent { fill: var(--accent);       font-size: 10px; font-family: "Noto Sans", sans-serif; }
 .map-area-fill   { fill: var(--bg-elevated); }
 .map-area-stroke { stroke: var(--border);    fill: none; }
 .map-water       { fill: #0d1f2d; }

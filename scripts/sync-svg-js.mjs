@@ -4,7 +4,7 @@
 // Usage: node scripts/sync-svg-js.mjs
 
 export const FONT_STYLE_BLOCK = `<style id="inkscape-font-fix">
-.map-label, .map-label-muted,
+.map-label, .map-label-muted, .map-label-accent,
 .lib-table, .lib-gap-label, .lib-book-label,
 .lib-row-num, .lib-book-list {
   font-family: "Noto Sans", sans-serif;
