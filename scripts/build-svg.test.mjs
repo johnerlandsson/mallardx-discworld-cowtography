@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import Database from 'better-sqlite3'
-import { queryRooms, queryExits, queryStairRooms, edgeId, roomElement, stairSymbol, exitElement, buildNewSvg, updateExistingSvg, buildLibrarySvg, buildLibraryLabelsContent, buildLibraryRowNumbers, buildLibraryBookList, buildLibraryExitsContent, queryShopTypes } from './build-svg.mjs'
+import { queryRooms, queryExits, queryStairRooms, edgeId, roomElement, stairSymbol, exitElement, buildNewSvg, updateExistingSvg, buildLibrarySvg, buildLibraryLabelsContent, buildLibraryRowNumbers, buildLibraryBookList, buildLibraryExitsContent, queryShopTypes, TYPE_LETTERS } from './build-svg.mjs'
 
 function makeDb() {
   const db = new Database(':memory:')
@@ -208,6 +208,51 @@ describe('roomElement', () => {
   it('returns no polygon when stair is null', () => {
     const el = roomElement('r1', 10, 20, 'Room', false, null)
     expect(el).not.toContain('<polygon')
+  })
+})
+
+describe('roomElement (with type)', () => {
+  it('plain room is unchanged when type is null', () => {
+    const el = roomElement('r1', 10, 20, 'Room', false, null, null)
+    expect(el).toContain('class="room outdoor"')
+    expect(el).not.toContain(' room-')
+    expect(el).not.toContain('<text')
+  })
+
+  it('outdoor typed room has type class and centered letter', () => {
+    const el = roomElement('r1', 10, 20, 'Armoury', false, null, 'weapon')
+    expect(el).toContain('class="room outdoor room-weapon"')
+    expect(el).toContain('<text class="room-type-label"')
+    expect(el).toContain('x="10"')
+    expect(el).toContain('y="20"')
+    expect(el).toContain('text-anchor="middle"')
+    expect(el).toContain('dominant-baseline="central"')
+    expect(el).toContain('>W<')
+  })
+
+  it('indoor typed room has type class and centered letter', () => {
+    const el = roomElement('r1', 50, 75, 'Inn', true, null, 'food')
+    expect(el).toContain('class="room indoor room-food"')
+    expect(el).toContain('<text class="room-type-label"')
+    expect(el).toContain('x="50"')
+    expect(el).toContain('y="75"')
+    expect(el).toContain('>F<')
+  })
+
+  it('room with both stair and type contains stair polygon and type label', () => {
+    const el = roomElement('r1', 10, 20, 'Bank', false, { hasUp: false, hasDown: true }, 'bank')
+    expect(el).toContain('<polygon')
+    expect(el).toContain('<text class="room-type-label"')
+    expect(el).toContain('>$<')
+  })
+
+  it('TYPE_LETTERS covers all 15 types', () => {
+    const expected = ['shop', 'weapon', 'armour', 'clothes', 'food', 'access',
+                      'bank', 'mission', 'post', 'lang',
+                      'crafts', 'house', 'club', 'pshop', 'tshop']
+    for (const t of expected) {
+      expect(TYPE_LETTERS[t]).toBeTruthy()
+    }
   })
 })
 

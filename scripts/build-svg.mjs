@@ -179,13 +179,17 @@ export function stairSymbol(x, y, hasUp, hasDown) {
 }
 
 // stair: null | {hasUp, hasDown}
-export function roomElement(id, x, y, short, isIndoor, stair = null) {
-  const label = short ? ` data-label="${escapeXml(short)}"` : ''
+// stair: null | {hasUp, hasDown}
+// type: null | string (key of TYPE_LETTERS)
+export function roomElement(id, x, y, short, isIndoor, stair = null, type = null) {
+  const label     = short ? ` data-label="${escapeXml(short)}"` : ''
+  const typeClass = type ? ` room-${type}` : ''
   const shape = isIndoor
-    ? `<rect id="room-${id}" class="room indoor"${label} x="${x - 4}" y="${y - 4}" width="8" height="8" rx="2"/>`
-    : `<circle id="room-${id}" class="room outdoor"${label} cx="${x}" cy="${y}" r="4"/>`
-  if (!stair) return shape
-  return shape + stairSymbol(x, y, stair.hasUp, stair.hasDown)
+    ? `<rect id="room-${id}" class="room indoor${typeClass}"${label} x="${x - 4}" y="${y - 4}" width="8" height="8" rx="2"/>`
+    : `<circle id="room-${id}" class="room outdoor${typeClass}"${label} cx="${x}" cy="${y}" r="4"/>`
+  const stairEl = stair ? stairSymbol(x, y, stair.hasUp, stair.hasDown) : ''
+  const typeEl  = type  ? `<text class="room-type-label" x="${x}" y="${y}" text-anchor="middle" dominant-baseline="central">${TYPE_LETTERS[type]}</text>` : ''
+  return shape + stairEl + typeEl
 }
 
 // Returns null for vertical exit pairs (no line drawn).
