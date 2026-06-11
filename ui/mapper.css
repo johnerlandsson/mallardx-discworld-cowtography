@@ -66,6 +66,7 @@ body {
 .room-compact.current { stroke-width: 1; }
 .exit         { stroke: #3a3a3a; stroke-width: 1.82; fill: none; }
 .exit.route   { stroke: #00d2ff; stroke-width: 3.03; }
+.exit-compact { stroke-width: 0.75; }
 .exit-offmap  { stroke: var(--muted); stroke-width: 1.5; stroke-dasharray: 3 2; fill: none; }
 .lib-exit     { stroke-width: 3; }
 .stair-symbol { fill: var(--fg); pointer-events: none; }

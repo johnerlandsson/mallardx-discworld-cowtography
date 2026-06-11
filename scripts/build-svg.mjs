@@ -201,12 +201,13 @@ export function roomElement(id, x, y, short, isIndoor, stair = null, type = null
 }
 
 // Returns null for vertical exit pairs (no line drawn).
-export function exitElement(fromId, toId, rooms, isVertical = false) {
+export function exitElement(fromId, toId, rooms, isVertical = false, compactRooms = new Set()) {
   if (isVertical) return null
   const from = rooms.find(r => r.id === fromId)
   const to   = rooms.find(r => r.id === toId)
   if (!from || !to) return ''
-  return `<line id="${edgeId(fromId, toId)}" class="exit" x1="${from.x}" y1="${from.y}" x2="${to.x}" y2="${to.y}"/>`
+  const compact = compactRooms.has(fromId) || compactRooms.has(toId)
+  return `<line id="${edgeId(fromId, toId)}" class="exit${compact ? ' exit-compact' : ''}" x1="${from.x}" y1="${from.y}" x2="${to.x}" y2="${to.y}"/>`
 }
 
 // ─── Map SVG builders ────────────────────────────────────────────────────────
@@ -214,7 +215,7 @@ export function exitElement(fromId, toId, rooms, isVertical = false) {
 export function buildNewSvg(mapMeta, rooms, exits, mapId = '', stairRooms = new Map(), shopTypes = new Map(), compactRooms = new Set()) {
   const isIndoor = !mapMeta.topLevel
 
-  const exitLines  = exits.map(e => '    ' + exitElement(e.from, e.to, rooms, e.isVertical)).filter(Boolean).join('\n')
+  const exitLines  = exits.map(e => '    ' + exitElement(e.from, e.to, rooms, e.isVertical, compactRooms)).filter(Boolean).join('\n')
   const roomShapes = rooms.map(r => '    ' + roomElement(r.id, r.x, r.y, r.short, isIndoor, stairRooms.get(r.id) ?? null, shopTypes.get(r.id) ?? null, compactRooms.has(r.id))).join('\n')
 
   return `<svg xmlns="http://www.w3.org/2000/svg"
@@ -241,7 +242,7 @@ ${roomShapes}
 
 export function updateExistingSvg(existingSvg, mapMeta, rooms, exits, stairRooms = new Map(), shopTypes = new Map(), compactRooms = new Set()) {
   const isIndoor   = !mapMeta.topLevel
-  const exitLines  = exits.map(e => '    ' + exitElement(e.from, e.to, rooms, e.isVertical)).filter(Boolean).join('\n')
+  const exitLines  = exits.map(e => '    ' + exitElement(e.from, e.to, rooms, e.isVertical, compactRooms)).filter(Boolean).join('\n')
   const roomShapes = rooms.map(r => '    ' + roomElement(r.id, r.x, r.y, r.short, isIndoor, stairRooms.get(r.id) ?? null, shopTypes.get(r.id) ?? null, compactRooms.has(r.id))).join('\n')
 
   let svg = existingSvg.replace(

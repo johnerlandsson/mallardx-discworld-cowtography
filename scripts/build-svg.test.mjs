@@ -309,6 +309,21 @@ describe('exitElement', () => {
   it('returns empty string when either endpoint is missing', () => {
     expect(exitElement('r1', 'missing', rooms)).toBe('')
   })
+
+  it('adds exit-compact class when either endpoint is compact', () => {
+    const compact = new Set(['r1'])
+    expect(exitElement('r1', 'r2', rooms, false, compact)).toContain('class="exit exit-compact"')
+  })
+
+  it('adds exit-compact class when both endpoints are compact', () => {
+    const compact = new Set(['r1', 'r2'])
+    expect(exitElement('r1', 'r2', rooms, false, compact)).toContain('class="exit exit-compact"')
+  })
+
+  it('no exit-compact class when neither endpoint is compact', () => {
+    expect(exitElement('r1', 'r2', rooms, false, new Set())).toContain('class="exit"')
+    expect(exitElement('r1', 'r2', rooms, false, new Set())).not.toContain('exit-compact')
+  })
 })
 
 describe('buildNewSvg', () => {
