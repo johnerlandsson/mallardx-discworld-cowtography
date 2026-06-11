@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Noto Sans";
+  src: url("fonts/NotoSans.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
 /* `--bg`, `--fg`, `--accent` pushed live by Mallard host via `set-theme`.
  * Values below are first-paint fallbacks and standalone preview palette. */
 :root {
@@ -65,21 +72,21 @@ body {
 .lib-distortion { fill: rgba(220, 20, 20, 0.9); }
 .lib-orb        { fill: rgba(255, 140, 0, 0.9); stroke: rgba(0,0,0,0.6); stroke-width: 1.5; }
 .lib-arrow      { stroke: rgba(255, 210, 60, 1); stroke-width: 2.5; fill: none; stroke-linejoin: round; }
-.lib-table      { fill: var(--fg); font-size: 12px; font-family: sans-serif; font-weight: bold; pointer-events: none; }
+.lib-table      { fill: var(--fg); font-size: 12px; font-family: "Noto Sans", sans-serif; font-weight: bold; pointer-events: none; }
 .lib-gap        { fill: #c07820; stroke: var(--fg); stroke-width: 2; }
-.lib-gap-label  { fill: var(--fg); font-size: 12px; font-family: sans-serif; font-weight: bold; pointer-events: none; }
+.lib-gap-label  { fill: var(--fg); font-size: 12px; font-family: "Noto Sans", sans-serif; font-weight: bold; pointer-events: none; }
 .lib-book       { fill: #1a6060; stroke: var(--fg); stroke-width: 2; }
-.lib-book-label { fill: var(--fg); font-size: 12px; font-family: sans-serif; font-weight: bold; pointer-events: none; }
-.lib-row-num    { fill: var(--muted); font-size: 9px; font-family: sans-serif; pointer-events: none; }
-.lib-book-list  { fill: var(--fg); font-size: 9px; font-family: sans-serif; pointer-events: none; }
+.lib-book-label { fill: var(--fg); font-size: 12px; font-family: "Noto Sans", sans-serif; font-weight: bold; pointer-events: none; }
+.lib-row-num    { fill: var(--muted); font-size: 9px; font-family: "Noto Sans", sans-serif; pointer-events: none; }
+.lib-book-list  { fill: var(--fg); font-size: 9px; font-family: "Noto Sans", sans-serif; pointer-events: none; }
 
 /* ─── World disc fallback (map 99) ─────────────────────────────────────────── */
 .world-map    { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
 .world-canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
 
 /* ─── Semantic classes for hand-crafted SVG elements ───────────────────────── */
-.map-label       { fill: var(--fg);          font-size: 10px; font-family: sans-serif; }
-.map-label-muted { fill: var(--muted);       font-size: 10px; font-family: sans-serif; }
+.map-label       { fill: var(--fg);          font-size: 10px; font-family: "Noto Sans", sans-serif; }
+.map-label-muted { fill: var(--muted);       font-size: 10px; font-family: "Noto Sans", sans-serif; }
 .map-area-fill   { fill: var(--bg-elevated); }
 .map-area-stroke { stroke: var(--border);    fill: none; }
 .map-water       { fill: #0d1f2d; }
