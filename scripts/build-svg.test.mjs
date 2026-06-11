@@ -430,6 +430,15 @@ describe('updateExistingSvg', () => {
     expect(updateExistingSvg(svg, mapMeta, origRooms, origExits)).toContain('Hand-crafted label')
   })
 
+  it('replaces rooms when layer-rooms is Inkscape-reformatted across multiple lines', () => {
+    const inkscapeSvg = makeSvg()
+      .replace('\n  <g id="layer-rooms">', '\n  <g\n     inkscape:label="rooms"\n     id="layer-rooms">')
+    const newRooms = [{ id: 'r3', x: 90, y: 10, short: 'Gamma', roomType: 'inside' }]
+    const updated = updateExistingSvg(inkscapeSvg, mapMeta, newRooms, [])
+    expect(updated).toContain('id="room-r3"')
+    expect(updated).not.toContain('id="room-r1"')
+  })
+
   it('inserts layer-room-labels after layer-rooms when missing from existing SVG', () => {
     // Simulate old SVG without the new layer
     const oldSvg = makeSvg().replace('\n\n  <g id="layer-room-labels"></g>', '')

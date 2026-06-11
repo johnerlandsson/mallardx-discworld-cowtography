@@ -260,11 +260,11 @@ export function updateExistingSvg(existingSvg, mapMeta, rooms, exits, stairRooms
   const roomShapes = rooms.map(r => '    ' + roomElement(r.id, r.x, r.y, r.short, r.roomType === 'inside', stairRooms.get(r.id) ?? null, shopTypes.get(r.id) ?? null, compactRooms.has(r.id))).join('\n')
 
   let svg = existingSvg.replace(
-    /(<g id="layer-exits">)([\s\S]*?)(<\/g>)/,
+    /(<g[^>]*\bid="layer-exits"[^>]*>)([\s\S]*?)(<\/g>)/,
     `$1\n${exitLines}\n  $3`
   )
   svg = svg.replace(
-    /(<g id="layer-rooms">)([\s\S]*?)(<\/g>)/,
+    /(<g[^>]*\bid="layer-rooms"[^>]*>)([\s\S]*?)(<\/g>)/,
     `$1\n${roomShapes}\n  $3`
   )
   if (!svg.includes('id="layer-room-labels"')) {
