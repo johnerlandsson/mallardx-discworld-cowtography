@@ -67,7 +67,7 @@ body {
 .exit.route   { stroke: #00d2ff; stroke-width: 3.03; }
 .lib-exit     { stroke-width: 3; }
 .stair-symbol { fill: var(--fg); pointer-events: none; }
-.room-type-label { font-family: "Noto Sans", sans-serif; font-size: 4.5px; font-weight: bold; fill: #eaeaea; pointer-events: none; }
+.room-type-label { font-family: "Noto Sans", sans-serif; font-size: 4.5px; font-weight: bold; fill: #eaeaea; pointer-events: none; transform: translateY(-0.6px); }
 
 .room-shop, .room-weapon, .room-armour,
 .room-clothes, .room-food, .room-access  { fill: #1c5c3a; }
