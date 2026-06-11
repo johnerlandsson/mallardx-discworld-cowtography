@@ -14,10 +14,18 @@
   <defs
      id="defs8" />
   <style id="inkscape-font-fix">
-.map-label, .map-label-muted, .map-label-accent,
+text, .map-label, .map-label-muted, .map-label-accent,
 .lib-table, .lib-gap-label, .lib-book-label,
 .lib-row-num, .lib-book-list {
   font-family: "Noto Sans", sans-serif;
+}
+</style>
+  <style
+     id="style1">
+.map-label, .map-label-muted, .map-label-accent,
+.lib-table, .lib-gap-label, .lib-book-label,
+.lib-row-num, .lib-book-list {
+  font-family: &quot;Noto Sans&quot;, sans-serif;
 }
 </style>
   <sodipodi:namedview
@@ -29,10 +37,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="2.6755853"
-     inkscape:cx="235.4625"
-     inkscape:cy="312.82875"
-     inkscape:window-width="2573"
+     inkscape:zoom="7.567698"
+     inkscape:cx="571.57407"
+     inkscape:cy="582.07925"
+     inkscape:window-width="1968"
      inkscape:window-height="1011"
      inkscape:window-x="26"
      inkscape:window-y="23"
@@ -42,14 +50,17 @@
   <g
      id="layer-artwork">
     <!-- artwork -->
-    <path
-       d="M 297.04,20 V 229.68542 H 444.5 V 20 Z"
-       id="path38"
-       sodipodi:nodetypes="ccccc"
+    <rect
+       id="rect9"
+       width="112.03735"
+       height="186.21382"
+       x="297.04001"
+       y="22.469296"
+       ry="1.5"
        class="anno-box"
-       style="stroke-width:1.14959" />
+       style="stroke-width:0.961071" />
     <path
-       d="M 304.77066,37.375 H 435.05375"
+       d="M 297.04,37.74875 H 409.07736"
        id="path39"
        class="anno-rule"
        sodipodi:nodetypes="cc" />
@@ -59,8 +70,7 @@
        y="320.04739"
        id="text8"
        class="map-label"
-       font-size="8px"
-       text-align="center"><tspan
+       font-size="8px"><tspan
          sodipodi:role="line"
          id="tspan8"
          x="298.224"
@@ -77,23 +87,24 @@
        id="text1"
        class="map-label"
        font-size="8px"
-       text-align="center"><tspan
+       text-align="center"
+       style="-inkscape-font-specification:'Noto Sans';font-family:'Noto Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"><tspan
          sodipodi:role="line"
          id="tspan1"
          x="133.76001"
          y="235.47743">RESIDENCE HALL</tspan></text>
     <text
        xml:space="preserve"
-       x="140.233"
-       y="243.29253"
+       x="147.59502"
+       y="243.19621"
        id="text2"
        class="map-label-muted"
-       font-size="7px"
+       font-size="5px"
        text-align="center"><tspan
          sodipodi:role="line"
          id="tspan2"
-         x="140.233"
-         y="243.29253">(DORMITORIES)</tspan></text>
+         x="147.59502"
+         y="243.19621">(DORMITORIES)</tspan></text>
     <text
        xml:space="preserve"
        x="143.224"
@@ -288,88 +299,88 @@
          y="116.856">16</tspan></text>
     <text
        xml:space="preserve"
-       x="302.60266"
-       y="54.638447"
+       x="302.57068"
+       y="52.682713"
        id="text21"
        class="map-label"
        font-size="8px"
        text-align="center"><tspan
          sodipodi:role="line"
-         x="302.60266"
-         y="54.638447"
+         x="302.57068"
+         y="52.682713"
          id="tspan22">1. SCRYING</tspan><tspan
          sodipodi:role="line"
-         x="302.60266"
-         y="65.712898"
+         x="302.57068"
+         y="62.682709"
          id="tspan23">2. WANDS</tspan><tspan
          sodipodi:role="line"
-         x="302.60266"
-         y="76.787354"
+         x="302.57068"
+         y="72.682709"
          id="tspan24">3. EVOKING</tspan><tspan
          sodipodi:role="line"
-         x="302.60266"
-         y="87.861816"
+         x="302.57068"
+         y="82.682709"
          id="tspan25">4. CHANNELING</tspan><tspan
          sodipodi:role="line"
-         x="302.60266"
-         y="98.936272"
+         x="302.57068"
+         y="92.682709"
          id="tspan26">5. OFFENSIVE MAGIC</tspan><tspan
          sodipodi:role="line"
-         x="302.60266"
-         y="110.01073"
+         x="302.57068"
+         y="102.68271"
          id="tspan27">6. BINDING</tspan><tspan
          sodipodi:role="line"
-         x="302.60266"
-         y="121.08518"
+         x="302.57068"
+         y="112.68271"
          id="tspan28">7. MISCELLANEOUS MAGIC</tspan><tspan
          sodipodi:role="line"
-         x="302.60266"
-         y="132.15964"
+         x="302.57068"
+         y="122.68271"
          id="tspan29">8. RODS</tspan><tspan
          sodipodi:role="line"
-         x="302.60266"
-         y="143.23409"
+         x="302.57068"
+         y="132.68271"
          id="tspan30">9. SCROLLS</tspan><tspan
          sodipodi:role="line"
-         x="302.60266"
-         y="154.30855"
+         x="302.57068"
+         y="142.68271"
          id="tspan31">10. CONVOKING</tspan><tspan
          sodipodi:role="line"
-         x="302.60266"
-         y="165.383"
+         x="302.57068"
+         y="152.68271"
          id="tspan32">11. POINTS</tspan><tspan
          sodipodi:role="line"
-         x="302.60266"
-         y="176.45746"
+         x="302.57068"
+         y="162.68271"
          id="tspan33">12. ENCHANTING</tspan><tspan
          sodipodi:role="line"
-         x="302.60266"
-         y="187.53191"
+         x="302.57068"
+         y="172.68271"
          id="tspan34">13. SPECIAL MAGIC</tspan><tspan
          sodipodi:role="line"
-         x="302.60266"
-         y="198.60637"
+         x="302.57068"
+         y="182.68271"
          id="tspan35">14. STAVES</tspan><tspan
          sodipodi:role="line"
-         x="302.60266"
-         y="209.68082"
+         x="302.57068"
+         y="192.68271"
          id="tspan36">15. ANIMATING</tspan><tspan
          sodipodi:role="line"
-         x="302.60266"
-         y="220.75528"
+         x="302.57068"
+         y="202.68271"
          id="tspan37">16. DEFENSIVE MAGIC</tspan></text>
     <text
        xml:space="preserve"
-       x="326.642"
-       y="32.860001"
+       x="302.28265"
+       y="31.800003"
        id="text38"
        class="map-label"
        font-size="8px"
        text-align="center"><tspan
          sodipodi:role="line"
          id="tspan38"
-         x="326.642"
-         y="32.860001">CLASSROOMS</tspan></text>
+         x="302.28265"
+         y="31.800003">CLASSROOMS</tspan></text>
     <path
        d="m 110,397 14,11.44653 v 21.8032 l 18,10.30696 V 450"
        id="path1"
@@ -377,6 +388,37 @@
     <path
        d="m 359,341 v 20"
        id="path2"
+       class="exit" />
+    <text
+       xml:space="preserve"
+       x="243.79501"
+       y="489.08411"
+       id="text9"
+       class="map-label"
+       font-size="5px"><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         x="243.79501"
+         y="489.08411">TOWER OF ART</tspan></text>
+    <text
+       xml:space="preserve"
+       x="136.58749"
+       y="492.75412"
+       id="text22"
+       class="map-label"
+       font-size="5px"><tspan
+         sodipodi:role="line"
+         id="tspan21"
+         x="136.58749"
+         y="492.75412">GYM</tspan></text>
+    <path
+       d="m 580,579 h -5.47065 L 568,566.76883 V 561"
+       id="path22"
+       class="exit"
+       sodipodi:nodetypes="cccc" />
+    <path
+       d="m 544,557 h 20"
+       id="path23"
        class="exit" />
   </g>
   <g
@@ -735,6 +777,8 @@
 
 
 
+
+
     null
     <line
    id="edge-8e964c6f43ed57468f8931a00d86ce740e79ed31-a2d501594260631fac71ede7b500a37169b821fb"
@@ -750,6 +794,8 @@
    y1="327"
    x2="808"
    y2="299" />
+
+
 
 
 
@@ -799,6 +845,8 @@
 
 
 
+
+
     null
     <line
    id="edge-27485829265d1afe37436dbbb2344fed1a4122fd-dcc90894d30784efd40ec42fbced2fc987d86363"
@@ -814,6 +862,8 @@
    y1="393"
    x2="110"
    y2="393" />
+
+
 
 
 

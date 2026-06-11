@@ -46,4 +46,18 @@ describe('injectFontStyle', () => {
   it('includes map-label-accent in font fix selector', () => {
     expect(FONT_STYLE_BLOCK).toContain('.map-label-accent')
   })
+
+  it('includes bare text selector to cover unclassed SVG text elements', () => {
+    expect(FONT_STYLE_BLOCK).toContain('text,')
+  })
+
+  it('removes Inkscape re-encoded duplicate block (multi-line id, &quot; entities)', () => {
+    const inkscapeBlock = `<style\n     id="inkscape-font-fix">\n.map-label { font-family: &quot;Noto Sans&quot;, sans-serif; }\n</style>`
+    const svg = `<svg>\n  <defs id="defs8" />\n  <style id="inkscape-font-fix">\n.map-label { font-family: "Noto Sans"; }\n</style>\n  ${inkscapeBlock}\n</svg>`
+    const result = injectFontStyle(svg)
+    const count = (result.match(/inkscape-font-fix/g) || []).length
+    expect(count).toBe(1)
+    expect(result).not.toContain('&quot;')
+    expect(result).toContain(FONT_STYLE_BLOCK)
+  })
 })

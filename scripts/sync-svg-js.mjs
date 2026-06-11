@@ -4,7 +4,7 @@
 // Usage: node scripts/sync-svg-js.mjs
 
 export const FONT_STYLE_BLOCK = `<style id="inkscape-font-fix">
-.map-label, .map-label-muted, .map-label-accent,
+text, .map-label, .map-label-muted, .map-label-accent,
 .lib-table, .lib-gap-label, .lib-book-label,
 .lib-row-num, .lib-book-list {
   font-family: "Noto Sans", sans-serif;
@@ -12,13 +12,12 @@ export const FONT_STYLE_BLOCK = `<style id="inkscape-font-fix">
 </style>`
 
 export function injectFontStyle(svg) {
-  // Replace existing block if present
-  if (svg.includes('<style id="inkscape-font-fix">')) {
-    return svg.replace(/<style id="inkscape-font-fix">[\s\S]*?<\/style>/, FONT_STYLE_BLOCK)
-  }
-  // Inject as sibling after self-closing <defs ... />
-  // [^>]* matches across newlines (Inkscape writes defs as a two-line self-closing tag)
-  return svg.replace(/(<defs[^>]*\/>)/, `$1\n  ${FONT_STYLE_BLOCK}`)
+  // Strip ALL existing inkscape-font-fix blocks including their leading whitespace.
+  // Handles our single-line <style id="inkscape-font-fix"> and Inkscape's multi-line
+  // re-encoding (<style\n   id="inkscape-font-fix">, with &quot; entities in content).
+  const stripped = svg.replace(/\n[ \t]*<style\s+id="inkscape-font-fix">[\s\S]*?<\/style>/g, '')
+  // (Re-)inject after self-closing <defs ... />; no-op if no <defs> present
+  return stripped.replace(/(<defs[^>]*\/>)/, `$1\n  ${FONT_STYLE_BLOCK}`)
 }
 
 import { promises as fs } from 'node:fs'
