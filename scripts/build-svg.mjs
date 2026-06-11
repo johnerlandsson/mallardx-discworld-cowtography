@@ -13,6 +13,7 @@ const REPO_ROOT  = path.resolve(__dirname, '..')
 const DEFAULT_DB    = path.join(REPO_ROOT, 'claude_resources', 'quow_cowbar', 'maps', '_quowmap_database.db')
 const OUT_DIR       = path.join(REPO_ROOT, 'ui', 'maps')
 const LIB_CONFIG    = path.join(REPO_ROOT, 'ui', 'data', 'uu_library.json')
+const TYPES_CONFIG  = path.join(REPO_ROOT, 'ui', 'data', 'room-types.json')
 
 // ─── DB queries ──────────────────────────────────────────────────────────────
 
@@ -203,11 +204,11 @@ export function exitElement(fromId, toId, rooms, isVertical = false) {
 
 // ─── Map SVG builders ────────────────────────────────────────────────────────
 
-export function buildNewSvg(mapMeta, rooms, exits, mapId = '', stairRooms = new Map()) {
+export function buildNewSvg(mapMeta, rooms, exits, mapId = '', stairRooms = new Map(), shopTypes = new Map()) {
   const isIndoor = !mapMeta.topLevel
 
   const exitLines  = exits.map(e => '    ' + exitElement(e.from, e.to, rooms, e.isVertical)).filter(Boolean).join('\n')
-  const roomShapes = rooms.map(r => '    ' + roomElement(r.id, r.x, r.y, r.short, isIndoor, stairRooms.get(r.id) ?? null)).join('\n')
+  const roomShapes = rooms.map(r => '    ' + roomElement(r.id, r.x, r.y, r.short, isIndoor, stairRooms.get(r.id) ?? null, shopTypes.get(r.id) ?? null)).join('\n')
 
   return `<svg xmlns="http://www.w3.org/2000/svg"
      viewBox="0 0 ${mapMeta.maxX} ${mapMeta.maxY}"
@@ -231,10 +232,10 @@ ${roomShapes}
 </svg>`
 }
 
-export function updateExistingSvg(existingSvg, mapMeta, rooms, exits, stairRooms = new Map()) {
+export function updateExistingSvg(existingSvg, mapMeta, rooms, exits, stairRooms = new Map(), shopTypes = new Map()) {
   const isIndoor   = !mapMeta.topLevel
   const exitLines  = exits.map(e => '    ' + exitElement(e.from, e.to, rooms, e.isVertical)).filter(Boolean).join('\n')
-  const roomShapes = rooms.map(r => '    ' + roomElement(r.id, r.x, r.y, r.short, isIndoor, stairRooms.get(r.id) ?? null)).join('\n')
+  const roomShapes = rooms.map(r => '    ' + roomElement(r.id, r.x, r.y, r.short, isIndoor, stairRooms.get(r.id) ?? null, shopTypes.get(r.id) ?? null)).join('\n')
 
   let svg = existingSvg.replace(
     /(<g id="layer-exits">)([\s\S]*?)(<\/g>)/,
@@ -516,6 +517,10 @@ async function buildOneSvg(db, mapId, mapMeta) {
   const exitRows   = queryExits(db, mapId)
   const stairRooms = queryStairRooms(db, mapId)
 
+  let typesOverrides = {}
+  try { typesOverrides = JSON.parse(await fs.readFile(TYPES_CONFIG, 'utf8')) } catch {}
+  const shopTypes = queryShopTypes(db, mapId, typesOverrides)
+
   let svg
   try {
     const existing = await fs.readFile(outPath, 'utf8')
@@ -526,10 +531,10 @@ async function buildOneSvg(db, mapId, mapMeta) {
     if (added > 0 || removed > 0) {
       console.log(`[build-svg] map ${mapId}: +${added} rooms, -${removed} removed — update labels manually`)
     }
-    svg = updateExistingSvg(existing, mapMeta, roomRows, exitRows, stairRooms)
+    svg = updateExistingSvg(existing, mapMeta, roomRows, exitRows, stairRooms, shopTypes)
   } catch (e) {
     if (e.code !== 'ENOENT') throw e
-    svg = buildNewSvg(mapMeta, roomRows, exitRows, mapId, stairRooms)
+    svg = buildNewSvg(mapMeta, roomRows, exitRows, mapId, stairRooms, shopTypes)
   }
 
   await fs.writeFile(outPath, svg, 'utf8')

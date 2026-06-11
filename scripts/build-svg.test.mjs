@@ -327,6 +327,21 @@ describe('buildNewSvg', () => {
     expect(svg).toContain('id="layer-labels"')
     expect(svg).not.toContain('<text')
   })
+
+  it('applies room type class and letter when shopTypes provided', () => {
+    const shopTypes = new Map([['r1', 'weapon']])
+    const svg = buildNewSvg(mapMeta, rooms, exits, 7, new Map(), shopTypes)
+    expect(svg).toContain('class="room outdoor room-weapon"')
+    expect(svg).toContain('<text class="room-type-label"')
+    expect(svg).toContain('>W<')
+  })
+
+  it('plain room unchanged when not in shopTypes', () => {
+    const shopTypes = new Map([['r1', 'weapon']])
+    const svg = buildNewSvg(mapMeta, rooms, exits, 7, new Map(), shopTypes)
+    // r2 is plain — verify its element has no type suffix
+    expect(svg).toContain('id="room-r2" class="room outdoor"')
+  })
 })
 
 describe('updateExistingSvg', () => {
@@ -381,6 +396,13 @@ describe('updateExistingSvg', () => {
       '<g id="layer-room-labels"><text class="room-type-label" x="10" y="20">X</text></g>'
     )
     expect(updateExistingSvg(svg, mapMeta, origRooms, origExits)).toContain('>X<')
+  })
+
+  it('applies room type class and letter when shopTypes provided', () => {
+    const shopTypes = new Map([['r1', 'food']])
+    const updated = updateExistingSvg(makeSvg(), mapMeta, origRooms, origExits, new Map(), shopTypes)
+    expect(updated).toContain('room-food')
+    expect(updated).toContain('>F<')
   })
 })
 
