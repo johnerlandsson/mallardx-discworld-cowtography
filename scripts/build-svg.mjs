@@ -86,6 +86,10 @@ export function queryShopTypes(db, mapId, overrides = {}) {
     result.set(roomId, classifyShopItems(items))
   }
   for (const [roomId, type] of Object.entries(overrides)) {
+    if (!TYPE_LETTERS[type]) {
+      console.warn(`[build-svg] room-types.json: unknown type "${type}" for room ${roomId}, skipping`)
+      continue
+    }
     result.set(roomId, type)
   }
   return result
@@ -246,10 +250,12 @@ export function updateExistingSvg(existingSvg, mapMeta, rooms, exits, stairRooms
     `$1\n${roomShapes}\n  $3`
   )
   if (!svg.includes('id="layer-room-labels"')) {
-    svg = svg.replace(
-      /(\n  <g id="layer-labels">)/,
-      `\n\n  <g id="layer-room-labels"></g>$1`
-    )
+    const re = /(\n[ \t]*<g[^>]*\bid="layer-labels"[^>]*>)/
+    if (re.test(svg)) {
+      svg = svg.replace(re, `\n\n  <g id="layer-room-labels"></g>$1`)
+    } else {
+      console.warn('[build-svg] Warning: could not insert layer-room-labels — layer-labels <g> not found')
+    }
   }
   return svg
 }
@@ -479,10 +485,12 @@ function updateLibrarySvg(existingSvg, missingSet, tablesArray = [], gapsArray =
     `$1\n${allLabels}  $3`
   )
   if (!svg.includes('id="layer-room-labels"')) {
-    svg = svg.replace(
-      /(\n  <g id="layer-labels">)/,
-      `\n\n  <g id="layer-room-labels"></g>$1`
-    )
+    const re = /(\n[ \t]*<g[^>]*\bid="layer-labels"[^>]*>)/
+    if (re.test(svg)) {
+      svg = svg.replace(re, `\n\n  <g id="layer-room-labels"></g>$1`)
+    } else {
+      console.warn('[build-svg] Warning: could not insert layer-room-labels — layer-labels <g> not found')
+    }
   }
   return svg
 }

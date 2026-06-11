@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest'
+import { describe, it, expect, vi } from 'vitest'
 import Database from 'better-sqlite3'
 import { queryRooms, queryExits, queryStairRooms, edgeId, roomElement, stairSymbol, exitElement, buildNewSvg, updateExistingSvg, buildLibrarySvg, buildLibraryLabelsContent, buildLibraryRowNumbers, buildLibraryBookList, buildLibraryExitsContent, queryShopTypes, TYPE_LETTERS } from './build-svg.mjs'
 
@@ -390,6 +390,17 @@ describe('updateExistingSvg', () => {
     expect(pos('layer-room-labels')).toBeLessThan(pos('layer-labels'))
   })
 
+  it('inserts layer-room-labels when layer-labels is Inkscape-reformatted across multiple lines', () => {
+    // Inkscape reformats <g id="layer-labels"> onto multiple lines with extra attributes
+    const oldSvg = makeSvg()
+      .replace('\n\n  <g id="layer-room-labels"></g>', '')
+      .replace('\n  <g id="layer-labels">', '\n  <g\n     inkscape:label="labels"\n     id="layer-labels">')
+    const updated = updateExistingSvg(oldSvg, mapMeta, origRooms, origExits)
+    const pos = id => updated.indexOf(`id="${id}"`)
+    expect(pos('layer-room-labels')).toBeGreaterThan(pos('layer-rooms'))
+    expect(pos('layer-room-labels')).toBeLessThan(pos('layer-labels'))
+  })
+
   it('preserves existing layer-room-labels content on update', () => {
     const svg = makeSvg().replace(
       '<g id="layer-room-labels"></g>',
@@ -724,5 +735,15 @@ describe('queryShopTypes', () => {
     db.prepare("INSERT INTO rooms VALUES ('r2', 2, 0, 0, 'Map2 Shop')").run()
     db.prepare("INSERT INTO shop_items VALUES ('r2', 'long sword', '')").run()
     expect(queryShopTypes(db, 1).has('r2')).toBe(false)
+  })
+
+  it('skips and warns for unknown override type', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'Room')").run()
+    const warnSpy = vi.spyOn(console, 'warn').mockImplementation(() => {})
+    const result = queryShopTypes(db, 1, { 'r1': 'bank s' })
+    expect(result.has('r1')).toBe(false)
+    expect(warnSpy).toHaveBeenCalledWith(expect.stringContaining('unknown type "bank s"'))
+    warnSpy.mockRestore()
   })
 })

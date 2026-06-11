@@ -3749,6 +3749,8 @@ text, .map-label, .map-label-muted, .map-label-accent,
        height="8"
        rx="2" />
   </g>
+
+  <g id="layer-room-labels"></g>
   <g
      id="layer-labels">
     <!-- labels -->
