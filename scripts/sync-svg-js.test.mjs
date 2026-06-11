@@ -51,6 +51,10 @@ describe('injectFontStyle', () => {
     expect(FONT_STYLE_BLOCK).toContain('text,')
   })
 
+  it('includes room-type-label in font fix selector', () => {
+    expect(FONT_STYLE_BLOCK).toContain('.room-type-label')
+  })
+
   it('removes Inkscape re-encoded duplicate block (multi-line id, &quot; entities)', () => {
     const inkscapeBlock = `<style\n     id="inkscape-font-fix">\n.map-label { font-family: &quot;Noto Sans&quot;, sans-serif; }\n</style>`
     const svg = `<svg>\n  <defs id="defs8" />\n  <style id="inkscape-font-fix">\n.map-label { font-family: "Noto Sans"; }\n</style>\n  ${inkscapeBlock}\n</svg>`

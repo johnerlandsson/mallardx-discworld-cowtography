@@ -6,7 +6,7 @@
 export const FONT_STYLE_BLOCK = `<style id="inkscape-font-fix">
 text, .map-label, .map-label-muted, .map-label-accent,
 .lib-table, .lib-gap-label, .lib-book-label,
-.lib-row-num, .lib-book-list {
+.lib-row-num, .lib-book-list, .room-type-label {
   font-family: "Noto Sans", sans-serif;
 }
 </style>`
