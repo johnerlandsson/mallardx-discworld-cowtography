@@ -34,13 +34,25 @@ dbsearch room drum
 dbsearch npcitem dagger
 ```
 
+### `<number>`
+
+After a `dbsearch`, type a bare number to route to that result and start walking immediately.
+
+```
+dbsearch room drum
+3
+  Walking to "The Drum" — 12 moves.
+```
+
 ### `dbroute <number>`
 
-Set a route to a result from the last `dbsearch`.
+Route to a result from the last `dbsearch` and display it on the map, without walking yet. Useful when you want to preview the route first.
 
 ```
 dbroute 3
 ```
+
+Then use `dbwalk` to start walking.
 
 ### `dbwalk`
 
@@ -48,11 +60,11 @@ Walk to the routed destination. Each room arrival sends the next move automatica
 
 ```
 dbwalk
-  Walking to "Palace grounds" — 22 moves.
-  20 moves remaining.
-  19 moves remaining.
+  Walking to "The Drum" — 12 moves.
+  10 moves remaining.
+  9 moves remaining.
   ...
-  Arrived at "Palace grounds".
+  Arrived at "The Drum".
 ```
 
 > You must be in a room tracked by the map data for routing and distance sorting to work.
