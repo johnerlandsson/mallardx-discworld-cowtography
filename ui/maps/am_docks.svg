@@ -813,7 +813,7 @@
     <rect id="room-2c7bc483fff279a1ad04dca7922bea9fd917fc3f" class="room indoor" data-label="surface of the river Ankh" x="1346" y="240" width="8" height="8" rx="2"/>
     <rect id="room-b5a7f484804123dc9941301f46b09389b7fb47cb" class="room indoor" data-label="surface of the river Ankh" x="1360" y="240" width="8" height="8" rx="2"/>
     <rect id="room-2889d178d51f51ca9bde8acc8d45de89acc4b8f4" class="room indoor" data-label="hidden corner of the underdocks" x="352" y="195" width="8" height="8" rx="2"/>
-    <rect id="room-00c9e154c292f4fff9b6ccf5c23f12d43ef58bcf" class="room indoor" data-label="[player house]" x="72" y="237" width="8" height="8" rx="2"/>
+    <rect id="room-00c9e154c292f4fff9b6ccf5c23f12d43ef58bcf" class="room indoor room-house" data-label="[player house]" x="72" y="237" width="8" height="8" rx="2"/><text class="room-type-label" x="76" y="241" text-anchor="middle" dominant-baseline="central">H</text>
   </g>
 
 

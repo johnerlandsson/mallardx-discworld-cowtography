@@ -37,33 +37,35 @@ text, .map-label, .map-label-muted, .map-label-accent,
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="3.783849"
-     inkscape:cx="198.60729"
-     inkscape:cy="94.084093"
+     inkscape:zoom="1.3377926"
+     inkscape:cx="592.39375"
+     inkscape:cy="88.9525"
      inkscape:window-width="1968"
      inkscape:window-height="1011"
      inkscape:window-x="26"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer-room-labels"
+     inkscape:current-layer="layer-artwork"
      showgrid="false" />
   <g
      id="layer-artwork">
     <!-- artwork -->
     <rect
+       id="rect84"
+       width="282.18124"
+       height="142.0657"
+       x="512.78503"
+       y="22.469296"
+       ry="1.3970863"
+       class="anno-box" />
+    <rect
        id="rect9"
        width="112.03735"
        height="186.21382"
-       x="297.04001"
+       x="257.42252"
        y="22.469296"
        ry="1.5"
-       class="anno-box"
-       style="stroke-width:0.961071" />
-    <path
-       d="M 297.04,37.74875 H 409.07736"
-       id="path39"
-       class="anno-rule"
-       sodipodi:nodetypes="cc" />
+       class="anno-box" />
     <text
        xml:space="preserve"
        x="298.224"
@@ -105,81 +107,86 @@ text, .map-label, .map-label-muted, .map-label-accent,
          id="tspan2"
          x="147.59502"
          y="243.19621">(DORMITORIES)</tspan></text>
+    <path
+       d="M 257.4225,37.74875 H 369.45986"
+       id="path39"
+       class="anno-rule"
+       sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
-       x="302.57068"
+       x="262.95319"
        y="52.682713"
        id="text21"
        class="map-label"
        font-size="8px"
        text-align="center"><tspan
          sodipodi:role="line"
-         x="302.57068"
+         x="262.95319"
          y="52.682713"
          id="tspan22">1. SCRYING</tspan><tspan
          sodipodi:role="line"
-         x="302.57068"
-         y="62.682709"
+         x="262.95319"
+         y="62.682713"
          id="tspan23">2. WANDS</tspan><tspan
          sodipodi:role="line"
-         x="302.57068"
+         x="262.95319"
          y="72.682709"
          id="tspan24">3. EVOKING</tspan><tspan
          sodipodi:role="line"
-         x="302.57068"
+         x="262.95319"
          y="82.682709"
          id="tspan25">4. CHANNELING</tspan><tspan
          sodipodi:role="line"
-         x="302.57068"
+         x="262.95319"
          y="92.682709"
          id="tspan26">5. OFFENSIVE MAGIC</tspan><tspan
          sodipodi:role="line"
-         x="302.57068"
+         x="262.95319"
          y="102.68271"
          id="tspan27">6. BINDING</tspan><tspan
          sodipodi:role="line"
-         x="302.57068"
+         x="262.95319"
          y="112.68271"
          id="tspan28">7. MISCELLANEOUS MAGIC</tspan><tspan
          sodipodi:role="line"
-         x="302.57068"
+         x="262.95319"
          y="122.68271"
          id="tspan29">8. RODS</tspan><tspan
          sodipodi:role="line"
-         x="302.57068"
+         x="262.95319"
          y="132.68271"
          id="tspan30">9. SCROLLS</tspan><tspan
          sodipodi:role="line"
-         x="302.57068"
+         x="262.95319"
          y="142.68271"
          id="tspan31">10. CONVOKING</tspan><tspan
          sodipodi:role="line"
-         x="302.57068"
+         x="262.95319"
          y="152.68271"
          id="tspan32">11. POINTS</tspan><tspan
          sodipodi:role="line"
-         x="302.57068"
+         x="262.95319"
          y="162.68271"
          id="tspan33">12. ENCHANTING</tspan><tspan
          sodipodi:role="line"
-         x="302.57068"
+         x="262.95319"
          y="172.68271"
          id="tspan34">13. SPECIAL MAGIC</tspan><tspan
          sodipodi:role="line"
-         x="302.57068"
+         x="262.95319"
          y="182.68271"
          id="tspan35">14. STAVES</tspan><tspan
          sodipodi:role="line"
-         x="302.57068"
+         x="262.95319"
          y="192.68271"
          id="tspan36">15. ANIMATING</tspan><tspan
          sodipodi:role="line"
-         x="302.57068"
+         x="262.95319"
          y="202.68271"
          id="tspan37">16. DEFENSIVE MAGIC</tspan></text>
     <text
        xml:space="preserve"
-       x="302.28265"
+       x="262.66516"
        y="31.800003"
        id="text38"
        class="map-label"
@@ -187,7 +194,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        text-align="center"><tspan
          sodipodi:role="line"
          id="tspan38"
-         x="302.28265"
+         x="262.66516"
          y="31.800003">CLASSROOMS</tspan></text>
     <path
        d="m 110,397 14,11.44653 v 21.8032 l 18,10.30696 V 450"
@@ -230,18 +237,19 @@ text, .map-label, .map-label-muted, .map-label-accent,
        class="exit" />
     <text
        xml:space="preserve"
-       x="1024.512"
-       y="84.860001"
+       x="1047.652"
+       y="80.860001"
        id="text39"
        class="map-label"
-       font-size="8px"><tspan
+       font-size="8px"
+       text-anchor="middle"><tspan
          sodipodi:role="line"
          id="tspan39"
-         x="1024.512"
-         y="84.860001">LOUNGE HOUSE </tspan><tspan
+         x="1047.652"
+         y="80.860001">LOUNGE HOUSE </tspan><tspan
          sodipodi:role="line"
-         x="1024.512"
-         y="94.860001"
+         x="1047.652"
+         y="90.860001"
          id="tspan40">CAFE</tspan></text>
     <path
        d="m 363,393 h 30.9325"
@@ -262,6 +270,140 @@ text, .map-label, .map-label-muted, .map-label-accent,
          x="397.85251"
          y="400.22"
          id="tspan42">SQUARE</tspan></text>
+    <text
+       xml:space="preserve"
+       x="482.42245"
+       y="554.85999"
+       id="text20"
+       class="map-label"
+       font-size="8px"><tspan
+         sodipodi:role="line"
+         x="482.42245"
+         y="554.85999"
+         id="tspan20">TO PEACH</tspan><tspan
+         sodipodi:role="line"
+         x="482.42245"
+         y="564.85999"
+         id="tspan45">PIE STREET</tspan></text>
+    <path
+       d="M 536,557 H 521.95529"
+       id="path45"
+       class="exit-offmap" />
+    <text
+       xml:space="preserve"
+       x="844.25391"
+       y="170.196"
+       id="text55"
+       class="map-label-muted"
+       font-size="3px"
+       text-anchor="middle"><tspan
+         sodipodi:role="line"
+         x="844.25391"
+         y="170.196"
+         id="tspan55">STUDENT</tspan><tspan
+         sodipodi:role="line"
+         x="844.25391"
+         y="173.946"
+         id="tspan56">LOUNGE</tspan></text>
+    <text
+       xml:space="preserve"
+       x="846.06146"
+       y="142.19749"
+       id="text58"
+       class="map-label-muted"
+       font-size="3px"
+       text-anchor="middle"><tspan
+         sodipodi:role="line"
+         x="846.06146"
+         y="142.19749"
+         id="tspan58">JOIN</tspan><tspan
+         sodipodi:role="line"
+         x="846.06146"
+         y="145.94749"
+         id="tspan59">GUILD</tspan></text>
+    <text
+       xml:space="preserve"
+       x="522.46924"
+       y="88.686707"
+       id="text21-7"
+       class="map-label"
+       font-size="8px"
+       text-align="center"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="522.46924"
+         y="88.686707"
+         id="tspan37-2">C1. ORDER OF MIDNIGHT</tspan><tspan
+         sodipodi:role="line"
+         x="522.46924"
+         y="98.686707"
+         id="tspan74">C2. LAST ORDER</tspan><tspan
+         sodipodi:role="line"
+         x="522.46924"
+         y="108.68671"
+         id="tspan75">C3. ANCIENT AND TRULY ORIGINAL SAGES OF THE UNBROKEN CIRCLE</tspan><tspan
+         sodipodi:role="line"
+         x="522.46924"
+         y="118.68671"
+         id="tspan76">C4. HOODWINKERS</tspan><tspan
+         sodipodi:role="line"
+         x="522.46924"
+         y="128.68671"
+         id="tspan77">C5. MRS. WIDGERY'S LODGERS</tspan><tspan
+         sodipodi:role="line"
+         x="522.46924"
+         y="138.68671"
+         id="tspan78">C6. ANCIENT AND TRULY ORIGINAL BROTHERS OF THE SILVER STAR</tspan><tspan
+         sodipodi:role="line"
+         x="522.46924"
+         y="148.68671"
+         id="tspan79">C7. VENERABLE COUNCIL OF SEERS</tspan><tspan
+         sodipodi:role="line"
+         x="522.46924"
+         y="158.68671"
+         id="tspan80">C8. SAGES OF THE UNKNOWN SHADOW</tspan></text>
+    <text
+       xml:space="preserve"
+       x="522.46924"
+       y="33.680008"
+       id="text81"
+       class="map-label"
+       font-size="8px"
+       text-align="center"><tspan
+         sodipodi:role="line"
+         id="tspan81"
+         x="522.46924"
+         y="33.680008">COMMON ROOMS (C1-C8)</tspan></text>
+    <text
+       xml:space="preserve"
+       x="522.95728"
+       y="50.715504"
+       id="text82"
+       class="map-label"
+       font-size="8px"
+       text-align="center"><tspan
+         sodipodi:role="line"
+         id="tspan82"
+         x="522.95728"
+         y="50.715504">COMMON ROOM ACCES IS RESTRICTED TO ORDER MEMBERS,</tspan><tspan
+         sodipodi:role="line"
+         x="522.95728"
+         y="60.715504"
+         id="tspan83">EACH COMMON ROOM CONTAINS ADVANCMENT FACILITIES,</tspan><tspan
+         sodipodi:role="line"
+         x="522.95728"
+         y="70.7155"
+         id="tspan84">A VOTING ROOM, AND A SENIOR WIZARD ROOM.</tspan></text>
+    <path
+       d="M 512.785,39.1125 H 794.96625"
+       id="path84"
+       class="anno-rule"
+       sodipodi:nodetypes="cc" />
+    <path
+       d="M 512.785,75 H 794.96625"
+       id="path85"
+       class="anno-rule"
+       sodipodi:nodetypes="cc" />
   </g>
   <g
      id="layer-exits">
@@ -622,6 +764,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
 
 
 
+
     null
     <line
    id="edge-8e964c6f43ed57468f8931a00d86ce740e79ed31-a2d501594260631fac71ede7b500a37169b821fb"
@@ -637,6 +780,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
    y1="327"
    x2="808"
    y2="299" />
+
 
 
 
@@ -692,6 +836,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
 
 
 
+
     null
     <line
    id="edge-27485829265d1afe37436dbbb2344fed1a4122fd-dcc90894d30784efd40ec42fbced2fc987d86363"
@@ -707,6 +852,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
    y1="393"
    x2="110"
    y2="393" />
+
 
 
 
@@ -3633,6 +3779,258 @@ text, .map-label, .map-label-muted, .map-label-accent,
          id="tspan44"
          x="199.88"
          y="31.428001">3</tspan></text>
+    <text
+       xml:space="preserve"
+       x="227.854"
+       y="59.436001"
+       id="text4"
+       class="map-label"
+       font-size="4px"
+       text-align="center"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         x="227.854"
+         y="59.436001">4</tspan></text>
+    <text
+       xml:space="preserve"
+       x="227.84399"
+       y="87.408005"
+       id="text5"
+       class="map-label"
+       font-size="4px"
+       text-align="center"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         x="227.84399"
+         y="87.408005">5</tspan></text>
+    <text
+       xml:space="preserve"
+       x="227.84"
+       y="115.428"
+       id="text6"
+       class="map-label"
+       font-size="4px"
+       text-align="center"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         x="227.84"
+         y="115.428">6</tspan></text>
+    <text
+       xml:space="preserve"
+       x="227.866"
+       y="143.42801"
+       id="text7"
+       class="map-label"
+       font-size="4px"
+       text-align="center"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         x="227.866"
+         y="143.42801">7</tspan></text>
+    <text
+       xml:space="preserve"
+       x="227.858"
+       y="171.42801"
+       id="text10"
+       class="map-label"
+       font-size="4px"
+       text-align="center"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         x="227.858"
+         y="171.42801">8</tspan></text>
+    <text
+       xml:space="preserve"
+       x="199.86"
+       y="199.42801"
+       id="text11"
+       class="map-label"
+       font-size="4px"
+       text-align="center"><tspan
+         sodipodi:role="line"
+         id="tspan11"
+         x="199.86"
+         y="199.42801">9</tspan></text>
+    <text
+       xml:space="preserve"
+       x="170.63199"
+       y="199.42999"
+       id="text12"
+       class="map-label"
+       font-size="4px"
+       text-align="center"><tspan
+         sodipodi:role="line"
+         id="tspan12"
+         x="170.63199"
+         y="199.42999">10</tspan></text>
+    <text
+       xml:space="preserve"
+       x="142.968"
+       y="199.42801"
+       id="text13"
+       class="map-label"
+       font-size="4px"
+       text-align="center"><tspan
+         sodipodi:role="line"
+         id="tspan13"
+         x="142.968"
+         y="199.42801">11</tspan></text>
+    <text
+       xml:space="preserve"
+       x="114.644"
+       y="199.448"
+       id="text14"
+       class="map-label"
+       font-size="4px"
+       text-align="center"><tspan
+         sodipodi:role="line"
+         id="tspan14"
+         x="114.644"
+         y="199.448">12</tspan></text>
+    <text
+       xml:space="preserve"
+       x="86.647995"
+       y="199.42801"
+       id="text15"
+       class="map-label"
+       font-size="4px"
+       text-align="center"><tspan
+         sodipodi:role="line"
+         id="tspan15"
+         x="86.647995"
+         y="199.42801">13</tspan></text>
+    <text
+       xml:space="preserve"
+       x="58.573997"
+       y="171.436"
+       id="text16"
+       class="map-label"
+       font-size="4px"
+       text-align="center"><tspan
+         sodipodi:role="line"
+         id="tspan16"
+         x="58.573997"
+         y="171.436">14</tspan></text>
+    <text
+       xml:space="preserve"
+       x="58.647999"
+       y="143.408"
+       id="text17"
+       class="map-label"
+       font-size="4px"
+       text-align="center"><tspan
+         sodipodi:role="line"
+         id="tspan17"
+         x="58.647999"
+         y="143.408">15</tspan></text>
+    <text
+       xml:space="preserve"
+       x="58.627998"
+       y="115.428"
+       id="text18"
+       class="map-label"
+       font-size="4px"
+       text-align="center"><tspan
+         sodipodi:role="line"
+         id="tspan18"
+         x="58.627998"
+         y="115.428">16</tspan></text>
+    <text
+       xml:space="preserve"
+       x="826.90399"
+       y="116.428"
+       id="text46"
+       class="map-label"
+       font-size="4px"
+       text-align="center"><tspan
+         sodipodi:role="line"
+         id="tspan46"
+         x="826.90399"
+         y="116.428">C1</tspan></text>
+    <text
+       xml:space="preserve"
+       x="854.57397"
+       y="60.428001"
+       id="text47"
+       class="map-label"
+       font-size="4px"
+       text-align="center"><tspan
+         sodipodi:role="line"
+         id="tspan47"
+         x="854.57397"
+         y="60.428001">C2</tspan></text>
+    <text
+       xml:space="preserve"
+       x="882.58398"
+       y="32.428001"
+       id="text48"
+       class="map-label"
+       font-size="4px"
+       text-align="center"><tspan
+         sodipodi:role="line"
+         id="tspan48"
+         x="882.58398"
+         y="32.428001">C3</tspan></text>
+    <text
+       xml:space="preserve"
+       x="910.51001"
+       y="32.428001"
+       id="text49"
+       class="map-label"
+       font-size="4px"
+       text-align="center"><tspan
+         sodipodi:role="line"
+         id="tspan49"
+         x="910.51001"
+         y="32.428001">C4</tspan></text>
+    <text
+       xml:space="preserve"
+       x="966.51001"
+       y="88.428001"
+       id="text50"
+       class="map-label"
+       font-size="4px"
+       text-align="center"><tspan
+         sodipodi:role="line"
+         id="tspan50"
+         x="966.51001"
+         y="88.428001">C5</tspan></text>
+    <text
+       xml:space="preserve"
+       x="966.56403"
+       y="116.428"
+       id="text51"
+       class="map-label"
+       font-size="4px"
+       text-align="center"><tspan
+         sodipodi:role="line"
+         id="tspan51"
+         x="966.56403"
+         y="116.428">C6</tspan></text>
+    <text
+       xml:space="preserve"
+       x="910.56799"
+       y="172.42801"
+       id="text52"
+       class="map-label"
+       font-size="4px"
+       text-align="center"><tspan
+         sodipodi:role="line"
+         id="tspan52"
+         x="910.56799"
+         y="172.42801">C7</tspan></text>
+    <text
+       xml:space="preserve"
+       x="882.57001"
+       y="172.42801"
+       id="text53"
+       class="map-label"
+       font-size="4px"
+       text-align="center"><tspan
+         sodipodi:role="line"
+         id="tspan53"
+         x="882.57001"
+         y="172.42801">C8</tspan></text>
   </g>
   <g
      id="layer-labels">

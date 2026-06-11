@@ -85,8 +85,8 @@
     <circle id="room-bedb0e8c1dbf3964b432d856edd5efffcf2bd761" class="room outdoor" data-label="entrance to Mineshaft Two" cx="164" cy="116" r="4"/>
     <circle id="room-78ab12b18ef21b8b875c848aa1c31a48fe10f546" class="room outdoor" data-label="[player shop]" cx="55" cy="47" r="4"/>
     <circle id="room-226b431202e3a3ea0a4c300b289f15919bd77e95" class="room outdoor" data-label="holy corridor" cx="80" cy="57" r="4"/>
-    <circle id="room-6a1f57c4aa89cd8ef1f3957ffd0b632186cfe387" class="room outdoor" data-label="[player house]" cx="66" cy="89" r="4"/>
-    <circle id="room-324b719668052bcfda759a1e8d6eebbb2e26bf65" class="room outdoor" data-label="[player house]" cx="66" cy="89" r="4"/><polygon class="stair-symbol" points="66,92 63.5,87 68.5,87"/>
+    <circle id="room-6a1f57c4aa89cd8ef1f3957ffd0b632186cfe387" class="room outdoor room-house" data-label="[player house]" cx="66" cy="89" r="4"/><text class="room-type-label" x="66" y="89" text-anchor="middle" dominant-baseline="central">H</text>
+    <circle id="room-324b719668052bcfda759a1e8d6eebbb2e26bf65" class="room outdoor room-house" data-label="[player house]" cx="66" cy="89" r="4"/><polygon class="stair-symbol" points="66,92 63.5,87 68.5,87"/><text class="room-type-label" x="66" y="89" text-anchor="middle" dominant-baseline="central">H</text>
   </g>
 
 

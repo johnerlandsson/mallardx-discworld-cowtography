@@ -784,6 +784,25 @@ describe('queryShopTypes', () => {
     expect(queryShopTypes(db, 1).has('r2')).toBe(false)
   })
 
+  it('auto-detects player houses from room_short', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, '[player house]')").run()
+    expect(queryShopTypes(db, 1).get('r1')).toBe('house')
+  })
+
+  it('player house detection does not overwrite a shop on the same room', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, '[player house]')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'long sword', '')").run()
+    expect(queryShopTypes(db, 1).get('r1')).toBe('weapon')
+  })
+
+  it('manual override beats player house auto-detection', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, '[player house]')").run()
+    expect(queryShopTypes(db, 1, { 'r1': 'pshop' }).get('r1')).toBe('pshop')
+  })
+
   it('skips and warns for unknown override type', () => {
     const db = makeDb()
     db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'Room')").run()

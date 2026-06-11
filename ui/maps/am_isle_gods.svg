@@ -154,8 +154,8 @@
     <rect id="room-72a1d5652644c2b15e9a1ebc032a7fd62089f616" class="room indoor" data-label="court of the Dysk" x="624" y="31" width="8" height="8" rx="2"/>
     <rect id="room-f0ae243a689b6cf5ec4831f882c8ef52719a6196" class="room indoor" data-label="stage of Lord Wynkin&#x27;s Men" x="519" y="204" width="8" height="8" rx="2"/>
     <rect id="room-57b280f13b7ac575a7652344ac90ab757944df4d" class="room indoor" data-label="audience area of Lord Wynkin&#x27;s Men" x="543" y="205" width="8" height="8" rx="2"/>
-    <rect id="room-d62aef749995d7ef9a271e5d91157d233dd5ace2" class="room indoor" data-label="[player house]" x="385" y="391" width="8" height="8" rx="2"/>
-    <rect id="room-e7d545ee61005c2ce8d9f6caee3719270b72b15b" class="room indoor" data-label="[player house]" x="361" y="343" width="8" height="8" rx="2"/>
+    <rect id="room-d62aef749995d7ef9a271e5d91157d233dd5ace2" class="room indoor room-house" data-label="[player house]" x="385" y="391" width="8" height="8" rx="2"/><text class="room-type-label" x="389" y="395" text-anchor="middle" dominant-baseline="central">H</text>
+    <rect id="room-e7d545ee61005c2ce8d9f6caee3719270b72b15b" class="room indoor room-house" data-label="[player house]" x="361" y="343" width="8" height="8" rx="2"/><text class="room-type-label" x="365" y="347" text-anchor="middle" dominant-baseline="central">H</text>
   </g>
 
 

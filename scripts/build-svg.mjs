@@ -86,6 +86,14 @@ export function queryShopTypes(db, mapId, overrides = {}) {
   for (const [roomId, items] of roomItems) {
     result.set(roomId, classifyShopItems(items))
   }
+
+  const houseRows = db.prepare(
+    `SELECT room_id FROM rooms WHERE map_id = ? AND room_short LIKE '%[player house]%'`
+  ).all(mapId)
+  for (const { room_id } of houseRows) {
+    if (!result.has(room_id)) result.set(room_id, 'house')
+  }
+
   for (const [roomId, type] of Object.entries(overrides)) {
     if (!TYPE_LETTERS[type]) {
       console.warn(`[build-svg] room-types.json: unknown type "${type}" for room ${roomId}, skipping`)

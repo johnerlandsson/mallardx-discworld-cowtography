@@ -383,28 +383,28 @@
     <circle id="room-47087a3346f17ef281a7147930266969d3a729d3" class="room outdoor" data-label="underground chamber" cx="215" cy="67" r="4"/><polygon class="stair-symbol" points="215,64 212.5,69 217.5,69"/>
     <circle id="room-17e9d7f5cefc0dfd6bf3122436a83630b016d721" class="room outdoor" data-label="underground passage" cx="215" cy="67" r="4"/>
     <circle id="room-688103b94468961a05b9098c85a770b7090b7a5e" class="room outdoor" data-label="basement" cx="215" cy="67" r="4"/><polygon class="stair-symbol" points="215,64 212.5,69 217.5,69"/>
-    <circle id="room-9bcb24ce3c7847bad839ed17a59e6d0749685443" class="room outdoor" data-label="[player house]" cx="243" cy="56" r="4"/>
-    <circle id="room-f6e514d45d12fa016975426eb63e819f92f76710" class="room outdoor" data-label="[player house]" cx="243" cy="56" r="4"/>
-    <circle id="room-e5cc046f789888aa7d3c7ce56a1810dc86241729" class="room outdoor" data-label="[player house]" cx="243" cy="56" r="4"/><polygon class="stair-symbol" points="243,59 240.5,54 245.5,54"/>
-    <circle id="room-954825e20745bea19e0712302530ec3daf08e2c4" class="room outdoor" data-label="[player house]" cx="243" cy="56" r="4"/>
-    <circle id="room-c79e0458d3dbb88b8af7ae5a34fd4f4ca7eee027" class="room outdoor" data-label="[player house]" cx="243" cy="56" r="4"/>
-    <circle id="room-feaf075b0863646fe000fae9180aca9e00dae3a4" class="room outdoor" data-label="[player house]" cx="229" cy="56" r="4"/>
-    <circle id="room-f0e16a818bc65e3b627f30a023d422d55307242c" class="room outdoor" data-label="[player house]" cx="229" cy="56" r="4"/><polygon class="stair-symbol" points="229,59 226.5,54 231.5,54"/>
-    <circle id="room-d904323c0c41a8ec2e04bdfbcefcb322c5542cfe" class="room outdoor" data-label="[player house]" cx="229" cy="56" r="4"/>
-    <circle id="room-06b0c285c9431f521c6af44ff8d41d4a1db4ca62" class="room outdoor" data-label="[player house]" cx="229" cy="56" r="4"/>
-    <circle id="room-eaaae89596d55f6fa574f64f8bc099b9e0508e21" class="room outdoor" data-label="[player house]" cx="215" cy="56" r="4"/>
-    <circle id="room-4d25771941a2f704023bc3db143abc6dea2fbeca" class="room outdoor" data-label="[player house]" cx="215" cy="56" r="4"/><polygon class="stair-symbol" points="215,59 212.5,54 217.5,54"/>
-    <circle id="room-da278f31eb434ef713f2ead87f8945eef13e4d74" class="room outdoor" data-label="[player house]" cx="201" cy="56" r="4"/>
-    <circle id="room-0320aec369d97d8e28fa60405ea726d7d4f0af93" class="room outdoor" data-label="[player house]" cx="201" cy="56" r="4"/><polygon class="stair-symbol" points="201,59 198.5,54 203.5,54"/>
+    <circle id="room-9bcb24ce3c7847bad839ed17a59e6d0749685443" class="room outdoor room-house" data-label="[player house]" cx="243" cy="56" r="4"/><text class="room-type-label" x="243" y="56" text-anchor="middle" dominant-baseline="central">H</text>
+    <circle id="room-f6e514d45d12fa016975426eb63e819f92f76710" class="room outdoor room-house" data-label="[player house]" cx="243" cy="56" r="4"/><text class="room-type-label" x="243" y="56" text-anchor="middle" dominant-baseline="central">H</text>
+    <circle id="room-e5cc046f789888aa7d3c7ce56a1810dc86241729" class="room outdoor room-house" data-label="[player house]" cx="243" cy="56" r="4"/><polygon class="stair-symbol" points="243,59 240.5,54 245.5,54"/><text class="room-type-label" x="243" y="56" text-anchor="middle" dominant-baseline="central">H</text>
+    <circle id="room-954825e20745bea19e0712302530ec3daf08e2c4" class="room outdoor room-house" data-label="[player house]" cx="243" cy="56" r="4"/><text class="room-type-label" x="243" y="56" text-anchor="middle" dominant-baseline="central">H</text>
+    <circle id="room-c79e0458d3dbb88b8af7ae5a34fd4f4ca7eee027" class="room outdoor room-house" data-label="[player house]" cx="243" cy="56" r="4"/><text class="room-type-label" x="243" y="56" text-anchor="middle" dominant-baseline="central">H</text>
+    <circle id="room-feaf075b0863646fe000fae9180aca9e00dae3a4" class="room outdoor room-house" data-label="[player house]" cx="229" cy="56" r="4"/><text class="room-type-label" x="229" y="56" text-anchor="middle" dominant-baseline="central">H</text>
+    <circle id="room-f0e16a818bc65e3b627f30a023d422d55307242c" class="room outdoor room-house" data-label="[player house]" cx="229" cy="56" r="4"/><polygon class="stair-symbol" points="229,59 226.5,54 231.5,54"/><text class="room-type-label" x="229" y="56" text-anchor="middle" dominant-baseline="central">H</text>
+    <circle id="room-d904323c0c41a8ec2e04bdfbcefcb322c5542cfe" class="room outdoor room-house" data-label="[player house]" cx="229" cy="56" r="4"/><text class="room-type-label" x="229" y="56" text-anchor="middle" dominant-baseline="central">H</text>
+    <circle id="room-06b0c285c9431f521c6af44ff8d41d4a1db4ca62" class="room outdoor room-house" data-label="[player house]" cx="229" cy="56" r="4"/><text class="room-type-label" x="229" y="56" text-anchor="middle" dominant-baseline="central">H</text>
+    <circle id="room-eaaae89596d55f6fa574f64f8bc099b9e0508e21" class="room outdoor room-house" data-label="[player house]" cx="215" cy="56" r="4"/><text class="room-type-label" x="215" y="56" text-anchor="middle" dominant-baseline="central">H</text>
+    <circle id="room-4d25771941a2f704023bc3db143abc6dea2fbeca" class="room outdoor room-house" data-label="[player house]" cx="215" cy="56" r="4"/><polygon class="stair-symbol" points="215,59 212.5,54 217.5,54"/><text class="room-type-label" x="215" y="56" text-anchor="middle" dominant-baseline="central">H</text>
+    <circle id="room-da278f31eb434ef713f2ead87f8945eef13e4d74" class="room outdoor room-house" data-label="[player house]" cx="201" cy="56" r="4"/><text class="room-type-label" x="201" y="56" text-anchor="middle" dominant-baseline="central">H</text>
+    <circle id="room-0320aec369d97d8e28fa60405ea726d7d4f0af93" class="room outdoor room-house" data-label="[player house]" cx="201" cy="56" r="4"/><polygon class="stair-symbol" points="201,59 198.5,54 203.5,54"/><text class="room-type-label" x="201" y="56" text-anchor="middle" dominant-baseline="central">H</text>
     <circle id="room-b88b4cdffa042711dbd8ac2e7efdbddd266bae61" class="room outdoor" data-label="narrow corridor" cx="194" cy="55" r="4"/>
-    <circle id="room-94b9d35d9f269e69ac17b6b83a471b9c5324eee1" class="room outdoor" data-label="[player house]" cx="201" cy="56" r="4"/>
-    <circle id="room-7f82860c2c815ee074b76ff4149aaf5536afd514" class="room outdoor" data-label="[player house]" cx="187" cy="56" r="4"/>
-    <circle id="room-feb6321c16b25e1aa1c97d9fd59d979e41e059c5" class="room outdoor" data-label="[player house]" cx="187" cy="56" r="4"/><polygon class="stair-symbol" points="187,59 184.5,54 189.5,54"/>
-    <circle id="room-0ba1119aeafacd7381f8e2c88e6ade7239f75bff" class="room outdoor" data-label="[player house]" cx="187" cy="56" r="4"/>
-    <circle id="room-459aa2d75560d13fef9b767a0d5eff4808a4ea4d" class="room outdoor" data-label="[player house]" cx="173" cy="56" r="4"/>
-    <circle id="room-ed1ac0a4ff46417a2414d96aa5e2a6b50409b090" class="room outdoor" data-label="[player house]" cx="173" cy="56" r="4"/><polygon class="stair-symbol" points="173,59 170.5,54 175.5,54"/>
-    <circle id="room-07c6c7855cca1815436f76c44989d6d6deba8a20" class="room outdoor" data-label="[player house]" cx="159" cy="56" r="4"/>
-    <circle id="room-2e4df0d6d54d7742b870067f0434bd6c3fe6af3b" class="room outdoor" data-label="[player house]" cx="159" cy="56" r="4"/><polygon class="stair-symbol" points="159,59 156.5,54 161.5,54"/>
+    <circle id="room-94b9d35d9f269e69ac17b6b83a471b9c5324eee1" class="room outdoor room-house" data-label="[player house]" cx="201" cy="56" r="4"/><text class="room-type-label" x="201" y="56" text-anchor="middle" dominant-baseline="central">H</text>
+    <circle id="room-7f82860c2c815ee074b76ff4149aaf5536afd514" class="room outdoor room-house" data-label="[player house]" cx="187" cy="56" r="4"/><text class="room-type-label" x="187" y="56" text-anchor="middle" dominant-baseline="central">H</text>
+    <circle id="room-feb6321c16b25e1aa1c97d9fd59d979e41e059c5" class="room outdoor room-house" data-label="[player house]" cx="187" cy="56" r="4"/><polygon class="stair-symbol" points="187,59 184.5,54 189.5,54"/><text class="room-type-label" x="187" y="56" text-anchor="middle" dominant-baseline="central">H</text>
+    <circle id="room-0ba1119aeafacd7381f8e2c88e6ade7239f75bff" class="room outdoor room-house" data-label="[player house]" cx="187" cy="56" r="4"/><text class="room-type-label" x="187" y="56" text-anchor="middle" dominant-baseline="central">H</text>
+    <circle id="room-459aa2d75560d13fef9b767a0d5eff4808a4ea4d" class="room outdoor room-house" data-label="[player house]" cx="173" cy="56" r="4"/><text class="room-type-label" x="173" y="56" text-anchor="middle" dominant-baseline="central">H</text>
+    <circle id="room-ed1ac0a4ff46417a2414d96aa5e2a6b50409b090" class="room outdoor room-house" data-label="[player house]" cx="173" cy="56" r="4"/><polygon class="stair-symbol" points="173,59 170.5,54 175.5,54"/><text class="room-type-label" x="173" y="56" text-anchor="middle" dominant-baseline="central">H</text>
+    <circle id="room-07c6c7855cca1815436f76c44989d6d6deba8a20" class="room outdoor room-house" data-label="[player house]" cx="159" cy="56" r="4"/><text class="room-type-label" x="159" y="56" text-anchor="middle" dominant-baseline="central">H</text>
+    <circle id="room-2e4df0d6d54d7742b870067f0434bd6c3fe6af3b" class="room outdoor room-house" data-label="[player house]" cx="159" cy="56" r="4"/><polygon class="stair-symbol" points="159,59 156.5,54 161.5,54"/><text class="room-type-label" x="159" y="56" text-anchor="middle" dominant-baseline="central">H</text>
   </g>
 
 
