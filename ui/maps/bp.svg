@@ -2149,9 +2149,9 @@
     <line id="edge-381aa3223074de10d034be8f1949fee118b89887-6b34982740c234d8b3febcae7e8f6e75ec892935" class="exit" x1="1142" y1="342" x2="1142" y2="356"/>
     <line id="edge-3ab763fedca170d3eb631d6e73748e2630ccf889-6f120ffa89e995011d1791285fa87f549213c796" class="exit" x1="885" y1="902" x2="875" y2="892"/>
     <line id="edge-6f120ffa89e995011d1791285fa87f549213c796-8034c2c1ec95d45789a212cfda51eba856501d79" class="exit" x1="875" y1="892" x2="875" y2="883"/>
-    <line id="edge-36bc95e4300d1026f265bed816232e34a72564f6-8034c2c1ec95d45789a212cfda51eba856501d79" class="exit" x1="884" y1="883" x2="875" y2="883"/>
-    <line id="edge-8034c2c1ec95d45789a212cfda51eba856501d79-b508f7b07d88bb1b3f47efd0691e56c835b1e67b" class="exit" x1="875" y1="883" x2="875" y2="874"/>
-    <line id="edge-8034c2c1ec95d45789a212cfda51eba856501d79-c0084f143904a81f15ee6941f525c086b40ad53e" class="exit" x1="875" y1="883" x2="866" y2="883"/>
+    <line id="edge-36bc95e4300d1026f265bed816232e34a72564f6-8034c2c1ec95d45789a212cfda51eba856501d79" class="exit exit-water" x1="884" y1="883" x2="875" y2="883"/>
+    <line id="edge-8034c2c1ec95d45789a212cfda51eba856501d79-b508f7b07d88bb1b3f47efd0691e56c835b1e67b" class="exit exit-water" x1="875" y1="883" x2="875" y2="874"/>
+    <line id="edge-8034c2c1ec95d45789a212cfda51eba856501d79-c0084f143904a81f15ee6941f525c086b40ad53e" class="exit exit-water" x1="875" y1="883" x2="866" y2="883"/>
     <line id="edge-0eeaf24e890f7bc1350cb7fcf6c61fa05027d6f9-635260166c5c2f1245bf73177820cb377c1a72ee" class="exit" x1="957" y1="671" x2="965" y2="671"/>
     <line id="edge-0eeaf24e890f7bc1350cb7fcf6c61fa05027d6f9-e68649f26cb8774e4d2561981c0334e1c9b47596" class="exit" x1="957" y1="671" x2="949" y2="679"/>
     <line id="edge-e68649f26cb8774e4d2561981c0334e1c9b47596-e72d0ba3207b6375934611c23470d2985700e082" class="exit" x1="949" y1="679" x2="949" y2="687"/>
@@ -2231,20 +2231,20 @@
     <line id="edge-909621fb4e3ab06eededdfbe38ddbdf5ad0064d6-fb2cb824bb5eac6d74caf5f5a5f04164bd4c3487" class="exit" x1="955" y1="538" x2="955" y2="538"/>
     <line id="edge-602977fa0053fbce7b2a8de904de1644098d0cc7-96271deb1cb7f70dd9e03549ae60e14b21bb9f91" class="exit" x1="1031" y1="510" x2="1031" y2="510"/>
     <line id="edge-38a61fdad54266c4c221bc54b516ed7dfac474bd-aac97e63302c544738c6154cc831b640a82d4d15" class="exit" x1="1053" y1="482" x2="1053" y2="482"/>
-    <line id="edge-5c2fe4540cdb39e32ed185c9583d5168ef7bbf42-c0084f143904a81f15ee6941f525c086b40ad53e" class="exit" x1="866" y1="874" x2="866" y2="883"/>
-    <line id="edge-36bc95e4300d1026f265bed816232e34a72564f6-d0b82b9a07ec5ef72366c8904950f6de59c4a6ff" class="exit" x1="884" y1="883" x2="884" y2="874"/>
-    <line id="edge-4b86903b5aea6f98d554b5f01dc173034fb94c1e-d0b82b9a07ec5ef72366c8904950f6de59c4a6ff" class="exit" x1="884" y1="865" x2="884" y2="874"/>
-    <line id="edge-b508f7b07d88bb1b3f47efd0691e56c835b1e67b-d0b82b9a07ec5ef72366c8904950f6de59c4a6ff" class="exit" x1="875" y1="874" x2="884" y2="874"/>
-    <line id="edge-00f1fed48995e9f4152be33a4d867583d94c39aa-b508f7b07d88bb1b3f47efd0691e56c835b1e67b" class="exit" x1="866" y1="865" x2="875" y2="874"/>
-    <line id="edge-4b86903b5aea6f98d554b5f01dc173034fb94c1e-b508f7b07d88bb1b3f47efd0691e56c835b1e67b" class="exit" x1="884" y1="865" x2="875" y2="874"/>
-    <line id="edge-5c2fe4540cdb39e32ed185c9583d5168ef7bbf42-b508f7b07d88bb1b3f47efd0691e56c835b1e67b" class="exit" x1="866" y1="874" x2="875" y2="874"/>
-    <line id="edge-b1c1ef04f962f5e1dec0b713fb643e3467e85782-b508f7b07d88bb1b3f47efd0691e56c835b1e67b" class="exit" x1="875" y1="865" x2="875" y2="874"/>
-    <line id="edge-00f1fed48995e9f4152be33a4d867583d94c39aa-4b905c208982c30363e9b835de555f6b9db7ef0c" class="exit" x1="866" y1="865" x2="875" y2="856"/>
-    <line id="edge-00f1fed48995e9f4152be33a4d867583d94c39aa-5c2fe4540cdb39e32ed185c9583d5168ef7bbf42" class="exit" x1="866" y1="865" x2="866" y2="874"/>
-    <line id="edge-00f1fed48995e9f4152be33a4d867583d94c39aa-b1c1ef04f962f5e1dec0b713fb643e3467e85782" class="exit" x1="866" y1="865" x2="875" y2="865"/>
-    <line id="edge-4b86903b5aea6f98d554b5f01dc173034fb94c1e-4b905c208982c30363e9b835de555f6b9db7ef0c" class="exit" x1="884" y1="865" x2="875" y2="856"/>
-    <line id="edge-4b905c208982c30363e9b835de555f6b9db7ef0c-b1c1ef04f962f5e1dec0b713fb643e3467e85782" class="exit" x1="875" y1="856" x2="875" y2="865"/>
-    <line id="edge-4b86903b5aea6f98d554b5f01dc173034fb94c1e-b1c1ef04f962f5e1dec0b713fb643e3467e85782" class="exit" x1="884" y1="865" x2="875" y2="865"/>
+    <line id="edge-5c2fe4540cdb39e32ed185c9583d5168ef7bbf42-c0084f143904a81f15ee6941f525c086b40ad53e" class="exit exit-water" x1="866" y1="874" x2="866" y2="883"/>
+    <line id="edge-36bc95e4300d1026f265bed816232e34a72564f6-d0b82b9a07ec5ef72366c8904950f6de59c4a6ff" class="exit exit-water" x1="884" y1="883" x2="884" y2="874"/>
+    <line id="edge-4b86903b5aea6f98d554b5f01dc173034fb94c1e-d0b82b9a07ec5ef72366c8904950f6de59c4a6ff" class="exit exit-water" x1="884" y1="865" x2="884" y2="874"/>
+    <line id="edge-b508f7b07d88bb1b3f47efd0691e56c835b1e67b-d0b82b9a07ec5ef72366c8904950f6de59c4a6ff" class="exit exit-water" x1="875" y1="874" x2="884" y2="874"/>
+    <line id="edge-00f1fed48995e9f4152be33a4d867583d94c39aa-b508f7b07d88bb1b3f47efd0691e56c835b1e67b" class="exit exit-water" x1="866" y1="865" x2="875" y2="874"/>
+    <line id="edge-4b86903b5aea6f98d554b5f01dc173034fb94c1e-b508f7b07d88bb1b3f47efd0691e56c835b1e67b" class="exit exit-water" x1="884" y1="865" x2="875" y2="874"/>
+    <line id="edge-5c2fe4540cdb39e32ed185c9583d5168ef7bbf42-b508f7b07d88bb1b3f47efd0691e56c835b1e67b" class="exit exit-water" x1="866" y1="874" x2="875" y2="874"/>
+    <line id="edge-b1c1ef04f962f5e1dec0b713fb643e3467e85782-b508f7b07d88bb1b3f47efd0691e56c835b1e67b" class="exit exit-water" x1="875" y1="865" x2="875" y2="874"/>
+    <line id="edge-00f1fed48995e9f4152be33a4d867583d94c39aa-4b905c208982c30363e9b835de555f6b9db7ef0c" class="exit exit-water" x1="866" y1="865" x2="875" y2="856"/>
+    <line id="edge-00f1fed48995e9f4152be33a4d867583d94c39aa-5c2fe4540cdb39e32ed185c9583d5168ef7bbf42" class="exit exit-water" x1="866" y1="865" x2="866" y2="874"/>
+    <line id="edge-00f1fed48995e9f4152be33a4d867583d94c39aa-b1c1ef04f962f5e1dec0b713fb643e3467e85782" class="exit exit-water" x1="866" y1="865" x2="875" y2="865"/>
+    <line id="edge-4b86903b5aea6f98d554b5f01dc173034fb94c1e-4b905c208982c30363e9b835de555f6b9db7ef0c" class="exit exit-water" x1="884" y1="865" x2="875" y2="856"/>
+    <line id="edge-4b905c208982c30363e9b835de555f6b9db7ef0c-b1c1ef04f962f5e1dec0b713fb643e3467e85782" class="exit exit-water" x1="875" y1="856" x2="875" y2="865"/>
+    <line id="edge-4b86903b5aea6f98d554b5f01dc173034fb94c1e-b1c1ef04f962f5e1dec0b713fb643e3467e85782" class="exit exit-water" x1="884" y1="865" x2="875" y2="865"/>
     <line id="edge-9159337d5c0245b43f0a76d7b13617ab7e921dd8-9ea9d88be24887c025cab9d876c1676df5ff053a" class="exit" x1="845" y1="892" x2="836" y2="883"/>
     null
     null
@@ -2368,7 +2368,7 @@
     <line id="edge-78cb7fa61c49884bf7048c7b8b311d82cce20843-d25a834805916bcb00d6df90f14e747d7b2e7938" class="exit" x1="538" y1="373" x2="538" y2="373"/>
     <line id="edge-5c535fcf80fe6bd0facc7b199fa306e16782c50c-78cb7fa61c49884bf7048c7b8b311d82cce20843" class="exit" x1="538" y1="373" x2="538" y2="373"/>
     <line id="edge-5c535fcf80fe6bd0facc7b199fa306e16782c50c-f86fc92265f530e3853a038442e04587bd1f27b9" class="exit" x1="538" y1="373" x2="538" y2="373"/>
-    <line id="edge-d0570cd230d5c2afd322a090999abb607ce689dd-d0ff0f86e444c3976712bfcd141270da0bb9d826" class="exit" x1="1224" y1="738" x2="1266" y2="762"/>
+    <line id="edge-d0570cd230d5c2afd322a090999abb607ce689dd-d0ff0f86e444c3976712bfcd141270da0bb9d826" class="exit exit-water" x1="1224" y1="738" x2="1266" y2="762"/>
     <line id="edge-67609c531bd9ff896704dcf0516e35f5a084f08f-b135f975a54a0163f3e7dde338ef4c04c0d200c6" class="exit" x1="1028" y1="681" x2="1028" y2="681"/>
     null
     <line id="edge-b135f975a54a0163f3e7dde338ef4c04c0d200c6-e452fbecfb56abfe12f3fee5bc52f638698cc223" class="exit" x1="1028" y1="681" x2="1028" y2="681"/>
@@ -2768,7 +2768,7 @@
     <circle id="room-f9c332e0099f45460b453152baaecd9b5cf37a47" class="room outdoor" data-label="a sampan outside a house" cx="1252" cy="748" r="4"/>
     <rect id="room-83dcad5f7c2a41b03619d3404da46c28d809bfb9" class="room indoor" data-label="sampan" x="1248" y="734" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="1252,741 1249.5,736 1254.5,736"/>
     <rect id="room-c69fc03f30e42e5931493b62d4f07f425c2108c2" class="room indoor room-food" data-label="a restaurant sampan" x="1262" y="758" width="8" height="8" rx="2"/><text class="room-type-label" x="1266" y="762" text-anchor="middle" dominant-baseline="central">F</text>
-    <circle id="room-d0ff0f86e444c3976712bfcd141270da0bb9d826" class="room outdoor room-shop" data-label="underwater bar" cx="1266" cy="762" r="4"/><text class="room-type-label" x="1266" y="762" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-d0ff0f86e444c3976712bfcd141270da0bb9d826" class="room outdoor room-shop water" data-label="underwater bar" cx="1266" cy="762" r="4"/><text class="room-type-label" x="1266" y="762" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-7f7a9ef77014c0cc554f354dc862cd562b9ff689" class="room outdoor" data-label="a sampan outside a house" cx="1224" cy="748" r="4"/>
     <rect id="room-f494c976ff855dbf85a2bc9fa34a7c07c7486df4" class="room indoor" data-label="sampan" x="1220" y="734" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="1224,741 1221.5,736 1226.5,736"/>
     <rect id="room-f5b8d70245bd2bab65361882e43508285528502f" class="room indoor" data-label="floating tattoo parlour" x="1206" y="758" width="8" height="8" rx="2"/>
@@ -4234,7 +4234,7 @@
     <rect id="room-6f120ffa89e995011d1791285fa87f549213c796" class="room indoor" data-label="cabin in a sunken ship" x="871" y="888" width="8" height="8" rx="2"/>
     <rect id="room-f7650b4057885a27f549bdad23a0324315bfcdfe" class="room indoor" data-label="lounge in sunken ship" x="862" y="897" width="8" height="8" rx="2"/>
     <rect id="room-f9e29788cdf5c0131d1ff64f995dc30520560434" class="room indoor room-shop" data-label="small bar" x="880" y="888" width="8" height="8" rx="2"/><text class="room-type-label" x="884" y="892" text-anchor="middle" dominant-baseline="central">S</text>
-    <circle id="room-8034c2c1ec95d45789a212cfda51eba856501d79" class="room outdoor" data-label="sunken ship" cx="875" cy="883" r="4"/>
+    <circle id="room-8034c2c1ec95d45789a212cfda51eba856501d79" class="room outdoor water" data-label="sunken ship" cx="875" cy="883" r="4"/>
     <rect id="room-635260166c5c2f1245bf73177820cb377c1a72ee" class="room indoor" data-label="dimly lit passage" x="961" y="667" width="8" height="8" rx="2"/>
     <rect id="room-0eeaf24e890f7bc1350cb7fcf6c61fa05027d6f9" class="room indoor" data-label="dimly lit passage" x="953" y="667" width="8" height="8" rx="2"/>
     <rect id="room-e68649f26cb8774e4d2561981c0334e1c9b47596" class="room indoor" data-label="dimly lit passage" x="945" y="675" width="8" height="8" rx="2"/>
@@ -4321,102 +4321,102 @@
     <rect id="room-fb2cb824bb5eac6d74caf5f5a5f04164bd4c3487" class="room indoor" data-label="living area" x="951" y="534" width="8" height="8" rx="2"/>
     <rect id="room-602977fa0053fbce7b2a8de904de1644098d0cc7" class="room indoor" data-label="living room" x="1027" y="506" width="8" height="8" rx="2"/>
     <rect id="room-aac97e63302c544738c6154cc831b640a82d4d15" class="room indoor" data-label="suite" x="1049" y="478" width="8" height="8" rx="2"/>
-    <circle id="room-dd8c2086fc2cc3e9baa045dd04e0f47ed40f9a32" class="room outdoor" data-label="the west end of Pearl River" cx="104" cy="407" r="4"/>
-    <circle id="room-5a4ae18fb123bfd07bfad905ad6b0125519ae150" class="room outdoor" data-label="Pearl River just west of Silver Mermaid Bridge" cx="118" cy="407" r="4"/>
-    <circle id="room-b147af9e312ef86aa15b121054757517c20557df" class="room outdoor" data-label="Pearl River just west of Silver Mermaid Bridge" cx="132" cy="407" r="4"/>
-    <circle id="room-b3d5ddff045fb2d86b20d797a325c13864fb2414" class="room outdoor" data-label="Pearl River just west of Silver Mermaid Bridge" cx="146" cy="407" r="4"/>
-    <circle id="room-bdd827d0b3921a779ffebe1143c54b7ec93a0631" class="room outdoor" data-label="Pearl River just west of Silver Mermaid Bridge" cx="160" cy="407" r="4"/>
+    <circle id="room-dd8c2086fc2cc3e9baa045dd04e0f47ed40f9a32" class="room outdoor water" data-label="the west end of Pearl River" cx="104" cy="407" r="4"/>
+    <circle id="room-5a4ae18fb123bfd07bfad905ad6b0125519ae150" class="room outdoor water" data-label="Pearl River just west of Silver Mermaid Bridge" cx="118" cy="407" r="4"/>
+    <circle id="room-b147af9e312ef86aa15b121054757517c20557df" class="room outdoor water" data-label="Pearl River just west of Silver Mermaid Bridge" cx="132" cy="407" r="4"/>
+    <circle id="room-b3d5ddff045fb2d86b20d797a325c13864fb2414" class="room outdoor water" data-label="Pearl River just west of Silver Mermaid Bridge" cx="146" cy="407" r="4"/>
+    <circle id="room-bdd827d0b3921a779ffebe1143c54b7ec93a0631" class="room outdoor water" data-label="Pearl River just west of Silver Mermaid Bridge" cx="160" cy="407" r="4"/>
     <circle id="room-f1ae65900ad7c62a382d216d133408d3cbe6e4f0" class="room outdoor" data-label="beneath the Silver Mermaid Bridge" cx="174" cy="407" r="4"/>
-    <circle id="room-4f8157b809c2a0fbebe4a4395685cf8146d95aa0" class="room outdoor" data-label="Pearl River upstream of Silver Mermaid Bridge" cx="188" cy="407" r="4"/>
-    <circle id="room-37546f4c3d64881c1db141e019b71484537b4937" class="room outdoor" data-label="Pearl River upstream of Silver Mermaid Bridge" cx="202" cy="407" r="4"/>
-    <circle id="room-dcfd999b10c574267fc8a9fd0bde83591b15aa1e" class="room outdoor" data-label="Pearl River upstream of the Silver Mermaid Bridge" cx="216" cy="407" r="4"/>
-    <circle id="room-2704ee4114bc207a2fa845e3e47221bbd11064f4" class="room outdoor" data-label="Pearl River upstream of the Silver Mermaid Bridge" cx="230" cy="407" r="4"/>
-    <circle id="room-f5f3d1a196634fc5a4b19fc2ce8611c3c89f514d" class="room outdoor" data-label="Pearl River upstream of Silver Mermaid Bridge" cx="244" cy="407" r="4"/>
-    <circle id="room-2c0a7b02e6b6234d7d78913de437eaaef6b4bfce" class="room outdoor" data-label="Pearl River upstream of the Silver Mermaid Bridge" cx="258" cy="407" r="4"/>
-    <circle id="room-395b57c29cf18a68b1f2c4f0ae9e177f282ce8e1" class="room outdoor" data-label="Pearl River upstream of the Silver Mermaid Bridge" cx="272" cy="407" r="4"/>
+    <circle id="room-4f8157b809c2a0fbebe4a4395685cf8146d95aa0" class="room outdoor water" data-label="Pearl River upstream of Silver Mermaid Bridge" cx="188" cy="407" r="4"/>
+    <circle id="room-37546f4c3d64881c1db141e019b71484537b4937" class="room outdoor water" data-label="Pearl River upstream of Silver Mermaid Bridge" cx="202" cy="407" r="4"/>
+    <circle id="room-dcfd999b10c574267fc8a9fd0bde83591b15aa1e" class="room outdoor water" data-label="Pearl River upstream of the Silver Mermaid Bridge" cx="216" cy="407" r="4"/>
+    <circle id="room-2704ee4114bc207a2fa845e3e47221bbd11064f4" class="room outdoor water" data-label="Pearl River upstream of the Silver Mermaid Bridge" cx="230" cy="407" r="4"/>
+    <circle id="room-f5f3d1a196634fc5a4b19fc2ce8611c3c89f514d" class="room outdoor water" data-label="Pearl River upstream of Silver Mermaid Bridge" cx="244" cy="407" r="4"/>
+    <circle id="room-2c0a7b02e6b6234d7d78913de437eaaef6b4bfce" class="room outdoor water" data-label="Pearl River upstream of the Silver Mermaid Bridge" cx="258" cy="407" r="4"/>
+    <circle id="room-395b57c29cf18a68b1f2c4f0ae9e177f282ce8e1" class="room outdoor water" data-label="Pearl River upstream of the Silver Mermaid Bridge" cx="272" cy="407" r="4"/>
     <circle id="room-1cc83f4d663a927547a08eb37388a179613ddd34" class="room outdoor" data-label="By the Pearl River" cx="244" cy="421" r="4"/>
     <circle id="room-83ac298101c4b4f330dce21c8b7861a076d755b5" class="room outdoor" data-label="By the Pearl River" cx="244" cy="435" r="4"/><polygon class="stair-symbol" points="244,432 241.5,437 246.5,437"/>
-    <circle id="room-5017733183b1bf4ffd28ffc44b85007e3352cc49" class="room outdoor" data-label="Pearl River upstream of the Silver Mermaid Bridge" cx="286" cy="407" r="4"/>
-    <circle id="room-1999c7f5bbedbc5dc12dabe43a1c3329e94df117" class="room outdoor" data-label="Pearl River upstream of the Silver Mermaid Bridge" cx="300" cy="407" r="4"/>
-    <circle id="room-d764a20b475d37e4b97bf047a05cb61ca8bf95af" class="room outdoor" data-label="Pearl River upstream of the Silver Mermaid Bridge" cx="314" cy="407" r="4"/>
-    <circle id="room-f5c27140d4ec358f3762588c2766e1c20a56aed4" class="room outdoor" data-label="Pearl River upstream of the Silver Mermaid Bridge" cx="328" cy="407" r="4"/>
-    <circle id="room-ec64878275659b6b573f9dc4cf823586a8da8634" class="room outdoor" data-label="Pearl River under a bridge" cx="342" cy="407" r="4"/>
-    <circle id="room-cc864d00b05797e9e32fc58ed145c7672baefc14" class="room outdoor" data-label="Pearl River east of Rainbow Bridge" cx="356" cy="407" r="4"/>
-    <circle id="room-e201c344840183e044f00d8c13cd7d90a0a2787d" class="room outdoor" data-label="Pearl River east of Rainbow Bridge" cx="370" cy="407" r="4"/>
-    <circle id="room-f5774cc0295d095e8958bdf01c3c2fc5734ff37a" class="room outdoor" data-label="Pearl River east of Rainbow Bridge" cx="384" cy="407" r="4"/>
-    <circle id="room-7bd6265fe044bbc53002cfb3bde2f4d5cb884618" class="room outdoor" data-label="Pearl River east of Rainbow Bridge" cx="398" cy="407" r="4"/>
-    <circle id="room-f8a6ccb285823ff654b84f194274829eb4e40af3" class="room outdoor" data-label="Pearl River east of Rainbow Bridge" cx="412" cy="407" r="4"/>
-    <circle id="room-6096875cba2095b24698a9f390f0405840e9e71e" class="room outdoor" data-label="Pearl River slightly east of a bridge" cx="426" cy="407" r="4"/>
-    <circle id="room-b92b290e49175514e08d3ebf7535cb1e9ce03570" class="room outdoor" data-label="Pearl River slightly east of a bridge" cx="440" cy="407" r="4"/>
-    <circle id="room-90a4f53d3a9db88e11ccdf77111c0f8d46ed3bf1" class="room outdoor" data-label="Pearl River slightly east of a bridge" cx="454" cy="407" r="4"/>
-    <circle id="room-fa34c6de31ee793f9bd608bfa6423e2cc1188b21" class="room outdoor" data-label="Pearl River slightly east of a bridge" cx="468" cy="407" r="4"/>
-    <circle id="room-402a859a530f1a23d7d9d053921300ef134536fd" class="room outdoor" data-label="Pearl River downstream of Tora Bridge" cx="482" cy="407" r="4"/>
-    <circle id="room-99860f4997d8d108f271b00f8b02bfaf054b2a92" class="room outdoor" data-label="Pearl River downstream of Tora Bridge" cx="496" cy="407" r="4"/>
+    <circle id="room-5017733183b1bf4ffd28ffc44b85007e3352cc49" class="room outdoor water" data-label="Pearl River upstream of the Silver Mermaid Bridge" cx="286" cy="407" r="4"/>
+    <circle id="room-1999c7f5bbedbc5dc12dabe43a1c3329e94df117" class="room outdoor water" data-label="Pearl River upstream of the Silver Mermaid Bridge" cx="300" cy="407" r="4"/>
+    <circle id="room-d764a20b475d37e4b97bf047a05cb61ca8bf95af" class="room outdoor water" data-label="Pearl River upstream of the Silver Mermaid Bridge" cx="314" cy="407" r="4"/>
+    <circle id="room-f5c27140d4ec358f3762588c2766e1c20a56aed4" class="room outdoor water" data-label="Pearl River upstream of the Silver Mermaid Bridge" cx="328" cy="407" r="4"/>
+    <circle id="room-ec64878275659b6b573f9dc4cf823586a8da8634" class="room outdoor water" data-label="Pearl River under a bridge" cx="342" cy="407" r="4"/>
+    <circle id="room-cc864d00b05797e9e32fc58ed145c7672baefc14" class="room outdoor water" data-label="Pearl River east of Rainbow Bridge" cx="356" cy="407" r="4"/>
+    <circle id="room-e201c344840183e044f00d8c13cd7d90a0a2787d" class="room outdoor water" data-label="Pearl River east of Rainbow Bridge" cx="370" cy="407" r="4"/>
+    <circle id="room-f5774cc0295d095e8958bdf01c3c2fc5734ff37a" class="room outdoor water" data-label="Pearl River east of Rainbow Bridge" cx="384" cy="407" r="4"/>
+    <circle id="room-7bd6265fe044bbc53002cfb3bde2f4d5cb884618" class="room outdoor water" data-label="Pearl River east of Rainbow Bridge" cx="398" cy="407" r="4"/>
+    <circle id="room-f8a6ccb285823ff654b84f194274829eb4e40af3" class="room outdoor water" data-label="Pearl River east of Rainbow Bridge" cx="412" cy="407" r="4"/>
+    <circle id="room-6096875cba2095b24698a9f390f0405840e9e71e" class="room outdoor water" data-label="Pearl River slightly east of a bridge" cx="426" cy="407" r="4"/>
+    <circle id="room-b92b290e49175514e08d3ebf7535cb1e9ce03570" class="room outdoor water" data-label="Pearl River slightly east of a bridge" cx="440" cy="407" r="4"/>
+    <circle id="room-90a4f53d3a9db88e11ccdf77111c0f8d46ed3bf1" class="room outdoor water" data-label="Pearl River slightly east of a bridge" cx="454" cy="407" r="4"/>
+    <circle id="room-fa34c6de31ee793f9bd608bfa6423e2cc1188b21" class="room outdoor water" data-label="Pearl River slightly east of a bridge" cx="468" cy="407" r="4"/>
+    <circle id="room-402a859a530f1a23d7d9d053921300ef134536fd" class="room outdoor water" data-label="Pearl River downstream of Tora Bridge" cx="482" cy="407" r="4"/>
+    <circle id="room-99860f4997d8d108f271b00f8b02bfaf054b2a92" class="room outdoor water" data-label="Pearl River downstream of Tora Bridge" cx="496" cy="407" r="4"/>
     <circle id="room-1fb9f682cdb0e2b557744c6b4a5382c0142941e6" class="room outdoor" data-label="beneath a bridge" cx="510" cy="407" r="4"/>
-    <circle id="room-b88100359a678cecd0f4710cd86141e37cdcf08b" class="room outdoor" data-label="Pearl River Bridge Sandwich Zone" cx="524" cy="407" r="4"/>
-    <circle id="room-947796fcde3b1b19693ac269efa5958a31ffa723" class="room outdoor" data-label="Pearl River Bridge Sandwich Zone" cx="538" cy="407" r="4"/>
-    <circle id="room-8b616dd8ea1f1e3be12db0ede3e644b1f37bfd0b" class="room outdoor" data-label="Pearl River Bridge Sandwich Zone" cx="566" cy="407" r="4"/>
-    <circle id="room-c3a9cc9e28c0b2a5d87126bd35ad525605c72adc" class="room outdoor" data-label="somewhere along Pearl River" cx="580" cy="407" r="4"/>
-    <circle id="room-c7ba82d23ad54d0e6e497473dd8261cff280f92d" class="room outdoor" data-label="Pearl River between two bridges" cx="608" cy="407" r="4"/>
-    <circle id="room-b0c01d6aeba83d0d3cc26d05e00f42a9e1568a5c" class="room outdoor" data-label="Pearl River between two bridges" cx="636" cy="407" r="4"/>
-    <circle id="room-cd8d7fcab30423bcd5bfff73ac8f6015084a966b" class="room outdoor" data-label="Pearl River between two bridges" cx="650" cy="407" r="4"/>
-    <circle id="room-a609602f2feb85b01fa5f61046fa73075fc967f1" class="room outdoor" data-label="Pearl River between two bridges" cx="664" cy="407" r="4"/>
-    <circle id="room-97b3a9e06a8784f6969bf5fe12208f61bb420201" class="room outdoor" data-label="Pearl River between two bridges" cx="678" cy="407" r="4"/>
-    <circle id="room-01ae6b736c3aeef4c2e33bfb7ef1c378a05fff38" class="room outdoor" data-label="Pearl River between two bridges" cx="692" cy="407" r="4"/>
-    <circle id="room-f3a41ecfef706b5bf2aa057309901d86da7430a2" class="room outdoor" data-label="Pearl River between two bridges" cx="706" cy="407" r="4"/>
-    <circle id="room-01c6e1e8290727d49bef09011bacf316c3b2528f" class="room outdoor" data-label="Pearl River between two bridges" cx="720" cy="407" r="4"/>
-    <circle id="room-be463f82c59742548670c5302e14fc2b4d1651e2" class="room outdoor" data-label="Pearl River between two bridges" cx="734" cy="407" r="4"/>
-    <circle id="room-6d89440ecff83f261176ec5ed870e5d4f97c2e23" class="room outdoor" data-label="Pearl River between two bridges" cx="748" cy="407" r="4"/>
+    <circle id="room-b88100359a678cecd0f4710cd86141e37cdcf08b" class="room outdoor water" data-label="Pearl River Bridge Sandwich Zone" cx="524" cy="407" r="4"/>
+    <circle id="room-947796fcde3b1b19693ac269efa5958a31ffa723" class="room outdoor water" data-label="Pearl River Bridge Sandwich Zone" cx="538" cy="407" r="4"/>
+    <circle id="room-8b616dd8ea1f1e3be12db0ede3e644b1f37bfd0b" class="room outdoor water" data-label="Pearl River Bridge Sandwich Zone" cx="566" cy="407" r="4"/>
+    <circle id="room-c3a9cc9e28c0b2a5d87126bd35ad525605c72adc" class="room outdoor water" data-label="somewhere along Pearl River" cx="580" cy="407" r="4"/>
+    <circle id="room-c7ba82d23ad54d0e6e497473dd8261cff280f92d" class="room outdoor water" data-label="Pearl River between two bridges" cx="608" cy="407" r="4"/>
+    <circle id="room-b0c01d6aeba83d0d3cc26d05e00f42a9e1568a5c" class="room outdoor water" data-label="Pearl River between two bridges" cx="636" cy="407" r="4"/>
+    <circle id="room-cd8d7fcab30423bcd5bfff73ac8f6015084a966b" class="room outdoor water" data-label="Pearl River between two bridges" cx="650" cy="407" r="4"/>
+    <circle id="room-a609602f2feb85b01fa5f61046fa73075fc967f1" class="room outdoor water" data-label="Pearl River between two bridges" cx="664" cy="407" r="4"/>
+    <circle id="room-97b3a9e06a8784f6969bf5fe12208f61bb420201" class="room outdoor water" data-label="Pearl River between two bridges" cx="678" cy="407" r="4"/>
+    <circle id="room-01ae6b736c3aeef4c2e33bfb7ef1c378a05fff38" class="room outdoor water" data-label="Pearl River between two bridges" cx="692" cy="407" r="4"/>
+    <circle id="room-f3a41ecfef706b5bf2aa057309901d86da7430a2" class="room outdoor water" data-label="Pearl River between two bridges" cx="706" cy="407" r="4"/>
+    <circle id="room-01c6e1e8290727d49bef09011bacf316c3b2528f" class="room outdoor water" data-label="Pearl River between two bridges" cx="720" cy="407" r="4"/>
+    <circle id="room-be463f82c59742548670c5302e14fc2b4d1651e2" class="room outdoor water" data-label="Pearl River between two bridges" cx="734" cy="407" r="4"/>
+    <circle id="room-6d89440ecff83f261176ec5ed870e5d4f97c2e23" class="room outdoor water" data-label="Pearl River between two bridges" cx="748" cy="407" r="4"/>
     <circle id="room-60dc2348092210f5113a469b93e3747d6a83e9a8" class="room outdoor" data-label="beneath Dragonback Bridge" cx="762" cy="407" r="4"/>
-    <circle id="room-a976b7f5f39beb5d11a4db4f596f439a75d05979" class="room outdoor" data-label="Pearl River upstream of Dragonback Bridge" cx="776" cy="407" r="4"/>
-    <circle id="room-ecac0c9216f3cd8cd764b4742836978f7e862da0" class="room outdoor" data-label="Pearl River upstream of Dragonback Bridge" cx="790" cy="407" r="4"/>
-    <circle id="room-6209f89c105fbc104482a669c891c493417120c5" class="room outdoor" data-label="Pearl River between Bad Poo-Ning and Pong Ping" cx="804" cy="407" r="4"/>
-    <circle id="room-7de784f1e9f8dc8eca3bef04da144b8b86f87f92" class="room outdoor" data-label="Pearl River between Bad Poo-Ning and Pong Ping" cx="818" cy="407" r="4"/>
-    <circle id="room-4ed0d7f00333e81e741f115c813b13d790713b31" class="room outdoor" data-label="Pearl River between Bad Poo-Ning and Pong Ping" cx="832" cy="407" r="4"/>
-    <circle id="room-410899380189179d95ab338c7e298e0987525299" class="room outdoor" data-label="Pearl River between Bad Poo-Ning and Pong Ping" cx="846" cy="407" r="4"/>
-    <circle id="room-b63c0464b677bf8ef4fa0369df7ea13484f5f4df" class="room outdoor" data-label="Pearl River between Bad Poo-Ning and Pong Ping" cx="860" cy="407" r="4"/>
-    <circle id="room-929707af6c87fcf1058709ed8970079b74484203" class="room outdoor" data-label="Pearl River between Bad Poo-Ning and Pong Ping" cx="874" cy="407" r="4"/>
-    <circle id="room-93099ba8ec4ac652daaf1ea9c09ffc16f001019f" class="room outdoor" data-label="Pearl River between Bad Poo-Ning and Pong Ping" cx="888" cy="407" r="4"/>
-    <circle id="room-fd9938eeb0776ea47bcdf414dda22a40f865b42b" class="room outdoor" data-label="Pearl River between Bad Poo-Ning and Pong Ping" cx="902" cy="407" r="4"/>
-    <circle id="room-6cf97cfebbd0e2ca1564fc80ba3e4e02cc3be74f" class="room outdoor" data-label="Pearl River to the west of the Bridge of Bounteous Wealth" cx="916" cy="407" r="4"/>
-    <circle id="room-c7635aff6bbd42feb8d23f1fb1503e33e3f5980a" class="room outdoor" data-label="Pearl River to the west of the Bridge of Bounteous Wealth" cx="930" cy="407" r="4"/>
+    <circle id="room-a976b7f5f39beb5d11a4db4f596f439a75d05979" class="room outdoor water" data-label="Pearl River upstream of Dragonback Bridge" cx="776" cy="407" r="4"/>
+    <circle id="room-ecac0c9216f3cd8cd764b4742836978f7e862da0" class="room outdoor water" data-label="Pearl River upstream of Dragonback Bridge" cx="790" cy="407" r="4"/>
+    <circle id="room-6209f89c105fbc104482a669c891c493417120c5" class="room outdoor water" data-label="Pearl River between Bad Poo-Ning and Pong Ping" cx="804" cy="407" r="4"/>
+    <circle id="room-7de784f1e9f8dc8eca3bef04da144b8b86f87f92" class="room outdoor water" data-label="Pearl River between Bad Poo-Ning and Pong Ping" cx="818" cy="407" r="4"/>
+    <circle id="room-4ed0d7f00333e81e741f115c813b13d790713b31" class="room outdoor water" data-label="Pearl River between Bad Poo-Ning and Pong Ping" cx="832" cy="407" r="4"/>
+    <circle id="room-410899380189179d95ab338c7e298e0987525299" class="room outdoor water" data-label="Pearl River between Bad Poo-Ning and Pong Ping" cx="846" cy="407" r="4"/>
+    <circle id="room-b63c0464b677bf8ef4fa0369df7ea13484f5f4df" class="room outdoor water" data-label="Pearl River between Bad Poo-Ning and Pong Ping" cx="860" cy="407" r="4"/>
+    <circle id="room-929707af6c87fcf1058709ed8970079b74484203" class="room outdoor water" data-label="Pearl River between Bad Poo-Ning and Pong Ping" cx="874" cy="407" r="4"/>
+    <circle id="room-93099ba8ec4ac652daaf1ea9c09ffc16f001019f" class="room outdoor water" data-label="Pearl River between Bad Poo-Ning and Pong Ping" cx="888" cy="407" r="4"/>
+    <circle id="room-fd9938eeb0776ea47bcdf414dda22a40f865b42b" class="room outdoor water" data-label="Pearl River between Bad Poo-Ning and Pong Ping" cx="902" cy="407" r="4"/>
+    <circle id="room-6cf97cfebbd0e2ca1564fc80ba3e4e02cc3be74f" class="room outdoor water" data-label="Pearl River to the west of the Bridge of Bounteous Wealth" cx="916" cy="407" r="4"/>
+    <circle id="room-c7635aff6bbd42feb8d23f1fb1503e33e3f5980a" class="room outdoor water" data-label="Pearl River to the west of the Bridge of Bounteous Wealth" cx="930" cy="407" r="4"/>
     <circle id="room-eb727d17219878a419b3bf1f688d6fa37842a3fe" class="room outdoor" data-label="beneath the Bridge of Bounteous Wealth" cx="944" cy="407" r="4"/>
-    <circle id="room-c7b6747441efdfe5a829e5fa561d5ea758662dde" class="room outdoor" data-label="Pearl River to the east of the Bridge of Bounteous Wealth" cx="958" cy="407" r="4"/>
-    <circle id="room-182d449d01807806799732a1a59918c41f3dc7a5" class="room outdoor" data-label="Pearl River to the east of the Bridge of Bounteous Wealth" cx="972" cy="407" r="4"/>
-    <circle id="room-e1548dc2bb57cffa5725f96e3742dccd71743ed0" class="room outdoor" data-label="Pearl River a little east of a bridge" cx="986" cy="407" r="4"/>
-    <circle id="room-147249294da4cb22bef5622931d38011d16c0a12" class="room outdoor" data-label="Pearl River a little east of a bridge" cx="1000" cy="407" r="4"/>
-    <circle id="room-f3220d859fca955682c783ce7c9ed7a1a6823da0" class="room outdoor" data-label="Pearl River a little east of a bridge" cx="1014" cy="407" r="4"/>
-    <circle id="room-7926265c2cab5e7f7f8b583a07f9602cea108b7c" class="room outdoor" data-label="Pearl River a little east of a bridge" cx="1028" cy="407" r="4"/>
-    <circle id="room-24947eeca204cf57030b9417d8c35c6050080342" class="room outdoor" data-label="Pearl River southwest of the Imperial Palace" cx="1042" cy="407" r="4"/>
-    <circle id="room-b57cb38ffb0360cb52ea0ffbbbb57c302d975ed4" class="room outdoor" data-label="Pearl River southwest of the Imperial Palace" cx="1056" cy="407" r="4"/>
-    <circle id="room-35813c30a2c6e51ddbd7842a2ddd604e2282fdb8" class="room outdoor" data-label="Pearl River southwest of the Imperial Palace" cx="1070" cy="407" r="4"/>
-    <circle id="room-435a1842a9359b604f51db3a3286c375b4b98bea" class="room outdoor" data-label="Pearl River southwest of the Imperial Palace" cx="1084" cy="407" r="4"/>
-    <circle id="room-040dc85908382b37e694614cc7eff3de51930f50" class="room outdoor" data-label="Pearl River south of the Imperial Palace" cx="1098" cy="407" r="4"/>
-    <circle id="room-97c8d069ac1ee00a3adcf767df6fba39e29ff871" class="room outdoor" data-label="Pearl River south of the Imperial Palace" cx="1112" cy="407" r="4"/>
-    <circle id="room-a9a40a69d2fba028b3a099913d5e3af8b5dd15ae" class="room outdoor" data-label="Pearl River south of the Imperial Palace" cx="1126" cy="407" r="4"/>
-    <circle id="room-b8ce50a59b729b587778c146ed2e16606f66801c" class="room outdoor" data-label="Pearl River south of the Imperial Palace" cx="1140" cy="407" r="4"/>
-    <circle id="room-dc7f05b448a44abb54461618cfea4d3c03b09121" class="room outdoor" data-label="Pearl River south of the Imperial Palace" cx="1154" cy="407" r="4"/>
-    <circle id="room-7e55c4bd54eff45e7f0a9d34b6202a25d2888b53" class="room outdoor" data-label="Pearl River south of the Imperial Palace" cx="1168" cy="407" r="4"/>
-    <circle id="room-13f76e768919d746387520871b29d5cee050c034" class="room outdoor" data-label="Pearl River south of the Imperial Palace" cx="1182" cy="407" r="4"/>
-    <circle id="room-6787137c7738e12f4df97a936a695f5b1d383ff2" class="room outdoor" data-label="Pearl River south of the Imperial Palace" cx="1196" cy="407" r="4"/>
-    <circle id="room-c06c3072cc21f1d670866a886103304a8d21eeae" class="room outdoor" data-label="Pearl River southeast of the Imperial Palace" cx="1210" cy="407" r="4"/>
-    <circle id="room-d1bf376cefdfaf991c914374584cc9cd9274a8d7" class="room outdoor" data-label="Pearl River southeast of the Imperial Palace" cx="1224" cy="407" r="4"/>
-    <circle id="room-d031e8fae295ead5684a51750b6bc5140e7eab39" class="room outdoor" data-label="Pearl River southeast of the Imperial Palace" cx="1238" cy="407" r="4"/>
-    <circle id="room-a58000bdc8b5870d423c0279e9b9b4b1b880f0c0" class="room outdoor" data-label="east end of the Pearl River" cx="1252" cy="407" r="4"/>
-    <circle id="room-c0084f143904a81f15ee6941f525c086b40ad53e" class="room outdoor" data-label="sunken ship" cx="866" cy="883" r="4"/>
-    <circle id="room-36bc95e4300d1026f265bed816232e34a72564f6" class="room outdoor" data-label="sunken ship" cx="884" cy="883" r="4"/>
-    <circle id="room-d0b82b9a07ec5ef72366c8904950f6de59c4a6ff" class="room outdoor" data-label="sunken ship" cx="884" cy="874" r="4"/>
-    <circle id="room-b508f7b07d88bb1b3f47efd0691e56c835b1e67b" class="room outdoor" data-label="sunken ship" cx="875" cy="874" r="4"/>
-    <circle id="room-00f1fed48995e9f4152be33a4d867583d94c39aa" class="room outdoor" data-label="sunken ship" cx="866" cy="865" r="4"/>
-    <circle id="room-4b905c208982c30363e9b835de555f6b9db7ef0c" class="room outdoor" data-label="sunken ship" cx="875" cy="856" r="4"/>
-    <circle id="room-4b86903b5aea6f98d554b5f01dc173034fb94c1e" class="room outdoor" data-label="sunken ship" cx="884" cy="865" r="4"/>
-    <circle id="room-b1c1ef04f962f5e1dec0b713fb643e3467e85782" class="room outdoor" data-label="sunken ship" cx="875" cy="865" r="4"/>
-    <circle id="room-5c2fe4540cdb39e32ed185c9583d5168ef7bbf42" class="room outdoor" data-label="sunken ship" cx="866" cy="874" r="4"/>
-    <circle id="room-d4d3d177d8ef651e666d34d38a06b0c38c69b03b" class="room outdoor" data-label="hull of a sunken ship" cx="836" cy="869" r="4"/>
-    <circle id="room-ab7ec17f0688d1e100418b89e1c1f204f3ad6026" class="room outdoor" data-label="high altar of Fish" cx="845" cy="856" r="4"/>
-    <circle id="room-908b106cea3159c160146e335d79bb01280f293c" class="room outdoor" data-label="hull of a sunken ship" cx="854" cy="869" r="4"/>
-    <circle id="room-9ea9d88be24887c025cab9d876c1676df5ff053a" class="room outdoor" data-label="hull of a sunken ship" cx="836" cy="883" r="4"/>
-    <circle id="room-884fdbcd2823cb83d757dfca70ac6764da01b7c8" class="room outdoor" data-label="hull of a sunken ship" cx="854" cy="883" r="4"/>
+    <circle id="room-c7b6747441efdfe5a829e5fa561d5ea758662dde" class="room outdoor water" data-label="Pearl River to the east of the Bridge of Bounteous Wealth" cx="958" cy="407" r="4"/>
+    <circle id="room-182d449d01807806799732a1a59918c41f3dc7a5" class="room outdoor water" data-label="Pearl River to the east of the Bridge of Bounteous Wealth" cx="972" cy="407" r="4"/>
+    <circle id="room-e1548dc2bb57cffa5725f96e3742dccd71743ed0" class="room outdoor water" data-label="Pearl River a little east of a bridge" cx="986" cy="407" r="4"/>
+    <circle id="room-147249294da4cb22bef5622931d38011d16c0a12" class="room outdoor water" data-label="Pearl River a little east of a bridge" cx="1000" cy="407" r="4"/>
+    <circle id="room-f3220d859fca955682c783ce7c9ed7a1a6823da0" class="room outdoor water" data-label="Pearl River a little east of a bridge" cx="1014" cy="407" r="4"/>
+    <circle id="room-7926265c2cab5e7f7f8b583a07f9602cea108b7c" class="room outdoor water" data-label="Pearl River a little east of a bridge" cx="1028" cy="407" r="4"/>
+    <circle id="room-24947eeca204cf57030b9417d8c35c6050080342" class="room outdoor water" data-label="Pearl River southwest of the Imperial Palace" cx="1042" cy="407" r="4"/>
+    <circle id="room-b57cb38ffb0360cb52ea0ffbbbb57c302d975ed4" class="room outdoor water" data-label="Pearl River southwest of the Imperial Palace" cx="1056" cy="407" r="4"/>
+    <circle id="room-35813c30a2c6e51ddbd7842a2ddd604e2282fdb8" class="room outdoor water" data-label="Pearl River southwest of the Imperial Palace" cx="1070" cy="407" r="4"/>
+    <circle id="room-435a1842a9359b604f51db3a3286c375b4b98bea" class="room outdoor water" data-label="Pearl River southwest of the Imperial Palace" cx="1084" cy="407" r="4"/>
+    <circle id="room-040dc85908382b37e694614cc7eff3de51930f50" class="room outdoor water" data-label="Pearl River south of the Imperial Palace" cx="1098" cy="407" r="4"/>
+    <circle id="room-97c8d069ac1ee00a3adcf767df6fba39e29ff871" class="room outdoor water" data-label="Pearl River south of the Imperial Palace" cx="1112" cy="407" r="4"/>
+    <circle id="room-a9a40a69d2fba028b3a099913d5e3af8b5dd15ae" class="room outdoor water" data-label="Pearl River south of the Imperial Palace" cx="1126" cy="407" r="4"/>
+    <circle id="room-b8ce50a59b729b587778c146ed2e16606f66801c" class="room outdoor water" data-label="Pearl River south of the Imperial Palace" cx="1140" cy="407" r="4"/>
+    <circle id="room-dc7f05b448a44abb54461618cfea4d3c03b09121" class="room outdoor water" data-label="Pearl River south of the Imperial Palace" cx="1154" cy="407" r="4"/>
+    <circle id="room-7e55c4bd54eff45e7f0a9d34b6202a25d2888b53" class="room outdoor water" data-label="Pearl River south of the Imperial Palace" cx="1168" cy="407" r="4"/>
+    <circle id="room-13f76e768919d746387520871b29d5cee050c034" class="room outdoor water" data-label="Pearl River south of the Imperial Palace" cx="1182" cy="407" r="4"/>
+    <circle id="room-6787137c7738e12f4df97a936a695f5b1d383ff2" class="room outdoor water" data-label="Pearl River south of the Imperial Palace" cx="1196" cy="407" r="4"/>
+    <circle id="room-c06c3072cc21f1d670866a886103304a8d21eeae" class="room outdoor water" data-label="Pearl River southeast of the Imperial Palace" cx="1210" cy="407" r="4"/>
+    <circle id="room-d1bf376cefdfaf991c914374584cc9cd9274a8d7" class="room outdoor water" data-label="Pearl River southeast of the Imperial Palace" cx="1224" cy="407" r="4"/>
+    <circle id="room-d031e8fae295ead5684a51750b6bc5140e7eab39" class="room outdoor water" data-label="Pearl River southeast of the Imperial Palace" cx="1238" cy="407" r="4"/>
+    <circle id="room-a58000bdc8b5870d423c0279e9b9b4b1b880f0c0" class="room outdoor water" data-label="east end of the Pearl River" cx="1252" cy="407" r="4"/>
+    <circle id="room-c0084f143904a81f15ee6941f525c086b40ad53e" class="room outdoor water" data-label="sunken ship" cx="866" cy="883" r="4"/>
+    <circle id="room-36bc95e4300d1026f265bed816232e34a72564f6" class="room outdoor water" data-label="sunken ship" cx="884" cy="883" r="4"/>
+    <circle id="room-d0b82b9a07ec5ef72366c8904950f6de59c4a6ff" class="room outdoor water" data-label="sunken ship" cx="884" cy="874" r="4"/>
+    <circle id="room-b508f7b07d88bb1b3f47efd0691e56c835b1e67b" class="room outdoor water" data-label="sunken ship" cx="875" cy="874" r="4"/>
+    <circle id="room-00f1fed48995e9f4152be33a4d867583d94c39aa" class="room outdoor water" data-label="sunken ship" cx="866" cy="865" r="4"/>
+    <circle id="room-4b905c208982c30363e9b835de555f6b9db7ef0c" class="room outdoor water" data-label="sunken ship" cx="875" cy="856" r="4"/>
+    <circle id="room-4b86903b5aea6f98d554b5f01dc173034fb94c1e" class="room outdoor water" data-label="sunken ship" cx="884" cy="865" r="4"/>
+    <circle id="room-b1c1ef04f962f5e1dec0b713fb643e3467e85782" class="room outdoor water" data-label="sunken ship" cx="875" cy="865" r="4"/>
+    <circle id="room-5c2fe4540cdb39e32ed185c9583d5168ef7bbf42" class="room outdoor water" data-label="sunken ship" cx="866" cy="874" r="4"/>
+    <circle id="room-d4d3d177d8ef651e666d34d38a06b0c38c69b03b" class="room outdoor water" data-label="hull of a sunken ship" cx="836" cy="869" r="4"/>
+    <circle id="room-ab7ec17f0688d1e100418b89e1c1f204f3ad6026" class="room outdoor water" data-label="high altar of Fish" cx="845" cy="856" r="4"/>
+    <circle id="room-908b106cea3159c160146e335d79bb01280f293c" class="room outdoor water" data-label="hull of a sunken ship" cx="854" cy="869" r="4"/>
+    <circle id="room-9ea9d88be24887c025cab9d876c1676df5ff053a" class="room outdoor water" data-label="hull of a sunken ship" cx="836" cy="883" r="4"/>
+    <circle id="room-884fdbcd2823cb83d757dfca70ac6764da01b7c8" class="room outdoor water" data-label="hull of a sunken ship" cx="854" cy="883" r="4"/>
     <rect id="room-9c93db41c1146573f8a4717e9ee5baf5f608162b" class="room indoor" data-label="grotto behind a waterfall" x="660" y="646" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="664,653 661.5,648 666.5,648"/>
     <rect id="room-ff17ac0d431d8c545d7e1f121de40fde639a3797" class="room indoor" data-label="winding underground staircase" x="660" y="646" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="664,647 666.5,650 664,653 661.5,650"/>
     <rect id="room-42382eaa8c44bd6e1d19b5f95b774b6915d6f317" class="room indoor" data-label="round cavern" x="660" y="646" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="664,647 661.5,652 666.5,652"/>
@@ -4447,297 +4447,297 @@
     <rect id="room-3b904a2d22953699d1c8726d54e8c16f342be3bc" class="room indoor room-food" data-label="silk sampan" x="1080" y="758" width="8" height="8" rx="2"/><text class="room-type-label" x="1084" y="762" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-7f705c76e1d9eec0540c4f43ffd4ad0b023f2b14" class="room indoor room-clothes" data-label="clothing sampan" x="1080" y="758" width="8" height="8" rx="2"/><text class="room-type-label" x="1084" y="762" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-c29d077383c955c599fa0ec1dd249cd9223a8e13" class="room indoor room-food" data-label="bric-a-brac sampan" x="1080" y="758" width="8" height="8" rx="2"/><text class="room-type-label" x="1084" y="762" text-anchor="middle" dominant-baseline="central">F</text>
-    <circle id="room-535ed04abfbea596895bd50e089ae783bf4b280c" class="room outdoor" data-label="underneath the piers" cx="1084" cy="776" r="4"/>
-    <circle id="room-4848f7b7ead2db2ad5c97ce17c87ab240432fb4c" class="room outdoor" data-label="underneath the piers" cx="1084" cy="762" r="4"/>
-    <circle id="room-97f6ce3fc08f2f91ef0651053346b39d358b4239" class="room outdoor" data-label="choppy surface of the bay between two piers" cx="1098" cy="762" r="4"/>
-    <circle id="room-4df1fc6ea944941a27b8540c4962ae4aef25f560" class="room outdoor" data-label="choppy surface of the bay between two piers" cx="1098" cy="776" r="4"/>
-    <circle id="room-ac5c628d0fd07864c167f8a9a825db47278e5092" class="room outdoor" data-label="underneath the piers" cx="1112" cy="776" r="4"/>
-    <circle id="room-8b1880e4832e906adc8ac21ba7326c2c1b83f8ba" class="room outdoor" data-label="underneath the piers" cx="1112" cy="762" r="4"/>
-    <circle id="room-dbba63eac8745526a1d66d69ba4f8b01c0ff1c64" class="room outdoor" data-label="beside the piers" cx="1126" cy="762" r="4"/>
-    <circle id="room-a36d034d4748b69f55e8ddf14b39b818b483deb1" class="room outdoor" data-label="beside the piers" cx="1126" cy="776" r="4"/>
-    <circle id="room-92b9076fc0578e3281a03fc7be464a0b3b988813" class="room outdoor" data-label="surface of Tuna Bay" cx="1140" cy="776" r="4"/>
-    <circle id="room-56c8f273d75746605f9df3b549a5ddf534e5afe4" class="room outdoor" data-label="surface of Tuna Bay" cx="1140" cy="762" r="4"/>
-    <circle id="room-6309bf56094c069756b8c2dea9a992b9c600f100" class="room outdoor" data-label="surface of Tuna Bay" cx="1154" cy="776" r="4"/>
-    <circle id="room-2d3488bc13e13a0305c28ca43471568e7ab76d2f" class="room outdoor" data-label="choppy surface of the bay between two piers" cx="1084" cy="790" r="4"/>
-    <circle id="room-c93022b2b190b7f1209b1709e3f59f3cefc03774" class="room outdoor" data-label="near the end of the piers" cx="1084" cy="804" r="4"/>
-    <circle id="room-3b8559723700fa2c205c0b2cff8bf713891f05c0" class="room outdoor" data-label="surface of Tuna Bay" cx="1084" cy="818" r="4"/>
-    <circle id="room-35107c5bc7a0648ae78202294ab3d89ecf287fd7" class="room outdoor" data-label="surface of Tuna Bay" cx="1084" cy="832" r="4"/>
-    <circle id="room-8f5f196b66fbe4a3aeef4eafa28e5aea1b730135" class="room outdoor" data-label="surface of Tuna Bay" cx="1084" cy="846" r="4"/>
-    <circle id="room-521250373b171341a0c04993370186e7b119aa17" class="room outdoor" data-label="surface of Tuna Bay" cx="1084" cy="860" r="4"/>
-    <circle id="room-bf8c81a58fb6ee82696c8244d109c67437c6cde8" class="room outdoor" data-label="surface of Tuna Bay" cx="1084" cy="874" r="4"/>
-    <circle id="room-3e4fe23cb4dbb4a67071f7895d929e331d4dba76" class="room outdoor" data-label="surface of Tuna Bay" cx="1084" cy="888" r="4"/>
-    <circle id="room-b5a32478f4ab1b6c32025ab144676922c87335be" class="room outdoor" data-label="surface of Tuna Bay" cx="1084" cy="902" r="4"/>
-    <circle id="room-16cf3b9fe8154590de162baaeae2fea720dcb21d" class="room outdoor" data-label="surface of Tuna Bay" cx="1098" cy="902" r="4"/>
-    <circle id="room-398f4cd6c18aaec4169f706e1e24e14694759b8a" class="room outdoor" data-label="surface of Tuna Bay" cx="1098" cy="888" r="4"/>
-    <circle id="room-5604b908f515c002668bdb3e60f6f8aad2cd7efe" class="room outdoor" data-label="surface of Tuna Bay" cx="1098" cy="874" r="4"/>
-    <circle id="room-8cb0fee14018e7e5154b91e6d908533dbe72b15b" class="room outdoor" data-label="surface of Tuna Bay" cx="1098" cy="860" r="4"/>
-    <circle id="room-59603a4348ce7bd98b4939c2bd13741cb5733e55" class="room outdoor" data-label="surface of Tuna Bay" cx="1098" cy="846" r="4"/>
-    <circle id="room-4f7e57ee5ae431ce6b61bb5e237a3f9c303d17b3" class="room outdoor" data-label="surface of Tuna Bay" cx="1098" cy="832" r="4"/>
-    <circle id="room-16f8abd5d2963788ffe69a8611715f642199e185" class="room outdoor" data-label="surface of Tuna Bay" cx="1098" cy="818" r="4"/>
-    <circle id="room-4cf328f589111c16fa29f742c12e548d569611ae" class="room outdoor" data-label="near the end of the piers" cx="1098" cy="804" r="4"/>
-    <circle id="room-135326ec2622c228f3decdf739868e1152a3afa9" class="room outdoor" data-label="choppy surface of the bay between two piers" cx="1098" cy="790" r="4"/>
-    <circle id="room-1fa8e936ee73099ee90cde1b110d5e1a32f989b7" class="room outdoor" data-label="underneath the piers" cx="1112" cy="790" r="4"/>
-    <circle id="room-9faadf18a8c980642e104c7ee8bfcb3571123806" class="room outdoor" data-label="near the end of the piers" cx="1112" cy="804" r="4"/>
-    <circle id="room-96f145dc9c5f9ade79b07c81c5c8a3e5564155dc" class="room outdoor" data-label="surface of Tuna Bay" cx="1112" cy="818" r="4"/>
-    <circle id="room-0a435525a4cfc01589fea3b507235d5d922f03ed" class="room outdoor" data-label="surface of Tuna Bay" cx="1112" cy="832" r="4"/>
-    <circle id="room-57bcd9e8e4167f78ddd0dee52f520f86baa358e3" class="room outdoor" data-label="surface of Tuna Bay" cx="1112" cy="846" r="4"/>
-    <circle id="room-80ae8997a43fc6e03e20b892e19545d487a012fc" class="room outdoor" data-label="surface of Tuna Bay" cx="1112" cy="860" r="4"/>
-    <circle id="room-3f8580f2cecb77ef931d5d41edf0719f349d2ecd" class="room outdoor" data-label="surface of Tuna Bay" cx="1112" cy="874" r="4"/>
-    <circle id="room-190aee2c59a2a57b0e5a0e5224c9dac9f08ba87a" class="room outdoor" data-label="surface of Tuna Bay" cx="1112" cy="888" r="4"/>
-    <circle id="room-9b92be7d4d14156640a442b41010238c6fb6aa02" class="room outdoor" data-label="surface of Tuna Bay" cx="1112" cy="902" r="4"/>
-    <circle id="room-7d0a3969f0df81e1e9ac0383bbac3078dfd2e8db" class="room outdoor" data-label="surface of Tuna Bay" cx="1126" cy="902" r="4"/>
-    <circle id="room-a9392364f3eba56592d38cb010a41f909d1d3e45" class="room outdoor" data-label="surface of Tuna Bay" cx="1126" cy="888" r="4"/>
-    <circle id="room-97b8a1785f65254a895b81a75626919dca98718a" class="room outdoor" data-label="surface of Tuna Bay" cx="1126" cy="874" r="4"/>
-    <circle id="room-2b18e602c486580d9943f3af61e2fe888c3e7234" class="room outdoor" data-label="surface of Tuna Bay" cx="1126" cy="860" r="4"/>
-    <circle id="room-c10e5b3d3314364bd32da2c09b9c2cef601d24df" class="room outdoor" data-label="surface of Tuna Bay" cx="1126" cy="846" r="4"/>
-    <circle id="room-86b53b4c97fc4d1bca2e3f99b60642dfc7aaa356" class="room outdoor" data-label="surface of Tuna Bay" cx="1126" cy="832" r="4"/>
-    <circle id="room-b56ae04910c7e715883e9961d12bf55cfb184919" class="room outdoor" data-label="surface of Tuna Bay" cx="1126" cy="818" r="4"/>
-    <circle id="room-2a2314631db744f17764155893f56d410d12db04" class="room outdoor" data-label="near the end of the piers" cx="1126" cy="804" r="4"/>
-    <circle id="room-36252322c86ac248038d87ccfbc27fdefc8b62e1" class="room outdoor" data-label="beside the piers" cx="1126" cy="790" r="4"/>
-    <circle id="room-b59df7abf7b9ccb317affa87e9be3e1d85900ef2" class="room outdoor" data-label="surface of Tuna Bay" cx="1140" cy="790" r="4"/>
-    <circle id="room-e23e28262274e1341c2b5b56df47e68dd97ada2d" class="room outdoor" data-label="surface of Tuna Bay" cx="1140" cy="804" r="4"/>
-    <circle id="room-0c2388738f2361d37c57dcecb66ee2df258e4796" class="room outdoor" data-label="surface of Tuna Bay" cx="1140" cy="818" r="4"/>
-    <circle id="room-38e8ec2fb4d0d90297123c2d56fd30bfcb9d08bf" class="room outdoor" data-label="surface of Tuna Bay" cx="1140" cy="832" r="4"/>
-    <circle id="room-26f8537c3ede894ee0d46609064e1663f67c54da" class="room outdoor" data-label="surface of Tuna Bay" cx="1140" cy="846" r="4"/>
-    <circle id="room-9e7b3d9a5e1180bc1cfe9f47eb733ec6b6916298" class="room outdoor" data-label="surface of Tuna Bay" cx="1140" cy="860" r="4"/>
-    <circle id="room-49ee840fed702d7841f17de6c2cc88ef9a8b744b" class="room outdoor" data-label="surface of Tuna Bay" cx="1140" cy="874" r="4"/>
-    <circle id="room-e31e065430d073de5e882cff9cd69805f153b001" class="room outdoor" data-label="surface of Tuna Bay" cx="1140" cy="888" r="4"/>
-    <circle id="room-b72af3b532c1fc1d9acca3321d006ffc40186c5b" class="room outdoor" data-label="surface of Tuna Bay" cx="1140" cy="902" r="4"/>
-    <circle id="room-13f8062b6f034c79190a572dab4cfacaa0a4d3c6" class="room outdoor" data-label="surface of Tuna Bay" cx="1154" cy="902" r="4"/>
-    <circle id="room-79ce85665ea826ebce2608ebf1a9bb9418595f7e" class="room outdoor" data-label="surface of Tuna Bay" cx="1154" cy="888" r="4"/>
-    <circle id="room-e4b783038ad3deacf40fd3b1a9434dd6723e6598" class="room outdoor" data-label="middle of Tuna Bay next to a huge broken mast" cx="1154" cy="874" r="4"/>
-    <circle id="room-d9945ea6ea083683b65c50e05c366b17459843d1" class="room outdoor" data-label="surface of Tuna Bay" cx="1154" cy="860" r="4"/>
-    <circle id="room-cc99e2975d9c7cb86857230ad912b96204843402" class="room outdoor" data-label="surface of Tuna Bay" cx="1154" cy="846" r="4"/>
-    <circle id="room-bf4963493ffe8930bcbdcf0a3ce6428ca49d52d2" class="room outdoor" data-label="surface of Tuna Bay" cx="1154" cy="832" r="4"/>
-    <circle id="room-049c668d9d5fc50dd49c0d57ed46010f50654b9e" class="room outdoor" data-label="surface of Tuna Bay" cx="1154" cy="818" r="4"/>
-    <circle id="room-7da6b6459903b56460e4c296057e5f970ed1632e" class="room outdoor" data-label="surface of Tuna Bay" cx="1154" cy="804" r="4"/>
-    <circle id="room-e4943c4df3bd9da1d0f8236296c8297ec74085e0" class="room outdoor" data-label="surface of Tuna Bay" cx="1154" cy="790" r="4"/>
-    <circle id="room-41333644024a104b3c75889d0ec21a0687baf54c" class="room outdoor" data-label="surface of Tuna Bay" cx="1168" cy="790" r="4"/>
-    <circle id="room-38eed535288d0c6c50eb38add518cab1dfdd5449" class="room outdoor" data-label="surface of Tuna Bay" cx="1168" cy="804" r="4"/>
-    <circle id="room-20f01f94986a7a912e1306c45e3a797c560f9160" class="room outdoor" data-label="surface of Tuna Bay" cx="1182" cy="804" r="4"/>
-    <circle id="room-abc76580b3f88cbfac04416ca10c77168f79ff98" class="room outdoor" data-label="surface of Tuna Bay" cx="1182" cy="818" r="4"/>
-    <circle id="room-790e8c1eca75d0964e15c13bad905fbdba21466d" class="room outdoor" data-label="surface of Tuna Bay" cx="1168" cy="818" r="4"/>
-    <circle id="room-7694cad7cd9d6bb93eae0a370a340da4e2d259ad" class="room outdoor" data-label="surface of Tuna Bay" cx="1168" cy="832" r="4"/>
-    <circle id="room-e6062e80c9bf8372f2fdc1cb3681d9d679d67c63" class="room outdoor" data-label="surface of Tuna Bay" cx="1168" cy="846" r="4"/>
-    <circle id="room-34960573698c98efc3ec0cdd80da967455066cf1" class="room outdoor" data-label="surface of Tuna Bay" cx="1168" cy="860" r="4"/>
-    <circle id="room-bb8b0112ffaad54829d1d5e6c7815e7180e439d3" class="room outdoor" data-label="surface of Tuna Bay" cx="1168" cy="874" r="4"/>
-    <circle id="room-c40ea72616fac7b89e38fcd3ecda562966b788f5" class="room outdoor" data-label="surface of Tuna Bay" cx="1168" cy="888" r="4"/>
-    <circle id="room-0722390e575b7cf2ed173b62712c567a67575a10" class="room outdoor" data-label="surface of Tuna Bay" cx="1168" cy="902" r="4"/>
-    <circle id="room-c73c310db4617e3bc27d7424a420833a7b4aa565" class="room outdoor" data-label="surface of Tuna Bay" cx="1182" cy="902" r="4"/>
-    <circle id="room-a0f48250fdd0a9e391c618e435d34fe310a821ec" class="room outdoor" data-label="surface of Tuna Bay" cx="1196" cy="902" r="4"/>
-    <circle id="room-7ecc34cc370e6b1c5bbbf7d736084952ad48808e" class="room outdoor" data-label="surface of Tuna Bay" cx="1196" cy="888" r="4"/>
-    <circle id="room-571bafa6a38feb76691305a01112b3946ddbc1b2" class="room outdoor" data-label="surface of Tuna Bay" cx="1182" cy="888" r="4"/>
-    <circle id="room-a52381a3f9e5a5b6db044089142c641a85da7256" class="room outdoor" data-label="surface of Tuna Bay" cx="1196" cy="874" r="4"/>
-    <circle id="room-0cd58935105adc7d7a9a5dc337edbefe605cbece" class="room outdoor" data-label="surface of Tuna Bay" cx="1182" cy="874" r="4"/>
-    <circle id="room-9876d37700fd8623d4013565e71738ac97e3f0e7" class="room outdoor" data-label="surface of Tuna Bay" cx="1196" cy="860" r="4"/>
-    <circle id="room-ccc126f451dd57d2b36ec17475d44ad7464152c6" class="room outdoor" data-label="surface of Tuna Bay" cx="1182" cy="860" r="4"/>
-    <circle id="room-081ebfc610281b690216455dd9688b6ca0c715c7" class="room outdoor" data-label="surface of Tuna Bay" cx="1182" cy="846" r="4"/>
-    <circle id="room-36528eacd591fb1a488a3e3504e036896df6eac0" class="room outdoor" data-label="surface of Tuna Bay" cx="1196" cy="846" r="4"/>
-    <circle id="room-9263e7ec8358cf084eb38ab5bc1214078f83c25d" class="room outdoor" data-label="surface of Tuna Bay" cx="1224" cy="846" r="4"/>
-    <circle id="room-42826ae752e7e6a1edea42a42ff2966da5b012e6" class="room outdoor" data-label="surface of Tuna Bay" cx="1224" cy="860" r="4"/>
-    <circle id="room-9175d26431a18f8c66bf3b9cb818317f7ffe0c6d" class="room outdoor" data-label="surface of Tuna Bay" cx="1224" cy="874" r="4"/>
-    <circle id="room-8918d5c74825c8efd088d25eb87e29dd86133ca3" class="room outdoor" data-label="surface of Tuna Bay" cx="1224" cy="888" r="4"/>
-    <circle id="room-a7b22aded1ac5cfe6af6a80c28e64a27842d5499" class="room outdoor" data-label="surface of Tuna Bay" cx="1224" cy="902" r="4"/>
-    <circle id="room-fa44a2fd95e48fb948ec73ccd841cf35b9b3ec8d" class="room outdoor" data-label="surface of Tuna Bay" cx="1238" cy="902" r="4"/>
-    <circle id="room-b6d926c787a531ebe9bf1d035cecce362a3a6af7" class="room outdoor" data-label="surface of Tuna Bay" cx="1238" cy="888" r="4"/>
-    <circle id="room-553bbef3a95fe8894724742ad4cfcb967cc0ee03" class="room outdoor" data-label="surface of Tuna Bay" cx="1238" cy="874" r="4"/>
-    <circle id="room-522c314d4eea80061488e6f9162eb8fefca79f4f" class="room outdoor" data-label="surface of Tuna Bay" cx="1238" cy="860" r="4"/>
-    <circle id="room-99b20724ba9d1a99ec566e46b5fb442b8f4239af" class="room outdoor" data-label="surface of Tuna Bay" cx="1238" cy="846" r="4"/>
-    <circle id="room-829fcafada84e539ad65ab759c0e147ab24e1919" class="room outdoor" data-label="surface of Tuna Bay" cx="1238" cy="832" r="4"/>
-    <circle id="room-0b2a1b979e34c51bf320ddb804a4b5bcb2b4514f" class="room outdoor" data-label="surface of Tuna Bay" cx="1224" cy="832" r="4"/>
-    <circle id="room-3a7c635fd115a8fa713e869dee77f36f636fce67" class="room outdoor" data-label="surface of Tuna Bay" cx="1224" cy="818" r="4"/>
-    <circle id="room-7ba777ae9676b3f93f6d36bd125c2cc3e33a19bb" class="room outdoor" data-label="surface of Tuna Bay" cx="1238" cy="818" r="4"/>
-    <circle id="room-ab0a55a344037158b8b58c3bbe18440e19c7fff7" class="room outdoor" data-label="surface of Tuna Bay" cx="1238" cy="804" r="4"/>
-    <circle id="room-905b5b6d213769a0e619cf52ba2bc7f936f7aca1" class="room outdoor" data-label="surface of Tuna Bay" cx="1224" cy="804" r="4"/>
-    <circle id="room-92c04aa34f3060aac698324129ef5822fe0e0d8c" class="room outdoor" data-label="surface of Tuna Bay" cx="1224" cy="790" r="4"/>
-    <circle id="room-d006745855c7104f8e06240997b42abd690054ea" class="room outdoor" data-label="surface of Tuna Bay" cx="1238" cy="790" r="4"/>
-    <circle id="room-7e61956e686f865e78cbc00bbe5201b0f9e3dfaf" class="room outdoor" data-label="surface of Tuna Bay next to some sampan docks" cx="1238" cy="776" r="4"/>
-    <circle id="room-1f583f1bbfe66a23ad5c90a8d135b2496ce48d4d" class="room outdoor" data-label="surface of Tuna Bay next to some sampan docks" cx="1224" cy="776" r="4"/>
-    <circle id="room-cec961cfc024cf02655156e435f6b853d56dfb37" class="room outdoor" data-label="surface of Tuna Bay next to some sampan docks" cx="1210" cy="776" r="4"/>
-    <circle id="room-8709a7473c950687c613a10aa8e8292849c5417e" class="room outdoor" data-label="surface of Tuna Bay next to some sampan docks" cx="1196" cy="762" r="4"/>
-    <circle id="room-12a84a66d82d4b6eb73e1c6209477febdf1f9066" class="room outdoor" data-label="surface of Tuna Bay next to some sampan docks" cx="1196" cy="748" r="4"/>
-    <circle id="room-b0098f461f9965f6d67fecee6fe7284acf7d0019" class="room outdoor" data-label="surface of Tuna Bay next to some sampan docks" cx="1210" cy="748" r="4"/>
-    <circle id="room-8926558373d7edcccccf69405ba33ae16906f788" class="room outdoor" data-label="surface of Tuna Bay next to some sampan docks" cx="1210" cy="734" r="4"/>
-    <circle id="room-e807544c1ac6ca6d7603d6cc5616bb00a6285f02" class="room outdoor" data-label="surface of Tuna Bay next to some sampan docks" cx="1224" cy="734" r="4"/>
-    <circle id="room-339da6da7d239a1e150ec8b0794be3b608850e72" class="room outdoor" data-label="surface of Tuna Bay next to some sampan docks" cx="1238" cy="720" r="4"/>
-    <circle id="room-072a3838c531f9f3410c420aa31ca45c17ba754d" class="room outdoor" data-label="surface of Tuna Bay next to some sampan docks" cx="1252" cy="720" r="4"/>
-    <circle id="room-b256fdc64cc9d97e929f508e7ca13bd11f398a79" class="room outdoor" data-label="surface of Tuna Bay next to some sampan docks" cx="1252" cy="734" r="4"/>
-    <circle id="room-1f5509ced5f39a0a6b1ed57ff783a1e0eb1c4ac6" class="room outdoor" data-label="surface of Tuna Bay next to some sampan docks" cx="1266" cy="734" r="4"/>
-    <circle id="room-36cb0e2608914bc0d3947af028ab302ffe3fe962" class="room outdoor" data-label="surface of Tuna Bay" cx="1266" cy="720" r="4"/>
-    <circle id="room-570cfab398fde7b8d249943a8f3e0173e10a9bb1" class="room outdoor" data-label="surface of Tuna Bay" cx="1280" cy="720" r="4"/>
-    <circle id="room-53a84931b516f3b3c391b53890394267b6bbb4d5" class="room outdoor" data-label="surface of Tuna Bay" cx="1294" cy="720" r="4"/>
-    <circle id="room-4ecddca8cba8ed35df519656eec13de764b4f5d8" class="room outdoor" data-label="surface of Tuna Bay" cx="1294" cy="734" r="4"/>
-    <circle id="room-5ade91c3d60ac4f915e3a34b081e77d525804ec5" class="room outdoor" data-label="surface of Tuna Bay" cx="1280" cy="734" r="4"/>
-    <circle id="room-6d217dd07b0e715d363328096dadc875019e9675" class="room outdoor" data-label="surface of Tuna Bay next to some sampan docks" cx="1266" cy="748" r="4"/>
-    <circle id="room-062393b7486fbd41c14cc367d57bcfd7a56260f2" class="room outdoor" data-label="surface of Tuna Bay next to some sampan docks" cx="1280" cy="748" r="4"/>
-    <circle id="room-88c77ce6eb221e018e2e4456242c529063302314" class="room outdoor" data-label="surface of Tuna Bay next to some sampan docks" cx="1294" cy="748" r="4"/>
-    <circle id="room-9ccf10eed8f1f760ac7eb580e76d40530517a70b" class="room outdoor" data-label="surface of Tuna Bay next to some sampan docks" cx="1294" cy="762" r="4"/>
-    <circle id="room-26e3732745efb078912be2cb82b5792a6470711e" class="room outdoor" data-label="surface of Tuna Bay next to some sampan docks" cx="1280" cy="762" r="4"/>
-    <circle id="room-54c3b7928845f9721d8440d9480ff7a2f6ba97a0" class="room outdoor" data-label="surface of Tuna Bay" cx="1294" cy="776" r="4"/>
-    <circle id="room-bd7b933186ba9ddd987dafc29db7ab7050ade0fe" class="room outdoor" data-label="surface of Tuna Bay next to some sampan docks" cx="1280" cy="776" r="4"/>
-    <circle id="room-e6ea9e178e3b1c8ceacfc529fdfdfbc1044aed64" class="room outdoor" data-label="surface of Tuna Bay next to some sampan docks" cx="1266" cy="776" r="4"/>
-    <circle id="room-11ac2bc7545a9c7275f0cc2c2c4144a875db4cdd" class="room outdoor" data-label="surface of Tuna Bay next to some sampan docks" cx="1252" cy="776" r="4"/>
-    <circle id="room-df1af2da588adc32db15e8a7221e312b504ba0b4" class="room outdoor" data-label="surface of Tuna Bay next to some sampan docks" cx="1252" cy="762" r="4"/>
-    <circle id="room-3128e67568df3c7cec33a513b2663760c25d6e6d" class="room outdoor" data-label="surface of Tuna Bay next to some sampan docks" cx="1238" cy="762" r="4"/>
-    <circle id="room-d52072cd9f7985cac594f955a9d4724256c2690b" class="room outdoor" data-label="surface of Tuna Bay next to some sampan docks" cx="1224" cy="762" r="4"/>
-    <circle id="room-a989d1ebe95374e095cb1f2f36c6affae550163c" class="room outdoor" data-label="surface of Tuna Bay" cx="1252" cy="790" r="4"/>
-    <circle id="room-b2f3473fcb7220ec83efea89d275ca99539719c4" class="room outdoor" data-label="surface of Tuna Bay" cx="1266" cy="790" r="4"/>
-    <circle id="room-b1076d10a7dc4f9e8cd517bee4005d0ebf2bd166" class="room outdoor" data-label="surface of Tuna Bay" cx="1252" cy="804" r="4"/>
-    <circle id="room-916fad0d0708a12717b7bfdedeae603b56f9b067" class="room outdoor" data-label="surface of Tuna Bay" cx="1266" cy="804" r="4"/>
-    <circle id="room-615dbe8871d702e17d97133ea72115fc45548ee2" class="room outdoor" data-label="surface of Tuna Bay" cx="1252" cy="818" r="4"/>
-    <circle id="room-878a0cc27e7f44638c0577b2f7a836e3196f18e8" class="room outdoor" data-label="surface of Tuna Bay" cx="1266" cy="818" r="4"/>
-    <circle id="room-77e759c6514abc804bd0efc70213f0b04776b069" class="room outdoor" data-label="surface of Tuna Bay" cx="1252" cy="832" r="4"/>
-    <circle id="room-d591cee5ad2c3defe95621de0621039168c6b70e" class="room outdoor" data-label="surface of Tuna Bay" cx="1266" cy="832" r="4"/>
-    <circle id="room-d857b3a408d1927f33798f6b0be465346b17df91" class="room outdoor" data-label="surface of Tuna Bay" cx="1252" cy="846" r="4"/>
-    <circle id="room-98af29e583ffdd7c775d53563cab3181c5b6505b" class="room outdoor" data-label="surface of Tuna Bay" cx="1266" cy="846" r="4"/>
-    <circle id="room-70176dcd62355e14f7211a8faeae4da33bd5cf16" class="room outdoor" data-label="surface of Tuna Bay" cx="1252" cy="860" r="4"/>
-    <circle id="room-4527594bf9694d98a9102c58604a31076cd9a16d" class="room outdoor" data-label="surface of Tuna Bay" cx="1266" cy="860" r="4"/>
-    <circle id="room-ca3824fdee7213b2f308f4234d6b5ca34100a851" class="room outdoor" data-label="surface of Tuna Bay" cx="1252" cy="874" r="4"/>
-    <circle id="room-4324def0c7eb8057414a3646951566a34eb4f5bb" class="room outdoor" data-label="surface of Tuna Bay" cx="1266" cy="874" r="4"/>
-    <circle id="room-2f392f67fad2d196c4020303c4f510e3daa42a8a" class="room outdoor" data-label="surface of Tuna Bay" cx="1252" cy="888" r="4"/>
-    <circle id="room-2471897e87d75d759da430570c0db07ef3d952d4" class="room outdoor" data-label="surface of Tuna Bay" cx="1266" cy="888" r="4"/>
-    <circle id="room-c6c0dcb9d9793770e0cba0ee822e027aac2e5f4a" class="room outdoor" data-label="surface of Tuna Bay" cx="1252" cy="902" r="4"/>
-    <circle id="room-f08d20255a7f73ca16f33d156109c8385d7f8737" class="room outdoor" data-label="surface of Tuna Bay" cx="1266" cy="902" r="4"/>
-    <circle id="room-c16977c27bcc1dff85e67762347ef029f0b8671f" class="room outdoor" data-label="surface of Tuna Bay" cx="1280" cy="902" r="4"/>
-    <circle id="room-3868beb78acc6f3ff217014b9eac2059aa565568" class="room outdoor" data-label="surface of Tuna Bay" cx="1294" cy="902" r="4"/>
-    <circle id="room-10bedf429ab442dfc8794bba05c23c5b70c98dab" class="room outdoor" data-label="surface of Tuna Bay" cx="1294" cy="888" r="4"/>
-    <circle id="room-80f639a0b6740ac6f766760de0aa7299336bb3be" class="room outdoor" data-label="surface of Tuna Bay" cx="1294" cy="874" r="4"/>
-    <circle id="room-37f81d9d51b622fd21756633ae6cc5e64f252b2c" class="room outdoor" data-label="surface of Tuna Bay" cx="1294" cy="860" r="4"/>
-    <circle id="room-2693ba7df0b458979ba90e14a1fb6edf6fa5b649" class="room outdoor" data-label="surface of Tuna Bay" cx="1294" cy="846" r="4"/>
-    <circle id="room-1d05ffd53c48cf16b218c0cf33f1f55faca08ff2" class="room outdoor" data-label="surface of Tuna Bay" cx="1294" cy="832" r="4"/>
-    <circle id="room-b85984f3f1f418403829c1234842fd8a1ef007c2" class="room outdoor" data-label="surface of Tuna Bay" cx="1294" cy="818" r="4"/>
-    <circle id="room-e4a25b0a4a5a438cdf6cc39443109be281481ff9" class="room outdoor" data-label="surface of Tuna Bay" cx="1294" cy="804" r="4"/>
-    <circle id="room-5c70102e020496593b5ee8248187ae4be0e48bed" class="room outdoor" data-label="surface of Tuna Bay" cx="1294" cy="790" r="4"/>
-    <circle id="room-a27977c9750e7ea004b044ba4c0eac76b619e735" class="room outdoor" data-label="surface of Tuna Bay" cx="1280" cy="790" r="4"/>
-    <circle id="room-d4d4cbc0374920db98e6f459b488df96d12e82cd" class="room outdoor" data-label="surface of Tuna Bay" cx="1280" cy="804" r="4"/>
-    <circle id="room-4cec22c0a5c8d07dabccab9a5a8f80ff8f62f247" class="room outdoor" data-label="surface of Tuna Bay" cx="1280" cy="818" r="4"/>
-    <circle id="room-167fac45508bb1f0d0ea4a70a66dbe12e1f65c54" class="room outdoor" data-label="surface of Tuna Bay" cx="1280" cy="832" r="4"/>
-    <circle id="room-bcc9e25e6e0787e2769abdfd7c22e41373ced9c5" class="room outdoor" data-label="surface of Tuna Bay" cx="1280" cy="846" r="4"/>
-    <circle id="room-eea20753e113731edda278be53e166997b99c1e8" class="room outdoor" data-label="surface of Tuna Bay" cx="1280" cy="860" r="4"/>
-    <circle id="room-56fdbbd7e2c0456314ba6b7088d26d753879f8f1" class="room outdoor" data-label="surface of Tuna Bay" cx="1280" cy="874" r="4"/>
-    <circle id="room-ac53c883ad1db27150c87cd369090da33fb8f93f" class="room outdoor" data-label="surface of Tuna Bay" cx="1280" cy="888" r="4"/>
-    <circle id="room-afde3c7408ae54234d99735cad8054533d1e291a" class="room outdoor" data-label="surface of Tuna Bay" cx="1070" cy="860" r="4"/>
-    <circle id="room-f947819cbbfebefc883d4c3cd750c3922cdb925d" class="room outdoor" data-label="surface of Tuna Bay" cx="1070" cy="874" r="4"/>
-    <circle id="room-5f86a021350ba8b62df65f4c57290d771d525d09" class="room outdoor" data-label="surface of Tuna Bay" cx="1070" cy="888" r="4"/>
-    <circle id="room-768160aab4b27925bac3a1819f41b222944f0688" class="room outdoor" data-label="surface of Tuna Bay" cx="1070" cy="902" r="4"/>
-    <circle id="room-80387151713b3229fb683baf1018133c8b30485d" class="room outdoor" data-label="surface of Tuna Bay" cx="1056" cy="902" r="4"/>
-    <circle id="room-0d695d2a74ad44104794b56d5fab05b2d23683fc" class="room outdoor" data-label="surface of Tuna Bay" cx="1056" cy="888" r="4"/>
-    <circle id="room-484d043bf6639d7f923a7b6ce6edbb1fade641ed" class="room outdoor" data-label="surface of Tuna Bay" cx="1056" cy="874" r="4"/>
-    <circle id="room-feb454dac978a1ad4708c52e5652ae6f3ba98d45" class="room outdoor" data-label="surface of Tuna Bay" cx="1056" cy="860" r="4"/>
-    <circle id="room-30f1a77573fda33deaa2367a160a4a1cac18bdde" class="room outdoor" data-label="surface of Tuna Bay" cx="1042" cy="860" r="4"/>
-    <circle id="room-57556e052d78ca36f45efcfac1d6149fbca56b08" class="room outdoor" data-label="surface of Tuna Bay" cx="1042" cy="874" r="4"/>
-    <circle id="room-dfc7d6fa323f41ecaa5f4580402210af6d064fc8" class="room outdoor" data-label="surface of Tuna Bay" cx="1042" cy="888" r="4"/>
-    <circle id="room-389d06d95bb4382c5b0835f8fc11af387c7c7b6a" class="room outdoor" data-label="surface of Tuna Bay" cx="1042" cy="902" r="4"/>
-    <circle id="room-9d697626bb7fdbea3b35f1ad32ce7a7d47429ed8" class="room outdoor" data-label="surface of Tuna Bay" cx="1028" cy="902" r="4"/>
-    <circle id="room-e26d4af5ea2f12128811419c3580cccc2171e1e0" class="room outdoor" data-label="surface of Tuna Bay" cx="1028" cy="888" r="4"/>
-    <circle id="room-32b9174e78d5948ed5df2f41d514e2a94a33fe05" class="room outdoor" data-label="surface of Tuna Bay" cx="1028" cy="874" r="4"/>
-    <circle id="room-e9d517c74c74dbda1fd9debbc6416e18b7c8fdbf" class="room outdoor" data-label="surface of Tuna Bay" cx="1028" cy="860" r="4"/>
-    <circle id="room-837cb44cd4c4964114f00bfb1b7f3370aa5f7413" class="room outdoor" data-label="surface of Tuna Bay" cx="1014" cy="860" r="4"/>
-    <circle id="room-eed21692cb2054878a6182841bfa334dc304d9f2" class="room outdoor" data-label="surface of Tuna Bay" cx="1014" cy="874" r="4"/>
-    <circle id="room-8e8a7fad8ebf259a590b17d613a1753445fd831a" class="room outdoor" data-label="surface of Tuna Bay" cx="1014" cy="888" r="4"/>
-    <circle id="room-f88030b198a635081f3ea44a1de3fdc7aafd9c62" class="room outdoor" data-label="surface of Tuna Bay" cx="1014" cy="902" r="4"/>
-    <circle id="room-1132140d768aa62e0465c78ea5b8d9e926102493" class="room outdoor" data-label="surface of Tuna Bay" cx="1000" cy="902" r="4"/>
-    <circle id="room-a9eddde7bd50f05cc5f078a6a9f578da787e33b7" class="room outdoor" data-label="surface of Tuna Bay" cx="1000" cy="888" r="4"/>
-    <circle id="room-27abf69133354419515198acbe0f26fdc9a62daa" class="room outdoor" data-label="surface of Tuna Bay" cx="1000" cy="874" r="4"/>
-    <circle id="room-011184ea6f4bea5e5c39d4f45f0ea4e7a0958627" class="room outdoor" data-label="surface of Tuna Bay" cx="1000" cy="860" r="4"/>
-    <circle id="room-c20c89cd9c0fc92a4b74077e28e67f44b99799e9" class="room outdoor" data-label="surface of Tuna Bay" cx="1000" cy="846" r="4"/>
-    <circle id="room-219a5f385b6e918fbfc3b83902b584e53ad85be2" class="room outdoor" data-label="surface of Tuna Bay" cx="1014" cy="846" r="4"/>
-    <circle id="room-db91fc9388cbc7f8e34f007eba92df04034491fe" class="room outdoor" data-label="surface of Tuna Bay" cx="1028" cy="846" r="4"/>
-    <circle id="room-8cc9d97ea6895a8a930be53f870da65f75db02fe" class="room outdoor" data-label="surface of Tuna Bay" cx="1042" cy="846" r="4"/>
-    <circle id="room-57f03c56e1509d2be6a4073bc6a7e03ad28c3408" class="room outdoor" data-label="surface of Tuna Bay" cx="1056" cy="846" r="4"/>
-    <circle id="room-32d79891503a5dec056fb91054980f86fd1fe5a9" class="room outdoor" data-label="surface of Tuna Bay" cx="1070" cy="846" r="4"/>
-    <circle id="room-7be27dbf726018a121ea5d2d4453b7ab35387084" class="room outdoor" data-label="surface of Tuna Bay" cx="1070" cy="832" r="4"/>
-    <circle id="room-a9f23554b5f0a0203beb87f32040a94d1c8c6cb6" class="room outdoor" data-label="surface of Tuna Bay" cx="1070" cy="818" r="4"/>
-    <circle id="room-0025a2d2829a5dd4826b207621235b38e1e1f1d6" class="room outdoor" data-label="near the end of the piers" cx="1070" cy="804" r="4"/>
-    <circle id="room-e6f3240c1e3d6be4e24cf73140e70d561cea970b" class="room outdoor" data-label="choppy surface of the bay between two piers" cx="1070" cy="790" r="4"/>
-    <circle id="room-e66835eb973dc829b098e6af5a0d0ac1122325ad" class="room outdoor" data-label="choppy surface of the bay between two piers" cx="1070" cy="776" r="4"/>
-    <circle id="room-94c42d9506cd2f3f695bf424527c1e52b77cdeb4" class="room outdoor" data-label="choppy surface of the bay between two piers" cx="1070" cy="762" r="4"/>
-    <circle id="room-7d755d7df0cd4b75a2e2082c909f91171132821f" class="room outdoor" data-label="underneath the piers" cx="1056" cy="762" r="4"/>
-    <circle id="room-7f5cd5ee17ce32c41108ebab06bed8b391444796" class="room outdoor" data-label="underneath the piers" cx="1056" cy="776" r="4"/>
-    <circle id="room-481c7aba454d794ec634f7227e7c7877517d5ace" class="room outdoor" data-label="underneath the piers" cx="1056" cy="790" r="4"/>
-    <circle id="room-0f4e352adddfc18feaa52a7a157ff6b4098e97fb" class="room outdoor" data-label="near the end of the piers" cx="1056" cy="804" r="4"/>
-    <circle id="room-25dd4b1ac7a3193ee3841dcf2c0c2cf77cebe92d" class="room outdoor" data-label="surface of Tuna Bay" cx="1056" cy="818" r="4"/>
-    <circle id="room-ad8b29b470f3dfa41c6abc1be4bb1b878509f81c" class="room outdoor" data-label="surface of Tuna Bay" cx="1056" cy="832" r="4"/>
-    <circle id="room-f9648d3c7fe73cf009f506a305a1767909d85681" class="room outdoor" data-label="surface of Tuna Bay" cx="1042" cy="832" r="4"/>
-    <circle id="room-0131d557bbac2dbd3a31a0f2d948bf11e8d547a9" class="room outdoor" data-label="surface of Tuna Bay" cx="1042" cy="818" r="4"/>
-    <circle id="room-5ea573b4b7de8133243607e7641ad4fab078bffc" class="room outdoor" data-label="near the end of the piers" cx="1042" cy="804" r="4"/>
-    <circle id="room-ac555f76f4124990e44fdf6c5c1ae1d9e18e5398" class="room outdoor" data-label="choppy surface of the bay between two piers" cx="1042" cy="790" r="4"/>
-    <circle id="room-3ac31c0010053110ce8413b94676e757670f3b75" class="room outdoor" data-label="choppy surface of the bay between two piers" cx="1042" cy="776" r="4"/>
-    <circle id="room-c6f5a4e31ea70c940806d7d4df1aa8d99f270c42" class="room outdoor" data-label="choppy surface of the bay between two piers" cx="1042" cy="762" r="4"/>
-    <circle id="room-8dac3e47e3d72aaf8a2c3bd70f7611405af22391" class="room outdoor" data-label="underneath the piers" cx="1028" cy="762" r="4"/>
-    <circle id="room-46a24ccf172f91de8b83f4d95eaad69fe668fd11" class="room outdoor" data-label="underneath the piers" cx="1028" cy="776" r="4"/>
-    <circle id="room-52565588cbeddaf47bc8750da683e324d9af16c1" class="room outdoor" data-label="choppy surface of the bay between two piers" cx="1028" cy="790" r="4"/>
-    <circle id="room-8ba3340f86069cbe9510452c891ecc20bc6ee67f" class="room outdoor" data-label="near the end of the piers" cx="1028" cy="804" r="4"/>
-    <circle id="room-dac975356882a87a5e9fc8253c8d6d733c1dc9bf" class="room outdoor" data-label="surface of Tuna Bay" cx="1028" cy="818" r="4"/>
-    <circle id="room-62bd6aaf0fd12b13980523d3a8b78e9aea833760" class="room outdoor" data-label="surface of Tuna Bay" cx="1028" cy="832" r="4"/>
-    <circle id="room-46b17183806aa970f4c2abbb132cea81a08654e4" class="room outdoor" data-label="surface of Tuna Bay" cx="1014" cy="832" r="4"/>
-    <circle id="room-e7912ac75d69c973470bbbc9b878a6288b27d967" class="room outdoor" data-label="surface of Tuna Bay" cx="1014" cy="818" r="4"/>
-    <circle id="room-dae431ad803fb5f05c0164f3b34cf62370cdd6a1" class="room outdoor" data-label="near the end of the piers" cx="1014" cy="804" r="4"/>
-    <circle id="room-50b9e8ef030ce3a256e12820363bdaae966808ba" class="room outdoor" data-label="choppy surface of the bay between two piers" cx="1014" cy="790" r="4"/>
-    <circle id="room-0c18b6d08514d549bce85afb6b6f12bae1cef33f" class="room outdoor" data-label="choppy surface of the bay between two piers" cx="1014" cy="776" r="4"/>
-    <circle id="room-ce4cc5358e5937e8830f6e6dde2a1795fc3ffa45" class="room outdoor" data-label="choppy surface of the bay between two piers" cx="1014" cy="762" r="4"/>
-    <circle id="room-100385f684b82bb554143ae31c06da3a7cfbb7d0" class="room outdoor" data-label="underneath the piers" cx="1000" cy="762" r="4"/>
-    <circle id="room-1a4c05248637a5427134644fceabd9185a99ba29" class="room outdoor" data-label="beside the piers" cx="986" cy="762" r="4"/>
-    <circle id="room-85b609e60f8c618c78f857eec425a74237b47d67" class="room outdoor" data-label="surface of Tuna Bay" cx="972" cy="776" r="4"/>
-    <circle id="room-bf4f04712054bd194a2771e63cf8e1fe6a8ec950" class="room outdoor" data-label="beside the piers" cx="986" cy="776" r="4"/>
-    <circle id="room-82539e170c3f9dc8df30b0bbc1209d0055c25418" class="room outdoor" data-label="underneath the piers" cx="1000" cy="776" r="4"/>
-    <circle id="room-83ee0c3260a84c3eca3d179d034b09be0800afc2" class="room outdoor" data-label="underneath the piers" cx="1000" cy="790" r="4"/>
-    <circle id="room-c7f1d0da63d35700fa99d6fb56f7811d28989cf4" class="room outdoor" data-label="beside the piers" cx="986" cy="790" r="4"/>
-    <circle id="room-925618a9f3e2e9220ec7493e862a4632e44f5b20" class="room outdoor" data-label="surface of Tuna Bay" cx="972" cy="790" r="4"/>
-    <circle id="room-da34209647743565c51ae71926731d6f2a09b43a" class="room outdoor" data-label="surface of Tuna Bay" cx="958" cy="790" r="4"/>
-    <circle id="room-1e42c48dc9f0fd37433bc5650d0500660cb85196" class="room outdoor" data-label="surface of Tuna Bay" cx="944" cy="804" r="4"/>
-    <circle id="room-334d8185bc22044cfc71b8c381dd3f81da4f99e9" class="room outdoor" data-label="surface of Tuna Bay" cx="958" cy="804" r="4"/>
-    <circle id="room-f9af8f59de454185c668eb21dc4e5c1149a5665d" class="room outdoor" data-label="surface of Tuna Bay" cx="972" cy="804" r="4"/>
-    <circle id="room-f6757586cbcde8a715ce857782a5c87725e0061f" class="room outdoor" data-label="near the end of the piers" cx="986" cy="804" r="4"/>
-    <circle id="room-6123e76df8f2e6b068c58bcd19aedff0270e2c65" class="room outdoor" data-label="near the end of the piers" cx="1000" cy="804" r="4"/>
-    <circle id="room-ab603f27825b851c7c301d32cb795bf7bf2a367a" class="room outdoor" data-label="surface of Tuna Bay" cx="1000" cy="818" r="4"/>
-    <circle id="room-80a999f18fe486426077883598c876a829abcfda" class="room outdoor" data-label="surface of Tuna Bay" cx="1000" cy="832" r="4"/>
-    <circle id="room-7e59ef4fda9e6c4c864abee8b3eabea039f3f545" class="room outdoor" data-label="surface of Tuna Bay" cx="986" cy="818" r="4"/>
-    <circle id="room-8fd8a486286a6126c4b71f87eec043ac2777e3c1" class="room outdoor" data-label="surface of Tuna Bay" cx="972" cy="818" r="4"/>
-    <circle id="room-e66a097c6acd321252287a3db1efc6b13a2317e4" class="room outdoor" data-label="surface of Tuna Bay" cx="958" cy="818" r="4"/>
-    <circle id="room-59e352fea38a404c2f5ac59afd72d1215dcc06ad" class="room outdoor" data-label="surface of Tuna Bay" cx="944" cy="818" r="4"/>
-    <circle id="room-cbe94223fb5d95a0b715b9fb591f63e3938cbc4a" class="room outdoor" data-label="surface of Tuna Bay" cx="958" cy="832" r="4"/>
-    <circle id="room-b9a68996e970f17a89614dcfeb5002ea01d04acf" class="room outdoor" data-label="surface of Tuna Bay" cx="972" cy="832" r="4"/>
-    <circle id="room-3dc732b134880706a5efb480763d32f0031a251e" class="room outdoor" data-label="surface of Tuna Bay" cx="986" cy="832" r="4"/>
-    <circle id="room-44733ac2ee027d1375c77e0b6ead172afbe7d263" class="room outdoor" data-label="surface of Tuna Bay" cx="986" cy="846" r="4"/>
-    <circle id="room-2541392e4a57c9ffd5d51fa1ab484132a9df9e17" class="room outdoor" data-label="surface of Tuna Bay" cx="986" cy="860" r="4"/>
-    <circle id="room-93f40ceeb7807fe99efddfc467738295c78e0f58" class="room outdoor" data-label="surface of Tuna Bay" cx="986" cy="874" r="4"/>
-    <circle id="room-0c3e5f51b78964b5687091b71abbb1a9b9ca2458" class="room outdoor" data-label="surface of Tuna Bay" cx="986" cy="888" r="4"/>
-    <circle id="room-ae1562c9a00a24500c12b91b8446270a9f36fe95" class="room outdoor" data-label="surface of Tuna Bay" cx="986" cy="902" r="4"/>
-    <circle id="room-4227c3b1cf86960294dfa0ed2d2733308cb8ab87" class="room outdoor" data-label="surface of Tuna Bay" cx="972" cy="902" r="4"/>
-    <circle id="room-0a5b6004fb6c77e2b3aebb4c74993c33453eb61b" class="room outdoor" data-label="surface of Tuna Bay" cx="958" cy="902" r="4"/>
-    <circle id="room-7529d576bb5b586b4138c63e6bfbb1ea1e3b9b41" class="room outdoor" data-label="surface of Tuna Bay" cx="972" cy="888" r="4"/>
-    <circle id="room-6e42d008aeacf31f0eb8b5ea9863e207b3fe3c8e" class="room outdoor" data-label="surface of Tuna Bay" cx="958" cy="888" r="4"/>
-    <circle id="room-405666ed576914f80157aaa6b2cb29be979717ae" class="room outdoor" data-label="surface of Tuna Bay" cx="972" cy="874" r="4"/>
-    <circle id="room-42da8a018bbc8d386b1e7c6ad91448609b9897db" class="room outdoor" data-label="surface of Tuna Bay" cx="958" cy="874" r="4"/>
-    <circle id="room-7eb720b2c3b3de1c12fdf949a1a3a5219e6d948b" class="room outdoor" data-label="surface of Tuna Bay" cx="972" cy="860" r="4"/>
-    <circle id="room-a68ddca9714fe2679edc7c7d84d26c0774a44f65" class="room outdoor" data-label="surface of Tuna Bay" cx="958" cy="860" r="4"/>
-    <circle id="room-e98bf7d0071a4db17cd00ed854136d9fe063c2a3" class="room outdoor" data-label="surface of Tuna Bay" cx="972" cy="846" r="4"/>
-    <circle id="room-db8efdc65e7c556913d7a002c11b904f863d76f4" class="room outdoor" data-label="surface of Tuna Bay" cx="958" cy="846" r="4"/>
-    <circle id="room-b65eba3a65ffee2f53a4b3bb50896e0ca705daa3" class="room outdoor" data-label="surface of Tuna Bay" cx="930" cy="846" r="4"/>
-    <circle id="room-3e5dacdf6ab74644ce152959fe24c8617c534311" class="room outdoor" data-label="surface of Tuna Bay" cx="930" cy="860" r="4"/>
-    <circle id="room-c701497cd2bd433102651102628a34cba190a5ff" class="room outdoor" data-label="surface of Tuna Bay" cx="930" cy="874" r="4"/>
-    <circle id="room-2c27aa75692d2fb8fa7f448ce1202c92de9e34a5" class="room outdoor" data-label="surface of Tuna Bay" cx="930" cy="888" r="4"/>
-    <circle id="room-200a3cc99b1a2cd97547c3700c8e8e8281835a3a" class="room outdoor" data-label="surface of Tuna Bay" cx="930" cy="902" r="4"/>
-    <circle id="room-7d87385f65e3c4d89b89a517add860ad23dbdb89" class="room outdoor" data-label="surface of Tuna Bay" cx="916" cy="902" r="4"/>
-    <circle id="room-5cb6c53338ed241bd9bb65434385fc4b697e988d" class="room outdoor" data-label="surface of Tuna Bay" cx="902" cy="902" r="4"/>
-    <circle id="room-d8ed0e5115948021b7031060af3a83e63607aae8" class="room outdoor" data-label="surface of Tuna Bay" cx="902" cy="888" r="4"/>
-    <circle id="room-3513c1c09c5e1af9dac6037f551187e13bec7fab" class="room outdoor" data-label="surface of Tuna Bay" cx="916" cy="888" r="4"/>
-    <circle id="room-61315230acdbe2871886b9ef63ab1e34772aec47" class="room outdoor" data-label="surface of Tuna Bay" cx="902" cy="874" r="4"/>
-    <circle id="room-13828f551fb3d4c689be0af8ab1ce1ee99b157db" class="room outdoor" data-label="surface of Tuna Bay" cx="916" cy="874" r="4"/>
-    <circle id="room-c649faed04e097257ff9fdbbf12c278ba35d724d" class="room outdoor" data-label="surface of Tuna Bay" cx="902" cy="860" r="4"/>
-    <circle id="room-b11c8c28c5ded81701a8979a32af7b0694c789fe" class="room outdoor" data-label="surface of Tuna Bay" cx="916" cy="860" r="4"/>
-    <circle id="room-910d033802a5aad2788bdbb502fa1d2ee33eaf1b" class="room outdoor" data-label="surface of Tuna Bay" cx="916" cy="846" r="4"/>
-    <circle id="room-bc0eda5b7ca355f5bfb1ed00eae935a343654db5" class="room outdoor" data-label="surface of Tuna Bay" cx="902" cy="846" r="4"/>
-    <circle id="room-c90dd4a15324b756d568de32cbd1c69a174f9564" class="room outdoor" data-label="surface of Tuna Bay" cx="902" cy="832" r="4"/>
-    <circle id="room-e01ed0a208c834af00f78b318769472fbe074904" class="room outdoor" data-label="surface of Tuna Bay" cx="902" cy="818" r="4"/>
-    <circle id="room-b65fff5d50e8fafbc316f7899b2d74a111ec8576" class="room outdoor" data-label="surface of Tuna Bay" cx="902" cy="804" r="4"/>
-    <circle id="room-4dd74a00eaab3f9732e088d775f77e4363f7f736" class="room outdoor" data-label="surface of Tuna Bay" cx="902" cy="790" r="4"/>
-    <circle id="room-ff79c1a88414414358ef4cd93403b2efbb69e426" class="room outdoor" data-label="surface of Tuna Bay" cx="902" cy="776" r="4"/>
-    <circle id="room-572897a7ee2947ca1b6bdbbe3ca85d431f82f4df" class="room outdoor" data-label="surface of Tuna Bay" cx="902" cy="762" r="4"/>
-    <circle id="room-533f3f311bf606d3c83a68a06a35a3ac7356a700" class="room outdoor" data-label="surface of Tuna Bay" cx="916" cy="762" r="4"/>
-    <circle id="room-5a0ba6b29e272c9a4f4706b40c53eaf508838167" class="room outdoor" data-label="surface of Tuna Bay" cx="916" cy="776" r="4"/>
-    <circle id="room-547c7f87a576ab53f318c89ad107f8ee1f0a4226" class="room outdoor" data-label="surface of Tuna Bay" cx="930" cy="762" r="4"/>
+    <circle id="room-535ed04abfbea596895bd50e089ae783bf4b280c" class="room outdoor water" data-label="underneath the piers" cx="1084" cy="776" r="4"/>
+    <circle id="room-4848f7b7ead2db2ad5c97ce17c87ab240432fb4c" class="room outdoor water" data-label="underneath the piers" cx="1084" cy="762" r="4"/>
+    <circle id="room-97f6ce3fc08f2f91ef0651053346b39d358b4239" class="room outdoor water" data-label="choppy surface of the bay between two piers" cx="1098" cy="762" r="4"/>
+    <circle id="room-4df1fc6ea944941a27b8540c4962ae4aef25f560" class="room outdoor water" data-label="choppy surface of the bay between two piers" cx="1098" cy="776" r="4"/>
+    <circle id="room-ac5c628d0fd07864c167f8a9a825db47278e5092" class="room outdoor water" data-label="underneath the piers" cx="1112" cy="776" r="4"/>
+    <circle id="room-8b1880e4832e906adc8ac21ba7326c2c1b83f8ba" class="room outdoor water" data-label="underneath the piers" cx="1112" cy="762" r="4"/>
+    <circle id="room-dbba63eac8745526a1d66d69ba4f8b01c0ff1c64" class="room outdoor water" data-label="beside the piers" cx="1126" cy="762" r="4"/>
+    <circle id="room-a36d034d4748b69f55e8ddf14b39b818b483deb1" class="room outdoor water" data-label="beside the piers" cx="1126" cy="776" r="4"/>
+    <circle id="room-92b9076fc0578e3281a03fc7be464a0b3b988813" class="room outdoor water" data-label="surface of Tuna Bay" cx="1140" cy="776" r="4"/>
+    <circle id="room-56c8f273d75746605f9df3b549a5ddf534e5afe4" class="room outdoor water" data-label="surface of Tuna Bay" cx="1140" cy="762" r="4"/>
+    <circle id="room-6309bf56094c069756b8c2dea9a992b9c600f100" class="room outdoor water" data-label="surface of Tuna Bay" cx="1154" cy="776" r="4"/>
+    <circle id="room-2d3488bc13e13a0305c28ca43471568e7ab76d2f" class="room outdoor water" data-label="choppy surface of the bay between two piers" cx="1084" cy="790" r="4"/>
+    <circle id="room-c93022b2b190b7f1209b1709e3f59f3cefc03774" class="room outdoor water" data-label="near the end of the piers" cx="1084" cy="804" r="4"/>
+    <circle id="room-3b8559723700fa2c205c0b2cff8bf713891f05c0" class="room outdoor water" data-label="surface of Tuna Bay" cx="1084" cy="818" r="4"/>
+    <circle id="room-35107c5bc7a0648ae78202294ab3d89ecf287fd7" class="room outdoor water" data-label="surface of Tuna Bay" cx="1084" cy="832" r="4"/>
+    <circle id="room-8f5f196b66fbe4a3aeef4eafa28e5aea1b730135" class="room outdoor water" data-label="surface of Tuna Bay" cx="1084" cy="846" r="4"/>
+    <circle id="room-521250373b171341a0c04993370186e7b119aa17" class="room outdoor water" data-label="surface of Tuna Bay" cx="1084" cy="860" r="4"/>
+    <circle id="room-bf8c81a58fb6ee82696c8244d109c67437c6cde8" class="room outdoor water" data-label="surface of Tuna Bay" cx="1084" cy="874" r="4"/>
+    <circle id="room-3e4fe23cb4dbb4a67071f7895d929e331d4dba76" class="room outdoor water" data-label="surface of Tuna Bay" cx="1084" cy="888" r="4"/>
+    <circle id="room-b5a32478f4ab1b6c32025ab144676922c87335be" class="room outdoor water" data-label="surface of Tuna Bay" cx="1084" cy="902" r="4"/>
+    <circle id="room-16cf3b9fe8154590de162baaeae2fea720dcb21d" class="room outdoor water" data-label="surface of Tuna Bay" cx="1098" cy="902" r="4"/>
+    <circle id="room-398f4cd6c18aaec4169f706e1e24e14694759b8a" class="room outdoor water" data-label="surface of Tuna Bay" cx="1098" cy="888" r="4"/>
+    <circle id="room-5604b908f515c002668bdb3e60f6f8aad2cd7efe" class="room outdoor water" data-label="surface of Tuna Bay" cx="1098" cy="874" r="4"/>
+    <circle id="room-8cb0fee14018e7e5154b91e6d908533dbe72b15b" class="room outdoor water" data-label="surface of Tuna Bay" cx="1098" cy="860" r="4"/>
+    <circle id="room-59603a4348ce7bd98b4939c2bd13741cb5733e55" class="room outdoor water" data-label="surface of Tuna Bay" cx="1098" cy="846" r="4"/>
+    <circle id="room-4f7e57ee5ae431ce6b61bb5e237a3f9c303d17b3" class="room outdoor water" data-label="surface of Tuna Bay" cx="1098" cy="832" r="4"/>
+    <circle id="room-16f8abd5d2963788ffe69a8611715f642199e185" class="room outdoor water" data-label="surface of Tuna Bay" cx="1098" cy="818" r="4"/>
+    <circle id="room-4cf328f589111c16fa29f742c12e548d569611ae" class="room outdoor water" data-label="near the end of the piers" cx="1098" cy="804" r="4"/>
+    <circle id="room-135326ec2622c228f3decdf739868e1152a3afa9" class="room outdoor water" data-label="choppy surface of the bay between two piers" cx="1098" cy="790" r="4"/>
+    <circle id="room-1fa8e936ee73099ee90cde1b110d5e1a32f989b7" class="room outdoor water" data-label="underneath the piers" cx="1112" cy="790" r="4"/>
+    <circle id="room-9faadf18a8c980642e104c7ee8bfcb3571123806" class="room outdoor water" data-label="near the end of the piers" cx="1112" cy="804" r="4"/>
+    <circle id="room-96f145dc9c5f9ade79b07c81c5c8a3e5564155dc" class="room outdoor water" data-label="surface of Tuna Bay" cx="1112" cy="818" r="4"/>
+    <circle id="room-0a435525a4cfc01589fea3b507235d5d922f03ed" class="room outdoor water" data-label="surface of Tuna Bay" cx="1112" cy="832" r="4"/>
+    <circle id="room-57bcd9e8e4167f78ddd0dee52f520f86baa358e3" class="room outdoor water" data-label="surface of Tuna Bay" cx="1112" cy="846" r="4"/>
+    <circle id="room-80ae8997a43fc6e03e20b892e19545d487a012fc" class="room outdoor water" data-label="surface of Tuna Bay" cx="1112" cy="860" r="4"/>
+    <circle id="room-3f8580f2cecb77ef931d5d41edf0719f349d2ecd" class="room outdoor water" data-label="surface of Tuna Bay" cx="1112" cy="874" r="4"/>
+    <circle id="room-190aee2c59a2a57b0e5a0e5224c9dac9f08ba87a" class="room outdoor water" data-label="surface of Tuna Bay" cx="1112" cy="888" r="4"/>
+    <circle id="room-9b92be7d4d14156640a442b41010238c6fb6aa02" class="room outdoor water" data-label="surface of Tuna Bay" cx="1112" cy="902" r="4"/>
+    <circle id="room-7d0a3969f0df81e1e9ac0383bbac3078dfd2e8db" class="room outdoor water" data-label="surface of Tuna Bay" cx="1126" cy="902" r="4"/>
+    <circle id="room-a9392364f3eba56592d38cb010a41f909d1d3e45" class="room outdoor water" data-label="surface of Tuna Bay" cx="1126" cy="888" r="4"/>
+    <circle id="room-97b8a1785f65254a895b81a75626919dca98718a" class="room outdoor water" data-label="surface of Tuna Bay" cx="1126" cy="874" r="4"/>
+    <circle id="room-2b18e602c486580d9943f3af61e2fe888c3e7234" class="room outdoor water" data-label="surface of Tuna Bay" cx="1126" cy="860" r="4"/>
+    <circle id="room-c10e5b3d3314364bd32da2c09b9c2cef601d24df" class="room outdoor water" data-label="surface of Tuna Bay" cx="1126" cy="846" r="4"/>
+    <circle id="room-86b53b4c97fc4d1bca2e3f99b60642dfc7aaa356" class="room outdoor water" data-label="surface of Tuna Bay" cx="1126" cy="832" r="4"/>
+    <circle id="room-b56ae04910c7e715883e9961d12bf55cfb184919" class="room outdoor water" data-label="surface of Tuna Bay" cx="1126" cy="818" r="4"/>
+    <circle id="room-2a2314631db744f17764155893f56d410d12db04" class="room outdoor water" data-label="near the end of the piers" cx="1126" cy="804" r="4"/>
+    <circle id="room-36252322c86ac248038d87ccfbc27fdefc8b62e1" class="room outdoor water" data-label="beside the piers" cx="1126" cy="790" r="4"/>
+    <circle id="room-b59df7abf7b9ccb317affa87e9be3e1d85900ef2" class="room outdoor water" data-label="surface of Tuna Bay" cx="1140" cy="790" r="4"/>
+    <circle id="room-e23e28262274e1341c2b5b56df47e68dd97ada2d" class="room outdoor water" data-label="surface of Tuna Bay" cx="1140" cy="804" r="4"/>
+    <circle id="room-0c2388738f2361d37c57dcecb66ee2df258e4796" class="room outdoor water" data-label="surface of Tuna Bay" cx="1140" cy="818" r="4"/>
+    <circle id="room-38e8ec2fb4d0d90297123c2d56fd30bfcb9d08bf" class="room outdoor water" data-label="surface of Tuna Bay" cx="1140" cy="832" r="4"/>
+    <circle id="room-26f8537c3ede894ee0d46609064e1663f67c54da" class="room outdoor water" data-label="surface of Tuna Bay" cx="1140" cy="846" r="4"/>
+    <circle id="room-9e7b3d9a5e1180bc1cfe9f47eb733ec6b6916298" class="room outdoor water" data-label="surface of Tuna Bay" cx="1140" cy="860" r="4"/>
+    <circle id="room-49ee840fed702d7841f17de6c2cc88ef9a8b744b" class="room outdoor water" data-label="surface of Tuna Bay" cx="1140" cy="874" r="4"/>
+    <circle id="room-e31e065430d073de5e882cff9cd69805f153b001" class="room outdoor water" data-label="surface of Tuna Bay" cx="1140" cy="888" r="4"/>
+    <circle id="room-b72af3b532c1fc1d9acca3321d006ffc40186c5b" class="room outdoor water" data-label="surface of Tuna Bay" cx="1140" cy="902" r="4"/>
+    <circle id="room-13f8062b6f034c79190a572dab4cfacaa0a4d3c6" class="room outdoor water" data-label="surface of Tuna Bay" cx="1154" cy="902" r="4"/>
+    <circle id="room-79ce85665ea826ebce2608ebf1a9bb9418595f7e" class="room outdoor water" data-label="surface of Tuna Bay" cx="1154" cy="888" r="4"/>
+    <circle id="room-e4b783038ad3deacf40fd3b1a9434dd6723e6598" class="room outdoor water" data-label="middle of Tuna Bay next to a huge broken mast" cx="1154" cy="874" r="4"/>
+    <circle id="room-d9945ea6ea083683b65c50e05c366b17459843d1" class="room outdoor water" data-label="surface of Tuna Bay" cx="1154" cy="860" r="4"/>
+    <circle id="room-cc99e2975d9c7cb86857230ad912b96204843402" class="room outdoor water" data-label="surface of Tuna Bay" cx="1154" cy="846" r="4"/>
+    <circle id="room-bf4963493ffe8930bcbdcf0a3ce6428ca49d52d2" class="room outdoor water" data-label="surface of Tuna Bay" cx="1154" cy="832" r="4"/>
+    <circle id="room-049c668d9d5fc50dd49c0d57ed46010f50654b9e" class="room outdoor water" data-label="surface of Tuna Bay" cx="1154" cy="818" r="4"/>
+    <circle id="room-7da6b6459903b56460e4c296057e5f970ed1632e" class="room outdoor water" data-label="surface of Tuna Bay" cx="1154" cy="804" r="4"/>
+    <circle id="room-e4943c4df3bd9da1d0f8236296c8297ec74085e0" class="room outdoor water" data-label="surface of Tuna Bay" cx="1154" cy="790" r="4"/>
+    <circle id="room-41333644024a104b3c75889d0ec21a0687baf54c" class="room outdoor water" data-label="surface of Tuna Bay" cx="1168" cy="790" r="4"/>
+    <circle id="room-38eed535288d0c6c50eb38add518cab1dfdd5449" class="room outdoor water" data-label="surface of Tuna Bay" cx="1168" cy="804" r="4"/>
+    <circle id="room-20f01f94986a7a912e1306c45e3a797c560f9160" class="room outdoor water" data-label="surface of Tuna Bay" cx="1182" cy="804" r="4"/>
+    <circle id="room-abc76580b3f88cbfac04416ca10c77168f79ff98" class="room outdoor water" data-label="surface of Tuna Bay" cx="1182" cy="818" r="4"/>
+    <circle id="room-790e8c1eca75d0964e15c13bad905fbdba21466d" class="room outdoor water" data-label="surface of Tuna Bay" cx="1168" cy="818" r="4"/>
+    <circle id="room-7694cad7cd9d6bb93eae0a370a340da4e2d259ad" class="room outdoor water" data-label="surface of Tuna Bay" cx="1168" cy="832" r="4"/>
+    <circle id="room-e6062e80c9bf8372f2fdc1cb3681d9d679d67c63" class="room outdoor water" data-label="surface of Tuna Bay" cx="1168" cy="846" r="4"/>
+    <circle id="room-34960573698c98efc3ec0cdd80da967455066cf1" class="room outdoor water" data-label="surface of Tuna Bay" cx="1168" cy="860" r="4"/>
+    <circle id="room-bb8b0112ffaad54829d1d5e6c7815e7180e439d3" class="room outdoor water" data-label="surface of Tuna Bay" cx="1168" cy="874" r="4"/>
+    <circle id="room-c40ea72616fac7b89e38fcd3ecda562966b788f5" class="room outdoor water" data-label="surface of Tuna Bay" cx="1168" cy="888" r="4"/>
+    <circle id="room-0722390e575b7cf2ed173b62712c567a67575a10" class="room outdoor water" data-label="surface of Tuna Bay" cx="1168" cy="902" r="4"/>
+    <circle id="room-c73c310db4617e3bc27d7424a420833a7b4aa565" class="room outdoor water" data-label="surface of Tuna Bay" cx="1182" cy="902" r="4"/>
+    <circle id="room-a0f48250fdd0a9e391c618e435d34fe310a821ec" class="room outdoor water" data-label="surface of Tuna Bay" cx="1196" cy="902" r="4"/>
+    <circle id="room-7ecc34cc370e6b1c5bbbf7d736084952ad48808e" class="room outdoor water" data-label="surface of Tuna Bay" cx="1196" cy="888" r="4"/>
+    <circle id="room-571bafa6a38feb76691305a01112b3946ddbc1b2" class="room outdoor water" data-label="surface of Tuna Bay" cx="1182" cy="888" r="4"/>
+    <circle id="room-a52381a3f9e5a5b6db044089142c641a85da7256" class="room outdoor water" data-label="surface of Tuna Bay" cx="1196" cy="874" r="4"/>
+    <circle id="room-0cd58935105adc7d7a9a5dc337edbefe605cbece" class="room outdoor water" data-label="surface of Tuna Bay" cx="1182" cy="874" r="4"/>
+    <circle id="room-9876d37700fd8623d4013565e71738ac97e3f0e7" class="room outdoor water" data-label="surface of Tuna Bay" cx="1196" cy="860" r="4"/>
+    <circle id="room-ccc126f451dd57d2b36ec17475d44ad7464152c6" class="room outdoor water" data-label="surface of Tuna Bay" cx="1182" cy="860" r="4"/>
+    <circle id="room-081ebfc610281b690216455dd9688b6ca0c715c7" class="room outdoor water" data-label="surface of Tuna Bay" cx="1182" cy="846" r="4"/>
+    <circle id="room-36528eacd591fb1a488a3e3504e036896df6eac0" class="room outdoor water" data-label="surface of Tuna Bay" cx="1196" cy="846" r="4"/>
+    <circle id="room-9263e7ec8358cf084eb38ab5bc1214078f83c25d" class="room outdoor water" data-label="surface of Tuna Bay" cx="1224" cy="846" r="4"/>
+    <circle id="room-42826ae752e7e6a1edea42a42ff2966da5b012e6" class="room outdoor water" data-label="surface of Tuna Bay" cx="1224" cy="860" r="4"/>
+    <circle id="room-9175d26431a18f8c66bf3b9cb818317f7ffe0c6d" class="room outdoor water" data-label="surface of Tuna Bay" cx="1224" cy="874" r="4"/>
+    <circle id="room-8918d5c74825c8efd088d25eb87e29dd86133ca3" class="room outdoor water" data-label="surface of Tuna Bay" cx="1224" cy="888" r="4"/>
+    <circle id="room-a7b22aded1ac5cfe6af6a80c28e64a27842d5499" class="room outdoor water" data-label="surface of Tuna Bay" cx="1224" cy="902" r="4"/>
+    <circle id="room-fa44a2fd95e48fb948ec73ccd841cf35b9b3ec8d" class="room outdoor water" data-label="surface of Tuna Bay" cx="1238" cy="902" r="4"/>
+    <circle id="room-b6d926c787a531ebe9bf1d035cecce362a3a6af7" class="room outdoor water" data-label="surface of Tuna Bay" cx="1238" cy="888" r="4"/>
+    <circle id="room-553bbef3a95fe8894724742ad4cfcb967cc0ee03" class="room outdoor water" data-label="surface of Tuna Bay" cx="1238" cy="874" r="4"/>
+    <circle id="room-522c314d4eea80061488e6f9162eb8fefca79f4f" class="room outdoor water" data-label="surface of Tuna Bay" cx="1238" cy="860" r="4"/>
+    <circle id="room-99b20724ba9d1a99ec566e46b5fb442b8f4239af" class="room outdoor water" data-label="surface of Tuna Bay" cx="1238" cy="846" r="4"/>
+    <circle id="room-829fcafada84e539ad65ab759c0e147ab24e1919" class="room outdoor water" data-label="surface of Tuna Bay" cx="1238" cy="832" r="4"/>
+    <circle id="room-0b2a1b979e34c51bf320ddb804a4b5bcb2b4514f" class="room outdoor water" data-label="surface of Tuna Bay" cx="1224" cy="832" r="4"/>
+    <circle id="room-3a7c635fd115a8fa713e869dee77f36f636fce67" class="room outdoor water" data-label="surface of Tuna Bay" cx="1224" cy="818" r="4"/>
+    <circle id="room-7ba777ae9676b3f93f6d36bd125c2cc3e33a19bb" class="room outdoor water" data-label="surface of Tuna Bay" cx="1238" cy="818" r="4"/>
+    <circle id="room-ab0a55a344037158b8b58c3bbe18440e19c7fff7" class="room outdoor water" data-label="surface of Tuna Bay" cx="1238" cy="804" r="4"/>
+    <circle id="room-905b5b6d213769a0e619cf52ba2bc7f936f7aca1" class="room outdoor water" data-label="surface of Tuna Bay" cx="1224" cy="804" r="4"/>
+    <circle id="room-92c04aa34f3060aac698324129ef5822fe0e0d8c" class="room outdoor water" data-label="surface of Tuna Bay" cx="1224" cy="790" r="4"/>
+    <circle id="room-d006745855c7104f8e06240997b42abd690054ea" class="room outdoor water" data-label="surface of Tuna Bay" cx="1238" cy="790" r="4"/>
+    <circle id="room-7e61956e686f865e78cbc00bbe5201b0f9e3dfaf" class="room outdoor water" data-label="surface of Tuna Bay next to some sampan docks" cx="1238" cy="776" r="4"/>
+    <circle id="room-1f583f1bbfe66a23ad5c90a8d135b2496ce48d4d" class="room outdoor water" data-label="surface of Tuna Bay next to some sampan docks" cx="1224" cy="776" r="4"/>
+    <circle id="room-cec961cfc024cf02655156e435f6b853d56dfb37" class="room outdoor water" data-label="surface of Tuna Bay next to some sampan docks" cx="1210" cy="776" r="4"/>
+    <circle id="room-8709a7473c950687c613a10aa8e8292849c5417e" class="room outdoor water" data-label="surface of Tuna Bay next to some sampan docks" cx="1196" cy="762" r="4"/>
+    <circle id="room-12a84a66d82d4b6eb73e1c6209477febdf1f9066" class="room outdoor water" data-label="surface of Tuna Bay next to some sampan docks" cx="1196" cy="748" r="4"/>
+    <circle id="room-b0098f461f9965f6d67fecee6fe7284acf7d0019" class="room outdoor water" data-label="surface of Tuna Bay next to some sampan docks" cx="1210" cy="748" r="4"/>
+    <circle id="room-8926558373d7edcccccf69405ba33ae16906f788" class="room outdoor water" data-label="surface of Tuna Bay next to some sampan docks" cx="1210" cy="734" r="4"/>
+    <circle id="room-e807544c1ac6ca6d7603d6cc5616bb00a6285f02" class="room outdoor water" data-label="surface of Tuna Bay next to some sampan docks" cx="1224" cy="734" r="4"/>
+    <circle id="room-339da6da7d239a1e150ec8b0794be3b608850e72" class="room outdoor water" data-label="surface of Tuna Bay next to some sampan docks" cx="1238" cy="720" r="4"/>
+    <circle id="room-072a3838c531f9f3410c420aa31ca45c17ba754d" class="room outdoor water" data-label="surface of Tuna Bay next to some sampan docks" cx="1252" cy="720" r="4"/>
+    <circle id="room-b256fdc64cc9d97e929f508e7ca13bd11f398a79" class="room outdoor water" data-label="surface of Tuna Bay next to some sampan docks" cx="1252" cy="734" r="4"/>
+    <circle id="room-1f5509ced5f39a0a6b1ed57ff783a1e0eb1c4ac6" class="room outdoor water" data-label="surface of Tuna Bay next to some sampan docks" cx="1266" cy="734" r="4"/>
+    <circle id="room-36cb0e2608914bc0d3947af028ab302ffe3fe962" class="room outdoor water" data-label="surface of Tuna Bay" cx="1266" cy="720" r="4"/>
+    <circle id="room-570cfab398fde7b8d249943a8f3e0173e10a9bb1" class="room outdoor water" data-label="surface of Tuna Bay" cx="1280" cy="720" r="4"/>
+    <circle id="room-53a84931b516f3b3c391b53890394267b6bbb4d5" class="room outdoor water" data-label="surface of Tuna Bay" cx="1294" cy="720" r="4"/>
+    <circle id="room-4ecddca8cba8ed35df519656eec13de764b4f5d8" class="room outdoor water" data-label="surface of Tuna Bay" cx="1294" cy="734" r="4"/>
+    <circle id="room-5ade91c3d60ac4f915e3a34b081e77d525804ec5" class="room outdoor water" data-label="surface of Tuna Bay" cx="1280" cy="734" r="4"/>
+    <circle id="room-6d217dd07b0e715d363328096dadc875019e9675" class="room outdoor water" data-label="surface of Tuna Bay next to some sampan docks" cx="1266" cy="748" r="4"/>
+    <circle id="room-062393b7486fbd41c14cc367d57bcfd7a56260f2" class="room outdoor water" data-label="surface of Tuna Bay next to some sampan docks" cx="1280" cy="748" r="4"/>
+    <circle id="room-88c77ce6eb221e018e2e4456242c529063302314" class="room outdoor water" data-label="surface of Tuna Bay next to some sampan docks" cx="1294" cy="748" r="4"/>
+    <circle id="room-9ccf10eed8f1f760ac7eb580e76d40530517a70b" class="room outdoor water" data-label="surface of Tuna Bay next to some sampan docks" cx="1294" cy="762" r="4"/>
+    <circle id="room-26e3732745efb078912be2cb82b5792a6470711e" class="room outdoor water" data-label="surface of Tuna Bay next to some sampan docks" cx="1280" cy="762" r="4"/>
+    <circle id="room-54c3b7928845f9721d8440d9480ff7a2f6ba97a0" class="room outdoor water" data-label="surface of Tuna Bay" cx="1294" cy="776" r="4"/>
+    <circle id="room-bd7b933186ba9ddd987dafc29db7ab7050ade0fe" class="room outdoor water" data-label="surface of Tuna Bay next to some sampan docks" cx="1280" cy="776" r="4"/>
+    <circle id="room-e6ea9e178e3b1c8ceacfc529fdfdfbc1044aed64" class="room outdoor water" data-label="surface of Tuna Bay next to some sampan docks" cx="1266" cy="776" r="4"/>
+    <circle id="room-11ac2bc7545a9c7275f0cc2c2c4144a875db4cdd" class="room outdoor water" data-label="surface of Tuna Bay next to some sampan docks" cx="1252" cy="776" r="4"/>
+    <circle id="room-df1af2da588adc32db15e8a7221e312b504ba0b4" class="room outdoor water" data-label="surface of Tuna Bay next to some sampan docks" cx="1252" cy="762" r="4"/>
+    <circle id="room-3128e67568df3c7cec33a513b2663760c25d6e6d" class="room outdoor water" data-label="surface of Tuna Bay next to some sampan docks" cx="1238" cy="762" r="4"/>
+    <circle id="room-d52072cd9f7985cac594f955a9d4724256c2690b" class="room outdoor water" data-label="surface of Tuna Bay next to some sampan docks" cx="1224" cy="762" r="4"/>
+    <circle id="room-a989d1ebe95374e095cb1f2f36c6affae550163c" class="room outdoor water" data-label="surface of Tuna Bay" cx="1252" cy="790" r="4"/>
+    <circle id="room-b2f3473fcb7220ec83efea89d275ca99539719c4" class="room outdoor water" data-label="surface of Tuna Bay" cx="1266" cy="790" r="4"/>
+    <circle id="room-b1076d10a7dc4f9e8cd517bee4005d0ebf2bd166" class="room outdoor water" data-label="surface of Tuna Bay" cx="1252" cy="804" r="4"/>
+    <circle id="room-916fad0d0708a12717b7bfdedeae603b56f9b067" class="room outdoor water" data-label="surface of Tuna Bay" cx="1266" cy="804" r="4"/>
+    <circle id="room-615dbe8871d702e17d97133ea72115fc45548ee2" class="room outdoor water" data-label="surface of Tuna Bay" cx="1252" cy="818" r="4"/>
+    <circle id="room-878a0cc27e7f44638c0577b2f7a836e3196f18e8" class="room outdoor water" data-label="surface of Tuna Bay" cx="1266" cy="818" r="4"/>
+    <circle id="room-77e759c6514abc804bd0efc70213f0b04776b069" class="room outdoor water" data-label="surface of Tuna Bay" cx="1252" cy="832" r="4"/>
+    <circle id="room-d591cee5ad2c3defe95621de0621039168c6b70e" class="room outdoor water" data-label="surface of Tuna Bay" cx="1266" cy="832" r="4"/>
+    <circle id="room-d857b3a408d1927f33798f6b0be465346b17df91" class="room outdoor water" data-label="surface of Tuna Bay" cx="1252" cy="846" r="4"/>
+    <circle id="room-98af29e583ffdd7c775d53563cab3181c5b6505b" class="room outdoor water" data-label="surface of Tuna Bay" cx="1266" cy="846" r="4"/>
+    <circle id="room-70176dcd62355e14f7211a8faeae4da33bd5cf16" class="room outdoor water" data-label="surface of Tuna Bay" cx="1252" cy="860" r="4"/>
+    <circle id="room-4527594bf9694d98a9102c58604a31076cd9a16d" class="room outdoor water" data-label="surface of Tuna Bay" cx="1266" cy="860" r="4"/>
+    <circle id="room-ca3824fdee7213b2f308f4234d6b5ca34100a851" class="room outdoor water" data-label="surface of Tuna Bay" cx="1252" cy="874" r="4"/>
+    <circle id="room-4324def0c7eb8057414a3646951566a34eb4f5bb" class="room outdoor water" data-label="surface of Tuna Bay" cx="1266" cy="874" r="4"/>
+    <circle id="room-2f392f67fad2d196c4020303c4f510e3daa42a8a" class="room outdoor water" data-label="surface of Tuna Bay" cx="1252" cy="888" r="4"/>
+    <circle id="room-2471897e87d75d759da430570c0db07ef3d952d4" class="room outdoor water" data-label="surface of Tuna Bay" cx="1266" cy="888" r="4"/>
+    <circle id="room-c6c0dcb9d9793770e0cba0ee822e027aac2e5f4a" class="room outdoor water" data-label="surface of Tuna Bay" cx="1252" cy="902" r="4"/>
+    <circle id="room-f08d20255a7f73ca16f33d156109c8385d7f8737" class="room outdoor water" data-label="surface of Tuna Bay" cx="1266" cy="902" r="4"/>
+    <circle id="room-c16977c27bcc1dff85e67762347ef029f0b8671f" class="room outdoor water" data-label="surface of Tuna Bay" cx="1280" cy="902" r="4"/>
+    <circle id="room-3868beb78acc6f3ff217014b9eac2059aa565568" class="room outdoor water" data-label="surface of Tuna Bay" cx="1294" cy="902" r="4"/>
+    <circle id="room-10bedf429ab442dfc8794bba05c23c5b70c98dab" class="room outdoor water" data-label="surface of Tuna Bay" cx="1294" cy="888" r="4"/>
+    <circle id="room-80f639a0b6740ac6f766760de0aa7299336bb3be" class="room outdoor water" data-label="surface of Tuna Bay" cx="1294" cy="874" r="4"/>
+    <circle id="room-37f81d9d51b622fd21756633ae6cc5e64f252b2c" class="room outdoor water" data-label="surface of Tuna Bay" cx="1294" cy="860" r="4"/>
+    <circle id="room-2693ba7df0b458979ba90e14a1fb6edf6fa5b649" class="room outdoor water" data-label="surface of Tuna Bay" cx="1294" cy="846" r="4"/>
+    <circle id="room-1d05ffd53c48cf16b218c0cf33f1f55faca08ff2" class="room outdoor water" data-label="surface of Tuna Bay" cx="1294" cy="832" r="4"/>
+    <circle id="room-b85984f3f1f418403829c1234842fd8a1ef007c2" class="room outdoor water" data-label="surface of Tuna Bay" cx="1294" cy="818" r="4"/>
+    <circle id="room-e4a25b0a4a5a438cdf6cc39443109be281481ff9" class="room outdoor water" data-label="surface of Tuna Bay" cx="1294" cy="804" r="4"/>
+    <circle id="room-5c70102e020496593b5ee8248187ae4be0e48bed" class="room outdoor water" data-label="surface of Tuna Bay" cx="1294" cy="790" r="4"/>
+    <circle id="room-a27977c9750e7ea004b044ba4c0eac76b619e735" class="room outdoor water" data-label="surface of Tuna Bay" cx="1280" cy="790" r="4"/>
+    <circle id="room-d4d4cbc0374920db98e6f459b488df96d12e82cd" class="room outdoor water" data-label="surface of Tuna Bay" cx="1280" cy="804" r="4"/>
+    <circle id="room-4cec22c0a5c8d07dabccab9a5a8f80ff8f62f247" class="room outdoor water" data-label="surface of Tuna Bay" cx="1280" cy="818" r="4"/>
+    <circle id="room-167fac45508bb1f0d0ea4a70a66dbe12e1f65c54" class="room outdoor water" data-label="surface of Tuna Bay" cx="1280" cy="832" r="4"/>
+    <circle id="room-bcc9e25e6e0787e2769abdfd7c22e41373ced9c5" class="room outdoor water" data-label="surface of Tuna Bay" cx="1280" cy="846" r="4"/>
+    <circle id="room-eea20753e113731edda278be53e166997b99c1e8" class="room outdoor water" data-label="surface of Tuna Bay" cx="1280" cy="860" r="4"/>
+    <circle id="room-56fdbbd7e2c0456314ba6b7088d26d753879f8f1" class="room outdoor water" data-label="surface of Tuna Bay" cx="1280" cy="874" r="4"/>
+    <circle id="room-ac53c883ad1db27150c87cd369090da33fb8f93f" class="room outdoor water" data-label="surface of Tuna Bay" cx="1280" cy="888" r="4"/>
+    <circle id="room-afde3c7408ae54234d99735cad8054533d1e291a" class="room outdoor water" data-label="surface of Tuna Bay" cx="1070" cy="860" r="4"/>
+    <circle id="room-f947819cbbfebefc883d4c3cd750c3922cdb925d" class="room outdoor water" data-label="surface of Tuna Bay" cx="1070" cy="874" r="4"/>
+    <circle id="room-5f86a021350ba8b62df65f4c57290d771d525d09" class="room outdoor water" data-label="surface of Tuna Bay" cx="1070" cy="888" r="4"/>
+    <circle id="room-768160aab4b27925bac3a1819f41b222944f0688" class="room outdoor water" data-label="surface of Tuna Bay" cx="1070" cy="902" r="4"/>
+    <circle id="room-80387151713b3229fb683baf1018133c8b30485d" class="room outdoor water" data-label="surface of Tuna Bay" cx="1056" cy="902" r="4"/>
+    <circle id="room-0d695d2a74ad44104794b56d5fab05b2d23683fc" class="room outdoor water" data-label="surface of Tuna Bay" cx="1056" cy="888" r="4"/>
+    <circle id="room-484d043bf6639d7f923a7b6ce6edbb1fade641ed" class="room outdoor water" data-label="surface of Tuna Bay" cx="1056" cy="874" r="4"/>
+    <circle id="room-feb454dac978a1ad4708c52e5652ae6f3ba98d45" class="room outdoor water" data-label="surface of Tuna Bay" cx="1056" cy="860" r="4"/>
+    <circle id="room-30f1a77573fda33deaa2367a160a4a1cac18bdde" class="room outdoor water" data-label="surface of Tuna Bay" cx="1042" cy="860" r="4"/>
+    <circle id="room-57556e052d78ca36f45efcfac1d6149fbca56b08" class="room outdoor water" data-label="surface of Tuna Bay" cx="1042" cy="874" r="4"/>
+    <circle id="room-dfc7d6fa323f41ecaa5f4580402210af6d064fc8" class="room outdoor water" data-label="surface of Tuna Bay" cx="1042" cy="888" r="4"/>
+    <circle id="room-389d06d95bb4382c5b0835f8fc11af387c7c7b6a" class="room outdoor water" data-label="surface of Tuna Bay" cx="1042" cy="902" r="4"/>
+    <circle id="room-9d697626bb7fdbea3b35f1ad32ce7a7d47429ed8" class="room outdoor water" data-label="surface of Tuna Bay" cx="1028" cy="902" r="4"/>
+    <circle id="room-e26d4af5ea2f12128811419c3580cccc2171e1e0" class="room outdoor water" data-label="surface of Tuna Bay" cx="1028" cy="888" r="4"/>
+    <circle id="room-32b9174e78d5948ed5df2f41d514e2a94a33fe05" class="room outdoor water" data-label="surface of Tuna Bay" cx="1028" cy="874" r="4"/>
+    <circle id="room-e9d517c74c74dbda1fd9debbc6416e18b7c8fdbf" class="room outdoor water" data-label="surface of Tuna Bay" cx="1028" cy="860" r="4"/>
+    <circle id="room-837cb44cd4c4964114f00bfb1b7f3370aa5f7413" class="room outdoor water" data-label="surface of Tuna Bay" cx="1014" cy="860" r="4"/>
+    <circle id="room-eed21692cb2054878a6182841bfa334dc304d9f2" class="room outdoor water" data-label="surface of Tuna Bay" cx="1014" cy="874" r="4"/>
+    <circle id="room-8e8a7fad8ebf259a590b17d613a1753445fd831a" class="room outdoor water" data-label="surface of Tuna Bay" cx="1014" cy="888" r="4"/>
+    <circle id="room-f88030b198a635081f3ea44a1de3fdc7aafd9c62" class="room outdoor water" data-label="surface of Tuna Bay" cx="1014" cy="902" r="4"/>
+    <circle id="room-1132140d768aa62e0465c78ea5b8d9e926102493" class="room outdoor water" data-label="surface of Tuna Bay" cx="1000" cy="902" r="4"/>
+    <circle id="room-a9eddde7bd50f05cc5f078a6a9f578da787e33b7" class="room outdoor water" data-label="surface of Tuna Bay" cx="1000" cy="888" r="4"/>
+    <circle id="room-27abf69133354419515198acbe0f26fdc9a62daa" class="room outdoor water" data-label="surface of Tuna Bay" cx="1000" cy="874" r="4"/>
+    <circle id="room-011184ea6f4bea5e5c39d4f45f0ea4e7a0958627" class="room outdoor water" data-label="surface of Tuna Bay" cx="1000" cy="860" r="4"/>
+    <circle id="room-c20c89cd9c0fc92a4b74077e28e67f44b99799e9" class="room outdoor water" data-label="surface of Tuna Bay" cx="1000" cy="846" r="4"/>
+    <circle id="room-219a5f385b6e918fbfc3b83902b584e53ad85be2" class="room outdoor water" data-label="surface of Tuna Bay" cx="1014" cy="846" r="4"/>
+    <circle id="room-db91fc9388cbc7f8e34f007eba92df04034491fe" class="room outdoor water" data-label="surface of Tuna Bay" cx="1028" cy="846" r="4"/>
+    <circle id="room-8cc9d97ea6895a8a930be53f870da65f75db02fe" class="room outdoor water" data-label="surface of Tuna Bay" cx="1042" cy="846" r="4"/>
+    <circle id="room-57f03c56e1509d2be6a4073bc6a7e03ad28c3408" class="room outdoor water" data-label="surface of Tuna Bay" cx="1056" cy="846" r="4"/>
+    <circle id="room-32d79891503a5dec056fb91054980f86fd1fe5a9" class="room outdoor water" data-label="surface of Tuna Bay" cx="1070" cy="846" r="4"/>
+    <circle id="room-7be27dbf726018a121ea5d2d4453b7ab35387084" class="room outdoor water" data-label="surface of Tuna Bay" cx="1070" cy="832" r="4"/>
+    <circle id="room-a9f23554b5f0a0203beb87f32040a94d1c8c6cb6" class="room outdoor water" data-label="surface of Tuna Bay" cx="1070" cy="818" r="4"/>
+    <circle id="room-0025a2d2829a5dd4826b207621235b38e1e1f1d6" class="room outdoor water" data-label="near the end of the piers" cx="1070" cy="804" r="4"/>
+    <circle id="room-e6f3240c1e3d6be4e24cf73140e70d561cea970b" class="room outdoor water" data-label="choppy surface of the bay between two piers" cx="1070" cy="790" r="4"/>
+    <circle id="room-e66835eb973dc829b098e6af5a0d0ac1122325ad" class="room outdoor water" data-label="choppy surface of the bay between two piers" cx="1070" cy="776" r="4"/>
+    <circle id="room-94c42d9506cd2f3f695bf424527c1e52b77cdeb4" class="room outdoor water" data-label="choppy surface of the bay between two piers" cx="1070" cy="762" r="4"/>
+    <circle id="room-7d755d7df0cd4b75a2e2082c909f91171132821f" class="room outdoor water" data-label="underneath the piers" cx="1056" cy="762" r="4"/>
+    <circle id="room-7f5cd5ee17ce32c41108ebab06bed8b391444796" class="room outdoor water" data-label="underneath the piers" cx="1056" cy="776" r="4"/>
+    <circle id="room-481c7aba454d794ec634f7227e7c7877517d5ace" class="room outdoor water" data-label="underneath the piers" cx="1056" cy="790" r="4"/>
+    <circle id="room-0f4e352adddfc18feaa52a7a157ff6b4098e97fb" class="room outdoor water" data-label="near the end of the piers" cx="1056" cy="804" r="4"/>
+    <circle id="room-25dd4b1ac7a3193ee3841dcf2c0c2cf77cebe92d" class="room outdoor water" data-label="surface of Tuna Bay" cx="1056" cy="818" r="4"/>
+    <circle id="room-ad8b29b470f3dfa41c6abc1be4bb1b878509f81c" class="room outdoor water" data-label="surface of Tuna Bay" cx="1056" cy="832" r="4"/>
+    <circle id="room-f9648d3c7fe73cf009f506a305a1767909d85681" class="room outdoor water" data-label="surface of Tuna Bay" cx="1042" cy="832" r="4"/>
+    <circle id="room-0131d557bbac2dbd3a31a0f2d948bf11e8d547a9" class="room outdoor water" data-label="surface of Tuna Bay" cx="1042" cy="818" r="4"/>
+    <circle id="room-5ea573b4b7de8133243607e7641ad4fab078bffc" class="room outdoor water" data-label="near the end of the piers" cx="1042" cy="804" r="4"/>
+    <circle id="room-ac555f76f4124990e44fdf6c5c1ae1d9e18e5398" class="room outdoor water" data-label="choppy surface of the bay between two piers" cx="1042" cy="790" r="4"/>
+    <circle id="room-3ac31c0010053110ce8413b94676e757670f3b75" class="room outdoor water" data-label="choppy surface of the bay between two piers" cx="1042" cy="776" r="4"/>
+    <circle id="room-c6f5a4e31ea70c940806d7d4df1aa8d99f270c42" class="room outdoor water" data-label="choppy surface of the bay between two piers" cx="1042" cy="762" r="4"/>
+    <circle id="room-8dac3e47e3d72aaf8a2c3bd70f7611405af22391" class="room outdoor water" data-label="underneath the piers" cx="1028" cy="762" r="4"/>
+    <circle id="room-46a24ccf172f91de8b83f4d95eaad69fe668fd11" class="room outdoor water" data-label="underneath the piers" cx="1028" cy="776" r="4"/>
+    <circle id="room-52565588cbeddaf47bc8750da683e324d9af16c1" class="room outdoor water" data-label="choppy surface of the bay between two piers" cx="1028" cy="790" r="4"/>
+    <circle id="room-8ba3340f86069cbe9510452c891ecc20bc6ee67f" class="room outdoor water" data-label="near the end of the piers" cx="1028" cy="804" r="4"/>
+    <circle id="room-dac975356882a87a5e9fc8253c8d6d733c1dc9bf" class="room outdoor water" data-label="surface of Tuna Bay" cx="1028" cy="818" r="4"/>
+    <circle id="room-62bd6aaf0fd12b13980523d3a8b78e9aea833760" class="room outdoor water" data-label="surface of Tuna Bay" cx="1028" cy="832" r="4"/>
+    <circle id="room-46b17183806aa970f4c2abbb132cea81a08654e4" class="room outdoor water" data-label="surface of Tuna Bay" cx="1014" cy="832" r="4"/>
+    <circle id="room-e7912ac75d69c973470bbbc9b878a6288b27d967" class="room outdoor water" data-label="surface of Tuna Bay" cx="1014" cy="818" r="4"/>
+    <circle id="room-dae431ad803fb5f05c0164f3b34cf62370cdd6a1" class="room outdoor water" data-label="near the end of the piers" cx="1014" cy="804" r="4"/>
+    <circle id="room-50b9e8ef030ce3a256e12820363bdaae966808ba" class="room outdoor water" data-label="choppy surface of the bay between two piers" cx="1014" cy="790" r="4"/>
+    <circle id="room-0c18b6d08514d549bce85afb6b6f12bae1cef33f" class="room outdoor water" data-label="choppy surface of the bay between two piers" cx="1014" cy="776" r="4"/>
+    <circle id="room-ce4cc5358e5937e8830f6e6dde2a1795fc3ffa45" class="room outdoor water" data-label="choppy surface of the bay between two piers" cx="1014" cy="762" r="4"/>
+    <circle id="room-100385f684b82bb554143ae31c06da3a7cfbb7d0" class="room outdoor water" data-label="underneath the piers" cx="1000" cy="762" r="4"/>
+    <circle id="room-1a4c05248637a5427134644fceabd9185a99ba29" class="room outdoor water" data-label="beside the piers" cx="986" cy="762" r="4"/>
+    <circle id="room-85b609e60f8c618c78f857eec425a74237b47d67" class="room outdoor water" data-label="surface of Tuna Bay" cx="972" cy="776" r="4"/>
+    <circle id="room-bf4f04712054bd194a2771e63cf8e1fe6a8ec950" class="room outdoor water" data-label="beside the piers" cx="986" cy="776" r="4"/>
+    <circle id="room-82539e170c3f9dc8df30b0bbc1209d0055c25418" class="room outdoor water" data-label="underneath the piers" cx="1000" cy="776" r="4"/>
+    <circle id="room-83ee0c3260a84c3eca3d179d034b09be0800afc2" class="room outdoor water" data-label="underneath the piers" cx="1000" cy="790" r="4"/>
+    <circle id="room-c7f1d0da63d35700fa99d6fb56f7811d28989cf4" class="room outdoor water" data-label="beside the piers" cx="986" cy="790" r="4"/>
+    <circle id="room-925618a9f3e2e9220ec7493e862a4632e44f5b20" class="room outdoor water" data-label="surface of Tuna Bay" cx="972" cy="790" r="4"/>
+    <circle id="room-da34209647743565c51ae71926731d6f2a09b43a" class="room outdoor water" data-label="surface of Tuna Bay" cx="958" cy="790" r="4"/>
+    <circle id="room-1e42c48dc9f0fd37433bc5650d0500660cb85196" class="room outdoor water" data-label="surface of Tuna Bay" cx="944" cy="804" r="4"/>
+    <circle id="room-334d8185bc22044cfc71b8c381dd3f81da4f99e9" class="room outdoor water" data-label="surface of Tuna Bay" cx="958" cy="804" r="4"/>
+    <circle id="room-f9af8f59de454185c668eb21dc4e5c1149a5665d" class="room outdoor water" data-label="surface of Tuna Bay" cx="972" cy="804" r="4"/>
+    <circle id="room-f6757586cbcde8a715ce857782a5c87725e0061f" class="room outdoor water" data-label="near the end of the piers" cx="986" cy="804" r="4"/>
+    <circle id="room-6123e76df8f2e6b068c58bcd19aedff0270e2c65" class="room outdoor water" data-label="near the end of the piers" cx="1000" cy="804" r="4"/>
+    <circle id="room-ab603f27825b851c7c301d32cb795bf7bf2a367a" class="room outdoor water" data-label="surface of Tuna Bay" cx="1000" cy="818" r="4"/>
+    <circle id="room-80a999f18fe486426077883598c876a829abcfda" class="room outdoor water" data-label="surface of Tuna Bay" cx="1000" cy="832" r="4"/>
+    <circle id="room-7e59ef4fda9e6c4c864abee8b3eabea039f3f545" class="room outdoor water" data-label="surface of Tuna Bay" cx="986" cy="818" r="4"/>
+    <circle id="room-8fd8a486286a6126c4b71f87eec043ac2777e3c1" class="room outdoor water" data-label="surface of Tuna Bay" cx="972" cy="818" r="4"/>
+    <circle id="room-e66a097c6acd321252287a3db1efc6b13a2317e4" class="room outdoor water" data-label="surface of Tuna Bay" cx="958" cy="818" r="4"/>
+    <circle id="room-59e352fea38a404c2f5ac59afd72d1215dcc06ad" class="room outdoor water" data-label="surface of Tuna Bay" cx="944" cy="818" r="4"/>
+    <circle id="room-cbe94223fb5d95a0b715b9fb591f63e3938cbc4a" class="room outdoor water" data-label="surface of Tuna Bay" cx="958" cy="832" r="4"/>
+    <circle id="room-b9a68996e970f17a89614dcfeb5002ea01d04acf" class="room outdoor water" data-label="surface of Tuna Bay" cx="972" cy="832" r="4"/>
+    <circle id="room-3dc732b134880706a5efb480763d32f0031a251e" class="room outdoor water" data-label="surface of Tuna Bay" cx="986" cy="832" r="4"/>
+    <circle id="room-44733ac2ee027d1375c77e0b6ead172afbe7d263" class="room outdoor water" data-label="surface of Tuna Bay" cx="986" cy="846" r="4"/>
+    <circle id="room-2541392e4a57c9ffd5d51fa1ab484132a9df9e17" class="room outdoor water" data-label="surface of Tuna Bay" cx="986" cy="860" r="4"/>
+    <circle id="room-93f40ceeb7807fe99efddfc467738295c78e0f58" class="room outdoor water" data-label="surface of Tuna Bay" cx="986" cy="874" r="4"/>
+    <circle id="room-0c3e5f51b78964b5687091b71abbb1a9b9ca2458" class="room outdoor water" data-label="surface of Tuna Bay" cx="986" cy="888" r="4"/>
+    <circle id="room-ae1562c9a00a24500c12b91b8446270a9f36fe95" class="room outdoor water" data-label="surface of Tuna Bay" cx="986" cy="902" r="4"/>
+    <circle id="room-4227c3b1cf86960294dfa0ed2d2733308cb8ab87" class="room outdoor water" data-label="surface of Tuna Bay" cx="972" cy="902" r="4"/>
+    <circle id="room-0a5b6004fb6c77e2b3aebb4c74993c33453eb61b" class="room outdoor water" data-label="surface of Tuna Bay" cx="958" cy="902" r="4"/>
+    <circle id="room-7529d576bb5b586b4138c63e6bfbb1ea1e3b9b41" class="room outdoor water" data-label="surface of Tuna Bay" cx="972" cy="888" r="4"/>
+    <circle id="room-6e42d008aeacf31f0eb8b5ea9863e207b3fe3c8e" class="room outdoor water" data-label="surface of Tuna Bay" cx="958" cy="888" r="4"/>
+    <circle id="room-405666ed576914f80157aaa6b2cb29be979717ae" class="room outdoor water" data-label="surface of Tuna Bay" cx="972" cy="874" r="4"/>
+    <circle id="room-42da8a018bbc8d386b1e7c6ad91448609b9897db" class="room outdoor water" data-label="surface of Tuna Bay" cx="958" cy="874" r="4"/>
+    <circle id="room-7eb720b2c3b3de1c12fdf949a1a3a5219e6d948b" class="room outdoor water" data-label="surface of Tuna Bay" cx="972" cy="860" r="4"/>
+    <circle id="room-a68ddca9714fe2679edc7c7d84d26c0774a44f65" class="room outdoor water" data-label="surface of Tuna Bay" cx="958" cy="860" r="4"/>
+    <circle id="room-e98bf7d0071a4db17cd00ed854136d9fe063c2a3" class="room outdoor water" data-label="surface of Tuna Bay" cx="972" cy="846" r="4"/>
+    <circle id="room-db8efdc65e7c556913d7a002c11b904f863d76f4" class="room outdoor water" data-label="surface of Tuna Bay" cx="958" cy="846" r="4"/>
+    <circle id="room-b65eba3a65ffee2f53a4b3bb50896e0ca705daa3" class="room outdoor water" data-label="surface of Tuna Bay" cx="930" cy="846" r="4"/>
+    <circle id="room-3e5dacdf6ab74644ce152959fe24c8617c534311" class="room outdoor water" data-label="surface of Tuna Bay" cx="930" cy="860" r="4"/>
+    <circle id="room-c701497cd2bd433102651102628a34cba190a5ff" class="room outdoor water" data-label="surface of Tuna Bay" cx="930" cy="874" r="4"/>
+    <circle id="room-2c27aa75692d2fb8fa7f448ce1202c92de9e34a5" class="room outdoor water" data-label="surface of Tuna Bay" cx="930" cy="888" r="4"/>
+    <circle id="room-200a3cc99b1a2cd97547c3700c8e8e8281835a3a" class="room outdoor water" data-label="surface of Tuna Bay" cx="930" cy="902" r="4"/>
+    <circle id="room-7d87385f65e3c4d89b89a517add860ad23dbdb89" class="room outdoor water" data-label="surface of Tuna Bay" cx="916" cy="902" r="4"/>
+    <circle id="room-5cb6c53338ed241bd9bb65434385fc4b697e988d" class="room outdoor water" data-label="surface of Tuna Bay" cx="902" cy="902" r="4"/>
+    <circle id="room-d8ed0e5115948021b7031060af3a83e63607aae8" class="room outdoor water" data-label="surface of Tuna Bay" cx="902" cy="888" r="4"/>
+    <circle id="room-3513c1c09c5e1af9dac6037f551187e13bec7fab" class="room outdoor water" data-label="surface of Tuna Bay" cx="916" cy="888" r="4"/>
+    <circle id="room-61315230acdbe2871886b9ef63ab1e34772aec47" class="room outdoor water" data-label="surface of Tuna Bay" cx="902" cy="874" r="4"/>
+    <circle id="room-13828f551fb3d4c689be0af8ab1ce1ee99b157db" class="room outdoor water" data-label="surface of Tuna Bay" cx="916" cy="874" r="4"/>
+    <circle id="room-c649faed04e097257ff9fdbbf12c278ba35d724d" class="room outdoor water" data-label="surface of Tuna Bay" cx="902" cy="860" r="4"/>
+    <circle id="room-b11c8c28c5ded81701a8979a32af7b0694c789fe" class="room outdoor water" data-label="surface of Tuna Bay" cx="916" cy="860" r="4"/>
+    <circle id="room-910d033802a5aad2788bdbb502fa1d2ee33eaf1b" class="room outdoor water" data-label="surface of Tuna Bay" cx="916" cy="846" r="4"/>
+    <circle id="room-bc0eda5b7ca355f5bfb1ed00eae935a343654db5" class="room outdoor water" data-label="surface of Tuna Bay" cx="902" cy="846" r="4"/>
+    <circle id="room-c90dd4a15324b756d568de32cbd1c69a174f9564" class="room outdoor water" data-label="surface of Tuna Bay" cx="902" cy="832" r="4"/>
+    <circle id="room-e01ed0a208c834af00f78b318769472fbe074904" class="room outdoor water" data-label="surface of Tuna Bay" cx="902" cy="818" r="4"/>
+    <circle id="room-b65fff5d50e8fafbc316f7899b2d74a111ec8576" class="room outdoor water" data-label="surface of Tuna Bay" cx="902" cy="804" r="4"/>
+    <circle id="room-4dd74a00eaab3f9732e088d775f77e4363f7f736" class="room outdoor water" data-label="surface of Tuna Bay" cx="902" cy="790" r="4"/>
+    <circle id="room-ff79c1a88414414358ef4cd93403b2efbb69e426" class="room outdoor water" data-label="surface of Tuna Bay" cx="902" cy="776" r="4"/>
+    <circle id="room-572897a7ee2947ca1b6bdbbe3ca85d431f82f4df" class="room outdoor water" data-label="surface of Tuna Bay" cx="902" cy="762" r="4"/>
+    <circle id="room-533f3f311bf606d3c83a68a06a35a3ac7356a700" class="room outdoor water" data-label="surface of Tuna Bay" cx="916" cy="762" r="4"/>
+    <circle id="room-5a0ba6b29e272c9a4f4706b40c53eaf508838167" class="room outdoor water" data-label="surface of Tuna Bay" cx="916" cy="776" r="4"/>
+    <circle id="room-547c7f87a576ab53f318c89ad107f8ee1f0a4226" class="room outdoor water" data-label="surface of Tuna Bay" cx="930" cy="762" r="4"/>
     <rect id="room-fe80f9bc7ccc39f4c1b7c69ccdefcf08d3d335a0" class="room indoor room-shop" data-label="junk junk" x="1080" y="772" width="8" height="8" rx="2"/><text class="room-type-label" x="1084" y="776" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-b6341c9e21a85368277e67052f67c2c2ba4c9d2a" class="room indoor" data-label="ledge underneath the Tora Bridge" x="506" y="450" width="8" height="8" rx="2"/>
     <circle id="room-fc83c7280751b168364a157bbaf04fa5aabdc2c4" class="room outdoor" data-label="delivery area" cx="748" cy="370" r="4"/>
@@ -4884,9 +4884,9 @@
     <rect id="room-fef7b289e6cb43e750fbd5110feba37deee24ed4" class="room indoor room-house" data-label="[player house]" x="1197" y="529" width="8" height="8" rx="2"/><text class="room-type-label" x="1201" y="533" text-anchor="middle" dominant-baseline="central">H</text>
     <rect id="room-0e2995533b50852db58f2f68bdcfda2aa29a9360" class="room indoor room-house" data-label="[player house]" x="1244" y="537" width="8" height="8" rx="2"/><text class="room-type-label" x="1248" y="541" text-anchor="middle" dominant-baseline="central">H</text>
     <rect id="room-bf25136169cbe0cc2a80d8b85574159fab56d8fe" class="room indoor room-house" data-label="[player house]" x="1244" y="537" width="8" height="8" rx="2"/><text class="room-type-label" x="1248" y="541" text-anchor="middle" dominant-baseline="central">H</text>
-    <circle id="room-65912ff5333c75cbaf81f141b233d1cd26cdf7e0" class="room outdoor room-house" data-label="[player house]" cx="1252" cy="738" r="4"/><text class="room-type-label" x="1252" y="738" text-anchor="middle" dominant-baseline="central">H</text>
+    <circle id="room-65912ff5333c75cbaf81f141b233d1cd26cdf7e0" class="room outdoor room-house water" data-label="[player house]" cx="1252" cy="738" r="4"/><text class="room-type-label" x="1252" y="738" text-anchor="middle" dominant-baseline="central">H</text>
     <circle id="room-9cd413920ad403e3df167f042c6e5da34ca2cb44" class="room outdoor room-house" data-label="[player house]" cx="1224" cy="738" r="4"/><text class="room-type-label" x="1224" y="738" text-anchor="middle" dominant-baseline="central">H</text>
-    <circle id="room-d0570cd230d5c2afd322a090999abb607ce689dd" class="room outdoor room-house" data-label="[player house]" cx="1224" cy="738" r="4"/><text class="room-type-label" x="1224" y="738" text-anchor="middle" dominant-baseline="central">H</text>
+    <circle id="room-d0570cd230d5c2afd322a090999abb607ce689dd" class="room outdoor room-house water" data-label="[player house]" cx="1224" cy="738" r="4"/><text class="room-type-label" x="1224" y="738" text-anchor="middle" dominant-baseline="central">H</text>
     <rect id="room-cae251c891be53b3c566d2b72baeddc5f9408b2f" class="room indoor room-house" data-label="[player house]" x="1111" y="730" width="8" height="8" rx="2"/><text class="room-type-label" x="1115" y="734" text-anchor="middle" dominant-baseline="central">H</text>
     <rect id="room-2b6cda39c5593cb90a07966833ff8ff327707fcc" class="room indoor room-house" data-label="[player house]" x="1111" y="702" width="8" height="8" rx="2"/><text class="room-type-label" x="1115" y="706" text-anchor="middle" dominant-baseline="central">H</text>
     <rect id="room-b135f975a54a0163f3e7dde338ef4c04c0d200c6" class="room indoor room-house" data-label="[player house]" x="1024" y="677" width="8" height="8" rx="2"/><text class="room-type-label" x="1028" y="681" text-anchor="middle" dominant-baseline="central">H</text>

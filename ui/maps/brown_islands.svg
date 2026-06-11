@@ -29,14 +29,14 @@
     <line id="edge-0bb72aa6a38f305db38cc005655a60fe2bb0c047-d29e733c7b0b607cb4bdf8ca295b2663f3157636" class="exit" x1="49" y1="101" x2="49" y2="129"/>
     <line id="edge-2b610a2f2a05f79e376b9b56d8513b906e3abac3-d29e733c7b0b607cb4bdf8ca295b2663f3157636" class="exit" x1="77" y1="129" x2="49" y2="129"/>
     <line id="edge-b40289d33322121e648a9909169d438e0e0aca20-d29e733c7b0b607cb4bdf8ca295b2663f3157636" class="exit" x1="49" y1="157" x2="49" y2="129"/>
-    <line id="edge-94ec25e2b8f4f5ae6b3fc363687d031c03406aa0-b40289d33322121e648a9909169d438e0e0aca20" class="exit" x1="77" y1="157" x2="49" y2="157"/>
+    <line id="edge-94ec25e2b8f4f5ae6b3fc363687d031c03406aa0-b40289d33322121e648a9909169d438e0e0aca20" class="exit exit-water" x1="77" y1="157" x2="49" y2="157"/>
     <line id="edge-989b28baa1ba84dce134a87cc4f81357b1365d73-b40289d33322121e648a9909169d438e0e0aca20" class="exit" x1="49" y1="185" x2="49" y2="157"/>
     <line id="edge-989b28baa1ba84dce134a87cc4f81357b1365d73-df4127d5a2d3c4f8d55c207db03033b4c9b6bfa3" class="exit" x1="49" y1="185" x2="77" y2="185"/>
     <line id="edge-2e142dafb86f677fa761dfae990b2aff6ad013e8-df4127d5a2d3c4f8d55c207db03033b4c9b6bfa3" class="exit" x1="105" y1="185" x2="77" y2="185"/>
     <line id="edge-94ec25e2b8f4f5ae6b3fc363687d031c03406aa0-df4127d5a2d3c4f8d55c207db03033b4c9b6bfa3" class="exit" x1="77" y1="157" x2="77" y2="185"/>
-    <line id="edge-2e142dafb86f677fa761dfae990b2aff6ad013e8-dfa7fee6d5b82abf6680f2e4b2e6043cd8f7f5bb" class="exit" x1="105" y1="185" x2="105" y2="157"/>
+    <line id="edge-2e142dafb86f677fa761dfae990b2aff6ad013e8-dfa7fee6d5b82abf6680f2e4b2e6043cd8f7f5bb" class="exit exit-water" x1="105" y1="185" x2="105" y2="157"/>
     <line id="edge-2b610a2f2a05f79e376b9b56d8513b906e3abac3-94ec25e2b8f4f5ae6b3fc363687d031c03406aa0" class="exit" x1="77" y1="129" x2="77" y2="157"/>
-    <line id="edge-94ec25e2b8f4f5ae6b3fc363687d031c03406aa0-dfa7fee6d5b82abf6680f2e4b2e6043cd8f7f5bb" class="exit" x1="77" y1="157" x2="105" y2="157"/>
+    <line id="edge-94ec25e2b8f4f5ae6b3fc363687d031c03406aa0-dfa7fee6d5b82abf6680f2e4b2e6043cd8f7f5bb" class="exit exit-water" x1="77" y1="157" x2="105" y2="157"/>
     <line id="edge-c3e3c46773e4cb6b7b7c257e58666fbe306be023-dfa7fee6d5b82abf6680f2e4b2e6043cd8f7f5bb" class="exit" x1="105" y1="129" x2="105" y2="157"/>
     <line id="edge-2b610a2f2a05f79e376b9b56d8513b906e3abac3-c3e3c46773e4cb6b7b7c257e58666fbe306be023" class="exit" x1="77" y1="129" x2="105" y2="129"/>
     null
@@ -60,12 +60,12 @@
     <circle id="room-0bb72aa6a38f305db38cc005655a60fe2bb0c047" class="room outdoor" data-label="western end of a sandy beach" cx="49" cy="101" r="4"/>
     <rect id="room-7959495c4f3c78e3850657c08e258c3b06ae97a3" class="room indoor" data-label="quiet little hut" x="45" y="75" width="8" height="8" rx="2"/>
     <circle id="room-d29e733c7b0b607cb4bdf8ca295b2663f3157636" class="room outdoor" data-label="sea-shore" cx="49" cy="129" r="4"/>
-    <circle id="room-b40289d33322121e648a9909169d438e0e0aca20" class="room outdoor" data-label="sea just north of a large rock" cx="49" cy="157" r="4"/>
+    <circle id="room-b40289d33322121e648a9909169d438e0e0aca20" class="room outdoor water" data-label="sea just north of a large rock" cx="49" cy="157" r="4"/>
     <circle id="room-989b28baa1ba84dce134a87cc4f81357b1365d73" class="room outdoor" data-label="western side of a large rock" cx="49" cy="185" r="4"/>
     <circle id="room-df4127d5a2d3c4f8d55c207db03033b4c9b6bfa3" class="room outdoor" data-label="eastern side of a large rock" cx="77" cy="185" r="4"/>
-    <circle id="room-2e142dafb86f677fa761dfae990b2aff6ad013e8" class="room outdoor" data-label="sea between a large rock and a pier" cx="105" cy="185" r="4"/>
-    <circle id="room-94ec25e2b8f4f5ae6b3fc363687d031c03406aa0" class="room outdoor" data-label="sea just north of a large rock" cx="77" cy="157" r="4"/>
-    <circle id="room-dfa7fee6d5b82abf6680f2e4b2e6043cd8f7f5bb" class="room outdoor" data-label="sea just west of a pier" cx="105" cy="157" r="4"/>
+    <circle id="room-2e142dafb86f677fa761dfae990b2aff6ad013e8" class="room outdoor water" data-label="sea between a large rock and a pier" cx="105" cy="185" r="4"/>
+    <circle id="room-94ec25e2b8f4f5ae6b3fc363687d031c03406aa0" class="room outdoor water" data-label="sea just north of a large rock" cx="77" cy="157" r="4"/>
+    <circle id="room-dfa7fee6d5b82abf6680f2e4b2e6043cd8f7f5bb" class="room outdoor water" data-label="sea just west of a pier" cx="105" cy="157" r="4"/>
     <circle id="room-c3e3c46773e4cb6b7b7c257e58666fbe306be023" class="room outdoor" data-label="sea-shore by a pier" cx="105" cy="129" r="4"/>
     <circle id="room-2b610a2f2a05f79e376b9b56d8513b906e3abac3" class="room outdoor" data-label="sea-shore" cx="77" cy="129" r="4"/>
     <rect id="room-9217032cfbba083b72044841cfe19208dd250494" class="room indoor room-food" data-label="front of a ferry shop" x="137" y="69" width="8" height="8" rx="2"/><text class="room-type-label" x="141" y="73" text-anchor="middle" dominant-baseline="central">F</text>

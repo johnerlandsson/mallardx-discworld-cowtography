@@ -1,6 +1,6 @@
 import { describe, it, expect, vi } from 'vitest'
 import Database from 'better-sqlite3'
-import { queryRooms, queryExits, queryStairRooms, edgeId, roomElement, stairSymbol, exitElement, buildNewSvg, updateExistingSvg, buildLibrarySvg, buildLibraryLabelsContent, buildLibraryRowNumbers, buildLibraryBookList, buildLibraryExitsContent, queryShopTypes, TYPE_LETTERS } from './build-svg.mjs'
+import { queryRooms, queryExits, queryStairRooms, edgeId, roomElement, stairSymbol, exitElement, buildNewSvg, updateExistingSvg, buildLibrarySvg, buildLibraryLabelsContent, buildLibraryRowNumbers, buildLibraryBookList, buildLibraryExitsContent, queryShopTypes, TYPE_LETTERS, isWaterRoom } from './build-svg.mjs'
 
 function makeDb() {
   const db = new Database(':memory:')
@@ -324,6 +324,64 @@ describe('exitElement', () => {
   it('no exit-compact class when neither endpoint is compact', () => {
     expect(exitElement('r1', 'r2', rooms, false, new Set())).toContain('class="exit"')
     expect(exitElement('r1', 'r2', rooms, false, new Set())).not.toContain('exit-compact')
+  })
+
+  it('adds exit-water class when both endpoints are water rooms', () => {
+    const water = new Set(['r1', 'r2'])
+    expect(exitElement('r1', 'r2', rooms, false, new Set(), water)).toContain('exit-water')
+  })
+
+  it('does not add exit-water when only one endpoint is a water room', () => {
+    const water = new Set(['r1'])
+    expect(exitElement('r1', 'r2', rooms, false, new Set(), water)).not.toContain('exit-water')
+  })
+})
+
+describe('isWaterRoom', () => {
+  it('detects underwater room type', () => {
+    expect(isWaterRoom({ roomType: 'underwater', short: 'something' })).toBe(true)
+  })
+
+  it('detects river Ankh surface and under-pier rooms', () => {
+    expect(isWaterRoom({ roomType: 'outside', short: 'surface of the river Ankh' })).toBe(true)
+    expect(isWaterRoom({ roomType: 'outside', short: 'under a pier' })).toBe(true)
+  })
+
+  it('detects bridge undersides via override set', () => {
+    const overrides = new Set(['abc123'])
+    expect(isWaterRoom({ id: 'abc123', roomType: 'outside', short: 'under Ankh Bridge' }, overrides)).toBe(true)
+    expect(isWaterRoom({ id: 'other', roomType: 'outside', short: 'under Ankh Bridge' }, overrides)).toBe(false)
+  })
+
+  it('does not mark walkable river-bank rooms as water', () => {
+    expect(isWaterRoom({ roomType: 'outside', short: 'muddy part of the river Ankh' })).toBe(false)
+    expect(isWaterRoom({ roomType: 'outside', short: 'solid part of the river Ankh' })).toBe(false)
+  })
+
+  it('detects Pearl River and Tuna Bay rooms', () => {
+    expect(isWaterRoom({ roomType: 'outside', short: 'Pearl River between two bridges' })).toBe(true)
+    expect(isWaterRoom({ roomType: 'outside', short: 'surface of Tuna Bay' })).toBe(true)
+    expect(isWaterRoom({ roomType: 'outside', short: 'middle of Tuna Bay next to a huge broken mast' })).toBe(true)
+  })
+
+  it('does not mark land rooms as water', () => {
+    expect(isWaterRoom({ roomType: 'outside', short: 'Dock Road' })).toBe(false)
+    expect(isWaterRoom({ roomType: 'outside', short: 'under the docks' })).toBe(false)
+    expect(isWaterRoom({ roomType: 'outside', short: "under Pon's Bridge" })).toBe(false)
+    expect(isWaterRoom({ roomType: 'outside', short: 'Waterfront' })).toBe(false)
+    expect(isWaterRoom({ roomType: 'outside', short: 'muddy path along the side of Mort Lake' })).toBe(false)
+  })
+})
+
+describe('roomElement (water)', () => {
+  it('adds water class to water room', () => {
+    const el = roomElement('r1', 10, 20, 'surface of the river Ankh', false, null, null, false, true)
+    expect(el).toContain('water')
+  })
+
+  it('does not add water class to normal room', () => {
+    const el = roomElement('r1', 10, 20, 'Dock Road', false, null, null, false, false)
+    expect(el).not.toContain('water')
   })
 })
 

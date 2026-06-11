@@ -137,7 +137,7 @@
     <circle id="room-42cc8e8d400b8b9229f0b28352081d949b276dca" class="room outdoor" data-label="southeastern part of a forest clearing" cx="603" cy="222" r="4"/>
     <rect id="room-aa5d3cfcb0ad8df1e4737d8c5e2d8151cf8acb86" class="room indoor" data-label="narrow passageway leading down" x="299" y="218" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="303,225 300.5,220 305.5,220"/>
     <rect id="room-de4e8ed869fd0d6a6795fe5ed504e3c3400946eb" class="room indoor" data-label="irregular passageway dotted with rim pools" x="319" y="218" width="8" height="8" rx="2"/>
-    <rect id="room-8d79b3a75d076e7dea0def6c32cc7c70e5cbc436" class="room indoor" data-label="cave filled with water" x="319" y="238" width="8" height="8" rx="2"/>
+    <rect id="room-8d79b3a75d076e7dea0def6c32cc7c70e5cbc436" class="room indoor water" data-label="cave filled with water" x="319" y="238" width="8" height="8" rx="2"/>
     <rect id="room-5406e564343fda9a97d5f27255baa04e2ab44a5f" class="room indoor" data-label="narrow passageway with rim pools" x="339" y="198" width="8" height="8" rx="2"/>
     <rect id="room-fcc311043aeff5941e612d01f9141ca53a70fc32" class="room indoor" data-label="gloomy tunnel with a collapsed south wall" x="359" y="198" width="8" height="8" rx="2"/>
     <rect id="room-9c6da28cd342030de373338ea92bc74af9624166" class="room indoor" data-label="flooded cavern with smooth, carved walls" x="379" y="178" width="8" height="8" rx="2"/>
@@ -182,13 +182,13 @@
     <circle id="room-b57e7302ee1de5933c57966758f530bb63079ca1" class="room outdoor" data-label="faint trail wandering through a pine wood" cx="463" cy="102" r="4"/>
     <circle id="room-002ef2fd477f2837c42f2f85290cb93992a58b74" class="room outdoor" data-label="hollow in a pine forest" cx="443" cy="102" r="4"/>
     <circle id="room-8de92ec5ed0864d3afb3aadaeb78146177f038fb" class="room outdoor" data-label="faint forest trail through a pine wood" cx="423" cy="122" r="4"/>
-    <rect id="room-f867e8f5fe850d41a3959d4ceb46696262765460" class="room indoor" data-label="flowing stream just inside a cave" x="539" y="198" width="8" height="8" rx="2"/>
-    <rect id="room-0eeca73deeef759b3fbd897753aa2bd0c05efb3d" class="room indoor" data-label="flowing stream inside a cave" x="519" y="178" width="8" height="8" rx="2"/>
-    <rect id="room-ab902fcde8743d8cef6725412739ef4d206b9014" class="room indoor" data-label="flowing stream in a cave" x="499" y="178" width="8" height="8" rx="2"/>
-    <rect id="room-07a2937d07141366ca8013fbf05d3e53e4a093ec" class="room indoor" data-label="flowing stream in a cave" x="479" y="198" width="8" height="8" rx="2"/>
-    <rect id="room-ce7ee255d7428c601886374d031686bf0ce7dbb5" class="room indoor" data-label="stream" x="459" y="198" width="8" height="8" rx="2"/>
-    <rect id="room-19c901c3d69d1c4cd1498e4ecb1bb02597da6cd3" class="room indoor" data-label="stream" x="459" y="218" width="8" height="8" rx="2"/>
-    <rect id="room-4af2a8569ccbc716384c9c578d9034a40739c528" class="room indoor" data-label="stream" x="439" y="218" width="8" height="8" rx="2"/>
+    <rect id="room-f867e8f5fe850d41a3959d4ceb46696262765460" class="room indoor water" data-label="flowing stream just inside a cave" x="539" y="198" width="8" height="8" rx="2"/>
+    <rect id="room-0eeca73deeef759b3fbd897753aa2bd0c05efb3d" class="room indoor water" data-label="flowing stream inside a cave" x="519" y="178" width="8" height="8" rx="2"/>
+    <rect id="room-ab902fcde8743d8cef6725412739ef4d206b9014" class="room indoor water" data-label="flowing stream in a cave" x="499" y="178" width="8" height="8" rx="2"/>
+    <rect id="room-07a2937d07141366ca8013fbf05d3e53e4a093ec" class="room indoor water" data-label="flowing stream in a cave" x="479" y="198" width="8" height="8" rx="2"/>
+    <rect id="room-ce7ee255d7428c601886374d031686bf0ce7dbb5" class="room indoor water" data-label="stream" x="459" y="198" width="8" height="8" rx="2"/>
+    <rect id="room-19c901c3d69d1c4cd1498e4ecb1bb02597da6cd3" class="room indoor water" data-label="stream" x="459" y="218" width="8" height="8" rx="2"/>
+    <rect id="room-4af2a8569ccbc716384c9c578d9034a40739c528" class="room indoor water" data-label="stream" x="439" y="218" width="8" height="8" rx="2"/>
     <rect id="room-c4f98a89e3046664cf1af48e9644428a76c89525" class="room indoor" data-label="very narrow crack between rock walls" x="419" y="278" width="8" height="8" rx="2"/>
     <rect id="room-89a1ddc2e8d457a2acf955441068892b88f5911d" class="room indoor" data-label="slightly broader crack between rock walls" x="399" y="298" width="8" height="8" rx="2"/>
     <rect id="room-6b72627848026cf0020f11285be363af2d7a4f26" class="room indoor" data-label="narrow crack between rock walls" x="379" y="298" width="8" height="8" rx="2"/>

@@ -193,17 +193,17 @@
     <rect id="room-0627e181c93e5d40ce8e512dac87fc670dd1d549" class="room indoor" data-label="wheelhouse" x="320" y="179" width="8" height="8" rx="2"/>
     <rect id="room-f18cd0ac68995b6f928079e50e97284f670ab990" class="room indoor" data-label="hold" x="320" y="179" width="8" height="8" rx="2"/>
     <rect id="room-8d72ba64b8effe79c728d15727503d33727b51df" class="room indoor" data-label="engine room" x="320" y="179" width="8" height="8" rx="2"/>
-    <circle id="room-47a6ea5de98be19a3660fd806559908d32d51661" class="room outdoor" data-label="the lake" cx="180" cy="110" r="4"/>
-    <circle id="room-f4d1922203e036aec84a141f50a01729f936586f" class="room outdoor" data-label="the lake" cx="166" cy="110" r="4"/>
+    <circle id="room-47a6ea5de98be19a3660fd806559908d32d51661" class="room outdoor water" data-label="the lake" cx="180" cy="110" r="4"/>
+    <circle id="room-f4d1922203e036aec84a141f50a01729f936586f" class="room outdoor water" data-label="the lake" cx="166" cy="110" r="4"/>
     <circle id="room-bb76a6001333946bee374635487d569a0ac93c3a" class="room outdoor" data-label="the surface" cx="169" cy="113" r="4"/>
     <circle id="room-1395b8192b30eea47ca50741784933edbbaccbd0" class="room outdoor" data-label="the surface" cx="169" cy="99" r="4"/>
     <circle id="room-f17218e85a7ffd663ed62a5cc7e9ba8bcfbe67cd" class="room outdoor" data-label="the surface" cx="183" cy="99" r="4"/>
     <circle id="room-a3dab60afcbc1390fdcfe9eade2e0f2dbf2de0ee" class="room outdoor" data-label="the surface" cx="197" cy="99" r="4"/>
     <circle id="room-7c25c1c1c1e0d30afba43cec81e9a4184a50d33c" class="room outdoor" data-label="the surface" cx="197" cy="113" r="4"/>
-    <circle id="room-cb24f54a3bce0d8670acdc61c22727c7d50c5138" class="room outdoor" data-label="the lake" cx="194" cy="110" r="4"/>
-    <circle id="room-a97f20f35ac0dff31530de05d1dd723c8f869a52" class="room outdoor" data-label="the lake" cx="194" cy="96" r="4"/>
-    <circle id="room-1e76a259a432cb8b0598c978de2d415194b1a847" class="room outdoor" data-label="the lake" cx="180" cy="96" r="4"/>
-    <circle id="room-70dc39f6f7aa310ce79182dd5b5691759e26cecb" class="room outdoor" data-label="the lake" cx="166" cy="96" r="4"/>
+    <circle id="room-cb24f54a3bce0d8670acdc61c22727c7d50c5138" class="room outdoor water" data-label="the lake" cx="194" cy="110" r="4"/>
+    <circle id="room-a97f20f35ac0dff31530de05d1dd723c8f869a52" class="room outdoor water" data-label="the lake" cx="194" cy="96" r="4"/>
+    <circle id="room-1e76a259a432cb8b0598c978de2d415194b1a847" class="room outdoor water" data-label="the lake" cx="180" cy="96" r="4"/>
+    <circle id="room-70dc39f6f7aa310ce79182dd5b5691759e26cecb" class="room outdoor water" data-label="the lake" cx="166" cy="96" r="4"/>
     <rect id="room-b0f2bef412f98ed95dcf3bc5d564d2fac8efbcc3" class="room indoor" data-label="cosy downstairs room" x="204" y="277" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="208,278 205.5,283 210.5,283"/>
     <rect id="room-be9e320f1a26dc084a2c97532298ee770101e5aa" class="room indoor" data-label="small loft room" x="214" y="267" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="218,274 215.5,269 220.5,269"/>
     <circle id="room-211810c8a192c4d3b3ad295843e3a30e4385fce5" class="room outdoor" data-label="boughs of an ancient oak" cx="239" cy="169" r="4"/>

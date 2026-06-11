@@ -65,8 +65,8 @@
     <rect id="room-53a1434f076e4255a9be059251d0c2fca0a7054d" class="room indoor" data-label="banquet hall" x="111" y="471" width="8" height="8" rx="2"/>
     <rect id="room-c473bd2493f8864a1333f3d1c48fc8dc8cf104ea" class="room indoor" data-label="Kitchen" x="159" y="519" width="8" height="8" rx="2"/>
     <rect id="room-ed8f638d6fca744c2bb8a5b3e2b903daf4dc8755" class="room indoor" data-label="Kitchen" x="159" y="471" width="8" height="8" rx="2"/>
-    <circle id="room-7d3a1fac8b2dde60f7b2224f03f4464805ffe05f" class="room outdoor" data-label="Underwater Passageway" cx="496" cy="206" r="4"/>
-    <circle id="room-400ad34f976b47da57950ffe9b1f744013f84fd1" class="room outdoor" data-label="Underwater Passageway" cx="496" cy="216" r="4"/>
+    <circle id="room-7d3a1fac8b2dde60f7b2224f03f4464805ffe05f" class="room outdoor water" data-label="Underwater Passageway" cx="496" cy="206" r="4"/>
+    <circle id="room-400ad34f976b47da57950ffe9b1f744013f84fd1" class="room outdoor water" data-label="Underwater Passageway" cx="496" cy="216" r="4"/>
     <rect id="room-984d6e09525b6d95fb4509d0e16822446cc6d2ec" class="room indoor" data-label="Base 1" x="540" y="231" width="8" height="8" rx="2"/>
     <rect id="room-8bf48fe21304d022c7d207fd3aba993fd8c2156f" class="room indoor" data-label="Base 2" x="351" y="279" width="8" height="8" rx="2"/>
     <rect id="room-dc2bf8117940227015a2d30457d1f5bf6a2c548a" class="room indoor" data-label="Base 3" x="207" y="231" width="8" height="8" rx="2"/>

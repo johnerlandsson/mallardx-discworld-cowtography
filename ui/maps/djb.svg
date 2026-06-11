@@ -940,9 +940,9 @@
     <line id="edge-2c8847fb3002888a069e90caca13078d22b1d8af-6cdae7a8b2c5566d10fe807f3464e6696bf63229" class="exit" x1="218" y1="119" x2="206" y2="107"/>
     <line id="edge-6cdae7a8b2c5566d10fe807f3464e6696bf63229-d393ae224af7ab346aec3699dc1ae15ee387303e" class="exit" x1="206" y1="107" x2="207" y2="85"/>
     <line id="edge-6cdae7a8b2c5566d10fe807f3464e6696bf63229-dd00e17faf7577be616aa4024b5dcd190ac619a1" class="exit" x1="206" y1="107" x2="193" y2="85"/>
-    <line id="edge-78dce8190b204d0292c99a769c60218aba9b6a15-f758390eb147e7c023a1b3bfdce5897eece6a17f" class="exit" x1="218" y1="133" x2="204" y2="133"/>
-    <line id="edge-4921f940a2477c54c7000fbb11a2d8efbe2ddeec-f758390eb147e7c023a1b3bfdce5897eece6a17f" class="exit" x1="190" y1="133" x2="204" y2="133"/>
-    <line id="edge-1639916d757aca884c7397afcd787a19bb0ebaa5-4921f940a2477c54c7000fbb11a2d8efbe2ddeec" class="exit" x1="176" y1="133" x2="190" y2="133"/>
+    <line id="edge-78dce8190b204d0292c99a769c60218aba9b6a15-f758390eb147e7c023a1b3bfdce5897eece6a17f" class="exit exit-water" x1="218" y1="133" x2="204" y2="133"/>
+    <line id="edge-4921f940a2477c54c7000fbb11a2d8efbe2ddeec-f758390eb147e7c023a1b3bfdce5897eece6a17f" class="exit exit-water" x1="190" y1="133" x2="204" y2="133"/>
+    <line id="edge-1639916d757aca884c7397afcd787a19bb0ebaa5-4921f940a2477c54c7000fbb11a2d8efbe2ddeec" class="exit exit-water" x1="176" y1="133" x2="190" y2="133"/>
     <line id="edge-2e422f3845279fecdd6e33e20c4c9d28fcb3f4f7-d393ae224af7ab346aec3699dc1ae15ee387303e" class="exit" x1="221" y1="71" x2="207" y2="85"/>
     <line id="edge-d393ae224af7ab346aec3699dc1ae15ee387303e-dd00e17faf7577be616aa4024b5dcd190ac619a1" class="exit" x1="207" y1="85" x2="193" y2="85"/>
     <line id="edge-d393ae224af7ab346aec3699dc1ae15ee387303e-f846e90f358f6c263f1885338f9182a1677afb83" class="exit" x1="207" y1="85" x2="207" y2="71"/>
@@ -1759,10 +1759,10 @@
     <circle id="room-bdf61f65e0b9cf7d87e50213d1f7fc2d3db02cd2" class="room outdoor" data-label="Ptrip-Ptrap bridge" cx="218" cy="133" r="4"/><polygon class="stair-symbol" points="218,136 215.5,131 220.5,131"/>
     <circle id="room-2c8847fb3002888a069e90caca13078d22b1d8af" class="room outdoor" data-label="north end of the Ptrip-Ptrap bridge" cx="218" cy="119" r="4"/>
     <circle id="room-6cdae7a8b2c5566d10fe807f3464e6696bf63229" class="room outdoor" data-label="intersection" cx="206" cy="107" r="4"/>
-    <rect id="room-78dce8190b204d0292c99a769c60218aba9b6a15" class="room indoor" data-label="river Djel as it flows under a bridge" x="214" y="129" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="218,130 215.5,135 220.5,135"/>
-    <circle id="room-f758390eb147e7c023a1b3bfdce5897eece6a17f" class="room outdoor" data-label="small section of the river Djel" cx="204" cy="133" r="4"/>
-    <circle id="room-4921f940a2477c54c7000fbb11a2d8efbe2ddeec" class="room outdoor" data-label="small section of the river Djel" cx="190" cy="133" r="4"/>
-    <circle id="room-874c924f8d933aad49c320c3b9862b805a4a748a" class="room outdoor" data-label="river Djel" cx="204" cy="147" r="4"/>
+    <rect id="room-78dce8190b204d0292c99a769c60218aba9b6a15" class="room indoor water" data-label="river Djel as it flows under a bridge" x="214" y="129" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="218,130 215.5,135 220.5,135"/>
+    <circle id="room-f758390eb147e7c023a1b3bfdce5897eece6a17f" class="room outdoor water" data-label="small section of the river Djel" cx="204" cy="133" r="4"/>
+    <circle id="room-4921f940a2477c54c7000fbb11a2d8efbe2ddeec" class="room outdoor water" data-label="small section of the river Djel" cx="190" cy="133" r="4"/>
+    <circle id="room-874c924f8d933aad49c320c3b9862b805a4a748a" class="room outdoor water" data-label="river Djel" cx="204" cy="147" r="4"/>
     <circle id="room-70f584318b304ee7b32f573035a880b4b46065f1" class="room outdoor" data-label="Djelibeybi road" cx="438" cy="563" r="4"/>
     <rect id="room-e2ca6a268d412a9517bdce91509670482d712bd8" class="room indoor" data-label="inner den" x="144" y="175" width="8" height="8" rx="2"/>
     <rect id="room-62075d5ffbdea09536c75c8d93c3e8a9f1a3c03d" class="room indoor" data-label="strange hideout in the hood" x="130" y="221" width="8" height="8" rx="2"/>
@@ -1805,7 +1805,7 @@
     <rect id="room-52fa061b3aa8feb9b9fb1974fcefdf919385eb40" class="room indoor" data-label="entrance to Coojibubu&#x27;s Tomb" x="203" y="38" width="8" height="8" rx="2"/>
     <rect id="room-0933fe886de5c125bc79b4506063f5bd1b10064c" class="room indoor" data-label="foyer to Coojibubu&#x27;s Tomb" x="217" y="38" width="8" height="8" rx="2"/>
     <rect id="room-2c87a2b06621c1173b315397f4a2dfcbe468c82f" class="room indoor" data-label="viewing area in Coojibubu&#x27;s Tomb" x="231" y="38" width="8" height="8" rx="2"/>
-    <circle id="room-1639916d757aca884c7397afcd787a19bb0ebaa5" class="room outdoor" data-label="small section of the river Djel" cx="176" cy="133" r="4"/>
+    <circle id="room-1639916d757aca884c7397afcd787a19bb0ebaa5" class="room outdoor water" data-label="small section of the river Djel" cx="176" cy="133" r="4"/>
     <rect id="room-062eb808fe968331b922ca1e2c9e071afb11ef3e" class="room indoor room-weapon" data-label="backroom of the scabbard shop" x="381" y="407" width="8" height="8" rx="2"/><text class="room-type-label" x="385" y="411" text-anchor="middle" dominant-baseline="central">W</text>
     <rect id="room-c2bb9bf3c19bd5a6715cd135d728ec46611ad956" class="room indoor" data-label="Control Room" x="217" y="38" width="8" height="8" rx="2"/>
     <rect id="room-3e49f8ee5b2d28db9ddda8d078bfb86cf76d337c" class="room indoor" data-label="dark passageway" x="203" y="38" width="8" height="8" rx="2"/>
@@ -1818,8 +1818,8 @@
     <rect id="room-08ca0f3193a56048c069251a39269be19cd8882a" class="room indoor" data-label="private booth in the Rope and Anchor" x="791" y="382" width="8" height="8" rx="2"/>
     <circle id="room-85eea3ee9958ffc57e5519584c35a223996661fe" class="room outdoor" data-label="southwestern corner of the park" cx="382" cy="481" r="4"/>
     <circle id="room-3be2fc1023072e05b0c5cdc8254593f7b3f40b38" class="room outdoor" data-label="east side of the park" cx="522" cy="439" r="4"/>
-    <circle id="room-efaba71193bd847b4c870e8eb5a771b94db5382d" class="room outdoor" data-label="river Djel" cx="176" cy="147" r="4"/>
-    <circle id="room-0e6b6a926683f99ebacbb15462c0bf4bc3076504" class="room outdoor" data-label="river Djel" cx="190" cy="147" r="4"/>
+    <circle id="room-efaba71193bd847b4c870e8eb5a771b94db5382d" class="room outdoor water" data-label="river Djel" cx="176" cy="147" r="4"/>
+    <circle id="room-0e6b6a926683f99ebacbb15462c0bf4bc3076504" class="room outdoor water" data-label="river Djel" cx="190" cy="147" r="4"/>
     <rect id="room-7947630c77d82dba3c986f3a641fdad7d974e019" class="room indoor" data-label="high altar" x="162" y="313" width="8" height="8" rx="2"/>
     <rect id="room-bc2ddf91beea30776c9c0422abaf4355bd77f4e0" class="room indoor" data-label="reception area" x="376" y="77" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="380,78 377.5,83 382.5,83"/>
     <rect id="room-bb982d85662250097cceb0a1aa89fd6cc7ea2b6b" class="room indoor" data-label="applications room" x="376" y="77" width="8" height="8" rx="2"/>
@@ -1916,7 +1916,7 @@
     <rect id="room-3957c3206bc640b2bfbeb396aadeeec549f95f44" class="room indoor" data-label="vestry in the Djelian temple of Sandelfon" x="75" y="355" width="8" height="8" rx="2"/>
     <rect id="room-3800e958e784411c60382c32f50ab9994aa81535" class="room indoor" data-label="vestry" x="162" y="302" width="8" height="8" rx="2"/>
     <rect id="room-87b42bd9bcbb97e1d45566cbfc048b23ea2eeadf" class="room indoor" data-label="vestry in the temple of Hat" x="41" y="297" width="8" height="8" rx="2"/>
-    <circle id="room-69c2fd42d5eebd250a8a1725c4728d870caa0f9a" class="room outdoor" data-label="Below the surface of the pond" cx="781" cy="231" r="4"/>
+    <circle id="room-69c2fd42d5eebd250a8a1725c4728d870caa0f9a" class="room outdoor water" data-label="Below the surface of the pond" cx="781" cy="231" r="4"/>
     <circle id="room-3b2c5a4a25879d4123ce2fa2f57789f795e9374e" class="room outdoor" data-label="secret garden" cx="368" cy="453" r="4"/>
     <rect id="room-a6491cf74bf80da37f17b814791bf55cc679ee99" class="room indoor room-house" data-label="[player house]" x="518" y="236" width="8" height="8" rx="2"/><text class="room-type-label" x="522" y="240" text-anchor="middle" dominant-baseline="central">H</text>
     <rect id="room-76bee9f95cc1beb656f5e1ac68c6fbc1055ebc55" class="room indoor room-house" data-label="[player house]" x="518" y="236" width="8" height="8" rx="2"/><text class="room-type-label" x="522" y="240" text-anchor="middle" dominant-baseline="central">H</text>

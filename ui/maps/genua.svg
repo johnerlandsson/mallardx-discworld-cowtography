@@ -1658,10 +1658,10 @@
     <rect id="room-3db116b139d5bc046c2d18b6aee537b01f8a5527" class="room indoor" data-label="badly repaired tomb" x="438" y="56" width="8" height="8" rx="2"/>
     <rect id="room-5f0e8f52153f22c2655b386cb47630642bbe3f47" class="room indoor" data-label="badly repaired tomb" x="480" y="70" width="8" height="8" rx="2"/>
     <rect id="room-5dd53caac3ea601984693ed4bd09af48abfcf5ea" class="room indoor" data-label="well-appointed tomb" x="466" y="56" width="8" height="8" rx="2"/>
-    <circle id="room-58108bed068caa96e5b33e13f377a44fba3a5b53" class="room outdoor" data-label="lagoon in Genua City Park" cx="344" cy="144" r="4"/>
-    <circle id="room-0cd91ff29af37f9ce19222a8d1632f82dc5cdb9c" class="room outdoor" data-label="lagoon in Genua City Park" cx="344" cy="158" r="4"/>
+    <circle id="room-58108bed068caa96e5b33e13f377a44fba3a5b53" class="room outdoor water" data-label="lagoon in Genua City Park" cx="344" cy="144" r="4"/>
+    <circle id="room-0cd91ff29af37f9ce19222a8d1632f82dc5cdb9c" class="room outdoor water" data-label="lagoon in Genua City Park" cx="344" cy="158" r="4"/>
     <circle id="room-1ae7b78d44a0d257273ee34c5a91c5cccc1da5fe" class="room outdoor" data-label="lagoon in Genua City Park" cx="330" cy="158" r="4"/>
-    <circle id="room-6ac75a31175755130bf53d695162e8cdd0e058f6" class="room outdoor" data-label="lagoon in Genua City Park" cx="344" cy="130" r="4"/>
+    <circle id="room-6ac75a31175755130bf53d695162e8cdd0e058f6" class="room outdoor water" data-label="lagoon in Genua City Park" cx="344" cy="130" r="4"/>
     <circle id="room-46a163e5c8671c9cc0b8cfa51588d068286557d7" class="room outdoor" data-label="lagoon in Genua City Park" cx="330" cy="130" r="4"/>
     <circle id="room-002b273f6b566d99a84bcf75885887c1a4a1846f" class="room outdoor" data-label="lagoon in Genua City Park" cx="316" cy="130" r="4"/>
     <circle id="room-8a597ca8c62a93883cfe213ed5bd2b2e8fddfc99" class="room outdoor" data-label="lagoon in Genua City Park" cx="302" cy="130" r="4"/>

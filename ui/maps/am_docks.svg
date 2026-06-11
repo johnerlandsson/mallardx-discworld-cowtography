@@ -246,8 +246,8 @@
     <circle id="room-aedb2e01fe71c5111da020bc3a1f62260576e444" class="room outdoor" data-label="under the docks" cx="76" cy="76" r="4"/>
     <circle id="room-e04f961ea83a3fbf30ece2f9b75e4d7a2c49337d" class="room outdoor" data-label="under the docks" cx="76" cy="90" r="4"/>
     <circle id="room-7cf6dff25c9b0e60b2e71df26de07d63c821a520" class="room outdoor" data-label="under the docks" cx="76" cy="104" r="4"/>
-    <circle id="room-88c444d4201b2a204dceb32c7c9a28ef4a56d7fe" class="room outdoor" data-label="under Ankh Bridge" cx="314" cy="132" r="4"/>
-    <circle id="room-5125b366817054f5fc2e9a1fed1d5be94dc2af22" class="room outdoor" data-label="under Ankh Bridge" cx="328" cy="188" r="4"/>
+    <circle id="room-88c444d4201b2a204dceb32c7c9a28ef4a56d7fe" class="room outdoor water" data-label="under Ankh Bridge" cx="314" cy="132" r="4"/>
+    <circle id="room-5125b366817054f5fc2e9a1fed1d5be94dc2af22" class="room outdoor water" data-label="under Ankh Bridge" cx="328" cy="188" r="4"/>
     <circle id="room-eb8110f376e51b57a89ae6e5815f1507c597d2b4" class="room outdoor" data-label="under the docks" cx="286" cy="202" r="4"/>
     <circle id="room-d2d184c2d72b50aef00fb1fa2599570416c98d3b" class="room outdoor" data-label="under the docks" cx="286" cy="188" r="4"/>
     <circle id="room-9f5e010fbb53bf0a7734dd6ddf8911faa3476275" class="room outdoor" data-label="under the docks near a shop" cx="300" cy="202" r="4"/>
@@ -488,11 +488,11 @@
     <circle id="room-2f2f49a23bfcb13bfd5f5a9d33c55f5db7500b4f" class="room outdoor" data-label="solid part of the river Ankh" cx="762" cy="146" r="4"/>
     <circle id="room-4d9669aaf7bc91ca0ce58568e7f64f28299e8da1" class="room outdoor" data-label="solid part of the river Ankh" cx="762" cy="132" r="4"/>
     <rect id="room-abfb754cefba80527b0cbc351be1472ff49b3410" class="room indoor" data-label="boathouse" x="926" y="212" width="8" height="8" rx="2"/>
-    <circle id="room-eb08f0f86196d03a66ba9cb74293162817e3b1b3" class="room outdoor" data-label="under the Bridge of Size" cx="986" cy="188" r="4"/>
-    <circle id="room-116792a2acaa49ec7e17c334641d7a9718337223" class="room outdoor" data-label="under the Bridge of Size" cx="986" cy="174" r="4"/>
-    <circle id="room-60a82caba37c4bac7e1bafbeabb4d1dfb6998eb5" class="room outdoor" data-label="under the Bridge of Size" cx="986" cy="160" r="4"/>
-    <circle id="room-a670d54c9a60c43cf2d137bcd227b218079658ca" class="room outdoor" data-label="under the Water Bridge" cx="1056" cy="174" r="4"/>
-    <circle id="room-fc0abe93719410662dfcbcea76f89231f9682831" class="room outdoor" data-label="under the Water Bridge" cx="1056" cy="188" r="4"/>
+    <circle id="room-eb08f0f86196d03a66ba9cb74293162817e3b1b3" class="room outdoor water" data-label="under the Bridge of Size" cx="986" cy="188" r="4"/>
+    <circle id="room-116792a2acaa49ec7e17c334641d7a9718337223" class="room outdoor water" data-label="under the Bridge of Size" cx="986" cy="174" r="4"/>
+    <circle id="room-60a82caba37c4bac7e1bafbeabb4d1dfb6998eb5" class="room outdoor water" data-label="under the Bridge of Size" cx="986" cy="160" r="4"/>
+    <circle id="room-a670d54c9a60c43cf2d137bcd227b218079658ca" class="room outdoor water" data-label="under the Water Bridge" cx="1056" cy="174" r="4"/>
+    <circle id="room-fc0abe93719410662dfcbcea76f89231f9682831" class="room outdoor water" data-label="under the Water Bridge" cx="1056" cy="188" r="4"/>
     <rect id="room-eea3b226e32237e6de0b5fe1707198a96bf78f25" class="room indoor" data-label="shack" x="72" y="237" width="8" height="8" rx="2"/>
     <rect id="room-f953ce3ffc10be03ba1e2236c797855262bff9a3" class="room indoor" data-label="shack" x="394" y="181" width="8" height="8" rx="2"/>
     <circle id="room-5544ebf375213e8b905a79e545308cbb445ab7f5" class="room outdoor" data-label="River Gate island in the Ankh" cx="34" cy="146" r="4"/>
@@ -500,318 +500,318 @@
     <circle id="room-6432f3cfdafd23072fb134ecf40856f012cdc9e5" class="room outdoor" data-label="River Gate island in the Ankh" cx="20" cy="160" r="4"/>
     <circle id="room-52f810920292b5669992e20721945a5b3f940b39" class="room outdoor" data-label="River Gate island in the Ankh" cx="20" cy="146" r="4"/>
     <circle id="room-b420f05f1266872bc9f4d4aec005aadc73f0f5eb" class="room outdoor" data-label="under a boathouse" cx="930" cy="216" r="4"/>
-    <circle id="room-b459763de17c42679084d73cef12a2e4416803ec" class="room outdoor" data-label="under Ankh Bridge" cx="328" cy="174" r="4"/>
-    <circle id="room-ebfb68bb0d269cff84e86fe50a5948f90234462a" class="room outdoor" data-label="surface of the river Ankh" cx="328" cy="160" r="4"/>
-    <circle id="room-fa57aeefb2251a7d6fcdec8b371fe9e77a040e77" class="room outdoor" data-label="surface of the river Ankh" cx="328" cy="146" r="4"/>
-    <circle id="room-4aac731fe74f25a049e0723f1847855bfdf3f5d9" class="room outdoor" data-label="surface of the river Ankh" cx="328" cy="132" r="4"/>
-    <circle id="room-b687c746e2de65352773df2e7618da76d191f566" class="room outdoor" data-label="under Ankh Bridge" cx="314" cy="146" r="4"/>
-    <circle id="room-acc8f4bdf0977f2de89b812057ccfd7311813236" class="room outdoor" data-label="under Ankh Bridge" cx="314" cy="160" r="4"/>
-    <circle id="room-4ba06a0f8ef487863fbbd3dd9d7b3649a71cf82c" class="room outdoor" data-label="surface of the river Ankh" cx="314" cy="174" r="4"/>
-    <circle id="room-f518a2d27161f4bd574d1825f55af3b87f937397" class="room outdoor" data-label="near the docks" cx="314" cy="188" r="4"/>
-    <circle id="room-249a3cd463da85a97c6f6d55e5d503711402f3cf" class="room outdoor" data-label="near the docks" cx="300" cy="188" r="4"/>
-    <circle id="room-0ff39283bf79d0f18d248ac9e395cf52493431b1" class="room outdoor" data-label="near the docks" cx="300" cy="174" r="4"/>
-    <circle id="room-412fd08e0511c19995a8da6b34c57f44a9a8be46" class="room outdoor" data-label="surface of the river Ankh" cx="300" cy="160" r="4"/>
-    <circle id="room-b1cd190c9dcc2578222cb899b5dacd2649f0ce14" class="room outdoor" data-label="surface of the river Ankh" cx="300" cy="146" r="4"/>
-    <circle id="room-59f3c078b7a64ef426423f30bd3c971d8673c9bc" class="room outdoor" data-label="near the docks" cx="300" cy="132" r="4"/>
-    <circle id="room-eed207d1581d33cf9ffdd6658a733b64bd1e1dae" class="room outdoor" data-label="near the docks" cx="286" cy="132" r="4"/>
-    <circle id="room-3fde70a27b7b39faf12d1027112afb09b886fb91" class="room outdoor" data-label="surface of the river Ankh" cx="286" cy="146" r="4"/>
-    <circle id="room-3616859cb23b8d40555781e2e9ab3afd5ed0ee37" class="room outdoor" data-label="surface of the river Ankh" cx="286" cy="160" r="4"/>
-    <circle id="room-6f1bd50c6676aafb145bd48c8f559bf0bdef5a19" class="room outdoor" data-label="near the docks" cx="286" cy="174" r="4"/>
-    <circle id="room-46ef3a0457c448f46f79a9d13d94f2ec0f2ce226" class="room outdoor" data-label="near the docks" cx="272" cy="174" r="4"/>
-    <circle id="room-eeb7582bb3c78acf70eef640c84226e950ef4c82" class="room outdoor" data-label="near the docks" cx="272" cy="188" r="4"/>
-    <circle id="room-2b938d3687deb9fcb0f6d58bb3eb88d77d872d10" class="room outdoor" data-label="under a bridge in the Docks" cx="272" cy="202" r="4"/>
-    <circle id="room-b0620972af6d4debf2f79649f4c21b9589cc8cd1" class="room outdoor" data-label="Sparrow Dock" cx="272" cy="216" r="4"/>
-    <circle id="room-5786afd08be8f3a7041899a9b85c8df84f7e8ffd" class="room outdoor" data-label="Sparrow Dock" cx="272" cy="230" r="4"/>
-    <circle id="room-dce5cccd2f1cdb28abb08757c5e733ae693e1119" class="room outdoor" data-label="Sparrow Dock" cx="286" cy="230" r="4"/>
-    <circle id="room-722cf358cb242a36d85255f84cfcaf023719c1f2" class="room outdoor" data-label="Sparrow Dock" cx="286" cy="244" r="4"/>
-    <circle id="room-5eb405daf45c0a9316ef98fd2ade83c9a46e0eed" class="room outdoor" data-label="Sparrow Dock" cx="272" cy="244" r="4"/>
-    <circle id="room-711f60fcd88e648f727be843e2cd349869685128" class="room outdoor" data-label="Sparrow Dock" cx="272" cy="258" r="4"/>
-    <circle id="room-0ef0a17b5088deb0b8a5123b75feaad38a0a9bcf" class="room outdoor" data-label="Sparrow Dock" cx="286" cy="258" r="4"/>
-    <circle id="room-5eaa223f11c5a30b804b00d0797a2d8401818179" class="room outdoor" data-label="surface of the river Ankh" cx="272" cy="160" r="4"/>
-    <circle id="room-09d3a29ad8af266ae041bcf6d9613e819bf65029" class="room outdoor" data-label="surface of the river Ankh" cx="272" cy="146" r="4"/>
-    <circle id="room-ffd0bd909cdacd35561b3e71c361860cd7abd88b" class="room outdoor" data-label="near the docks" cx="272" cy="132" r="4"/>
-    <circle id="room-32d61354d853c43158395bf660845e7735ac6283" class="room outdoor" data-label="under a pier" cx="272" cy="118" r="4"/>
-    <circle id="room-a0ae7cbde40be56508f01a6808d46ffd84765637" class="room outdoor" data-label="near the docks" cx="272" cy="104" r="4"/>
-    <circle id="room-33da361fdd2114408ea7fa4d6bdb0171e8a7b661" class="room outdoor" data-label="near the docks" cx="258" cy="104" r="4"/>
-    <circle id="room-5332e8c5428558d12369938731819f282f5d9fc1" class="room outdoor" data-label="surface of the river Ankh" cx="258" cy="118" r="4"/>
-    <circle id="room-455b263facd98c3ada9ea24c2e21de58be8cfb44" class="room outdoor" data-label="near the docks" cx="258" cy="132" r="4"/>
-    <circle id="room-a0a6aca7fb0b019ed4c0df3cb8d5aa6c69ebe7da" class="room outdoor" data-label="surface of the river Ankh" cx="258" cy="146" r="4"/>
-    <circle id="room-bc962850ec4780da34978eca439472da47f1a473" class="room outdoor" data-label="surface of the river Ankh" cx="258" cy="160" r="4"/>
-    <circle id="room-be34b4f73cf3cbb63930060378fe72b0b0256123" class="room outdoor" data-label="surface of the river Ankh" cx="258" cy="174" r="4"/>
-    <circle id="room-d99e443d8bf94d1d5bac669f4663c9b068d1d592" class="room outdoor" data-label="near the docks" cx="258" cy="188" r="4"/>
-    <circle id="room-000eb762c116c557e5ef47908321df7b072db47b" class="room outdoor" data-label="near the docks" cx="244" cy="188" r="4"/>
-    <circle id="room-e3542536b5d8565278ee76ac7b61959cbe82386b" class="room outdoor" data-label="surface of the river Ankh" cx="244" cy="174" r="4"/>
-    <circle id="room-c1769918638d915ae21d2a493e9138dd5b3856fa" class="room outdoor" data-label="surface of the river Ankh" cx="244" cy="160" r="4"/>
-    <circle id="room-847f47533945b198505ea227cc1f079fce2c0096" class="room outdoor" data-label="surface of the river Ankh" cx="244" cy="146" r="4"/>
-    <circle id="room-40fee20c73b289c6dba683259feeabcd50009923" class="room outdoor" data-label="near the docks" cx="244" cy="132" r="4"/>
-    <circle id="room-4668e8965cf7ceeb118a49cafbb6215ce2a73707" class="room outdoor" data-label="under a pier" cx="230" cy="132" r="4"/>
-    <circle id="room-fd8c3834c046168759f686d8b2e1e484fd37c612" class="room outdoor" data-label="surface of the river Ankh" cx="230" cy="146" r="4"/>
-    <circle id="room-c5494649853cc55e4fae4c4a61bcccd2eeef5e57" class="room outdoor" data-label="surface of the river Ankh" cx="230" cy="160" r="4"/>
-    <circle id="room-0833a8e99c6865c44f4a22f94e3679d5cc388798" class="room outdoor" data-label="surface of the river Ankh" cx="230" cy="174" r="4"/>
-    <circle id="room-2ac394104b7884b321fe67a9df77be2e5872b47a" class="room outdoor" data-label="near the docks" cx="230" cy="188" r="4"/>
-    <circle id="room-a7a55bac2c5e442321cbdd1d500eae3582f7d5a5" class="room outdoor" data-label="near the docks" cx="216" cy="188" r="4"/>
-    <circle id="room-7aea9148871bd8dcd83280dbbb554928e3671c1c" class="room outdoor" data-label="surface of the river Ankh" cx="216" cy="174" r="4"/>
-    <circle id="room-0add3cb7c07aaeca5465048b4a215398fdfec5b1" class="room outdoor" data-label="surface of the river Ankh" cx="216" cy="160" r="4"/>
-    <circle id="room-0c0ca71af938083dc209bce252d63f713807cc94" class="room outdoor" data-label="surface of the river Ankh" cx="216" cy="146" r="4"/>
-    <circle id="room-3d211c5c634a203bc81f9e78e6b668442caa1006" class="room outdoor" data-label="near the docks" cx="216" cy="132" r="4"/>
-    <circle id="room-00df73c2abed09c9e8dbeb3080e280d349b566c0" class="room outdoor" data-label="near the docks" cx="202" cy="118" r="4"/>
-    <circle id="room-6b89e37df818f7caaceea12d8449d6aed18ea6ab" class="room outdoor" data-label="surface of the river Ankh" cx="202" cy="132" r="4"/>
-    <circle id="room-b53258fb7686a22909661a36f40e64d13474418e" class="room outdoor" data-label="surface of the river Ankh" cx="202" cy="146" r="4"/>
-    <circle id="room-d88e08c2b79cd05bf71a9cafce6a323dcd0d37bf" class="room outdoor" data-label="surface of the river Ankh" cx="202" cy="160" r="4"/>
-    <circle id="room-8dbae8b02b5f65d6f3415ce3493627567ab23243" class="room outdoor" data-label="surface of the river Ankh" cx="202" cy="174" r="4"/>
-    <circle id="room-b27eda886b411ccf450b504a47c115fc80e961c5" class="room outdoor" data-label="surface of the river Ankh" cx="202" cy="188" r="4"/>
-    <circle id="room-ab56f7f3f66678fb4087884c505ad8e2f58c7ff9" class="room outdoor" data-label="near the docks" cx="202" cy="202" r="4"/>
-    <circle id="room-50a131946eedb2da06c97cd92f8a2104a2e428ee" class="room outdoor" data-label="near the docks" cx="188" cy="202" r="4"/>
-    <circle id="room-ed56f0467c886ec1123b0fe5dd88f0749529e7b8" class="room outdoor" data-label="near the docks" cx="188" cy="188" r="4"/>
-    <circle id="room-e465cb0a922f116d96a041fa2efede959f0852a7" class="room outdoor" data-label="surface of the river Ankh" cx="188" cy="174" r="4"/>
-    <circle id="room-795e103bbe5aaa82f40fcd001308600d78392d86" class="room outdoor" data-label="surface of the river Ankh" cx="188" cy="160" r="4"/>
-    <circle id="room-03fa77cadb1d560596511f7ed726725bbac4c510" class="room outdoor" data-label="surface of the river Ankh" cx="188" cy="146" r="4"/>
-    <circle id="room-ed66867ba95d40bd72b0c719ea0ffa648bd1fc29" class="room outdoor" data-label="surface of the river Ankh" cx="188" cy="132" r="4"/>
-    <circle id="room-0b577c51075ef30316530e4940f6640ce13b03b0" class="room outdoor" data-label="near the docks" cx="188" cy="118" r="4"/>
-    <circle id="room-8c69b373b4104ed36a114e75686566a83991c372" class="room outdoor" data-label="near the docks" cx="174" cy="118" r="4"/>
-    <circle id="room-c9121eebb8eef0b92977452dc8bbf0d2d85e5b53" class="room outdoor" data-label="surface of the river Ankh" cx="174" cy="132" r="4"/>
-    <circle id="room-3ed93f71d5b09e88dcb975366cdc2d6b2362a3c3" class="room outdoor" data-label="surface of the river Ankh" cx="174" cy="146" r="4"/>
-    <circle id="room-0aac972a636a066e13f248f4aa2b8b9388b57a16" class="room outdoor" data-label="surface of the river Ankh" cx="174" cy="160" r="4"/>
-    <circle id="room-495cd63cb500c8158c8a73842634a7c2ca83a2a2" class="room outdoor" data-label="surface of the river Ankh" cx="174" cy="174" r="4"/>
-    <circle id="room-cd7089010a71753f7184c3c20dab99326dea4b8d" class="room outdoor" data-label="near the docks" cx="174" cy="188" r="4"/>
-    <circle id="room-50e5da8b5b86049533bfc5c1dcb0f8aa689f55fa" class="room outdoor" data-label="under a pier" cx="174" cy="202" r="4"/>
-    <circle id="room-f818d427124f4f388d48ecdb6cb90924dca83ecc" class="room outdoor" data-label="near the docks" cx="160" cy="202" r="4"/>
-    <circle id="room-3f0cbec0944fa3ade13d032a9eae9cf4b1923f6a" class="room outdoor" data-label="near the docks" cx="160" cy="188" r="4"/>
-    <circle id="room-b8926ff4eeb5fdf79388be6a16fe79d79d1be385" class="room outdoor" data-label="surface of the river Ankh" cx="160" cy="174" r="4"/>
-    <circle id="room-0320c5f06f4977f35feee8683c0747727d78d0c2" class="room outdoor" data-label="surface of the river Ankh" cx="160" cy="160" r="4"/>
-    <circle id="room-3343519be47f1e59365d2e2698d2ea8997f76c37" class="room outdoor" data-label="surface of the river Ankh" cx="160" cy="146" r="4"/>
-    <circle id="room-a955a35a4b7f631a15b83e45b15bd983d7a29451" class="room outdoor" data-label="surface of the river Ankh" cx="160" cy="132" r="4"/>
-    <circle id="room-ce1eb36472fc5278cf809216ac984fc4efaa8431" class="room outdoor" data-label="under a pier" cx="160" cy="118" r="4"/>
-    <circle id="room-a161242ec9a18add383787f17c693636694a65ae" class="room outdoor" data-label="near the docks" cx="146" cy="118" r="4"/>
-    <circle id="room-dffd575b5ce469edab51de97a0b1747c6761021c" class="room outdoor" data-label="surface of the river Ankh" cx="146" cy="132" r="4"/>
-    <circle id="room-caf386883e0ba473bc255e811ee7d432e68812dc" class="room outdoor" data-label="surface of the river Ankh" cx="146" cy="146" r="4"/>
-    <circle id="room-6261c29e12e1369c4473d69987e035eaa713403e" class="room outdoor" data-label="surface of the river Ankh" cx="146" cy="160" r="4"/>
-    <circle id="room-333409120a51d9a001f6b697bc2910b9dd242746" class="room outdoor" data-label="surface of the river Ankh" cx="146" cy="174" r="4"/>
-    <circle id="room-33f3b581493b24aa18537aa1f45a89ec3b292f45" class="room outdoor" data-label="surface of the river Ankh" cx="146" cy="188" r="4"/>
-    <circle id="room-f7057ba23d59039ae9262d73dd5b4f852e04d52b" class="room outdoor" data-label="near the docks" cx="146" cy="202" r="4"/>
-    <circle id="room-22ef7179c6e6f27be7c0c896c2f984216b66ca93" class="room outdoor" data-label="near the docks" cx="132" cy="216" r="4"/>
-    <circle id="room-616fafb205aa8dc9a930a696073aebe2e08fbf8f" class="room outdoor" data-label="under a pier" cx="118" cy="216" r="4"/>
-    <circle id="room-baf7f634b26c629a017bcab62b4f5e318bd147f8" class="room outdoor" data-label="near the docks" cx="104" cy="216" r="4"/>
-    <circle id="room-374e1fe2676ab268b3f5054f0a2bb6895c5f37a6" class="room outdoor" data-label="under a pier" cx="90" cy="216" r="4"/>
-    <circle id="room-abf6394defd9a4da5c0e990be19269e2761f4356" class="room outdoor" data-label="surface of the river Ankh" cx="76" cy="216" r="4"/>
-    <circle id="room-ce4297915d2bf3c6766d1845cc3a759bda5dba28" class="room outdoor" data-label="near the docks" cx="62" cy="216" r="4"/>
-    <circle id="room-a6eca817124ef08761279e0ac5ffb1095ae52141" class="room outdoor" data-label="surface of the river Ankh" cx="76" cy="202" r="4"/>
-    <circle id="room-e6786ba4f3b357d2e2c33c61f027fa578fa89273" class="room outdoor" data-label="near the docks" cx="90" cy="202" r="4"/>
-    <circle id="room-1f45a4ba022d1e2438c123e53619d0ca5851f31e" class="room outdoor" data-label="near the docks" cx="104" cy="202" r="4"/>
-    <circle id="room-4cb9c3895f286a485a667d0c75a880621b6387d2" class="room outdoor" data-label="near the docks" cx="118" cy="202" r="4"/>
-    <circle id="room-cef06b21cec6d08782e1af5757e8779007876805" class="room outdoor" data-label="near the docks" cx="132" cy="202" r="4"/>
-    <circle id="room-aeab9097534c1cbdd4a4636de35da69391f9b3ab" class="room outdoor" data-label="surface of the river Ankh" cx="132" cy="188" r="4"/>
-    <circle id="room-6b5b1c022ae073c518c4457a979f1ab1db6b1d61" class="room outdoor" data-label="surface of the river Ankh" cx="132" cy="174" r="4"/>
-    <circle id="room-21c6f5ec6c4dea356abf278ec92f4d50a087e675" class="room outdoor" data-label="surface of the river Ankh" cx="132" cy="160" r="4"/>
-    <circle id="room-e164e64854b7592093b0e0d1e1a46dd5a41ed4b6" class="room outdoor" data-label="surface of the river Ankh" cx="132" cy="146" r="4"/>
-    <circle id="room-d7a694a245f968e3482ec507ea26cb72baa16299" class="room outdoor" data-label="surface of the river Ankh" cx="132" cy="132" r="4"/>
-    <circle id="room-3d0f14e933bcf939a5256bc6daa6249c4b064fc3" class="room outdoor" data-label="near the docks" cx="132" cy="118" r="4"/>
-    <circle id="room-c043632dbc19667c199aaec0ad7e2d3215208b27" class="room outdoor" data-label="near the docks" cx="118" cy="118" r="4"/>
-    <circle id="room-2f15145c528e02027e843bda36ed8dd1e74abdde" class="room outdoor" data-label="surface of the river Ankh" cx="118" cy="132" r="4"/>
-    <circle id="room-b56114584b67485455a2d15b0536c245f3c2d58a" class="room outdoor" data-label="surface of the river Ankh" cx="118" cy="146" r="4"/>
-    <circle id="room-28198c7fd861b59e58860687de619f8359f40779" class="room outdoor" data-label="surface of the river Ankh" cx="118" cy="160" r="4"/>
-    <circle id="room-f82d2404f8d9c68a9a3388665284f76d4e1c0943" class="room outdoor" data-label="surface of the river Ankh" cx="118" cy="174" r="4"/>
-    <circle id="room-dc4e25bdb13f2133b39024d5447b67972149f57a" class="room outdoor" data-label="surface of the river Ankh" cx="118" cy="188" r="4"/>
-    <circle id="room-082617889239b372e073154a772329d0a841ec4c" class="room outdoor" data-label="surface of the river Ankh" cx="104" cy="188" r="4"/>
-    <circle id="room-8a48be4706686682f890b4b56f3ed9f8c68adade" class="room outdoor" data-label="surface of the river Ankh" cx="90" cy="188" r="4"/>
-    <circle id="room-2a3ffa291fb44fb5b23bc05f0f988b9e611d50bc" class="room outdoor" data-label="near the docks" cx="76" cy="188" r="4"/>
-    <circle id="room-18450909eeda431138bd4740a036240109f9acca" class="room outdoor" data-label="near the docks" cx="62" cy="188" r="4"/>
-    <circle id="room-88b9fc8133c7a8636a4fd83b583b848993600a90" class="room outdoor" data-label="near the docks" cx="48" cy="188" r="4"/>
-    <circle id="room-c8558113e65a897629cf64ac0dbe4282f0c3ec95" class="room outdoor" data-label="near the docks" cx="34" cy="188" r="4"/>
-    <circle id="room-d6f51125824e37944374960ffeece258ea21a20b" class="room outdoor" data-label="surface of the river Ankh" cx="20" cy="188" r="4"/>
-    <circle id="room-66de9c68da8b72999941f43a816170cac830c7ab" class="room outdoor" data-label="surface of the river Ankh" cx="20" cy="174" r="4"/>
-    <circle id="room-ad8fd8df65f847cd638966222eb3096f2f4b0397" class="room outdoor" data-label="surface of the river Ankh" cx="34" cy="174" r="4"/>
-    <circle id="room-95f58a8a242288cb39524ef8a4b3a7a769470e35" class="room outdoor" data-label="surface of the river Ankh" cx="48" cy="174" r="4"/>
-    <circle id="room-b56567c328bcff948697763588f03e82eb28b853" class="room outdoor" data-label="surface of the river Ankh" cx="62" cy="174" r="4"/>
-    <circle id="room-140a78243f8909311c8a2ba300ab46c99407c56e" class="room outdoor" data-label="surface of the river Ankh" cx="76" cy="174" r="4"/>
-    <circle id="room-aa69a5eeea57073114ccf9df227b5aa3d80f9c44" class="room outdoor" data-label="surface of the river Ankh" cx="90" cy="174" r="4"/>
-    <circle id="room-648249bbb2802aba49c65f1a441803893feb73e1" class="room outdoor" data-label="surface of the river Ankh" cx="104" cy="174" r="4"/>
-    <circle id="room-e1f9c1f72fe8cabcbb7d2a1e26c6ff8d05bd5610" class="room outdoor" data-label="surface of the river Ankh" cx="104" cy="160" r="4"/>
-    <circle id="room-fd32f6fea71c3881be92ea465983f3438e6374c6" class="room outdoor" data-label="surface of the river Ankh" cx="90" cy="160" r="4"/>
-    <circle id="room-6f830342cbbe03c4811ca07e4a94d78c6f8126e6" class="room outdoor" data-label="surface of the river Ankh" cx="76" cy="160" r="4"/>
-    <circle id="room-0b614a5fea632639e69aa0900db84fdb189432f9" class="room outdoor" data-label="surface of the river Ankh" cx="62" cy="160" r="4"/>
-    <circle id="room-d23f6f3707c1d4e36ee8d41e909cf4743e9f3b0f" class="room outdoor" data-label="surface of the river Ankh" cx="48" cy="160" r="4"/>
-    <circle id="room-7c8846579a2e8425a32104d48e7c10e581e2ef05" class="room outdoor" data-label="surface of the river Ankh" cx="48" cy="146" r="4"/>
-    <circle id="room-01317c9fc4934a64d1425adfd0a1c285cf31e64e" class="room outdoor" data-label="surface of the river Ankh" cx="62" cy="146" r="4"/>
-    <circle id="room-7103d1bc841477fc7ddd2d6334c618b60b07c3d3" class="room outdoor" data-label="surface of the river Ankh" cx="76" cy="146" r="4"/>
-    <circle id="room-fc23083a1c0f308a3da23759aed7836b26a48dd2" class="room outdoor" data-label="surface of the river Ankh" cx="90" cy="146" r="4"/>
-    <circle id="room-8dc9cc1212ad025e1d15fb9bde608f57691d8012" class="room outdoor" data-label="surface of the river Ankh" cx="104" cy="146" r="4"/>
-    <circle id="room-417a562abf9a7954ffa505dcea3926d33c2adefd" class="room outdoor" data-label="surface of the river Ankh" cx="104" cy="132" r="4"/>
-    <circle id="room-08437d1f41d2cddc5796c38b84560844ead1686f" class="room outdoor" data-label="surface of the river Ankh" cx="90" cy="132" r="4"/>
-    <circle id="room-37bee1eb86c2fd452fb262da1d96c4630b0585a7" class="room outdoor" data-label="surface of the river Ankh" cx="76" cy="132" r="4"/>
-    <circle id="room-650405eb837785bcab77e31af3f0541e22a1a5cb" class="room outdoor" data-label="surface of the river Ankh" cx="62" cy="132" r="4"/>
-    <circle id="room-f123ee987c430f286d98b50c8710b2f38a07999c" class="room outdoor" data-label="surface of the river Ankh" cx="48" cy="132" r="4"/>
-    <circle id="room-6d7cb2d50ec263b24a250fd01ec97cf299ca453d" class="room outdoor" data-label="surface of the river Ankh" cx="34" cy="132" r="4"/>
-    <circle id="room-893edc9869988dc16396f1fc1efa40618bf45b8a" class="room outdoor" data-label="surface of the river Ankh" cx="20" cy="132" r="4"/>
-    <circle id="room-176521c8a1893be9e6d375736b8f52874f31491b" class="room outdoor" data-label="surface of the river Ankh" cx="20" cy="118" r="4"/>
-    <circle id="room-094bf8111785dc875c5e0445cd83444df3528f9f" class="room outdoor" data-label="near the docks" cx="34" cy="118" r="4"/>
-    <circle id="room-2390dd540284dc97f66507493a7bf481569b7876" class="room outdoor" data-label="near the docks" cx="48" cy="118" r="4"/>
-    <circle id="room-77755f97dc429e40c3896cd254c5d266c7b499e0" class="room outdoor" data-label="near the docks" cx="62" cy="118" r="4"/>
-    <circle id="room-ca73a58296cb07f696ab27cc5e82339310aa388f" class="room outdoor" data-label="near the docks" cx="76" cy="118" r="4"/>
-    <circle id="room-99e47fb944a21acde8f6c6428e5775aa06d024d6" class="room outdoor" data-label="near the docks" cx="90" cy="118" r="4"/>
-    <circle id="room-475ea94f890bfbbee91e503d4c0a44c0d234c26b" class="room outdoor" data-label="under a pier" cx="104" cy="118" r="4"/>
-    <circle id="room-675b92000f58b109e39e837f96ca5e7f71d63b30" class="room outdoor" data-label="surface of the river Ankh" cx="90" cy="104" r="4"/>
-    <circle id="room-7d116f58934dcc053aea25b2be6c32716bc3fd80" class="room outdoor" data-label="under a bridge in the Docks" cx="90" cy="90" r="4"/>
-    <circle id="room-fe9860927d1618908a21a3c683134fa6d114de05" class="room outdoor" data-label="surface of the river Ankh" cx="90" cy="76" r="4"/>
-    <circle id="room-c1997fe270b47bc2d4b5f6fdd80ce71a44441c1d" class="room outdoor" data-label="surface of the river Ankh" cx="90" cy="62" r="4"/>
-    <circle id="room-a3d45d81e2707b402d0eeddc1a54491a380fd51b" class="room outdoor" data-label="surface of the river Ankh" cx="76" cy="62" r="4"/>
-    <circle id="room-142832722d65454fb00eedd1c4b34bfd0356bd86" class="room outdoor" data-label="surface of the river Ankh" cx="76" cy="48" r="4"/>
-    <circle id="room-67771c04944a2b26b27f26b0a79d0f2a91631155" class="room outdoor" data-label="surface of the river Ankh" cx="90" cy="48" r="4"/>
-    <circle id="room-071d106c13b53048db1c0959ffcaaee5fdbbb21d" class="room outdoor" data-label="under a bridge in the Docks" cx="90" cy="34" r="4"/>
-    <circle id="room-a26b6b2da865775701297d70e624b7c172625a1f" class="room outdoor" data-label="surface of the river Ankh" cx="90" cy="20" r="4"/>
-    <circle id="room-8629a3e6d45fad807f252caa224e19a1dcec7197" class="room outdoor" data-label="surface of the river Ankh" cx="104" cy="20" r="4"/>
-    <circle id="room-c43972380ca802eccbb17d3c8b641e610517b3f0" class="room outdoor" data-label="surface of the river Ankh" cx="104" cy="48" r="4"/>
-    <circle id="room-a17c33d6495cd3a7d7e7f2b41a077d12d7be4a4c" class="room outdoor" data-label="surface of the river Ankh" cx="104" cy="62" r="4"/>
-    <circle id="room-de3b3ccc26c8c563d51842f2cca839e3be395a31" class="room outdoor" data-label="surface of the river Ankh" cx="118" cy="62" r="4"/>
-    <circle id="room-2caf26d0fd7a71ae19214a70120b0ad01a7dfc3d" class="room outdoor" data-label="surface of the river Ankh" cx="118" cy="48" r="4"/>
-    <circle id="room-72aadd97b3894869ab48023cf11ba263b0cb265e" class="room outdoor" data-label="surface of the river Ankh" cx="132" cy="48" r="4"/>
-    <circle id="room-5d34393dcf7383582182b5221162c87ec44daca2" class="room outdoor" data-label="surface of the river Ankh" cx="132" cy="62" r="4"/>
-    <circle id="room-accb26248447ca059fc0dad75e77f0b68253f0e2" class="room outdoor" data-label="surface of the river Ankh" cx="146" cy="62" r="4"/>
-    <circle id="room-bd42fc46c4ca5a0391730a83a9f5cc92affc80c9" class="room outdoor" data-label="surface of the river Ankh" cx="146" cy="48" r="4"/>
-    <circle id="room-25068947c49d9397d2977e699545b5887d8b6602" class="room outdoor" data-label="under a bridge in the Docks" cx="160" cy="48" r="4"/>
-    <circle id="room-515daaba91773090e70e5ead740b8957941db038" class="room outdoor" data-label="near the docks" cx="174" cy="48" r="4"/>
-    <circle id="room-f7b6d4b712a017c840acabfd48cbbbee3d3eac6c" class="room outdoor" data-label="near the docks" cx="188" cy="48" r="4"/>
-    <circle id="room-9468f6140b748a9ce53aed24f729d122ff6dd47a" class="room outdoor" data-label="near the docks" cx="202" cy="48" r="4"/>
-    <circle id="room-cb99323ecc6540f01430f98a1b49c615851ae354" class="room outdoor" data-label="near the docks" cx="216" cy="48" r="4"/>
-    <circle id="room-39467d52da3e2be2eb50b5c4e0ee9e732be0b675" class="room outdoor" data-label="near the docks" cx="230" cy="48" r="4"/>
-    <circle id="room-6afcfcc5763e3ff37f139af47ec7b3f29b674084" class="room outdoor" data-label="surface of the river Ankh" cx="342" cy="132" r="4"/>
-    <circle id="room-aba9c4265d892c16519410ef8870333521093cac" class="room outdoor" data-label="surface of the river Ankh" cx="342" cy="146" r="4"/>
-    <circle id="room-e126f9a6404701575bfedec3defadd5e27ea7165" class="room outdoor" data-label="surface of the river Ankh" cx="342" cy="160" r="4"/>
-    <circle id="room-22cb2c046cac027463f8bfc5052e7f5a0600fb6d" class="room outdoor" data-label="surface of the river Ankh" cx="342" cy="174" r="4"/>
-    <circle id="room-feb7549c34ab6153c21bf032b10260def271dd47" class="room outdoor" data-label="near the docks" cx="342" cy="188" r="4"/>
-    <circle id="room-1490febd03ddb0cdf1b5b2a0ce7749505f348acf" class="room outdoor" data-label="near the docks" cx="356" cy="174" r="4"/>
-    <circle id="room-dcdea62f09d1387dc543fc0906fa391faaf95b12" class="room outdoor" data-label="surface of the river Ankh" cx="356" cy="160" r="4"/>
-    <circle id="room-3c8dc3147fde1e4e139fab73d0fb76c4e6c774fd" class="room outdoor" data-label="surface of the river Ankh" cx="356" cy="146" r="4"/>
-    <circle id="room-2b0960c46eeed0983ebd320dce342e28c81be31c" class="room outdoor" data-label="surface of the river Ankh" cx="356" cy="132" r="4"/>
-    <circle id="room-6d571fb3d1c00729efd7e35f60990306b3ed27f4" class="room outdoor" data-label="surface of the river Ankh" cx="370" cy="118" r="4"/>
-    <circle id="room-1c07c0f4b1682a8ee3857f82214f9ddd0cc3f824" class="room outdoor" data-label="surface of the river Ankh" cx="370" cy="132" r="4"/>
-    <circle id="room-714441bef3e91d7aec4ee76c70c50cc4b2aa4794" class="room outdoor" data-label="surface of the river Ankh" cx="370" cy="146" r="4"/>
-    <circle id="room-8eadce3afc164d2e787739e1b65e2ae52eb01230" class="room outdoor" data-label="surface of the river Ankh" cx="370" cy="160" r="4"/>
-    <circle id="room-9726e639af2ee860f128cdfd5ca5f339fad4ce13" class="room outdoor" data-label="near the docks" cx="370" cy="174" r="4"/>
-    <circle id="room-9935dbda79d87df6eaa5d1860457cf23bb7fa517" class="room outdoor" data-label="under a pier" cx="384" cy="160" r="4"/>
-    <circle id="room-dd9e4599d02df6397394e1a0a2f7a1d95bd91c82" class="room outdoor" data-label="surface of the river Ankh" cx="384" cy="146" r="4"/>
-    <circle id="room-493ad50e29f0a008281c5b5c67169bf1dc845be4" class="room outdoor" data-label="surface of the river Ankh" cx="384" cy="132" r="4"/>
-    <circle id="room-917a794351318a7d290c479e38c26542071ebb03" class="room outdoor" data-label="surface of the river Ankh" cx="384" cy="118" r="4"/>
-    <circle id="room-de7f142dbc5dae2557ddf6569c9ead626be9c529" class="room outdoor" data-label="under a pier" cx="398" cy="118" r="4"/>
-    <circle id="room-1bf9b6f522574515165eb376e4e9cdf04f3542f8" class="room outdoor" data-label="surface of the river Ankh" cx="398" cy="132" r="4"/>
-    <circle id="room-211a82e8cd88efd43cae317f7558461a21289db3" class="room outdoor" data-label="surface of the river Ankh" cx="398" cy="146" r="4"/>
-    <circle id="room-d9fa4d02912daab709724be48cc0fb1971144b37" class="room outdoor" data-label="surface of the river Ankh" cx="398" cy="160" r="4"/>
-    <circle id="room-0034e709272b618ced0db3d71b0634419d0aceb1" class="room outdoor" data-label="surface of the river Ankh" cx="412" cy="146" r="4"/>
-    <circle id="room-3567be7114c7916fcca02ccef1e5c4a0d6fdbad7" class="room outdoor" data-label="surface of the river Ankh" cx="412" cy="132" r="4"/>
-    <circle id="room-dce9963801df625fff5d5df20fa1e7daf1dfca93" class="room outdoor" data-label="surface of the river Ankh" cx="412" cy="118" r="4"/>
-    <circle id="room-062d2aa4c03feb70bd247ab17d8e3c0c08e0481a" class="room outdoor" data-label="surface of the river Ankh" cx="412" cy="104" r="4"/>
-    <circle id="room-e4e6ec891ea750f05faf54b8cfbb0c3f6e769f7a" class="room outdoor" data-label="surface of the river Ankh" cx="426" cy="104" r="4"/>
-    <circle id="room-2a78496ff3f8d55387527f8f0bbd2bb0350f4fd3" class="room outdoor" data-label="surface of the river Ankh" cx="440" cy="104" r="4"/>
-    <circle id="room-ee72c2cf557f64f479b1f70447f88e5184826a09" class="room outdoor" data-label="surface of the river Ankh" cx="426" cy="118" r="4"/>
-    <circle id="room-8fa072972d22c6d66bbd3cce1532a826bfc6ad1f" class="room outdoor" data-label="surface of the river Ankh" cx="426" cy="132" r="4"/>
-    <circle id="room-fe0f576cab7011c1e1bfcfa46b1fe32e59115d84" class="room outdoor" data-label="surface of the river Ankh" cx="440" cy="118" r="4"/>
-    <circle id="room-87f9d5cca8f55a6f13f3533163de9c9023f1f053" class="room outdoor" data-label="surface of the river Ankh" cx="440" cy="132" r="4"/>
-    <circle id="room-dfe2d81a4bcd055459ac1a0a02b66f6137a4f7a4" class="room outdoor" data-label="surface of the river Ankh" cx="454" cy="118" r="4"/>
-    <circle id="room-05241ddacaada7ac8b1d9a934b5804c4f5c55bc3" class="room outdoor" data-label="surface of the river Ankh" cx="888" cy="188" r="4"/>
-    <circle id="room-73af676e8576153dc7172624d17289999b9780e6" class="room outdoor" data-label="surface of the river Ankh" cx="902" cy="188" r="4"/>
-    <circle id="room-e57c5aea4f181ca925604b60aab81ce476d8da8b" class="room outdoor" data-label="surface of the river Ankh" cx="902" cy="202" r="4"/>
-    <circle id="room-6806b1e0f454ed67c5aa1a30ea98d56d9d31a138" class="room outdoor" data-label="surface of the river Ankh" cx="902" cy="216" r="4"/>
-    <circle id="room-831f5c5d1a0902b5889e91e002e7905653f455e7" class="room outdoor" data-label="surface of the river Ankh" cx="916" cy="216" r="4"/>
-    <circle id="room-9306b570a50bcc29a2d4046304e969883b950ec6" class="room outdoor" data-label="surface of the river Ankh" cx="916" cy="202" r="4"/>
-    <circle id="room-ac5db98e1c1224b5d0566415d608b901611d3ded" class="room outdoor" data-label="surface of the river Ankh" cx="916" cy="188" r="4"/>
-    <circle id="room-5102199773545a5ae84825a95ca8c722200afb07" class="room outdoor" data-label="surface of the river Ankh" cx="930" cy="188" r="4"/>
-    <circle id="room-9217d8efc468876bedbe5f31d1d59bb8cd398b07" class="room outdoor" data-label="surface of the river Ankh" cx="930" cy="202" r="4"/>
-    <circle id="room-4c6182e1061a65b1441dd23dfe480119111385b4" class="room outdoor" data-label="surface of the river Ankh" cx="944" cy="202" r="4"/>
-    <circle id="room-5c25b3bd50e2702197d5688c60aad6f70eb73c67" class="room outdoor" data-label="surface of the river Ankh" cx="944" cy="188" r="4"/>
-    <circle id="room-90d2860703903575534a2e346800815ec5c652c8" class="room outdoor" data-label="surface of the river Ankh" cx="958" cy="188" r="4"/>
-    <circle id="room-6211f5b0e8fc7a66dba7ea93e144b645774d10de" class="room outdoor" data-label="surface of the river Ankh" cx="958" cy="174" r="4"/>
-    <circle id="room-3d6de99701b59932c69cd782dbcd32a5be170882" class="room outdoor" data-label="surface of the river Ankh" cx="972" cy="174" r="4"/>
-    <circle id="room-04b91150fed0efb1680aed2baf39582f47157a37" class="room outdoor" data-label="surface of the river Ankh" cx="972" cy="188" r="4"/>
-    <circle id="room-34b9c3845fe30fa070fa21aac806f71391a65ecd" class="room outdoor" data-label="surface of the river Ankh" cx="1000" cy="160" r="4"/>
-    <circle id="room-e49a938e8980b5e061c3e0a1fc1dfb27d35cd019" class="room outdoor" data-label="surface of the river Ankh" cx="1000" cy="174" r="4"/>
-    <circle id="room-16af503ff6349b56f04430dd7b0e9e3333408732" class="room outdoor" data-label="surface of the river Ankh" cx="1000" cy="188" r="4"/>
-    <circle id="room-09e3b36816985f5eb2a735f6fcd42433b068d1f0" class="room outdoor" data-label="surface of the river Ankh" cx="1014" cy="188" r="4"/>
-    <circle id="room-e1df72c409ddad9f5e4f4f6b3977f3f796c871e8" class="room outdoor" data-label="surface of the river Ankh" cx="1014" cy="174" r="4"/>
-    <circle id="room-d99c28768886628360fc42cb5f788f0189b171c8" class="room outdoor" data-label="surface of the river Ankh" cx="1014" cy="160" r="4"/>
-    <circle id="room-5e84e9c54a9ddc8f51e2bcd5cdd09923bbd17576" class="room outdoor" data-label="surface of the river Ankh" cx="1028" cy="160" r="4"/>
-    <circle id="room-837807bbe9340648bc58a31e6272eca44e833068" class="room outdoor" data-label="surface of the river Ankh" cx="1028" cy="174" r="4"/>
-    <circle id="room-e98faec062d8e418e56d1a9c27f7badb066fa92b" class="room outdoor" data-label="surface of the river Ankh" cx="1028" cy="188" r="4"/>
-    <circle id="room-05843a78727d5a6ebc4776eeba6ef49f4800dba0" class="room outdoor" data-label="surface of the river Ankh" cx="1042" cy="188" r="4"/>
-    <circle id="room-439a6ebe2c1051c5767912fb849d771d625b91e5" class="room outdoor" data-label="surface of the river Ankh" cx="1042" cy="174" r="4"/>
-    <circle id="room-fea392a3292fd83257c346c9b19daaab81edf60a" class="room outdoor" data-label="surface of the river Ankh" cx="1042" cy="160" r="4"/>
-    <circle id="room-bed10a18b3a9215e7bd6e353e7464750ce8064ee" class="room outdoor" data-label="surface of the river Ankh" cx="1056" cy="160" r="4"/>
-    <circle id="room-8d7920c4653502e0bba50e12ee5f1b016fde1023" class="room outdoor" data-label="surface of the river Ankh" cx="1070" cy="188" r="4"/>
-    <circle id="room-06868ca1afcdb03a1b447b39a827aa6df1d18434" class="room outdoor" data-label="surface of the river Ankh" cx="1070" cy="174" r="4"/>
-    <circle id="room-f633233516ff237010df73e3d3489616fde5800d" class="room outdoor" data-label="surface of the river Ankh" cx="1084" cy="174" r="4"/>
-    <circle id="room-806e7e479ca518b06cdd5b50779850c7c7af165a" class="room outdoor" data-label="surface of the river Ankh" cx="1084" cy="188" r="4"/>
-    <circle id="room-64c14b1867b11cba7b633b4b2f2eca8f5005dbb9" class="room outdoor" data-label="surface of the river Ankh" cx="1098" cy="188" r="4"/>
-    <circle id="room-3043c7cde14f7c39e5e524a8336f0edaf0f5f990" class="room outdoor" data-label="surface of the river Ankh" cx="1098" cy="174" r="4"/>
-    <circle id="room-11cf11ece5082a78c3395a2b4ed5c0178853708d" class="room outdoor" data-label="surface of the river Ankh" cx="1112" cy="174" r="4"/>
-    <circle id="room-48959fc5e05274991c0bc328f6051c84962558d4" class="room outdoor" data-label="surface of the river Ankh" cx="1112" cy="188" r="4"/>
-    <circle id="room-15b346aced0ef74d0e0bc7ec6b21800120dd9cbf" class="room outdoor" data-label="surface of the river Ankh" cx="1112" cy="202" r="4"/>
-    <circle id="room-ca7afc1909e4e2d259c3b548395d5e84cc43a1b4" class="room outdoor" data-label="surface of the river Ankh" cx="1126" cy="202" r="4"/>
-    <circle id="room-40fc83239340584de6287d72d8bfd85408f898b7" class="room outdoor" data-label="surface of the river Ankh" cx="1126" cy="188" r="4"/>
-    <circle id="room-a86c3349c931280681439f12e326694c47f27aa8" class="room outdoor" data-label="surface of the river Ankh" cx="1126" cy="174" r="4"/>
-    <circle id="room-0d58c91ee29368f63f51ef07e8236c67ff73caf8" class="room outdoor" data-label="surface of the river Ankh" cx="1140" cy="174" r="4"/>
-    <circle id="room-04cc54866d44dbe658dc19bdf734b9b821221dfb" class="room outdoor" data-label="surface of the river Ankh" cx="1140" cy="188" r="4"/>
-    <circle id="room-43aa6a859dfb851c3db43bf162f47b939836df05" class="room outdoor" data-label="surface of the river Ankh" cx="1140" cy="202" r="4"/>
-    <circle id="room-515a6dd177c4982204342becca68d7fcaa81a77c" class="room outdoor" data-label="surface of the river Ankh" cx="1154" cy="202" r="4"/>
-    <circle id="room-e9d534cd9ef8937edeee52eadcf19ad60c0e9040" class="room outdoor" data-label="surface of the river Ankh" cx="1154" cy="188" r="4"/>
-    <circle id="room-314780771d75a91d8d3c5a7b306b1f488b28ffcf" class="room outdoor" data-label="surface of the river Ankh" cx="1154" cy="174" r="4"/>
-    <circle id="room-4f57d990ce0331e42f4594fd9753ff5a24b65421" class="room outdoor" data-label="surface of the river Ankh" cx="1168" cy="188" r="4"/>
-    <circle id="room-57e9bf7244c9c2ac1a89c21d74baa27641bcacf6" class="room outdoor" data-label="surface of the river Ankh" cx="1168" cy="202" r="4"/>
-    <circle id="room-cddbf2462613fad1efbcd6855054326e715c4369" class="room outdoor" data-label="surface of the river Ankh" cx="1154" cy="216" r="4"/>
-    <circle id="room-ebcde9b49318170606a1db43539f8c79cf32cc75" class="room outdoor" data-label="surface of the river Ankh" cx="1168" cy="216" r="4"/>
-    <circle id="room-f76b62f69a2704af7de835d2be5e2795ef736670" class="room outdoor" data-label="surface of the river Ankh" cx="1182" cy="202" r="4"/>
-    <circle id="room-b172588f442b5c05b194cf95fa3a99f6bbb822a8" class="room outdoor" data-label="under Wood Bridge" cx="1182" cy="216" r="4"/>
-    <circle id="room-a8f8adcc931b4c52e68ee2721dfb01d6316faa5b" class="room outdoor" data-label="under Wood Bridge" cx="1168" cy="230" r="4"/>
-    <circle id="room-e10948cb8071f4e8ad63a040d75535bd88e65a6b" class="room outdoor" data-label="surface of the river Ankh" cx="1182" cy="230" r="4"/>
-    <circle id="room-6339d53d326f226b645881af4366794573888646" class="room outdoor" data-label="surface of the river Ankh" cx="1196" cy="230" r="4"/>
-    <circle id="room-05c082009cbba0246141d15981a011d45910e3e5" class="room outdoor" data-label="surface of the river Ankh" cx="1182" cy="244" r="4"/>
-    <circle id="room-c6e7f85d54a4e66cda3bb6596803edf61df1a4e9" class="room outdoor" data-label="surface of the river Ankh" cx="1196" cy="244" r="4"/>
-    <circle id="room-d116633dbab56d952b4142ec66c8b7d1a05cf9e4" class="room outdoor" data-label="surface of the river Ankh" cx="1196" cy="258" r="4"/>
-    <circle id="room-855305ec77c70ef0a1f29485e10f1f5d99c7e785" class="room outdoor" data-label="surface of the river Ankh" cx="1210" cy="244" r="4"/>
-    <circle id="room-543e57f3340cef00677c6cab0879cbcc087d3c0b" class="room outdoor" data-label="surface of the river Ankh" cx="1210" cy="258" r="4"/>
-    <circle id="room-21412c98c23a230100cd94ebb5b8ef55304d5806" class="room outdoor" data-label="surface of the river Ankh" cx="1210" cy="272" r="4"/>
-    <circle id="room-e3477eb4151c052b87b65d35964e7edd69b2b9d1" class="room outdoor" data-label="surface of the river Ankh" cx="1210" cy="286" r="4"/>
-    <circle id="room-1c1255f9339a62dd3ab6dff895c23775c245db0c" class="room outdoor" data-label="surface of the river Ankh" cx="1224" cy="286" r="4"/>
-    <circle id="room-514eab84dda42ccb88a53e77c5efbe07f849ca34" class="room outdoor" data-label="surface of the river Ankh" cx="1224" cy="272" r="4"/>
-    <circle id="room-584cb6cd552effa65989a2b1186af94198339aaf" class="room outdoor" data-label="surface of the river Ankh" cx="1224" cy="258" r="4"/>
-    <circle id="room-606038f0fc6fa36ceff7bd4ed69c7ab41a95db62" class="room outdoor" data-label="surface of the river Ankh" cx="1238" cy="258" r="4"/>
-    <circle id="room-77f1e38b9f452e0c3bd554f1f0ab138d1ffcaf02" class="room outdoor" data-label="surface of the river Ankh" cx="1238" cy="272" r="4"/>
-    <circle id="room-075a3fd1c0496f1a0d7012c72668f7d25a430514" class="room outdoor" data-label="surface of the river Ankh" cx="1238" cy="286" r="4"/>
-    <circle id="room-042ed990ef828a4d90dae1f69008f9f53318ad94" class="room outdoor" data-label="surface of the river Ankh" cx="1252" cy="286" r="4"/>
-    <circle id="room-a688d778a7b8dd96391f044f848eddfa6d6226bf" class="room outdoor" data-label="surface of the river Ankh" cx="1252" cy="272" r="4"/>
-    <circle id="room-b53e9a0eda6d892beea369875c9f95f13ff73657" class="room outdoor" data-label="surface of the river Ankh" cx="1266" cy="286" r="4"/>
-    <circle id="room-79704db73d99a0db00ec495e0ded0b1ff467d2f6" class="room outdoor" data-label="surface of the river Ankh" cx="1266" cy="272" r="4"/>
-    <circle id="room-1ee2e7154a30c1604175c9a0a2f08834efbc5a1e" class="room outdoor" data-label="surface of the river Ankh" cx="1252" cy="258" r="4"/>
-    <circle id="room-f05381185c4a90d794cea5df660e3d3da3217148" class="room outdoor" data-label="surface of the river Ankh" cx="1266" cy="258" r="4"/>
-    <circle id="room-17d972a819b12c0350fdef1876140a6da1683d84" class="room outdoor" data-label="surface of the river Ankh" cx="1266" cy="244" r="4"/>
-    <circle id="room-b7337d04364d65f57d9e3e56504d5d6acf115521" class="room outdoor" data-label="surface of the river Ankh" cx="1266" cy="230" r="4"/>
-    <circle id="room-4556097e70cfc01e33a1242e04331e0b4a2456b9" class="room outdoor" data-label="surface of the river Ankh" cx="1266" cy="216" r="4"/>
-    <circle id="room-91a55efea90f9b0e93957944aa98ea2b0b9c178c" class="room outdoor" data-label="surface of the river Ankh" cx="1266" cy="202" r="4"/>
-    <circle id="room-d86ed45b9ee69b78d9cd8cb9b899617a8701b986" class="room outdoor" data-label="surface of the river Ankh" cx="1280" cy="188" r="4"/>
-    <circle id="room-7e7bb67de656a729f7bcb16c0ad5deae9f6970f8" class="room outdoor" data-label="surface of the river Ankh" cx="1280" cy="202" r="4"/>
-    <circle id="room-9caaf5e49518cd626d90e6f624a8a5e838b7adf4" class="room outdoor" data-label="surface of the river Ankh" cx="1280" cy="216" r="4"/>
-    <circle id="room-221b8bb83b66062c3ef0dc499b3e0191d64b4d7c" class="room outdoor" data-label="surface of the river Ankh" cx="1280" cy="230" r="4"/>
-    <circle id="room-b4662204a3974d2846451485686dd99f74c8925a" class="room outdoor" data-label="surface of the river Ankh" cx="1280" cy="244" r="4"/>
-    <circle id="room-99893a3d1b04187d1280a5204d5d3330b41cb782" class="room outdoor" data-label="surface of the river Ankh" cx="1280" cy="258" r="4"/>
-    <circle id="room-7bb2eaa0d15c9cead04151e4a38c9ce60b63b962" class="room outdoor" data-label="surface of the river Ankh" cx="1294" cy="244" r="4"/>
-    <circle id="room-eb7f4b1e1d648a481f25e8cb34273801098bfe79" class="room outdoor" data-label="surface of the river Ankh" cx="1294" cy="230" r="4"/>
-    <circle id="room-9ac933311b22ffc31e3262bcc661081cbb287eb4" class="room outdoor" data-label="surface of the river Ankh" cx="1294" cy="216" r="4"/>
-    <circle id="room-86994d77ca2b95c6dc431162851f28b004d25908" class="room outdoor" data-label="surface of the river Ankh" cx="1294" cy="202" r="4"/>
-    <circle id="room-5da058eb5008ccffb934e78a9c30101bf3dab664" class="room outdoor" data-label="surface of the river Ankh" cx="1294" cy="188" r="4"/>
-    <circle id="room-eb7aa2ff9a811abbbae6b6b274c6e55b1f7baa6d" class="room outdoor" data-label="surface of the river Ankh" cx="1308" cy="188" r="4"/>
-    <circle id="room-09ab51bb04fda48ec5dd0dd7715092671ca16369" class="room outdoor" data-label="surface of the river Ankh" cx="1308" cy="202" r="4"/>
-    <circle id="room-bb196449043c3e69d58905625fa366379a5bf1f3" class="room outdoor" data-label="surface of the river Ankh" cx="1308" cy="216" r="4"/>
-    <circle id="room-457c7eda745e99407d662a2f733dd9ced7c99f90" class="room outdoor" data-label="surface of the river Ankh" cx="1308" cy="230" r="4"/>
-    <circle id="room-6f6116dd2396a3299dc37ff9d482e5c239a7f64b" class="room outdoor" data-label="surface of the river Ankh" cx="1308" cy="244" r="4"/>
-    <circle id="room-e1f989fc0cb3d8d39af3725c15f43d75c5e98269" class="room outdoor" data-label="surface of the river Ankh" cx="1322" cy="244" r="4"/>
-    <circle id="room-1db2e05ecfe0d8c51ce16ae4395fc5be3bde3634" class="room outdoor" data-label="surface of the river Ankh" cx="1322" cy="230" r="4"/>
-    <circle id="room-86c981ddd676a7e9865a67d8fa4f95f2fd87d4f6" class="room outdoor" data-label="surface of the river Ankh" cx="1322" cy="216" r="4"/>
-    <circle id="room-dc3d045365326fece3f8ec5f448ebb4c74f2e628" class="room outdoor" data-label="surface of the river Ankh" cx="1322" cy="202" r="4"/>
-    <circle id="room-5296c56b19fcd4843acfc60deaa3df41ea2bd114" class="room outdoor" data-label="surface of the river Ankh" cx="1336" cy="202" r="4"/>
-    <circle id="room-7f279a7d24cc05fe85d6dad0d28618326429c934" class="room outdoor" data-label="surface of the river Ankh" cx="1336" cy="216" r="4"/>
-    <circle id="room-c03000797821b8dcad3b3d9457d8244c679f0575" class="room outdoor" data-label="surface of the river Ankh" cx="1336" cy="230" r="4"/>
-    <circle id="room-154c6d72583cf0b1598754831a8ae1041442b883" class="room outdoor" data-label="surface of the river Ankh" cx="1336" cy="244" r="4"/>
-    <circle id="room-f405c923717c695c97146b5154a67676147e709a" class="room outdoor" data-label="surface of the river Ankh" cx="1350" cy="230" r="4"/>
-    <circle id="room-2c7bc483fff279a1ad04dca7922bea9fd917fc3f" class="room outdoor" data-label="surface of the river Ankh" cx="1350" cy="244" r="4"/>
-    <circle id="room-b5a7f484804123dc9941301f46b09389b7fb47cb" class="room outdoor" data-label="surface of the river Ankh" cx="1364" cy="244" r="4"/>
+    <circle id="room-b459763de17c42679084d73cef12a2e4416803ec" class="room outdoor water" data-label="under Ankh Bridge" cx="328" cy="174" r="4"/>
+    <circle id="room-ebfb68bb0d269cff84e86fe50a5948f90234462a" class="room outdoor water" data-label="surface of the river Ankh" cx="328" cy="160" r="4"/>
+    <circle id="room-fa57aeefb2251a7d6fcdec8b371fe9e77a040e77" class="room outdoor water" data-label="surface of the river Ankh" cx="328" cy="146" r="4"/>
+    <circle id="room-4aac731fe74f25a049e0723f1847855bfdf3f5d9" class="room outdoor water" data-label="surface of the river Ankh" cx="328" cy="132" r="4"/>
+    <circle id="room-b687c746e2de65352773df2e7618da76d191f566" class="room outdoor water" data-label="under Ankh Bridge" cx="314" cy="146" r="4"/>
+    <circle id="room-acc8f4bdf0977f2de89b812057ccfd7311813236" class="room outdoor water" data-label="under Ankh Bridge" cx="314" cy="160" r="4"/>
+    <circle id="room-4ba06a0f8ef487863fbbd3dd9d7b3649a71cf82c" class="room outdoor water" data-label="surface of the river Ankh" cx="314" cy="174" r="4"/>
+    <circle id="room-f518a2d27161f4bd574d1825f55af3b87f937397" class="room outdoor water" data-label="near the docks" cx="314" cy="188" r="4"/>
+    <circle id="room-249a3cd463da85a97c6f6d55e5d503711402f3cf" class="room outdoor water" data-label="near the docks" cx="300" cy="188" r="4"/>
+    <circle id="room-0ff39283bf79d0f18d248ac9e395cf52493431b1" class="room outdoor water" data-label="near the docks" cx="300" cy="174" r="4"/>
+    <circle id="room-412fd08e0511c19995a8da6b34c57f44a9a8be46" class="room outdoor water" data-label="surface of the river Ankh" cx="300" cy="160" r="4"/>
+    <circle id="room-b1cd190c9dcc2578222cb899b5dacd2649f0ce14" class="room outdoor water" data-label="surface of the river Ankh" cx="300" cy="146" r="4"/>
+    <circle id="room-59f3c078b7a64ef426423f30bd3c971d8673c9bc" class="room outdoor water" data-label="near the docks" cx="300" cy="132" r="4"/>
+    <circle id="room-eed207d1581d33cf9ffdd6658a733b64bd1e1dae" class="room outdoor water" data-label="near the docks" cx="286" cy="132" r="4"/>
+    <circle id="room-3fde70a27b7b39faf12d1027112afb09b886fb91" class="room outdoor water" data-label="surface of the river Ankh" cx="286" cy="146" r="4"/>
+    <circle id="room-3616859cb23b8d40555781e2e9ab3afd5ed0ee37" class="room outdoor water" data-label="surface of the river Ankh" cx="286" cy="160" r="4"/>
+    <circle id="room-6f1bd50c6676aafb145bd48c8f559bf0bdef5a19" class="room outdoor water" data-label="near the docks" cx="286" cy="174" r="4"/>
+    <circle id="room-46ef3a0457c448f46f79a9d13d94f2ec0f2ce226" class="room outdoor water" data-label="near the docks" cx="272" cy="174" r="4"/>
+    <circle id="room-eeb7582bb3c78acf70eef640c84226e950ef4c82" class="room outdoor water" data-label="near the docks" cx="272" cy="188" r="4"/>
+    <circle id="room-2b938d3687deb9fcb0f6d58bb3eb88d77d872d10" class="room outdoor water" data-label="under a bridge in the Docks" cx="272" cy="202" r="4"/>
+    <circle id="room-b0620972af6d4debf2f79649f4c21b9589cc8cd1" class="room outdoor water" data-label="Sparrow Dock" cx="272" cy="216" r="4"/>
+    <circle id="room-5786afd08be8f3a7041899a9b85c8df84f7e8ffd" class="room outdoor water" data-label="Sparrow Dock" cx="272" cy="230" r="4"/>
+    <circle id="room-dce5cccd2f1cdb28abb08757c5e733ae693e1119" class="room outdoor water" data-label="Sparrow Dock" cx="286" cy="230" r="4"/>
+    <circle id="room-722cf358cb242a36d85255f84cfcaf023719c1f2" class="room outdoor water" data-label="Sparrow Dock" cx="286" cy="244" r="4"/>
+    <circle id="room-5eb405daf45c0a9316ef98fd2ade83c9a46e0eed" class="room outdoor water" data-label="Sparrow Dock" cx="272" cy="244" r="4"/>
+    <circle id="room-711f60fcd88e648f727be843e2cd349869685128" class="room outdoor water" data-label="Sparrow Dock" cx="272" cy="258" r="4"/>
+    <circle id="room-0ef0a17b5088deb0b8a5123b75feaad38a0a9bcf" class="room outdoor water" data-label="Sparrow Dock" cx="286" cy="258" r="4"/>
+    <circle id="room-5eaa223f11c5a30b804b00d0797a2d8401818179" class="room outdoor water" data-label="surface of the river Ankh" cx="272" cy="160" r="4"/>
+    <circle id="room-09d3a29ad8af266ae041bcf6d9613e819bf65029" class="room outdoor water" data-label="surface of the river Ankh" cx="272" cy="146" r="4"/>
+    <circle id="room-ffd0bd909cdacd35561b3e71c361860cd7abd88b" class="room outdoor water" data-label="near the docks" cx="272" cy="132" r="4"/>
+    <circle id="room-32d61354d853c43158395bf660845e7735ac6283" class="room outdoor water" data-label="under a pier" cx="272" cy="118" r="4"/>
+    <circle id="room-a0ae7cbde40be56508f01a6808d46ffd84765637" class="room outdoor water" data-label="near the docks" cx="272" cy="104" r="4"/>
+    <circle id="room-33da361fdd2114408ea7fa4d6bdb0171e8a7b661" class="room outdoor water" data-label="near the docks" cx="258" cy="104" r="4"/>
+    <circle id="room-5332e8c5428558d12369938731819f282f5d9fc1" class="room outdoor water" data-label="surface of the river Ankh" cx="258" cy="118" r="4"/>
+    <circle id="room-455b263facd98c3ada9ea24c2e21de58be8cfb44" class="room outdoor water" data-label="near the docks" cx="258" cy="132" r="4"/>
+    <circle id="room-a0a6aca7fb0b019ed4c0df3cb8d5aa6c69ebe7da" class="room outdoor water" data-label="surface of the river Ankh" cx="258" cy="146" r="4"/>
+    <circle id="room-bc962850ec4780da34978eca439472da47f1a473" class="room outdoor water" data-label="surface of the river Ankh" cx="258" cy="160" r="4"/>
+    <circle id="room-be34b4f73cf3cbb63930060378fe72b0b0256123" class="room outdoor water" data-label="surface of the river Ankh" cx="258" cy="174" r="4"/>
+    <circle id="room-d99e443d8bf94d1d5bac669f4663c9b068d1d592" class="room outdoor water" data-label="near the docks" cx="258" cy="188" r="4"/>
+    <circle id="room-000eb762c116c557e5ef47908321df7b072db47b" class="room outdoor water" data-label="near the docks" cx="244" cy="188" r="4"/>
+    <circle id="room-e3542536b5d8565278ee76ac7b61959cbe82386b" class="room outdoor water" data-label="surface of the river Ankh" cx="244" cy="174" r="4"/>
+    <circle id="room-c1769918638d915ae21d2a493e9138dd5b3856fa" class="room outdoor water" data-label="surface of the river Ankh" cx="244" cy="160" r="4"/>
+    <circle id="room-847f47533945b198505ea227cc1f079fce2c0096" class="room outdoor water" data-label="surface of the river Ankh" cx="244" cy="146" r="4"/>
+    <circle id="room-40fee20c73b289c6dba683259feeabcd50009923" class="room outdoor water" data-label="near the docks" cx="244" cy="132" r="4"/>
+    <circle id="room-4668e8965cf7ceeb118a49cafbb6215ce2a73707" class="room outdoor water" data-label="under a pier" cx="230" cy="132" r="4"/>
+    <circle id="room-fd8c3834c046168759f686d8b2e1e484fd37c612" class="room outdoor water" data-label="surface of the river Ankh" cx="230" cy="146" r="4"/>
+    <circle id="room-c5494649853cc55e4fae4c4a61bcccd2eeef5e57" class="room outdoor water" data-label="surface of the river Ankh" cx="230" cy="160" r="4"/>
+    <circle id="room-0833a8e99c6865c44f4a22f94e3679d5cc388798" class="room outdoor water" data-label="surface of the river Ankh" cx="230" cy="174" r="4"/>
+    <circle id="room-2ac394104b7884b321fe67a9df77be2e5872b47a" class="room outdoor water" data-label="near the docks" cx="230" cy="188" r="4"/>
+    <circle id="room-a7a55bac2c5e442321cbdd1d500eae3582f7d5a5" class="room outdoor water" data-label="near the docks" cx="216" cy="188" r="4"/>
+    <circle id="room-7aea9148871bd8dcd83280dbbb554928e3671c1c" class="room outdoor water" data-label="surface of the river Ankh" cx="216" cy="174" r="4"/>
+    <circle id="room-0add3cb7c07aaeca5465048b4a215398fdfec5b1" class="room outdoor water" data-label="surface of the river Ankh" cx="216" cy="160" r="4"/>
+    <circle id="room-0c0ca71af938083dc209bce252d63f713807cc94" class="room outdoor water" data-label="surface of the river Ankh" cx="216" cy="146" r="4"/>
+    <circle id="room-3d211c5c634a203bc81f9e78e6b668442caa1006" class="room outdoor water" data-label="near the docks" cx="216" cy="132" r="4"/>
+    <circle id="room-00df73c2abed09c9e8dbeb3080e280d349b566c0" class="room outdoor water" data-label="near the docks" cx="202" cy="118" r="4"/>
+    <circle id="room-6b89e37df818f7caaceea12d8449d6aed18ea6ab" class="room outdoor water" data-label="surface of the river Ankh" cx="202" cy="132" r="4"/>
+    <circle id="room-b53258fb7686a22909661a36f40e64d13474418e" class="room outdoor water" data-label="surface of the river Ankh" cx="202" cy="146" r="4"/>
+    <circle id="room-d88e08c2b79cd05bf71a9cafce6a323dcd0d37bf" class="room outdoor water" data-label="surface of the river Ankh" cx="202" cy="160" r="4"/>
+    <circle id="room-8dbae8b02b5f65d6f3415ce3493627567ab23243" class="room outdoor water" data-label="surface of the river Ankh" cx="202" cy="174" r="4"/>
+    <circle id="room-b27eda886b411ccf450b504a47c115fc80e961c5" class="room outdoor water" data-label="surface of the river Ankh" cx="202" cy="188" r="4"/>
+    <circle id="room-ab56f7f3f66678fb4087884c505ad8e2f58c7ff9" class="room outdoor water" data-label="near the docks" cx="202" cy="202" r="4"/>
+    <circle id="room-50a131946eedb2da06c97cd92f8a2104a2e428ee" class="room outdoor water" data-label="near the docks" cx="188" cy="202" r="4"/>
+    <circle id="room-ed56f0467c886ec1123b0fe5dd88f0749529e7b8" class="room outdoor water" data-label="near the docks" cx="188" cy="188" r="4"/>
+    <circle id="room-e465cb0a922f116d96a041fa2efede959f0852a7" class="room outdoor water" data-label="surface of the river Ankh" cx="188" cy="174" r="4"/>
+    <circle id="room-795e103bbe5aaa82f40fcd001308600d78392d86" class="room outdoor water" data-label="surface of the river Ankh" cx="188" cy="160" r="4"/>
+    <circle id="room-03fa77cadb1d560596511f7ed726725bbac4c510" class="room outdoor water" data-label="surface of the river Ankh" cx="188" cy="146" r="4"/>
+    <circle id="room-ed66867ba95d40bd72b0c719ea0ffa648bd1fc29" class="room outdoor water" data-label="surface of the river Ankh" cx="188" cy="132" r="4"/>
+    <circle id="room-0b577c51075ef30316530e4940f6640ce13b03b0" class="room outdoor water" data-label="near the docks" cx="188" cy="118" r="4"/>
+    <circle id="room-8c69b373b4104ed36a114e75686566a83991c372" class="room outdoor water" data-label="near the docks" cx="174" cy="118" r="4"/>
+    <circle id="room-c9121eebb8eef0b92977452dc8bbf0d2d85e5b53" class="room outdoor water" data-label="surface of the river Ankh" cx="174" cy="132" r="4"/>
+    <circle id="room-3ed93f71d5b09e88dcb975366cdc2d6b2362a3c3" class="room outdoor water" data-label="surface of the river Ankh" cx="174" cy="146" r="4"/>
+    <circle id="room-0aac972a636a066e13f248f4aa2b8b9388b57a16" class="room outdoor water" data-label="surface of the river Ankh" cx="174" cy="160" r="4"/>
+    <circle id="room-495cd63cb500c8158c8a73842634a7c2ca83a2a2" class="room outdoor water" data-label="surface of the river Ankh" cx="174" cy="174" r="4"/>
+    <circle id="room-cd7089010a71753f7184c3c20dab99326dea4b8d" class="room outdoor water" data-label="near the docks" cx="174" cy="188" r="4"/>
+    <circle id="room-50e5da8b5b86049533bfc5c1dcb0f8aa689f55fa" class="room outdoor water" data-label="under a pier" cx="174" cy="202" r="4"/>
+    <circle id="room-f818d427124f4f388d48ecdb6cb90924dca83ecc" class="room outdoor water" data-label="near the docks" cx="160" cy="202" r="4"/>
+    <circle id="room-3f0cbec0944fa3ade13d032a9eae9cf4b1923f6a" class="room outdoor water" data-label="near the docks" cx="160" cy="188" r="4"/>
+    <circle id="room-b8926ff4eeb5fdf79388be6a16fe79d79d1be385" class="room outdoor water" data-label="surface of the river Ankh" cx="160" cy="174" r="4"/>
+    <circle id="room-0320c5f06f4977f35feee8683c0747727d78d0c2" class="room outdoor water" data-label="surface of the river Ankh" cx="160" cy="160" r="4"/>
+    <circle id="room-3343519be47f1e59365d2e2698d2ea8997f76c37" class="room outdoor water" data-label="surface of the river Ankh" cx="160" cy="146" r="4"/>
+    <circle id="room-a955a35a4b7f631a15b83e45b15bd983d7a29451" class="room outdoor water" data-label="surface of the river Ankh" cx="160" cy="132" r="4"/>
+    <circle id="room-ce1eb36472fc5278cf809216ac984fc4efaa8431" class="room outdoor water" data-label="under a pier" cx="160" cy="118" r="4"/>
+    <circle id="room-a161242ec9a18add383787f17c693636694a65ae" class="room outdoor water" data-label="near the docks" cx="146" cy="118" r="4"/>
+    <circle id="room-dffd575b5ce469edab51de97a0b1747c6761021c" class="room outdoor water" data-label="surface of the river Ankh" cx="146" cy="132" r="4"/>
+    <circle id="room-caf386883e0ba473bc255e811ee7d432e68812dc" class="room outdoor water" data-label="surface of the river Ankh" cx="146" cy="146" r="4"/>
+    <circle id="room-6261c29e12e1369c4473d69987e035eaa713403e" class="room outdoor water" data-label="surface of the river Ankh" cx="146" cy="160" r="4"/>
+    <circle id="room-333409120a51d9a001f6b697bc2910b9dd242746" class="room outdoor water" data-label="surface of the river Ankh" cx="146" cy="174" r="4"/>
+    <circle id="room-33f3b581493b24aa18537aa1f45a89ec3b292f45" class="room outdoor water" data-label="surface of the river Ankh" cx="146" cy="188" r="4"/>
+    <circle id="room-f7057ba23d59039ae9262d73dd5b4f852e04d52b" class="room outdoor water" data-label="near the docks" cx="146" cy="202" r="4"/>
+    <circle id="room-22ef7179c6e6f27be7c0c896c2f984216b66ca93" class="room outdoor water" data-label="near the docks" cx="132" cy="216" r="4"/>
+    <circle id="room-616fafb205aa8dc9a930a696073aebe2e08fbf8f" class="room outdoor water" data-label="under a pier" cx="118" cy="216" r="4"/>
+    <circle id="room-baf7f634b26c629a017bcab62b4f5e318bd147f8" class="room outdoor water" data-label="near the docks" cx="104" cy="216" r="4"/>
+    <circle id="room-374e1fe2676ab268b3f5054f0a2bb6895c5f37a6" class="room outdoor water" data-label="under a pier" cx="90" cy="216" r="4"/>
+    <circle id="room-abf6394defd9a4da5c0e990be19269e2761f4356" class="room outdoor water" data-label="surface of the river Ankh" cx="76" cy="216" r="4"/>
+    <circle id="room-ce4297915d2bf3c6766d1845cc3a759bda5dba28" class="room outdoor water" data-label="near the docks" cx="62" cy="216" r="4"/>
+    <circle id="room-a6eca817124ef08761279e0ac5ffb1095ae52141" class="room outdoor water" data-label="surface of the river Ankh" cx="76" cy="202" r="4"/>
+    <circle id="room-e6786ba4f3b357d2e2c33c61f027fa578fa89273" class="room outdoor water" data-label="near the docks" cx="90" cy="202" r="4"/>
+    <circle id="room-1f45a4ba022d1e2438c123e53619d0ca5851f31e" class="room outdoor water" data-label="near the docks" cx="104" cy="202" r="4"/>
+    <circle id="room-4cb9c3895f286a485a667d0c75a880621b6387d2" class="room outdoor water" data-label="near the docks" cx="118" cy="202" r="4"/>
+    <circle id="room-cef06b21cec6d08782e1af5757e8779007876805" class="room outdoor water" data-label="near the docks" cx="132" cy="202" r="4"/>
+    <circle id="room-aeab9097534c1cbdd4a4636de35da69391f9b3ab" class="room outdoor water" data-label="surface of the river Ankh" cx="132" cy="188" r="4"/>
+    <circle id="room-6b5b1c022ae073c518c4457a979f1ab1db6b1d61" class="room outdoor water" data-label="surface of the river Ankh" cx="132" cy="174" r="4"/>
+    <circle id="room-21c6f5ec6c4dea356abf278ec92f4d50a087e675" class="room outdoor water" data-label="surface of the river Ankh" cx="132" cy="160" r="4"/>
+    <circle id="room-e164e64854b7592093b0e0d1e1a46dd5a41ed4b6" class="room outdoor water" data-label="surface of the river Ankh" cx="132" cy="146" r="4"/>
+    <circle id="room-d7a694a245f968e3482ec507ea26cb72baa16299" class="room outdoor water" data-label="surface of the river Ankh" cx="132" cy="132" r="4"/>
+    <circle id="room-3d0f14e933bcf939a5256bc6daa6249c4b064fc3" class="room outdoor water" data-label="near the docks" cx="132" cy="118" r="4"/>
+    <circle id="room-c043632dbc19667c199aaec0ad7e2d3215208b27" class="room outdoor water" data-label="near the docks" cx="118" cy="118" r="4"/>
+    <circle id="room-2f15145c528e02027e843bda36ed8dd1e74abdde" class="room outdoor water" data-label="surface of the river Ankh" cx="118" cy="132" r="4"/>
+    <circle id="room-b56114584b67485455a2d15b0536c245f3c2d58a" class="room outdoor water" data-label="surface of the river Ankh" cx="118" cy="146" r="4"/>
+    <circle id="room-28198c7fd861b59e58860687de619f8359f40779" class="room outdoor water" data-label="surface of the river Ankh" cx="118" cy="160" r="4"/>
+    <circle id="room-f82d2404f8d9c68a9a3388665284f76d4e1c0943" class="room outdoor water" data-label="surface of the river Ankh" cx="118" cy="174" r="4"/>
+    <circle id="room-dc4e25bdb13f2133b39024d5447b67972149f57a" class="room outdoor water" data-label="surface of the river Ankh" cx="118" cy="188" r="4"/>
+    <circle id="room-082617889239b372e073154a772329d0a841ec4c" class="room outdoor water" data-label="surface of the river Ankh" cx="104" cy="188" r="4"/>
+    <circle id="room-8a48be4706686682f890b4b56f3ed9f8c68adade" class="room outdoor water" data-label="surface of the river Ankh" cx="90" cy="188" r="4"/>
+    <circle id="room-2a3ffa291fb44fb5b23bc05f0f988b9e611d50bc" class="room outdoor water" data-label="near the docks" cx="76" cy="188" r="4"/>
+    <circle id="room-18450909eeda431138bd4740a036240109f9acca" class="room outdoor water" data-label="near the docks" cx="62" cy="188" r="4"/>
+    <circle id="room-88b9fc8133c7a8636a4fd83b583b848993600a90" class="room outdoor water" data-label="near the docks" cx="48" cy="188" r="4"/>
+    <circle id="room-c8558113e65a897629cf64ac0dbe4282f0c3ec95" class="room outdoor water" data-label="near the docks" cx="34" cy="188" r="4"/>
+    <circle id="room-d6f51125824e37944374960ffeece258ea21a20b" class="room outdoor water" data-label="surface of the river Ankh" cx="20" cy="188" r="4"/>
+    <circle id="room-66de9c68da8b72999941f43a816170cac830c7ab" class="room outdoor water" data-label="surface of the river Ankh" cx="20" cy="174" r="4"/>
+    <circle id="room-ad8fd8df65f847cd638966222eb3096f2f4b0397" class="room outdoor water" data-label="surface of the river Ankh" cx="34" cy="174" r="4"/>
+    <circle id="room-95f58a8a242288cb39524ef8a4b3a7a769470e35" class="room outdoor water" data-label="surface of the river Ankh" cx="48" cy="174" r="4"/>
+    <circle id="room-b56567c328bcff948697763588f03e82eb28b853" class="room outdoor water" data-label="surface of the river Ankh" cx="62" cy="174" r="4"/>
+    <circle id="room-140a78243f8909311c8a2ba300ab46c99407c56e" class="room outdoor water" data-label="surface of the river Ankh" cx="76" cy="174" r="4"/>
+    <circle id="room-aa69a5eeea57073114ccf9df227b5aa3d80f9c44" class="room outdoor water" data-label="surface of the river Ankh" cx="90" cy="174" r="4"/>
+    <circle id="room-648249bbb2802aba49c65f1a441803893feb73e1" class="room outdoor water" data-label="surface of the river Ankh" cx="104" cy="174" r="4"/>
+    <circle id="room-e1f9c1f72fe8cabcbb7d2a1e26c6ff8d05bd5610" class="room outdoor water" data-label="surface of the river Ankh" cx="104" cy="160" r="4"/>
+    <circle id="room-fd32f6fea71c3881be92ea465983f3438e6374c6" class="room outdoor water" data-label="surface of the river Ankh" cx="90" cy="160" r="4"/>
+    <circle id="room-6f830342cbbe03c4811ca07e4a94d78c6f8126e6" class="room outdoor water" data-label="surface of the river Ankh" cx="76" cy="160" r="4"/>
+    <circle id="room-0b614a5fea632639e69aa0900db84fdb189432f9" class="room outdoor water" data-label="surface of the river Ankh" cx="62" cy="160" r="4"/>
+    <circle id="room-d23f6f3707c1d4e36ee8d41e909cf4743e9f3b0f" class="room outdoor water" data-label="surface of the river Ankh" cx="48" cy="160" r="4"/>
+    <circle id="room-7c8846579a2e8425a32104d48e7c10e581e2ef05" class="room outdoor water" data-label="surface of the river Ankh" cx="48" cy="146" r="4"/>
+    <circle id="room-01317c9fc4934a64d1425adfd0a1c285cf31e64e" class="room outdoor water" data-label="surface of the river Ankh" cx="62" cy="146" r="4"/>
+    <circle id="room-7103d1bc841477fc7ddd2d6334c618b60b07c3d3" class="room outdoor water" data-label="surface of the river Ankh" cx="76" cy="146" r="4"/>
+    <circle id="room-fc23083a1c0f308a3da23759aed7836b26a48dd2" class="room outdoor water" data-label="surface of the river Ankh" cx="90" cy="146" r="4"/>
+    <circle id="room-8dc9cc1212ad025e1d15fb9bde608f57691d8012" class="room outdoor water" data-label="surface of the river Ankh" cx="104" cy="146" r="4"/>
+    <circle id="room-417a562abf9a7954ffa505dcea3926d33c2adefd" class="room outdoor water" data-label="surface of the river Ankh" cx="104" cy="132" r="4"/>
+    <circle id="room-08437d1f41d2cddc5796c38b84560844ead1686f" class="room outdoor water" data-label="surface of the river Ankh" cx="90" cy="132" r="4"/>
+    <circle id="room-37bee1eb86c2fd452fb262da1d96c4630b0585a7" class="room outdoor water" data-label="surface of the river Ankh" cx="76" cy="132" r="4"/>
+    <circle id="room-650405eb837785bcab77e31af3f0541e22a1a5cb" class="room outdoor water" data-label="surface of the river Ankh" cx="62" cy="132" r="4"/>
+    <circle id="room-f123ee987c430f286d98b50c8710b2f38a07999c" class="room outdoor water" data-label="surface of the river Ankh" cx="48" cy="132" r="4"/>
+    <circle id="room-6d7cb2d50ec263b24a250fd01ec97cf299ca453d" class="room outdoor water" data-label="surface of the river Ankh" cx="34" cy="132" r="4"/>
+    <circle id="room-893edc9869988dc16396f1fc1efa40618bf45b8a" class="room outdoor water" data-label="surface of the river Ankh" cx="20" cy="132" r="4"/>
+    <circle id="room-176521c8a1893be9e6d375736b8f52874f31491b" class="room outdoor water" data-label="surface of the river Ankh" cx="20" cy="118" r="4"/>
+    <circle id="room-094bf8111785dc875c5e0445cd83444df3528f9f" class="room outdoor water" data-label="near the docks" cx="34" cy="118" r="4"/>
+    <circle id="room-2390dd540284dc97f66507493a7bf481569b7876" class="room outdoor water" data-label="near the docks" cx="48" cy="118" r="4"/>
+    <circle id="room-77755f97dc429e40c3896cd254c5d266c7b499e0" class="room outdoor water" data-label="near the docks" cx="62" cy="118" r="4"/>
+    <circle id="room-ca73a58296cb07f696ab27cc5e82339310aa388f" class="room outdoor water" data-label="near the docks" cx="76" cy="118" r="4"/>
+    <circle id="room-99e47fb944a21acde8f6c6428e5775aa06d024d6" class="room outdoor water" data-label="near the docks" cx="90" cy="118" r="4"/>
+    <circle id="room-475ea94f890bfbbee91e503d4c0a44c0d234c26b" class="room outdoor water" data-label="under a pier" cx="104" cy="118" r="4"/>
+    <circle id="room-675b92000f58b109e39e837f96ca5e7f71d63b30" class="room outdoor water" data-label="surface of the river Ankh" cx="90" cy="104" r="4"/>
+    <circle id="room-7d116f58934dcc053aea25b2be6c32716bc3fd80" class="room outdoor water" data-label="under a bridge in the Docks" cx="90" cy="90" r="4"/>
+    <circle id="room-fe9860927d1618908a21a3c683134fa6d114de05" class="room outdoor water" data-label="surface of the river Ankh" cx="90" cy="76" r="4"/>
+    <circle id="room-c1997fe270b47bc2d4b5f6fdd80ce71a44441c1d" class="room outdoor water" data-label="surface of the river Ankh" cx="90" cy="62" r="4"/>
+    <circle id="room-a3d45d81e2707b402d0eeddc1a54491a380fd51b" class="room outdoor water" data-label="surface of the river Ankh" cx="76" cy="62" r="4"/>
+    <circle id="room-142832722d65454fb00eedd1c4b34bfd0356bd86" class="room outdoor water" data-label="surface of the river Ankh" cx="76" cy="48" r="4"/>
+    <circle id="room-67771c04944a2b26b27f26b0a79d0f2a91631155" class="room outdoor water" data-label="surface of the river Ankh" cx="90" cy="48" r="4"/>
+    <circle id="room-071d106c13b53048db1c0959ffcaaee5fdbbb21d" class="room outdoor water" data-label="under a bridge in the Docks" cx="90" cy="34" r="4"/>
+    <circle id="room-a26b6b2da865775701297d70e624b7c172625a1f" class="room outdoor water" data-label="surface of the river Ankh" cx="90" cy="20" r="4"/>
+    <circle id="room-8629a3e6d45fad807f252caa224e19a1dcec7197" class="room outdoor water" data-label="surface of the river Ankh" cx="104" cy="20" r="4"/>
+    <circle id="room-c43972380ca802eccbb17d3c8b641e610517b3f0" class="room outdoor water" data-label="surface of the river Ankh" cx="104" cy="48" r="4"/>
+    <circle id="room-a17c33d6495cd3a7d7e7f2b41a077d12d7be4a4c" class="room outdoor water" data-label="surface of the river Ankh" cx="104" cy="62" r="4"/>
+    <circle id="room-de3b3ccc26c8c563d51842f2cca839e3be395a31" class="room outdoor water" data-label="surface of the river Ankh" cx="118" cy="62" r="4"/>
+    <circle id="room-2caf26d0fd7a71ae19214a70120b0ad01a7dfc3d" class="room outdoor water" data-label="surface of the river Ankh" cx="118" cy="48" r="4"/>
+    <circle id="room-72aadd97b3894869ab48023cf11ba263b0cb265e" class="room outdoor water" data-label="surface of the river Ankh" cx="132" cy="48" r="4"/>
+    <circle id="room-5d34393dcf7383582182b5221162c87ec44daca2" class="room outdoor water" data-label="surface of the river Ankh" cx="132" cy="62" r="4"/>
+    <circle id="room-accb26248447ca059fc0dad75e77f0b68253f0e2" class="room outdoor water" data-label="surface of the river Ankh" cx="146" cy="62" r="4"/>
+    <circle id="room-bd42fc46c4ca5a0391730a83a9f5cc92affc80c9" class="room outdoor water" data-label="surface of the river Ankh" cx="146" cy="48" r="4"/>
+    <circle id="room-25068947c49d9397d2977e699545b5887d8b6602" class="room outdoor water" data-label="under a bridge in the Docks" cx="160" cy="48" r="4"/>
+    <circle id="room-515daaba91773090e70e5ead740b8957941db038" class="room outdoor water" data-label="near the docks" cx="174" cy="48" r="4"/>
+    <circle id="room-f7b6d4b712a017c840acabfd48cbbbee3d3eac6c" class="room outdoor water" data-label="near the docks" cx="188" cy="48" r="4"/>
+    <circle id="room-9468f6140b748a9ce53aed24f729d122ff6dd47a" class="room outdoor water" data-label="near the docks" cx="202" cy="48" r="4"/>
+    <circle id="room-cb99323ecc6540f01430f98a1b49c615851ae354" class="room outdoor water" data-label="near the docks" cx="216" cy="48" r="4"/>
+    <circle id="room-39467d52da3e2be2eb50b5c4e0ee9e732be0b675" class="room outdoor water" data-label="near the docks" cx="230" cy="48" r="4"/>
+    <circle id="room-6afcfcc5763e3ff37f139af47ec7b3f29b674084" class="room outdoor water" data-label="surface of the river Ankh" cx="342" cy="132" r="4"/>
+    <circle id="room-aba9c4265d892c16519410ef8870333521093cac" class="room outdoor water" data-label="surface of the river Ankh" cx="342" cy="146" r="4"/>
+    <circle id="room-e126f9a6404701575bfedec3defadd5e27ea7165" class="room outdoor water" data-label="surface of the river Ankh" cx="342" cy="160" r="4"/>
+    <circle id="room-22cb2c046cac027463f8bfc5052e7f5a0600fb6d" class="room outdoor water" data-label="surface of the river Ankh" cx="342" cy="174" r="4"/>
+    <circle id="room-feb7549c34ab6153c21bf032b10260def271dd47" class="room outdoor water" data-label="near the docks" cx="342" cy="188" r="4"/>
+    <circle id="room-1490febd03ddb0cdf1b5b2a0ce7749505f348acf" class="room outdoor water" data-label="near the docks" cx="356" cy="174" r="4"/>
+    <circle id="room-dcdea62f09d1387dc543fc0906fa391faaf95b12" class="room outdoor water" data-label="surface of the river Ankh" cx="356" cy="160" r="4"/>
+    <circle id="room-3c8dc3147fde1e4e139fab73d0fb76c4e6c774fd" class="room outdoor water" data-label="surface of the river Ankh" cx="356" cy="146" r="4"/>
+    <circle id="room-2b0960c46eeed0983ebd320dce342e28c81be31c" class="room outdoor water" data-label="surface of the river Ankh" cx="356" cy="132" r="4"/>
+    <circle id="room-6d571fb3d1c00729efd7e35f60990306b3ed27f4" class="room outdoor water" data-label="surface of the river Ankh" cx="370" cy="118" r="4"/>
+    <circle id="room-1c07c0f4b1682a8ee3857f82214f9ddd0cc3f824" class="room outdoor water" data-label="surface of the river Ankh" cx="370" cy="132" r="4"/>
+    <circle id="room-714441bef3e91d7aec4ee76c70c50cc4b2aa4794" class="room outdoor water" data-label="surface of the river Ankh" cx="370" cy="146" r="4"/>
+    <circle id="room-8eadce3afc164d2e787739e1b65e2ae52eb01230" class="room outdoor water" data-label="surface of the river Ankh" cx="370" cy="160" r="4"/>
+    <circle id="room-9726e639af2ee860f128cdfd5ca5f339fad4ce13" class="room outdoor water" data-label="near the docks" cx="370" cy="174" r="4"/>
+    <circle id="room-9935dbda79d87df6eaa5d1860457cf23bb7fa517" class="room outdoor water" data-label="under a pier" cx="384" cy="160" r="4"/>
+    <circle id="room-dd9e4599d02df6397394e1a0a2f7a1d95bd91c82" class="room outdoor water" data-label="surface of the river Ankh" cx="384" cy="146" r="4"/>
+    <circle id="room-493ad50e29f0a008281c5b5c67169bf1dc845be4" class="room outdoor water" data-label="surface of the river Ankh" cx="384" cy="132" r="4"/>
+    <circle id="room-917a794351318a7d290c479e38c26542071ebb03" class="room outdoor water" data-label="surface of the river Ankh" cx="384" cy="118" r="4"/>
+    <circle id="room-de7f142dbc5dae2557ddf6569c9ead626be9c529" class="room outdoor water" data-label="under a pier" cx="398" cy="118" r="4"/>
+    <circle id="room-1bf9b6f522574515165eb376e4e9cdf04f3542f8" class="room outdoor water" data-label="surface of the river Ankh" cx="398" cy="132" r="4"/>
+    <circle id="room-211a82e8cd88efd43cae317f7558461a21289db3" class="room outdoor water" data-label="surface of the river Ankh" cx="398" cy="146" r="4"/>
+    <circle id="room-d9fa4d02912daab709724be48cc0fb1971144b37" class="room outdoor water" data-label="surface of the river Ankh" cx="398" cy="160" r="4"/>
+    <circle id="room-0034e709272b618ced0db3d71b0634419d0aceb1" class="room outdoor water" data-label="surface of the river Ankh" cx="412" cy="146" r="4"/>
+    <circle id="room-3567be7114c7916fcca02ccef1e5c4a0d6fdbad7" class="room outdoor water" data-label="surface of the river Ankh" cx="412" cy="132" r="4"/>
+    <circle id="room-dce9963801df625fff5d5df20fa1e7daf1dfca93" class="room outdoor water" data-label="surface of the river Ankh" cx="412" cy="118" r="4"/>
+    <circle id="room-062d2aa4c03feb70bd247ab17d8e3c0c08e0481a" class="room outdoor water" data-label="surface of the river Ankh" cx="412" cy="104" r="4"/>
+    <circle id="room-e4e6ec891ea750f05faf54b8cfbb0c3f6e769f7a" class="room outdoor water" data-label="surface of the river Ankh" cx="426" cy="104" r="4"/>
+    <circle id="room-2a78496ff3f8d55387527f8f0bbd2bb0350f4fd3" class="room outdoor water" data-label="surface of the river Ankh" cx="440" cy="104" r="4"/>
+    <circle id="room-ee72c2cf557f64f479b1f70447f88e5184826a09" class="room outdoor water" data-label="surface of the river Ankh" cx="426" cy="118" r="4"/>
+    <circle id="room-8fa072972d22c6d66bbd3cce1532a826bfc6ad1f" class="room outdoor water" data-label="surface of the river Ankh" cx="426" cy="132" r="4"/>
+    <circle id="room-fe0f576cab7011c1e1bfcfa46b1fe32e59115d84" class="room outdoor water" data-label="surface of the river Ankh" cx="440" cy="118" r="4"/>
+    <circle id="room-87f9d5cca8f55a6f13f3533163de9c9023f1f053" class="room outdoor water" data-label="surface of the river Ankh" cx="440" cy="132" r="4"/>
+    <circle id="room-dfe2d81a4bcd055459ac1a0a02b66f6137a4f7a4" class="room outdoor water" data-label="surface of the river Ankh" cx="454" cy="118" r="4"/>
+    <circle id="room-05241ddacaada7ac8b1d9a934b5804c4f5c55bc3" class="room outdoor water" data-label="surface of the river Ankh" cx="888" cy="188" r="4"/>
+    <circle id="room-73af676e8576153dc7172624d17289999b9780e6" class="room outdoor water" data-label="surface of the river Ankh" cx="902" cy="188" r="4"/>
+    <circle id="room-e57c5aea4f181ca925604b60aab81ce476d8da8b" class="room outdoor water" data-label="surface of the river Ankh" cx="902" cy="202" r="4"/>
+    <circle id="room-6806b1e0f454ed67c5aa1a30ea98d56d9d31a138" class="room outdoor water" data-label="surface of the river Ankh" cx="902" cy="216" r="4"/>
+    <circle id="room-831f5c5d1a0902b5889e91e002e7905653f455e7" class="room outdoor water" data-label="surface of the river Ankh" cx="916" cy="216" r="4"/>
+    <circle id="room-9306b570a50bcc29a2d4046304e969883b950ec6" class="room outdoor water" data-label="surface of the river Ankh" cx="916" cy="202" r="4"/>
+    <circle id="room-ac5db98e1c1224b5d0566415d608b901611d3ded" class="room outdoor water" data-label="surface of the river Ankh" cx="916" cy="188" r="4"/>
+    <circle id="room-5102199773545a5ae84825a95ca8c722200afb07" class="room outdoor water" data-label="surface of the river Ankh" cx="930" cy="188" r="4"/>
+    <circle id="room-9217d8efc468876bedbe5f31d1d59bb8cd398b07" class="room outdoor water" data-label="surface of the river Ankh" cx="930" cy="202" r="4"/>
+    <circle id="room-4c6182e1061a65b1441dd23dfe480119111385b4" class="room outdoor water" data-label="surface of the river Ankh" cx="944" cy="202" r="4"/>
+    <circle id="room-5c25b3bd50e2702197d5688c60aad6f70eb73c67" class="room outdoor water" data-label="surface of the river Ankh" cx="944" cy="188" r="4"/>
+    <circle id="room-90d2860703903575534a2e346800815ec5c652c8" class="room outdoor water" data-label="surface of the river Ankh" cx="958" cy="188" r="4"/>
+    <circle id="room-6211f5b0e8fc7a66dba7ea93e144b645774d10de" class="room outdoor water" data-label="surface of the river Ankh" cx="958" cy="174" r="4"/>
+    <circle id="room-3d6de99701b59932c69cd782dbcd32a5be170882" class="room outdoor water" data-label="surface of the river Ankh" cx="972" cy="174" r="4"/>
+    <circle id="room-04b91150fed0efb1680aed2baf39582f47157a37" class="room outdoor water" data-label="surface of the river Ankh" cx="972" cy="188" r="4"/>
+    <circle id="room-34b9c3845fe30fa070fa21aac806f71391a65ecd" class="room outdoor water" data-label="surface of the river Ankh" cx="1000" cy="160" r="4"/>
+    <circle id="room-e49a938e8980b5e061c3e0a1fc1dfb27d35cd019" class="room outdoor water" data-label="surface of the river Ankh" cx="1000" cy="174" r="4"/>
+    <circle id="room-16af503ff6349b56f04430dd7b0e9e3333408732" class="room outdoor water" data-label="surface of the river Ankh" cx="1000" cy="188" r="4"/>
+    <circle id="room-09e3b36816985f5eb2a735f6fcd42433b068d1f0" class="room outdoor water" data-label="surface of the river Ankh" cx="1014" cy="188" r="4"/>
+    <circle id="room-e1df72c409ddad9f5e4f4f6b3977f3f796c871e8" class="room outdoor water" data-label="surface of the river Ankh" cx="1014" cy="174" r="4"/>
+    <circle id="room-d99c28768886628360fc42cb5f788f0189b171c8" class="room outdoor water" data-label="surface of the river Ankh" cx="1014" cy="160" r="4"/>
+    <circle id="room-5e84e9c54a9ddc8f51e2bcd5cdd09923bbd17576" class="room outdoor water" data-label="surface of the river Ankh" cx="1028" cy="160" r="4"/>
+    <circle id="room-837807bbe9340648bc58a31e6272eca44e833068" class="room outdoor water" data-label="surface of the river Ankh" cx="1028" cy="174" r="4"/>
+    <circle id="room-e98faec062d8e418e56d1a9c27f7badb066fa92b" class="room outdoor water" data-label="surface of the river Ankh" cx="1028" cy="188" r="4"/>
+    <circle id="room-05843a78727d5a6ebc4776eeba6ef49f4800dba0" class="room outdoor water" data-label="surface of the river Ankh" cx="1042" cy="188" r="4"/>
+    <circle id="room-439a6ebe2c1051c5767912fb849d771d625b91e5" class="room outdoor water" data-label="surface of the river Ankh" cx="1042" cy="174" r="4"/>
+    <circle id="room-fea392a3292fd83257c346c9b19daaab81edf60a" class="room outdoor water" data-label="surface of the river Ankh" cx="1042" cy="160" r="4"/>
+    <circle id="room-bed10a18b3a9215e7bd6e353e7464750ce8064ee" class="room outdoor water" data-label="surface of the river Ankh" cx="1056" cy="160" r="4"/>
+    <circle id="room-8d7920c4653502e0bba50e12ee5f1b016fde1023" class="room outdoor water" data-label="surface of the river Ankh" cx="1070" cy="188" r="4"/>
+    <circle id="room-06868ca1afcdb03a1b447b39a827aa6df1d18434" class="room outdoor water" data-label="surface of the river Ankh" cx="1070" cy="174" r="4"/>
+    <circle id="room-f633233516ff237010df73e3d3489616fde5800d" class="room outdoor water" data-label="surface of the river Ankh" cx="1084" cy="174" r="4"/>
+    <circle id="room-806e7e479ca518b06cdd5b50779850c7c7af165a" class="room outdoor water" data-label="surface of the river Ankh" cx="1084" cy="188" r="4"/>
+    <circle id="room-64c14b1867b11cba7b633b4b2f2eca8f5005dbb9" class="room outdoor water" data-label="surface of the river Ankh" cx="1098" cy="188" r="4"/>
+    <circle id="room-3043c7cde14f7c39e5e524a8336f0edaf0f5f990" class="room outdoor water" data-label="surface of the river Ankh" cx="1098" cy="174" r="4"/>
+    <circle id="room-11cf11ece5082a78c3395a2b4ed5c0178853708d" class="room outdoor water" data-label="surface of the river Ankh" cx="1112" cy="174" r="4"/>
+    <circle id="room-48959fc5e05274991c0bc328f6051c84962558d4" class="room outdoor water" data-label="surface of the river Ankh" cx="1112" cy="188" r="4"/>
+    <circle id="room-15b346aced0ef74d0e0bc7ec6b21800120dd9cbf" class="room outdoor water" data-label="surface of the river Ankh" cx="1112" cy="202" r="4"/>
+    <circle id="room-ca7afc1909e4e2d259c3b548395d5e84cc43a1b4" class="room outdoor water" data-label="surface of the river Ankh" cx="1126" cy="202" r="4"/>
+    <circle id="room-40fc83239340584de6287d72d8bfd85408f898b7" class="room outdoor water" data-label="surface of the river Ankh" cx="1126" cy="188" r="4"/>
+    <circle id="room-a86c3349c931280681439f12e326694c47f27aa8" class="room outdoor water" data-label="surface of the river Ankh" cx="1126" cy="174" r="4"/>
+    <circle id="room-0d58c91ee29368f63f51ef07e8236c67ff73caf8" class="room outdoor water" data-label="surface of the river Ankh" cx="1140" cy="174" r="4"/>
+    <circle id="room-04cc54866d44dbe658dc19bdf734b9b821221dfb" class="room outdoor water" data-label="surface of the river Ankh" cx="1140" cy="188" r="4"/>
+    <circle id="room-43aa6a859dfb851c3db43bf162f47b939836df05" class="room outdoor water" data-label="surface of the river Ankh" cx="1140" cy="202" r="4"/>
+    <circle id="room-515a6dd177c4982204342becca68d7fcaa81a77c" class="room outdoor water" data-label="surface of the river Ankh" cx="1154" cy="202" r="4"/>
+    <circle id="room-e9d534cd9ef8937edeee52eadcf19ad60c0e9040" class="room outdoor water" data-label="surface of the river Ankh" cx="1154" cy="188" r="4"/>
+    <circle id="room-314780771d75a91d8d3c5a7b306b1f488b28ffcf" class="room outdoor water" data-label="surface of the river Ankh" cx="1154" cy="174" r="4"/>
+    <circle id="room-4f57d990ce0331e42f4594fd9753ff5a24b65421" class="room outdoor water" data-label="surface of the river Ankh" cx="1168" cy="188" r="4"/>
+    <circle id="room-57e9bf7244c9c2ac1a89c21d74baa27641bcacf6" class="room outdoor water" data-label="surface of the river Ankh" cx="1168" cy="202" r="4"/>
+    <circle id="room-cddbf2462613fad1efbcd6855054326e715c4369" class="room outdoor water" data-label="surface of the river Ankh" cx="1154" cy="216" r="4"/>
+    <circle id="room-ebcde9b49318170606a1db43539f8c79cf32cc75" class="room outdoor water" data-label="surface of the river Ankh" cx="1168" cy="216" r="4"/>
+    <circle id="room-f76b62f69a2704af7de835d2be5e2795ef736670" class="room outdoor water" data-label="surface of the river Ankh" cx="1182" cy="202" r="4"/>
+    <circle id="room-b172588f442b5c05b194cf95fa3a99f6bbb822a8" class="room outdoor water" data-label="under Wood Bridge" cx="1182" cy="216" r="4"/>
+    <circle id="room-a8f8adcc931b4c52e68ee2721dfb01d6316faa5b" class="room outdoor water" data-label="under Wood Bridge" cx="1168" cy="230" r="4"/>
+    <circle id="room-e10948cb8071f4e8ad63a040d75535bd88e65a6b" class="room outdoor water" data-label="surface of the river Ankh" cx="1182" cy="230" r="4"/>
+    <circle id="room-6339d53d326f226b645881af4366794573888646" class="room outdoor water" data-label="surface of the river Ankh" cx="1196" cy="230" r="4"/>
+    <circle id="room-05c082009cbba0246141d15981a011d45910e3e5" class="room outdoor water" data-label="surface of the river Ankh" cx="1182" cy="244" r="4"/>
+    <circle id="room-c6e7f85d54a4e66cda3bb6596803edf61df1a4e9" class="room outdoor water" data-label="surface of the river Ankh" cx="1196" cy="244" r="4"/>
+    <circle id="room-d116633dbab56d952b4142ec66c8b7d1a05cf9e4" class="room outdoor water" data-label="surface of the river Ankh" cx="1196" cy="258" r="4"/>
+    <circle id="room-855305ec77c70ef0a1f29485e10f1f5d99c7e785" class="room outdoor water" data-label="surface of the river Ankh" cx="1210" cy="244" r="4"/>
+    <circle id="room-543e57f3340cef00677c6cab0879cbcc087d3c0b" class="room outdoor water" data-label="surface of the river Ankh" cx="1210" cy="258" r="4"/>
+    <circle id="room-21412c98c23a230100cd94ebb5b8ef55304d5806" class="room outdoor water" data-label="surface of the river Ankh" cx="1210" cy="272" r="4"/>
+    <circle id="room-e3477eb4151c052b87b65d35964e7edd69b2b9d1" class="room outdoor water" data-label="surface of the river Ankh" cx="1210" cy="286" r="4"/>
+    <circle id="room-1c1255f9339a62dd3ab6dff895c23775c245db0c" class="room outdoor water" data-label="surface of the river Ankh" cx="1224" cy="286" r="4"/>
+    <circle id="room-514eab84dda42ccb88a53e77c5efbe07f849ca34" class="room outdoor water" data-label="surface of the river Ankh" cx="1224" cy="272" r="4"/>
+    <circle id="room-584cb6cd552effa65989a2b1186af94198339aaf" class="room outdoor water" data-label="surface of the river Ankh" cx="1224" cy="258" r="4"/>
+    <circle id="room-606038f0fc6fa36ceff7bd4ed69c7ab41a95db62" class="room outdoor water" data-label="surface of the river Ankh" cx="1238" cy="258" r="4"/>
+    <circle id="room-77f1e38b9f452e0c3bd554f1f0ab138d1ffcaf02" class="room outdoor water" data-label="surface of the river Ankh" cx="1238" cy="272" r="4"/>
+    <circle id="room-075a3fd1c0496f1a0d7012c72668f7d25a430514" class="room outdoor water" data-label="surface of the river Ankh" cx="1238" cy="286" r="4"/>
+    <circle id="room-042ed990ef828a4d90dae1f69008f9f53318ad94" class="room outdoor water" data-label="surface of the river Ankh" cx="1252" cy="286" r="4"/>
+    <circle id="room-a688d778a7b8dd96391f044f848eddfa6d6226bf" class="room outdoor water" data-label="surface of the river Ankh" cx="1252" cy="272" r="4"/>
+    <circle id="room-b53e9a0eda6d892beea369875c9f95f13ff73657" class="room outdoor water" data-label="surface of the river Ankh" cx="1266" cy="286" r="4"/>
+    <circle id="room-79704db73d99a0db00ec495e0ded0b1ff467d2f6" class="room outdoor water" data-label="surface of the river Ankh" cx="1266" cy="272" r="4"/>
+    <circle id="room-1ee2e7154a30c1604175c9a0a2f08834efbc5a1e" class="room outdoor water" data-label="surface of the river Ankh" cx="1252" cy="258" r="4"/>
+    <circle id="room-f05381185c4a90d794cea5df660e3d3da3217148" class="room outdoor water" data-label="surface of the river Ankh" cx="1266" cy="258" r="4"/>
+    <circle id="room-17d972a819b12c0350fdef1876140a6da1683d84" class="room outdoor water" data-label="surface of the river Ankh" cx="1266" cy="244" r="4"/>
+    <circle id="room-b7337d04364d65f57d9e3e56504d5d6acf115521" class="room outdoor water" data-label="surface of the river Ankh" cx="1266" cy="230" r="4"/>
+    <circle id="room-4556097e70cfc01e33a1242e04331e0b4a2456b9" class="room outdoor water" data-label="surface of the river Ankh" cx="1266" cy="216" r="4"/>
+    <circle id="room-91a55efea90f9b0e93957944aa98ea2b0b9c178c" class="room outdoor water" data-label="surface of the river Ankh" cx="1266" cy="202" r="4"/>
+    <circle id="room-d86ed45b9ee69b78d9cd8cb9b899617a8701b986" class="room outdoor water" data-label="surface of the river Ankh" cx="1280" cy="188" r="4"/>
+    <circle id="room-7e7bb67de656a729f7bcb16c0ad5deae9f6970f8" class="room outdoor water" data-label="surface of the river Ankh" cx="1280" cy="202" r="4"/>
+    <circle id="room-9caaf5e49518cd626d90e6f624a8a5e838b7adf4" class="room outdoor water" data-label="surface of the river Ankh" cx="1280" cy="216" r="4"/>
+    <circle id="room-221b8bb83b66062c3ef0dc499b3e0191d64b4d7c" class="room outdoor water" data-label="surface of the river Ankh" cx="1280" cy="230" r="4"/>
+    <circle id="room-b4662204a3974d2846451485686dd99f74c8925a" class="room outdoor water" data-label="surface of the river Ankh" cx="1280" cy="244" r="4"/>
+    <circle id="room-99893a3d1b04187d1280a5204d5d3330b41cb782" class="room outdoor water" data-label="surface of the river Ankh" cx="1280" cy="258" r="4"/>
+    <circle id="room-7bb2eaa0d15c9cead04151e4a38c9ce60b63b962" class="room outdoor water" data-label="surface of the river Ankh" cx="1294" cy="244" r="4"/>
+    <circle id="room-eb7f4b1e1d648a481f25e8cb34273801098bfe79" class="room outdoor water" data-label="surface of the river Ankh" cx="1294" cy="230" r="4"/>
+    <circle id="room-9ac933311b22ffc31e3262bcc661081cbb287eb4" class="room outdoor water" data-label="surface of the river Ankh" cx="1294" cy="216" r="4"/>
+    <circle id="room-86994d77ca2b95c6dc431162851f28b004d25908" class="room outdoor water" data-label="surface of the river Ankh" cx="1294" cy="202" r="4"/>
+    <circle id="room-5da058eb5008ccffb934e78a9c30101bf3dab664" class="room outdoor water" data-label="surface of the river Ankh" cx="1294" cy="188" r="4"/>
+    <circle id="room-eb7aa2ff9a811abbbae6b6b274c6e55b1f7baa6d" class="room outdoor water" data-label="surface of the river Ankh" cx="1308" cy="188" r="4"/>
+    <circle id="room-09ab51bb04fda48ec5dd0dd7715092671ca16369" class="room outdoor water" data-label="surface of the river Ankh" cx="1308" cy="202" r="4"/>
+    <circle id="room-bb196449043c3e69d58905625fa366379a5bf1f3" class="room outdoor water" data-label="surface of the river Ankh" cx="1308" cy="216" r="4"/>
+    <circle id="room-457c7eda745e99407d662a2f733dd9ced7c99f90" class="room outdoor water" data-label="surface of the river Ankh" cx="1308" cy="230" r="4"/>
+    <circle id="room-6f6116dd2396a3299dc37ff9d482e5c239a7f64b" class="room outdoor water" data-label="surface of the river Ankh" cx="1308" cy="244" r="4"/>
+    <circle id="room-e1f989fc0cb3d8d39af3725c15f43d75c5e98269" class="room outdoor water" data-label="surface of the river Ankh" cx="1322" cy="244" r="4"/>
+    <circle id="room-1db2e05ecfe0d8c51ce16ae4395fc5be3bde3634" class="room outdoor water" data-label="surface of the river Ankh" cx="1322" cy="230" r="4"/>
+    <circle id="room-86c981ddd676a7e9865a67d8fa4f95f2fd87d4f6" class="room outdoor water" data-label="surface of the river Ankh" cx="1322" cy="216" r="4"/>
+    <circle id="room-dc3d045365326fece3f8ec5f448ebb4c74f2e628" class="room outdoor water" data-label="surface of the river Ankh" cx="1322" cy="202" r="4"/>
+    <circle id="room-5296c56b19fcd4843acfc60deaa3df41ea2bd114" class="room outdoor water" data-label="surface of the river Ankh" cx="1336" cy="202" r="4"/>
+    <circle id="room-7f279a7d24cc05fe85d6dad0d28618326429c934" class="room outdoor water" data-label="surface of the river Ankh" cx="1336" cy="216" r="4"/>
+    <circle id="room-c03000797821b8dcad3b3d9457d8244c679f0575" class="room outdoor water" data-label="surface of the river Ankh" cx="1336" cy="230" r="4"/>
+    <circle id="room-154c6d72583cf0b1598754831a8ae1041442b883" class="room outdoor water" data-label="surface of the river Ankh" cx="1336" cy="244" r="4"/>
+    <circle id="room-f405c923717c695c97146b5154a67676147e709a" class="room outdoor water" data-label="surface of the river Ankh" cx="1350" cy="230" r="4"/>
+    <circle id="room-2c7bc483fff279a1ad04dca7922bea9fd917fc3f" class="room outdoor water" data-label="surface of the river Ankh" cx="1350" cy="244" r="4"/>
+    <circle id="room-b5a7f484804123dc9941301f46b09389b7fb47cb" class="room outdoor water" data-label="surface of the river Ankh" cx="1364" cy="244" r="4"/>
     <rect id="room-2889d178d51f51ca9bde8acc8d45de89acc4b8f4" class="room indoor" data-label="hidden corner of the underdocks" x="352" y="195" width="8" height="8" rx="2"/>
     <rect id="room-00c9e154c292f4fff9b6ccf5c23f12d43ef58bcf" class="room indoor room-house" data-label="[player house]" x="72" y="237" width="8" height="8" rx="2"/><text class="room-type-label" x="76" y="241" text-anchor="middle" dominant-baseline="central">H</text>
   </g>

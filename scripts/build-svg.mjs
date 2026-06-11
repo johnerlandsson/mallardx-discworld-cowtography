@@ -15,6 +15,7 @@ const OUT_DIR       = path.join(REPO_ROOT, 'ui', 'maps')
 const LIB_CONFIG    = path.join(REPO_ROOT, 'ui', 'data', 'uu_library.json')
 const TYPES_CONFIG   = path.join(REPO_ROOT, 'ui', 'data', 'room-types.json')
 const COMPACT_CONFIG = path.join(REPO_ROOT, 'ui', 'data', 'room-compact.json')
+const WATER_CONFIG   = path.join(REPO_ROOT, 'ui', 'data', 'room-water.json')
 
 // ─── DB queries ──────────────────────────────────────────────────────────────
 
@@ -168,6 +169,51 @@ export function queryStairRooms(db, mapId) {
   return result
 }
 
+// ─── Water room detection ────────────────────────────────────────────────────
+
+const WATER_NAME_PATTERNS = [
+  // River Ankh — surface and under-pier rooms (map 5)
+  // am_docks bridge undersides and other edge cases are handled by room-water.json
+  /^surface of the river ankh$/i,
+  /^under a pier$/i,
+  // Pearl River and Tuna Bay (map 17)
+  /^pearl river\b/i,
+  /^somewhere along pearl river$/i,
+  /^east end of the pearl river$/i,
+  /^the west end of pearl river$/i,
+  /^surface of tuna bay\b/i,
+  /^middle of tuna bay\b/i,
+  /^choppy surface of the bay\b/i,
+  /^beside the piers$/i,
+  /^near the end of the piers$/i,
+  /^underneath the piers$/i,
+  // Sea rooms (map 21)
+  /^sea (between|just north|just west)\b/i,
+  // Djelibeybi river Djel (map 23)
+  /^river djel($| as it)/i,
+  /^small section of the river djel$/i,
+  // Cave streams (map 29)
+  /^flowing stream\b/i,
+  /^cave filled with water$/i,
+  /^stream$/i,
+  // Overworld (map 99)
+  /^sea$/i,
+  /^swamp$/i,
+  /^dense marshland\b/i,
+  // Misc
+  /^lake$/i,
+  /^surface of a pool$/i,
+  /^heart of the swamp$/i,
+  /^river near slippery hollow$/i,
+]
+
+export function isWaterRoom(room, overrideIds = new Set()) {
+  if (overrideIds.has(room.id)) return true
+  if (room.roomType === 'underwater') return true
+  const name = room.short ?? ''
+  return WATER_NAME_PATTERNS.some(p => p.test(name))
+}
+
 // ─── ID helpers ──────────────────────────────────────────────────────────────
 
 export function edgeId(a, b) {
@@ -204,34 +250,38 @@ export function stairSymbol(x, y, hasUp, hasDown) {
 // stair: null | {hasUp, hasDown}
 // type: null | string (key of TYPE_LETTERS)
 // compact: true → small room (r=1.5 circle, 3×3 rect)
-export function roomElement(id, x, y, short, isIndoor, stair = null, type = null, compact = false) {
-  const label     = short ? ` data-label="${escapeXml(short)}"` : ''
-  const typeClass = type    ? ` room-${type}` : ''
-  const sizeClass = compact ? ' room-compact'  : ''
+// water: true → room is in a body of water
+export function roomElement(id, x, y, short, isIndoor, stair = null, type = null, compact = false, water = false) {
+  const label      = short ? ` data-label="${escapeXml(short)}"` : ''
+  const typeClass  = type    ? ` room-${type}` : ''
+  const sizeClass  = compact ? ' room-compact'  : ''
+  const waterClass = water   ? ' water'          : ''
   const hw = compact ? 1.5 : 4
   const shape = isIndoor
-    ? `<rect id="room-${id}" class="room indoor${typeClass}${sizeClass}"${label} x="${x - hw}" y="${y - hw}" width="${hw * 2}" height="${hw * 2}" rx="${compact ? 0.75 : 2}"/>`
-    : `<circle id="room-${id}" class="room outdoor${typeClass}${sizeClass}"${label} cx="${x}" cy="${y}" r="${hw}"/>`
+    ? `<rect id="room-${id}" class="room indoor${typeClass}${sizeClass}${waterClass}"${label} x="${x - hw}" y="${y - hw}" width="${hw * 2}" height="${hw * 2}" rx="${compact ? 0.75 : 2}"/>`
+    : `<circle id="room-${id}" class="room outdoor${typeClass}${sizeClass}${waterClass}"${label} cx="${x}" cy="${y}" r="${hw}"/>`
   const stairEl = (stair && !type) ? stairSymbol(x, y, stair.hasUp, stair.hasDown) : ''
   const typeEl  = type  ? `<text class="room-type-label" x="${x}" y="${y}" text-anchor="middle" dominant-baseline="central">${TYPE_LETTERS[type]}</text>` : ''
   return shape + stairEl + typeEl
 }
 
 // Returns null for vertical exit pairs (no line drawn).
-export function exitElement(fromId, toId, rooms, isVertical = false, compactRooms = new Set()) {
+export function exitElement(fromId, toId, rooms, isVertical = false, compactRooms = new Set(), waterRooms = new Set()) {
   if (isVertical) return null
   const from = rooms.find(r => r.id === fromId)
   const to   = rooms.find(r => r.id === toId)
   if (!from || !to) return ''
   const compact = compactRooms.has(fromId) || compactRooms.has(toId)
-  return `<line id="${edgeId(fromId, toId)}" class="exit${compact ? ' exit-compact' : ''}" x1="${from.x}" y1="${from.y}" x2="${to.x}" y2="${to.y}"/>`
+  const water   = waterRooms.has(fromId) && waterRooms.has(toId)
+  return `<line id="${edgeId(fromId, toId)}" class="exit${compact ? ' exit-compact' : ''}${water ? ' exit-water' : ''}" x1="${from.x}" y1="${from.y}" x2="${to.x}" y2="${to.y}"/>`
 }
 
 // ─── Map SVG builders ────────────────────────────────────────────────────────
 
-export function buildNewSvg(mapMeta, rooms, exits, mapId = '', stairRooms = new Map(), shopTypes = new Map(), compactRooms = new Set()) {
-  const exitLines  = exits.map(e => '    ' + exitElement(e.from, e.to, rooms, e.isVertical, compactRooms)).filter(Boolean).join('\n')
-  const roomShapes = rooms.map(r => '    ' + roomElement(r.id, r.x, r.y, r.short, r.roomType === 'inside', stairRooms.get(r.id) ?? null, shopTypes.get(r.id) ?? null, compactRooms.has(r.id))).join('\n')
+export function buildNewSvg(mapMeta, rooms, exits, mapId = '', stairRooms = new Map(), shopTypes = new Map(), compactRooms = new Set(), waterOverrides = new Set()) {
+  const waterRooms = new Set(rooms.filter(r => isWaterRoom(r, waterOverrides)).map(r => r.id))
+  const exitLines  = exits.map(e => '    ' + exitElement(e.from, e.to, rooms, e.isVertical, compactRooms, waterRooms)).filter(Boolean).join('\n')
+  const roomShapes = rooms.map(r => '    ' + roomElement(r.id, r.x, r.y, r.short, r.roomType === 'inside', stairRooms.get(r.id) ?? null, shopTypes.get(r.id) ?? null, compactRooms.has(r.id), waterRooms.has(r.id))).join('\n')
 
   return `<svg xmlns="http://www.w3.org/2000/svg"
      viewBox="0 0 ${mapMeta.maxX} ${mapMeta.maxY}"
@@ -255,9 +305,10 @@ ${roomShapes}
 </svg>`
 }
 
-export function updateExistingSvg(existingSvg, mapMeta, rooms, exits, stairRooms = new Map(), shopTypes = new Map(), compactRooms = new Set()) {
-  const exitLines  = exits.map(e => '    ' + exitElement(e.from, e.to, rooms, e.isVertical, compactRooms)).filter(Boolean).join('\n')
-  const roomShapes = rooms.map(r => '    ' + roomElement(r.id, r.x, r.y, r.short, r.roomType === 'inside', stairRooms.get(r.id) ?? null, shopTypes.get(r.id) ?? null, compactRooms.has(r.id))).join('\n')
+export function updateExistingSvg(existingSvg, mapMeta, rooms, exits, stairRooms = new Map(), shopTypes = new Map(), compactRooms = new Set(), waterOverrides = new Set()) {
+  const waterRooms = new Set(rooms.filter(r => isWaterRoom(r, waterOverrides)).map(r => r.id))
+  const exitLines  = exits.map(e => '    ' + exitElement(e.from, e.to, rooms, e.isVertical, compactRooms, waterRooms)).filter(Boolean).join('\n')
+  const roomShapes = rooms.map(r => '    ' + roomElement(r.id, r.x, r.y, r.short, r.roomType === 'inside', stairRooms.get(r.id) ?? null, shopTypes.get(r.id) ?? null, compactRooms.has(r.id), waterRooms.has(r.id))).join('\n')
 
   let svg = existingSvg.replace(
     /(<g[^>]*\bid="layer-exits"[^>]*>)([\s\S]*?)(<\/g>)/,
@@ -550,6 +601,9 @@ async function buildOneSvg(db, mapId, mapMeta) {
   let compactRooms = new Set()
   try { compactRooms = new Set(JSON.parse(await fs.readFile(COMPACT_CONFIG, 'utf8'))) } catch {}
 
+  let waterOverrides = new Set()
+  try { waterOverrides = new Set(JSON.parse(await fs.readFile(WATER_CONFIG, 'utf8'))) } catch {}
+
   let svg
   try {
     const existing = await fs.readFile(outPath, 'utf8')
@@ -560,10 +614,10 @@ async function buildOneSvg(db, mapId, mapMeta) {
     if (added > 0 || removed > 0) {
       console.log(`[build-svg] map ${mapId}: +${added} rooms, -${removed} removed — update labels manually`)
     }
-    svg = updateExistingSvg(existing, mapMeta, roomRows, exitRows, stairRooms, shopTypes, compactRooms)
+    svg = updateExistingSvg(existing, mapMeta, roomRows, exitRows, stairRooms, shopTypes, compactRooms, waterOverrides)
   } catch (e) {
     if (e.code !== 'ENOENT') throw e
-    svg = buildNewSvg(mapMeta, roomRows, exitRows, mapId, stairRooms, shopTypes, compactRooms)
+    svg = buildNewSvg(mapMeta, roomRows, exitRows, mapId, stairRooms, shopTypes, compactRooms, waterOverrides)
   }
 
   await fs.writeFile(outPath, svg, 'utf8')

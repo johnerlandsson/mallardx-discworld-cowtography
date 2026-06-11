@@ -574,7 +574,7 @@
     <rect id="room-1ebeb7fc37bbf95d9d742fff784c17e52d5d2ac7" class="room indoor" data-label="gallery" x="962" y="665" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="966,666 963.5,671 968.5,671"/>
     <rect id="room-9bfa706603778f8014ee679d82eb437ea47a1e07" class="room indoor" data-label="kitchen" x="983" y="675" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="987,676 984.5,681 989.5,681"/>
     <rect id="room-4fffad687f3f53289456eb1889d299af91c1769b" class="room indoor" data-label="underground chamber" x="561" y="819" width="8" height="8" rx="2"/>
-    <circle id="room-50a8781b1fbc3dfaa0b7c74f487259f5850a6453" class="room outdoor" data-label="heart of the swamp" cx="565" cy="823" r="4"/>
+    <circle id="room-50a8781b1fbc3dfaa0b7c74f487259f5850a6453" class="room outdoor water" data-label="heart of the swamp" cx="565" cy="823" r="4"/>
     <circle id="room-de404581f6c8f49fb5237fff73a1adc55ab1e802" class="room outdoor" data-label="road" cx="1131" cy="860" r="4"/>
     <rect id="room-41d31d55b65dce572b51ff1109d5d9a24d7f31dc" class="room indoor room-weapon" data-label="Hublandish Barbarian armoury" x="1744" y="1040" width="8" height="8" rx="2"/><text class="room-type-label" x="1748" y="1044" text-anchor="middle" dominant-baseline="central">W</text>
     <rect id="room-1662cf09a123c4fb391595ea366298295cf32f27" class="room indoor" data-label="cosy tent" x="1743" y="1055" width="8" height="8" rx="2"/>

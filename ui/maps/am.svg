@@ -29,9 +29,9 @@ text, .map-label, .map-label-muted, .map-label-accent,
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="1.801546"
-     inkscape:cx="367.18464"
-     inkscape:cy="424.6353"
+     inkscape:zoom="3.603092"
+     inkscape:cx="1180.5138"
+     inkscape:cy="1020.2348"
      inkscape:window-width="1968"
      inkscape:window-height="1011"
      inkscape:window-x="26"
@@ -42,21 +42,66 @@ text, .map-label, .map-label-muted, .map-label-accent,
   <g
      id="layer-artwork">
     <!-- artwork -->
+    <rect
+       id="rect850-7"
+       width="28.032188"
+       height="6.8484344"
+       x="1117"
+       y="1036.1848"
+       ry="0.35436499"
+       class="map-area-fill"
+       style="stroke-width:0.378314" />
+    <rect
+       id="rect850-9"
+       width="41.261726"
+       height="31.060524"
+       x="1257.3691"
+       y="775.2489"
+       ry="1.6071938"
+       class="map-area-fill"
+       style="stroke-width:0.977478" />
+    <rect
+       id="rect850-3"
+       width="126"
+       height="73.370964"
+       x="257.01001"
+       y="648.22723"
+       ry="3.7965026"
+       class="map-area-fill"
+       style="stroke-width:2.62529" />
+    <rect
+       id="rect850-2"
+       width="49.679554"
+       height="24.295502"
+       x="941.29492"
+       y="635.85223"
+       ry="1.2571449"
+       class="map-area-fill"
+       style="stroke-width:0.948595" />
+    <rect
+       id="rect850"
+       width="49.679554"
+       height="24.295502"
+       x="849.40936"
+       y="798.70447"
+       ry="1.2571449"
+       class="map-area-fill"
+       style="stroke-width:0.948595" />
     <text
        xml:space="preserve"
-       x="971.64246"
-       y="645.31879"
+       x="965.77472"
+       y="645.85596"
        id="text41-1"
        class="map-label"
        font-size="8px"
        text-anchor="middle"><tspan
          sodipodi:role="line"
-         x="971.64246"
-         y="645.31879"
+         x="965.77472"
+         y="645.85596"
          id="tspan42">UNSEEN</tspan><tspan
          sodipodi:role="line"
-         x="971.64246"
-         y="656.39325"
+         x="965.77472"
+         y="655.85596"
          id="tspan853">UNIVERSITY</tspan></text>
     <path
        d="m 1012,648 -21,10e-6"
@@ -73,33 +118,33 @@ text, .map-label, .map-label-muted, .map-label-accent,
        class="map-water" />
     <text
        xml:space="preserve"
-       x="1278.636"
-       y="781.91998"
+       x="1277.8"
+       y="783.63916"
        id="text41-1-7"
        class="map-label"
        font-size="8px"
        text-anchor="middle"
        style="font-family:'Noto Sans', sans-serif"><tspan
          sodipodi:role="line"
-         x="1278.636"
-         y="781.91998"
+         x="1277.8"
+         y="783.63916"
          id="tspan850">WEAPON</tspan><tspan
          sodipodi:role="line"
-         x="1278.636"
-         y="791.91998"
+         x="1277.8"
+         y="793.63916"
          id="tspan851">MASTER'S</tspan><tspan
          sodipodi:role="line"
-         x="1278.636"
-         y="801.91998"
+         x="1277.8"
+         y="803.63916"
          id="tspan852">COURT</tspan></text>
     <path
-       d="m 1278,760 v 14.4494"
+       d="m 1278,760 v 15.2489"
        id="path852"
        sodipodi:nodetypes="cc"
        class="exit-offmap" />
     <text
        xml:space="preserve"
-       x="874.46399"
+       x="874.04913"
        y="808.70825"
        id="text41-1-2"
        class="map-label"
@@ -107,39 +152,35 @@ text, .map-label, .map-label-muted, .map-label-accent,
        text-anchor="middle"
        style="font-family:'Noto Sans', sans-serif"><tspan
          sodipodi:role="line"
-         x="874.46399"
+         x="874.04913"
          y="808.70825"
          id="tspan853-7">PATRICIANS</tspan><tspan
          sodipodi:role="line"
-         x="874.46399"
+         x="874.04913"
          y="818.70825"
          id="tspan854">PALACE</tspan></text>
     <path
-       d="m 914,788 -17,14"
+       d="m 914,788 -14.91107,10.70447"
        id="path854"
-       class="exit-offmap" />
+       class="exit-offmap"
+       sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
-       x="296.92996"
-       y="639.81"
+       x="319.94998"
+       y="676.72272"
        id="text41-1-9"
        class="map-label"
        font-size="30px"
        text-anchor="middle"
        style="font-family:'Noto Sans', sans-serif"><tspan
          sodipodi:role="line"
-         x="296.92996"
-         y="639.81"
+         x="319.94998"
+         y="676.72272"
          id="tspan853-2">THE </tspan><tspan
          sodipodi:role="line"
-         x="296.92996"
-         y="677.31"
+         x="319.94998"
+         y="714.22272"
          id="tspan855">SHADES</tspan></text>
-    <path
-       d="m 186,648 h 79.02401"
-       id="path855"
-       class="exit-offmap"
-       sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
        x="213.224"
@@ -162,6 +203,59 @@ text, .map-label, .map-label-muted, .map-label-accent,
        id="path857"
        sodipodi:nodetypes="cccc"
        class="map-area-fill" />
+    <path
+       d="m 186,648 h 20 l 32.34912,36.91271 18.66089,1e-5"
+       id="path850"
+       class="exit-offmap"
+       sodipodi:nodetypes="cccc" />
+    <text
+       xml:space="preserve"
+       x="1130.9441"
+       y="1041.037"
+       id="text41-1-2-8"
+       class="map-label"
+       font-size="4px"
+       text-anchor="middle"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="1130.9441"
+         y="1041.037"
+         id="tspan854-5">SALT SHAKER</tspan></text>
+    <rect
+       id="rect850-7-3"
+       width="16.505043"
+       height="11.888344"
+       x="1122.7635"
+       y="1049.4719"
+       ry="0.6151498"
+       class="map-area-fill"
+       style="stroke-width:0.38247" />
+    <text
+       xml:space="preserve"
+       x="1130.8521"
+       y="1054.3241"
+       id="text41-1-2-8-6"
+       class="map-label"
+       font-size="4px"
+       text-anchor="middle"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="1130.8521"
+         y="1054.3241"
+         id="tspan854-5-1">PEPPER</tspan><tspan
+         sodipodi:role="line"
+         x="1130.8521"
+         y="1059.3241"
+         id="tspan1">POT</tspan></text>
+    <path
+       d="m 1096,1054 9.05,-14.391 H 1117"
+       id="path1"
+       sodipodi:nodetypes="ccc"
+       class="exit-offmap" />
+    <path
+       d="m 1110,1068 8.6801,-12.5839 h 4.0834"
+       id="path2"
+       class="exit-offmap" />
   </g>
   <g
      id="layer-exits">
@@ -7334,7 +7428,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-c41a6a0bd979d30d0605c82de94b01ba7e4f5960" class="room outdoor" data-label="in the maze" cx="508" cy="956" r="4"/>
     <circle id="room-63062e86593b2c4337b2d24dc28570f5d1122980" class="room outdoor" data-label="the Alcove" cx="508" cy="970" r="4"/><polygon class="stair-symbol" points="508,973 505.5,968 510.5,968"/>
     <circle id="room-4e7f9b140077e913ddea72fd842bbac470aa7446" class="room outdoor" data-label="pool" cx="519" cy="978" r="4"/><polygon class="stair-symbol" points="519,975 521.5,978 519,981 516.5,978"/>
-    <circle id="room-6ce2d5289b250c2086ccea7869fac111c42b5b20" class="room outdoor" data-label="pool" cx="523" cy="982" r="4"/><polygon class="stair-symbol" points="523,979 520.5,984 525.5,984"/>
+    <circle id="room-6ce2d5289b250c2086ccea7869fac111c42b5b20" class="room outdoor water" data-label="pool" cx="523" cy="982" r="4"/><polygon class="stair-symbol" points="523,979 520.5,984 525.5,984"/>
     <circle id="room-95d5e681372d408c31ba6aa21c27d6e7ae9901a8" class="room outdoor" data-label="Goosegate Road" cx="508" cy="984" r="4"/>
     <circle id="room-857f465788d1dc96c7744bbfb9c84204c3652920" class="room outdoor" data-label="Kicklebury Street" cx="522" cy="1026" r="4"/>
     <circle id="room-643047ba292bdd335987550a281bff1c7b1a368a" class="room outdoor" data-label="Kicklebury Street" cx="508" cy="1040" r="4"/>

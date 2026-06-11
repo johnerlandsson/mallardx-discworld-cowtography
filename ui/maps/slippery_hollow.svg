@@ -364,17 +364,17 @@
     <circle id="room-62384dca7f0c17b57523924a565736fc509427da" class="room outdoor" data-label="ruined cottage" cx="341" cy="137" r="4"/>
     <circle id="room-9ec81a843f43f8ba8c93db72bf790041e8c044e5" class="room outdoor" data-label="country road near Slippery Hollow" cx="355" cy="123" r="4"/>
     <rect id="room-497993ebfadb82433ded4dee5e126f5839a99ebf" class="room indoor" data-label="ruin&#x27;s cellar near Slippery Hollow" x="337" y="133" width="8" height="8" rx="2"/>
-    <circle id="room-ef2266278fa043393eeaa2055cb176cee9fe8b89" class="room outdoor" data-label="river near Slippery Hollow" cx="327" cy="137" r="4"/>
-    <circle id="room-fe916f39d5a450a53b03a2486e5844c15ba9668a" class="room outdoor" data-label="river near Slippery Hollow" cx="327" cy="151" r="4"/>
-    <circle id="room-9abd996b8ac9f5938ba58aea3cbd9284b3f503e5" class="room outdoor" data-label="river near Slippery Hollow" cx="313" cy="165" r="4"/>
-    <circle id="room-53ce932f674009de8b90307f95f8f2e13478405d" class="room outdoor" data-label="river near Slippery Hollow" cx="299" cy="179" r="4"/>
-    <circle id="room-e3495feb1dbc0ed49d5e5278ff9a320ea1189e70" class="room outdoor" data-label="river near Slippery Hollow" cx="327" cy="107" r="4"/>
-    <circle id="room-dfc165d4043e48e675a5189de0a040ec141acb18" class="room outdoor" data-label="river near Slippery Hollow" cx="327" cy="93" r="4"/>
-    <circle id="room-cbeb582be79dd7f1fb5da9b297ef087a390d1a23" class="room outdoor" data-label="river near Slippery Hollow" cx="327" cy="79" r="4"/>
-    <circle id="room-ed7d8c70fb173f27a32b94d1e42a06a19c7ae4a2" class="room outdoor" data-label="river near Slippery Hollow" cx="327" cy="65" r="4"/>
-    <circle id="room-e62d0431df22228aa3b708db949ac0effd6ee4c7" class="room outdoor" data-label="river near Slippery Hollow" cx="327" cy="51" r="4"/>
-    <circle id="room-543b2026153109f24f8c60091fa20de1cfc03cdb" class="room outdoor" data-label="river near Slippery Hollow" cx="341" cy="37" r="4"/>
-    <circle id="room-de0b2efe5ab5ff8703a8a6e2f2d5fbb014fc6df0" class="room outdoor" data-label="river near Slippery Hollow" cx="355" cy="23" r="4"/>
+    <circle id="room-ef2266278fa043393eeaa2055cb176cee9fe8b89" class="room outdoor water" data-label="river near Slippery Hollow" cx="327" cy="137" r="4"/>
+    <circle id="room-fe916f39d5a450a53b03a2486e5844c15ba9668a" class="room outdoor water" data-label="river near Slippery Hollow" cx="327" cy="151" r="4"/>
+    <circle id="room-9abd996b8ac9f5938ba58aea3cbd9284b3f503e5" class="room outdoor water" data-label="river near Slippery Hollow" cx="313" cy="165" r="4"/>
+    <circle id="room-53ce932f674009de8b90307f95f8f2e13478405d" class="room outdoor water" data-label="river near Slippery Hollow" cx="299" cy="179" r="4"/>
+    <circle id="room-e3495feb1dbc0ed49d5e5278ff9a320ea1189e70" class="room outdoor water" data-label="river near Slippery Hollow" cx="327" cy="107" r="4"/>
+    <circle id="room-dfc165d4043e48e675a5189de0a040ec141acb18" class="room outdoor water" data-label="river near Slippery Hollow" cx="327" cy="93" r="4"/>
+    <circle id="room-cbeb582be79dd7f1fb5da9b297ef087a390d1a23" class="room outdoor water" data-label="river near Slippery Hollow" cx="327" cy="79" r="4"/>
+    <circle id="room-ed7d8c70fb173f27a32b94d1e42a06a19c7ae4a2" class="room outdoor water" data-label="river near Slippery Hollow" cx="327" cy="65" r="4"/>
+    <circle id="room-e62d0431df22228aa3b708db949ac0effd6ee4c7" class="room outdoor water" data-label="river near Slippery Hollow" cx="327" cy="51" r="4"/>
+    <circle id="room-543b2026153109f24f8c60091fa20de1cfc03cdb" class="room outdoor water" data-label="river near Slippery Hollow" cx="341" cy="37" r="4"/>
+    <circle id="room-de0b2efe5ab5ff8703a8a6e2f2d5fbb014fc6df0" class="room outdoor water" data-label="river near Slippery Hollow" cx="355" cy="23" r="4"/>
     <circle id="room-277fcb435fbcce38b3bcc3ee7e7363823b8c7179" class="room outdoor" data-label="shelf in a river bank" cx="355" cy="51" r="4"/>
     <rect id="room-a0dcd7ff740f2098bfae5ddf32ba30a7ac2eddc2" class="room indoor room-access" data-label="Slippery Hollow Stationery Shop" x="144" y="91" width="8" height="8" rx="2"/><text class="room-type-label" x="148" y="95" text-anchor="middle" dominant-baseline="central">X</text>
     <rect id="room-abad1cecfd6e171cc04555d119d9ad8ee8a3f22f" class="room indoor" data-label="Slippery Hollow Post Office" x="134" y="81" width="8" height="8" rx="2"/>

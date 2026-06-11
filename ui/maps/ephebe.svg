@@ -1030,7 +1030,7 @@
     <line id="edge-8d792954b75e6f2045d4fc6dac3318900f6fd942-c323f6d20b3d960750799a065dc80c75fe92aba2" class="exit" x1="119" y1="345" x2="119" y2="345"/>
     <line id="edge-9a239d2ea00f107aee617e2b3ca146e4189f3408-c323f6d20b3d960750799a065dc80c75fe92aba2" class="exit" x1="119" y1="345" x2="119" y2="345"/>
     <line id="edge-02dee78d2b635b2ddc3ff86ac65ee5306a3ac51f-2fd80cc156dab459939d17473128adf6cd46246f" class="exit" x1="631" y1="492" x2="631" y2="492"/>
-    <line id="edge-0a43e245a0961b784a244273ba5511d53bfb5b02-702fc815e0082733b879d00e037f822a3ba2676a" class="exit" x1="271" y1="239" x2="271" y2="239"/>
+    <line id="edge-0a43e245a0961b784a244273ba5511d53bfb5b02-702fc815e0082733b879d00e037f822a3ba2676a" class="exit exit-water" x1="271" y1="239" x2="271" y2="239"/>
     <line id="edge-b3cc59520d4da172a0f1fac10504c4dab453d7b4-c611e9048ae5e2bb7b63329efd8f165c992761ce" class="exit" x1="653" y1="573" x2="642" y2="573"/>
     <line id="edge-6714e5e59487e8dc06d06079d276b5ebe9fbd2b5-b3cc59520d4da172a0f1fac10504c4dab453d7b4" class="exit" x1="664" y1="573" x2="653" y2="573"/>
     <line id="edge-264b5fe7815f80ab6bf67db449c5bef1ad63c379-6714e5e59487e8dc06d06079d276b5ebe9fbd2b5" class="exit" x1="664" y1="584" x2="664" y2="573"/>
@@ -1643,8 +1643,8 @@
     <circle id="room-035e4d95b8f2aaad3b88131da23c5995fefd78f7" class="room outdoor" data-label="rock above the pool in the Slouching Gardens" cx="225" cy="139" r="4"/>
     <circle id="room-d601043703839727f26bdb50c479cf1e5ba45476" class="room outdoor" data-label="rock between two fountains on Pragmatic Place" cx="113" cy="265" r="4"/>
     <rect id="room-c28ea1f23d4e30c9437f54582081f317839f63bd" class="room indoor" data-label="vestry" x="278" y="257" width="8" height="8" rx="2"/>
-    <circle id="room-702fc815e0082733b879d00e037f822a3ba2676a" class="room outdoor" data-label="pool" cx="271" cy="239" r="4"/>
-    <circle id="room-0a43e245a0961b784a244273ba5511d53bfb5b02" class="room outdoor" data-label="pool" cx="271" cy="239" r="4"/>
+    <circle id="room-702fc815e0082733b879d00e037f822a3ba2676a" class="room outdoor water" data-label="pool" cx="271" cy="239" r="4"/>
+    <circle id="room-0a43e245a0961b784a244273ba5511d53bfb5b02" class="room outdoor water" data-label="pool" cx="271" cy="239" r="4"/>
     <rect id="room-1e1ab2da182d24a49100383c3038e0179af03125" class="room indoor" data-label="vestry" x="685" y="527" width="8" height="8" rx="2"/>
     <rect id="room-5e65607f19d1a96fa8087f5c835e66fd3edbd46c" class="room indoor" data-label="vestry" x="215" y="305" width="8" height="8" rx="2"/>
     <rect id="room-c611e9048ae5e2bb7b63329efd8f165c992761ce" class="room indoor" data-label="vestibule of the temple of Chefet" x="638" y="569" width="8" height="8" rx="2"/>

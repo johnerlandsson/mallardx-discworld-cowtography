@@ -1428,7 +1428,7 @@
     <circle id="room-71dd2139b11c7402af612422c7432af63b0e3b16" class="room outdoor" data-label="northern tip of a pear-shaped pool" cx="1603" cy="562" r="4"/>
     <circle id="room-16e4fac4b358d9cb92dac93012718cb7a0f4e309" class="room outdoor" data-label="edge of a pear-shaped pool" cx="1589" cy="576" r="4"/>
     <circle id="room-5c10363fca6ecd8b6fd7bef8d255916cd4b3c0b2" class="room outdoor" data-label="hot spring" cx="1603" cy="576" r="4"/><polygon class="stair-symbol" points="1603,579 1600.5,574 1605.5,574"/>
-    <circle id="room-a0f0af956c8925d91d9e4ee2a8799cdc4828dbb4" class="room outdoor" data-label="lake bottom" cx="1603" cy="576" r="4"/><polygon class="stair-symbol" points="1603,573 1600.5,578 1605.5,578"/>
+    <circle id="room-a0f0af956c8925d91d9e4ee2a8799cdc4828dbb4" class="room outdoor water" data-label="lake bottom" cx="1603" cy="576" r="4"/><polygon class="stair-symbol" points="1603,573 1600.5,578 1605.5,578"/>
     <rect id="room-8f6899871cc52c52fe684f23d9439a069705fc30" class="room indoor" data-label="central cavern" x="1599" y="572" width="8" height="8" rx="2"/>
     <rect id="room-914bf6801827ecf1385689d3822db7c3c77cc95d" class="room indoor" data-label="small cavern" x="1599" y="572" width="8" height="8" rx="2"/>
     <circle id="room-3f4068c1fe9b5cbf63e6a2557d30d47639f2c2e8" class="room outdoor" data-label="edge of a pear-shaped pool" cx="1575" cy="590" r="4"/>
@@ -1821,7 +1821,7 @@
     <rect id="room-ce9e5617237a0cca5f09585bfe0b7a892eda80ef" class="room indoor" data-label="Warriors&#x27; Gazebo" x="594" y="487" width="8" height="8" rx="2"/>
     <rect id="room-748f15fbfa37eb4dff1faa4a9803a05b01d46529" class="room indoor" data-label="Priests&#x27; Gazebo" x="606" y="487" width="8" height="8" rx="2"/>
     <rect id="room-c16243444e50921d64c1f14a24b9498b2ec95b3d" class="room indoor" data-label="Discworld&#x27;s realm of choice" x="576" y="444" width="8" height="8" rx="2"/>
-    <circle id="room-4c274cbdfae9a6398803dbe240e95fb475cfed72" class="room outdoor" data-label="lake" cx="1482" cy="659" r="4"/>
+    <circle id="room-4c274cbdfae9a6398803dbe240e95fb475cfed72" class="room outdoor water" data-label="lake" cx="1482" cy="659" r="4"/>
     <circle id="room-b43a635e719b8a8e4e1fe71554ca7894ebbffcca" class="room outdoor" data-label="deciduous forest close to a lake" cx="1490" cy="653" r="4"/>
     <circle id="room-5ab6c0f87085d7b9ed856aed846ffea14b6021b1" class="room outdoor" data-label="deciduous forest close to a lake" cx="1496" cy="659" r="4"/>
     <circle id="room-5b136346fb292208b7edff4b95eed10abc0e608c" class="room outdoor" data-label="path through the forest" cx="1490" cy="659" r="4"/>
@@ -1869,16 +1869,16 @@
     <circle id="room-191d2348672e282345a721b46cdf05c2690277e5" class="room outdoor" data-label="roof of a cottage somewhere on Riverwind Road" cx="914" cy="176" r="4"/>
     <circle id="room-f8459a0e5597e9fb2c72122b76a71cd1be69f823" class="room outdoor" data-label="roof of an abandoned cottage" cx="914" cy="176" r="4"/>
     <circle id="room-d2d78649f3d3609c413478aa6743471a9300e523" class="room outdoor" data-label="first floor of an abandoned cottage" cx="914" cy="176" r="4"/>
-    <circle id="room-a33ef2abc6c86781e809f43e9bfa2cf9f9d6955c" class="room outdoor" data-label="surface of a pool" cx="1062" cy="610" r="4"/>
-    <circle id="room-80b45b4b18cdaf2c68b590ac84ed77973b0ae4cd" class="room outdoor" data-label="surface of a pool" cx="1076" cy="610" r="4"/>
-    <circle id="room-e92eab14b2ace4c0bea4d7315d34d824ad9d960d" class="room outdoor" data-label="surface of a pool" cx="1090" cy="610" r="4"/>
-    <circle id="room-3a94923dbabbdd000c9092cc6d25383a44e16e6f" class="room outdoor" data-label="surface of a pool" cx="1090" cy="596" r="4"/>
-    <circle id="room-fe2767c2d603d62b4835164e20ff8b96e4511c36" class="room outdoor" data-label="surface of a pool" cx="1090" cy="582" r="4"/>
-    <circle id="room-9d2b93a02bacd7284cd5f4fd833411130c0a7d5f" class="room outdoor" data-label="surface of a pool" cx="1076" cy="582" r="4"/>
-    <circle id="room-7f662a4561ad79b4488dd8f7deac243c95128360" class="room outdoor" data-label="surface of a pool" cx="1076" cy="596" r="4"/>
-    <circle id="room-5dad5ef52355f07344c3af73f05c3a727346e1ed" class="room outdoor" data-label="surface of a pool" cx="1062" cy="596" r="4"/>
-    <circle id="room-5db65156c82c319edc90f796f1b929d5e43f193f" class="room outdoor" data-label="bottom of a pool" cx="1059" cy="593" r="4"/>
-    <circle id="room-59f790b02e0df9d0319ded7b86d4633a562aeb35" class="room outdoor" data-label="hole at the bottom of the pool" cx="1044" cy="593" r="4"/>
+    <circle id="room-a33ef2abc6c86781e809f43e9bfa2cf9f9d6955c" class="room outdoor water" data-label="surface of a pool" cx="1062" cy="610" r="4"/>
+    <circle id="room-80b45b4b18cdaf2c68b590ac84ed77973b0ae4cd" class="room outdoor water" data-label="surface of a pool" cx="1076" cy="610" r="4"/>
+    <circle id="room-e92eab14b2ace4c0bea4d7315d34d824ad9d960d" class="room outdoor water" data-label="surface of a pool" cx="1090" cy="610" r="4"/>
+    <circle id="room-3a94923dbabbdd000c9092cc6d25383a44e16e6f" class="room outdoor water" data-label="surface of a pool" cx="1090" cy="596" r="4"/>
+    <circle id="room-fe2767c2d603d62b4835164e20ff8b96e4511c36" class="room outdoor water" data-label="surface of a pool" cx="1090" cy="582" r="4"/>
+    <circle id="room-9d2b93a02bacd7284cd5f4fd833411130c0a7d5f" class="room outdoor water" data-label="surface of a pool" cx="1076" cy="582" r="4"/>
+    <circle id="room-7f662a4561ad79b4488dd8f7deac243c95128360" class="room outdoor water" data-label="surface of a pool" cx="1076" cy="596" r="4"/>
+    <circle id="room-5dad5ef52355f07344c3af73f05c3a727346e1ed" class="room outdoor water" data-label="surface of a pool" cx="1062" cy="596" r="4"/>
+    <circle id="room-5db65156c82c319edc90f796f1b929d5e43f193f" class="room outdoor water" data-label="bottom of a pool" cx="1059" cy="593" r="4"/>
+    <circle id="room-59f790b02e0df9d0319ded7b86d4633a562aeb35" class="room outdoor water" data-label="hole at the bottom of the pool" cx="1044" cy="593" r="4"/>
     <circle id="room-821f8bc322c22c2a2da45106628c9978f8be7028" class="room outdoor" data-label="roof" cx="1340" cy="168" r="4"/>
     <circle id="room-04774e627535262ae9c947bc4b34d4e81062029b" class="room outdoor" data-label="small clearing" cx="1360" cy="362" r="4"/>
     <circle id="room-3f5262db876646a292ed89c73dee5322dcd7e16d" class="room outdoor" data-label="road" cx="2025" cy="48" r="4"/>
