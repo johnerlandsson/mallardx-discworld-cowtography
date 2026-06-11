@@ -165,7 +165,7 @@
     <rect id="room-69689afecf305db4bc84a7dfc9dac90a42a16d6e" class="room indoor" data-label="tiny room in a pocket just off the edge of L-space" x="97" y="513" width="8" height="8" rx="2"/>
     <rect id="room-23bb78df97af9bf961bb501c934f2a53a59ab29c" class="room indoor" data-label="gymnasium" x="97" y="468" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="101,469 103.5,472 101,475 98.5,472"/>
     <rect id="room-ab468a4a0ae73109808802732b27d0beb206dfed" class="room indoor" data-label="cellar" x="109" y="480" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="113,481 110.5,486 115.5,486"/>
-    <rect id="room-f5f579d64ca5fdef3ca76d33a9b287d9161a6034" class="room indoor" data-label="majestic courtyard" x="72" y="386" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="76,393 73.5,388 78.5,388"/>
+    <circle id="room-f5f579d64ca5fdef3ca76d33a9b287d9161a6034" class="room outdoor" data-label="majestic courtyard" cx="76" cy="390" r="4"/><polygon class="stair-symbol" points="76,393 73.5,388 78.5,388"/>
     <rect id="room-b4321bd59ef87685459110db6d4ff72352e8d0ae" class="room indoor room-shop" data-label="legibles alcove" x="112" y="386" width="8" height="8" rx="2"/><text class="room-type-label" x="116" y="390" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-95d7631eb376f923076cf3c9dc820061e954df82" class="room indoor" data-label="wizards&#x27; billiards room" x="72" y="366" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="76,367 73.5,372 78.5,372"/>
     <rect id="room-4702b88982ad53aa52b36605181801ef997bfa9d" class="room indoor" data-label="upstairs billiards room" x="72" y="346" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="76,353 73.5,348 78.5,348"/>
@@ -304,88 +304,88 @@
     <rect id="room-52386e06ab24a5c7af7f4b86d85a04fad4007f80" class="room indoor" data-label="Library" x="159" y="230" width="8" height="8" rx="2"/>
     <rect id="room-48948f2bf81f42b8e37740ad6e0f9e0bfb3021c9" class="room indoor" data-label="Library" x="159" y="244" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="163,245 160.5,250 165.5,250"/>
     <rect id="room-515dd20566044476ec38c5fa95388440742ff75d" class="room indoor room-food" data-label="small hobble" x="129" y="480" width="8" height="8" rx="2"/><text class="room-type-label" x="133" y="484" text-anchor="middle" dominant-baseline="central">F</text>
-    <rect id="room-3b59d41317cc50934698326b654ac5234cc5dfd3" class="room indoor" data-label="under the willow" x="171" y="421" width="8" height="8" rx="2"/>
-    <rect id="room-ac04e9957c65a5c6d9fce94077efbd2153a1d625" class="room indoor" data-label="willow tree" x="171" y="390" width="8" height="8" rx="2"/>
-    <rect id="room-ab4848fcebf7952dea5e2edcf3f8b98fed407db1" class="room indoor" data-label="willow tree" x="171" y="377" width="8" height="8" rx="2"/>
-    <rect id="room-fa81e8c1e3c9ad5cf4b69dcb324ff39455f17b33" class="room indoor" data-label="willow tree" x="158" y="390" width="8" height="8" rx="2"/>
-    <rect id="room-0066e2520ac2707e2e5861a670e37f18e359e855" class="room indoor" data-label="willow tree" x="158" y="377" width="8" height="8" rx="2"/>
-    <rect id="room-dd3ae1c42fbeb018b7319002b8d065770ebfa50b" class="room indoor" data-label="willow tree" x="184" y="390" width="8" height="8" rx="2"/>
-    <rect id="room-229ddbf62819c273ca98ed26fe68085688a3da45" class="room indoor" data-label="willow tree" x="184" y="377" width="8" height="8" rx="2"/>
-    <rect id="room-be4568d954260519770a94f234c9d092c54c97c1" class="room indoor" data-label="willow tree" x="184" y="403" width="8" height="8" rx="2"/>
-    <rect id="room-2354219626352afcee0d663f5f64dbcb6373f2fc" class="room indoor" data-label="willow tree" x="171" y="403" width="8" height="8" rx="2"/>
-    <rect id="room-9b750ea85fabb721611a6186f1baaad873715e05" class="room indoor" data-label="willow tree" x="158" y="403" width="8" height="8" rx="2"/>
-    <rect id="room-e8a670edf8237b8781fffbe8516a5324e1c0de31" class="room indoor" data-label="willow tree" x="158" y="377" width="8" height="8" rx="2"/>
-    <rect id="room-07a7e7d8edb0de2998e00df9a15a48de369828d2" class="room indoor" data-label="willow tree" x="171" y="377" width="8" height="8" rx="2"/>
-    <rect id="room-57fb2663f6ccb4730fe829d938816a32b0c59d3e" class="room indoor" data-label="willow tree" x="184" y="377" width="8" height="8" rx="2"/>
-    <rect id="room-656abc50907af60d4e7ac4aa8e4f052447233a9a" class="room indoor" data-label="willow tree" x="184" y="390" width="8" height="8" rx="2"/>
-    <rect id="room-c1ec858bc4b545793d4e726724ebfef8991fd175" class="room indoor" data-label="willow tree" x="184" y="403" width="8" height="8" rx="2"/>
-    <rect id="room-1d7b9e24321d8249969fc1562aaa0db664337369" class="room indoor" data-label="willow tree" x="171" y="403" width="8" height="8" rx="2"/>
-    <rect id="room-082766dbd321a451e58947d0db001a9678e386ed" class="room indoor" data-label="willow tree" x="158" y="403" width="8" height="8" rx="2"/>
-    <rect id="room-388496081f6b63a73542bd4fd8c4b3fb3da855b1" class="room indoor" data-label="willow tree" x="158" y="390" width="8" height="8" rx="2"/>
-    <rect id="room-8d06e2ce73096e4e68d16325fd7b959f4c5c9916" class="room indoor" data-label="willow tree" x="171" y="390" width="8" height="8" rx="2"/>
-    <rect id="room-8a18008ecae5513c4a582701f45aa7ff28082913" class="room indoor" data-label="willow tree" x="171" y="390" width="8" height="8" rx="2"/>
-    <rect id="room-2b83e715864f428418dc6e97e882b5e45d89c8d4" class="room indoor" data-label="willow tree" x="184" y="390" width="8" height="8" rx="2"/>
-    <rect id="room-477084cd9270e59680aab1e667802eae71d78f71" class="room indoor" data-label="willow tree" x="184" y="377" width="8" height="8" rx="2"/>
-    <rect id="room-506aacef99376f54d6348e127bdd4257f3c79b0c" class="room indoor" data-label="willow tree" x="171" y="377" width="8" height="8" rx="2"/>
-    <rect id="room-d5f64e97a199e8a5bdfc258ae38258b97dc008ef" class="room indoor" data-label="willow tree" x="158" y="377" width="8" height="8" rx="2"/>
-    <rect id="room-117c759c38b49bdb53d52db7cf719c907ffe5a76" class="room indoor" data-label="willow tree" x="158" y="390" width="8" height="8" rx="2"/>
-    <rect id="room-de9f9432ddf6ae99e0abaea47deeddc2d213174d" class="room indoor" data-label="willow tree" x="158" y="403" width="8" height="8" rx="2"/>
-    <rect id="room-f23f3a104e4ba8b60e817f8ca8c16d5e37046864" class="room indoor" data-label="willow tree" x="171" y="403" width="8" height="8" rx="2"/>
-    <rect id="room-89d5ad2e6a12fc473d8164ec27fbb0a0108ecc8b" class="room indoor" data-label="willow tree" x="184" y="403" width="8" height="8" rx="2"/>
-    <rect id="room-8870b2b0bacf19ee6afa593fff5dbdf3f8c968b7" class="room indoor" data-label="willow tree" x="171" y="390" width="8" height="8" rx="2"/>
-    <rect id="room-0cea3f1c1cbc584ea4f7148f05f8a8b3e585b158" class="room indoor" data-label="willow tree" x="171" y="377" width="8" height="8" rx="2"/>
-    <rect id="room-1132dcfa2abc68bb377a11b15a62de04bd8972d3" class="room indoor" data-label="willow tree" x="184" y="377" width="8" height="8" rx="2"/>
-    <rect id="room-98f390e4fd9922fb7ae016ff37bc32616a01f5e1" class="room indoor" data-label="willow tree" x="184" y="390" width="8" height="8" rx="2"/>
-    <rect id="room-56806ba0d3eaec78a24bf26698000c12c6b69d74" class="room indoor" data-label="willow tree" x="158" y="390" width="8" height="8" rx="2"/>
-    <rect id="room-4af16e0e42175b3555175ebb3624ff3780121374" class="room indoor" data-label="willow tree" x="158" y="377" width="8" height="8" rx="2"/>
-    <rect id="room-c483b329bf4712b81ec69d43e6789f143fa926b5" class="room indoor" data-label="willow tree" x="158" y="403" width="8" height="8" rx="2"/>
-    <rect id="room-246b2b5678ea9349b56804249f7b257b5547af49" class="room indoor" data-label="willow tree" x="171" y="403" width="8" height="8" rx="2"/>
-    <rect id="room-281552d0183a504af6404ecfacfafe8bb59d7735" class="room indoor" data-label="willow tree" x="184" y="403" width="8" height="8" rx="2"/>
-    <rect id="room-56a066fb2b8aa2c33b866f9099652c86580c4b5b" class="room indoor" data-label="willow tree" x="171" y="390" width="8" height="8" rx="2"/>
-    <rect id="room-8e4af15a37a244bc381785aa7877e3eeae7ec771" class="room indoor" data-label="willow tree" x="158" y="390" width="8" height="8" rx="2"/>
-    <rect id="room-ba6fae9486d5dffff5f7fd57289186bf81c5b2b4" class="room indoor" data-label="willow tree" x="158" y="377" width="8" height="8" rx="2"/>
-    <rect id="room-e7d79fffa2f2aad321ab46599314620f0b9b7f09" class="room indoor" data-label="willow tree" x="171" y="377" width="8" height="8" rx="2"/>
-    <rect id="room-78f6dc264e47daf3224607c06722d3a1dae2c201" class="room indoor" data-label="willow tree" x="171" y="403" width="8" height="8" rx="2"/>
-    <rect id="room-06cdde13cd6adddcbe86a8ed7356026afee729ab" class="room indoor" data-label="willow tree" x="158" y="403" width="8" height="8" rx="2"/>
-    <rect id="room-496c4a6992c85966d82dd113266b1282b42e6ebc" class="room indoor" data-label="willow tree" x="184" y="390" width="8" height="8" rx="2"/>
-    <rect id="room-bdff6d896d396da1bfb02871d24d6867b6795e52" class="room indoor" data-label="willow tree" x="184" y="403" width="8" height="8" rx="2"/>
-    <rect id="room-819819ad1f6c1cbf850df8c0578f5135183911a7" class="room indoor" data-label="willow tree" x="184" y="377" width="8" height="8" rx="2"/>
-    <rect id="room-1a94abd43046c9cf74268e21354e651182788097" class="room indoor" data-label="willow tree" x="171" y="390" width="8" height="8" rx="2"/>
-    <rect id="room-6ce8ff8ba28aa4c9fc749a793bb4612577b8e503" class="room indoor" data-label="willow tree" x="171" y="403" width="8" height="8" rx="2"/>
-    <rect id="room-5be18cd4cd091da4b0acb5a8ca0d485001331c55" class="room indoor" data-label="willow tree" x="184" y="403" width="8" height="8" rx="2"/>
-    <rect id="room-55f9a5f224ce0790761f5cb52dc24c0df2068be3" class="room indoor" data-label="willow tree" x="184" y="390" width="8" height="8" rx="2"/>
-    <rect id="room-4bd18ab5e88db3d347c8dc2084871dcde058d613" class="room indoor" data-label="willow tree" x="184" y="377" width="8" height="8" rx="2"/>
-    <rect id="room-13423fde15e7ca66794831e8e0303681742de949" class="room indoor" data-label="willow tree" x="171" y="377" width="8" height="8" rx="2"/>
-    <rect id="room-dc81566395da269d3768a9ab86af464269fdcc26" class="room indoor" data-label="willow tree" x="158" y="377" width="8" height="8" rx="2"/>
-    <rect id="room-23cc671234ed93e3d9ce503894a6c43917af4520" class="room indoor" data-label="willow tree" x="158" y="390" width="8" height="8" rx="2"/>
-    <rect id="room-6f188167e5b07585c7be18e4639ebd5f6339fd7a" class="room indoor" data-label="willow tree" x="158" y="403" width="8" height="8" rx="2"/>
-    <rect id="room-7fe6402aa1a251efb88ba83c1f65f1d3d66a56a0" class="room indoor" data-label="willow tree" x="171" y="390" width="8" height="8" rx="2"/>
-    <rect id="room-9c57db47c0072c66b3f13fff98b5e1aa5409e083" class="room indoor" data-label="willow tree" x="171" y="377" width="8" height="8" rx="2"/>
-    <rect id="room-d269d2b805dd0cb42d11940aefa0c6121337fb17" class="room indoor" data-label="willow tree" x="158" y="377" width="8" height="8" rx="2"/>
-    <rect id="room-d1c0f125a7cda46f10710e1c772259fc5942f596" class="room indoor" data-label="willow tree" x="158" y="390" width="8" height="8" rx="2"/>
-    <rect id="room-c2b85f7876998bc55c1011b639294c4a5fc3388c" class="room indoor" data-label="willow tree" x="158" y="403" width="8" height="8" rx="2"/>
-    <rect id="room-4bbbdd9b17108b519eaa524aa42ce4f59ccccd84" class="room indoor" data-label="willow tree" x="171" y="403" width="8" height="8" rx="2"/>
-    <rect id="room-30d544e0718c0c0d4973778b16a4fe221f7c1494" class="room indoor" data-label="willow tree" x="184" y="403" width="8" height="8" rx="2"/>
-    <rect id="room-32a22b8d9f680991892477a4c71d0bc39ee05cce" class="room indoor" data-label="willow tree" x="184" y="390" width="8" height="8" rx="2"/>
-    <rect id="room-57fc64d9e7f5f89be5d2491ad0d73cfb021f948f" class="room indoor" data-label="willow tree" x="184" y="377" width="8" height="8" rx="2"/>
-    <rect id="room-9f65bdea7c248cd870b8d58a0095333eb49bb594" class="room indoor" data-label="willow tree" x="171" y="390" width="8" height="8" rx="2"/>
-    <rect id="room-2d62696027751c8d00b11055471e12a04e164bbb" class="room indoor" data-label="willow tree" x="171" y="403" width="8" height="8" rx="2"/>
-    <rect id="room-cc518f89ecb4f25612c13f8422c2ebee11e15eda" class="room indoor" data-label="willow tree" x="184" y="403" width="8" height="8" rx="2"/>
-    <rect id="room-ee292eb932c5e3e4980dbcace7fa93e81be47906" class="room indoor" data-label="willow tree" x="184" y="390" width="8" height="8" rx="2"/>
-    <rect id="room-7751f12d3a4351926a2cc3846d684bafdaebd5fc" class="room indoor" data-label="willow tree" x="184" y="377" width="8" height="8" rx="2"/>
-    <rect id="room-372a727672d3f5db1f9a98bb7ee148d177ea0678" class="room indoor" data-label="willow tree" x="171" y="377" width="8" height="8" rx="2"/>
-    <rect id="room-44338b128cfb76ac9a353ecf243964d7f5c55343" class="room indoor" data-label="willow tree" x="158" y="377" width="8" height="8" rx="2"/>
-    <rect id="room-7520c4594b2e9abc925c559c028621b8112b145b" class="room indoor" data-label="willow tree" x="158" y="390" width="8" height="8" rx="2"/>
-    <rect id="room-98b056a05b6602ce3b7e9c8834e5ebff8da2ea0a" class="room indoor" data-label="willow tree" x="158" y="403" width="8" height="8" rx="2"/>
-    <rect id="room-6aad4b140645d5f3cf8b139ca074a0515f707415" class="room indoor" data-label="willow tree" x="171" y="390" width="8" height="8" rx="2"/>
-    <rect id="room-a9871f81c3620fb5bd3eceea0fed8d6c36ba197e" class="room indoor" data-label="willow tree" x="171" y="377" width="8" height="8" rx="2"/>
-    <rect id="room-ab79cb08f67bff9a11afa82120870caedd94ce1a" class="room indoor" data-label="willow tree" x="158" y="377" width="8" height="8" rx="2"/>
-    <rect id="room-e98d93e9f349efe69a88ddbf3a8a2cf851cce0dc" class="room indoor" data-label="willow tree" x="158" y="390" width="8" height="8" rx="2"/>
-    <rect id="room-dc527aa543262faff460b7d7f15a4b446da3d97a" class="room indoor" data-label="willow tree" x="158" y="403" width="8" height="8" rx="2"/>
-    <rect id="room-5a7ce9614a1a56974a941206f9b5c9468d7d677d" class="room indoor" data-label="willow tree" x="171" y="403" width="8" height="8" rx="2"/>
-    <rect id="room-7e26b61779f1b8fe44392f5290563452e90590bd" class="room indoor" data-label="willow tree" x="184" y="403" width="8" height="8" rx="2"/>
-    <rect id="room-c9591dd1784519d1f01aa063306aafdfb060cdc5" class="room indoor" data-label="willow tree" x="184" y="390" width="8" height="8" rx="2"/>
-    <rect id="room-f7700b92a2faf433ea50a55460d9145f6edc47ed" class="room indoor" data-label="willow tree" x="184" y="377" width="8" height="8" rx="2"/>
+    <circle id="room-3b59d41317cc50934698326b654ac5234cc5dfd3" class="room outdoor" data-label="under the willow" cx="175" cy="425" r="4"/>
+    <circle id="room-ac04e9957c65a5c6d9fce94077efbd2153a1d625" class="room outdoor" data-label="willow tree" cx="175" cy="394" r="4"/>
+    <circle id="room-ab4848fcebf7952dea5e2edcf3f8b98fed407db1" class="room outdoor" data-label="willow tree" cx="175" cy="381" r="4"/>
+    <circle id="room-fa81e8c1e3c9ad5cf4b69dcb324ff39455f17b33" class="room outdoor" data-label="willow tree" cx="162" cy="394" r="4"/>
+    <circle id="room-0066e2520ac2707e2e5861a670e37f18e359e855" class="room outdoor" data-label="willow tree" cx="162" cy="381" r="4"/>
+    <circle id="room-dd3ae1c42fbeb018b7319002b8d065770ebfa50b" class="room outdoor" data-label="willow tree" cx="188" cy="394" r="4"/>
+    <circle id="room-229ddbf62819c273ca98ed26fe68085688a3da45" class="room outdoor" data-label="willow tree" cx="188" cy="381" r="4"/>
+    <circle id="room-be4568d954260519770a94f234c9d092c54c97c1" class="room outdoor" data-label="willow tree" cx="188" cy="407" r="4"/>
+    <circle id="room-2354219626352afcee0d663f5f64dbcb6373f2fc" class="room outdoor" data-label="willow tree" cx="175" cy="407" r="4"/>
+    <circle id="room-9b750ea85fabb721611a6186f1baaad873715e05" class="room outdoor" data-label="willow tree" cx="162" cy="407" r="4"/>
+    <circle id="room-e8a670edf8237b8781fffbe8516a5324e1c0de31" class="room outdoor" data-label="willow tree" cx="162" cy="381" r="4"/>
+    <circle id="room-07a7e7d8edb0de2998e00df9a15a48de369828d2" class="room outdoor" data-label="willow tree" cx="175" cy="381" r="4"/>
+    <circle id="room-57fb2663f6ccb4730fe829d938816a32b0c59d3e" class="room outdoor" data-label="willow tree" cx="188" cy="381" r="4"/>
+    <circle id="room-656abc50907af60d4e7ac4aa8e4f052447233a9a" class="room outdoor" data-label="willow tree" cx="188" cy="394" r="4"/>
+    <circle id="room-c1ec858bc4b545793d4e726724ebfef8991fd175" class="room outdoor" data-label="willow tree" cx="188" cy="407" r="4"/>
+    <circle id="room-1d7b9e24321d8249969fc1562aaa0db664337369" class="room outdoor" data-label="willow tree" cx="175" cy="407" r="4"/>
+    <circle id="room-082766dbd321a451e58947d0db001a9678e386ed" class="room outdoor" data-label="willow tree" cx="162" cy="407" r="4"/>
+    <circle id="room-388496081f6b63a73542bd4fd8c4b3fb3da855b1" class="room outdoor" data-label="willow tree" cx="162" cy="394" r="4"/>
+    <circle id="room-8d06e2ce73096e4e68d16325fd7b959f4c5c9916" class="room outdoor" data-label="willow tree" cx="175" cy="394" r="4"/>
+    <circle id="room-8a18008ecae5513c4a582701f45aa7ff28082913" class="room outdoor" data-label="willow tree" cx="175" cy="394" r="4"/>
+    <circle id="room-2b83e715864f428418dc6e97e882b5e45d89c8d4" class="room outdoor" data-label="willow tree" cx="188" cy="394" r="4"/>
+    <circle id="room-477084cd9270e59680aab1e667802eae71d78f71" class="room outdoor" data-label="willow tree" cx="188" cy="381" r="4"/>
+    <circle id="room-506aacef99376f54d6348e127bdd4257f3c79b0c" class="room outdoor" data-label="willow tree" cx="175" cy="381" r="4"/>
+    <circle id="room-d5f64e97a199e8a5bdfc258ae38258b97dc008ef" class="room outdoor" data-label="willow tree" cx="162" cy="381" r="4"/>
+    <circle id="room-117c759c38b49bdb53d52db7cf719c907ffe5a76" class="room outdoor" data-label="willow tree" cx="162" cy="394" r="4"/>
+    <circle id="room-de9f9432ddf6ae99e0abaea47deeddc2d213174d" class="room outdoor" data-label="willow tree" cx="162" cy="407" r="4"/>
+    <circle id="room-f23f3a104e4ba8b60e817f8ca8c16d5e37046864" class="room outdoor" data-label="willow tree" cx="175" cy="407" r="4"/>
+    <circle id="room-89d5ad2e6a12fc473d8164ec27fbb0a0108ecc8b" class="room outdoor" data-label="willow tree" cx="188" cy="407" r="4"/>
+    <circle id="room-8870b2b0bacf19ee6afa593fff5dbdf3f8c968b7" class="room outdoor" data-label="willow tree" cx="175" cy="394" r="4"/>
+    <circle id="room-0cea3f1c1cbc584ea4f7148f05f8a8b3e585b158" class="room outdoor" data-label="willow tree" cx="175" cy="381" r="4"/>
+    <circle id="room-1132dcfa2abc68bb377a11b15a62de04bd8972d3" class="room outdoor" data-label="willow tree" cx="188" cy="381" r="4"/>
+    <circle id="room-98f390e4fd9922fb7ae016ff37bc32616a01f5e1" class="room outdoor" data-label="willow tree" cx="188" cy="394" r="4"/>
+    <circle id="room-56806ba0d3eaec78a24bf26698000c12c6b69d74" class="room outdoor" data-label="willow tree" cx="162" cy="394" r="4"/>
+    <circle id="room-4af16e0e42175b3555175ebb3624ff3780121374" class="room outdoor" data-label="willow tree" cx="162" cy="381" r="4"/>
+    <circle id="room-c483b329bf4712b81ec69d43e6789f143fa926b5" class="room outdoor" data-label="willow tree" cx="162" cy="407" r="4"/>
+    <circle id="room-246b2b5678ea9349b56804249f7b257b5547af49" class="room outdoor" data-label="willow tree" cx="175" cy="407" r="4"/>
+    <circle id="room-281552d0183a504af6404ecfacfafe8bb59d7735" class="room outdoor" data-label="willow tree" cx="188" cy="407" r="4"/>
+    <circle id="room-56a066fb2b8aa2c33b866f9099652c86580c4b5b" class="room outdoor" data-label="willow tree" cx="175" cy="394" r="4"/>
+    <circle id="room-8e4af15a37a244bc381785aa7877e3eeae7ec771" class="room outdoor" data-label="willow tree" cx="162" cy="394" r="4"/>
+    <circle id="room-ba6fae9486d5dffff5f7fd57289186bf81c5b2b4" class="room outdoor" data-label="willow tree" cx="162" cy="381" r="4"/>
+    <circle id="room-e7d79fffa2f2aad321ab46599314620f0b9b7f09" class="room outdoor" data-label="willow tree" cx="175" cy="381" r="4"/>
+    <circle id="room-78f6dc264e47daf3224607c06722d3a1dae2c201" class="room outdoor" data-label="willow tree" cx="175" cy="407" r="4"/>
+    <circle id="room-06cdde13cd6adddcbe86a8ed7356026afee729ab" class="room outdoor" data-label="willow tree" cx="162" cy="407" r="4"/>
+    <circle id="room-496c4a6992c85966d82dd113266b1282b42e6ebc" class="room outdoor" data-label="willow tree" cx="188" cy="394" r="4"/>
+    <circle id="room-bdff6d896d396da1bfb02871d24d6867b6795e52" class="room outdoor" data-label="willow tree" cx="188" cy="407" r="4"/>
+    <circle id="room-819819ad1f6c1cbf850df8c0578f5135183911a7" class="room outdoor" data-label="willow tree" cx="188" cy="381" r="4"/>
+    <circle id="room-1a94abd43046c9cf74268e21354e651182788097" class="room outdoor" data-label="willow tree" cx="175" cy="394" r="4"/>
+    <circle id="room-6ce8ff8ba28aa4c9fc749a793bb4612577b8e503" class="room outdoor" data-label="willow tree" cx="175" cy="407" r="4"/>
+    <circle id="room-5be18cd4cd091da4b0acb5a8ca0d485001331c55" class="room outdoor" data-label="willow tree" cx="188" cy="407" r="4"/>
+    <circle id="room-55f9a5f224ce0790761f5cb52dc24c0df2068be3" class="room outdoor" data-label="willow tree" cx="188" cy="394" r="4"/>
+    <circle id="room-4bd18ab5e88db3d347c8dc2084871dcde058d613" class="room outdoor" data-label="willow tree" cx="188" cy="381" r="4"/>
+    <circle id="room-13423fde15e7ca66794831e8e0303681742de949" class="room outdoor" data-label="willow tree" cx="175" cy="381" r="4"/>
+    <circle id="room-dc81566395da269d3768a9ab86af464269fdcc26" class="room outdoor" data-label="willow tree" cx="162" cy="381" r="4"/>
+    <circle id="room-23cc671234ed93e3d9ce503894a6c43917af4520" class="room outdoor" data-label="willow tree" cx="162" cy="394" r="4"/>
+    <circle id="room-6f188167e5b07585c7be18e4639ebd5f6339fd7a" class="room outdoor" data-label="willow tree" cx="162" cy="407" r="4"/>
+    <circle id="room-7fe6402aa1a251efb88ba83c1f65f1d3d66a56a0" class="room outdoor" data-label="willow tree" cx="175" cy="394" r="4"/>
+    <circle id="room-9c57db47c0072c66b3f13fff98b5e1aa5409e083" class="room outdoor" data-label="willow tree" cx="175" cy="381" r="4"/>
+    <circle id="room-d269d2b805dd0cb42d11940aefa0c6121337fb17" class="room outdoor" data-label="willow tree" cx="162" cy="381" r="4"/>
+    <circle id="room-d1c0f125a7cda46f10710e1c772259fc5942f596" class="room outdoor" data-label="willow tree" cx="162" cy="394" r="4"/>
+    <circle id="room-c2b85f7876998bc55c1011b639294c4a5fc3388c" class="room outdoor" data-label="willow tree" cx="162" cy="407" r="4"/>
+    <circle id="room-4bbbdd9b17108b519eaa524aa42ce4f59ccccd84" class="room outdoor" data-label="willow tree" cx="175" cy="407" r="4"/>
+    <circle id="room-30d544e0718c0c0d4973778b16a4fe221f7c1494" class="room outdoor" data-label="willow tree" cx="188" cy="407" r="4"/>
+    <circle id="room-32a22b8d9f680991892477a4c71d0bc39ee05cce" class="room outdoor" data-label="willow tree" cx="188" cy="394" r="4"/>
+    <circle id="room-57fc64d9e7f5f89be5d2491ad0d73cfb021f948f" class="room outdoor" data-label="willow tree" cx="188" cy="381" r="4"/>
+    <circle id="room-9f65bdea7c248cd870b8d58a0095333eb49bb594" class="room outdoor" data-label="willow tree" cx="175" cy="394" r="4"/>
+    <circle id="room-2d62696027751c8d00b11055471e12a04e164bbb" class="room outdoor" data-label="willow tree" cx="175" cy="407" r="4"/>
+    <circle id="room-cc518f89ecb4f25612c13f8422c2ebee11e15eda" class="room outdoor" data-label="willow tree" cx="188" cy="407" r="4"/>
+    <circle id="room-ee292eb932c5e3e4980dbcace7fa93e81be47906" class="room outdoor" data-label="willow tree" cx="188" cy="394" r="4"/>
+    <circle id="room-7751f12d3a4351926a2cc3846d684bafdaebd5fc" class="room outdoor" data-label="willow tree" cx="188" cy="381" r="4"/>
+    <circle id="room-372a727672d3f5db1f9a98bb7ee148d177ea0678" class="room outdoor" data-label="willow tree" cx="175" cy="381" r="4"/>
+    <circle id="room-44338b128cfb76ac9a353ecf243964d7f5c55343" class="room outdoor" data-label="willow tree" cx="162" cy="381" r="4"/>
+    <circle id="room-7520c4594b2e9abc925c559c028621b8112b145b" class="room outdoor" data-label="willow tree" cx="162" cy="394" r="4"/>
+    <circle id="room-98b056a05b6602ce3b7e9c8834e5ebff8da2ea0a" class="room outdoor" data-label="willow tree" cx="162" cy="407" r="4"/>
+    <circle id="room-6aad4b140645d5f3cf8b139ca074a0515f707415" class="room outdoor" data-label="willow tree" cx="175" cy="394" r="4"/>
+    <circle id="room-a9871f81c3620fb5bd3eceea0fed8d6c36ba197e" class="room outdoor" data-label="willow tree" cx="175" cy="381" r="4"/>
+    <circle id="room-ab79cb08f67bff9a11afa82120870caedd94ce1a" class="room outdoor" data-label="willow tree" cx="162" cy="381" r="4"/>
+    <circle id="room-e98d93e9f349efe69a88ddbf3a8a2cf851cce0dc" class="room outdoor" data-label="willow tree" cx="162" cy="394" r="4"/>
+    <circle id="room-dc527aa543262faff460b7d7f15a4b446da3d97a" class="room outdoor" data-label="willow tree" cx="162" cy="407" r="4"/>
+    <circle id="room-5a7ce9614a1a56974a941206f9b5c9468d7d677d" class="room outdoor" data-label="willow tree" cx="175" cy="407" r="4"/>
+    <circle id="room-7e26b61779f1b8fe44392f5290563452e90590bd" class="room outdoor" data-label="willow tree" cx="188" cy="407" r="4"/>
+    <circle id="room-c9591dd1784519d1f01aa063306aafdfb060cdc5" class="room outdoor" data-label="willow tree" cx="188" cy="394" r="4"/>
+    <circle id="room-f7700b92a2faf433ea50a55460d9145f6edc47ed" class="room outdoor" data-label="willow tree" cx="188" cy="381" r="4"/>
     <rect id="room-591c4cf27e093bff883704640edc6601b6984d6c" class="room indoor" data-label="arcane lounge" x="26" y="303" width="8" height="8" rx="2"/>
     <rect id="room-16e11b4fb6d6e383e5f78e47dfa36dfe8982f2e4" class="room indoor room-shop" data-label="small apothecary" x="26" y="287" width="8" height="8" rx="2"/><text class="room-type-label" x="30" y="291" text-anchor="middle" dominant-baseline="central">S</text>
   </g>

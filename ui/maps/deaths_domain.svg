@@ -44,17 +44,17 @@
 
   <g id="layer-rooms">
     <rect id="room-8c5c560432c6ba61c7de78f224643fa805217d11" class="room indoor" data-label="Edge of Reality" x="94" y="82" width="8" height="8" rx="2"/>
-    <rect id="room-f178f878515bf84234231f271a2e9d766c491e89" class="room indoor" data-label="front of Death&#x27;s house" x="94" y="110" width="8" height="8" rx="2"/>
-    <rect id="room-4e7cea439381871f1e8bd574a5b03e9ea5b6aec1" class="room indoor" data-label="outside stable" x="66" y="110" width="8" height="8" rx="2"/>
+    <circle id="room-f178f878515bf84234231f271a2e9d766c491e89" class="room outdoor" data-label="front of Death&#x27;s house" cx="98" cy="114" r="4"/>
+    <circle id="room-4e7cea439381871f1e8bd574a5b03e9ea5b6aec1" class="room outdoor" data-label="outside stable" cx="70" cy="114" r="4"/>
     <rect id="room-1bcacf98716e201caca070f20d7299012402ffc5" class="room indoor" data-label="stable" x="38" y="110" width="8" height="8" rx="2"/>
-    <rect id="room-cb2a21472e5a678cb77159efecd4c255ac2d74d0" class="room indoor" data-label="garden" x="122" y="110" width="8" height="8" rx="2"/>
-    <rect id="room-1ec11f5fe0cd1557be5d7a9faa220b145f56d138" class="room indoor" data-label="garden path" x="150" y="110" width="8" height="8" rx="2"/>
+    <circle id="room-cb2a21472e5a678cb77159efecd4c255ac2d74d0" class="room outdoor" data-label="garden" cx="126" cy="114" r="4"/>
+    <circle id="room-1ec11f5fe0cd1557be5d7a9faa220b145f56d138" class="room outdoor" data-label="garden path" cx="154" cy="114" r="4"/>
     <rect id="room-c7a96a6d8dd98e7fba51814140cfbd2d521ac394" class="room indoor" data-label="garden path" x="178" y="110" width="8" height="8" rx="2"/>
     <rect id="room-250a883fda08053b9c92c5d847a1b89acf7d35f9" class="room indoor" data-label="pit" x="206" y="110" width="8" height="8" rx="2"/>
-    <rect id="room-668385e1d27e109c924cab7ba6da552cc6a886de" class="room indoor" data-label="garden" x="150" y="82" width="8" height="8" rx="2"/>
-    <rect id="room-0c719fe57e70e389fee0537bd011f37c2b1f98de" class="room indoor" data-label="garden" x="122" y="82" width="8" height="8" rx="2"/>
-    <rect id="room-d535b674214fc5ece28be8c62025df55d6875d36" class="room indoor" data-label="garden" x="150" y="138" width="8" height="8" rx="2"/>
-    <rect id="room-eab1b40acddf576d536aa93bd44747da9824490a" class="room indoor" data-label="garden &amp; pond" x="122" y="138" width="8" height="8" rx="2"/>
+    <circle id="room-668385e1d27e109c924cab7ba6da552cc6a886de" class="room outdoor" data-label="garden" cx="154" cy="86" r="4"/>
+    <circle id="room-0c719fe57e70e389fee0537bd011f37c2b1f98de" class="room outdoor" data-label="garden" cx="126" cy="86" r="4"/>
+    <circle id="room-d535b674214fc5ece28be8c62025df55d6875d36" class="room outdoor" data-label="garden" cx="154" cy="142" r="4"/>
+    <circle id="room-eab1b40acddf576d536aa93bd44747da9824490a" class="room outdoor" data-label="garden &amp; pond" cx="126" cy="142" r="4"/>
     <rect id="room-595245800a790e6cfc023dc65f64df4dd2427862" class="room indoor" data-label="entrance hall" x="94" y="166" width="8" height="8" rx="2"/>
     <rect id="room-1e746cac5ff72f301be90c2fc34a85a35119ec91" class="room indoor" data-label="kitchen" x="66" y="166" width="8" height="8" rx="2"/>
     <rect id="room-7d9e874312b88e4c7810d93391abfe69b241a89c" class="room indoor" data-label="storage room" x="38" y="166" width="8" height="8" rx="2"/>

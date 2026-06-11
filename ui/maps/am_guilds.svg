@@ -62,17 +62,17 @@
     <rect id="room-76a768fee2331dfce1dbf12dfcc3a6b71842babd" class="room indoor" data-label="inspection area" x="808" y="66" width="8" height="8" rx="2"/>
     <rect id="room-2381cbfa44760a69fea25b5ee4a52499453ff625" class="room indoor" data-label="whitewashed room" x="784" y="66" width="8" height="8" rx="2"/>
     <rect id="room-b6522672fa381e63b6d74c26912955452523903f" class="room indoor" data-label="side entrance of the Butchers&#x27; Guild" x="808" y="42" width="8" height="8" rx="2"/>
-    <rect id="room-dec775b5d640412091a37ec2ca08c3877e1957c8" class="room indoor" data-label="courtyard in front of the Guild of Alchemists" x="483" y="304" width="8" height="8" rx="2"/>
-    <rect id="room-8a37aeecce8ab4bb7a3341a7b42fb7f823d3811a" class="room indoor" data-label="alley behind the Guild of Alchemists" x="483" y="332" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="487,333 484.5,338 489.5,338"/>
+    <circle id="room-dec775b5d640412091a37ec2ca08c3877e1957c8" class="room outdoor" data-label="courtyard in front of the Guild of Alchemists" cx="487" cy="308" r="4"/>
+    <circle id="room-8a37aeecce8ab4bb7a3341a7b42fb7f823d3811a" class="room outdoor" data-label="alley behind the Guild of Alchemists" cx="487" cy="336" r="4"/><polygon class="stair-symbol" points="487,333 484.5,338 489.5,338"/>
     <rect id="room-32268d4defcafc42f3d02bc79205cef07ae06c82" class="room indoor" data-label="foyer of the Guild of Alchemists" x="455" y="304" width="8" height="8" rx="2"/>
     <rect id="room-bf1a617aa15a401a133244efdeabbd483409141f" class="room indoor" data-label="Guild of Alchemists Reception" x="480" y="279" width="8" height="8" rx="2"/>
     <rect id="room-6dc1e656c17fd1135c8c32f3e887d88341e71a6a" class="room indoor" data-label="Alchemists&#x27; common room" x="455" y="279" width="8" height="8" rx="2"/>
     <rect id="room-d3e28db0be0d5a1b7f402784f0e5d41551876ccb" class="room indoor room-clothes" data-label="Guild of Alchemists&#x27; supply shop" x="455" y="328" width="8" height="8" rx="2"/><text class="room-type-label" x="459" y="332" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-bc1dfc6b3929a692cd42ad767d182947cbc58029" class="room indoor" data-label="staircase in the Guild of Alchemists" x="431" y="304" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="435,305 432.5,310 437.5,310"/>
-    <rect id="room-a6b5b1c9025e4f1e8488fd1d224d495dfefbf0f3" class="room indoor" data-label="first level of the fire escape" x="483" y="241" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="487,242 489.5,245 487,248 484.5,245"/>
-    <rect id="room-7db17036079cd4fa5bd1516395e4bfebbde36409" class="room indoor" data-label="second level of the fire escape" x="483" y="150" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="487,151 489.5,154 487,157 484.5,154"/>
-    <rect id="room-7a7088f6af6d8bf26558c4139b476869f8748a13" class="room indoor" data-label="top of the Alchemists&#x27; Guild fire escape" x="483" y="59" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="487,66 484.5,61 489.5,61"/>
-    <rect id="room-80e55d7eb45d374a851e517007926a388fb0314d" class="room indoor" data-label="large courtyard" x="102" y="88" width="8" height="8" rx="2"/>
+    <circle id="room-a6b5b1c9025e4f1e8488fd1d224d495dfefbf0f3" class="room outdoor" data-label="first level of the fire escape" cx="487" cy="245" r="4"/><polygon class="stair-symbol" points="487,242 489.5,245 487,248 484.5,245"/>
+    <circle id="room-7db17036079cd4fa5bd1516395e4bfebbde36409" class="room outdoor" data-label="second level of the fire escape" cx="487" cy="154" r="4"/><polygon class="stair-symbol" points="487,151 489.5,154 487,157 484.5,154"/>
+    <circle id="room-7a7088f6af6d8bf26558c4139b476869f8748a13" class="room outdoor" data-label="top of the Alchemists&#x27; Guild fire escape" cx="487" cy="63" r="4"/><polygon class="stair-symbol" points="487,66 484.5,61 489.5,61"/>
+    <circle id="room-80e55d7eb45d374a851e517007926a388fb0314d" class="room outdoor" data-label="large courtyard" cx="106" cy="92" r="4"/>
     <rect id="room-6657b58f7d42e87f81cefcb3c2b941ba44dca088" class="room indoor room-shop" data-label="The Mended Pipe" x="102" y="61" width="8" height="8" rx="2"/><text class="room-type-label" x="106" y="65" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-7fc9f5e131d4a7c6244372efc7dfb31821f5f9c8" class="room indoor" data-label="Plumbers Guild lounge" x="78" y="61" width="8" height="8" rx="2"/>
     <rect id="room-2cbe2465c6b336ad535edd1d262dba8c5767bcd5" class="room indoor" data-label="reception area for the Guild of Plumbers and Dunnykindivers" x="128" y="61" width="8" height="8" rx="2"/>

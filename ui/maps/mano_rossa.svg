@@ -60,10 +60,10 @@
   </g>
 
   <g id="layer-rooms">
-    <rect id="room-2e07bf34ece29ebd366ed3c39f1d84da87bcd999" class="room indoor" data-label="front garden" x="294" y="198" width="8" height="8" rx="2"/>
-    <rect id="room-ea600b7a87dde82bd9f1ee10c1697ff91f4613dd" class="room indoor" data-label="garden" x="386" y="106" width="8" height="8" rx="2"/>
-    <rect id="room-3eb0b657335f92b750beeebfa17797bb51898786" class="room indoor" data-label="back garden" x="294" y="14" width="8" height="8" rx="2"/>
-    <rect id="room-273b9e348d162d611d6fb482b660f48734e0d57c" class="room indoor" data-label="side garden" x="202" y="106" width="8" height="8" rx="2"/>
+    <circle id="room-2e07bf34ece29ebd366ed3c39f1d84da87bcd999" class="room outdoor" data-label="front garden" cx="298" cy="202" r="4"/>
+    <circle id="room-ea600b7a87dde82bd9f1ee10c1697ff91f4613dd" class="room outdoor" data-label="garden" cx="390" cy="110" r="4"/>
+    <circle id="room-3eb0b657335f92b750beeebfa17797bb51898786" class="room outdoor" data-label="back garden" cx="298" cy="18" r="4"/>
+    <circle id="room-273b9e348d162d611d6fb482b660f48734e0d57c" class="room outdoor" data-label="side garden" cx="206" cy="110" r="4"/>
     <rect id="room-9c7bfa31eb984b0bf4d6aa90056cac45f716e58e" class="room indoor" data-label="veranda" x="294" y="147" width="8" height="8" rx="2"/>
     <rect id="room-d229a5e3c756329dbae4ff95432f08030e321c08" class="room indoor" data-label="veranda" x="266" y="147" width="8" height="8" rx="2"/>
     <rect id="room-04a6efe8071c611cfb5ccb7f1bc5582a8916d220" class="room indoor" data-label="veranda" x="322" y="147" width="8" height="8" rx="2"/>

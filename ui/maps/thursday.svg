@@ -17,14 +17,14 @@
   </g>
 
   <g id="layer-rooms">
-    <rect id="room-0a697023b66971ffa8e4840ea09d38581dbf93ee" class="room indoor" data-label="desert island" x="163" y="63" width="8" height="8" rx="2"/>
-    <rect id="room-2d1c5ed16f679a41bf280bea9a850a7d9551d710" class="room indoor" data-label="desert island" x="135" y="91" width="8" height="8" rx="2"/>
-    <rect id="room-faf8efeadb7e10f57041c653a82675c023a5fdbe" class="room indoor" data-label="desert island" x="107" y="119" width="8" height="8" rx="2"/>
-    <rect id="room-2455e402e36813885602fbab4e307864c422a773" class="room indoor" data-label="desert island" x="79" y="91" width="8" height="8" rx="2"/>
-    <rect id="room-75f455188d8f3185f4e3ad5a43437851479adc2f" class="room indoor" data-label="desert island" x="51" y="63" width="8" height="8" rx="2"/>
-    <rect id="room-dee0079b400e7b59c48d77526ddf07d7e28539b2" class="room indoor" data-label="desert island" x="79" y="35" width="8" height="8" rx="2"/>
-    <rect id="room-97da4e4119cd9ad1db5465fbde9e70d66fb1ebb8" class="room indoor" data-label="desert island" x="107" y="7" width="8" height="8" rx="2"/>
-    <rect id="room-905a8aeba3eb28f8064c7a54e7a2d415d6d740b1" class="room indoor" data-label="desert island" x="135" y="35" width="8" height="8" rx="2"/>
+    <circle id="room-0a697023b66971ffa8e4840ea09d38581dbf93ee" class="room outdoor" data-label="desert island" cx="167" cy="67" r="4"/>
+    <circle id="room-2d1c5ed16f679a41bf280bea9a850a7d9551d710" class="room outdoor" data-label="desert island" cx="139" cy="95" r="4"/>
+    <circle id="room-faf8efeadb7e10f57041c653a82675c023a5fdbe" class="room outdoor" data-label="desert island" cx="111" cy="123" r="4"/>
+    <circle id="room-2455e402e36813885602fbab4e307864c422a773" class="room outdoor" data-label="desert island" cx="83" cy="95" r="4"/>
+    <circle id="room-75f455188d8f3185f4e3ad5a43437851479adc2f" class="room outdoor" data-label="desert island" cx="55" cy="67" r="4"/>
+    <circle id="room-dee0079b400e7b59c48d77526ddf07d7e28539b2" class="room outdoor" data-label="desert island" cx="83" cy="39" r="4"/>
+    <circle id="room-97da4e4119cd9ad1db5465fbde9e70d66fb1ebb8" class="room outdoor" data-label="desert island" cx="111" cy="11" r="4"/>
+    <circle id="room-905a8aeba3eb28f8064c7a54e7a2d415d6d740b1" class="room outdoor" data-label="desert island" cx="139" cy="39" r="4"/>
   </g>
 
 

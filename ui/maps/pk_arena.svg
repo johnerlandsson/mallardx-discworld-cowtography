@@ -43,7 +43,7 @@
   </g>
 
   <g id="layer-rooms">
-    <rect id="room-cf9367911b6888bc2dbd57a8f9696e4bc4ef65b8" class="room indoor" data-label="just outside the arena" x="151" y="327" width="8" height="8" rx="2"/>
+    <circle id="room-cf9367911b6888bc2dbd57a8f9696e4bc4ef65b8" class="room outdoor" data-label="just outside the arena" cx="155" cy="331" r="4"/>
     <rect id="room-679c3fc113e69ad9e496487e9916aa8721599fd7" class="room indoor" data-label="stone passageway" x="151" y="299" width="8" height="8" rx="2"/>
     <rect id="room-da73115a4d59566665c845fd526d803daf255438" class="room indoor" data-label="central chamber" x="151" y="275" width="8" height="8" rx="2"/>
     <rect id="room-293eab1b5accd986bab349c89708fd17687e4e15" class="room indoor" data-label="stone passageway" x="175" y="275" width="8" height="8" rx="2"/>
@@ -61,40 +61,40 @@
     <rect id="room-4b33e2707f5da27e69e6a86628a450c23f9ac212" class="room indoor" data-label="stone stairwell" x="247" y="275" width="8" height="8" rx="2"/>
     <rect id="room-c7126b50ca4c74ff8eed6159d2ffc1dc0059777f" class="room indoor" data-label="stone stairwell" x="199" y="299" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="203,300 200.5,305 205.5,305"/>
     <rect id="room-4f117c2b5abd5b32005762c823312e0e9ce62972" class="room indoor" data-label="stone stairwell" x="199" y="251" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="203,252 200.5,257 205.5,257"/>
-    <rect id="room-e3e95035c18885a79f52e2b5d78c5228d56a0e51" class="room indoor" data-label="northeastern stands" x="208" y="41" width="8" height="8" rx="2"/>
-    <rect id="room-492c41567a22e374535155da26f39993e4571c5f" class="room indoor" data-label="northeastern stands" x="180" y="41" width="8" height="8" rx="2"/>
-    <rect id="room-1e650ac96cec4390cd1d53b439fb2fec737ed881" class="room indoor" data-label="northeastern stands" x="236" y="41" width="8" height="8" rx="2"/>
-    <rect id="room-7625ff5656bc9e330050b75a37a81706ce3ca16f" class="room indoor" data-label="eastern stands" x="288" y="93" width="8" height="8" rx="2"/>
-    <rect id="room-aeadbab1ca63072dd36dfedad2023c048d39bd16" class="room indoor" data-label="southeastern stands" x="236" y="145" width="8" height="8" rx="2"/>
-    <rect id="room-b8eef46583135f34268f9fb1e4edfaae14d6a50e" class="room indoor" data-label="southeastern stands" x="208" y="145" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="212,152 209.5,147 214.5,147"/>
-    <rect id="room-08c45b84577c84eca19407dadbad5d16ce50784e" class="room indoor" data-label="southeastern stands" x="180" y="145" width="8" height="8" rx="2"/>
-    <rect id="room-381fc47c59a04d088f355c1be893e3098f17afa3" class="room indoor" data-label="southern stands" x="152" y="145" width="8" height="8" rx="2"/>
-    <rect id="room-0aa9aace4e5e54fd64c18ad342b1a377b3a9be3a" class="room indoor" data-label="southwestern stands" x="124" y="145" width="8" height="8" rx="2"/>
-    <rect id="room-7f75de065d1f2d648e3b5a7a3d6f20d517d3bac3" class="room indoor" data-label="southwestern stands" x="96" y="145" width="8" height="8" rx="2"/>
-    <rect id="room-eb1ea0740fad34a923b9ee0bf31ae8451c57559c" class="room indoor" data-label="southwestern stands" x="68" y="145" width="8" height="8" rx="2"/>
-    <rect id="room-0d01f7e9e90f7e426179ebd16dbdab6683d8d54e" class="room indoor" data-label="western stands" x="16" y="93" width="8" height="8" rx="2"/>
-    <rect id="room-abb8cd7d4f23bfc90e18f865eb30c6e3da174d39" class="room indoor" data-label="northwestern stands" x="68" y="41" width="8" height="8" rx="2"/>
-    <rect id="room-a0855e08dabd798e9b207fe14d40a32d98f7d086" class="room indoor" data-label="northwestern stands" x="96" y="41" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="100,48 97.5,43 102.5,43"/>
-    <rect id="room-d836f36e684ed9e705a8e732ce5d1923127da65a" class="room indoor" data-label="northwestern stands" x="124" y="41" width="8" height="8" rx="2"/>
+    <circle id="room-e3e95035c18885a79f52e2b5d78c5228d56a0e51" class="room outdoor" data-label="northeastern stands" cx="212" cy="45" r="4"/>
+    <circle id="room-492c41567a22e374535155da26f39993e4571c5f" class="room outdoor" data-label="northeastern stands" cx="184" cy="45" r="4"/>
+    <circle id="room-1e650ac96cec4390cd1d53b439fb2fec737ed881" class="room outdoor" data-label="northeastern stands" cx="240" cy="45" r="4"/>
+    <circle id="room-7625ff5656bc9e330050b75a37a81706ce3ca16f" class="room outdoor" data-label="eastern stands" cx="292" cy="97" r="4"/>
+    <circle id="room-aeadbab1ca63072dd36dfedad2023c048d39bd16" class="room outdoor" data-label="southeastern stands" cx="240" cy="149" r="4"/>
+    <circle id="room-b8eef46583135f34268f9fb1e4edfaae14d6a50e" class="room outdoor" data-label="southeastern stands" cx="212" cy="149" r="4"/><polygon class="stair-symbol" points="212,152 209.5,147 214.5,147"/>
+    <circle id="room-08c45b84577c84eca19407dadbad5d16ce50784e" class="room outdoor" data-label="southeastern stands" cx="184" cy="149" r="4"/>
+    <circle id="room-381fc47c59a04d088f355c1be893e3098f17afa3" class="room outdoor" data-label="southern stands" cx="156" cy="149" r="4"/>
+    <circle id="room-0aa9aace4e5e54fd64c18ad342b1a377b3a9be3a" class="room outdoor" data-label="southwestern stands" cx="128" cy="149" r="4"/>
+    <circle id="room-7f75de065d1f2d648e3b5a7a3d6f20d517d3bac3" class="room outdoor" data-label="southwestern stands" cx="100" cy="149" r="4"/>
+    <circle id="room-eb1ea0740fad34a923b9ee0bf31ae8451c57559c" class="room outdoor" data-label="southwestern stands" cx="72" cy="149" r="4"/>
+    <circle id="room-0d01f7e9e90f7e426179ebd16dbdab6683d8d54e" class="room outdoor" data-label="western stands" cx="20" cy="97" r="4"/>
+    <circle id="room-abb8cd7d4f23bfc90e18f865eb30c6e3da174d39" class="room outdoor" data-label="northwestern stands" cx="72" cy="45" r="4"/>
+    <circle id="room-a0855e08dabd798e9b207fe14d40a32d98f7d086" class="room outdoor" data-label="northwestern stands" cx="100" cy="45" r="4"/><polygon class="stair-symbol" points="100,48 97.5,43 102.5,43"/>
+    <circle id="room-d836f36e684ed9e705a8e732ce5d1923127da65a" class="room outdoor" data-label="northwestern stands" cx="128" cy="45" r="4"/>
     <rect id="room-517b4318bba294e27459e61d7845b5eba3f5b4db" class="room indoor" data-label="west gate room" x="44" y="93" width="8" height="8" rx="2"/>
-    <rect id="room-edc9c102f072e53e469591319fafa15a4da82e13" class="room indoor" data-label="western side of the arena" x="68" y="93" width="8" height="8" rx="2"/>
-    <rect id="room-f8801d84bec2c14365ebb99f9af93e2c4e9f26ad" class="room indoor" data-label="western side of the arena" x="96" y="65" width="8" height="8" rx="2"/>
-    <rect id="room-4b3868c20b648f80e52405743a8f5bd73b02016d" class="room indoor" data-label="western side of the arena" x="124" y="65" width="8" height="8" rx="2"/>
-    <rect id="room-9c4160664d3fa23f94324474be8e1d6af562ce9b" class="room indoor" data-label="northern side of the arena" x="152" y="65" width="8" height="8" rx="2"/>
-    <rect id="room-35df4e3182b628cdf1258e76c6df24e7b134a7b2" class="room indoor" data-label="eastern side of the arena" x="180" y="65" width="8" height="8" rx="2"/>
-    <rect id="room-3f3320d8eebde11f6374f4edb0ff51351fe46d44" class="room indoor" data-label="eastern side of the arena" x="208" y="65" width="8" height="8" rx="2"/>
-    <rect id="room-fb83373b9502e39bae8c995c1e96f4c7b944158e" class="room indoor" data-label="eastern side of the arena" x="236" y="93" width="8" height="8" rx="2"/>
+    <circle id="room-edc9c102f072e53e469591319fafa15a4da82e13" class="room outdoor" data-label="western side of the arena" cx="72" cy="97" r="4"/>
+    <circle id="room-f8801d84bec2c14365ebb99f9af93e2c4e9f26ad" class="room outdoor" data-label="western side of the arena" cx="100" cy="69" r="4"/>
+    <circle id="room-4b3868c20b648f80e52405743a8f5bd73b02016d" class="room outdoor" data-label="western side of the arena" cx="128" cy="69" r="4"/>
+    <circle id="room-9c4160664d3fa23f94324474be8e1d6af562ce9b" class="room outdoor" data-label="northern side of the arena" cx="156" cy="69" r="4"/>
+    <circle id="room-35df4e3182b628cdf1258e76c6df24e7b134a7b2" class="room outdoor" data-label="eastern side of the arena" cx="184" cy="69" r="4"/>
+    <circle id="room-3f3320d8eebde11f6374f4edb0ff51351fe46d44" class="room outdoor" data-label="eastern side of the arena" cx="212" cy="69" r="4"/>
+    <circle id="room-fb83373b9502e39bae8c995c1e96f4c7b944158e" class="room outdoor" data-label="eastern side of the arena" cx="240" cy="97" r="4"/>
     <rect id="room-191b3950e6c562852d653ee9c2bfbd1b56858c6f" class="room indoor" data-label="east gate room" x="260" y="93" width="8" height="8" rx="2"/>
-    <rect id="room-ba10ee8e4a42a2c09b952b07654b0cdd53cc5742" class="room indoor" data-label="eastern side of the arena" x="208" y="93" width="8" height="8" rx="2"/>
-    <rect id="room-ba595dc123444823c8f777607ed71d0cf8c8e029" class="room indoor" data-label="eastern side of the arena" x="180" y="93" width="8" height="8" rx="2"/>
-    <rect id="room-016c685943654be22f329d54e1d929ad75eb484c" class="room indoor" data-label="centre of the arena" x="152" y="93" width="8" height="8" rx="2"/>
-    <rect id="room-6b78a6212e15d4b14f4dfa1defe5ab2de7a017d8" class="room indoor" data-label="western side of the arena" x="124" y="93" width="8" height="8" rx="2"/>
-    <rect id="room-32a1754a5d3adb04bf3a2df7c1565b067246b0fe" class="room indoor" data-label="western side of the arena" x="96" y="93" width="8" height="8" rx="2"/>
-    <rect id="room-1c11f45ae79054f8f27f95a3149c06a817f84c3e" class="room indoor" data-label="western side of the arena" x="96" y="121" width="8" height="8" rx="2"/>
-    <rect id="room-de2a7a3f38fa199783818d7c527e67015df24d8d" class="room indoor" data-label="western side of the arena" x="124" y="121" width="8" height="8" rx="2"/>
-    <rect id="room-dd61921482187912fa8d90759effc3e8318d89a8" class="room indoor" data-label="southern side of the arena" x="152" y="121" width="8" height="8" rx="2"/>
-    <rect id="room-ef5d6f548b6ccec5250d1ba465a64f07447dba6c" class="room indoor" data-label="eastern side of the arena" x="180" y="121" width="8" height="8" rx="2"/>
-    <rect id="room-ce57457cd0401b41a6533d17e4b533fa9ad3ccb8" class="room indoor" data-label="eastern side of the arena" x="208" y="121" width="8" height="8" rx="2"/>
+    <circle id="room-ba10ee8e4a42a2c09b952b07654b0cdd53cc5742" class="room outdoor" data-label="eastern side of the arena" cx="212" cy="97" r="4"/>
+    <circle id="room-ba595dc123444823c8f777607ed71d0cf8c8e029" class="room outdoor" data-label="eastern side of the arena" cx="184" cy="97" r="4"/>
+    <circle id="room-016c685943654be22f329d54e1d929ad75eb484c" class="room outdoor" data-label="centre of the arena" cx="156" cy="97" r="4"/>
+    <circle id="room-6b78a6212e15d4b14f4dfa1defe5ab2de7a017d8" class="room outdoor" data-label="western side of the arena" cx="128" cy="97" r="4"/>
+    <circle id="room-32a1754a5d3adb04bf3a2df7c1565b067246b0fe" class="room outdoor" data-label="western side of the arena" cx="100" cy="97" r="4"/>
+    <circle id="room-1c11f45ae79054f8f27f95a3149c06a817f84c3e" class="room outdoor" data-label="western side of the arena" cx="100" cy="125" r="4"/>
+    <circle id="room-de2a7a3f38fa199783818d7c527e67015df24d8d" class="room outdoor" data-label="western side of the arena" cx="128" cy="125" r="4"/>
+    <circle id="room-dd61921482187912fa8d90759effc3e8318d89a8" class="room outdoor" data-label="southern side of the arena" cx="156" cy="125" r="4"/>
+    <circle id="room-ef5d6f548b6ccec5250d1ba465a64f07447dba6c" class="room outdoor" data-label="eastern side of the arena" cx="184" cy="125" r="4"/>
+    <circle id="room-ce57457cd0401b41a6533d17e4b533fa9ad3ccb8" class="room outdoor" data-label="eastern side of the arena" cx="212" cy="125" r="4"/>
     <rect id="room-e8c0748d3a3a7fc10eec37d92eacd4e913c5b430" class="room indoor" data-label="small archway" x="208" y="57" width="8" height="8" rx="2"/>
     <rect id="room-84cc9d4d508863a882607b070b076d39024a8527" class="room indoor" data-label="small archway" x="180" y="57" width="8" height="8" rx="2"/>
     <rect id="room-4b0581f4575b348b2530e964a08daeacc3c6199e" class="room indoor" data-label="small archway" x="152" y="57" width="8" height="8" rx="2"/>

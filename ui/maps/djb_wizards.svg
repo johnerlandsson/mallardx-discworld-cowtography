@@ -74,10 +74,10 @@
   </g>
 
   <g id="layer-rooms">
-    <rect id="room-b85065b07a1c156d19f7b552397b32844bb7335c" class="room indoor" data-label="courtyard of the Djelibeybi Institute of Illusory Learning" x="178" y="206" width="8" height="8" rx="2"/>
-    <rect id="room-748afe8a6526624ac99036e9049a27341a6beee0" class="room indoor" data-label="eastern end of the courtyard of the Djelibeybi Institute of Illusory Learning" x="207" y="206" width="8" height="8" rx="2"/>
-    <rect id="room-97e5b3787355ec5d317caa7baf7777e9cb5f3fbc" class="room indoor" data-label="southern courtyard of the Djelibeybi Institute of Illusory Learning" x="206" y="234" width="8" height="8" rx="2"/>
-    <rect id="room-850fd55fe8593021a21a9980163484928a1f7506" class="room indoor" data-label="practice yard of the Institute of Illusory Learning" x="234" y="234" width="8" height="8" rx="2"/>
+    <circle id="room-b85065b07a1c156d19f7b552397b32844bb7335c" class="room outdoor" data-label="courtyard of the Djelibeybi Institute of Illusory Learning" cx="182" cy="210" r="4"/>
+    <circle id="room-748afe8a6526624ac99036e9049a27341a6beee0" class="room outdoor" data-label="eastern end of the courtyard of the Djelibeybi Institute of Illusory Learning" cx="211" cy="210" r="4"/>
+    <circle id="room-97e5b3787355ec5d317caa7baf7777e9cb5f3fbc" class="room outdoor" data-label="southern courtyard of the Djelibeybi Institute of Illusory Learning" cx="210" cy="238" r="4"/>
+    <circle id="room-850fd55fe8593021a21a9980163484928a1f7506" class="room outdoor" data-label="practice yard of the Institute of Illusory Learning" cx="238" cy="238" r="4"/>
     <rect id="room-edb30535c8583fc2ca0f110b21d06cf6be482057" class="room indoor room-shop" data-label="Mit-sin-bibh-khot&#x27;s world of rare reagents" x="178" y="262" width="8" height="8" rx="2"/><text class="room-type-label" x="182" y="266" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-f158accb66c34588600d2d3addc7f61726ea8cd1" class="room indoor" data-label=" entrance to Tse-Tse Hall" x="207" y="262" width="8" height="8" rx="2"/>
     <rect id="room-58d7482ede60c1a2110683ca788f7434d5a036f1" class="room indoor" data-label="corridor in Tse-Tse Hall" x="207" y="290" width="8" height="8" rx="2"/>

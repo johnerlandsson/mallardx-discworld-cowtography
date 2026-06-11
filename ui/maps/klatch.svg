@@ -270,18 +270,18 @@
     <circle id="room-e5dc69c829f6ff6b1d69a6e514541011a9bf403d" class="room outdoor" data-label="intersection" cx="724" cy="665" r="4"/>
     <circle id="room-be2911587eeec0d949d839c939f9ace1794747f4" class="room outdoor" data-label="road" cx="710" cy="679" r="4"/>
     <circle id="room-bf47ef14c4647af6629b5db3d2b185ce21f6e594" class="room outdoor" data-label="Lower Djel Trading Post square" cx="710" cy="665" r="4"/>
-    <circle id="room-10748e63107f78e84862c84f7a5cbe5e5167fdcc" class="room outdoor" data-label="stable" cx="699" cy="665" r="4"/>
-    <circle id="room-6f3bd8c8935530a51e9135440a3308789a23f627" class="room outdoor" data-label="foyer" cx="710" cy="654" r="4"/>
-    <circle id="room-21147c1d34b6a2a68e649aff8e856f0e6faa1c87" class="room outdoor room-shop" data-label="small shop" cx="700" cy="654" r="4"/><text class="room-type-label" x="700" y="654" text-anchor="middle" dominant-baseline="central">S</text>
-    <circle id="room-527677c44648c02fc2ef3b1db58613d3f7ee4173" class="room outdoor room-food" data-label="The White Goat" cx="720" cy="654" r="4"/><text class="room-type-label" x="720" y="654" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-10748e63107f78e84862c84f7a5cbe5e5167fdcc" class="room indoor" data-label="stable" x="695" y="661" width="8" height="8" rx="2"/>
+    <rect id="room-6f3bd8c8935530a51e9135440a3308789a23f627" class="room indoor" data-label="foyer" x="706" y="650" width="8" height="8" rx="2"/>
+    <rect id="room-21147c1d34b6a2a68e649aff8e856f0e6faa1c87" class="room indoor room-shop" data-label="small shop" x="696" y="650" width="8" height="8" rx="2"/><text class="room-type-label" x="700" y="654" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-527677c44648c02fc2ef3b1db58613d3f7ee4173" class="room indoor room-food" data-label="The White Goat" x="716" y="650" width="8" height="8" rx="2"/><text class="room-type-label" x="720" y="654" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-43ecb553e79ea018d4a851d7d0ed945165aef35a" class="room outdoor" data-label="secret little corner" cx="705" cy="659" r="4"/>
     <circle id="room-7f791673dbf19adf20172bd2b8a39c4ffdd2e104" class="room outdoor" data-label="edge of a desert near a savanna" cx="724" cy="529" r="4"/>
     <circle id="room-3829738a5a4426950321d7307a8165c159a96466" class="room outdoor" data-label="Klatchian Foreign Legion outpost campfire" cx="724" cy="515" r="4"/>
-    <circle id="room-31bf3a3c04cb0009a32aee364747be7761530556" class="room outdoor room-clothes" data-label="Klatchian Foreign Legion outpost storage tent" cx="735" cy="515" r="4"/><text class="room-type-label" x="735" y="515" text-anchor="middle" dominant-baseline="central">C</text>
+    <rect id="room-31bf3a3c04cb0009a32aee364747be7761530556" class="room indoor room-clothes" data-label="Klatchian Foreign Legion outpost storage tent" x="731" y="511" width="8" height="8" rx="2"/><text class="room-type-label" x="735" y="515" text-anchor="middle" dominant-baseline="central">C</text>
     <circle id="room-e4a27a93031ef15f902cee38a8dc8819f96f14ea" class="room outdoor" data-label="Klatchian Foreign Legion outpost campfire" cx="735" cy="504" r="4"/>
-    <circle id="room-1967b25be992bca8ed950a4e95586c351acc2dd2" class="room outdoor" data-label="Klatchian Foreign Legion outpost recruitment tent" cx="713" cy="515" r="4"/>
-    <circle id="room-278ddf2f97b92d6bab186d95821075d621137a2e" class="room outdoor room-food" data-label="Klatchian Foreign Legion mess tent" cx="713" cy="504" r="4"/><text class="room-type-label" x="713" y="504" text-anchor="middle" dominant-baseline="central">F</text>
-    <circle id="room-ba4b873b31d7bcf02328aa571b137b3a2096d2a7" class="room outdoor" data-label="Klatchian Foreign Legion outpost sleeping tent" cx="724" cy="504" r="4"/>
+    <rect id="room-1967b25be992bca8ed950a4e95586c351acc2dd2" class="room indoor" data-label="Klatchian Foreign Legion outpost recruitment tent" x="709" y="511" width="8" height="8" rx="2"/>
+    <rect id="room-278ddf2f97b92d6bab186d95821075d621137a2e" class="room indoor room-food" data-label="Klatchian Foreign Legion mess tent" x="709" y="500" width="8" height="8" rx="2"/><text class="room-type-label" x="713" y="504" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-ba4b873b31d7bcf02328aa571b137b3a2096d2a7" class="room indoor" data-label="Klatchian Foreign Legion outpost sleeping tent" x="720" y="500" width="8" height="8" rx="2"/>
     <circle id="room-5ac9c69a1e97f3224aa94931b97f3db780ba5572" class="room outdoor" data-label="Ephebian desert" cx="607" cy="1109" r="4"/>
     <circle id="room-066ae1b58fc230eb5750bb3c81a52c12ddc1ccce" class="room outdoor" data-label="southwestern corner of the Oasis" cx="621" cy="1109" r="4"/>
     <circle id="room-186cccf839f075f9e0bafa2223158201fb5f5fbc" class="room outdoor" data-label="southern edge of the Oasis" cx="635" cy="1109" r="4"/>
@@ -291,45 +291,45 @@
     <circle id="room-33ec570328e188f97089643a5905bfb17a10c08e" class="room outdoor" data-label="southeastern corner of the Oasis" cx="677" cy="1095" r="4"/>
     <circle id="room-e7ddc0b0765f15a52c17e56945e92d5ae324cb33" class="room outdoor" data-label="southeastern corner of the Oasis" cx="663" cy="1095" r="4"/>
     <circle id="room-b7601e0ccb5467881f95831700de67cd8c915fc1" class="room outdoor" data-label="middle of the Oasis" cx="649" cy="1095" r="4"/>
-    <circle id="room-a4a051b90a36fe0f931249db20fc706183ebefda" class="room outdoor" data-label="art gallery tent" cx="606" cy="1191" r="4"/>
+    <rect id="room-a4a051b90a36fe0f931249db20fc706183ebefda" class="room indoor" data-label="art gallery tent" x="602" y="1187" width="8" height="8" rx="2"/>
     <circle id="room-0444202d16b474d10f83a562bfaef98feb641bb2" class="room outdoor" data-label="middle of the Oasis" cx="635" cy="1095" r="4"/>
     <circle id="room-94af12894049c07d7698c9aa3d0bf10e581de8f5" class="room outdoor" data-label="southwestern corner of the Oasis" cx="621" cy="1095" r="4"/>
     <circle id="room-eff2d429242a3c9a6830d57c21d1a19b8b677ce0" class="room outdoor" data-label="southwestern corner of the Oasis" cx="607" cy="1095" r="4"/>
     <circle id="room-54fe3495c98d245205032591f181d34f37d28499" class="room outdoor" data-label="southwestern corner of the Oasis" cx="607" cy="1081" r="4"/>
     <circle id="room-4293155ea62d07cfa5ad2ae7ea5520d17a05dd77" class="room outdoor" data-label="middle of the Oasis" cx="621" cy="1081" r="4"/>
-    <circle id="room-5890eb913e3d61c3487a194dc8a84763a084f946" class="room outdoor room-shop" data-label="fig stall" cx="606" cy="1175" r="4"/><text class="room-type-label" x="606" y="1175" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-5890eb913e3d61c3487a194dc8a84763a084f946" class="room indoor room-shop" data-label="fig stall" x="602" y="1171" width="8" height="8" rx="2"/><text class="room-type-label" x="606" y="1175" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-86a0f63349a175ad8e7f4f399ada0198459ae13c" class="room outdoor" data-label="middle of the Oasis" cx="635" cy="1081" r="4"/>
     <circle id="room-350f005214ee12960158a94605306256db307037" class="room outdoor" data-label="middle of the Oasis" cx="649" cy="1081" r="4"/>
     <circle id="room-1fc7a3538c9d460422fec0c8588dbc03441301ea" class="room outdoor" data-label="middle of the Oasis" cx="663" cy="1081" r="4"/>
-    <circle id="room-821e7e9c7ef7373f1c33e17234420fc93cd9d328" class="room outdoor" data-label="the zoologist&#x27;s tent" cx="606" cy="1183" r="4"/>
+    <rect id="room-821e7e9c7ef7373f1c33e17234420fc93cd9d328" class="room indoor" data-label="the zoologist&#x27;s tent" x="602" y="1179" width="8" height="8" rx="2"/>
     <circle id="room-fb9b51524b9134853816a851b3f4d4bd607b0a42" class="room outdoor" data-label="southeastern corner of the Oasis" cx="677" cy="1081" r="4"/>
     <circle id="room-152995d38d460f72a52946ee91c8f5d86b911407" class="room outdoor" data-label="eastern edge of the Oasis" cx="677" cy="1067" r="4"/>
     <circle id="room-54f7bcaf87821cab2fc295f961d26045a03639fe" class="room outdoor" data-label="middle of the Oasis" cx="663" cy="1067" r="4"/>
     <circle id="room-c8516e4e4017a99cd19183e5918c3bf767918ef0" class="room outdoor" data-label="middle of the Oasis" cx="649" cy="1067" r="4"/>
-    <circle id="room-2bfc37a494acc73357712fa6bf5c8df85ee85787" class="room outdoor room-shop" data-label="second hand goods tent" cx="606" cy="1167" r="4"/><text class="room-type-label" x="606" y="1167" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-2bfc37a494acc73357712fa6bf5c8df85ee85787" class="room indoor room-shop" data-label="second hand goods tent" x="602" y="1163" width="8" height="8" rx="2"/><text class="room-type-label" x="606" y="1167" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-6dd759fc275793325c3f7449cd7f319af4f9892d" class="room outdoor" data-label="middle of the Oasis" cx="635" cy="1067" r="4"/>
     <circle id="room-155891cd9cc51c35147afb97567b18ba218230ee" class="room outdoor" data-label="middle of the Oasis" cx="621" cy="1067" r="4"/>
     <circle id="room-6d746ddf59a1d71768441ca90fa3231828e8c9d3" class="room outdoor" data-label="western edge of the Oasis" cx="607" cy="1067" r="4"/>
     <circle id="room-178312c1ab469b7a7496c78eaafda6c6ce113374" class="room outdoor" data-label="western edge of the Oasis" cx="607" cy="1053" r="4"/>
     <circle id="room-a0a041f9a0fa4024467919c15fe662bf3896b169" class="room outdoor" data-label="middle of the Oasis" cx="621" cy="1053" r="4"/>
     <circle id="room-b15950601c93e3adab31fb7755829cf3ed93b5b5" class="room outdoor" data-label="middle of the Oasis" cx="635" cy="1053" r="4"/>
-    <circle id="room-49f7148b160524fb43fc4cb14a6f60fe57fe00df" class="room outdoor" data-label="tent of worship" cx="606" cy="1159" r="4"/>
+    <rect id="room-49f7148b160524fb43fc4cb14a6f60fe57fe00df" class="room indoor" data-label="tent of worship" x="602" y="1155" width="8" height="8" rx="2"/>
     <circle id="room-899ad0dfdfc25ad0ebeb4ed861ea18e339adb4d0" class="room outdoor" data-label="middle of the Oasis" cx="649" cy="1053" r="4"/>
     <circle id="room-12f08890a7522d42f70b2ac24b3e726cf1153372" class="room outdoor" data-label="middle of the Oasis" cx="663" cy="1053" r="4"/>
     <circle id="room-eb9a2d307404b035eb2a03d8308ed0b958f5dba1" class="room outdoor" data-label="eastern edge of the Oasis" cx="677" cy="1053" r="4"/>
     <circle id="room-4b25ed1f44c1a870918be9495edb17c38ab6f6a4" class="room outdoor" data-label="northeastern corner of the Oasis" cx="677" cy="1039" r="4"/>
     <circle id="room-3697ea9390dd6d1d2a273b3635f27ba0f70b36fd" class="room outdoor" data-label="middle of the Oasis" cx="663" cy="1039" r="4"/>
-    <circle id="room-2137677a10aedd82fa3f9e63680dfcf274dd6ed2" class="room outdoor room-shop" data-label="turban stall" cx="606" cy="1151" r="4"/><text class="room-type-label" x="606" y="1151" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-2137677a10aedd82fa3f9e63680dfcf274dd6ed2" class="room indoor room-shop" data-label="turban stall" x="602" y="1147" width="8" height="8" rx="2"/><text class="room-type-label" x="606" y="1151" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-997cda132917daef79d5330e14b837408b76dfbb" class="room outdoor" data-label="middle of the Oasis" cx="649" cy="1039" r="4"/>
     <circle id="room-d16eb303a48474a47976038ea90c6ffd531ec975" class="room outdoor" data-label="middle of the Oasis" cx="635" cy="1039" r="4"/>
     <circle id="room-67a501bc451ad97c04ae3d2592110ea7caedd5ff" class="room outdoor" data-label="middle of the Oasis" cx="621" cy="1039" r="4"/>
-    <circle id="room-c22bf54e53c550126be6e17bef4a8282b62c5d29" class="room outdoor room-shop" data-label="bread and water cafeteria" cx="606" cy="1144" r="4"/><text class="room-type-label" x="606" y="1144" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-c22bf54e53c550126be6e17bef4a8282b62c5d29" class="room indoor room-shop" data-label="bread and water cafeteria" x="602" y="1140" width="8" height="8" rx="2"/><text class="room-type-label" x="606" y="1144" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-3d1583af23c0b75cd858d6646cd297c6d89c8619" class="room outdoor" data-label="northwestern corner of the Oasis" cx="607" cy="1039" r="4"/>
     <circle id="room-f0a99e7fee259897cf0697772e5bde89bbb9ba8a" class="room outdoor" data-label="northwestern corner of the Oasis" cx="607" cy="1025" r="4"/>
     <circle id="room-c06a03e5dc918472f987bfc2c84766be6dc229a2" class="room outdoor" data-label="northwestern corner of the Oasis" cx="621" cy="1025" r="4"/>
     <circle id="room-ed16e59f89659bcc97e65827f2ac2b9bf18d5a50" class="room outdoor" data-label="middle of the Oasis" cx="635" cy="1025" r="4"/>
     <circle id="room-f2ad98a21df7eb3082ee5fbd538929174ffe0ce4" class="room outdoor" data-label="middle of the Oasis" cx="649" cy="1025" r="4"/>
-    <circle id="room-d618e5a3ae1aa692dc1cd73cd1d7d40c08c1710c" class="room outdoor room-shop" data-label="toymaker&#x27;s tent" cx="606" cy="1135" r="4"/><text class="room-type-label" x="606" y="1135" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-d618e5a3ae1aa692dc1cd73cd1d7d40c08c1710c" class="room indoor room-shop" data-label="toymaker&#x27;s tent" x="602" y="1131" width="8" height="8" rx="2"/><text class="room-type-label" x="606" y="1135" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-404a2c76d5c3976881d9619d4e88ddc2b05a8213" class="room outdoor" data-label="northeastern corner of the Oasis" cx="663" cy="1025" r="4"/>
     <circle id="room-703b4253460a7ffaf320be63b4abd8b01d27c7ae" class="room outdoor" data-label="northeastern corner of the Oasis" cx="677" cy="1025" r="4"/>
     <circle id="room-d31171ec2db87d795681186a37ab7e93c93966af" class="room outdoor" data-label="Ephebian desert" cx="677" cy="1011" r="4"/>
@@ -353,15 +353,15 @@
     <circle id="room-a987c7d8b2095a5766d24e5b9c3d148ee6117417" class="room outdoor" data-label="intersection on the Klatch road" cx="1099" cy="1161" r="4"/>
     <circle id="room-9722b90c4d300eab0df25e6ed7f332d35f27c033" class="room outdoor" data-label="Klatch Road" cx="1121" cy="1152" r="4"/>
     <circle id="room-af78213c6deaf7a170f5b2484996b9efde96f365" class="room outdoor" data-label="western side of Il Drim" cx="1135" cy="1152" r="4"/>
-    <circle id="room-377675002d7911b37ba90d8535a781d4d3f072cc" class="room outdoor room-access" data-label="Sales Shack" cx="1135" cy="1163" r="4"/><text class="room-type-label" x="1135" y="1163" text-anchor="middle" dominant-baseline="central">X</text>
+    <rect id="room-377675002d7911b37ba90d8535a781d4d3f072cc" class="room indoor room-access" data-label="Sales Shack" x="1131" y="1159" width="8" height="8" rx="2"/><text class="room-type-label" x="1135" y="1163" text-anchor="middle" dominant-baseline="central">X</text>
     <circle id="room-141ebbbb72c6ba7593bdfb911aa2b0e47af34315" class="room outdoor" data-label="slightly western side of Il Drim" cx="1149" cy="1152" r="4"/>
-    <circle id="room-75a1f9a2643428b9fed1413309c2f96851752857" class="room outdoor" data-label="deserted shack" cx="1149" cy="1163" r="4"/>
+    <rect id="room-75a1f9a2643428b9fed1413309c2f96851752857" class="room indoor" data-label="deserted shack" x="1145" y="1159" width="8" height="8" rx="2"/>
     <circle id="room-24718babffc9998f156749107283f65b74600402" class="room outdoor" data-label="jetty side of Il Drim" cx="1163" cy="1152" r="4"/>
     <circle id="room-c00828ab0397d805fdd3902ab5901f398d970a91" class="room outdoor" data-label="southern end of the jetty" cx="1163" cy="1138" r="4"/>
     <circle id="room-ce97c9d639febc0d32ce9bfa4af4599fe2ea9879" class="room outdoor" data-label="northern end of the jetty" cx="1163" cy="1124" r="4"/>
     <circle id="room-6edd42f9409011bca3148b176b31e9845a046034" class="room outdoor" data-label="eastern side of Il Drim" cx="1177" cy="1152" r="4"/>
-    <circle id="room-43ddb9301990034dd9fab481aaf28b52993cb49b" class="room outdoor room-food" data-label="Il Drim tavern" cx="1188" cy="1152" r="4"/><text class="room-type-label" x="1188" y="1152" text-anchor="middle" dominant-baseline="central">F</text>
-    <circle id="room-fcf325708801cb46f938907b80662f0e29f5695d" class="room outdoor room-access" data-label="Il Drim general store" cx="1177" cy="1163" r="4"/><text class="room-type-label" x="1177" y="1163" text-anchor="middle" dominant-baseline="central">X</text>
+    <rect id="room-43ddb9301990034dd9fab481aaf28b52993cb49b" class="room indoor room-food" data-label="Il Drim tavern" x="1184" y="1148" width="8" height="8" rx="2"/><text class="room-type-label" x="1188" y="1152" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-fcf325708801cb46f938907b80662f0e29f5695d" class="room indoor room-access" data-label="Il Drim general store" x="1173" y="1159" width="8" height="8" rx="2"/><text class="room-type-label" x="1177" y="1163" text-anchor="middle" dominant-baseline="central">X</text>
     <circle id="room-460fb3a7ddaf37c71dbe627fba4b8dc212ac6ef0" class="room outdoor" data-label="southern side of Il Drim" cx="1163" cy="1166" r="4"/>
     <circle id="room-4e5fe24b33f83ddf204e197a46c735f4285fc4ca" class="room outdoor" data-label="Klatch Road" cx="1163" cy="1180" r="4"/>
     <circle id="room-e7c93d8ccd2a7cbed2656d646490b546137236f7" class="room outdoor" data-label="intersection on the Klatch road" cx="1154" cy="1204" r="4"/>
@@ -399,9 +399,9 @@
     <circle id="room-42167433a31ed734b9500214564dce62e09f9a7a" class="room outdoor" data-label="middle of the ruins" cx="1388" cy="180" r="4"/>
     <circle id="room-913eec442132c1724992c883350959732340ac5f" class="room outdoor" data-label="some ruins in the desert" cx="1374" cy="180" r="4"/>
     <circle id="room-e56bf990c4e6d3386415604c7617989c5b699dd5" class="room outdoor" data-label="beside a tent in the ruins" cx="1374" cy="194" r="4"/>
-    <circle id="room-a24be98edbd260ca566a53d9565c9b1b33d2f157" class="room outdoor" data-label="inside a shelter in the ruins" cx="1374" cy="205" r="4"/>
-    <circle id="room-27106084aff6eeaa455f80c3dcd9ffe7104ba95e" class="room outdoor room-food" data-label="tent" cx="1368" cy="191" r="4"/><text class="room-type-label" x="1368" y="191" text-anchor="middle" dominant-baseline="central">F</text>
-    <circle id="room-aea1ef6d6499ffbe0df16d3293e55db3193ae1b2" class="room outdoor room-access" data-label="tent" cx="1355" cy="160" r="4"/><text class="room-type-label" x="1355" y="160" text-anchor="middle" dominant-baseline="central">X</text>
+    <rect id="room-a24be98edbd260ca566a53d9565c9b1b33d2f157" class="room indoor" data-label="inside a shelter in the ruins" x="1370" y="201" width="8" height="8" rx="2"/>
+    <rect id="room-27106084aff6eeaa455f80c3dcd9ffe7104ba95e" class="room indoor room-food" data-label="tent" x="1364" y="187" width="8" height="8" rx="2"/><text class="room-type-label" x="1368" y="191" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-aea1ef6d6499ffbe0df16d3293e55db3193ae1b2" class="room indoor room-access" data-label="tent" x="1351" y="156" width="8" height="8" rx="2"/><text class="room-type-label" x="1355" y="160" text-anchor="middle" dominant-baseline="central">X</text>
     <circle id="room-d55fa00ed375e6e4c5878e5ddd6e6041335fda8a" class="room outdoor" data-label="bottom of the huge rock" cx="358" cy="1086" r="4"/>
     <circle id="room-8162fcd225546de9f21361a04b4b474b1e99f3c8" class="room outdoor" data-label="top of the huge rock" cx="344" cy="1072" r="4"/>
     <circle id="room-272f5bc0dab4022fee113c285a63f8fa56ed6718" class="room outdoor" data-label="bottom of rock" cx="256" cy="407" r="4"/>
@@ -410,49 +410,49 @@
     <circle id="room-e9b411faf2bbaf4d00fd4e91aabbc15349c00201" class="room outdoor" data-label="middle of rock" cx="256" cy="359" r="4"/>
     <circle id="room-6e0bb6852995da5df964c2c1b75b1a88b37e4088" class="room outdoor" data-label="opening, top of rock" cx="256" cy="343" r="4"/>
     <circle id="room-b53a6dce1942864746f7f7f2625f1908e3413ffa" class="room outdoor" data-label="pinnacle of rock" cx="256" cy="327" r="4"/>
-    <circle id="room-5fc3c5428554532913b4d8425bf3f2a9bac75992" class="room outdoor" data-label="high up in a rock" cx="274" cy="343" r="4"/>
-    <circle id="room-cf408bfbe9b60ac440a1165f8a7de684373e1d96" class="room outdoor" data-label="high up inside rock" cx="274" cy="329" r="4"/>
-    <circle id="room-317b49fa2885fee85c215b15267e693bf92d76e0" class="room outdoor" data-label="high up inside rock" cx="313" cy="329" r="4"/><polygon class="stair-symbol" points="313,332 310.5,327 315.5,327"/>
-    <circle id="room-ce6d3629d84d63158ad49e83bcf16ca7e39deed1" class="room outdoor" data-label="higher up inside cave" cx="320" cy="342" r="4"/><polygon class="stair-symbol" points="320,339 317.5,344 322.5,344"/>
-    <circle id="room-917c486bc8e0d7407e6b2cc4024292e46967059b" class="room outdoor" data-label="higher up inside cave" cx="320" cy="356" r="4"/>
-    <circle id="room-1112c9608b0f7f40db85c80e106758044163d17b" class="room outdoor" data-label="higher up inside cave" cx="306" cy="342" r="4"/>
-    <circle id="room-d45d97ace209b14a8e63dc7bbb9ed784cc10c608" class="room outdoor" data-label="higher up inside cave" cx="292" cy="342" r="4"/>
-    <circle id="room-9b0c419db5e7ca8cf6197836aa42893541b095d5" class="room outdoor" data-label="deep inside cave" cx="246" cy="421" r="4"/>
-    <circle id="room-6dd384c1085785eed5ae0c3fffbf715efa0cb652" class="room outdoor" data-label="deep inside cave" cx="260" cy="435" r="4"/>
-    <circle id="room-d956c448813eecb144d7c16c6267219ee08358f1" class="room outdoor" data-label="inside a cave" cx="274" cy="435" r="4"/>
-    <circle id="room-0d039851f561cc8097c63f82fb01c70fd8bc33e8" class="room outdoor" data-label="inside a cave" cx="274" cy="421" r="4"/>
-    <circle id="room-076279a713cc25e085474fbbc8097b2367601d5e" class="room outdoor" data-label="cave entrance" cx="274" cy="407" r="4"/>
+    <rect id="room-5fc3c5428554532913b4d8425bf3f2a9bac75992" class="room indoor" data-label="high up in a rock" x="270" y="339" width="8" height="8" rx="2"/>
+    <rect id="room-cf408bfbe9b60ac440a1165f8a7de684373e1d96" class="room indoor" data-label="high up inside rock" x="270" y="325" width="8" height="8" rx="2"/>
+    <rect id="room-317b49fa2885fee85c215b15267e693bf92d76e0" class="room indoor" data-label="high up inside rock" x="309" y="325" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="313,332 310.5,327 315.5,327"/>
+    <rect id="room-ce6d3629d84d63158ad49e83bcf16ca7e39deed1" class="room indoor" data-label="higher up inside cave" x="316" y="338" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="320,339 317.5,344 322.5,344"/>
+    <rect id="room-917c486bc8e0d7407e6b2cc4024292e46967059b" class="room indoor" data-label="higher up inside cave" x="316" y="352" width="8" height="8" rx="2"/>
+    <rect id="room-1112c9608b0f7f40db85c80e106758044163d17b" class="room indoor" data-label="higher up inside cave" x="302" y="338" width="8" height="8" rx="2"/>
+    <rect id="room-d45d97ace209b14a8e63dc7bbb9ed784cc10c608" class="room indoor" data-label="higher up inside cave" x="288" y="338" width="8" height="8" rx="2"/>
+    <rect id="room-9b0c419db5e7ca8cf6197836aa42893541b095d5" class="room indoor" data-label="deep inside cave" x="242" y="417" width="8" height="8" rx="2"/>
+    <rect id="room-6dd384c1085785eed5ae0c3fffbf715efa0cb652" class="room indoor" data-label="deep inside cave" x="256" y="431" width="8" height="8" rx="2"/>
+    <rect id="room-d956c448813eecb144d7c16c6267219ee08358f1" class="room indoor" data-label="inside a cave" x="270" y="431" width="8" height="8" rx="2"/>
+    <rect id="room-0d039851f561cc8097c63f82fb01c70fd8bc33e8" class="room indoor" data-label="inside a cave" x="270" y="417" width="8" height="8" rx="2"/>
+    <rect id="room-076279a713cc25e085474fbbc8097b2367601d5e" class="room indoor" data-label="cave entrance" x="270" y="403" width="8" height="8" rx="2"/>
     <circle id="room-4fff9702f548db55ecb5d3ce873d487e8e0a3893" class="room outdoor" data-label="just inside the gates of Calh-Nhad" cx="128" cy="1270" r="4"/>
     <circle id="room-675929bd93ef74581deb349fe1dbf35f643dc22c" class="room outdoor" data-label="lower branches of an ancient tree" cx="1177" cy="1152" r="4"/>
     <circle id="room-57a57db44c5dfecfe765fe6afb138016a5ed2548" class="room outdoor" data-label="sheltered section of desert" cx="1266" cy="285" r="4"/>
     <circle id="room-bbb1e8f46afd072419ac2d4cf2d32643dd242213" class="room outdoor room-shop" data-label="uneven plateau" cx="1266" cy="285" r="4"/><text class="room-type-label" x="1266" y="285" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-5c2b5d4403a4054f47a5d2dfec3c3a21659085a6" class="room outdoor" data-label="sheer rock wall" cx="1266" cy="285" r="4"/>
     <circle id="room-9510ca5ba41208e04d6faadd4987af0eba196ac4" class="room outdoor" data-label="sheer rock wall" cx="1266" cy="285" r="4"/>
-    <circle id="room-4186e010756d102e332252c623a050d184ebe095" class="room outdoor" data-label="cellar room in some ruins" cx="1374" cy="205" r="4"/>
+    <rect id="room-4186e010756d102e332252c623a050d184ebe095" class="room indoor" data-label="cellar room in some ruins" x="1370" y="201" width="8" height="8" rx="2"/>
     <circle id="room-d51ec3d04e8e3ab7a3f7f87ff7e1c63f1a302222" class="room outdoor" data-label="desert nest" cx="15" cy="166" r="4"/>
     <circle id="room-5269f52b5bcc97cc9129776c37acd2bd72a5287d" class="room outdoor" data-label="base of the huge rock" cx="124" cy="431" r="4"/>
-    <circle id="room-a8f57ed9da2d4d2b3801a9fadcb885364c816907" class="room outdoor" data-label="entry of dark cave" cx="106" cy="431" r="4"/>
-    <circle id="room-aecc6a5791c860d06cfb8cac0a6d2147bd101fcf" class="room outdoor" data-label="dark cave" cx="106" cy="447" r="4"/>
-    <circle id="room-ca88fce887ab6c4263bf6fcf21e702fb113c521d" class="room outdoor" data-label="dark cave" cx="106" cy="463" r="4"/>
-    <circle id="room-a967f43345cda33b2aae2fea058070b0a720181b" class="room outdoor" data-label="dark cave" cx="124" cy="463" r="4"/>
+    <rect id="room-a8f57ed9da2d4d2b3801a9fadcb885364c816907" class="room indoor" data-label="entry of dark cave" x="102" y="427" width="8" height="8" rx="2"/>
+    <rect id="room-aecc6a5791c860d06cfb8cac0a6d2147bd101fcf" class="room indoor" data-label="dark cave" x="102" y="443" width="8" height="8" rx="2"/>
+    <rect id="room-ca88fce887ab6c4263bf6fcf21e702fb113c521d" class="room indoor" data-label="dark cave" x="102" y="459" width="8" height="8" rx="2"/>
+    <rect id="room-a967f43345cda33b2aae2fea058070b0a720181b" class="room indoor" data-label="dark cave" x="120" y="459" width="8" height="8" rx="2"/>
     <circle id="room-8896fe9ed85c5550cf853a47b9621918bf5a3fcf" class="room outdoor" data-label="middle of rock" cx="124" cy="431" r="4"/>
-    <circle id="room-a3af17645c61b0a9473c098532a07461ac8f8c01" class="room outdoor" data-label="dark and dusty tent" cx="606" cy="1199" r="4"/>
+    <rect id="room-a3af17645c61b0a9473c098532a07461ac8f8c01" class="room indoor" data-label="dark and dusty tent" x="602" y="1195" width="8" height="8" rx="2"/>
     <circle id="room-1ce46dee68aa91fd90d4c81fe3d8279a91f59b2f" class="room outdoor" data-label="road" cx="872" cy="1363" r="4"/>
     <circle id="room-e60dcc23851f560743a9a779ae3eb99848880b8c" class="room outdoor" data-label="small square in a ruined settlement" cx="453" cy="48" r="4"/>
     <circle id="room-468f9a3a64cd010fcfde33bb32cfb337ecbb081a" class="room outdoor" data-label="boneyard" cx="467" cy="48" r="4"/>
     <circle id="room-23230ede4c254d29389247c696ed6251e5770966" class="room outdoor" data-label="badly damaged building" cx="453" cy="34" r="4"/><polygon class="stair-symbol" points="453,37 450.5,32 455.5,32"/>
     <circle id="room-dee9eabdedc2a41a9d662ec24d6899314698d6d8" class="room outdoor" data-label="south side of a ruined settlement" cx="453" cy="62" r="4"/><polygon class="stair-symbol" points="453,65 450.5,60 455.5,60"/>
-    <circle id="room-0f7794d362385bfe919fa7ba085567bf29747ca6" class="room outdoor" data-label="interior of a small tent" cx="449" cy="30" r="4"/>
-    <circle id="room-4edac31508aa3494b4bf3d609e698d5c36ab780c" class="room outdoor" data-label="north end of a grand hall" cx="493" cy="32" r="4"/><polygon class="stair-symbol" points="493,29 490.5,34 495.5,34"/>
-    <circle id="room-cdf76d4af60d1aedffd28f5ea431ae665813bc23" class="room outdoor room-shop" data-label="ruined side room" cx="481" cy="32" r="4"/><text class="room-type-label" x="481" y="32" text-anchor="middle" dominant-baseline="central">S</text>
-    <circle id="room-4ce0421659f7a4dc20b339196709e13699a5a268" class="room outdoor room-shop" data-label="ruined emporium" cx="505" cy="32" r="4"/><text class="room-type-label" x="505" y="32" text-anchor="middle" dominant-baseline="central">S</text>
-    <circle id="room-0a2a3a96cc7e0c245af890e9783fd6d3d9e68972" class="room outdoor" data-label="south end of a grand hall" cx="493" cy="44" r="4"/>
-    <circle id="room-f19f921a003038f66852d03dd828d92c8bfc2d96" class="room outdoor" data-label="utterly destroyed room" cx="505" cy="56" r="4"/>
-    <circle id="room-758e3902be303ef9045190ca3deb36b8d77b4ac9" class="room outdoor" data-label="entrance to a deep cave" cx="478" cy="99" r="4"/>
-    <circle id="room-d60b31a2c7cac32149549113b908aaf82a1b88b1" class="room outdoor" data-label="sloping passage in a cave" cx="466" cy="87" r="4"/>
-    <circle id="room-d8a2ae5639ef4e113c1108bb81fdf1678da1cc5b" class="room outdoor" data-label="fork in a strangely-lit cave" cx="478" cy="75" r="4"/>
-    <circle id="room-8fe45a8444fb5a89c8b90a960bff2bb5aa0e063b" class="room outdoor room-access" data-label="dimly-lit tannery" cx="490" cy="75" r="4"/><text class="room-type-label" x="490" y="75" text-anchor="middle" dominant-baseline="central">X</text>
-    <circle id="room-2d001bb9d31c3f750d2ce3dfb7813c515d3b7dc5" class="room outdoor" data-label="huge, strangely-lit forge" cx="478" cy="63" r="4"/>
+    <rect id="room-0f7794d362385bfe919fa7ba085567bf29747ca6" class="room indoor" data-label="interior of a small tent" x="445" y="26" width="8" height="8" rx="2"/>
+    <rect id="room-4edac31508aa3494b4bf3d609e698d5c36ab780c" class="room indoor" data-label="north end of a grand hall" x="489" y="28" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="493,29 490.5,34 495.5,34"/>
+    <rect id="room-cdf76d4af60d1aedffd28f5ea431ae665813bc23" class="room indoor room-shop" data-label="ruined side room" x="477" y="28" width="8" height="8" rx="2"/><text class="room-type-label" x="481" y="32" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-4ce0421659f7a4dc20b339196709e13699a5a268" class="room indoor room-shop" data-label="ruined emporium" x="501" y="28" width="8" height="8" rx="2"/><text class="room-type-label" x="505" y="32" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-0a2a3a96cc7e0c245af890e9783fd6d3d9e68972" class="room indoor" data-label="south end of a grand hall" x="489" y="40" width="8" height="8" rx="2"/>
+    <rect id="room-f19f921a003038f66852d03dd828d92c8bfc2d96" class="room indoor" data-label="utterly destroyed room" x="501" y="52" width="8" height="8" rx="2"/>
+    <rect id="room-758e3902be303ef9045190ca3deb36b8d77b4ac9" class="room indoor" data-label="entrance to a deep cave" x="474" y="95" width="8" height="8" rx="2"/>
+    <rect id="room-d60b31a2c7cac32149549113b908aaf82a1b88b1" class="room indoor" data-label="sloping passage in a cave" x="462" y="83" width="8" height="8" rx="2"/>
+    <rect id="room-d8a2ae5639ef4e113c1108bb81fdf1678da1cc5b" class="room indoor" data-label="fork in a strangely-lit cave" x="474" y="71" width="8" height="8" rx="2"/>
+    <rect id="room-8fe45a8444fb5a89c8b90a960bff2bb5aa0e063b" class="room indoor room-access" data-label="dimly-lit tannery" x="486" y="71" width="8" height="8" rx="2"/><text class="room-type-label" x="490" y="75" text-anchor="middle" dominant-baseline="central">X</text>
+    <rect id="room-2d001bb9d31c3f750d2ce3dfb7813c515d3b7dc5" class="room indoor" data-label="huge, strangely-lit forge" x="474" y="59" width="8" height="8" rx="2"/>
   </g>
 
 

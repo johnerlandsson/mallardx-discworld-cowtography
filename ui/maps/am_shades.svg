@@ -10,7 +10,7 @@
   </g>
 
   <g id="layer-rooms">
-    <rect id="room-01bbd8b887e71314d8e358cbaf4f585391206bc4" class="room indoor" data-label="maze entrance" x="42" y="175" width="8" height="8" rx="2"/>
+    <circle id="room-01bbd8b887e71314d8e358cbaf4f585391206bc4" class="room outdoor" data-label="maze entrance" cx="46" cy="179" r="4"/>
   </g>
 
 

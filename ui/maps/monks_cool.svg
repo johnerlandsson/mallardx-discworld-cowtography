@@ -111,7 +111,7 @@
   </g>
 
   <g id="layer-rooms">
-    <rect id="room-ff7aaf299c0b07b2f456918f2053841cb02916a2" class="room indoor" data-label="outside the Cool Temple" x="109" y="166" width="8" height="8" rx="2"/>
+    <circle id="room-ff7aaf299c0b07b2f456918f2053841cb02916a2" class="room outdoor" data-label="outside the Cool Temple" cx="113" cy="170" r="4"/>
     <rect id="room-ebf3d0072b82debba512b41f96eecd6031bd5034" class="room indoor" data-label="Cool cloakroom" x="109" y="153" width="8" height="8" rx="2"/>
     <rect id="room-3ee0459d4f065cc5e23504a1e58a0cd7c719f153" class="room indoor" data-label="south side of the foyer" x="109" y="139" width="8" height="8" rx="2"/>
     <rect id="room-5aaee0cc6892d9b6caa5a35f8678210684a117fd" class="room indoor" data-label="southwest corner of the foyer" x="95" y="139" width="8" height="8" rx="2"/>
@@ -132,7 +132,7 @@
     <rect id="room-2180012b2b3619e9ae21bf760a76d072a8ac5f2c" class="room indoor" data-label="bottom of a spiral staircase" x="123" y="111" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="127,112 124.5,117 129.5,117"/>
     <rect id="room-329e2483a388e713adc3706562ea35694c0caf36" class="room indoor" data-label="Cool bar" x="123" y="51" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="127,58 124.5,53 129.5,53"/>
     <rect id="room-15ebc768fdd8a1ab54a41f32579516a46acb4ea3" class="room indoor room-shop" data-label="Cool bar" x="109" y="51" width="8" height="8" rx="2"/><text class="room-type-label" x="113" y="55" text-anchor="middle" dominant-baseline="central">S</text>
-    <rect id="room-5825d8a087746daf2162be55f1ac309a86353c67" class="room indoor" data-label="Cool balcony" x="95" y="51" width="8" height="8" rx="2"/>
+    <circle id="room-5825d8a087746daf2162be55f1ac309a86353c67" class="room outdoor" data-label="Cool balcony" cx="99" cy="55" r="4"/>
     <rect id="room-c0b8cfdb479f07d54d965d18edd51cf178523d2f" class="room indoor" data-label="top of a stairwell" x="95" y="111" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="99,118 96.5,113 101.5,113"/>
     <rect id="room-591f81af59ed9748f3e243eea6f9d5b7b59f7e8e" class="room indoor" data-label="bottom of a flight of stairs" x="283" y="111" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="287,112 284.5,117 289.5,117"/>
     <rect id="room-ac557817d6c6afb6fb933c0850cae398b6bff53c" class="room indoor" data-label="corridor, west of some stairs" x="269" y="111" width="8" height="8" rx="2"/>

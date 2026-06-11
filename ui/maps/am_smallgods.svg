@@ -112,7 +112,7 @@
   </g>
 
   <g id="layer-rooms">
-    <rect id="room-e59f1c8f73806c54b29c2823bd7f8de936647fe7" class="room indoor" data-label="entrance to the Temple of Blind Io" x="217" y="94" width="8" height="8" rx="2"/>
+    <circle id="room-e59f1c8f73806c54b29c2823bd7f8de936647fe7" class="room outdoor" data-label="entrance to the Temple of Blind Io" cx="221" cy="98" r="4"/>
     <rect id="room-390f28100270174173c2a6fdecfad543986f99dd" class="room indoor" data-label="hallway" x="217" y="68" width="8" height="8" rx="2"/>
     <rect id="room-1b36457a8b9666e84b18536cc2de715dc48e520d" class="room indoor" data-label="hallway" x="217" y="44" width="8" height="8" rx="2"/>
     <rect id="room-0f86278e418b8475036ed189582f8a2f77585f6f" class="room indoor" data-label="temple shop" x="241" y="44" width="8" height="8" rx="2"/>
@@ -150,10 +150,10 @@
     <rect id="room-c2f0d5460dd5ab4aec118b337fae3e6b3dda35a2" class="room indoor" data-label="Chapel of Sandelfon" x="313" y="220" width="8" height="8" rx="2"/>
     <rect id="room-e4e1b55860177ac149a3aa1b242c2e634bacb660" class="room indoor" data-label="Chapel of Sek" x="313" y="196" width="8" height="8" rx="2"/>
     <rect id="room-f3e68cec5e839d9f52daab8adddeacece5dcf381" class="room indoor" data-label="Chapel of Gufnork" x="313" y="244" width="8" height="8" rx="2"/>
-    <rect id="room-c96a1222edd608455413dd81be109c6441e05628" class="room indoor" data-label="northern part of the temple gardens" x="339" y="220" width="8" height="8" rx="2"/>
-    <rect id="room-53bbbeac657eb23cca7dda93d208b34b30953941" class="room indoor" data-label="small garden" x="339" y="192" width="8" height="8" rx="2"/>
-    <rect id="room-18c958313f70590bbeb5102dfde60f196007cd6b" class="room indoor" data-label="middle part of the Temple gardens" x="339" y="263" width="8" height="8" rx="2"/>
-    <rect id="room-802aab6a05b134188dfc8540c0526b74a7521078" class="room indoor room-shop" data-label="bottom part of the Temple gardens" x="286" y="316" width="8" height="8" rx="2"/><text class="room-type-label" x="290" y="320" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-c96a1222edd608455413dd81be109c6441e05628" class="room outdoor" data-label="northern part of the temple gardens" cx="343" cy="224" r="4"/>
+    <circle id="room-53bbbeac657eb23cca7dda93d208b34b30953941" class="room outdoor" data-label="small garden" cx="343" cy="196" r="4"/>
+    <circle id="room-18c958313f70590bbeb5102dfde60f196007cd6b" class="room outdoor" data-label="middle part of the Temple gardens" cx="343" cy="267" r="4"/>
+    <circle id="room-802aab6a05b134188dfc8540c0526b74a7521078" class="room outdoor room-shop" data-label="bottom part of the Temple gardens" cx="290" cy="320" r="4"/><text class="room-type-label" x="290" y="320" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-26fce4c5b58cfacfdc3039b5e38b8fc1cf275129" class="room indoor" data-label="southernmost point of the southern corridor" x="217" y="316" width="8" height="8" rx="2"/>
     <rect id="room-13c33a2610639d0964b07ea27c650c46c2bb2434" class="room indoor room-clothes" data-label="relic shop" x="217" y="340" width="8" height="8" rx="2"/><text class="room-type-label" x="221" y="344" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-96fbb85b40e6b5bf50eaea8f3da113a432a0b7a2" class="room indoor room-shop" data-label="Temple furniture shop" x="193" y="316" width="8" height="8" rx="2"/><text class="room-type-label" x="197" y="320" text-anchor="middle" dominant-baseline="central">S</text>

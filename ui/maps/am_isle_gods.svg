@@ -79,22 +79,22 @@
   </g>
 
   <g id="layer-rooms">
-    <rect id="room-5e27050325284b7b94f817fd6166a35c7f987bdf" class="room indoor" data-label="Craft Court" x="364" y="113" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="368,114 365.5,119 370.5,119"/>
+    <circle id="room-5e27050325284b7b94f817fd6166a35c7f987bdf" class="room outdoor" data-label="Craft Court" cx="368" cy="117" r="4"/><polygon class="stair-symbol" points="368,114 365.5,119 370.5,119"/>
     <rect id="room-1c9820c7afe11b2b2179790240b815f1a179a1cd" class="room indoor room-food" data-label="toy stall" x="340" y="89" width="8" height="8" rx="2"/><text class="room-type-label" x="344" y="93" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-619048da2bed852c66ddf1b6d93070f7cf62a2af" class="room indoor room-shop" data-label="iron furniture shop" x="388" y="89" width="8" height="8" rx="2"/><text class="room-type-label" x="392" y="93" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-ccde479add4c4ea5901cfd160748d18ee376d01a" class="room indoor" data-label="entrance to Lord Wynkin&#x27;s Men" x="567" y="205" width="8" height="8" rx="2"/>
     <rect id="room-6b266bc746af113a07849938f60eb42182d68151" class="room indoor" data-label="backstage area of Lord Wynkin&#x27;s Men" x="495" y="204" width="8" height="8" rx="2"/>
-    <rect id="room-3a30691d817ee98da64b5596eed811793548a5e6" class="room indoor" data-label="southwest corner of Thespians&#x27; Yard" x="620" y="177" width="8" height="8" rx="2"/>
-    <rect id="room-32bb14b0677a0c80e6259053d72a871adddfeb7b" class="room indoor" data-label="northwest corner of Thespians&#x27; Yard" x="592" y="149" width="8" height="8" rx="2"/>
-    <rect id="room-709b3eed2a4943ac45f075098b405a7fe1bac2d7" class="room indoor" data-label="Thespians&#x27; Yard in front of the Dysk" x="648" y="177" width="8" height="8" rx="2"/>
-    <rect id="room-b0c5e571c29ba15380238907d4eae01e4393a918" class="room indoor" data-label="southeast corner of Thespians&#x27; Yard" x="676" y="177" width="8" height="8" rx="2"/>
-    <rect id="room-7b6f0987cd08680eb73114ffaaf1fe5a47e8556b" class="room indoor" data-label="northeast corner of Thespians&#x27; Yard" x="676" y="149" width="8" height="8" rx="2"/>
+    <circle id="room-3a30691d817ee98da64b5596eed811793548a5e6" class="room outdoor" data-label="southwest corner of Thespians&#x27; Yard" cx="624" cy="181" r="4"/>
+    <circle id="room-32bb14b0677a0c80e6259053d72a871adddfeb7b" class="room outdoor" data-label="northwest corner of Thespians&#x27; Yard" cx="596" cy="153" r="4"/>
+    <circle id="room-709b3eed2a4943ac45f075098b405a7fe1bac2d7" class="room outdoor" data-label="Thespians&#x27; Yard in front of the Dysk" cx="652" cy="181" r="4"/>
+    <circle id="room-b0c5e571c29ba15380238907d4eae01e4393a918" class="room outdoor" data-label="southeast corner of Thespians&#x27; Yard" cx="680" cy="181" r="4"/>
+    <circle id="room-7b6f0987cd08680eb73114ffaaf1fe5a47e8556b" class="room outdoor" data-label="northeast corner of Thespians&#x27; Yard" cx="680" cy="153" r="4"/>
     <rect id="room-bc4e05ae1b2f72fc09eac79e1f210ce95c9381a6" class="room indoor" data-label="main hall of the Actors&#x27; Guild" x="648" y="203" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="652,204 649.5,209 654.5,209"/>
     <rect id="room-1dfef612dd93c797e9fcf31e6ffdb249832bd39c" class="room indoor room-shop" data-label="Actors&#x27; Guild bar" x="624" y="203" width="8" height="8" rx="2"/><text class="room-type-label" x="628" y="207" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-a397123cec941a8ae13e1187cc368eeaa5b3a9aa" class="room indoor" data-label="Actors&#x27; Guild practice room" x="648" y="227" width="8" height="8" rx="2"/>
     <rect id="room-90f7801f244481afc7a833f5f4ed83aa1df105d2" class="room indoor" data-label="Actors&#x27; Guild applications room" x="676" y="227" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="680,234 677.5,229 682.5,229"/>
     <rect id="room-49b5c096fd0bbae38c0007f57a1694e4c9d9ae00" class="room indoor room-clothes" data-label="ticket office" x="648" y="151" width="8" height="8" rx="2"/><text class="room-type-label" x="652" y="155" text-anchor="middle" dominant-baseline="central">C</text>
-    <rect id="room-ff068f137e29e666133d4692b6e41b283ff0a958" class="room indoor" data-label="alley at the back of the Dysk" x="736" y="89" width="8" height="8" rx="2"/>
+    <circle id="room-ff068f137e29e666133d4692b6e41b283ff0a958" class="room outdoor" data-label="alley at the back of the Dysk" cx="740" cy="93" r="4"/>
     <rect id="room-046ea96afbe1cf73a631239745564c9837b64093" class="room indoor" data-label="backstage in the Dysk" x="712" y="65" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="716,66 713.5,71 718.5,71"/>
     <rect id="room-8df3063b62438326e176fd319f24eaa2c2ca2a88" class="room indoor" data-label="Musicians&#x27; Pit" x="712" y="41" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="716,48 713.5,43 718.5,43"/>
     <rect id="room-bfec7b45af895c88f90b6dc4584e48a7ba86a374" class="room indoor" data-label="Hwel&#x27;s study" x="736" y="41" width="8" height="8" rx="2"/>
@@ -135,7 +135,7 @@
     <rect id="room-36e93aee4ac68e6828cd19bf708b99e2ae9dca14" class="room indoor" data-label="Monsieur Rosset&#x27;s Hairdressing Salon" x="109" y="171" width="8" height="8" rx="2"/>
     <rect id="room-8b7d2dbd41744b188df4742bd78b7184a1913bf8" class="room indoor" data-label="Monsieur Rosset&#x27;s Manicure Studio" x="133" y="171" width="8" height="8" rx="2"/>
     <rect id="room-108e5e762f597121a6994986373fc031c2402fba" class="room indoor room-shop" data-label="Monsieur Rosset&#x27;s Beauty Parlour" x="157" y="171" width="8" height="8" rx="2"/><text class="room-type-label" x="161" y="175" text-anchor="middle" dominant-baseline="central">S</text>
-    <rect id="room-7ef51231a71e4077b135c6e96da5e67fa0042180" class="room indoor" data-label="first-storey landing" x="349" y="64" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="353,71 350.5,66 355.5,66"/>
+    <circle id="room-7ef51231a71e4077b135c6e96da5e67fa0042180" class="room outdoor" data-label="first-storey landing" cx="353" cy="68" r="4"/><polygon class="stair-symbol" points="353,71 350.5,66 355.5,66"/>
     <rect id="room-e9acbc0b489c83ce0cf6cae37637ce6f3ed2145a" class="room indoor room-clothes" data-label="High Life" x="349" y="38" width="8" height="8" rx="2"/><text class="room-type-label" x="353" y="42" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-9511b1a6862374436937785b230918c146e88073" class="room indoor room-shop" data-label="Masqueparade" x="324" y="64" width="8" height="8" rx="2"/><text class="room-type-label" x="328" y="68" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-b2cbb10ce3aac6299eca31664ee4e8f7590f8376" class="room indoor room-shop" data-label="Playwrights Guild office" x="676" y="203" width="8" height="8" rx="2"/><text class="room-type-label" x="680" y="207" text-anchor="middle" dominant-baseline="central">S</text>
@@ -143,15 +143,15 @@
     <rect id="room-484c7a4913276d613ecb73167dd4b4a0cda8e522" class="room indoor" data-label="cosy craft room" x="385" y="391" width="8" height="8" rx="2"/>
     <rect id="room-463a7cbd3b3a0784abf6f33c10159ff0564b6aa3" class="room indoor" data-label="cosy office" x="361" y="343" width="8" height="8" rx="2"/>
     <rect id="room-f6f767ef03b5d391c6ed53044777cbb4afa5952d" class="room indoor" data-label="cosy bedsit" x="337" y="367" width="8" height="8" rx="2"/>
-    <rect id="room-d820ac7b02edfd7c49cdaafb51006fcb61f23d57" class="room indoor" data-label="court of the Dysk" x="648" y="127" width="8" height="8" rx="2"/>
+    <circle id="room-d820ac7b02edfd7c49cdaafb51006fcb61f23d57" class="room outdoor" data-label="court of the Dysk" cx="652" cy="131" r="4"/>
     <rect id="room-787ab2c6899e05790260386c2d1365693fc4c4bd" class="room indoor" data-label="corridor east of the foyer" x="672" y="103" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="676,104 673.5,109 678.5,109"/>
     <rect id="room-454452b0bb49064818621856e9795c4ac72b8d10" class="room indoor" data-label="upper foyer" x="672" y="79" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="676,86 673.5,81 678.5,81"/>
     <rect id="room-58aba344577b8620f9f0b971fa15f3b0bac03120" class="room indoor" data-label="upstairs seating" x="648" y="103" width="8" height="8" rx="2"/>
     <rect id="room-597e754a10bdd91e842a3403c3266d11c68e3fda" class="room indoor" data-label="audience booth" x="624" y="79" width="8" height="8" rx="2"/>
     <rect id="room-ae979ecd274f4afce0a616030d3850540d32b70b" class="room indoor" data-label="Patricial booth" x="624" y="55" width="8" height="8" rx="2"/>
-    <rect id="room-804e7678eaf8b9d8a9955c9c9396fb0e0296fe2c" class="room indoor" data-label="court of the Dysk" x="600" y="79" width="8" height="8" rx="2"/>
-    <rect id="room-888d806ac7d181c92e34b2b52ab46a5554a53f25" class="room indoor" data-label="court of the Dysk" x="600" y="55" width="8" height="8" rx="2"/>
-    <rect id="room-72a1d5652644c2b15e9a1ebc032a7fd62089f616" class="room indoor" data-label="court of the Dysk" x="624" y="31" width="8" height="8" rx="2"/>
+    <circle id="room-804e7678eaf8b9d8a9955c9c9396fb0e0296fe2c" class="room outdoor" data-label="court of the Dysk" cx="604" cy="83" r="4"/>
+    <circle id="room-888d806ac7d181c92e34b2b52ab46a5554a53f25" class="room outdoor" data-label="court of the Dysk" cx="604" cy="59" r="4"/>
+    <circle id="room-72a1d5652644c2b15e9a1ebc032a7fd62089f616" class="room outdoor" data-label="court of the Dysk" cx="628" cy="35" r="4"/>
     <rect id="room-f0ae243a689b6cf5ec4831f882c8ef52719a6196" class="room indoor" data-label="stage of Lord Wynkin&#x27;s Men" x="519" y="204" width="8" height="8" rx="2"/>
     <rect id="room-57b280f13b7ac575a7652344ac90ab757944df4d" class="room indoor" data-label="audience area of Lord Wynkin&#x27;s Men" x="543" y="205" width="8" height="8" rx="2"/>
     <rect id="room-d62aef749995d7ef9a271e5d91157d233dd5ace2" class="room indoor room-house" data-label="[player house]" x="385" y="391" width="8" height="8" rx="2"/><text class="room-type-label" x="389" y="395" text-anchor="middle" dominant-baseline="central">H</text>

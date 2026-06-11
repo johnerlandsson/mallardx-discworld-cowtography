@@ -122,13 +122,13 @@
     <rect id="room-f238a81d6d99de8b7b7b9c74b6bfa3f4781daca0" class="room indoor" data-label="eastern edge of the second floor" x="343" y="244" width="8" height="8" rx="2"/>
     <rect id="room-65f6e7d59782243fed1e98aea8d669f2983df086" class="room indoor" data-label="southern side of the second floor" x="319" y="268" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="323,269 325.5,272 323,275 320.5,272"/>
     <rect id="room-1f4d63ec2eef6bc9caa67e20a801f62135e81ae6" class="room indoor" data-label="western side of the second floor" x="295" y="244" width="8" height="8" rx="2"/>
-    <rect id="room-0d9742ebe98dec2e612f9379cddbd4c121b421d3" class="room indoor" data-label="tiny balcony" x="271" y="244" width="8" height="8" rx="2"/>
+    <circle id="room-0d9742ebe98dec2e612f9379cddbd4c121b421d3" class="room outdoor" data-label="tiny balcony" cx="275" cy="248" r="4"/>
     <rect id="room-dd68200d7a58603085e0c8247b33202b64514b97" class="room indoor" data-label="middle of the second floor" x="319" y="244" width="8" height="8" rx="2"/>
     <rect id="room-2cd6c9224435b0dcc6bb6809ec9f74d179b39c39" class="room indoor" data-label="southern part of the third floor" x="414" y="269" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="418,276 415.5,271 420.5,271"/>
     <rect id="room-18c96dad0549ae8783ef0a988b2e3bc0aa95242b" class="room indoor" data-label="northern part of the third floor" x="415" y="218" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="419,225 416.5,220 421.5,220"/>
     <rect id="room-03421121f63140dd9f69dceb18f08bd3afb6d504" class="room indoor" data-label="east part of the third floor" x="439" y="242" width="8" height="8" rx="2"/>
     <rect id="room-11b5850bea179312fcd10faff6f3f900eb1dd41f" class="room indoor" data-label="western part of the third floor" x="391" y="245" width="8" height="8" rx="2"/>
-    <rect id="room-293d0928a4d0cb2b8b48d77b2ad998f9cb157b14" class="room indoor" data-label="roof of the Salt Shaker" x="415" y="136" width="8" height="8" rx="2"/>
+    <circle id="room-293d0928a4d0cb2b8b48d77b2ad998f9cb157b14" class="room outdoor" data-label="roof of the Salt Shaker" cx="419" cy="140" r="4"/>
     <rect id="room-AMPepperPot" class="room indoor" data-label="somewhere in the middle of the maze" x="101" y="267" width="8" height="8" rx="2"/>
     <rect id="room-c492a94ebc15ed66dc4fa1dc95ba8a01d7a22677" class="room indoor" data-label="entry of a flat" x="197" y="66" width="8" height="8" rx="2"/>
     <rect id="room-317e3056b7bdc7fd8621b4d1a42a4207851e0f90" class="room indoor" data-label="living room" x="197" y="42" width="8" height="8" rx="2"/>

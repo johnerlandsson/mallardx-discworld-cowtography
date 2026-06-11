@@ -234,7 +234,7 @@
     <rect id="room-06a675cebf41c62d72eaca3e9aecf5b1768c2458" class="room indoor" data-label="voting foyer" x="94" y="96" width="8" height="8" rx="2"/>
     <rect id="room-56e64b57ad52d38d683fadbe2295e540d6a3600e" class="room indoor" data-label="voting booth" x="94" y="96" width="8" height="8" rx="2"/>
     <rect id="room-902a225ed35731454e1b7b374ec808f27b258bb8" class="room indoor room-food" data-label="Council Cafe" x="119" y="121" width="8" height="8" rx="2"/><text class="room-type-label" x="123" y="125" text-anchor="middle" dominant-baseline="central">F</text>
-    <rect id="room-0e593a9bd77a2fcf8ba4b802216b2a5084cdeb2e" class="room indoor" data-label="garden outside Milords and Miladies Pavilion" x="484" y="86" width="8" height="8" rx="2"/>
+    <circle id="room-0e593a9bd77a2fcf8ba4b802216b2a5084cdeb2e" class="room outdoor" data-label="garden outside Milords and Miladies Pavilion" cx="488" cy="90" r="4"/>
     <rect id="room-4bdcf399913a4a773d299cee7b4a95300dbd76b9" class="room indoor" data-label="Grand Hall of Milords &amp; Miladies" x="484" y="112" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="488,119 485.5,114 490.5,114"/>
     <rect id="room-6f2efdc2039123bb50035a9201854a8c51bf7f88" class="room indoor" data-label="Benevolent Registry" x="509" y="112" width="8" height="8" rx="2"/>
     <rect id="room-315ea172adf4ac5a1d774a679e386f84b52d26e7" class="room indoor" data-label="dusty store room" x="509" y="137" width="8" height="8" rx="2"/>
@@ -255,10 +255,10 @@
     <rect id="room-fd53458de83f3fc108313a64fbf22ad752eff54e" class="room indoor" data-label="Pavilion Tearoom" x="993" y="112" width="8" height="8" rx="2"/>
     <rect id="room-084a704b19a5804f0710df04a1bf71b2a6d6642e" class="room indoor" data-label="Reception Salon" x="1041" y="112" width="8" height="8" rx="2"/>
     <rect id="room-b67560d37855b2f018fcda7ba7d2f9b905aa648d" class="room indoor" data-label="Chapel of Flowers" x="1017" y="88" width="8" height="8" rx="2"/>
-    <rect id="room-1ee03aa45f4dfe38b47e1d65fa2ad5c9b8a6b41a" class="room indoor" data-label="roof gardens, outside the reception Salon" x="1067" y="112" width="8" height="8" rx="2"/>
-    <rect id="room-8276fa0ed8aa8b3af305476209596a5bb60e989e" class="room indoor" data-label="roof gardens, outside Rose Cottage" x="1017" y="38" width="8" height="8" rx="2"/>
+    <circle id="room-1ee03aa45f4dfe38b47e1d65fa2ad5c9b8a6b41a" class="room outdoor" data-label="roof gardens, outside the reception Salon" cx="1071" cy="116" r="4"/>
+    <circle id="room-8276fa0ed8aa8b3af305476209596a5bb60e989e" class="room outdoor" data-label="roof gardens, outside Rose Cottage" cx="1021" cy="42" r="4"/>
     <rect id="room-15a5d2e220f6d4fdcda262b48f24d9057cdb90d8" class="room indoor" data-label="Rose Cottage" x="1017" y="64" width="8" height="8" rx="2"/>
-    <rect id="room-27b87a3aa2288bb3cea5ef7f8b75be4238462d34" class="room indoor" data-label="roof gardens, outside the Tearoom" x="967" y="112" width="8" height="8" rx="2"/>
+    <circle id="room-27b87a3aa2288bb3cea5ef7f8b75be4238462d34" class="room outdoor" data-label="roof gardens, outside the Tearoom" cx="971" cy="116" r="4"/>
     <rect id="room-03d78b3b0885c5e931b7bf92b7c935c85796a0e3" class="room indoor" data-label="entrance hall of the Magical Supplies Emporium" x="394" y="415" width="8" height="8" rx="2"/>
     <rect id="room-cccd323dcbf7e3a9c7b97ed4931e87437256b64a" class="room indoor" data-label="office of the Magical Supplies Emporium" x="394" y="391" width="8" height="8" rx="2"/>
     <rect id="room-4b403a14479ce57e703f18872b3fada397e95c02" class="room indoor room-food" data-label="Emporium Tea Shoppe" x="394" y="439" width="8" height="8" rx="2"/><text class="room-type-label" x="398" y="443" text-anchor="middle" dominant-baseline="central">F</text>
@@ -273,7 +273,7 @@
     <rect id="room-7f0f39a873a794d682c9eed9261623e0fef2f357" class="room indoor" data-label="behind the counter of Tarnach&#x27;s shop" x="520" y="374" width="8" height="8" rx="2"/>
     <rect id="room-3077fbb368bc556a5de787a2a56374031f6736c7" class="room indoor" data-label="office of Tarnach&#x27;s shop" x="520" y="374" width="8" height="8" rx="2"/>
     <rect id="room-d4a89cb17dd6435816e56effc4a4e31cd41ce1c6" class="room indoor" data-label="storeroom of Tarnach&#x27;s shop" x="520" y="374" width="8" height="8" rx="2"/>
-    <rect id="room-80e0a84b2e5202d4d08641d2636398e0af7ad375" class="room indoor" data-label="courtyard" x="669" y="403" width="8" height="8" rx="2"/>
+    <circle id="room-80e0a84b2e5202d4d08641d2636398e0af7ad375" class="room outdoor" data-label="courtyard" cx="673" cy="407" r="4"/>
     <rect id="room-2e1dbda4021a8a5bb68fdcdcd1947648022f14f9" class="room indoor" data-label="side hall" x="643" y="403" width="8" height="8" rx="2"/>
     <rect id="room-3ea8f0b57f705c413ab25c5b5617acd6451174ac" class="room indoor" data-label="small room" x="643" y="427" width="8" height="8" rx="2"/>
     <rect id="room-cce108f99eabf38e6fa89c1e452e655a3e54e890" class="room indoor" data-label="Hall of Heroes" x="667" y="427" width="8" height="8" rx="2"/>
@@ -326,7 +326,7 @@
     <rect id="room-09bef2c01a72c441eddd434c819c98002536a4df" class="room indoor" data-label="long corridor of doors" x="775" y="379" width="8" height="8" rx="2"/>
     <rect id="room-ef16388574c4af542f8813bc75a81466a38ab4d2" class="room indoor" data-label="long corridor of doors" x="775" y="379" width="8" height="8" rx="2"/>
     <rect id="room-b1e8ee373198b93b9ffac4ce6e42867a656fd2df" class="room indoor" data-label="hallway" x="1015" y="360" width="8" height="8" rx="2"/>
-    <rect id="room-eb48c08e4fded932a4d632545f215b83b9ad145f" class="room indoor" data-label="entrance yard" x="989" y="360" width="8" height="8" rx="2"/>
+    <circle id="room-eb48c08e4fded932a4d632545f215b83b9ad145f" class="room outdoor" data-label="entrance yard" cx="993" cy="364" r="4"/>
     <rect id="room-9756579bcc606001be90242b5f04cc79dc6194e1" class="room indoor" data-label="hallway" x="989" y="386" width="8" height="8" rx="2"/>
     <rect id="room-9bf008efdc36420b7621328d1a744a118cf9da18" class="room indoor" data-label="waiting room" x="989" y="410" width="8" height="8" rx="2"/>
     <rect id="room-a77b8b58e1605ad5c4f5af2b2f47e6115e6a9deb" class="room indoor" data-label="reception area" x="989" y="434" width="8" height="8" rx="2"/>
@@ -338,7 +338,7 @@
     <rect id="room-142a356566a91c3d5c32ea38ce1a01edab1b8e7c" class="room indoor" data-label="stairway in the Flintwick Building" x="915" y="324" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="919,325 921.5,328 919,331 916.5,328"/>
     <rect id="room-f3396b73e9e92bef64e35964b2dc3ea7d43640d7" class="room indoor" data-label="top of a staircase in the Flintwick Building" x="915" y="288" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="919,295 916.5,290 921.5,290"/>
     <rect id="room-56962be70158ec81c6cdc24c76ad76faafb70c0f" class="room indoor" data-label="hallway" x="940" y="288" width="8" height="8" rx="2"/>
-    <rect id="room-455936a3eba29640b0a95281995205245cc84114" class="room indoor" data-label="walkway outside the Flintwick Building" x="965" y="288" width="8" height="8" rx="2"/>
+    <circle id="room-455936a3eba29640b0a95281995205245cc84114" class="room outdoor" data-label="walkway outside the Flintwick Building" cx="969" cy="292" r="4"/>
     <rect id="room-efae39d6e661d1f4aea47518b616116cccf81538" class="room indoor" data-label="white-walled room" x="940" y="312" width="8" height="8" rx="2"/>
     <rect id="room-69be1113ef6f5c03070a53b47442e36558f0b45b" class="room indoor" data-label="solicitors&#x27; reception" x="940" y="264" width="8" height="8" rx="2"/>
     <rect id="room-b54981c3e9f05054b495e1141e15842eeee473fe" class="room indoor" data-label="foyer in the Patrician&#x27;s Palace" x="152" y="397" width="8" height="8" rx="2"/>
@@ -360,19 +360,19 @@
     <rect id="room-1720f64c8fd19126b9f3e011c008ce3e3c5ccb0c" class="room indoor" data-label="entrance to the Mended Drum" x="1242" y="114" width="8" height="8" rx="2"/>
     <rect id="room-964ea3c5f971d538232e683612cd41900c232bdd" class="room indoor room-food" data-label="bar of the Mended Drum" x="1242" y="86" width="8" height="8" rx="2"/><text class="room-type-label" x="1246" y="90" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-801621fc9307a20a40cb01f59c9f97590d685ad5" class="room indoor" data-label="western part of the Mended Drum" x="1213" y="86" width="8" height="8" rx="2"/>
-    <rect id="room-b19063057a9d15e84d4ca055e7aa17b321299339" class="room indoor" data-label="outside the Drum&#x27;s back door" x="1213" y="60" width="8" height="8" rx="2"/>
+    <circle id="room-b19063057a9d15e84d4ca055e7aa17b321299339" class="room outdoor" data-label="outside the Drum&#x27;s back door" cx="1217" cy="64" r="4"/>
     <rect id="room-c5089ada29acbbdf794fbe5d743211965e4baa6b" class="room indoor" data-label="toilets of the Mended Drum" x="1242" y="62" width="8" height="8" rx="2"/>
     <rect id="room-f53148d0a6ba06ae9f0a641e6a7cbe93c4a47821" class="room indoor" data-label="cubicle in the toilets of the Mended Drum" x="1234" y="46" width="8" height="8" rx="2"/>
     <rect id="room-0fa878f1dd61e01be4815215540889880d082f9d" class="room indoor" data-label="cubicle in the toilets of the Mended Drum" x="1248" y="46" width="8" height="8" rx="2"/>
     <rect id="room-760dd280f07930dc6e92e10fd1748605e7b07ea0" class="room indoor" data-label="landing on the first floor in the Mended Drum" x="1274" y="76" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="1278,83 1275.5,78 1280.5,78"/>
-    <rect id="room-dddeea620f12f63658bf719cb6cc87519639c5a4" class="room indoor" data-label="front wall of the Mended Drum" x="1335" y="91" width="8" height="8" rx="2"/>
+    <circle id="room-dddeea620f12f63658bf719cb6cc87519639c5a4" class="room outdoor" data-label="front wall of the Mended Drum" cx="1339" cy="95" r="4"/>
     <rect id="room-703d6485af02c2dc0fb91b5f49c511cc0b423038" class="room indoor" data-label="east part of a mansion hallway" x="1274" y="324" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="1278,325 1275.5,330 1280.5,330"/>
     <rect id="room-6ba9fabab7c10ac0eae8bd08f6846c81a0ee332f" class="room indoor" data-label="inside of the Five Ways bell tower" x="1448" y="373" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="1452,374 1449.5,379 1454.5,379"/>
     <rect id="room-61869b41d527f83f382799909780421a5760eee3" class="room indoor" data-label="inside of the Five Ways bell tower" x="1468" y="353" width="8" height="8" rx="2"/>
     <rect id="room-86bea63520493a87d192da16c59dce1ed7eebfc8" class="room indoor" data-label="inside of the Five Ways bell tower" x="1448" y="333" width="8" height="8" rx="2"/>
     <rect id="room-51d43ca7cb748df9c35d98ed9bc4424b8b7b5eb8" class="room indoor" data-label="inside of the Five Ways bell tower" x="1428" y="353" width="8" height="8" rx="2"/>
-    <rect id="room-3bcea5684b07a085679ba91d274e6e26c2b2f9fd" class="room indoor" data-label="ledge on the outside of the Bell Tower" x="1494" y="311" width="8" height="8" rx="2"/>
-    <rect id="room-8d85eec6c8113f4bfdb8f09119aba107961194a7" class="room indoor" data-label="ledge on the outside of the Bell Tower" x="1494" y="271" width="8" height="8" rx="2"/>
+    <circle id="room-3bcea5684b07a085679ba91d274e6e26c2b2f9fd" class="room outdoor" data-label="ledge on the outside of the Bell Tower" cx="1498" cy="315" r="4"/>
+    <circle id="room-8d85eec6c8113f4bfdb8f09119aba107961194a7" class="room outdoor" data-label="ledge on the outside of the Bell Tower" cx="1498" cy="275" r="4"/>
     <rect id="room-565f0efbcaaa8849d677056e78f51eb93686ef74" class="room indoor" data-label="south side of the Bell Tower" x="1459" y="257" width="8" height="8" rx="2"/>
     <rect id="room-b505cea235fb936244eb61419609ecc59cef876b" class="room indoor" data-label="south side of the Five Ways Bell Tower" x="1439" y="257" width="8" height="8" rx="2"/>
     <rect id="room-775f6f860735416e389adfd3caada0c612bae901" class="room indoor" data-label="west side of the Five Ways Bell Tower" x="1419" y="237" width="8" height="8" rx="2"/>
@@ -392,18 +392,18 @@
     <rect id="room-9b9b573c98440addb357056679e3577b269a3bc0" class="room indoor" data-label="lounge" x="51" y="121" width="8" height="8" rx="2"/>
     <rect id="room-435b7cfbdf3d86b098dbd6988ee5c0ad27df5ee2" class="room indoor" data-label="clacks room" x="51" y="96" width="8" height="8" rx="2"/>
     <rect id="room-3010cb5d77dace78958313b96051f2eef6aec841" class="room indoor" data-label="magistrate office" x="51" y="146" width="8" height="8" rx="2"/>
-    <rect id="room-b76709d15049cedbb567c2b8e6c2d42ab3c99519" class="room indoor" data-label="roof of the Mended Drum" x="1308" y="48" width="8" height="8" rx="2"/>
-    <rect id="room-5d17f73fc02856c50cd5b283758f46a4f5b93384" class="room indoor" data-label="roof of the Mended Drum" x="1336" y="48" width="8" height="8" rx="2"/>
-    <rect id="room-202c768084c1430dd61be418824c81a78a5bf11c" class="room indoor" data-label="roof of the Mended Drum" x="1308" y="76" width="8" height="8" rx="2"/>
-    <rect id="room-0564fb70ef79e7cd286b24e158c3838dfdb5d964" class="room indoor" data-label="roof of the Mended Drum" x="1336" y="76" width="8" height="8" rx="2"/>
-    <rect id="room-a46ae1e484a48fa8ce1fbd608ff6921ae46130a6" class="room indoor" data-label="back wall of the Mended Drum" x="1213" y="60" width="8" height="8" rx="2"/>
+    <circle id="room-b76709d15049cedbb567c2b8e6c2d42ab3c99519" class="room outdoor" data-label="roof of the Mended Drum" cx="1312" cy="52" r="4"/>
+    <circle id="room-5d17f73fc02856c50cd5b283758f46a4f5b93384" class="room outdoor" data-label="roof of the Mended Drum" cx="1340" cy="52" r="4"/>
+    <circle id="room-202c768084c1430dd61be418824c81a78a5bf11c" class="room outdoor" data-label="roof of the Mended Drum" cx="1312" cy="80" r="4"/>
+    <circle id="room-0564fb70ef79e7cd286b24e158c3838dfdb5d964" class="room outdoor" data-label="roof of the Mended Drum" cx="1340" cy="80" r="4"/>
+    <circle id="room-a46ae1e484a48fa8ce1fbd608ff6921ae46130a6" class="room outdoor" data-label="back wall of the Mended Drum" cx="1217" cy="64" r="4"/>
     <rect id="room-3c98e94a0b39b532d299beafc8c8a2d57993a2ae" class="room indoor" data-label="Tarnach Fendertwin&#x27;s office" x="520" y="374" width="8" height="8" rx="2"/>
     <rect id="room-8e469fbe908825f18faf22f8b775601a7a421e33" class="room indoor" data-label="cellar of the Five Ways bell tower" x="1399" y="333" width="8" height="8" rx="2"/>
-    <rect id="room-9be5c4f069d103e4444c9e36f5a0a020b8d59107" class="room indoor" data-label="south side of the Bell Tower&#x27;s roof" x="1450" y="149" width="8" height="8" rx="2"/>
-    <rect id="room-7575d9ebc6b1cd3aa9a6fb20f4abcb420eed27b5" class="room indoor" data-label="east side of the Bell Tower&#x27;s roof" x="1474" y="125" width="8" height="8" rx="2"/>
-    <rect id="room-11c7a5f8afa590e801dcf3d69bdb1506822a4785" class="room indoor" data-label="apex of the Bell Tower" x="1450" y="125" width="8" height="8" rx="2"/>
-    <rect id="room-41a5806d157015bfc5e051eaa355b9687f7cabb5" class="room indoor" data-label="The north part of the Bell Tower&#x27;s roof" x="1450" y="101" width="8" height="8" rx="2"/>
-    <rect id="room-e1957522ab96e2995872d760b3d4124d804bd9ca" class="room indoor" data-label="west part of the Bell Tower&#x27;s roof" x="1426" y="125" width="8" height="8" rx="2"/>
+    <circle id="room-9be5c4f069d103e4444c9e36f5a0a020b8d59107" class="room outdoor" data-label="south side of the Bell Tower&#x27;s roof" cx="1454" cy="153" r="4"/>
+    <circle id="room-7575d9ebc6b1cd3aa9a6fb20f4abcb420eed27b5" class="room outdoor" data-label="east side of the Bell Tower&#x27;s roof" cx="1478" cy="129" r="4"/>
+    <circle id="room-11c7a5f8afa590e801dcf3d69bdb1506822a4785" class="room outdoor" data-label="apex of the Bell Tower" cx="1454" cy="129" r="4"/>
+    <circle id="room-41a5806d157015bfc5e051eaa355b9687f7cabb5" class="room outdoor" data-label="The north part of the Bell Tower&#x27;s roof" cx="1454" cy="105" r="4"/>
+    <circle id="room-e1957522ab96e2995872d760b3d4124d804bd9ca" class="room outdoor" data-label="west part of the Bell Tower&#x27;s roof" cx="1430" cy="129" r="4"/>
     <rect id="room-bdd4bb899dd875dc91cd4234763fad6efded1901" class="room indoor" data-label="mansion hallway west" x="1254" y="324" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="1258,331 1255.5,326 1260.5,326"/>
     <rect id="room-3377df74ba53900c26c0d27e910a782287260f14" class="room indoor" data-label="audience room south" x="1234" y="324" width="8" height="8" rx="2"/>
     <rect id="room-bb3a8431510a2fec2100e72f153abfda41fff4b8" class="room indoor" data-label="audience room north" x="1234" y="304" width="8" height="8" rx="2"/>

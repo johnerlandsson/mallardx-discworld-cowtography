@@ -195,23 +195,23 @@
   </g>
 
   <g id="layer-rooms">
-    <rect id="room-45c52ccb69e606bf7a125680c3de4952fc8e558b" class="room indoor" data-label="courtyard of the Assassins&#x27; Guild" x="453" y="57" width="8" height="8" rx="2"/>
-    <rect id="room-4798ae6afafdbd73ba4e6aa63f3cca662d3aa89a" class="room indoor" data-label="courtyard of the Assassins&#x27; Guild" x="425" y="57" width="8" height="8" rx="2"/>
-    <rect id="room-f118fbd612771dc641f34a85771a04f70d1f039f" class="room indoor" data-label="courtyard of the Assassins&#x27; Guild" x="481" y="57" width="8" height="8" rx="2"/>
-    <rect id="room-b2a4b87206db7ff3fdf8bf9e08b04eb8015664d2" class="room indoor" data-label="courtyard of the Assassins&#x27; Guild" x="481" y="85" width="8" height="8" rx="2"/>
-    <rect id="room-b9e4465bcc81b92fdf0616086bf4f3b5e1c9fdcc" class="room indoor" data-label="courtyard of the Assassins&#x27; Guild" x="453" y="85" width="8" height="8" rx="2"/>
-    <rect id="room-09231244e03179ecdc65a0b5d819a88c35b02692" class="room indoor" data-label="courtyard of the Assassins&#x27; Guild" x="425" y="85" width="8" height="8" rx="2"/>
-    <rect id="room-deaf5b0a3506e06523fbc72b9e78d3062db717c0" class="room indoor" data-label="courtyard of the Assassins&#x27; Guild" x="425" y="113" width="8" height="8" rx="2"/>
-    <rect id="room-df5661822791e2fb6d466d0952f5f75925422195" class="room indoor" data-label="courtyard of the Assassins&#x27; Guild" x="453" y="113" width="8" height="8" rx="2"/>
-    <rect id="room-f8da50bd0bbb15b4414e4a8a7f211eb8d96414a9" class="room indoor" data-label="courtyard of the Assassins&#x27; Guild" x="481" y="113" width="8" height="8" rx="2"/>
-    <rect id="room-dd125d22375e212ebb4dd51a2b57e1f1f2e3f653" class="room indoor" data-label="courtyard of the Assassins&#x27; Guild" x="481" y="141" width="8" height="8" rx="2"/>
-    <rect id="room-174bfbb2e823d36eb97fd2f44c4c2e49850e3b8a" class="room indoor" data-label="courtyard of the Assassins&#x27; Guild" x="453" y="141" width="8" height="8" rx="2"/>
-    <rect id="room-4aaa4d5973c76e641fada4a5c2fdc837584215e2" class="room indoor" data-label="courtyard of the Assassins&#x27; Guild" x="425" y="141" width="8" height="8" rx="2"/>
+    <circle id="room-45c52ccb69e606bf7a125680c3de4952fc8e558b" class="room outdoor" data-label="courtyard of the Assassins&#x27; Guild" cx="457" cy="61" r="4"/>
+    <circle id="room-4798ae6afafdbd73ba4e6aa63f3cca662d3aa89a" class="room outdoor" data-label="courtyard of the Assassins&#x27; Guild" cx="429" cy="61" r="4"/>
+    <circle id="room-f118fbd612771dc641f34a85771a04f70d1f039f" class="room outdoor" data-label="courtyard of the Assassins&#x27; Guild" cx="485" cy="61" r="4"/>
+    <circle id="room-b2a4b87206db7ff3fdf8bf9e08b04eb8015664d2" class="room outdoor" data-label="courtyard of the Assassins&#x27; Guild" cx="485" cy="89" r="4"/>
+    <circle id="room-b9e4465bcc81b92fdf0616086bf4f3b5e1c9fdcc" class="room outdoor" data-label="courtyard of the Assassins&#x27; Guild" cx="457" cy="89" r="4"/>
+    <circle id="room-09231244e03179ecdc65a0b5d819a88c35b02692" class="room outdoor" data-label="courtyard of the Assassins&#x27; Guild" cx="429" cy="89" r="4"/>
+    <circle id="room-deaf5b0a3506e06523fbc72b9e78d3062db717c0" class="room outdoor" data-label="courtyard of the Assassins&#x27; Guild" cx="429" cy="117" r="4"/>
+    <circle id="room-df5661822791e2fb6d466d0952f5f75925422195" class="room outdoor" data-label="courtyard of the Assassins&#x27; Guild" cx="457" cy="117" r="4"/>
+    <circle id="room-f8da50bd0bbb15b4414e4a8a7f211eb8d96414a9" class="room outdoor" data-label="courtyard of the Assassins&#x27; Guild" cx="485" cy="117" r="4"/>
+    <circle id="room-dd125d22375e212ebb4dd51a2b57e1f1f2e3f653" class="room outdoor" data-label="courtyard of the Assassins&#x27; Guild" cx="485" cy="145" r="4"/>
+    <circle id="room-174bfbb2e823d36eb97fd2f44c4c2e49850e3b8a" class="room outdoor" data-label="courtyard of the Assassins&#x27; Guild" cx="457" cy="145" r="4"/>
+    <circle id="room-4aaa4d5973c76e641fada4a5c2fdc837584215e2" class="room outdoor" data-label="courtyard of the Assassins&#x27; Guild" cx="429" cy="145" r="4"/>
     <rect id="room-85fee783128acaa8d7576289eae416fcee10da2c" class="room indoor room-food" data-label="mess hall" x="425" y="169" width="8" height="8" rx="2"/><text class="room-type-label" x="429" y="173" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-4152baae76ee1f2f769f20750b92a6e76a057c54" class="room indoor room-shop" data-label="mess hall" x="425" y="197" width="8" height="8" rx="2"/><text class="room-type-label" x="429" y="201" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-ae0d5ff7bc892f4dc509065488c37ea6db60cfa6" class="room indoor" data-label="kitchen" x="397" y="197" width="8" height="8" rx="2"/>
     <rect id="room-01db7996935a23286d04aacb77f3098f0d5d91fd" class="room indoor" data-label="kitchen" x="397" y="169" width="8" height="8" rx="2"/>
-    <rect id="room-8e635a131a61d0c068374857d6b656f73c43bbc9" class="room indoor room-shop" data-label="garden" x="369" y="169" width="8" height="8" rx="2"/><text class="room-type-label" x="373" y="173" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-8e635a131a61d0c068374857d6b656f73c43bbc9" class="room outdoor room-shop" data-label="garden" cx="373" cy="173" r="4"/><text class="room-type-label" x="373" y="173" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-cd38dfdbb2c1ad96db123fa0771d5e309242bc71" class="room indoor" data-label="Liming Corridor" x="453" y="197" width="8" height="8" rx="2"/>
     <rect id="room-e08eefdc3742d59c063ada3f42529010e595350a" class="room indoor" data-label="Liming Corridor" x="453" y="169" width="8" height="8" rx="2"/>
     <rect id="room-d7c250b0e04dcc3d1b0cbed8ba699e05d30dfb07" class="room indoor" data-label="games room" x="481" y="169" width="8" height="8" rx="2"/>
@@ -282,7 +282,7 @@
     <rect id="room-752945456ae617beea29a0b14c8aecc7b79b7092" class="room indoor" data-label="stairwell" x="809" y="543" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="813,544 815.5,547 813,550 810.5,547"/>
     <rect id="room-6c10ec292257f1da4816ef9709e3c3b90ad90aed" class="room indoor" data-label="stairwell" x="303" y="769" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="307,770 309.5,773 307,776 304.5,773"/>
     <rect id="room-f9843bc663ba7efdaaca53555615e70491d605e6" class="room indoor" data-label="clocktower" x="756" y="713" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="760,720 757.5,715 762.5,715"/>
-    <rect id="room-f2197a4728c00beed11e16cc2a064e13cedf397f" class="room indoor" data-label="roof of the Assassins Guild" x="728" y="713" width="8" height="8" rx="2"/>
+    <circle id="room-f2197a4728c00beed11e16cc2a064e13cedf397f" class="room outdoor" data-label="roof of the Assassins Guild" cx="732" cy="717" r="4"/>
     <rect id="room-5a1390fbb4da2bb7b2bebac57c061f68a5432cca" class="room indoor" data-label="Combination Corridor" x="537" y="169" width="8" height="8" rx="2"/>
     <rect id="room-1a5f465da9a2f7c7b7453139cdc3dfb0d61e3716" class="room indoor" data-label="Combination Corridor" x="537" y="141" width="8" height="8" rx="2"/>
     <rect id="room-5456ccf2ecf3c3c253a00a180549790d4d914b91" class="room indoor" data-label="base of the assassins&#x27; climbing wall" x="565" y="141" width="8" height="8" rx="2"/>
@@ -339,29 +339,29 @@
     <rect id="room-3fdb75ef9232a953e2f64c206d0c9ea0fa54ece8" class="room indoor" data-label="reading room" x="369" y="113" width="8" height="8" rx="2"/>
     <rect id="room-c5edc6068ef01930d58f486464255d18e9c56b90" class="room indoor" data-label="Assassins&#x27; Inhumation Office" x="369" y="141" width="8" height="8" rx="2"/>
     <rect id="room-b3671f88464c0d720479adab5844f4af483a920b" class="room indoor" data-label="Assassins&#x27; Guild Voting Room" x="397" y="141" width="8" height="8" rx="2"/>
-    <rect id="room-fdb78f46a619f4403f46f05f8987cd6f282ad8db" class="room indoor" data-label="rooftop" x="569" y="755" width="8" height="8" rx="2"/>
-    <rect id="room-ede6e9e973d4e50d47d0d72f40290764b95ec107" class="room indoor" data-label="small ledge" x="569" y="723" width="8" height="8" rx="2"/>
-    <rect id="room-67d3e9ec7bdce2b69eb4b0f9c33a1648742e8bf5" class="room indoor" data-label="small ledge" x="569" y="699" width="8" height="8" rx="2"/>
-    <rect id="room-39f0e241b577740ba4190446b5d0fda3d8313373" class="room indoor" data-label="small ledge" x="569" y="675" width="8" height="8" rx="2"/>
-    <rect id="room-770cef997205e6ab7a6391d0cee723f30a37d767" class="room indoor" data-label="roof of the Assassins&#x27; Guild" x="453" y="657" width="8" height="8" rx="2"/>
-    <rect id="room-b008a2b9691874b83bd88b914df6c72edeada1b9" class="room indoor" data-label="roof of the Assassins&#x27; Guild" x="425" y="657" width="8" height="8" rx="2"/>
-    <rect id="room-7f2f98ea576a24969829a32dabe5aa39a5a9b123" class="room indoor" data-label="roof of the Assassins&#x27; Guild" x="481" y="657" width="8" height="8" rx="2"/>
-    <rect id="room-114879f25fc4b359720dd2c7d874e0ee9949f3fb" class="room indoor" data-label="roof of the Assassins&#x27; Guild" x="453" y="685" width="8" height="8" rx="2"/>
-    <rect id="room-04d70bd72ae697aca3016d98d0849ba5e2742dd6" class="room indoor" data-label="roof of the Assassins&#x27; Guild" x="453" y="713" width="8" height="8" rx="2"/>
-    <rect id="room-22edcea6ae85b98f3effddd769660fde59a2fc66" class="room indoor" data-label="roof of the Assassins&#x27; Guild" x="425" y="713" width="8" height="8" rx="2"/>
-    <rect id="room-0117c7c2e5c2d53039fd912009f41310f1aab8e9" class="room indoor" data-label="roof of the Assassins&#x27; Guild" x="481" y="713" width="8" height="8" rx="2"/>
-    <rect id="room-7477c5ad8b2aee121b73fb4a62a461195b33d6ec" class="room indoor" data-label="roof of the Assassins&#x27; Guild" x="453" y="741" width="8" height="8" rx="2"/>
-    <rect id="room-285d28fc72cfe06f337bc6a3596f05f58f65ad71" class="room indoor" data-label="roof of the Assassins&#x27; Guild" x="453" y="769" width="8" height="8" rx="2"/>
-    <rect id="room-a5c95f0b24b483c2f4ddfa9b17488d079387de96" class="room indoor" data-label="roof of the Assassins&#x27; Guild" x="425" y="769" width="8" height="8" rx="2"/>
-    <rect id="room-0818279294deb31658f7738e93d7eba377f2492c" class="room indoor" data-label="roof of the Assassins&#x27; Guild" x="481" y="769" width="8" height="8" rx="2"/>
-    <rect id="room-1e7cb8a8fe351576f8f727a2df6ca0883e789480" class="room indoor" data-label="roof of the Assassins&#x27; Guild" x="453" y="797" width="8" height="8" rx="2"/>
+    <circle id="room-fdb78f46a619f4403f46f05f8987cd6f282ad8db" class="room outdoor" data-label="rooftop" cx="573" cy="759" r="4"/>
+    <circle id="room-ede6e9e973d4e50d47d0d72f40290764b95ec107" class="room outdoor" data-label="small ledge" cx="573" cy="727" r="4"/>
+    <circle id="room-67d3e9ec7bdce2b69eb4b0f9c33a1648742e8bf5" class="room outdoor" data-label="small ledge" cx="573" cy="703" r="4"/>
+    <circle id="room-39f0e241b577740ba4190446b5d0fda3d8313373" class="room outdoor" data-label="small ledge" cx="573" cy="679" r="4"/>
+    <circle id="room-770cef997205e6ab7a6391d0cee723f30a37d767" class="room outdoor" data-label="roof of the Assassins&#x27; Guild" cx="457" cy="661" r="4"/>
+    <circle id="room-b008a2b9691874b83bd88b914df6c72edeada1b9" class="room outdoor" data-label="roof of the Assassins&#x27; Guild" cx="429" cy="661" r="4"/>
+    <circle id="room-7f2f98ea576a24969829a32dabe5aa39a5a9b123" class="room outdoor" data-label="roof of the Assassins&#x27; Guild" cx="485" cy="661" r="4"/>
+    <circle id="room-114879f25fc4b359720dd2c7d874e0ee9949f3fb" class="room outdoor" data-label="roof of the Assassins&#x27; Guild" cx="457" cy="689" r="4"/>
+    <circle id="room-04d70bd72ae697aca3016d98d0849ba5e2742dd6" class="room outdoor" data-label="roof of the Assassins&#x27; Guild" cx="457" cy="717" r="4"/>
+    <circle id="room-22edcea6ae85b98f3effddd769660fde59a2fc66" class="room outdoor" data-label="roof of the Assassins&#x27; Guild" cx="429" cy="717" r="4"/>
+    <circle id="room-0117c7c2e5c2d53039fd912009f41310f1aab8e9" class="room outdoor" data-label="roof of the Assassins&#x27; Guild" cx="485" cy="717" r="4"/>
+    <circle id="room-7477c5ad8b2aee121b73fb4a62a461195b33d6ec" class="room outdoor" data-label="roof of the Assassins&#x27; Guild" cx="457" cy="745" r="4"/>
+    <circle id="room-285d28fc72cfe06f337bc6a3596f05f58f65ad71" class="room outdoor" data-label="roof of the Assassins&#x27; Guild" cx="457" cy="773" r="4"/>
+    <circle id="room-a5c95f0b24b483c2f4ddfa9b17488d079387de96" class="room outdoor" data-label="roof of the Assassins&#x27; Guild" cx="429" cy="773" r="4"/>
+    <circle id="room-0818279294deb31658f7738e93d7eba377f2492c" class="room outdoor" data-label="roof of the Assassins&#x27; Guild" cx="485" cy="773" r="4"/>
+    <circle id="room-1e7cb8a8fe351576f8f727a2df6ca0883e789480" class="room outdoor" data-label="roof of the Assassins&#x27; Guild" cx="457" cy="801" r="4"/>
     <rect id="room-9624cf77485b07e2192de4b446be69878ab3dc69" class="room indoor" data-label="loft" x="481" y="797" width="8" height="8" rx="2"/>
     <rect id="room-821c51bd52f947378f1fd52262129e26f3b84204" class="room indoor" data-label="loft" x="425" y="797" width="8" height="8" rx="2"/>
     <rect id="room-8ad0dae08432524b99f554281e03e604d99d2445" class="room indoor" data-label="loft" x="481" y="741" width="8" height="8" rx="2"/>
     <rect id="room-6d9ee58c91655576a5cf2b510a2bd262c2d49bfd" class="room indoor" data-label="loft" x="425" y="741" width="8" height="8" rx="2"/>
     <rect id="room-a365489c67a25c878b85e1cfe4d989c9cf0fc4b1" class="room indoor" data-label="loft" x="425" y="685" width="8" height="8" rx="2"/>
     <rect id="room-188df60719e8cbc0565a1fca6a99a90b4f3c6314" class="room indoor" data-label="loft" x="481" y="685" width="8" height="8" rx="2"/>
-    <rect id="room-ff08631165c150ef24a58193ff3531d9236ab470" class="room indoor" data-label="roof of the Assassins&#x27; Guild" x="700" y="713" width="8" height="8" rx="2"/>
+    <circle id="room-ff08631165c150ef24a58193ff3531d9236ab470" class="room outdoor" data-label="roof of the Assassins&#x27; Guild" cx="704" cy="717" r="4"/>
   </g>
 
 

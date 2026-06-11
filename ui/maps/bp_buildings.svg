@@ -112,7 +112,7 @@
     <rect id="room-a4ebe7464c25506807e1d07fbabd4aa3ab325577" class="room indoor room-clothes" data-label="crowded gift shop" x="159" y="366" width="8" height="8" rx="2"/><text class="room-type-label" x="163" y="370" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-fda3910d73cca46deb9964de8f2df8ef3da9ee8e" class="room indoor" data-label="winding maze of corridors" x="52" y="90" width="8" height="8" rx="2"/>
     <rect id="room-0f1f77b332e68972667abea6d70845c3fccf3a92" class="room indoor" data-label="shrine to Fish" x="30" y="113" width="8" height="8" rx="2"/>
-    <rect id="room-9660989df76299bbe1ab49bed8c7ce8921033730" class="room indoor" data-label="top of a high tower, overlooking the Imperial District" x="141" y="24" width="8" height="8" rx="2"/>
+    <circle id="room-9660989df76299bbe1ab49bed8c7ce8921033730" class="room outdoor" data-label="top of a high tower, overlooking the Imperial District" cx="145" cy="28" r="4"/>
     <rect id="room-f7c501aa210783f028e37f69e3c48cff178ad9c9" class="room indoor" data-label="shrine to Gufnork" x="96" y="47" width="8" height="8" rx="2"/>
     <rect id="room-fc6499a65b719e33b8c66c08b7381fcea6911cce" class="room indoor" data-label="shrine to Gapp" x="74" y="68" width="8" height="8" rx="2"/>
     <rect id="room-48a3a5901f3b2847fcda9c6dd9bf7e7743e387f2" class="room indoor" data-label="shrine to Sandelfon" x="52" y="90" width="8" height="8" rx="2"/>

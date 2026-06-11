@@ -131,10 +131,10 @@
     <rect id="room-40e71f305a66a346a05f4537ae217a074380294d" class="room indoor" data-label="entrance to a cave by a flowing stream" x="539" y="198" width="8" height="8" rx="2"/>
     <rect id="room-ca0796665a89d5e2686c952f3cc6a99b8f995529" class="room indoor" data-label="near the entrance of a cave" x="539" y="218" width="8" height="8" rx="2"/>
     <rect id="room-fbc283405bff55f7f0e255ad31862e35dfb97482" class="room indoor" data-label="mouth of a cave" x="559" y="218" width="8" height="8" rx="2"/>
-    <rect id="room-24f4c225ede14b4a53f0bd7b2b3dc2a7ec09fe30" class="room indoor" data-label="southwestern part of a forest clearing" x="579" y="218" width="8" height="8" rx="2"/>
-    <rect id="room-7faa2b8f46fda39e512066dcd844fef413f0366b" class="room indoor" data-label="northwestern part of a forest clearing" x="579" y="198" width="8" height="8" rx="2"/>
-    <rect id="room-9b61426230fa82ca08f292adf128e2134b39c641" class="room indoor" data-label="northeastern part of a forest clearing" x="599" y="198" width="8" height="8" rx="2"/>
-    <rect id="room-42cc8e8d400b8b9229f0b28352081d949b276dca" class="room indoor" data-label="southeastern part of a forest clearing" x="599" y="218" width="8" height="8" rx="2"/>
+    <circle id="room-24f4c225ede14b4a53f0bd7b2b3dc2a7ec09fe30" class="room outdoor" data-label="southwestern part of a forest clearing" cx="583" cy="222" r="4"/>
+    <circle id="room-7faa2b8f46fda39e512066dcd844fef413f0366b" class="room outdoor" data-label="northwestern part of a forest clearing" cx="583" cy="202" r="4"/>
+    <circle id="room-9b61426230fa82ca08f292adf128e2134b39c641" class="room outdoor" data-label="northeastern part of a forest clearing" cx="603" cy="202" r="4"/>
+    <circle id="room-42cc8e8d400b8b9229f0b28352081d949b276dca" class="room outdoor" data-label="southeastern part of a forest clearing" cx="603" cy="222" r="4"/>
     <rect id="room-aa5d3cfcb0ad8df1e4737d8c5e2d8151cf8acb86" class="room indoor" data-label="narrow passageway leading down" x="299" y="218" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="303,225 300.5,220 305.5,220"/>
     <rect id="room-de4e8ed869fd0d6a6795fe5ed504e3c3400946eb" class="room indoor" data-label="irregular passageway dotted with rim pools" x="319" y="218" width="8" height="8" rx="2"/>
     <rect id="room-8d79b3a75d076e7dea0def6c32cc7c70e5cbc436" class="room indoor" data-label="cave filled with water" x="319" y="238" width="8" height="8" rx="2"/>
@@ -172,16 +172,16 @@
     <rect id="room-255480501cab2282f57d1f8b36020fbf8de0d1e4" class="room indoor" data-label="cave" x="99" y="298" width="8" height="8" rx="2"/>
     <rect id="room-9a31c9ef4b6f89a6c87f752ee9c73a251dbf04fa" class="room indoor" data-label="cave" x="119" y="298" width="8" height="8" rx="2"/>
     <rect id="room-81c9cb66ea235701ca5b36404d3d25a657fe6b13" class="room indoor" data-label="cave" x="139" y="318" width="8" height="8" rx="2"/>
-    <rect id="room-629caeca922eb18dec11e8dbf1c6a67689138463" class="room indoor" data-label="top of a great, lichen-crusted boulder" x="579" y="98" width="8" height="8" rx="2"/>
-    <rect id="room-77351dd348703d0d71f1bede56a47f4885fe7f60" class="room indoor" data-label="thickly wooded trail through a forest" x="559" y="78" width="8" height="8" rx="2"/>
-    <rect id="room-43dcfc96f9f83756c12235fff723bd12409389c3" class="room indoor" data-label="broad track through a forest, by some sunken ruins" x="539" y="78" width="8" height="8" rx="2"/>
-    <rect id="room-e230ee9a75c31a8caa5448506f708bd506b8e449" class="room indoor" data-label="sunken dell in a forest" x="559" y="98" width="8" height="8" rx="2"/>
-    <rect id="room-41148a31cb4c3c43b087bf5cf6b597a6a3cd62a7" class="room indoor" data-label="narrow track running along a cliff face" x="519" y="58" width="8" height="8" rx="2"/>
-    <rect id="room-7d211e0ff578ff470b2d9ea73c83be17dfa6008a" class="room indoor" data-label="narrow track on the edge of a ravine" x="499" y="58" width="8" height="8" rx="2"/>
-    <rect id="room-c99fea10e4411611e52134971e723cb138cad6ad" class="room indoor" data-label="forest trail near a small waterfall into the ravine" x="479" y="78" width="8" height="8" rx="2"/>
-    <rect id="room-b57e7302ee1de5933c57966758f530bb63079ca1" class="room indoor" data-label="faint trail wandering through a pine wood" x="459" y="98" width="8" height="8" rx="2"/>
-    <rect id="room-002ef2fd477f2837c42f2f85290cb93992a58b74" class="room indoor" data-label="hollow in a pine forest" x="439" y="98" width="8" height="8" rx="2"/>
-    <rect id="room-8de92ec5ed0864d3afb3aadaeb78146177f038fb" class="room indoor" data-label="faint forest trail through a pine wood" x="419" y="118" width="8" height="8" rx="2"/>
+    <circle id="room-629caeca922eb18dec11e8dbf1c6a67689138463" class="room outdoor" data-label="top of a great, lichen-crusted boulder" cx="583" cy="102" r="4"/>
+    <circle id="room-77351dd348703d0d71f1bede56a47f4885fe7f60" class="room outdoor" data-label="thickly wooded trail through a forest" cx="563" cy="82" r="4"/>
+    <circle id="room-43dcfc96f9f83756c12235fff723bd12409389c3" class="room outdoor" data-label="broad track through a forest, by some sunken ruins" cx="543" cy="82" r="4"/>
+    <circle id="room-e230ee9a75c31a8caa5448506f708bd506b8e449" class="room outdoor" data-label="sunken dell in a forest" cx="563" cy="102" r="4"/>
+    <circle id="room-41148a31cb4c3c43b087bf5cf6b597a6a3cd62a7" class="room outdoor" data-label="narrow track running along a cliff face" cx="523" cy="62" r="4"/>
+    <circle id="room-7d211e0ff578ff470b2d9ea73c83be17dfa6008a" class="room outdoor" data-label="narrow track on the edge of a ravine" cx="503" cy="62" r="4"/>
+    <circle id="room-c99fea10e4411611e52134971e723cb138cad6ad" class="room outdoor" data-label="forest trail near a small waterfall into the ravine" cx="483" cy="82" r="4"/>
+    <circle id="room-b57e7302ee1de5933c57966758f530bb63079ca1" class="room outdoor" data-label="faint trail wandering through a pine wood" cx="463" cy="102" r="4"/>
+    <circle id="room-002ef2fd477f2837c42f2f85290cb93992a58b74" class="room outdoor" data-label="hollow in a pine forest" cx="443" cy="102" r="4"/>
+    <circle id="room-8de92ec5ed0864d3afb3aadaeb78146177f038fb" class="room outdoor" data-label="faint forest trail through a pine wood" cx="423" cy="122" r="4"/>
     <rect id="room-f867e8f5fe850d41a3959d4ceb46696262765460" class="room indoor" data-label="flowing stream just inside a cave" x="539" y="198" width="8" height="8" rx="2"/>
     <rect id="room-0eeca73deeef759b3fbd897753aa2bd0c05efb3d" class="room indoor" data-label="flowing stream inside a cave" x="519" y="178" width="8" height="8" rx="2"/>
     <rect id="room-ab902fcde8743d8cef6725412739ef4d206b9014" class="room indoor" data-label="flowing stream in a cave" x="499" y="178" width="8" height="8" rx="2"/>

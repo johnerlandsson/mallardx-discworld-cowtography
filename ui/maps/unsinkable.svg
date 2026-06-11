@@ -188,412 +188,61 @@ text, .map-label, .map-label-muted, .map-label-accent,
   </g>
   <g
      id="layer-exits"
-     sodipodi:insensitive="true"><line
-   id="edge-276f933f8ae0836c030480f9913b5839b99f412c-cc132ec2ee473ae6a3293cc7c07ea34aa573b08a"
-   class="exit"
-   x1="115"
-   y1="124"
-   x2="143"
-   y2="124" />
-<line
-   id="edge-7061b06e4b2dcc679cbb7f708ff75024c60aa5ad-cc132ec2ee473ae6a3293cc7c07ea34aa573b08a"
-   class="exit"
-   x1="143"
-   y1="92"
-   x2="143"
-   y2="124" />
-<line
-   id="edge-bb128c612942e5adb1f2568ef0b0ecf95bf435dd-cc132ec2ee473ae6a3293cc7c07ea34aa573b08a"
-   class="exit"
-   x1="143"
-   y1="152"
-   x2="143"
-   y2="124" />
-
-
+     sodipodi:insensitive="true">
+    <line id="edge-276f933f8ae0836c030480f9913b5839b99f412c-cc132ec2ee473ae6a3293cc7c07ea34aa573b08a" class="exit" x1="115" y1="124" x2="143" y2="124"/>
+    <line id="edge-7061b06e4b2dcc679cbb7f708ff75024c60aa5ad-cc132ec2ee473ae6a3293cc7c07ea34aa573b08a" class="exit" x1="143" y1="92" x2="143" y2="124"/>
+    <line id="edge-bb128c612942e5adb1f2568ef0b0ecf95bf435dd-cc132ec2ee473ae6a3293cc7c07ea34aa573b08a" class="exit" x1="143" y1="152" x2="143" y2="124"/>
     null
-    <line
-   id="edge-276f933f8ae0836c030480f9913b5839b99f412c-bb128c612942e5adb1f2568ef0b0ecf95bf435dd"
-   class="exit"
-   x1="115"
-   y1="124"
-   x2="143"
-   y2="152" />
-<line
-   id="edge-300d37af6bc80eeb8b1d85bba0dc9e349bfdb0c5-bb128c612942e5adb1f2568ef0b0ecf95bf435dd"
-   class="exit"
-   x1="115"
-   y1="152"
-   x2="143"
-   y2="152" />
-<line
-   id="edge-276f933f8ae0836c030480f9913b5839b99f412c-300d37af6bc80eeb8b1d85bba0dc9e349bfdb0c5"
-   class="exit"
-   x1="115"
-   y1="124"
-   x2="115"
-   y2="152" />
-<line
-   id="edge-300d37af6bc80eeb8b1d85bba0dc9e349bfdb0c5-b6278d2a3a3f2f6ebdf33ba6c37dd21a681aa6ad"
-   class="exit"
-   x1="115"
-   y1="152"
-   x2="87"
-   y2="152" />
-<line
-   id="edge-300d37af6bc80eeb8b1d85bba0dc9e349bfdb0c5-cc132ec2ee473ae6a3293cc7c07ea34aa573b08a"
-   class="exit"
-   x1="115"
-   y1="152"
-   x2="143"
-   y2="124" />
-<line
-   id="edge-afe5ba7685f3ad5d6e2c72a1a26a1c4e49c8b121-b6278d2a3a3f2f6ebdf33ba6c37dd21a681aa6ad"
-   class="exit"
-   x1="87"
-   y1="124"
-   x2="87"
-   y2="152" />
-<line
-   id="edge-276f933f8ae0836c030480f9913b5839b99f412c-afe5ba7685f3ad5d6e2c72a1a26a1c4e49c8b121"
-   class="exit"
-   x1="115"
-   y1="124"
-   x2="87"
-   y2="124" />
-<line
-   id="edge-300d37af6bc80eeb8b1d85bba0dc9e349bfdb0c5-afe5ba7685f3ad5d6e2c72a1a26a1c4e49c8b121"
-   class="exit"
-   x1="115"
-   y1="152"
-   x2="87"
-   y2="124" />
-<line
-   id="edge-549b279912bf26749f193103f5a698d1763c4195-afe5ba7685f3ad5d6e2c72a1a26a1c4e49c8b121"
-   class="exit"
-   x1="87"
-   y1="92"
-   x2="87"
-   y2="124" />
-
-
+    <line id="edge-276f933f8ae0836c030480f9913b5839b99f412c-bb128c612942e5adb1f2568ef0b0ecf95bf435dd" class="exit" x1="115" y1="124" x2="143" y2="152"/>
+    <line id="edge-300d37af6bc80eeb8b1d85bba0dc9e349bfdb0c5-bb128c612942e5adb1f2568ef0b0ecf95bf435dd" class="exit" x1="115" y1="152" x2="143" y2="152"/>
+    <line id="edge-276f933f8ae0836c030480f9913b5839b99f412c-300d37af6bc80eeb8b1d85bba0dc9e349bfdb0c5" class="exit" x1="115" y1="124" x2="115" y2="152"/>
+    <line id="edge-300d37af6bc80eeb8b1d85bba0dc9e349bfdb0c5-b6278d2a3a3f2f6ebdf33ba6c37dd21a681aa6ad" class="exit" x1="115" y1="152" x2="87" y2="152"/>
+    <line id="edge-300d37af6bc80eeb8b1d85bba0dc9e349bfdb0c5-cc132ec2ee473ae6a3293cc7c07ea34aa573b08a" class="exit" x1="115" y1="152" x2="143" y2="124"/>
+    <line id="edge-afe5ba7685f3ad5d6e2c72a1a26a1c4e49c8b121-b6278d2a3a3f2f6ebdf33ba6c37dd21a681aa6ad" class="exit" x1="87" y1="124" x2="87" y2="152"/>
+    <line id="edge-276f933f8ae0836c030480f9913b5839b99f412c-afe5ba7685f3ad5d6e2c72a1a26a1c4e49c8b121" class="exit" x1="115" y1="124" x2="87" y2="124"/>
+    <line id="edge-300d37af6bc80eeb8b1d85bba0dc9e349bfdb0c5-afe5ba7685f3ad5d6e2c72a1a26a1c4e49c8b121" class="exit" x1="115" y1="152" x2="87" y2="124"/>
+    <line id="edge-549b279912bf26749f193103f5a698d1763c4195-afe5ba7685f3ad5d6e2c72a1a26a1c4e49c8b121" class="exit" x1="87" y1="92" x2="87" y2="124"/>
     null
     null
-    <line
-   id="edge-276f933f8ae0836c030480f9913b5839b99f412c-b6278d2a3a3f2f6ebdf33ba6c37dd21a681aa6ad"
-   class="exit"
-   x1="115"
-   y1="124"
-   x2="87"
-   y2="152" />
-<line
-   id="edge-21de9d4c3c3c9b4cd41483937f63c98f20c856c8-7061b06e4b2dcc679cbb7f708ff75024c60aa5ad"
-   class="exit"
-   x1="115"
-   y1="64"
-   x2="143"
-   y2="92" />
-<line
-   id="edge-7061b06e4b2dcc679cbb7f708ff75024c60aa5ad-fb106e274d6161cebcbba8dfb256b718f896d800"
-   class="exit"
-   x1="143"
-   y1="92"
-   x2="115"
-   y2="92" />
-<line
-   id="edge-21de9d4c3c3c9b4cd41483937f63c98f20c856c8-549b279912bf26749f193103f5a698d1763c4195"
-   class="exit"
-   x1="115"
-   y1="64"
-   x2="87"
-   y2="92" />
-<line
-   id="edge-549b279912bf26749f193103f5a698d1763c4195-fb106e274d6161cebcbba8dfb256b718f896d800"
-   class="exit"
-   x1="87"
-   y1="92"
-   x2="115"
-   y2="92" />
-<line
-   id="edge-69785e30295575f22400335deda7284980a8647b-bb1f4ee5a2a4e1dca0a91559d4934c2710080ffd"
-   class="exit"
-   x1="314"
-   y1="151"
-   x2="314"
-   y2="123" />
-<line
-   id="edge-7011a9bed74b1a416349e8b251f0d312c1c01311-bb1f4ee5a2a4e1dca0a91559d4934c2710080ffd"
-   class="exit"
-   x1="314"
-   y1="91"
-   x2="314"
-   y2="123" />
-<line
-   id="edge-8380ae44a26adabd8cfcc4c66315fccaf375dd96-bb1f4ee5a2a4e1dca0a91559d4934c2710080ffd"
-   class="exit"
-   x1="286"
-   y1="123"
-   x2="314"
-   y2="123" />
-<line
-   id="edge-37ceaa9225c6079b6f4c1c1822f6586c8f3562c1-7011a9bed74b1a416349e8b251f0d312c1c01311"
-   class="exit"
-   x1="286"
-   y1="63"
-   x2="314"
-   y2="91" />
-<line
-   id="edge-37ceaa9225c6079b6f4c1c1822f6586c8f3562c1-a3acea848c2fb367e7d38792d3a5c58e45aac205"
-   class="exit"
-   x1="286"
-   y1="63"
-   x2="258"
-   y2="91" />
-<line
-   id="edge-68c73bf8cbd4bdf2d5f056dfb0c4f7f873c43357-a3acea848c2fb367e7d38792d3a5c58e45aac205"
-   class="exit"
-   x1="286"
-   y1="91"
-   x2="258"
-   y2="91" />
-<line
-   id="edge-9af6f1f64b8728b62a572a0540be43110cb109ad-a3acea848c2fb367e7d38792d3a5c58e45aac205"
-   class="exit"
-   x1="258"
-   y1="123"
-   x2="258"
-   y2="91" />
-<line
-   id="edge-8fb3cbee200ce4c47426e357635cf027354a0645-9af6f1f64b8728b62a572a0540be43110cb109ad"
-   class="exit"
-   x1="258"
-   y1="151"
-   x2="258"
-   y2="123" />
-<line
-   id="edge-8fb3cbee200ce4c47426e357635cf027354a0645-e97301502f9725e070d40542e02b9df68384c223"
-   class="exit"
-   x1="258"
-   y1="151"
-   x2="286"
-   y2="151" />
-</g>
+    <line id="edge-276f933f8ae0836c030480f9913b5839b99f412c-b6278d2a3a3f2f6ebdf33ba6c37dd21a681aa6ad" class="exit" x1="115" y1="124" x2="87" y2="152"/>
+    <line id="edge-21de9d4c3c3c9b4cd41483937f63c98f20c856c8-7061b06e4b2dcc679cbb7f708ff75024c60aa5ad" class="exit" x1="115" y1="64" x2="143" y2="92"/>
+    <line id="edge-7061b06e4b2dcc679cbb7f708ff75024c60aa5ad-fb106e274d6161cebcbba8dfb256b718f896d800" class="exit" x1="143" y1="92" x2="115" y2="92"/>
+    <line id="edge-21de9d4c3c3c9b4cd41483937f63c98f20c856c8-549b279912bf26749f193103f5a698d1763c4195" class="exit" x1="115" y1="64" x2="87" y2="92"/>
+    <line id="edge-549b279912bf26749f193103f5a698d1763c4195-fb106e274d6161cebcbba8dfb256b718f896d800" class="exit" x1="87" y1="92" x2="115" y2="92"/>
+    <line id="edge-69785e30295575f22400335deda7284980a8647b-bb1f4ee5a2a4e1dca0a91559d4934c2710080ffd" class="exit" x1="314" y1="151" x2="314" y2="123"/>
+    <line id="edge-7011a9bed74b1a416349e8b251f0d312c1c01311-bb1f4ee5a2a4e1dca0a91559d4934c2710080ffd" class="exit" x1="314" y1="91" x2="314" y2="123"/>
+    <line id="edge-8380ae44a26adabd8cfcc4c66315fccaf375dd96-bb1f4ee5a2a4e1dca0a91559d4934c2710080ffd" class="exit" x1="286" y1="123" x2="314" y2="123"/>
+    <line id="edge-37ceaa9225c6079b6f4c1c1822f6586c8f3562c1-7011a9bed74b1a416349e8b251f0d312c1c01311" class="exit" x1="286" y1="63" x2="314" y2="91"/>
+    <line id="edge-37ceaa9225c6079b6f4c1c1822f6586c8f3562c1-a3acea848c2fb367e7d38792d3a5c58e45aac205" class="exit" x1="286" y1="63" x2="258" y2="91"/>
+    <line id="edge-68c73bf8cbd4bdf2d5f056dfb0c4f7f873c43357-a3acea848c2fb367e7d38792d3a5c58e45aac205" class="exit" x1="286" y1="91" x2="258" y2="91"/>
+    <line id="edge-9af6f1f64b8728b62a572a0540be43110cb109ad-a3acea848c2fb367e7d38792d3a5c58e45aac205" class="exit" x1="258" y1="123" x2="258" y2="91"/>
+    <line id="edge-8fb3cbee200ce4c47426e357635cf027354a0645-9af6f1f64b8728b62a572a0540be43110cb109ad" class="exit" x1="258" y1="151" x2="258" y2="123"/>
+    <line id="edge-8fb3cbee200ce4c47426e357635cf027354a0645-e97301502f9725e070d40542e02b9df68384c223" class="exit" x1="258" y1="151" x2="286" y2="151"/>
+  </g>
   <g
      id="layer-rooms"
      sodipodi:insensitive="true">
-    <rect
-       id="room-cc132ec2ee473ae6a3293cc7c07ea34aa573b08a"
-       class="room indoor"
-       data-label="starboard side of the upper deck"
-       x="139"
-       y="120"
-       width="8"
-       height="8"
-       rx="2" />
-    <polygon
-       class="stair-symbol"
-       points="140.5,122 145.5,122 143,127 "
-       id="polygon1" />
-    <rect
-       id="room-bb128c612942e5adb1f2568ef0b0ecf95bf435dd"
-       class="room indoor"
-       data-label="starboard aft corner of the upper deck"
-       x="139"
-       y="148"
-       width="8"
-       height="8"
-       rx="2" />
-    <rect
-       id="room-300d37af6bc80eeb8b1d85bba0dc9e349bfdb0c5"
-       class="room indoor"
-       data-label="aft end of the upper deck"
-       x="111"
-       y="148"
-       width="8"
-       height="8"
-       rx="2" />
-    <rect
-       id="room-b6278d2a3a3f2f6ebdf33ba6c37dd21a681aa6ad"
-       class="room indoor"
-       data-label="port aft corner of the upper deck"
-       x="83"
-       y="148"
-       width="8"
-       height="8"
-       rx="2" />
-    <rect
-       id="room-afe5ba7685f3ad5d6e2c72a1a26a1c4e49c8b121"
-       class="room indoor"
-       data-label="port side of the upper deck"
-       x="83"
-       y="120"
-       width="8"
-       height="8"
-       rx="2" />
-    <polygon
-       class="stair-symbol"
-       points="84.5,122 89.5,122 87,127 "
-       id="polygon2" />
-    <rect
-       id="room-276f933f8ae0836c030480f9913b5839b99f412c"
-       class="room indoor"
-       data-label="middle of the upper deck"
-       x="111"
-       y="120"
-       width="8"
-       height="8"
-       rx="2" />
-    <polygon
-       class="stair-symbol"
-       points="112.5,126 117.5,126 115,121 "
-       id="polygon3" />
-    <rect
-       id="room-01cef59ef1d5914600f1cf94d4f3f9fb8f585020"
-       class="room indoor"
-       data-label="atop the mast"
-       x="29"
-       y="119"
-       width="8"
-       height="8"
-       rx="2" />
-    <polygon
-       class="stair-symbol"
-       points="30.5,121 35.5,121 33,126 "
-       id="polygon4" />
-    <rect
-       id="room-7061b06e4b2dcc679cbb7f708ff75024c60aa5ad"
-       class="room indoor"
-       data-label="starboard fore corner of the upper deck"
-       x="139"
-       y="88"
-       width="8"
-       height="8"
-       rx="2" />
-    <rect
-       id="room-21de9d4c3c3c9b4cd41483937f63c98f20c856c8"
-       class="room indoor"
-       data-label="fore end of the upper deck"
-       x="111"
-       y="60"
-       width="8"
-       height="8"
-       rx="2" />
-    <rect
-       id="room-549b279912bf26749f193103f5a698d1763c4195"
-       class="room indoor"
-       data-label="port fore corner of the upper deck"
-       x="83"
-       y="88"
-       width="8"
-       height="8"
-       rx="2" />
-    <rect
-       id="room-fb106e274d6161cebcbba8dfb256b718f896d800"
-       class="room indoor"
-       data-label="bridge of the SS Unsinkable"
-       x="111"
-       y="88"
-       width="8"
-       height="8"
-       rx="2" />
-    <rect
-       id="room-bb1f4ee5a2a4e1dca0a91559d4934c2710080ffd"
-       class="room indoor"
-       data-label="starboard corridor of the lower deck"
-       x="310"
-       y="119"
-       width="8"
-       height="8"
-       rx="2" />
-    <polygon
-       class="stair-symbol"
-       points="311.5,125 316.5,125 314,120 "
-       id="polygon5" />
-    <rect
-       id="room-69785e30295575f22400335deda7284980a8647b"
-       class="room indoor"
-       data-label="starboard boiler room"
-       x="310"
-       y="147"
-       width="8"
-       height="8"
-       rx="2" />
-    <rect
-       id="room-8380ae44a26adabd8cfcc4c66315fccaf375dd96"
-       class="room indoor"
-       data-label="Store B"
-       x="282"
-       y="119"
-       width="8"
-       height="8"
-       rx="2" />
-    <rect
-       id="room-7011a9bed74b1a416349e8b251f0d312c1c01311"
-       class="room indoor"
-       data-label="starboard fore corner of the lower deck"
-       x="310"
-       y="87"
-       width="8"
-       height="8"
-       rx="2" />
-    <rect
-       id="room-37ceaa9225c6079b6f4c1c1822f6586c8f3562c1"
-       class="room indoor"
-       data-label="fore corner of the lower deck"
-       x="282"
-       y="59"
-       width="8"
-       height="8"
-       rx="2" />
-    <rect
-       id="room-a3acea848c2fb367e7d38792d3a5c58e45aac205"
-       class="room indoor"
-       data-label="port fore corner of the lower deck"
-       x="254"
-       y="87"
-       width="8"
-       height="8"
-       rx="2" />
-    <rect
-       id="room-68c73bf8cbd4bdf2d5f056dfb0c4f7f873c43357"
-       class="room indoor"
-       data-label="Store C"
-       x="282"
-       y="87"
-       width="8"
-       height="8"
-       rx="2" />
-    <rect
-       id="room-9af6f1f64b8728b62a572a0540be43110cb109ad"
-       class="room indoor"
-       data-label="port corridor of the lower deck"
-       x="254"
-       y="119"
-       width="8"
-       height="8"
-       rx="2" />
-    <polygon
-       class="stair-symbol"
-       points="255.5,125 260.5,125 258,120 "
-       id="polygon6" />
-    <rect
-       id="room-8fb3cbee200ce4c47426e357635cf027354a0645"
-       class="room indoor"
-       data-label="port boiler room"
-       x="254"
-       y="147"
-       width="8"
-       height="8"
-       rx="2" />
-    <rect
-       id="room-e97301502f9725e070d40542e02b9df68384c223"
-       class="room indoor"
-       data-label="Store A"
-       x="282"
-       y="147"
-       width="8"
-       height="8"
-       rx="2" />
+    <circle id="room-cc132ec2ee473ae6a3293cc7c07ea34aa573b08a" class="room outdoor" data-label="starboard side of the upper deck" cx="143" cy="124" r="4"/><polygon class="stair-symbol" points="143,127 140.5,122 145.5,122"/>
+    <circle id="room-bb128c612942e5adb1f2568ef0b0ecf95bf435dd" class="room outdoor" data-label="starboard aft corner of the upper deck" cx="143" cy="152" r="4"/>
+    <circle id="room-300d37af6bc80eeb8b1d85bba0dc9e349bfdb0c5" class="room outdoor" data-label="aft end of the upper deck" cx="115" cy="152" r="4"/>
+    <circle id="room-b6278d2a3a3f2f6ebdf33ba6c37dd21a681aa6ad" class="room outdoor" data-label="port aft corner of the upper deck" cx="87" cy="152" r="4"/>
+    <circle id="room-afe5ba7685f3ad5d6e2c72a1a26a1c4e49c8b121" class="room outdoor" data-label="port side of the upper deck" cx="87" cy="124" r="4"/><polygon class="stair-symbol" points="87,127 84.5,122 89.5,122"/>
+    <circle id="room-276f933f8ae0836c030480f9913b5839b99f412c" class="room outdoor" data-label="middle of the upper deck" cx="115" cy="124" r="4"/><polygon class="stair-symbol" points="115,121 112.5,126 117.5,126"/>
+    <circle id="room-01cef59ef1d5914600f1cf94d4f3f9fb8f585020" class="room outdoor" data-label="atop the mast" cx="33" cy="123" r="4"/><polygon class="stair-symbol" points="33,126 30.5,121 35.5,121"/>
+    <circle id="room-7061b06e4b2dcc679cbb7f708ff75024c60aa5ad" class="room outdoor" data-label="starboard fore corner of the upper deck" cx="143" cy="92" r="4"/>
+    <circle id="room-21de9d4c3c3c9b4cd41483937f63c98f20c856c8" class="room outdoor" data-label="fore end of the upper deck" cx="115" cy="64" r="4"/>
+    <circle id="room-549b279912bf26749f193103f5a698d1763c4195" class="room outdoor" data-label="port fore corner of the upper deck" cx="87" cy="92" r="4"/>
+    <rect id="room-fb106e274d6161cebcbba8dfb256b718f896d800" class="room indoor" data-label="bridge of the SS Unsinkable" x="111" y="88" width="8" height="8" rx="2"/>
+    <rect id="room-bb1f4ee5a2a4e1dca0a91559d4934c2710080ffd" class="room indoor" data-label="starboard corridor of the lower deck" x="310" y="119" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="314,120 311.5,125 316.5,125"/>
+    <rect id="room-69785e30295575f22400335deda7284980a8647b" class="room indoor" data-label="starboard boiler room" x="310" y="147" width="8" height="8" rx="2"/>
+    <rect id="room-8380ae44a26adabd8cfcc4c66315fccaf375dd96" class="room indoor" data-label="Store B" x="282" y="119" width="8" height="8" rx="2"/>
+    <rect id="room-7011a9bed74b1a416349e8b251f0d312c1c01311" class="room indoor" data-label="starboard fore corner of the lower deck" x="310" y="87" width="8" height="8" rx="2"/>
+    <rect id="room-37ceaa9225c6079b6f4c1c1822f6586c8f3562c1" class="room indoor" data-label="fore corner of the lower deck" x="282" y="59" width="8" height="8" rx="2"/>
+    <rect id="room-a3acea848c2fb367e7d38792d3a5c58e45aac205" class="room indoor" data-label="port fore corner of the lower deck" x="254" y="87" width="8" height="8" rx="2"/>
+    <rect id="room-68c73bf8cbd4bdf2d5f056dfb0c4f7f873c43357" class="room indoor" data-label="Store C" x="282" y="87" width="8" height="8" rx="2"/>
+    <rect id="room-9af6f1f64b8728b62a572a0540be43110cb109ad" class="room indoor" data-label="port corridor of the lower deck" x="254" y="119" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="258,120 255.5,125 260.5,125"/>
+    <rect id="room-8fb3cbee200ce4c47426e357635cf027354a0645" class="room indoor" data-label="port boiler room" x="254" y="147" width="8" height="8" rx="2"/>
+    <rect id="room-e97301502f9725e070d40542e02b9df68384c223" class="room indoor" data-label="Store A" x="282" y="147" width="8" height="8" rx="2"/>
   </g>
   <g
      id="layer-room-labels">

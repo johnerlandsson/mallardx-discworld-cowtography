@@ -104,8 +104,8 @@
     <rect id="room-7c1f023e45c77a1656827735299710d61769fc0e" class="room indoor" data-label="women&#x27;s dressing room" x="84" y="172" width="8" height="8" rx="2"/>
     <rect id="room-e60350c1af1e8f42bd568a2b821add57cf635606" class="room indoor" data-label="corridor" x="108" y="196" width="8" height="8" rx="2"/>
     <rect id="room-43913fcff5de196f8e801d6810346011fa49f10b" class="room indoor" data-label="corridor" x="108" y="220" width="8" height="8" rx="2"/>
-    <rect id="room-e946d1b1c0ae54f55938d176143b5b9085f54b2a" class="room indoor" data-label="eastern part of the training ground" x="108" y="246" width="8" height="8" rx="2"/>
-    <rect id="room-effd227afd7bd5661384eed1e5abb1816292196a" class="room indoor" data-label="western part of the training ground" x="80" y="246" width="8" height="8" rx="2"/>
+    <circle id="room-e946d1b1c0ae54f55938d176143b5b9085f54b2a" class="room outdoor" data-label="eastern part of the training ground" cx="112" cy="250" r="4"/>
+    <circle id="room-effd227afd7bd5661384eed1e5abb1816292196a" class="room outdoor" data-label="western part of the training ground" cx="84" cy="250" r="4"/>
     <rect id="room-42ec9933c09cb4fb475bbd81b66a90308be65975" class="room indoor" data-label="corridor" x="84" y="220" width="8" height="8" rx="2"/>
     <rect id="room-a354edb8beab37712ffa33e68b17482171832faf" class="room indoor" data-label="interrogation room" x="84" y="196" width="8" height="8" rx="2"/>
     <rect id="room-0e7d9e718872efa5e99d00f9166a1a52b6b9de1f" class="room indoor" data-label="corridor" x="60" y="220" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="64,221 61.5,226 66.5,226"/>

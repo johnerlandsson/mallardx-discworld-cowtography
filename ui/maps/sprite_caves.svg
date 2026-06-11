@@ -81,7 +81,7 @@
     <rect id="room-fcfd3d34a714739bbc0864caf15325302d6398d1" class="room indoor" data-label="underground tunnel" x="137" y="206" width="8" height="8" rx="2"/>
     <rect id="room-1c62e0cef7ba62e3bdf824ba74211289ad05bfc6" class="room indoor" data-label="underground tunnel" x="137" y="220" width="8" height="8" rx="2"/>
     <rect id="room-f1283a40b1c1dafcb40d0f857a72da80d8063984" class="room indoor" data-label="underground cavern" x="151" y="234" width="8" height="8" rx="2"/>
-    <rect id="room-a6b70b577ab148a7dbab8f5a3fbda797cdd22bda" class="room indoor" data-label="rocky crag jutting out from a waterfall" x="165" y="248" width="8" height="8" rx="2"/>
+    <circle id="room-a6b70b577ab148a7dbab8f5a3fbda797cdd22bda" class="room outdoor" data-label="rocky crag jutting out from a waterfall" cx="169" cy="252" r="4"/>
   </g>
 
 
