@@ -17,8 +17,9 @@ local npcs      = require('data.npcs')
 local npc_items = require('data.npc_items')
 local exits     = require('data.exits')
 
-local last_results = {}
-local current_room = nil
+local last_results  = {}
+local current_room  = nil
+local room_id_echo  = false
 
 -- ─── Map panel ───────────────────────────────────────────────────────────────
 
@@ -276,6 +277,7 @@ world.on("disconnect", reset_walk)
 gmcp.on('room.info', function(_, data)
   if type(data) == 'table' and data.identifier then
     current_room = data.identifier
+    if room_id_echo then note('  ' .. current_room, C.name) end
 
     -- UU Library: clear per-room overlays on each room transition.
     lib_orb_here        = false
@@ -529,6 +531,20 @@ mud.alias([[^dbclear$]], function()
   walk_target_name = ''
   post_route_clear()
   note('  Route cleared.', C.muted)
+end)
+
+-- ─── dbid ────────────────────────────────────────────────────────────────────
+-- Toggle printing of the current room ID on every room transition.
+-- Useful when populating room-types.json and room-compact.json.
+
+mud.alias([[^dbid$]], function()
+  room_id_echo = not room_id_echo
+  if room_id_echo then
+    note('  Room ID echo ON.', C.ok)
+    if current_room then note('  ' .. current_room, C.name) end
+  else
+    note('  Room ID echo OFF.', C.muted)
+  end
 end)
 
 -- ─── libclear ────────────────────────────────────────────────────────────────

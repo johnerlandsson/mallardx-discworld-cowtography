@@ -86,6 +86,20 @@ Compact rooms are slightly transparent (`opacity: 0.7`) to further reduce visual
 
 ---
 
+## Finding room IDs in-game
+
+Use the `dbid` alias to print the current room's ID as you move around:
+
+```
+dbid          → Room ID echo ON  (prints ID on every room transition)
+<move around>
+dbid          → Room ID echo OFF
+```
+
+When echo is ON, the ID is also printed immediately for the room you are currently in, so you don't need to move first.
+
+Copy the printed ID into the appropriate JSON file, then rebuild.
+
 ## Workflow
 
 After editing either file:
