@@ -1,6 +1,6 @@
 # Map Data Configuration Guide
 
-Manual overrides for room appearance. These files live in `ui/data/` and are read by `npm run build:svg` each time you rebuild the maps. Changes take effect on the next rebuild — no Inkscape work required.
+Configuration for room appearance. These files live in `ui/data/` and are read by `npm run build:svg` each time you rebuild the maps. Changes take effect on the next rebuild — no Inkscape work required.
 
 ---
 
@@ -8,7 +8,7 @@ Manual overrides for room appearance. These files live in `ui/data/` and are rea
 
 **File:** `ui/data/room-types.json`
 
-Assigns a room type to specific rooms, either to override the auto-detected shop sub-type or to annotate rooms that cannot be auto-detected (banks, missions, player houses, etc.).
+Overrides or supplements the auto-detected room type for specific rooms. Use it for types that cannot be auto-detected (`mission`, `post`, `lang`, `crafts`, `tshop`), or to correct a mis-classified room.
 
 **Format:**
 
@@ -20,34 +20,34 @@ Assigns a room type to specific rooms, either to override the auto-detected shop
 
 **Finding a room ID:** Open the generated SVG in a text editor and search for the room's short name (it's in the `data-label` attribute). The element's `id` attribute is `room-<room_id>`, so strip the `room-` prefix.
 
-**Valid types:**
+**Valid types and how each is detected:**
 
-| Type | Letter | Colour | Notes |
-|------|--------|--------|-------|
-| `shop` | S | dark green | Generic shop — auto-detected, override if mis-classified |
-| `weapon` | W | dark green | Weapon shop — auto-detected |
-| `armour` | A | dark green | Armour shop — auto-detected |
-| `clothes` | C | dark green | Clothes shop — auto-detected |
-| `food` | F | dark green | Food / bar — auto-detected |
-| `access` | X | dark green | Accessories shop — auto-detected |
-| `bank` | $ | dark orange | Bank |
-| `mission` | ! | dark orange | Mission board / guild office |
-| `post` | O | dark orange | Post office |
-| `lang` | L | dark orange | Language teacher |
-| `crafts` | K | dark green (muted) | Crafting room / smithy |
-| `house` | H | brown | Player-owned house |
-| `club` | G | navy | Player-owned club or guild |
-| `pshop` | P | magenta | Player-owned shop |
-| `tshop` | T | near-black | Troll-dollar shop |
+| Type | Letter | Colour | Detection |
+|------|--------|--------|-----------|
+| `shop` | S | dark green | Auto — `shop_items` table, no sub-type keyword match or tie |
+| `weapon` | W | dark green | Auto — `shop_items` item name keywords |
+| `armour` | A | dark green | Auto — `shop_items` item name keywords |
+| `clothes` | C | dark green | Auto — `shop_items` item name keywords |
+| `food` | F | dark green | Auto — `shop_items` item name keywords |
+| `access` | X | dark green | Auto — `shop_items` item name keywords |
+| `bank` | $ | dark orange | Auto — `room_short` matches `%Bing%bank%` or `%Coop%bank%` |
+| `house` | H | brown | Auto — `room_short` is `[player house]` |
+| `pshop` | P | magenta | Auto — `room_short` is `[player shop]` |
+| `club` | G | navy | Auto — `room_short` is `[player club]` |
+| `mission` | ! | dark orange | Manual only |
+| `post` | O | dark orange | Manual only |
+| `lang` | L | dark orange | Manual only |
+| `crafts` | K | dark green (muted) | Manual only |
+| `tshop` | T | near-black | Manual only |
 
-**Auto-detection:** Rooms in the `shop_items` database table are classified automatically by keyword matching on item names. Manual entries in this file always win over auto-detection.
+**Priority:** `shop_items` keywords → `room_short` patterns → `room-types.json` (always wins).
 
 **Example:**
 
 ```json
 {
-  "bf24b19be09309ecb42f26836b36eaaf9246c49c": "bank",
-  "a1c3e5f7b9d2e4f6a8c0e2f4b6d8e0f2a4c6e8f0": "mission"
+  "bf24b19be09309ecb42f26836b36eaaf9246c49c": "mission",
+  "a1c3e5f7b9d2e4f6a8c0e2f4b6d8e0f2a4c6e8f0": "post"
 }
 ```
 
