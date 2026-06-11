@@ -10,7 +10,8 @@ function makeDb() {
       map_id  INTEGER NOT NULL,
       xpos    INTEGER NOT NULL,
       ypos    INTEGER NOT NULL,
-      room_short TEXT NOT NULL
+      room_short TEXT NOT NULL,
+      room_type  TEXT NOT NULL DEFAULT 'outside'
     );
     CREATE TABLE room_exits (
       room_id    TEXT NOT NULL,
@@ -31,11 +32,11 @@ function makeDb() {
 describe('queryRooms', () => {
   it('returns rooms for the given map_id only', () => {
     const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 100, 200, 'The Drum')").run()
-    db.prepare("INSERT INTO rooms VALUES ('r2', 2, 300, 400, 'Rub-a-dub')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 100, 200, 'The Drum')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r2', 2, 300, 400, 'Rub-a-dub')").run()
     const result = queryRooms(db, 1)
     expect(result).toHaveLength(1)
-    expect(result[0]).toEqual({ id: 'r1', x: 100, y: 200, short: 'The Drum' })
+    expect(result[0]).toEqual({ id: 'r1', x: 100, y: 200, short: 'The Drum', roomType: 'outside' })
   })
 
   it('returns empty array when no rooms on map', () => {
@@ -47,9 +48,9 @@ describe('queryRooms', () => {
 describe('queryExits', () => {
   it('returns deduplicated pairs with isVertical:false for horizontal exits', () => {
     const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0,   0, 'a')").run()
-    db.prepare("INSERT INTO rooms VALUES ('r2', 1, 100, 0, 'b')").run()
-    db.prepare("INSERT INTO rooms VALUES ('r3', 2, 0,   0, 'c')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0,   0, 'a')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r2', 1, 100, 0, 'b')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r3', 2, 0,   0, 'c')").run()
     db.prepare("INSERT INTO room_exits VALUES ('r1', 'r2', 'e', 0)").run()
     db.prepare("INSERT INTO room_exits VALUES ('r2', 'r1', 'w', 0)").run() // reverse — deduplicate
     db.prepare("INSERT INTO room_exits VALUES ('r1', 'r3', 'n', 0)").run() // cross-map — exclude
@@ -60,8 +61,8 @@ describe('queryExits', () => {
 
   it('marks pair as isVertical:true when all exits between rooms are vertical', () => {
     const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'a')").run()
-    db.prepare("INSERT INTO rooms VALUES ('r2', 1, 0, 0, 'b')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'a')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r2', 1, 0, 0, 'b')").run()
     db.prepare("INSERT INTO room_exits VALUES ('r1', 'r2', 'u', 0)").run()
     db.prepare("INSERT INTO room_exits VALUES ('r2', 'r1', 'd', 0)").run()
     const exits = queryExits(db, 1)
@@ -71,8 +72,8 @@ describe('queryExits', () => {
 
   it('keeps isVertical:false when rooms share both horizontal and vertical exits', () => {
     const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'a')").run()
-    db.prepare("INSERT INTO rooms VALUES ('r2', 1, 0, 0, 'b')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'a')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r2', 1, 0, 0, 'b')").run()
     db.prepare("INSERT INTO room_exits VALUES ('r1', 'r2', 'n', 0)").run()
     db.prepare("INSERT INTO room_exits VALUES ('r1', 'r2', 'u', 0)").run()
     const exits = queryExits(db, 1)
@@ -82,7 +83,7 @@ describe('queryExits', () => {
 
   it('returns empty array when no exits on map', () => {
     const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'a')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'a')").run()
     expect(queryExits(db, 1)).toEqual([])
   })
 })
@@ -90,16 +91,16 @@ describe('queryExits', () => {
 describe('queryStairRooms', () => {
   it('returns empty map when no vertical exits', () => {
     const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'a')").run()
-    db.prepare("INSERT INTO rooms VALUES ('r2', 1, 0, 0, 'b')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'a')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r2', 1, 0, 0, 'b')").run()
     db.prepare("INSERT INTO room_exits VALUES ('r1', 'r2', 'n', 0)").run()
     expect(queryStairRooms(db, 1).size).toBe(0)
   })
 
   it('sets hasUp for u exit', () => {
     const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'a')").run()
-    db.prepare("INSERT INTO rooms VALUES ('r2', 1, 0, 0, 'b')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'a')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r2', 1, 0, 0, 'b')").run()
     db.prepare("INSERT INTO room_exits VALUES ('r1', 'r2', 'u', 0)").run()
     const m = queryStairRooms(db, 1)
     expect(m.get('r1')).toEqual({ hasUp: true, hasDown: false })
@@ -107,8 +108,8 @@ describe('queryStairRooms', () => {
 
   it('sets hasDown for d exit', () => {
     const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'a')").run()
-    db.prepare("INSERT INTO rooms VALUES ('r2', 1, 0, 0, 'b')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'a')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r2', 1, 0, 0, 'b')").run()
     db.prepare("INSERT INTO room_exits VALUES ('r1', 'r2', 'd', 0)").run()
     const m = queryStairRooms(db, 1)
     expect(m.get('r1')).toEqual({ hasUp: false, hasDown: true })
@@ -116,8 +117,8 @@ describe('queryStairRooms', () => {
 
   it('sets both for stairs exit', () => {
     const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'a')").run()
-    db.prepare("INSERT INTO rooms VALUES ('r2', 1, 0, 0, 'b')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'a')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r2', 1, 0, 0, 'b')").run()
     db.prepare("INSERT INTO room_exits VALUES ('r1', 'r2', 'stairs', 0)").run()
     const m = queryStairRooms(db, 1)
     expect(m.get('r1')).toEqual({ hasUp: true, hasDown: true })
@@ -125,8 +126,8 @@ describe('queryStairRooms', () => {
 
   it('excludes vertical exits to other maps', () => {
     const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'a')").run()
-    db.prepare("INSERT INTO rooms VALUES ('r2', 2, 0, 0, 'b')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'a')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r2', 2, 0, 0, 'b')").run()
     db.prepare("INSERT INTO room_exits VALUES ('r1', 'r2', 'u', 0)").run()
     expect(queryStairRooms(db, 1).size).toBe(0)
   })
@@ -327,10 +328,10 @@ describe('exitElement', () => {
 })
 
 describe('buildNewSvg', () => {
-  const mapMeta = { maxX: 500, maxY: 400, topLevel: true }
+  const mapMeta = { maxX: 500, maxY: 400 }
   const rooms   = [
-    { id: 'r1', x: 100, y: 100, short: 'Square' },
-    { id: 'r2', x: 200, y: 100, short: 'Street' },
+    { id: 'r1', x: 100, y: 100, short: 'Square', roomType: 'outside' },
+    { id: 'r2', x: 200, y: 100, short: 'Street', roomType: 'outside' },
   ]
   const exits = [{ from: 'r1', to: 'r2' }]
 
@@ -354,13 +355,14 @@ describe('buildNewSvg', () => {
     expect(pos('layer-room-labels')).toBeLessThan(pos('layer-labels'))
   })
 
-  it('uses circles for topLevel maps', () => {
+  it('uses circles for outside rooms', () => {
     const svg = buildNewSvg(mapMeta, rooms, exits, 7)
     expect(svg).toContain('<circle id="room-r1"')
   })
 
-  it('uses rects for non-topLevel maps', () => {
-    const svg = buildNewSvg({ ...mapMeta, topLevel: false }, rooms, exits, 7)
+  it('uses rects for inside rooms', () => {
+    const indoorRooms = rooms.map(r => ({ ...r, roomType: 'inside' }))
+    const svg = buildNewSvg(mapMeta, indoorRooms, exits, 7)
     expect(svg).toContain('<rect id="room-r1"')
   })
 
@@ -392,8 +394,8 @@ describe('buildNewSvg', () => {
 })
 
 describe('updateExistingSvg', () => {
-  const mapMeta  = { maxX: 500, maxY: 400, topLevel: false }
-  const origRooms = [{ id: 'r1', x: 10, y: 10, short: 'Alpha' }, { id: 'r2', x: 50, y: 10, short: 'Beta' }]
+  const mapMeta  = { maxX: 500, maxY: 400 }
+  const origRooms = [{ id: 'r1', x: 10, y: 10, short: 'Alpha', roomType: 'inside' }, { id: 'r2', x: 50, y: 10, short: 'Beta', roomType: 'inside' }]
   const origExits = [{ from: 'r1', to: 'r2' }]
   const makeSvg   = () => buildNewSvg(mapMeta, origRooms, origExits, 3)
 
@@ -725,13 +727,13 @@ describe('buildLibraryBookList', () => {
 describe('queryShopTypes', () => {
   it('returns empty map when no rooms have shop items on this map', () => {
     const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'Room')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'Room')").run()
     expect(queryShopTypes(db, 1).size).toBe(0)
   })
 
   it('classifies a room with majority weapon items as weapon', () => {
     const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'Shop')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'Shop')").run()
     db.prepare("INSERT INTO shop_items VALUES ('r1', 'long sword', '')").run()
     db.prepare("INSERT INTO shop_items VALUES ('r1', 'short sword', '')").run()
     db.prepare("INSERT INTO shop_items VALUES ('r1', 'dagger', '')").run()
@@ -740,14 +742,14 @@ describe('queryShopTypes', () => {
 
   it('classifies a room with no matching keywords as generic shop', () => {
     const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'Shop')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'Shop')").run()
     db.prepare("INSERT INTO shop_items VALUES ('r1', 'mystery item', '')").run()
     expect(queryShopTypes(db, 1).get('r1')).toBe('shop')
   })
 
   it('picks majority type: three food items beat one armour item', () => {
     const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'Bakery')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'Bakery')").run()
     db.prepare("INSERT INTO shop_items VALUES ('r1', 'apple pie', '')").run()
     db.prepare("INSERT INTO shop_items VALUES ('r1', 'chocolate cake', '')").run()
     db.prepare("INSERT INTO shop_items VALUES ('r1', 'beef stew', '')").run()
@@ -757,7 +759,7 @@ describe('queryShopTypes', () => {
 
   it('returns shop on a tie between two sub-types', () => {
     const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'Mixed')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'Mixed')").run()
     db.prepare("INSERT INTO shop_items VALUES ('r1', 'long sword', '')").run()
     db.prepare("INSERT INTO shop_items VALUES ('r1', 'metal helm', '')").run()
     expect(queryShopTypes(db, 1).get('r1')).toBe('shop')
@@ -765,71 +767,71 @@ describe('queryShopTypes', () => {
 
   it('manual override wins over keyword heuristic', () => {
     const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'Sword Shop')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'Sword Shop')").run()
     db.prepare("INSERT INTO shop_items VALUES ('r1', 'long sword', '')").run()
     expect(queryShopTypes(db, 1, { 'r1': 'bank' }).get('r1')).toBe('bank')
   })
 
   it('override applies to rooms not in shop_items', () => {
     const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'Bank')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'Bank')").run()
     expect(queryShopTypes(db, 1, { 'r1': 'bank' }).get('r1')).toBe('bank')
   })
 
   it('does not include rooms from other maps', () => {
     const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'Map1 Room')").run()
-    db.prepare("INSERT INTO rooms VALUES ('r2', 2, 0, 0, 'Map2 Shop')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'Map1 Room')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r2', 2, 0, 0, 'Map2 Shop')").run()
     db.prepare("INSERT INTO shop_items VALUES ('r2', 'long sword', '')").run()
     expect(queryShopTypes(db, 1).has('r2')).toBe(false)
   })
 
   it('auto-detects player houses from room_short', () => {
     const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, '[player house]')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, '[player house]')").run()
     expect(queryShopTypes(db, 1).get('r1')).toBe('house')
   })
 
   it('auto-detects player shops from room_short', () => {
     const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, '[player shop]')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, '[player shop]')").run()
     expect(queryShopTypes(db, 1).get('r1')).toBe('pshop')
   })
 
   it('auto-detects player clubs from room_short', () => {
     const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, '[player club]')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, '[player club]')").run()
     expect(queryShopTypes(db, 1).get('r1')).toBe('club')
   })
 
   it("auto-detects Bing's Bank from room_short", () => {
     const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES (?, 1, 0, 0, ?)").run('r1', "branch of Bing's Bank")
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES (?, 1, 0, 0, ?)").run('r1', "branch of Bing's Bank")
     expect(queryShopTypes(db, 1).get('r1')).toBe('bank')
   })
 
   it('auto-detects Cooperative Bank from room_short', () => {
     const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES (?, 1, 0, 0, ?)").run('r1', "Lancrastian Farmers' Cooperative Bank")
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES (?, 1, 0, 0, ?)").run('r1', "Lancrastian Farmers' Cooperative Bank")
     expect(queryShopTypes(db, 1).get('r1')).toBe('bank')
   })
 
   it('room_short detection does not overwrite a shop', () => {
     const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, '[player house]')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, '[player house]')").run()
     db.prepare("INSERT INTO shop_items VALUES ('r1', 'long sword', '')").run()
     expect(queryShopTypes(db, 1).get('r1')).toBe('weapon')
   })
 
   it('manual override beats room_short auto-detection', () => {
     const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, '[player house]')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, '[player house]')").run()
     expect(queryShopTypes(db, 1, { 'r1': 'pshop' }).get('r1')).toBe('pshop')
   })
 
   it('skips and warns for unknown override type', () => {
     const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'Room')").run()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'Room')").run()
     const warnSpy = vi.spyOn(console, 'warn').mockImplementation(() => {})
     const result = queryShopTypes(db, 1, { 'r1': 'bank s' })
     expect(result.has('r1')).toBe(false)

@@ -115,7 +115,7 @@ export function queryShopTypes(db, mapId, overrides = {}) {
 
 export function queryRooms(db, mapId) {
   return db.prepare(
-    'SELECT room_id AS id, xpos AS x, ypos AS y, room_short AS short FROM rooms WHERE map_id = ?'
+    'SELECT room_id AS id, xpos AS x, ypos AS y, room_short AS short, room_type AS roomType FROM rooms WHERE map_id = ?'
   ).all(mapId)
 }
 
@@ -230,10 +230,8 @@ export function exitElement(fromId, toId, rooms, isVertical = false, compactRoom
 // ─── Map SVG builders ────────────────────────────────────────────────────────
 
 export function buildNewSvg(mapMeta, rooms, exits, mapId = '', stairRooms = new Map(), shopTypes = new Map(), compactRooms = new Set()) {
-  const isIndoor = !mapMeta.topLevel
-
   const exitLines  = exits.map(e => '    ' + exitElement(e.from, e.to, rooms, e.isVertical, compactRooms)).filter(Boolean).join('\n')
-  const roomShapes = rooms.map(r => '    ' + roomElement(r.id, r.x, r.y, r.short, isIndoor, stairRooms.get(r.id) ?? null, shopTypes.get(r.id) ?? null, compactRooms.has(r.id))).join('\n')
+  const roomShapes = rooms.map(r => '    ' + roomElement(r.id, r.x, r.y, r.short, r.roomType === 'inside', stairRooms.get(r.id) ?? null, shopTypes.get(r.id) ?? null, compactRooms.has(r.id))).join('\n')
 
   return `<svg xmlns="http://www.w3.org/2000/svg"
      viewBox="0 0 ${mapMeta.maxX} ${mapMeta.maxY}"
@@ -258,9 +256,8 @@ ${roomShapes}
 }
 
 export function updateExistingSvg(existingSvg, mapMeta, rooms, exits, stairRooms = new Map(), shopTypes = new Map(), compactRooms = new Set()) {
-  const isIndoor   = !mapMeta.topLevel
   const exitLines  = exits.map(e => '    ' + exitElement(e.from, e.to, rooms, e.isVertical, compactRooms)).filter(Boolean).join('\n')
-  const roomShapes = rooms.map(r => '    ' + roomElement(r.id, r.x, r.y, r.short, isIndoor, stairRooms.get(r.id) ?? null, shopTypes.get(r.id) ?? null, compactRooms.has(r.id))).join('\n')
+  const roomShapes = rooms.map(r => '    ' + roomElement(r.id, r.x, r.y, r.short, r.roomType === 'inside', stairRooms.get(r.id) ?? null, shopTypes.get(r.id) ?? null, compactRooms.has(r.id))).join('\n')
 
   let svg = existingSvg.replace(
     /(<g id="layer-exits">)([\s\S]*?)(<\/g>)/,
