@@ -256,6 +256,38 @@ describe('roomElement (with type)', () => {
   })
 })
 
+describe('roomElement (compact)', () => {
+  it('compact outdoor room has r=2 and room-compact class', () => {
+    const el = roomElement('r1', 10, 20, 'Alley', false, null, null, true)
+    expect(el).toContain('class="room outdoor room-compact"')
+    expect(el).toContain('r="2"')
+    expect(el).not.toContain('r="4"')
+  })
+
+  it('compact indoor room has 4x4 size and rx=1', () => {
+    const el = roomElement('r1', 50, 75, 'Hall', true, null, null, true)
+    expect(el).toContain('class="room indoor room-compact"')
+    expect(el).toContain('width="4"')
+    expect(el).toContain('height="4"')
+    expect(el).toContain('rx="1"')
+    expect(el).toContain(`x="${50 - 2}"`)
+    expect(el).toContain(`y="${75 - 2}"`)
+  })
+
+  it('non-compact outdoor room still has r=4', () => {
+    const el = roomElement('r1', 10, 20, 'Room', false, null, null, false)
+    expect(el).toContain('r="4"')
+    expect(el).not.toContain('room-compact')
+  })
+
+  it('compact room with type has both classes', () => {
+    const el = roomElement('r1', 10, 20, 'Shop', false, null, 'weapon', true)
+    expect(el).toContain('class="room outdoor room-weapon room-compact"')
+    expect(el).toContain('r="2"')
+    expect(el).toContain('>W<')
+  })
+})
+
 describe('exitElement', () => {
   const rooms = [{ id: 'r1', x: 10, y: 20 }, { id: 'r2', x: 50, y: 80 }]
 

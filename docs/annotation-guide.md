@@ -2,6 +2,8 @@
 
 Maps are SVG files in `ui/maps/`. The build script regenerates rooms and exits; you hand-craft labels, area fills, and annotation boxes in Inkscape.
 
+For configuring room types and compact rooms (JSON-based, no Inkscape), see [`docs/map-data-guide.md`](map-data-guide.md).
+
 ## Setup
 
 After cloning or pulling, run once to inject the font styles into the SVGs:
@@ -98,6 +100,8 @@ Open the generated `.svg` in a text editor and search for the room's `id` attrib
 
 - **Outdoor circle:** `<circle id="room-XXXX" ... cx="100" cy="200" r="4"/>` → center is `(100, 200)`
 - **Indoor rect:** `<rect id="room-XXXX" ... x="96" y="196" width="8" height="8"/>` → center is `x + 4, y + 4` = `(100, 200)`
+- **Compact outdoor circle:** `r="2"` — center is still the `cx`/`cy` values
+- **Compact indoor rect:** `width="4" height="4"` — center is `x + 2, y + 2`
 
 The `data-label` attribute on room elements shows the room's short name, which can help you identify the right room.
 

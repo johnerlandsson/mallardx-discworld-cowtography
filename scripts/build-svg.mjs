@@ -13,7 +13,8 @@ const REPO_ROOT  = path.resolve(__dirname, '..')
 const DEFAULT_DB    = path.join(REPO_ROOT, 'claude_resources', 'quow_cowbar', 'maps', '_quowmap_database.db')
 const OUT_DIR       = path.join(REPO_ROOT, 'ui', 'maps')
 const LIB_CONFIG    = path.join(REPO_ROOT, 'ui', 'data', 'uu_library.json')
-const TYPES_CONFIG  = path.join(REPO_ROOT, 'ui', 'data', 'room-types.json')
+const TYPES_CONFIG   = path.join(REPO_ROOT, 'ui', 'data', 'room-types.json')
+const COMPACT_CONFIG = path.join(REPO_ROOT, 'ui', 'data', 'room-compact.json')
 
 // ─── DB queries ──────────────────────────────────────────────────────────────
 
@@ -184,14 +185,16 @@ export function stairSymbol(x, y, hasUp, hasDown) {
 }
 
 // stair: null | {hasUp, hasDown}
-// stair: null | {hasUp, hasDown}
 // type: null | string (key of TYPE_LETTERS)
-export function roomElement(id, x, y, short, isIndoor, stair = null, type = null) {
+// compact: true → half-size room (r=2 circle, 4×4 rect)
+export function roomElement(id, x, y, short, isIndoor, stair = null, type = null, compact = false) {
   const label     = short ? ` data-label="${escapeXml(short)}"` : ''
-  const typeClass = type ? ` room-${type}` : ''
+  const typeClass = type    ? ` room-${type}` : ''
+  const sizeClass = compact ? ' room-compact'  : ''
+  const hw = compact ? 2 : 4
   const shape = isIndoor
-    ? `<rect id="room-${id}" class="room indoor${typeClass}"${label} x="${x - 4}" y="${y - 4}" width="8" height="8" rx="2"/>`
-    : `<circle id="room-${id}" class="room outdoor${typeClass}"${label} cx="${x}" cy="${y}" r="4"/>`
+    ? `<rect id="room-${id}" class="room indoor${typeClass}${sizeClass}"${label} x="${x - hw}" y="${y - hw}" width="${hw * 2}" height="${hw * 2}" rx="${compact ? 1 : 2}"/>`
+    : `<circle id="room-${id}" class="room outdoor${typeClass}${sizeClass}"${label} cx="${x}" cy="${y}" r="${hw}"/>`
   const stairEl = stair ? stairSymbol(x, y, stair.hasUp, stair.hasDown) : ''
   const typeEl  = type  ? `<text class="room-type-label" x="${x}" y="${y}" text-anchor="middle" dominant-baseline="central">${TYPE_LETTERS[type]}</text>` : ''
   return shape + stairEl + typeEl
@@ -208,11 +211,11 @@ export function exitElement(fromId, toId, rooms, isVertical = false) {
 
 // ─── Map SVG builders ────────────────────────────────────────────────────────
 
-export function buildNewSvg(mapMeta, rooms, exits, mapId = '', stairRooms = new Map(), shopTypes = new Map()) {
+export function buildNewSvg(mapMeta, rooms, exits, mapId = '', stairRooms = new Map(), shopTypes = new Map(), compactRooms = new Set()) {
   const isIndoor = !mapMeta.topLevel
 
   const exitLines  = exits.map(e => '    ' + exitElement(e.from, e.to, rooms, e.isVertical)).filter(Boolean).join('\n')
-  const roomShapes = rooms.map(r => '    ' + roomElement(r.id, r.x, r.y, r.short, isIndoor, stairRooms.get(r.id) ?? null, shopTypes.get(r.id) ?? null)).join('\n')
+  const roomShapes = rooms.map(r => '    ' + roomElement(r.id, r.x, r.y, r.short, isIndoor, stairRooms.get(r.id) ?? null, shopTypes.get(r.id) ?? null, compactRooms.has(r.id))).join('\n')
 
   return `<svg xmlns="http://www.w3.org/2000/svg"
      viewBox="0 0 ${mapMeta.maxX} ${mapMeta.maxY}"
@@ -236,10 +239,10 @@ ${roomShapes}
 </svg>`
 }
 
-export function updateExistingSvg(existingSvg, mapMeta, rooms, exits, stairRooms = new Map(), shopTypes = new Map()) {
+export function updateExistingSvg(existingSvg, mapMeta, rooms, exits, stairRooms = new Map(), shopTypes = new Map(), compactRooms = new Set()) {
   const isIndoor   = !mapMeta.topLevel
   const exitLines  = exits.map(e => '    ' + exitElement(e.from, e.to, rooms, e.isVertical)).filter(Boolean).join('\n')
-  const roomShapes = rooms.map(r => '    ' + roomElement(r.id, r.x, r.y, r.short, isIndoor, stairRooms.get(r.id) ?? null, shopTypes.get(r.id) ?? null)).join('\n')
+  const roomShapes = rooms.map(r => '    ' + roomElement(r.id, r.x, r.y, r.short, isIndoor, stairRooms.get(r.id) ?? null, shopTypes.get(r.id) ?? null, compactRooms.has(r.id))).join('\n')
 
   let svg = existingSvg.replace(
     /(<g id="layer-exits">)([\s\S]*?)(<\/g>)/,
@@ -529,6 +532,9 @@ async function buildOneSvg(db, mapId, mapMeta) {
   try { typesOverrides = JSON.parse(await fs.readFile(TYPES_CONFIG, 'utf8')) } catch {}
   const shopTypes = queryShopTypes(db, mapId, typesOverrides)
 
+  let compactRooms = new Set()
+  try { compactRooms = new Set(JSON.parse(await fs.readFile(COMPACT_CONFIG, 'utf8'))) } catch {}
+
   let svg
   try {
     const existing = await fs.readFile(outPath, 'utf8')
@@ -539,10 +545,10 @@ async function buildOneSvg(db, mapId, mapMeta) {
     if (added > 0 || removed > 0) {
       console.log(`[build-svg] map ${mapId}: +${added} rooms, -${removed} removed — update labels manually`)
     }
-    svg = updateExistingSvg(existing, mapMeta, roomRows, exitRows, stairRooms, shopTypes)
+    svg = updateExistingSvg(existing, mapMeta, roomRows, exitRows, stairRooms, shopTypes, compactRooms)
   } catch (e) {
     if (e.code !== 'ENOENT') throw e
-    svg = buildNewSvg(mapMeta, roomRows, exitRows, mapId, stairRooms, shopTypes)
+    svg = buildNewSvg(mapMeta, roomRows, exitRows, mapId, stairRooms, shopTypes, compactRooms)
   }
 
   await fs.writeFile(outPath, svg, 'utf8')

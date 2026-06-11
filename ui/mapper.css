@@ -68,6 +68,7 @@ body {
 .exit-offmap  { stroke: var(--muted); stroke-width: 1.5; stroke-dasharray: 3 2; fill: none; }
 .lib-exit     { stroke-width: 3; }
 .stair-symbol { fill: var(--fg); pointer-events: none; }
+.room-compact    { opacity: 0.7; }
 .room-type-label { font-family: "Noto Sans", sans-serif; font-size: 4.5px; font-weight: bold; fill: #eaeaea; pointer-events: none; transform: translateY(-0.3px); }
 
 .room-shop, .room-weapon, .room-armour,
