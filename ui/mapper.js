@@ -49,12 +49,15 @@ function applyViewBox() {
   currentSvg.setAttribute("viewBox", `${viewBox.x} ${viewBox.y} ${viewBox.w} ${viewBox.h}`);
 }
 
-function resetZoom(mapId) {
+function defaultZoomW(mapId) {
   const meta = data.maps[mapId];
-  if (!meta) return;
+  if (!meta) return 1;
+  return mapId === 47 ? 280 : meta.maxX / 4;
+}
+
+function resetZoom(mapId) {
   const ratio = $container.clientHeight / Math.max($container.clientWidth, 1);
-  // Library: wide enough to show all 8 columns (x=36–266) when centred on entrance (x≈165)
-  viewBox.w = mapId === 47 ? 280 : meta.maxX / 4;
+  viewBox.w = defaultZoomW(mapId);
   viewBox.h = viewBox.w * ratio;
 }
 
@@ -139,7 +142,10 @@ async function loadSvgMap(mapId, x, y) {
   wrap.innerHTML = svgText;
   currentSvg = wrap.querySelector("svg");
   $container.insertBefore(wrap, $lspace);
+  const prevZoomRatio = viewBox.w > 0 ? viewBox.w / defaultZoomW(lastKnownMapId ?? mapId) : 1;
   resetZoom(mapId);
+  viewBox.w *= prevZoomRatio;
+  viewBox.h *= prevZoomRatio;
   centerOnRoom(x, y);
   wireTooltip();
 }
