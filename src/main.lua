@@ -391,7 +391,8 @@ local function display_results(search_type, query, results, sorted_by_dist)
   note('  ' .. rule, C.rule)
   for i, line in ipairs(lines) do note(line, colours[i]) end
   note('  ' .. rule, C.rule)
-  note('  Use  dbroute <number>  to navigate to a result.', C.muted)
+  note('  <number>            — route and walk immediately.', C.muted)
+  note('  dbroute <number>    — route and show on map first, then dbwalk.', C.muted)
 end
 
 -- ─── dbsearch ────────────────────────────────────────────────────────────────
@@ -520,6 +521,46 @@ mud.alias([[^dbwalk$]], function()
   end
   walk_pos = 1
   note(string.format('  Walking to "%s" — %d move%s.', walk_target_name, #walk_steps, #walk_steps == 1 and '' or 's'), C.ok)
+  mud.send(walk_steps[1])
+end)
+
+-- ─── number shortcut — route + walk immediately ──────────────────────────────
+
+mud.alias([[^(\d+)$]], function(m)
+  if #last_results == 0 then return end
+  local n = tonumber(m[1])
+  if n < 1 or n > #last_results then return end
+  if current_room == nil then
+    note('  Current room unknown. Move through a mapped room first.', C.err)
+    return
+  end
+
+  local target = last_results[n]
+
+  if current_room == target.room_id then
+    note('  You are already there.', C.ok)
+    return
+  end
+
+  local path, steps, route_rooms = pathfind.find_path(exits, current_room, target.room_id)
+  if path == nil then
+    note('  Could not find a route. You may be in an untracked area, or the destination is unreachable.', C.err)
+    return
+  end
+
+  walk_steps = {}
+  for dir in path:gmatch('[^;]+') do
+    walk_steps[#walk_steps + 1] = dir
+  end
+  walk_pos         = 1
+  walk_target_name = target.location
+
+  post_route(route_rooms)
+
+  note(string.format('  Walking to "%s" — %d move%s.', target.location, steps, steps == 1 and '' or 's'), C.ok)
+  if steps > 140 then
+    note('  Warning: long route. Discworld clears movement queues after 5 minutes of idle time.', C.header)
+  end
   mud.send(walk_steps[1])
 end)
 
