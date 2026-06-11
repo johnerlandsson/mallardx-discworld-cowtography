@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import Database from 'better-sqlite3'
-import { queryRooms, queryExits, queryStairRooms, edgeId, roomElement, stairSymbol, exitElement, buildNewSvg, updateExistingSvg, buildLibrarySvg, buildLibraryLabelsContent, buildLibraryRowNumbers, buildLibraryBookList, buildLibraryExitsContent } from './build-svg.mjs'
+import { queryRooms, queryExits, queryStairRooms, edgeId, roomElement, stairSymbol, exitElement, buildNewSvg, updateExistingSvg, buildLibrarySvg, buildLibraryLabelsContent, buildLibraryRowNumbers, buildLibraryBookList, buildLibraryExitsContent, queryShopTypes } from './build-svg.mjs'
 
 function makeDb() {
   const db = new Database(':memory:')
@@ -17,6 +17,12 @@ function makeDb() {
       connect_id TEXT NOT NULL,
       exit       TEXT NOT NULL,
       guessed    INTEGER NOT NULL DEFAULT 0
+    );
+    CREATE TABLE shop_items (
+      room_id    TEXT NOT NULL,
+      item_name  TEXT NOT NULL,
+      sale_price TEXT NOT NULL DEFAULT '',
+      PRIMARY KEY (room_id, item_name)
     );
   `)
   return db
@@ -566,5 +572,68 @@ describe('buildLibraryBookList', () => {
   it('escapes XML in descriptions', () => {
     const content = buildLibraryBookList([[1,1,1,'A & B']])
     expect(content).toContain('A &amp; B')
+  })
+})
+
+describe('queryShopTypes', () => {
+  it('returns empty map when no rooms have shop items on this map', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'Room')").run()
+    expect(queryShopTypes(db, 1).size).toBe(0)
+  })
+
+  it('classifies a room with majority weapon items as weapon', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'Shop')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'long sword', '')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'short sword', '')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'dagger', '')").run()
+    expect(queryShopTypes(db, 1).get('r1')).toBe('weapon')
+  })
+
+  it('classifies a room with no matching keywords as generic shop', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'Shop')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'mystery item', '')").run()
+    expect(queryShopTypes(db, 1).get('r1')).toBe('shop')
+  })
+
+  it('picks majority type: three food items beat one armour item', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'Bakery')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'apple pie', '')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'chocolate cake', '')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'beef stew', '')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'metal helm', '')").run()
+    expect(queryShopTypes(db, 1).get('r1')).toBe('food')
+  })
+
+  it('returns shop on a tie between two sub-types', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'Mixed')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'long sword', '')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'metal helm', '')").run()
+    expect(queryShopTypes(db, 1).get('r1')).toBe('shop')
+  })
+
+  it('manual override wins over keyword heuristic', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'Sword Shop')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'long sword', '')").run()
+    expect(queryShopTypes(db, 1, { 'r1': 'bank' }).get('r1')).toBe('bank')
+  })
+
+  it('override applies to rooms not in shop_items', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'Bank')").run()
+    expect(queryShopTypes(db, 1, { 'r1': 'bank' }).get('r1')).toBe('bank')
+  })
+
+  it('does not include rooms from other maps', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'Map1 Room')").run()
+    db.prepare("INSERT INTO rooms VALUES ('r2', 2, 0, 0, 'Map2 Shop')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r2', 'long sword', '')").run()
+    expect(queryShopTypes(db, 1).has('r2')).toBe(false)
   })
 })

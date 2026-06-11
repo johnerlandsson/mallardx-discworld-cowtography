@@ -30,6 +30,66 @@ const DOWN_DIRS = new Set(['d', 'climb down', 'trapdoor'])
 // stairs/staircase are ambiguous — mark the room as having both directions.
 const BOTH_DIRS = new Set(['stairs', 'staircase'])
 
+// ─── Room type data ──────────────────────────────────────────────────────────
+
+export const SHOP_KEYWORDS = {
+  weapon:  ['sword', 'axe', 'dagger', 'crossbow', 'bolt', 'spear', 'mace', 'flail', 'whip', 'lance'],
+  armour:  ['armour', 'armor', 'shield', 'helm', 'mail', 'chainmail', 'breastplate', 'gauntlet'],
+  clothes: ['coat', 'cloak', 'robe', 'gown', 'jacket', 'dress', 'shirt', 'trouser', 'skirt', 'shoe', 'boot', 'hat', 'wig'],
+  food:    ['cake', 'pie', 'bread', 'meat', 'ale', 'beer', 'wine', 'cheese', 'soup', 'stew'],
+  access:  ['ring', 'bracelet', 'necklace', 'earring', 'gem', 'jewel', 'brooch', 'pendant'],
+}
+
+export const TYPE_LETTERS = {
+  shop: 'S', weapon: 'W', armour: 'A', clothes: 'C', food: 'F', access: 'X',
+  bank: '$', mission: '!', post: 'O', lang: 'L',
+  crafts: 'K', house: 'H', club: 'G', pshop: 'P', tshop: 'T',
+}
+
+function classifyShopItems(items) {
+  const counts = {}
+  for (const item of items) {
+    const lower = item.toLowerCase()
+    for (const [type, keywords] of Object.entries(SHOP_KEYWORDS)) {
+      if (keywords.some(kw => lower.includes(kw))) {
+        counts[type] = (counts[type] ?? 0) + 1
+        break
+      }
+    }
+  }
+  let winner = 'shop'
+  let best = 0
+  for (const [type, count] of Object.entries(counts)) {
+    if (count > best) { best = count; winner = type }
+    else if (count === best) { winner = 'shop' }
+  }
+  return winner
+}
+
+export function queryShopTypes(db, mapId, overrides = {}) {
+  const rows = db.prepare(`
+    SELECT si.room_id, si.item_name
+    FROM shop_items si
+    JOIN rooms r ON si.room_id = r.room_id
+    WHERE r.map_id = ?
+  `).all(mapId)
+
+  const roomItems = new Map()
+  for (const { room_id, item_name } of rows) {
+    if (!roomItems.has(room_id)) roomItems.set(room_id, [])
+    roomItems.get(room_id).push(item_name)
+  }
+
+  const result = new Map()
+  for (const [roomId, items] of roomItems) {
+    result.set(roomId, classifyShopItems(items))
+  }
+  for (const [roomId, type] of Object.entries(overrides)) {
+    result.set(roomId, type)
+  }
+  return result
+}
+
 export function queryRooms(db, mapId) {
   return db.prepare(
     'SELECT room_id AS id, xpos AS x, ypos AS y, room_short AS short FROM rooms WHERE map_id = ?'
