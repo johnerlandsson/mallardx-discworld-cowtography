@@ -13,7 +13,7 @@ Then open any `ui/maps/*.svg` in Inkscape. The font selector should show **Noto 
 ## Workflow
 
 1. Open the map SVG in Inkscape
-2. Work only in the **`layer-artwork`** layer (see Layers section)
+2. Work in **`layer-artwork`** for background art, or **`layer-room-labels`** for in-room annotations (see Layers section)
 3. Save in Inkscape (Ctrl+S)
 4. Run `npm run sync:svg` to update the `.js` modules used by the plugin
 5. Reload the plugin in Mallard to see your changes
@@ -112,7 +112,7 @@ Set these in the XML editor (Shift+Ctrl+X):
 | `x` | room center X | e.g. `100` |
 | `y` | room center Y | e.g. `200` |
 
-The `room-type-label` class sets `font-size: 4.5px; font-weight: bold; fill: #eaeaea`. For untyped (plain) rooms with the dark background, use `fill="var(--fg)"` instead of the class.
+The `room-type-label` class sets `font-size: 4.5px; font-weight: bold; fill: #eaeaea` — use it for typed rooms (coloured fill). For plain rooms (grey fill), omit the class and set `fill="var(--fg)"` directly so the text matches the theme foreground colour.
 
 Do not override `font-family` in Inkscape — the class controls it.
 
@@ -120,7 +120,7 @@ Do not override `font-family` in Inkscape — the class controls it.
 
 1. Run `npm run build:svg` to ensure `layer-room-labels` exists in the SVG
 2. Open the SVG in Inkscape — switch to the `layer-room-labels` layer
-3. Draw a `<text>` element at the room center with the attributes above
+3. Select the text tool (T), click at the room center to place a text element, type the letter or symbol, then open the XML editor (Shift+Ctrl+X) and set the attributes from the table above
 4. Save in Inkscape
 5. Run `npm run sync:svg` to update the `.js` module
 6. Reload the plugin in Mallard
