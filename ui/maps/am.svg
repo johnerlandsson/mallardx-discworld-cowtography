@@ -29,15 +29,16 @@ text, .map-label, .map-label-muted, .map-label-accent,
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="3.6030919"
-     inkscape:cx="1081.8486"
-     inkscape:cy="703.56241"
+     inkscape:zoom="0.63694268"
+     inkscape:cx="615.44"
+     inkscape:cy="720.62999"
      inkscape:window-width="1968"
      inkscape:window-height="1011"
      inkscape:window-x="26"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer-artwork" />
+     inkscape:current-layer="layer-artwork"
+     showgrid="false" />
   <g
      id="layer-artwork">
     <!-- artwork -->
@@ -61,6 +62,15 @@ text, .map-label, .map-label-muted, .map-label-accent,
        d="m 1012,648 -21,10e-6"
        id="path853"
        class="exit-offmap" />
+    <path
+       d="m 998,480 v -14 l 14,-14 h 112 l 14,14 v 14 l 14,14 v 14 l -14,14 h -28 l -28,-28 h -70 z"
+       id="MortLakePath"
+       class="map-water" />
+    <path
+       id="AnkhRiverPath"
+       inkscape:label="AnkhRiverPath"
+       d="M 60 396 L 60 424 L 46 424 L 46 466 L 60 466 L 60 494 L 0 494 L 0 592 L 32 592 L 32 620 L 116 620 L 130 606 L 200 606 L 200 592 L 326 592 L 340 578 L 354 578 L 368 564 L 382 564 L 410 536 L 424 536 L 452 564 L 494 564 L 508 550 L 522 550 L 536 536 L 564 536 L 564 648 L 580.50781 662 L 578 718 L 634 774 L 774 774 L 830 718 L 830 620 L 802 592 L 802 564 L 788 550 L 788 522 L 802 508 L 816 508 L 830 522 L 844 522 L 907.93945 588 L 926.88867 588 L 938 597.97461 L 980.66211 597 L 991 586.78711 L 1008.9219 586.98438 L 1016.5742 579.33008 L 1068 579.33008 L 1096 606 L 1124 606 L 1180 662 L 1180 676 L 1194 690 L 1250 690 L 1264 676 L 1264 662 L 1278 648 L 1354 648 L 1354 578 L 1320 578 L 1306 578 L 1292 564 L 1264 564 L 1250 578 L 1236 578 L 1236 634 L 1208 634 L 1208 620 L 1194 620 L 1194 606 L 1180 606 L 1119.8027 550 L 1054 550 L 1026 550 L 1012 536 L 956 536 L 942 522 L 900 522 L 900 508 L 872 480 L 858 480 L 844 466 L 760 466 L 746 480 L 746 494 L 732 508 L 634 508 L 620 503 L 516.98633 503 L 508 508 L 452 508 L 424 480 L 396 480 L 382 494 L 354 494 L 340 508 L 270 508 L 270 480 L 228 480 L 228 508 L 200 508 L 200 494 L 88 494 L 88 466 L 144 466 L 144 452 L 228 452 L 228 424 L 102 424 L 102 396 L 60 396 z M 606 536 L 718 536 L 718 550 L 746 578 L 746 606 L 774 634 L 774 648 L 788 662 L 788 690 L 746 732 L 648 732 L 648 718 L 634 704 L 634 690 L 620 676 L 620 648 L 606 634 L 606 536 z "
+       class="map-water" />
   </g>
   <g
      id="layer-exits">
