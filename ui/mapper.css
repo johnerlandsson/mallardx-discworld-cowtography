@@ -117,6 +117,8 @@ body {
 .map-accent      { fill: var(--accent); }
 .anno-box        { stroke: var(--fg); stroke-width: 0.75; fill: var(--bg-elevated); }
 .anno-rule       { stroke: var(--fg); stroke-width: 0.5;  fill: none; opacity: 0.4; }
+.city-sign       { stroke: var(--fg); stroke-width: 1;    fill: var(--bg-elevated); }
+.city-sign-label { fill: var(--fg); font-family: "Noto Sans", sans-serif; font-weight: bold; }
 
 /* ─── Special screens (Darkness, Labyrinth, Mines, Rat Farm, Unknown) ─────── */
 .special-screen[hidden] { display: none; }

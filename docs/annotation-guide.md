@@ -46,6 +46,8 @@ Use the XML editor (Shift+Ctrl+X) to set the `class` attribute on elements.
 |---|---|
 | `anno-box` | Annotation box (bg-elevated fill, fg stroke 0.75) |
 | `anno-rule` | Horizontal divider inside an anno-box (40% opacity) |
+| `city-sign` | City name plate rectangle (bg-elevated fill, fg stroke 1) |
+| `city-sign-label` | City name text (fg, bold, Noto Sans) |
 | `map-area-fill` | Area background fill |
 | `map-area-stroke` | Area outline (no fill) |
 | `map-water` | Water / river fill |
@@ -71,6 +73,46 @@ Use the XML editor (Shift+Ctrl+X) to set the `class` attribute on elements.
 ## Colours in Inkscape
 
 Inkscape cannot resolve CSS variables (`var(--fg)` etc.), so fills and strokes will appear as black or missing. This is expected — font metrics and size are what matter for positioning. The theme colours are applied at runtime by the plugin.
+
+## City Signs
+
+City signs label towns on regional maps (ramtops, sto_plains, etc.). Each sign is a bold name plate: a tight rectangle behind the city name.
+
+### Structure
+
+```svg
+<rect class="city-sign" x="95" y="117" width="46" height="10"/>
+<text class="city-sign-label" text-anchor="middle" dominant-baseline="central"
+      font-size="8" x="118" y="122">Lancre Town</text>
+```
+
+### Sizing rules
+
+- **Font size:** 8 SVG units (set as `font-size` attribute)
+- **Padding:** 3 units left/right, 1 unit top/bottom around the text
+- **Rect width:** measure the rendered text width in Inkscape, then add 6 (3 each side)
+- **Rect height:** `font-size + 2` = 10 for 8px text
+- **Text anchor:** `middle` — place the text `x` at the horizontal centre of the rect
+- **Dominant baseline:** `central` — place the text `y` at the vertical centre of the rect
+
+### Workflow
+
+1. Place a `<text>` element in `layer-artwork`, set `class="city-sign-label"`, `font-size="8"`, `text-anchor="middle"`, `dominant-baseline="central"`, and type the city name
+2. In Inkscape's toolbar, note the rendered text width (W field)
+3. Calculate rect dimensions: `width = textW + 6`, `height = 10`
+4. Calculate rect position: `x = textX - width/2`, `y = textY - 5`
+5. Place a `<rect>` with `class="city-sign"` using those values — it must sit **before** the `<text>` in the SVG so the text renders on top
+6. Add presentation attributes `fill="#0f0f0f"` and `stroke="#eaeaea"` to the rect so both are visible in Inkscape
+
+### Inkscape visibility
+
+Add these presentation attributes so elements are visible in Inkscape (CSS overrides them at runtime):
+
+| Element | Attribute | Value |
+|---|---|---|
+| `<rect class="city-sign">` | `fill` | `#0f0f0f` |
+| `<rect class="city-sign">` | `stroke` | `#eaeaea` |
+| `<text class="city-sign-label">` | `fill` | `#eaeaea` |
 
 ## The anno-box Pattern
 
