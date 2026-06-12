@@ -6,8 +6,8 @@
   <g id="layer-artwork"><!-- artwork --></g>
 
   <g id="layer-exits">
+    <line id="edge-bcfda2ba9de8adcdd89b2700035fad4883c0e7c6-e52d88c91a932fc97b81e4e72898c52fd618260c" class="exit exit-green" x1="70" y1="201" x2="70" y2="229"/>
     <line id="edge-dd8c02346e7d290b3d80134ac9da3980413a817c-ec9a787d226db18f98041ed67da1a93c30a0b7bd" class="exit" x1="237" y1="137" x2="209" y2="137"/>
-    <line id="edge-bcfda2ba9de8adcdd89b2700035fad4883c0e7c6-e52d88c91a932fc97b81e4e72898c52fd618260c" class="exit" x1="70" y1="201" x2="70" y2="229"/>
     <line id="edge-521ce53ca1696d3352c501582a8585611688a6ed-bcfda2ba9de8adcdd89b2700035fad4883c0e7c6" class="exit" x1="70" y1="173" x2="70" y2="201"/>
     <line id="edge-521ce53ca1696d3352c501582a8585611688a6ed-76034f73bca54b5e4807ce7e39c451e4f3910511" class="exit" x1="70" y1="173" x2="42" y2="173"/>
     <line id="edge-4d619f097bac0606f9c45d4e53c9a7fd2ca1ec97-dd8c02346e7d290b3d80134ac9da3980413a817c" class="exit" x1="265" y1="137" x2="237" y2="137"/>
@@ -19,8 +19,8 @@
 
   <g id="layer-rooms">
     <rect id="room-ec9a787d226db18f98041ed67da1a93c30a0b7bd" class="room indoor room-access" data-label="cosy magic shop" x="205" y="133" width="8" height="8" rx="2"/><text class="room-type-label" x="209" y="137" text-anchor="middle" dominant-baseline="central">X</text>
-    <circle id="room-e52d88c91a932fc97b81e4e72898c52fd618260c" class="room outdoor" data-label="deeply shaded holloway" cx="70" cy="229" r="4"/>
-    <circle id="room-bcfda2ba9de8adcdd89b2700035fad4883c0e7c6" class="room outdoor" data-label="shaded dell outside an unassuming building" cx="70" cy="201" r="4"/>
+    <circle id="room-e52d88c91a932fc97b81e4e72898c52fd618260c" class="room outdoor green" data-label="deeply shaded holloway" cx="70" cy="229" r="4"/>
+    <circle id="room-bcfda2ba9de8adcdd89b2700035fad4883c0e7c6" class="room outdoor green" data-label="shaded dell outside an unassuming building" cx="70" cy="201" r="4"/>
     <rect id="room-521ce53ca1696d3352c501582a8585611688a6ed" class="room indoor room-shop" data-label="cosy kitchen hut" x="66" y="169" width="8" height="8" rx="2"/><text class="room-type-label" x="70" y="173" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-76034f73bca54b5e4807ce7e39c451e4f3910511" class="room indoor room-clothes" data-label="Multicoloured Swap Shop" x="38" y="169" width="8" height="8" rx="2"/><text class="room-type-label" x="42" y="173" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-dd8c02346e7d290b3d80134ac9da3980413a817c" class="room indoor" data-label="inside a colossal tree" x="233" y="133" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="237,140 234.5,135 239.5,135"/>
