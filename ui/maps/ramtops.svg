@@ -6,6 +6,88 @@
   <g id="layer-artwork"><!-- artwork --></g>
 
   <g id="layer-exits">
+    <line id="edge-282706c9265237bea57b69a1a0238c006b896e6b-f701b81ec9c20cbd15ec0bcc068d4fdc75736559" class="exit exit-green" x1="319" y1="199" x2="333" y2="213"/>
+    <line id="edge-0c296d5bcba7eb978c72de0660da36ce6d045081-f701b81ec9c20cbd15ec0bcc068d4fdc75736559" class="exit exit-green" x1="319" y1="227" x2="333" y2="213"/>
+    <line id="edge-a81fe3cbfaad9eb501d88f17ffba79916cfcde59-f701b81ec9c20cbd15ec0bcc068d4fdc75736559" class="exit exit-green" x1="347" y1="227" x2="333" y2="213"/>
+    <line id="edge-a81fe3cbfaad9eb501d88f17ffba79916cfcde59-d701867a60e32b7deb97efd89582333a9d287a65" class="exit exit-green" x1="347" y1="227" x2="361" y2="227"/>
+    <line id="edge-a81fe3cbfaad9eb501d88f17ffba79916cfcde59-e11af662c170bee1a1eb3d18acb13b2db4b5f25a" class="exit exit-green" x1="347" y1="227" x2="333" y2="241"/>
+    <line id="edge-ba3ddfaaae9753c9cc9735f69d97c0a78c1b8e65-d701867a60e32b7deb97efd89582333a9d287a65" class="exit exit-green" x1="375" y1="241" x2="361" y2="227"/>
+    <line id="edge-8e103cbd4650d2af52defe666261ae4c7263b7e6-ba3ddfaaae9753c9cc9735f69d97c0a78c1b8e65" class="exit exit-green" x1="389" y1="241" x2="375" y2="241"/>
+    <line id="edge-6ecb3f6ce3763d87786616260b2c5fefbc20036e-8e103cbd4650d2af52defe666261ae4c7263b7e6" class="exit exit-green" x1="403" y1="255" x2="389" y2="241"/>
+    <line id="edge-1797706640a7cef1932bb3154b8b9b40fa0a07c0-6ecb3f6ce3763d87786616260b2c5fefbc20036e" class="exit exit-green" x1="389" y1="255" x2="403" y2="255"/>
+    <line id="edge-5b49b042def8950b70f061b7832348248e2d0f6f-6ecb3f6ce3763d87786616260b2c5fefbc20036e" class="exit exit-green" x1="417" y1="269" x2="403" y2="255"/>
+    <line id="edge-1797706640a7cef1932bb3154b8b9b40fa0a07c0-d4826c2065ed6f09552e5e289aab543d17f67154" class="exit exit-green" x1="389" y1="255" x2="375" y2="269"/>
+    <line id="edge-a40aea5d1960232dd14b56a6197ff05f0af3c4df-d4826c2065ed6f09552e5e289aab543d17f67154" class="exit exit-green" x1="361" y1="269" x2="375" y2="269"/>
+    <line id="edge-d4826c2065ed6f09552e5e289aab543d17f67154-e1c72ee5b10964ff3bf5f8621af7a61f45a4d458" class="exit exit-green" x1="375" y1="269" x2="375" y2="283"/>
+    <line id="edge-a40aea5d1960232dd14b56a6197ff05f0af3c4df-e393793d139eee5074ed3fd64db60b963152f819" class="exit exit-green" x1="361" y1="269" x2="347" y2="255"/>
+    <line id="edge-e393793d139eee5074ed3fd64db60b963152f819-f9081174bfa0df6506a1aa77ae40fb44023b1dc3" class="exit exit-green" x1="347" y1="255" x2="333" y2="255"/>
+    <line id="edge-47f3cdb5ced6a998d237a4bb35605c09ca012bfa-f9081174bfa0df6506a1aa77ae40fb44023b1dc3" class="exit exit-green" x1="319" y1="269" x2="333" y2="255"/>
+    <line id="edge-e11af662c170bee1a1eb3d18acb13b2db4b5f25a-f9081174bfa0df6506a1aa77ae40fb44023b1dc3" class="exit exit-green" x1="333" y1="241" x2="333" y2="255"/>
+    <line id="edge-47f3cdb5ced6a998d237a4bb35605c09ca012bfa-54bfd92d8ade74ab356cf179eafd771dbe43c301" class="exit exit-green" x1="319" y1="269" x2="319" y2="283"/>
+    <line id="edge-54bfd92d8ade74ab356cf179eafd771dbe43c301-dbadb821c49fc8c2fafd92ba3f921d5340655ee1" class="exit exit-green" x1="319" y1="283" x2="305" y2="297"/>
+    <line id="edge-1a87ce973de012da5a73f71fb429db8f2e904c52-dbadb821c49fc8c2fafd92ba3f921d5340655ee1" class="exit exit-green" x1="319" y1="311" x2="305" y2="297"/>
+    <line id="edge-2b27454bb3147f1376cdf445d4f3427282755e57-dbadb821c49fc8c2fafd92ba3f921d5340655ee1" class="exit exit-green" x1="291" y1="297" x2="305" y2="297"/>
+    <line id="edge-2b27454bb3147f1376cdf445d4f3427282755e57-b096cb2a3e3bee3746cdfc4ba4a0752ddb624484" class="exit exit-green" x1="291" y1="297" x2="277" y2="297"/>
+    <line id="edge-1a87ce973de012da5a73f71fb429db8f2e904c52-2eb8d4ee8277ef3495df5a3ab7e30186f640a991" class="exit exit-green" x1="319" y1="311" x2="333" y2="325"/>
+    <line id="edge-1a87ce973de012da5a73f71fb429db8f2e904c52-e2f4786445180f1ccafea44008ff4e25ad38b411" class="exit exit-green" x1="319" y1="311" x2="333" y2="297"/>
+    <line id="edge-474d111ca42b985a893c865766f0023467e62897-e2f4786445180f1ccafea44008ff4e25ad38b411" class="exit exit-green" x1="347" y1="297" x2="333" y2="297"/>
+    <line id="edge-474d111ca42b985a893c865766f0023467e62897-e4cf8738f6a4d8e5458a12491562466b304ba540" class="exit exit-green" x1="347" y1="297" x2="361" y2="283"/>
+    <line id="edge-e1c72ee5b10964ff3bf5f8621af7a61f45a4d458-e4cf8738f6a4d8e5458a12491562466b304ba540" class="exit exit-green" x1="375" y1="283" x2="361" y2="283"/>
+    <line id="edge-976232e6e094bcfe3b4395c71084e3331d6ee2df-e1c72ee5b10964ff3bf5f8621af7a61f45a4d458" class="exit exit-green" x1="375" y1="297" x2="375" y2="283"/>
+    <line id="edge-5b8ae5f822ecb44cc99e9252437486b40f62bba7-976232e6e094bcfe3b4395c71084e3331d6ee2df" class="exit exit-green" x1="361" y1="311" x2="375" y2="297"/>
+    <line id="edge-976232e6e094bcfe3b4395c71084e3331d6ee2df-f5f451091a656d37b708287be54662f6bbda2c84" class="exit exit-green" x1="375" y1="297" x2="389" y2="311"/>
+    <line id="edge-5b8ae5f822ecb44cc99e9252437486b40f62bba7-ff12bc400df7cd0c37c159ac47ab5e6cc5c749c7" class="exit exit-green" x1="361" y1="311" x2="347" y2="325"/>
+    <line id="edge-2eb8d4ee8277ef3495df5a3ab7e30186f640a991-ff12bc400df7cd0c37c159ac47ab5e6cc5c749c7" class="exit exit-green" x1="333" y1="325" x2="347" y2="325"/>
+    <line id="edge-ac5d04f207a91a853b41abc5a6a420af9624d694-ff12bc400df7cd0c37c159ac47ab5e6cc5c749c7" class="exit exit-green" x1="361" y1="339" x2="347" y2="325"/>
+    <line id="edge-89faeb45c84132ede457701de0acc6451145d897-ac5d04f207a91a853b41abc5a6a420af9624d694" class="exit exit-green" x1="375" y1="339" x2="361" y2="339"/>
+    <line id="edge-3ed7550b743dd561c0549127075cdc60557f110b-89faeb45c84132ede457701de0acc6451145d897" class="exit exit-green" x1="389" y1="325" x2="375" y2="339"/>
+    <line id="edge-3ed7550b743dd561c0549127075cdc60557f110b-4cff8e6d78405d4771f7f19ee6b5f7c3d0f60e98" class="exit exit-green" x1="389" y1="325" x2="403" y2="339"/>
+    <line id="edge-3ed7550b743dd561c0549127075cdc60557f110b-f5f451091a656d37b708287be54662f6bbda2c84" class="exit exit-green" x1="389" y1="325" x2="389" y2="311"/>
+    <line id="edge-199a47e8e6242e6f3c129a2154951c3106509aed-f5f451091a656d37b708287be54662f6bbda2c84" class="exit exit-green" x1="403" y1="297" x2="389" y2="311"/>
+    <line id="edge-199a47e8e6242e6f3c129a2154951c3106509aed-805c596b6b4278308b976b9d4222a98cabede1e1" class="exit exit-green" x1="403" y1="297" x2="403" y2="283"/>
+    <line id="edge-199a47e8e6242e6f3c129a2154951c3106509aed-854ebe6f560b842079708b1bc1ec4d85b7cedbb0" class="exit exit-green" x1="403" y1="297" x2="417" y2="311"/>
+    <line id="edge-5b49b042def8950b70f061b7832348248e2d0f6f-805c596b6b4278308b976b9d4222a98cabede1e1" class="exit exit-green" x1="417" y1="269" x2="403" y2="283"/>
+    <line id="edge-14dd2da77968d35c5eb9ee1679b20c24dc5b40f4-5b49b042def8950b70f061b7832348248e2d0f6f" class="exit exit-green" x1="431" y1="269" x2="417" y2="269"/>
+    <line id="edge-0ef6f9ef97e7c00291877bb6d93a247fbf544d41-14dd2da77968d35c5eb9ee1679b20c24dc5b40f4" class="exit exit-green" x1="445" y1="269" x2="431" y2="269"/>
+    <line id="edge-14dd2da77968d35c5eb9ee1679b20c24dc5b40f4-e51f3b1bfccfa1b929929913f9b92ee8b7e71852" class="exit exit-green" x1="431" y1="269" x2="431" y2="283"/>
+    <line id="edge-0ef6f9ef97e7c00291877bb6d93a247fbf544d41-6a2b766a277e901afdb8ab485c301e3cfeb539c5" class="exit exit-green" x1="445" y1="269" x2="459" y2="269"/>
+    <line id="edge-0ef6f9ef97e7c00291877bb6d93a247fbf544d41-a4592ce0ad51622f37451552b6c84e6b2580c5ea" class="exit exit-green" x1="445" y1="269" x2="445" y2="283"/>
+    <line id="edge-7523a95db1b090e54a2b9a81d697a1d7316793c5-a4592ce0ad51622f37451552b6c84e6b2580c5ea" class="exit exit-green" x1="445" y1="297" x2="445" y2="283"/>
+    <line id="edge-7523a95db1b090e54a2b9a81d697a1d7316793c5-fba7b8fa2e4b7314fb37cce1405d2d9b4211e77d" class="exit exit-green" x1="445" y1="297" x2="459" y2="311"/>
+    <line id="edge-1ca9b6f9724dad510e12cd0918996a03830c6516-fba7b8fa2e4b7314fb37cce1405d2d9b4211e77d" class="exit exit-green" x1="459" y1="325" x2="459" y2="311"/>
+    <line id="edge-747dfad532b7677a7c2ec2a199fe8d4b438f0672-e51f3b1bfccfa1b929929913f9b92ee8b7e71852" class="exit exit-green" x1="431" y1="297" x2="431" y2="283"/>
+    <line id="edge-747dfad532b7677a7c2ec2a199fe8d4b438f0672-854ebe6f560b842079708b1bc1ec4d85b7cedbb0" class="exit exit-green" x1="431" y1="297" x2="417" y2="311"/>
+    <line id="edge-854ebe6f560b842079708b1bc1ec4d85b7cedbb0-90d3a6c369a80ada84666eca9611ba0a6d8f5d4b" class="exit exit-green" x1="417" y1="311" x2="417" y2="325"/>
+    <line id="edge-4cff8e6d78405d4771f7f19ee6b5f7c3d0f60e98-90d3a6c369a80ada84666eca9611ba0a6d8f5d4b" class="exit exit-green" x1="403" y1="339" x2="417" y2="325"/>
+    <line id="edge-4cff8e6d78405d4771f7f19ee6b5f7c3d0f60e98-f88c6978f47e6a5c314191cfdd5828e7a5323b5c" class="exit exit-green" x1="403" y1="339" x2="403" y2="353"/>
+    <line id="edge-2a533e2124a34e52e5c9660c4a0b89801cb65600-f88c6978f47e6a5c314191cfdd5828e7a5323b5c" class="exit exit-green" x1="389" y1="367" x2="403" y2="353"/>
+    <line id="edge-0059a92475b08c1cdc724917a60e13813d64af89-b9d319eea08c481089011e20b7c71619cd828e99" class="exit exit-green" x1="1174" y1="115" x2="1187" y2="115"/>
+    <line id="edge-031a1b3c6115cf3eee08fff05aa08765abcbbc52-2c868e978538552ed2765f1493b7fb67760dd074" class="exit exit-green" x1="1671" y1="337" x2="1685" y2="351"/>
+    <line id="edge-2c868e978538552ed2765f1493b7fb67760dd074-914c9f0f17fde4262ea7eebc2ecbb07812bc4583" class="exit exit-green" x1="1685" y1="351" x2="1685" y2="337"/>
+    <line id="edge-2c868e978538552ed2765f1493b7fb67760dd074-b441c59d8e1001faf328f16d604573be6364eb01" class="exit exit-green" x1="1685" y1="351" x2="1671" y2="351"/>
+    <line id="edge-031a1b3c6115cf3eee08fff05aa08765abcbbc52-914c9f0f17fde4262ea7eebc2ecbb07812bc4583" class="exit exit-green" x1="1671" y1="337" x2="1685" y2="337"/>
+    <line id="edge-7bbe16db559ffa5d66a9201adbcb2db68e8b8bd8-914c9f0f17fde4262ea7eebc2ecbb07812bc4583" class="exit exit-green" x1="1685" y1="323" x2="1685" y2="337"/>
+    <line id="edge-914c9f0f17fde4262ea7eebc2ecbb07812bc4583-a1eada4eabb61071b32d9c54457c7f2c7ccb102b" class="exit exit-green" x1="1685" y1="337" x2="1671" y2="323"/>
+    <line id="edge-914c9f0f17fde4262ea7eebc2ecbb07812bc4583-b441c59d8e1001faf328f16d604573be6364eb01" class="exit exit-green" x1="1685" y1="337" x2="1671" y2="351"/>
+    <line id="edge-031a1b3c6115cf3eee08fff05aa08765abcbbc52-7bbe16db559ffa5d66a9201adbcb2db68e8b8bd8" class="exit exit-green" x1="1671" y1="337" x2="1685" y2="323"/>
+    <line id="edge-7bbe16db559ffa5d66a9201adbcb2db68e8b8bd8-a1eada4eabb61071b32d9c54457c7f2c7ccb102b" class="exit exit-green" x1="1685" y1="323" x2="1671" y2="323"/>
+    <line id="edge-031a1b3c6115cf3eee08fff05aa08765abcbbc52-a1eada4eabb61071b32d9c54457c7f2c7ccb102b" class="exit exit-green" x1="1671" y1="337" x2="1671" y2="323"/>
+    <line id="edge-45bf4a3257ea4bc0c0d5db2fe0cc7067f6a6d380-a1eada4eabb61071b32d9c54457c7f2c7ccb102b" class="exit exit-green" x1="1657" y1="323" x2="1671" y2="323"/>
+    <line id="edge-9d4c20b3a155520011bf4edbf66866811e8aa32b-a1eada4eabb61071b32d9c54457c7f2c7ccb102b" class="exit exit-green" x1="1657" y1="337" x2="1671" y2="323"/>
+    <line id="edge-031a1b3c6115cf3eee08fff05aa08765abcbbc52-45bf4a3257ea4bc0c0d5db2fe0cc7067f6a6d380" class="exit exit-green" x1="1671" y1="337" x2="1657" y2="323"/>
+    <line id="edge-031a1b3c6115cf3eee08fff05aa08765abcbbc52-9d4c20b3a155520011bf4edbf66866811e8aa32b" class="exit exit-green" x1="1671" y1="337" x2="1657" y2="337"/>
+    <line id="edge-031a1b3c6115cf3eee08fff05aa08765abcbbc52-b441c59d8e1001faf328f16d604573be6364eb01" class="exit exit-green" x1="1671" y1="337" x2="1671" y2="351"/>
+    <line id="edge-031a1b3c6115cf3eee08fff05aa08765abcbbc52-d53e97698a5300875bdcf97931ea58c18d093b06" class="exit exit-green" x1="1671" y1="337" x2="1657" y2="351"/>
+    <line id="edge-9d4c20b3a155520011bf4edbf66866811e8aa32b-b441c59d8e1001faf328f16d604573be6364eb01" class="exit exit-green" x1="1657" y1="337" x2="1671" y2="351"/>
+    <line id="edge-b441c59d8e1001faf328f16d604573be6364eb01-d53e97698a5300875bdcf97931ea58c18d093b06" class="exit exit-green" x1="1671" y1="351" x2="1657" y2="351"/>
+    <line id="edge-9d4c20b3a155520011bf4edbf66866811e8aa32b-d53e97698a5300875bdcf97931ea58c18d093b06" class="exit exit-green" x1="1657" y1="337" x2="1657" y2="351"/>
+    <line id="edge-45bf4a3257ea4bc0c0d5db2fe0cc7067f6a6d380-9d4c20b3a155520011bf4edbf66866811e8aa32b" class="exit exit-green" x1="1657" y1="323" x2="1657" y2="337"/>
+    <line id="edge-5148c7a49b4681014630abb3cce743d7a6c116dd-c5e3815fa33324b8c6ef28dbbd6d744014d2f67a" class="exit exit-green" x1="1034" y1="653" x2="1048" y2="639"/>
+    <line id="edge-c36ba0a98351259c8cb89ea7d6a354ca959b3a64-c5e3815fa33324b8c6ef28dbbd6d744014d2f67a" class="exit exit-green" x1="1062" y1="639" x2="1048" y2="639"/>
+    <line id="edge-00e3ac4ecce75a144666c19c6c63cd5559a67c90-c36ba0a98351259c8cb89ea7d6a354ca959b3a64" class="exit exit-green" x1="1076" y1="639" x2="1062" y2="639"/>
+    <line id="edge-8c4c78f6280cad1bd80ae72e62c0853f884af5ba-c36ba0a98351259c8cb89ea7d6a354ca959b3a64" class="exit exit-green" x1="1062" y1="625" x2="1062" y2="639"/>
+    <line id="edge-00e3ac4ecce75a144666c19c6c63cd5559a67c90-30538af7c57e274d822a4001e23ff4352002ac3e" class="exit exit-green" x1="1076" y1="639" x2="1090" y2="639"/>
+    <line id="edge-30538af7c57e274d822a4001e23ff4352002ac3e-73cdac4646e4049a489c1c3f7ef34dc762df7c06" class="exit exit-green" x1="1090" y1="639" x2="1104" y2="639"/>
     <line id="edge-06a74b9e9daedbee443cd0da745ef29190d48826-93bf68291d0dbc25680ffb5f42e35e6516b264eb" class="exit" x1="827" y1="237" x2="827" y2="223"/>
     <line id="edge-0b56f177149d61c5ec8c2c1dbc1969ad0ae2e322-93bf68291d0dbc25680ffb5f42e35e6516b264eb" class="exit" x1="827" y1="209" x2="827" y2="223"/>
     <line id="edge-38a77973d226b131b692893c2fb17cbf55f8d274-93bf68291d0dbc25680ffb5f42e35e6516b264eb" class="exit" x1="841" y1="237" x2="827" y2="223"/>
@@ -190,66 +272,11 @@
     <line id="edge-03764fe787da61cfecf69970f4af0a30748c5cd5-282706c9265237bea57b69a1a0238c006b896e6b" class="exit" x1="319" y1="185" x2="319" y2="199"/>
     <line id="edge-03764fe787da61cfecf69970f4af0a30748c5cd5-49ba3ad5f239cc8826625fafe706f037c4e90762" class="exit" x1="319" y1="185" x2="333" y2="185"/>
     <line id="edge-03764fe787da61cfecf69970f4af0a30748c5cd5-89c7b930c0319436a772a957b2949834b819a6fe" class="exit" x1="319" y1="185" x2="306" y2="185"/>
-    <line id="edge-282706c9265237bea57b69a1a0238c006b896e6b-f701b81ec9c20cbd15ec0bcc068d4fdc75736559" class="exit" x1="319" y1="199" x2="333" y2="213"/>
-    <line id="edge-0c296d5bcba7eb978c72de0660da36ce6d045081-f701b81ec9c20cbd15ec0bcc068d4fdc75736559" class="exit" x1="319" y1="227" x2="333" y2="213"/>
-    <line id="edge-a81fe3cbfaad9eb501d88f17ffba79916cfcde59-f701b81ec9c20cbd15ec0bcc068d4fdc75736559" class="exit" x1="347" y1="227" x2="333" y2="213"/>
-    <line id="edge-a81fe3cbfaad9eb501d88f17ffba79916cfcde59-d701867a60e32b7deb97efd89582333a9d287a65" class="exit" x1="347" y1="227" x2="361" y2="227"/>
-    <line id="edge-a81fe3cbfaad9eb501d88f17ffba79916cfcde59-e11af662c170bee1a1eb3d18acb13b2db4b5f25a" class="exit" x1="347" y1="227" x2="333" y2="241"/>
     <line id="edge-0c296d5bcba7eb978c72de0660da36ce6d045081-89af9ca7d2be71875cd11eed35e49b2b99d55cac" class="exit" x1="319" y1="227" x2="309" y2="237"/>
-    <line id="edge-ba3ddfaaae9753c9cc9735f69d97c0a78c1b8e65-d701867a60e32b7deb97efd89582333a9d287a65" class="exit" x1="375" y1="241" x2="361" y2="227"/>
-    <line id="edge-8e103cbd4650d2af52defe666261ae4c7263b7e6-ba3ddfaaae9753c9cc9735f69d97c0a78c1b8e65" class="exit" x1="389" y1="241" x2="375" y2="241"/>
     <line id="edge-ba3ddfaaae9753c9cc9735f69d97c0a78c1b8e65-e239ecef9358fd1023778947bb956abd04f8c50a" class="exit" x1="375" y1="241" x2="375" y2="231"/>
-    <line id="edge-6ecb3f6ce3763d87786616260b2c5fefbc20036e-8e103cbd4650d2af52defe666261ae4c7263b7e6" class="exit" x1="403" y1="255" x2="389" y2="241"/>
-    <line id="edge-1797706640a7cef1932bb3154b8b9b40fa0a07c0-6ecb3f6ce3763d87786616260b2c5fefbc20036e" class="exit" x1="389" y1="255" x2="403" y2="255"/>
-    <line id="edge-5b49b042def8950b70f061b7832348248e2d0f6f-6ecb3f6ce3763d87786616260b2c5fefbc20036e" class="exit" x1="417" y1="269" x2="403" y2="255"/>
-    <line id="edge-1797706640a7cef1932bb3154b8b9b40fa0a07c0-d4826c2065ed6f09552e5e289aab543d17f67154" class="exit" x1="389" y1="255" x2="375" y2="269"/>
-    <line id="edge-a40aea5d1960232dd14b56a6197ff05f0af3c4df-d4826c2065ed6f09552e5e289aab543d17f67154" class="exit" x1="361" y1="269" x2="375" y2="269"/>
-    <line id="edge-d4826c2065ed6f09552e5e289aab543d17f67154-e1c72ee5b10964ff3bf5f8621af7a61f45a4d458" class="exit" x1="375" y1="269" x2="375" y2="283"/>
-    <line id="edge-a40aea5d1960232dd14b56a6197ff05f0af3c4df-e393793d139eee5074ed3fd64db60b963152f819" class="exit" x1="361" y1="269" x2="347" y2="255"/>
-    <line id="edge-e393793d139eee5074ed3fd64db60b963152f819-f9081174bfa0df6506a1aa77ae40fb44023b1dc3" class="exit" x1="347" y1="255" x2="333" y2="255"/>
-    <line id="edge-47f3cdb5ced6a998d237a4bb35605c09ca012bfa-f9081174bfa0df6506a1aa77ae40fb44023b1dc3" class="exit" x1="319" y1="269" x2="333" y2="255"/>
-    <line id="edge-e11af662c170bee1a1eb3d18acb13b2db4b5f25a-f9081174bfa0df6506a1aa77ae40fb44023b1dc3" class="exit" x1="333" y1="241" x2="333" y2="255"/>
-    <line id="edge-47f3cdb5ced6a998d237a4bb35605c09ca012bfa-54bfd92d8ade74ab356cf179eafd771dbe43c301" class="exit" x1="319" y1="269" x2="319" y2="283"/>
-    <line id="edge-54bfd92d8ade74ab356cf179eafd771dbe43c301-dbadb821c49fc8c2fafd92ba3f921d5340655ee1" class="exit" x1="319" y1="283" x2="305" y2="297"/>
-    <line id="edge-1a87ce973de012da5a73f71fb429db8f2e904c52-dbadb821c49fc8c2fafd92ba3f921d5340655ee1" class="exit" x1="319" y1="311" x2="305" y2="297"/>
-    <line id="edge-2b27454bb3147f1376cdf445d4f3427282755e57-dbadb821c49fc8c2fafd92ba3f921d5340655ee1" class="exit" x1="291" y1="297" x2="305" y2="297"/>
-    <line id="edge-2b27454bb3147f1376cdf445d4f3427282755e57-b096cb2a3e3bee3746cdfc4ba4a0752ddb624484" class="exit" x1="291" y1="297" x2="277" y2="297"/>
-    <line id="edge-1a87ce973de012da5a73f71fb429db8f2e904c52-2eb8d4ee8277ef3495df5a3ab7e30186f640a991" class="exit" x1="319" y1="311" x2="333" y2="325"/>
-    <line id="edge-1a87ce973de012da5a73f71fb429db8f2e904c52-e2f4786445180f1ccafea44008ff4e25ad38b411" class="exit" x1="319" y1="311" x2="333" y2="297"/>
-    <line id="edge-474d111ca42b985a893c865766f0023467e62897-e2f4786445180f1ccafea44008ff4e25ad38b411" class="exit" x1="347" y1="297" x2="333" y2="297"/>
-    <line id="edge-474d111ca42b985a893c865766f0023467e62897-e4cf8738f6a4d8e5458a12491562466b304ba540" class="exit" x1="347" y1="297" x2="361" y2="283"/>
-    <line id="edge-e1c72ee5b10964ff3bf5f8621af7a61f45a4d458-e4cf8738f6a4d8e5458a12491562466b304ba540" class="exit" x1="375" y1="283" x2="361" y2="283"/>
-    <line id="edge-976232e6e094bcfe3b4395c71084e3331d6ee2df-e1c72ee5b10964ff3bf5f8621af7a61f45a4d458" class="exit" x1="375" y1="297" x2="375" y2="283"/>
-    <line id="edge-5b8ae5f822ecb44cc99e9252437486b40f62bba7-976232e6e094bcfe3b4395c71084e3331d6ee2df" class="exit" x1="361" y1="311" x2="375" y2="297"/>
-    <line id="edge-976232e6e094bcfe3b4395c71084e3331d6ee2df-f5f451091a656d37b708287be54662f6bbda2c84" class="exit" x1="375" y1="297" x2="389" y2="311"/>
-    <line id="edge-5b8ae5f822ecb44cc99e9252437486b40f62bba7-ff12bc400df7cd0c37c159ac47ab5e6cc5c749c7" class="exit" x1="361" y1="311" x2="347" y2="325"/>
-    <line id="edge-2eb8d4ee8277ef3495df5a3ab7e30186f640a991-ff12bc400df7cd0c37c159ac47ab5e6cc5c749c7" class="exit" x1="333" y1="325" x2="347" y2="325"/>
-    <line id="edge-ac5d04f207a91a853b41abc5a6a420af9624d694-ff12bc400df7cd0c37c159ac47ab5e6cc5c749c7" class="exit" x1="361" y1="339" x2="347" y2="325"/>
-    <line id="edge-89faeb45c84132ede457701de0acc6451145d897-ac5d04f207a91a853b41abc5a6a420af9624d694" class="exit" x1="375" y1="339" x2="361" y2="339"/>
-    <line id="edge-3ed7550b743dd561c0549127075cdc60557f110b-89faeb45c84132ede457701de0acc6451145d897" class="exit" x1="389" y1="325" x2="375" y2="339"/>
-    <line id="edge-3ed7550b743dd561c0549127075cdc60557f110b-4cff8e6d78405d4771f7f19ee6b5f7c3d0f60e98" class="exit" x1="389" y1="325" x2="403" y2="339"/>
-    <line id="edge-3ed7550b743dd561c0549127075cdc60557f110b-f5f451091a656d37b708287be54662f6bbda2c84" class="exit" x1="389" y1="325" x2="389" y2="311"/>
-    <line id="edge-199a47e8e6242e6f3c129a2154951c3106509aed-f5f451091a656d37b708287be54662f6bbda2c84" class="exit" x1="403" y1="297" x2="389" y2="311"/>
-    <line id="edge-199a47e8e6242e6f3c129a2154951c3106509aed-805c596b6b4278308b976b9d4222a98cabede1e1" class="exit" x1="403" y1="297" x2="403" y2="283"/>
-    <line id="edge-199a47e8e6242e6f3c129a2154951c3106509aed-854ebe6f560b842079708b1bc1ec4d85b7cedbb0" class="exit" x1="403" y1="297" x2="417" y2="311"/>
-    <line id="edge-5b49b042def8950b70f061b7832348248e2d0f6f-805c596b6b4278308b976b9d4222a98cabede1e1" class="exit" x1="417" y1="269" x2="403" y2="283"/>
-    <line id="edge-14dd2da77968d35c5eb9ee1679b20c24dc5b40f4-5b49b042def8950b70f061b7832348248e2d0f6f" class="exit" x1="431" y1="269" x2="417" y2="269"/>
-    <line id="edge-0ef6f9ef97e7c00291877bb6d93a247fbf544d41-14dd2da77968d35c5eb9ee1679b20c24dc5b40f4" class="exit" x1="445" y1="269" x2="431" y2="269"/>
-    <line id="edge-14dd2da77968d35c5eb9ee1679b20c24dc5b40f4-e51f3b1bfccfa1b929929913f9b92ee8b7e71852" class="exit" x1="431" y1="269" x2="431" y2="283"/>
-    <line id="edge-0ef6f9ef97e7c00291877bb6d93a247fbf544d41-6a2b766a277e901afdb8ab485c301e3cfeb539c5" class="exit" x1="445" y1="269" x2="459" y2="269"/>
-    <line id="edge-0ef6f9ef97e7c00291877bb6d93a247fbf544d41-a4592ce0ad51622f37451552b6c84e6b2580c5ea" class="exit" x1="445" y1="269" x2="445" y2="283"/>
-    <line id="edge-7523a95db1b090e54a2b9a81d697a1d7316793c5-a4592ce0ad51622f37451552b6c84e6b2580c5ea" class="exit" x1="445" y1="297" x2="445" y2="283"/>
-    <line id="edge-7523a95db1b090e54a2b9a81d697a1d7316793c5-fba7b8fa2e4b7314fb37cce1405d2d9b4211e77d" class="exit" x1="445" y1="297" x2="459" y2="311"/>
-    <line id="edge-1ca9b6f9724dad510e12cd0918996a03830c6516-fba7b8fa2e4b7314fb37cce1405d2d9b4211e77d" class="exit" x1="459" y1="325" x2="459" y2="311"/>
     <line id="edge-778b5a88d069a0d9180c3534e274457e86793aea-fba7b8fa2e4b7314fb37cce1405d2d9b4211e77d" class="exit" x1="469" y1="303" x2="459" y2="311"/>
     <line id="edge-1e6def8c39b12e2c1c17076e1ef090581730aa63-778b5a88d069a0d9180c3534e274457e86793aea" class="exit" x1="469" y1="303" x2="469" y2="303"/>
     <line id="edge-21659e49f2fca5ee9ac5bb47fd5cd69171458467-778b5a88d069a0d9180c3534e274457e86793aea" class="exit" x1="469" y1="303" x2="469" y2="303"/>
-    <line id="edge-747dfad532b7677a7c2ec2a199fe8d4b438f0672-e51f3b1bfccfa1b929929913f9b92ee8b7e71852" class="exit" x1="431" y1="297" x2="431" y2="283"/>
-    <line id="edge-747dfad532b7677a7c2ec2a199fe8d4b438f0672-854ebe6f560b842079708b1bc1ec4d85b7cedbb0" class="exit" x1="431" y1="297" x2="417" y2="311"/>
-    <line id="edge-854ebe6f560b842079708b1bc1ec4d85b7cedbb0-90d3a6c369a80ada84666eca9611ba0a6d8f5d4b" class="exit" x1="417" y1="311" x2="417" y2="325"/>
-    <line id="edge-4cff8e6d78405d4771f7f19ee6b5f7c3d0f60e98-90d3a6c369a80ada84666eca9611ba0a6d8f5d4b" class="exit" x1="403" y1="339" x2="417" y2="325"/>
-    <line id="edge-4cff8e6d78405d4771f7f19ee6b5f7c3d0f60e98-f88c6978f47e6a5c314191cfdd5828e7a5323b5c" class="exit" x1="403" y1="339" x2="403" y2="353"/>
-    <line id="edge-2a533e2124a34e52e5c9660c4a0b89801cb65600-f88c6978f47e6a5c314191cfdd5828e7a5323b5c" class="exit" x1="389" y1="367" x2="403" y2="353"/>
     <line id="edge-2a533e2124a34e52e5c9660c4a0b89801cb65600-6c9c1f212d9d61f0f52852432b92824027e3f246" class="exit" x1="389" y1="367" x2="389" y2="381"/>
     <line id="edge-6c9c1f212d9d61f0f52852432b92824027e3f246-cc5b82283673fd78dacf0bdd9366360fd8f9cd16" class="exit" x1="389" y1="381" x2="375" y2="395"/>
     <line id="edge-ae006bada7f8ff93d1055e14f8a6ae33edf74820-cc5b82283673fd78dacf0bdd9366360fd8f9cd16" class="exit" x1="375" y1="409" x2="375" y2="395"/>
@@ -478,7 +505,6 @@
     <line id="edge-1cfc6d6cd50e4a1bec614e4ced48222e0c764b21-fd810b390b555751250f760d158e8bd37be24555" class="exit" x1="1187" y1="101" x2="1201" y2="101"/>
     <line id="edge-1cfc6d6cd50e4a1bec614e4ced48222e0c764b21-b9d319eea08c481089011e20b7c71619cd828e99" class="exit" x1="1187" y1="101" x2="1187" y2="115"/>
     <line id="edge-1cfc6d6cd50e4a1bec614e4ced48222e0c764b21-ca98aa38ddfbff127531861f79580c2552a674ab" class="exit" x1="1187" y1="101" x2="1174" y2="99"/>
-    <line id="edge-0059a92475b08c1cdc724917a60e13813d64af89-b9d319eea08c481089011e20b7c71619cd828e99" class="exit" x1="1174" y1="115" x2="1187" y2="115"/>
     <line id="edge-b9d319eea08c481089011e20b7c71619cd828e99-f9fc9048c8ebf0174d0d88d60c749ec5225fde75" class="exit" x1="1187" y1="115" x2="1187" y2="126"/>
     <line id="edge-2e32bf05588f7b4fd3af21b2b48def106d2163bd-ca98aa38ddfbff127531861f79580c2552a674ab" class="exit" x1="1174" y1="88" x2="1174" y2="99"/>
     null
@@ -629,27 +655,7 @@
     <line id="edge-2c868e978538552ed2765f1493b7fb67760dd074-934df9b3f59d942b2071199c90748be47a0eb545" class="exit" x1="1685" y1="351" x2="1699" y2="365"/>
     <line id="edge-312638e5ee62b09a125394ddf1eab13f3bf26a54-934df9b3f59d942b2071199c90748be47a0eb545" class="exit" x1="1710" y1="354" x2="1699" y2="365"/>
     <line id="edge-312638e5ee62b09a125394ddf1eab13f3bf26a54-81367ba55f6118918dd0bb4c7c2a6da87d5cfa2b" class="exit" x1="1710" y1="354" x2="1721" y2="343"/>
-    <line id="edge-031a1b3c6115cf3eee08fff05aa08765abcbbc52-2c868e978538552ed2765f1493b7fb67760dd074" class="exit" x1="1671" y1="337" x2="1685" y2="351"/>
-    <line id="edge-2c868e978538552ed2765f1493b7fb67760dd074-914c9f0f17fde4262ea7eebc2ecbb07812bc4583" class="exit" x1="1685" y1="351" x2="1685" y2="337"/>
-    <line id="edge-2c868e978538552ed2765f1493b7fb67760dd074-b441c59d8e1001faf328f16d604573be6364eb01" class="exit" x1="1685" y1="351" x2="1671" y2="351"/>
-    <line id="edge-031a1b3c6115cf3eee08fff05aa08765abcbbc52-914c9f0f17fde4262ea7eebc2ecbb07812bc4583" class="exit" x1="1671" y1="337" x2="1685" y2="337"/>
-    <line id="edge-7bbe16db559ffa5d66a9201adbcb2db68e8b8bd8-914c9f0f17fde4262ea7eebc2ecbb07812bc4583" class="exit" x1="1685" y1="323" x2="1685" y2="337"/>
-    <line id="edge-914c9f0f17fde4262ea7eebc2ecbb07812bc4583-a1eada4eabb61071b32d9c54457c7f2c7ccb102b" class="exit" x1="1685" y1="337" x2="1671" y2="323"/>
-    <line id="edge-914c9f0f17fde4262ea7eebc2ecbb07812bc4583-b441c59d8e1001faf328f16d604573be6364eb01" class="exit" x1="1685" y1="337" x2="1671" y2="351"/>
-    <line id="edge-031a1b3c6115cf3eee08fff05aa08765abcbbc52-7bbe16db559ffa5d66a9201adbcb2db68e8b8bd8" class="exit" x1="1671" y1="337" x2="1685" y2="323"/>
-    <line id="edge-7bbe16db559ffa5d66a9201adbcb2db68e8b8bd8-a1eada4eabb61071b32d9c54457c7f2c7ccb102b" class="exit" x1="1685" y1="323" x2="1671" y2="323"/>
-    <line id="edge-031a1b3c6115cf3eee08fff05aa08765abcbbc52-a1eada4eabb61071b32d9c54457c7f2c7ccb102b" class="exit" x1="1671" y1="337" x2="1671" y2="323"/>
-    <line id="edge-45bf4a3257ea4bc0c0d5db2fe0cc7067f6a6d380-a1eada4eabb61071b32d9c54457c7f2c7ccb102b" class="exit" x1="1657" y1="323" x2="1671" y2="323"/>
-    <line id="edge-9d4c20b3a155520011bf4edbf66866811e8aa32b-a1eada4eabb61071b32d9c54457c7f2c7ccb102b" class="exit" x1="1657" y1="337" x2="1671" y2="323"/>
-    <line id="edge-031a1b3c6115cf3eee08fff05aa08765abcbbc52-45bf4a3257ea4bc0c0d5db2fe0cc7067f6a6d380" class="exit" x1="1671" y1="337" x2="1657" y2="323"/>
-    <line id="edge-031a1b3c6115cf3eee08fff05aa08765abcbbc52-9d4c20b3a155520011bf4edbf66866811e8aa32b" class="exit" x1="1671" y1="337" x2="1657" y2="337"/>
-    <line id="edge-031a1b3c6115cf3eee08fff05aa08765abcbbc52-b441c59d8e1001faf328f16d604573be6364eb01" class="exit" x1="1671" y1="337" x2="1671" y2="351"/>
-    <line id="edge-031a1b3c6115cf3eee08fff05aa08765abcbbc52-d53e97698a5300875bdcf97931ea58c18d093b06" class="exit" x1="1671" y1="337" x2="1657" y2="351"/>
-    <line id="edge-9d4c20b3a155520011bf4edbf66866811e8aa32b-b441c59d8e1001faf328f16d604573be6364eb01" class="exit" x1="1657" y1="337" x2="1671" y2="351"/>
-    <line id="edge-b441c59d8e1001faf328f16d604573be6364eb01-d53e97698a5300875bdcf97931ea58c18d093b06" class="exit" x1="1671" y1="351" x2="1657" y2="351"/>
     <line id="edge-317426d7ca61524ffc8f4718e3dcc3fd48fef38f-d53e97698a5300875bdcf97931ea58c18d093b06" class="exit" x1="1643" y1="351" x2="1657" y2="351"/>
-    <line id="edge-9d4c20b3a155520011bf4edbf66866811e8aa32b-d53e97698a5300875bdcf97931ea58c18d093b06" class="exit" x1="1657" y1="337" x2="1657" y2="351"/>
-    <line id="edge-45bf4a3257ea4bc0c0d5db2fe0cc7067f6a6d380-9d4c20b3a155520011bf4edbf66866811e8aa32b" class="exit" x1="1657" y1="323" x2="1657" y2="337"/>
     <line id="edge-45bf4a3257ea4bc0c0d5db2fe0cc7067f6a6d380-f3e375d87d19d3db00c04a47b8ec57fd53c1579d" class="exit" x1="1657" y1="323" x2="1657" y2="309"/>
     <line id="edge-317426d7ca61524ffc8f4718e3dcc3fd48fef38f-de276324a88d64bcb9eab325697641322aa9941a" class="exit" x1="1643" y1="351" x2="1632" y2="351"/>
     <line id="edge-87c1800c24fbfe16be115e4f8e6bf573294b09d8-f3e375d87d19d3db00c04a47b8ec57fd53c1579d" class="exit" x1="1657" y1="298" x2="1657" y2="309"/>
@@ -839,12 +845,6 @@
     <line id="edge-4ae8a9c69811eae5e6a756bab96d26ee3c255358-5273564b9c6a4622a5f9b0f411c655e50f0a1c82" class="exit" x1="1020" y1="667" x2="1005" y2="652"/>
     null
     <line id="edge-4ae8a9c69811eae5e6a756bab96d26ee3c255358-5148c7a49b4681014630abb3cce743d7a6c116dd" class="exit" x1="1020" y1="667" x2="1034" y2="653"/>
-    <line id="edge-5148c7a49b4681014630abb3cce743d7a6c116dd-c5e3815fa33324b8c6ef28dbbd6d744014d2f67a" class="exit" x1="1034" y1="653" x2="1048" y2="639"/>
-    <line id="edge-c36ba0a98351259c8cb89ea7d6a354ca959b3a64-c5e3815fa33324b8c6ef28dbbd6d744014d2f67a" class="exit" x1="1062" y1="639" x2="1048" y2="639"/>
-    <line id="edge-00e3ac4ecce75a144666c19c6c63cd5559a67c90-c36ba0a98351259c8cb89ea7d6a354ca959b3a64" class="exit" x1="1076" y1="639" x2="1062" y2="639"/>
-    <line id="edge-8c4c78f6280cad1bd80ae72e62c0853f884af5ba-c36ba0a98351259c8cb89ea7d6a354ca959b3a64" class="exit" x1="1062" y1="625" x2="1062" y2="639"/>
-    <line id="edge-00e3ac4ecce75a144666c19c6c63cd5559a67c90-30538af7c57e274d822a4001e23ff4352002ac3e" class="exit" x1="1076" y1="639" x2="1090" y2="639"/>
-    <line id="edge-30538af7c57e274d822a4001e23ff4352002ac3e-73cdac4646e4049a489c1c3f7ef34dc762df7c06" class="exit" x1="1090" y1="639" x2="1104" y2="639"/>
     <line id="edge-32f2fe000755343ff8c475cbba9eda3b6d640aaf-73cdac4646e4049a489c1c3f7ef34dc762df7c06" class="exit" x1="1118" y1="625" x2="1104" y2="639"/>
     null
     <line id="edge-1deb9b7a55a47bc0c7e37814bd7c8290ff4cff8b-f69d9e7245c127df92b555cb9618d5337ed18712" class="exit" x1="782" y1="209" x2="782" y2="209"/>
@@ -1133,57 +1133,57 @@
     <circle id="room-03764fe787da61cfecf69970f4af0a30748c5cd5" class="room outdoor" data-label="outside an encampment" cx="319" cy="185" r="4"/>
     <circle id="room-49ba3ad5f239cc8826625fafe706f037c4e90762" class="room outdoor" data-label="path running alongside a palisade" cx="333" cy="185" r="4"/>
     <circle id="room-89c7b930c0319436a772a957b2949834b819a6fe" class="room outdoor" data-label="undergrowth outside an encampment" cx="306" cy="185" r="4"/>
-    <circle id="room-282706c9265237bea57b69a1a0238c006b896e6b" class="room outdoor" data-label="gloomy forest" cx="319" cy="199" r="4"/>
-    <circle id="room-f701b81ec9c20cbd15ec0bcc068d4fdc75736559" class="room outdoor" data-label="gloomy forest" cx="333" cy="213" r="4"/>
-    <circle id="room-a81fe3cbfaad9eb501d88f17ffba79916cfcde59" class="room outdoor" data-label="gloomy forest" cx="347" cy="227" r="4"/>
-    <circle id="room-0c296d5bcba7eb978c72de0660da36ce6d045081" class="room outdoor" data-label="dirt path running through a gloomy forest" cx="319" cy="227" r="4"/>
+    <circle id="room-282706c9265237bea57b69a1a0238c006b896e6b" class="room outdoor green" data-label="gloomy forest" cx="319" cy="199" r="4"/>
+    <circle id="room-f701b81ec9c20cbd15ec0bcc068d4fdc75736559" class="room outdoor green" data-label="gloomy forest" cx="333" cy="213" r="4"/>
+    <circle id="room-a81fe3cbfaad9eb501d88f17ffba79916cfcde59" class="room outdoor green" data-label="gloomy forest" cx="347" cy="227" r="4"/>
+    <circle id="room-0c296d5bcba7eb978c72de0660da36ce6d045081" class="room outdoor green" data-label="dirt path running through a gloomy forest" cx="319" cy="227" r="4"/>
     <rect id="room-89af9ca7d2be71875cd11eed35e49b2b99d55cac" class="room indoor room-weapon" data-label="shop" x="305" y="233" width="8" height="8" rx="2"/><text class="room-type-label" x="309" y="237" text-anchor="middle" dominant-baseline="central">W</text>
-    <circle id="room-d701867a60e32b7deb97efd89582333a9d287a65" class="room outdoor" data-label="gloomy forest" cx="361" cy="227" r="4"/>
-    <circle id="room-ba3ddfaaae9753c9cc9735f69d97c0a78c1b8e65" class="room outdoor" data-label="gloomy forest" cx="375" cy="241" r="4"/>
-    <circle id="room-8e103cbd4650d2af52defe666261ae4c7263b7e6" class="room outdoor" data-label="gloomy forest" cx="389" cy="241" r="4"/>
-    <circle id="room-6ecb3f6ce3763d87786616260b2c5fefbc20036e" class="room outdoor" data-label="gloomy forest" cx="403" cy="255" r="4"/>
-    <circle id="room-1797706640a7cef1932bb3154b8b9b40fa0a07c0" class="room outdoor" data-label="gloomy forest" cx="389" cy="255" r="4"/>
-    <circle id="room-d4826c2065ed6f09552e5e289aab543d17f67154" class="room outdoor" data-label="gloomy forest" cx="375" cy="269" r="4"/>
-    <circle id="room-a40aea5d1960232dd14b56a6197ff05f0af3c4df" class="room outdoor" data-label="gloomy forest" cx="361" cy="269" r="4"/>
-    <circle id="room-e393793d139eee5074ed3fd64db60b963152f819" class="room outdoor" data-label="gloomy forest" cx="347" cy="255" r="4"/>
-    <circle id="room-f9081174bfa0df6506a1aa77ae40fb44023b1dc3" class="room outdoor" data-label="gloomy forest" cx="333" cy="255" r="4"/>
-    <circle id="room-e11af662c170bee1a1eb3d18acb13b2db4b5f25a" class="room outdoor" data-label="gloomy forest" cx="333" cy="241" r="4"/>
-    <circle id="room-47f3cdb5ced6a998d237a4bb35605c09ca012bfa" class="room outdoor" data-label="gloomy forest" cx="319" cy="269" r="4"/>
-    <circle id="room-54bfd92d8ade74ab356cf179eafd771dbe43c301" class="room outdoor" data-label="gloomy forest" cx="319" cy="283" r="4"/>
-    <circle id="room-dbadb821c49fc8c2fafd92ba3f921d5340655ee1" class="room outdoor" data-label="gloomy forest" cx="305" cy="297" r="4"/>
-    <circle id="room-2b27454bb3147f1376cdf445d4f3427282755e57" class="room outdoor" data-label="gloomy forest" cx="291" cy="297" r="4"/>
-    <circle id="room-b096cb2a3e3bee3746cdfc4ba4a0752ddb624484" class="room outdoor" data-label="West Entrance to Gloomy Forest" cx="277" cy="297" r="4"/>
-    <circle id="room-1a87ce973de012da5a73f71fb429db8f2e904c52" class="room outdoor" data-label="gloomy forest" cx="319" cy="311" r="4"/>
-    <circle id="room-e2f4786445180f1ccafea44008ff4e25ad38b411" class="room outdoor" data-label="gloomy forest" cx="333" cy="297" r="4"/>
-    <circle id="room-474d111ca42b985a893c865766f0023467e62897" class="room outdoor" data-label="gloomy forest" cx="347" cy="297" r="4"/>
-    <circle id="room-e4cf8738f6a4d8e5458a12491562466b304ba540" class="room outdoor" data-label="gloomy forest" cx="361" cy="283" r="4"/>
-    <circle id="room-e1c72ee5b10964ff3bf5f8621af7a61f45a4d458" class="room outdoor" data-label="gloomy forest" cx="375" cy="283" r="4"/>
-    <circle id="room-976232e6e094bcfe3b4395c71084e3331d6ee2df" class="room outdoor" data-label="gloomy forest" cx="375" cy="297" r="4"/>
-    <circle id="room-5b8ae5f822ecb44cc99e9252437486b40f62bba7" class="room outdoor" data-label="gloomy forest" cx="361" cy="311" r="4"/>
-    <circle id="room-ff12bc400df7cd0c37c159ac47ab5e6cc5c749c7" class="room outdoor" data-label="gloomy forest" cx="347" cy="325" r="4"/>
-    <circle id="room-2eb8d4ee8277ef3495df5a3ab7e30186f640a991" class="room outdoor" data-label="gloomy forest" cx="333" cy="325" r="4"/>
-    <circle id="room-ac5d04f207a91a853b41abc5a6a420af9624d694" class="room outdoor" data-label="gloomy forest" cx="361" cy="339" r="4"/>
-    <circle id="room-89faeb45c84132ede457701de0acc6451145d897" class="room outdoor" data-label="gloomy forest" cx="375" cy="339" r="4"/>
-    <circle id="room-3ed7550b743dd561c0549127075cdc60557f110b" class="room outdoor" data-label="gloomy forest" cx="389" cy="325" r="4"/>
-    <circle id="room-f5f451091a656d37b708287be54662f6bbda2c84" class="room outdoor" data-label="gloomy forest" cx="389" cy="311" r="4"/>
-    <circle id="room-199a47e8e6242e6f3c129a2154951c3106509aed" class="room outdoor" data-label="gloomy forest" cx="403" cy="297" r="4"/>
-    <circle id="room-805c596b6b4278308b976b9d4222a98cabede1e1" class="room outdoor" data-label="gloomy forest" cx="403" cy="283" r="4"/>
-    <circle id="room-5b49b042def8950b70f061b7832348248e2d0f6f" class="room outdoor" data-label="gloomy forest" cx="417" cy="269" r="4"/>
-    <circle id="room-14dd2da77968d35c5eb9ee1679b20c24dc5b40f4" class="room outdoor" data-label="gloomy forest" cx="431" cy="269" r="4"/>
-    <circle id="room-0ef6f9ef97e7c00291877bb6d93a247fbf544d41" class="room outdoor" data-label="gloomy forest" cx="445" cy="269" r="4"/>
-    <circle id="room-6a2b766a277e901afdb8ab485c301e3cfeb539c5" class="room outdoor" data-label="East Entrance to Gloomy Forest" cx="459" cy="269" r="4"/>
-    <circle id="room-a4592ce0ad51622f37451552b6c84e6b2580c5ea" class="room outdoor" data-label="gloomy forest" cx="445" cy="283" r="4"/>
-    <circle id="room-7523a95db1b090e54a2b9a81d697a1d7316793c5" class="room outdoor" data-label="gloomy forest" cx="445" cy="297" r="4"/>
-    <circle id="room-fba7b8fa2e4b7314fb37cce1405d2d9b4211e77d" class="room outdoor" data-label="gloomy forest" cx="459" cy="311" r="4"/><polygon class="stair-symbol" points="459,308 456.5,313 461.5,313"/>
-    <circle id="room-1ca9b6f9724dad510e12cd0918996a03830c6516" class="room outdoor" data-label="gloomy forest" cx="459" cy="325" r="4"/>
+    <circle id="room-d701867a60e32b7deb97efd89582333a9d287a65" class="room outdoor green" data-label="gloomy forest" cx="361" cy="227" r="4"/>
+    <circle id="room-ba3ddfaaae9753c9cc9735f69d97c0a78c1b8e65" class="room outdoor green" data-label="gloomy forest" cx="375" cy="241" r="4"/>
+    <circle id="room-8e103cbd4650d2af52defe666261ae4c7263b7e6" class="room outdoor green" data-label="gloomy forest" cx="389" cy="241" r="4"/>
+    <circle id="room-6ecb3f6ce3763d87786616260b2c5fefbc20036e" class="room outdoor green" data-label="gloomy forest" cx="403" cy="255" r="4"/>
+    <circle id="room-1797706640a7cef1932bb3154b8b9b40fa0a07c0" class="room outdoor green" data-label="gloomy forest" cx="389" cy="255" r="4"/>
+    <circle id="room-d4826c2065ed6f09552e5e289aab543d17f67154" class="room outdoor green" data-label="gloomy forest" cx="375" cy="269" r="4"/>
+    <circle id="room-a40aea5d1960232dd14b56a6197ff05f0af3c4df" class="room outdoor green" data-label="gloomy forest" cx="361" cy="269" r="4"/>
+    <circle id="room-e393793d139eee5074ed3fd64db60b963152f819" class="room outdoor green" data-label="gloomy forest" cx="347" cy="255" r="4"/>
+    <circle id="room-f9081174bfa0df6506a1aa77ae40fb44023b1dc3" class="room outdoor green" data-label="gloomy forest" cx="333" cy="255" r="4"/>
+    <circle id="room-e11af662c170bee1a1eb3d18acb13b2db4b5f25a" class="room outdoor green" data-label="gloomy forest" cx="333" cy="241" r="4"/>
+    <circle id="room-47f3cdb5ced6a998d237a4bb35605c09ca012bfa" class="room outdoor green" data-label="gloomy forest" cx="319" cy="269" r="4"/>
+    <circle id="room-54bfd92d8ade74ab356cf179eafd771dbe43c301" class="room outdoor green" data-label="gloomy forest" cx="319" cy="283" r="4"/>
+    <circle id="room-dbadb821c49fc8c2fafd92ba3f921d5340655ee1" class="room outdoor green" data-label="gloomy forest" cx="305" cy="297" r="4"/>
+    <circle id="room-2b27454bb3147f1376cdf445d4f3427282755e57" class="room outdoor green" data-label="gloomy forest" cx="291" cy="297" r="4"/>
+    <circle id="room-b096cb2a3e3bee3746cdfc4ba4a0752ddb624484" class="room outdoor green" data-label="West Entrance to Gloomy Forest" cx="277" cy="297" r="4"/>
+    <circle id="room-1a87ce973de012da5a73f71fb429db8f2e904c52" class="room outdoor green" data-label="gloomy forest" cx="319" cy="311" r="4"/>
+    <circle id="room-e2f4786445180f1ccafea44008ff4e25ad38b411" class="room outdoor green" data-label="gloomy forest" cx="333" cy="297" r="4"/>
+    <circle id="room-474d111ca42b985a893c865766f0023467e62897" class="room outdoor green" data-label="gloomy forest" cx="347" cy="297" r="4"/>
+    <circle id="room-e4cf8738f6a4d8e5458a12491562466b304ba540" class="room outdoor green" data-label="gloomy forest" cx="361" cy="283" r="4"/>
+    <circle id="room-e1c72ee5b10964ff3bf5f8621af7a61f45a4d458" class="room outdoor green" data-label="gloomy forest" cx="375" cy="283" r="4"/>
+    <circle id="room-976232e6e094bcfe3b4395c71084e3331d6ee2df" class="room outdoor green" data-label="gloomy forest" cx="375" cy="297" r="4"/>
+    <circle id="room-5b8ae5f822ecb44cc99e9252437486b40f62bba7" class="room outdoor green" data-label="gloomy forest" cx="361" cy="311" r="4"/>
+    <circle id="room-ff12bc400df7cd0c37c159ac47ab5e6cc5c749c7" class="room outdoor green" data-label="gloomy forest" cx="347" cy="325" r="4"/>
+    <circle id="room-2eb8d4ee8277ef3495df5a3ab7e30186f640a991" class="room outdoor green" data-label="gloomy forest" cx="333" cy="325" r="4"/>
+    <circle id="room-ac5d04f207a91a853b41abc5a6a420af9624d694" class="room outdoor green" data-label="gloomy forest" cx="361" cy="339" r="4"/>
+    <circle id="room-89faeb45c84132ede457701de0acc6451145d897" class="room outdoor green" data-label="gloomy forest" cx="375" cy="339" r="4"/>
+    <circle id="room-3ed7550b743dd561c0549127075cdc60557f110b" class="room outdoor green" data-label="gloomy forest" cx="389" cy="325" r="4"/>
+    <circle id="room-f5f451091a656d37b708287be54662f6bbda2c84" class="room outdoor green" data-label="gloomy forest" cx="389" cy="311" r="4"/>
+    <circle id="room-199a47e8e6242e6f3c129a2154951c3106509aed" class="room outdoor green" data-label="gloomy forest" cx="403" cy="297" r="4"/>
+    <circle id="room-805c596b6b4278308b976b9d4222a98cabede1e1" class="room outdoor green" data-label="gloomy forest" cx="403" cy="283" r="4"/>
+    <circle id="room-5b49b042def8950b70f061b7832348248e2d0f6f" class="room outdoor green" data-label="gloomy forest" cx="417" cy="269" r="4"/>
+    <circle id="room-14dd2da77968d35c5eb9ee1679b20c24dc5b40f4" class="room outdoor green" data-label="gloomy forest" cx="431" cy="269" r="4"/>
+    <circle id="room-0ef6f9ef97e7c00291877bb6d93a247fbf544d41" class="room outdoor green" data-label="gloomy forest" cx="445" cy="269" r="4"/>
+    <circle id="room-6a2b766a277e901afdb8ab485c301e3cfeb539c5" class="room outdoor green" data-label="East Entrance to Gloomy Forest" cx="459" cy="269" r="4"/>
+    <circle id="room-a4592ce0ad51622f37451552b6c84e6b2580c5ea" class="room outdoor green" data-label="gloomy forest" cx="445" cy="283" r="4"/>
+    <circle id="room-7523a95db1b090e54a2b9a81d697a1d7316793c5" class="room outdoor green" data-label="gloomy forest" cx="445" cy="297" r="4"/>
+    <circle id="room-fba7b8fa2e4b7314fb37cce1405d2d9b4211e77d" class="room outdoor green" data-label="gloomy forest" cx="459" cy="311" r="4"/><polygon class="stair-symbol" points="459,308 456.5,313 461.5,313"/>
+    <circle id="room-1ca9b6f9724dad510e12cd0918996a03830c6516" class="room outdoor green" data-label="gloomy forest" cx="459" cy="325" r="4"/>
     <circle id="room-778b5a88d069a0d9180c3534e274457e86793aea" class="room outdoor" data-label="large wooden platform in the trees" cx="469" cy="303" r="4"/>
-    <circle id="room-e51f3b1bfccfa1b929929913f9b92ee8b7e71852" class="room outdoor" data-label="gloomy forest" cx="431" cy="283" r="4"/>
-    <circle id="room-747dfad532b7677a7c2ec2a199fe8d4b438f0672" class="room outdoor" data-label="gloomy forest" cx="431" cy="297" r="4"/>
-    <circle id="room-854ebe6f560b842079708b1bc1ec4d85b7cedbb0" class="room outdoor" data-label="gloomy forest" cx="417" cy="311" r="4"/>
-    <circle id="room-90d3a6c369a80ada84666eca9611ba0a6d8f5d4b" class="room outdoor" data-label="gloomy forest" cx="417" cy="325" r="4"/>
-    <circle id="room-4cff8e6d78405d4771f7f19ee6b5f7c3d0f60e98" class="room outdoor" data-label="gloomy forest" cx="403" cy="339" r="4"/>
-    <circle id="room-f88c6978f47e6a5c314191cfdd5828e7a5323b5c" class="room outdoor" data-label="gloomy forest" cx="403" cy="353" r="4"/>
-    <circle id="room-2a533e2124a34e52e5c9660c4a0b89801cb65600" class="room outdoor" data-label="gloomy forest" cx="389" cy="367" r="4"/>
+    <circle id="room-e51f3b1bfccfa1b929929913f9b92ee8b7e71852" class="room outdoor green" data-label="gloomy forest" cx="431" cy="283" r="4"/>
+    <circle id="room-747dfad532b7677a7c2ec2a199fe8d4b438f0672" class="room outdoor green" data-label="gloomy forest" cx="431" cy="297" r="4"/>
+    <circle id="room-854ebe6f560b842079708b1bc1ec4d85b7cedbb0" class="room outdoor green" data-label="gloomy forest" cx="417" cy="311" r="4"/>
+    <circle id="room-90d3a6c369a80ada84666eca9611ba0a6d8f5d4b" class="room outdoor green" data-label="gloomy forest" cx="417" cy="325" r="4"/>
+    <circle id="room-4cff8e6d78405d4771f7f19ee6b5f7c3d0f60e98" class="room outdoor green" data-label="gloomy forest" cx="403" cy="339" r="4"/>
+    <circle id="room-f88c6978f47e6a5c314191cfdd5828e7a5323b5c" class="room outdoor green" data-label="gloomy forest" cx="403" cy="353" r="4"/>
+    <circle id="room-2a533e2124a34e52e5c9660c4a0b89801cb65600" class="room outdoor green" data-label="gloomy forest" cx="389" cy="367" r="4"/>
     <circle id="room-6c9c1f212d9d61f0f52852432b92824027e3f246" class="room outdoor" data-label="gloomy forest" cx="389" cy="381" r="4"/>
     <circle id="room-cc5b82283673fd78dacf0bdd9366360fd8f9cd16" class="room outdoor" data-label="gloomy forest" cx="375" cy="395" r="4"/>
     <circle id="room-ae006bada7f8ff93d1055e14f8a6ae33edf74820" class="room outdoor" data-label="gloomy forest" cx="375" cy="409" r="4"/>
@@ -1238,7 +1238,7 @@
     <rect id="room-29819052ccf443c44df76de041dd2a6931ae22a1" class="room indoor" data-label="Winston Puppets" x="1253" y="325" width="8" height="8" rx="2"/>
     <circle id="room-064cba45e9307f351f01a7219f07e89c08efa01d" class="room outdoor" data-label="Lancre to Mad Stoat road" cx="1273" cy="357" r="4"/>
     <circle id="room-98abb82010ec2737bcb6c560532cb20c8aca6398" class="room outdoor" data-label="path to an unusual cottage" cx="1287" cy="343" r="4"/>
-    <circle id="room-e0fa8fb366956702975bae38019d83875d8e4688" class="room outdoor room-shop" data-label="garden" cx="1301" cy="329" r="4"/><text class="room-type-label" x="1301" y="329" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-e0fa8fb366956702975bae38019d83875d8e4688" class="room outdoor room-shop green" data-label="garden" cx="1301" cy="329" r="4"/><text class="room-type-label" x="1301" y="329" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-be5e2f7700a84fc2f700c34514900c77474ca683" class="room indoor" data-label="kitchen" x="1283" y="318" width="8" height="8" rx="2"/>
     <rect id="room-46a9369a7dad0b58bdffce0acc6bbdec2c8c8b76" class="room indoor" data-label="scullery" x="1273" y="318" width="8" height="8" rx="2"/>
     <rect id="room-d4cd4e205dddecb7e606ddb74be078cb95265d09" class="room indoor" data-label="unusual cottage" x="1283" y="328" width="8" height="8" rx="2"/>
@@ -1361,9 +1361,9 @@
     <circle id="room-d1b409b529ab77d4cf2af506e07faae6a7d7d2e4" class="room outdoor" data-label="sloping path around Leaping Mountain" cx="1215" cy="115" r="4"/>
     <circle id="room-fd810b390b555751250f760d158e8bd37be24555" class="room outdoor" data-label="path outside a cottage" cx="1201" cy="101" r="4"/>
     <circle id="room-1cfc6d6cd50e4a1bec614e4ced48222e0c764b21" class="room outdoor" data-label="neat and tidy small yard" cx="1187" cy="101" r="4"/>
-    <circle id="room-b9d319eea08c481089011e20b7c71619cd828e99" class="room outdoor room-shop" data-label="garden outside a small cottage" cx="1187" cy="115" r="4"/><text class="room-type-label" x="1187" y="115" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-b9d319eea08c481089011e20b7c71619cd828e99" class="room outdoor room-shop green" data-label="garden outside a small cottage" cx="1187" cy="115" r="4"/><text class="room-type-label" x="1187" y="115" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-f9fc9048c8ebf0174d0d88d60c749ec5225fde75" class="room indoor" data-label="draughty privy" x="1183" y="122" width="8" height="8" rx="2"/>
-    <circle id="room-0059a92475b08c1cdc724917a60e13813d64af89" class="room outdoor room-shop" data-label="neat herb garden" cx="1174" cy="115" r="4"/><text class="room-type-label" x="1174" y="115" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-0059a92475b08c1cdc724917a60e13813d64af89" class="room outdoor room-shop green" data-label="neat herb garden" cx="1174" cy="115" r="4"/><text class="room-type-label" x="1174" y="115" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-ca98aa38ddfbff127531861f79580c2552a674ab" class="room indoor" data-label="tidy hallway" x="1170" y="95" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="1174,96 1171.5,101 1176.5,101"/>
     <rect id="room-2e32bf05588f7b4fd3af21b2b48def106d2163bd" class="room indoor" data-label="front room" x="1170" y="84" width="8" height="8" rx="2"/>
     <rect id="room-7bf999b640a289a6371c8206ebd5e6011213f780" class="room indoor" data-label="clean kitchen" x="1159" y="95" width="8" height="8" rx="2"/>
@@ -1463,7 +1463,7 @@
     <circle id="room-d056b35af0117ef5ac1bb879c9d4d4339cd5abf6" class="room outdoor" data-label="village green" cx="1829" cy="628" r="4"/>
     <rect id="room-20a98369befec11aec8d215bf0d168a277591a80" class="room indoor" data-label="cheery laboratory" x="1850" y="652" width="8" height="8" rx="2"/>
     <rect id="room-fee26d7d0a22263dc963566efe9da562238f7113" class="room indoor" data-label="messy living room" x="1850" y="662" width="8" height="8" rx="2"/>
-    <circle id="room-0995f2064def25f6b4a51e68c23f7feb2432bb0b" class="room outdoor room-shop" data-label="garden" cx="1865" cy="666" r="4"/><text class="room-type-label" x="1865" y="666" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-0995f2064def25f6b4a51e68c23f7feb2432bb0b" class="room outdoor room-shop green" data-label="garden" cx="1865" cy="666" r="4"/><text class="room-type-label" x="1865" y="666" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-8edb76883a99881318e18f3a644baf1bf7acdcf5" class="room outdoor" data-label="dense forest trail" cx="1857" cy="684" r="4"/>
     <circle id="room-0cf2f1c56d6ab9696cfe5886f553e88d6f5d07a5" class="room outdoor" data-label="dense forest trail" cx="1871" cy="684" r="4"/>
     <rect id="room-e8c618c1fea02ee675f114b34a2ef92c24a7b3c0" class="room indoor" data-label="smoke filled cottage" x="1867" y="691" width="8" height="8" rx="2"/>
@@ -1505,15 +1505,15 @@
     <circle id="room-934df9b3f59d942b2071199c90748be47a0eb545" class="room outdoor" data-label="track near some pastures" cx="1699" cy="365" r="4"/>
     <rect id="room-312638e5ee62b09a125394ddf1eab13f3bf26a54" class="room indoor" data-label="dairy in Razorback village" x="1706" y="350" width="8" height="8" rx="2"/>
     <rect id="room-81367ba55f6118918dd0bb4c7c2a6da87d5cfa2b" class="room indoor" data-label="dairy storeroom" x="1717" y="339" width="8" height="8" rx="2"/>
-    <circle id="room-2c868e978538552ed2765f1493b7fb67760dd074" class="room outdoor" data-label="in the pasture near a gate" cx="1685" cy="351" r="4"/>
-    <circle id="room-914c9f0f17fde4262ea7eebc2ecbb07812bc4583" class="room outdoor" data-label="somewhere in the pasture" cx="1685" cy="337" r="4"/>
-    <circle id="room-7bbe16db559ffa5d66a9201adbcb2db68e8b8bd8" class="room outdoor" data-label="somewhere in the pasture" cx="1685" cy="323" r="4"/>
-    <circle id="room-a1eada4eabb61071b32d9c54457c7f2c7ccb102b" class="room outdoor" data-label="somewhere in the pasture" cx="1671" cy="323" r="4"/>
-    <circle id="room-031a1b3c6115cf3eee08fff05aa08765abcbbc52" class="room outdoor" data-label="somewhere in the pasture" cx="1671" cy="337" r="4"/>
-    <circle id="room-b441c59d8e1001faf328f16d604573be6364eb01" class="room outdoor" data-label="somewhere in the pasture" cx="1671" cy="351" r="4"/>
-    <circle id="room-d53e97698a5300875bdcf97931ea58c18d093b06" class="room outdoor" data-label="in the pasture near a gate" cx="1657" cy="351" r="4"/>
-    <circle id="room-9d4c20b3a155520011bf4edbf66866811e8aa32b" class="room outdoor" data-label="somewhere in the pasture" cx="1657" cy="337" r="4"/>
-    <circle id="room-45bf4a3257ea4bc0c0d5db2fe0cc7067f6a6d380" class="room outdoor" data-label="in the pasture near a gate" cx="1657" cy="323" r="4"/>
+    <circle id="room-2c868e978538552ed2765f1493b7fb67760dd074" class="room outdoor green" data-label="in the pasture near a gate" cx="1685" cy="351" r="4"/>
+    <circle id="room-914c9f0f17fde4262ea7eebc2ecbb07812bc4583" class="room outdoor green" data-label="somewhere in the pasture" cx="1685" cy="337" r="4"/>
+    <circle id="room-7bbe16db559ffa5d66a9201adbcb2db68e8b8bd8" class="room outdoor green" data-label="somewhere in the pasture" cx="1685" cy="323" r="4"/>
+    <circle id="room-a1eada4eabb61071b32d9c54457c7f2c7ccb102b" class="room outdoor green" data-label="somewhere in the pasture" cx="1671" cy="323" r="4"/>
+    <circle id="room-031a1b3c6115cf3eee08fff05aa08765abcbbc52" class="room outdoor green" data-label="somewhere in the pasture" cx="1671" cy="337" r="4"/>
+    <circle id="room-b441c59d8e1001faf328f16d604573be6364eb01" class="room outdoor green" data-label="somewhere in the pasture" cx="1671" cy="351" r="4"/>
+    <circle id="room-d53e97698a5300875bdcf97931ea58c18d093b06" class="room outdoor green" data-label="in the pasture near a gate" cx="1657" cy="351" r="4"/>
+    <circle id="room-9d4c20b3a155520011bf4edbf66866811e8aa32b" class="room outdoor green" data-label="somewhere in the pasture" cx="1657" cy="337" r="4"/>
+    <circle id="room-45bf4a3257ea4bc0c0d5db2fe0cc7067f6a6d380" class="room outdoor green" data-label="in the pasture near a gate" cx="1657" cy="323" r="4"/>
     <circle id="room-317426d7ca61524ffc8f4718e3dcc3fd48fef38f" class="room outdoor" data-label="pen outside a small shed" cx="1643" cy="351" r="4"/>
     <rect id="room-de276324a88d64bcb9eab325697641322aa9941a" class="room indoor" data-label="small shed near Razorback" x="1628" y="347" width="8" height="8" rx="2"/>
     <circle id="room-f3e375d87d19d3db00c04a47b8ec57fd53c1579d" class="room outdoor" data-label="barnyard" cx="1657" cy="309" r="4"/>
@@ -1587,7 +1587,7 @@
     <circle id="room-0cda8957052a4ab07f531a9cfeb389c0cf2104b0" class="room outdoor" data-label="road" cx="1130" cy="288" r="4"/>
     <circle id="room-0e0cf338769993ba382b2e077a5936b6538c36cd" class="room outdoor" data-label="intersection of the Brass Neck, Mad Stoat, and Ramtops roads" cx="1155" cy="263" r="4"/>
     <circle id="room-fe4885cfb977b53bce97b513b608939617b66e8d" class="room outdoor" data-label="road" cx="1186" cy="294" r="4"/>
-    <circle id="room-b48b9b1fc16b84eb0e4a54091a8a3d1d029e77ac" class="room outdoor" data-label="beginning of the Kings Road" cx="1215" cy="203" r="4"/>
+    <circle id="room-b48b9b1fc16b84eb0e4a54091a8a3d1d029e77ac" class="room outdoor green" data-label="beginning of the Kings Road" cx="1215" cy="203" r="4"/>
     <circle id="room-942f262a8947f9cbc797caffd274c1536b806c7a" class="room outdoor" data-label="Brass Neck road" cx="1229" cy="185" r="4"/>
     <circle id="room-28ab5490bdd0650399fcb756d0fc3599669dbe53" class="room outdoor" data-label="intersection along the Kings Road" cx="1340" cy="328" r="4"/>
     <circle id="room-092fb79686022b152799facc371196cc1012c4f9" class="room outdoor" data-label="Lancre to Mad Stoat road" cx="1292" cy="376" r="4"/>
@@ -1713,13 +1713,13 @@
     <circle id="room-5273564b9c6a4622a5f9b0f411c655e50f0a1c82" class="room outdoor" data-label="Ness Bridge" cx="1005" cy="652" r="4"/><polygon class="stair-symbol" points="1005,655 1002.5,650 1007.5,650"/>
     <circle id="room-4ae8a9c69811eae5e6a756bab96d26ee3c255358" class="room outdoor" data-label="Chalk road" cx="1020" cy="667" r="4"/>
     <circle id="room-a5ad97f5222c1aca695c78fb193f06f4cf9a8ea6" class="room outdoor" data-label="Under the Ness Bridge" cx="1005" cy="652" r="4"/><polygon class="stair-symbol" points="1005,649 1002.5,654 1007.5,654"/>
-    <circle id="room-5148c7a49b4681014630abb3cce743d7a6c116dd" class="room outdoor" data-label="woodland trail" cx="1034" cy="653" r="4"/>
-    <circle id="room-c5e3815fa33324b8c6ef28dbbd6d744014d2f67a" class="room outdoor" data-label="woodland trail" cx="1048" cy="639" r="4"/>
-    <circle id="room-c36ba0a98351259c8cb89ea7d6a354ca959b3a64" class="room outdoor" data-label="woodland trail" cx="1062" cy="639" r="4"/>
-    <circle id="room-8c4c78f6280cad1bd80ae72e62c0853f884af5ba" class="room outdoor" data-label="woodland trail" cx="1062" cy="625" r="4"/>
-    <circle id="room-00e3ac4ecce75a144666c19c6c63cd5559a67c90" class="room outdoor" data-label="woodland trail" cx="1076" cy="639" r="4"/>
-    <circle id="room-30538af7c57e274d822a4001e23ff4352002ac3e" class="room outdoor" data-label="woodland trail" cx="1090" cy="639" r="4"/>
-    <circle id="room-73cdac4646e4049a489c1c3f7ef34dc762df7c06" class="room outdoor" data-label="woodland trail" cx="1104" cy="639" r="4"/>
+    <circle id="room-5148c7a49b4681014630abb3cce743d7a6c116dd" class="room outdoor green" data-label="woodland trail" cx="1034" cy="653" r="4"/>
+    <circle id="room-c5e3815fa33324b8c6ef28dbbd6d744014d2f67a" class="room outdoor green" data-label="woodland trail" cx="1048" cy="639" r="4"/>
+    <circle id="room-c36ba0a98351259c8cb89ea7d6a354ca959b3a64" class="room outdoor green" data-label="woodland trail" cx="1062" cy="639" r="4"/>
+    <circle id="room-8c4c78f6280cad1bd80ae72e62c0853f884af5ba" class="room outdoor green" data-label="woodland trail" cx="1062" cy="625" r="4"/>
+    <circle id="room-00e3ac4ecce75a144666c19c6c63cd5559a67c90" class="room outdoor green" data-label="woodland trail" cx="1076" cy="639" r="4"/>
+    <circle id="room-30538af7c57e274d822a4001e23ff4352002ac3e" class="room outdoor green" data-label="woodland trail" cx="1090" cy="639" r="4"/>
+    <circle id="room-73cdac4646e4049a489c1c3f7ef34dc762df7c06" class="room outdoor green" data-label="woodland trail" cx="1104" cy="639" r="4"/>
     <circle id="room-32f2fe000755343ff8c475cbba9eda3b6d640aaf" class="room outdoor" data-label="riverside dock" cx="1118" cy="625" r="4"/>
     <circle id="room-69fffd59e3a6ce726eee577813bb1cb0167b37c8" class="room outdoor" data-label="undergrowth outside an encampment" cx="286" cy="165" r="4"/>
     <circle id="room-a0ea3e56a72511a8c620525e61ddfba0cf03d5b3" class="room outdoor" data-label="clearing" cx="264" cy="143" r="4"/>
