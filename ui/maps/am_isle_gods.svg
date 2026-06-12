@@ -6,17 +6,17 @@
   <g id="layer-artwork"><!-- artwork --></g>
 
   <g id="layer-exits">
+    <line id="edge-32bb14b0677a0c80e6259053d72a871adddfeb7b-3a30691d817ee98da64b5596eed811793548a5e6" class="exit exit-green" x1="596" y1="153" x2="624" y2="181"/>
+    <line id="edge-3a30691d817ee98da64b5596eed811793548a5e6-709b3eed2a4943ac45f075098b405a7fe1bac2d7" class="exit exit-green" x1="624" y1="181" x2="652" y2="181"/>
+    <line id="edge-709b3eed2a4943ac45f075098b405a7fe1bac2d7-7b6f0987cd08680eb73114ffaaf1fe5a47e8556b" class="exit exit-green" x1="652" y1="181" x2="680" y2="153"/>
+    <line id="edge-709b3eed2a4943ac45f075098b405a7fe1bac2d7-b0c5e571c29ba15380238907d4eae01e4393a918" class="exit exit-green" x1="652" y1="181" x2="680" y2="181"/>
+    <line id="edge-7b6f0987cd08680eb73114ffaaf1fe5a47e8556b-b0c5e571c29ba15380238907d4eae01e4393a918" class="exit exit-green" x1="680" y1="153" x2="680" y2="181"/>
     <line id="edge-1c9820c7afe11b2b2179790240b815f1a179a1cd-5e27050325284b7b94f817fd6166a35c7f987bdf" class="exit" x1="344" y1="93" x2="368" y2="117"/>
     <line id="edge-5e27050325284b7b94f817fd6166a35c7f987bdf-619048da2bed852c66ddf1b6d93070f7cf62a2af" class="exit" x1="368" y1="117" x2="392" y2="93"/>
     null
-    <line id="edge-32bb14b0677a0c80e6259053d72a871adddfeb7b-3a30691d817ee98da64b5596eed811793548a5e6" class="exit" x1="596" y1="153" x2="624" y2="181"/>
-    <line id="edge-3a30691d817ee98da64b5596eed811793548a5e6-709b3eed2a4943ac45f075098b405a7fe1bac2d7" class="exit" x1="624" y1="181" x2="652" y2="181"/>
     <line id="edge-32bb14b0677a0c80e6259053d72a871adddfeb7b-ee7020257145774ffe8e9bc6183126086e0fd64f" class="exit" x1="596" y1="153" x2="587" y2="143"/>
     <line id="edge-49b5c096fd0bbae38c0007f57a1694e4c9d9ae00-709b3eed2a4943ac45f075098b405a7fe1bac2d7" class="exit" x1="652" y1="155" x2="652" y2="181"/>
-    <line id="edge-709b3eed2a4943ac45f075098b405a7fe1bac2d7-7b6f0987cd08680eb73114ffaaf1fe5a47e8556b" class="exit" x1="652" y1="181" x2="680" y2="153"/>
-    <line id="edge-709b3eed2a4943ac45f075098b405a7fe1bac2d7-b0c5e571c29ba15380238907d4eae01e4393a918" class="exit" x1="652" y1="181" x2="680" y2="181"/>
     <line id="edge-709b3eed2a4943ac45f075098b405a7fe1bac2d7-bc4e05ae1b2f72fc09eac79e1f210ce95c9381a6" class="exit" x1="652" y1="181" x2="652" y2="207"/>
-    <line id="edge-7b6f0987cd08680eb73114ffaaf1fe5a47e8556b-b0c5e571c29ba15380238907d4eae01e4393a918" class="exit" x1="680" y1="153" x2="680" y2="181"/>
     <line id="edge-b0c5e571c29ba15380238907d4eae01e4393a918-b2cbb10ce3aac6299eca31664ee4e8f7590f8376" class="exit" x1="680" y1="181" x2="680" y2="207"/>
     <line id="edge-7b6f0987cd08680eb73114ffaaf1fe5a47e8556b-ff068f137e29e666133d4692b6e41b283ff0a958" class="exit" x1="680" y1="153" x2="740" y2="93"/>
     <line id="edge-1dfef612dd93c797e9fcf31e6ffdb249832bd39c-bc4e05ae1b2f72fc09eac79e1f210ce95c9381a6" class="exit" x1="628" y1="207" x2="652" y2="207"/>
@@ -84,11 +84,11 @@
     <rect id="room-619048da2bed852c66ddf1b6d93070f7cf62a2af" class="room indoor room-shop" data-label="iron furniture shop" x="388" y="89" width="8" height="8" rx="2"/><text class="room-type-label" x="392" y="93" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-ccde479add4c4ea5901cfd160748d18ee376d01a" class="room indoor" data-label="entrance to Lord Wynkin&#x27;s Men" x="567" y="205" width="8" height="8" rx="2"/>
     <rect id="room-6b266bc746af113a07849938f60eb42182d68151" class="room indoor" data-label="backstage area of Lord Wynkin&#x27;s Men" x="495" y="204" width="8" height="8" rx="2"/>
-    <circle id="room-3a30691d817ee98da64b5596eed811793548a5e6" class="room outdoor" data-label="southwest corner of Thespians&#x27; Yard" cx="624" cy="181" r="4"/>
-    <circle id="room-32bb14b0677a0c80e6259053d72a871adddfeb7b" class="room outdoor" data-label="northwest corner of Thespians&#x27; Yard" cx="596" cy="153" r="4"/>
-    <circle id="room-709b3eed2a4943ac45f075098b405a7fe1bac2d7" class="room outdoor" data-label="Thespians&#x27; Yard in front of the Dysk" cx="652" cy="181" r="4"/>
-    <circle id="room-b0c5e571c29ba15380238907d4eae01e4393a918" class="room outdoor" data-label="southeast corner of Thespians&#x27; Yard" cx="680" cy="181" r="4"/>
-    <circle id="room-7b6f0987cd08680eb73114ffaaf1fe5a47e8556b" class="room outdoor" data-label="northeast corner of Thespians&#x27; Yard" cx="680" cy="153" r="4"/>
+    <circle id="room-3a30691d817ee98da64b5596eed811793548a5e6" class="room outdoor green" data-label="southwest corner of Thespians&#x27; Yard" cx="624" cy="181" r="4"/>
+    <circle id="room-32bb14b0677a0c80e6259053d72a871adddfeb7b" class="room outdoor green" data-label="northwest corner of Thespians&#x27; Yard" cx="596" cy="153" r="4"/>
+    <circle id="room-709b3eed2a4943ac45f075098b405a7fe1bac2d7" class="room outdoor green" data-label="Thespians&#x27; Yard in front of the Dysk" cx="652" cy="181" r="4"/>
+    <circle id="room-b0c5e571c29ba15380238907d4eae01e4393a918" class="room outdoor green" data-label="southeast corner of Thespians&#x27; Yard" cx="680" cy="181" r="4"/>
+    <circle id="room-7b6f0987cd08680eb73114ffaaf1fe5a47e8556b" class="room outdoor green" data-label="northeast corner of Thespians&#x27; Yard" cx="680" cy="153" r="4"/>
     <rect id="room-bc4e05ae1b2f72fc09eac79e1f210ce95c9381a6" class="room indoor" data-label="main hall of the Actors&#x27; Guild" x="648" y="203" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="652,204 649.5,209 654.5,209"/>
     <rect id="room-1dfef612dd93c797e9fcf31e6ffdb249832bd39c" class="room indoor room-shop" data-label="Actors&#x27; Guild bar" x="624" y="203" width="8" height="8" rx="2"/><text class="room-type-label" x="628" y="207" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-a397123cec941a8ae13e1187cc368eeaa5b3a9aa" class="room indoor" data-label="Actors&#x27; Guild practice room" x="648" y="227" width="8" height="8" rx="2"/>
