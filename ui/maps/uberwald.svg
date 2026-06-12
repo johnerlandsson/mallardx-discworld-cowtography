@@ -347,7 +347,7 @@
     <rect id="room-09f2edffdc50c9b865efeefe7e74ee640dc952ef" class="room indoor room-food" data-label="Cygnet Blackie&#x27;s bakery" x="468" y="172" width="8" height="8" rx="2"/><text class="room-type-label" x="472" y="176" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-7ed006570f5c515b24ce2fe8146e373b25224509" class="room outdoor" data-label="bend in the main road in Blackglass" cx="458" cy="173" r="4"/>
     <circle id="room-5ab114d1a1728362f471b5f856a7b7d5ab39e540" class="room outdoor" data-label="path passing between an orchard and a farm" cx="444" cy="159" r="4"/>
-    <circle id="room-df292ce4c21a9c684ab86625d8a83528494a9834" class="room outdoor" data-label="Percy Hopcroft&#x27;s apple orchard" cx="430" cy="173" r="4"/>
+    <circle id="room-df292ce4c21a9c684ab86625d8a83528494a9834" class="room outdoor green" data-label="Percy Hopcroft&#x27;s apple orchard" cx="430" cy="173" r="4"/>
     <circle id="room-47740455d6dbd943a194543d9e37d7fef24307eb" class="room outdoor" data-label="tiny path going through the farms near Blackglass" cx="444" cy="145" r="4"/>
     <circle id="room-f639db769302cc0e1f39fcaf3f1a51931b90421d" class="room outdoor" data-label="path on the outskirts of the Blackglass farmlands" cx="444" cy="131" r="4"/>
     <circle id="room-48a87d4ba19fa3c3eff3e05cf5d0abfe07858723" class="room outdoor" data-label="narrow strip of open land near Blackglass" cx="444" cy="117" r="4"/>
