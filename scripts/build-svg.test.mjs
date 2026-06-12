@@ -385,6 +385,44 @@ describe('roomElement (water)', () => {
   })
 })
 
+describe('roomElement (green)', () => {
+  it('adds green class to green room', () => {
+    const el = roomElement('r1', 10, 20, 'Scoone Avenue Park', false, null, null, false, false, true)
+    expect(el).toContain('green')
+  })
+
+  it('does not add green class to normal room', () => {
+    const el = roomElement('r1', 10, 20, 'Market Street', false, null, null, false, false, false)
+    expect(el).not.toContain('green')
+  })
+
+})
+
+describe('exitElement (green)', () => {
+  const rooms = [
+    { id: 'r1', x: 10, y: 10 },
+    { id: 'r2', x: 20, y: 10 },
+  ]
+
+  it('adds exit-green class when both endpoints are green rooms', () => {
+    const green = new Set(['r1', 'r2'])
+    expect(exitElement('r1', 'r2', rooms, false, new Set(), new Set(), green)).toContain('exit-green')
+  })
+
+  it('does not add exit-green when only one endpoint is green', () => {
+    const green = new Set(['r1'])
+    expect(exitElement('r1', 'r2', rooms, false, new Set(), new Set(), green)).not.toContain('exit-green')
+  })
+
+  it('does not add exit-green when both are water (water takes precedence)', () => {
+    const water = new Set(['r1', 'r2'])
+    const green = new Set(['r1', 'r2'])
+    const el = exitElement('r1', 'r2', rooms, false, new Set(), water, green)
+    expect(el).not.toContain('exit-green')
+    expect(el).toContain('exit-water')
+  })
+})
+
 describe('buildNewSvg', () => {
   const mapMeta = { maxX: 500, maxY: 400 }
   const rooms   = [
