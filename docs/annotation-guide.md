@@ -53,6 +53,8 @@ Use the XML editor (Shift+Ctrl+X) to set the `class` attribute on elements.
 | `exit` | Room connection line |
 | `exit-offmap` | Dashed line to a cross-map exit label |
 | `exit-journey` | Inter-town journey path (muted colour, same weight as exit) |
+| `exit-journey-offmap` | Journey path exiting off-map (muted, dashed) |
+| `map-river` | River or stream line (water blue, same weight as exit) |
 
 ### UU Library
 
