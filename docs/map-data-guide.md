@@ -86,6 +86,30 @@ Compact rooms are slightly transparent (`opacity: 0.7`) to further reduce visual
 
 ---
 
+## exit-exclude.json
+
+**File:** `ui/data/exit-exclude.json`
+
+Prevents specific DB exits from being auto-generated in `layer-exits`. Use this when you have drawn a custom exit manually in `layer-artwork` and don't want the auto-generated straight line to also appear.
+
+**Format:**
+
+```json
+["<exit_id>", "<exit_id>", ...]
+```
+
+Exit IDs have the form `edge-<roomA>-<roomB>` where the two room IDs are sorted alphabetically. The easiest way to find an exit ID is to open the generated SVG in a text editor and search for one of the two room IDs — the connected `<line>` elements nearby will have the ID you need.
+
+**Example:**
+
+```json
+[
+  "edge-3f14d1d1c945d44a4c02e1a9d2297cae6610bbf1-7b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c"
+]
+```
+
+---
+
 ## Finding room IDs in-game
 
 Use the `dbid` alias to print the current room's ID as you move around:
