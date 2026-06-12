@@ -98,6 +98,7 @@
     <line id="edge-c088b33a7f06edfa562c4df32108b7bdba858c98-c6ed6a819869238b4e3aa9f106a37cbcd0fd7f32" class="exit exit-green" x1="225" y1="139" x2="239" y2="125"/>
     <line id="edge-6e79077b494e0b49d0e96743c1bdfd40961d4f28-8696c432d5cb0c282792a0709bfc672edcea4159" class="exit exit-green" x1="225" y1="167" x2="239" y2="167"/>
     <line id="edge-0542be0325a6dd77a4a4e8fb69148f97c491efec-8696c432d5cb0c282792a0709bfc672edcea4159" class="exit exit-green" x1="253" y1="167" x2="239" y2="167"/>
+    <line id="edge-7f8b41cd92c6aa8020030c9cd73c83d2d59bdbd2-81acd423c5b67540992b8b60b5800e239eebf7e1" class="exit exit-water" x1="253" y1="139" x2="239" y2="139"/>
     <line id="edge-29943f8cbc0e56a26b4fee9e5aa3bfefe704c280-c6ed6a819869238b4e3aa9f106a37cbcd0fd7f32" class="exit exit-green" x1="239" y1="111" x2="239" y2="125"/>
     <line id="edge-666a032a0a761a240efc7f2f72426c905058818f-c6ed6a819869238b4e3aa9f106a37cbcd0fd7f32" class="exit exit-green" x1="253" y1="125" x2="239" y2="125"/>
     <line id="edge-29943f8cbc0e56a26b4fee9e5aa3bfefe704c280-666a032a0a761a240efc7f2f72426c905058818f" class="exit exit-green" x1="239" y1="111" x2="253" y2="125"/>
@@ -411,7 +412,6 @@
     <line id="edge-0542be0325a6dd77a4a4e8fb69148f97c491efec-53305ea237043df85912c609a377c2802c1d62f5" class="exit" x1="253" y1="167" x2="239" y2="153"/>
     <line id="edge-53305ea237043df85912c609a377c2802c1d62f5-f7031c721c653fa2c2c183fb63cbff8e971b2ca9" class="exit" x1="239" y1="153" x2="253" y2="153"/>
     <line id="edge-666a032a0a761a240efc7f2f72426c905058818f-81acd423c5b67540992b8b60b5800e239eebf7e1" class="exit" x1="253" y1="125" x2="239" y2="139"/>
-    <line id="edge-7f8b41cd92c6aa8020030c9cd73c83d2d59bdbd2-81acd423c5b67540992b8b60b5800e239eebf7e1" class="exit" x1="253" y1="139" x2="239" y2="139"/>
     <line id="edge-81acd423c5b67540992b8b60b5800e239eebf7e1-c6ed6a819869238b4e3aa9f106a37cbcd0fd7f32" class="exit" x1="239" y1="139" x2="239" y2="125"/>
     <line id="edge-7f8b41cd92c6aa8020030c9cd73c83d2d59bdbd2-c6ed6a819869238b4e3aa9f106a37cbcd0fd7f32" class="exit" x1="253" y1="139" x2="239" y2="125"/>
     <line id="edge-666a032a0a761a240efc7f2f72426c905058818f-7f8b41cd92c6aa8020030c9cd73c83d2d59bdbd2" class="exit" x1="253" y1="125" x2="253" y2="139"/>
@@ -1271,11 +1271,11 @@
     <circle id="room-6e79077b494e0b49d0e96743c1bdfd40961d4f28" class="room outdoor green" data-label="Slouching Gardens of Ephebe, north of the citadel" cx="225" cy="167" r="4"/>
     <circle id="room-8696c432d5cb0c282792a0709bfc672edcea4159" class="room outdoor green" data-label="Slouching Gardens of Ephebe, just across the street from a pool" cx="239" cy="167" r="4"/>
     <circle id="room-53305ea237043df85912c609a377c2802c1d62f5" class="room outdoor" data-label="Street of Enlightenment, south of a pool" cx="239" cy="153" r="4"/>
-    <circle id="room-81acd423c5b67540992b8b60b5800e239eebf7e1" class="room outdoor" data-label="pool in the Slouching Gardens" cx="239" cy="139" r="4"/>
+    <circle id="room-81acd423c5b67540992b8b60b5800e239eebf7e1" class="room outdoor water" data-label="pool in the Slouching Gardens" cx="239" cy="139" r="4"/>
     <circle id="room-c6ed6a819869238b4e3aa9f106a37cbcd0fd7f32" class="room outdoor green" data-label="gravelled path in the Slouching Gardens of Ephebe" cx="239" cy="125" r="4"/>
     <circle id="room-29943f8cbc0e56a26b4fee9e5aa3bfefe704c280" class="room outdoor green" data-label="Slouching Gardens of Ephebe amid a row of poplar trees" cx="239" cy="111" r="4"/>
     <circle id="room-666a032a0a761a240efc7f2f72426c905058818f" class="room outdoor green" data-label="gravelled path in the Slouching Gardens of Ephebe, just north of a pool" cx="253" cy="125" r="4"/>
-    <circle id="room-7f8b41cd92c6aa8020030c9cd73c83d2d59bdbd2" class="room outdoor" data-label="pool in the Slouching Gardens" cx="253" cy="139" r="4"/>
+    <circle id="room-7f8b41cd92c6aa8020030c9cd73c83d2d59bdbd2" class="room outdoor water" data-label="pool in the Slouching Gardens" cx="253" cy="139" r="4"/>
     <circle id="room-53d06e6ee3f43d8ac765301f3ddbfb105739c7d6" class="room outdoor green" data-label="gravelled path in Slouching Gardens of Ephebe, just east of a tranquil pool" cx="267" cy="139" r="4"/>
     <circle id="room-f7031c721c653fa2c2c183fb63cbff8e971b2ca9" class="room outdoor" data-label="junction of Inconsistent Street and the Street of Enlightenment" cx="253" cy="153" r="4"/>
     <circle id="room-0542be0325a6dd77a4a4e8fb69148f97c491efec" class="room outdoor green" data-label="Slouching Gardens of Ephebe, just across the street from a pool" cx="253" cy="167" r="4"/>
