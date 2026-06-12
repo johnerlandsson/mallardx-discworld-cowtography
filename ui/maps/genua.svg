@@ -6,6 +6,20 @@
   <g id="layer-artwork"><!-- artwork --></g>
 
   <g id="layer-exits">
+    <line id="edge-ebba2eb5029659cc6eb0cd899b169afca3c3a9b9-f008c98b2d74392f37ebb07cefb5de27a077e00c" class="exit exit-green" x1="358" y1="144" x2="344" y2="158"/>
+    <line id="edge-4b3e7c7e73aa611943fb4d145e27330addfa876f-6406e512e80cdb32d65412ee6f6a81a826f6223f" class="exit exit-green" x1="330" y1="144" x2="316" y2="144"/>
+    <line id="edge-4a4a9e7aa96968bd80b14c76eeef6e23aed8bd6f-78f63179ad212fa740364b99671bd536207d0d0f" class="exit exit-green" x1="330" y1="116" x2="316" y2="116"/>
+    <line id="edge-78f63179ad212fa740364b99671bd536207d0d0f-94ff1ae82e506fe619f35cd3edda5c8ee1f2d172" class="exit exit-green" x1="316" y1="116" x2="302" y2="116"/>
+    <line id="edge-209c1ff11b68db9a5eb8c90aa2457182ad96154e-94ff1ae82e506fe619f35cd3edda5c8ee1f2d172" class="exit exit-green" x1="288" y1="116" x2="302" y2="116"/>
+    <line id="edge-209c1ff11b68db9a5eb8c90aa2457182ad96154e-e04520321ec9080c8a5153a7ede8cbf3b882f8cb" class="exit exit-green" x1="288" y1="116" x2="288" y2="130"/>
+    <line id="edge-92abe78e4db433ce5b3d89618367e61bd4dfb5da-e04520321ec9080c8a5153a7ede8cbf3b882f8cb" class="exit exit-green" x1="288" y1="144" x2="288" y2="130"/>
+    <line id="edge-2dde0c3e93960598308857181f1cb36e959b5b15-92abe78e4db433ce5b3d89618367e61bd4dfb5da" class="exit exit-green" x1="288" y1="158" x2="288" y2="144"/>
+    <line id="edge-2dde0c3e93960598308857181f1cb36e959b5b15-5b0dd77ff1433206c8c8c80bbf41c6c2c8767a0f" class="exit exit-green" x1="288" y1="158" x2="302" y2="172"/>
+    <line id="edge-2dde0c3e93960598308857181f1cb36e959b5b15-f94d13f26d7a8f7f4477fd1de4b6b3a8a051a269" class="exit exit-green" x1="288" y1="158" x2="274" y2="172"/>
+    <line id="edge-5b0dd77ff1433206c8c8c80bbf41c6c2c8767a0f-bcfc8167bb678e59eac760f4440f0dfcd0de5bd8" class="exit exit-green" x1="302" y1="172" x2="316" y2="172"/>
+    <line id="edge-2b9413833dd5a15714540df6ad6987457f88b597-bcfc8167bb678e59eac760f4440f0dfcd0de5bd8" class="exit exit-green" x1="330" y1="172" x2="316" y2="172"/>
+    <line id="edge-2b9413833dd5a15714540df6ad6987457f88b597-f008c98b2d74392f37ebb07cefb5de27a077e00c" class="exit exit-green" x1="330" y1="172" x2="344" y2="158"/>
+    <line id="edge-4510a659eb9906108410545c775c9a8a557dc775-56063974b58bd7324e204a381638f5f7c9c23c88" class="exit exit-green" x1="87" y1="234" x2="99" y2="234"/>
     <line id="edge-0ebbc916f35c03181af68366e85e7863d4ca5d68-35ea94550b0f3b7a800e5141e1f0251278ecfe3c" class="exit" x1="470" y1="242" x2="470" y2="231"/>
     <line id="edge-35ea94550b0f3b7a800e5141e1f0251278ecfe3c-8a72343467394f736496ccb4a57f7677b415d343" class="exit" x1="470" y1="231" x2="470" y2="231"/>
     <line id="edge-0ebbc916f35c03181af68366e85e7863d4ca5d68-dde356c871f15002d0a0f81beb11e4b48c87561d" class="exit" x1="470" y1="242" x2="484" y2="242"/>
@@ -277,26 +291,13 @@
     <line id="edge-31707d59d8337f5622f6f073901592e1582acd1b-f02c36ab6ebd8590b4a719895ce983298723ea6d" class="exit" x1="372" y1="144" x2="358" y2="158"/>
     <line id="edge-be1e511485e39e6f2c9ff87bfabf881bcb1dc287-ebba2eb5029659cc6eb0cd899b169afca3c3a9b9" class="exit" x1="344" y1="130" x2="358" y2="144"/>
     <line id="edge-c450079a738c15bf994810661f22d16286b606c6-ebba2eb5029659cc6eb0cd899b169afca3c3a9b9" class="exit" x1="344" y1="144" x2="358" y2="144"/>
-    <line id="edge-ebba2eb5029659cc6eb0cd899b169afca3c3a9b9-f008c98b2d74392f37ebb07cefb5de27a077e00c" class="exit" x1="358" y1="144" x2="344" y2="158"/>
     <line id="edge-4b3e7c7e73aa611943fb4d145e27330addfa876f-c450079a738c15bf994810661f22d16286b606c6" class="exit" x1="330" y1="144" x2="344" y2="144"/>
     null
-    <line id="edge-4b3e7c7e73aa611943fb4d145e27330addfa876f-6406e512e80cdb32d65412ee6f6a81a826f6223f" class="exit" x1="330" y1="144" x2="316" y2="144"/>
     <line id="edge-4a4a9e7aa96968bd80b14c76eeef6e23aed8bd6f-be1e511485e39e6f2c9ff87bfabf881bcb1dc287" class="exit" x1="330" y1="116" x2="344" y2="130"/>
-    <line id="edge-4a4a9e7aa96968bd80b14c76eeef6e23aed8bd6f-78f63179ad212fa740364b99671bd536207d0d0f" class="exit" x1="330" y1="116" x2="316" y2="116"/>
     <line id="edge-0e552311f697cdebe0cfaadd3b9753f9246ba8fc-78f63179ad212fa740364b99671bd536207d0d0f" class="exit" x1="316" y1="102" x2="316" y2="116"/>
-    <line id="edge-78f63179ad212fa740364b99671bd536207d0d0f-94ff1ae82e506fe619f35cd3edda5c8ee1f2d172" class="exit" x1="316" y1="116" x2="302" y2="116"/>
     <line id="edge-0e552311f697cdebe0cfaadd3b9753f9246ba8fc-3f775bdee8f8dff24c23fc9d7887272c05ad22cc" class="exit" x1="316" y1="102" x2="330" y2="102"/>
     <line id="edge-0e552311f697cdebe0cfaadd3b9753f9246ba8fc-8a35896cdf5f4b5cb02994ffe1ebbdfb86887eb1" class="exit" x1="316" y1="102" x2="302" y2="102"/>
-    <line id="edge-209c1ff11b68db9a5eb8c90aa2457182ad96154e-94ff1ae82e506fe619f35cd3edda5c8ee1f2d172" class="exit" x1="288" y1="116" x2="302" y2="116"/>
-    <line id="edge-209c1ff11b68db9a5eb8c90aa2457182ad96154e-e04520321ec9080c8a5153a7ede8cbf3b882f8cb" class="exit" x1="288" y1="116" x2="288" y2="130"/>
-    <line id="edge-92abe78e4db433ce5b3d89618367e61bd4dfb5da-e04520321ec9080c8a5153a7ede8cbf3b882f8cb" class="exit" x1="288" y1="144" x2="288" y2="130"/>
-    <line id="edge-2dde0c3e93960598308857181f1cb36e959b5b15-92abe78e4db433ce5b3d89618367e61bd4dfb5da" class="exit" x1="288" y1="158" x2="288" y2="144"/>
     <line id="edge-59c72e57e3cd386c94c3885bcf2b7390a0f02f21-92abe78e4db433ce5b3d89618367e61bd4dfb5da" class="exit" x1="288" y1="144" x2="288" y2="144"/>
-    <line id="edge-2dde0c3e93960598308857181f1cb36e959b5b15-5b0dd77ff1433206c8c8c80bbf41c6c2c8767a0f" class="exit" x1="288" y1="158" x2="302" y2="172"/>
-    <line id="edge-2dde0c3e93960598308857181f1cb36e959b5b15-f94d13f26d7a8f7f4477fd1de4b6b3a8a051a269" class="exit" x1="288" y1="158" x2="274" y2="172"/>
-    <line id="edge-5b0dd77ff1433206c8c8c80bbf41c6c2c8767a0f-bcfc8167bb678e59eac760f4440f0dfcd0de5bd8" class="exit" x1="302" y1="172" x2="316" y2="172"/>
-    <line id="edge-2b9413833dd5a15714540df6ad6987457f88b597-bcfc8167bb678e59eac760f4440f0dfcd0de5bd8" class="exit" x1="330" y1="172" x2="316" y2="172"/>
-    <line id="edge-2b9413833dd5a15714540df6ad6987457f88b597-f008c98b2d74392f37ebb07cefb5de27a077e00c" class="exit" x1="330" y1="172" x2="344" y2="158"/>
     <line id="edge-0c80a83a06316ad963703e71efad4f39e270ef61-8aab20e875cc270b90fb6063bc49e7108c6bb532" class="exit" x1="358" y1="130" x2="344" y2="116"/>
     <line id="edge-3f775bdee8f8dff24c23fc9d7887272c05ad22cc-8aab20e875cc270b90fb6063bc49e7108c6bb532" class="exit" x1="330" y1="102" x2="344" y2="116"/>
     <line id="edge-8a35896cdf5f4b5cb02994ffe1ebbdfb86887eb1-fc3a84cd3e1b993db2b50bd512a77dbeeba23ced" class="exit" x1="302" y1="102" x2="288" y2="102"/>
@@ -781,7 +782,6 @@
     <line id="edge-3b3dfc31dd761d11b24d4783974ccd9963c94991-5ca1850fa4f6d49c62cc52c80b60dd0d51fbc7b2" class="exit" x1="204" y1="368" x2="190" y2="368"/>
     <line id="edge-3b3dfc31dd761d11b24d4783974ccd9963c94991-ca107ea38d4526ba3ca5f1a6a48dcdde43347ddc" class="exit" x1="204" y1="368" x2="215" y2="368"/>
     null
-    <line id="edge-4510a659eb9906108410545c775c9a8a557dc775-56063974b58bd7324e204a381638f5f7c9c23c88" class="exit" x1="87" y1="234" x2="99" y2="234"/>
     <line id="edge-4510a659eb9906108410545c775c9a8a557dc775-ce521a2fb52aa92b08e605234a82f05abe16f490" class="exit" x1="87" y1="234" x2="76" y2="234"/>
     <line id="edge-1459bd9af49443e2f2dd218f8fc348a2b80e866d-ce521a2fb52aa92b08e605234a82f05abe16f490" class="exit" x1="87" y1="245" x2="76" y2="234"/>
     <line id="edge-612aaff848b34f51044f294d201a1d434af10a85-ce521a2fb52aa92b08e605234a82f05abe16f490" class="exit" x1="76" y1="245" x2="76" y2="234"/>
@@ -1087,25 +1087,25 @@
     <circle id="room-cee8eb44fac544a3e7896ee45376ee63aad63dc9" class="room outdoor" data-label="Okra Avenue, north of an intersection" cx="400" cy="130" r="4"/>
     <circle id="room-814f989acb55e67fc2c182f627710873c51dc776" class="room outdoor" data-label="Yaga Crescent, west of Okra Avenue" cx="386" cy="144" r="4"/>
     <circle id="room-31707d59d8337f5622f6f073901592e1582acd1b" class="room outdoor" data-label="east end of Yaga Crescent" cx="372" cy="144" r="4"/>
-    <circle id="room-ebba2eb5029659cc6eb0cd899b169afca3c3a9b9" class="room outdoor" data-label="Genua City Park by the Yaga Crescent gate" cx="358" cy="144" r="4"/>
+    <circle id="room-ebba2eb5029659cc6eb0cd899b169afca3c3a9b9" class="room outdoor green" data-label="Genua City Park by the Yaga Crescent gate" cx="358" cy="144" r="4"/>
     <circle id="room-c450079a738c15bf994810661f22d16286b606c6" class="room outdoor" data-label="bridge over the Genua City Park lagoon" cx="344" cy="144" r="4"/>
-    <circle id="room-4b3e7c7e73aa611943fb4d145e27330addfa876f" class="room outdoor" data-label="island in the Genua City Park lagoon" cx="330" cy="144" r="4"/><polygon class="stair-symbol" points="330,141 327.5,146 332.5,146"/>
-    <circle id="room-6406e512e80cdb32d65412ee6f6a81a826f6223f" class="room outdoor" data-label="island in the Genua City Park lagoon" cx="316" cy="144" r="4"/>
+    <circle id="room-4b3e7c7e73aa611943fb4d145e27330addfa876f" class="room outdoor green" data-label="island in the Genua City Park lagoon" cx="330" cy="144" r="4"/><polygon class="stair-symbol" points="330,141 327.5,146 332.5,146"/>
+    <circle id="room-6406e512e80cdb32d65412ee6f6a81a826f6223f" class="room outdoor green" data-label="island in the Genua City Park lagoon" cx="316" cy="144" r="4"/>
     <rect id="room-2a520742919d7a71f8cdb8cef46a64ee7a5803b1" class="room indoor room-food" data-label="Cafe Hilaire" x="318" y="129" width="8" height="8" rx="2"/><text class="room-type-label" x="322" y="133" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-be1e511485e39e6f2c9ff87bfabf881bcb1dc287" class="room outdoor" data-label="bridge over the Genua City Park lagoon" cx="344" cy="130" r="4"/>
-    <circle id="room-4a4a9e7aa96968bd80b14c76eeef6e23aed8bd6f" class="room outdoor" data-label="Genua City Park" cx="330" cy="116" r="4"/>
-    <circle id="room-78f63179ad212fa740364b99671bd536207d0d0f" class="room outdoor" data-label="Genua City Park" cx="316" cy="116" r="4"/>
+    <circle id="room-4a4a9e7aa96968bd80b14c76eeef6e23aed8bd6f" class="room outdoor green" data-label="Genua City Park" cx="330" cy="116" r="4"/>
+    <circle id="room-78f63179ad212fa740364b99671bd536207d0d0f" class="room outdoor green" data-label="Genua City Park" cx="316" cy="116" r="4"/>
     <circle id="room-0e552311f697cdebe0cfaadd3b9753f9246ba8fc" class="room outdoor room-shop" data-label="Lovers&#x27; Walk, at the City Park entrance" cx="316" cy="102" r="4"/><text class="room-type-label" x="316" y="102" text-anchor="middle" dominant-baseline="central">S</text>
-    <circle id="room-94ff1ae82e506fe619f35cd3edda5c8ee1f2d172" class="room outdoor" data-label="Genua City Park near Lovers Walk" cx="302" cy="116" r="4"/>
-    <circle id="room-209c1ff11b68db9a5eb8c90aa2457182ad96154e" class="room outdoor room-shop" data-label="northwest corner of Genua City Park, near two exits" cx="288" cy="116" r="4"/><text class="room-type-label" x="288" y="116" text-anchor="middle" dominant-baseline="central">S</text>
-    <circle id="room-e04520321ec9080c8a5153a7ede8cbf3b882f8cb" class="room outdoor" data-label="picnic area in Genua City Park" cx="288" cy="130" r="4"/>
-    <circle id="room-92abe78e4db433ce5b3d89618367e61bd4dfb5da" class="room outdoor" data-label="Genua City Park" cx="288" cy="144" r="4"/>
-    <circle id="room-2dde0c3e93960598308857181f1cb36e959b5b15" class="room outdoor" data-label="Genua City Park near the duelling oaks" cx="288" cy="158" r="4"/>
-    <circle id="room-f94d13f26d7a8f7f4477fd1de4b6b3a8a051a269" class="room outdoor" data-label="duelling oaks" cx="274" cy="172" r="4"/>
-    <circle id="room-5b0dd77ff1433206c8c8c80bbf41c6c2c8767a0f" class="room outdoor" data-label="Genua City Park" cx="302" cy="172" r="4"/>
-    <circle id="room-bcfc8167bb678e59eac760f4440f0dfcd0de5bd8" class="room outdoor" data-label="Genua City Park" cx="316" cy="172" r="4"/>
-    <circle id="room-2b9413833dd5a15714540df6ad6987457f88b597" class="room outdoor" data-label="Genua City Park" cx="330" cy="172" r="4"/>
-    <circle id="room-f008c98b2d74392f37ebb07cefb5de27a077e00c" class="room outdoor" data-label="bridge over the Genua City Park lagoon" cx="344" cy="158" r="4"/>
+    <circle id="room-94ff1ae82e506fe619f35cd3edda5c8ee1f2d172" class="room outdoor green" data-label="Genua City Park near Lovers Walk" cx="302" cy="116" r="4"/>
+    <circle id="room-209c1ff11b68db9a5eb8c90aa2457182ad96154e" class="room outdoor room-shop green" data-label="northwest corner of Genua City Park, near two exits" cx="288" cy="116" r="4"/><text class="room-type-label" x="288" y="116" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-e04520321ec9080c8a5153a7ede8cbf3b882f8cb" class="room outdoor green" data-label="picnic area in Genua City Park" cx="288" cy="130" r="4"/>
+    <circle id="room-92abe78e4db433ce5b3d89618367e61bd4dfb5da" class="room outdoor green" data-label="Genua City Park" cx="288" cy="144" r="4"/>
+    <circle id="room-2dde0c3e93960598308857181f1cb36e959b5b15" class="room outdoor green" data-label="Genua City Park near the duelling oaks" cx="288" cy="158" r="4"/>
+    <circle id="room-f94d13f26d7a8f7f4477fd1de4b6b3a8a051a269" class="room outdoor green" data-label="duelling oaks" cx="274" cy="172" r="4"/>
+    <circle id="room-5b0dd77ff1433206c8c8c80bbf41c6c2c8767a0f" class="room outdoor green" data-label="Genua City Park" cx="302" cy="172" r="4"/>
+    <circle id="room-bcfc8167bb678e59eac760f4440f0dfcd0de5bd8" class="room outdoor green" data-label="Genua City Park" cx="316" cy="172" r="4"/>
+    <circle id="room-2b9413833dd5a15714540df6ad6987457f88b597" class="room outdoor green" data-label="Genua City Park" cx="330" cy="172" r="4"/>
+    <circle id="room-f008c98b2d74392f37ebb07cefb5de27a077e00c" class="room outdoor green" data-label="bridge over the Genua City Park lagoon" cx="344" cy="158" r="4"/>
     <circle id="room-0c80a83a06316ad963703e71efad4f39e270ef61" class="room outdoor" data-label="Lovers&#x27; Walk, near Yaga Crescent" cx="358" cy="130" r="4"/>
     <circle id="room-8aab20e875cc270b90fb6063bc49e7108c6bb532" class="room outdoor" data-label="Lovers&#x27; Walk" cx="344" cy="116" r="4"/>
     <circle id="room-3f775bdee8f8dff24c23fc9d7887272c05ad22cc" class="room outdoor" data-label="Lovers&#x27; Walk, near City Park" cx="330" cy="102" r="4"/>
@@ -1184,7 +1184,7 @@
     <rect id="room-d16da252ec96fc261f62c9c0831dfaadcd517c4e" class="room indoor room-clothes" data-label="shoe maker&#x27;s shop" x="228" y="227" width="8" height="8" rx="2"/><text class="room-type-label" x="232" y="231" text-anchor="middle" dominant-baseline="central">C</text>
     <circle id="room-fc7c273b7eecd71ddaedf5b41f0205a4e801c3a4" class="room outdoor" data-label="Genua Avenue outside a hotel and a general store" cx="218" cy="242" r="4"/>
     <rect id="room-bca6177993f7ab872f8448e10e160ed75feb2fa1" class="room indoor room-food" data-label="Aunie&#x27;s General Store" x="214" y="227" width="8" height="8" rx="2"/><text class="room-type-label" x="218" y="231" text-anchor="middle" dominant-baseline="central">F</text>
-    <circle id="room-b924218508be08992ccf41c8bcbe9b736cb33d63" class="room outdoor" data-label="courtyard" cx="74" cy="287" r="4"/>
+    <circle id="room-b924218508be08992ccf41c8bcbe9b736cb33d63" class="room outdoor green" data-label="courtyard" cx="74" cy="287" r="4"/>
     <rect id="room-c850f3de2f2ed31ab829961cd7aa5fe72ed9b582" class="room indoor" data-label="reception" x="70" y="294" width="8" height="8" rx="2"/>
     <rect id="room-be66da7b15a5a42cde8b2196aea3140fb03eda97" class="room indoor" data-label="Saturday suite" x="59" y="294" width="8" height="8" rx="2"/>
     <rect id="room-dc16a4c5bc35b23e960f308f9d3b3636cd5cafa6" class="room indoor" data-label="Tacticus suite" x="81" y="294" width="8" height="8" rx="2"/>
@@ -1195,7 +1195,7 @@
     <rect id="room-3dc8da637e301388d060991cbc7a862464d9ef38" class="room indoor" data-label="kitchen" x="81" y="316" width="8" height="8" rx="2"/>
     <rect id="room-c4f14ddd5b6c0b66f9aab21ebead29cc2839f09a" class="room indoor" data-label="upper hallway" x="70" y="329" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="74,336 71.5,331 76.5,331"/>
     <rect id="room-88686eabe6c095f01cd1cd35a52cf797ceb81c94" class="room indoor" data-label="drawing room" x="59" y="329" width="8" height="8" rx="2"/>
-    <circle id="room-9f0d9a96f36c929bf58585a5264c60e3558c8ac4" class="room outdoor" data-label="balcony" cx="74" cy="344" r="4"/>
+    <circle id="room-9f0d9a96f36c929bf58585a5264c60e3558c8ac4" class="room outdoor green" data-label="balcony" cx="74" cy="344" r="4"/>
     <rect id="room-4cead656c3decc0a27c5cff2bf5b7b8beb16e7d9" class="room indoor" data-label="privy" x="81" y="329" width="8" height="8" rx="2"/>
     <circle id="room-fd906fd9f2fc162615cded17826be3dbaa2886cf" class="room outdoor" data-label="Genua Avenue east of the main gate" cx="204" cy="242" r="4"/>
     <circle id="room-da9acce86215e326e3a3a070da3acaa799b1cfe5" class="room outdoor" data-label="eastern side of the courtyard around the main gate" cx="190" cy="242" r="4"/>
@@ -1206,7 +1206,7 @@
     <circle id="room-8ecd0eabddbb4deeb34e89759f10ff020b82cf60" class="room outdoor" data-label="southern side of the courtyard around the main gate" cx="176" cy="256" r="4"/>
     <rect id="room-44fd4de4f8251012143eb8d4b1790dd86314658b" class="room indoor" data-label="Chester Shillock&#x27;s money changers" x="186" y="263" width="8" height="8" rx="2"/>
     <rect id="room-5f39e836ffabb9851c240b398a2ccad9ecbf0e04" class="room indoor room-shop" data-label="Charre Bux Coffee House" x="197" y="252" width="8" height="8" rx="2"/><text class="room-type-label" x="201" y="256" text-anchor="middle" dominant-baseline="central">S</text>
-    <circle id="room-6defa37c6e05a11807104e98f17e3f5b48ab58ca" class="room outdoor" data-label="courtyard outside the main gate" cx="162" cy="242" r="4"/>
+    <circle id="room-6defa37c6e05a11807104e98f17e3f5b48ab58ca" class="room outdoor green" data-label="courtyard outside the main gate" cx="162" cy="242" r="4"/>
     <rect id="room-a1755a2f5b92db6af5feb15f06879896aff8a44c" class="room indoor" data-label="comfortable office" x="31" y="311" width="8" height="8" rx="2"/>
     <rect id="room-f0e4583264932857d4265a0a89ae1003eedb9a19" class="room indoor room-shop" data-label="shop" x="31" y="301" width="8" height="8" rx="2"/><text class="room-type-label" x="35" y="305" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-0265b7330eea2c9dc98fce0526a0ddd4d33d41fe" class="room indoor" data-label="austere corridor" x="31" y="321" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="35,322 37.5,325 35,328 32.5,325"/>
@@ -1524,7 +1524,7 @@
     <rect id="room-0718929d8b608454f33d0bcb66b48d22caf4be8c" class="room indoor" data-label="Honest Joe&#x27;s carriage warehouse" x="264" y="522" width="8" height="8" rx="2"/>
     <rect id="room-6919307c65d0bdb432a2f02689447006decefcf8" class="room indoor" data-label="Honest Joe&#x27;s carriage warehouse" x="275" y="522" width="8" height="8" rx="2"/>
     <rect id="room-09451b54e0d98a60c52ab9fdccdb7370c383c0b1" class="room indoor" data-label="Honest Joe&#x27;s Stables" x="275" y="511" width="8" height="8" rx="2"/>
-    <circle id="room-42d54db8308754b3c65390ed5471417ec77f04db" class="room outdoor" data-label="dusty yard" cx="290" cy="515" r="4"/>
+    <circle id="room-42d54db8308754b3c65390ed5471417ec77f04db" class="room outdoor green" data-label="dusty yard" cx="290" cy="515" r="4"/>
     <rect id="room-8ce99945e33380d22cb63199afe67d7fdfce40f1" class="room indoor" data-label="dirty little office" x="264" y="511" width="8" height="8" rx="2"/>
     <rect id="room-745f5594d43e94c782141c67b73fe02365d2eca4" class="room indoor" data-label="smoke filled room" x="264" y="500" width="8" height="8" rx="2"/>
     <rect id="room-aeb7458ea6687042e3583984fba9669928159b91" class="room indoor" data-label="inside of an old carriage" x="286" y="522" width="8" height="8" rx="2"/>
@@ -1536,8 +1536,8 @@
     <rect id="room-ca107ea38d4526ba3ca5f1a6a48dcdde43347ddc" class="room indoor room-weapon" data-label="Tools &#x27;r&#x27; Us" x="211" y="364" width="8" height="8" rx="2"/><text class="room-type-label" x="215" y="368" text-anchor="middle" dominant-baseline="central">W</text>
     <circle id="room-5ca1850fa4f6d49c62cc52c80b60dd0d51fbc7b2" class="room outdoor" data-label="bottom of a tower" cx="190" cy="368" r="4"/><polygon class="stair-symbol" points="190,365 187.5,370 192.5,370"/>
     <circle id="room-4c829e082b6ad481608808173c6c5dc614752e09" class="room outdoor" data-label="top of a tower" cx="183" cy="355" r="4"/><polygon class="stair-symbol" points="183,358 180.5,353 185.5,353"/>
-    <circle id="room-56063974b58bd7324e204a381638f5f7c9c23c88" class="room outdoor" data-label="entranceway" cx="99" cy="234" r="4"/>
-    <circle id="room-4510a659eb9906108410545c775c9a8a557dc775" class="room outdoor" data-label="gardens" cx="87" cy="234" r="4"/>
+    <circle id="room-56063974b58bd7324e204a381638f5f7c9c23c88" class="room outdoor green" data-label="entranceway" cx="99" cy="234" r="4"/>
+    <circle id="room-4510a659eb9906108410545c775c9a8a557dc775" class="room outdoor green" data-label="gardens" cx="87" cy="234" r="4"/>
     <rect id="room-ce521a2fb52aa92b08e605234a82f05abe16f490" class="room indoor" data-label="Tacticus Academy entranceway" x="72" y="230" width="8" height="8" rx="2"/>
     <rect id="room-1459bd9af49443e2f2dd218f8fc348a2b80e866d" class="room indoor" data-label="security office" x="83" y="241" width="8" height="8" rx="2"/>
     <rect id="room-9808d8bf88a4b13020caf1cd5a6ab3a2dd5f8248" class="room indoor" data-label="janitor&#x27;s office" x="83" y="219" width="8" height="8" rx="2"/>
@@ -1659,9 +1659,9 @@
     <rect id="room-5f0e8f52153f22c2655b386cb47630642bbe3f47" class="room indoor" data-label="badly repaired tomb" x="480" y="70" width="8" height="8" rx="2"/>
     <rect id="room-5dd53caac3ea601984693ed4bd09af48abfcf5ea" class="room indoor" data-label="well-appointed tomb" x="466" y="56" width="8" height="8" rx="2"/>
     <circle id="room-58108bed068caa96e5b33e13f377a44fba3a5b53" class="room outdoor water" data-label="lagoon in Genua City Park" cx="344" cy="144" r="4"/>
-    <circle id="room-0cd91ff29af37f9ce19222a8d1632f82dc5cdb9c" class="room outdoor water" data-label="lagoon in Genua City Park" cx="344" cy="158" r="4"/>
+    <circle id="room-0cd91ff29af37f9ce19222a8d1632f82dc5cdb9c" class="room outdoor water green" data-label="lagoon in Genua City Park" cx="344" cy="158" r="4"/>
     <circle id="room-1ae7b78d44a0d257273ee34c5a91c5cccc1da5fe" class="room outdoor" data-label="lagoon in Genua City Park" cx="330" cy="158" r="4"/>
-    <circle id="room-6ac75a31175755130bf53d695162e8cdd0e058f6" class="room outdoor water" data-label="lagoon in Genua City Park" cx="344" cy="130" r="4"/>
+    <circle id="room-6ac75a31175755130bf53d695162e8cdd0e058f6" class="room outdoor water green" data-label="lagoon in Genua City Park" cx="344" cy="130" r="4"/>
     <circle id="room-46a163e5c8671c9cc0b8cfa51588d068286557d7" class="room outdoor" data-label="lagoon in Genua City Park" cx="330" cy="130" r="4"/>
     <circle id="room-002b273f6b566d99a84bcf75885887c1a4a1846f" class="room outdoor" data-label="lagoon in Genua City Park" cx="316" cy="130" r="4"/>
     <circle id="room-8a597ca8c62a93883cfe213ed5bd2b2e8fddfc99" class="room outdoor" data-label="lagoon in Genua City Park" cx="302" cy="130" r="4"/>
