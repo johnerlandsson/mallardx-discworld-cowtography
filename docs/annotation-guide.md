@@ -82,25 +82,24 @@ City signs label towns on regional maps (ramtops, sto_plains, etc.). Each sign i
 
 ```svg
 <rect class="city-sign" x="95" y="117" width="46" height="10"/>
-<text class="city-sign-label" text-anchor="middle" dominant-baseline="central"
-      font-size="8" x="118" y="122">Lancre Town</text>
+<text class="city-sign-label" text-anchor="middle" font-size="8" x="118" y="125">Lancre Town</text>
 ```
 
 ### Sizing rules
 
 - **Font size:** 8 SVG units (set as `font-size` attribute)
-- **Padding:** 3 units left/right, 1 unit top/bottom around the text
-- **Rect width:** measure the rendered text width in Inkscape, then add 6 (3 each side)
-- **Rect height:** `font-size + 2` = 10 for 8px text
+- **Padding:** 3 units left/right around the text
+- **Rect width:** measure the rendered text width in Inkscape (W field), then add 6 (3 each side)
+- **Rect height:** 10 for 8px text — adjust visually in Inkscape until the text sits centred
 - **Text anchor:** `middle` — place the text `x` at the horizontal centre of the rect
-- **Dominant baseline:** `central` — place the text `y` at the vertical centre of the rect
+- Do **not** use `dominant-baseline` — it renders differently in Inkscape vs the browser
 
 ### Workflow
 
-1. Place a `<text>` element in `layer-artwork`, set `class="city-sign-label"`, `font-size="8"`, `text-anchor="middle"`, `dominant-baseline="central"`, and type the city name
+1. Place a `<text>` element in `layer-artwork`, set `class="city-sign-label"`, `font-size="8"`, `text-anchor="middle"`, and type the city name
 2. In Inkscape's toolbar, note the rendered text width (W field)
-3. Calculate rect dimensions: `width = textW + 6`, `height = 10`
-4. Calculate rect position: `x = textX - width/2`, `y = textY - 5`
+3. Calculate rect width: `textW + 6`. Set rect height to 10
+4. Calculate rect x: `textX - width/2`. Set rect y so the text sits visually centred — adjust in Inkscape
 5. Place a `<rect>` with `class="city-sign"` using those values — it must sit **before** the `<text>` in the SVG so the text renders on top
 6. Add presentation attributes `fill="#0f0f0f"` and `stroke="#eaeaea"` to the rect so both are visible in Inkscape
 
