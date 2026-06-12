@@ -6,6 +6,98 @@
   <g id="layer-artwork"><!-- artwork --></g>
 
   <g id="layer-exits">
+    <line id="edge-66d68b7d738966dee748aebde9914d2d2386642c-d3e4590f4fbb4c56fc49c9582437a730fd256ebf" class="exit exit-green" x1="650" y1="580" x2="636" y2="594"/>
+    <line id="edge-acf2bc687a35ee3109a9834052e814d26250a433-d3e4590f4fbb4c56fc49c9582437a730fd256ebf" class="exit exit-green" x1="622" y1="580" x2="636" y2="594"/>
+    <line id="edge-66d68b7d738966dee748aebde9914d2d2386642c-c056c35cc718a7a020e150f06ae80fd1cce754bc" class="exit exit-green" x1="650" y1="580" x2="650" y2="566"/>
+    <line id="edge-7a56ffb965f763929931d0b12a87457795057590-c056c35cc718a7a020e150f06ae80fd1cce754bc" class="exit exit-green" x1="650" y1="552" x2="650" y2="566"/>
+    <line id="edge-778bc87c29acebb76554b63a3862739696ee4bc7-919b10dd011d9a4b66098ea39617a5a8d79a5fd3" class="exit exit-green" x1="622" y1="552" x2="622" y2="566"/>
+    <line id="edge-919b10dd011d9a4b66098ea39617a5a8d79a5fd3-acf2bc687a35ee3109a9834052e814d26250a433" class="exit exit-green" x1="622" y1="566" x2="622" y2="580"/>
+    <line id="edge-2b828c1c2d1f9ba6315bb1374a7463337d9941bd-778bc87c29acebb76554b63a3862739696ee4bc7" class="exit exit-green" x1="636" y1="538" x2="622" y2="552"/>
+    <line id="edge-2b828c1c2d1f9ba6315bb1374a7463337d9941bd-7a56ffb965f763929931d0b12a87457795057590" class="exit exit-green" x1="636" y1="538" x2="650" y2="552"/>
+    <line id="edge-892a1dbd1a232c9f9e579f17ec860738b9e9acaa-c96e66c1d5d500bb1c5fb837c2c9f6d6ebbbed5a" class="exit exit-green" x1="202" y1="622" x2="188" y2="636"/>
+    <line id="edge-678dc83ac09791b9e025afbf57f948667dcd08cf-892a1dbd1a232c9f9e579f17ec860738b9e9acaa" class="exit exit-green" x1="188" y1="622" x2="202" y2="622"/>
+    <line id="edge-678dc83ac09791b9e025afbf57f948667dcd08cf-ae560a8258a17bffce9e6a677ff79c4fcbfcd510" class="exit exit-green" x1="188" y1="622" x2="174" y2="622"/>
+    <line id="edge-04e14e3de0a663814c015df6831e774e88e12844-ae560a8258a17bffce9e6a677ff79c4fcbfcd510" class="exit exit-green" x1="174" y1="636" x2="174" y2="622"/>
+    <line id="edge-05fd91b43d04efd7f234512d9f15780178677bec-ae560a8258a17bffce9e6a677ff79c4fcbfcd510" class="exit exit-green" x1="160" y1="636" x2="174" y2="622"/>
+    <line id="edge-05fd91b43d04efd7f234512d9f15780178677bec-1e7cf6bc27ce0ced7ecaa746eae77bfb3bb0d5ed" class="exit exit-green" x1="160" y1="636" x2="146" y2="636"/>
+    <line id="edge-05fd91b43d04efd7f234512d9f15780178677bec-6f2657c7f591f86b91b8002c0c90a3356aba848a" class="exit exit-green" x1="160" y1="636" x2="160" y2="622"/>
+    <line id="edge-1e7cf6bc27ce0ced7ecaa746eae77bfb3bb0d5ed-423199a96f7259d42868eefac1c4c38720765678" class="exit exit-green" x1="146" y1="636" x2="132" y2="636"/>
+    <line id="edge-1e7cf6bc27ce0ced7ecaa746eae77bfb3bb0d5ed-e1e2918738cd72e8c06020ea269a98cc1754a92a" class="exit exit-green" x1="146" y1="636" x2="132" y2="622"/>
+    <line id="edge-423199a96f7259d42868eefac1c4c38720765678-e1e2918738cd72e8c06020ea269a98cc1754a92a" class="exit exit-green" x1="132" y1="636" x2="132" y2="622"/>
+    <line id="edge-e1e2918738cd72e8c06020ea269a98cc1754a92a-e889b3f48431866728352e412c2aa7d3f39f321c" class="exit exit-green" x1="132" y1="622" x2="132" y2="608"/>
+    <line id="edge-d7d484b9c9e30e39d4018f16895f6d9488f6c888-e889b3f48431866728352e412c2aa7d3f39f321c" class="exit exit-green" x1="146" y1="622" x2="132" y2="608"/>
+    <line id="edge-d7d484b9c9e30e39d4018f16895f6d9488f6c888-f566e08e57622717cae110a066d5961ebd808c13" class="exit exit-green" x1="146" y1="622" x2="146" y2="608"/>
+    <line id="edge-e35a1494f9363ea8e88e0aac4610d6afe283790e-f566e08e57622717cae110a066d5961ebd808c13" class="exit exit-green" x1="146" y1="594" x2="146" y2="608"/>
+    <line id="edge-cba6ac437c82f7e0bcbc35e24f771ade2ee4f3ae-e35a1494f9363ea8e88e0aac4610d6afe283790e" class="exit exit-green" x1="132" y1="594" x2="146" y2="594"/>
+    <line id="edge-e35a1494f9363ea8e88e0aac4610d6afe283790e-f70c915ba622d7576a4c886de173484f46dc45cc" class="exit exit-green" x1="146" y1="594" x2="132" y2="580"/>
+    <line id="edge-8572b84cab93e3261a0f4d34bebd094cfc619025-f70c915ba622d7576a4c886de173484f46dc45cc" class="exit exit-green" x1="146" y1="580" x2="132" y2="580"/>
+    <line id="edge-cba6ac437c82f7e0bcbc35e24f771ade2ee4f3ae-f70c915ba622d7576a4c886de173484f46dc45cc" class="exit exit-green" x1="132" y1="594" x2="132" y2="580"/>
+    <line id="edge-8572b84cab93e3261a0f4d34bebd094cfc619025-b53ec200720c99ffec0c7d7c1ba1d02f5326a08c" class="exit exit-green" x1="146" y1="580" x2="160" y2="594"/>
+    <line id="edge-583d98d4f3d8fe6890526eed35b2aaa05805e31d-b53ec200720c99ffec0c7d7c1ba1d02f5326a08c" class="exit exit-green" x1="160" y1="608" x2="160" y2="594"/>
+    <line id="edge-b53ec200720c99ffec0c7d7c1ba1d02f5326a08c-dcbeaa4e7268576b1e69c1b98ad18913fda6f629" class="exit exit-green" x1="160" y1="594" x2="160" y2="580"/>
+    <line id="edge-b35059282ccd34ed400385712ef73ff3763cc811-dcbeaa4e7268576b1e69c1b98ad18913fda6f629" class="exit exit-green" x1="174" y1="580" x2="160" y2="580"/>
+    <line id="edge-583d98d4f3d8fe6890526eed35b2aaa05805e31d-9ccbd4d0c37376097471fea67d876a6ae1fd3201" class="exit exit-green" x1="160" y1="608" x2="174" y2="608"/>
+    <line id="edge-7501a143a315af64c9fc247660bda720dc65d779-9ccbd4d0c37376097471fea67d876a6ae1fd3201" class="exit exit-green" x1="188" y1="608" x2="174" y2="608"/>
+    <line id="edge-7501a143a315af64c9fc247660bda720dc65d779-f6c91dd4c146e69df752943319b46c360da784fe" class="exit exit-green" x1="188" y1="608" x2="174" y2="594"/>
+    <line id="edge-dc50e8fc6fe90ba381a302016a327fe1a13b80cc-f6c91dd4c146e69df752943319b46c360da784fe" class="exit exit-green" x1="188" y1="580" x2="174" y2="594"/>
+    <line id="edge-7ae0a1cb4fa0985b4fab71cc1e342da64c76affd-dc50e8fc6fe90ba381a302016a327fe1a13b80cc" class="exit exit-green" x1="188" y1="594" x2="188" y2="580"/>
+    <line id="edge-7ae0a1cb4fa0985b4fab71cc1e342da64c76affd-b4b3a7e855d369c88428fb6829061ddf269b3b7d" class="exit exit-green" x1="188" y1="594" x2="202" y2="580"/>
+    <line id="edge-907354d6f02044944586832f9a03815bf4a98bd3-b4b3a7e855d369c88428fb6829061ddf269b3b7d" class="exit exit-green" x1="202" y1="594" x2="202" y2="580"/>
+    <line id="edge-b4b3a7e855d369c88428fb6829061ddf269b3b7d-d73aaddafe795d33d9e04fce3d62a3dad5cbb05e" class="exit exit-green" x1="202" y1="580" x2="216" y2="580"/>
+    <line id="edge-d73aaddafe795d33d9e04fce3d62a3dad5cbb05e-e7401c2b003eb435e897512eb2fd59d0ff0e58a0" class="exit exit-green" x1="216" y1="580" x2="230" y2="580"/>
+    <line id="edge-94e0ba93a1d6b4dc76c63bc3198f42f214a7d839-e7401c2b003eb435e897512eb2fd59d0ff0e58a0" class="exit exit-green" x1="244" y1="580" x2="230" y2="580"/>
+    <line id="edge-94e0ba93a1d6b4dc76c63bc3198f42f214a7d839-b4366924d06bf9f4ec7904a613acd2ee07602bd2" class="exit exit-green" x1="244" y1="580" x2="244" y2="594"/>
+    <line id="edge-1d5f837bc43d9aa8065b5bb5747d9fac2968837e-b4366924d06bf9f4ec7904a613acd2ee07602bd2" class="exit exit-green" x1="258" y1="580" x2="244" y2="594"/>
+    <line id="edge-0a9af90c80ada672ff5ba4e4e07e5644ff9e5654-1d5f837bc43d9aa8065b5bb5747d9fac2968837e" class="exit exit-green" x1="272" y1="580" x2="258" y2="580"/>
+    <line id="edge-1d5f837bc43d9aa8065b5bb5747d9fac2968837e-cf6c0fefbba4362d40939e2058487a66548c49e8" class="exit exit-green" x1="258" y1="580" x2="272" y2="594"/>
+    <line id="edge-0a9af90c80ada672ff5ba4e4e07e5644ff9e5654-cf6c0fefbba4362d40939e2058487a66548c49e8" class="exit exit-green" x1="272" y1="580" x2="272" y2="594"/>
+    <line id="edge-295c67c409f98394d5afe0080913f700c79288e6-cf6c0fefbba4362d40939e2058487a66548c49e8" class="exit exit-green" x1="258" y1="594" x2="272" y2="594"/>
+    <line id="edge-295c67c409f98394d5afe0080913f700c79288e6-86a93fb4ae9dd523b212886495bb47571649022a" class="exit exit-green" x1="258" y1="594" x2="258" y2="608"/>
+    <line id="edge-3a335f6b2ffed725fc1e718f511ec2a13c71fea9-86a93fb4ae9dd523b212886495bb47571649022a" class="exit exit-green" x1="272" y1="608" x2="258" y2="608"/>
+    <line id="edge-86a93fb4ae9dd523b212886495bb47571649022a-8a384344dc7c550bb33d12985313c78b3de008b7" class="exit exit-green" x1="258" y1="608" x2="244" y2="608"/>
+    <line id="edge-3a335f6b2ffed725fc1e718f511ec2a13c71fea9-5736ab5c56f621b6d111e58750a74ac5a5b5f618" class="exit exit-green" x1="272" y1="608" x2="258" y2="622"/>
+    <line id="edge-3a335f6b2ffed725fc1e718f511ec2a13c71fea9-b6276bc6298ccbfc3af6ebe3b50e3d0d223f58b2" class="exit exit-green" x1="272" y1="608" x2="272" y2="622"/>
+    <line id="edge-9a572ee99a913c107f17c5980245cbb9b43d968d-b6276bc6298ccbfc3af6ebe3b50e3d0d223f58b2" class="exit exit-green" x1="272" y1="636" x2="272" y2="622"/>
+    <line id="edge-5736ab5c56f621b6d111e58750a74ac5a5b5f618-9a572ee99a913c107f17c5980245cbb9b43d968d" class="exit exit-green" x1="258" y1="622" x2="272" y2="636"/>
+    <line id="edge-5736ab5c56f621b6d111e58750a74ac5a5b5f618-abf1f166aae5f96c20a211fed35e091ff8b4cf91" class="exit exit-green" x1="258" y1="622" x2="258" y2="636"/>
+    <line id="edge-5c1944e4d14e9f08681b223d4255d5ceac96873e-abf1f166aae5f96c20a211fed35e091ff8b4cf91" class="exit exit-green" x1="244" y1="636" x2="258" y2="636"/>
+    <line id="edge-5c1944e4d14e9f08681b223d4255d5ceac96873e-9f0cd13d770b9ca99df6b5568908743dfcab8b01" class="exit exit-green" x1="244" y1="636" x2="244" y2="622"/>
+    <line id="edge-9f0cd13d770b9ca99df6b5568908743dfcab8b01-bc8a74e1b0353ac9e4c29b5b7344fa337bc3895e" class="exit exit-green" x1="244" y1="622" x2="230" y2="636"/>
+    <line id="edge-232a5dbe36f22630098e11216f3c3e6e1e05f3a5-bc8a74e1b0353ac9e4c29b5b7344fa337bc3895e" class="exit exit-green" x1="216" y1="636" x2="230" y2="636"/>
+    <line id="edge-9fce78c4ffc517e6ef3abff329ae0f1c3d40cdf0-bc8a74e1b0353ac9e4c29b5b7344fa337bc3895e" class="exit exit-green" x1="230" y1="622" x2="230" y2="636"/>
+    <line id="edge-232a5dbe36f22630098e11216f3c3e6e1e05f3a5-9fce78c4ffc517e6ef3abff329ae0f1c3d40cdf0" class="exit exit-green" x1="216" y1="636" x2="230" y2="622"/>
+    <line id="edge-232a5dbe36f22630098e11216f3c3e6e1e05f3a5-60e6ca2325172b170e8e2990ca21144138be09a5" class="exit exit-green" x1="216" y1="636" x2="202" y2="636"/>
+    <line id="edge-60e6ca2325172b170e8e2990ca21144138be09a5-c11e6e47ab828c258d5b9d3d2daa6bbfdd4e268c" class="exit exit-green" x1="202" y1="636" x2="216" y2="622"/>
+    <line id="edge-1cf32d2c3d988abca110f0638fd83ac3e2e89522-65fe5c823d85aedf512e39443f62afc3e2c6a52b" class="exit exit-green" x1="356" y1="580" x2="342" y2="580"/>
+    <line id="edge-1cf32d2c3d988abca110f0638fd83ac3e2e89522-730e80c3ffad1310eebc902ce6135b3bd7e48a91" class="exit exit-green" x1="356" y1="580" x2="342" y2="566"/>
+    <line id="edge-1cf32d2c3d988abca110f0638fd83ac3e2e89522-f52e2c2c0969c882e6894e124ccd93fb3269b97d" class="exit exit-green" x1="356" y1="580" x2="370" y2="566"/>
+    <line id="edge-65fe5c823d85aedf512e39443f62afc3e2c6a52b-730e80c3ffad1310eebc902ce6135b3bd7e48a91" class="exit exit-green" x1="342" y1="580" x2="342" y2="566"/>
+    <line id="edge-730e80c3ffad1310eebc902ce6135b3bd7e48a91-97c4ff985d73291366305834e86f411c6959d1ec" class="exit exit-green" x1="342" y1="566" x2="328" y2="566"/>
+    <line id="edge-730e80c3ffad1310eebc902ce6135b3bd7e48a91-98ff03856536b79cc2d68a9a81657d971478eac2" class="exit exit-green" x1="342" y1="566" x2="342" y2="552"/>
+    <line id="edge-97c4ff985d73291366305834e86f411c6959d1ec-dbdc240dd48917c49e800cbe62a9a11eec67a0a6" class="exit exit-green" x1="328" y1="566" x2="328" y2="580"/>
+    <line id="edge-65fe5c823d85aedf512e39443f62afc3e2c6a52b-dbdc240dd48917c49e800cbe62a9a11eec67a0a6" class="exit exit-green" x1="342" y1="580" x2="328" y2="580"/>
+    <line id="edge-06474ac22ac45e73d10303e963ca1979e3ef2a94-f52e2c2c0969c882e6894e124ccd93fb3269b97d" class="exit exit-green" x1="384" y1="580" x2="370" y2="566"/>
+    <line id="edge-e1aaaaef3d4102a8a14353b0125055fbba27505c-f52e2c2c0969c882e6894e124ccd93fb3269b97d" class="exit exit-green" x1="384" y1="552" x2="370" y2="566"/>
+    <line id="edge-06474ac22ac45e73d10303e963ca1979e3ef2a94-be48d887128ac3a3a3a48391fbc3c43c3b1c06cb" class="exit exit-green" x1="384" y1="580" x2="370" y2="580"/>
+    <line id="edge-06474ac22ac45e73d10303e963ca1979e3ef2a94-ddc7c94761e483f607464ad2995dc1ed6d2b9c8b" class="exit exit-green" x1="384" y1="580" x2="384" y2="566"/>
+    <line id="edge-36bc95e4300d1026f265bed816232e34a72564f6-8034c2c1ec95d45789a212cfda51eba856501d79" class="exit exit-water" x1="884" y1="883" x2="875" y2="883"/>
+    <line id="edge-8034c2c1ec95d45789a212cfda51eba856501d79-b508f7b07d88bb1b3f47efd0691e56c835b1e67b" class="exit exit-water" x1="875" y1="883" x2="875" y2="874"/>
+    <line id="edge-8034c2c1ec95d45789a212cfda51eba856501d79-c0084f143904a81f15ee6941f525c086b40ad53e" class="exit exit-water" x1="875" y1="883" x2="866" y2="883"/>
+    <line id="edge-5c2fe4540cdb39e32ed185c9583d5168ef7bbf42-c0084f143904a81f15ee6941f525c086b40ad53e" class="exit exit-water" x1="866" y1="874" x2="866" y2="883"/>
+    <line id="edge-36bc95e4300d1026f265bed816232e34a72564f6-d0b82b9a07ec5ef72366c8904950f6de59c4a6ff" class="exit exit-water" x1="884" y1="883" x2="884" y2="874"/>
+    <line id="edge-4b86903b5aea6f98d554b5f01dc173034fb94c1e-d0b82b9a07ec5ef72366c8904950f6de59c4a6ff" class="exit exit-water" x1="884" y1="865" x2="884" y2="874"/>
+    <line id="edge-b508f7b07d88bb1b3f47efd0691e56c835b1e67b-d0b82b9a07ec5ef72366c8904950f6de59c4a6ff" class="exit exit-water" x1="875" y1="874" x2="884" y2="874"/>
+    <line id="edge-00f1fed48995e9f4152be33a4d867583d94c39aa-b508f7b07d88bb1b3f47efd0691e56c835b1e67b" class="exit exit-water" x1="866" y1="865" x2="875" y2="874"/>
+    <line id="edge-4b86903b5aea6f98d554b5f01dc173034fb94c1e-b508f7b07d88bb1b3f47efd0691e56c835b1e67b" class="exit exit-water" x1="884" y1="865" x2="875" y2="874"/>
+    <line id="edge-5c2fe4540cdb39e32ed185c9583d5168ef7bbf42-b508f7b07d88bb1b3f47efd0691e56c835b1e67b" class="exit exit-water" x1="866" y1="874" x2="875" y2="874"/>
+    <line id="edge-b1c1ef04f962f5e1dec0b713fb643e3467e85782-b508f7b07d88bb1b3f47efd0691e56c835b1e67b" class="exit exit-water" x1="875" y1="865" x2="875" y2="874"/>
+    <line id="edge-00f1fed48995e9f4152be33a4d867583d94c39aa-4b905c208982c30363e9b835de555f6b9db7ef0c" class="exit exit-water" x1="866" y1="865" x2="875" y2="856"/>
+    <line id="edge-00f1fed48995e9f4152be33a4d867583d94c39aa-5c2fe4540cdb39e32ed185c9583d5168ef7bbf42" class="exit exit-water" x1="866" y1="865" x2="866" y2="874"/>
+    <line id="edge-00f1fed48995e9f4152be33a4d867583d94c39aa-b1c1ef04f962f5e1dec0b713fb643e3467e85782" class="exit exit-water" x1="866" y1="865" x2="875" y2="865"/>
+    <line id="edge-4b86903b5aea6f98d554b5f01dc173034fb94c1e-4b905c208982c30363e9b835de555f6b9db7ef0c" class="exit exit-water" x1="884" y1="865" x2="875" y2="856"/>
+    <line id="edge-4b905c208982c30363e9b835de555f6b9db7ef0c-b1c1ef04f962f5e1dec0b713fb643e3467e85782" class="exit exit-water" x1="875" y1="856" x2="875" y2="865"/>
+    <line id="edge-4b86903b5aea6f98d554b5f01dc173034fb94c1e-b1c1ef04f962f5e1dec0b713fb643e3467e85782" class="exit exit-water" x1="884" y1="865" x2="875" y2="865"/>
+    <line id="edge-d0570cd230d5c2afd322a090999abb607ce689dd-d0ff0f86e444c3976712bfcd141270da0bb9d826" class="exit exit-water" x1="1224" y1="738" x2="1266" y2="762"/>
     <line id="edge-0ecbae2883c7931bdaeb954f7025861b10a76aea-4f52536d369b9350ee3247b894b50cb2e0a725cd" class="exit" x1="888" y1="538" x2="902" y2="538"/>
     <line id="edge-2f42ca73de026227b7a72e3f16424c0ef6e599e7-4f52536d369b9350ee3247b894b50cb2e0a725cd" class="exit" x1="912" y1="548" x2="902" y2="538"/>
     <line id="edge-0aa00b042405b80c5cfac781ceb422973e10711b-0ecbae2883c7931bdaeb954f7025861b10a76aea" class="exit" x1="874" y1="552" x2="888" y2="538"/>
@@ -679,19 +771,11 @@
     <line id="edge-7bbd0bf87509d8dd762c4747327626d0ffc11da9-da8b87876fa975b7d51200cf6fa2875b7e29d9f9" class="exit" x1="664" y1="538" x2="664" y2="552"/>
     <line id="edge-d700a1e0bacd973db34b133bd8d7cd8a164ee3da-da8b87876fa975b7d51200cf6fa2875b7e29d9f9" class="exit" x1="664" y1="566" x2="664" y2="552"/>
     <line id="edge-a1556db6485cbf87cc7491b6ab66c9c7a515e32f-d700a1e0bacd973db34b133bd8d7cd8a164ee3da" class="exit" x1="675" y1="566" x2="664" y2="566"/>
-    <line id="edge-66d68b7d738966dee748aebde9914d2d2386642c-d3e4590f4fbb4c56fc49c9582437a730fd256ebf" class="exit" x1="650" y1="580" x2="636" y2="594"/>
-    <line id="edge-acf2bc687a35ee3109a9834052e814d26250a433-d3e4590f4fbb4c56fc49c9582437a730fd256ebf" class="exit" x1="622" y1="580" x2="636" y2="594"/>
-    <line id="edge-66d68b7d738966dee748aebde9914d2d2386642c-c056c35cc718a7a020e150f06ae80fd1cce754bc" class="exit" x1="650" y1="580" x2="650" y2="566"/>
-    <line id="edge-7a56ffb965f763929931d0b12a87457795057590-c056c35cc718a7a020e150f06ae80fd1cce754bc" class="exit" x1="650" y1="552" x2="650" y2="566"/>
     <line id="edge-94df1c6c3c634816ddce54bbe2980b136438ae33-c056c35cc718a7a020e150f06ae80fd1cce754bc" class="exit" x1="636" y1="566" x2="650" y2="566"/>
     <line id="edge-919b10dd011d9a4b66098ea39617a5a8d79a5fd3-94df1c6c3c634816ddce54bbe2980b136438ae33" class="exit" x1="622" y1="566" x2="636" y2="566"/>
-    <line id="edge-778bc87c29acebb76554b63a3862739696ee4bc7-919b10dd011d9a4b66098ea39617a5a8d79a5fd3" class="exit" x1="622" y1="552" x2="622" y2="566"/>
-    <line id="edge-919b10dd011d9a4b66098ea39617a5a8d79a5fd3-acf2bc687a35ee3109a9834052e814d26250a433" class="exit" x1="622" y1="566" x2="622" y2="580"/>
     <line id="edge-919b10dd011d9a4b66098ea39617a5a8d79a5fd3-c6d8b78f1b2fba951dc7b764a065d3647249d8c8" class="exit" x1="622" y1="566" x2="608" y2="566"/>
     <line id="edge-9c169bbf0df7a7495db3f1a0b3984109f176a46b-c6d8b78f1b2fba951dc7b764a065d3647249d8c8" class="exit" x1="608" y1="580" x2="608" y2="566"/>
     <line id="edge-c03eff459e3cbec602079828e8299ace8978262e-c6d8b78f1b2fba951dc7b764a065d3647249d8c8" class="exit" x1="608" y1="552" x2="608" y2="566"/>
-    <line id="edge-2b828c1c2d1f9ba6315bb1374a7463337d9941bd-778bc87c29acebb76554b63a3862739696ee4bc7" class="exit" x1="636" y1="538" x2="622" y2="552"/>
-    <line id="edge-2b828c1c2d1f9ba6315bb1374a7463337d9941bd-7a56ffb965f763929931d0b12a87457795057590" class="exit" x1="636" y1="538" x2="650" y2="552"/>
     <line id="edge-0f0a5cc0a8ed301e78fb0130983e439a292796f0-5622cbd2b565939a43199643dc1c14fb9fe11990" class="exit" x1="608" y1="594" x2="597" y2="594"/>
     <line id="edge-0f0a5cc0a8ed301e78fb0130983e439a292796f0-9c169bbf0df7a7495db3f1a0b3984109f176a46b" class="exit" x1="608" y1="594" x2="608" y2="580"/>
     <line id="edge-39010bc920d0f12ca0c902ca56dfdcb321dca957-5622cbd2b565939a43199643dc1c14fb9fe11990" class="exit" x1="597" y1="594" x2="597" y2="594"/>
@@ -843,60 +927,6 @@
     <line id="edge-23ed5a21833158925c2bdd7e750a58ce18ec7074-d9783f13f3421a07bc664ebbc6e91415f9b4a7c1" class="exit" x1="174" y1="650" x2="160" y2="650"/>
     <line id="edge-23ed5a21833158925c2bdd7e750a58ce18ec7074-24ef2f19df3cbab142f7eabafb112a9b4c84a103" class="exit" x1="174" y1="650" x2="188" y2="650"/>
     <line id="edge-23ed5a21833158925c2bdd7e750a58ce18ec7074-c96e66c1d5d500bb1c5fb837c2c9f6d6ebbbed5a" class="exit" x1="174" y1="650" x2="188" y2="636"/>
-    <line id="edge-892a1dbd1a232c9f9e579f17ec860738b9e9acaa-c96e66c1d5d500bb1c5fb837c2c9f6d6ebbbed5a" class="exit" x1="202" y1="622" x2="188" y2="636"/>
-    <line id="edge-678dc83ac09791b9e025afbf57f948667dcd08cf-892a1dbd1a232c9f9e579f17ec860738b9e9acaa" class="exit" x1="188" y1="622" x2="202" y2="622"/>
-    <line id="edge-678dc83ac09791b9e025afbf57f948667dcd08cf-ae560a8258a17bffce9e6a677ff79c4fcbfcd510" class="exit" x1="188" y1="622" x2="174" y2="622"/>
-    <line id="edge-04e14e3de0a663814c015df6831e774e88e12844-ae560a8258a17bffce9e6a677ff79c4fcbfcd510" class="exit" x1="174" y1="636" x2="174" y2="622"/>
-    <line id="edge-05fd91b43d04efd7f234512d9f15780178677bec-ae560a8258a17bffce9e6a677ff79c4fcbfcd510" class="exit" x1="160" y1="636" x2="174" y2="622"/>
-    <line id="edge-05fd91b43d04efd7f234512d9f15780178677bec-1e7cf6bc27ce0ced7ecaa746eae77bfb3bb0d5ed" class="exit" x1="160" y1="636" x2="146" y2="636"/>
-    <line id="edge-05fd91b43d04efd7f234512d9f15780178677bec-6f2657c7f591f86b91b8002c0c90a3356aba848a" class="exit" x1="160" y1="636" x2="160" y2="622"/>
-    <line id="edge-1e7cf6bc27ce0ced7ecaa746eae77bfb3bb0d5ed-423199a96f7259d42868eefac1c4c38720765678" class="exit" x1="146" y1="636" x2="132" y2="636"/>
-    <line id="edge-1e7cf6bc27ce0ced7ecaa746eae77bfb3bb0d5ed-e1e2918738cd72e8c06020ea269a98cc1754a92a" class="exit" x1="146" y1="636" x2="132" y2="622"/>
-    <line id="edge-423199a96f7259d42868eefac1c4c38720765678-e1e2918738cd72e8c06020ea269a98cc1754a92a" class="exit" x1="132" y1="636" x2="132" y2="622"/>
-    <line id="edge-e1e2918738cd72e8c06020ea269a98cc1754a92a-e889b3f48431866728352e412c2aa7d3f39f321c" class="exit" x1="132" y1="622" x2="132" y2="608"/>
-    <line id="edge-d7d484b9c9e30e39d4018f16895f6d9488f6c888-e889b3f48431866728352e412c2aa7d3f39f321c" class="exit" x1="146" y1="622" x2="132" y2="608"/>
-    <line id="edge-d7d484b9c9e30e39d4018f16895f6d9488f6c888-f566e08e57622717cae110a066d5961ebd808c13" class="exit" x1="146" y1="622" x2="146" y2="608"/>
-    <line id="edge-e35a1494f9363ea8e88e0aac4610d6afe283790e-f566e08e57622717cae110a066d5961ebd808c13" class="exit" x1="146" y1="594" x2="146" y2="608"/>
-    <line id="edge-cba6ac437c82f7e0bcbc35e24f771ade2ee4f3ae-e35a1494f9363ea8e88e0aac4610d6afe283790e" class="exit" x1="132" y1="594" x2="146" y2="594"/>
-    <line id="edge-e35a1494f9363ea8e88e0aac4610d6afe283790e-f70c915ba622d7576a4c886de173484f46dc45cc" class="exit" x1="146" y1="594" x2="132" y2="580"/>
-    <line id="edge-8572b84cab93e3261a0f4d34bebd094cfc619025-f70c915ba622d7576a4c886de173484f46dc45cc" class="exit" x1="146" y1="580" x2="132" y2="580"/>
-    <line id="edge-cba6ac437c82f7e0bcbc35e24f771ade2ee4f3ae-f70c915ba622d7576a4c886de173484f46dc45cc" class="exit" x1="132" y1="594" x2="132" y2="580"/>
-    <line id="edge-8572b84cab93e3261a0f4d34bebd094cfc619025-b53ec200720c99ffec0c7d7c1ba1d02f5326a08c" class="exit" x1="146" y1="580" x2="160" y2="594"/>
-    <line id="edge-583d98d4f3d8fe6890526eed35b2aaa05805e31d-b53ec200720c99ffec0c7d7c1ba1d02f5326a08c" class="exit" x1="160" y1="608" x2="160" y2="594"/>
-    <line id="edge-b53ec200720c99ffec0c7d7c1ba1d02f5326a08c-dcbeaa4e7268576b1e69c1b98ad18913fda6f629" class="exit" x1="160" y1="594" x2="160" y2="580"/>
-    <line id="edge-b35059282ccd34ed400385712ef73ff3763cc811-dcbeaa4e7268576b1e69c1b98ad18913fda6f629" class="exit" x1="174" y1="580" x2="160" y2="580"/>
-    <line id="edge-583d98d4f3d8fe6890526eed35b2aaa05805e31d-9ccbd4d0c37376097471fea67d876a6ae1fd3201" class="exit" x1="160" y1="608" x2="174" y2="608"/>
-    <line id="edge-7501a143a315af64c9fc247660bda720dc65d779-9ccbd4d0c37376097471fea67d876a6ae1fd3201" class="exit" x1="188" y1="608" x2="174" y2="608"/>
-    <line id="edge-7501a143a315af64c9fc247660bda720dc65d779-f6c91dd4c146e69df752943319b46c360da784fe" class="exit" x1="188" y1="608" x2="174" y2="594"/>
-    <line id="edge-dc50e8fc6fe90ba381a302016a327fe1a13b80cc-f6c91dd4c146e69df752943319b46c360da784fe" class="exit" x1="188" y1="580" x2="174" y2="594"/>
-    <line id="edge-7ae0a1cb4fa0985b4fab71cc1e342da64c76affd-dc50e8fc6fe90ba381a302016a327fe1a13b80cc" class="exit" x1="188" y1="594" x2="188" y2="580"/>
-    <line id="edge-7ae0a1cb4fa0985b4fab71cc1e342da64c76affd-b4b3a7e855d369c88428fb6829061ddf269b3b7d" class="exit" x1="188" y1="594" x2="202" y2="580"/>
-    <line id="edge-907354d6f02044944586832f9a03815bf4a98bd3-b4b3a7e855d369c88428fb6829061ddf269b3b7d" class="exit" x1="202" y1="594" x2="202" y2="580"/>
-    <line id="edge-b4b3a7e855d369c88428fb6829061ddf269b3b7d-d73aaddafe795d33d9e04fce3d62a3dad5cbb05e" class="exit" x1="202" y1="580" x2="216" y2="580"/>
-    <line id="edge-d73aaddafe795d33d9e04fce3d62a3dad5cbb05e-e7401c2b003eb435e897512eb2fd59d0ff0e58a0" class="exit" x1="216" y1="580" x2="230" y2="580"/>
-    <line id="edge-94e0ba93a1d6b4dc76c63bc3198f42f214a7d839-e7401c2b003eb435e897512eb2fd59d0ff0e58a0" class="exit" x1="244" y1="580" x2="230" y2="580"/>
-    <line id="edge-94e0ba93a1d6b4dc76c63bc3198f42f214a7d839-b4366924d06bf9f4ec7904a613acd2ee07602bd2" class="exit" x1="244" y1="580" x2="244" y2="594"/>
-    <line id="edge-1d5f837bc43d9aa8065b5bb5747d9fac2968837e-b4366924d06bf9f4ec7904a613acd2ee07602bd2" class="exit" x1="258" y1="580" x2="244" y2="594"/>
-    <line id="edge-0a9af90c80ada672ff5ba4e4e07e5644ff9e5654-1d5f837bc43d9aa8065b5bb5747d9fac2968837e" class="exit" x1="272" y1="580" x2="258" y2="580"/>
-    <line id="edge-1d5f837bc43d9aa8065b5bb5747d9fac2968837e-cf6c0fefbba4362d40939e2058487a66548c49e8" class="exit" x1="258" y1="580" x2="272" y2="594"/>
-    <line id="edge-0a9af90c80ada672ff5ba4e4e07e5644ff9e5654-cf6c0fefbba4362d40939e2058487a66548c49e8" class="exit" x1="272" y1="580" x2="272" y2="594"/>
-    <line id="edge-295c67c409f98394d5afe0080913f700c79288e6-cf6c0fefbba4362d40939e2058487a66548c49e8" class="exit" x1="258" y1="594" x2="272" y2="594"/>
-    <line id="edge-295c67c409f98394d5afe0080913f700c79288e6-86a93fb4ae9dd523b212886495bb47571649022a" class="exit" x1="258" y1="594" x2="258" y2="608"/>
-    <line id="edge-3a335f6b2ffed725fc1e718f511ec2a13c71fea9-86a93fb4ae9dd523b212886495bb47571649022a" class="exit" x1="272" y1="608" x2="258" y2="608"/>
-    <line id="edge-86a93fb4ae9dd523b212886495bb47571649022a-8a384344dc7c550bb33d12985313c78b3de008b7" class="exit" x1="258" y1="608" x2="244" y2="608"/>
-    <line id="edge-3a335f6b2ffed725fc1e718f511ec2a13c71fea9-5736ab5c56f621b6d111e58750a74ac5a5b5f618" class="exit" x1="272" y1="608" x2="258" y2="622"/>
-    <line id="edge-3a335f6b2ffed725fc1e718f511ec2a13c71fea9-b6276bc6298ccbfc3af6ebe3b50e3d0d223f58b2" class="exit" x1="272" y1="608" x2="272" y2="622"/>
-    <line id="edge-9a572ee99a913c107f17c5980245cbb9b43d968d-b6276bc6298ccbfc3af6ebe3b50e3d0d223f58b2" class="exit" x1="272" y1="636" x2="272" y2="622"/>
-    <line id="edge-5736ab5c56f621b6d111e58750a74ac5a5b5f618-9a572ee99a913c107f17c5980245cbb9b43d968d" class="exit" x1="258" y1="622" x2="272" y2="636"/>
-    <line id="edge-5736ab5c56f621b6d111e58750a74ac5a5b5f618-abf1f166aae5f96c20a211fed35e091ff8b4cf91" class="exit" x1="258" y1="622" x2="258" y2="636"/>
-    <line id="edge-5c1944e4d14e9f08681b223d4255d5ceac96873e-abf1f166aae5f96c20a211fed35e091ff8b4cf91" class="exit" x1="244" y1="636" x2="258" y2="636"/>
-    <line id="edge-5c1944e4d14e9f08681b223d4255d5ceac96873e-9f0cd13d770b9ca99df6b5568908743dfcab8b01" class="exit" x1="244" y1="636" x2="244" y2="622"/>
-    <line id="edge-9f0cd13d770b9ca99df6b5568908743dfcab8b01-bc8a74e1b0353ac9e4c29b5b7344fa337bc3895e" class="exit" x1="244" y1="622" x2="230" y2="636"/>
-    <line id="edge-232a5dbe36f22630098e11216f3c3e6e1e05f3a5-bc8a74e1b0353ac9e4c29b5b7344fa337bc3895e" class="exit" x1="216" y1="636" x2="230" y2="636"/>
-    <line id="edge-9fce78c4ffc517e6ef3abff329ae0f1c3d40cdf0-bc8a74e1b0353ac9e4c29b5b7344fa337bc3895e" class="exit" x1="230" y1="622" x2="230" y2="636"/>
-    <line id="edge-232a5dbe36f22630098e11216f3c3e6e1e05f3a5-9fce78c4ffc517e6ef3abff329ae0f1c3d40cdf0" class="exit" x1="216" y1="636" x2="230" y2="622"/>
-    <line id="edge-232a5dbe36f22630098e11216f3c3e6e1e05f3a5-60e6ca2325172b170e8e2990ca21144138be09a5" class="exit" x1="216" y1="636" x2="202" y2="636"/>
-    <line id="edge-60e6ca2325172b170e8e2990ca21144138be09a5-c11e6e47ab828c258d5b9d3d2daa6bbfdd4e268c" class="exit" x1="202" y1="636" x2="216" y2="622"/>
     <line id="edge-24ef2f19df3cbab142f7eabafb112a9b4c84a103-8f9195d737d8aedea7fc03ed223354d70d16f406" class="exit" x1="188" y1="650" x2="202" y2="650"/>
     <line id="edge-3c9a86f1374ec08e5e3a27f97c1c48ab7548343a-8f9195d737d8aedea7fc03ed223354d70d16f406" class="exit" x1="216" y1="650" x2="202" y2="650"/>
     <line id="edge-0b57edab82643b17427c7701afab92c9d4fa9b73-3c9a86f1374ec08e5e3a27f97c1c48ab7548343a" class="exit" x1="230" y1="650" x2="216" y2="650"/>
@@ -914,22 +944,10 @@
     <line id="edge-f1b7484148eaf533e2094060b463b4edb2fc48fe-fc84e82e456ca2cec9fab9111cc83bd34b218942" class="exit" x1="356" y1="608" x2="342" y2="594"/>
     <line id="edge-1cf32d2c3d988abca110f0638fd83ac3e2e89522-78e400e8f638c1e0b74fe3c00d1b26a906f18533" class="exit" x1="356" y1="580" x2="356" y2="594"/>
     <line id="edge-78e400e8f638c1e0b74fe3c00d1b26a906f18533-d01116749809e3aa9df787f0a3d85afad3022849" class="exit" x1="356" y1="594" x2="370" y2="594"/>
-    <line id="edge-1cf32d2c3d988abca110f0638fd83ac3e2e89522-65fe5c823d85aedf512e39443f62afc3e2c6a52b" class="exit" x1="356" y1="580" x2="342" y2="580"/>
-    <line id="edge-1cf32d2c3d988abca110f0638fd83ac3e2e89522-730e80c3ffad1310eebc902ce6135b3bd7e48a91" class="exit" x1="356" y1="580" x2="342" y2="566"/>
-    <line id="edge-1cf32d2c3d988abca110f0638fd83ac3e2e89522-f52e2c2c0969c882e6894e124ccd93fb3269b97d" class="exit" x1="356" y1="580" x2="370" y2="566"/>
-    <line id="edge-65fe5c823d85aedf512e39443f62afc3e2c6a52b-730e80c3ffad1310eebc902ce6135b3bd7e48a91" class="exit" x1="342" y1="580" x2="342" y2="566"/>
-    <line id="edge-730e80c3ffad1310eebc902ce6135b3bd7e48a91-97c4ff985d73291366305834e86f411c6959d1ec" class="exit" x1="342" y1="566" x2="328" y2="566"/>
-    <line id="edge-730e80c3ffad1310eebc902ce6135b3bd7e48a91-98ff03856536b79cc2d68a9a81657d971478eac2" class="exit" x1="342" y1="566" x2="342" y2="552"/>
     <line id="edge-0aef7ae56529d9282138d062a54a6b54070d1226-97c4ff985d73291366305834e86f411c6959d1ec" class="exit" x1="328" y1="555" x2="328" y2="566"/>
-    <line id="edge-97c4ff985d73291366305834e86f411c6959d1ec-dbdc240dd48917c49e800cbe62a9a11eec67a0a6" class="exit" x1="328" y1="566" x2="328" y2="580"/>
     <line id="edge-0aef7ae56529d9282138d062a54a6b54070d1226-5a1e822ccd41043328e3c8cc9713803e6b7a13c3" class="exit" x1="328" y1="555" x2="328" y2="555"/>
     <line id="edge-0aef7ae56529d9282138d062a54a6b54070d1226-e7802380c1576ec6f58821ffbc42a84021470ed5" class="exit" x1="328" y1="555" x2="328" y2="555"/>
     <line id="edge-4a19864ff9ca061978df44bcfa510cf5b78b6354-5a1e822ccd41043328e3c8cc9713803e6b7a13c3" class="exit" x1="328" y1="555" x2="328" y2="555"/>
-    <line id="edge-65fe5c823d85aedf512e39443f62afc3e2c6a52b-dbdc240dd48917c49e800cbe62a9a11eec67a0a6" class="exit" x1="342" y1="580" x2="328" y2="580"/>
-    <line id="edge-06474ac22ac45e73d10303e963ca1979e3ef2a94-f52e2c2c0969c882e6894e124ccd93fb3269b97d" class="exit" x1="384" y1="580" x2="370" y2="566"/>
-    <line id="edge-e1aaaaef3d4102a8a14353b0125055fbba27505c-f52e2c2c0969c882e6894e124ccd93fb3269b97d" class="exit" x1="384" y1="552" x2="370" y2="566"/>
-    <line id="edge-06474ac22ac45e73d10303e963ca1979e3ef2a94-be48d887128ac3a3a3a48391fbc3c43c3b1c06cb" class="exit" x1="384" y1="580" x2="370" y2="580"/>
-    <line id="edge-06474ac22ac45e73d10303e963ca1979e3ef2a94-ddc7c94761e483f607464ad2995dc1ed6d2b9c8b" class="exit" x1="384" y1="580" x2="384" y2="566"/>
     <line id="edge-931328d34c474d177e63e871f03397b4beef4bdf-d01116749809e3aa9df787f0a3d85afad3022849" class="exit" x1="384" y1="594" x2="370" y2="594"/>
     <line id="edge-48887f05913104de34776cf038c31c4db89d63eb-931328d34c474d177e63e871f03397b4beef4bdf" class="exit" x1="398" y1="594" x2="384" y2="594"/>
     <line id="edge-48887f05913104de34776cf038c31c4db89d63eb-e18e290190ce7312810233b3f4171e16971bd3c8" class="exit" x1="398" y1="594" x2="412" y2="594"/>
@@ -2149,9 +2167,6 @@
     <line id="edge-381aa3223074de10d034be8f1949fee118b89887-6b34982740c234d8b3febcae7e8f6e75ec892935" class="exit" x1="1142" y1="342" x2="1142" y2="356"/>
     <line id="edge-3ab763fedca170d3eb631d6e73748e2630ccf889-6f120ffa89e995011d1791285fa87f549213c796" class="exit" x1="885" y1="902" x2="875" y2="892"/>
     <line id="edge-6f120ffa89e995011d1791285fa87f549213c796-8034c2c1ec95d45789a212cfda51eba856501d79" class="exit" x1="875" y1="892" x2="875" y2="883"/>
-    <line id="edge-36bc95e4300d1026f265bed816232e34a72564f6-8034c2c1ec95d45789a212cfda51eba856501d79" class="exit exit-water" x1="884" y1="883" x2="875" y2="883"/>
-    <line id="edge-8034c2c1ec95d45789a212cfda51eba856501d79-b508f7b07d88bb1b3f47efd0691e56c835b1e67b" class="exit exit-water" x1="875" y1="883" x2="875" y2="874"/>
-    <line id="edge-8034c2c1ec95d45789a212cfda51eba856501d79-c0084f143904a81f15ee6941f525c086b40ad53e" class="exit exit-water" x1="875" y1="883" x2="866" y2="883"/>
     <line id="edge-0eeaf24e890f7bc1350cb7fcf6c61fa05027d6f9-635260166c5c2f1245bf73177820cb377c1a72ee" class="exit" x1="957" y1="671" x2="965" y2="671"/>
     <line id="edge-0eeaf24e890f7bc1350cb7fcf6c61fa05027d6f9-e68649f26cb8774e4d2561981c0334e1c9b47596" class="exit" x1="957" y1="671" x2="949" y2="679"/>
     <line id="edge-e68649f26cb8774e4d2561981c0334e1c9b47596-e72d0ba3207b6375934611c23470d2985700e082" class="exit" x1="949" y1="679" x2="949" y2="687"/>
@@ -2231,20 +2246,6 @@
     <line id="edge-909621fb4e3ab06eededdfbe38ddbdf5ad0064d6-fb2cb824bb5eac6d74caf5f5a5f04164bd4c3487" class="exit" x1="955" y1="538" x2="955" y2="538"/>
     <line id="edge-602977fa0053fbce7b2a8de904de1644098d0cc7-96271deb1cb7f70dd9e03549ae60e14b21bb9f91" class="exit" x1="1031" y1="510" x2="1031" y2="510"/>
     <line id="edge-38a61fdad54266c4c221bc54b516ed7dfac474bd-aac97e63302c544738c6154cc831b640a82d4d15" class="exit" x1="1053" y1="482" x2="1053" y2="482"/>
-    <line id="edge-5c2fe4540cdb39e32ed185c9583d5168ef7bbf42-c0084f143904a81f15ee6941f525c086b40ad53e" class="exit exit-water" x1="866" y1="874" x2="866" y2="883"/>
-    <line id="edge-36bc95e4300d1026f265bed816232e34a72564f6-d0b82b9a07ec5ef72366c8904950f6de59c4a6ff" class="exit exit-water" x1="884" y1="883" x2="884" y2="874"/>
-    <line id="edge-4b86903b5aea6f98d554b5f01dc173034fb94c1e-d0b82b9a07ec5ef72366c8904950f6de59c4a6ff" class="exit exit-water" x1="884" y1="865" x2="884" y2="874"/>
-    <line id="edge-b508f7b07d88bb1b3f47efd0691e56c835b1e67b-d0b82b9a07ec5ef72366c8904950f6de59c4a6ff" class="exit exit-water" x1="875" y1="874" x2="884" y2="874"/>
-    <line id="edge-00f1fed48995e9f4152be33a4d867583d94c39aa-b508f7b07d88bb1b3f47efd0691e56c835b1e67b" class="exit exit-water" x1="866" y1="865" x2="875" y2="874"/>
-    <line id="edge-4b86903b5aea6f98d554b5f01dc173034fb94c1e-b508f7b07d88bb1b3f47efd0691e56c835b1e67b" class="exit exit-water" x1="884" y1="865" x2="875" y2="874"/>
-    <line id="edge-5c2fe4540cdb39e32ed185c9583d5168ef7bbf42-b508f7b07d88bb1b3f47efd0691e56c835b1e67b" class="exit exit-water" x1="866" y1="874" x2="875" y2="874"/>
-    <line id="edge-b1c1ef04f962f5e1dec0b713fb643e3467e85782-b508f7b07d88bb1b3f47efd0691e56c835b1e67b" class="exit exit-water" x1="875" y1="865" x2="875" y2="874"/>
-    <line id="edge-00f1fed48995e9f4152be33a4d867583d94c39aa-4b905c208982c30363e9b835de555f6b9db7ef0c" class="exit exit-water" x1="866" y1="865" x2="875" y2="856"/>
-    <line id="edge-00f1fed48995e9f4152be33a4d867583d94c39aa-5c2fe4540cdb39e32ed185c9583d5168ef7bbf42" class="exit exit-water" x1="866" y1="865" x2="866" y2="874"/>
-    <line id="edge-00f1fed48995e9f4152be33a4d867583d94c39aa-b1c1ef04f962f5e1dec0b713fb643e3467e85782" class="exit exit-water" x1="866" y1="865" x2="875" y2="865"/>
-    <line id="edge-4b86903b5aea6f98d554b5f01dc173034fb94c1e-4b905c208982c30363e9b835de555f6b9db7ef0c" class="exit exit-water" x1="884" y1="865" x2="875" y2="856"/>
-    <line id="edge-4b905c208982c30363e9b835de555f6b9db7ef0c-b1c1ef04f962f5e1dec0b713fb643e3467e85782" class="exit exit-water" x1="875" y1="856" x2="875" y2="865"/>
-    <line id="edge-4b86903b5aea6f98d554b5f01dc173034fb94c1e-b1c1ef04f962f5e1dec0b713fb643e3467e85782" class="exit exit-water" x1="884" y1="865" x2="875" y2="865"/>
     <line id="edge-9159337d5c0245b43f0a76d7b13617ab7e921dd8-9ea9d88be24887c025cab9d876c1676df5ff053a" class="exit" x1="845" y1="892" x2="836" y2="883"/>
     null
     null
@@ -2368,7 +2369,6 @@
     <line id="edge-78cb7fa61c49884bf7048c7b8b311d82cce20843-d25a834805916bcb00d6df90f14e747d7b2e7938" class="exit" x1="538" y1="373" x2="538" y2="373"/>
     <line id="edge-5c535fcf80fe6bd0facc7b199fa306e16782c50c-78cb7fa61c49884bf7048c7b8b311d82cce20843" class="exit" x1="538" y1="373" x2="538" y2="373"/>
     <line id="edge-5c535fcf80fe6bd0facc7b199fa306e16782c50c-f86fc92265f530e3853a038442e04587bd1f27b9" class="exit" x1="538" y1="373" x2="538" y2="373"/>
-    <line id="edge-d0570cd230d5c2afd322a090999abb607ce689dd-d0ff0f86e444c3976712bfcd141270da0bb9d826" class="exit exit-water" x1="1224" y1="738" x2="1266" y2="762"/>
     <line id="edge-67609c531bd9ff896704dcf0516e35f5a084f08f-b135f975a54a0163f3e7dde338ef4c04c0d200c6" class="exit" x1="1028" y1="681" x2="1028" y2="681"/>
     null
     <line id="edge-b135f975a54a0163f3e7dde338ef4c04c0d200c6-e452fbecfb56abfe12f3fee5bc52f638698cc223" class="exit" x1="1028" y1="681" x2="1028" y2="681"/>
@@ -2990,16 +2990,16 @@
     <circle id="room-da8b87876fa975b7d51200cf6fa2875b7e29d9f9" class="room outdoor" data-label="Phoenix Avenue" cx="664" cy="552" r="4"/>
     <circle id="room-d700a1e0bacd973db34b133bd8d7cd8a164ee3da" class="room outdoor" data-label="Phoenix Avenue" cx="664" cy="566" r="4"/>
     <rect id="room-a1556db6485cbf87cc7491b6ab66c9c7a515e32f" class="room indoor room-access" data-label="small light shop" x="671" y="562" width="8" height="8" rx="2"/><text class="room-type-label" x="675" y="566" text-anchor="middle" dominant-baseline="central">X</text>
-    <circle id="room-d3e4590f4fbb4c56fc49c9582437a730fd256ebf" class="room outdoor" data-label="southern end of Phoenix Park" cx="636" cy="594" r="4"/>
-    <circle id="room-66d68b7d738966dee748aebde9914d2d2386642c" class="room outdoor" data-label="path through Phoenix Park" cx="650" cy="580" r="4"/>
-    <circle id="room-c056c35cc718a7a020e150f06ae80fd1cce754bc" class="room outdoor" data-label="middle of Phoenix Park" cx="650" cy="566" r="4"/>
+    <circle id="room-d3e4590f4fbb4c56fc49c9582437a730fd256ebf" class="room outdoor green" data-label="southern end of Phoenix Park" cx="636" cy="594" r="4"/>
+    <circle id="room-66d68b7d738966dee748aebde9914d2d2386642c" class="room outdoor green" data-label="path through Phoenix Park" cx="650" cy="580" r="4"/>
+    <circle id="room-c056c35cc718a7a020e150f06ae80fd1cce754bc" class="room outdoor green" data-label="middle of Phoenix Park" cx="650" cy="566" r="4"/>
     <rect id="room-94df1c6c3c634816ddce54bbe2980b136438ae33" class="room indoor" data-label="shrine in Phoenix Park" x="632" y="562" width="8" height="8" rx="2"/>
-    <circle id="room-919b10dd011d9a4b66098ea39617a5a8d79a5fd3" class="room outdoor" data-label="middle of Phoenix Park" cx="622" cy="566" r="4"/>
+    <circle id="room-919b10dd011d9a4b66098ea39617a5a8d79a5fd3" class="room outdoor green" data-label="middle of Phoenix Park" cx="622" cy="566" r="4"/>
     <circle id="room-c6d8b78f1b2fba951dc7b764a065d3647249d8c8" class="room outdoor" data-label="Phoenix Avenue" cx="608" cy="566" r="4"/>
-    <circle id="room-acf2bc687a35ee3109a9834052e814d26250a433" class="room outdoor" data-label="path through Phoenix Park" cx="622" cy="580" r="4"/>
-    <circle id="room-778bc87c29acebb76554b63a3862739696ee4bc7" class="room outdoor" data-label="path through Phoenix Park" cx="622" cy="552" r="4"/>
-    <circle id="room-2b828c1c2d1f9ba6315bb1374a7463337d9941bd" class="room outdoor" data-label="main entrance to Phoenix Park" cx="636" cy="538" r="4"/>
-    <circle id="room-7a56ffb965f763929931d0b12a87457795057590" class="room outdoor" data-label="bridge over a small stream in Phoenix Park" cx="650" cy="552" r="4"/>
+    <circle id="room-acf2bc687a35ee3109a9834052e814d26250a433" class="room outdoor green" data-label="path through Phoenix Park" cx="622" cy="580" r="4"/>
+    <circle id="room-778bc87c29acebb76554b63a3862739696ee4bc7" class="room outdoor green" data-label="path through Phoenix Park" cx="622" cy="552" r="4"/>
+    <circle id="room-2b828c1c2d1f9ba6315bb1374a7463337d9941bd" class="room outdoor green" data-label="main entrance to Phoenix Park" cx="636" cy="538" r="4"/>
+    <circle id="room-7a56ffb965f763929931d0b12a87457795057590" class="room outdoor green" data-label="bridge over a small stream in Phoenix Park" cx="650" cy="552" r="4"/>
     <circle id="room-0f0a5cc0a8ed301e78fb0130983e439a292796f0" class="room outdoor" data-label="Phoenix Avenue" cx="608" cy="594" r="4"/>
     <rect id="room-5622cbd2b565939a43199643dc1c14fb9fe11990" class="room indoor" data-label="foyer" x="593" y="590" width="8" height="8" rx="2"/>
     <circle id="room-9c169bbf0df7a7495db3f1a0b3984109f176a46b" class="room outdoor" data-label="Phoenix Avenue" cx="608" cy="580" r="4"/>
@@ -3133,55 +3133,55 @@
     <circle id="room-cfdd28badbc41630aec4e9a573bfc3d705fcfffe" class="room outdoor" data-label="Kamazawa Drive just east of Onetwolong Avenue" cx="146" cy="650" r="4"/>
     <circle id="room-d9783f13f3421a07bc664ebbc6e91415f9b4a7c1" class="room outdoor" data-label="Kamazawa Drive near the entrance to the Hong Pagoda Gardens" cx="160" cy="650" r="4"/>
     <circle id="room-23ed5a21833158925c2bdd7e750a58ce18ec7074" class="room outdoor" data-label="Kamazawa Drive at the entrance to the Hong Pagoda Gardens" cx="174" cy="650" r="4"/>
-    <circle id="room-c96e66c1d5d500bb1c5fb837c2c9f6d6ebbbed5a" class="room outdoor" data-label="entrance to the Hong Pagoda Gardens" cx="188" cy="636" r="4"/>
-    <circle id="room-892a1dbd1a232c9f9e579f17ec860738b9e9acaa" class="room outdoor" data-label="entrance to the Hong Pagoda Gardens" cx="202" cy="622" r="4"/>
-    <circle id="room-678dc83ac09791b9e025afbf57f948667dcd08cf" class="room outdoor" data-label="a twisting path inside the Hong Pagoda Gardens" cx="188" cy="622" r="4"/>
-    <circle id="room-ae560a8258a17bffce9e6a677ff79c4fcbfcd510" class="room outdoor" data-label="fork along a twisting path inside the Hong Pagoda Gardens" cx="174" cy="622" r="4"/>
-    <circle id="room-04e14e3de0a663814c015df6831e774e88e12844" class="room outdoor" data-label="dead end near the entrance of Hong Pagoda Gardens" cx="174" cy="636" r="4"/>
-    <circle id="room-05fd91b43d04efd7f234512d9f15780178677bec" class="room outdoor" data-label="fork along a twisting path inside the Hong Pagoda Gardens" cx="160" cy="636" r="4"/>
-    <circle id="room-6f2657c7f591f86b91b8002c0c90a3356aba848a" class="room outdoor" data-label="near a fountain in the Hong Pagoda Gardens" cx="160" cy="622" r="4"/>
-    <circle id="room-1e7cf6bc27ce0ced7ecaa746eae77bfb3bb0d5ed" class="room outdoor" data-label="junction of three paths inside the Hong Pagoda Gardens" cx="146" cy="636" r="4"/>
-    <circle id="room-e1e2918738cd72e8c06020ea269a98cc1754a92a" class="room outdoor" data-label="just north of the southwestern courtyard of the Hong Pagoda Gardens" cx="132" cy="622" r="4"/>
-    <circle id="room-423199a96f7259d42868eefac1c4c38720765678" class="room outdoor" data-label="small courtyard in the southwestern corner of the Hong Pagoda Gardens" cx="132" cy="636" r="4"/>
-    <circle id="room-e889b3f48431866728352e412c2aa7d3f39f321c" class="room outdoor" data-label="path along the western wall of the Pagoda Gardens" cx="132" cy="608" r="4"/>
-    <circle id="room-d7d484b9c9e30e39d4018f16895f6d9488f6c888" class="room outdoor" data-label="the southern bank of a pond in the Hong Pagoda Gardens" cx="146" cy="622" r="4"/>
-    <circle id="room-f566e08e57622717cae110a066d5961ebd808c13" class="room outdoor" data-label="stone bridge over a large pond in the Hong Pagoda Gardens" cx="146" cy="608" r="4"/>
-    <circle id="room-e35a1494f9363ea8e88e0aac4610d6afe283790e" class="room outdoor" data-label="northern bank of a small pond in the Pagoda Gardens" cx="146" cy="594" r="4"/>
-    <circle id="room-f70c915ba622d7576a4c886de173484f46dc45cc" class="room outdoor" data-label="northwest corner of the Pagoda Gardens" cx="132" cy="580" r="4"/>
-    <circle id="room-cba6ac437c82f7e0bcbc35e24f771ade2ee4f3ae" class="room outdoor" data-label="just southwest of the northwestern corner of the Hong Pagoda Gardens" cx="132" cy="594" r="4"/>
-    <circle id="room-8572b84cab93e3261a0f4d34bebd094cfc619025" class="room outdoor" data-label="just east of the northwest corner of the Pagoda Gardens" cx="146" cy="580" r="4"/>
-    <circle id="room-b53ec200720c99ffec0c7d7c1ba1d02f5326a08c" class="room outdoor" data-label="just east of the northwest corner of the Pagoda Gardens" cx="160" cy="594" r="4"/>
-    <circle id="room-dcbeaa4e7268576b1e69c1b98ad18913fda6f629" class="room outdoor" data-label="dead end in the Hong Gardens" cx="160" cy="580" r="4"/>
-    <circle id="room-583d98d4f3d8fe6890526eed35b2aaa05805e31d" class="room outdoor" data-label="just east of the northwest corner of the Pagoda Gardens" cx="160" cy="608" r="4"/>
-    <circle id="room-9ccbd4d0c37376097471fea67d876a6ae1fd3201" class="room outdoor" data-label="just east of the northwest corner of the Pagoda Gardens" cx="174" cy="608" r="4"/>
-    <circle id="room-7501a143a315af64c9fc247660bda720dc65d779" class="room outdoor" data-label="middle of the Hong Pagoda Gardens" cx="188" cy="608" r="4"/>
-    <circle id="room-f6c91dd4c146e69df752943319b46c360da784fe" class="room outdoor" data-label="middle of the Hong Pagoda Gardens" cx="174" cy="594" r="4"/>
-    <circle id="room-dc50e8fc6fe90ba381a302016a327fe1a13b80cc" class="room outdoor" data-label="middle of the Hong Pagoda Gardens" cx="188" cy="580" r="4"/>
-    <circle id="room-7ae0a1cb4fa0985b4fab71cc1e342da64c76affd" class="room outdoor" data-label="middle of the Hong Pagoda Gardens" cx="188" cy="594" r="4"/>
-    <circle id="room-b4b3a7e855d369c88428fb6829061ddf269b3b7d" class="room outdoor" data-label="stone-flagged path near the northern end of the Hong Pagoda Gardens" cx="202" cy="580" r="4"/>
-    <circle id="room-907354d6f02044944586832f9a03815bf4a98bd3" class="room outdoor" data-label="dead end in the Hong Gardens" cx="202" cy="594" r="4"/>
-    <circle id="room-d73aaddafe795d33d9e04fce3d62a3dad5cbb05e" class="room outdoor" data-label="western end of the Hong family mausoleum" cx="216" cy="580" r="4"/>
-    <circle id="room-e7401c2b003eb435e897512eb2fd59d0ff0e58a0" class="room outdoor" data-label="eastern end of a small graveyard in the Hong Gardens" cx="230" cy="580" r="4"/>
-    <circle id="room-94e0ba93a1d6b4dc76c63bc3198f42f214a7d839" class="room outdoor" data-label="stone-flagged path near the northern end of the Hong Pagoda Gardens" cx="244" cy="580" r="4"/>
-    <circle id="room-b4366924d06bf9f4ec7904a613acd2ee07602bd2" class="room outdoor" data-label="stone-flagged path near the northeast corner of the Hong Pagoda Gardens" cx="244" cy="594" r="4"/>
-    <rect id="room-1d5f837bc43d9aa8065b5bb5747d9fac2968837e" class="room indoor" data-label="glass greenhouse in the northeast corner of the gardens" x="254" y="576" width="8" height="8" rx="2"/>
-    <rect id="room-cf6c0fefbba4362d40939e2058487a66548c49e8" class="room indoor" data-label="triangular glass greenhouse in the Hong Pagoda Gardens" x="268" y="590" width="8" height="8" rx="2"/>
-    <rect id="room-0a9af90c80ada672ff5ba4e4e07e5644ff9e5654" class="room indoor" data-label="glass greenhouse in the northeast corner of the gardens" x="268" y="576" width="8" height="8" rx="2"/>
-    <circle id="room-295c67c409f98394d5afe0080913f700c79288e6" class="room outdoor" data-label="path in the Pagoda Gardens just west of a huge glass greenhouse" cx="258" cy="594" r="4"/>
-    <circle id="room-86a93fb4ae9dd523b212886495bb47571649022a" class="room outdoor" data-label="path in the Pagoda Gardens just west of a huge glass greenhouse" cx="258" cy="608" r="4"/>
-    <circle id="room-8a384344dc7c550bb33d12985313c78b3de008b7" class="room outdoor" data-label="dead end in the Hong Gardens" cx="244" cy="608" r="4"/>
-    <circle id="room-3a335f6b2ffed725fc1e718f511ec2a13c71fea9" class="room outdoor" data-label="path in the Pagoda Gardens just west of a huge glass greenhouse" cx="272" cy="608" r="4"/>
-    <circle id="room-b6276bc6298ccbfc3af6ebe3b50e3d0d223f58b2" class="room outdoor" data-label="east side of the Hong Gardens" cx="272" cy="622" r="4"/>
-    <circle id="room-9a572ee99a913c107f17c5980245cbb9b43d968d" class="room outdoor" data-label="southeast side of the Hong Gardens" cx="272" cy="636" r="4"/>
-    <circle id="room-5736ab5c56f621b6d111e58750a74ac5a5b5f618" class="room outdoor" data-label="deep in the Hong Gardens" cx="258" cy="622" r="4"/>
-    <circle id="room-abf1f166aae5f96c20a211fed35e091ff8b4cf91" class="room outdoor" data-label="southeast side of the Hong Gardens" cx="258" cy="636" r="4"/>
-    <circle id="room-5c1944e4d14e9f08681b223d4255d5ceac96873e" class="room outdoor" data-label="near a waterfall in the Hong Gardens" cx="244" cy="636" r="4"/>
-    <circle id="room-9f0cd13d770b9ca99df6b5568908743dfcab8b01" class="room outdoor" data-label="near a waterfall in the Hong Gardens" cx="244" cy="622" r="4"/>
-    <circle id="room-bc8a74e1b0353ac9e4c29b5b7344fa337bc3895e" class="room outdoor" data-label="south end of the Hong Gardens" cx="230" cy="636" r="4"/>
-    <circle id="room-9fce78c4ffc517e6ef3abff329ae0f1c3d40cdf0" class="room outdoor" data-label="south end of the Hong Gardens" cx="230" cy="622" r="4"/>
-    <circle id="room-232a5dbe36f22630098e11216f3c3e6e1e05f3a5" class="room outdoor" data-label="southern end of the Hong Gardens" cx="216" cy="636" r="4"/>
-    <circle id="room-60e6ca2325172b170e8e2990ca21144138be09a5" class="room outdoor" data-label="near a large pond in the Hong Gardens" cx="202" cy="636" r="4"/>
-    <circle id="room-c11e6e47ab828c258d5b9d3d2daa6bbfdd4e268c" class="room outdoor" data-label="on a large stone in a pond" cx="216" cy="622" r="4"/>
+    <circle id="room-c96e66c1d5d500bb1c5fb837c2c9f6d6ebbbed5a" class="room outdoor green" data-label="entrance to the Hong Pagoda Gardens" cx="188" cy="636" r="4"/>
+    <circle id="room-892a1dbd1a232c9f9e579f17ec860738b9e9acaa" class="room outdoor green" data-label="entrance to the Hong Pagoda Gardens" cx="202" cy="622" r="4"/>
+    <circle id="room-678dc83ac09791b9e025afbf57f948667dcd08cf" class="room outdoor green" data-label="a twisting path inside the Hong Pagoda Gardens" cx="188" cy="622" r="4"/>
+    <circle id="room-ae560a8258a17bffce9e6a677ff79c4fcbfcd510" class="room outdoor green" data-label="fork along a twisting path inside the Hong Pagoda Gardens" cx="174" cy="622" r="4"/>
+    <circle id="room-04e14e3de0a663814c015df6831e774e88e12844" class="room outdoor green" data-label="dead end near the entrance of Hong Pagoda Gardens" cx="174" cy="636" r="4"/>
+    <circle id="room-05fd91b43d04efd7f234512d9f15780178677bec" class="room outdoor green" data-label="fork along a twisting path inside the Hong Pagoda Gardens" cx="160" cy="636" r="4"/>
+    <circle id="room-6f2657c7f591f86b91b8002c0c90a3356aba848a" class="room outdoor green" data-label="near a fountain in the Hong Pagoda Gardens" cx="160" cy="622" r="4"/>
+    <circle id="room-1e7cf6bc27ce0ced7ecaa746eae77bfb3bb0d5ed" class="room outdoor green" data-label="junction of three paths inside the Hong Pagoda Gardens" cx="146" cy="636" r="4"/>
+    <circle id="room-e1e2918738cd72e8c06020ea269a98cc1754a92a" class="room outdoor green" data-label="just north of the southwestern courtyard of the Hong Pagoda Gardens" cx="132" cy="622" r="4"/>
+    <circle id="room-423199a96f7259d42868eefac1c4c38720765678" class="room outdoor green" data-label="small courtyard in the southwestern corner of the Hong Pagoda Gardens" cx="132" cy="636" r="4"/>
+    <circle id="room-e889b3f48431866728352e412c2aa7d3f39f321c" class="room outdoor green" data-label="path along the western wall of the Pagoda Gardens" cx="132" cy="608" r="4"/>
+    <circle id="room-d7d484b9c9e30e39d4018f16895f6d9488f6c888" class="room outdoor green" data-label="the southern bank of a pond in the Hong Pagoda Gardens" cx="146" cy="622" r="4"/>
+    <circle id="room-f566e08e57622717cae110a066d5961ebd808c13" class="room outdoor green" data-label="stone bridge over a large pond in the Hong Pagoda Gardens" cx="146" cy="608" r="4"/>
+    <circle id="room-e35a1494f9363ea8e88e0aac4610d6afe283790e" class="room outdoor green" data-label="northern bank of a small pond in the Pagoda Gardens" cx="146" cy="594" r="4"/>
+    <circle id="room-f70c915ba622d7576a4c886de173484f46dc45cc" class="room outdoor green" data-label="northwest corner of the Pagoda Gardens" cx="132" cy="580" r="4"/>
+    <circle id="room-cba6ac437c82f7e0bcbc35e24f771ade2ee4f3ae" class="room outdoor green" data-label="just southwest of the northwestern corner of the Hong Pagoda Gardens" cx="132" cy="594" r="4"/>
+    <circle id="room-8572b84cab93e3261a0f4d34bebd094cfc619025" class="room outdoor green" data-label="just east of the northwest corner of the Pagoda Gardens" cx="146" cy="580" r="4"/>
+    <circle id="room-b53ec200720c99ffec0c7d7c1ba1d02f5326a08c" class="room outdoor green" data-label="just east of the northwest corner of the Pagoda Gardens" cx="160" cy="594" r="4"/>
+    <circle id="room-dcbeaa4e7268576b1e69c1b98ad18913fda6f629" class="room outdoor green" data-label="dead end in the Hong Gardens" cx="160" cy="580" r="4"/>
+    <circle id="room-583d98d4f3d8fe6890526eed35b2aaa05805e31d" class="room outdoor green" data-label="just east of the northwest corner of the Pagoda Gardens" cx="160" cy="608" r="4"/>
+    <circle id="room-9ccbd4d0c37376097471fea67d876a6ae1fd3201" class="room outdoor green" data-label="just east of the northwest corner of the Pagoda Gardens" cx="174" cy="608" r="4"/>
+    <circle id="room-7501a143a315af64c9fc247660bda720dc65d779" class="room outdoor green" data-label="middle of the Hong Pagoda Gardens" cx="188" cy="608" r="4"/>
+    <circle id="room-f6c91dd4c146e69df752943319b46c360da784fe" class="room outdoor green" data-label="middle of the Hong Pagoda Gardens" cx="174" cy="594" r="4"/>
+    <circle id="room-dc50e8fc6fe90ba381a302016a327fe1a13b80cc" class="room outdoor green" data-label="middle of the Hong Pagoda Gardens" cx="188" cy="580" r="4"/>
+    <circle id="room-7ae0a1cb4fa0985b4fab71cc1e342da64c76affd" class="room outdoor green" data-label="middle of the Hong Pagoda Gardens" cx="188" cy="594" r="4"/>
+    <circle id="room-b4b3a7e855d369c88428fb6829061ddf269b3b7d" class="room outdoor green" data-label="stone-flagged path near the northern end of the Hong Pagoda Gardens" cx="202" cy="580" r="4"/>
+    <circle id="room-907354d6f02044944586832f9a03815bf4a98bd3" class="room outdoor green" data-label="dead end in the Hong Gardens" cx="202" cy="594" r="4"/>
+    <circle id="room-d73aaddafe795d33d9e04fce3d62a3dad5cbb05e" class="room outdoor green" data-label="western end of the Hong family mausoleum" cx="216" cy="580" r="4"/>
+    <circle id="room-e7401c2b003eb435e897512eb2fd59d0ff0e58a0" class="room outdoor green" data-label="eastern end of a small graveyard in the Hong Gardens" cx="230" cy="580" r="4"/>
+    <circle id="room-94e0ba93a1d6b4dc76c63bc3198f42f214a7d839" class="room outdoor green" data-label="stone-flagged path near the northern end of the Hong Pagoda Gardens" cx="244" cy="580" r="4"/>
+    <circle id="room-b4366924d06bf9f4ec7904a613acd2ee07602bd2" class="room outdoor green" data-label="stone-flagged path near the northeast corner of the Hong Pagoda Gardens" cx="244" cy="594" r="4"/>
+    <rect id="room-1d5f837bc43d9aa8065b5bb5747d9fac2968837e" class="room indoor green" data-label="glass greenhouse in the northeast corner of the gardens" x="254" y="576" width="8" height="8" rx="2"/>
+    <rect id="room-cf6c0fefbba4362d40939e2058487a66548c49e8" class="room indoor green" data-label="triangular glass greenhouse in the Hong Pagoda Gardens" x="268" y="590" width="8" height="8" rx="2"/>
+    <rect id="room-0a9af90c80ada672ff5ba4e4e07e5644ff9e5654" class="room indoor green" data-label="glass greenhouse in the northeast corner of the gardens" x="268" y="576" width="8" height="8" rx="2"/>
+    <circle id="room-295c67c409f98394d5afe0080913f700c79288e6" class="room outdoor green" data-label="path in the Pagoda Gardens just west of a huge glass greenhouse" cx="258" cy="594" r="4"/>
+    <circle id="room-86a93fb4ae9dd523b212886495bb47571649022a" class="room outdoor green" data-label="path in the Pagoda Gardens just west of a huge glass greenhouse" cx="258" cy="608" r="4"/>
+    <circle id="room-8a384344dc7c550bb33d12985313c78b3de008b7" class="room outdoor green" data-label="dead end in the Hong Gardens" cx="244" cy="608" r="4"/>
+    <circle id="room-3a335f6b2ffed725fc1e718f511ec2a13c71fea9" class="room outdoor green" data-label="path in the Pagoda Gardens just west of a huge glass greenhouse" cx="272" cy="608" r="4"/>
+    <circle id="room-b6276bc6298ccbfc3af6ebe3b50e3d0d223f58b2" class="room outdoor green" data-label="east side of the Hong Gardens" cx="272" cy="622" r="4"/>
+    <circle id="room-9a572ee99a913c107f17c5980245cbb9b43d968d" class="room outdoor green" data-label="southeast side of the Hong Gardens" cx="272" cy="636" r="4"/>
+    <circle id="room-5736ab5c56f621b6d111e58750a74ac5a5b5f618" class="room outdoor green" data-label="deep in the Hong Gardens" cx="258" cy="622" r="4"/>
+    <circle id="room-abf1f166aae5f96c20a211fed35e091ff8b4cf91" class="room outdoor green" data-label="southeast side of the Hong Gardens" cx="258" cy="636" r="4"/>
+    <circle id="room-5c1944e4d14e9f08681b223d4255d5ceac96873e" class="room outdoor green" data-label="near a waterfall in the Hong Gardens" cx="244" cy="636" r="4"/>
+    <circle id="room-9f0cd13d770b9ca99df6b5568908743dfcab8b01" class="room outdoor green" data-label="near a waterfall in the Hong Gardens" cx="244" cy="622" r="4"/>
+    <circle id="room-bc8a74e1b0353ac9e4c29b5b7344fa337bc3895e" class="room outdoor green" data-label="south end of the Hong Gardens" cx="230" cy="636" r="4"/>
+    <circle id="room-9fce78c4ffc517e6ef3abff329ae0f1c3d40cdf0" class="room outdoor green" data-label="south end of the Hong Gardens" cx="230" cy="622" r="4"/>
+    <circle id="room-232a5dbe36f22630098e11216f3c3e6e1e05f3a5" class="room outdoor green" data-label="southern end of the Hong Gardens" cx="216" cy="636" r="4"/>
+    <circle id="room-60e6ca2325172b170e8e2990ca21144138be09a5" class="room outdoor green" data-label="near a large pond in the Hong Gardens" cx="202" cy="636" r="4"/>
+    <circle id="room-c11e6e47ab828c258d5b9d3d2daa6bbfdd4e268c" class="room outdoor green" data-label="on a large stone in a pond" cx="216" cy="622" r="4"/>
     <circle id="room-24ef2f19df3cbab142f7eabafb112a9b4c84a103" class="room outdoor" data-label="east of a gap along Kamazawa Drive" cx="188" cy="650" r="4"/>
     <circle id="room-8f9195d737d8aedea7fc03ed223354d70d16f406" class="room outdoor" data-label="midway along Kamazawa Drive" cx="202" cy="650" r="4"/>
     <circle id="room-3c9a86f1374ec08e5e3a27f97c1c48ab7548343a" class="room outdoor" data-label="midway along Kamazawa Drive" cx="216" cy="650" r="4"/>
@@ -3197,21 +3197,21 @@
     <circle id="room-8603820517606f9726c179e2cefbd8216b3202ec" class="room outdoor" data-label="Origami Moon Way" cx="314" cy="594" r="4"/>
     <circle id="room-fc84e82e456ca2cec9fab9111cc83bd34b218942" class="room outdoor" data-label="intersection of Origami Moon Way and Munching Moon Road" cx="342" cy="594" r="4"/>
     <circle id="room-78e400e8f638c1e0b74fe3c00d1b26a906f18533" class="room outdoor" data-label="Origami Moon Way outside the entrance to Blue Moon Park" cx="356" cy="594" r="4"/>
-    <circle id="room-1cf32d2c3d988abca110f0638fd83ac3e2e89522" class="room outdoor" data-label="Blue Moon Park" cx="356" cy="580" r="4"/>
-    <circle id="room-730e80c3ffad1310eebc902ce6135b3bd7e48a91" class="room outdoor" data-label="Blue Moon Park" cx="342" cy="566" r="4"/>
-    <circle id="room-98ff03856536b79cc2d68a9a81657d971478eac2" class="room outdoor" data-label="Blue Moon Park" cx="342" cy="552" r="4"/>
-    <circle id="room-97c4ff985d73291366305834e86f411c6959d1ec" class="room outdoor" data-label="Blue Moon Park" cx="328" cy="566" r="4"/>
+    <circle id="room-1cf32d2c3d988abca110f0638fd83ac3e2e89522" class="room outdoor green" data-label="Blue Moon Park" cx="356" cy="580" r="4"/>
+    <circle id="room-730e80c3ffad1310eebc902ce6135b3bd7e48a91" class="room outdoor green" data-label="Blue Moon Park" cx="342" cy="566" r="4"/>
+    <circle id="room-98ff03856536b79cc2d68a9a81657d971478eac2" class="room outdoor green" data-label="Blue Moon Park" cx="342" cy="552" r="4"/>
+    <circle id="room-97c4ff985d73291366305834e86f411c6959d1ec" class="room outdoor green" data-label="Blue Moon Park" cx="328" cy="566" r="4"/>
     <rect id="room-0aef7ae56529d9282138d062a54a6b54070d1226" class="room indoor" data-label="foyer of a small theatre" x="324" y="551" width="8" height="8" rx="2"/>
     <rect id="room-e7802380c1576ec6f58821ffbc42a84021470ed5" class="room indoor" data-label="seating area in a small theatre" x="324" y="551" width="8" height="8" rx="2"/>
     <rect id="room-5a1e822ccd41043328e3c8cc9713803e6b7a13c3" class="room indoor" data-label="wings of a small theatre" x="324" y="551" width="8" height="8" rx="2"/>
     <rect id="room-4a19864ff9ca061978df44bcfa510cf5b78b6354" class="room indoor" data-label="onstage in a small theatre" x="324" y="551" width="8" height="8" rx="2"/>
-    <circle id="room-dbdc240dd48917c49e800cbe62a9a11eec67a0a6" class="room outdoor" data-label="Blue Moon Park" cx="328" cy="580" r="4"/>
-    <circle id="room-65fe5c823d85aedf512e39443f62afc3e2c6a52b" class="room outdoor" data-label="Blue Moon Park" cx="342" cy="580" r="4"/>
-    <circle id="room-f52e2c2c0969c882e6894e124ccd93fb3269b97d" class="room outdoor" data-label="Blue Moon Park" cx="370" cy="566" r="4"/>
-    <circle id="room-e1aaaaef3d4102a8a14353b0125055fbba27505c" class="room outdoor" data-label="Blue Moon Park" cx="384" cy="552" r="4"/>
-    <circle id="room-06474ac22ac45e73d10303e963ca1979e3ef2a94" class="room outdoor" data-label="Blue Moon Park" cx="384" cy="580" r="4"/>
-    <circle id="room-ddc7c94761e483f607464ad2995dc1ed6d2b9c8b" class="room outdoor" data-label="Blue Moon Park next to a shallow pond" cx="384" cy="566" r="4"/>
-    <circle id="room-be48d887128ac3a3a3a48391fbc3c43c3b1c06cb" class="room outdoor" data-label="Blue Moon Park" cx="370" cy="580" r="4"/>
+    <circle id="room-dbdc240dd48917c49e800cbe62a9a11eec67a0a6" class="room outdoor green" data-label="Blue Moon Park" cx="328" cy="580" r="4"/>
+    <circle id="room-65fe5c823d85aedf512e39443f62afc3e2c6a52b" class="room outdoor green" data-label="Blue Moon Park" cx="342" cy="580" r="4"/>
+    <circle id="room-f52e2c2c0969c882e6894e124ccd93fb3269b97d" class="room outdoor green" data-label="Blue Moon Park" cx="370" cy="566" r="4"/>
+    <circle id="room-e1aaaaef3d4102a8a14353b0125055fbba27505c" class="room outdoor green" data-label="Blue Moon Park" cx="384" cy="552" r="4"/>
+    <circle id="room-06474ac22ac45e73d10303e963ca1979e3ef2a94" class="room outdoor green" data-label="Blue Moon Park" cx="384" cy="580" r="4"/>
+    <circle id="room-ddc7c94761e483f607464ad2995dc1ed6d2b9c8b" class="room outdoor green" data-label="Blue Moon Park next to a shallow pond" cx="384" cy="566" r="4"/>
+    <circle id="room-be48d887128ac3a3a3a48391fbc3c43c3b1c06cb" class="room outdoor green" data-label="Blue Moon Park" cx="370" cy="580" r="4"/>
     <circle id="room-d01116749809e3aa9df787f0a3d85afad3022849" class="room outdoor" data-label="Origami Moon Way just south of Blue Moon Park" cx="370" cy="594" r="4"/>
     <circle id="room-931328d34c474d177e63e871f03397b4beef4bdf" class="room outdoor" data-label="Origami Moon Way near the southeastern corner of Blue Moon Park" cx="384" cy="594" r="4"/>
     <circle id="room-48887f05913104de34776cf038c31c4db89d63eb" class="room outdoor" data-label="standing on a bridge on Origami Moon Way" cx="398" cy="594" r="4"/>
@@ -4258,7 +4258,7 @@
     <rect id="room-2839a2d95c0ad269f455d8533ea7a9cc53977461" class="room indoor room-food" data-label="platform in the Pearl River" x="506" y="467" width="8" height="8" rx="2"/><text class="room-type-label" x="510" y="471" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-46393e5c872a774681b05295ee512aa8e0d0011a" class="room indoor" data-label="bedroom of a house" x="1164" y="503" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="1168,504 1165.5,509 1170.5,509"/>
     <circle id="room-909105df7ada0af1293972954172805c0d13ddd4" class="room outdoor" data-label="waters of a small beach" cx="1252" cy="435" r="4"/>
-    <circle id="room-b35059282ccd34ed400385712ef73ff3763cc811" class="room outdoor" data-label="enclosed area in the Hong Gardens" cx="174" cy="580" r="4"/>
+    <circle id="room-b35059282ccd34ed400385712ef73ff3763cc811" class="room outdoor green" data-label="enclosed area in the Hong Gardens" cx="174" cy="580" r="4"/>
     <rect id="room-424f442613d8e72c6708c50d19a451648d8b39d3" class="room indoor" data-label="inside the shed" x="359" y="471" width="8" height="8" rx="2"/>
     <rect id="room-3e6d111e125c50c437d5269b19be3903b01abbc4" class="room indoor" data-label="rusted ladder under the Street of One Thousand Water Buffalo" x="631" y="799" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="635,806 632.5,801 637.5,801"/>
     <rect id="room-41cc58a25d088b224f1c0472b05307cf9e0e3084" class="room indoor" data-label="dead end in a sewer tunnel" x="641" y="795" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="645,796 642.5,801 647.5,801"/>
