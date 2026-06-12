@@ -407,6 +407,34 @@ text, .map-label, .map-label-muted, .map-label-accent,
   </g>
   <g
      id="layer-exits">
+    <line id="edge-1d86a4f02e9d279dfd3c7d7309dcf887fd2fb2e6-efdcd9c60925712ca8c6feb24e23fb64f8b3857b" class="exit exit-green" x1="303" y1="393" x2="275" y2="393"/>
+    <line id="edge-777a4fdf2c28e4dcba87e86bb1a2328e023fe690-efdcd9c60925712ca8c6feb24e23fb64f8b3857b" class="exit exit-green" x1="275" y1="421" x2="275" y2="393"/>
+    <line id="edge-9eb72c5c14138ca2df7bf274a1bb9442b0405884-efdcd9c60925712ca8c6feb24e23fb64f8b3857b" class="exit exit-green" x1="303" y1="421" x2="275" y2="393"/>
+    <line id="edge-d13059580c4af9f874ed8d832d1b347cdf962855-efdcd9c60925712ca8c6feb24e23fb64f8b3857b" class="exit exit-green" x1="303" y1="365" x2="275" y2="393"/>
+    <line id="edge-1d86a4f02e9d279dfd3c7d7309dcf887fd2fb2e6-d13059580c4af9f874ed8d832d1b347cdf962855" class="exit exit-green" x1="303" y1="393" x2="303" y2="365"/>
+    <line id="edge-208402f505bb90f3034c92e326b3a5e1e7827e03-d13059580c4af9f874ed8d832d1b347cdf962855" class="exit exit-green" x1="331" y1="393" x2="303" y2="365"/>
+    <line id="edge-5e46d77389c7b0851532bc7aa69c8b025b2acab0-d13059580c4af9f874ed8d832d1b347cdf962855" class="exit exit-green" x1="331" y1="365" x2="303" y2="365"/>
+    <line id="edge-1d86a4f02e9d279dfd3c7d7309dcf887fd2fb2e6-5e46d77389c7b0851532bc7aa69c8b025b2acab0" class="exit exit-green" x1="303" y1="393" x2="331" y2="365"/>
+    <line id="edge-208402f505bb90f3034c92e326b3a5e1e7827e03-5e46d77389c7b0851532bc7aa69c8b025b2acab0" class="exit exit-green" x1="331" y1="393" x2="331" y2="365"/>
+    <line id="edge-2b14c564d03da179cea226f0e1cd2da98a00d7e2-5e46d77389c7b0851532bc7aa69c8b025b2acab0" class="exit exit-green" x1="359" y1="393" x2="331" y2="365"/>
+    <line id="edge-1d86a4f02e9d279dfd3c7d7309dcf887fd2fb2e6-208402f505bb90f3034c92e326b3a5e1e7827e03" class="exit exit-green" x1="303" y1="393" x2="331" y2="393"/>
+    <line id="edge-1d86a4f02e9d279dfd3c7d7309dcf887fd2fb2e6-777a4fdf2c28e4dcba87e86bb1a2328e023fe690" class="exit exit-green" x1="303" y1="393" x2="275" y2="421"/>
+    <line id="edge-1d86a4f02e9d279dfd3c7d7309dcf887fd2fb2e6-9eb72c5c14138ca2df7bf274a1bb9442b0405884" class="exit exit-green" x1="303" y1="393" x2="303" y2="421"/>
+    <line id="edge-10a6970dcaaeca18ccebcc0a0cf13101131a7e69-208402f505bb90f3034c92e326b3a5e1e7827e03" class="exit exit-green" x1="359" y1="421" x2="331" y2="393"/>
+    <line id="edge-208402f505bb90f3034c92e326b3a5e1e7827e03-2b14c564d03da179cea226f0e1cd2da98a00d7e2" class="exit exit-green" x1="331" y1="393" x2="359" y2="393"/>
+    <line id="edge-208402f505bb90f3034c92e326b3a5e1e7827e03-57693c2ce2f896958b64b9dc3fe04822a97812d8" class="exit exit-green" x1="331" y1="393" x2="331" y2="421"/>
+    <line id="edge-10a6970dcaaeca18ccebcc0a0cf13101131a7e69-2b14c564d03da179cea226f0e1cd2da98a00d7e2" class="exit exit-green" x1="359" y1="421" x2="359" y2="393"/>
+    <line id="edge-2b14c564d03da179cea226f0e1cd2da98a00d7e2-57693c2ce2f896958b64b9dc3fe04822a97812d8" class="exit exit-green" x1="359" y1="393" x2="331" y2="421"/>
+    <line id="edge-10a6970dcaaeca18ccebcc0a0cf13101131a7e69-57693c2ce2f896958b64b9dc3fe04822a97812d8" class="exit exit-green" x1="359" y1="421" x2="331" y2="421"/>
+    <line id="edge-10a6970dcaaeca18ccebcc0a0cf13101131a7e69-ee81512866d62d0b965fa9b32d3fe3e19c3f4a73" class="exit exit-green" x1="359" y1="421" x2="331" y2="449"/>
+    <line id="edge-416fc181321da1b4c85fafb490eeddf2d2cae350-57693c2ce2f896958b64b9dc3fe04822a97812d8" class="exit exit-green" x1="303" y1="449" x2="331" y2="421"/>
+    <line id="edge-57693c2ce2f896958b64b9dc3fe04822a97812d8-9eb72c5c14138ca2df7bf274a1bb9442b0405884" class="exit exit-green" x1="331" y1="421" x2="303" y2="421"/>
+    <line id="edge-57693c2ce2f896958b64b9dc3fe04822a97812d8-ee81512866d62d0b965fa9b32d3fe3e19c3f4a73" class="exit exit-green" x1="331" y1="421" x2="331" y2="449"/>
+    <line id="edge-416fc181321da1b4c85fafb490eeddf2d2cae350-ee81512866d62d0b965fa9b32d3fe3e19c3f4a73" class="exit exit-green" x1="303" y1="449" x2="331" y2="449"/>
+    <line id="edge-9eb72c5c14138ca2df7bf274a1bb9442b0405884-ee81512866d62d0b965fa9b32d3fe3e19c3f4a73" class="exit exit-green" x1="303" y1="421" x2="331" y2="449"/>
+    <line id="edge-416fc181321da1b4c85fafb490eeddf2d2cae350-777a4fdf2c28e4dcba87e86bb1a2328e023fe690" class="exit exit-green" x1="303" y1="449" x2="275" y2="421"/>
+    <line id="edge-416fc181321da1b4c85fafb490eeddf2d2cae350-9eb72c5c14138ca2df7bf274a1bb9442b0405884" class="exit exit-green" x1="303" y1="449" x2="303" y2="421"/>
+    <line id="edge-777a4fdf2c28e4dcba87e86bb1a2328e023fe690-9eb72c5c14138ca2df7bf274a1bb9442b0405884" class="exit exit-green" x1="275" y1="421" x2="303" y2="421"/>
     null
     <line id="edge-1d7ee12a909fb9271b722f31767c83043de23f49-c3fb3ef3ee59d1c56556fb61089ea00b2c44f971" class="exit" x1="612" y1="579" x2="584" y2="579"/>
     <line id="edge-1d7ee12a909fb9271b722f31767c83043de23f49-b0281adbb4d8eef876738a1eb206648a0ad8ecc0" class="exit" x1="612" y1="579" x2="640" y2="579"/>
@@ -597,38 +625,10 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <line id="edge-842c3c08ef9f0bbbbd661d9e3eaa696167b9bc9b-dd22349d375c645919476153deb263cbf5fa9661" class="exit" x1="275" y1="477" x2="247" y2="477"/>
     <line id="edge-c497d4b6679fb07e67805bb2b54a052a65fbc061-dd22349d375c645919476153deb263cbf5fa9661" class="exit" x1="247" y1="450" x2="247" y2="477"/>
     <line id="edge-c497d4b6679fb07e67805bb2b54a052a65fbc061-ef3e69ab2d67affe57d4bb1df9ff018bc0fb0675" class="exit" x1="247" y1="450" x2="275" y2="449"/>
-    <line id="edge-1d86a4f02e9d279dfd3c7d7309dcf887fd2fb2e6-efdcd9c60925712ca8c6feb24e23fb64f8b3857b" class="exit" x1="303" y1="393" x2="275" y2="393"/>
-    <line id="edge-777a4fdf2c28e4dcba87e86bb1a2328e023fe690-efdcd9c60925712ca8c6feb24e23fb64f8b3857b" class="exit" x1="275" y1="421" x2="275" y2="393"/>
-    <line id="edge-9eb72c5c14138ca2df7bf274a1bb9442b0405884-efdcd9c60925712ca8c6feb24e23fb64f8b3857b" class="exit" x1="303" y1="421" x2="275" y2="393"/>
-    <line id="edge-d13059580c4af9f874ed8d832d1b347cdf962855-efdcd9c60925712ca8c6feb24e23fb64f8b3857b" class="exit" x1="303" y1="365" x2="275" y2="393"/>
-    <line id="edge-1d86a4f02e9d279dfd3c7d7309dcf887fd2fb2e6-d13059580c4af9f874ed8d832d1b347cdf962855" class="exit" x1="303" y1="393" x2="303" y2="365"/>
-    <line id="edge-208402f505bb90f3034c92e326b3a5e1e7827e03-d13059580c4af9f874ed8d832d1b347cdf962855" class="exit" x1="331" y1="393" x2="303" y2="365"/>
-    <line id="edge-5e46d77389c7b0851532bc7aa69c8b025b2acab0-d13059580c4af9f874ed8d832d1b347cdf962855" class="exit" x1="331" y1="365" x2="303" y2="365"/>
     <line id="edge-0fbb5f6541f57d3858ceaa787c5e1d99f1f55d0c-5e46d77389c7b0851532bc7aa69c8b025b2acab0" class="exit" x1="331" y1="337" x2="331" y2="365"/>
     <line id="edge-17179d582dbd7219898eab776747b1b6f0e36dbb-5e46d77389c7b0851532bc7aa69c8b025b2acab0" class="exit" x1="359" y1="365" x2="331" y2="365"/>
-    <line id="edge-1d86a4f02e9d279dfd3c7d7309dcf887fd2fb2e6-5e46d77389c7b0851532bc7aa69c8b025b2acab0" class="exit" x1="303" y1="393" x2="331" y2="365"/>
-    <line id="edge-208402f505bb90f3034c92e326b3a5e1e7827e03-5e46d77389c7b0851532bc7aa69c8b025b2acab0" class="exit" x1="331" y1="393" x2="331" y2="365"/>
-    <line id="edge-2b14c564d03da179cea226f0e1cd2da98a00d7e2-5e46d77389c7b0851532bc7aa69c8b025b2acab0" class="exit" x1="359" y1="393" x2="331" y2="365"/>
-    <line id="edge-1d86a4f02e9d279dfd3c7d7309dcf887fd2fb2e6-208402f505bb90f3034c92e326b3a5e1e7827e03" class="exit" x1="303" y1="393" x2="331" y2="393"/>
-    <line id="edge-1d86a4f02e9d279dfd3c7d7309dcf887fd2fb2e6-777a4fdf2c28e4dcba87e86bb1a2328e023fe690" class="exit" x1="303" y1="393" x2="275" y2="421"/>
-    <line id="edge-1d86a4f02e9d279dfd3c7d7309dcf887fd2fb2e6-9eb72c5c14138ca2df7bf274a1bb9442b0405884" class="exit" x1="303" y1="393" x2="303" y2="421"/>
-    <line id="edge-10a6970dcaaeca18ccebcc0a0cf13101131a7e69-208402f505bb90f3034c92e326b3a5e1e7827e03" class="exit" x1="359" y1="421" x2="331" y2="393"/>
-    <line id="edge-208402f505bb90f3034c92e326b3a5e1e7827e03-2b14c564d03da179cea226f0e1cd2da98a00d7e2" class="exit" x1="331" y1="393" x2="359" y2="393"/>
-    <line id="edge-208402f505bb90f3034c92e326b3a5e1e7827e03-57693c2ce2f896958b64b9dc3fe04822a97812d8" class="exit" x1="331" y1="393" x2="331" y2="421"/>
-    <line id="edge-10a6970dcaaeca18ccebcc0a0cf13101131a7e69-2b14c564d03da179cea226f0e1cd2da98a00d7e2" class="exit" x1="359" y1="421" x2="359" y2="393"/>
     <line id="edge-17179d582dbd7219898eab776747b1b6f0e36dbb-2b14c564d03da179cea226f0e1cd2da98a00d7e2" class="exit" x1="359" y1="365" x2="359" y2="393"/>
-    <line id="edge-2b14c564d03da179cea226f0e1cd2da98a00d7e2-57693c2ce2f896958b64b9dc3fe04822a97812d8" class="exit" x1="359" y1="393" x2="331" y2="421"/>
-    <line id="edge-10a6970dcaaeca18ccebcc0a0cf13101131a7e69-57693c2ce2f896958b64b9dc3fe04822a97812d8" class="exit" x1="359" y1="421" x2="331" y2="421"/>
-    <line id="edge-10a6970dcaaeca18ccebcc0a0cf13101131a7e69-ee81512866d62d0b965fa9b32d3fe3e19c3f4a73" class="exit" x1="359" y1="421" x2="331" y2="449"/>
-    <line id="edge-416fc181321da1b4c85fafb490eeddf2d2cae350-57693c2ce2f896958b64b9dc3fe04822a97812d8" class="exit" x1="303" y1="449" x2="331" y2="421"/>
-    <line id="edge-57693c2ce2f896958b64b9dc3fe04822a97812d8-9eb72c5c14138ca2df7bf274a1bb9442b0405884" class="exit" x1="331" y1="421" x2="303" y2="421"/>
-    <line id="edge-57693c2ce2f896958b64b9dc3fe04822a97812d8-ee81512866d62d0b965fa9b32d3fe3e19c3f4a73" class="exit" x1="331" y1="421" x2="331" y2="449"/>
-    <line id="edge-416fc181321da1b4c85fafb490eeddf2d2cae350-ee81512866d62d0b965fa9b32d3fe3e19c3f4a73" class="exit" x1="303" y1="449" x2="331" y2="449"/>
-    <line id="edge-9eb72c5c14138ca2df7bf274a1bb9442b0405884-ee81512866d62d0b965fa9b32d3fe3e19c3f4a73" class="exit" x1="303" y1="421" x2="331" y2="449"/>
     <line id="edge-ee81512866d62d0b965fa9b32d3fe3e19c3f4a73-f74ddcb3068167dd1f176cf3e17ac1495910816b" class="exit" x1="331" y1="449" x2="331" y2="477"/>
-    <line id="edge-416fc181321da1b4c85fafb490eeddf2d2cae350-777a4fdf2c28e4dcba87e86bb1a2328e023fe690" class="exit" x1="303" y1="449" x2="275" y2="421"/>
-    <line id="edge-416fc181321da1b4c85fafb490eeddf2d2cae350-9eb72c5c14138ca2df7bf274a1bb9442b0405884" class="exit" x1="303" y1="449" x2="303" y2="421"/>
-    <line id="edge-777a4fdf2c28e4dcba87e86bb1a2328e023fe690-9eb72c5c14138ca2df7bf274a1bb9442b0405884" class="exit" x1="275" y1="421" x2="303" y2="421"/>
   </g>
   <g
      id="layer-rooms">
@@ -808,18 +808,18 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-2d7f00805acf4e4d9efd98b8b97387c1d7a8007e" class="room indoor room-food" data-label="Lounge House Cafe" x="1043" y="97" width="8" height="8" rx="2"/><text class="room-type-label" x="1047" y="101" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-176ca1ba076c2d3cc5c3038fc5846370f5e0f665" class="room outdoor" data-label="posh outdoor bar" cx="1047" cy="101" r="4"/>
     <rect id="room-a9ca57d39b304fe388a9674ca3eaaf53089c87c9" class="room indoor" data-label="initiation classroom" x="853" y="139" width="8" height="8" rx="2"/>
-    <circle id="room-efdcd9c60925712ca8c6feb24e23fb64f8b3857b" class="room outdoor" data-label="octangle" cx="275" cy="393" r="4"/>
-    <circle id="room-d13059580c4af9f874ed8d832d1b347cdf962855" class="room outdoor" data-label="octangle" cx="303" cy="365" r="4"/>
-    <circle id="room-5e46d77389c7b0851532bc7aa69c8b025b2acab0" class="room outdoor" data-label="octangle" cx="331" cy="365" r="4"/>
-    <circle id="room-1d86a4f02e9d279dfd3c7d7309dcf887fd2fb2e6" class="room outdoor" data-label="octangle" cx="303" cy="393" r="4"/>
-    <circle id="room-208402f505bb90f3034c92e326b3a5e1e7827e03" class="room outdoor" data-label="octangle" cx="331" cy="393" r="4"/>
-    <circle id="room-2b14c564d03da179cea226f0e1cd2da98a00d7e2" class="room outdoor" data-label="octangle" cx="359" cy="393" r="4"/>
-    <circle id="room-10a6970dcaaeca18ccebcc0a0cf13101131a7e69" class="room outdoor" data-label="octangle" cx="359" cy="421" r="4"/>
-    <circle id="room-57693c2ce2f896958b64b9dc3fe04822a97812d8" class="room outdoor" data-label="octangle" cx="331" cy="421" r="4"/>
-    <circle id="room-ee81512866d62d0b965fa9b32d3fe3e19c3f4a73" class="room outdoor" data-label="octangle" cx="331" cy="449" r="4"/>
-    <circle id="room-416fc181321da1b4c85fafb490eeddf2d2cae350" class="room outdoor" data-label="octangle" cx="303" cy="449" r="4"/>
-    <circle id="room-9eb72c5c14138ca2df7bf274a1bb9442b0405884" class="room outdoor" data-label="octangle" cx="303" cy="421" r="4"/>
-    <circle id="room-777a4fdf2c28e4dcba87e86bb1a2328e023fe690" class="room outdoor" data-label="octangle" cx="275" cy="421" r="4"/>
+    <circle id="room-efdcd9c60925712ca8c6feb24e23fb64f8b3857b" class="room outdoor green" data-label="octangle" cx="275" cy="393" r="4"/>
+    <circle id="room-d13059580c4af9f874ed8d832d1b347cdf962855" class="room outdoor green" data-label="octangle" cx="303" cy="365" r="4"/>
+    <circle id="room-5e46d77389c7b0851532bc7aa69c8b025b2acab0" class="room outdoor green" data-label="octangle" cx="331" cy="365" r="4"/>
+    <circle id="room-1d86a4f02e9d279dfd3c7d7309dcf887fd2fb2e6" class="room outdoor green" data-label="octangle" cx="303" cy="393" r="4"/>
+    <circle id="room-208402f505bb90f3034c92e326b3a5e1e7827e03" class="room outdoor green" data-label="octangle" cx="331" cy="393" r="4"/>
+    <circle id="room-2b14c564d03da179cea226f0e1cd2da98a00d7e2" class="room outdoor green" data-label="octangle" cx="359" cy="393" r="4"/>
+    <circle id="room-10a6970dcaaeca18ccebcc0a0cf13101131a7e69" class="room outdoor green" data-label="octangle" cx="359" cy="421" r="4"/>
+    <circle id="room-57693c2ce2f896958b64b9dc3fe04822a97812d8" class="room outdoor green" data-label="octangle" cx="331" cy="421" r="4"/>
+    <circle id="room-ee81512866d62d0b965fa9b32d3fe3e19c3f4a73" class="room outdoor green" data-label="octangle" cx="331" cy="449" r="4"/>
+    <circle id="room-416fc181321da1b4c85fafb490eeddf2d2cae350" class="room outdoor green" data-label="octangle" cx="303" cy="449" r="4"/>
+    <circle id="room-9eb72c5c14138ca2df7bf274a1bb9442b0405884" class="room outdoor green" data-label="octangle" cx="303" cy="421" r="4"/>
+    <circle id="room-777a4fdf2c28e4dcba87e86bb1a2328e023fe690" class="room outdoor green" data-label="octangle" cx="275" cy="421" r="4"/>
     <circle id="room-0fbb5f6541f57d3858ceaa787c5e1d99f1f55d0c" class="room outdoor" data-label="Scholar&#x27;s Entry" cx="331" cy="337" r="4"/>
     <rect id="room-17179d582dbd7219898eab776747b1b6f0e36dbb" class="room indoor" data-label="Porters&#x27; lodge" x="355" y="361" width="8" height="8" rx="2"/>
     <rect id="room-f74ddcb3068167dd1f176cf3e17ac1495910816b" class="room indoor" data-label="deserted hallway choked with cobwebs" x="327" y="473" width="8" height="8" rx="2"/>
