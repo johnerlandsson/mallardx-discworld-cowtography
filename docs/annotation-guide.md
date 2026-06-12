@@ -52,6 +52,7 @@ Use the XML editor (Shift+Ctrl+X) to set the `class` attribute on elements.
 | `map-accent` | Accent-coloured element |
 | `exit` | Room connection line |
 | `exit-offmap` | Dashed line to a cross-map exit label |
+| `exit-journey` | Inter-town journey path (muted colour, same weight as exit) |
 
 ### UU Library
 
