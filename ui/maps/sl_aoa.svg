@@ -6,6 +6,14 @@
   <g id="layer-artwork"><!-- artwork --></g>
 
   <g id="layer-exits">
+    <line id="edge-776fb02306d6c603b49943cf6e13313f897c1f8a-78af4dbf51cb732d3cc9205c4a85004e24a8028f" class="exit exit-green" x1="47" y1="185" x2="19" y2="185"/>
+    <line id="edge-776fb02306d6c603b49943cf6e13313f897c1f8a-d9ce01056f6eb615108c89d4e1fe0a699d80bb8c" class="exit exit-green" x1="47" y1="185" x2="75" y2="185"/>
+    <line id="edge-119deeebd60c3dbef0fc8fca7291771be154467f-d9ce01056f6eb615108c89d4e1fe0a699d80bb8c" class="exit exit-green" x1="75" y1="213" x2="75" y2="185"/>
+    <line id="edge-119deeebd60c3dbef0fc8fca7291771be154467f-7aacf597eff89c9f84b33788cc6a154995a16ab7" class="exit exit-green" x1="75" y1="213" x2="75" y2="241"/>
+    <line id="edge-78af4dbf51cb732d3cc9205c4a85004e24a8028f-852de57fb75873893821373555a39bd202f55aa6" class="exit exit-green" x1="19" y1="185" x2="19" y2="213"/>
+    <line id="edge-852de57fb75873893821373555a39bd202f55aa6-cff86225cc9ea639c7a576735ac57ebfa15d18a7" class="exit exit-green" x1="19" y1="213" x2="19" y2="241"/>
+    <line id="edge-8c3733c176e3dbde537b1eb401e89246412fbe34-cff86225cc9ea639c7a576735ac57ebfa15d18a7" class="exit exit-green" x1="47" y1="241" x2="19" y2="241"/>
+    <line id="edge-7aacf597eff89c9f84b33788cc6a154995a16ab7-8c3733c176e3dbde537b1eb401e89246412fbe34" class="exit exit-green" x1="75" y1="241" x2="47" y2="241"/>
     <line id="edge-572f3c54b5dece1f8fd35b74eb87f99482004a7d-86b74a34d55943ff4139c94a7df029b3e51fb74e" class="exit" x1="47" y1="87" x2="47" y2="111"/>
     <line id="edge-40098c8bc07fb039e8633b9cd2d2850298b119a7-86b74a34d55943ff4139c94a7df029b3e51fb74e" class="exit" x1="47" y1="135" x2="47" y2="111"/>
     <line id="edge-4ae3ad5514a77b70c241bcb8dc00867795f02f44-86b74a34d55943ff4139c94a7df029b3e51fb74e" class="exit" x1="71" y1="111" x2="47" y2="111"/>
@@ -17,14 +25,6 @@
     <line id="edge-40098c8bc07fb039e8633b9cd2d2850298b119a7-a4916638726b48abc1fffe19bd1026f538662c07" class="exit" x1="47" y1="135" x2="47" y2="159"/>
     <line id="edge-4d9ac13d2ce254076d296b189dd3d3e73a824a61-a94bfd42dbfda19146f2aa4987d8168efdf5a5e0" class="exit" x1="23" y1="135" x2="23" y2="159"/>
     <line id="edge-776fb02306d6c603b49943cf6e13313f897c1f8a-a4916638726b48abc1fffe19bd1026f538662c07" class="exit" x1="47" y1="185" x2="47" y2="159"/>
-    <line id="edge-776fb02306d6c603b49943cf6e13313f897c1f8a-78af4dbf51cb732d3cc9205c4a85004e24a8028f" class="exit" x1="47" y1="185" x2="19" y2="185"/>
-    <line id="edge-776fb02306d6c603b49943cf6e13313f897c1f8a-d9ce01056f6eb615108c89d4e1fe0a699d80bb8c" class="exit" x1="47" y1="185" x2="75" y2="185"/>
-    <line id="edge-119deeebd60c3dbef0fc8fca7291771be154467f-d9ce01056f6eb615108c89d4e1fe0a699d80bb8c" class="exit" x1="75" y1="213" x2="75" y2="185"/>
-    <line id="edge-119deeebd60c3dbef0fc8fca7291771be154467f-7aacf597eff89c9f84b33788cc6a154995a16ab7" class="exit" x1="75" y1="213" x2="75" y2="241"/>
-    <line id="edge-78af4dbf51cb732d3cc9205c4a85004e24a8028f-852de57fb75873893821373555a39bd202f55aa6" class="exit" x1="19" y1="185" x2="19" y2="213"/>
-    <line id="edge-852de57fb75873893821373555a39bd202f55aa6-cff86225cc9ea639c7a576735ac57ebfa15d18a7" class="exit" x1="19" y1="213" x2="19" y2="241"/>
-    <line id="edge-8c3733c176e3dbde537b1eb401e89246412fbe34-cff86225cc9ea639c7a576735ac57ebfa15d18a7" class="exit" x1="47" y1="241" x2="19" y2="241"/>
-    <line id="edge-7aacf597eff89c9f84b33788cc6a154995a16ab7-8c3733c176e3dbde537b1eb401e89246412fbe34" class="exit" x1="75" y1="241" x2="47" y2="241"/>
     <line id="edge-0daf68f6440a37689d59116b20cec2a8d1a49437-90aa5c30d9cc48009be20d3e6753231b7c4b43d7" class="exit" x1="145" y1="159" x2="170" y2="135"/>
     <line id="edge-365404fb8d70c8138f728cd0d3226499f5b36e41-90aa5c30d9cc48009be20d3e6753231b7c4b43d7" class="exit" x1="170" y1="159" x2="170" y2="135"/>
     <line id="edge-8dab2c209a34472b254b5e4f70b87f67b7322eca-90aa5c30d9cc48009be20d3e6753231b7c4b43d7" class="exit" x1="170" y1="111" x2="170" y2="135"/>
@@ -54,14 +54,14 @@
     <rect id="room-4d9ac13d2ce254076d296b189dd3d3e73a824a61" class="room indoor room-shop" data-label="Cat and Fiddle Coffee Shop" x="19" y="131" width="8" height="8" rx="2"/><text class="room-type-label" x="23" y="135" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-a94bfd42dbfda19146f2aa4987d8168efdf5a5e0" class="room indoor room-food" data-label="Hammered Anvil Student Deli" x="19" y="155" width="8" height="8" rx="2"/><text class="room-type-label" x="23" y="159" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-a4916638726b48abc1fffe19bd1026f538662c07" class="room indoor" data-label="hall" x="43" y="155" width="8" height="8" rx="2"/>
-    <circle id="room-776fb02306d6c603b49943cf6e13313f897c1f8a" class="room outdoor room-shop" data-label="overgrown garden" cx="47" cy="185" r="4"/><text class="room-type-label" x="47" y="185" text-anchor="middle" dominant-baseline="central">S</text>
-    <circle id="room-d9ce01056f6eb615108c89d4e1fe0a699d80bb8c" class="room outdoor" data-label="overgrown garden" cx="75" cy="185" r="4"/>
-    <circle id="room-119deeebd60c3dbef0fc8fca7291771be154467f" class="room outdoor" data-label="overgrown garden" cx="75" cy="213" r="4"/>
-    <circle id="room-78af4dbf51cb732d3cc9205c4a85004e24a8028f" class="room outdoor room-shop" data-label="overgrown garden" cx="19" cy="185" r="4"/><text class="room-type-label" x="19" y="185" text-anchor="middle" dominant-baseline="central">S</text>
-    <circle id="room-852de57fb75873893821373555a39bd202f55aa6" class="room outdoor" data-label="overgrown garden" cx="19" cy="213" r="4"/>
-    <circle id="room-cff86225cc9ea639c7a576735ac57ebfa15d18a7" class="room outdoor" data-label="overgrown garden" cx="19" cy="241" r="4"/>
-    <circle id="room-8c3733c176e3dbde537b1eb401e89246412fbe34" class="room outdoor" data-label="overgrown garden" cx="47" cy="241" r="4"/>
-    <circle id="room-7aacf597eff89c9f84b33788cc6a154995a16ab7" class="room outdoor" data-label="overgrown garden" cx="75" cy="241" r="4"/>
+    <circle id="room-776fb02306d6c603b49943cf6e13313f897c1f8a" class="room outdoor room-shop green" data-label="overgrown garden" cx="47" cy="185" r="4"/><text class="room-type-label" x="47" y="185" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-d9ce01056f6eb615108c89d4e1fe0a699d80bb8c" class="room outdoor green" data-label="overgrown garden" cx="75" cy="185" r="4"/>
+    <circle id="room-119deeebd60c3dbef0fc8fca7291771be154467f" class="room outdoor green" data-label="overgrown garden" cx="75" cy="213" r="4"/>
+    <circle id="room-78af4dbf51cb732d3cc9205c4a85004e24a8028f" class="room outdoor room-shop green" data-label="overgrown garden" cx="19" cy="185" r="4"/><text class="room-type-label" x="19" y="185" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-852de57fb75873893821373555a39bd202f55aa6" class="room outdoor green" data-label="overgrown garden" cx="19" cy="213" r="4"/>
+    <circle id="room-cff86225cc9ea639c7a576735ac57ebfa15d18a7" class="room outdoor green" data-label="overgrown garden" cx="19" cy="241" r="4"/>
+    <circle id="room-8c3733c176e3dbde537b1eb401e89246412fbe34" class="room outdoor green" data-label="overgrown garden" cx="47" cy="241" r="4"/>
+    <circle id="room-7aacf597eff89c9f84b33788cc6a154995a16ab7" class="room outdoor green" data-label="overgrown garden" cx="75" cy="241" r="4"/>
     <rect id="room-90aa5c30d9cc48009be20d3e6753231b7c4b43d7" class="room indoor" data-label="hall" x="166" y="131" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="170,138 167.5,133 172.5,133"/>
     <rect id="room-8dab2c209a34472b254b5e4f70b87f67b7322eca" class="room indoor" data-label="hall" x="166" y="107" width="8" height="8" rx="2"/>
     <rect id="room-380d8af5e7776df4a720f367f4f5db359951535e" class="room indoor" data-label="landing" x="166" y="83" width="8" height="8" rx="2"/>
@@ -77,7 +77,7 @@
     <rect id="room-34b4fd6ffd16cfd2dd22fe1fca89e94a18dc7728" class="room indoor" data-label="Academy Library" x="289" y="83" width="8" height="8" rx="2"/>
     <rect id="room-f535897927e88d983b1b6aab422bf3c0ab7b862b" class="room indoor" data-label="small library" x="313" y="107" width="8" height="8" rx="2"/>
     <rect id="room-50d4e9a919df63f42d0d4565e4393a3386784628" class="room indoor room-access" data-label="Brimstone&#x27;s" x="314" y="131" width="8" height="8" rx="2"/><text class="room-type-label" x="318" y="135" text-anchor="middle" dominant-baseline="central">X</text>
-    <circle id="room-da25a14dfee057f9840ff64a65a9a4003482977e" class="room outdoor" data-label="secret garden" cx="47" cy="269" r="4"/>
+    <circle id="room-da25a14dfee057f9840ff64a65a9a4003482977e" class="room outdoor green" data-label="secret garden" cx="47" cy="269" r="4"/>
     <rect id="room-5a92994c4031b496b1754eab65cc6bb306936976" class="room indoor" data-label="tavern entrance" x="43" y="366" width="8" height="8" rx="2"/>
     <rect id="room-7dbff613a51411310139bc669950dbffd9f9393e" class="room indoor room-food" data-label="billiards room" x="68" y="342" width="8" height="8" rx="2"/><text class="room-type-label" x="72" y="346" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-b40500341df08abc0018419eb9e00f7be3089d98" class="room indoor room-food" data-label="smoking room" x="68" y="318" width="8" height="8" rx="2"/><text class="room-type-label" x="72" y="322" text-anchor="middle" dominant-baseline="central">F</text>
