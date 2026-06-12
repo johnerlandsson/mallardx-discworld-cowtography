@@ -6,6 +6,146 @@
   <g id="layer-artwork"><!-- artwork --></g>
 
   <g id="layer-exits">
+    <line id="edge-0444202d16b474d10f83a562bfaef98feb641bb2-066ae1b58fc230eb5750bb3c81a52c12ddc1ccce" class="exit exit-green" x1="635" y1="1095" x2="621" y2="1109"/>
+    <line id="edge-066ae1b58fc230eb5750bb3c81a52c12ddc1ccce-186cccf839f075f9e0bafa2223158201fb5f5fbc" class="exit exit-green" x1="621" y1="1109" x2="635" y2="1109"/>
+    <line id="edge-066ae1b58fc230eb5750bb3c81a52c12ddc1ccce-94af12894049c07d7698c9aa3d0bf10e581de8f5" class="exit exit-green" x1="621" y1="1109" x2="621" y2="1095"/>
+    <line id="edge-066ae1b58fc230eb5750bb3c81a52c12ddc1ccce-eff2d429242a3c9a6830d57c21d1a19b8b677ce0" class="exit exit-green" x1="621" y1="1109" x2="607" y2="1095"/>
+    <line id="edge-0444202d16b474d10f83a562bfaef98feb641bb2-186cccf839f075f9e0bafa2223158201fb5f5fbc" class="exit exit-green" x1="635" y1="1095" x2="635" y2="1109"/>
+    <line id="edge-186cccf839f075f9e0bafa2223158201fb5f5fbc-94af12894049c07d7698c9aa3d0bf10e581de8f5" class="exit exit-green" x1="635" y1="1109" x2="621" y2="1095"/>
+    <line id="edge-186cccf839f075f9e0bafa2223158201fb5f5fbc-b679c4ecfdddc547101fc16634493b3c9f4a490e" class="exit exit-green" x1="635" y1="1109" x2="649" y2="1109"/>
+    <line id="edge-186cccf839f075f9e0bafa2223158201fb5f5fbc-b7601e0ccb5467881f95831700de67cd8c915fc1" class="exit exit-green" x1="635" y1="1109" x2="649" y2="1095"/>
+    <line id="edge-0444202d16b474d10f83a562bfaef98feb641bb2-b679c4ecfdddc547101fc16634493b3c9f4a490e" class="exit exit-green" x1="635" y1="1095" x2="649" y2="1109"/>
+    <line id="edge-a983d6a564f1dd5d8a901ad42f718626cfdbff49-b679c4ecfdddc547101fc16634493b3c9f4a490e" class="exit exit-green" x1="663" y1="1109" x2="649" y2="1109"/>
+    <line id="edge-b679c4ecfdddc547101fc16634493b3c9f4a490e-b7601e0ccb5467881f95831700de67cd8c915fc1" class="exit exit-green" x1="649" y1="1109" x2="649" y2="1095"/>
+    <line id="edge-b679c4ecfdddc547101fc16634493b3c9f4a490e-e7ddc0b0765f15a52c17e56945e92d5ae324cb33" class="exit exit-green" x1="649" y1="1109" x2="663" y2="1095"/>
+    <line id="edge-33ec570328e188f97089643a5905bfb17a10c08e-a983d6a564f1dd5d8a901ad42f718626cfdbff49" class="exit exit-green" x1="677" y1="1095" x2="663" y2="1109"/>
+    <line id="edge-a983d6a564f1dd5d8a901ad42f718626cfdbff49-b7601e0ccb5467881f95831700de67cd8c915fc1" class="exit exit-green" x1="663" y1="1109" x2="649" y2="1095"/>
+    <line id="edge-a983d6a564f1dd5d8a901ad42f718626cfdbff49-e7ddc0b0765f15a52c17e56945e92d5ae324cb33" class="exit exit-green" x1="663" y1="1109" x2="663" y2="1095"/>
+    <line id="edge-1fc7a3538c9d460422fec0c8588dbc03441301ea-33ec570328e188f97089643a5905bfb17a10c08e" class="exit exit-green" x1="663" y1="1081" x2="677" y2="1095"/>
+    <line id="edge-33ec570328e188f97089643a5905bfb17a10c08e-e7ddc0b0765f15a52c17e56945e92d5ae324cb33" class="exit exit-green" x1="677" y1="1095" x2="663" y2="1095"/>
+    <line id="edge-33ec570328e188f97089643a5905bfb17a10c08e-fb9b51524b9134853816a851b3f4d4bd607b0a42" class="exit exit-green" x1="677" y1="1095" x2="677" y2="1081"/>
+    <line id="edge-1fc7a3538c9d460422fec0c8588dbc03441301ea-e7ddc0b0765f15a52c17e56945e92d5ae324cb33" class="exit exit-green" x1="663" y1="1081" x2="663" y2="1095"/>
+    <line id="edge-350f005214ee12960158a94605306256db307037-e7ddc0b0765f15a52c17e56945e92d5ae324cb33" class="exit exit-green" x1="649" y1="1081" x2="663" y2="1095"/>
+    <line id="edge-b7601e0ccb5467881f95831700de67cd8c915fc1-e7ddc0b0765f15a52c17e56945e92d5ae324cb33" class="exit exit-green" x1="649" y1="1095" x2="663" y2="1095"/>
+    <line id="edge-e7ddc0b0765f15a52c17e56945e92d5ae324cb33-fb9b51524b9134853816a851b3f4d4bd607b0a42" class="exit exit-green" x1="663" y1="1095" x2="677" y2="1081"/>
+    <line id="edge-0444202d16b474d10f83a562bfaef98feb641bb2-b7601e0ccb5467881f95831700de67cd8c915fc1" class="exit exit-green" x1="635" y1="1095" x2="649" y2="1095"/>
+    <line id="edge-1fc7a3538c9d460422fec0c8588dbc03441301ea-b7601e0ccb5467881f95831700de67cd8c915fc1" class="exit exit-green" x1="663" y1="1081" x2="649" y2="1095"/>
+    <line id="edge-350f005214ee12960158a94605306256db307037-b7601e0ccb5467881f95831700de67cd8c915fc1" class="exit exit-green" x1="649" y1="1081" x2="649" y2="1095"/>
+    <line id="edge-86a0f63349a175ad8e7f4f399ada0198459ae13c-b7601e0ccb5467881f95831700de67cd8c915fc1" class="exit exit-green" x1="635" y1="1081" x2="649" y2="1095"/>
+    <line id="edge-0444202d16b474d10f83a562bfaef98feb641bb2-350f005214ee12960158a94605306256db307037" class="exit exit-green" x1="635" y1="1095" x2="649" y2="1081"/>
+    <line id="edge-0444202d16b474d10f83a562bfaef98feb641bb2-4293155ea62d07cfa5ad2ae7ea5520d17a05dd77" class="exit exit-green" x1="635" y1="1095" x2="621" y2="1081"/>
+    <line id="edge-0444202d16b474d10f83a562bfaef98feb641bb2-86a0f63349a175ad8e7f4f399ada0198459ae13c" class="exit exit-green" x1="635" y1="1095" x2="635" y2="1081"/>
+    <line id="edge-0444202d16b474d10f83a562bfaef98feb641bb2-94af12894049c07d7698c9aa3d0bf10e581de8f5" class="exit exit-green" x1="635" y1="1095" x2="621" y2="1095"/>
+    <line id="edge-4293155ea62d07cfa5ad2ae7ea5520d17a05dd77-94af12894049c07d7698c9aa3d0bf10e581de8f5" class="exit exit-green" x1="621" y1="1081" x2="621" y2="1095"/>
+    <line id="edge-54fe3495c98d245205032591f181d34f37d28499-94af12894049c07d7698c9aa3d0bf10e581de8f5" class="exit exit-green" x1="607" y1="1081" x2="621" y2="1095"/>
+    <line id="edge-86a0f63349a175ad8e7f4f399ada0198459ae13c-94af12894049c07d7698c9aa3d0bf10e581de8f5" class="exit exit-green" x1="635" y1="1081" x2="621" y2="1095"/>
+    <line id="edge-94af12894049c07d7698c9aa3d0bf10e581de8f5-eff2d429242a3c9a6830d57c21d1a19b8b677ce0" class="exit exit-green" x1="621" y1="1095" x2="607" y2="1095"/>
+    <line id="edge-4293155ea62d07cfa5ad2ae7ea5520d17a05dd77-eff2d429242a3c9a6830d57c21d1a19b8b677ce0" class="exit exit-green" x1="621" y1="1081" x2="607" y2="1095"/>
+    <line id="edge-54fe3495c98d245205032591f181d34f37d28499-eff2d429242a3c9a6830d57c21d1a19b8b677ce0" class="exit exit-green" x1="607" y1="1081" x2="607" y2="1095"/>
+    <line id="edge-155891cd9cc51c35147afb97567b18ba218230ee-54fe3495c98d245205032591f181d34f37d28499" class="exit exit-green" x1="621" y1="1067" x2="607" y2="1081"/>
+    <line id="edge-4293155ea62d07cfa5ad2ae7ea5520d17a05dd77-54fe3495c98d245205032591f181d34f37d28499" class="exit exit-green" x1="621" y1="1081" x2="607" y2="1081"/>
+    <line id="edge-54fe3495c98d245205032591f181d34f37d28499-6d746ddf59a1d71768441ca90fa3231828e8c9d3" class="exit exit-green" x1="607" y1="1081" x2="607" y2="1067"/>
+    <line id="edge-155891cd9cc51c35147afb97567b18ba218230ee-4293155ea62d07cfa5ad2ae7ea5520d17a05dd77" class="exit exit-green" x1="621" y1="1067" x2="621" y2="1081"/>
+    <line id="edge-4293155ea62d07cfa5ad2ae7ea5520d17a05dd77-6d746ddf59a1d71768441ca90fa3231828e8c9d3" class="exit exit-green" x1="621" y1="1081" x2="607" y2="1067"/>
+    <line id="edge-4293155ea62d07cfa5ad2ae7ea5520d17a05dd77-6dd759fc275793325c3f7449cd7f319af4f9892d" class="exit exit-green" x1="621" y1="1081" x2="635" y2="1067"/>
+    <line id="edge-4293155ea62d07cfa5ad2ae7ea5520d17a05dd77-86a0f63349a175ad8e7f4f399ada0198459ae13c" class="exit exit-green" x1="621" y1="1081" x2="635" y2="1081"/>
+    <line id="edge-155891cd9cc51c35147afb97567b18ba218230ee-86a0f63349a175ad8e7f4f399ada0198459ae13c" class="exit exit-green" x1="621" y1="1067" x2="635" y2="1081"/>
+    <line id="edge-350f005214ee12960158a94605306256db307037-86a0f63349a175ad8e7f4f399ada0198459ae13c" class="exit exit-green" x1="649" y1="1081" x2="635" y2="1081"/>
+    <line id="edge-6dd759fc275793325c3f7449cd7f319af4f9892d-86a0f63349a175ad8e7f4f399ada0198459ae13c" class="exit exit-green" x1="635" y1="1067" x2="635" y2="1081"/>
+    <line id="edge-86a0f63349a175ad8e7f4f399ada0198459ae13c-c8516e4e4017a99cd19183e5918c3bf767918ef0" class="exit exit-green" x1="635" y1="1081" x2="649" y2="1067"/>
+    <line id="edge-1fc7a3538c9d460422fec0c8588dbc03441301ea-350f005214ee12960158a94605306256db307037" class="exit exit-green" x1="663" y1="1081" x2="649" y2="1081"/>
+    <line id="edge-350f005214ee12960158a94605306256db307037-54f7bcaf87821cab2fc295f961d26045a03639fe" class="exit exit-green" x1="649" y1="1081" x2="663" y2="1067"/>
+    <line id="edge-350f005214ee12960158a94605306256db307037-6dd759fc275793325c3f7449cd7f319af4f9892d" class="exit exit-green" x1="649" y1="1081" x2="635" y2="1067"/>
+    <line id="edge-350f005214ee12960158a94605306256db307037-c8516e4e4017a99cd19183e5918c3bf767918ef0" class="exit exit-green" x1="649" y1="1081" x2="649" y2="1067"/>
+    <line id="edge-152995d38d460f72a52946ee91c8f5d86b911407-1fc7a3538c9d460422fec0c8588dbc03441301ea" class="exit exit-green" x1="677" y1="1067" x2="663" y2="1081"/>
+    <line id="edge-1fc7a3538c9d460422fec0c8588dbc03441301ea-54f7bcaf87821cab2fc295f961d26045a03639fe" class="exit exit-green" x1="663" y1="1081" x2="663" y2="1067"/>
+    <line id="edge-1fc7a3538c9d460422fec0c8588dbc03441301ea-c8516e4e4017a99cd19183e5918c3bf767918ef0" class="exit exit-green" x1="663" y1="1081" x2="649" y2="1067"/>
+    <line id="edge-1fc7a3538c9d460422fec0c8588dbc03441301ea-fb9b51524b9134853816a851b3f4d4bd607b0a42" class="exit exit-green" x1="663" y1="1081" x2="677" y2="1081"/>
+    <line id="edge-152995d38d460f72a52946ee91c8f5d86b911407-fb9b51524b9134853816a851b3f4d4bd607b0a42" class="exit exit-green" x1="677" y1="1067" x2="677" y2="1081"/>
+    <line id="edge-54f7bcaf87821cab2fc295f961d26045a03639fe-fb9b51524b9134853816a851b3f4d4bd607b0a42" class="exit exit-green" x1="663" y1="1067" x2="677" y2="1081"/>
+    <line id="edge-12f08890a7522d42f70b2ac24b3e726cf1153372-152995d38d460f72a52946ee91c8f5d86b911407" class="exit exit-green" x1="663" y1="1053" x2="677" y2="1067"/>
+    <line id="edge-152995d38d460f72a52946ee91c8f5d86b911407-54f7bcaf87821cab2fc295f961d26045a03639fe" class="exit exit-green" x1="677" y1="1067" x2="663" y2="1067"/>
+    <line id="edge-152995d38d460f72a52946ee91c8f5d86b911407-eb9a2d307404b035eb2a03d8308ed0b958f5dba1" class="exit exit-green" x1="677" y1="1067" x2="677" y2="1053"/>
+    <line id="edge-12f08890a7522d42f70b2ac24b3e726cf1153372-54f7bcaf87821cab2fc295f961d26045a03639fe" class="exit exit-green" x1="663" y1="1053" x2="663" y2="1067"/>
+    <line id="edge-54f7bcaf87821cab2fc295f961d26045a03639fe-899ad0dfdfc25ad0ebeb4ed861ea18e339adb4d0" class="exit exit-green" x1="663" y1="1067" x2="649" y2="1053"/>
+    <line id="edge-54f7bcaf87821cab2fc295f961d26045a03639fe-c8516e4e4017a99cd19183e5918c3bf767918ef0" class="exit exit-green" x1="663" y1="1067" x2="649" y2="1067"/>
+    <line id="edge-54f7bcaf87821cab2fc295f961d26045a03639fe-eb9a2d307404b035eb2a03d8308ed0b958f5dba1" class="exit exit-green" x1="663" y1="1067" x2="677" y2="1053"/>
+    <line id="edge-12f08890a7522d42f70b2ac24b3e726cf1153372-c8516e4e4017a99cd19183e5918c3bf767918ef0" class="exit exit-green" x1="663" y1="1053" x2="649" y2="1067"/>
+    <line id="edge-6dd759fc275793325c3f7449cd7f319af4f9892d-c8516e4e4017a99cd19183e5918c3bf767918ef0" class="exit exit-green" x1="635" y1="1067" x2="649" y2="1067"/>
+    <line id="edge-899ad0dfdfc25ad0ebeb4ed861ea18e339adb4d0-c8516e4e4017a99cd19183e5918c3bf767918ef0" class="exit exit-green" x1="649" y1="1053" x2="649" y2="1067"/>
+    <line id="edge-b15950601c93e3adab31fb7755829cf3ed93b5b5-c8516e4e4017a99cd19183e5918c3bf767918ef0" class="exit exit-green" x1="635" y1="1053" x2="649" y2="1067"/>
+    <line id="edge-155891cd9cc51c35147afb97567b18ba218230ee-6dd759fc275793325c3f7449cd7f319af4f9892d" class="exit exit-green" x1="621" y1="1067" x2="635" y2="1067"/>
+    <line id="edge-6dd759fc275793325c3f7449cd7f319af4f9892d-899ad0dfdfc25ad0ebeb4ed861ea18e339adb4d0" class="exit exit-green" x1="635" y1="1067" x2="649" y2="1053"/>
+    <line id="edge-6dd759fc275793325c3f7449cd7f319af4f9892d-a0a041f9a0fa4024467919c15fe662bf3896b169" class="exit exit-green" x1="635" y1="1067" x2="621" y2="1053"/>
+    <line id="edge-6dd759fc275793325c3f7449cd7f319af4f9892d-b15950601c93e3adab31fb7755829cf3ed93b5b5" class="exit exit-green" x1="635" y1="1067" x2="635" y2="1053"/>
+    <line id="edge-155891cd9cc51c35147afb97567b18ba218230ee-178312c1ab469b7a7496c78eaafda6c6ce113374" class="exit exit-green" x1="621" y1="1067" x2="607" y2="1053"/>
+    <line id="edge-155891cd9cc51c35147afb97567b18ba218230ee-6d746ddf59a1d71768441ca90fa3231828e8c9d3" class="exit exit-green" x1="621" y1="1067" x2="607" y2="1067"/>
+    <line id="edge-155891cd9cc51c35147afb97567b18ba218230ee-a0a041f9a0fa4024467919c15fe662bf3896b169" class="exit exit-green" x1="621" y1="1067" x2="621" y2="1053"/>
+    <line id="edge-155891cd9cc51c35147afb97567b18ba218230ee-b15950601c93e3adab31fb7755829cf3ed93b5b5" class="exit exit-green" x1="621" y1="1067" x2="635" y2="1053"/>
+    <line id="edge-178312c1ab469b7a7496c78eaafda6c6ce113374-6d746ddf59a1d71768441ca90fa3231828e8c9d3" class="exit exit-green" x1="607" y1="1053" x2="607" y2="1067"/>
+    <line id="edge-6d746ddf59a1d71768441ca90fa3231828e8c9d3-a0a041f9a0fa4024467919c15fe662bf3896b169" class="exit exit-green" x1="607" y1="1067" x2="621" y2="1053"/>
+    <line id="edge-178312c1ab469b7a7496c78eaafda6c6ce113374-3d1583af23c0b75cd858d6646cd297c6d89c8619" class="exit exit-green" x1="607" y1="1053" x2="607" y2="1039"/>
+    <line id="edge-178312c1ab469b7a7496c78eaafda6c6ce113374-67a501bc451ad97c04ae3d2592110ea7caedd5ff" class="exit exit-green" x1="607" y1="1053" x2="621" y2="1039"/>
+    <line id="edge-178312c1ab469b7a7496c78eaafda6c6ce113374-a0a041f9a0fa4024467919c15fe662bf3896b169" class="exit exit-green" x1="607" y1="1053" x2="621" y2="1053"/>
+    <line id="edge-3d1583af23c0b75cd858d6646cd297c6d89c8619-a0a041f9a0fa4024467919c15fe662bf3896b169" class="exit exit-green" x1="607" y1="1039" x2="621" y2="1053"/>
+    <line id="edge-67a501bc451ad97c04ae3d2592110ea7caedd5ff-a0a041f9a0fa4024467919c15fe662bf3896b169" class="exit exit-green" x1="621" y1="1039" x2="621" y2="1053"/>
+    <line id="edge-a0a041f9a0fa4024467919c15fe662bf3896b169-b15950601c93e3adab31fb7755829cf3ed93b5b5" class="exit exit-green" x1="621" y1="1053" x2="635" y2="1053"/>
+    <line id="edge-a0a041f9a0fa4024467919c15fe662bf3896b169-d16eb303a48474a47976038ea90c6ffd531ec975" class="exit exit-green" x1="621" y1="1053" x2="635" y2="1039"/>
+    <line id="edge-67a501bc451ad97c04ae3d2592110ea7caedd5ff-b15950601c93e3adab31fb7755829cf3ed93b5b5" class="exit exit-green" x1="621" y1="1039" x2="635" y2="1053"/>
+    <line id="edge-899ad0dfdfc25ad0ebeb4ed861ea18e339adb4d0-b15950601c93e3adab31fb7755829cf3ed93b5b5" class="exit exit-green" x1="649" y1="1053" x2="635" y2="1053"/>
+    <line id="edge-997cda132917daef79d5330e14b837408b76dfbb-b15950601c93e3adab31fb7755829cf3ed93b5b5" class="exit exit-green" x1="649" y1="1039" x2="635" y2="1053"/>
+    <line id="edge-b15950601c93e3adab31fb7755829cf3ed93b5b5-d16eb303a48474a47976038ea90c6ffd531ec975" class="exit exit-green" x1="635" y1="1053" x2="635" y2="1039"/>
+    <line id="edge-12f08890a7522d42f70b2ac24b3e726cf1153372-899ad0dfdfc25ad0ebeb4ed861ea18e339adb4d0" class="exit exit-green" x1="663" y1="1053" x2="649" y2="1053"/>
+    <line id="edge-3697ea9390dd6d1d2a273b3635f27ba0f70b36fd-899ad0dfdfc25ad0ebeb4ed861ea18e339adb4d0" class="exit exit-green" x1="663" y1="1039" x2="649" y2="1053"/>
+    <line id="edge-899ad0dfdfc25ad0ebeb4ed861ea18e339adb4d0-997cda132917daef79d5330e14b837408b76dfbb" class="exit exit-green" x1="649" y1="1053" x2="649" y2="1039"/>
+    <line id="edge-899ad0dfdfc25ad0ebeb4ed861ea18e339adb4d0-d16eb303a48474a47976038ea90c6ffd531ec975" class="exit exit-green" x1="649" y1="1053" x2="635" y2="1039"/>
+    <line id="edge-12f08890a7522d42f70b2ac24b3e726cf1153372-3697ea9390dd6d1d2a273b3635f27ba0f70b36fd" class="exit exit-green" x1="663" y1="1053" x2="663" y2="1039"/>
+    <line id="edge-12f08890a7522d42f70b2ac24b3e726cf1153372-4b25ed1f44c1a870918be9495edb17c38ab6f6a4" class="exit exit-green" x1="663" y1="1053" x2="677" y2="1039"/>
+    <line id="edge-12f08890a7522d42f70b2ac24b3e726cf1153372-997cda132917daef79d5330e14b837408b76dfbb" class="exit exit-green" x1="663" y1="1053" x2="649" y2="1039"/>
+    <line id="edge-12f08890a7522d42f70b2ac24b3e726cf1153372-eb9a2d307404b035eb2a03d8308ed0b958f5dba1" class="exit exit-green" x1="663" y1="1053" x2="677" y2="1053"/>
+    <line id="edge-3697ea9390dd6d1d2a273b3635f27ba0f70b36fd-eb9a2d307404b035eb2a03d8308ed0b958f5dba1" class="exit exit-green" x1="663" y1="1039" x2="677" y2="1053"/>
+    <line id="edge-4b25ed1f44c1a870918be9495edb17c38ab6f6a4-eb9a2d307404b035eb2a03d8308ed0b958f5dba1" class="exit exit-green" x1="677" y1="1039" x2="677" y2="1053"/>
+    <line id="edge-3697ea9390dd6d1d2a273b3635f27ba0f70b36fd-4b25ed1f44c1a870918be9495edb17c38ab6f6a4" class="exit exit-green" x1="663" y1="1039" x2="677" y2="1039"/>
+    <line id="edge-404a2c76d5c3976881d9619d4e88ddc2b05a8213-4b25ed1f44c1a870918be9495edb17c38ab6f6a4" class="exit exit-green" x1="663" y1="1025" x2="677" y2="1039"/>
+    <line id="edge-4b25ed1f44c1a870918be9495edb17c38ab6f6a4-703b4253460a7ffaf320be63b4abd8b01d27c7ae" class="exit exit-green" x1="677" y1="1039" x2="677" y2="1025"/>
+    <line id="edge-3697ea9390dd6d1d2a273b3635f27ba0f70b36fd-404a2c76d5c3976881d9619d4e88ddc2b05a8213" class="exit exit-green" x1="663" y1="1039" x2="663" y2="1025"/>
+    <line id="edge-3697ea9390dd6d1d2a273b3635f27ba0f70b36fd-703b4253460a7ffaf320be63b4abd8b01d27c7ae" class="exit exit-green" x1="663" y1="1039" x2="677" y2="1025"/>
+    <line id="edge-3697ea9390dd6d1d2a273b3635f27ba0f70b36fd-997cda132917daef79d5330e14b837408b76dfbb" class="exit exit-green" x1="663" y1="1039" x2="649" y2="1039"/>
+    <line id="edge-3697ea9390dd6d1d2a273b3635f27ba0f70b36fd-f2ad98a21df7eb3082ee5fbd538929174ffe0ce4" class="exit exit-green" x1="663" y1="1039" x2="649" y2="1025"/>
+    <line id="edge-404a2c76d5c3976881d9619d4e88ddc2b05a8213-997cda132917daef79d5330e14b837408b76dfbb" class="exit exit-green" x1="663" y1="1025" x2="649" y2="1039"/>
+    <line id="edge-997cda132917daef79d5330e14b837408b76dfbb-d16eb303a48474a47976038ea90c6ffd531ec975" class="exit exit-green" x1="649" y1="1039" x2="635" y2="1039"/>
+    <line id="edge-997cda132917daef79d5330e14b837408b76dfbb-ed16e59f89659bcc97e65827f2ac2b9bf18d5a50" class="exit exit-green" x1="649" y1="1039" x2="635" y2="1025"/>
+    <line id="edge-997cda132917daef79d5330e14b837408b76dfbb-f2ad98a21df7eb3082ee5fbd538929174ffe0ce4" class="exit exit-green" x1="649" y1="1039" x2="649" y2="1025"/>
+    <line id="edge-67a501bc451ad97c04ae3d2592110ea7caedd5ff-d16eb303a48474a47976038ea90c6ffd531ec975" class="exit exit-green" x1="621" y1="1039" x2="635" y2="1039"/>
+    <line id="edge-c06a03e5dc918472f987bfc2c84766be6dc229a2-d16eb303a48474a47976038ea90c6ffd531ec975" class="exit exit-green" x1="621" y1="1025" x2="635" y2="1039"/>
+    <line id="edge-d16eb303a48474a47976038ea90c6ffd531ec975-ed16e59f89659bcc97e65827f2ac2b9bf18d5a50" class="exit exit-green" x1="635" y1="1039" x2="635" y2="1025"/>
+    <line id="edge-d16eb303a48474a47976038ea90c6ffd531ec975-f2ad98a21df7eb3082ee5fbd538929174ffe0ce4" class="exit exit-green" x1="635" y1="1039" x2="649" y2="1025"/>
+    <line id="edge-3d1583af23c0b75cd858d6646cd297c6d89c8619-67a501bc451ad97c04ae3d2592110ea7caedd5ff" class="exit exit-green" x1="607" y1="1039" x2="621" y2="1039"/>
+    <line id="edge-67a501bc451ad97c04ae3d2592110ea7caedd5ff-c06a03e5dc918472f987bfc2c84766be6dc229a2" class="exit exit-green" x1="621" y1="1039" x2="621" y2="1025"/>
+    <line id="edge-67a501bc451ad97c04ae3d2592110ea7caedd5ff-ed16e59f89659bcc97e65827f2ac2b9bf18d5a50" class="exit exit-green" x1="621" y1="1039" x2="635" y2="1025"/>
+    <line id="edge-67a501bc451ad97c04ae3d2592110ea7caedd5ff-f0a99e7fee259897cf0697772e5bde89bbb9ba8a" class="exit exit-green" x1="621" y1="1039" x2="607" y2="1025"/>
+    <line id="edge-3d1583af23c0b75cd858d6646cd297c6d89c8619-c06a03e5dc918472f987bfc2c84766be6dc229a2" class="exit exit-green" x1="607" y1="1039" x2="621" y2="1025"/>
+    <line id="edge-3d1583af23c0b75cd858d6646cd297c6d89c8619-f0a99e7fee259897cf0697772e5bde89bbb9ba8a" class="exit exit-green" x1="607" y1="1039" x2="607" y2="1025"/>
+    <line id="edge-482f82180dfd58da05af5e4ae5c7c2b5b159f06e-f0a99e7fee259897cf0697772e5bde89bbb9ba8a" class="exit exit-green" x1="621" y1="1011" x2="607" y2="1025"/>
+    <line id="edge-c06a03e5dc918472f987bfc2c84766be6dc229a2-f0a99e7fee259897cf0697772e5bde89bbb9ba8a" class="exit exit-green" x1="621" y1="1025" x2="607" y2="1025"/>
+    <line id="edge-482f82180dfd58da05af5e4ae5c7c2b5b159f06e-c06a03e5dc918472f987bfc2c84766be6dc229a2" class="exit exit-green" x1="621" y1="1011" x2="621" y2="1025"/>
+    <line id="edge-c06a03e5dc918472f987bfc2c84766be6dc229a2-dc99557302a26b4c47f19d4afff5affca814420a" class="exit exit-green" x1="621" y1="1025" x2="635" y2="1011"/>
+    <line id="edge-c06a03e5dc918472f987bfc2c84766be6dc229a2-ed16e59f89659bcc97e65827f2ac2b9bf18d5a50" class="exit exit-green" x1="621" y1="1025" x2="635" y2="1025"/>
+    <line id="edge-482f82180dfd58da05af5e4ae5c7c2b5b159f06e-ed16e59f89659bcc97e65827f2ac2b9bf18d5a50" class="exit exit-green" x1="621" y1="1011" x2="635" y2="1025"/>
+    <line id="edge-d10693b4bd43e42abf25a3c2f28914e7eddbc8d2-ed16e59f89659bcc97e65827f2ac2b9bf18d5a50" class="exit exit-green" x1="649" y1="1011" x2="635" y2="1025"/>
+    <line id="edge-dc99557302a26b4c47f19d4afff5affca814420a-ed16e59f89659bcc97e65827f2ac2b9bf18d5a50" class="exit exit-green" x1="635" y1="1011" x2="635" y2="1025"/>
+    <line id="edge-ed16e59f89659bcc97e65827f2ac2b9bf18d5a50-f2ad98a21df7eb3082ee5fbd538929174ffe0ce4" class="exit exit-green" x1="635" y1="1025" x2="649" y2="1025"/>
+    <line id="edge-404a2c76d5c3976881d9619d4e88ddc2b05a8213-f2ad98a21df7eb3082ee5fbd538929174ffe0ce4" class="exit exit-green" x1="663" y1="1025" x2="649" y2="1025"/>
+    <line id="edge-c24f24dbb267fd19708170929c5ee25cba003554-f2ad98a21df7eb3082ee5fbd538929174ffe0ce4" class="exit exit-green" x1="663" y1="1011" x2="649" y2="1025"/>
+    <line id="edge-d10693b4bd43e42abf25a3c2f28914e7eddbc8d2-f2ad98a21df7eb3082ee5fbd538929174ffe0ce4" class="exit exit-green" x1="649" y1="1011" x2="649" y2="1025"/>
+    <line id="edge-dc99557302a26b4c47f19d4afff5affca814420a-f2ad98a21df7eb3082ee5fbd538929174ffe0ce4" class="exit exit-green" x1="635" y1="1011" x2="649" y2="1025"/>
+    <line id="edge-404a2c76d5c3976881d9619d4e88ddc2b05a8213-703b4253460a7ffaf320be63b4abd8b01d27c7ae" class="exit exit-green" x1="663" y1="1025" x2="677" y2="1025"/>
+    <line id="edge-404a2c76d5c3976881d9619d4e88ddc2b05a8213-c24f24dbb267fd19708170929c5ee25cba003554" class="exit exit-green" x1="663" y1="1025" x2="663" y2="1011"/>
+    <line id="edge-404a2c76d5c3976881d9619d4e88ddc2b05a8213-d10693b4bd43e42abf25a3c2f28914e7eddbc8d2" class="exit exit-green" x1="663" y1="1025" x2="649" y2="1011"/>
+    <line id="edge-703b4253460a7ffaf320be63b4abd8b01d27c7ae-c24f24dbb267fd19708170929c5ee25cba003554" class="exit exit-green" x1="677" y1="1025" x2="663" y2="1011"/>
+    <line id="edge-c24f24dbb267fd19708170929c5ee25cba003554-d10693b4bd43e42abf25a3c2f28914e7eddbc8d2" class="exit exit-green" x1="663" y1="1011" x2="649" y2="1011"/>
+    <line id="edge-d10693b4bd43e42abf25a3c2f28914e7eddbc8d2-dc99557302a26b4c47f19d4afff5affca814420a" class="exit exit-green" x1="649" y1="1011" x2="635" y2="1011"/>
+    <line id="edge-482f82180dfd58da05af5e4ae5c7c2b5b159f06e-dc99557302a26b4c47f19d4afff5affca814420a" class="exit exit-green" x1="621" y1="1011" x2="635" y2="1011"/>
     <line id="edge-be2911587eeec0d949d839c939f9ace1794747f4-e5dc69c829f6ff6b1d69a6e514541011a9bf403d" class="exit" x1="710" y1="679" x2="724" y2="665"/>
     <line id="edge-bf47ef14c4647af6629b5db3d2b185ce21f6e594-e5dc69c829f6ff6b1d69a6e514541011a9bf403d" class="exit" x1="710" y1="665" x2="724" y2="665"/>
     <line id="edge-be2911587eeec0d949d839c939f9ace1794747f4-bf47ef14c4647af6629b5db3d2b185ce21f6e594" class="exit" x1="710" y1="679" x2="710" y2="665"/>
@@ -23,163 +163,23 @@
     <line id="edge-066ae1b58fc230eb5750bb3c81a52c12ddc1ccce-5ac9c69a1e97f3224aa94931b97f3db780ba5572" class="exit" x1="621" y1="1109" x2="607" y2="1109"/>
     <line id="edge-5ac9c69a1e97f3224aa94931b97f3db780ba5572-94af12894049c07d7698c9aa3d0bf10e581de8f5" class="exit" x1="607" y1="1109" x2="621" y2="1095"/>
     <line id="edge-5ac9c69a1e97f3224aa94931b97f3db780ba5572-eff2d429242a3c9a6830d57c21d1a19b8b677ce0" class="exit" x1="607" y1="1109" x2="607" y2="1095"/>
-    <line id="edge-0444202d16b474d10f83a562bfaef98feb641bb2-066ae1b58fc230eb5750bb3c81a52c12ddc1ccce" class="exit" x1="635" y1="1095" x2="621" y2="1109"/>
-    <line id="edge-066ae1b58fc230eb5750bb3c81a52c12ddc1ccce-186cccf839f075f9e0bafa2223158201fb5f5fbc" class="exit" x1="621" y1="1109" x2="635" y2="1109"/>
-    <line id="edge-066ae1b58fc230eb5750bb3c81a52c12ddc1ccce-94af12894049c07d7698c9aa3d0bf10e581de8f5" class="exit" x1="621" y1="1109" x2="621" y2="1095"/>
-    <line id="edge-066ae1b58fc230eb5750bb3c81a52c12ddc1ccce-eff2d429242a3c9a6830d57c21d1a19b8b677ce0" class="exit" x1="621" y1="1109" x2="607" y2="1095"/>
-    <line id="edge-0444202d16b474d10f83a562bfaef98feb641bb2-186cccf839f075f9e0bafa2223158201fb5f5fbc" class="exit" x1="635" y1="1095" x2="635" y2="1109"/>
-    <line id="edge-186cccf839f075f9e0bafa2223158201fb5f5fbc-94af12894049c07d7698c9aa3d0bf10e581de8f5" class="exit" x1="635" y1="1109" x2="621" y2="1095"/>
-    <line id="edge-186cccf839f075f9e0bafa2223158201fb5f5fbc-b679c4ecfdddc547101fc16634493b3c9f4a490e" class="exit" x1="635" y1="1109" x2="649" y2="1109"/>
-    <line id="edge-186cccf839f075f9e0bafa2223158201fb5f5fbc-b7601e0ccb5467881f95831700de67cd8c915fc1" class="exit" x1="635" y1="1109" x2="649" y2="1095"/>
-    <line id="edge-0444202d16b474d10f83a562bfaef98feb641bb2-b679c4ecfdddc547101fc16634493b3c9f4a490e" class="exit" x1="635" y1="1095" x2="649" y2="1109"/>
-    <line id="edge-a983d6a564f1dd5d8a901ad42f718626cfdbff49-b679c4ecfdddc547101fc16634493b3c9f4a490e" class="exit" x1="663" y1="1109" x2="649" y2="1109"/>
-    <line id="edge-b679c4ecfdddc547101fc16634493b3c9f4a490e-b7601e0ccb5467881f95831700de67cd8c915fc1" class="exit" x1="649" y1="1109" x2="649" y2="1095"/>
-    <line id="edge-b679c4ecfdddc547101fc16634493b3c9f4a490e-e7ddc0b0765f15a52c17e56945e92d5ae324cb33" class="exit" x1="649" y1="1109" x2="663" y2="1095"/>
-    <line id="edge-33ec570328e188f97089643a5905bfb17a10c08e-a983d6a564f1dd5d8a901ad42f718626cfdbff49" class="exit" x1="677" y1="1095" x2="663" y2="1109"/>
     <line id="edge-72862c8cfb2bed74f021569a564f5efba7174e38-a983d6a564f1dd5d8a901ad42f718626cfdbff49" class="exit" x1="677" y1="1109" x2="663" y2="1109"/>
-    <line id="edge-a983d6a564f1dd5d8a901ad42f718626cfdbff49-b7601e0ccb5467881f95831700de67cd8c915fc1" class="exit" x1="663" y1="1109" x2="649" y2="1095"/>
-    <line id="edge-a983d6a564f1dd5d8a901ad42f718626cfdbff49-e7ddc0b0765f15a52c17e56945e92d5ae324cb33" class="exit" x1="663" y1="1109" x2="663" y2="1095"/>
     <line id="edge-33ec570328e188f97089643a5905bfb17a10c08e-72862c8cfb2bed74f021569a564f5efba7174e38" class="exit" x1="677" y1="1095" x2="677" y2="1109"/>
     <line id="edge-72862c8cfb2bed74f021569a564f5efba7174e38-e7ddc0b0765f15a52c17e56945e92d5ae324cb33" class="exit" x1="677" y1="1109" x2="663" y2="1095"/>
-    <line id="edge-1fc7a3538c9d460422fec0c8588dbc03441301ea-33ec570328e188f97089643a5905bfb17a10c08e" class="exit" x1="663" y1="1081" x2="677" y2="1095"/>
-    <line id="edge-33ec570328e188f97089643a5905bfb17a10c08e-e7ddc0b0765f15a52c17e56945e92d5ae324cb33" class="exit" x1="677" y1="1095" x2="663" y2="1095"/>
-    <line id="edge-33ec570328e188f97089643a5905bfb17a10c08e-fb9b51524b9134853816a851b3f4d4bd607b0a42" class="exit" x1="677" y1="1095" x2="677" y2="1081"/>
-    <line id="edge-1fc7a3538c9d460422fec0c8588dbc03441301ea-e7ddc0b0765f15a52c17e56945e92d5ae324cb33" class="exit" x1="663" y1="1081" x2="663" y2="1095"/>
-    <line id="edge-350f005214ee12960158a94605306256db307037-e7ddc0b0765f15a52c17e56945e92d5ae324cb33" class="exit" x1="649" y1="1081" x2="663" y2="1095"/>
-    <line id="edge-b7601e0ccb5467881f95831700de67cd8c915fc1-e7ddc0b0765f15a52c17e56945e92d5ae324cb33" class="exit" x1="649" y1="1095" x2="663" y2="1095"/>
-    <line id="edge-e7ddc0b0765f15a52c17e56945e92d5ae324cb33-fb9b51524b9134853816a851b3f4d4bd607b0a42" class="exit" x1="663" y1="1095" x2="677" y2="1081"/>
-    <line id="edge-0444202d16b474d10f83a562bfaef98feb641bb2-b7601e0ccb5467881f95831700de67cd8c915fc1" class="exit" x1="635" y1="1095" x2="649" y2="1095"/>
-    <line id="edge-1fc7a3538c9d460422fec0c8588dbc03441301ea-b7601e0ccb5467881f95831700de67cd8c915fc1" class="exit" x1="663" y1="1081" x2="649" y2="1095"/>
-    <line id="edge-350f005214ee12960158a94605306256db307037-b7601e0ccb5467881f95831700de67cd8c915fc1" class="exit" x1="649" y1="1081" x2="649" y2="1095"/>
-    <line id="edge-86a0f63349a175ad8e7f4f399ada0198459ae13c-b7601e0ccb5467881f95831700de67cd8c915fc1" class="exit" x1="635" y1="1081" x2="649" y2="1095"/>
     <line id="edge-a4a051b90a36fe0f931249db20fc706183ebefda-b7601e0ccb5467881f95831700de67cd8c915fc1" class="exit" x1="606" y1="1191" x2="649" y2="1095"/>
-    <line id="edge-0444202d16b474d10f83a562bfaef98feb641bb2-350f005214ee12960158a94605306256db307037" class="exit" x1="635" y1="1095" x2="649" y2="1081"/>
-    <line id="edge-0444202d16b474d10f83a562bfaef98feb641bb2-4293155ea62d07cfa5ad2ae7ea5520d17a05dd77" class="exit" x1="635" y1="1095" x2="621" y2="1081"/>
-    <line id="edge-0444202d16b474d10f83a562bfaef98feb641bb2-86a0f63349a175ad8e7f4f399ada0198459ae13c" class="exit" x1="635" y1="1095" x2="635" y2="1081"/>
-    <line id="edge-0444202d16b474d10f83a562bfaef98feb641bb2-94af12894049c07d7698c9aa3d0bf10e581de8f5" class="exit" x1="635" y1="1095" x2="621" y2="1095"/>
-    <line id="edge-4293155ea62d07cfa5ad2ae7ea5520d17a05dd77-94af12894049c07d7698c9aa3d0bf10e581de8f5" class="exit" x1="621" y1="1081" x2="621" y2="1095"/>
-    <line id="edge-54fe3495c98d245205032591f181d34f37d28499-94af12894049c07d7698c9aa3d0bf10e581de8f5" class="exit" x1="607" y1="1081" x2="621" y2="1095"/>
-    <line id="edge-86a0f63349a175ad8e7f4f399ada0198459ae13c-94af12894049c07d7698c9aa3d0bf10e581de8f5" class="exit" x1="635" y1="1081" x2="621" y2="1095"/>
-    <line id="edge-94af12894049c07d7698c9aa3d0bf10e581de8f5-eff2d429242a3c9a6830d57c21d1a19b8b677ce0" class="exit" x1="621" y1="1095" x2="607" y2="1095"/>
-    <line id="edge-4293155ea62d07cfa5ad2ae7ea5520d17a05dd77-eff2d429242a3c9a6830d57c21d1a19b8b677ce0" class="exit" x1="621" y1="1081" x2="607" y2="1095"/>
-    <line id="edge-54fe3495c98d245205032591f181d34f37d28499-eff2d429242a3c9a6830d57c21d1a19b8b677ce0" class="exit" x1="607" y1="1081" x2="607" y2="1095"/>
-    <line id="edge-155891cd9cc51c35147afb97567b18ba218230ee-54fe3495c98d245205032591f181d34f37d28499" class="exit" x1="621" y1="1067" x2="607" y2="1081"/>
-    <line id="edge-4293155ea62d07cfa5ad2ae7ea5520d17a05dd77-54fe3495c98d245205032591f181d34f37d28499" class="exit" x1="621" y1="1081" x2="607" y2="1081"/>
-    <line id="edge-54fe3495c98d245205032591f181d34f37d28499-6d746ddf59a1d71768441ca90fa3231828e8c9d3" class="exit" x1="607" y1="1081" x2="607" y2="1067"/>
-    <line id="edge-155891cd9cc51c35147afb97567b18ba218230ee-4293155ea62d07cfa5ad2ae7ea5520d17a05dd77" class="exit" x1="621" y1="1067" x2="621" y2="1081"/>
     <line id="edge-4293155ea62d07cfa5ad2ae7ea5520d17a05dd77-5890eb913e3d61c3487a194dc8a84763a084f946" class="exit" x1="621" y1="1081" x2="606" y2="1175"/>
-    <line id="edge-4293155ea62d07cfa5ad2ae7ea5520d17a05dd77-6d746ddf59a1d71768441ca90fa3231828e8c9d3" class="exit" x1="621" y1="1081" x2="607" y2="1067"/>
-    <line id="edge-4293155ea62d07cfa5ad2ae7ea5520d17a05dd77-6dd759fc275793325c3f7449cd7f319af4f9892d" class="exit" x1="621" y1="1081" x2="635" y2="1067"/>
-    <line id="edge-4293155ea62d07cfa5ad2ae7ea5520d17a05dd77-86a0f63349a175ad8e7f4f399ada0198459ae13c" class="exit" x1="621" y1="1081" x2="635" y2="1081"/>
-    <line id="edge-155891cd9cc51c35147afb97567b18ba218230ee-86a0f63349a175ad8e7f4f399ada0198459ae13c" class="exit" x1="621" y1="1067" x2="635" y2="1081"/>
-    <line id="edge-350f005214ee12960158a94605306256db307037-86a0f63349a175ad8e7f4f399ada0198459ae13c" class="exit" x1="649" y1="1081" x2="635" y2="1081"/>
-    <line id="edge-6dd759fc275793325c3f7449cd7f319af4f9892d-86a0f63349a175ad8e7f4f399ada0198459ae13c" class="exit" x1="635" y1="1067" x2="635" y2="1081"/>
-    <line id="edge-86a0f63349a175ad8e7f4f399ada0198459ae13c-c8516e4e4017a99cd19183e5918c3bf767918ef0" class="exit" x1="635" y1="1081" x2="649" y2="1067"/>
-    <line id="edge-1fc7a3538c9d460422fec0c8588dbc03441301ea-350f005214ee12960158a94605306256db307037" class="exit" x1="663" y1="1081" x2="649" y2="1081"/>
-    <line id="edge-350f005214ee12960158a94605306256db307037-54f7bcaf87821cab2fc295f961d26045a03639fe" class="exit" x1="649" y1="1081" x2="663" y2="1067"/>
-    <line id="edge-350f005214ee12960158a94605306256db307037-6dd759fc275793325c3f7449cd7f319af4f9892d" class="exit" x1="649" y1="1081" x2="635" y2="1067"/>
-    <line id="edge-350f005214ee12960158a94605306256db307037-c8516e4e4017a99cd19183e5918c3bf767918ef0" class="exit" x1="649" y1="1081" x2="649" y2="1067"/>
-    <line id="edge-152995d38d460f72a52946ee91c8f5d86b911407-1fc7a3538c9d460422fec0c8588dbc03441301ea" class="exit" x1="677" y1="1067" x2="663" y2="1081"/>
-    <line id="edge-1fc7a3538c9d460422fec0c8588dbc03441301ea-54f7bcaf87821cab2fc295f961d26045a03639fe" class="exit" x1="663" y1="1081" x2="663" y2="1067"/>
     <line id="edge-1fc7a3538c9d460422fec0c8588dbc03441301ea-821e7e9c7ef7373f1c33e17234420fc93cd9d328" class="exit" x1="663" y1="1081" x2="606" y2="1183"/>
-    <line id="edge-1fc7a3538c9d460422fec0c8588dbc03441301ea-c8516e4e4017a99cd19183e5918c3bf767918ef0" class="exit" x1="663" y1="1081" x2="649" y2="1067"/>
-    <line id="edge-1fc7a3538c9d460422fec0c8588dbc03441301ea-fb9b51524b9134853816a851b3f4d4bd607b0a42" class="exit" x1="663" y1="1081" x2="677" y2="1081"/>
-    <line id="edge-152995d38d460f72a52946ee91c8f5d86b911407-fb9b51524b9134853816a851b3f4d4bd607b0a42" class="exit" x1="677" y1="1067" x2="677" y2="1081"/>
-    <line id="edge-54f7bcaf87821cab2fc295f961d26045a03639fe-fb9b51524b9134853816a851b3f4d4bd607b0a42" class="exit" x1="663" y1="1067" x2="677" y2="1081"/>
-    <line id="edge-12f08890a7522d42f70b2ac24b3e726cf1153372-152995d38d460f72a52946ee91c8f5d86b911407" class="exit" x1="663" y1="1053" x2="677" y2="1067"/>
-    <line id="edge-152995d38d460f72a52946ee91c8f5d86b911407-54f7bcaf87821cab2fc295f961d26045a03639fe" class="exit" x1="677" y1="1067" x2="663" y2="1067"/>
-    <line id="edge-152995d38d460f72a52946ee91c8f5d86b911407-eb9a2d307404b035eb2a03d8308ed0b958f5dba1" class="exit" x1="677" y1="1067" x2="677" y2="1053"/>
-    <line id="edge-12f08890a7522d42f70b2ac24b3e726cf1153372-54f7bcaf87821cab2fc295f961d26045a03639fe" class="exit" x1="663" y1="1053" x2="663" y2="1067"/>
-    <line id="edge-54f7bcaf87821cab2fc295f961d26045a03639fe-899ad0dfdfc25ad0ebeb4ed861ea18e339adb4d0" class="exit" x1="663" y1="1067" x2="649" y2="1053"/>
-    <line id="edge-54f7bcaf87821cab2fc295f961d26045a03639fe-c8516e4e4017a99cd19183e5918c3bf767918ef0" class="exit" x1="663" y1="1067" x2="649" y2="1067"/>
-    <line id="edge-54f7bcaf87821cab2fc295f961d26045a03639fe-eb9a2d307404b035eb2a03d8308ed0b958f5dba1" class="exit" x1="663" y1="1067" x2="677" y2="1053"/>
-    <line id="edge-12f08890a7522d42f70b2ac24b3e726cf1153372-c8516e4e4017a99cd19183e5918c3bf767918ef0" class="exit" x1="663" y1="1053" x2="649" y2="1067"/>
     <line id="edge-2bfc37a494acc73357712fa6bf5c8df85ee85787-c8516e4e4017a99cd19183e5918c3bf767918ef0" class="exit" x1="606" y1="1167" x2="649" y2="1067"/>
-    <line id="edge-6dd759fc275793325c3f7449cd7f319af4f9892d-c8516e4e4017a99cd19183e5918c3bf767918ef0" class="exit" x1="635" y1="1067" x2="649" y2="1067"/>
-    <line id="edge-899ad0dfdfc25ad0ebeb4ed861ea18e339adb4d0-c8516e4e4017a99cd19183e5918c3bf767918ef0" class="exit" x1="649" y1="1053" x2="649" y2="1067"/>
-    <line id="edge-b15950601c93e3adab31fb7755829cf3ed93b5b5-c8516e4e4017a99cd19183e5918c3bf767918ef0" class="exit" x1="635" y1="1053" x2="649" y2="1067"/>
-    <line id="edge-155891cd9cc51c35147afb97567b18ba218230ee-6dd759fc275793325c3f7449cd7f319af4f9892d" class="exit" x1="621" y1="1067" x2="635" y2="1067"/>
-    <line id="edge-6dd759fc275793325c3f7449cd7f319af4f9892d-899ad0dfdfc25ad0ebeb4ed861ea18e339adb4d0" class="exit" x1="635" y1="1067" x2="649" y2="1053"/>
-    <line id="edge-6dd759fc275793325c3f7449cd7f319af4f9892d-a0a041f9a0fa4024467919c15fe662bf3896b169" class="exit" x1="635" y1="1067" x2="621" y2="1053"/>
-    <line id="edge-6dd759fc275793325c3f7449cd7f319af4f9892d-b15950601c93e3adab31fb7755829cf3ed93b5b5" class="exit" x1="635" y1="1067" x2="635" y2="1053"/>
-    <line id="edge-155891cd9cc51c35147afb97567b18ba218230ee-178312c1ab469b7a7496c78eaafda6c6ce113374" class="exit" x1="621" y1="1067" x2="607" y2="1053"/>
-    <line id="edge-155891cd9cc51c35147afb97567b18ba218230ee-6d746ddf59a1d71768441ca90fa3231828e8c9d3" class="exit" x1="621" y1="1067" x2="607" y2="1067"/>
-    <line id="edge-155891cd9cc51c35147afb97567b18ba218230ee-a0a041f9a0fa4024467919c15fe662bf3896b169" class="exit" x1="621" y1="1067" x2="621" y2="1053"/>
-    <line id="edge-155891cd9cc51c35147afb97567b18ba218230ee-b15950601c93e3adab31fb7755829cf3ed93b5b5" class="exit" x1="621" y1="1067" x2="635" y2="1053"/>
-    <line id="edge-178312c1ab469b7a7496c78eaafda6c6ce113374-6d746ddf59a1d71768441ca90fa3231828e8c9d3" class="exit" x1="607" y1="1053" x2="607" y2="1067"/>
-    <line id="edge-6d746ddf59a1d71768441ca90fa3231828e8c9d3-a0a041f9a0fa4024467919c15fe662bf3896b169" class="exit" x1="607" y1="1067" x2="621" y2="1053"/>
-    <line id="edge-178312c1ab469b7a7496c78eaafda6c6ce113374-3d1583af23c0b75cd858d6646cd297c6d89c8619" class="exit" x1="607" y1="1053" x2="607" y2="1039"/>
-    <line id="edge-178312c1ab469b7a7496c78eaafda6c6ce113374-67a501bc451ad97c04ae3d2592110ea7caedd5ff" class="exit" x1="607" y1="1053" x2="621" y2="1039"/>
-    <line id="edge-178312c1ab469b7a7496c78eaafda6c6ce113374-a0a041f9a0fa4024467919c15fe662bf3896b169" class="exit" x1="607" y1="1053" x2="621" y2="1053"/>
-    <line id="edge-3d1583af23c0b75cd858d6646cd297c6d89c8619-a0a041f9a0fa4024467919c15fe662bf3896b169" class="exit" x1="607" y1="1039" x2="621" y2="1053"/>
-    <line id="edge-67a501bc451ad97c04ae3d2592110ea7caedd5ff-a0a041f9a0fa4024467919c15fe662bf3896b169" class="exit" x1="621" y1="1039" x2="621" y2="1053"/>
-    <line id="edge-a0a041f9a0fa4024467919c15fe662bf3896b169-b15950601c93e3adab31fb7755829cf3ed93b5b5" class="exit" x1="621" y1="1053" x2="635" y2="1053"/>
-    <line id="edge-a0a041f9a0fa4024467919c15fe662bf3896b169-d16eb303a48474a47976038ea90c6ffd531ec975" class="exit" x1="621" y1="1053" x2="635" y2="1039"/>
     <line id="edge-49f7148b160524fb43fc4cb14a6f60fe57fe00df-b15950601c93e3adab31fb7755829cf3ed93b5b5" class="exit" x1="606" y1="1159" x2="635" y2="1053"/>
-    <line id="edge-67a501bc451ad97c04ae3d2592110ea7caedd5ff-b15950601c93e3adab31fb7755829cf3ed93b5b5" class="exit" x1="621" y1="1039" x2="635" y2="1053"/>
-    <line id="edge-899ad0dfdfc25ad0ebeb4ed861ea18e339adb4d0-b15950601c93e3adab31fb7755829cf3ed93b5b5" class="exit" x1="649" y1="1053" x2="635" y2="1053"/>
-    <line id="edge-997cda132917daef79d5330e14b837408b76dfbb-b15950601c93e3adab31fb7755829cf3ed93b5b5" class="exit" x1="649" y1="1039" x2="635" y2="1053"/>
-    <line id="edge-b15950601c93e3adab31fb7755829cf3ed93b5b5-d16eb303a48474a47976038ea90c6ffd531ec975" class="exit" x1="635" y1="1053" x2="635" y2="1039"/>
-    <line id="edge-12f08890a7522d42f70b2ac24b3e726cf1153372-899ad0dfdfc25ad0ebeb4ed861ea18e339adb4d0" class="exit" x1="663" y1="1053" x2="649" y2="1053"/>
-    <line id="edge-3697ea9390dd6d1d2a273b3635f27ba0f70b36fd-899ad0dfdfc25ad0ebeb4ed861ea18e339adb4d0" class="exit" x1="663" y1="1039" x2="649" y2="1053"/>
-    <line id="edge-899ad0dfdfc25ad0ebeb4ed861ea18e339adb4d0-997cda132917daef79d5330e14b837408b76dfbb" class="exit" x1="649" y1="1053" x2="649" y2="1039"/>
-    <line id="edge-899ad0dfdfc25ad0ebeb4ed861ea18e339adb4d0-d16eb303a48474a47976038ea90c6ffd531ec975" class="exit" x1="649" y1="1053" x2="635" y2="1039"/>
-    <line id="edge-12f08890a7522d42f70b2ac24b3e726cf1153372-3697ea9390dd6d1d2a273b3635f27ba0f70b36fd" class="exit" x1="663" y1="1053" x2="663" y2="1039"/>
-    <line id="edge-12f08890a7522d42f70b2ac24b3e726cf1153372-4b25ed1f44c1a870918be9495edb17c38ab6f6a4" class="exit" x1="663" y1="1053" x2="677" y2="1039"/>
-    <line id="edge-12f08890a7522d42f70b2ac24b3e726cf1153372-997cda132917daef79d5330e14b837408b76dfbb" class="exit" x1="663" y1="1053" x2="649" y2="1039"/>
-    <line id="edge-12f08890a7522d42f70b2ac24b3e726cf1153372-eb9a2d307404b035eb2a03d8308ed0b958f5dba1" class="exit" x1="663" y1="1053" x2="677" y2="1053"/>
-    <line id="edge-3697ea9390dd6d1d2a273b3635f27ba0f70b36fd-eb9a2d307404b035eb2a03d8308ed0b958f5dba1" class="exit" x1="663" y1="1039" x2="677" y2="1053"/>
-    <line id="edge-4b25ed1f44c1a870918be9495edb17c38ab6f6a4-eb9a2d307404b035eb2a03d8308ed0b958f5dba1" class="exit" x1="677" y1="1039" x2="677" y2="1053"/>
-    <line id="edge-3697ea9390dd6d1d2a273b3635f27ba0f70b36fd-4b25ed1f44c1a870918be9495edb17c38ab6f6a4" class="exit" x1="663" y1="1039" x2="677" y2="1039"/>
-    <line id="edge-404a2c76d5c3976881d9619d4e88ddc2b05a8213-4b25ed1f44c1a870918be9495edb17c38ab6f6a4" class="exit" x1="663" y1="1025" x2="677" y2="1039"/>
-    <line id="edge-4b25ed1f44c1a870918be9495edb17c38ab6f6a4-703b4253460a7ffaf320be63b4abd8b01d27c7ae" class="exit" x1="677" y1="1039" x2="677" y2="1025"/>
     <line id="edge-2137677a10aedd82fa3f9e63680dfcf274dd6ed2-3697ea9390dd6d1d2a273b3635f27ba0f70b36fd" class="exit" x1="606" y1="1151" x2="663" y2="1039"/>
-    <line id="edge-3697ea9390dd6d1d2a273b3635f27ba0f70b36fd-404a2c76d5c3976881d9619d4e88ddc2b05a8213" class="exit" x1="663" y1="1039" x2="663" y2="1025"/>
-    <line id="edge-3697ea9390dd6d1d2a273b3635f27ba0f70b36fd-703b4253460a7ffaf320be63b4abd8b01d27c7ae" class="exit" x1="663" y1="1039" x2="677" y2="1025"/>
-    <line id="edge-3697ea9390dd6d1d2a273b3635f27ba0f70b36fd-997cda132917daef79d5330e14b837408b76dfbb" class="exit" x1="663" y1="1039" x2="649" y2="1039"/>
-    <line id="edge-3697ea9390dd6d1d2a273b3635f27ba0f70b36fd-f2ad98a21df7eb3082ee5fbd538929174ffe0ce4" class="exit" x1="663" y1="1039" x2="649" y2="1025"/>
-    <line id="edge-404a2c76d5c3976881d9619d4e88ddc2b05a8213-997cda132917daef79d5330e14b837408b76dfbb" class="exit" x1="663" y1="1025" x2="649" y2="1039"/>
-    <line id="edge-997cda132917daef79d5330e14b837408b76dfbb-d16eb303a48474a47976038ea90c6ffd531ec975" class="exit" x1="649" y1="1039" x2="635" y2="1039"/>
-    <line id="edge-997cda132917daef79d5330e14b837408b76dfbb-ed16e59f89659bcc97e65827f2ac2b9bf18d5a50" class="exit" x1="649" y1="1039" x2="635" y2="1025"/>
-    <line id="edge-997cda132917daef79d5330e14b837408b76dfbb-f2ad98a21df7eb3082ee5fbd538929174ffe0ce4" class="exit" x1="649" y1="1039" x2="649" y2="1025"/>
-    <line id="edge-67a501bc451ad97c04ae3d2592110ea7caedd5ff-d16eb303a48474a47976038ea90c6ffd531ec975" class="exit" x1="621" y1="1039" x2="635" y2="1039"/>
-    <line id="edge-c06a03e5dc918472f987bfc2c84766be6dc229a2-d16eb303a48474a47976038ea90c6ffd531ec975" class="exit" x1="621" y1="1025" x2="635" y2="1039"/>
-    <line id="edge-d16eb303a48474a47976038ea90c6ffd531ec975-ed16e59f89659bcc97e65827f2ac2b9bf18d5a50" class="exit" x1="635" y1="1039" x2="635" y2="1025"/>
-    <line id="edge-d16eb303a48474a47976038ea90c6ffd531ec975-f2ad98a21df7eb3082ee5fbd538929174ffe0ce4" class="exit" x1="635" y1="1039" x2="649" y2="1025"/>
-    <line id="edge-3d1583af23c0b75cd858d6646cd297c6d89c8619-67a501bc451ad97c04ae3d2592110ea7caedd5ff" class="exit" x1="607" y1="1039" x2="621" y2="1039"/>
-    <line id="edge-67a501bc451ad97c04ae3d2592110ea7caedd5ff-c06a03e5dc918472f987bfc2c84766be6dc229a2" class="exit" x1="621" y1="1039" x2="621" y2="1025"/>
     <line id="edge-67a501bc451ad97c04ae3d2592110ea7caedd5ff-c22bf54e53c550126be6e17bef4a8282b62c5d29" class="exit" x1="621" y1="1039" x2="606" y2="1144"/>
-    <line id="edge-67a501bc451ad97c04ae3d2592110ea7caedd5ff-ed16e59f89659bcc97e65827f2ac2b9bf18d5a50" class="exit" x1="621" y1="1039" x2="635" y2="1025"/>
-    <line id="edge-67a501bc451ad97c04ae3d2592110ea7caedd5ff-f0a99e7fee259897cf0697772e5bde89bbb9ba8a" class="exit" x1="621" y1="1039" x2="607" y2="1025"/>
-    <line id="edge-3d1583af23c0b75cd858d6646cd297c6d89c8619-c06a03e5dc918472f987bfc2c84766be6dc229a2" class="exit" x1="607" y1="1039" x2="621" y2="1025"/>
-    <line id="edge-3d1583af23c0b75cd858d6646cd297c6d89c8619-f0a99e7fee259897cf0697772e5bde89bbb9ba8a" class="exit" x1="607" y1="1039" x2="607" y2="1025"/>
-    <line id="edge-482f82180dfd58da05af5e4ae5c7c2b5b159f06e-f0a99e7fee259897cf0697772e5bde89bbb9ba8a" class="exit" x1="621" y1="1011" x2="607" y2="1025"/>
     <line id="edge-4efcd5ccf5649ac5e16495a89e596f59fb767ae2-f0a99e7fee259897cf0697772e5bde89bbb9ba8a" class="exit" x1="607" y1="1011" x2="607" y2="1025"/>
-    <line id="edge-c06a03e5dc918472f987bfc2c84766be6dc229a2-f0a99e7fee259897cf0697772e5bde89bbb9ba8a" class="exit" x1="621" y1="1025" x2="607" y2="1025"/>
-    <line id="edge-482f82180dfd58da05af5e4ae5c7c2b5b159f06e-c06a03e5dc918472f987bfc2c84766be6dc229a2" class="exit" x1="621" y1="1011" x2="621" y2="1025"/>
     <line id="edge-4efcd5ccf5649ac5e16495a89e596f59fb767ae2-c06a03e5dc918472f987bfc2c84766be6dc229a2" class="exit" x1="607" y1="1011" x2="621" y2="1025"/>
-    <line id="edge-c06a03e5dc918472f987bfc2c84766be6dc229a2-dc99557302a26b4c47f19d4afff5affca814420a" class="exit" x1="621" y1="1025" x2="635" y2="1011"/>
-    <line id="edge-c06a03e5dc918472f987bfc2c84766be6dc229a2-ed16e59f89659bcc97e65827f2ac2b9bf18d5a50" class="exit" x1="621" y1="1025" x2="635" y2="1025"/>
-    <line id="edge-482f82180dfd58da05af5e4ae5c7c2b5b159f06e-ed16e59f89659bcc97e65827f2ac2b9bf18d5a50" class="exit" x1="621" y1="1011" x2="635" y2="1025"/>
     <line id="edge-a3af17645c61b0a9473c098532a07461ac8f8c01-ed16e59f89659bcc97e65827f2ac2b9bf18d5a50" class="exit" x1="606" y1="1199" x2="635" y2="1025"/>
-    <line id="edge-d10693b4bd43e42abf25a3c2f28914e7eddbc8d2-ed16e59f89659bcc97e65827f2ac2b9bf18d5a50" class="exit" x1="649" y1="1011" x2="635" y2="1025"/>
-    <line id="edge-dc99557302a26b4c47f19d4afff5affca814420a-ed16e59f89659bcc97e65827f2ac2b9bf18d5a50" class="exit" x1="635" y1="1011" x2="635" y2="1025"/>
-    <line id="edge-ed16e59f89659bcc97e65827f2ac2b9bf18d5a50-f2ad98a21df7eb3082ee5fbd538929174ffe0ce4" class="exit" x1="635" y1="1025" x2="649" y2="1025"/>
-    <line id="edge-404a2c76d5c3976881d9619d4e88ddc2b05a8213-f2ad98a21df7eb3082ee5fbd538929174ffe0ce4" class="exit" x1="663" y1="1025" x2="649" y2="1025"/>
-    <line id="edge-c24f24dbb267fd19708170929c5ee25cba003554-f2ad98a21df7eb3082ee5fbd538929174ffe0ce4" class="exit" x1="663" y1="1011" x2="649" y2="1025"/>
-    <line id="edge-d10693b4bd43e42abf25a3c2f28914e7eddbc8d2-f2ad98a21df7eb3082ee5fbd538929174ffe0ce4" class="exit" x1="649" y1="1011" x2="649" y2="1025"/>
     <line id="edge-d618e5a3ae1aa692dc1cd73cd1d7d40c08c1710c-f2ad98a21df7eb3082ee5fbd538929174ffe0ce4" class="exit" x1="606" y1="1135" x2="649" y2="1025"/>
-    <line id="edge-dc99557302a26b4c47f19d4afff5affca814420a-f2ad98a21df7eb3082ee5fbd538929174ffe0ce4" class="exit" x1="635" y1="1011" x2="649" y2="1025"/>
-    <line id="edge-404a2c76d5c3976881d9619d4e88ddc2b05a8213-703b4253460a7ffaf320be63b4abd8b01d27c7ae" class="exit" x1="663" y1="1025" x2="677" y2="1025"/>
-    <line id="edge-404a2c76d5c3976881d9619d4e88ddc2b05a8213-c24f24dbb267fd19708170929c5ee25cba003554" class="exit" x1="663" y1="1025" x2="663" y2="1011"/>
-    <line id="edge-404a2c76d5c3976881d9619d4e88ddc2b05a8213-d10693b4bd43e42abf25a3c2f28914e7eddbc8d2" class="exit" x1="663" y1="1025" x2="649" y2="1011"/>
     <line id="edge-404a2c76d5c3976881d9619d4e88ddc2b05a8213-d31171ec2db87d795681186a37ab7e93c93966af" class="exit" x1="663" y1="1025" x2="677" y2="1011"/>
-    <line id="edge-703b4253460a7ffaf320be63b4abd8b01d27c7ae-c24f24dbb267fd19708170929c5ee25cba003554" class="exit" x1="677" y1="1025" x2="663" y2="1011"/>
     <line id="edge-703b4253460a7ffaf320be63b4abd8b01d27c7ae-d31171ec2db87d795681186a37ab7e93c93966af" class="exit" x1="677" y1="1025" x2="677" y2="1011"/>
     <line id="edge-c24f24dbb267fd19708170929c5ee25cba003554-d31171ec2db87d795681186a37ab7e93c93966af" class="exit" x1="663" y1="1011" x2="677" y2="1011"/>
-    <line id="edge-c24f24dbb267fd19708170929c5ee25cba003554-d10693b4bd43e42abf25a3c2f28914e7eddbc8d2" class="exit" x1="663" y1="1011" x2="649" y2="1011"/>
-    <line id="edge-d10693b4bd43e42abf25a3c2f28914e7eddbc8d2-dc99557302a26b4c47f19d4afff5affca814420a" class="exit" x1="649" y1="1011" x2="635" y2="1011"/>
-    <line id="edge-482f82180dfd58da05af5e4ae5c7c2b5b159f06e-dc99557302a26b4c47f19d4afff5affca814420a" class="exit" x1="621" y1="1011" x2="635" y2="1011"/>
     <line id="edge-482f82180dfd58da05af5e4ae5c7c2b5b159f06e-4efcd5ccf5649ac5e16495a89e596f59fb767ae2" class="exit" x1="621" y1="1011" x2="607" y2="1011"/>
     <line id="edge-43869b06780143cfb93e4481a975f29e0802219c-d7be1eae6cfe2c432a78e88919fac95a443f2c87" class="exit" x1="1087" y1="987" x2="1071" y2="971"/>
     <line id="edge-6c2930388a2f4e07a1faa712105ac5be47cca319-d7be1eae6cfe2c432a78e88919fac95a443f2c87" class="exit" x1="1087" y1="955" x2="1071" y2="971"/>
@@ -283,60 +283,60 @@
     <rect id="room-278ddf2f97b92d6bab186d95821075d621137a2e" class="room indoor room-food" data-label="Klatchian Foreign Legion mess tent" x="709" y="500" width="8" height="8" rx="2"/><text class="room-type-label" x="713" y="504" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-ba4b873b31d7bcf02328aa571b137b3a2096d2a7" class="room indoor" data-label="Klatchian Foreign Legion outpost sleeping tent" x="720" y="500" width="8" height="8" rx="2"/>
     <circle id="room-5ac9c69a1e97f3224aa94931b97f3db780ba5572" class="room outdoor" data-label="Ephebian desert" cx="607" cy="1109" r="4"/>
-    <circle id="room-066ae1b58fc230eb5750bb3c81a52c12ddc1ccce" class="room outdoor" data-label="southwestern corner of the Oasis" cx="621" cy="1109" r="4"/>
-    <circle id="room-186cccf839f075f9e0bafa2223158201fb5f5fbc" class="room outdoor" data-label="southern edge of the Oasis" cx="635" cy="1109" r="4"/>
-    <circle id="room-b679c4ecfdddc547101fc16634493b3c9f4a490e" class="room outdoor" data-label="southern edge of the Oasis" cx="649" cy="1109" r="4"/>
-    <circle id="room-a983d6a564f1dd5d8a901ad42f718626cfdbff49" class="room outdoor" data-label="southeastern corner of the Oasis" cx="663" cy="1109" r="4"/>
+    <circle id="room-066ae1b58fc230eb5750bb3c81a52c12ddc1ccce" class="room outdoor green" data-label="southwestern corner of the Oasis" cx="621" cy="1109" r="4"/>
+    <circle id="room-186cccf839f075f9e0bafa2223158201fb5f5fbc" class="room outdoor green" data-label="southern edge of the Oasis" cx="635" cy="1109" r="4"/>
+    <circle id="room-b679c4ecfdddc547101fc16634493b3c9f4a490e" class="room outdoor green" data-label="southern edge of the Oasis" cx="649" cy="1109" r="4"/>
+    <circle id="room-a983d6a564f1dd5d8a901ad42f718626cfdbff49" class="room outdoor green" data-label="southeastern corner of the Oasis" cx="663" cy="1109" r="4"/>
     <circle id="room-72862c8cfb2bed74f021569a564f5efba7174e38" class="room outdoor" data-label="Ephebian desert" cx="677" cy="1109" r="4"/>
-    <circle id="room-33ec570328e188f97089643a5905bfb17a10c08e" class="room outdoor" data-label="southeastern corner of the Oasis" cx="677" cy="1095" r="4"/>
-    <circle id="room-e7ddc0b0765f15a52c17e56945e92d5ae324cb33" class="room outdoor" data-label="southeastern corner of the Oasis" cx="663" cy="1095" r="4"/>
-    <circle id="room-b7601e0ccb5467881f95831700de67cd8c915fc1" class="room outdoor" data-label="middle of the Oasis" cx="649" cy="1095" r="4"/>
+    <circle id="room-33ec570328e188f97089643a5905bfb17a10c08e" class="room outdoor green" data-label="southeastern corner of the Oasis" cx="677" cy="1095" r="4"/>
+    <circle id="room-e7ddc0b0765f15a52c17e56945e92d5ae324cb33" class="room outdoor green" data-label="southeastern corner of the Oasis" cx="663" cy="1095" r="4"/>
+    <circle id="room-b7601e0ccb5467881f95831700de67cd8c915fc1" class="room outdoor green" data-label="middle of the Oasis" cx="649" cy="1095" r="4"/>
     <rect id="room-a4a051b90a36fe0f931249db20fc706183ebefda" class="room indoor" data-label="art gallery tent" x="602" y="1187" width="8" height="8" rx="2"/>
-    <circle id="room-0444202d16b474d10f83a562bfaef98feb641bb2" class="room outdoor" data-label="middle of the Oasis" cx="635" cy="1095" r="4"/>
-    <circle id="room-94af12894049c07d7698c9aa3d0bf10e581de8f5" class="room outdoor" data-label="southwestern corner of the Oasis" cx="621" cy="1095" r="4"/>
-    <circle id="room-eff2d429242a3c9a6830d57c21d1a19b8b677ce0" class="room outdoor" data-label="southwestern corner of the Oasis" cx="607" cy="1095" r="4"/>
-    <circle id="room-54fe3495c98d245205032591f181d34f37d28499" class="room outdoor" data-label="southwestern corner of the Oasis" cx="607" cy="1081" r="4"/>
-    <circle id="room-4293155ea62d07cfa5ad2ae7ea5520d17a05dd77" class="room outdoor" data-label="middle of the Oasis" cx="621" cy="1081" r="4"/>
+    <circle id="room-0444202d16b474d10f83a562bfaef98feb641bb2" class="room outdoor green" data-label="middle of the Oasis" cx="635" cy="1095" r="4"/>
+    <circle id="room-94af12894049c07d7698c9aa3d0bf10e581de8f5" class="room outdoor green" data-label="southwestern corner of the Oasis" cx="621" cy="1095" r="4"/>
+    <circle id="room-eff2d429242a3c9a6830d57c21d1a19b8b677ce0" class="room outdoor green" data-label="southwestern corner of the Oasis" cx="607" cy="1095" r="4"/>
+    <circle id="room-54fe3495c98d245205032591f181d34f37d28499" class="room outdoor green" data-label="southwestern corner of the Oasis" cx="607" cy="1081" r="4"/>
+    <circle id="room-4293155ea62d07cfa5ad2ae7ea5520d17a05dd77" class="room outdoor green" data-label="middle of the Oasis" cx="621" cy="1081" r="4"/>
     <rect id="room-5890eb913e3d61c3487a194dc8a84763a084f946" class="room indoor room-shop" data-label="fig stall" x="602" y="1171" width="8" height="8" rx="2"/><text class="room-type-label" x="606" y="1175" text-anchor="middle" dominant-baseline="central">S</text>
-    <circle id="room-86a0f63349a175ad8e7f4f399ada0198459ae13c" class="room outdoor" data-label="middle of the Oasis" cx="635" cy="1081" r="4"/>
-    <circle id="room-350f005214ee12960158a94605306256db307037" class="room outdoor" data-label="middle of the Oasis" cx="649" cy="1081" r="4"/>
-    <circle id="room-1fc7a3538c9d460422fec0c8588dbc03441301ea" class="room outdoor" data-label="middle of the Oasis" cx="663" cy="1081" r="4"/>
+    <circle id="room-86a0f63349a175ad8e7f4f399ada0198459ae13c" class="room outdoor green" data-label="middle of the Oasis" cx="635" cy="1081" r="4"/>
+    <circle id="room-350f005214ee12960158a94605306256db307037" class="room outdoor green" data-label="middle of the Oasis" cx="649" cy="1081" r="4"/>
+    <circle id="room-1fc7a3538c9d460422fec0c8588dbc03441301ea" class="room outdoor green" data-label="middle of the Oasis" cx="663" cy="1081" r="4"/>
     <rect id="room-821e7e9c7ef7373f1c33e17234420fc93cd9d328" class="room indoor" data-label="the zoologist&#x27;s tent" x="602" y="1179" width="8" height="8" rx="2"/>
-    <circle id="room-fb9b51524b9134853816a851b3f4d4bd607b0a42" class="room outdoor" data-label="southeastern corner of the Oasis" cx="677" cy="1081" r="4"/>
-    <circle id="room-152995d38d460f72a52946ee91c8f5d86b911407" class="room outdoor" data-label="eastern edge of the Oasis" cx="677" cy="1067" r="4"/>
-    <circle id="room-54f7bcaf87821cab2fc295f961d26045a03639fe" class="room outdoor" data-label="middle of the Oasis" cx="663" cy="1067" r="4"/>
-    <circle id="room-c8516e4e4017a99cd19183e5918c3bf767918ef0" class="room outdoor" data-label="middle of the Oasis" cx="649" cy="1067" r="4"/>
+    <circle id="room-fb9b51524b9134853816a851b3f4d4bd607b0a42" class="room outdoor green" data-label="southeastern corner of the Oasis" cx="677" cy="1081" r="4"/>
+    <circle id="room-152995d38d460f72a52946ee91c8f5d86b911407" class="room outdoor green" data-label="eastern edge of the Oasis" cx="677" cy="1067" r="4"/>
+    <circle id="room-54f7bcaf87821cab2fc295f961d26045a03639fe" class="room outdoor green" data-label="middle of the Oasis" cx="663" cy="1067" r="4"/>
+    <circle id="room-c8516e4e4017a99cd19183e5918c3bf767918ef0" class="room outdoor green" data-label="middle of the Oasis" cx="649" cy="1067" r="4"/>
     <rect id="room-2bfc37a494acc73357712fa6bf5c8df85ee85787" class="room indoor room-shop" data-label="second hand goods tent" x="602" y="1163" width="8" height="8" rx="2"/><text class="room-type-label" x="606" y="1167" text-anchor="middle" dominant-baseline="central">S</text>
-    <circle id="room-6dd759fc275793325c3f7449cd7f319af4f9892d" class="room outdoor" data-label="middle of the Oasis" cx="635" cy="1067" r="4"/>
-    <circle id="room-155891cd9cc51c35147afb97567b18ba218230ee" class="room outdoor" data-label="middle of the Oasis" cx="621" cy="1067" r="4"/>
-    <circle id="room-6d746ddf59a1d71768441ca90fa3231828e8c9d3" class="room outdoor" data-label="western edge of the Oasis" cx="607" cy="1067" r="4"/>
-    <circle id="room-178312c1ab469b7a7496c78eaafda6c6ce113374" class="room outdoor" data-label="western edge of the Oasis" cx="607" cy="1053" r="4"/>
-    <circle id="room-a0a041f9a0fa4024467919c15fe662bf3896b169" class="room outdoor" data-label="middle of the Oasis" cx="621" cy="1053" r="4"/>
-    <circle id="room-b15950601c93e3adab31fb7755829cf3ed93b5b5" class="room outdoor" data-label="middle of the Oasis" cx="635" cy="1053" r="4"/>
+    <circle id="room-6dd759fc275793325c3f7449cd7f319af4f9892d" class="room outdoor green" data-label="middle of the Oasis" cx="635" cy="1067" r="4"/>
+    <circle id="room-155891cd9cc51c35147afb97567b18ba218230ee" class="room outdoor green" data-label="middle of the Oasis" cx="621" cy="1067" r="4"/>
+    <circle id="room-6d746ddf59a1d71768441ca90fa3231828e8c9d3" class="room outdoor green" data-label="western edge of the Oasis" cx="607" cy="1067" r="4"/>
+    <circle id="room-178312c1ab469b7a7496c78eaafda6c6ce113374" class="room outdoor green" data-label="western edge of the Oasis" cx="607" cy="1053" r="4"/>
+    <circle id="room-a0a041f9a0fa4024467919c15fe662bf3896b169" class="room outdoor green" data-label="middle of the Oasis" cx="621" cy="1053" r="4"/>
+    <circle id="room-b15950601c93e3adab31fb7755829cf3ed93b5b5" class="room outdoor green" data-label="middle of the Oasis" cx="635" cy="1053" r="4"/>
     <rect id="room-49f7148b160524fb43fc4cb14a6f60fe57fe00df" class="room indoor" data-label="tent of worship" x="602" y="1155" width="8" height="8" rx="2"/>
-    <circle id="room-899ad0dfdfc25ad0ebeb4ed861ea18e339adb4d0" class="room outdoor" data-label="middle of the Oasis" cx="649" cy="1053" r="4"/>
-    <circle id="room-12f08890a7522d42f70b2ac24b3e726cf1153372" class="room outdoor" data-label="middle of the Oasis" cx="663" cy="1053" r="4"/>
-    <circle id="room-eb9a2d307404b035eb2a03d8308ed0b958f5dba1" class="room outdoor" data-label="eastern edge of the Oasis" cx="677" cy="1053" r="4"/>
-    <circle id="room-4b25ed1f44c1a870918be9495edb17c38ab6f6a4" class="room outdoor" data-label="northeastern corner of the Oasis" cx="677" cy="1039" r="4"/>
-    <circle id="room-3697ea9390dd6d1d2a273b3635f27ba0f70b36fd" class="room outdoor" data-label="middle of the Oasis" cx="663" cy="1039" r="4"/>
+    <circle id="room-899ad0dfdfc25ad0ebeb4ed861ea18e339adb4d0" class="room outdoor green" data-label="middle of the Oasis" cx="649" cy="1053" r="4"/>
+    <circle id="room-12f08890a7522d42f70b2ac24b3e726cf1153372" class="room outdoor green" data-label="middle of the Oasis" cx="663" cy="1053" r="4"/>
+    <circle id="room-eb9a2d307404b035eb2a03d8308ed0b958f5dba1" class="room outdoor green" data-label="eastern edge of the Oasis" cx="677" cy="1053" r="4"/>
+    <circle id="room-4b25ed1f44c1a870918be9495edb17c38ab6f6a4" class="room outdoor green" data-label="northeastern corner of the Oasis" cx="677" cy="1039" r="4"/>
+    <circle id="room-3697ea9390dd6d1d2a273b3635f27ba0f70b36fd" class="room outdoor green" data-label="middle of the Oasis" cx="663" cy="1039" r="4"/>
     <rect id="room-2137677a10aedd82fa3f9e63680dfcf274dd6ed2" class="room indoor room-shop" data-label="turban stall" x="602" y="1147" width="8" height="8" rx="2"/><text class="room-type-label" x="606" y="1151" text-anchor="middle" dominant-baseline="central">S</text>
-    <circle id="room-997cda132917daef79d5330e14b837408b76dfbb" class="room outdoor" data-label="middle of the Oasis" cx="649" cy="1039" r="4"/>
-    <circle id="room-d16eb303a48474a47976038ea90c6ffd531ec975" class="room outdoor" data-label="middle of the Oasis" cx="635" cy="1039" r="4"/>
-    <circle id="room-67a501bc451ad97c04ae3d2592110ea7caedd5ff" class="room outdoor" data-label="middle of the Oasis" cx="621" cy="1039" r="4"/>
+    <circle id="room-997cda132917daef79d5330e14b837408b76dfbb" class="room outdoor green" data-label="middle of the Oasis" cx="649" cy="1039" r="4"/>
+    <circle id="room-d16eb303a48474a47976038ea90c6ffd531ec975" class="room outdoor green" data-label="middle of the Oasis" cx="635" cy="1039" r="4"/>
+    <circle id="room-67a501bc451ad97c04ae3d2592110ea7caedd5ff" class="room outdoor green" data-label="middle of the Oasis" cx="621" cy="1039" r="4"/>
     <rect id="room-c22bf54e53c550126be6e17bef4a8282b62c5d29" class="room indoor room-shop" data-label="bread and water cafeteria" x="602" y="1140" width="8" height="8" rx="2"/><text class="room-type-label" x="606" y="1144" text-anchor="middle" dominant-baseline="central">S</text>
-    <circle id="room-3d1583af23c0b75cd858d6646cd297c6d89c8619" class="room outdoor" data-label="northwestern corner of the Oasis" cx="607" cy="1039" r="4"/>
-    <circle id="room-f0a99e7fee259897cf0697772e5bde89bbb9ba8a" class="room outdoor" data-label="northwestern corner of the Oasis" cx="607" cy="1025" r="4"/>
-    <circle id="room-c06a03e5dc918472f987bfc2c84766be6dc229a2" class="room outdoor" data-label="northwestern corner of the Oasis" cx="621" cy="1025" r="4"/>
-    <circle id="room-ed16e59f89659bcc97e65827f2ac2b9bf18d5a50" class="room outdoor" data-label="middle of the Oasis" cx="635" cy="1025" r="4"/>
-    <circle id="room-f2ad98a21df7eb3082ee5fbd538929174ffe0ce4" class="room outdoor" data-label="middle of the Oasis" cx="649" cy="1025" r="4"/>
+    <circle id="room-3d1583af23c0b75cd858d6646cd297c6d89c8619" class="room outdoor green" data-label="northwestern corner of the Oasis" cx="607" cy="1039" r="4"/>
+    <circle id="room-f0a99e7fee259897cf0697772e5bde89bbb9ba8a" class="room outdoor green" data-label="northwestern corner of the Oasis" cx="607" cy="1025" r="4"/>
+    <circle id="room-c06a03e5dc918472f987bfc2c84766be6dc229a2" class="room outdoor green" data-label="northwestern corner of the Oasis" cx="621" cy="1025" r="4"/>
+    <circle id="room-ed16e59f89659bcc97e65827f2ac2b9bf18d5a50" class="room outdoor green" data-label="middle of the Oasis" cx="635" cy="1025" r="4"/>
+    <circle id="room-f2ad98a21df7eb3082ee5fbd538929174ffe0ce4" class="room outdoor green" data-label="middle of the Oasis" cx="649" cy="1025" r="4"/>
     <rect id="room-d618e5a3ae1aa692dc1cd73cd1d7d40c08c1710c" class="room indoor room-shop" data-label="toymaker&#x27;s tent" x="602" y="1131" width="8" height="8" rx="2"/><text class="room-type-label" x="606" y="1135" text-anchor="middle" dominant-baseline="central">S</text>
-    <circle id="room-404a2c76d5c3976881d9619d4e88ddc2b05a8213" class="room outdoor" data-label="northeastern corner of the Oasis" cx="663" cy="1025" r="4"/>
-    <circle id="room-703b4253460a7ffaf320be63b4abd8b01d27c7ae" class="room outdoor" data-label="northeastern corner of the Oasis" cx="677" cy="1025" r="4"/>
+    <circle id="room-404a2c76d5c3976881d9619d4e88ddc2b05a8213" class="room outdoor green" data-label="northeastern corner of the Oasis" cx="663" cy="1025" r="4"/>
+    <circle id="room-703b4253460a7ffaf320be63b4abd8b01d27c7ae" class="room outdoor green" data-label="northeastern corner of the Oasis" cx="677" cy="1025" r="4"/>
     <circle id="room-d31171ec2db87d795681186a37ab7e93c93966af" class="room outdoor" data-label="Ephebian desert" cx="677" cy="1011" r="4"/>
-    <circle id="room-c24f24dbb267fd19708170929c5ee25cba003554" class="room outdoor" data-label="northeastern corner of the Oasis" cx="663" cy="1011" r="4"/>
-    <circle id="room-d10693b4bd43e42abf25a3c2f28914e7eddbc8d2" class="room outdoor" data-label="northern edge of the Oasis" cx="649" cy="1011" r="4"/>
-    <circle id="room-dc99557302a26b4c47f19d4afff5affca814420a" class="room outdoor" data-label="northern edge of the Oasis" cx="635" cy="1011" r="4"/>
-    <circle id="room-482f82180dfd58da05af5e4ae5c7c2b5b159f06e" class="room outdoor" data-label="northwestern corner of the Oasis" cx="621" cy="1011" r="4"/>
+    <circle id="room-c24f24dbb267fd19708170929c5ee25cba003554" class="room outdoor green" data-label="northeastern corner of the Oasis" cx="663" cy="1011" r="4"/>
+    <circle id="room-d10693b4bd43e42abf25a3c2f28914e7eddbc8d2" class="room outdoor green" data-label="northern edge of the Oasis" cx="649" cy="1011" r="4"/>
+    <circle id="room-dc99557302a26b4c47f19d4afff5affca814420a" class="room outdoor green" data-label="northern edge of the Oasis" cx="635" cy="1011" r="4"/>
+    <circle id="room-482f82180dfd58da05af5e4ae5c7c2b5b159f06e" class="room outdoor green" data-label="northwestern corner of the Oasis" cx="621" cy="1011" r="4"/>
     <circle id="room-4efcd5ccf5649ac5e16495a89e596f59fb767ae2" class="room outdoor" data-label="Ephebian desert" cx="607" cy="1011" r="4"/>
     <circle id="room-513b9fb194a1d6249d5a11f9b16858c7e09c9c8e" class="room outdoor" data-label="intersection" cx="993" cy="922" r="4"/>
     <circle id="room-d7be1eae6cfe2c432a78e88919fac95a443f2c87" class="room outdoor" data-label="intersection" cx="1071" cy="971" r="4"/>
