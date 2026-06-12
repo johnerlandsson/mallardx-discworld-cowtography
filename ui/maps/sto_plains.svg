@@ -1,11 +1,927 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 1492 1006"
-     class="map-svg"
-     data-map-id="45">
-
-  <g id="layer-artwork"><!-- artwork --></g>
-
-  <g id="layer-exits">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1492 1006"
+   class="map-svg"
+   data-map-id="45"
+   version="1.1"
+   id="svg72"
+   sodipodi:docname="sto_plains.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs72" />
+  <style id="inkscape-font-fix">
+text, .map-label, .map-label-muted, .map-label-accent,
+.lib-table, .lib-gap-label, .lib-book-label,
+.lib-row-num, .lib-book-list, .room-type-label {
+  font-family: "Noto Sans", sans-serif;
+}
+</style>
+  <sodipodi:namedview
+     id="namedview72"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="4"
+     inkscape:cx="1197.25"
+     inkscape:cy="211.75"
+     inkscape:window-width="2573"
+     inkscape:window-height="1011"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer-exits"
+     showgrid="false" />
+  <g
+     id="layer-artwork">
+    <!-- artwork -->
+    <rect
+       id="rect118"
+       width="44.223999"
+       height="10"
+       x="1307.8879"
+       y="411"
+       class="city-sign"
+       style="stroke-width:0.601982" />
+    <path
+       d="m 112,181 24,24 v 15.74062 l -28.74184,28.45397 -0.4446,47.68265 L 119.70677,309 H 132 l 11.49252,11.44069 v 40.12455 L 149.71682,367 H 158"
+       id="path72"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 132,309 13,-11.01128 h 19.16611 L 201.6231,336 H 210"
+       id="path73"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 245,336 h 30.53675 l 9.22532,-9.22386 H 315.8836 L 328,339"
+       id="path74"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 297,360 h 11.43666 L 328,339"
+       id="path75"
+       class="exit-journey"
+       fill="none" />
+    <path
+       d="m 148,423 h -22.56437 l -8.8025,8.95125 v 12.575 L 128,456"
+       id="path76"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 210,479 16.19281,17 0.47157,21 10.68875,10.20688 h 10.68875 L 261,513"
+       id="path77"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 245,479 16,17 v 17"
+       id="path78"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 297,456 h 73"
+       id="path79"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 440,456 h 48"
+       id="path80"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="M 520.91938,454.90063 520,439 h -15 l -17,17"
+       id="path81"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 440,274 15.05781,14.43906 V 319.405 l 30.96594,31.75188 v 68.21937 L 505,439"
+       id="path82"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 548,439 16.30313,17 h 9.43125 l 17.91937,-19 v -62.57937 l 41.34031,-41.96907 V 238.925 L 678,192 h 18 l 12.28688,-12.33469 h 15.28886 l 13.28223,12.95478 10.89254,0.11114 L 757,202"
+       id="path83"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 678,192 -12.88829,-13.49575 v -12.44862 l 27.56479,-28.45398 0.2223,-17.56143 56.90795,-57.130255 56.68566,57.130255 -0.2223,17.56143 L 885.40773,216 v 41.75302 L 949.88406,321 H 1028"
+       id="path84"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 1028,349 -39.91937,41 H 878"
+       id="path85"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 159,456 h -31 l -17.02562,19 v 47.49125 L 82.680625,551 H 71 57.137656"
+       id="path86"
+       fill="none"
+       stroke="#888888"
+       class="exit-journey" />
+    <path
+       d="M 71,551 59.416875,563.98875 V 837.495 L 46,848 92.740625,895.02563 142.0975,895.34 161.58875,913 H 197"
+       id="path87"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 261,513 13.53642,13.39857 v 37.56814 L 318,607.98146 V 636 l -12.56434,14.21783 0.44459,24.00804 L 293,685.7853 V 746"
+       id="path88"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 318,636 92.58199,92 h 130.48816 l 26.23101,26.5 h 44.59048 L 624,740 609.9661,725.5775 V 626.70656 L 618,617"
+       id="path89"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 624,740 14.02406,13.87125 h 64.76125 L 729.03563,779.65 h 145.71281 l 26.72187,-25.77875 H 1002.3847 L 1028.9494,727.93531 1138,727 l 13.0841,13.19594 V 755.7575 L 1164,767.075 V 788"
+       id="path90"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 1138,727 14.8131,-12.89719 h 104.2153 l 26.2504,-26.4075 h 105.178 L 1402,673"
+       id="path91"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 1430,603 h 8.8944 L 1454,587 v -27 l 18.0487,-16.59573 V 255.08546 l -50.1279,-50.01676 h -33.0111 L 1365,181 1349.7855,165 H 1325"
+       id="path92"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888"
+       sodipodi:nodetypes="ccccccccccc" />
+    <path
+       d="m 1379,603 h -7.6517 l -7.4469,-8 H 1307 l -23,-23 12.8789,-11.59003 V 542.94528 L 1307,531 1319.8248,520.05484 V 507.16547 L 1330,495"
+       id="path93"
+       class="journey-exit"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 297,360 h 11.43666 L 328,339 390.45375,278 389.98219,223.04906 416,195 440,219.12897 V 246"
+       id="path94"
+       fill="none"
+       class="exit-journey"
+       stroke="#888888" />
+    <path
+       d="m 738,446 33.47625,33.73625 h 146.02719 l 18.23375,17.605 h 73.56371 l 16.6619,14.77563 H 1154.385 L 1165,500 V 475.02063 L 1067,377 v -14"
+       id="path95"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 1165,500 72.8036,72 H 1284"
+       id="path96"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="M 665,404 646.51219,422 646,546"
+       id="path97"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 590,546 -8.30512,10 h -45.4041 L 503.72431,523.50872 503.61316,471.49129 488,456"
+       id="path98"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 1164,788 0.5,18 -27.5,26 -22,22 -18.1456,19 v 68.23875 L 1083,953 h -31.2032 L 1044,945.0944 V 935"
+       id="path99"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 729,216 v 11.29837 L 738,236"
+       id="path100"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 1461,591 h -10.7764"
+       id="path101"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 1137,832 -14.1238,-14.28161 h -30.8993 L 1073.8042,799.99023 997,799 h -10.39169 l -8.05826,9.10406 v 41.90293 l 13.22665,14.11584 v 13.00435 l 19.5621,18.89522 h 42.2364 l 16.5055,-16.50553 v -20.88015 l 12.0874,-11.90861 h 25.7586 L 1115,854"
+       id="path102"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="M 46,848 34.011394,860.7328 H 10.003351"
+       id="path103"
+       class="exit-journey-offmap"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="M 7.5580876,443.03731 57.137656,442.81502 92.253128,407.91443 H 158"
+       id="path104"
+       class="map-river"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 299.21135,407.41443 h 11.55943 l 97.14365,-96.86595 V 274.92544 L 422.14142,260.5 h 45.79312 l 11.05926,11.31328 v 31.06597 l 32.89991,32.95548 v 69.85674 L 534,428.36573 v 25.04161 l 21.06836,19.56985 h 31.08383 l 26.80047,-27.11485 v -66.84398 l 43.10867,-43.50164 v -82.44484 l 50.69297,-51.04665 h 30.76945 l 5.85524,5.38368 L 743,216.5 v 9.96789 l 34.80305,34.30617 h 51.08594 l 41.85117,42.00836 v 37.68571 l 38.00008,38.15726 h 72.18836 l 43.1053,-43.10535 17.4905,-0.02 10.3351,-10.27906 v -8.68461 l -10.9639,-10.61016 H 988.04133 L 939.07742,257.0016 v -44.24828 l 11.90696,-11.82836 h 55.05492 L 1074.9267,131.91965 1143,131 l 79.8795,0.88031 20.12,19.96282 L 1282,151.5 h 77.5933 l 3.6153,3.72266 L 1376.766,155 1380,158.75938 v 15.75804 l 13.7423,13.40024 h 20.0414 l 7.1913,7.07343 h 60.5172"
+       id="path105"
+       class="map-river"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="M 1040,220 1055.4647,205.84674 1055.0201,179 1088.1423,145 1181,145.38204 1199,165 l 14,-14 14,14 h 41 l 7,10 7,-10 v -28 l 9.7661,-8 h 10.2256 l 8.3362,8 H 1325 v 28"
+       id="path106"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 1143,117 14,-12.854 -0.2791,-11.670575 31.3438,-30.676944 h 68.912 l 25.1195,25.008378 h 62.6877 l 30.01,30.010051 h 22.6743 L 1408,127.70945 V 152 l -14,14 h 15.2499"
+       id="path107"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 1408,152 11.809,12 h 37.2347"
+       id="path108"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 1483.8304,164 h -26.7867"
+       id="path109"
+       class="exit-journey-offmap"
+       fill="none"
+       stroke="#888888"
+       sodipodi:nodetypes="cc" />
+    <path
+       d="m 1397.4682,116.81691 11.7817,-11.22598 V 75.580876"
+       id="path110"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="M 1188.0647,61.798481 1176.7842,50.457188 V 36.310313"
+       id="path111"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 1176.9499,18.061606 -0.1657,18.248707"
+       id="path112"
+       class="exit-journey-offmap"
+       fill="none"
+       stroke="#888888"
+       sodipodi:nodetypes="cc" />
+    <path
+       d="m 1409.4156,57.332169 -0.1657,18.248707"
+       id="path113"
+       class="exit-journey-offmap"
+       fill="none"
+       stroke="#888888"
+       sodipodi:nodetypes="cc" />
+    <path
+       d="m 1164,788 h 14 8.4513"
+       id="path114"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 1186.4513,788 h 17.4478"
+       id="path115"
+       class="exit-journey-offmap"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 1083,953 14.1688,14.64625 v 15.40438"
+       id="path116"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 1097.1688,983.05063 v 16.3475"
+       id="path117"
+       class="exit-journey-offmap"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 1461,591 13.2616,12.5"
+       id="path118"
+       class="exit-journey-offmap"
+       fill="none"
+       stroke="#888888" />
+    <text
+       xml:space="preserve"
+       x="1329.8519"
+       y="418.85602"
+       id="text118"
+       class="city-sign-label"
+       text-anchor="middle"
+       font-size="8px"><tspan
+         sodipodi:role="line"
+         id="tspan118"
+         x="1329.8519"
+         y="418.85602"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans">HILLSHIRE</tspan></text>
+    <rect
+       id="rect118-2"
+       width="55.048"
+       height="10"
+       x="523.95203"
+       y="579"
+       class="city-sign"
+       style="stroke-width:0.671623" />
+    <text
+       xml:space="preserve"
+       x="551.51202"
+       y="586.85602"
+       id="text118-7"
+       class="city-sign-label"
+       text-anchor="middle"
+       font-size="8px"><tspan
+         sodipodi:role="line"
+         x="551.51202"
+         y="586.85602"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan119">SHEEP RIDGE</tspan></text>
+    <rect
+       id="rect118-2-3"
+       width="44.231998"
+       height="10"
+       x="170.10657"
+       y="734"
+       class="city-sign"
+       style="stroke-width:0.602037" />
+    <text
+       xml:space="preserve"
+       x="192.07455"
+       y="741.85999"
+       id="text118-7-6"
+       class="city-sign-label"
+       text-anchor="middle"
+       font-size="8px"><tspan
+         sodipodi:role="line"
+         x="192.07455"
+         y="741.85999"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan119-0">NOWHERE</tspan></text>
+    <rect
+       id="rect118-2-3-2"
+       width="29.336"
+       height="10"
+       x="774.00031"
+       y="416"
+       class="city-sign"
+       style="stroke-width:0.490293" />
+    <text
+       xml:space="preserve"
+       x="788.28033"
+       y="423.85602"
+       id="text118-7-6-6"
+       class="city-sign-label"
+       text-anchor="middle"
+       font-size="8px"><tspan
+         sodipodi:role="line"
+         x="788.28033"
+         y="423.85602"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan119-0-1">DINKY</tspan></text>
+    <rect
+       id="rect118-2-3-2-7"
+       width="47.68"
+       height="10"
+       x="1037.1592"
+       y="254"
+       class="city-sign"
+       style="stroke-width:0.625062" />
+    <text
+       xml:space="preserve"
+       x="1061.1832"
+       y="261.85999"
+       id="text118-7-6-6-9"
+       class="city-sign-label"
+       text-anchor="middle"
+       font-size="8px"><tspan
+         sodipodi:role="line"
+         x="1061.1832"
+         y="261.85999"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan119-0-1-2">SCROGDEN</tspan></text>
+    <rect
+       id="rect118-2-3-2-7-2"
+       width="70.367996"
+       height="10"
+       x="1150.6116"
+       y="181"
+       class="city-sign"
+       style="stroke-width:0.759351" />
+    <text
+       xml:space="preserve"
+       x="1185.4515"
+       y="188.86"
+       id="text118-7-6-6-9-3"
+       class="city-sign-label"
+       text-anchor="middle"
+       font-size="8px"><tspan
+         sodipodi:role="line"
+         x="1185.4515"
+         y="188.86"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan119-0-1-2-7">BLEAK PROSPECT</tspan></text>
+    <rect
+       id="rect118-2-3-2-7-2-9"
+       width="53.464001"
+       height="10"
+       x="1319.536"
+       y="634"
+       class="city-sign"
+       style="stroke-width:0.66189" />
+    <text
+       xml:space="preserve"
+       x="1346.124"
+       y="641.85999"
+       id="text118-7-6-6-9-3-2"
+       class="city-sign-label"
+       text-anchor="middle"
+       font-size="8px"><tspan
+         sodipodi:role="line"
+         x="1346.124"
+         y="641.85999"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan119-0-1-2-7-2">PEKAN FORD</tspan></text>
+    <rect
+       id="rect118-2-3-2-7-2-9-9"
+       width="53.167999"
+       height="10"
+       x="9.8320007"
+       y="62"
+       class="city-sign" />
+    <text
+       xml:space="preserve"
+       x="36.271996"
+       y="69.860001"
+       id="text118-7-6-6-9-3-2-7"
+       class="city-sign-label"
+       text-anchor="middle"
+       font-size="8px"><tspan
+         sodipodi:role="line"
+         x="36.271996"
+         y="69.860001"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan119-0-1-2-7-2-3">HOLY WOOD</tspan></text>
+    <path
+       d="M 749.80675,62.909965 V 21.785076"
+       id="path120"
+       class="exit-journey-offmap"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="M 416,195 V 157.97344"
+       id="path121"
+       class="exit-journey-offmap"
+       fill="none"
+       stroke="#888888" />
+    <ellipse
+       id="path122"
+       cx="228.60568"
+       cy="407.91443"
+       rx="70.605682"
+       ry="65.562759"
+       class="city-sign" />
+    <text
+       xml:space="preserve"
+       x="228.60568"
+       y="410.77441"
+       id="text122"
+       class="city-sign-label"
+       text-anchor="middle"
+       font-size="16"><tspan
+         sodipodi:role="line"
+         x="228.60568"
+         y="410.77441"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan122">ANKH MORPORK</tspan></text>
+    <path
+       d="m 158,367 h 15.43549"
+       id="path123"
+       class="exit" />
+    <path
+       d="m 210,336 v 8.66897"
+       id="path124"
+       class="exit" />
+    <path
+       d="m 245,336 v 8.14356"
+       id="path125"
+       class="exit" />
+    <path
+       d="m 297,360 -10.99871,9.73078"
+       id="path126"
+       class="exit" />
+    <path
+       d="M 297,456 H 276.6011"
+       id="path127"
+       class="exit" />
+    <path
+       d="m 245,479 v -7.3147"
+       id="path128"
+       class="exit" />
+    <path
+       d="m 210,479 v -7.84011"
+       id="path129"
+       class="exit" />
+    <path
+       d="m 159,456 11.30069,-11.10899"
+       id="path130"
+       class="exit" />
+    <path
+       d="m 148,423 h 11.89446"
+       id="path131"
+       class="exit" />
+    <path
+       d="m 136,205 51.84071,-51 -0.2223,-15"
+       id="path119"
+       class="exit-journey" />
+    <path
+       d="m 187.38917,124 0.2223,15"
+       id="path132"
+       class="exit-journey-offmap" />
+    <ellipse
+       id="path122-2"
+       cx="405.88397"
+       cy="457.20917"
+       rx="26.240253"
+       ry="25.790854"
+       class="city-sign"
+       style="stroke-width:0.999999" />
+    <text
+       xml:space="preserve"
+       x="405.68396"
+       y="460.78418"
+       id="text122-9"
+       class="city-sign-label"
+       text-anchor="middle"
+       font-size="10px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="405.68396"
+         y="460.78418"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan122-3">STO LAT</tspan></text>
+    <path
+       d="m 370,456 h 9.67257"
+       id="path133"
+       class="exit" />
+    <path
+       d="m 440,456 h -7.90463"
+       id="path134"
+       class="exit" />
+    <text
+       xml:space="preserve"
+       x="1467.7278"
+       y="611.34998"
+       id="text134"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"><tspan
+         sodipodi:role="line"
+         x="1467.7278"
+         y="611.34998"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan134">WOLF TRAILS</tspan></text>
+    <text
+       xml:space="preserve"
+       x="1192.627"
+       y="779.29449"
+       id="text134-4"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"><tspan
+         sodipodi:role="line"
+         x="1192.627"
+         y="779.29449"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan134-7">WOLF TRAILS</tspan></text>
+    <text
+       xml:space="preserve"
+       x="1119.739"
+       y="981.98602"
+       id="text134-45"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="1119.739"
+         y="981.98602"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan134-0">UBERWALD</tspan></text>
+    <text
+       xml:space="preserve"
+       x="36.089035"
+       y="877.09998"
+       id="text134-6"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"><tspan
+         sodipodi:role="line"
+         x="36.089035"
+         y="877.09998"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan134-1">KLATCH</tspan></text>
+    <text
+       xml:space="preserve"
+       x="1456.8937"
+       y="153.7943"
+       id="text134-63"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"><tspan
+         sodipodi:role="line"
+         x="1456.8937"
+         y="153.7943"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan134-2">RAMTOPS</tspan></text>
+    <text
+       xml:space="preserve"
+       x="1410.252"
+       y="562.14203"
+       id="text134-61"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"><tspan
+         sodipodi:role="line"
+         x="1410.252"
+         y="562.14203"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan134-5">HEDGE WIZARDS</tspan></text>
+    <path
+       d="m 1454,560 h -18.25"
+       id="path135"
+       class="exit-journey-offmap" />
+    <text
+       xml:space="preserve"
+       x="1030.739"
+       y="916.68091"
+       id="text134-47"
+       class="city-sign-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="1030.739"
+         y="916.68091"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan134-6">OLD</tspan><tspan
+         sodipodi:role="line"
+         x="1030.739"
+         y="924.18091"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan135">HUT</tspan></text>
+    <text
+       xml:space="preserve"
+       x="1017.1469"
+       y="824.34399"
+       id="text134-69"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"><tspan
+         sodipodi:role="line"
+         x="1017.1469"
+         y="824.34399"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan134-3">LARGE</tspan><tspan
+         sodipodi:role="line"
+         x="1017.1469"
+         y="831.84399"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan136">HILL</tspan></text>
+    <text
+       xml:space="preserve"
+       x="1052.889"
+       y="833.98602"
+       id="text134-452"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"><tspan
+         sodipodi:role="line"
+         x="1052.889"
+         y="833.98602"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan134-54">PINE</tspan></text>
+    <text
+       xml:space="preserve"
+       x="1129.5872"
+       y="797.14502"
+       id="text134-44"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"><tspan
+         sodipodi:role="line"
+         x="1129.5872"
+         y="797.14502"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan134-30">HOUSE</tspan></text>
+    <text
+       xml:space="preserve"
+       x="197"
+       y="898.97498"
+       id="text134-8"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"><tspan
+         sodipodi:role="line"
+         x="197"
+         y="898.97498"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan134-68">CTF</tspan><tspan
+         sodipodi:role="line"
+         x="197"
+         y="906.47498"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan137">ARENA</tspan></text>
+    <text
+       xml:space="preserve"
+       x="29.256109"
+       y="836.05707"
+       id="text134-43"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"><tspan
+         sodipodi:role="line"
+         x="29.256109"
+         y="836.05707"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan134-14">TULIP</tspan></text>
+    <text
+       xml:space="preserve"
+       x="38.876984"
+       y="554.94"
+       id="text134-2"
+       class="city-sign-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="38.876984"
+         y="554.94"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan134-06">CHIRM</tspan></text>
+    <text
+       xml:space="preserve"
+       x="405.98602"
+       y="228.11777"
+       id="text134-9"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"><tspan
+         sodipodi:role="line"
+         x="405.98602"
+         y="228.11777"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan134-26">STO</tspan><tspan
+         sodipodi:role="line"
+         x="405.98602"
+         y="235.61777"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan138">KERRIG</tspan></text>
+    <text
+       xml:space="preserve"
+       x="1425.7587"
+       y="177.151"
+       id="text134-49"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"><tspan
+         sodipodi:role="line"
+         x="1425.7587"
+         y="177.151"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan134-50">RHAM NITZ</tspan></text>
+    <text
+       xml:space="preserve"
+       x="1283.9969"
+       y="612.34399"
+       id="text134-87"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"><tspan
+         sodipodi:role="line"
+         x="1283.9969"
+         y="612.34399"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan134-17">CAMPFIRE</tspan></text>
+    <text
+       xml:space="preserve"
+       x="521.16052"
+       y="466.59784"
+       id="text134-9-7"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="521.16052"
+         y="466.59784"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan134-26-2">STO</tspan><tspan
+         sodipodi:role="line"
+         x="521.16052"
+         y="474.09784"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan138-2">HELIT</tspan></text>
+    <text
+       xml:space="preserve"
+       x="1447.626"
+       y="661.39203"
+       id="text134-9-1"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"><tspan
+         sodipodi:role="line"
+         x="1447.626"
+         y="661.39203"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan138-6">GENDER</tspan><tspan
+         sodipodi:role="line"
+         x="1447.626"
+         y="668.89203"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan139">CHANGE</tspan></text>
+    <text
+       xml:space="preserve"
+       x="232.817"
+       y="791.01819"
+       id="text134-9-5"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="232.817"
+         y="791.01819"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan138-4">CEMETARY</tspan></text>
+    <text
+       xml:space="preserve"
+       x="168"
+       y="643.72498"
+       id="text134-9-0"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="168"
+         y="643.72498"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan138-1">A SMALL CLEARING</tspan><tspan
+         sodipodi:role="line"
+         x="168"
+         y="651.22498"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan140">(TO DEATH'S DOMAIN)</tspan></text>
+    <path
+       d="m 1157,291 -9,-9 V 177.26027 L 1161,165 h 38"
+       id="path136"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       d="M 1283,305 V 200 l -56,-35"
+       id="path137"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888"
+       sodipodi:nodetypes="ccc" />
+  </g>
+  <g
+     id="layer-exits">
     <line id="edge-02e09d867f05b5126f88e4b507ef9123ab673afa-8af5d75af64282d864fed4feeca68f9220af283c" class="exit exit-green" x1="992" y1="238" x2="978" y2="238"/>
     <line id="edge-02e09d867f05b5126f88e4b507ef9123ab673afa-a299dd1bca63b73e3b4eb870328cae3d1749697a" class="exit exit-green" x1="992" y1="238" x2="978" y2="224"/>
     <line id="edge-02e09d867f05b5126f88e4b507ef9123ab673afa-bcd50cde5a44e52149f00bb181c590736a9a73ed" class="exit exit-green" x1="992" y1="238" x2="992" y2="224"/>
@@ -20,14 +936,12 @@
     <line id="edge-c298afe2ab3751cbe22d82a5f64103ece4080c85-d63f94c9d6488d662d6c1e0f17565d796037d6b5" class="exit" x1="1325" y1="151" x2="1325" y2="165"/>
     <line id="edge-b9b0b48c6e5da335f17ff75cc41649b6b53ff578-c298afe2ab3751cbe22d82a5f64103ece4080c85" class="exit" x1="1325" y1="137" x2="1325" y2="151"/>
     null
-    <line id="edge-70b78c4d20b9c212d6c98fcf570e7ed3a653b2b6-b9b0b48c6e5da335f17ff75cc41649b6b53ff578" class="exit" x1="1282" y1="137" x2="1325" y2="137"/>
     <line id="edge-70b78c4d20b9c212d6c98fcf570e7ed3a653b2b6-fcbcec61956b1d60028effdeddd48edd803dc0bf" class="exit" x1="1282" y1="137" x2="1282" y2="151"/>
     <line id="edge-77b6e4637ab55172dce33fe680ecf55ebe4fd5b2-fcbcec61956b1d60028effdeddd48edd803dc0bf" class="exit" x1="1282" y1="165" x2="1282" y2="151"/>
     null
     <line id="edge-683a8d12e92b0343ff77283191e39dd3f537a8f2-77b6e4637ab55172dce33fe680ecf55ebe4fd5b2" class="exit" x1="1275" y1="175" x2="1282" y2="165"/>
     <line id="edge-683a8d12e92b0343ff77283191e39dd3f537a8f2-82bfe4c930c2714ba25ea73a8377a1ee37e8b14a" class="exit" x1="1275" y1="175" x2="1268" y2="165"/>
     <line id="edge-270e3304c7ffef50f9430d4d9107e864c215844b-8e113c4b4a141f3e10b057ce69048c55b9174c49" class="exit" x1="1213" y1="151" x2="1227" y2="165"/>
-    <line id="edge-42fa0d90a568cb02e50d8071362915f9ce1089ee-8e113c4b4a141f3e10b057ce69048c55b9174c49" class="exit" x1="1283" y1="305" x2="1227" y2="165"/>
     <line id="edge-42fa0d90a568cb02e50d8071362915f9ce1089ee-54d62b8d4b03b57e462f5cc4c6379a2cfa9f0352" class="exit" x1="1283" y1="305" x2="1269" y2="291"/>
     <line id="edge-59c53644fc3c755993309f3e82ade4229acac676-8776d0332c7a88f3ab567d368a4ab6f54633b391" class="exit" x1="1241" y1="263" x2="1227" y2="249"/>
     <line id="edge-61850a9a9f03ba315d00f3a238e9171ede298250-8776d0332c7a88f3ab567d368a4ab6f54633b391" class="exit" x1="1213" y1="249" x2="1227" y2="249"/>
@@ -55,9 +969,7 @@
     <line id="edge-28fdcc70c966db28d7060d12a733c381f9bb4b9f-d8c1e688fb24e8e3addb20f95fec84a065bed064" class="exit" x1="1185" y1="263" x2="1173" y2="263"/>
     <line id="edge-04b2801dd842933e1de5c74405d86987278bdec2-8e4027bf2bd7d53af809db21b19902d7154fc546" class="exit" x1="1171" y1="291" x2="1185" y2="277"/>
     <line id="edge-04b2801dd842933e1de5c74405d86987278bdec2-e3345575107b5b48193959b539b6924e9e3ff278" class="exit" x1="1171" y1="291" x2="1157" y2="291"/>
-    <line id="edge-deba030e8b58ce2385b60a5b5ba4ab25915bc96f-e3345575107b5b48193959b539b6924e9e3ff278" class="exit" x1="1199" y1="165" x2="1157" y2="291"/>
     <line id="edge-270e3304c7ffef50f9430d4d9107e864c215844b-deba030e8b58ce2385b60a5b5ba4ab25915bc96f" class="exit" x1="1213" y1="151" x2="1199" y2="165"/>
-    <line id="edge-3538275f052c883828afb070c15386cea699be46-deba030e8b58ce2385b60a5b5ba4ab25915bc96f" class="exit" x1="1143" y1="145" x2="1199" y2="165"/>
     <line id="edge-1bcb12d5d5d5b2005a58d1578d3af17e68ccd006-46bb4e74e727207b503e5e80d48ceef41a16a35c" class="exit" x1="1213" y1="221" x2="1213" y2="207"/>
     <line id="edge-38b756a5098eafe133788d87775e81fedc76a34c-46bb4e74e727207b503e5e80d48ceef41a16a35c" class="exit" x1="1227" y1="193" x2="1213" y2="207"/>
     <line id="edge-2bbddbca7a117b10683ce8650c78066a4447cd05-38b756a5098eafe133788d87775e81fedc76a34c" class="exit" x1="1227" y1="179" x2="1227" y2="193"/>
@@ -91,12 +1003,10 @@
     <line id="edge-5f579c822147a3755005736d2c66ecb5d0344937-c0c0e304ec8a0e2938586e542f33c2744b8658f8" class="exit" x1="1028" y1="335" x2="1028" y2="349"/>
     null
     <line id="edge-5f579c822147a3755005736d2c66ecb5d0344937-f4ab5c4594af7bd0293f448a1f25195551226ed2" class="exit" x1="1028" y1="335" x2="1028" y2="321"/>
-    <line id="edge-0e82365c4aa6cce7305d1369e37f55ef76e1d06a-eaeacfe2ca5153fe3d5c5419885df1e76ffd7d0d" class="exit" x1="1307" y1="531" x2="1284" y2="572"/>
     <line id="edge-47ffd552a6f2d0d8d3080c0e792d6fbaeaf69596-eaeacfe2ca5153fe3d5c5419885df1e76ffd7d0d" class="exit" x1="1307" y1="595" x2="1284" y2="572"/>
     <line id="edge-617ff1dcac0dbbe732fe34126e5ba145f0d561d7-eaeacfe2ca5153fe3d5c5419885df1e76ffd7d0d" class="exit" x1="1284" y1="559" x2="1284" y2="572"/>
     <line id="edge-0f903e0f346bff97e889620b67be34b3e51120f9-617ff1dcac0dbbe732fe34126e5ba145f0d561d7" class="exit" x1="1284" y1="548" x2="1284" y2="559"/>
     <line id="edge-0e82365c4aa6cce7305d1369e37f55ef76e1d06a-2dddcd42b879665bb544e35a88335fb8b629d51e" class="exit" x1="1307" y1="531" x2="1288" y2="512"/>
-    <line id="edge-0e82365c4aa6cce7305d1369e37f55ef76e1d06a-58633a6cc2a479d6e520e28124d9d1b36028d45e" class="exit" x1="1307" y1="531" x2="1330" y2="495"/>
     <line id="edge-2dddcd42b879665bb544e35a88335fb8b629d51e-c78f2fce85bf15c16a05807c65d4e96fe247cb42" class="exit" x1="1288" y1="512" x2="1288" y2="501"/>
     null
     <line id="edge-c78f2fce85bf15c16a05807c65d4e96fe247cb42-de558c279f58f9184fa19c172d86c5df9badd24b" class="exit" x1="1288" y1="501" x2="1288" y2="491"/>
@@ -147,7 +1057,6 @@
     <line id="edge-b267e53b36a0b70ec433cef77f44e7bf8f13c453-d32875d224129cc49306c9560d45bd01c7ac3208" class="exit" x1="1150" y1="799" x2="1150" y2="799"/>
     <line id="edge-05917b36a0737b7127fa5e5253bd2df6bce0d8d5-d32875d224129cc49306c9560d45bd01c7ac3208" class="exit" x1="1150" y1="799" x2="1150" y2="799"/>
     null
-    <line id="edge-3dbcb6fd760269938058caf73b6190a5d6aa759f-efb99a576ab702f7c04a8ae45a88884c68ff3f5c" class="exit" x1="997" y1="799" x2="1137" y2="832"/>
     <line id="edge-3dbcb6fd760269938058caf73b6190a5d6aa759f-762a6133bd35110a4ebbed7305685b677c1357ca" class="exit" x1="997" y1="799" x2="997" y2="813"/>
     <line id="edge-5b63e1f7f006e827f17e0e641f803f8c8f84b50b-762a6133bd35110a4ebbed7305685b677c1357ca" class="exit" x1="997" y1="827" x2="997" y2="813"/>
     <line id="edge-5b63e1f7f006e827f17e0e641f803f8c8f84b50b-7d244c8e9cc5f2d2e1daffa5e236d43d56160269" class="exit" x1="997" y1="827" x2="1011" y2="841"/>
@@ -156,7 +1065,6 @@
     <line id="edge-000b8c34cedc179514680985f229543be4b1a190-992549de670b2b59fe6f202af1e4e789c21fe2e6" class="exit" x1="1025" y1="883" x2="1011" y2="869"/>
     <line id="edge-000b8c34cedc179514680985f229543be4b1a190-de20b7670b7f89e5d2abebeaf5728ad57801fc73" class="exit" x1="1025" y1="883" x2="1039" y2="883"/>
     <line id="edge-3e724ce169925b6ac5a824f91fc3a44fd81c0535-de20b7670b7f89e5d2abebeaf5728ad57801fc73" class="exit" x1="1053" y1="869" x2="1039" y2="883"/>
-    <line id="edge-450e4c7eacd4f793ac2416d1bc310ff4e25bfd24-ebd6656cf3b4c9231b654bd2e48752ce08156d89" class="exit" x1="1083" y1="953" x2="1044" y2="935"/>
     <line id="edge-806874416b7dfc7dd06f57a9071c2a340bbe4388-ebd6656cf3b4c9231b654bd2e48752ce08156d89" class="exit" x1="1044" y1="921" x2="1044" y2="935"/>
     <line id="edge-806874416b7dfc7dd06f57a9071c2a340bbe4388-e55ecd363abc6f51f9e87656c2fb7cd0e3ad89eb" class="exit" x1="1044" y1="921" x2="1044" y2="910"/>
     <line id="edge-2bc08d95a62b923ffc36f3c83d549867691f72be-de6a4996be38bbce0385e6908afc2bc581ac6101" class="exit" x1="864" y1="404" x2="878" y2="390"/>
@@ -312,8 +1220,6 @@
     <line id="edge-166ed89bd63ae98a718c327064170459e9f7192b-573a6b852419167e07b60296ecdf1446c09d3e98" class="exit" x1="243" y1="732" x2="243" y2="746"/>
     <line id="edge-21340ab68e3ac2567030d715119ee9f12ffdffd3-c62e765ac10687a5c51685bd459f2662b034e140" class="exit" x1="229" y1="760" x2="215" y2="760"/>
     <line id="edge-1b4fccc2e9944f3f5714843a3aa2c593e8c1192b-faad443816a2f5aa79f93d1b256c56c8677d56d5" class="exit" x1="168" y1="659" x2="168" y2="665"/>
-    <line id="edge-307273b55e370656c2b065d38bbe9be4d9e6d032-55e5fedda888a0901f15d61944682cc99b00d588" class="exit" x1="261" y1="513" x2="210" y2="479"/>
-    <line id="edge-307273b55e370656c2b065d38bbe9be4d9e6d032-f29e7bb015cbdbc922bd1788133f1a45eb913fab" class="exit" x1="261" y1="513" x2="245" y2="479"/>
     <line id="edge-065bdb8e253d698583817b3915360308d1923569-fe24a81c857e935af32a78e5a0542bf70fcd7496" class="exit" x1="488" y1="456" x2="505" y2="439"/>
     <line id="edge-4d2bc20669e3780ce634ebc308090a59f0255344-fe24a81c857e935af32a78e5a0542bf70fcd7496" class="exit" x1="520" y1="439" x2="505" y2="439"/>
     <line id="edge-4d2bc20669e3780ce634ebc308090a59f0255344-a6dfc0cc68071732f4b0283d48e98acffa246093" class="exit" x1="520" y1="439" x2="534" y2="439"/>
@@ -322,9 +1228,6 @@
     <line id="edge-8097f4d5d87cb7f7021aabf94661d76bfab99f5a-c56161bd5c30b7f04498bc199a8b4569536e887f" class="exit" x1="440" y1="260" x2="440" y2="274"/>
     null
     <line id="edge-5cd1c0d033a52d3a35393e4cb457a33aca9ddb1f-8097f4d5d87cb7f7021aabf94661d76bfab99f5a" class="exit" x1="440" y1="246" x2="440" y2="260"/>
-    <line id="edge-25decbe4c650951cd76c28a6e6b51b9f13fc7fd5-5cd1c0d033a52d3a35393e4cb457a33aca9ddb1f" class="exit" x1="416" y1="195" x2="440" y2="246"/>
-    <line id="edge-514c30926f5c212eeccd2b9d9b43c2cfc051b292-fbb55aa44a84fc449c8dbb5509d142aebb4431b6" class="exit" x1="245" y1="336" x2="328" y2="339"/>
-    <line id="edge-ad9e0e9b280042358ed40a2705515f386ac897e8-fbb55aa44a84fc449c8dbb5509d142aebb4431b6" class="exit" x1="297" y1="360" x2="328" y2="339"/>
     <line id="edge-2cda85780d464235cd8d1fa81398b045f92c17c6-8ee6f05a721d93d15599518c1706a3c79880498b" class="exit" x1="112" y1="139" x2="98" y2="139"/>
     <line id="edge-845f60511eb334f11f4bed5a0888ff0cab609891-8ee6f05a721d93d15599518c1706a3c79880498b" class="exit" x1="98" y1="125" x2="98" y2="139"/>
     <line id="edge-8dbcbe2bfcfeff3bf2f77d74bce427dd8e8ee34d-8ee6f05a721d93d15599518c1706a3c79880498b" class="exit" x1="84" y1="139" x2="98" y2="139"/>
@@ -386,10 +1289,6 @@
     <line id="edge-1cb18f4b7accae7a6b70c1df58241f85ef8cd2ca-d0bcfa441920dec8a162d80a6695ac0c72062a90" class="exit" x1="70" y1="27" x2="84" y2="27"/>
     <line id="edge-1cb18f4b7accae7a6b70c1df58241f85ef8cd2ca-dfe1b238a6e067a59e5512f5d7a9a7425f149784" class="exit" x1="70" y1="27" x2="70" y2="41"/>
     <line id="edge-9b0f84b7a80a1b9932d3ecde4d8f316bfd7dce80-dfe1b238a6e067a59e5512f5d7a9a7425f149784" class="exit" x1="81" y1="41" x2="70" y2="41"/>
-    <line id="edge-065aad72f5a207c078f19efbace5ff134f5f590c-40068f55b21d63102a10d811ad8043c74e1fbade" class="exit" x1="132" y1="309" x2="158" y2="367"/>
-    <line id="edge-065aad72f5a207c078f19efbace5ff134f5f590c-eebbd19883152b5441290c929eb902ab2e4a9ae1" class="exit" x1="132" y1="309" x2="210" y2="336"/>
-    <line id="edge-98b7018e9799d29387d603255f6fa6b8c75dd907-a8e36f6f39a93074a7779789ab4833f487ae7020" class="exit" x1="128" y1="456" x2="159" y2="456"/>
-    <line id="edge-34dfa0fb3a9a726700d3b154a1cb9fef5c58d829-98b7018e9799d29387d603255f6fa6b8c75dd907" class="exit" x1="148" y1="423" x2="128" y2="456"/>
     <line id="edge-3ff15e523004ba8ae11a7c0c21ade870cf4bbc59-43586a987b341007308e87eb47ce34f54f5ae7e5" class="exit" x1="243" y1="721" x2="233" y2="721"/>
     <line id="edge-3ff15e523004ba8ae11a7c0c21ade870cf4bbc59-94dbbb53a89580354f1198585f41a00245a1acd4" class="exit" x1="243" y1="721" x2="243" y2="711"/>
     null
@@ -413,8 +1312,8 @@
     null
     null
   </g>
-
-  <g id="layer-rooms">
+  <g
+     id="layer-rooms">
     <circle id="room-b01d100521beb946589a12b70704026f9d1be58e" class="room outdoor" data-label="road" cx="440" cy="456" r="4"/>
     <circle id="room-22a5bfab84412168732c9d40c4feebeedc8714ea" class="room outdoor" data-label="road" cx="370" cy="456" r="4"/>
     <circle id="room-e31337ed58ac5bdf7352c52fc4ded9ca0188706d" class="room outdoor" data-label="intersection of Pseudopolis road and the Ramtops road" cx="1408" cy="152" r="4"/>
@@ -545,7 +1444,7 @@
     <circle id="room-890db8997481accffb0ffc7d2f4057a72ba98cf3" class="room outdoor" data-label="road" cx="1402" cy="673" r="4"/>
     <circle id="room-6cb1b5f951e54ad8d5e32383dd693bbeb39a47a7" class="room outdoor" data-label="East Skund Road" cx="1430" cy="603" r="4"/>
     <circle id="room-3766976fed3e6fb69fd261920439956b499668e2" class="room outdoor" data-label="road" cx="1454" cy="560" r="4"/>
-    <circle id="room-dc7d700304abbe410c27831f9aa9a156ee6117c8" class="room outdoor green" data-label="intersection of Skund Forest road and the South road" cx="1138" cy="727" r="4"/>
+    <circle id="room-dc7d700304abbe410c27831f9aa9a156ee6117c8" class="room outdoor" data-label="intersection of Skund Forest road and the South road" cx="1138" cy="727" r="4"/>
     <circle id="room-3a4f5a2f13078ba9073df2df9d68fd2920e19025" class="room outdoor" data-label="road" cx="1164" cy="788" r="4"/>
     <circle id="room-7400341b8e04ce66cdcece1885a4349b5351b8e6" class="room outdoor" data-label="outside of the house" cx="1150" cy="788" r="4"/>
     <rect id="room-c3943281ba39012731726d1ada70eebda0c45370" class="room indoor" data-label="entryway" x="1146" y="795" width="8" height="8" rx="2"/>
@@ -821,9 +1720,10 @@
     <rect id="room-e20c8af364efc2c34be94c59d7fc9085550e308d" class="room indoor room-house" data-label="[player house]" x="1354" y="474" width="8" height="8" rx="2"/><text class="room-type-label" x="1358" y="478" text-anchor="middle" dominant-baseline="central">H</text>
     <rect id="room-2df8b2ff3770031c92195f146749a27f9b7068c6" class="room indoor room-house" data-label="[player house]" x="1354" y="474" width="8" height="8" rx="2"/><text class="room-type-label" x="1358" y="478" text-anchor="middle" dominant-baseline="central">H</text>
   </g>
-
-
-  <g id="layer-room-labels"></g>
-  <g id="layer-labels"><!-- labels --></g>
-
+  <g
+     id="layer-room-labels" />
+  <g
+     id="layer-labels">
+    <!-- labels -->
+  </g>
 </svg>
