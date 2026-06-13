@@ -3,9 +3,13 @@
 --
 -- Map panel: mirrors room.info GMCP frames to the map iframe.
 -- Commands:
---   dbsearch <type> <query>   type: room | item | npcitem | npc
---   dbroute <number>          route to result N, sets dbwalk alias
---   dbwalk                    walk to routed destination (GMCP-driven, with countdown)
+--   db <place>                search rooms by name
+--   db npc [<{area}>] <name>  search NPCs, optionally filtered by area
+--   db item <name>            search shop items
+--   db shop <name>            alias for db item
+--   db <number>               route to result N and start walking immediately
+--   db walk                   start/resume last route
+--   db clear                  clear current route
 --
 -- Data credit: Quow's Cow Bar and Minimap plugin — https://quow.co.uk/minimap.php
 
@@ -375,8 +379,8 @@ end)
 -- ─── Display ─────────────────────────────────────────────────────────────────
 
 local TYPE_LABELS = {
-  room    = 'room',
-  item    = 'item (shop)',
+  room    = 'place',
+  item    = 'item',
   npcitem = 'npc item',
   npc     = 'npc',
 }
@@ -419,8 +423,7 @@ local function display_results(search_type, query, results, sorted_by_dist)
   note('  ' .. rule, C.rule)
   for i, line in ipairs(lines) do note(line, colours[i]) end
   note('  ' .. rule, C.rule)
-  note('  <number>            — route and walk immediately.', C.muted)
-  note('  dbroute <number>    — route and show on map first, then dbwalk.', C.muted)
+  note('  db <number>         — route and walk immediately.', C.muted)
 end
 
 -- ─── Movement prediction ─────────────────────────────────────────────────────
@@ -458,28 +461,37 @@ mud.trigger([[^(?:> )?Removed queue\.$]], function()
   reset_walk()
 end)
 
--- ─── dbsearch ────────────────────────────────────────────────────────────────
+-- ─── db ──────────────────────────────────────────────────────────────────────
 
-mud.alias([[^dbsearch ([a-zA-Z]+)\s+(.+)$]], function(m)
-  local search_type = string.lower(m[1])
-  local query       = m[2]
+local function do_search(search_type, query, area_filter)
   local candidates
-
   if search_type == 'room' then
     candidates = search.search_rooms(rooms, query)
-  elseif search_type == 'item' then
+  elseif search_type == 'item' or search_type == 'shop' then
     candidates = search.search_items(items, query)
+    search_type = 'item'
   elseif search_type == 'npc' then
     candidates = search.search_npcs(npcs, query)
+    if area_filter then
+      local af = string.lower(area_filter)
+      local filtered = {}
+      for _, r in ipairs(candidates) do
+        if string.find(string.lower(r.location), af, 1, true) then
+          filtered[#filtered + 1] = r
+        end
+      end
+      candidates = filtered
+    end
   elseif search_type == 'npcitem' then
     candidates = search.search_npc_items(npc_items, query)
   else
-    note('  Unknown type "' .. search_type .. '". Valid types: room, item, npcitem, npc', C.err)
+    note('  Unknown type. Valid: room, npc, item, shop, npcitem', C.err)
     return
   end
 
   if #candidates == 0 then
-    note(string.format('  No results for "%s" (type: %s).', query, search_type), C.muted)
+    local area_note = area_filter and (' in {' .. area_filter .. '}') or ''
+    note(string.format('  No results for "%s"%s.', query, area_note), C.muted)
     last_results = {}
     return
   end
@@ -489,7 +501,6 @@ mud.alias([[^dbsearch ([a-zA-Z]+)\s+(.+)$]], function(m)
 
   if current_room ~= nil then
     local dist = pathfind.distances_from(exits, current_room)
-    -- Annotate with distance, drop unreachable
     local reachable = {}
     for _, r in ipairs(candidates) do
       local d = dist[r.room_id]
@@ -499,7 +510,6 @@ mud.alias([[^dbsearch ([a-zA-Z]+)\s+(.+)$]], function(m)
       end
     end
     table.sort(reachable, function(a, b) return a.distance < b.distance end)
-    -- Cap at MAX_DISPLAY
     results = {}
     for i = 1, math.min(#reachable, MAX_DISPLAY) do
       results[i] = reachable[i]
@@ -516,20 +526,17 @@ mud.alias([[^dbsearch ([a-zA-Z]+)\s+(.+)$]], function(m)
   last_results = results
 
   if #results == 0 then
-    note(string.format('  No reachable results for "%s" (type: %s).', query, search_type), C.muted)
+    local area_note = area_filter and (' in {' .. area_filter .. '}') or ''
+    note(string.format('  No reachable results for "%s"%s.', query, area_note), C.muted)
     return
   end
 
   display_results(search_type, query, results, sorted_by_dist)
-end)
+end
 
--- ─── dbroute ─────────────────────────────────────────────────────────────────
-
-mud.alias([[^dbroute (\d+)$]], function(m)
-  local n = tonumber(m[1])
-
+local function do_route(n, walk_immediately)
   if #last_results == 0 then
-    note('  No search results yet. Run dbsearch first.', C.err)
+    note('  No search results. Run a db search first.', C.err)
     return
   end
   if n < 1 or n > #last_results then
@@ -542,7 +549,6 @@ mud.alias([[^dbroute (\d+)$]], function(m)
   end
 
   local target = last_results[n]
-
   if current_room == target.room_id then
     note('  You are already there.', C.ok)
     return
@@ -554,28 +560,32 @@ mud.alias([[^dbroute (\d+)$]], function(m)
     return
   end
 
-  -- Build walk state
   walk_steps = {}
   for dir in path:gmatch('[^;]+') do
     walk_steps[#walk_steps + 1] = dir
   end
-  walk_pos         = 0
   walk_target_name = target.location
-
   post_route(route_rooms)
-
-  note(string.format('  Route to "%s" — %d move%s. Type dbwalk to begin.', target.location, steps, steps == 1 and '' or 's'), C.ok)
 
   if steps > 140 then
     note('  Warning: long route. Discworld clears movement queues after 5 minutes of idle time.', C.header)
   end
-end)
 
--- ─── dbwalk ──────────────────────────────────────────────────────────────────
+  if walk_immediately then
+    walk_pos = 1
+    note(string.format('  Walking to "%s" — %d move%s.', target.location, steps, steps == 1 and '' or 's'), C.ok)
+    mud.send(walk_steps[1])
+  else
+    walk_pos = 0
+    note(string.format('  Route to "%s" — %d move%s. Type "db walk" to begin.', target.location, steps, steps == 1 and '' or 's'), C.ok)
+  end
+end
 
-mud.alias([[^dbwalk$]], function()
+-- Specific patterns first, catch-all last.
+
+mud.alias([[^db walk$]], function()
   if #walk_steps == 0 then
-    note('  No route set. Run dbroute first.', C.err)
+    note('  No route set. Run "db <number>" first.', C.err)
     return
   end
   if walk_pos > 0 then
@@ -587,49 +597,37 @@ mud.alias([[^dbwalk$]], function()
   mud.send(walk_steps[1])
 end)
 
--- ─── number shortcut — route + walk immediately ──────────────────────────────
-
-mud.alias([[^(\d+)$]], function(m)
-  if #last_results == 0 then return end
-  local n = tonumber(m[1])
-  if n < 1 or n > #last_results then return end
-  if current_room == nil then
-    note('  Current room unknown. Move through a mapped room first.', C.err)
-    return
-  end
-
-  local target = last_results[n]
-
-  if current_room == target.room_id then
-    note('  You are already there.', C.ok)
-    return
-  end
-
-  local path, steps, route_rooms = pathfind.find_path(exits, current_room, target.room_id)
-  if path == nil then
-    note('  Could not find a route. You may be in an untracked area, or the destination is unreachable.', C.err)
-    return
-  end
-
-  walk_steps = {}
-  for dir in path:gmatch('[^;]+') do
-    walk_steps[#walk_steps + 1] = dir
-  end
-  walk_pos         = 1
-  walk_target_name = target.location
-
-  post_route(route_rooms)
-
-  note(string.format('  Walking to "%s" — %d move%s.', target.location, steps, steps == 1 and '' or 's'), C.ok)
-  if steps > 140 then
-    note('  Warning: long route. Discworld clears movement queues after 5 minutes of idle time.', C.header)
-  end
-  mud.send(walk_steps[1])
+mud.alias([[^db (\d+)$]], function(m)
+  do_route(tonumber(m[1]), true)
 end)
 
--- ─── dbclear ─────────────────────────────────────────────────────────────────
+mud.alias([[^db npc\s+\{([^}]+)\}\s+(.+)$]], function(m)
+  do_search('npc', m[2], m[1])
+end)
 
-mud.alias([[^dbclear$]], function()
+mud.alias([[^db npc\s+(.+)$]], function(m)
+  do_search('npc', m[1], nil)
+end)
+
+mud.alias([[^db item\s+(.+)$]], function(m)
+  do_search('item', m[1], nil)
+end)
+
+mud.alias([[^db shop\s+(.+)$]], function(m)
+  do_search('item', m[1], nil)
+end)
+
+mud.alias([[^db npcitem\s+(.+)$]], function(m)
+  do_search('npcitem', m[1], nil)
+end)
+
+mud.alias([[^db (.+)$]], function(m)
+  do_search('room', m[1], nil)
+end)
+
+-- ─── db clear ────────────────────────────────────────────────────────────────
+
+mud.alias([[^db clear$]], function()
   walk_steps       = {}
   walk_pos         = 0
   walk_target_name = ''
