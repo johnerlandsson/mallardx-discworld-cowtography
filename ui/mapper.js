@@ -25,7 +25,8 @@ const SPECIAL_SCREENS = {
 const LSPACE_COLORS = ["#cc44ff", "#00d2ff", "#4ade80", "#ff9f43", "#ff6b6b", "#ffd32a", "#ffffff"];
 
 // ─── State ────────────────────────────────────────────────────────────────
-let current        = null;  // { mapId, x, y, short, roomId } | null
+let current        = null;  // { mapId, x, y, short, roomId } | null — GMCP-confirmed
+let target         = null;  // { mapId, x, y, short, roomId } | null — predicted position
 let currentSvg     = null;  // <svg> element | null
 let routeRoomIds   = [];
 let libraryOverlay = null;  // { facing, distortion, orb } | null
@@ -171,6 +172,7 @@ async function loadSvgMap(mapId, x, y) {
   const gen = ++loadGeneration;
   const { default: svgText } = await import(`./maps/${meta.file.replace(".png", ".js")}`);
   if (gen !== loadGeneration) return;  // superseded by a later load
+  target = null;  // prediction is map-specific; clear on map change
   clearContainer();
   const wrap = document.createElement("div");
   wrap.style.cssText = "position:absolute;inset:0;overflow:hidden;";
@@ -230,13 +232,16 @@ function drawWorldDisc(x, y) {
 // ─── State toggling ───────────────────────────────────────────────────────
 function applyState() {
   if (!currentSvg) return;
-  currentSvg.querySelectorAll(".current, .route").forEach(el => {
-    el.classList.remove("current", "route");
+  currentSvg.querySelectorAll(".current, .target, .route").forEach(el => {
+    el.classList.remove("current", "target", "route");
   });
-  if (current?.roomId) {
-    const el = currentSvg.querySelector(`#room-${CSS.escape(current.roomId)}`);
+
+  // Primary indicator: target if prediction active, otherwise confirmed position.
+  const primary = target ?? current;
+  if (primary?.roomId) {
+    const el = currentSvg.querySelector(`#room-${CSS.escape(primary.roomId)}`);
     if (el) {
-      el.classList.add("current");
+      el.classList.add("target");
       // Multiple rooms can share the same coordinates (multi-floor buildings).
       // Move this element to the end of its layer so it paints on top.
       // Capture siblings before any moves (DOM order changes after appendChild).
@@ -251,6 +256,12 @@ function applyState() {
       }
     }
   }
+
+  // Ghost: confirmed position, only when it differs from the predicted target.
+  if (target && current?.roomId && current.roomId !== target.roomId) {
+    currentSvg.querySelector(`#room-${CSS.escape(current.roomId)}`)?.classList.add("current");
+  }
+
   for (const id of routeRoomIds) {
     currentSvg.querySelector(`#room-${CSS.escape(id)}`)?.classList.add("route");
   }
@@ -410,7 +421,8 @@ panel.on("room_info", async (frame) => {
       }
     }
   } else if (next !== null && currentSvg) {
-    centerOnRoom(next.x, next.y);  // zoom persists, only pan updates
+    // Pan follows target when prediction is active; otherwise follow confirmed.
+    if (!target) centerOnRoom(next.x, next.y);
   }
 
   if (next !== null) {
@@ -429,6 +441,21 @@ panel.on("route_set", (frame) => {
 
 panel.on("route_clear", () => {
   routeRoomIds = [];
+  applyState();
+});
+
+panel.on("target_move", (frame) => {
+  const next = resolveRoom(data, frame);
+  if (next !== null) next.roomId = frame.identifier ?? null;
+  // Only show target on the current map; cross-map prediction is invisible.
+  target = (next?.mapId === current?.mapId) ? next : null;
+  if (target && currentSvg) centerOnRoom(target.x, target.y);
+  applyState();
+});
+
+panel.on("target_clear", () => {
+  target = null;
+  if (current && currentSvg) centerOnRoom(current.x, current.y);
   applyState();
 });
 
@@ -462,6 +489,7 @@ panel.on("library_position", async (frame) => {
 panel.on("lspace", () => {
   lastKnownMapId = 47;
   current = null;
+  target  = null;
   updateHeader();
 });
 

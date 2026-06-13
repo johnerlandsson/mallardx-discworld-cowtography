@@ -17,8 +17,19 @@ local npcs      = require('data.npcs')
 local npc_items = require('data.npc_items')
 local exits     = require('data.exits')
 
+-- Invert exits into direction-keyed lookup: exits_by_dir[roomId][dir] = targetRoomId
+local exits_by_dir = {}
+for room_id, neighbors in pairs(exits) do
+  local by_dir = {}
+  for neighbor_id, dir in pairs(neighbors) do
+    by_dir[dir] = neighbor_id
+  end
+  exits_by_dir[room_id] = by_dir
+end
+
 local last_results  = {}
 local current_room  = nil
+local target_room   = nil  -- predicted position; nil when same as confirmed
 local room_id_echo  = false
 
 -- ─── Map panel ───────────────────────────────────────────────────────────────
@@ -45,6 +56,15 @@ end
 local function post_route_clear()
   last_route = nil
   panel:post("route_clear", {})
+end
+
+local function post_target_move(room_id)
+  panel:post("target_move", { identifier = room_id })
+end
+
+local function post_target_clear()
+  target_room = nil
+  panel:post("target_clear", {})
 end
 
 panel:on_message("ready", function()
@@ -200,11 +220,13 @@ end)
 -- GMCP never fires — we just discard the stale queue entry and clear any
 -- checkpoint left over from the previous successful move.
 mud.trigger([[^(?:> )?(?:What\?|That doesn't work\.|Try something else\.)\s*$]], function()
-  if not lib_in_library then return end
-  lib_checkpoint = nil
-  if #lib_move_queue > 0 then
-    table.remove(lib_move_queue, 1)
+  if lib_in_library then
+    lib_checkpoint = nil
+    if #lib_move_queue > 0 then
+      table.remove(lib_move_queue, 1)
+    end
   end
+  if target_room ~= nil then post_target_clear() end
 end)
 
 -- Distortion visible with known direction (fires when you look at the room).
@@ -266,6 +288,7 @@ local function reset_walk()
   walk_pos         = 0
   walk_target_name = ''
   post_route_clear()
+  post_target_clear()
 end
 
 seed_room()
@@ -277,6 +300,7 @@ world.on("disconnect", reset_walk)
 gmcp.on('room.info', function(_, data)
   if type(data) == 'table' and data.identifier then
     current_room = data.identifier
+    if target_room == current_room then post_target_clear() end
     if room_id_echo then note('  ' .. current_room, C.name) end
 
     -- UU Library: clear per-room overlays on each room transition.
@@ -394,6 +418,41 @@ local function display_results(search_type, query, results, sorted_by_dist)
   note('  <number>            — route and walk immediately.', C.muted)
   note('  dbroute <number>    — route and show on map first, then dbwalk.', C.muted)
 end
+
+-- ─── Movement prediction ─────────────────────────────────────────────────────
+-- Intercept cardinal directions to advance the predicted position (target_room)
+-- before GMCP confirms arrival — matching Quow's approach.
+
+local DIR_NORMALIZE = {
+  n='n', north='n', ne='ne', northeast='ne', e='e', east='e',
+  se='se', southeast='se', s='s', south='s', sw='sw', southwest='sw',
+  w='w', west='w', nw='nw', northwest='nw', u='u', up='u', d='d', down='d',
+}
+
+mud.alias([[^(n|ne|e|se|s|sw|w|nw|u|d|north|northeast|east|southeast|south|southwest|west|northwest|up|down)$]], function(m)
+  local dir  = DIR_NORMALIZE[m[1]]
+  local from = target_room or current_room
+  if from then
+    local by_dir = exits_by_dir[from]
+    if by_dir then
+      local next_id = by_dir[dir]
+      if next_id then
+        target_room = next_id
+        post_target_move(target_room)
+      end
+    end
+  end
+  mud.send(m[1])
+end)
+
+mud.alias([[^stop$]], function(m)
+  reset_walk()
+  mud.send(m.text)
+end)
+
+mud.trigger([[^(?:> )?Removed queue\.$]], function()
+  reset_walk()
+end)
 
 -- ─── dbsearch ────────────────────────────────────────────────────────────────
 
