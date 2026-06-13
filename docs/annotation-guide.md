@@ -52,6 +52,7 @@ Use the XML editor (Shift+Ctrl+X) to set the `class` attribute on elements.
 | `map-area-stroke` | Area outline (no fill) |
 | `map-water` | Water / river fill |
 | `map-accent` | Accent-coloured element |
+| `room-phantom` | Room present on Quow's map but absent from the DB (muted outline) |
 | `exit` | Room connection line |
 | `exit-offmap` | Dashed line to a cross-map exit label |
 | `exit-journey` | Inter-town journey path (muted colour, same weight as exit) |
@@ -74,6 +75,35 @@ Use the XML editor (Shift+Ctrl+X) to set the `class` attribute on elements.
 ## Colours in Inkscape
 
 Inkscape cannot resolve CSS variables (`var(--fg)` etc.), so fills and strokes will appear as black or missing. This is expected — font metrics and size are what matter for positioning. The theme colours are applied at runtime by the plugin.
+
+## Phantom Rooms
+
+Some rooms appear on Quow's original maps but are absent from the database. Draw these manually in `layer-artwork` using `class="room-phantom"` so they render in the muted theme colour rather than the normal foreground, making them visually distinct from DB-backed rooms.
+
+### Shapes and sizes
+
+Match the same dimensions as auto-generated rooms:
+
+| Type | Element | Attributes |
+|---|---|---|
+| Outdoor | `<circle>` | `r="4"` |
+| Indoor | `<rect>` | `width="8" height="8" x="cx-4" y="cy-4"` |
+| Compact outdoor | `<circle>` | `r="1.5"` |
+| Compact indoor | `<rect>` | `width="3" height="3" x="cx-1.5" y="cy-1.5"` |
+
+### Inkscape visibility
+
+Add these presentation attributes so the shape is visible while drawing:
+
+| Attribute | Value |
+|---|---|
+| `fill` | `#1a1a1a` |
+| `stroke` | `#888888` |
+| `stroke-width` | `0.5` |
+
+### Connecting phantom rooms
+
+Use `class="exit-journey"` lines in `layer-artwork` to connect phantom rooms to each other or to real rooms — they share the same muted colour and visual weight.
 
 ## City Signs
 
