@@ -412,7 +412,11 @@ panel.on("room_info", async (frame) => {
   if (current?.mapId === 47 && (next === null || next.mapId === 47)) return;
 
   if (next?.mapId !== displayedMapId) {
-    if (next?.mapId === 99) {
+    if (target?.mapId === displayedMapId) {
+      // Target already triggered a proactive load of the right map. This GMCP
+      // is a re-confirm of the old position (e.g. after an invalid direction)
+      // — don't reload the old map and undo the proactive switch.
+    } else if (next?.mapId === 99) {
       loadWorldDisc(next.x, next.y);
     } else if (next !== null) {
       try {
@@ -486,7 +490,12 @@ panel.on("target_move", async (frame) => {
 
 panel.on("target_clear", () => {
   target = null;
-  if (current && currentSvg) centerOnRoom(current.x, current.y);
+  // Only pan to confirmed position if it's on the map currently displayed.
+  // If we proactively loaded a new map, current is still on the old map and
+  // its coordinates are meaningless in the new map's SVG.
+  if (current && currentSvg && current.mapId === displayedMapId) {
+    centerOnRoom(current.x, current.y);
+  }
   applyState();
 });
 
