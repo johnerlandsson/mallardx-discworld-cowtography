@@ -31,6 +31,7 @@ let currentSvg     = null;  // <svg> element | null
 let routeRoomIds   = [];
 let libraryOverlay = null;  // { facing, distortion, orb } | null
 let lastKnownMapId = null;
+let displayedMapId = null;  // mapId of the SVG/canvas currently on screen
 let viewBox        = { x: 0, y: 0, w: 0, h: 0 };
 let drag           = null;  // { screenX, screenY, vbX, vbY } | null
 let loadGeneration = 0;
@@ -188,6 +189,7 @@ async function loadSvgMap(mapId, x, y) {
   resetZoom(mapId);
   viewBox.w *= prevZoomRatio;
   viewBox.h *= prevZoomRatio;
+  displayedMapId = mapId;
   centerOnRoom(x, y);
   wireTooltip();
 }
@@ -205,6 +207,7 @@ function loadWorldDisc(x, y) {
   imgEl.onload = () => { worldImg = imgEl; drawWorldDisc(x, y); };
   $container.insertBefore(imgEl, $lspace);
   $container.insertBefore(canvasEl, $lspace);
+  displayedMapId = 99;
 }
 
 function drawWorldDisc(x, y) {
@@ -408,7 +411,7 @@ panel.on("room_info", async (frame) => {
   // only process if the event signals leaving the library entirely.
   if (current?.mapId === 47 && (next === null || next.mapId === 47)) return;
 
-  if (mapDidChange(current, next)) {
+  if (next?.mapId !== displayedMapId) {
     if (next?.mapId === 99) {
       loadWorldDisc(next.x, next.y);
     } else if (next !== null) {
@@ -444,12 +447,40 @@ panel.on("route_clear", () => {
   applyState();
 });
 
-panel.on("target_move", (frame) => {
+panel.on("target_move", async (frame) => {
   const next = resolveRoom(data, frame);
   if (next !== null) next.roomId = frame.identifier ?? null;
-  // Only show target on the current map; cross-map prediction is invisible.
-  target = (next?.mapId === current?.mapId) ? next : null;
-  if (target && currentSvg) centerOnRoom(target.x, target.y);
+
+  if (next === null) {
+    target = null;
+    applyState();
+    return;
+  }
+
+  target = next;
+
+  if (next.mapId !== displayedMapId) {
+    // Target crossed a map boundary — proactively load the new map.
+    if (next.mapId === 99) {
+      loadWorldDisc(next.x, next.y);
+      target = null;  // world disc has no SVG room indicator
+    } else {
+      try {
+        await loadSvgMap(next.mapId, next.x, next.y);
+      } catch (e) {
+        console.error("[mapper] target_move map load failed:", e);
+        target = null;
+        return;
+      }
+      // Restore target only if GMCP hasn't already confirmed arrival
+      // (i.e. room_info hasn't updated current to this map yet).
+      if (current?.mapId !== next.mapId) {
+        target = next;
+      }
+    }
+  } else if (currentSvg) {
+    centerOnRoom(next.x, next.y);
+  }
   applyState();
 });
 
