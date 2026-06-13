@@ -48,6 +48,23 @@ const TARGET_PX    = 30;   // desired screen pixels between typical adjacent roo
 const roomUnits    = new Map();  // mapId → median nearest-neighbour distance
 const savedZoom    = new Map();  // mapId → last viewBox.w the user left it at
 
+const ZOOM_STORAGE_KEY = 'cowtography:zoom';
+
+// Pre-populate savedZoom from localStorage so zoom survives restarts.
+try {
+  const stored = JSON.parse(localStorage.getItem(ZOOM_STORAGE_KEY) ?? '{}');
+  for (const [k, v] of Object.entries(stored)) savedZoom.set(Number(k), v);
+} catch {}
+
+function persistZoom(mapId, w) {
+  savedZoom.set(mapId, w);
+  try {
+    const stored = JSON.parse(localStorage.getItem(ZOOM_STORAGE_KEY) ?? '{}');
+    stored[mapId] = w;
+    localStorage.setItem(ZOOM_STORAGE_KEY, JSON.stringify(stored));
+  } catch {}
+}
+
 // Compute median nearest-neighbour distance between rooms in an SVG.
 // Uses a sorted-x sweep so it stays fast even on large maps.
 function computeRoomUnit(svgEl) {
@@ -186,7 +203,7 @@ async function loadSvgMap(mapId, x, y) {
     if (unit) roomUnits.set(mapId, unit);
   }
   if (displayedMapId !== null && displayedMapId !== 99 && viewBox.w > 0) {
-    savedZoom.set(displayedMapId, viewBox.w);
+    persistZoom(displayedMapId, viewBox.w);
   }
   resetZoom(mapId);
   if (savedZoom.has(mapId)) {
@@ -200,6 +217,9 @@ async function loadSvgMap(mapId, x, y) {
 }
 
 function loadWorldDisc(x, y) {
+  if (displayedMapId !== null && displayedMapId !== 99 && viewBox.w > 0) {
+    persistZoom(displayedMapId, viewBox.w);
+  }
   clearContainer();
   currentSvg = null;
   const imgEl = document.createElement("img");
