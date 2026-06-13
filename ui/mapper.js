@@ -369,14 +369,11 @@ $zoomOut.addEventListener("click", () => { viewBox.w *= ZOOM_FACTOR; viewBox.h *
 $container.addEventListener("wheel", (e) => {
   if (!currentSvg) return;
   e.preventDefault();
-  const rect   = $container.getBoundingClientRect();
-  const px     = (e.clientX - rect.left) / rect.width;
-  const py     = (e.clientY - rect.top)  / rect.height;
   const factor = e.deltaY > 0 ? ZOOM_FACTOR : 1 / ZOOM_FACTOR;
   const newW   = viewBox.w * factor;
   const newH   = viewBox.h * factor;
-  viewBox.x   += px * (viewBox.w - newW);
-  viewBox.y   += py * (viewBox.h - newH);
+  viewBox.x   += 0.5 * (viewBox.w - newW);
+  viewBox.y   += 0.5 * (viewBox.h - newH);
   viewBox.w    = newW;
   viewBox.h    = newH;
   applyViewBox();
