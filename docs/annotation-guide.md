@@ -57,6 +57,7 @@ Use the XML editor (Shift+Ctrl+X) to set the `class` attribute on elements.
 | `exit-journey` | Inter-town journey path (muted colour, same weight as exit) |
 | `exit-journey-offmap` | Journey path exiting off-map (muted, dashed) |
 | `map-river` | River or stream line (water blue, same weight as exit) |
+| `map-river-offmap` | River exiting off-map (water blue, dashed) |
 
 ### UU Library
 
