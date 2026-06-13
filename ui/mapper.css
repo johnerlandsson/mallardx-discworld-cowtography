@@ -82,7 +82,7 @@ body {
 .map-label-warning  { fill: #cf4444; }
 .exit-journey        { stroke: var(--muted); stroke-width: 1.82; fill: none; }
 .exit-journey-offmap { stroke: var(--muted); stroke-width: 1.82; stroke-dasharray: 3 2; fill: none; }
-.exit-ferry          { stroke: #4a9fd4; stroke-width: 1.82; stroke-dasharray: 0 4; stroke-linecap: round; fill: none; }
+.exit-ferry          { stroke: #a8d8f0; stroke-width: 1.82; stroke-dasharray: 0 4; stroke-linecap: round; fill: none; }
 .map-river           { stroke: #0d1f2d;      stroke-width: 1.82; fill: none; }
 .map-river-offmap    { stroke: #0d1f2d;      stroke-width: 1.82; stroke-dasharray: 3 2; fill: none; }
 .lib-exit     { stroke-width: 3; }
