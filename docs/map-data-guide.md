@@ -86,6 +86,38 @@ Compact rooms are slightly transparent (`opacity: 0.7`) to further reduce visual
 
 ---
 
+## room-danger.json
+
+**File:** `ui/data/room-danger.json`
+
+Marks rooms that are in a dangerous area. Danger rooms render with a dark red fill and red stroke (`.room.danger`); exits between two danger rooms get a darker red stroke (`.exit-danger`).
+
+**Format:**
+
+```json
+["<room_id>", "<room_id>", ...]
+```
+
+**Finding room IDs:** Same as `room-compact.json` — search the SVG for the room's `data-label`, read the `id` attribute, strip the `room-` prefix. Alternatively, use the `dbid` alias in-game to print IDs as you walk the area.
+
+**Example:**
+
+```json
+[
+  "a3f1c2d4e5b6a7c8d9e0f1a2b3c4d5e6f7a8b9c0",
+  "1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c"
+]
+```
+
+**Notes:**
+
+- An exit only gets `.exit-danger` colouring when **both** endpoints are in `room-danger.json`.
+- Danger rooms can still carry a type from `room-types.json` — the type letter renders inside the red room shape.
+- For red warning text in hand-crafted SVG labels, use the `map-label-warning` CSS class (see annotation guide).
+- Rebuild with `npm run build:svg && npm run sync:svg` after editing.
+
+---
+
 ## exit-exclude.json
 
 **File:** `ui/data/exit-exclude.json`

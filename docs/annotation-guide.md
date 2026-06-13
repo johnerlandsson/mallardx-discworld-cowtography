@@ -39,6 +39,7 @@ Use the XML editor (Shift+Ctrl+X) to set the `class` attribute on elements.
 | `map-label` | Standard label (place name, note) | 10px |
 | `map-label-muted` | Secondary / de-emphasised label | 10px |
 | `map-label-accent` | Strong highlight (accent colour) | 10px |
+| `map-label-warning` | Danger / caution label (red) | 10px |
 
 ### Geometry
 
