@@ -1213,7 +1213,7 @@
     <rect id="room-0dcb5461b7f0d813990ee4a8fed0cce13c01a486" class="room indoor room-food" data-label="inside a tavern" x="84" y="303" width="8" height="8" rx="2"/><text class="room-type-label" x="88" y="307" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-9f9ad0609ba1d68fbf00237c1894800981efd8e7" class="room indoor" data-label="stairwell in the Thousand and Two Nights of Ephebe bar" x="19" y="309" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="23,310 25.5,313 23,316 20.5,313"/>
     <rect id="room-b8aa559f6f6673b65ec5b4d0f2db46f21ccc3263" class="room indoor" data-label="the top of a stairwell" x="18" y="282" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="22,289 19.5,284 24.5,284"/>
-    <circle id="room-e29478ba510826921366bdb5bd3c6e3266a2685a" class="room outdoor room-food" data-label="The Grove That Is Or Maybe Isn&#x27;t Bar and Roof Garden" cx="35" cy="286" r="4"/><text class="room-type-label" x="35" y="286" text-anchor="middle" dominant-baseline="central">F</text>
+    <circle id="room-e29478ba510826921366bdb5bd3c6e3266a2685a" class="room outdoor" data-label="The Grove That Is Or Maybe Isn&#x27;t Bar and Roof Garden" cx="35" cy="286" r="4"/>
     <circle id="room-879b9bbb632a3ead8c92752bfadb0682d4aa9b34" class="room outdoor" data-label="sheltered roof garden" cx="35" cy="299" r="4"/>
     <circle id="room-7e95e73b9e75def577ac0a62285f7c5cad53fd6d" class="room outdoor" data-label="sheltered roof garden" cx="22" cy="299" r="4"/>
     <circle id="room-3230c8a2cd372fad2dd09317ec8a604c343e06d2" class="room outdoor" data-label="sun-kissed atrium" cx="34" cy="324" r="4"/>
@@ -1344,7 +1344,7 @@
     <circle id="room-249516d50658339381c889f5636c68f24a4aefc2" class="room outdoor green" data-label="in an olive grove in the Slouching Gardens of Ephebe" cx="183" cy="391" r="4"/>
     <circle id="room-bad3702c30c3e459578d4e400abac17fd4942e07" class="room outdoor" data-label="Street of Enlightenment looking out to a school of Philosophy" cx="183" cy="377" r="4"/>
     <circle id="room-a8eb69a5c5653dc937b404eafa422f55137a7239" class="room outdoor green" data-label="Slouching Gardens of Ephebe, surrounded by olive bush hedges" cx="183" cy="363" r="4"/>
-    <circle id="room-ba391c66c1bbe2129a19e74e8e1f319433850ee5" class="room outdoor room-shop green" data-label="Slouching Gardens of Ephebe, southwest of the citadel" cx="169" cy="349" r="4"/><text class="room-type-label" x="169" y="349" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-ba391c66c1bbe2129a19e74e8e1f319433850ee5" class="room outdoor green" data-label="Slouching Gardens of Ephebe, southwest of the citadel" cx="169" cy="349" r="4"/>
     <circle id="room-b7c26d7618c78ffe84d5c5fe17b31dd486e29362" class="room outdoor green" data-label="Street of Enlightenment looking out to a school of Philosophy" cx="169" cy="363" r="4"/>
     <circle id="room-c156d8285f4ab8a1989b2a65598fa5ac003d910d" class="room outdoor green" data-label="edge of an olive grove in the Slouching Gardens of Ephebe" cx="169" cy="377" r="4"/>
     <circle id="room-43f31c65b2f7da293bd00b7ee6815a05505c8ca8" class="room outdoor green" data-label="Slouching Gardens of Ephebe just outside the entrance to the Ehdnomein Atheneum of Reductive Analysis" cx="155" cy="363" r="4"/>
@@ -1398,7 +1398,7 @@
     <circle id="room-fd22e2172fb1d3ef7166a1cc2c0393acf87455d2" class="room outdoor room-shop" data-label="fruit-filled stretch of the Harbour Market" cx="365" cy="321" r="4"/><text class="room-type-label" x="365" y="321" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-94f986a0406245601ec2a775e927ce7b65cf9253" class="room outdoor room-food" data-label="bakery stall in the Harbour Market by a wizened little orange tree" cx="379" cy="321" r="4"/><text class="room-type-label" x="379" y="321" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-b99cd0863d149ba9eb077718faf45ab23650ac06" class="room outdoor room-shop" data-label="coffee-scented area of the Harbour Market near a round marble-topped bench" cx="393" cy="321" r="4"/><text class="room-type-label" x="393" y="321" text-anchor="middle" dominant-baseline="central">S</text>
-    <circle id="room-afbc05497b3f6d1b05014d5813a4a644b8181e2f" class="room outdoor room-shop" data-label="strange amphora-and-weaponry garden at the edge of the Harbour Market" cx="407" cy="321" r="4"/><text class="room-type-label" x="407" y="321" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-afbc05497b3f6d1b05014d5813a4a644b8181e2f" class="room outdoor" data-label="strange amphora-and-weaponry garden at the edge of the Harbour Market" cx="407" cy="321" r="4"/>
     <circle id="room-703b13dda8682ed5a9758030a2f1796f1fda3095" class="room outdoor" data-label="Impartiality Avenue by a Morporkian tea room" cx="421" cy="321" r="4"/>
     <rect id="room-5e973e9d4cb24c6e3853f0f7d8d867d9568220f8" class="room indoor room-food" data-label="tea shop" x="428" y="317" width="8" height="8" rx="2"/><text class="room-type-label" x="432" y="321" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-00b7f14f73dbd0b5608d958d43b8bc541aead94d" class="room outdoor" data-label="junction of Dockside Walk and Impartiality Avenue" cx="435" cy="307" r="4"/>

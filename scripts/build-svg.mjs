@@ -71,16 +71,24 @@ function classifyShopItems(items) {
   return winner
 }
 
+// Room names matching these patterns are excluded from shop auto-detection.
+// Gardens contain harvestable items in shop_items but are not shops.
+// Exception: names also containing 'shop' are kept (e.g. "garden shop").
+const SHOP_NAME_EXCLUDE = [
+  (name) => /garden/i.test(name) && !/shop/i.test(name),
+]
+
 export function queryShopTypes(db, mapId, overrides = {}) {
   const rows = db.prepare(`
-    SELECT si.room_id, si.item_name
+    SELECT si.room_id, si.item_name, r.room_short
     FROM shop_items si
     JOIN rooms r ON si.room_id = r.room_id
     WHERE r.map_id = ?
   `).all(mapId)
 
   const roomItems = new Map()
-  for (const { room_id, item_name } of rows) {
+  for (const { room_id, item_name, room_short } of rows) {
+    if (SHOP_NAME_EXCLUDE.some(fn => fn(room_short ?? ''))) continue
     if (!roomItems.has(room_id)) roomItems.set(room_id, [])
     roomItems.get(room_id).push(item_name)
   }

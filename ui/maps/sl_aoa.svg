@@ -54,10 +54,10 @@
     <rect id="room-4d9ac13d2ce254076d296b189dd3d3e73a824a61" class="room indoor room-shop" data-label="Cat and Fiddle Coffee Shop" x="19" y="131" width="8" height="8" rx="2"/><text class="room-type-label" x="23" y="135" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-a94bfd42dbfda19146f2aa4987d8168efdf5a5e0" class="room indoor room-food" data-label="Hammered Anvil Student Deli" x="19" y="155" width="8" height="8" rx="2"/><text class="room-type-label" x="23" y="159" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-a4916638726b48abc1fffe19bd1026f538662c07" class="room indoor" data-label="hall" x="43" y="155" width="8" height="8" rx="2"/>
-    <circle id="room-776fb02306d6c603b49943cf6e13313f897c1f8a" class="room outdoor room-shop green" data-label="overgrown garden" cx="47" cy="185" r="4"/><text class="room-type-label" x="47" y="185" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-776fb02306d6c603b49943cf6e13313f897c1f8a" class="room outdoor green" data-label="overgrown garden" cx="47" cy="185" r="4"/>
     <circle id="room-d9ce01056f6eb615108c89d4e1fe0a699d80bb8c" class="room outdoor green" data-label="overgrown garden" cx="75" cy="185" r="4"/>
     <circle id="room-119deeebd60c3dbef0fc8fca7291771be154467f" class="room outdoor green" data-label="overgrown garden" cx="75" cy="213" r="4"/>
-    <circle id="room-78af4dbf51cb732d3cc9205c4a85004e24a8028f" class="room outdoor room-shop green" data-label="overgrown garden" cx="19" cy="185" r="4"/><text class="room-type-label" x="19" y="185" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-78af4dbf51cb732d3cc9205c4a85004e24a8028f" class="room outdoor green" data-label="overgrown garden" cx="19" cy="185" r="4"/>
     <circle id="room-852de57fb75873893821373555a39bd202f55aa6" class="room outdoor green" data-label="overgrown garden" cx="19" cy="213" r="4"/>
     <circle id="room-cff86225cc9ea639c7a576735ac57ebfa15d18a7" class="room outdoor green" data-label="overgrown garden" cx="19" cy="241" r="4"/>
     <circle id="room-8c3733c176e3dbde537b1eb401e89246412fbe34" class="room outdoor green" data-label="overgrown garden" cx="47" cy="241" r="4"/>

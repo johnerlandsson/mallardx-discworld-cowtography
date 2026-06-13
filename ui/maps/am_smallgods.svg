@@ -153,7 +153,7 @@
     <circle id="room-c96a1222edd608455413dd81be109c6441e05628" class="room outdoor" data-label="northern part of the temple gardens" cx="343" cy="224" r="4"/>
     <circle id="room-53bbbeac657eb23cca7dda93d208b34b30953941" class="room outdoor" data-label="small garden" cx="343" cy="196" r="4"/>
     <circle id="room-18c958313f70590bbeb5102dfde60f196007cd6b" class="room outdoor" data-label="middle part of the Temple gardens" cx="343" cy="267" r="4"/>
-    <circle id="room-802aab6a05b134188dfc8540c0526b74a7521078" class="room outdoor room-shop" data-label="bottom part of the Temple gardens" cx="290" cy="320" r="4"/><text class="room-type-label" x="290" y="320" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-802aab6a05b134188dfc8540c0526b74a7521078" class="room outdoor" data-label="bottom part of the Temple gardens" cx="290" cy="320" r="4"/>
     <rect id="room-26fce4c5b58cfacfdc3039b5e38b8fc1cf275129" class="room indoor" data-label="southernmost point of the southern corridor" x="217" y="316" width="8" height="8" rx="2"/>
     <rect id="room-13c33a2610639d0964b07ea27c650c46c2bb2434" class="room indoor room-clothes" data-label="relic shop" x="217" y="340" width="8" height="8" rx="2"/><text class="room-type-label" x="221" y="344" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-96fbb85b40e6b5bf50eaea8f3da113a432a0b7a2" class="room indoor room-shop" data-label="Temple furniture shop" x="193" y="316" width="8" height="8" rx="2"/><text class="room-type-label" x="197" y="320" text-anchor="middle" dominant-baseline="central">S</text>

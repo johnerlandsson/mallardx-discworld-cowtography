@@ -63,7 +63,7 @@
     <rect id="room-795b66503f2575895150d078cb8f42d7065fc38a" class="room indoor room-food" data-label="Beard and Badger" x="40" y="71" width="8" height="8" rx="2"/><text class="room-type-label" x="44" y="75" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-8f19a7ebbef505bb2e5803a318f3cff2bbe5b9b4" class="room outdoor" data-label="garden of the Beard and Badger" cx="33" cy="75" r="4"/>
     <rect id="room-5971d2fff7558b7b9992832b15d4690389123f9d" class="room indoor" data-label="kitchen of the Beard and Badger" x="40" y="60" width="8" height="8" rx="2"/>
-    <circle id="room-dbe91b4395adce5e7969a90f5a5a40468c57ab66" class="room outdoor room-shop" data-label="kitchen garden of the Beard and Badger" cx="33" cy="64" r="4"/><text class="room-type-label" x="33" y="64" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-dbe91b4395adce5e7969a90f5a5a40468c57ab66" class="room outdoor" data-label="kitchen garden of the Beard and Badger" cx="33" cy="64" r="4"/>
     <circle id="room-554347c9d007fcbde57c82f53c156469588bb710" class="room outdoor" data-label="path to the mines" cx="83" cy="75" r="4"/>
     <circle id="room-5b5c6ad5183c287d4d87e00df3ecf6e663a88c64" class="room outdoor" data-label="path to the mines" cx="83" cy="89" r="4"/>
     <circle id="room-204e80045f0e590c57df02bea7f79469606178ba" class="room outdoor" data-label="entrance to a tunnel" cx="97" cy="103" r="4"/>

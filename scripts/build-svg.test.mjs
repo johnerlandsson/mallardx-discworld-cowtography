@@ -934,6 +934,21 @@ describe('queryShopTypes', () => {
     expect(queryShopTypes(db, 1, { 'r1': 'pshop' }).get('r1')).toBe('pshop')
   })
 
+  it('excludes garden rooms with harvestable items from shop detection', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'neat herb garden')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'some comfrey', '')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'some yarrow', '')").run()
+    expect(queryShopTypes(db, 1).has('r1')).toBe(false)
+  })
+
+  it('keeps "garden shop" as a real shop despite garden in name', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'garden shop')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'rake', '')").run()
+    expect(queryShopTypes(db, 1).get('r1')).toBe('shop')
+  })
+
   it('skips and warns for unknown override type', () => {
     const db = makeDb()
     db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'Room')").run()

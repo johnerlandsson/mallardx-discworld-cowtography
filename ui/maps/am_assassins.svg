@@ -211,7 +211,7 @@
     <rect id="room-4152baae76ee1f2f769f20750b92a6e76a057c54" class="room indoor room-shop" data-label="mess hall" x="425" y="197" width="8" height="8" rx="2"/><text class="room-type-label" x="429" y="201" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-ae0d5ff7bc892f4dc509065488c37ea6db60cfa6" class="room indoor" data-label="kitchen" x="397" y="197" width="8" height="8" rx="2"/>
     <rect id="room-01db7996935a23286d04aacb77f3098f0d5d91fd" class="room indoor" data-label="kitchen" x="397" y="169" width="8" height="8" rx="2"/>
-    <circle id="room-8e635a131a61d0c068374857d6b656f73c43bbc9" class="room outdoor room-shop" data-label="garden" cx="373" cy="173" r="4"/><text class="room-type-label" x="373" y="173" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-8e635a131a61d0c068374857d6b656f73c43bbc9" class="room outdoor" data-label="garden" cx="373" cy="173" r="4"/>
     <rect id="room-cd38dfdbb2c1ad96db123fa0771d5e309242bc71" class="room indoor" data-label="Liming Corridor" x="453" y="197" width="8" height="8" rx="2"/>
     <rect id="room-e08eefdc3742d59c063ada3f42529010e595350a" class="room indoor" data-label="Liming Corridor" x="453" y="169" width="8" height="8" rx="2"/>
     <rect id="room-d7c250b0e04dcc3d1b0cbed8ba699e05d30dfb07" class="room indoor" data-label="games room" x="481" y="169" width="8" height="8" rx="2"/>

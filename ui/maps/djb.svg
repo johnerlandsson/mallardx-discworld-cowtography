@@ -1084,7 +1084,7 @@
     <rect id="room-aa99fe08e2ce2e0a66364ace1ccaaca4e259008f" class="room indoor" data-label="corridor in the palace" x="423" y="58" width="8" height="8" rx="2"/>
     <circle id="room-149f478ff7d603ca007098bb7023c7524171ef6d" class="room outdoor green" data-label="northwestern corner of a garden in the palace" cx="438" cy="62" r="4"/>
     <circle id="room-0591edf9cc3a92004e22bed8cc6f39b2b841e442" class="room outdoor green" data-label="northeastern corner of a garden in the palace" cx="452" cy="62" r="4"/>
-    <circle id="room-a47780ba201051c25b836f8cb7e464e5a7ff53d2" class="room outdoor room-shop green" data-label="eastern part of a garden in the palace" cx="452" cy="76" r="4"/><text class="room-type-label" x="452" y="76" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-a47780ba201051c25b836f8cb7e464e5a7ff53d2" class="room outdoor green" data-label="eastern part of a garden in the palace" cx="452" cy="76" r="4"/>
     <circle id="room-00e78d8a420275a9cbe728b9994562b53991318d" class="room outdoor green" data-label="southeastern corner of a garden in the palace" cx="452" cy="90" r="4"/>
     <circle id="room-4bf4909bc6dbfa695e0ebb5e2829ab3cceee4824" class="room outdoor green" data-label="southwestern corner of a garden in the palace" cx="438" cy="90" r="4"/>
     <circle id="room-7b1bf0b285b8001a7afa82aa25573c05ed930913" class="room outdoor green" data-label="western part of a garden in the palace" cx="438" cy="76" r="4"/>
@@ -1174,13 +1174,13 @@
     <rect id="room-685a7cfd25c6a0857dce9a74b592416652bae2f6" class="room indoor" data-label="music room" x="763" y="199" width="8" height="8" rx="2"/>
     <circle id="room-089cef318dfce17a456672e3fedfbb980ab1b241" class="room outdoor green" data-label="garden" cx="767" cy="217" r="4"/>
     <circle id="room-0c54568c478f13eb43a737874d22dc7e780005b8" class="room outdoor green" data-label="garden" cx="781" cy="217" r="4"/>
-    <circle id="room-f3407a03a8c2a60e82c264e34e6c28e75169f48e" class="room outdoor room-shop green" data-label="garden" cx="795" cy="217" r="4"/><text class="room-type-label" x="795" y="217" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-f3407a03a8c2a60e82c264e34e6c28e75169f48e" class="room outdoor green" data-label="garden" cx="795" cy="217" r="4"/>
     <circle id="room-71b9b9ec21c20ca8b3a224091caf611335abe128" class="room outdoor green" data-label="garden" cx="795" cy="231" r="4"/>
     <circle id="room-d2fb8aa8dd8e47d23af2dc773fa6c0719babe72e" class="room outdoor green" data-label="garden" cx="795" cy="245" r="4"/>
     <circle id="room-4d4ca7f290d68bd7c4af531336195cccb352ae20" class="room outdoor green" data-label="garden" cx="781" cy="245" r="4"/>
     <circle id="room-6202984c4d662216895a50056c9fb9fe6b227cc9" class="room outdoor green" data-label="edge of the pond" cx="781" cy="231" r="4"/>
     <circle id="room-c629d5fa8c4b6bde2729220a68b74362dc315224" class="room outdoor green" data-label="garden" cx="767" cy="231" r="4"/>
-    <circle id="room-ac7c0afe1be011cfbda0f6e521ac5b583cc0031e" class="room outdoor room-shop green" data-label="garden" cx="767" cy="245" r="4"/><text class="room-type-label" x="767" y="245" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-ac7c0afe1be011cfbda0f6e521ac5b583cc0031e" class="room outdoor green" data-label="garden" cx="767" cy="245" r="4"/>
     <rect id="room-18a80352818fec449e783fd777d6ec1bbda36921" class="room indoor" data-label="upstairs hallway" x="880" y="227" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="884,234 881.5,229 886.5,229"/>
     <rect id="room-6335209f7382ee72baff7256c5fb62ab9ada290d" class="room indoor" data-label="conservatory" x="880" y="213" width="8" height="8" rx="2"/>
     <rect id="room-2a7768fa86ce8729af09aa7c1aa74b39a32e4a5b" class="room indoor" data-label="bedroom" x="880" y="199" width="8" height="8" rx="2"/>

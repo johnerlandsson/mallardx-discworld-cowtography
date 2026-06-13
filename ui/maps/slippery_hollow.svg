@@ -233,10 +233,10 @@
     <circle id="room-e33e36371d0f945bb17755b4d4e92d7fdcb96ffa" class="room outdoor" data-label="wooden humpback bridge" cx="243" cy="207" r="4"/>
     <circle id="room-52c70f41906ee625fc59300631e4f59483bda867" class="room outdoor" data-label="start of a narrow road" cx="243" cy="221" r="4"/>
     <rect id="room-23a1d332e63692f0dd5e6d98c5f45e66c162d054" class="room indoor" data-label="small cottage" x="253" y="175" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="257,176 254.5,181 259.5,181"/>
-    <circle id="room-e910d2a21a9dae37b36cd7a815f0a76ae2214028" class="room outdoor room-shop" data-label="cottage garden" cx="257" cy="165" r="4"/><text class="room-type-label" x="257" y="165" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-e910d2a21a9dae37b36cd7a815f0a76ae2214028" class="room outdoor" data-label="cottage garden" cx="257" cy="165" r="4"/>
     <rect id="room-a3bcc5f75fdef6bfedae5e33199c33f343b59595" class="room indoor" data-label="bedroom in a small cottage" x="253" y="175" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="257,182 254.5,177 259.5,177"/>
     <rect id="room-9c0c9cffd7093ebe6e398dad260e63b2c82dde70" class="room indoor" data-label="cosy cottage" x="225" y="161" width="8" height="8" rx="2"/>
-    <circle id="room-8c7d454948b3d3ea7f1f35db1626c53d674b8351" class="room outdoor room-shop" data-label="messy garden" cx="229" cy="179" r="4"/><text class="room-type-label" x="229" y="179" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-8c7d454948b3d3ea7f1f35db1626c53d674b8351" class="room outdoor" data-label="messy garden" cx="229" cy="179" r="4"/>
     <rect id="room-407c93295eef354ca07fcad97b0571d0d552228f" class="room indoor room-food" data-label="Black Aliss&#x27;s Gingerbread Shop" x="211" y="147" width="8" height="8" rx="2"/><text class="room-type-label" x="215" y="151" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-8a5949bee2b4d9f905da8aa99b191555b47b138d" class="room indoor" data-label="small cottage" x="200" y="133" width="8" height="8" rx="2"/>
     <circle id="room-6c9f1245393535ab006813cf9ab4e62bee13b94c" class="room outdoor" data-label="crossroads in Slippery Hollow" cx="215" cy="123" r="4"/>

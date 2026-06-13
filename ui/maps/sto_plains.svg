@@ -1376,8 +1376,8 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-b8580e89f4d87400834a9ed422c9ce9e6be32886" class="room indoor" data-label="bedroom" x="1000" y="234" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="1004,241 1001.5,236 1006.5,236"/>
     <rect id="room-115dbffe1eb63041141d3a2cf936d05a96960056" class="room indoor" data-label="spinning room" x="1000" y="224" width="8" height="8" rx="2"/>
     <rect id="room-1ed9614e3a58eba9b63ebce789078e0caebaea64" class="room indoor" data-label="sitting room" x="988" y="245" width="8" height="8" rx="2"/>
-    <circle id="room-02e09d867f05b5126f88e4b507ef9123ab673afa" class="room outdoor room-shop green" data-label="southeast garden" cx="992" cy="238" r="4"/><text class="room-type-label" x="992" y="238" text-anchor="middle" dominant-baseline="central">S</text>
-    <circle id="room-bcd50cde5a44e52149f00bb181c590736a9a73ed" class="room outdoor room-shop green" data-label="northeast garden" cx="992" cy="224" r="4"/><text class="room-type-label" x="992" y="224" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-02e09d867f05b5126f88e4b507ef9123ab673afa" class="room outdoor green" data-label="southeast garden" cx="992" cy="238" r="4"/>
+    <circle id="room-bcd50cde5a44e52149f00bb181c590736a9a73ed" class="room outdoor green" data-label="northeast garden" cx="992" cy="224" r="4"/>
     <circle id="room-a299dd1bca63b73e3b4eb870328cae3d1749697a" class="room outdoor green" data-label="northwest garden" cx="978" cy="224" r="4"/>
     <circle id="room-8af5d75af64282d864fed4feeca68f9220af283c" class="room outdoor green" data-label="southwest garden" cx="978" cy="238" r="4"/>
     <circle id="room-a1215b56cd013ae9a9a4e8c72af0ae14329bc617" class="room outdoor room-shop green" data-label="old tree" cx="964" cy="252" r="4"/><text class="room-type-label" x="964" y="252" text-anchor="middle" dominant-baseline="central">S</text>
@@ -1475,7 +1475,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-e539de99fe5d0aa4a7f14ba4b7faed6134e5d6e3" class="room outdoor" data-label="small muddy path" cx="864" cy="390" r="4"/>
     <circle id="room-062cc94b036b942caed0aaecfa49b589ef831da3" class="room outdoor" data-label="small muddy path" cx="864" cy="376" r="4"/>
     <circle id="room-51ca304a63188a29e738aba64279e1e41e4be5aa" class="room outdoor" data-label="small muddy path" cx="864" cy="362" r="4"/>
-    <circle id="room-547739d494f769f669f12e1eec482db5f970f391" class="room outdoor room-shop" data-label="farmhouse garden" cx="850" cy="390" r="4"/><text class="room-type-label" x="850" y="390" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-547739d494f769f669f12e1eec482db5f970f391" class="room outdoor" data-label="farmhouse garden" cx="850" cy="390" r="4"/>
     <rect id="room-91d21c68931c722414f0777e12ad26ba8767bb37" class="room indoor" data-label="farmhouse kitchen" x="830" y="386" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="834,387 831.5,392 836.5,392"/>
     <rect id="room-d26df594f5a872ad2a6d1dc802f204c3d4dc0929" class="room indoor" data-label="farmhouse bedroom" x="840" y="375" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="844,382 841.5,377 846.5,377"/>
     <rect id="room-3a03e774b9c62f3777cefa45078c2336e5ad0295" class="room indoor" data-label="farmhouse parlour" x="830" y="375" width="8" height="8" rx="2"/>
