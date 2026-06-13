@@ -62,9 +62,11 @@ local function post_target_move(room_id)
   panel:post("target_move", { identifier = room_id })
 end
 
-local function post_target_clear()
+-- snap=true: pan the view back to the confirmed position (used when stopping
+-- mid-route). snap=false (default): room_info will pan, no need to do it here.
+local function post_target_clear(snap)
   target_room = nil
-  panel:post("target_clear", {})
+  panel:post("target_clear", { snap = snap == true })
 end
 
 panel:on_message("ready", function()
@@ -290,7 +292,7 @@ local function reset_walk()
   walk_pos         = 0
   walk_target_name = ''
   post_route_clear()
-  post_target_clear()
+  post_target_clear(true)  -- snap view back; no room_info is coming
 end
 
 seed_room()

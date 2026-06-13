@@ -488,12 +488,12 @@ panel.on("target_move", async (frame) => {
   applyState();
 });
 
-panel.on("target_clear", () => {
+panel.on("target_clear", (frame) => {
   target = null;
-  // Only pan to confirmed position if it's on the map currently displayed.
-  // If we proactively loaded a new map, current is still on the old map and
-  // its coordinates are meaningless in the new map's SVG.
-  if (current && currentSvg && current.mapId === displayedMapId) {
+  // Only snap view to confirmed position when explicitly requested (e.g. stop
+  // mid-route). When the prediction simply caught up, room_info fires next and
+  // handles panning — snapping here causes the "new → old → new" visual glitch.
+  if (frame.snap && current && currentSvg && current.mapId === displayedMapId) {
     centerOnRoom(current.x, current.y);
   }
   applyState();
