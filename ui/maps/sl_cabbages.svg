@@ -1,11 +1,95 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 341 360"
-     class="map-svg"
-     data-map-id="41">
-
-  <g id="layer-artwork"><!-- artwork --></g>
-
-  <g id="layer-exits">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 341 360"
+   class="map-svg"
+   data-map-id="41"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="sl_cabbages.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <style id="inkscape-font-fix">
+text, .map-label, .map-label-muted, .map-label-accent,
+.lib-table, .lib-gap-label, .lib-book-label,
+.lib-row-num, .lib-book-list, .room-type-label {
+  font-family: "Noto Sans", sans-serif;
+}
+</style>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.5713484"
+     inkscape:cx="299.74256"
+     inkscape:cy="171.19055"
+     inkscape:window-width="1968"
+     inkscape:window-height="1011"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer-artwork" />
+  <g
+     id="layer-artwork">
+    <!-- artwork -->
+    <text
+       xml:space="preserve"
+       x="24.363499"
+       y="94.145004"
+       id="text134-4-6-9-4-9"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="24.363499"
+         y="94.145004"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan134-7-4-2-0-4">TO A NICE ALLEY</tspan></text>
+    <path
+       d="M 60,92 H 48.4875"
+       id="path1"
+       class="exit-offmap" />
+    <text
+       xml:space="preserve"
+       x="155.84999"
+       y="77.344009"
+       id="text1"
+       class="map-label-warning"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="155.84999"
+         y="77.344009"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan1">KILLER CABBAGES</tspan></text>
+    <text
+       xml:space="preserve"
+       x="182.97"
+       y="252.145"
+       id="text2"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="182.97"
+         y="252.145"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan2">RAFTERS</tspan></text>
+  </g>
+  <g
+     id="layer-exits">
     <line id="edge-c1d633be3697cdef18780c5cbca5f10354b7300c-d9003e3939c92816b37eabefecef2fa08b778d19" class="exit" x1="60" y1="92" x2="80" y2="93"/>
     <line id="edge-6f5a1ec44692592947f1dd6ed7d693b106e893e2-d9003e3939c92816b37eabefecef2fa08b778d19" class="exit" x1="80" y1="112" x2="80" y2="93"/>
     <line id="edge-bb0986a601493c056bec6338a4bf44fc2fdc60fe-d9003e3939c92816b37eabefecef2fa08b778d19" class="exit" x1="80" y1="73" x2="80" y2="93"/>
@@ -74,8 +158,8 @@
     <line id="edge-0293faf20b87da5c0564862bc7905819bf1add13-19f61e44e91eef3eb9ffad85c2dcb41a355d7197" class="exit" x1="325" y1="274" x2="301" y2="274"/>
     <line id="edge-1f818b79d7e1f35ba0f6b9f98541a4083d9a1588-99d1ceed6b6c0dd26b83ff6a9325575933beaacf" class="exit" x1="325" y1="226" x2="301" y2="226"/>
   </g>
-
-  <g id="layer-rooms">
+  <g
+     id="layer-rooms">
     <rect id="room-c1d633be3697cdef18780c5cbca5f10354b7300c" class="room indoor" data-label="warehouse loading dock" x="56" y="88" width="8" height="8" rx="2"/>
     <rect id="room-d9003e3939c92816b37eabefecef2fa08b778d19" class="room indoor" data-label="warehouse inside" x="76" y="89" width="8" height="8" rx="2"/>
     <rect id="room-6f5a1ec44692592947f1dd6ed7d693b106e893e2" class="room indoor" data-label="office in a cabbage warehouse" x="76" y="108" width="8" height="8" rx="2"/>
@@ -144,9 +228,10 @@
     <rect id="room-931ad2b48e46f7e0d5ad9e21fbcc978bb403d9cd" class="room indoor" data-label="rafters high above the floor of a cabbage warehouse" x="225" y="246" width="8" height="8" rx="2"/>
     <rect id="room-64b31ad0f1ae7e59e3eff091352885bb534db323" class="room indoor" data-label="secret attic in the warehouse" x="273" y="318" width="8" height="8" rx="2"/>
   </g>
-
-
-  <g id="layer-room-labels"></g>
-  <g id="layer-labels"><!-- labels --></g>
-
+  <g
+     id="layer-room-labels" />
+  <g
+     id="layer-labels">
+    <!-- labels -->
+  </g>
 </svg>
