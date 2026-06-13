@@ -41,7 +41,40 @@ let worldCanvas = null;
 let worldCtx    = null;
 
 // ─── ViewBox ──────────────────────────────────────────────────────────────
-const ZOOM_FACTOR = 1.3;
+const ZOOM_FACTOR  = 1.3;
+const TARGET_PX    = 30;   // desired screen pixels between typical adjacent rooms
+const roomUnits    = new Map();  // mapId → median nearest-neighbour distance
+
+// Compute median nearest-neighbour distance between rooms in an SVG.
+// Uses a sorted-x sweep so it stays fast even on large maps.
+function computeRoomUnit(svgEl) {
+  const pts = [];
+  for (const el of svgEl.querySelectorAll('.room')) {
+    if (el.tagName.toLowerCase() === 'circle') {
+      pts.push([+el.getAttribute('cx'), +el.getAttribute('cy')]);
+    } else {
+      const x = +el.getAttribute('x'), w = +el.getAttribute('width');
+      pts.push([x + w / 2, +el.getAttribute('y') + w / 2]);
+    }
+  }
+  if (pts.length < 2) return null;
+  pts.sort((a, b) => a[0] - b[0]);
+  const dists = [];
+  for (let i = 0; i < pts.length; i++) {
+    let best = Infinity;
+    for (let j = i - 1; j >= 0 && pts[i][0] - pts[j][0] < best; j--) {
+      const d = Math.hypot(pts[i][0] - pts[j][0], pts[i][1] - pts[j][1]);
+      if (d < best) best = d;
+    }
+    for (let j = i + 1; j < pts.length && pts[j][0] - pts[i][0] < best; j++) {
+      const d = Math.hypot(pts[i][0] - pts[j][0], pts[i][1] - pts[j][1]);
+      if (d < best) best = d;
+    }
+    if (best < Infinity) dists.push(best);
+  }
+  dists.sort((a, b) => a - b);
+  return dists[Math.floor(dists.length / 2)];
+}
 
 function applyViewBox() {
   if (!currentSvg) return;
@@ -51,7 +84,10 @@ function applyViewBox() {
 function defaultZoomW(mapId) {
   const meta = data.maps[mapId];
   if (!meta) return 1;
-  return mapId === 47 ? 280 : meta.maxX / 4;
+  if (mapId === 47) return 280;  // UU Library — fixed
+  const unit = roomUnits.get(mapId);
+  if (unit) return $container.clientWidth * unit / TARGET_PX;
+  return meta.maxX / 4;  // fallback before unit is computed
 }
 
 function resetZoom(mapId) {
@@ -141,7 +177,12 @@ async function loadSvgMap(mapId, x, y) {
   wrap.innerHTML = svgText;
   currentSvg = wrap.querySelector("svg");
   $container.insertBefore(wrap, $lspace);
-  const prevZoomRatio = viewBox.w > 0 ? viewBox.w / defaultZoomW(lastKnownMapId ?? mapId) : 1;
+  if (!roomUnits.has(mapId)) {
+    const unit = computeRoomUnit(currentSvg);
+    if (unit) roomUnits.set(mapId, unit);
+  }
+  const fromWorldMap = lastKnownMapId === 99;
+  const prevZoomRatio = (!fromWorldMap && viewBox.w > 0) ? viewBox.w / defaultZoomW(lastKnownMapId ?? mapId) : 1;
   resetZoom(mapId);
   viewBox.w *= prevZoomRatio;
   viewBox.h *= prevZoomRatio;
