@@ -1,11 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 410 385"
-     class="map-svg"
-     data-map-id="40">
-
-  <g id="layer-artwork"><!-- artwork --></g>
-
-  <g id="layer-exits">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 410 385"
+   class="map-svg"
+   data-map-id="40"
+   version="1.1"
+   id="svg14"
+   sodipodi:docname="sl_aoa.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs14" />
+  <style id="inkscape-font-fix">
+text, .map-label, .map-label-muted, .map-label-accent,
+.lib-table, .lib-gap-label, .lib-book-label,
+.lib-row-num, .lib-book-list, .room-type-label {
+  font-family: "Noto Sans", sans-serif;
+}
+</style>
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.4693128"
+     inkscape:cx="291.29264"
+     inkscape:cy="218.46948"
+     inkscape:window-width="1968"
+     inkscape:window-height="1011"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg14" />
+  <g
+     id="layer-artwork">
+    <!-- artwork -->
+  </g>
+  <g
+     id="layer-exits">
     <line id="edge-776fb02306d6c603b49943cf6e13313f897c1f8a-78af4dbf51cb732d3cc9205c4a85004e24a8028f" class="exit exit-green" x1="47" y1="185" x2="19" y2="185"/>
     <line id="edge-776fb02306d6c603b49943cf6e13313f897c1f8a-d9ce01056f6eb615108c89d4e1fe0a699d80bb8c" class="exit exit-green" x1="47" y1="185" x2="75" y2="185"/>
     <line id="edge-119deeebd60c3dbef0fc8fca7291771be154467f-d9ce01056f6eb615108c89d4e1fe0a699d80bb8c" class="exit exit-green" x1="75" y1="213" x2="75" y2="185"/>
@@ -42,8 +80,8 @@
     <line id="edge-34b4fd6ffd16cfd2dd22fe1fca89e94a18dc7728-41498cbd310d0c423e8ee562620318975b8989b0" class="exit" x1="293" y1="87" x2="293" y2="111"/>
     <line id="edge-41498cbd310d0c423e8ee562620318975b8989b0-f535897927e88d983b1b6aab422bf3c0ab7b862b" class="exit" x1="293" y1="111" x2="317" y2="111"/>
   </g>
-
-  <g id="layer-rooms">
+  <g
+     id="layer-rooms">
     <rect id="room-572f3c54b5dece1f8fd35b74eb87f99482004a7d" class="room indoor" data-label="Academy of Artificers" x="43" y="83" width="8" height="8" rx="2"/>
     <rect id="room-86b74a34d55943ff4139c94a7df029b3e51fb74e" class="room indoor" data-label="corridor" x="43" y="107" width="8" height="8" rx="2"/>
     <rect id="room-6bf874be4f0b6b7bc720600fc79eaad3bc25f9e4" class="room indoor" data-label="Office of the Headmaster" x="19" y="107" width="8" height="8" rx="2"/>
@@ -93,9 +131,100 @@
     <rect id="room-5912e744f46a9830f190799b66b10abc1851e96b" class="room indoor" data-label="secret cellar" x="43" y="155" width="8" height="8" rx="2"/>
     <rect id="room-0daf68f6440a37689d59116b20cec2a8d1a49437" class="room indoor" data-label="Rubayak Suite" x="141" y="155" width="8" height="8" rx="2"/>
   </g>
-
-
-  <g id="layer-room-labels"></g>
-  <g id="layer-labels"><!-- labels --></g>
-
+  <g
+     id="layer-room-labels" />
+  <g
+     id="layer-labels">
+    <!-- labels -->
+  </g>
+  <text
+     xml:space="preserve"
+     x="47.186001"
+     y="55.568756"
+     id="text134-4-15"
+     class="map-label"
+     text-anchor="middle"
+     font-size="6px"
+     style="font-family:'Noto Sans', sans-serif"><tspan
+       sodipodi:role="line"
+       x="47.186001"
+       y="55.568756"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+       id="tspan134-7-9">TO KING'S RD.</tspan></text>
+  <path
+     d="M 47,87 47.186001,55.568756"
+     id="path14"
+     class="exit-offmap"
+     fill="none"
+     stroke="#888888" />
+  <text
+     xml:space="preserve"
+     x="169.754"
+     y="185.5"
+     id="text15"
+     class="map-label"
+     text-anchor="middle"
+     font-size="6px"
+     style="font-family:'Noto Sans', sans-serif"><tspan
+       sodipodi:role="line"
+       x="169.754"
+       y="185.5"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+       id="tspan14">FIRST FLOOR</tspan></text>
+  <text
+     xml:space="preserve"
+     x="292.892"
+     y="186.33144"
+     id="text16"
+     class="map-label"
+     text-anchor="middle"
+     font-size="6px"
+     style="font-family:'Noto Sans', sans-serif"><tspan
+       sodipodi:role="line"
+       x="292.892"
+       y="186.33144"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+       id="tspan15">SECOND FLOOR</tspan></text>
+  <text
+     xml:space="preserve"
+     x="292.70898"
+     y="77.391777"
+     id="text17"
+     class="map-label"
+     text-anchor="middle"
+     font-size="6px"
+     style="font-family:'Noto Sans', sans-serif"><tspan
+       sodipodi:role="line"
+       x="292.70898"
+       y="77.391777"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+       id="tspan16">LIBRARY</tspan></text>
+  <text
+     xml:space="preserve"
+     x="46.741997"
+     y="288.42987"
+     id="text18"
+     class="map-label"
+     text-anchor="middle"
+     font-size="6px"
+     style="font-family:'Noto Sans', sans-serif"><tspan
+       sodipodi:role="line"
+       x="46.741997"
+       y="288.42987"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+       id="tspan17">HAMMERED CAT</tspan></text>
+  <text
+     xml:space="preserve"
+     x="87.702621"
+     y="89.208992"
+     id="text19"
+     class="map-label"
+     text-anchor="middle"
+     font-size="6px"
+     style="font-family:'Noto Sans', sans-serif"><tspan
+       sodipodi:role="line"
+       x="87.702621"
+       y="89.208992"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+       id="tspan18">GROUND FLOOR</tspan></text>
 </svg>
