@@ -651,6 +651,17 @@ mud.alias([[^dbid$]], function()
   end
 end)
 
+-- ─── ocd ─────────────────────────────────────────────────────────────────────
+-- Re-centre the map on the current position without sending 'look' to the MUD.
+
+mud.alias([[^ocd$]], function()
+  if last_payload then
+    post_room(last_payload)
+  else
+    note('  Current position unknown.', C.muted)
+  end
+end)
+
 -- ─── libclear ────────────────────────────────────────────────────────────────
 -- Manually clear library overlays (distortion + orb) without changing rooms.
 
