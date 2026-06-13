@@ -226,7 +226,9 @@ mud.trigger([[^(?:> )?(?:What\?|That doesn't work\.|Try something else\.)\s*$]],
       table.remove(lib_move_queue, 1)
     end
   end
-  if target_room ~= nil then post_target_clear() end
+  -- Do NOT clear target here: the direction alias didn't advance target_room when
+  -- no exit was found, so target is still valid for any commands already queued.
+  -- The GMCP handler clears target naturally when current_room catches up.
 end)
 
 -- Distortion visible with known direction (fires when you look at the room).
