@@ -307,8 +307,15 @@ world.on("disconnect", reset_walk)
 
 gmcp.on('room.info', function(_, data)
   if type(data) == 'table' and data.identifier then
+    local prev_room = current_room
     current_room = data.identifier
-    if target_room == current_room then target_room = nil end  -- room_info handles this atomically
+    if target_room == current_room then
+      target_room = nil  -- room_info handles this atomically
+    elseif target_room ~= nil and current_room == prev_room then
+      -- GMCP re-confirmed the current room while a move was predicted — movement blocked.
+      target_room = nil
+      post_target_clear(false)
+    end
     if room_id_echo then note('  ' .. current_room, C.name) end
 
     -- UU Library: clear per-room overlays on each room transition.
