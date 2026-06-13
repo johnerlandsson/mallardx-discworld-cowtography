@@ -46,6 +46,7 @@ let worldCtx    = null;
 const ZOOM_FACTOR  = 1.3;
 const TARGET_PX    = 30;   // desired screen pixels between typical adjacent rooms
 const roomUnits    = new Map();  // mapId → median nearest-neighbour distance
+const savedZoom    = new Map();  // mapId → last viewBox.w the user left it at
 
 // Compute median nearest-neighbour distance between rooms in an SVG.
 // Uses a sorted-x sweep so it stays fast even on large maps.
@@ -184,11 +185,15 @@ async function loadSvgMap(mapId, x, y) {
     const unit = computeRoomUnit(currentSvg);
     if (unit) roomUnits.set(mapId, unit);
   }
-  const fromWorldMap = lastKnownMapId === 99;
-  const prevZoomRatio = (!fromWorldMap && viewBox.w > 0) ? viewBox.w / defaultZoomW(lastKnownMapId ?? mapId) : 1;
+  if (displayedMapId !== null && displayedMapId !== 99 && viewBox.w > 0) {
+    savedZoom.set(displayedMapId, viewBox.w);
+  }
   resetZoom(mapId);
-  viewBox.w *= prevZoomRatio;
-  viewBox.h *= prevZoomRatio;
+  if (savedZoom.has(mapId)) {
+    const ratio = viewBox.h / viewBox.w;
+    viewBox.w = savedZoom.get(mapId);
+    viewBox.h = viewBox.w * ratio;
+  }
   displayedMapId = mapId;
   centerOnRoom(x, y);
   wireTooltip();
