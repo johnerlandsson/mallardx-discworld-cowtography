@@ -423,6 +423,43 @@ describe('exitElement (green)', () => {
   })
 })
 
+describe('roomElement (danger)', () => {
+  it('adds danger class to danger room', () => {
+    const el = roomElement('r1', 10, 20, 'Arena', false, null, null, false, false, false, true)
+    expect(el).toContain('danger')
+  })
+
+  it('does not add danger class to normal room', () => {
+    const el = roomElement('r1', 10, 20, 'Market Street', false, null, null, false, false, false, false)
+    expect(el).not.toContain('danger')
+  })
+})
+
+describe('exitElement (danger)', () => {
+  const rooms = [
+    { id: 'r1', x: 10, y: 10 },
+    { id: 'r2', x: 20, y: 10 },
+  ]
+
+  it('adds exit-danger class when both endpoints are danger rooms', () => {
+    const danger = new Set(['r1', 'r2'])
+    expect(exitElement('r1', 'r2', rooms, false, new Set(), new Set(), new Set(), danger)).toContain('exit-danger')
+  })
+
+  it('does not add exit-danger when only one endpoint is danger', () => {
+    const danger = new Set(['r1'])
+    expect(exitElement('r1', 'r2', rooms, false, new Set(), new Set(), new Set(), danger)).not.toContain('exit-danger')
+  })
+
+  it('does not add exit-danger when both are water (water takes precedence)', () => {
+    const water  = new Set(['r1', 'r2'])
+    const danger = new Set(['r1', 'r2'])
+    const el = exitElement('r1', 'r2', rooms, false, new Set(), water, new Set(), danger)
+    expect(el).not.toContain('exit-danger')
+    expect(el).toContain('exit-water')
+  })
+})
+
 describe('buildNewSvg', () => {
   const mapMeta = { maxX: 500, maxY: 400 }
   const rooms   = [
