@@ -304,7 +304,7 @@ world.on("disconnect", reset_walk)
 gmcp.on('room.info', function(_, data)
   if type(data) == 'table' and data.identifier then
     current_room = data.identifier
-    if target_room == current_room then post_target_clear() end
+    if target_room == current_room then target_room = nil end  -- room_info handles this atomically
     if room_id_echo then note('  ' .. current_room, C.name) end
 
     -- UU Library: clear per-room overlays on each room transition.

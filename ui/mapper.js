@@ -413,6 +413,12 @@ panel.on("room_info", async (frame) => {
   // only process if the event signals leaving the library entirely.
   if (current?.mapId === 47 && (next === null || next.mapId === 47)) return;
 
+  // Clear target atomically when GMCP confirms the predicted room, so there is
+  // never a split frame where target=null but current still points to the old room.
+  if (target !== null && frame.identifier != null && frame.identifier === target.roomId) {
+    target = null;
+  }
+
   if (next?.mapId !== displayedMapId) {
     if (target?.mapId === displayedMapId) {
       // Target already triggered a proactive load of the right map. This GMCP
