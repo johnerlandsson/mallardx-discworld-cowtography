@@ -29,15 +29,15 @@ text, .map-label, .map-label-muted, .map-label-accent,
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="10.191083"
-     inkscape:cx="1107.5859"
-     inkscape:cy="312.92061"
+     inkscape:zoom="1.2738854"
+     inkscape:cx="1203.7975"
+     inkscape:cy="519.66999"
      inkscape:window-width="1968"
      inkscape:window-height="1011"
      inkscape:window-x="26"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer-artwork"
+     inkscape:current-layer="svg853"
      showgrid="false" />
   <g
      id="layer-artwork">
@@ -70,20 +70,20 @@ text, .map-label, .map-label-muted, .map-label-accent,
        class="map-area-fill"
        style="stroke-width:2.62529" />
     <rect
-       id="rect850-2"
-       width="49.679554"
-       height="24.295502"
-       x="941.29492"
-       y="635.85223"
-       ry="1.2571449"
-       class="map-area-fill"
-       style="stroke-width:0.948595" />
-    <rect
        id="rect850"
        width="49.679554"
        height="24.295502"
        x="849.40936"
        y="798.70447"
+       ry="1.2571449"
+       class="map-area-fill"
+       style="stroke-width:0.948595" />
+    <rect
+       id="rect850-5"
+       width="49.679554"
+       height="24.295502"
+       x="941.32043"
+       y="635.85217"
        ry="1.2571449"
        class="map-area-fill"
        style="stroke-width:0.948595" />
@@ -207,7 +207,8 @@ text, .map-label, .map-label-muted, .map-label-accent,
        d="m 186,648 h 20 l 32.34912,36.91271 18.66089,1e-5"
        id="path850"
        class="exit-offmap"
-       sodipodi:nodetypes="cccc" />
+       fill="none"
+       stroke="#888888" />
     <text
        xml:space="preserve"
        x="1130.9441"
@@ -221,6 +222,98 @@ text, .map-label, .map-label-muted, .map-label-accent,
          x="1130.9441"
          y="1041.037"
          id="tspan854-5">SALT SHAKER</tspan></text>
+    <rect
+       id="rect850-7-4"
+       width="26.476"
+       height="6.8484344"
+       x="1069.4893"
+       y="914"
+       ry="0.35436499"
+       class="map-area-fill"
+       style="stroke-width:0.367663" />
+    <text
+       xml:space="preserve"
+       x="1082.8352"
+       y="918.85223"
+       id="text41-1-2-8-5"
+       class="map-label"
+       font-size="4px"
+       text-anchor="middle"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="1082.8352"
+         y="918.85223"
+         id="tspan854-5-0">APEX CLUB</tspan></text>
+    <rect
+       id="rect850-7-4-6"
+       width="31.927999"
+       height="6.8484344"
+       x="632.53601"
+       y="350"
+       ry="0.35436499"
+       class="map-area-fill"
+       style="stroke-width:0.403747" />
+    <text
+       xml:space="preserve"
+       x="648.54999"
+       y="354.85422"
+       id="text41-1-2-8-5-1"
+       class="map-label"
+       font-size="4px"
+       text-anchor="middle"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="648.54999"
+         y="354.85422"
+         id="tspan854-5-0-0">A-M COUNCIL</tspan></text>
+    <rect
+       id="rect850-7-9"
+       width="26.483999"
+       height="6.8484344"
+       x="1117.7581"
+       y="966.57581"
+       ry="0.35436499"
+       class="map-area-fill"
+       style="stroke-width:0.367719" />
+    <text
+       xml:space="preserve"
+       x="1130.806"
+       y="971.42804"
+       id="text41-1-2-8-4"
+       class="map-label"
+       font-size="4px"
+       text-anchor="middle"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="1130.806"
+         y="971.42804"
+         id="tspan854-5-7">FLINTWICK</tspan></text>
+    <rect
+       id="rect850-7-9-3"
+       width="31.864"
+       height="13.936"
+       x="1085.0573"
+       y="641.03198"
+       ry="0.72110355"
+       class="map-area-fill"
+       style="stroke-width:0.575371" />
+    <text
+       xml:space="preserve"
+       x="1101.0193"
+       y="646.92798"
+       id="text41-1-2-8-4-2"
+       class="map-label"
+       font-size="4px"
+       text-anchor="middle"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="1101.0193"
+         y="646.92798"
+         id="tspan854-5-7-0">THE MAGICAL</tspan><tspan
+         sodipodi:role="line"
+         x="1101.0193"
+         y="651.92798"
+         id="tspan870">EMPORIUM</tspan></text>
     <rect
        id="rect850-7-3"
        width="16.505043"
@@ -289,6 +382,243 @@ text, .map-label, .map-label-muted, .map-label-accent,
        id="path858"
        sodipodi:nodetypes="cc"
        class="exit-offmap" />
+    <text
+       xml:space="preserve"
+       x="31.888998"
+       y="514.35327"
+       id="text41-1-6"
+       class="map-label"
+       font-size="6px"
+       text-anchor="middle"><tspan
+         sodipodi:role="line"
+         x="31.888998"
+         y="514.35327"
+         id="tspan853-5">EPHEBE</tspan><tspan
+         sodipodi:role="line"
+         x="31.888998"
+         y="521.85327"
+         id="tspan857">FERRY</tspan></text>
+    <path
+       d="m 32,494 v 14.72905"
+       id="path859"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" />
+    <text
+       xml:space="preserve"
+       x="19.478485"
+       y="887.19122"
+       id="text41-1-91"
+       class="map-label"
+       font-size="6px"
+       text-anchor="middle"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="19.478485"
+         y="887.19122"
+         id="tspan853-70">STO PLAINS</tspan></text>
+    <text
+       xml:space="preserve"
+       x="161.98799"
+       y="1112.145"
+       id="text41-1-91-3"
+       class="map-label"
+       font-size="6px"
+       text-anchor="middle"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="161.98799"
+         y="1112.145"
+         id="tspan853-70-6">STO PLAINS</tspan></text>
+    <text
+       xml:space="preserve"
+       x="399.98801"
+       y="1225.2474"
+       id="text41-1-91-3-6"
+       class="map-label"
+       font-size="6px"
+       text-anchor="middle"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="399.98801"
+         y="1225.2474"
+         id="tspan853-70-6-2">STO PLAINS</tspan></text>
+    <text
+       xml:space="preserve"
+       x="743.67499"
+       y="1252.145"
+       id="text41-1-91-3-6-1"
+       class="map-label"
+       font-size="6px"
+       text-anchor="middle"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="743.67499"
+         y="1252.145"
+         id="tspan853-70-6-2-8">STO PLAINS</tspan></text>
+    <path
+       d="M 32,872 19.807572,882"
+       id="path860"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="M 200,1110 H 179.3725"
+       id="path861"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 410,1208 -9.99999,10.5162"
+       id="path862"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" />
+    <text
+       xml:space="preserve"
+       x="1172.988"
+       y="1112.145"
+       id="text41-1-91-3-6-9"
+       class="map-label"
+       font-size="6px"
+       text-anchor="middle"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="1172.988"
+         y="1112.145"
+         id="tspan853-70-6-2-2">STO PLAINS</tspan></text>
+    <path
+       d="m 1138,1110 h 16.9312"
+       id="path863"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" />
+    <text
+       xml:space="preserve"
+       x="1290.3199"
+       y="291.96628"
+       id="text41-1-91-3-6-2"
+       class="map-label"
+       font-size="6px"
+       text-anchor="middle"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="1290.3199"
+         y="291.96628"
+         id="tspan853-70-6-2-3">STO PLAINS</tspan></text>
+    <path
+       d="m 1264,312 21,-18"
+       id="path864"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" />
+    <text
+       xml:space="preserve"
+       x="745.98798"
+       y="6.9399986"
+       id="text41-1-91-3-6-5"
+       class="map-label"
+       font-size="6px"
+       text-anchor="middle"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="745.98798"
+         y="6.9399986"
+         id="tspan853-70-6-2-9">STO PLAINS</tspan></text>
+    <path
+       d="M 746,18 745.988,6.9399986"
+       id="path865"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" />
+    <text
+       xml:space="preserve"
+       x="297.98801"
+       y="34.145"
+       id="text41-1-91-3-6-28"
+       class="map-label"
+       font-size="6px"
+       text-anchor="middle"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="297.98801"
+         y="34.145"
+         id="tspan853-70-6-2-97">STO PLAINS</tspan></text>
+    <path
+       d="M 340,32 H 314.33201"
+       id="path866"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" />
+    <text
+       xml:space="preserve"
+       x="77.987991"
+       y="202.145"
+       id="text41-1-91-3-6-6"
+       class="map-label"
+       font-size="6px"
+       text-anchor="middle"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="77.987991"
+         y="202.145"
+         id="tspan853-70-6-2-1">STO PLAINS</tspan></text>
+    <text
+       xml:space="preserve"
+       x="286.03"
+       y="948.94"
+       id="text41-1-91-3-6-6-9"
+       class="map-label-muted"
+       font-size="6px"
+       text-anchor="middle"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="286.03"
+         y="948.94"
+         id="tspan853-70-6-2-1-3">LITTLE AGATHEA</tspan></text>
+    <path
+       d="M 130,200 H 95.300094"
+       id="path867"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 1152,970 -7.7579,3e-5"
+       id="path868"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 1082,900 v 14"
+       id="path869"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 648,326 v 24"
+       id="path870"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 1068,648 17.0573,-3e-5"
+       id="path871"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 46,592 -1,-45 1,-53"
+       id="path872"
+       class="exit-ferry"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 1348,648 v -27.85001 l -6.0261,-6.02613 h -16.9071 L 1319,608.27267 V 596 l 1,-18"
+       id="path873"
+       class="exit-ferry"
+       fill="none"
+       stroke="#888888"
+       sodipodi:nodetypes="ccccccc" />
   </g>
   <g
      id="layer-exits">
@@ -4909,11 +5239,11 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <line id="edge-ee29c8098ce7d3ce07ade6bc6fe08f7262c83ff7-ef1362ac6e9710ea6578b8b6a4a13a4a4b5f9e12" class="exit" x1="844" y1="522" x2="830" y2="522"/>
     <line id="edge-21f3bc15206ed4c3d93dd8df9ff3e6b92a0b9ccb-cc711f06e27483538d693cfa84774d2033ad6b60" class="exit" x1="844" y1="578" x2="830" y2="578"/>
     <line id="edge-868d07f4f3f6981fedc40cbf634c88185249ba8c-cc711f06e27483538d693cfa84774d2033ad6b60" class="exit" x1="816" y1="578" x2="830" y2="578"/>
-    <line id="edge-8da292b23e5773b189e657e69931d5af855eaffd-cc711f06e27483538d693cfa84774d2033ad6b60" class="exit" x1="835" y1="572" x2="830" y2="578"/>
-    <line id="edge-53b90bc16761bf68df575dad3071684595749b5f-8da292b23e5773b189e657e69931d5af855eaffd" class="exit" x1="839" y1="568" x2="835" y2="572"/>
-    <line id="edge-12170ed570e50873b2ee724ff6f1202a3cc33e6b-53b90bc16761bf68df575dad3071684595749b5f" class="exit" x1="841" y1="563" x2="839" y2="568"/>
-    <line id="edge-53b90bc16761bf68df575dad3071684595749b5f-b87a93ae03d7e4781093215984cba0949776467b" class="exit" x1="839" y1="568" x2="830" y2="568"/>
-    <line id="edge-12170ed570e50873b2ee724ff6f1202a3cc33e6b-ab67c0d13bad0617af66407c0de727ed68d65324" class="exit" x1="841" y1="563" x2="849" y2="558"/>
+    <line id="edge-8da292b23e5773b189e657e69931d5af855eaffd-cc711f06e27483538d693cfa84774d2033ad6b60" class="exit exit-compact" x1="835" y1="572" x2="830" y2="578"/>
+    <line id="edge-53b90bc16761bf68df575dad3071684595749b5f-8da292b23e5773b189e657e69931d5af855eaffd" class="exit exit-compact" x1="839" y1="568" x2="835" y2="572"/>
+    <line id="edge-12170ed570e50873b2ee724ff6f1202a3cc33e6b-53b90bc16761bf68df575dad3071684595749b5f" class="exit exit-compact" x1="841" y1="563" x2="839" y2="568"/>
+    <line id="edge-53b90bc16761bf68df575dad3071684595749b5f-b87a93ae03d7e4781093215984cba0949776467b" class="exit exit-compact" x1="839" y1="568" x2="830" y2="568"/>
+    <line id="edge-12170ed570e50873b2ee724ff6f1202a3cc33e6b-ab67c0d13bad0617af66407c0de727ed68d65324" class="exit exit-compact" x1="841" y1="563" x2="849" y2="558"/>
     <line id="edge-ab67c0d13bad0617af66407c0de727ed68d65324-d70a6219743951444532753336f704c1a1bea6bf" class="exit" x1="849" y1="558" x2="849" y2="558"/>
     <line id="edge-0ee981010de8a8242d1f63cd32224acda4d4be00-ca9853e87844f86c6261ea875d0daf0e140f8e7c" class="exit" x1="330" y1="886" x2="334" y2="894"/>
     null
@@ -8116,10 +8446,10 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-21f3bc15206ed4c3d93dd8df9ff3e6b92a0b9ccb" class="room outdoor" data-label="Holofernes" cx="844" cy="578" r="4"/>
     <circle id="room-cc711f06e27483538d693cfa84774d2033ad6b60" class="room outdoor" data-label="Holofernes" cx="830" cy="578" r="4"/>
     <circle id="room-868d07f4f3f6981fedc40cbf634c88185249ba8c" class="room outdoor" data-label="Holofernes" cx="816" cy="578" r="4"/>
-    <circle id="room-8da292b23e5773b189e657e69931d5af855eaffd" class="room outdoor" data-label="Dione Street northeast of Holofernes" cx="835" cy="572" r="4"/>
-    <circle id="room-53b90bc16761bf68df575dad3071684595749b5f" class="room outdoor" data-label="Dione Street outside a bakery" cx="839" cy="568" r="4"/>
+    <circle id="room-8da292b23e5773b189e657e69931d5af855eaffd" class="room outdoor room-compact" data-label="Dione Street northeast of Holofernes" cx="835" cy="572" r="1.5"/>
+    <circle id="room-53b90bc16761bf68df575dad3071684595749b5f" class="room outdoor room-compact" data-label="Dione Street outside a bakery" cx="839" cy="568" r="1.5"/>
     <rect id="room-b87a93ae03d7e4781093215984cba0949776467b" class="room indoor room-food" data-label="Dione Street Bakery" x="826" y="564" width="8" height="8" rx="2"/><text class="room-type-label" x="830" y="568" text-anchor="middle" dominant-baseline="central">F</text>
-    <circle id="room-12170ed570e50873b2ee724ff6f1202a3cc33e6b" class="room outdoor" data-label="end of Dione Street, just outside a cottage" cx="841" cy="563" r="4"/>
+    <circle id="room-12170ed570e50873b2ee724ff6f1202a3cc33e6b" class="room outdoor room-compact" data-label="end of Dione Street, just outside a cottage" cx="841" cy="563" r="1.5"/>
     <rect id="room-ab67c0d13bad0617af66407c0de727ed68d65324" class="room indoor" data-label="Gennie Applebottom&#x27;s cottage" x="845" y="554" width="8" height="8" rx="2"/>
     <rect id="room-d70a6219743951444532753336f704c1a1bea6bf" class="room indoor room-shop" data-label="Gennie Applebottom&#x27;s conservatory" x="845" y="554" width="8" height="8" rx="2"/><text class="room-type-label" x="849" y="558" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-c892f2464117eca48ca0e6c66289164a0f513e7f" class="room indoor" data-label="magical transport stall" x="1036" y="630" width="8" height="8" rx="2"/>
