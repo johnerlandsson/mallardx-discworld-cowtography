@@ -257,45 +257,90 @@ function drawWorldDisc(x, y) {
   worldCtx.stroke();
 }
 
+// ─── SVG overlay helpers ─────────────────────────────────────────────────
+// Route elements and the position indicator are lifted into overlay <g>s
+// appended to the SVG root so they always paint above the static layers.
+// originalParent tracks where each element came from so it can be restored.
+const _origParent = new WeakMap();
+
+function _ensureOverlay(svg, id) {
+  let g = svg.querySelector(`#${id}`);
+  if (!g) {
+    g = document.createElementNS("http://www.w3.org/2000/svg", "g");
+    g.id = id;
+    svg.appendChild(g);
+  }
+  return g;
+}
+
+function _lift(el, overlay) {
+  if (!el) return;
+  if (!_origParent.has(el)) _origParent.set(el, el.parentNode);
+  overlay.appendChild(el);
+}
+
+function _restoreOverlay(overlay) {
+  for (const el of [...overlay.children]) {
+    const p = _origParent.get(el);
+    if (p) p.appendChild(el);
+    _origParent.delete(el);
+  }
+}
+
 // ─── State toggling ───────────────────────────────────────────────────────
 function applyState() {
   if (!currentSvg) return;
+
+  // Restore previously lifted elements before clearing classes.
+  const routeOv = currentSvg.querySelector("#sg-route-overlay");
+  const posOv   = currentSvg.querySelector("#sg-pos-overlay");
+  if (routeOv) _restoreOverlay(routeOv);
+  if (posOv)   _restoreOverlay(posOv);
+
   currentSvg.querySelectorAll(".current, .target, .route").forEach(el => {
     el.classList.remove("current", "target", "route");
   });
 
-  // Primary indicator: target if prediction active, otherwise confirmed position.
+  const routeOverlay = _ensureOverlay(currentSvg, "sg-route-overlay");
+  const posOverlay   = _ensureOverlay(currentSvg, "sg-pos-overlay");
+
+  // Route edges — lifted above all room layers.
+  for (let i = 0; i < routeRoomIds.length - 1; i++) {
+    const [a, b] = [routeRoomIds[i], routeRoomIds[i + 1]].sort();
+    const edge = currentSvg.querySelector(`#edge-${CSS.escape(a)}-${CSS.escape(b)}`);
+    if (edge) { edge.classList.add("route"); _lift(edge, routeOverlay); }
+  }
+
+  // Route rooms — lifted above route edges.
+  for (const id of routeRoomIds) {
+    const el = currentSvg.querySelector(`#room-${CSS.escape(id)}`);
+    if (el) { el.classList.add("route"); _lift(el, routeOverlay); }
+  }
+
+  // Position indicator — lifted above route overlay.
+  // Primary: target if prediction active, otherwise confirmed position.
   const primary = target ?? current;
   if (primary?.roomId) {
     const el = currentSvg.querySelector(`#room-${CSS.escape(primary.roomId)}`);
     if (el) {
       el.classList.add("target");
-      // Multiple rooms can share the same coordinates (multi-floor buildings).
-      // Move this element to the end of its layer so it paints on top.
-      // Capture siblings before any moves (DOM order changes after appendChild).
+      // Capture siblings before moving (DOM order changes after appendChild).
       const sib1 = el.nextElementSibling;
       const sib2 = sib1?.nextElementSibling;
-      el.parentNode.appendChild(el);
+      _lift(el, posOverlay);
       if (sib1?.classList.contains("stair-symbol")) {
-        el.parentNode.appendChild(sib1);
-        if (sib2?.classList.contains("room-type-label")) el.parentNode.appendChild(sib2);
+        _lift(sib1, posOverlay);
+        if (sib2?.classList.contains("room-type-label")) _lift(sib2, posOverlay);
       } else if (sib1?.classList.contains("room-type-label")) {
-        el.parentNode.appendChild(sib1);
+        _lift(sib1, posOverlay);
       }
     }
   }
 
   // Ghost: confirmed position, only when it differs from the predicted target.
   if (target && current?.roomId && current.roomId !== target.roomId) {
-    currentSvg.querySelector(`#room-${CSS.escape(current.roomId)}`)?.classList.add("current");
-  }
-
-  for (const id of routeRoomIds) {
-    currentSvg.querySelector(`#room-${CSS.escape(id)}`)?.classList.add("route");
-  }
-  for (let i = 0; i < routeRoomIds.length - 1; i++) {
-    const [a, b] = [routeRoomIds[i], routeRoomIds[i + 1]].sort();
-    currentSvg.querySelector(`#edge-${CSS.escape(a)}-${CSS.escape(b)}`)?.classList.add("route");
+    const el = currentSvg.querySelector(`#room-${CSS.escape(current.roomId)}`);
+    if (el) { el.classList.add("current"); _lift(el, posOverlay); }
   }
 }
 

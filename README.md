@@ -14,57 +14,44 @@ The map panel opens automatically on the right side of the window. As you walk t
 
 ## Commands
 
-### `dbsearch <type> <query>`
+Type `db` on its own to print a command reference in the MUD window.
 
-Search the database. `<type>` is one of:
-
-| Type | Searches |
-|------|----------|
-| `room` | Room names |
-| `item` | Items for sale in shops |
-| `npcitem` | Items carried or sold by NPCs |
-| `npc` | NPC names |
-
-Search is case-insensitive. The 10 nearest reachable results are shown, sorted by distance from your current room.
+### Searching
 
 ```
-dbsearch npc wizard
-dbsearch item long sword
-dbsearch room drum
-dbsearch npcitem dagger
+db <room name>           — search rooms by name
+db npc <name>            — search NPCs by name
+db npc {<area>} <name>   — search NPCs filtered by area name
+db item <name>           — search items for sale in shops
+db npcitem <name>        — search items carried or sold by NPCs
 ```
 
-### `<number>`
-
-After a `dbsearch`, type a bare number to route to that result and start walking immediately.
+Search is case-insensitive. Up to 10 reachable results are shown, sorted by distance from your current room.
 
 ```
-dbsearch room drum
-3
+db drum
+db npc wizard
+db npc {AM} pawn
+db item long sword
+db npcitem dagger
+```
+
+### Routing and walking
+
+After a search, pick a result by number to route there and start walking immediately:
+
+```
+db drum
+  DB Search: room — "drum"  (3 results, nearest first)
+   1.  The Drum  ...
+   2.  ...
+db 1
   Walking to "The Drum" — 12 moves.
 ```
 
-### `dbroute <number>`
-
-Route to a result from the last `dbsearch` and display it on the map, without walking yet. Useful when you want to preview the route first.
-
 ```
-dbroute 3
-```
-
-Then use `dbwalk` to start walking.
-
-### `dbwalk`
-
-Walk to the routed destination. Each room arrival sends the next move automatically and counts down the remaining distance.
-
-```
-dbwalk
-  Walking to "The Drum" — 12 moves.
-  10 moves remaining.
-  9 moves remaining.
-  ...
-  Arrived at "The Drum".
+db walk    — start or resume walking the current route
+db clear   — cancel the current route
 ```
 
 > You must be in a room tracked by the map data for routing and distance sorting to work.

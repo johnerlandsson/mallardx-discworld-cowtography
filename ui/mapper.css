@@ -76,6 +76,9 @@ body {
 .exit-green   { stroke: #3d6b3d; }
 .room.danger  { fill: #2d0d0d; stroke: #cf4444; }
 .exit-danger  { stroke: #7a2f2f; }
+.room.green.route,
+.room.water.route,
+.room.danger.route  { fill: #0d2d4a; stroke: #00d2ff; }
 .room.green.target,
 .room.water.target,
 .room.danger.target { fill: #ff3b30; stroke: #fff; }

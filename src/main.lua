@@ -590,6 +590,20 @@ end
 
 -- Specific patterns first, catch-all last.
 
+mud.alias([[^db$]], function()
+  note("  db — search Quow's Discworld database", C.header)
+  note('  ─────────────────────────────────────────────────────', C.rule)
+  note('  db <room name>              search rooms', C.alt)
+  note('  db npc <name>               search NPCs', C.alt)
+  note('  db npc {<area>} <name>      search NPCs filtered by area', C.alt)
+  note('  db item <name>              search shop items', C.alt)
+  note('  db npcitem <name>           search items carried by NPCs', C.alt)
+  note('  ─────────────────────────────────────────────────────', C.rule)
+  note('  db <number>                 route to result and walk', C.alt)
+  note('  db walk                     start or resume walking', C.alt)
+  note('  db clear                    clear current route', C.alt)
+end)
+
 mud.alias([[^db walk$]], function()
   if #walk_steps == 0 then
     note('  No route set. Run "db <number>" first.', C.err)
@@ -612,7 +626,7 @@ mud.alias([[^db npc\s+\{([^}]+)\}\s+(.+)$]], function(m)
   do_search('npc', m[2], m[1])
 end)
 
-mud.alias([[^db npc\s+(.+)$]], function(m)
+mud.alias([[^db npc\s+([^{].*)$]], function(m)
   do_search('npc', m[1], nil)
 end)
 
@@ -629,7 +643,14 @@ mud.alias([[^db npcitem\s+(.+)$]], function(m)
 end)
 
 mud.alias([[^db (.+)$]], function(m)
-  do_search('room', m[1], nil)
+  local arg = type(m[1]) == 'number' and tostring(m[1]) or m[1]
+  if arg:match('^%d+$')      then return end
+  if arg:match('^item%s')    then return end
+  if arg:match('^shop%s')    then return end
+  if arg:match('^npc%s')     then return end
+  if arg:match('^npcitem%s') then return end
+  if arg == 'walk' or arg == 'clear' then return end
+  do_search('room', arg, nil)
 end)
 
 -- ─── db clear ────────────────────────────────────────────────────────────────
