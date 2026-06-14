@@ -31,11 +31,11 @@ for room_id, neighbors in pairs(exits) do
   exits_by_dir[room_id] = by_dir
 end
 
-local last_results   = {}
-local current_room   = nil
-local target_room    = nil  -- predicted position; nil when same as confirmed
-local room_id_echo   = false
-local _move_blocked  = false  -- set by "What?" trigger; consumed by dark-room GMCP path
+local last_results    = {}
+local current_room    = nil
+local target_room     = nil  -- predicted position; nil when same as confirmed
+local room_id_echo    = false
+local _last_dark_name = nil  -- GMCP name of the dark room we're currently in; nil in lit areas
 
 -- ─── Map panel ───────────────────────────────────────────────────────────────
 
@@ -232,12 +232,10 @@ mud.trigger([[^(?:> )?(?:What\?|That doesn't work\.|Try something else\.)\s*$]],
     if #lib_move_queue > 0 then
       table.remove(lib_move_queue, 1)
     end
-  else
-    -- Signal that movement was blocked. For lit rooms the GMCP identifier comparison
-    -- handles this already; for dark rooms (no identifier) the GMCP elseif reads this
-    -- flag to avoid accepting the predicted target as confirmed.
-    _move_blocked = true
   end
+  -- Do NOT clear target here: the direction alias didn't advance target_room when
+  -- no exit was found, so target is still valid for any commands already queued.
+  -- The GMCP handler clears target naturally when current_room catches up.
 end)
 
 -- Distortion visible with known direction (fires when you look at the room).
@@ -310,7 +308,7 @@ world.on("disconnect", reset_walk)
 
 gmcp.on('room.info', function(_, data)
   if type(data) == 'table' and data.identifier then
-    _move_blocked = false  -- clear any pending blocked flag from a previous dark-room move
+    _last_dark_name = nil  -- back in a lit room
     local prev_room = current_room
     current_room = data.identifier
     if target_room == current_room then
@@ -387,17 +385,16 @@ gmcp.on('room.info', function(_, data)
   elseif type(data) == 'table' then
     -- Dark room: room.info fired without an identifier. Discworld omits identifiers
     -- for dark rooms, so we rely on movement prediction to track position.
-    if _move_blocked then
-      -- "What?" trigger saw a failed move — GMCP is re-confirming the same room.
-      _move_blocked = false
-      if target_room ~= nil then
-        target_room = nil
-        post_target_clear(false)
-      end
-    elseif target_room ~= nil then
-      -- Successful move: accept the prediction as the confirmed position.
-      current_room = target_room
-      target_room  = nil
+    --
+    -- Use the GMCP room name as a surrogate identifier. If the name matches what we
+    -- already recorded for this dark room, GMCP is re-confirming the same room (e.g.
+    -- a blocked move) — skip without touching target_room so the prediction survives
+    -- for the next move. If the name differs, we've moved to a new dark room.
+    local same_room = _last_dark_name ~= nil and data.name == _last_dark_name
+    if not same_room and target_room ~= nil then
+      _last_dark_name = data.name
+      current_room    = target_room
+      target_room     = nil
       if room_id_echo then note('  ' .. current_room, C.name) end
       lib_orb_here        = false
       lib_distortion_here = nil
