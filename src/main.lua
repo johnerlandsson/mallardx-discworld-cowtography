@@ -36,6 +36,7 @@ local current_room    = nil
 local target_room     = nil  -- predicted position; nil when same as confirmed
 local room_id_echo    = false
 local _last_dark_name = nil  -- GMCP name of the dark room we're currently in; nil in lit areas
+local _dark_debug     = false
 
 -- ─── Map panel ───────────────────────────────────────────────────────────────
 
@@ -391,6 +392,13 @@ gmcp.on('room.info', function(_, data)
     -- a blocked move) — skip without touching target_room so the prediction survives
     -- for the next move. If the name differs, we've moved to a new dark room.
     local same_room = _last_dark_name ~= nil and data.name == _last_dark_name
+    if _dark_debug then
+      note(string.format('  [dark] name="%s"  last="%s"  same=%s  target=%s  current=%s',
+        tostring(data.name), tostring(_last_dark_name),
+        tostring(same_room),
+        target_room  and target_room:sub(1,8)  or 'nil',
+        current_room and current_room:sub(1,8) or 'nil'), C.muted)
+    end
     if not same_room and target_room ~= nil then
       _last_dark_name = data.name
       current_room    = target_room
@@ -709,6 +717,18 @@ mud.alias([[^dbid$]], function()
     if current_room then note('  ' .. current_room, C.name) end
   else
     note('  Room ID echo OFF.', C.muted)
+  end
+end)
+
+-- ─── dbdark ──────────────────────────────────────────────────────────────────
+-- Toggle debug output for dark-room GMCP tracking.
+
+mud.alias([[^dbdark$]], function()
+  _dark_debug = not _dark_debug
+  if _dark_debug then
+    note('  Dark room debug ON. Each dark room.info will print name/state.', C.ok)
+  else
+    note('  Dark room debug OFF.', C.muted)
   end
 end)
 
