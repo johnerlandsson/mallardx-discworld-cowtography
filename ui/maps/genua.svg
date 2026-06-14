@@ -1,11 +1,574 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 839 560"
-     class="map-svg"
-     data-map-id="27">
-
-  <g id="layer-artwork"><!-- artwork --></g>
-
-  <g id="layer-exits">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 839 560"
+   class="map-svg"
+   data-map-id="27"
+   version="1.1"
+   id="svg138"
+   sodipodi:docname="genua.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs138" />
+  <style id="inkscape-font-fix">
+text, .map-label, .map-label-muted, .map-label-accent,
+.lib-table, .lib-gap-label, .lib-book-label,
+.lib-row-num, .lib-book-list, .room-type-label {
+  font-family: "Noto Sans", sans-serif;
+}
+</style>
+  <sodipodi:namedview
+     id="namedview138"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showguides="false"
+     inkscape:zoom="1.4285714"
+     inkscape:cx="393.05"
+     inkscape:cy="203.7"
+     inkscape:window-width="1968"
+     inkscape:window-height="1011"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg138" />
+  <g
+     id="layer-artwork">
+    <!-- artwork -->
+    <path
+       d="m 288,116 h 42 l 28,28 -28,28 h -28 l -14,-14 z"
+       id="path148"
+       class="map-water" />
+    <rect
+       id="rect165"
+       width="35"
+       height="82.950005"
+       x="57.400002"
+       y="269.32498"
+       class="anno-box"
+       fill="none"
+       style="stroke-width:1" />
+    <rect
+       id="rect166"
+       width="149.8"
+       height="73.675003"
+       x="4.5500031"
+       y="356.64996"
+       class="anno-box"
+       fill="none"
+       style="stroke-width:0.999999" />
+    <rect
+       id="rect167"
+       width="149.8"
+       height="51.100002"
+       x="4.5500031"
+       y="434.34998"
+       class="anno-box"
+       fill="none"
+       style="stroke-width:0.999999" />
+    <rect
+       id="rect168"
+       width="36.050003"
+       height="55.300003"
+       x="262.5"
+       y="492.44998"
+       class="anno-box"
+       fill="none"
+       style="stroke-width:0.999997" />
+    <rect
+       id="rect169"
+       width="58.100002"
+       height="51.800003"
+       x="302.57501"
+       y="492.44998"
+       class="anno-box"
+       fill="none"
+       style="stroke-width:0.999997" />
+    <rect
+       id="rect170"
+       width="39.025002"
+       height="56.875004"
+       x="364.35001"
+       y="492.45001"
+       class="anno-box"
+       fill="none"
+       style="stroke-width:1" />
+    <rect
+       id="rect171"
+       width="77.700005"
+       height="46.025005"
+       x="584.8501"
+       y="439.42502"
+       class="anno-box"
+       fill="none"
+       style="stroke-width:1" />
+    <rect
+       id="rect172"
+       width="115.44183"
+       height="69.041336"
+       x="697.20007"
+       y="190.57501"
+       class="anno-box"
+       fill="none"
+       style="stroke-width:1" />
+    <rect
+       id="rect164"
+       width="49"
+       height="73.849998"
+       x="4.5500002"
+       y="278.42499"
+       class="anno-box"
+       fill="none" />
+    <path
+       d="m 4.55,206.5875 v 67.55 h 35 v -21.35 h 74.8125 v -46.2 z"
+       id="path164"
+       class="anno-box" />
+    <rect
+       id="rect118-2-3-2-7-2-9-7-6-4-1"
+       width="23.746"
+       height="15.904"
+       x="136.09775"
+       y="220.048"
+       class="city-sign"
+       style="stroke-width:0.661888"
+       ry="0.79519999" />
+    <text
+       xml:space="preserve"
+       x="17.158998"
+       y="285.34399"
+       id="text140"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="17.158998"
+         y="285.34399"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan139">WATCH</tspan><tspan
+         sodipodi:role="line"
+         x="17.158998"
+         y="292.84399"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan140">HOUSE</tspan></text>
+    <text
+       xml:space="preserve"
+       x="148.12975"
+       y="226.392"
+       id="text142"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="148.12975"
+         y="226.392"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan141">WATCH</tspan><tspan
+         sodipodi:role="line"
+         x="148.12975"
+         y="233.892"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan142">HOUSE</tspan></text>
+    <path
+       d="m 176,228 -16.15625,1e-5"
+       id="path142"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" />
+    <text
+       xml:space="preserve"
+       x="217.784"
+       y="257.54666"
+       id="text142-7"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="217.784"
+         y="257.54666"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan142-3">HOTEL</tspan></text>
+    <text
+       xml:space="preserve"
+       x="73.783997"
+       y="276.82751"
+       id="text143"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="73.783997"
+         y="276.82751"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan143">HOTEL</tspan></text>
+    <text
+       xml:space="preserve"
+       x="60.298996"
+       y="213.94"
+       id="text144"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="60.298996"
+         y="213.94"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan144">TACTICUS ACADEMY</tspan></text>
+    <rect
+       id="rect144"
+       width="22.035999"
+       height="8.4099998"
+       x="206.98199"
+       y="251.19667"
+       class="city-sign"
+       style="stroke-width:0.661891"
+       ry="0.42050001" />
+    <path
+       d="m 218,242 v 9.19667"
+       id="path145"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" />
+    <text
+       xml:space="preserve"
+       x="217.84998"
+       y="289.14203"
+       id="text146"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="217.84998"
+         y="289.14203"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan146">BARRACKS</tspan></text>
+    <rect
+       id="rect146"
+       width="32.848"
+       height="8.4099998"
+       x="201.57599"
+       y="282.79498"
+       class="city-sign"
+       style="stroke-width:0.661891"
+       ry="0.42050001" />
+    <text
+       xml:space="preserve"
+       x="133.42599"
+       y="426.142"
+       id="text147"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="133.42599"
+         y="426.142"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan147">BARRACKS</tspan></text>
+    <path
+       d="M 218,312 V 291.20498"
+       id="path147"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" />
+    <text
+       xml:space="preserve"
+       x="229.01799"
+       y="268.392"
+       id="text148"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="229.01799"
+         y="268.392"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan148">TACTICUS</tspan><tspan
+         sodipodi:role="line"
+         x="229.01799"
+         y="275.892"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan149">ACADEMY</tspan></text>
+    <rect
+       id="rect148"
+       width="31.893999"
+       height="15.904"
+       x="213.071"
+       y="262.048"
+       class="city-sign"
+       style="stroke-width:0.661891"
+       ry="0.79520005" />
+    <path
+       d="M 244.965,270 H 260"
+       id="path149"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" />
+    <text
+       xml:space="preserve"
+       x="344"
+       y="384.14496"
+       id="text150"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="344"
+         y="384.14496"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan150">CASINO</tspan></text>
+    <rect
+       id="rect150"
+       width="25.468"
+       height="8.4099998"
+       x="331.26599"
+       y="377.79498"
+       class="city-sign"
+       style="stroke-width:0.661891"
+       ry="0.42050001" />
+    <text
+       xml:space="preserve"
+       x="331"
+       y="498.35001"
+       id="text151"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="331"
+         y="498.35001"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan151">CASINO</tspan></text>
+    <path
+       d="m 316,382 h 15.26599"
+       id="path151"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" />
+    <text
+       xml:space="preserve"
+       x="458.021"
+       y="272.34702"
+       id="text152"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="458.021"
+         y="272.34702"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan152">MUSKETEERS</tspan></text>
+    <rect
+       id="rect152"
+       width="40.341999"
+       height="8.4099998"
+       x="438"
+       y="266"
+       class="city-sign"
+       style="stroke-width:0.661891"
+       ry="0.42050001" />
+    <text
+       xml:space="preserve"
+       x="499.93906"
+       y="440.34698"
+       id="text152-6"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="499.93906"
+         y="440.34698"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan152-2">GAPP</tspan></text>
+    <rect
+       id="rect152-9"
+       width="18.790001"
+       height="8.4099998"
+       x="490.57407"
+       y="434"
+       class="city-sign"
+       style="stroke-width:0.661891"
+       ry="0.42050001" />
+    <text
+       xml:space="preserve"
+       x="720.49121"
+       y="197.34401"
+       id="text153"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="720.49121"
+         y="197.34401"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan153">MUSKETEERS</tspan></text>
+    <path
+       d="m 428,270 10,0.205"
+       id="path153"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 48,412 v 15.03946"
+       id="path154"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 166,302 v -9.34618"
+       id="path155"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="M 715,224 H 700.45114"
+       id="path156"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" />
+    <text
+       xml:space="preserve"
+       x="616.12299"
+       y="446.94"
+       id="text156"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="616.12299"
+         y="446.94"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan156">TEMPLE OF GAPP</tspan></text>
+    <path
+       d="m 590,458 v -4 l 3.01445,-3.01445 h 14.41237 l 1.84759,1.84758 V 454"
+       id="path157"
+       class="exit"
+       fill="none"
+       stroke="#888888"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       d="m 645,458 v -4 l -3.12812,-3.01445 -27.34688,-0.11367 -1.87256,1.87256 0.0108,1.25556"
+       id="path158"
+       class="exit"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 484,438 h 6.57407"
+       id="path159"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="M 601,468 H 587.22567"
+       id="path160"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" />
+    <text
+       xml:space="preserve"
+       x="385.14999"
+       y="498.41"
+       id="text160"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="385.14999"
+         y="498.41"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan160">PIZZERIA</tspan></text>
+    <text
+       xml:space="preserve"
+       x="281.54999"
+       y="498.35602"
+       id="text161"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="281.54999"
+         y="498.35602"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan161">STABLES</tspan></text>
+    <path
+       d="m 395,507 -5.89844,-5.89844"
+       id="path161"
+       class="exit-offmap" />
+    <path
+       d="m 311,504 h 8.44433"
+       id="path162"
+       class="exit-offmap" />
+    <path
+       d="m 279,537 v 8.02907"
+       id="path163"
+       class="exit-offmap" />
+    <text
+       xml:space="preserve"
+       x="21"
+       y="442.12488"
+       id="text163"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="21"
+         y="442.12488"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan163">CASINO</tspan></text>
+    <text
+       xml:space="preserve"
+       x="625.07501"
+       y="216.145"
+       id="text172"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="625.07501"
+         y="216.145"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan172">BOIS</tspan></text>
+    <rect
+       id="rect173"
+       width="17.049999"
+       height="8.4099998"
+       x="616.70001"
+       y="209.795"
+       class="city-sign"
+       style="stroke-width:0.661891"
+       ry="0.42050001" />
+    <path
+       d="m 596,214 h 20.7"
+       id="path173"
+       class="exit-ferry"
+       fill="none"
+       stroke="#888888" />
+  </g>
+  <g
+     id="layer-exits">
     <line id="edge-ebba2eb5029659cc6eb0cd899b169afca3c3a9b9-f008c98b2d74392f37ebb07cefb5de27a077e00c" class="exit exit-green" x1="358" y1="144" x2="344" y2="158"/>
     <line id="edge-4b3e7c7e73aa611943fb4d145e27330addfa876f-6406e512e80cdb32d65412ee6f6a81a826f6223f" class="exit exit-green" x1="330" y1="144" x2="316" y2="144"/>
     <line id="edge-4a4a9e7aa96968bd80b14c76eeef6e23aed8bd6f-78f63179ad212fa740364b99671bd536207d0d0f" class="exit exit-green" x1="330" y1="116" x2="316" y2="116"/>
@@ -30,7 +593,6 @@
     <line id="edge-9589dde20fecc16ae749121be5f437cf83a21151-ee0c2b85ccf4673364957e20cadc26becf084bf7" class="exit" x1="442" y1="256" x2="442" y2="242"/>
     <line id="edge-24ce10c435b496366691d0d713a54ac27d5cb951-9589dde20fecc16ae749121be5f437cf83a21151" class="exit" x1="428" y1="270" x2="442" y2="256"/>
     <line id="edge-24ce10c435b496366691d0d713a54ac27d5cb951-87ff31c4761ade1dbbe175a32f6e92964e306ef6" class="exit" x1="428" y1="270" x2="414" y2="284"/>
-    <line id="edge-24ce10c435b496366691d0d713a54ac27d5cb951-ea8960ad9869d9c40043577dca5e3fd090efd9f6" class="exit" x1="428" y1="270" x2="715" y2="224"/>
     <line id="edge-c9ec2ebc78285525a2538e6c05851778b0848d73-ea8960ad9869d9c40043577dca5e3fd090efd9f6" class="exit" x1="726" y1="224" x2="715" y2="224"/>
     <line id="edge-7127186248485dff0ab41a6e393484ad53ff8645-c9ec2ebc78285525a2538e6c05851778b0848d73" class="exit" x1="736" y1="224" x2="726" y2="224"/>
     <line id="edge-8071305b10b201783824ce4e44aeefc7e3512a5e-c9ec2ebc78285525a2538e6c05851778b0848d73" class="exit" x1="726" y1="214" x2="726" y2="224"/>
@@ -87,11 +649,11 @@
     <line id="edge-a5906aa3db535856519ba79a310876098286cc76-c0c0f25581192506bc62dea1f925ae50e4c9e1ab" class="exit" x1="526" y1="242" x2="512" y2="242"/>
     <line id="edge-c0c0f25581192506bc62dea1f925ae50e4c9e1ab-c681efbba0d510fa0f9a214179e1ac464a9ec154" class="exit" x1="512" y1="242" x2="512" y2="256"/>
     <line id="edge-c0c0f25581192506bc62dea1f925ae50e4c9e1ab-f814c1391c5a57cfa84921f6b8fe9d0b4d2feea2" class="exit" x1="512" y1="242" x2="498" y2="242"/>
-    <line id="edge-a274d59f019207e574264206453c788834c11bd8-f814c1391c5a57cfa84921f6b8fe9d0b4d2feea2" class="exit" x1="498" y1="251" x2="498" y2="242"/>
+    <line id="edge-a274d59f019207e574264206453c788834c11bd8-f814c1391c5a57cfa84921f6b8fe9d0b4d2feea2" class="exit exit-compact" x1="498" y1="251" x2="498" y2="242"/>
     <line id="edge-dde356c871f15002d0a0f81beb11e4b48c87561d-f814c1391c5a57cfa84921f6b8fe9d0b4d2feea2" class="exit" x1="484" y1="242" x2="498" y2="242"/>
-    <line id="edge-a274d59f019207e574264206453c788834c11bd8-bb57436c13378fe3a5a7b82409568e933604c127" class="exit" x1="498" y1="251" x2="498" y2="256"/>
-    <line id="edge-bb57436c13378fe3a5a7b82409568e933604c127-df3d3261d971cd80e3ef72fdd7c9c04b00e5860a" class="exit" x1="498" y1="256" x2="498" y2="262"/>
-    <line id="edge-251c66db9966286e9332fe35c15b30e436d410c0-df3d3261d971cd80e3ef72fdd7c9c04b00e5860a" class="exit" x1="484" y1="277" x2="498" y2="262"/>
+    <line id="edge-a274d59f019207e574264206453c788834c11bd8-bb57436c13378fe3a5a7b82409568e933604c127" class="exit exit-compact" x1="498" y1="251" x2="498" y2="256"/>
+    <line id="edge-bb57436c13378fe3a5a7b82409568e933604c127-df3d3261d971cd80e3ef72fdd7c9c04b00e5860a" class="exit exit-compact" x1="498" y1="256" x2="498" y2="262"/>
+    <line id="edge-251c66db9966286e9332fe35c15b30e436d410c0-df3d3261d971cd80e3ef72fdd7c9c04b00e5860a" class="exit exit-compact" x1="484" y1="277" x2="498" y2="262"/>
     <line id="edge-22fc549443a42342ece5b9ec4586806db27944e4-251c66db9966286e9332fe35c15b30e436d410c0" class="exit" x1="484" y1="261" x2="484" y2="277"/>
     <line id="edge-1c2eb697c45408c26d5110c44f931480ed0f6266-22fc549443a42342ece5b9ec4586806db27944e4" class="exit" x1="484" y1="261" x2="484" y2="261"/>
     <line id="edge-1c2eb697c45408c26d5110c44f931480ed0f6266-39321e41670aff74cebae03bf6c51c2aea31d5c7" class="exit" x1="484" y1="261" x2="484" y2="261"/>
@@ -382,7 +944,6 @@
     <line id="edge-931ec1b42d045d23227da71f7d1a8107d74ae448-e0dbc9aa1fe6150beb58bb3996f89251f9b488df" class="exit" x1="260" y1="242" x2="274" y2="242"/>
     <line id="edge-af507ce9e90ef410b5acbfd0841d22ecee55ede0-d16da252ec96fc261f62c9c0831dfaadcd517c4e" class="exit" x1="232" y1="242" x2="232" y2="231"/>
     <line id="edge-af507ce9e90ef410b5acbfd0841d22ecee55ede0-fc7c273b7eecd71ddaedf5b41f0205a4e801c3a4" class="exit" x1="232" y1="242" x2="218" y2="242"/>
-    <line id="edge-b924218508be08992ccf41c8bcbe9b736cb33d63-fc7c273b7eecd71ddaedf5b41f0205a4e801c3a4" class="exit" x1="74" y1="287" x2="218" y2="242"/>
     <line id="edge-bca6177993f7ab872f8448e10e160ed75feb2fa1-fc7c273b7eecd71ddaedf5b41f0205a4e801c3a4" class="exit" x1="218" y1="231" x2="218" y2="242"/>
     <line id="edge-fc7c273b7eecd71ddaedf5b41f0205a4e801c3a4-fd906fd9f2fc162615cded17826be3dbaa2886cf" class="exit" x1="218" y1="242" x2="204" y2="242"/>
     <line id="edge-b924218508be08992ccf41c8bcbe9b736cb33d63-c850f3de2f2ed31ab829961cd7aa5fe72ed9b582" class="exit" x1="74" y1="287" x2="74" y2="298"/>
@@ -406,7 +967,6 @@
     <line id="edge-434533998581db34d95b5711c00ce2ad653bee62-fc97e70e33e0ccf3aa3cc7a7a6818b6679c87db9" class="exit" x1="176" y1="228" x2="190" y2="228"/>
     <line id="edge-efdf7cb8dfcf0f78c10488471899b4e15ae45e6d-fc97e70e33e0ccf3aa3cc7a7a6818b6679c87db9" class="exit" x1="176" y1="242" x2="190" y2="228"/>
     <line id="edge-15f48a08688387fff6b2798ba24137d6aa8873c8-434533998581db34d95b5711c00ce2ad653bee62" class="exit" x1="176" y1="214" x2="176" y2="228"/>
-    <line id="edge-434533998581db34d95b5711c00ce2ad653bee62-a1755a2f5b92db6af5feb15f06879896aff8a44c" class="exit" x1="176" y1="228" x2="35" y2="315"/>
     <line id="edge-434533998581db34d95b5711c00ce2ad653bee62-efdf7cb8dfcf0f78c10488471899b4e15ae45e6d" class="exit" x1="176" y1="228" x2="176" y2="242"/>
     <line id="edge-6defa37c6e05a11807104e98f17e3f5b48ab58ca-efdf7cb8dfcf0f78c10488471899b4e15ae45e6d" class="exit" x1="162" y1="242" x2="176" y2="242"/>
     <line id="edge-8ecd0eabddbb4deeb34e89759f10ff020b82cf60-efdf7cb8dfcf0f78c10488471899b4e15ae45e6d" class="exit" x1="176" y1="256" x2="176" y2="242"/>
@@ -539,7 +1099,6 @@
     <line id="edge-2c822022969e42e9521251f77cd480999629c6dc-56afc353374a51eecff83e0d201f6b6266c9a856" class="exit" x1="470" y1="466" x2="470" y2="452"/>
     <line id="edge-2c822022969e42e9521251f77cd480999629c6dc-8bf23a18b1f0cb03b60006ef1d3779a44527be49" class="exit" x1="470" y1="466" x2="456" y2="466"/>
     <line id="edge-56afc353374a51eecff83e0d201f6b6266c9a856-71909e2fdf71b5ab26a06bc545aaa0846f537926" class="exit" x1="470" y1="452" x2="484" y2="438"/>
-    <line id="edge-71909e2fdf71b5ab26a06bc545aaa0846f537926-b5a956c94403920a1ad6c0c935343c10549d76ec" class="exit" x1="484" y1="438" x2="601" y2="468"/>
     <line id="edge-71909e2fdf71b5ab26a06bc545aaa0846f537926-bca387dd7488a10ad5615bab5486b4f020175a7c" class="exit" x1="484" y1="438" x2="484" y2="424"/>
     <line id="edge-6004a76232fce87e07d24e6ec40202ba4cd90317-b5a956c94403920a1ad6c0c935343c10549d76ec" class="exit" x1="611" y1="468" x2="601" y2="468"/>
     <line id="edge-833128f85d17b6f75b586a78ad064d1f455e3563-b5a956c94403920a1ad6c0c935343c10549d76ec" class="exit" x1="601" y1="478" x2="601" y2="468"/>
@@ -628,7 +1187,6 @@
     <line id="edge-8bf23a18b1f0cb03b60006ef1d3779a44527be49-db311a46a1021b61a0976a34d0e89fb1650d9738" class="exit" x1="456" y1="466" x2="442" y2="466"/>
     <line id="edge-84534472f7d603c1b8e63b4ededb13e7e13d5161-defd1c1e9d827bd49de13d251981e00f72c5a978" class="exit" x1="376" y1="448" x2="386" y2="438"/>
     <line id="edge-cf2b6cd48e3a7d6fdea2ffa9a1b887bcdad68991-defd1c1e9d827bd49de13d251981e00f72c5a978" class="exit" x1="372" y1="424" x2="386" y2="438"/>
-    <line id="edge-335be77d5d88cf6e09bf91d527400be70f0b8a0c-84534472f7d603c1b8e63b4ededb13e7e13d5161" class="exit" x1="395" y1="507" x2="376" y2="448"/>
     <line id="edge-2c758323585123f62deca8a3bcdb4e56e377a6a0-335be77d5d88cf6e09bf91d527400be70f0b8a0c" class="exit" x1="384" y1="507" x2="395" y2="507"/>
     null
     <line id="edge-82129d6537efab6e0ff30cdb97b2729d23642b3f-9d801d155ff155b7134ebf5eeb8c73117563da56" class="exit" x1="384" y1="531" x2="373" y2="531"/>
@@ -679,7 +1237,6 @@
     <line id="edge-1e22df0fb84a39de37a49ae1dbc0aca079f6156f-d4dc6d8c9dbb14f527fddeeecdee385bc980db4f" class="exit" x1="302" y1="382" x2="302" y2="396"/>
     <line id="edge-6fe918e2dc634da09bf8921d255460c4be9464f4-f18ca76ca233731767857e12e61aa3875a0a614f" class="exit" x1="316" y1="382" x2="316" y2="396"/>
     <line id="edge-6fe918e2dc634da09bf8921d255460c4be9464f4-7455a5cf2e0b390596a152006d50c2f6ca1439a9" class="exit" x1="316" y1="382" x2="316" y2="368"/>
-    <line id="edge-6fe918e2dc634da09bf8921d255460c4be9464f4-d572da8982764dd019315e09c4fc75b93bbf0bf6" class="exit" x1="316" y1="382" x2="21" y2="458"/>
     <line id="edge-0708544a3741005b33e0c2c9b8b3d6e80bbb8607-d572da8982764dd019315e09c4fc75b93bbf0bf6" class="exit" x1="31" y1="458" x2="21" y2="458"/>
     <line id="edge-8b8c7a502d1443c866fa26a3ad4e0cb8807b2272-d572da8982764dd019315e09c4fc75b93bbf0bf6" class="exit" x1="31" y1="468" x2="21" y2="458"/>
     <line id="edge-0708544a3741005b33e0c2c9b8b3d6e80bbb8607-8b8c7a502d1443c866fa26a3ad4e0cb8807b2272" class="exit" x1="31" y1="458" x2="31" y2="468"/>
@@ -701,7 +1258,6 @@
     <line id="edge-34e8ca833ae1daf9f42da4a9023bad45dababd6d-5ace57950e0474d19599cd29ac500daa47cbfdb6" class="exit" x1="65" y1="478" x2="75" y2="478"/>
     <line id="edge-9f2f940507f60ead3a0d49a82363e40c8db6ead3-fe497c134a984bea59a9fc3ed48e49f162c7a76f" class="exit" x1="75" y1="458" x2="75" y2="448"/>
     <line id="edge-6c8e158e950a0407e3b41ef1e37aff82235bf0c4-fe497c134a984bea59a9fc3ed48e49f162c7a76f" class="exit" x1="65" y1="448" x2="75" y2="448"/>
-    <line id="edge-29b5391bc5933e9fbfe3b8074ebd94cad6eed287-6c8e158e950a0407e3b41ef1e37aff82235bf0c4" class="exit" x1="311" y1="504" x2="65" y2="448"/>
     <line id="edge-28a9c86c1dd97c61a198c3646dfa188a86bcf9ee-7455a5cf2e0b390596a152006d50c2f6ca1439a9" class="exit" x1="330" y1="354" x2="316" y2="368"/>
     <line id="edge-28a9c86c1dd97c61a198c3646dfa188a86bcf9ee-ef4c0eb2e5a69ddb6c821dc9159a65a6ad40d064" class="exit" x1="330" y1="354" x2="344" y2="340"/>
     <line id="edge-ac418f0f9441ed2df90ae81bb81f97fdd253bc1d-ef4c0eb2e5a69ddb6c821dc9159a65a6ad40d064" class="exit" x1="344" y1="326" x2="344" y2="340"/>
@@ -720,7 +1276,6 @@
     <line id="edge-02eb74b1f2d16739e84511d812ab7b2a0b2bfc97-ea0b2cfcf741538b3aa832404dacf51290c770cf" class="exit" x1="302" y1="284" x2="288" y2="270"/>
     <line id="edge-d65b89b65ac730130a8b2f2e9eb68f06c5e838f9-ea0b2cfcf741538b3aa832404dacf51290c770cf" class="exit" x1="288" y1="256" x2="288" y2="270"/>
     <line id="edge-1d03aec9263ebfd83f1163dbb15386cacbf761ed-234fdcbb8021764f038afdc191db5c78b55654f1" class="exit" x1="260" y1="256" x2="260" y2="270"/>
-    <line id="edge-234fdcbb8021764f038afdc191db5c78b55654f1-56063974b58bd7324e204a381638f5f7c9c23c88" class="exit" x1="260" y1="270" x2="99" y2="234"/>
     <line id="edge-234fdcbb8021764f038afdc191db5c78b55654f1-8bd644febf9938c212673cf17c083c2774779fd0" class="exit" x1="260" y1="270" x2="260" y2="284"/>
     <line id="edge-8bd644febf9938c212673cf17c083c2774779fd0-fe05bee48cd7d2ba630caa5b80ec091c82eb72b6" class="exit" x1="260" y1="284" x2="246" y2="298"/>
     <line id="edge-08eb1303e1f79a26a8bf3e90c95379b020a5b59b-fe05bee48cd7d2ba630caa5b80ec091c82eb72b6" class="exit" x1="246" y1="312" x2="246" y2="298"/>
@@ -755,7 +1310,6 @@
     <line id="edge-8c975e9c0c8482318ae72be9a9f18357420ba2ab-e9882676d40beb7de2dc57b62b0495c304eb57d8" class="exit" x1="232" y1="340" x2="232" y2="354"/>
     <line id="edge-883b7a74e345f8c7ee834bb2cb2a1c1b1a8d6552-8c975e9c0c8482318ae72be9a9f18357420ba2ab" class="exit" x1="243" y1="340" x2="232" y2="340"/>
     <line id="edge-3b57abafef3bc88c2d77117c192c76a6126b5260-8c562134e3cd6904ca5e439f60d34ab5fe70f36d" class="exit" x1="218" y1="312" x2="232" y2="298"/>
-    <line id="edge-3b57abafef3bc88c2d77117c192c76a6126b5260-3b8a246e6a4c345fc2f5c88da96383fee307927c" class="exit" x1="218" y1="312" x2="48" y2="412"/>
     <line id="edge-3b57abafef3bc88c2d77117c192c76a6126b5260-dd6c7d24f03e39e78d87e9551e527450907d8262" class="exit" x1="218" y1="312" x2="204" y2="298"/>
     <line id="edge-125adf4b5efc1791f190e91f39aa9bdff5999f2a-dd6c7d24f03e39e78d87e9551e527450907d8262" class="exit" x1="190" y1="298" x2="204" y2="298"/>
     <line id="edge-125adf4b5efc1791f190e91f39aa9bdff5999f2a-db56adaae0223ca31280cdc081b745df8ad54530" class="exit" x1="190" y1="298" x2="176" y2="298"/>
@@ -766,7 +1320,6 @@
     null
     <line id="edge-77e943d49de7348fdef7c49bfcc05427af22d739-e7e9b993b17628323c0b13c1fce540b18984fc44" class="exit" x1="166" y1="302" x2="176" y2="312"/>
     <line id="edge-d99c0f9b9350673b47eec82b296edca6b294027b-e7e9b993b17628323c0b13c1fce540b18984fc44" class="exit" x1="190" y1="326" x2="176" y2="312"/>
-    <line id="edge-70bf1dd2c838b6b018f76886832c161c66495813-77e943d49de7348fdef7c49bfcc05427af22d739" class="exit" x1="279" y1="537" x2="166" y2="302"/>
     <line id="edge-62603b86954ab72c73d48dc95fb74d71cbdc7608-70bf1dd2c838b6b018f76886832c161c66495813" class="exit" x1="268" y1="537" x2="279" y2="537"/>
     <line id="edge-0718929d8b608454f33d0bcb66b48d22caf4be8c-62603b86954ab72c73d48dc95fb74d71cbdc7608" class="exit" x1="268" y1="526" x2="268" y2="537"/>
     <line id="edge-0718929d8b608454f33d0bcb66b48d22caf4be8c-6919307c65d0bdb432a2f02689447006decefcf8" class="exit" x1="268" y1="526" x2="279" y2="526"/>
@@ -881,8 +1434,8 @@
     <line id="edge-48ee31fd5d78131b0a2195c81e39cc66a56db405-e66191b63769c9d1719883df7eb08912618982b5" class="exit" x1="554" y1="256" x2="554" y2="256"/>
     <line id="edge-4bf2696373609069a0127f239b5e9c5af5f89dc5-5f7b2c12084165dc963414fb59b36f37c235861c" class="exit" x1="176" y1="312" x2="176" y2="312"/>
   </g>
-
-  <g id="layer-rooms">
+  <g
+     id="layer-rooms">
     <rect id="room-35ea94550b0f3b7a800e5141e1f0251278ecfe3c" class="room indoor" data-label="Genua National Bank" x="466" y="227" width="8" height="8" rx="2"/>
     <circle id="room-0ebbc916f35c03181af68366e85e7863d4ca5d68" class="room outdoor" data-label="Royal Avenue" cx="470" cy="242" r="4"/>
     <rect id="room-8a72343467394f736496ccb4a57f7677b415d343" class="room indoor" data-label="safety deposit waiting room" x="466" y="227" width="8" height="8" rx="2"/>
@@ -936,9 +1489,9 @@
     <circle id="room-033a8044c7442f0a71fd0f143f3738bb1588d662" class="room outdoor" data-label="Paradise Crescent" cx="512" cy="228" r="4"/>
     <circle id="room-c0c0f25581192506bc62dea1f925ae50e4c9e1ab" class="room outdoor" data-label="Royal Avenue, junction with Paradise and Diamond Crescents" cx="512" cy="242" r="4"/>
     <circle id="room-f814c1391c5a57cfa84921f6b8fe9d0b4d2feea2" class="room outdoor" data-label="Royal Avenue" cx="498" cy="242" r="4"/>
-    <circle id="room-a274d59f019207e574264206453c788834c11bd8" class="room outdoor" data-label="small lane" cx="498" cy="251" r="4"/>
-    <circle id="room-bb57436c13378fe3a5a7b82409568e933604c127" class="room outdoor" data-label="small lane" cx="498" cy="256" r="4"/>
-    <circle id="room-df3d3261d971cd80e3ef72fdd7c9c04b00e5860a" class="room outdoor" data-label="garden" cx="498" cy="262" r="4"/>
+    <circle id="room-a274d59f019207e574264206453c788834c11bd8" class="room outdoor room-compact" data-label="small lane" cx="498" cy="251" r="1.5"/>
+    <circle id="room-bb57436c13378fe3a5a7b82409568e933604c127" class="room outdoor room-compact" data-label="small lane" cx="498" cy="256" r="1.5"/>
+    <circle id="room-df3d3261d971cd80e3ef72fdd7c9c04b00e5860a" class="room outdoor room-compact" data-label="garden" cx="498" cy="262" r="1.5"/>
     <circle id="room-251c66db9966286e9332fe35c15b30e436d410c0" class="room outdoor" data-label="garden" cx="484" cy="277" r="4"/>
     <rect id="room-22fc549443a42342ece5b9ec4586806db27944e4" class="room indoor" data-label="bedroom" x="480" y="257" width="8" height="8" rx="2"/>
     <rect id="room-1c2eb697c45408c26d5110c44f931480ed0f6266" class="room indoor" data-label="hall" x="480" y="257" width="8" height="8" rx="2"/>
@@ -1691,9 +2244,10 @@
     <rect id="room-93cb6e76ff4bcfc0b4b1d7ce9dcf53e550871627" class="room indoor" data-label="office of the High Priest of Gapp" x="651" y="454" width="8" height="8" rx="2"/>
     <rect id="room-784c862983494eb0f0b3a0416c4311ae577441a2" class="room indoor" data-label="Temple scriptorium" x="586" y="454" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="590,455 587.5,460 592.5,460"/>
   </g>
-
-
-  <g id="layer-room-labels"></g>
-  <g id="layer-labels"><!-- labels --></g>
-
+  <g
+     id="layer-room-labels" />
+  <g
+     id="layer-labels">
+    <!-- labels -->
+  </g>
 </svg>
