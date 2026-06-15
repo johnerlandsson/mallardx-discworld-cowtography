@@ -35,8 +35,6 @@ local last_results    = {}
 local current_room    = nil
 local target_room     = nil  -- predicted position; nil when same as confirmed
 local room_id_echo    = false
-local _last_dark_name = nil  -- GMCP name of the dark room we're currently in; nil in lit areas
-local _dark_debug     = false
 
 -- ─── Map panel ───────────────────────────────────────────────────────────────
 
@@ -309,7 +307,6 @@ world.on("disconnect", reset_walk)
 
 gmcp.on('room.info', function(_, data)
   if type(data) == 'table' and data.identifier then
-    _last_dark_name = nil  -- back in a lit room
     local prev_room = current_room
     current_room = data.identifier
     if target_room == current_room then
@@ -384,44 +381,15 @@ gmcp.on('room.info', function(_, data)
       end
     end
   elseif type(data) == 'table' then
-    -- Dark room: room.info fired without an identifier. Discworld omits identifiers
-    -- for dark rooms, so we rely on movement prediction to track position.
-    --
-    -- Use the GMCP room name as a surrogate identifier. If the name matches what we
-    -- already recorded for this dark room, GMCP is re-confirming the same room (e.g.
-    -- a blocked move) — skip without touching target_room so the prediction survives
-    -- for the next move. If the name differs, we've moved to a new dark room.
-    local same_room = _last_dark_name ~= nil and data.name == _last_dark_name
-    if _dark_debug then
-      note(string.format('  [dark] name="%s"  last="%s"  same=%s  target=%s  current=%s',
-        tostring(data.name), tostring(_last_dark_name),
-        tostring(same_room),
-        target_room  and target_room:sub(1,8)  or 'nil',
-        current_room and current_room:sub(1,8) or 'nil'), C.muted)
-    end
-    if not same_room and target_room ~= nil then
-      _last_dark_name = data.name
-      current_room    = target_room
-      target_room     = nil
-      if room_id_echo then note('  ' .. current_room, C.name) end
-      lib_orb_here        = false
-      lib_distortion_here = nil
-      last_payload = { identifier = current_room }
-      post_room(last_payload)
-      if walk_pos > 0 then
-        if walk_pos < #walk_steps then
-          walk_pos = walk_pos + 1
-          local remaining = #walk_steps - walk_pos + 1
-          mud.send(walk_steps[walk_pos])
-          note(string.format('  %d move%s remaining.', remaining, remaining == 1 and '' or 's'), C.muted)
-        else
-          note(string.format('  Arrived at "%s".', walk_target_name), C.ok)
-          walk_steps       = {}
-          walk_pos         = 0
-          walk_target_name = ''
-          post_route_clear()
-        end
-      end
+    -- Dark room: room.info fired without an identifier.
+    -- Navigation is intentionally difficult in darkness — don't attempt to track position.
+    target_room = nil
+    panel:post("special_screen", { name = "darkness" })
+    panel:post("target_clear",   { snap = false })
+    if walk_pos > 0 then
+      walk_steps = {}; walk_pos = 0; walk_target_name = ''
+      post_route_clear()
+      note('  Walk cancelled: entered darkness.', C.muted)
     end
   end
 end)
@@ -717,18 +685,6 @@ mud.alias([[^dbid$]], function()
     if current_room then note('  ' .. current_room, C.name) end
   else
     note('  Room ID echo OFF.', C.muted)
-  end
-end)
-
--- ─── dbdark ──────────────────────────────────────────────────────────────────
--- Toggle debug output for dark-room GMCP tracking.
-
-mud.alias([[^dbdark$]], function()
-  _dark_debug = not _dark_debug
-  if _dark_debug then
-    note('  Dark room debug ON. Each dark room.info will print name/state.', C.ok)
-  else
-    note('  Dark room debug OFF.', C.muted)
   end
 end)
 
