@@ -113,6 +113,10 @@ local function note(text, colour)
   mud.note(text, { fg = colour or C.name })
 end
 
+local walk_steps       = {}
+local walk_pos         = 0
+local walk_target_name = ''
+
 local function walk_arrived(name)
   note(string.format('  Arrived at "%s".', name), C.ok)
   walk_steps = {}; walk_pos = 0; walk_target_name = ''
@@ -135,12 +139,6 @@ local function vlen(s)
   return n
 end
 
-
--- ─── Walk state ──────────────────────────────────────────────────────────────
-
-local walk_steps       = {}
-local walk_pos         = 0
-local walk_target_name = ''
 
 -- ─── UU Library ──────────────────────────────────────────────────────────────
 -- Directions in the library are relative (forward/backward/left/right).
