@@ -319,6 +319,13 @@ seed_room()
 world.on("connect",    seed_room)
 world.on("disconnect", reset_walk)
 
+-- ─── Settings ────────────────────────────────────────────────────────────────
+-- Registering this handler opts into live settings updates: the plugin VM
+-- stays alive across setting changes instead of being restarted.
+-- walk_sound is read inline at point-of-use so no caching to update here.
+
+settings.on("change", function(_key, _new, _old) end)
+
 -- ─── Character name ──────────────────────────────────────────────────────────
 -- char.info.capname is the authoritative per-character name from GMCP.
 -- Mirrors the pattern from discworld-grouping: subscribe for live updates +
