@@ -24,3 +24,23 @@ title        = "Map"
 entry        = "ui/mapper.html"
 default_dock = "right"
 default_size = { width = 360, height = 360 }
+
+[settings.walk_sound]
+type    = "enum"
+default = "none"
+label   = "Walk arrival sound"
+description = "Sound to play when a db walk completes."
+choices = [
+  { value = "none",                   label = "None"            },
+  { value = "mallard:chime-chomp",    label = "Chime: Chomp"   },
+  { value = "mallard:chime-high",     label = "Chime: High"    },
+  { value = "mallard:chime-low",      label = "Chime: Low"     },
+  { value = "mallard:chime-vibe",     label = "Chime: Vibe"    },
+  { value = "mallard:clock-chime",    label = "Clock Chime"    },
+  { value = "mallard:ding-ding-ding", label = "Ding Ding Ding" },
+  { value = "mallard:ding-ding-high", label = "Ding Ding High" },
+  { value = "mallard:ding-ding-low",  label = "Ding Ding Low"  },
+  { value = "mallard:ding-dong",      label = "Ding Dong"      },
+  { value = "mallard:ding-dong2",     label = "Ding Dong 2"    },
+  { value = "mallard:tritone-chime",  label = "Tritone Chime"  },
+]
