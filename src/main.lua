@@ -624,6 +624,12 @@ local function do_route(n, walk_immediately)
   route_to_room(target.room_id, target.location, walk_immediately)
 end
 
+local function bm_key()
+  local ch = mud.world and mud.world.character
+  if not ch or ch == '' then return nil end
+  return 'bm_' .. ch
+end
+
 -- Specific patterns first, catch-all last.
 
 mud.alias([[^db$]], function()
@@ -678,6 +684,78 @@ mud.alias([[^db npcitem\s+(.+)$]], function(m)
   do_search('npcitem', m:raw(1), nil)
 end)
 
+mud.alias([[^db bm$]], function()
+  local key = bm_key()
+  if not key then
+    note('  Character name not available.', C.err)
+    return
+  end
+  local bmarks = storage.get(key) or {}
+  local names = {}
+  for name in pairs(bmarks) do names[#names + 1] = name end
+  if #names == 0 then
+    note('  No bookmarks.', C.muted)
+    return
+  end
+  table.sort(names)
+  note('  Bookmarks:', C.header)
+  for _, name in ipairs(names) do
+    note(string.format('  %-20s %s', name, bmarks[name].location), C.alt)
+  end
+end)
+
+mud.alias([[^db bm add (.+)$]], function(m)
+  local key = bm_key()
+  if not key then
+    note('  Character name not available.', C.err)
+    return
+  end
+  if current_room == nil then
+    note('  Current room unknown. Move through a mapped room first.', C.err)
+    return
+  end
+  local name     = m:raw(1)
+  local location = (last_payload and last_payload.name) or current_room
+  local bmarks   = storage.get(key) or {}
+  bmarks[name]   = { room_id = current_room, location = location }
+  storage.set(key, bmarks)
+  note(string.format('  Bookmarked "%s" as "%s".', location, name), C.ok)
+end)
+
+mud.alias([[^db bm rm (.+)$]], function(m)
+  local key = bm_key()
+  if not key then
+    note('  Character name not available.', C.err)
+    return
+  end
+  local name   = m:raw(1)
+  local bmarks = storage.get(key) or {}
+  if bmarks[name] == nil then
+    note(string.format('  No bookmark named "%s".', name), C.err)
+    return
+  end
+  bmarks[name] = nil
+  storage.set(key, bmarks)
+  note(string.format('  Removed bookmark "%s".', name), C.ok)
+end)
+
+mud.alias([[^db bm (.+)$]], function(m)
+  local name = m:raw(1)
+  if name:match('^add%s') or name:match('^rm%s') then return end
+  local key = bm_key()
+  if not key then
+    note('  Character name not available.', C.err)
+    return
+  end
+  local bmarks = storage.get(key) or {}
+  local entry  = bmarks[name]
+  if entry == nil then
+    note(string.format('  No bookmark named "%s".', name), C.err)
+    return
+  end
+  route_to_room(entry.room_id, entry.location, false)
+end)
+
 mud.alias([[^db (.+)$]], function(m)
   local arg = m:raw(1)
   if arg:match('^%d+$')      then return end
@@ -686,6 +764,7 @@ mud.alias([[^db (.+)$]], function(m)
   if arg:match('^npc%s')     then return end
   if arg:match('^npcitem%s') then return end
   if arg == 'walk' or arg == 'clear' then return end
+  if arg == 'bm' or arg:match('^bm%s') then return end
   do_search('room', arg, nil)
 end)
 
