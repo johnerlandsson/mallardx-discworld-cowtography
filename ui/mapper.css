@@ -69,7 +69,7 @@ body {
 .exit         { stroke: #3a3a3a; stroke-width: 1.82; fill: none; }
 .exit.route   { stroke: #00d2ff; stroke-width: 3.03; }
 .exit-compact { stroke-width: 0.75; }
-.exit-offmap  { stroke: #888; stroke-width: 1.5; stroke-dasharray: 3 2; fill: none; }
+.exit-offmap  { stroke: #3a3a3a; stroke-width: 1.5; stroke-dasharray: 3 2; fill: none; }
 .room-phantom { fill: var(--bg); stroke: var(--ansi-3, #c8a228); stroke-width: 0.5; }
 .room.water   { fill: #0d1f2d; stroke: #4a9fd4; }
 .exit-water   { stroke: #4a9fd4; }
