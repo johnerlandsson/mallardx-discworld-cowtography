@@ -624,11 +624,9 @@ local function do_route(n, walk_immediately)
   route_to_room(target.room_id, target.location, walk_immediately)
 end
 
-local function bm_key()
-  local ch = mud.world and mud.world.character
-  if not ch or ch == '' then return nil end
-  return 'bm_' .. ch
-end
+-- Storage is already isolated per-world by Mallard; each character is a
+-- separate world config, so a fixed key gives the right per-character scope.
+local BM_KEY = 'bookmarks'
 
 -- Specific patterns first, catch-all last.
 
@@ -690,12 +688,7 @@ mud.alias([[^db npcitem\s+(.+)$]], function(m)
 end)
 
 mud.alias([[^db bm$]], function()
-  local key = bm_key()
-  if not key then
-    note('  Character name not available.', C.err)
-    return
-  end
-  local bmarks = storage.get(key) or {}
+  local bmarks = storage.get(BM_KEY) or {}
   local names = {}
   for name in pairs(bmarks) do names[#names + 1] = name end
   if #names == 0 then
@@ -710,49 +703,34 @@ mud.alias([[^db bm$]], function()
 end)
 
 mud.alias([[^db bm add (.+)$]], function(m)
-  local key = bm_key()
-  if not key then
-    note('  Character name not available.', C.err)
-    return
-  end
   if current_room == nil then
     note('  Current room unknown. Move through a mapped room first.', C.err)
     return
   end
   local name     = m:raw(1)
   local location = (last_payload and last_payload.name) or current_room
-  local bmarks   = storage.get(key) or {}
+  local bmarks   = storage.get(BM_KEY) or {}
   bmarks[name]   = { room_id = current_room, location = location }
-  storage.set(key, bmarks)
+  storage.set(BM_KEY, bmarks)
   note(string.format('  Bookmarked "%s" as "%s".', location, name), C.ok)
 end)
 
 mud.alias([[^db bm rm (.+)$]], function(m)
-  local key = bm_key()
-  if not key then
-    note('  Character name not available.', C.err)
-    return
-  end
   local name   = m:raw(1)
-  local bmarks = storage.get(key) or {}
+  local bmarks = storage.get(BM_KEY) or {}
   if bmarks[name] == nil then
     note(string.format('  No bookmark named "%s".', name), C.err)
     return
   end
   bmarks[name] = nil
-  storage.set(key, bmarks)
+  storage.set(BM_KEY, bmarks)
   note(string.format('  Removed bookmark "%s".', name), C.ok)
 end)
 
 mud.alias([[^db bm (.+)$]], function(m)
   local name = m:raw(1)
   if name:match('^add%s') or name:match('^rm%s') then return end
-  local key = bm_key()
-  if not key then
-    note('  Character name not available.', C.err)
-    return
-  end
-  local bmarks = storage.get(key) or {}
+  local bmarks = storage.get(BM_KEY) or {}
   local entry  = bmarks[name]
   if entry == nil then
     note(string.format('  No bookmark named "%s".', name), C.err)
@@ -786,19 +764,6 @@ end)
 -- ─── dbid ────────────────────────────────────────────────────────────────────
 -- Toggle printing of the current room ID on every room transition.
 -- Useful when populating room-types.json and room-compact.json.
-
-mud.alias([[^dbworld$]], function()
-  if mud.world then
-    note('  mud.world:', C.header)
-    note('    id        = ' .. tostring(mud.world.id),        C.alt)
-    note('    name      = ' .. tostring(mud.world.name),      C.alt)
-    note('    host      = ' .. tostring(mud.world.host),      C.alt)
-    note('    port      = ' .. tostring(mud.world.port),      C.alt)
-    note('    character = ' .. tostring(mud.world.character), C.alt)
-  else
-    note('  mud.world is nil', C.err)
-  end
-end)
 
 mud.alias([[^dbid$]], function()
   room_id_echo = not room_id_echo
