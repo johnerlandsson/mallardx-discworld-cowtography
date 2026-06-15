@@ -787,6 +787,17 @@ end)
 -- Toggle printing of the current room ID on every room transition.
 -- Useful when populating room-types.json and room-compact.json.
 
+mud.alias([[^dbworld$]], function()
+  if mud.world then
+    note('  mud.world:', C.header)
+    for k, v in pairs(mud.world) do
+      note(string.format('    %s = %s', tostring(k), tostring(v)), C.alt)
+    end
+  else
+    note('  mud.world is nil', C.err)
+  end
+end)
+
 mud.alias([[^dbid$]], function()
   room_id_echo = not room_id_echo
   if room_id_echo then
