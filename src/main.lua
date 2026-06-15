@@ -574,27 +574,17 @@ local function do_search(search_type, query, area_filter)
   display_results(search_type, query, results, sorted_by_dist)
 end
 
-local function do_route(n, walk_immediately)
-  if #last_results == 0 then
-    note('  No search results. Run a db search first.', C.err)
-    return
-  end
-  if n < 1 or n > #last_results then
-    note(string.format('  Result %d out of range (1–%d).', n, #last_results), C.err)
-    return
-  end
+local function route_to_room(room_id, display_name, walk_immediately)
   if current_room == nil then
     note('  Current room unknown. Move through a mapped room first.', C.err)
     return
   end
-
-  local target = last_results[n]
-  if current_room == target.room_id then
+  if current_room == room_id then
     note('  You are already there.', C.ok)
     return
   end
 
-  local path, steps, route_rooms = pathfind.find_path(exits, current_room, target.room_id)
+  local path, steps, route_rooms = pathfind.find_path(exits, current_room, room_id)
   if path == nil then
     note('  Could not find a route. You may be in an untracked area, or the destination is unreachable.', C.err)
     return
@@ -604,7 +594,7 @@ local function do_route(n, walk_immediately)
   for dir in path:gmatch('[^;]+') do
     walk_steps[#walk_steps + 1] = dir
   end
-  walk_target_name = target.location
+  walk_target_name = display_name
   post_route(route_rooms)
 
   if steps > 140 then
@@ -613,12 +603,25 @@ local function do_route(n, walk_immediately)
 
   if walk_immediately then
     walk_pos = 1
-    note(string.format('  Walking to "%s" — %d move%s.', target.location, steps, steps == 1 and '' or 's'), C.ok)
+    note(string.format('  Walking to "%s" — %d move%s.', display_name, steps, steps == 1 and '' or 's'), C.ok)
     mud.send(walk_steps[1])
   else
     walk_pos = 0
-    note(string.format('  Route to "%s" — %d move%s. Type "db walk" to begin.', target.location, steps, steps == 1 and '' or 's'), C.ok)
+    note(string.format('  Route to "%s" — %d move%s. Type "db walk" to begin.', display_name, steps, steps == 1 and '' or 's'), C.ok)
   end
+end
+
+local function do_route(n, walk_immediately)
+  if #last_results == 0 then
+    note('  No search results. Run a db search first.', C.err)
+    return
+  end
+  if n < 1 or n > #last_results then
+    note(string.format('  Result %d out of range (1–%d).', n, #last_results), C.err)
+    return
+  end
+  local target = last_results[n]
+  route_to_room(target.room_id, target.location, walk_immediately)
 end
 
 -- Specific patterns first, catch-all last.
