@@ -37,6 +37,14 @@ local target_room     = nil  -- predicted position; nil when same as confirmed
 local room_id_echo    = false
 local _in_dark        = false
 
+-- Room identifiers that show a named special screen instead of the map.
+local SPECIAL_SCREENS = {
+  RatFarm       = 'rat_farm',
+  AbandonedMine = 'mines',
+  Labyrinth     = 'labyrinth',
+  SandelfonMaze = 'labyrinth',
+}
+
 -- ─── Map panel ───────────────────────────────────────────────────────────────
 
 local panel        = mud.panel("map")
@@ -406,8 +414,13 @@ gmcp.on('room.info', function(_, data)
         panel:post("lspace", {})
       else
         lib_in_lspace = false
-        last_payload  = data
-        post_room(data)
+        local special = SPECIAL_SCREENS[data.identifier]
+        if special then
+          panel:post("special_screen", { name = special })
+        else
+          last_payload = data
+          post_room(data)
+        end
       end
     end
 
