@@ -652,31 +652,31 @@ mud.alias([[^db walk$]], function()
 end)
 
 mud.alias([[^db (\d+)$]], function(m)
-  do_route(tonumber(m[1]), true)
+  do_route(tonumber(m:raw(1)), true)
 end)
 
 mud.alias([[^db npc\s+\{([^}]+)\}\s+(.+)$]], function(m)
-  do_search('npc', m[2], m[1])
+  do_search('npc', m:raw(2), m:raw(1))
 end)
 
 mud.alias([[^db npc\s+([^{].*)$]], function(m)
-  do_search('npc', m[1], nil)
+  do_search('npc', m:raw(1), nil)
 end)
 
 mud.alias([[^db item\s+(.+)$]], function(m)
-  do_search('item', m[1], nil)
+  do_search('item', m:raw(1), nil)
 end)
 
 mud.alias([[^db shop\s+(.+)$]], function(m)
-  do_search('item', m[1], nil)
+  do_search('item', m:raw(1), nil)
 end)
 
 mud.alias([[^db npcitem\s+(.+)$]], function(m)
-  do_search('npcitem', m[1], nil)
+  do_search('npcitem', m:raw(1), nil)
 end)
 
 mud.alias([[^db (.+)$]], function(m)
-  local arg = type(m[1]) == 'number' and tostring(m[1]) or m[1]
+  local arg = m:raw(1)
   if arg:match('^%d+$')      then return end
   if arg:match('^item%s')    then return end
   if arg:match('^shop%s')    then return end
