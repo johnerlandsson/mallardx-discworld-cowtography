@@ -29,15 +29,16 @@ text, .map-label, .map-label-muted, .map-label-accent,
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="0.83434428"
-     inkscape:cx="165.99862"
-     inkscape:cy="337.98997"
+     inkscape:zoom="3.3373772"
+     inkscape:cx="659.64974"
+     inkscape:cy="494.99949"
      inkscape:window-width="1968"
      inkscape:window-height="1011"
      inkscape:window-x="26"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg116" />
+     inkscape:current-layer="layer-artwork"
+     showgrid="false" />
   <g
      id="layer-artwork">
     <!-- artwork -->
@@ -211,34 +212,10 @@ text, .map-label, .map-label-muted, .map-label-accent,
        cy="674"
        r="4" />
     <circle
-       id="circle119-6"
-       class="room-phantom"
-       cx="1109.0431"
-       cy="692"
-       r="4" />
-    <circle
-       id="circle119-8"
-       class="room-phantom"
-       cx="1133"
-       cy="741.27124"
-       r="4" />
-    <circle
-       id="circle120"
-       class="room-phantom"
-       cx="1147.6194"
-       cy="741.27124"
-       r="4" />
-    <circle
        id="circle120-9"
        class="room-phantom"
        cx="1117.9287"
        cy="847.05597"
-       r="4" />
-    <circle
-       id="circle120-0"
-       class="room-phantom"
-       cx="1284.8916"
-       cy="1307.8051"
        r="4" />
     <circle
        id="circle120-3"
@@ -310,9 +287,329 @@ text, .map-label, .map-label-muted, .map-label-accent,
        class="map-river"
        fill="none"
        stroke="#888888" />
+    <path
+       d="m 1669.8742,1184.1635 v 8.3149 l -8.9142,8.9141 v 6.2924 l 6.18,6.18 v 7.004 l -10.2438,10.2438 v 9.9068 l -7.5939,7.5939 h -9.991 l -9.3113,9.1108 v 9.064 l -34.1098,34.1098 h -15.4575 l -11.86,11.8601 4.444,4.444 0,12.3135"
+       id="path1"
+       class="map-river"
+       fill="none"
+       stroke="#888888"
+       sodipodi:nodetypes="ccccccccccccccccc" />
+    <path
+       d="m 1573.0167,1329.5156 v 16.063"
+       id="path2"
+       class="map-river-offmap"
+       fill="none"
+       stroke="#888888"
+       sodipodi:nodetypes="cc" />
+    <path
+       d="m 1464,1192.7238 h 28.6594 l 21.1213,21.1213 v 11.9577 l 32.9797,32.9797 v 32.4367 l 21.8123,21.5389"
+       id="path3"
+       class="map-river"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 308.02632,19.026918 v 30.038559 l 26.74256,26.742558 V 244.6532 L 347.39107,257.27539 360,257"
+       id="path4"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="M 308.02632,19.026918 V 3.8952745"
+       id="path5"
+       class="exit-journey-offmap"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="M 119.70478,19.026918 V 3.8952742"
+       id="path5-7"
+       class="exit-journey-offmap"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="M 236.93756,750.53803 V 735.40638"
+       id="path5-7-6"
+       class="exit-journey-offmap"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="M 119.70478,19.026918 V 316.75312 L 104,331 27.54375,331.24814"
+       id="path117"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="M 12.4121,331.24814 H 27.54375"
+       id="path5-7-9"
+       class="exit-journey-offmap"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 104,331 17.94609,17.94609 h 40.98578 l 15.20805,15.20805 h 20.91664 l 15.11957,-15.11958 h 17.77402 l 14.76654,14.76655 H 270.3525 L 297.67427,337 H 323 l 23,23"
+       id="path118"
+       sodipodi:nodetypes="cccccccccccc"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 323,337 13.77928,-13.77928 h 48.40343 l 17.94681,17.94681 h 15.46266 l 34.32407,-34.32407 h 21.55814 l 17.22125,17.22125 h 79.41152 L 589,305 646.25827,247.74173 662,248"
+       id="path119"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 476.77527,266.7774 h 15.13165"
+       id="path5-1"
+       class="exit-journey-offmap"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 579,219 -47.7854,47.7854 -39.30768,-0.008"
+       id="path127"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 556,159 h 16.23079 l 4.99749,4.99749 v 18.25641 l -7.44274,7.44274 v 20.12381 L 579,219 l 11.68927,11.68927 v 21.45484 l -16.72015,16.72015 v 20.6595 L 589,305 603,319.56232 V 332"
+       id="path128"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 617,360 v 17.56124 l 26.58031,26.58031 v 11.18641 L 617,441.81733 V 454"
+       id="path129"
+       sodipodi:nodetypes="cccccc"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 617,482 v 13.9464 l -9,8.0536 13.04327,13.04327 h 214.85656 l 25.81461,25.81461 h 173.61276 l 98.2399,98.23996 v 41.08668 L 1122,692 1133.637,703.63702 1133,741.27124 V 766"
+       id="path130"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 1133,741.27124 h 14.6194"
+       id="path131"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" />
+    <circle
+       id="circle119-8"
+       class="room-phantom"
+       cx="1133"
+       cy="741.27124"
+       r="4" />
+    <circle
+       id="circle120"
+       class="room-phantom"
+       cx="1147.6194"
+       cy="741.27124"
+       r="4" />
+    <path
+       d="m 1133,794 v 11.33686 l 12,11.75906 V 846 l 11.3102,11 H 1184"
+       id="path132"
+       sodipodi:nodetypes="cccccc"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="M 1131,898.0119 V 883 860 l -13.0713,-12.94403"
+       id="path133"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <circle
+       id="circle132"
+       class="room-phantom"
+       cx="1131"
+       cy="898.0119"
+       r="4" />
+    <path
+       d="m 1131,860 14,-14"
+       id="path134"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 1212,885 v 16.84592 l 9.7617,9.76171 v 22.92001 L 1197.1919,959 H 1176"
+       id="path135"
+       sodipodi:nodetypes="cccccc"
+       fill="none"
+       class="exit-journey"
+       stroke="#888888" />
+    <path
+       d="m 1162,987 v 39.1106 l 20.672,20.672 h 34.6558 L 1230,1059 l -12.2442,12.2442 v 38.4511 l 17.1597,17.1597 v 47.78 l -13.9318,13.9318 v 50.0544 l 25.345,25.345 h 11.0435 l 12.7525,12.7525 v 16.5663 l 14.7669,14.5201 13.0458,-13.0458 v -7.7511 l 9.2077,-9.2078 h 7.8041 L 1323,1286"
+       id="path136"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 1284.8916,1307.8051 0.3421,21.7105"
+       id="path137"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <circle
+       id="circle120-0"
+       class="room-phantom"
+       cx="1284.8916"
+       cy="1307.8051"
+       r="4" />
+    <path
+       d="m 1285.2337,1329.5156 v 16.063"
+       id="path138"
+       class="exit-journey-offmap"
+       fill="none"
+       stroke="#888888"
+       sodipodi:nodetypes="cc" />
+    <path
+       d="m 1351,1286 h 11.5151 L 1409,1239"
+       id="path139"
+       sodipodi:nodetypes="ccc"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 1409,1211 v -10.394 l 23,-23.606 18,18.2125 V 1204"
+       id="path140"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 1432,1177 v -11.5639 l 9.7196,-9.7195 h 10.3188 l 4.8597,-4.8597 v -7.1069 l -7.8982,-7.8982 v -6.1848 L 1460,1117 h 14.4737 l 19.2105,-19.2105 h 60.4179 l 28.8606,28.8606 v 14.1409 l 9.9152,9.9152 h 5.7577 l 10.3323,-10.3323 v -13.6658 l 12.7933,-12.7933 h 25.3406 l 10.8512,-10.8512 h 26.079 L 1695,1090 v 14.8812"
+       id="path141"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 1695.8475,983.84655 v 16.063"
+       id="path138-4"
+       class="exit-journey-offmap"
+       fill="none"
+       stroke="#888888"
+       sodipodi:nodetypes="cc" />
+    <path
+       d="M 1695.8475,999.90955 1695,1090 l 12.9728,12.9728 v 34.9548 l 33.1872,33.1872"
+       id="path142"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 1741.16,1171.1148 8.6423,8.6423"
+       id="path138-4-8"
+       class="exit-journey-offmap"
+       fill="none"
+       stroke="#888888"
+       sodipodi:nodetypes="cc" />
+    <path
+       d="m 1639.2768,1329.5156 v 16.063"
+       id="path138-4-5"
+       class="exit-journey-offmap"
+       fill="none"
+       stroke="#888888"
+       sodipodi:nodetypes="cc" />
+    <path
+       d="m 1626,1297 12.7792,12.7792 0.4976,19.7364"
+       id="path143"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 1561,1277 h 16.4093 l 6.0768,6.0767 L 1598,1283"
+       id="path144"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 1258,1059 h 37.4784 l 23.8911,23.8911 h 44.8005 l 9.9654,-9.9653 h 61.8725 l 11.9842,11.9842 v 20.2992 L 1460,1117"
+       id="path145"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 115.95931,674 h 15.13166"
+       id="path5-3"
+       class="exit-journey-offmap"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 131.09097,674 h 90.83132 l 14.82742,14.82742 0.18785,46.57694"
+       id="path146"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 236.30484,674 h -14.38255 l 22.7448,-22.7448 v -23.57552 l 23.39922,-22.95269 v -13.78326"
+       id="path147"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 295.9325,548.69501 v 28.55469 l -27.86619,27.47729 -39.3783,-39.3783 v -35.29173 l 25.2866,-25.2866 h 48.65825 l 28.07458,28.07458 h 19.11817 L 375,506 360.80782,491.80782 V 450.50347 L 345.88946,435.69104 346,388"
+       id="path148"
+       sodipodi:nodetypes="cccccccccccccc"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 375,506 h 29.58418 l 17.03626,-17.03626 h 6.26047 l 22.60661,22.60661 h 4.06104 l 76.43679,76.43679 h 17.72398 l 14.14308,-14.14309 V 550.73187 L 570,542 l 19.03989,19.03989 v 53.8891 L 603,629"
+       id="path149"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 570,542 38,-38"
+       id="path150"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 827,629 25.16619,25 H 862 l 13.7946,-13.7946 h 15.69888 L 904,627"
+       id="path151"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="m 862,654 24.00413,24.00413 v 24.25555 L 908.78276,724.93237 935,725"
+       id="path152"
+       sodipodi:nodetypes="ccccc"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="M 1109.0431,692 H 1122"
+       id="path153"
+       class="exit-journey"
+       fill="none"
+       stroke="#888888" />
+    <circle
+       id="circle119-6"
+       class="room-phantom"
+       cx="1109.0431"
+       cy="692"
+       r="4" />
+    <circle
+       id="circle153"
+       class="room-phantom"
+       cx="295.9325"
+       cy="562.62811"
+       r="4" />
+    <path
+       d="m 309.76124,546.74343 v 39.40875 l -38.50828,38.50828 v 36.70734 l 11.62664,11.62664 v 62.84742"
+       id="path154"
+       class="map-river"
+       fill="none"
+       stroke="#888888" />
+    <path
+       d="M 282.8796,750.53803 V 735.40638"
+       id="path155"
+       class="map-river-offmap"
+       fill="none"
+       stroke="#888888" />
   </g>
   <g
-     id="layer-exits"><line
+     id="layer-exits"
+     sodipodi:insensitive="true"><line
    id="edge-087e9ce0a29cb5e1885352a7965d744bf398dfaf-1a28b1cd72e6781a6051a38fdb65d7b55ce51930"
    class="exit"
    x1="374"
@@ -656,13 +953,6 @@ text, .map-label, .map-label-muted, .map-label-accent,
    x2="542"
    y2="159" />
 <line
-   id="edge-254c4c72a2cd43d33b780fead4be70afe719f72b-6407dc810ca2f1472cce9619e014a8268a2b7838"
-   class="exit"
-   x1="589"
-   y1="305"
-   x2="603"
-   y2="332" />
-<line
    id="edge-6407dc810ca2f1472cce9619e014a8268a2b7838-b54b4c3eccb0744c42da03d084c7c488a17f0a74"
    class="exit"
    x1="603"
@@ -695,27 +985,6 @@ text, .map-label, .map-label-muted, .map-label-accent,
 
     null
     <line
-   id="edge-00e1aa679c692a7a07b5bd88ef9a92e9ad328556-47eb46d6880c9e638eab4268d40b457c63076c55"
-   class="exit"
-   x1="608"
-   y1="504"
-   x2="617"
-   y2="482" />
-<line
-   id="edge-00e1aa679c692a7a07b5bd88ef9a92e9ad328556-fc3b1b76c17bb14396331520d723347602096ad5"
-   class="exit"
-   x1="608"
-   y1="504"
-   x2="570"
-   y2="542" />
-<line
-   id="edge-cb25eab957d9df770af6787786a8e5001123a246-fc3b1b76c17bb14396331520d723347602096ad5"
-   class="exit"
-   x1="603"
-   y1="629"
-   x2="570"
-   y2="542" />
-<line
    id="edge-e1bcca269c1869ca06f6c029157ce9c24c545bc1-fc3b1b76c17bb14396331520d723347602096ad5"
    class="exit"
    x1="552"
@@ -1495,20 +1764,6 @@ text, .map-label, .map-label-muted, .map-label-accent,
    x2="827"
    y2="629" />
 <line
-   id="edge-8696c454be07aa2f5eeddf962f91a91e25b30d92-ced4bcd6d0facce397b110ad5796f0bc83bf7797"
-   class="exit"
-   x1="827"
-   y1="629"
-   x2="862"
-   y2="654" />
-<line
-   id="edge-8a7cf63a13e6c0af01ee935f795546f294aeae85-ced4bcd6d0facce397b110ad5796f0bc83bf7797"
-   class="exit"
-   x1="935"
-   y1="725"
-   x2="862"
-   y2="654" />
-<line
    id="edge-8a7cf63a13e6c0af01ee935f795546f294aeae85-bf56eef5250e8cde96ba841a7bc43fd1fa0b76a7"
    class="exit"
    x1="935"
@@ -1757,13 +2012,6 @@ text, .map-label, .map-label-muted, .map-label-accent,
    x2="1709"
    y2="1090" />
 <line
-   id="edge-bcd78c01f41f45640c85412e9246ca67b21c3b67-f138e3a4f3ec0cacdbc48d912b4f361a880f9fbc"
-   class="exit"
-   x1="346"
-   y1="360"
-   x2="323"
-   y2="337" />
-<line
    id="edge-6b88d7ff3cc8905ebce0426308cb14a4a39e8203-bcd78c01f41f45640c85412e9246ca67b21c3b67"
    class="exit"
    x1="346"
@@ -1796,41 +2044,6 @@ text, .map-label, .map-label-muted, .map-label-accent,
    x2="1133"
    y2="766" />
 <line
-   id="edge-ec2ae19260392c00b68face02a3c81541c444587-f6db2037b5fe63360195c28c36e7c5604fef8e2c"
-   class="exit"
-   x1="1122"
-   y1="692"
-   x2="1133"
-   y2="766" />
-<line
-   id="edge-3e43b05aae0d4e5598e625721e6522c211af250c-884b38eed5858cff6b96f2dbafa17363646c5fcf"
-   class="exit"
-   x1="1184"
-   y1="857"
-   x2="1145"
-   y2="846" />
-<line
-   id="edge-884b38eed5858cff6b96f2dbafa17363646c5fcf-d788675624750d7c47f3454777745ee4ccad792f"
-   class="exit"
-   x1="1145"
-   y1="846"
-   x2="1131"
-   y2="883" />
-<line
-   id="edge-884b38eed5858cff6b96f2dbafa17363646c5fcf-de404581f6c8f49fb5237fff73a1adc55ab1e802"
-   class="exit"
-   x1="1145"
-   y1="846"
-   x2="1131"
-   y2="860" />
-<line
-   id="edge-d788675624750d7c47f3454777745ee4ccad792f-de404581f6c8f49fb5237fff73a1adc55ab1e802"
-   class="exit"
-   x1="1131"
-   y1="883"
-   x2="1131"
-   y2="860" />
-<line
    id="edge-3e43b05aae0d4e5598e625721e6522c211af250c-88d35f8f8caad112ca986b35e6da023c63821520"
    class="exit"
    x1="1184"
@@ -1844,13 +2057,6 @@ text, .map-label, .map-label-muted, .map-label-accent,
    class="exit"
    x1="1198"
    y1="871"
-   x2="1212"
-   y2="885" />
-<line
-   id="edge-a448c3abf9cde96307b9143f1034483ef917bf7d-b90ad381a71467f056e4102b54be308a02d8afa3"
-   class="exit"
-   x1="1176"
-   y1="959"
    x2="1212"
    y2="885" />
 <line
@@ -1886,13 +2092,6 @@ text, .map-label, .map-label-muted, .map-label-accent,
 
     null
     <line
-   id="edge-430a7543e3ebb2344c14a2652c44edd7c9985abd-fbd9782d0600c449b864b9f49ed3326c4599e1b7"
-   class="exit"
-   x1="1432"
-   y1="1177"
-   x2="1450"
-   y2="1204" />
-<line
    id="edge-0c29aab2f298dc1b3733889736fe4c89233e5f99-fbd9782d0600c449b864b9f49ed3326c4599e1b7"
    class="exit"
    x1="1464"
@@ -2367,7 +2566,8 @@ text, .map-label, .map-label-muted, .map-label-accent,
    y2="679" />
 </g>
   <g
-     id="layer-rooms">
+     id="layer-rooms"
+     sodipodi:insensitive="true">
     <circle
        id="room-1a28b1cd72e6781a6051a38fdb65d7b55ce51930"
        class="room outdoor"
@@ -2778,7 +2978,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        r="4" />
     <polygon
        class="stair-symbol"
-       points="603,349 600.5,344 605.5,344"
+       points="600.5,344 605.5,344 603,349 "
        id="polygon6" />
     <circle
        id="room-497cfc438a87cd0213355fbcd44d30013fbda838"
@@ -2789,7 +2989,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        r="4" />
     <polygon
        class="stair-symbol"
-       points="603,343 600.5,348 605.5,348"
+       points="600.5,348 605.5,348 603,343 "
        id="polygon7" />
     <circle
        id="room-3d1d1dd51eb31ea6a29445ebb018710dcd253b64"
@@ -2814,7 +3014,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        r="4" />
     <polygon
        class="stair-symbol"
-       points="617,471 614.5,466 619.5,466"
+       points="614.5,466 619.5,466 617,471 "
        id="polygon8" />
     <circle
        id="room-47eb46d6880c9e638eab4268d40b457c63076c55"
@@ -2832,7 +3032,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        r="4" />
     <polygon
        class="stair-symbol"
-       points="617,465 614.5,470 619.5,470"
+       points="614.5,470 619.5,470 617,465 "
        id="polygon9" />
     <circle
        id="room-00e1aa679c692a7a07b5bd88ef9a92e9ad328556"
@@ -3350,7 +3550,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        rx="2" />
     <polygon
        class="stair-symbol"
-       points="783,574 780.5,579 785.5,579"
+       points="780.5,579 785.5,579 783,574 "
        id="polygon21" />
     <rect
        id="room-397b47fcdf5ae85d56138c15b730726c69b36043"
@@ -3399,7 +3599,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        rx="2" />
     <polygon
        class="stair-symbol"
-       points="840,580 837.5,575 842.5,575"
+       points="837.5,575 842.5,575 840,580 "
        id="polygon22" />
     <rect
        id="room-1a29bc49a1f63b098421ea69f24e7eb1b53d2ca3"
@@ -3750,7 +3950,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        rx="2" />
     <polygon
        class="stair-symbol"
-       points="946,652 948.5,655 946,658 943.5,655"
+       points="948.5,655 946,658 943.5,655 946,652 "
        id="polygon27" />
     <rect
        id="room-ffb06fb534224655cd5edccca1fa8fbe669ed972"
@@ -3763,7 +3963,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        rx="2" />
     <polygon
        class="stair-symbol"
-       points="936,664 933.5,659 938.5,659"
+       points="933.5,659 938.5,659 936,664 "
        id="polygon28" />
     <rect
        id="room-3a80e9b879945d06f111cb3a78d950f376f7b534"
@@ -3977,7 +4177,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        r="4" />
     <polygon
        class="stair-symbol"
-       points="346,377 343.5,372 348.5,372"
+       points="343.5,372 348.5,372 346,377 "
        id="polygon31" />
     <circle
        id="room-fe46238317502914e4ade84d2540669426d2f231"
@@ -3995,7 +4195,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        r="4" />
     <polygon
        class="stair-symbol"
-       points="346,371 343.5,376 348.5,376"
+       points="343.5,376 348.5,376 346,371 "
        id="polygon32" />
     <circle
        id="room-ebdbdcd8d7b6513f59c31f744942e47e8693289b"
@@ -4020,7 +4220,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        r="4" />
     <polygon
        class="stair-symbol"
-       points="1133,783 1130.5,778 1135.5,778"
+       points="1130.5,778 1135.5,778 1133,783 "
        id="polygon33" />
     <circle
        id="room-f6db2037b5fe63360195c28c36e7c5604fef8e2c"
@@ -4045,7 +4245,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        r="4" />
     <polygon
        class="stair-symbol"
-       points="1133,777 1130.5,782 1135.5,782"
+       points="1130.5,782 1135.5,782 1133,777 "
        id="polygon34" />
     <circle
        id="room-ec2ae19260392c00b68face02a3c81541c444587"
@@ -4084,7 +4284,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        r="4" />
     <polygon
        class="stair-symbol"
-       points="1198,874 1195.5,869 1200.5,869"
+       points="1195.5,869 1200.5,869 1198,874 "
        id="polygon35" />
     <circle
        id="room-b90ad381a71467f056e4102b54be308a02d8afa3"
@@ -4102,7 +4302,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        r="4" />
     <polygon
        class="stair-symbol"
-       points="1198,868 1195.5,873 1200.5,873"
+       points="1195.5,873 1200.5,873 1198,868 "
        id="polygon36" />
     <circle
        id="room-a448c3abf9cde96307b9143f1034483ef917bf7d"
@@ -4120,7 +4320,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        r="4" />
     <polygon
        class="stair-symbol"
-       points="1162,976 1159.5,971 1164.5,971"
+       points="1159.5,971 1164.5,971 1162,976 "
        id="polygon37" />
     <circle
        id="room-2ab32098e32b185a060c534ae201f94ebe7a36f6"
@@ -4138,7 +4338,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        r="4" />
     <polygon
        class="stair-symbol"
-       points="1162,970 1159.5,975 1164.5,975"
+       points="1159.5,975 1164.5,975 1162,970 "
        id="polygon38" />
     <circle
        id="room-0d1862bf1b365d45d32d0409e3a9fb6ec6e72881"
@@ -4156,7 +4356,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        r="4" />
     <polygon
        class="stair-symbol"
-       points="1244,1062 1241.5,1057 1246.5,1057"
+       points="1241.5,1057 1246.5,1057 1244,1062 "
        id="polygon39" />
     <circle
        id="room-7460545db6d07be4c37681bb1e1601ae7e0e8bb2"
@@ -4174,7 +4374,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        r="4" />
     <polygon
        class="stair-symbol"
-       points="1244,1056 1241.5,1061 1246.5,1061"
+       points="1241.5,1061 1246.5,1061 1244,1056 "
        id="polygon40" />
     <circle
        id="room-c2e178e25ad68f58bcdeeb4d51a8535fc154bcdc"
@@ -4206,7 +4406,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        r="4" />
     <polygon
        class="stair-symbol"
-       points="1464,1207 1461.5,1202 1466.5,1202"
+       points="1461.5,1202 1466.5,1202 1464,1207 "
        id="polygon41" />
     <circle
        id="room-178575043546ecd550e69125cbe158c77c39e2d1"
@@ -4224,7 +4424,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        r="4" />
     <polygon
        class="stair-symbol"
-       points="1464,1201 1461.5,1206 1466.5,1206"
+       points="1461.5,1206 1466.5,1206 1464,1201 "
        id="polygon42" />
     <circle
        id="room-04760fd51266605ddb4fc3735a85e23c7066cfe4"
@@ -4242,7 +4442,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        r="4" />
     <polygon
        class="stair-symbol"
-       points="1409,1228 1406.5,1223 1411.5,1223"
+       points="1406.5,1223 1411.5,1223 1409,1228 "
        id="polygon43" />
     <circle
        id="room-10648770ef799a89d4bf9b02126d3edbe0eec5a4"
@@ -4260,7 +4460,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        r="4" />
     <polygon
        class="stair-symbol"
-       points="1409,1222 1406.5,1227 1411.5,1227"
+       points="1406.5,1227 1411.5,1227 1409,1222 "
        id="polygon44" />
     <circle
        id="room-e09ba3c3e39a5e5615c7755dc3d2bc1a094bf3ae"
@@ -4278,7 +4478,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        r="4" />
     <polygon
        class="stair-symbol"
-       points="1337,1289 1334.5,1284 1339.5,1284"
+       points="1334.5,1284 1339.5,1284 1337,1289 "
        id="polygon45" />
     <circle
        id="room-66ef8b282ec0e3065535f23b62372fa934fbdbf7"
@@ -4296,7 +4496,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        r="4" />
     <polygon
        class="stair-symbol"
-       points="1337,1283 1334.5,1288 1339.5,1288"
+       points="1334.5,1288 1339.5,1288 1337,1283 "
        id="polygon46" />
     <circle
        id="room-335413a4de3be9f68bc6bd9db3be1b0ebac620d2"
@@ -4314,7 +4514,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        r="4" />
     <polygon
        class="stair-symbol"
-       points="1547,1280 1544.5,1275 1549.5,1275"
+       points="1544.5,1275 1549.5,1275 1547,1280 "
        id="polygon47" />
     <circle
        id="room-79d83e3016a0051fdf81b4b5da690a5f703c489d"
@@ -4332,7 +4532,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        r="4" />
     <polygon
        class="stair-symbol"
-       points="1547,1274 1544.5,1279 1549.5,1279"
+       points="1544.5,1279 1549.5,1279 1547,1274 "
        id="polygon48" />
     <circle
        id="room-aad1aee47183b17eaf837fa87efdaf046112c59c"
@@ -4350,7 +4550,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        r="4" />
     <polygon
        class="stair-symbol"
-       points="1612,1286 1609.5,1281 1614.5,1281"
+       points="1609.5,1281 1614.5,1281 1612,1286 "
        id="polygon49" />
     <circle
        id="room-d580b8b3996557abe9922a8e8af551bda514f336"
@@ -4368,7 +4568,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        r="4" />
     <polygon
        class="stair-symbol"
-       points="1612,1280 1609.5,1285 1614.5,1285"
+       points="1609.5,1285 1614.5,1285 1612,1280 "
        id="polygon50" />
     <rect
        id="room-52af1d2eef0a9fe70cfca566d276564e24892c89"
@@ -4408,7 +4608,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        rx="2" />
     <polygon
        class="stair-symbol"
-       points="378,230 375.5,235 380.5,235"
+       points="375.5,235 380.5,235 378,230 "
        id="polygon51" />
     <rect
        id="room-e8d04567bbf173ad09139bff4e94522432c2bdc5"
@@ -4421,7 +4621,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        rx="2" />
     <polygon
        class="stair-symbol"
-       points="398,250 395.5,255 400.5,255"
+       points="395.5,255 400.5,255 398,250 "
        id="polygon52" />
     <rect
        id="room-852c722775884bc248199f37c5e578a9e5f719d4"
@@ -4434,7 +4634,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        rx="2" />
     <polygon
        class="stair-symbol"
-       points="406,202 403.5,207 408.5,207"
+       points="403.5,207 408.5,207 406,202 "
        id="polygon53" />
     <rect
        id="room-cc1baeaf37ce1341d544dfb7ad74a2623eb55854"
@@ -4447,7 +4647,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        rx="2" />
     <polygon
        class="stair-symbol"
-       points="426,222 423.5,227 428.5,227"
+       points="423.5,227 428.5,227 426,222 "
        id="polygon54" />
     <rect
        id="room-9b8a7879a0afeab23e8cb5a2d8fdf08c4bc105ff"
@@ -4469,7 +4669,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        rx="2" />
     <polygon
        class="stair-symbol"
-       points="648,668 645.5,673 650.5,673"
+       points="645.5,673 650.5,673 648,668 "
        id="polygon55" />
     <rect
        id="room-d1b4eef14c4dd406f1206a6ba810dc25a0cb9175"
@@ -4482,7 +4682,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        rx="2" />
     <polygon
        class="stair-symbol"
-       points="648,696 645.5,701 650.5,701"
+       points="645.5,701 650.5,701 648,696 "
        id="polygon56" />
     <rect
        id="room-03f489e1783f54cce5cba6b1ba198848764e4584"
@@ -4504,7 +4704,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        rx="2" />
     <polygon
        class="stair-symbol"
-       points="648,702 645.5,697 650.5,697"
+       points="645.5,697 650.5,697 648,702 "
        id="polygon57" />
     <rect
        id="room-c80649ee1e5da936d1e280a865d1c1d2fb2535d3"
@@ -4535,7 +4735,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        rx="2" />
     <polygon
        class="stair-symbol"
-       points="701,699 698.5,704 703.5,704"
+       points="698.5,704 703.5,704 701,699 "
        id="polygon58" />
     <rect
        id="room-5330eccb43ea126a43b45b3edd4f238b37d44749"
@@ -4548,7 +4748,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        rx="2" />
     <polygon
        class="stair-symbol"
-       points="701,721 698.5,726 703.5,726"
+       points="698.5,726 703.5,726 701,721 "
        id="polygon59" />
     <rect
        id="room-a7478fa7293a704821637dc764a463458fc58ad0"
@@ -4561,7 +4761,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        rx="2" />
     <polygon
        class="stair-symbol"
-       points="673,595 670.5,600 675.5,600"
+       points="670.5,600 675.5,600 673,595 "
        id="polygon60" />
     <rect
        id="room-9073b6fec9906035c8c96dd53ddd8dc7d751cd6d"
@@ -4574,7 +4774,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        rx="2" />
     <polygon
        class="stair-symbol"
-       points="701,595 698.5,600 703.5,600"
+       points="698.5,600 703.5,600 701,595 "
        id="polygon61" />
     <rect
        id="room-269ed7b5c544d1dd4cf2b552d4f0478ff8a42334"
@@ -4587,7 +4787,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        rx="2" />
     <polygon
        class="stair-symbol"
-       points="754,654 751.5,659 756.5,659"
+       points="751.5,659 756.5,659 754,654 "
        id="polygon62" />
     <rect
        id="room-47f2957e020845fbf976061147e8005ac05cb3a6"
@@ -4600,7 +4800,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        rx="2" />
     <polygon
        class="stair-symbol"
-       points="757,693 754.5,698 759.5,698"
+       points="754.5,698 759.5,698 757,693 "
        id="polygon63" />
     <rect
        id="room-4429c4a8b19cd583992ebc4053eb26dacb4c3741"
@@ -4613,7 +4813,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        rx="2" />
     <polygon
        class="stair-symbol"
-       points="771,671 768.5,676 773.5,676"
+       points="768.5,676 773.5,676 771,671 "
        id="polygon64" />
     <rect
        id="room-1ebeb7fc37bbf95d9d742fff784c17e52d5d2ac7"
@@ -4626,7 +4826,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        rx="2" />
     <polygon
        class="stair-symbol"
-       points="966,666 963.5,671 968.5,671"
+       points="963.5,671 968.5,671 966,666 "
        id="polygon65" />
     <rect
        id="room-9bfa706603778f8014ee679d82eb437ea47a1e07"
@@ -4639,7 +4839,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        rx="2" />
     <polygon
        class="stair-symbol"
-       points="987,676 984.5,681 989.5,681"
+       points="984.5,681 989.5,681 987,676 "
        id="polygon66" />
     <rect
        id="room-4fffad687f3f53289456eb1889d299af91c1769b"
@@ -4789,7 +4989,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        rx="2" />
     <polygon
        class="stair-symbol"
-       points="515,519 512.5,514 517.5,514"
+       points="512.5,514 517.5,514 515,519 "
        id="polygon69" />
     <rect
        id="room-63c3525daa40ed33e1ddec813ab4816755c23f18"
