@@ -5,22 +5,30 @@
   font-style: normal;
 }
 
-/* Fallback values for standalone preview. Inside Mallard these are overridden
- * automatically on :root by the host before first paint. */
+/* Fallback palette for standalone preview. Inside Mallard the host overrides
+ * --bg/--fg/etc. directly on :root before first paint. The --mallard-* aliases
+ * cover any future rename of the injected names. */
 :root {
-  --mallard-bg:          #1a1a1a;
-  --mallard-fg:          #eaeaea;
-  --mallard-fg-muted:    #888;
-  --mallard-accent:      #4ade80;
-  --mallard-bg-elevated: #0f0f0f;
-  --mallard-border:      #2a2a2a;
+  --bg:          #1a1a1a;
+  --fg:          #eaeaea;
+  --muted:       #888;
+  --accent:      #4ade80;
+  --bg-elevated: #0f0f0f;
+  --border:      #2a2a2a;
+  /* bridge to --mallard-* in case host uses that naming */
+  --mallard-bg:          var(--bg);
+  --mallard-fg:          var(--fg);
+  --mallard-fg-muted:    var(--muted);
+  --mallard-accent:      var(--accent);
+  --mallard-bg-elevated: var(--bg-elevated);
+  --mallard-border:      var(--border);
 }
 
 html, body { margin: 0; padding: 0; height: 100%; }
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background: var(--mallard-bg);
-  color: var(--mallard-fg);
+  background: var(--bg);
+  color: var(--fg);
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -31,8 +39,8 @@ body {
   align-items: center;
   height: 24px;
   padding: 0 8px;
-  background: var(--mallard-bg-elevated);
-  border-bottom: 1px solid var(--mallard-border);
+  background: var(--bg-elevated);
+  border-bottom: 1px solid var(--border);
   font-size: 12px;
   flex: 0 0 auto;
 }
@@ -40,12 +48,12 @@ body {
 .map-header .spacer   { flex: 1 1 auto; }
 .map-header button {
   width: 20px; height: 18px; margin-left: 4px;
-  background: color-mix(in srgb, var(--mallard-fg, #ddd) 10%, transparent);
-  color: var(--mallard-fg);
-  border: 1px solid var(--mallard-border);
+  background: color-mix(in srgb, var(--fg, #ddd) 10%, transparent);
+  color: var(--fg);
+  border: 1px solid var(--border);
   border-radius: 3px; cursor: pointer; font-size: 14px; line-height: 1; padding: 0;
 }
-.map-header button:hover    { background: color-mix(in srgb, var(--mallard-fg, #ddd) 20%, transparent); }
+.map-header button:hover    { background: color-mix(in srgb, var(--fg, #ddd) 20%, transparent); }
 .map-header button:disabled { opacity: 0.4; cursor: not-allowed; }
 
 /* ─── Map container ────────────────────────────────────────────────────────── */
@@ -53,23 +61,23 @@ body {
   flex: 1 1 auto;
   position: relative;
   overflow: hidden;
-  background: var(--mallard-bg);
+  background: var(--bg);
   touch-action: none;
 }
 
 /* ─── Inline SVG maps ──────────────────────────────────────────────────────── */
 .map-svg { width: 100%; height: 100%; display: block; }
 
-.room         { fill: var(--mallard-bg); stroke: var(--mallard-fg); stroke-width: 0.5; }
+.room         { fill: var(--bg); stroke: var(--fg); stroke-width: 0.5; }
 .room.route   { fill: #0d2d4a;   stroke: #00d2ff;   stroke-width: 2.03; }
-.room.current         { fill: var(--mallard-bg); stroke: #ff3b30;   stroke-width: 1.5; stroke-opacity: 0.6; }
+.room.current         { fill: var(--bg); stroke: #ff3b30;   stroke-width: 1.5; stroke-opacity: 0.6; }
 .room.target          { fill: #ff3b30;   stroke: #fff;      stroke-width: 2.03; opacity: 1; }
 .room-compact.target  { stroke-width: 1; }
 .exit         { stroke: #3a3a3a; stroke-width: 1.82; fill: none; }
 .exit.route   { stroke: #00d2ff; stroke-width: 3.03; }
 .exit-compact { stroke-width: 0.75; }
-.exit-offmap  { stroke: var(--mallard-fg-muted); stroke-width: 1.5; stroke-dasharray: 3 2; fill: none; }
-.room-phantom { fill: var(--mallard-bg); stroke: var(--mallard-fg-muted); stroke-width: 0.5; }
+.exit-offmap  { stroke: var(--muted); stroke-width: 1.5; stroke-dasharray: 3 2; fill: none; }
+.room-phantom { fill: var(--bg); stroke: var(--muted); stroke-width: 0.5; }
 .room.water   { fill: #0d1f2d; stroke: #4a9fd4; }
 .exit-water   { stroke: #4a9fd4; }
 .room.green   { fill: #0d1f0d; stroke: #4a9f4a; }
@@ -84,15 +92,15 @@ body {
 .room.danger.target { fill: #ff3b30; stroke: #fff; }
 #sg-pos-overlay.dark .room { opacity: 0.35; }
 .map-label-warning  { fill: #cf4444; }
-.exit-journey        { stroke: var(--mallard-fg-muted); stroke-width: 1.82; fill: none; }
-.exit-journey-offmap { stroke: var(--mallard-fg-muted); stroke-width: 1.82; stroke-dasharray: 3 2; fill: none; }
+.exit-journey        { stroke: var(--muted); stroke-width: 1.82; fill: none; }
+.exit-journey-offmap { stroke: var(--muted); stroke-width: 1.82; stroke-dasharray: 3 2; fill: none; }
 .exit-ferry          { stroke: #a8d8f0; stroke-width: 1.82; stroke-dasharray: 0 4; stroke-linecap: round; fill: none; }
 .map-river           { stroke: #0d1f2d;      stroke-width: 1.82; fill: none; }
 .map-river-offmap    { stroke: #0d1f2d;      stroke-width: 1.82; stroke-dasharray: 3 2; fill: none; }
 .lib-exit     { stroke-width: 3; }
-.stair-symbol { fill: var(--mallard-fg); pointer-events: none; }
+.stair-symbol { fill: var(--fg); pointer-events: none; }
 .room-compact    { opacity: 0.7; }
-.room-type-label { font-family: "Noto Sans", sans-serif; font-size: 4.5px; font-weight: bold; fill: var(--mallard-fg); pointer-events: none; transform: translateY(-0.3px); }
+.room-type-label { font-family: "Noto Sans", sans-serif; font-size: 4.5px; font-weight: bold; fill: var(--fg); pointer-events: none; transform: translateY(-0.3px); }
 
 .room-shop, .room-weapon, .room-armour,
 .room-clothes, .room-food, .room-access  { fill: #1c5c3a; }
@@ -108,13 +116,13 @@ body {
 .lib-distortion { fill: rgba(220, 20, 20, 0.9); }
 .lib-orb        { fill: rgba(255, 140, 0, 0.9); stroke: rgba(0,0,0,0.6); stroke-width: 1.5; }
 .lib-arrow      { stroke: rgba(255, 210, 60, 1); stroke-width: 2.5; fill: none; stroke-linejoin: round; }
-.lib-table      { fill: var(--mallard-fg); font-size: 12px; font-family: "Noto Sans", sans-serif; font-weight: bold; pointer-events: none; }
-.lib-gap        { fill: #c07820; stroke: var(--mallard-fg); stroke-width: 2; }
-.lib-gap-label  { fill: var(--mallard-fg); font-size: 12px; font-family: "Noto Sans", sans-serif; font-weight: bold; pointer-events: none; }
-.lib-book       { fill: #1a6060; stroke: var(--mallard-fg); stroke-width: 2; }
-.lib-book-label { fill: var(--mallard-fg); font-size: 12px; font-family: "Noto Sans", sans-serif; font-weight: bold; pointer-events: none; }
-.lib-row-num    { fill: var(--mallard-fg-muted); font-size: 9px; font-family: "Noto Sans", sans-serif; pointer-events: none; }
-.lib-book-list  { fill: var(--mallard-fg); font-size: 9px; font-family: "Noto Sans", sans-serif; pointer-events: none; }
+.lib-table      { fill: var(--fg); font-size: 12px; font-family: "Noto Sans", sans-serif; font-weight: bold; pointer-events: none; }
+.lib-gap        { fill: #c07820; stroke: var(--fg); stroke-width: 2; }
+.lib-gap-label  { fill: var(--fg); font-size: 12px; font-family: "Noto Sans", sans-serif; font-weight: bold; pointer-events: none; }
+.lib-book       { fill: #1a6060; stroke: var(--fg); stroke-width: 2; }
+.lib-book-label { fill: var(--fg); font-size: 12px; font-family: "Noto Sans", sans-serif; font-weight: bold; pointer-events: none; }
+.lib-row-num    { fill: var(--muted); font-size: 9px; font-family: "Noto Sans", sans-serif; pointer-events: none; }
+.lib-book-list  { fill: var(--fg); font-size: 9px; font-family: "Noto Sans", sans-serif; pointer-events: none; }
 
 /* ─── World disc fallback (map 99) ─────────────────────────────────────────── */
 .world-map    { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
@@ -122,34 +130,34 @@ body {
 
 /* ─── Semantic classes for hand-crafted SVG elements ───────────────────────── */
 .map-svg text    { font-family: "Noto Sans", sans-serif; }
-.map-label       { fill: var(--mallard-fg);    font-family: "Noto Sans", sans-serif; }
-.map-label-muted { fill: var(--mallard-fg-muted); font-family: "Noto Sans", sans-serif; }
-.map-label-accent { fill: var(--mallard-accent); font-family: "Noto Sans", sans-serif; }
-.map-area-fill   { fill: var(--mallard-bg-elevated); }
-.map-area-stroke { stroke: var(--mallard-border);    fill: none; }
+.map-label       { fill: var(--fg);    font-family: "Noto Sans", sans-serif; }
+.map-label-muted { fill: var(--muted); font-family: "Noto Sans", sans-serif; }
+.map-label-accent { fill: var(--accent); font-family: "Noto Sans", sans-serif; }
+.map-area-fill   { fill: var(--bg-elevated); }
+.map-area-stroke { stroke: var(--border);    fill: none; }
 .map-water       { fill: #0d1f2d; }
-.map-accent      { fill: var(--mallard-accent); }
-.anno-box        { stroke: var(--mallard-fg); stroke-width: 0.75; fill: var(--mallard-bg-elevated); }
-.anno-rule       { stroke: var(--mallard-fg); stroke-width: 0.5;  fill: none; opacity: 0.4; }
-.city-sign       { stroke: var(--mallard-fg); stroke-width: 1;    fill: var(--mallard-bg-elevated); }
-.city-sign-label { fill: var(--mallard-fg); font-family: "Noto Sans", sans-serif; font-weight: bold; }
+.map-accent      { fill: var(--accent); }
+.anno-box        { stroke: var(--fg); stroke-width: 0.75; fill: var(--bg-elevated); }
+.anno-rule       { stroke: var(--fg); stroke-width: 0.5;  fill: none; opacity: 0.4; }
+.city-sign       { stroke: var(--fg); stroke-width: 1;    fill: var(--bg-elevated); }
+.city-sign-label { fill: var(--fg); font-family: "Noto Sans", sans-serif; font-weight: bold; }
 
 /* ─── Special screens (Darkness, Labyrinth, Mines, Rat Farm, Unknown) ─────── */
 .special-screen[hidden] { display: none; }
 .special-screen {
   position: absolute; inset: 0;
   display: flex; flex-direction: column; align-items: center; justify-content: center;
-  background: var(--mallard-bg); z-index: 5;
+  background: var(--bg); z-index: 5;
 }
 .special-title {
   font-size: clamp(2rem, 10vw, 5rem);
   font-weight: bold; letter-spacing: 0.05em;
-  color: var(--mallard-fg);
+  color: var(--fg);
   text-align: center;
 }
 .special-sub {
   font-size: clamp(0.75rem, 2.5vw, 1rem);
-  color: var(--mallard-fg-muted); margin-top: 1rem; letter-spacing: 0.08em;
+  color: var(--muted); margin-top: 1rem; letter-spacing: 0.08em;
   text-align: center;
 }
 .special-sub[hidden] { display: none; }
