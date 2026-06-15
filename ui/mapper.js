@@ -476,7 +476,9 @@ new ResizeObserver(() => {
 panel.on("room_dark", () => { darkMode = true;  applyState(); });
 
 panel.on("room_info", async (frame) => {
+  const wasInDark = darkMode;
   darkMode = false;
+  if (wasInDark) target = null;
   const next = resolveRoom(data, frame);
   // library_position is authoritative for map 47. Ignore room_info events
   // that would keep us on map 47 or set current to null while already there —

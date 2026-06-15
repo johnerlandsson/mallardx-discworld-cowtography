@@ -35,6 +35,7 @@ local last_results    = {}
 local current_room    = nil
 local target_room     = nil  -- predicted position; nil when same as confirmed
 local room_id_echo    = false
+local _in_dark        = false
 
 -- ─── Map panel ───────────────────────────────────────────────────────────────
 
@@ -307,6 +308,11 @@ world.on("disconnect", reset_walk)
 
 gmcp.on('room.info', function(_, data)
   if type(data) == 'table' and data.identifier then
+    if _in_dark then
+      _in_dark   = false
+      target_room = nil
+      post_target_clear(false)
+    end
     local prev_room = current_room
     current_room = data.identifier
     if target_room == current_room then
@@ -383,6 +389,7 @@ gmcp.on('room.info', function(_, data)
   elseif type(data) == 'table' then
     -- Dark room: room.info without an identifier. Keep the map on last known position
     -- (muted) rather than tracking or showing a darkness overlay.
+    _in_dark    = true
     target_room = nil
     panel:post("room_dark", {})
     if walk_pos > 0 then
