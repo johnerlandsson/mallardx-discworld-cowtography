@@ -124,7 +124,7 @@ body {
 /* ─── Semantic classes for hand-crafted SVG elements ───────────────────────── */
 .map-svg text    { font-family: "Noto Sans", sans-serif; }
 .map-label       { fill: var(--fg);    font-family: "Noto Sans", sans-serif; }
-.map-label-muted { fill: var(--muted); font-family: "Noto Sans", sans-serif; }
+.map-label-muted { fill: color-mix(in srgb, var(--fg) 45%, transparent); font-family: "Noto Sans", sans-serif; }
 .map-label-accent { fill: var(--accent); font-family: "Noto Sans", sans-serif; }
 .map-area-fill   { fill: var(--bg-elevated); }
 .map-area-stroke { stroke: var(--border);    fill: none; }
