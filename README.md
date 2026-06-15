@@ -56,6 +56,25 @@ db clear   — cancel the current route
 
 > You must be in a room tracked by the map data for routing and distance sorting to work.
 
+### Bookmarks
+
+Save your current room as a named bookmark and route back to it at any time. Bookmarks are stored per character.
+
+```
+db bm                  — list all bookmarks
+db bm add <name>       — bookmark current room as <name>
+db bm rm <name>        — remove bookmark <name>
+db bm <name>           — highlight route to <name>, then db walk to go
+```
+
+```
+db bm add market       — saves current room as "market"
+db bm market           — routes to your "market" bookmark
+db walk                — starts walking the highlighted route
+```
+
+Saving a bookmark with a name that already exists overwrites silently.
+
 ---
 
 ## Installation
