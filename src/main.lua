@@ -390,7 +390,7 @@ gmcp.on('room.info', function(_, data)
     -- Dark room: room.info without an identifier. Keep the map on last known position
     -- (muted) rather than tracking or showing a darkness overlay.
     _in_dark    = true
-    target_room = nil
+    post_target_clear(false)
     panel:post("room_dark", {})
     if walk_pos > 0 then
       if walk_pos < #walk_steps then
