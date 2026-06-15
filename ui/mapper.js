@@ -342,7 +342,18 @@ function applyState() {
   // Ghost: confirmed position, only when it differs from the predicted target.
   if (target && current?.roomId && current.roomId !== target.roomId) {
     const el = currentSvg.querySelector(`#room-${CSS.escape(current.roomId)}`);
-    if (el) { el.classList.add("current"); _lift(el, posOverlay); }
+    if (el) {
+      el.classList.add("current");
+      const gsib1 = el.nextElementSibling;
+      const gsib2 = gsib1?.nextElementSibling;
+      _lift(el, posOverlay);
+      if (gsib1?.classList.contains("stair-symbol")) {
+        _lift(gsib1, posOverlay);
+        if (gsib2?.classList.contains("room-type-label")) _lift(gsib2, posOverlay);
+      } else if (gsib1?.classList.contains("room-type-label")) {
+        _lift(gsib1, posOverlay);
+      }
+    }
   }
 }
 
