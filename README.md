@@ -14,26 +14,26 @@ The map panel opens automatically on the right side of the window. As you walk t
 
 ## Commands
 
-Type `db` on its own to print a command reference in the MUD window.
+Commands use Mallard's client command prefix — `/` by default, configurable in Mallard's settings. Type `/db` on its own to print a command reference in the MUD window.
 
 ### Searching
 
 ```
-db <room name>           — search rooms by name
-db npc <name>            — search NPCs by name
-db npc {<area>} <name>   — search NPCs filtered by area name
-db item <name>           — search items for sale in shops
-db npcitem <name>        — search items carried or sold by NPCs
+/db <room name>           — search rooms by name
+/db npc <name>            — search NPCs by name
+/db npc {<area>} <name>   — search NPCs filtered by area name
+/db item <name>           — search items for sale in shops
+/db npcitem <name>        — search items carried or sold by NPCs
 ```
 
 Search is case-insensitive. Up to 10 reachable results are shown, sorted by distance from your current room.
 
 ```
-db drum
-db npc wizard
-db npc {AM} pawn
-db item long sword
-db npcitem dagger
+/db drum
+/db npc wizard
+/db npc {AM} pawn
+/db item long sword
+/db npcitem dagger
 ```
 
 ### Routing and walking
@@ -41,17 +41,17 @@ db npcitem dagger
 After a search, pick a result by number to route there and start walking immediately:
 
 ```
-db drum
+/db drum
   DB Search: room — "drum"  (3 results, nearest first)
    1.  The Drum  ...
    2.  ...
-db 1
+/db 1
   Walking to "The Drum" — 12 moves.
 ```
 
 ```
-db walk    — start or resume walking the current route
-db clear   — cancel the current route
+/db walk    — start or resume walking the current route
+/db clear   — cancel the current route
 ```
 
 > You must be in a room tracked by the map data for routing and distance sorting to work.
@@ -61,16 +61,16 @@ db clear   — cancel the current route
 Save your current room as a named bookmark and route back to it at any time. Bookmarks are stored per character.
 
 ```
-db bm                  — list all bookmarks
-db bm add <name>       — bookmark current room as <name>
-db bm rm <name>        — remove bookmark <name>
-db bm <name>           — highlight route to <name>, then db walk to go
+/db bm                  — list all bookmarks
+/db bm add <name>       — bookmark current room as <name>
+/db bm rm <name>        — remove bookmark <name>
+/db bm <name>           — highlight route to <name>, then /db walk to go
 ```
 
 ```
-db bm add market       — saves current room as "market"
-db bm market           — routes to your "market" bookmark
-db walk                — starts walking the highlighted route
+/db bm add market       — saves current room as "market"
+/db bm market           — routes to your "market" bookmark
+/db walk                — starts walking the highlighted route
 ```
 
 Saving a bookmark with a name that already exists overwrites silently.

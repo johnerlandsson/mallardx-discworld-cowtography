@@ -645,137 +645,145 @@ local function bm_key()
   return char_name and ('bm_' .. char_name) or 'bookmarks'
 end
 
--- Specific patterns first, catch-all last.
+mud.command("db", function(m)
+  local args = m.args
 
-mud.alias([[^db$]], function()
-  note("  db — search Quow's Discworld database", C.header)
-  note('  ─────────────────────────────────────────────────────', C.rule)
-  note('  db <room name>              search rooms', C.alt)
-  note('  db npc <name>               search NPCs', C.alt)
-  note('  db npc {<area>} <name>      search NPCs filtered by area', C.alt)
-  note('  db item <name>              search shop items', C.alt)
-  note('  db npcitem <name>           search items carried by NPCs', C.alt)
-  note('  ─────────────────────────────────────────────────────', C.rule)
-  note('  db <number>                 route to result and walk', C.alt)
-  note('  db walk                     start or resume walking', C.alt)
-  note('  db clear                    clear current route', C.alt)
-  note('  ─────────────────────────────────────────────────────', C.rule)
-  note('  db bm                       list bookmarks', C.alt)
-  note('  db bm add <name>            bookmark current room', C.alt)
-  note('  db bm rm <name>             remove bookmark', C.alt)
-  note('  db bm <name>                route to bookmark', C.alt)
-end)
-
-mud.alias([[^db walk$]], function()
-  if #walk_steps == 0 then
-    note('  No route set. Run "db <number>" first.', C.err)
+  if args == '' then
+    note("  /db — search Quow's Discworld database", C.header)
+    note('  ─────────────────────────────────────────────────────', C.rule)
+    note('  /db <room name>             search rooms', C.alt)
+    note('  /db npc <name>              search NPCs', C.alt)
+    note('  /db npc {<area>} <name>     search NPCs filtered by area', C.alt)
+    note('  /db item <name>             search shop items', C.alt)
+    note('  /db npcitem <name>          search items carried by NPCs', C.alt)
+    note('  ─────────────────────────────────────────────────────', C.rule)
+    note('  /db <number>                route to result and walk', C.alt)
+    note('  /db walk                    start or resume walking', C.alt)
+    note('  /db clear                   clear current route', C.alt)
+    note('  ─────────────────────────────────────────────────────', C.rule)
+    note('  /db bm                      list bookmarks', C.alt)
+    note('  /db bm add <name>           bookmark current room', C.alt)
+    note('  /db bm rm <name>            remove bookmark', C.alt)
+    note('  /db bm <name>               route to bookmark', C.alt)
     return
   end
-  if walk_pos > 0 then
-    note('  Already walking.', C.muted)
+
+  if args == 'walk' then
+    if #walk_steps == 0 then
+      note('  No route set. Run "/db <number>" first.', C.err)
+      return
+    end
+    if walk_pos > 0 then
+      note('  Already walking.', C.muted)
+      return
+    end
+    walk_pos = 1
+    note(string.format('  Walking to "%s" — %d move%s.', walk_target_name, #walk_steps, #walk_steps == 1 and '' or 's'), C.ok)
+    mud.send(walk_steps[1])
     return
   end
-  walk_pos = 1
-  note(string.format('  Walking to "%s" — %d move%s.', walk_target_name, #walk_steps, #walk_steps == 1 and '' or 's'), C.ok)
-  mud.send(walk_steps[1])
-end)
 
-mud.alias([[^db (\d+)$]], function(m)
-  do_route(tonumber(m:raw(1)), true)
-end)
-
-mud.alias([[^db npc\s+\{([^}]+)\}\s+(.+)$]], function(m)
-  do_search('npc', m:raw(2), m:raw(1))
-end)
-
-mud.alias([[^db npc\s+([^{].*)$]], function(m)
-  do_search('npc', m:raw(1), nil)
-end)
-
-mud.alias([[^db item\s+(.+)$]], function(m)
-  do_search('item', m:raw(1), nil)
-end)
-
-mud.alias([[^db shop\s+(.+)$]], function(m)
-  do_search('item', m:raw(1), nil)
-end)
-
-mud.alias([[^db npcitem\s+(.+)$]], function(m)
-  do_search('npcitem', m:raw(1), nil)
-end)
-
-mud.alias([[^db bm$]], function()
-  local bmarks = storage.get(bm_key()) or {}
-  local names = {}
-  for name in pairs(bmarks) do names[#names + 1] = name end
-  if #names == 0 then
-    note('  No bookmarks.', C.muted)
+  if args == 'clear' then
+    walk_steps       = {}
+    walk_pos         = 0
+    walk_target_name = ''
+    post_route_clear()
+    note('  Route cleared.', C.muted)
     return
   end
-  table.sort(names)
-  note('  Bookmarks:', C.header)
-  for _, name in ipairs(names) do
-    note(string.format('  %-20s %s', name, bmarks[name].location), C.alt)
-  end
-end)
 
-mud.alias([[^db bm add (.+)$]], function(m)
-  if current_room == nil then
-    note('  Current room unknown. Move through a mapped room first.', C.err)
+  local n = args:match('^(%d+)$')
+  if n then
+    do_route(tonumber(n), true)
     return
   end
-  local name     = m:raw(1)
-  local location = (last_payload and last_payload.name) or current_room
-  local bmarks   = storage.get(bm_key()) or {}
-  bmarks[name]   = { room_id = current_room, location = location }
-  storage.set(bm_key(), bmarks)
-  note(string.format('  Bookmarked "%s" as "%s".', location, name), C.ok)
-end)
 
-mud.alias([[^db bm rm (.+)$]], function(m)
-  local name   = m:raw(1)
-  local bmarks = storage.get(bm_key()) or {}
-  if bmarks[name] == nil then
-    note(string.format('  No bookmark named "%s".', name), C.err)
+  local npc_area, npc_q = args:match('^npc%s+{([^}]+)}%s+(.+)$')
+  if npc_area then
+    do_search('npc', npc_q, npc_area)
     return
   end
-  bmarks[name] = nil
-  storage.set(bm_key(), bmarks)
-  note(string.format('  Removed bookmark "%s".', name), C.ok)
-end)
 
-mud.alias([[^db bm (.+)$]], function(m)
-  local name = m:raw(1)
-  if name:match('^add%s') or name:match('^rm%s') then return end
-  local bmarks = storage.get(bm_key()) or {}
-  local entry  = bmarks[name]
-  if entry == nil then
-    note(string.format('  No bookmark named "%s".', name), C.err)
+  local npc_q2 = args:match('^npc%s+(.+)$')
+  if npc_q2 then
+    do_search('npc', npc_q2, nil)
     return
   end
-  route_to_room(entry.room_id, entry.location, false)
-end)
 
-mud.alias([[^db (.+)$]], function(m)
-  local arg = m:raw(1)
-  if arg:match('^%d+$')      then return end
-  if arg:match('^item%s')    then return end
-  if arg:match('^shop%s')    then return end
-  if arg:match('^npc%s')     then return end
-  if arg:match('^npcitem%s') then return end
-  if arg == 'walk' or arg == 'clear' then return end
-  if arg == 'bm' or arg:match('^bm%s') then return end
-  do_search('room', arg, nil)
-end)
+  local item_q = args:match('^item%s+(.+)$')
+  if item_q then
+    do_search('item', item_q, nil)
+    return
+  end
 
--- ─── db clear ────────────────────────────────────────────────────────────────
+  local shop_q = args:match('^shop%s+(.+)$')
+  if shop_q then
+    do_search('item', shop_q, nil)
+    return
+  end
 
-mud.alias([[^db clear$]], function()
-  walk_steps       = {}
-  walk_pos         = 0
-  walk_target_name = ''
-  post_route_clear()
-  note('  Route cleared.', C.muted)
+  local npcitem_q = args:match('^npcitem%s+(.+)$')
+  if npcitem_q then
+    do_search('npcitem', npcitem_q, nil)
+    return
+  end
+
+  if args == 'bm' then
+    local bmarks = storage.get(bm_key()) or {}
+    local names = {}
+    for name in pairs(bmarks) do names[#names + 1] = name end
+    if #names == 0 then
+      note('  No bookmarks.', C.muted)
+      return
+    end
+    table.sort(names)
+    note('  Bookmarks:', C.header)
+    for _, name in ipairs(names) do
+      note(string.format('  %-20s %s', name, bmarks[name].location), C.alt)
+    end
+    return
+  end
+
+  local bm_add = args:match('^bm%s+add%s+(.+)$')
+  if bm_add then
+    if current_room == nil then
+      note('  Current room unknown. Move through a mapped room first.', C.err)
+      return
+    end
+    local location = (last_payload and last_payload.name) or current_room
+    local bmarks   = storage.get(bm_key()) or {}
+    bmarks[bm_add] = { room_id = current_room, location = location }
+    storage.set(bm_key(), bmarks)
+    note(string.format('  Bookmarked "%s" as "%s".', location, bm_add), C.ok)
+    return
+  end
+
+  local bm_rm = args:match('^bm%s+rm%s+(.+)$')
+  if bm_rm then
+    local bmarks = storage.get(bm_key()) or {}
+    if bmarks[bm_rm] == nil then
+      note(string.format('  No bookmark named "%s".', bm_rm), C.err)
+      return
+    end
+    bmarks[bm_rm] = nil
+    storage.set(bm_key(), bmarks)
+    note(string.format('  Removed bookmark "%s".', bm_rm), C.ok)
+    return
+  end
+
+  local bm_name = args:match('^bm%s+(.+)$')
+  if bm_name then
+    local bmarks = storage.get(bm_key()) or {}
+    local entry  = bmarks[bm_name]
+    if entry == nil then
+      note(string.format('  No bookmark named "%s".', bm_name), C.err)
+      return
+    end
+    route_to_room(entry.room_id, entry.location, false)
+    return
+  end
+
+  do_search('room', args, nil)
 end)
 
 -- ─── dbid ────────────────────────────────────────────────────────────────────
