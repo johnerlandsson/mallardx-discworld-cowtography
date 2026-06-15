@@ -14,10 +14,10 @@ match = ["discworld.starturtle.net:*"]
 
 [permissions]
 sends       = true
-gmcp_access = ["room.info"]
+gmcp_access = ["room.info", "char.info", "char.info.*"]
 
 [gmcp]
-advertise = ["room.info"]
+advertise = ["room.info", "char.info"]
 
 [panels.map]
 title        = "Map"

@@ -319,7 +319,24 @@ seed_room()
 world.on("connect",    seed_room)
 world.on("disconnect", reset_walk)
 
+-- ─── Character name ──────────────────────────────────────────────────────────
+-- char.info.capname is the authoritative per-character name from GMCP.
+-- Mirrors the pattern from discworld-grouping: subscribe for live updates +
+-- hydrate at startup so plugin reloads mid-session get the cached value.
+
+local char_name = nil
+
+local function apply_char_name(name)
+  if type(name) == 'string' and name ~= '' then char_name = name end
+end
+
+apply_char_name(gmcp.get('char.info.capname'))
+
 -- ─── GMCP ────────────────────────────────────────────────────────────────────
+
+gmcp.on('char.info', function(_, data)
+  if type(data) == 'table' then apply_char_name(data.capname) end
+end)
 
 gmcp.on('room.info', function(_, data)
   if type(data) == 'table' and data.identifier then
@@ -624,9 +641,9 @@ local function do_route(n, walk_immediately)
   route_to_room(target.room_id, target.location, walk_immediately)
 end
 
--- Storage is already isolated per-world by Mallard; each character is a
--- separate world config, so a fixed key gives the right per-character scope.
-local BM_KEY = 'bookmarks'
+local function bm_key()
+  return char_name and ('bm_' .. char_name) or 'bookmarks'
+end
 
 -- Specific patterns first, catch-all last.
 
@@ -688,7 +705,7 @@ mud.alias([[^db npcitem\s+(.+)$]], function(m)
 end)
 
 mud.alias([[^db bm$]], function()
-  local bmarks = storage.get(BM_KEY) or {}
+  local bmarks = storage.get(bm_key()) or {}
   local names = {}
   for name in pairs(bmarks) do names[#names + 1] = name end
   if #names == 0 then
@@ -709,28 +726,28 @@ mud.alias([[^db bm add (.+)$]], function(m)
   end
   local name     = m:raw(1)
   local location = (last_payload and last_payload.name) or current_room
-  local bmarks   = storage.get(BM_KEY) or {}
+  local bmarks   = storage.get(bm_key()) or {}
   bmarks[name]   = { room_id = current_room, location = location }
-  storage.set(BM_KEY, bmarks)
+  storage.set(bm_key(), bmarks)
   note(string.format('  Bookmarked "%s" as "%s".', location, name), C.ok)
 end)
 
 mud.alias([[^db bm rm (.+)$]], function(m)
   local name   = m:raw(1)
-  local bmarks = storage.get(BM_KEY) or {}
+  local bmarks = storage.get(bm_key()) or {}
   if bmarks[name] == nil then
     note(string.format('  No bookmark named "%s".', name), C.err)
     return
   end
   bmarks[name] = nil
-  storage.set(BM_KEY, bmarks)
+  storage.set(bm_key(), bmarks)
   note(string.format('  Removed bookmark "%s".', name), C.ok)
 end)
 
 mud.alias([[^db bm (.+)$]], function(m)
   local name = m:raw(1)
   if name:match('^add%s') or name:match('^rm%s') then return end
-  local bmarks = storage.get(BM_KEY) or {}
+  local bmarks = storage.get(bm_key()) or {}
   local entry  = bmarks[name]
   if entry == nil then
     note(string.format('  No bookmark named "%s".', name), C.err)
