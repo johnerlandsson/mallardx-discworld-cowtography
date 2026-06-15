@@ -49,21 +49,9 @@ const TARGET_PX    = 30;   // desired screen pixels between typical adjacent roo
 const roomUnits    = new Map();  // mapId → median nearest-neighbour distance
 const savedZoom    = new Map();  // mapId → last viewBox.w the user left it at
 
-const ZOOM_STORAGE_KEY = 'cowtography:zoom';
-
-// Pre-populate savedZoom from localStorage so zoom survives restarts.
-try {
-  const stored = JSON.parse(localStorage.getItem(ZOOM_STORAGE_KEY) ?? '{}');
-  for (const [k, v] of Object.entries(stored)) savedZoom.set(Number(k), v);
-} catch {}
-
 function persistZoom(mapId, w) {
   savedZoom.set(mapId, w);
-  try {
-    const stored = JSON.parse(localStorage.getItem(ZOOM_STORAGE_KEY) ?? '{}');
-    stored[mapId] = w;
-    localStorage.setItem(ZOOM_STORAGE_KEY, JSON.stringify(stored));
-  } catch {}
+  panel.post("save_zoom", { mapId, w });
 }
 
 // Compute median nearest-neighbour distance between rooms in an SVG.
@@ -484,6 +472,10 @@ new ResizeObserver(() => {
 }).observe($container);
 
 // ─── Host messages ────────────────────────────────────────────────────────
+panel.on("zoom_data", (frame) => {
+  for (const [k, v] of Object.entries(frame)) savedZoom.set(Number(k), v);
+});
+
 panel.on("room_dark", () => { darkMode = true;  applyState(); });
 
 panel.on("room_info", async (frame) => {

@@ -75,6 +75,8 @@ local function post_target_clear(snap)
 end
 
 panel:on_message("ready", function()
+  local zoom = storage.get('zoom')
+  if type(zoom) == 'table' then panel:post('zoom_data', zoom) end
   if lib_in_lspace then
     panel:post("lspace", {})
   elseif lib_in_library then
@@ -84,6 +86,13 @@ panel:on_message("ready", function()
     if last_payload then post_room(last_payload) end
     if last_route   then panel:post("route_set", { rooms = last_route }) end
   end
+end)
+
+panel:on_message("save_zoom", function(data)
+  local zoom = storage.get('zoom')
+  if type(zoom) ~= 'table' then zoom = {} end
+  zoom[tostring(data.mapId)] = data.w
+  storage.set('zoom', zoom)
 end)
 
 local MAX_DISPLAY = 10
