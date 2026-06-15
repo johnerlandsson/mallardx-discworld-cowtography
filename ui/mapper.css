@@ -5,23 +5,16 @@
   font-style: normal;
 }
 
-/* Fallback palette for standalone preview. Inside Mallard the host overrides
- * --bg/--fg/etc. directly on :root before first paint. The --mallard-* aliases
- * cover any future rename of the injected names. */
+/* --bg/--fg/--border are pushed by the Mallard host as inline styles on :root,
+ * overriding these stylesheet defaults. --fg-muted/--ansi-*/etc. are also
+ * pushed and referenced via var() fallback chains below. */
 :root {
   --bg:          #1a1a1a;
   --fg:          #eaeaea;
-  --muted:       #888;
-  --accent:      #4ade80;
+  --muted:       var(--fg-muted, #888);
+  --accent:      var(--ansi-10, #4ade80);
   --bg-elevated: #0f0f0f;
   --border:      #2a2a2a;
-  /* bridge to --mallard-* in case host uses that naming */
-  --mallard-bg:          var(--bg);
-  --mallard-fg:          var(--fg);
-  --mallard-fg-muted:    var(--muted);
-  --mallard-accent:      var(--accent);
-  --mallard-bg-elevated: var(--bg-elevated);
-  --mallard-border:      var(--border);
 }
 
 html, body { margin: 0; padding: 0; height: 100%; }
