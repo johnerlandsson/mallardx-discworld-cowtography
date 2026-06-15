@@ -381,15 +381,21 @@ gmcp.on('room.info', function(_, data)
       end
     end
   elseif type(data) == 'table' then
-    -- Dark room: room.info fired without an identifier.
-    -- Navigation is intentionally difficult in darkness — don't attempt to track position.
+    -- Dark room: room.info without an identifier. Keep the map on last known position
+    -- (muted) rather than tracking or showing a darkness overlay.
     target_room = nil
-    panel:post("special_screen", { name = "darkness" })
-    panel:post("target_clear",   { snap = false })
+    panel:post("room_dark", {})
     if walk_pos > 0 then
-      walk_steps = {}; walk_pos = 0; walk_target_name = ''
-      post_route_clear()
-      note('  Walk cancelled: entered darkness.', C.muted)
+      if walk_pos < #walk_steps then
+        walk_pos = walk_pos + 1
+        local remaining = #walk_steps - walk_pos + 1
+        mud.send(walk_steps[walk_pos])
+        note(string.format('  %d move%s remaining.', remaining, remaining == 1 and '' or 's'), C.muted)
+      else
+        note(string.format('  Arrived at "%s".', walk_target_name), C.ok)
+        walk_steps = {}; walk_pos = 0; walk_target_name = ''
+        post_route_clear()
+      end
     end
   end
 end)

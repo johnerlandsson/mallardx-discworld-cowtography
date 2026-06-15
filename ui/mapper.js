@@ -36,6 +36,7 @@ let viewBox        = { x: 0, y: 0, w: 0, h: 0 };
 let drag           = null;  // { screenX, screenY, vbX, vbY } | null
 let loadGeneration = 0;
 let lspaceAnim     = null;  // requestAnimationFrame id for L-space bouncer
+let darkMode       = false; // true while in a room without a GMCP identifier
 
 // World-disc canvas state (map 99 only)
 let worldImg    = null;
@@ -303,6 +304,7 @@ function applyState() {
 
   const routeOverlay = _ensureOverlay(currentSvg, "sg-route-overlay");
   const posOverlay   = _ensureOverlay(currentSvg, "sg-pos-overlay");
+  posOverlay.classList.toggle("dark", darkMode);
 
   // Route edges — lifted above all room layers.
   for (let i = 0; i < routeRoomIds.length - 1; i++) {
@@ -471,7 +473,10 @@ new ResizeObserver(() => {
 }).observe($container);
 
 // ─── Host messages ────────────────────────────────────────────────────────
+panel.on("room_dark", () => { darkMode = true;  applyState(); });
+
 panel.on("room_info", async (frame) => {
+  darkMode = false;
   const next = resolveRoom(data, frame);
   // library_position is authoritative for map 47. Ignore room_info events
   // that would keep us on map 47 or set current to null while already there —

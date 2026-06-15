@@ -82,6 +82,7 @@ body {
 .room.green.target,
 .room.water.target,
 .room.danger.target { fill: #ff3b30; stroke: #fff; }
+#sg-pos-overlay.dark .room { opacity: 0.35; }
 .map-label-warning  { fill: #cf4444; }
 .exit-journey        { stroke: var(--muted); stroke-width: 1.82; fill: none; }
 .exit-journey-offmap { stroke: var(--muted); stroke-width: 1.82; stroke-dasharray: 3 2; fill: none; }
