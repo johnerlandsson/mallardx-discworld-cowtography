@@ -790,9 +790,11 @@ end)
 mud.alias([[^dbworld$]], function()
   if mud.world then
     note('  mud.world:', C.header)
-    for k, v in pairs(mud.world) do
-      note(string.format('    %s = %s', tostring(k), tostring(v)), C.alt)
-    end
+    note('    id        = ' .. tostring(mud.world.id),        C.alt)
+    note('    name      = ' .. tostring(mud.world.name),      C.alt)
+    note('    host      = ' .. tostring(mud.world.host),      C.alt)
+    note('    port      = ' .. tostring(mud.world.port),      C.alt)
+    note('    character = ' .. tostring(mud.world.character), C.alt)
   else
     note('  mud.world is nil', C.err)
   end
