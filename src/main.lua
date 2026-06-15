@@ -63,14 +63,6 @@ local function post_route_clear()
   panel:post("route_clear", {})
 end
 
-local function walk_arrived(name)
-  note(string.format('  Arrived at "%s".', name), C.ok)
-  walk_steps = {}; walk_pos = 0; walk_target_name = ''
-  post_route_clear()
-  local snd = settings.get('walk_sound')
-  if snd and snd ~= 'none' then mud.play_sound(snd) end
-end
-
 local function post_target_move(room_id)
   panel:post("target_move", { identifier = room_id })
 end
@@ -119,6 +111,14 @@ local C = {
 
 local function note(text, colour)
   mud.note(text, { fg = colour or C.name })
+end
+
+local function walk_arrived(name)
+  note(string.format('  Arrived at "%s".', name), C.ok)
+  walk_steps = {}; walk_pos = 0; walk_target_name = ''
+  post_route_clear()
+  local snd = settings.get('walk_sound')
+  if snd and snd ~= 'none' then mud.play_sound(snd) end
 end
 
 -- Count visual columns in a UTF-8 string (codepoints, not bytes).

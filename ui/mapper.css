@@ -69,8 +69,8 @@ body {
 .exit         { stroke: #3a3a3a; stroke-width: 1.82; fill: none; }
 .exit.route   { stroke: #00d2ff; stroke-width: 3.03; }
 .exit-compact { stroke-width: 0.75; }
-.exit-offmap  { stroke: var(--muted); stroke-width: 1.5; stroke-dasharray: 3 2; fill: none; }
-.room-phantom { fill: var(--bg); stroke: var(--muted); stroke-width: 0.5; }
+.exit-offmap  { stroke: #888; stroke-width: 1.5; stroke-dasharray: 3 2; fill: none; }
+.room-phantom { fill: var(--bg); stroke: #888; stroke-width: 0.5; }
 .room.water   { fill: #0d1f2d; stroke: #4a9fd4; }
 .exit-water   { stroke: #4a9fd4; }
 .room.green   { fill: #0d1f0d; stroke: #4a9f4a; }
@@ -85,8 +85,8 @@ body {
 .room.danger.target { fill: #ff3b30; stroke: #fff; }
 #sg-pos-overlay.dark .room { opacity: 0.35; }
 .map-label-warning  { fill: #cf4444; }
-.exit-journey        { stroke: var(--muted); stroke-width: 1.82; fill: none; }
-.exit-journey-offmap { stroke: var(--muted); stroke-width: 1.82; stroke-dasharray: 3 2; fill: none; }
+.exit-journey        { stroke: #888; stroke-width: 1.82; fill: none; }
+.exit-journey-offmap { stroke: #888; stroke-width: 1.82; stroke-dasharray: 3 2; fill: none; }
 .exit-ferry          { stroke: #a8d8f0; stroke-width: 1.82; stroke-dasharray: 0 4; stroke-linecap: round; fill: none; }
 .map-river           { stroke: #0d1f2d;      stroke-width: 1.82; fill: none; }
 .map-river-offmap    { stroke: #0d1f2d;      stroke-width: 1.82; stroke-dasharray: 3 2; fill: none; }
@@ -124,7 +124,7 @@ body {
 /* ─── Semantic classes for hand-crafted SVG elements ───────────────────────── */
 .map-svg text    { font-family: "Noto Sans", sans-serif; }
 .map-label       { fill: var(--fg);    font-family: "Noto Sans", sans-serif; }
-.map-label-muted { fill: color-mix(in srgb, var(--fg) 45%, transparent); font-family: "Noto Sans", sans-serif; }
+.map-label-muted { fill: color-mix(in srgb, var(--fg) 60%, var(--bg)); font-family: "Noto Sans", sans-serif; }
 .map-label-accent { fill: var(--accent); font-family: "Noto Sans", sans-serif; }
 .map-area-fill   { fill: var(--bg-elevated); }
 .map-area-stroke { stroke: var(--border);    fill: none; }
