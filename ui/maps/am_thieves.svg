@@ -128,9 +128,9 @@
     <rect id="room-f9f5807ab35742f6b87c114bcbc4c7b0152c8941" class="room indoor" data-label="hiding object classroom" x="223" y="268" width="8" height="8" rx="2"/>
     <rect id="room-a68c9c82c0b4c23aef8170834d9a14cdea70781c" class="room indoor" data-label="palming and sleight of hand classroom" x="195" y="268" width="8" height="8" rx="2"/>
     <rect id="room-775db29a0948398e5c9ff7c55cdd1f758553416f" class="room indoor" data-label="inside stealth classroom" x="252" y="324" width="8" height="8" rx="2"/>
-    <rect id="room-6f3b37dbaa2ca396ecc4484a9a48d21aa5a8485c" class="room indoor room-clothes" data-label="Thieves&#x27; Guild Armoury" x="223" y="324" width="8" height="8" rx="2"/><text class="room-type-label" x="227" y="328" text-anchor="middle" dominant-baseline="central">C</text>
-    <rect id="room-34595d2af6c44d1ef556e21a7cb00c593209adae" class="room indoor room-weapon" data-label="Thieves&#x27; Guild smithy" x="195" y="324" width="8" height="8" rx="2"/><text class="room-type-label" x="199" y="328" text-anchor="middle" dominant-baseline="central">W</text>
-    <rect id="room-a1a735cf2e98098775d82919d743290360cdc598" class="room indoor room-food" data-label="Thieves&#x27; Guild refectory" x="195" y="296" width="8" height="8" rx="2"/><text class="room-type-label" x="199" y="300" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-6f3b37dbaa2ca396ecc4484a9a48d21aa5a8485c" class="room indoor room-clothes" data-label="Thieves&#x27; Guild Armoury" x="223" y="324" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="227" y="328" text-anchor="middle" dominant-baseline="central">C</text>
+    <rect id="room-34595d2af6c44d1ef556e21a7cb00c593209adae" class="room indoor room-weapon" data-label="Thieves&#x27; Guild smithy" x="195" y="324" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="199" y="328" text-anchor="middle" dominant-baseline="central">W</text>
+    <rect id="room-a1a735cf2e98098775d82919d743290360cdc598" class="room indoor room-food" data-label="Thieves&#x27; Guild refectory" x="195" y="296" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="199" y="300" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-dddc72193ce628c291192cceeb1d266193929d4f" class="room outdoor green" data-label="fired and thrown classroom" cx="171" cy="300" r="4"/>
     <circle id="room-b7ce5cb55ce03e88f1f611bbbeae924e79ab1306" class="room outdoor green" data-label="outside stealth classroom" cx="171" cy="272" r="4"/>
     <circle id="room-1a91b4d419937092f2a8ebfd089146b3dd559ef4" class="room outdoor green" data-label="climbing classroom" cx="171" cy="328" r="4"/>
@@ -138,7 +138,7 @@
     <rect id="room-e50f387377932283915772d19b9375e09eceb9cf" class="room indoor" data-label="Heavy Stuff" x="315" y="416" width="8" height="8" rx="2"/>
     <rect id="room-774a6967fde682aa4a3b50358897968b3410b57c" class="room indoor" data-label="launder room" x="315" y="471" width="8" height="8" rx="2"/>
     <rect id="room-c5c53d1a55138b90d18d6b0859b81ad15f9b2ece" class="room indoor" data-label="Thieves&#x27; Guild library" x="343" y="444" width="8" height="8" rx="2"/>
-    <rect id="room-1ca80ebfb8423cfb42ed4b5f40e89c1682ff95dd" class="room indoor room-shop" data-label="Nicolette&#x27;s Custom Costumes and Tailoring" x="371" y="444" width="8" height="8" rx="2"/><text class="room-type-label" x="375" y="448" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-1ca80ebfb8423cfb42ed4b5f40e89c1682ff95dd" class="room indoor room-shop" data-label="Nicolette&#x27;s Custom Costumes and Tailoring" x="371" y="444" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="375" y="448" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-0debdcab62434cdf629a03f09f8ee11a1f53db03" class="room indoor" data-label="hiding person classroom" x="223" y="133" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="227,134 229.5,137 227,140 224.5,137"/>
     <rect id="room-b44baf16289a7d294944047fc789d2d33accb79e" class="room indoor" data-label="Thieves&#x27; Guild quota room" x="223" y="105" width="8" height="8" rx="2"/>
     <rect id="room-0518521daac20d3c4de3916d6121df59533c955c" class="room indoor" data-label="passing and stealing classroom" x="251" y="105" width="8" height="8" rx="2"/>
@@ -172,7 +172,7 @@
     <rect id="room-55fd1e102b5481b31b96191e4aaa2715cd21c3c6" class="room indoor" data-label="cellar corridor" x="372" y="584" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="376,585 373.5,590 378.5,590"/>
     <rect id="room-94d124a6a16e3c037f5cc84ac39de9d0cbe27a05" class="room indoor" data-label="cellar corridor" x="372" y="612" width="8" height="8" rx="2"/>
     <rect id="room-c34f7bdd3ca3a9f725e869471c33ae0606300868" class="room indoor" data-label="lounge" x="372" y="640" width="8" height="8" rx="2"/>
-    <rect id="room-2acb72bf9c57f9fc413fdf284b8c7b3d3c7af9b8" class="room indoor room-pshop" data-label="[player shop]" x="400" y="640" width="8" height="8" rx="2"/><text class="room-type-label" x="404" y="644" text-anchor="middle" dominant-baseline="central">P</text>
+    <rect id="room-2acb72bf9c57f9fc413fdf284b8c7b3d3c7af9b8" class="room indoor room-pshop" data-label="[player shop]" x="400" y="640" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="404" y="644" text-anchor="middle" dominant-baseline="central">P</text>
     <rect id="room-bb8a3dd24ca7f2102f02c94b0f0fc5803fec5581" class="room indoor" data-label="bathroom" x="400" y="612" width="8" height="8" rx="2"/>
     <rect id="room-96a64680d514726c16575b4c260ffc0c2cd6e8e9" class="room indoor" data-label="storeroom" x="344" y="612" width="8" height="8" rx="2"/>
     <rect id="room-bbb66f54ae197158ea0b9eb58940d3ac35033c81" class="room indoor" data-label="cutpurses&#x27; dormitory" x="344" y="584" width="8" height="8" rx="2"/>

@@ -207,8 +207,8 @@
     <circle id="room-dd125d22375e212ebb4dd51a2b57e1f1f2e3f653" class="room outdoor" data-label="courtyard of the Assassins&#x27; Guild" cx="485" cy="145" r="4"/>
     <circle id="room-174bfbb2e823d36eb97fd2f44c4c2e49850e3b8a" class="room outdoor" data-label="courtyard of the Assassins&#x27; Guild" cx="457" cy="145" r="4"/>
     <circle id="room-4aaa4d5973c76e641fada4a5c2fdc837584215e2" class="room outdoor" data-label="courtyard of the Assassins&#x27; Guild" cx="429" cy="145" r="4"/>
-    <rect id="room-85fee783128acaa8d7576289eae416fcee10da2c" class="room indoor room-food" data-label="mess hall" x="425" y="169" width="8" height="8" rx="2"/><text class="room-type-label" x="429" y="173" text-anchor="middle" dominant-baseline="central">F</text>
-    <rect id="room-4152baae76ee1f2f769f20750b92a6e76a057c54" class="room indoor room-shop" data-label="mess hall" x="425" y="197" width="8" height="8" rx="2"/><text class="room-type-label" x="429" y="201" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-85fee783128acaa8d7576289eae416fcee10da2c" class="room indoor room-food" data-label="mess hall" x="425" y="169" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="429" y="173" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-4152baae76ee1f2f769f20750b92a6e76a057c54" class="room indoor room-shop" data-label="mess hall" x="425" y="197" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="429" y="201" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-ae0d5ff7bc892f4dc509065488c37ea6db60cfa6" class="room indoor" data-label="kitchen" x="397" y="197" width="8" height="8" rx="2"/>
     <rect id="room-01db7996935a23286d04aacb77f3098f0d5d91fd" class="room indoor" data-label="kitchen" x="397" y="169" width="8" height="8" rx="2"/>
     <circle id="room-8e635a131a61d0c068374857d6b656f73c43bbc9" class="room outdoor" data-label="garden" cx="373" cy="173" r="4"/>
@@ -225,20 +225,20 @@
     <rect id="room-5a451cdadbdb6a54cdaae7815cef51af2c74ec29" class="room indoor" data-label="chapel" x="537" y="281" width="8" height="8" rx="2"/>
     <rect id="room-7bdc108ad7e07af58b72c497419345540dc2b356" class="room indoor" data-label="chapel" x="565" y="281" width="8" height="8" rx="2"/>
     <rect id="room-4d99868cbfc2d1b6ee3235ec2641a6c57c070049" class="room indoor" data-label="Liming Corridor" x="509" y="253" width="8" height="8" rx="2"/>
-    <rect id="room-aba373b9e174b39513600db34ede1c920c4e0d04" class="room indoor room-weapon" data-label="weapon shop" x="509" y="281" width="8" height="8" rx="2"/><text class="room-type-label" x="513" y="285" text-anchor="middle" dominant-baseline="central">W</text>
+    <rect id="room-aba373b9e174b39513600db34ede1c920c4e0d04" class="room indoor room-weapon" data-label="weapon shop" x="509" y="281" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="513" y="285" text-anchor="middle" dominant-baseline="central">W</text>
     <rect id="room-efc8a2b8df388819e6f8435c806e1afe65759a23" class="room indoor" data-label="Liming Corridor" x="481" y="253" width="8" height="8" rx="2"/>
-    <rect id="room-c9e69c3686d3768c58965d4d605e36460ebea23d" class="room indoor room-clothes" data-label="student shop" x="481" y="281" width="8" height="8" rx="2"/><text class="room-type-label" x="485" y="285" text-anchor="middle" dominant-baseline="central">C</text>
+    <rect id="room-c9e69c3686d3768c58965d4d605e36460ebea23d" class="room indoor room-clothes" data-label="student shop" x="481" y="281" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="485" y="285" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-0bc4168a4c5865b4cd661b103243ae58fe991bda" class="room indoor" data-label="Liming Corridor" x="453" y="253" width="8" height="8" rx="2"/>
     <rect id="room-872607b45adb500dbaea59c7a0bbe6dbfac2e05c" class="room indoor" data-label="bath" x="425" y="253" width="8" height="8" rx="2"/>
     <rect id="room-c0a800614a13de2b4c7ea7cdd464179fc899ce5f" class="room indoor" data-label="sauna" x="425" y="281" width="8" height="8" rx="2"/>
     <rect id="room-1ebc24bfb0df2fb64dd0d1c610c34976ccdffdb8" class="room indoor" data-label="Liming Corridor" x="453" y="225" width="8" height="8" rx="2"/>
-    <rect id="room-dd92292fe37e25c4a0484f9ba7bc6ef0e35fca36" class="room indoor room-shop" data-label="furniture shop" x="425" y="225" width="8" height="8" rx="2"/><text class="room-type-label" x="429" y="229" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-dd92292fe37e25c4a0484f9ba7bc6ef0e35fca36" class="room indoor room-shop" data-label="furniture shop" x="425" y="225" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="429" y="229" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-26886402f195ed56dee035277061b5ee6a399ff1" class="room indoor" data-label="classroom stairwell" x="453" y="281" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="457,282 454.5,287 459.5,287"/>
     <rect id="room-9d1b2aefeb17cb68e0d63bab6d5a05bd79cb5aef" class="room indoor" data-label="stairwell" x="191" y="570" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="195,571 197.5,574 195,577 192.5,574"/>
     <rect id="room-84b55799f574b4dcea4bccbcf7611d0225f4ae3c" class="room indoor" data-label="corridor" x="191" y="542" width="8" height="8" rx="2"/>
     <rect id="room-3e576a814f111169e6dde5da6e1c69e9d968d626" class="room indoor" data-label="corridor" x="219" y="542" width="8" height="8" rx="2"/>
     <rect id="room-502bb5d267429706f3fc1279ba234935e1fd128a" class="room indoor" data-label="Dance and Deportment classroom" x="247" y="542" width="8" height="8" rx="2"/>
-    <rect id="room-be4e5249b8a046015f8fd069e7857f0c55d2c1d3" class="room indoor room-shop" data-label="Modern Language and Music classroom" x="219" y="570" width="8" height="8" rx="2"/><text class="room-type-label" x="223" y="574" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-be4e5249b8a046015f8fd069e7857f0c55d2c1d3" class="room indoor room-shop" data-label="Modern Language and Music classroom" x="219" y="570" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="223" y="574" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-9c075b757de6057d151b60012194c0dc1446f5c7" class="room indoor" data-label="corridor" x="191" y="514" width="8" height="8" rx="2"/>
     <rect id="room-f4c9430efec644e962a4e258400c165adc22edc9" class="room indoor" data-label="Assassins&#x27; Library" x="219" y="514" width="8" height="8" rx="2"/>
     <rect id="room-15bc812b6b6a20c4c7013a62b626060455ba173c" class="room indoor" data-label="Alchemy and Metalwork classroom" x="163" y="514" width="8" height="8" rx="2"/>
@@ -272,7 +272,7 @@
     <rect id="room-80cc99cf06ad0b4644c4de1df234191663937ab7" class="room indoor" data-label="laboratory" x="219" y="767" width="8" height="8" rx="2"/>
     <rect id="room-728b002b7bdc6814dc7eaa0f012563d37af3048e" class="room indoor" data-label="third floor corridor" x="191" y="739" width="8" height="8" rx="2"/>
     <rect id="room-16f0db38f63f15909a89e5259326694d406e0354" class="room indoor" data-label="laboratory" x="219" y="739" width="8" height="8" rx="2"/>
-    <rect id="room-f46f9ba874ca36798aef00babb2c8a9f0fb78ce6" class="room indoor room-shop" data-label="laboratory shop" x="219" y="711" width="8" height="8" rx="2"/><text class="room-type-label" x="223" y="715" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-f46f9ba874ca36798aef00babb2c8a9f0fb78ce6" class="room indoor room-shop" data-label="laboratory shop" x="219" y="711" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="223" y="715" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-fb80e10ae7b54d294f912f21fa02ad2d67944170" class="room indoor" data-label="third floor corridor" x="191" y="711" width="8" height="8" rx="2"/>
     <rect id="room-7a51b8900bb949e08476c69210e400e14469a35a" class="room indoor" data-label="laboratory" x="219" y="683" width="8" height="8" rx="2"/>
     <rect id="room-42192ebbffdb411eab17efee1651fbe5e2b7746f" class="room indoor" data-label="third floor corridor" x="191" y="683" width="8" height="8" rx="2"/>
@@ -295,7 +295,7 @@
     <rect id="room-a917635a8be91eedc8c3dfe23921bfd494cd7696" class="room indoor" data-label="Hall of Famous Assassins" x="509" y="169" width="8" height="8" rx="2"/>
     <rect id="room-aadb55a6404c39fc1024d811b3543449ca5cb2cd" class="room indoor" data-label="trophy room" x="565" y="113" width="8" height="8" rx="2"/>
     <rect id="room-8915e8c0e8e6cc26c80b038b48c6b421555dbea2" class="room indoor" data-label="Combination Corridor" x="537" y="85" width="8" height="8" rx="2"/>
-    <rect id="room-875f4d5e8dda90827c42a9aa38be9ff0acac0b8d" class="room indoor room-clothes" data-label="graduate clothes shop" x="537" y="57" width="8" height="8" rx="2"/><text class="room-type-label" x="541" y="61" text-anchor="middle" dominant-baseline="central">C</text>
+    <rect id="room-875f4d5e8dda90827c42a9aa38be9ff0acac0b8d" class="room indoor room-clothes" data-label="graduate clothes shop" x="537" y="57" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="541" y="61" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-4d355cab1ba57b9820fbd6ae6933b8d5f07e0815" class="room indoor" data-label="Combination Corridor" x="509" y="85" width="8" height="8" rx="2"/>
     <rect id="room-d52ec6afe68916e46ae5ec40fa7a97e5198931f2" class="room indoor" data-label="Assassins&#x27; Embroidery Shoppe" x="509" y="57" width="8" height="8" rx="2"/>
     <rect id="room-5d24f59b0cbded04d9ad0a652c65a6a362164dee" class="room indoor" data-label="dormitory stairwell" x="565" y="85" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="569,86 566.5,91 571.5,91"/>

@@ -34,7 +34,7 @@
 
   <g id="layer-rooms">
     <circle id="room-9a7a21e5d2bbde3730ec89521614405a4e8f835e" class="room outdoor" data-label="courtyard of the Guild of Fools, Joculators and Clowns" cx="135" cy="101" r="4"/>
-    <rect id="room-2a86af27b7989e94c8f99e823d8c124d7c180347" class="room indoor room-food" data-label="small shop" x="159" y="69" width="8" height="8" rx="2"/><text class="room-type-label" x="163" y="73" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-2a86af27b7989e94c8f99e823d8c124d7c180347" class="room indoor room-food" data-label="small shop" x="159" y="69" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="163" y="73" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-3967b71d0de19316b69e3571101afe151aae6635" class="room indoor" data-label="Fools&#x27; Guild Advancement Area" x="131" y="41" width="8" height="8" rx="2"/>
     <circle id="room-ced1bbe392ed9b20284b4e2687811a0dbcdbd095" class="room outdoor" data-label="pie range" cx="107" cy="101" r="4"/>
     <circle id="room-48e5e659f6684213e13cd0e7815d0585bc85ad81" class="room outdoor" data-label="southeast section of the Fools&#x27; Guild courtyard" cx="135" cy="129" r="4"/>

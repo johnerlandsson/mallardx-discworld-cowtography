@@ -237,7 +237,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-2456857b2f93dd813521fe8d0ffceaa624694731" class="room indoor" data-label="musty tunnel" x="145" y="253" width="8" height="8" rx="2"/>
     <rect id="room-ae43222ca88d7f039a6c2b7118265f3ef7db8d85" class="room indoor" data-label="mossy tunnel" x="145" y="239" width="8" height="8" rx="2"/>
     <rect id="room-62318616516e96d4a562275933c88d1430ec035e" class="room indoor" data-label="end of a tunnel" x="131" y="239" width="8" height="8" rx="2"/>
-    <circle id="room-640fb7e333e01bca1260f0a7620c83555b26b044" class="room outdoor room-mission" data-label="mysterious cove" cx="121" cy="243" r="4"/><text class="room-type-label" x="121" y="243" text-anchor="middle" dominant-baseline="central">!</text>
+    <circle id="room-640fb7e333e01bca1260f0a7620c83555b26b044" class="room outdoor room-mission" data-label="mysterious cove" cx="121" cy="243" r="4"/><text class="room-type-label" font-size="4.5" x="121" y="243" text-anchor="middle" dominant-baseline="central">!</text>
     <circle id="room-c1cca17cdf028a00dcc9cb479d01bbb8bfb65e5b" class="room outdoor" data-label="treacherous cliff path" cx="105" cy="229" r="4"/><polygon class="stair-symbol" points="105,232 102.5,227 107.5,227"/>
     <rect id="room-ebff897af2b8bb6800a9a8636143099d0714be07" class="room indoor" data-label="dingy tunnel" x="257" y="295" width="8" height="8" rx="2"/>
     <rect id="room-c0495c993b8ba463e6b3008a88f962ae28084582" class="room indoor danger" data-label="dingy tunnel" x="271" y="295" width="8" height="8" rx="2"/>
@@ -267,35 +267,35 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-0c19cc2d90c3e7ce224fbc4deaf78cfea4c13fa3" class="room outdoor" data-label="walkway, below the Ephebian Harbour Market" cx="379" cy="243" r="4"/>
     <circle id="room-cd63368c639e6fa5d5fb8740b211ba807eb78780" class="room outdoor" data-label="walkway around the Ephebian harbour" cx="393" cy="257" r="4"/>
     <circle id="room-e4afb5808cc1349eb64947811a1e19649ef19d1d" class="room outdoor" data-label="walkway around the Ephebian harbour" cx="407" cy="271" r="4"/>
-    <rect id="room-dad572d07a5758a9836bf1b95421a6bbd34ccfaa" class="room indoor room-house" data-label="hut" x="403" y="278" width="8" height="8" rx="2"/><text class="room-type-label" x="407" y="282" text-anchor="middle" dominant-baseline="central">H</text>
+    <rect id="room-dad572d07a5758a9836bf1b95421a6bbd34ccfaa" class="room indoor room-house" data-label="hut" x="403" y="278" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="407" y="282" text-anchor="middle" dominant-baseline="central">H</text>
     <circle id="room-fa2542007a27bdc9b61c090cb24b8b5d889806e5" class="room outdoor" data-label="wooden walkway by the Ephebian harbour" cx="421" cy="271" r="4"/>
     <circle id="room-dd18689aaebdb6165c8fc0fea3924da6d094d6f1" class="room outdoor" data-label="wooden walkway in the bay of Ephebe" cx="435" cy="285" r="4"/>
-    <rect id="room-8de46c7b24a9592ade865e2829c85a3beb82314f" class="room indoor room-house" data-label="hut" x="431" y="292" width="8" height="8" rx="2"/><text class="room-type-label" x="435" y="296" text-anchor="middle" dominant-baseline="central">H</text>
+    <rect id="room-8de46c7b24a9592ade865e2829c85a3beb82314f" class="room indoor room-house" data-label="hut" x="431" y="292" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="435" y="296" text-anchor="middle" dominant-baseline="central">H</text>
     <circle id="room-b37afe37c46e2c63eba91cfd5c3a43b878842451" class="room outdoor" data-label="quiet stretch of the Ephebian harbour walkway" cx="449" cy="285" r="4"/>
     <circle id="room-1d9bb699b7d7705b1cbecd1f19cdfb95778e465b" class="room outdoor" data-label="eastern end of the walkway in the Ephebian harbour" cx="463" cy="285" r="4"/>
     <circle id="room-31abb9a996aacfd6345d43b9b3f4801c41612ac7" class="room outdoor" data-label="Ephebian harbour walkway, below the Harbour Market" cx="365" cy="229" r="4"/>
-    <rect id="room-93c6c3ddc825f38d5bb26a7661cb39d233ec31a6" class="room indoor room-house" data-label="hut" x="361" y="236" width="8" height="8" rx="2"/><text class="room-type-label" x="365" y="240" text-anchor="middle" dominant-baseline="central">H</text>
+    <rect id="room-93c6c3ddc825f38d5bb26a7661cb39d233ec31a6" class="room indoor room-house" data-label="hut" x="361" y="236" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="365" y="240" text-anchor="middle" dominant-baseline="central">H</text>
     <circle id="room-1dc31b88797192a4aac93a16c62141d050938147" class="room outdoor" data-label="walkway around the Ephebian harbour" cx="351" cy="215" r="4"/>
     <circle id="room-fdf158a35de185ff372b6cc6c3263481283e41fb" class="room outdoor" data-label="walkway around the Ephebian harbour" cx="337" cy="201" r="4"/>
     <circle id="room-0a241de1fd754be405b845746ba835d775fcdda4" class="room outdoor" data-label="walkway below Dockside Walk" cx="323" cy="187" r="4"/>
     <circle id="room-2a92be068d0e23f0ff233b5ac4c7655665cbc8e9" class="room outdoor" data-label="walkway below Dockside Walk" cx="323" cy="173" r="4"/>
     <circle id="room-3a3ee00fa372eb8b7e418306df8dc6a7a069fbd7" class="room outdoor" data-label="below Dockside Walk" cx="323" cy="159" r="4"/>
-    <rect id="room-1f876aa3aaa891d42389565933df7a7e87a12b5f" class="room indoor room-house" data-label="hut" x="308" y="155" width="8" height="8" rx="2"/><text class="room-type-label" x="312" y="159" text-anchor="middle" dominant-baseline="central">H</text>
+    <rect id="room-1f876aa3aaa891d42389565933df7a7e87a12b5f" class="room indoor room-house" data-label="hut" x="308" y="155" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="312" y="159" text-anchor="middle" dominant-baseline="central">H</text>
     <circle id="room-10fe6683c4d22fcc8b708403f41e9d1e5624ee7f" class="room outdoor" data-label="below the centre of Dockside Market" cx="323" cy="145" r="4"/>
     <circle id="room-b97ccfabaefe91a42716d8888ca0dd8936b72034" class="room outdoor" data-label="below the north end of Dockside Market" cx="323" cy="131" r="4"/>
-    <rect id="room-4bd6556ec425bb83f0a4f1dcd7524800cf9da3d9" class="room indoor room-clothes" data-label="small shoe shop" x="308" y="127" width="8" height="8" rx="2"/><text class="room-type-label" x="312" y="131" text-anchor="middle" dominant-baseline="central">C</text>
+    <rect id="room-4bd6556ec425bb83f0a4f1dcd7524800cf9da3d9" class="room indoor room-clothes" data-label="small shoe shop" x="308" y="127" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="312" y="131" text-anchor="middle" dominant-baseline="central">C</text>
     <circle id="room-15932c10ea08f900943a13e9dc2ae33b18563a37" class="room outdoor" data-label="below the north end of Dockside Market" cx="323" cy="117" r="4"/>
-    <rect id="room-97ec73f77e6d6e3dbe25dc24a6470018eeb06366" class="room indoor room-shop" data-label="small paint shop" x="308" y="113" width="8" height="8" rx="2"/><text class="room-type-label" x="312" y="117" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-97ec73f77e6d6e3dbe25dc24a6470018eeb06366" class="room indoor room-shop" data-label="small paint shop" x="308" y="113" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="312" y="117" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-4f534de28d51b3240fe370167e492210201a471e" class="room indoor" data-label="below a pier" x="319" y="99" width="8" height="8" rx="2"/>
     <rect id="room-a203385dca4cb328292120815f134c5cbf7302ef" class="room indoor" data-label="below a pier" x="319" y="85" width="8" height="8" rx="2"/>
-    <rect id="room-9d96bfa919d0b541b4744b7007c8a01818c1aa2c" class="room indoor room-shop" data-label="small fish stall" x="308" y="85" width="8" height="8" rx="2"/><text class="room-type-label" x="312" y="89" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-9d96bfa919d0b541b4744b7007c8a01818c1aa2c" class="room indoor room-shop" data-label="small fish stall" x="308" y="85" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="312" y="89" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-477014a446a7b4ac612e16a6c2bbeccc77153ca5" class="room outdoor" data-label="wooden walkway just north of some piers" cx="323" cy="75" r="4"/>
     <circle id="room-a8040429a13735a13c1e5f6e0eab12894eda20bf" class="room outdoor" data-label="near the northwest end of the Ephebian harbour" cx="337" cy="61" r="4"/>
     <circle id="room-58f11d56fb48becc0fbc1d1ee7ead62d2d7d96df" class="room outdoor" data-label="near the northwest end of the Ephebian harbour" cx="337" cy="47" r="4"/>
     <circle id="room-7dd2dec22548a78e410838fff3b6deee603b5045" class="room outdoor" data-label="near the north end of the harbour walkway" cx="351" cy="33" r="4"/>
     <circle id="room-5132416accc61c44e9943fc6f2bdfc89f0ab594f" class="room outdoor" data-label="north end of a wooden walkway, near the lighthouse" cx="351" cy="19" r="4"/>
     <rect id="room-4879cd396da3c8cfdde7a3e35942d0c9266bd6f8" class="room indoor" data-label="swimwear shop in a damp cave" x="309" y="61" width="8" height="8" rx="2"/>
-    <rect id="room-c11ada54b46b64627fc0bb9c45fd8271c7ee4a6d" class="room indoor room-shop" data-label="back of a damp cave" x="300" y="52" width="8" height="8" rx="2"/><text class="room-type-label" x="304" y="56" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-c11ada54b46b64627fc0bb9c45fd8271c7ee4a6d" class="room indoor room-shop" data-label="back of a damp cave" x="300" y="52" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="304" y="56" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-d4c97c9239e93410d4c4a4d360a10a9d3be5a20c" class="room outdoor" data-label="grimy underdock" cx="219" cy="130" r="4"/>
     <circle id="room-19bb65e483717ba967c7b50b35450af465cff668" class="room outdoor" data-label="grimy underdock" cx="219" cy="144" r="4"/>
     <circle id="room-99723c5578b4e6c877262b5472a6663836331789" class="room outdoor" data-label="grimy underdock" cx="233" cy="158" r="4"/>
@@ -310,10 +310,10 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-b62c32cd97244ebefdc18a3c13c783e5f87a99c2" class="room outdoor" data-label="treacherous cliff path" cx="105" cy="257" r="4"/>
     <circle id="room-8a36b03bef592e7e6da4479d9eb490f7a8b35b5f" class="room outdoor" data-label="treacherous cliff path" cx="105" cy="271" r="4"/>
     <circle id="room-7e310d460c58fd930642c247bb98d09c047bcf3e" class="room outdoor" data-label="treacherous cliff path" cx="119" cy="285" r="4"/>
-    <rect id="room-71b96a26e4e807b67accd26c407a0f9820dc4f33" class="room indoor room-clothes" data-label="small shop" x="190" y="281" width="8" height="8" rx="2"/><text class="room-type-label" x="194" y="285" text-anchor="middle" dominant-baseline="central">C</text>
+    <rect id="room-71b96a26e4e807b67accd26c407a0f9820dc4f33" class="room indoor room-clothes" data-label="small shop" x="190" y="281" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="194" y="285" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-e4d9861597f021392033f410b4eec96431d6ea6b" class="room indoor" data-label="sand-filled shack" x="308" y="194" width="8" height="8" rx="2"/>
-    <rect id="room-3b408d9de897bd521a3ed60b15e9c30dd477cc19" class="room indoor room-shop" data-label="dank shop" x="308" y="169" width="8" height="8" rx="2"/><text class="room-type-label" x="312" y="173" text-anchor="middle" dominant-baseline="central">S</text>
-    <rect id="room-53b277e30e63adab00b42e6f3a72138ecc87bbde" class="room indoor room-shop" data-label="shadowed basement" x="308" y="169" width="8" height="8" rx="2"/><text class="room-type-label" x="312" y="173" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-3b408d9de897bd521a3ed60b15e9c30dd477cc19" class="room indoor room-shop" data-label="dank shop" x="308" y="169" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="312" y="173" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-53b277e30e63adab00b42e6f3a72138ecc87bbde" class="room indoor room-shop" data-label="shadowed basement" x="308" y="169" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="312" y="173" text-anchor="middle" dominant-baseline="central">S</text>
   </g>
   <g
      id="layer-room-labels" />

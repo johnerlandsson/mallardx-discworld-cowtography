@@ -112,8 +112,8 @@
     <circle id="room-49e7a633ed222be3572f6b259e76526d6c8d99b2" class="room outdoor" data-label="outside the castle" cx="257" cy="215" r="4"/>
     <rect id="room-617ab671a58d30c979d0b8acaae423d7d3f0eab9" class="room indoor" data-label="hut" x="306" y="71" width="8" height="8" rx="2"/>
     <rect id="room-506904763abc4fd1484479969f92df834892a745" class="room indoor" data-label="library" x="376" y="29" width="8" height="8" rx="2"/>
-    <rect id="room-2b9329a0e64b2dc943a083585055f203a2e47fca" class="room indoor room-house" data-label="[player house]" x="376" y="29" width="8" height="8" rx="2"/><text class="room-type-label" x="380" y="33" text-anchor="middle" dominant-baseline="central">H</text>
-    <rect id="room-2dbf08d473a6d0dd12d426ed7cf83d03ff91fe09" class="room indoor room-house" data-label="[player house]" x="376" y="29" width="8" height="8" rx="2"/><text class="room-type-label" x="380" y="33" text-anchor="middle" dominant-baseline="central">H</text>
+    <rect id="room-2b9329a0e64b2dc943a083585055f203a2e47fca" class="room indoor room-house" data-label="[player house]" x="376" y="29" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="380" y="33" text-anchor="middle" dominant-baseline="central">H</text>
+    <rect id="room-2dbf08d473a6d0dd12d426ed7cf83d03ff91fe09" class="room indoor room-house" data-label="[player house]" x="376" y="29" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="380" y="33" text-anchor="middle" dominant-baseline="central">H</text>
   </g>
 
 

@@ -107,18 +107,18 @@
   <g id="layer-rooms">
     <circle id="room-a2419925c6cc42e592a43f0cfc03d34c10940ea5" class="room outdoor" data-label="centre of the square" cx="239" cy="169" r="4"/>
     <circle id="room-80f8ac7814016571086d2c472839a6bba2688b38" class="room outdoor" data-label="northeast corner of the square" cx="253" cy="155" r="4"/>
-    <rect id="room-71d56713694f91bd20751dc47352a8cc6dfca45d" class="room indoor room-clothes" data-label="small general store" x="260" y="151" width="8" height="8" rx="2"/><text class="room-type-label" x="264" y="155" text-anchor="middle" dominant-baseline="central">C</text>
+    <rect id="room-71d56713694f91bd20751dc47352a8cc6dfca45d" class="room indoor room-clothes" data-label="small general store" x="260" y="151" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="264" y="155" text-anchor="middle" dominant-baseline="central">C</text>
     <circle id="room-ac310bc3aa78d40d6b181bf2ea8d450a22a57b88" class="room outdoor" data-label="northern edge of the square" cx="239" cy="155" r="4"/>
     <rect id="room-20b9efb6921a6e41a61b7179a53066da922d7983" class="room indoor" data-label="Woodcutters&#x27; Guild" x="245" y="141" width="8" height="8" rx="2"/>
     <rect id="room-8c2595cd9a6c415f9670beeed7ee07122e1174d8" class="room indoor" data-label="woodwork shop" x="235" y="141" width="8" height="8" rx="2"/>
     <circle id="room-03933d41f644b18282d766da780c639fa2bf0ec2" class="room outdoor" data-label="northwest corner of the square" cx="225" cy="155" r="4"/>
     <circle id="room-a8287464a6c182e0e878704ad26eb7bc215110fb" class="room outdoor" data-label="western edge of the square" cx="225" cy="169" r="4"/>
-    <rect id="room-590ba199fcefe1cb43a8ca73f5723c8829f376a3" class="room indoor room-food" data-label="small cake shop" x="211" y="175" width="8" height="8" rx="2"/><text class="room-type-label" x="215" y="179" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-590ba199fcefe1cb43a8ca73f5723c8829f376a3" class="room indoor room-food" data-label="small cake shop" x="211" y="175" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="215" y="179" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-11c94c09699f89b742177945c02a5885f766a9ad" class="room outdoor" data-label="eastern edge of the square" cx="253" cy="169" r="4"/>
     <circle id="room-a9db147a9472c2b3dc92797c71cabe4e5291ddd4" class="room outdoor" data-label="southeast corner of the square" cx="253" cy="183" r="4"/>
     <circle id="room-a8a10433cf292c31c272e23940d813cafd169cdc" class="room outdoor" data-label="southern edge of the square" cx="239" cy="183" r="4"/>
     <circle id="room-e0d2944fa20f6c3f77071b6692fe6a0284fb57f3" class="room outdoor" data-label="southwestern corner of the square" cx="225" cy="183" r="4"/>
-    <rect id="room-1f270665a20a58a4c9e3f0f4269086511e69685a" class="room indoor room-food" data-label="Bois Village Inn" x="221" y="190" width="8" height="8" rx="2"/><text class="room-type-label" x="225" y="194" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-1f270665a20a58a4c9e3f0f4269086511e69685a" class="room indoor room-food" data-label="Bois Village Inn" x="221" y="190" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="225" y="194" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-42fc66e3a3d2d219435c82afd199ff7117e9086f" class="room indoor" data-label="small room" x="231" y="200" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="235,207 232.5,202 237.5,202"/>
     <rect id="room-631c763481627177ad319580021484e41ca5d787" class="room indoor" data-label="village hall common room" x="259" y="189" width="8" height="8" rx="2"/>
     <rect id="room-ca812ea7a72af42ba1192c8e9e43f24ca8786e4a" class="room indoor" data-label="converted storeroom" x="267" y="197" width="8" height="8" rx="2"/>

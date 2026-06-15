@@ -33,7 +33,7 @@
     <rect id="room-79171205802b4988e2b114b40185f90f98d1faa9" class="room indoor" data-label="guest bedroom" x="159" y="109" width="8" height="8" rx="2"/>
     <rect id="room-4fe23fa83173cc4a248ad036c4b93fb11d45c535" class="room indoor" data-label="bedroom of Terence" x="187" y="81" width="8" height="8" rx="2"/>
     <rect id="room-276d553ba6d407530a96bf39ae3a64c0e135f2dc" class="room indoor" data-label="attic" x="286" y="81" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="290,88 287.5,83 292.5,83"/>
-    <rect id="room-3746178a5177134b11622cfead858782000d2f7b" class="room indoor room-access" data-label="Magic and Meddlers&#x27; Shop" x="187" y="64" width="8" height="8" rx="2"/><text class="room-type-label" x="191" y="68" text-anchor="middle" dominant-baseline="central">X</text>
+    <rect id="room-3746178a5177134b11622cfead858782000d2f7b" class="room indoor room-access" data-label="Magic and Meddlers&#x27; Shop" x="187" y="64" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="191" y="68" text-anchor="middle" dominant-baseline="central">X</text>
   </g>
 
 

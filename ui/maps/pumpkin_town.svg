@@ -56,7 +56,7 @@
     <rect id="room-bdaa129235e9a2209107b43c351f8b2c154ef795" class="room indoor" data-label="prison hall" x="451" y="14" width="8" height="8" rx="2"/>
     <rect id="room-786f922eeddebe8d739709ae43559d01bf1dbcc2" class="room indoor" data-label="post office" x="453" y="46" width="8" height="8" rx="2"/>
     <rect id="room-979f4cf8e3b53219d75ee6faa5c0e498ed588abc" class="room indoor" data-label="Equipment Emporium" x="453" y="141" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="457,142 454.5,147 459.5,147"/>
-    <rect id="room-b6c94cc471cf0f91499773a663a1675680841218" class="room indoor room-weapon" data-label="weapons and armour shop" x="480" y="124" width="8" height="8" rx="2"/><text class="room-type-label" x="484" y="128" text-anchor="middle" dominant-baseline="central">W</text>
+    <rect id="room-b6c94cc471cf0f91499773a663a1675680841218" class="room indoor room-weapon" data-label="weapons and armour shop" x="480" y="124" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="484" y="128" text-anchor="middle" dominant-baseline="central">W</text>
     <rect id="room-e68699598323865ce33325e8f75d5f3f4e2e74bd" class="room indoor" data-label="hospital" x="419" y="224" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="423,225 420.5,230 425.5,230"/>
     <rect id="room-917446ff80d14cacf75b035961cc89303d3d51e9" class="room indoor" data-label="Combat Crib" x="371" y="224" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="375,231 372.5,226 377.5,226"/>
     <rect id="room-08d1d34063276a988008c71905bcf3b1b81ed0b6" class="room indoor" data-label="morgue" x="353" y="242" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="357,243 354.5,248 359.5,248"/>

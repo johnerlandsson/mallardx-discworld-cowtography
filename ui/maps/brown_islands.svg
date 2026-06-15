@@ -45,7 +45,7 @@
   <g id="layer-rooms">
     <circle id="room-ef740e3f6cb0aec56ba6f4c71620cb817b0bb1f0" class="room outdoor" data-label="edge of a small native village" cx="105" cy="73" r="4"/>
     <circle id="room-a7e987b21a713fff4c7e28f723a7a310f06526f5" class="room outdoor" data-label="centre of a small native village" cx="105" cy="45" r="4"/>
-    <rect id="room-a26a763a1b3596eb4d37265cbed32f5a9c0a265a" class="room indoor room-access" data-label="pleasant little souvenir shop" x="129" y="13" width="8" height="8" rx="2"/><text class="room-type-label" x="133" y="17" text-anchor="middle" dominant-baseline="central">X</text>
+    <rect id="room-a26a763a1b3596eb4d37265cbed32f5a9c0a265a" class="room indoor room-access" data-label="pleasant little souvenir shop" x="129" y="13" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="133" y="17" text-anchor="middle" dominant-baseline="central">X</text>
     <circle id="room-7b80a3a0092826bb8f3f2f6e8bee8aa0d0f8e57c" class="room outdoor" data-label="northwestern corner of a small native village" cx="105" cy="17" r="4"/>
     <circle id="room-79ff44f63cf571eaebc9d1f3421b2bbef30b7be5" class="room outdoor" data-label="centre of a small native village" cx="133" cy="45" r="4"/>
     <rect id="room-270ac5a8f273353b23decd4bc69fa119cb236803" class="room indoor" data-label="tropical bar" x="129" y="59" width="8" height="8" rx="2"/>
@@ -68,7 +68,7 @@
     <circle id="room-dfa7fee6d5b82abf6680f2e4b2e6043cd8f7f5bb" class="room outdoor water" data-label="sea just west of a pier" cx="105" cy="157" r="4"/>
     <circle id="room-c3e3c46773e4cb6b7b7c257e58666fbe306be023" class="room outdoor" data-label="sea-shore by a pier" cx="105" cy="129" r="4"/>
     <circle id="room-2b610a2f2a05f79e376b9b56d8513b906e3abac3" class="room outdoor" data-label="sea-shore" cx="77" cy="129" r="4"/>
-    <rect id="room-9217032cfbba083b72044841cfe19208dd250494" class="room indoor room-food" data-label="front of a ferry shop" x="137" y="69" width="8" height="8" rx="2"/><text class="room-type-label" x="141" y="73" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-9217032cfbba083b72044841cfe19208dd250494" class="room indoor room-food" data-label="front of a ferry shop" x="137" y="69" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="141" y="73" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-e105ad4f0d5013f7686b32f8b33ad304d76f99a5" class="room indoor" data-label="dimly lit cellar" x="137" y="69" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="141,70 138.5,75 143.5,75"/>
     <circle id="room-19c5968935538da2e81a88f39e5d8927a00eaca5" class="room outdoor" data-label="top of a totem pole" cx="133" cy="45" r="4"/>
   </g>

@@ -79,7 +79,7 @@
     <rect id="room-dce9f136214be36c0f590672e39b6018ee848036" class="room indoor" data-label="first floor landing" x="152" y="271" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="156,278 153.5,273 158.5,273"/>
     <rect id="room-b72788e772f73f65ac70bfdf3de6592fb9ec1a20" class="room indoor" data-label="Voting Room of the Mano Rossa" x="124" y="271" width="8" height="8" rx="2"/>
     <rect id="room-642ec22261b04f64c5641395cbb671d82ed0d9d2" class="room indoor" data-label="corridor" x="152" y="243" width="8" height="8" rx="2"/>
-    <rect id="room-d16835782eb67a9b909f612197e5a840ed387e80" class="room indoor room-shop" data-label="smoking room" x="124" y="243" width="8" height="8" rx="2"/><text class="room-type-label" x="128" y="247" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-d16835782eb67a9b909f612197e5a840ed387e80" class="room indoor room-shop" data-label="smoking room" x="124" y="243" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="128" y="247" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-ae4d59a542a954bb25c11d35f97889e02b2a81a9" class="room indoor" data-label="drawing room" x="180" y="243" width="8" height="8" rx="2"/>
     <rect id="room-f920a52fb715dee4eefdeda29e30812f44338b59" class="room indoor" data-label="corridor" x="152" y="299" width="8" height="8" rx="2"/>
     <rect id="room-3619bb538b85e2552b12e258a3a47268c840f1fb" class="room indoor" data-label="bathroom" x="124" y="299" width="8" height="8" rx="2"/>
@@ -87,7 +87,7 @@
     <rect id="room-a9c0d53bce7b05b83a15b38b4c0780f82406d464" class="room indoor" data-label="stairwell" x="180" y="271" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="184,272 181.5,277 186.5,277"/>
     <rect id="room-9e41eac932b24319436ec2affe918696a1de7588" class="room indoor" data-label="second floor landing" x="181" y="410" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="185,411 187.5,414 185,417 182.5,414"/>
     <rect id="room-d08eade180376e1d4adbc8a93777c2a881ac5116" class="room indoor" data-label="second floor of the mansion" x="153" y="410" width="8" height="8" rx="2"/>
-    <rect id="room-e5da56eba494513e558840ceba56dd635cde8e39" class="room indoor room-food" data-label="grimy pub" x="153" y="382" width="8" height="8" rx="2"/><text class="room-type-label" x="157" y="386" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-e5da56eba494513e558840ceba56dd635cde8e39" class="room indoor room-food" data-label="grimy pub" x="153" y="382" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="157" y="386" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-446b58da740741e50912a19d88518d735f15c06e" class="room indoor" data-label="boxing area" x="181" y="382" width="8" height="8" rx="2"/>
     <rect id="room-49f890af05ba386a808d80a216d09671e65e0436" class="room indoor" data-label="gaming area" x="125" y="382" width="8" height="8" rx="2"/>
     <rect id="room-1d8e60e65f6159c60b57ca2dfbd14f02c8a4e410" class="room indoor" data-label="second floor of the mansion" x="153" y="438" width="8" height="8" rx="2"/>
@@ -95,8 +95,8 @@
     <rect id="room-f56be1cd845b30c3c7271cf0dccbac83853e63a2" class="room indoor" data-label="balcony" x="181" y="466" width="8" height="8" rx="2"/>
     <rect id="room-ee9cfa211e96aaa348488a70bece524b94618655" class="room indoor" data-label="balcony" x="153" y="466" width="8" height="8" rx="2"/>
     <rect id="room-95fec03a2c2a7964c135f8b2f1cb908aef9f54da" class="room indoor" data-label="balcony" x="125" y="466" width="8" height="8" rx="2"/>
-    <rect id="room-acdb70371935a076ed3893ce07374cc413be91c4" class="room indoor room-clothes" data-label="Mano Rossa clothes shop" x="125" y="438" width="8" height="8" rx="2"/><text class="room-type-label" x="129" y="442" text-anchor="middle" dominant-baseline="central">C</text>
-    <rect id="room-4875b9ca169a38df819760cebe52ffcdb56271f0" class="room indoor room-shop" data-label="Gabbiani&#x27;s Tailored Suits" x="125" y="410" width="8" height="8" rx="2"/><text class="room-type-label" x="129" y="414" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-acdb70371935a076ed3893ce07374cc413be91c4" class="room indoor room-clothes" data-label="Mano Rossa clothes shop" x="125" y="438" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="129" y="442" text-anchor="middle" dominant-baseline="central">C</text>
+    <rect id="room-4875b9ca169a38df819760cebe52ffcdb56271f0" class="room indoor room-shop" data-label="Gabbiani&#x27;s Tailored Suits" x="125" y="410" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="129" y="414" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-6a2695f9cb39e6b5fcf981d6eff65331388c68cb" class="room indoor" data-label="staircase" x="180" y="567" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="184,574 181.5,569 186.5,569"/>
     <rect id="room-2be20177548117d1e2f011f842e7b24ea5d4fa1b" class="room indoor" data-label="corridor" x="152" y="567" width="8" height="8" rx="2"/>
     <rect id="room-e32fbfd2c699b341ae943276bbdac349b7fbff0e" class="room indoor" data-label="corridor" x="152" y="539" width="8" height="8" rx="2"/>

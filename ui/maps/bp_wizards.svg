@@ -166,18 +166,18 @@
     <rect id="room-23bb78df97af9bf961bb501c934f2a53a59ab29c" class="room indoor" data-label="gymnasium" x="97" y="468" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="101,469 103.5,472 101,475 98.5,472"/>
     <rect id="room-ab468a4a0ae73109808802732b27d0beb206dfed" class="room indoor" data-label="cellar" x="109" y="480" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="113,481 110.5,486 115.5,486"/>
     <circle id="room-f5f579d64ca5fdef3ca76d33a9b287d9161a6034" class="room outdoor" data-label="majestic courtyard" cx="76" cy="390" r="4"/><polygon class="stair-symbol" points="76,393 73.5,388 78.5,388"/>
-    <rect id="room-b4321bd59ef87685459110db6d4ff72352e8d0ae" class="room indoor room-shop" data-label="legibles alcove" x="112" y="386" width="8" height="8" rx="2"/><text class="room-type-label" x="116" y="390" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-b4321bd59ef87685459110db6d4ff72352e8d0ae" class="room indoor room-shop" data-label="legibles alcove" x="112" y="386" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="116" y="390" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-95d7631eb376f923076cf3c9dc820061e954df82" class="room indoor" data-label="wizards&#x27; billiards room" x="72" y="366" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="76,367 73.5,372 78.5,372"/>
     <rect id="room-4702b88982ad53aa52b36605181801ef997bfa9d" class="room indoor" data-label="upstairs billiards room" x="72" y="346" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="76,353 73.5,348 78.5,348"/>
-    <rect id="room-5e5eba8206168b42adecb2b5ee800243e70dbe46" class="room indoor room-clothes" data-label="stylish alcove" x="32" y="386" width="8" height="8" rx="2"/><text class="room-type-label" x="36" y="390" text-anchor="middle" dominant-baseline="central">C</text>
+    <rect id="room-5e5eba8206168b42adecb2b5ee800243e70dbe46" class="room indoor room-clothes" data-label="stylish alcove" x="32" y="386" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="36" y="390" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-7ace1dc7b16b100c01edade4d305f469f15f4056" class="room indoor" data-label="hidden alcove" x="12" y="386" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="16,387 13.5,392 18.5,392"/>
     <rect id="room-ba00570d0ec1d90e155851d7e607b49ec37a8b3c" class="room indoor" data-label="hidden alcove" x="0" y="374" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="4,381 1.5,376 6.5,376"/>
     <rect id="room-a9e4e82da06cb3b8a2d196bc21a170f5d6dcfe2f" class="room indoor" data-label="arena alcove" x="31" y="427" width="8" height="8" rx="2"/>
-    <rect id="room-fa2f98e2aa25f7c035762b1ab73442422cb0477d" class="room indoor room-shop" data-label="sticky alcove" x="113" y="427" width="8" height="8" rx="2"/><text class="room-type-label" x="117" y="431" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-fa2f98e2aa25f7c035762b1ab73442422cb0477d" class="room indoor room-shop" data-label="sticky alcove" x="113" y="427" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="117" y="431" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-7690fa46d43f18eb41d5054f57c9efdcd35d261a" class="room indoor" data-label="candied kitchen" x="113" y="447" width="8" height="8" rx="2"/>
     <rect id="room-409d2a664c9edba80a9a16ea1f06432d21fdf1bf" class="room indoor" data-label="mysterious alcove" x="72" y="427" width="8" height="8" rx="2"/>
-    <rect id="room-d7771ac3fe2f8b7761e5c61c56c2cbead72130cc" class="room indoor room-food" data-label="The Exclusive Lounge of the Venerable Ancestors" x="113" y="345" width="8" height="8" rx="2"/><text class="room-type-label" x="117" y="349" text-anchor="middle" dominant-baseline="central">F</text>
-    <rect id="room-b23a5ff18d1c813c126edff440b3a97ceeba9ef9" class="room indoor room-food" data-label="The Exclusive Lounge of Reckless Encouragement" x="31" y="345" width="8" height="8" rx="2"/><text class="room-type-label" x="35" y="349" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-d7771ac3fe2f8b7761e5c61c56c2cbead72130cc" class="room indoor room-food" data-label="The Exclusive Lounge of the Venerable Ancestors" x="113" y="345" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="117" y="349" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-b23a5ff18d1c813c126edff440b3a97ceeba9ef9" class="room indoor room-food" data-label="The Exclusive Lounge of Reckless Encouragement" x="31" y="345" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="35" y="349" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-39478da1c518453511f359c9f580e654e43dc7fb" class="room indoor" data-label="Library" x="145" y="513" width="8" height="8" rx="2"/>
     <rect id="room-bd54fe8c123dc7a4cbf309dc58fd9c04c5d7c75b" class="room indoor" data-label="Library" x="145" y="493" width="8" height="8" rx="2"/>
     <rect id="room-6d0c96dae65c23baae046d441e0de53764c40bda" class="room indoor" data-label="Library" x="165" y="493" width="8" height="8" rx="2"/>
@@ -303,7 +303,7 @@
     <rect id="room-228036866bbd7da066bae0568dd4deea68558420" class="room indoor" data-label="Library" x="173" y="230" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="177,231 174.5,236 179.5,236"/>
     <rect id="room-52386e06ab24a5c7af7f4b86d85a04fad4007f80" class="room indoor" data-label="Library" x="159" y="230" width="8" height="8" rx="2"/>
     <rect id="room-48948f2bf81f42b8e37740ad6e0f9e0bfb3021c9" class="room indoor" data-label="Library" x="159" y="244" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="163,245 160.5,250 165.5,250"/>
-    <rect id="room-515dd20566044476ec38c5fa95388440742ff75d" class="room indoor room-food" data-label="small hobble" x="129" y="480" width="8" height="8" rx="2"/><text class="room-type-label" x="133" y="484" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-515dd20566044476ec38c5fa95388440742ff75d" class="room indoor room-food" data-label="small hobble" x="129" y="480" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="133" y="484" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-3b59d41317cc50934698326b654ac5234cc5dfd3" class="room outdoor" data-label="under the willow" cx="175" cy="425" r="4"/>
     <circle id="room-ac04e9957c65a5c6d9fce94077efbd2153a1d625" class="room outdoor green" data-label="willow tree" cx="175" cy="394" r="4"/>
     <circle id="room-ab4848fcebf7952dea5e2edcf3f8b98fed407db1" class="room outdoor green" data-label="willow tree" cx="175" cy="381" r="4"/>
@@ -387,7 +387,7 @@
     <circle id="room-c9591dd1784519d1f01aa063306aafdfb060cdc5" class="room outdoor green" data-label="willow tree" cx="188" cy="394" r="4"/>
     <circle id="room-f7700b92a2faf433ea50a55460d9145f6edc47ed" class="room outdoor green" data-label="willow tree" cx="188" cy="381" r="4"/>
     <rect id="room-591c4cf27e093bff883704640edc6601b6984d6c" class="room indoor" data-label="arcane lounge" x="26" y="303" width="8" height="8" rx="2"/>
-    <rect id="room-16e11b4fb6d6e383e5f78e47dfa36dfe8982f2e4" class="room indoor room-shop" data-label="small apothecary" x="26" y="287" width="8" height="8" rx="2"/><text class="room-type-label" x="30" y="291" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-16e11b4fb6d6e383e5f78e47dfa36dfe8982f2e4" class="room indoor room-shop" data-label="small apothecary" x="26" y="287" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="30" y="291" text-anchor="middle" dominant-baseline="central">S</text>
   </g>
 
 

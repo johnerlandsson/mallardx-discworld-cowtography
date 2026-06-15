@@ -699,7 +699,7 @@
     <rect id="room-d95aab1a44dc6be7c96ee215a84575f170a59aac" class="room indoor" data-label="dusty reception room" x="136" y="139" width="8" height="8" rx="2"/>
     <rect id="room-d335c839b34e339b90ac46545433346e652cf329" class="room indoor" data-label="ground floor hallway outside two rooms" x="122" y="125" width="8" height="8" rx="2"/>
     <rect id="room-e72d938554eff8726191a2d4439caf01f8a390b1" class="room indoor" data-label="family tea room" x="136" y="125" width="8" height="8" rx="2"/>
-    <rect id="room-731b23204f4cfa4e0345a634d84944b22e8bbef1" class="room indoor room-food" data-label="furniture repair room" x="108" y="125" width="8" height="8" rx="2"/><text class="room-type-label" x="112" y="129" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-731b23204f4cfa4e0345a634d84944b22e8bbef1" class="room indoor room-food" data-label="furniture repair room" x="108" y="125" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="112" y="129" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-2d1dd2f54ea6f466424864d1a533998c434c5fdb" class="room indoor" data-label="hallway outside the dining room" x="122" y="111" width="8" height="8" rx="2"/>
     <rect id="room-5eb82ed4bccaa1352b0a2ba3965dce358721cbba" class="room indoor" data-label="political planning room" x="136" y="111" width="8" height="8" rx="2"/>
     <rect id="room-97a5395a24a412980bc923ca71351fd2b3084760" class="room indoor" data-label="financial records room" x="108" y="111" width="8" height="8" rx="2"/>
@@ -764,7 +764,7 @@
     <rect id="room-eff2d9b8565a66a740b0bfb42ab13490bd3a928d" class="room indoor" data-label="conservatory" x="895" y="489" width="8" height="8" rx="2"/>
     <rect id="room-8755a9ed5ab3505677246f0674bd2536cf0ad18e" class="room indoor" data-label="conservatory" x="895" y="475" width="8" height="8" rx="2"/>
     <rect id="room-c541919c446aff2eeb9a6a900b4055f9a1a20ac4" class="room indoor" data-label="distillery" x="895" y="461" width="8" height="8" rx="2"/>
-    <rect id="room-c4fd237c530cb85ca41ed5e188531437c158c922" class="room indoor room-shop" data-label="conservatory" x="881" y="475" width="8" height="8" rx="2"/><text class="room-type-label" x="885" y="479" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-c4fd237c530cb85ca41ed5e188531437c158c922" class="room indoor room-shop" data-label="conservatory" x="881" y="475" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="885" y="479" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-4d2f53fbc403425c0d51563a7c696345a02cf0f8" class="room outdoor green" data-label="path around the yard" cx="913" cy="507" r="4"/>
     <circle id="room-33b2a6078f990104af0f1f1ebc24dea0cdfd0521" class="room outdoor green" data-label="stable yard" cx="927" cy="507" r="4"/>
     <rect id="room-2f7ee212728f5085ee8568f7b4520bfd50a96d4d" class="room indoor" data-label="carriage shed" x="923" y="489" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="927,490 924.5,495 929.5,495"/>

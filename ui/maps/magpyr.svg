@@ -178,7 +178,7 @@
     <circle id="room-21cf528dbf6a4850b6f877830c307d8527da54ba" class="room outdoor" data-label="southwest corner of the courtyard" cx="81" cy="440" r="4"/>
     <rect id="room-563645554765f3ddaf18a2741613dda61edf8f31" class="room indoor" data-label="carriage house" x="57" y="416" width="8" height="8" rx="2"/>
     <circle id="room-7d39bfff35b24a70bdf27f375bba5c09b21ea55c" class="room outdoor" data-label="path to some rose bushes" cx="61" cy="440" r="4"/>
-    <circle id="room-17be16ca2e2e33c8db6ade98e9263b40987d4db5" class="room outdoor room-shop" data-label="among some rose bushes" cx="41" cy="440" r="4"/><text class="room-type-label" x="41" y="440" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-17be16ca2e2e33c8db6ade98e9263b40987d4db5" class="room outdoor room-shop" data-label="among some rose bushes" cx="41" cy="440" r="4"/><text class="room-type-label" font-size="4.5" x="41" y="440" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-9eed234857e3c8e62cfec97a0eb725203c4f6153" class="room indoor" data-label="stable" x="97" y="396" width="8" height="8" rx="2"/>
     <rect id="room-93314312afde355f40e0e3a4fa62c13eddfdd372" class="room indoor" data-label="horse stall" x="77" y="396" width="8" height="8" rx="2"/>
     <rect id="room-be3a22be2e2490115b60b31293e68282740d4df2" class="room indoor" data-label="horse stall" x="117" y="396" width="8" height="8" rx="2"/>

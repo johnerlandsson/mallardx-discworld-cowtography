@@ -122,7 +122,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
   </g>
   <g
      id="layer-rooms">
-    <rect id="room-109a9d6ff64b288e95580099e5b72864d67e4d33" class="room indoor room-mission" data-label="dead letter office" x="95" y="121" width="8" height="8" rx="2"/><text class="room-type-label" x="99" y="125" text-anchor="middle" dominant-baseline="central">!</text>
+    <rect id="room-109a9d6ff64b288e95580099e5b72864d67e4d33" class="room indoor room-mission" data-label="dead letter office" x="95" y="121" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="99" y="125" text-anchor="middle" dominant-baseline="central">!</text>
     <rect id="room-7ffffd3d3fe831f21a6bf987d4aba52999d1afc9" class="room indoor" data-label="pigeon loft" x="402" y="106" width="8" height="8" rx="2"/>
     <circle id="room-67346fb963c7ad32b34357bd5c62bc91bd662fe7" class="room outdoor" data-label="western edge of the Post Office roof" cx="378" cy="110" r="4"/>
     <circle id="room-2d2c2d482d876ce918d14fa07f42f5c9fb775082" class="room outdoor" data-label="northern edge of the Post Office roof" cx="378" cy="82" r="4"/>
@@ -140,10 +140,10 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-ba06c032561d5c3ec757b46a1d44e6e291ef3e59" class="room indoor" data-label="postman&#x27;s lounge" x="187" y="243" width="8" height="8" rx="2"/>
     <rect id="room-7df582f4aa03842d6ce1fad3fbff80e3fbe9a6ac" class="room indoor" data-label="Chief Postal Inspector&#x27;s office" x="159" y="243" width="8" height="8" rx="2"/>
     <rect id="room-38d21fc4cbd7a9b5b0df8228617638a1781efac0" class="room indoor" data-label="bottom of an impressive staircase" x="95" y="65" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="99,66 96.5,71 101.5,71"/>
-    <rect id="room-75bcf14a479c43eda830a8e57d61a7ec2c4f5d52" class="room indoor room-post" data-label="northwest corner of the grand hall" x="123" y="65" width="8" height="8" rx="2"/><text class="room-type-label" x="127" y="69" text-anchor="middle" dominant-baseline="central">O</text>
+    <rect id="room-75bcf14a479c43eda830a8e57d61a7ec2c4f5d52" class="room indoor room-post" data-label="northwest corner of the grand hall" x="123" y="65" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="127" y="69" text-anchor="middle" dominant-baseline="central">O</text>
     <rect id="room-bd0e4420d659d994ea286a1e3f12097dd4f5c370" class="room indoor" data-label="northeast corner of the grand hall" x="151" y="65" width="8" height="8" rx="2"/>
     <rect id="room-40d25e102c1f4089b2b048212a758e5ffacd2c7e" class="room indoor" data-label="southwest corner of the grand hall" x="123" y="93" width="8" height="8" rx="2"/>
-    <rect id="room-1ea6d7dfea9fa753846a8213e787d6404717229d" class="room indoor room-post" data-label="southeast corner of the grand hall" x="151" y="93" width="8" height="8" rx="2"/><text class="room-type-label" x="155" y="97" text-anchor="middle" dominant-baseline="central">O</text>
+    <rect id="room-1ea6d7dfea9fa753846a8213e787d6404717229d" class="room indoor room-post" data-label="southeast corner of the grand hall" x="151" y="93" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="155" y="97" text-anchor="middle" dominant-baseline="central">O</text>
     <rect id="room-f55af845d43f801a8eb7d8f6b753cf52e8fb2118" class="room indoor" data-label="short corridor" x="151" y="121" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="155,128 152.5,123 157.5,123"/>
     <rect id="room-ccf7a95fa6cd3e8593c6efe9c19a2f0247fe4014" class="room indoor" data-label="sorting room" x="123" y="121" width="8" height="8" rx="2"/>
     <circle id="room-b8432006b9acbf9a42ec721cda4561d1364b2e89" class="room outdoor" data-label="east side of the coachyard" cx="99" cy="97" r="4"/>

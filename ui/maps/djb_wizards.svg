@@ -78,7 +78,7 @@
     <circle id="room-748afe8a6526624ac99036e9049a27341a6beee0" class="room outdoor" data-label="eastern end of the courtyard of the Djelibeybi Institute of Illusory Learning" cx="211" cy="210" r="4"/>
     <circle id="room-97e5b3787355ec5d317caa7baf7777e9cb5f3fbc" class="room outdoor" data-label="southern courtyard of the Djelibeybi Institute of Illusory Learning" cx="210" cy="238" r="4"/>
     <circle id="room-850fd55fe8593021a21a9980163484928a1f7506" class="room outdoor" data-label="practice yard of the Institute of Illusory Learning" cx="238" cy="238" r="4"/>
-    <rect id="room-edb30535c8583fc2ca0f110b21d06cf6be482057" class="room indoor room-shop" data-label="Mit-sin-bibh-khot&#x27;s world of rare reagents" x="178" y="262" width="8" height="8" rx="2"/><text class="room-type-label" x="182" y="266" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-edb30535c8583fc2ca0f110b21d06cf6be482057" class="room indoor room-shop" data-label="Mit-sin-bibh-khot&#x27;s world of rare reagents" x="178" y="262" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="182" y="266" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-f158accb66c34588600d2d3addc7f61726ea8cd1" class="room indoor" data-label=" entrance to Tse-Tse Hall" x="207" y="262" width="8" height="8" rx="2"/>
     <rect id="room-58d7482ede60c1a2110683ca788f7434d5a036f1" class="room indoor" data-label="corridor in Tse-Tse Hall" x="207" y="290" width="8" height="8" rx="2"/>
     <rect id="room-1f40049d132c46cc919e11e8eb22d91a00f6884c" class="room indoor" data-label="Fire and Ice" x="234" y="290" width="8" height="8" rx="2"/>
@@ -110,7 +110,7 @@
     <rect id="room-eee65b4e1a5d7eb7c57604bbc9f0a5df4d3a46e6" class="room indoor" data-label="centre of the corridor" x="347" y="94" width="8" height="8" rx="2"/>
     <rect id="room-224fa34324653a0d1c554b8623cb3a09f5944e8d" class="room indoor" data-label="western end of the corridor" x="319" y="94" width="8" height="8" rx="2"/>
     <rect id="room-b6bae626da870f9355f322beeaafaaaa9f47c1e9" class="room indoor" data-label="Diplomat&#x27;s Lounge" x="346" y="121" width="8" height="8" rx="2"/>
-    <rect id="room-cc9c901fb68ee8c8657a76e606984dc785276cb7" class="room indoor room-shop" data-label="Diplomat&#x27;s bar" x="346" y="149" width="8" height="8" rx="2"/><text class="room-type-label" x="350" y="153" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-cc9c901fb68ee8c8657a76e606984dc785276cb7" class="room indoor room-shop" data-label="Diplomat&#x27;s bar" x="346" y="149" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="350" y="153" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-39fdc8dc369f658a21c120f6a2a3695fb701343a" class="room indoor" data-label="somewhere in the library of the Djelibeybi Institute of Illusory Learning" x="207" y="178" width="8" height="8" rx="2"/>
     <rect id="room-8faad278582f0b0444c34c840501c40fbfc32638" class="room indoor" data-label="somewhere in the library of the Djelibeybi Institute of Illusory Learning" x="235" y="178" width="8" height="8" rx="2"/>
     <rect id="room-00ff8549e78f531f64c044f9556453700ebc2023" class="room indoor" data-label="somewhere in the library of the Djelibeybi Institute of Illusory Learning" x="263" y="178" width="8" height="8" rx="2"/>
@@ -127,7 +127,7 @@
     <rect id="room-73a8844969bc4b9810bbefd64e5158f11005992c" class="room indoor" data-label="somewhere in the library of the Djelibeybi Institute of Illusory Learning" x="151" y="178" width="8" height="8" rx="2"/>
     <rect id="room-c86207967557b1874fa06d92cead44261d97e166" class="room indoor" data-label="somewhere in the library of the Djelibeybi Institute of Illusory Learning" x="179" y="178" width="8" height="8" rx="2"/>
     <rect id="room-8eeefbc68d10a9eba49845ef6f1a20e3992991a8" class="room indoor" data-label="small wooden stairway" x="346" y="318" width="8" height="8" rx="2"/>
-    <rect id="room-6d88dbdd38a22f8e4a6e876d9b68c15f97bcc3e5" class="room indoor room-clothes" data-label=" north end of the guild room of The Ancient Order of the Incarnation of the Dynastic Crescent" x="318" y="37" width="8" height="8" rx="2"/><text class="room-type-label" x="322" y="41" text-anchor="middle" dominant-baseline="central">C</text>
+    <rect id="room-6d88dbdd38a22f8e4a6e876d9b68c15f97bcc3e5" class="room indoor room-clothes" data-label=" north end of the guild room of The Ancient Order of the Incarnation of the Dynastic Crescent" x="318" y="37" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="322" y="41" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-eec5da7a937fc3680e02783630321df2a7b35fc9" class="room indoor" data-label="guild room of The Ancient Order of the Incarnation of the Dynastic Crescent" x="318" y="65" width="8" height="8" rx="2"/>
   </g>
 

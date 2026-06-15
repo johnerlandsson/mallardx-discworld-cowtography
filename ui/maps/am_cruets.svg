@@ -137,11 +137,11 @@
     <rect id="room-7f6c0d8df48ddce6faf20c1e4c4494daa1cfbe36" class="room indoor" data-label="kitchen" x="197" y="90" width="8" height="8" rx="2"/>
     <rect id="room-d20ff7e5869be751978ec4f41b39308f5d310cad" class="room indoor" data-label="study" x="173" y="90" width="8" height="8" rx="2"/>
     <rect id="room-532d0785b0e4ac1d41e5c3c344b70cb237bb2510" class="room indoor" data-label="hallway" x="427" y="65" width="8" height="8" rx="2"/>
-    <rect id="room-e0001bee5cde40fdca2683c133d9d7345baef78f" class="room indoor room-house" data-label="[player house]" x="427" y="65" width="8" height="8" rx="2"/><text class="room-type-label" x="431" y="69" text-anchor="middle" dominant-baseline="central">H</text>
-    <rect id="room-521191359a7b8a5334c0b0829a71e6f793c5458b" class="room indoor room-house" data-label="[player house]" x="427" y="65" width="8" height="8" rx="2"/><text class="room-type-label" x="431" y="69" text-anchor="middle" dominant-baseline="central">H</text>
-    <rect id="room-741896c9bf809ac8bc227ca8359fcc7e573bb19e" class="room indoor room-house" data-label="[player house]" x="427" y="65" width="8" height="8" rx="2"/><text class="room-type-label" x="431" y="69" text-anchor="middle" dominant-baseline="central">H</text>
-    <rect id="room-b528b2f6c2e372854ac78f505fcd07d55fa4fd67" class="room indoor room-house" data-label="[player house]" x="427" y="65" width="8" height="8" rx="2"/><text class="room-type-label" x="431" y="69" text-anchor="middle" dominant-baseline="central">H</text>
-    <rect id="room-950d9b8b10eea96a2996376cadb33add1ebfa898" class="room indoor room-house" data-label="[player house]" x="427" y="65" width="8" height="8" rx="2"/><text class="room-type-label" x="431" y="69" text-anchor="middle" dominant-baseline="central">H</text>
+    <rect id="room-e0001bee5cde40fdca2683c133d9d7345baef78f" class="room indoor room-house" data-label="[player house]" x="427" y="65" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="431" y="69" text-anchor="middle" dominant-baseline="central">H</text>
+    <rect id="room-521191359a7b8a5334c0b0829a71e6f793c5458b" class="room indoor room-house" data-label="[player house]" x="427" y="65" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="431" y="69" text-anchor="middle" dominant-baseline="central">H</text>
+    <rect id="room-741896c9bf809ac8bc227ca8359fcc7e573bb19e" class="room indoor room-house" data-label="[player house]" x="427" y="65" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="431" y="69" text-anchor="middle" dominant-baseline="central">H</text>
+    <rect id="room-b528b2f6c2e372854ac78f505fcd07d55fa4fd67" class="room indoor room-house" data-label="[player house]" x="427" y="65" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="431" y="69" text-anchor="middle" dominant-baseline="central">H</text>
+    <rect id="room-950d9b8b10eea96a2996376cadb33add1ebfa898" class="room indoor room-house" data-label="[player house]" x="427" y="65" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="431" y="69" text-anchor="middle" dominant-baseline="central">H</text>
   </g>
 
 
