@@ -1,91 +1,660 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 243 322"
-     class="map-svg"
-     data-map-id="44">
-
-  <g id="layer-artwork"><!-- artwork --></g>
-
-  <g id="layer-exits">
-    <line id="edge-3418fdc0ff5a89484a3f7fcd7b07060150a071ac-ab65749bc71efdbb979b04ba3d853a2810fea296" class="exit" x1="113" y1="168" x2="113" y2="182"/>
-    <line id="edge-8b9bb1fcf3e1e71314a1fd59efbdc52b85183d4b-ab65749bc71efdbb979b04ba3d853a2810fea296" class="exit" x1="127" y1="182" x2="113" y2="182"/>
-    <line id="edge-3418fdc0ff5a89484a3f7fcd7b07060150a071ac-5167ce7273e77f9ce1473852cd2e582cc47f7123" class="exit" x1="113" y1="168" x2="113" y2="154"/>
-    <line id="edge-3418fdc0ff5a89484a3f7fcd7b07060150a071ac-6aefdeae01a060f142c0ca09cceba81963d58f48" class="exit" x1="113" y1="168" x2="127" y2="154"/>
-    <line id="edge-8b9bb1fcf3e1e71314a1fd59efbdc52b85183d4b-ffef2d80417f6a8893ebe62caab979a50d4c7b42" class="exit" x1="127" y1="182" x2="141" y2="196"/>
-    <line id="edge-6aefdeae01a060f142c0ca09cceba81963d58f48-89a1a32eff14059077966c99916b37626eef6024" class="exit" x1="127" y1="154" x2="127" y2="140"/>
-    <line id="edge-89a1a32eff14059077966c99916b37626eef6024-c314088c88b160b90281881484f3ea18a9b93e7a" class="exit" x1="127" y1="140" x2="141" y2="126"/>
-    <line id="edge-439dabe0e0a56582476a75beac88169750f72b4e-c314088c88b160b90281881484f3ea18a9b93e7a" class="exit" x1="155" y1="126" x2="141" y2="126"/>
-    <line id="edge-439dabe0e0a56582476a75beac88169750f72b4e-9679e7e1da18fd0039f8aba75f817a1dee623af2" class="exit" x1="155" y1="126" x2="169" y2="112"/>
-    <line id="edge-89fb0ca2659585c675cfa44feec5da3e8029044b-9679e7e1da18fd0039f8aba75f817a1dee623af2" class="exit" x1="155" y1="98" x2="169" y2="112"/>
-    <line id="edge-10a91ce78d6834ffb9a322080cacf7884a73c83c-89fb0ca2659585c675cfa44feec5da3e8029044b" class="exit" x1="141" y1="98" x2="155" y2="98"/>
-    <line id="edge-10a91ce78d6834ffb9a322080cacf7884a73c83c-2d4e7ff1de758950fdf0f1f4a74c14694db7d096" class="exit" x1="141" y1="98" x2="127" y2="98"/>
-    <line id="edge-10a91ce78d6834ffb9a322080cacf7884a73c83c-9e6c6997536e2117b70db844284e939eeaefc988" class="exit" x1="141" y1="98" x2="141" y2="84"/>
-    <line id="edge-2d4e7ff1de758950fdf0f1f4a74c14694db7d096-57ac117e907fcf4cecbc351e99f7ea45342c3d09" class="exit" x1="127" y1="98" x2="113" y2="112"/>
-    <line id="edge-57ac117e907fcf4cecbc351e99f7ea45342c3d09-ab608012464d8dc209fdcbd22f107c8fcba7ec83" class="exit" x1="113" y1="112" x2="99" y2="112"/>
-    <line id="edge-43457c2d2d116c6578b4330c9570dacbe8664da5-ab608012464d8dc209fdcbd22f107c8fcba7ec83" class="exit" x1="99" y1="126" x2="99" y2="112"/>
-    <line id="edge-ab608012464d8dc209fdcbd22f107c8fcba7ec83-b86381285fa32c38cf07d2c64140caaef08369b7" class="exit" x1="99" y1="112" x2="85" y2="112"/>
-    <line id="edge-99ec4f44362a8697ccb6cc6e43f5dca56f3e348a-b86381285fa32c38cf07d2c64140caaef08369b7" class="exit" x1="71" y1="98" x2="85" y2="112"/>
-    <line id="edge-6b64a3ef89c2144922e37916416b6a79d0ed5b3e-9e6c6997536e2117b70db844284e939eeaefc988" class="exit" x1="155" y1="70" x2="141" y2="84"/>
-    <line id="edge-6b64a3ef89c2144922e37916416b6a79d0ed5b3e-e30ac54ea1fe373c4eba7db603b292d37ac2c095" class="exit" x1="155" y1="70" x2="155" y2="56"/>
-    <line id="edge-da3b05c5e2efc374949c4e113f1131dd90486c06-e30ac54ea1fe373c4eba7db603b292d37ac2c095" class="exit" x1="141" y1="42" x2="155" y2="56"/>
-    <line id="edge-44f6636095ef0a417c8fabdee23618ab4b5e1321-da3b05c5e2efc374949c4e113f1131dd90486c06" class="exit" x1="141" y1="28" x2="141" y2="42"/>
-    <line id="edge-44f6636095ef0a417c8fabdee23618ab4b5e1321-c803eef33361e82d7a7dc6c6449d6ba8f8473e34" class="exit" x1="141" y1="28" x2="127" y2="14"/>
-    <line id="edge-75011868b7acf25aa617f97bbd0e5a959df76d49-c803eef33361e82d7a7dc6c6449d6ba8f8473e34" class="exit" x1="113" y1="28" x2="127" y2="14"/>
-    <line id="edge-75011868b7acf25aa617f97bbd0e5a959df76d49-8209708bfd2f74a468180ed2b6b52cd1fc11ac08" class="exit" x1="113" y1="28" x2="113" y2="42"/>
-    <line id="edge-8209708bfd2f74a468180ed2b6b52cd1fc11ac08-bd1e1df4fae5b029c151f89008238de38a765796" class="exit" x1="113" y1="42" x2="99" y2="56"/>
-    <line id="edge-224e26e08b3cdbddee6668f4a351a0a544536fea-bd1e1df4fae5b029c151f89008238de38a765796" class="exit" x1="85" y1="56" x2="99" y2="56"/>
-    <line id="edge-224e26e08b3cdbddee6668f4a351a0a544536fea-a496f31c17437de70c1dd1065daedb4114b620f2" class="exit" x1="85" y1="56" x2="71" y2="70"/>
-    <line id="edge-a496f31c17437de70c1dd1065daedb4114b620f2-bfbede5a179f2b80c2a04c4710618313a5e61e4e" class="exit" x1="71" y1="70" x2="71" y2="84"/>
-    <line id="edge-99ec4f44362a8697ccb6cc6e43f5dca56f3e348a-bfbede5a179f2b80c2a04c4710618313a5e61e4e" class="exit" x1="71" y1="98" x2="71" y2="84"/>
-    <line id="edge-43457c2d2d116c6578b4330c9570dacbe8664da5-68c587b5b5cc8a5109c19490d0de898e43b84274" class="exit" x1="99" y1="126" x2="99" y2="140"/>
-    <line id="edge-5167ce7273e77f9ce1473852cd2e582cc47f7123-68c587b5b5cc8a5109c19490d0de898e43b84274" class="exit" x1="113" y1="154" x2="99" y2="140"/>
-    <line id="edge-714493872f4f3bc3bfcee689a7b965c55b640076-ffef2d80417f6a8893ebe62caab979a50d4c7b42" class="exit" x1="127" y1="210" x2="141" y2="196"/>
-    <line id="edge-714493872f4f3bc3bfcee689a7b965c55b640076-fcfd3d34a714739bbc0864caf15325302d6398d1" class="exit" x1="127" y1="210" x2="141" y2="210"/>
-    <line id="edge-1c62e0cef7ba62e3bdf824ba74211289ad05bfc6-fcfd3d34a714739bbc0864caf15325302d6398d1" class="exit" x1="141" y1="224" x2="141" y2="210"/>
-    <line id="edge-1c62e0cef7ba62e3bdf824ba74211289ad05bfc6-f1283a40b1c1dafcb40d0f857a72da80d8063984" class="exit" x1="141" y1="224" x2="155" y2="238"/>
-    <line id="edge-a6b70b577ab148a7dbab8f5a3fbda797cdd22bda-f1283a40b1c1dafcb40d0f857a72da80d8063984" class="exit" x1="169" y1="252" x2="155" y2="238"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 243 322"
+   class="map-svg"
+   data-map-id="44"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="sprite_caves.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <style id="inkscape-font-fix">
+text, .map-label, .map-label-muted, .map-label-accent,
+.lib-table, .lib-gap-label, .lib-book-label,
+.lib-row-num, .lib-book-list, .room-type-label {
+  font-family: "Noto Sans", sans-serif;
+}
+</style>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.484472"
+     inkscape:cx="99.4175"
+     inkscape:cy="179.9175"
+     inkscape:window-width="1968"
+     inkscape:window-height="1011"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1" />
+  <g
+     id="layer-artwork">
+    <!-- artwork -->
   </g>
-
-  <g id="layer-rooms">
-    <rect id="room-ab65749bc71efdbb979b04ba3d853a2810fea296" class="room indoor" data-label="underground cavern" x="109" y="178" width="8" height="8" rx="2"/>
-    <rect id="room-3418fdc0ff5a89484a3f7fcd7b07060150a071ac" class="room indoor" data-label="underground tunnel" x="109" y="164" width="8" height="8" rx="2"/>
-    <rect id="room-8b9bb1fcf3e1e71314a1fd59efbdc52b85183d4b" class="room indoor" data-label="underground tunnel" x="123" y="178" width="8" height="8" rx="2"/>
-    <rect id="room-6aefdeae01a060f142c0ca09cceba81963d58f48" class="room indoor" data-label="underground tunnel" x="123" y="150" width="8" height="8" rx="2"/>
-    <rect id="room-89a1a32eff14059077966c99916b37626eef6024" class="room indoor" data-label="underground tunnel" x="123" y="136" width="8" height="8" rx="2"/>
-    <rect id="room-c314088c88b160b90281881484f3ea18a9b93e7a" class="room indoor" data-label="underground tunnel" x="137" y="122" width="8" height="8" rx="2"/>
-    <rect id="room-439dabe0e0a56582476a75beac88169750f72b4e" class="room indoor" data-label="underground tunnel" x="151" y="122" width="8" height="8" rx="2"/>
-    <rect id="room-9679e7e1da18fd0039f8aba75f817a1dee623af2" class="room indoor" data-label="underground tunnel" x="165" y="108" width="8" height="8" rx="2"/>
-    <rect id="room-89fb0ca2659585c675cfa44feec5da3e8029044b" class="room indoor" data-label="underground tunnel" x="151" y="94" width="8" height="8" rx="2"/>
-    <rect id="room-10a91ce78d6834ffb9a322080cacf7884a73c83c" class="room indoor" data-label="underground tunnel" x="137" y="94" width="8" height="8" rx="2"/>
-    <rect id="room-2d4e7ff1de758950fdf0f1f4a74c14694db7d096" class="room indoor" data-label="underground tunnel" x="123" y="94" width="8" height="8" rx="2"/>
-    <rect id="room-57ac117e907fcf4cecbc351e99f7ea45342c3d09" class="room indoor" data-label="underground tunnel" x="109" y="108" width="8" height="8" rx="2"/>
-    <rect id="room-ab608012464d8dc209fdcbd22f107c8fcba7ec83" class="room indoor" data-label="underground tunnel" x="95" y="108" width="8" height="8" rx="2"/>
-    <rect id="room-b86381285fa32c38cf07d2c64140caaef08369b7" class="room indoor" data-label="underground tunnel" x="81" y="108" width="8" height="8" rx="2"/>
-    <rect id="room-9e6c6997536e2117b70db844284e939eeaefc988" class="room indoor" data-label="underground tunnel" x="137" y="80" width="8" height="8" rx="2"/>
-    <rect id="room-6b64a3ef89c2144922e37916416b6a79d0ed5b3e" class="room indoor" data-label="underground tunnel" x="151" y="66" width="8" height="8" rx="2"/>
-    <rect id="room-e30ac54ea1fe373c4eba7db603b292d37ac2c095" class="room indoor" data-label="underground tunnel" x="151" y="52" width="8" height="8" rx="2"/>
-    <rect id="room-da3b05c5e2efc374949c4e113f1131dd90486c06" class="room indoor" data-label="underground tunnel" x="137" y="38" width="8" height="8" rx="2"/>
-    <rect id="room-44f6636095ef0a417c8fabdee23618ab4b5e1321" class="room indoor" data-label="underground tunnel" x="137" y="24" width="8" height="8" rx="2"/>
-    <rect id="room-c803eef33361e82d7a7dc6c6449d6ba8f8473e34" class="room indoor" data-label="underground tunnel" x="123" y="10" width="8" height="8" rx="2"/>
-    <rect id="room-75011868b7acf25aa617f97bbd0e5a959df76d49" class="room indoor" data-label="underground tunnel" x="109" y="24" width="8" height="8" rx="2"/>
-    <rect id="room-8209708bfd2f74a468180ed2b6b52cd1fc11ac08" class="room indoor" data-label="underground tunnel" x="109" y="38" width="8" height="8" rx="2"/>
-    <rect id="room-bd1e1df4fae5b029c151f89008238de38a765796" class="room indoor" data-label="underground tunnel" x="95" y="52" width="8" height="8" rx="2"/>
-    <rect id="room-224e26e08b3cdbddee6668f4a351a0a544536fea" class="room indoor" data-label="underground tunnel" x="81" y="52" width="8" height="8" rx="2"/>
-    <rect id="room-a496f31c17437de70c1dd1065daedb4114b620f2" class="room indoor" data-label="underground tunnel" x="67" y="66" width="8" height="8" rx="2"/>
-    <rect id="room-bfbede5a179f2b80c2a04c4710618313a5e61e4e" class="room indoor" data-label="underground tunnel" x="67" y="80" width="8" height="8" rx="2"/>
-    <rect id="room-99ec4f44362a8697ccb6cc6e43f5dca56f3e348a" class="room indoor" data-label="underground tunnel" x="67" y="94" width="8" height="8" rx="2"/>
-    <rect id="room-43457c2d2d116c6578b4330c9570dacbe8664da5" class="room indoor" data-label="underground tunnel" x="95" y="122" width="8" height="8" rx="2"/>
-    <rect id="room-68c587b5b5cc8a5109c19490d0de898e43b84274" class="room indoor" data-label="underground tunnel" x="95" y="136" width="8" height="8" rx="2"/>
-    <rect id="room-5167ce7273e77f9ce1473852cd2e582cc47f7123" class="room indoor" data-label="underground tunnel" x="109" y="150" width="8" height="8" rx="2"/>
-    <rect id="room-ffef2d80417f6a8893ebe62caab979a50d4c7b42" class="room indoor" data-label="underground tunnel" x="137" y="192" width="8" height="8" rx="2"/>
-    <rect id="room-714493872f4f3bc3bfcee689a7b965c55b640076" class="room indoor" data-label="underground tunnel" x="123" y="206" width="8" height="8" rx="2"/>
-    <rect id="room-fcfd3d34a714739bbc0864caf15325302d6398d1" class="room indoor" data-label="underground tunnel" x="137" y="206" width="8" height="8" rx="2"/>
-    <rect id="room-1c62e0cef7ba62e3bdf824ba74211289ad05bfc6" class="room indoor" data-label="underground tunnel" x="137" y="220" width="8" height="8" rx="2"/>
-    <rect id="room-f1283a40b1c1dafcb40d0f857a72da80d8063984" class="room indoor" data-label="underground cavern" x="151" y="234" width="8" height="8" rx="2"/>
-    <circle id="room-a6b70b577ab148a7dbab8f5a3fbda797cdd22bda" class="room outdoor" data-label="rocky crag jutting out from a waterfall" cx="169" cy="252" r="4"/>
+  <g
+     id="layer-exits">
+    <line
+       id="edge-3418fdc0ff5a89484a3f7fcd7b07060150a071ac-ab65749bc71efdbb979b04ba3d853a2810fea296"
+       class="exit"
+       x1="113"
+       y1="168"
+       x2="113"
+       y2="182" />
+    <line
+       id="edge-8b9bb1fcf3e1e71314a1fd59efbdc52b85183d4b-ab65749bc71efdbb979b04ba3d853a2810fea296"
+       class="exit"
+       x1="127"
+       y1="182"
+       x2="113"
+       y2="182" />
+    <line
+       id="edge-3418fdc0ff5a89484a3f7fcd7b07060150a071ac-5167ce7273e77f9ce1473852cd2e582cc47f7123"
+       class="exit"
+       x1="113"
+       y1="168"
+       x2="113"
+       y2="154" />
+    <line
+       id="edge-3418fdc0ff5a89484a3f7fcd7b07060150a071ac-6aefdeae01a060f142c0ca09cceba81963d58f48"
+       class="exit"
+       x1="113"
+       y1="168"
+       x2="127"
+       y2="154" />
+    <line
+       id="edge-8b9bb1fcf3e1e71314a1fd59efbdc52b85183d4b-ffef2d80417f6a8893ebe62caab979a50d4c7b42"
+       class="exit"
+       x1="127"
+       y1="182"
+       x2="141"
+       y2="196" />
+    <line
+       id="edge-6aefdeae01a060f142c0ca09cceba81963d58f48-89a1a32eff14059077966c99916b37626eef6024"
+       class="exit"
+       x1="127"
+       y1="154"
+       x2="127"
+       y2="140" />
+    <line
+       id="edge-89a1a32eff14059077966c99916b37626eef6024-c314088c88b160b90281881484f3ea18a9b93e7a"
+       class="exit"
+       x1="127"
+       y1="140"
+       x2="141"
+       y2="126" />
+    <line
+       id="edge-439dabe0e0a56582476a75beac88169750f72b4e-c314088c88b160b90281881484f3ea18a9b93e7a"
+       class="exit"
+       x1="155"
+       y1="126"
+       x2="141"
+       y2="126" />
+    <line
+       id="edge-439dabe0e0a56582476a75beac88169750f72b4e-9679e7e1da18fd0039f8aba75f817a1dee623af2"
+       class="exit"
+       x1="155"
+       y1="126"
+       x2="169"
+       y2="112" />
+    <line
+       id="edge-89fb0ca2659585c675cfa44feec5da3e8029044b-9679e7e1da18fd0039f8aba75f817a1dee623af2"
+       class="exit"
+       x1="155"
+       y1="98"
+       x2="169"
+       y2="112" />
+    <line
+       id="edge-10a91ce78d6834ffb9a322080cacf7884a73c83c-89fb0ca2659585c675cfa44feec5da3e8029044b"
+       class="exit"
+       x1="141"
+       y1="98"
+       x2="155"
+       y2="98" />
+    <line
+       id="edge-10a91ce78d6834ffb9a322080cacf7884a73c83c-2d4e7ff1de758950fdf0f1f4a74c14694db7d096"
+       class="exit"
+       x1="141"
+       y1="98"
+       x2="127"
+       y2="98" />
+    <line
+       id="edge-10a91ce78d6834ffb9a322080cacf7884a73c83c-9e6c6997536e2117b70db844284e939eeaefc988"
+       class="exit"
+       x1="141"
+       y1="98"
+       x2="141"
+       y2="84" />
+    <line
+       id="edge-2d4e7ff1de758950fdf0f1f4a74c14694db7d096-57ac117e907fcf4cecbc351e99f7ea45342c3d09"
+       class="exit"
+       x1="127"
+       y1="98"
+       x2="113"
+       y2="112" />
+    <line
+       id="edge-57ac117e907fcf4cecbc351e99f7ea45342c3d09-ab608012464d8dc209fdcbd22f107c8fcba7ec83"
+       class="exit"
+       x1="113"
+       y1="112"
+       x2="99"
+       y2="112" />
+    <line
+       id="edge-43457c2d2d116c6578b4330c9570dacbe8664da5-ab608012464d8dc209fdcbd22f107c8fcba7ec83"
+       class="exit"
+       x1="99"
+       y1="126"
+       x2="99"
+       y2="112" />
+    <line
+       id="edge-ab608012464d8dc209fdcbd22f107c8fcba7ec83-b86381285fa32c38cf07d2c64140caaef08369b7"
+       class="exit"
+       x1="99"
+       y1="112"
+       x2="85"
+       y2="112" />
+    <line
+       id="edge-99ec4f44362a8697ccb6cc6e43f5dca56f3e348a-b86381285fa32c38cf07d2c64140caaef08369b7"
+       class="exit"
+       x1="71"
+       y1="98"
+       x2="85"
+       y2="112" />
+    <line
+       id="edge-6b64a3ef89c2144922e37916416b6a79d0ed5b3e-9e6c6997536e2117b70db844284e939eeaefc988"
+       class="exit"
+       x1="155"
+       y1="70"
+       x2="141"
+       y2="84" />
+    <line
+       id="edge-6b64a3ef89c2144922e37916416b6a79d0ed5b3e-e30ac54ea1fe373c4eba7db603b292d37ac2c095"
+       class="exit"
+       x1="155"
+       y1="70"
+       x2="155"
+       y2="56" />
+    <line
+       id="edge-da3b05c5e2efc374949c4e113f1131dd90486c06-e30ac54ea1fe373c4eba7db603b292d37ac2c095"
+       class="exit"
+       x1="141"
+       y1="42"
+       x2="155"
+       y2="56" />
+    <line
+       id="edge-44f6636095ef0a417c8fabdee23618ab4b5e1321-da3b05c5e2efc374949c4e113f1131dd90486c06"
+       class="exit"
+       x1="141"
+       y1="28"
+       x2="141"
+       y2="42" />
+    <line
+       id="edge-44f6636095ef0a417c8fabdee23618ab4b5e1321-c803eef33361e82d7a7dc6c6449d6ba8f8473e34"
+       class="exit"
+       x1="141"
+       y1="28"
+       x2="127"
+       y2="14" />
+    <line
+       id="edge-75011868b7acf25aa617f97bbd0e5a959df76d49-c803eef33361e82d7a7dc6c6449d6ba8f8473e34"
+       class="exit"
+       x1="113"
+       y1="28"
+       x2="127"
+       y2="14" />
+    <line
+       id="edge-75011868b7acf25aa617f97bbd0e5a959df76d49-8209708bfd2f74a468180ed2b6b52cd1fc11ac08"
+       class="exit"
+       x1="113"
+       y1="28"
+       x2="113"
+       y2="42" />
+    <line
+       id="edge-8209708bfd2f74a468180ed2b6b52cd1fc11ac08-bd1e1df4fae5b029c151f89008238de38a765796"
+       class="exit"
+       x1="113"
+       y1="42"
+       x2="99"
+       y2="56" />
+    <line
+       id="edge-224e26e08b3cdbddee6668f4a351a0a544536fea-bd1e1df4fae5b029c151f89008238de38a765796"
+       class="exit"
+       x1="85"
+       y1="56"
+       x2="99"
+       y2="56" />
+    <line
+       id="edge-224e26e08b3cdbddee6668f4a351a0a544536fea-a496f31c17437de70c1dd1065daedb4114b620f2"
+       class="exit"
+       x1="85"
+       y1="56"
+       x2="71"
+       y2="70" />
+    <line
+       id="edge-a496f31c17437de70c1dd1065daedb4114b620f2-bfbede5a179f2b80c2a04c4710618313a5e61e4e"
+       class="exit"
+       x1="71"
+       y1="70"
+       x2="71"
+       y2="84" />
+    <line
+       id="edge-99ec4f44362a8697ccb6cc6e43f5dca56f3e348a-bfbede5a179f2b80c2a04c4710618313a5e61e4e"
+       class="exit"
+       x1="71"
+       y1="98"
+       x2="71"
+       y2="84" />
+    <line
+       id="edge-43457c2d2d116c6578b4330c9570dacbe8664da5-68c587b5b5cc8a5109c19490d0de898e43b84274"
+       class="exit"
+       x1="99"
+       y1="126"
+       x2="99"
+       y2="140" />
+    <line
+       id="edge-5167ce7273e77f9ce1473852cd2e582cc47f7123-68c587b5b5cc8a5109c19490d0de898e43b84274"
+       class="exit"
+       x1="113"
+       y1="154"
+       x2="99"
+       y2="140" />
+    <line
+       id="edge-714493872f4f3bc3bfcee689a7b965c55b640076-ffef2d80417f6a8893ebe62caab979a50d4c7b42"
+       class="exit"
+       x1="127"
+       y1="210"
+       x2="141"
+       y2="196" />
+    <line
+       id="edge-714493872f4f3bc3bfcee689a7b965c55b640076-fcfd3d34a714739bbc0864caf15325302d6398d1"
+       class="exit"
+       x1="127"
+       y1="210"
+       x2="141"
+       y2="210" />
+    <line
+       id="edge-1c62e0cef7ba62e3bdf824ba74211289ad05bfc6-fcfd3d34a714739bbc0864caf15325302d6398d1"
+       class="exit"
+       x1="141"
+       y1="224"
+       x2="141"
+       y2="210" />
+    <line
+       id="edge-1c62e0cef7ba62e3bdf824ba74211289ad05bfc6-f1283a40b1c1dafcb40d0f857a72da80d8063984"
+       class="exit"
+       x1="141"
+       y1="224"
+       x2="155"
+       y2="238" />
+    <line
+       id="edge-a6b70b577ab148a7dbab8f5a3fbda797cdd22bda-f1283a40b1c1dafcb40d0f857a72da80d8063984"
+       class="exit"
+       x1="169"
+       y1="252"
+       x2="155"
+       y2="238" />
   </g>
-
-
-  <g id="layer-room-labels"></g>
-  <g id="layer-labels"><!-- labels --></g>
-
+  <g
+     id="layer-rooms">
+    <rect
+       id="room-ab65749bc71efdbb979b04ba3d853a2810fea296"
+       class="room indoor"
+       data-label="underground cavern"
+       x="109"
+       y="178"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-3418fdc0ff5a89484a3f7fcd7b07060150a071ac"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="109"
+       y="164"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-8b9bb1fcf3e1e71314a1fd59efbdc52b85183d4b"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="123"
+       y="178"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-6aefdeae01a060f142c0ca09cceba81963d58f48"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="123"
+       y="150"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-89a1a32eff14059077966c99916b37626eef6024"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="123"
+       y="136"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-c314088c88b160b90281881484f3ea18a9b93e7a"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="137"
+       y="122"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-439dabe0e0a56582476a75beac88169750f72b4e"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="151"
+       y="122"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-9679e7e1da18fd0039f8aba75f817a1dee623af2"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="165"
+       y="108"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-89fb0ca2659585c675cfa44feec5da3e8029044b"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="151"
+       y="94"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-10a91ce78d6834ffb9a322080cacf7884a73c83c"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="137"
+       y="94"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-2d4e7ff1de758950fdf0f1f4a74c14694db7d096"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="123"
+       y="94"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-57ac117e907fcf4cecbc351e99f7ea45342c3d09"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="109"
+       y="108"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-ab608012464d8dc209fdcbd22f107c8fcba7ec83"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="95"
+       y="108"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-b86381285fa32c38cf07d2c64140caaef08369b7"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="81"
+       y="108"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-9e6c6997536e2117b70db844284e939eeaefc988"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="137"
+       y="80"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-6b64a3ef89c2144922e37916416b6a79d0ed5b3e"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="151"
+       y="66"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-e30ac54ea1fe373c4eba7db603b292d37ac2c095"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="151"
+       y="52"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-da3b05c5e2efc374949c4e113f1131dd90486c06"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="137"
+       y="38"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-44f6636095ef0a417c8fabdee23618ab4b5e1321"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="137"
+       y="24"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-c803eef33361e82d7a7dc6c6449d6ba8f8473e34"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="123"
+       y="10"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-75011868b7acf25aa617f97bbd0e5a959df76d49"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="109"
+       y="24"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-8209708bfd2f74a468180ed2b6b52cd1fc11ac08"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="109"
+       y="38"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-bd1e1df4fae5b029c151f89008238de38a765796"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="95"
+       y="52"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-224e26e08b3cdbddee6668f4a351a0a544536fea"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="81"
+       y="52"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-a496f31c17437de70c1dd1065daedb4114b620f2"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="67"
+       y="66"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-bfbede5a179f2b80c2a04c4710618313a5e61e4e"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="67"
+       y="80"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-99ec4f44362a8697ccb6cc6e43f5dca56f3e348a"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="67"
+       y="94"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-43457c2d2d116c6578b4330c9570dacbe8664da5"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="95"
+       y="122"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-68c587b5b5cc8a5109c19490d0de898e43b84274"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="95"
+       y="136"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-5167ce7273e77f9ce1473852cd2e582cc47f7123"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="109"
+       y="150"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-ffef2d80417f6a8893ebe62caab979a50d4c7b42"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="137"
+       y="192"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-714493872f4f3bc3bfcee689a7b965c55b640076"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="123"
+       y="206"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-fcfd3d34a714739bbc0864caf15325302d6398d1"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="137"
+       y="206"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-1c62e0cef7ba62e3bdf824ba74211289ad05bfc6"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="137"
+       y="220"
+       width="8"
+       height="8"
+       rx="2" />
+    <rect
+       id="room-f1283a40b1c1dafcb40d0f857a72da80d8063984"
+       class="room indoor"
+       data-label="underground cavern"
+       x="151"
+       y="234"
+       width="8"
+       height="8"
+       rx="2" />
+    <circle
+       id="room-a6b70b577ab148a7dbab8f5a3fbda797cdd22bda"
+       class="room outdoor"
+       data-label="rocky crag jutting out from a waterfall"
+       cx="169"
+       cy="252"
+       r="4" />
+  </g>
+  <g
+     id="layer-room-labels" />
+  <g
+     id="layer-labels">
+    <!-- labels -->
+  </g>
+  <rect
+     id="rect118-2-6-2"
+     width="95.592003"
+     height="10"
+     x="17.407997"
+     y="206"
+     class="city-sign"
+     style="stroke-width:0.671623" />
+  <text
+     xml:space="preserve"
+     x="65.344002"
+     y="213.85602"
+     id="text118-7-2-7"
+     class="city-sign-label"
+     text-anchor="middle"
+     font-size="8px"
+     style="font-family:'Noto Sans', sans-serif"><tspan
+       sodipodi:role="line"
+       x="65.344002"
+       y="213.85602"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+       id="tspan119-9-0">WATER SPRITE CAVERNS</tspan></text>
 </svg>

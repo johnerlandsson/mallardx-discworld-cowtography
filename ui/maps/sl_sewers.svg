@@ -1,158 +1,1261 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 389 359"
-     class="map-svg"
-     data-map-id="43">
-
-  <g id="layer-artwork"><!-- artwork --></g>
-
-  <g id="layer-exits">
-    <line id="edge-74ef431c926e729fe1e07e225727c14b44919188-f8a857039f94af1eb191af12fc84fdf0420caa1c" class="exit" x1="302" y1="193" x2="302" y2="193"/>
-    <line id="edge-02f1d1b27eab8d65affb880525ddafb9f0941735-74ef431c926e729fe1e07e225727c14b44919188" class="exit" x1="302" y1="193" x2="302" y2="193"/>
-  </g>
-
-  <g id="layer-rooms">
-    <rect id="room-c9adb6b5b8e4df64fc39bceccec2ed270fada818" class="room indoor" data-label="dank and draughty sewer tunnel, where a ladder leads upwards" x="256" y="46" width="8" height="8" rx="2"/>
-    <rect id="room-e6bf2371ee518fbb0883f634daf46b3881a70de6" class="room indoor" data-label="dank and draughty sewer tunnel, where a ladder leads upwards" x="158" y="18" width="8" height="8" rx="2"/>
-    <rect id="room-ab0c53ea14e9cb39e75c9cbaa889fec2f08d9314" class="room indoor" data-label="dank and draughty sewer tunnel, where a ladder leads upwards" x="228" y="116" width="8" height="8" rx="2"/>
-    <rect id="room-c3b52402697ebc6b54edf5e633ba2328c273f590" class="room indoor" data-label="dank and draughty sewer tunnel, where a ladder leads upwards" x="326" y="116" width="8" height="8" rx="2"/>
-    <rect id="room-2f6660fb7457d421d71d519ed99c1c681b583a7a" class="room indoor" data-label="dank and draughty sewer tunnel, where a ladder leads upwards" x="158" y="200" width="8" height="8" rx="2"/>
-    <rect id="room-92291858f88336568483058e28084076dfc9d307" class="room indoor" data-label="dank and draughty sewer tunnel, where a ladder leads upwards" x="18" y="116" width="8" height="8" rx="2"/>
-    <rect id="room-cb93a7ac59cc1205cc44a7fd471dfe17908d5e7b" class="room indoor" data-label="dank and draughty sewer tunnel, where a ladder leads upwards" x="74" y="298" width="8" height="8" rx="2"/>
-    <rect id="room-1db1601528d3758cd1485e8c7e36e3ba344346fd" class="room indoor" data-label="dank and draughty sewer tunnel, where a ladder leads upwards" x="200" y="284" width="8" height="8" rx="2"/>
-    <rect id="room-b19929dca3a18b7c4f7510158c1d7a57f9fa23e2" class="room indoor" data-label="dank and draughty sewer tunnel with a grille set into one wall" x="298" y="200" width="8" height="8" rx="2"/>
-    <rect id="room-2850b9ac3627d36f57e33a4905e94d13ae554f31" class="room indoor" data-label="dank and draughty sewer tunnel" x="144" y="200" width="8" height="8" rx="2"/>
-    <rect id="room-6e58e794f1bb290ffd28f8bb78f3fe68bdfa1627" class="room indoor" data-label="dank and draughty sewer tunnel" x="144" y="186" width="8" height="8" rx="2"/>
-    <rect id="room-b028630c1b20fd182b97893a932dc162b9bf7b7c" class="room indoor" data-label="dank and draughty sewer tunnel with a ledge running along one wall" x="284" y="214" width="8" height="8" rx="2"/>
-    <rect id="room-307a7a8419b5b3d185b922078f6dc07d7b48a48d" class="room indoor" data-label="dank and draughty sewer tunnel" x="312" y="200" width="8" height="8" rx="2"/>
-    <rect id="room-75d76f268928473baf3eb1ff07da962f9a2ef980" class="room indoor" data-label="dank and draughty sewer tunnel" x="326" y="186" width="8" height="8" rx="2"/>
-    <rect id="room-425cd4d9aa857cb50358914d60088e0dbf3d9850" class="room indoor" data-label="dank and draughty sewer tunnel" x="340" y="172" width="8" height="8" rx="2"/>
-    <rect id="room-ce7df6c20a83fbfdbb7e018e27c77c0229ddf31a" class="room indoor" data-label="dank and draughty sewer tunnel" x="340" y="158" width="8" height="8" rx="2"/>
-    <rect id="room-7a7ec41cf0130f4ec6c9b035d80731df1bd9e6dc" class="room indoor" data-label="dank and draughty sewer tunnel" x="102" y="228" width="8" height="8" rx="2"/>
-    <rect id="room-1e2e020631f7c8c6ceedda1e28127135d0aa1a4c" class="room indoor" data-label="opulent underground room" x="102" y="239" width="8" height="8" rx="2"/>
-    <rect id="room-26820eefa7359f6f501aa3d067f7b85e907d1252" class="room indoor" data-label="dank and draughty sewer tunnel" x="88" y="228" width="8" height="8" rx="2"/>
-    <rect id="room-2b0ec12f9f78260b0e73652db48929eac6362ad4" class="room indoor" data-label="dank and draughty sewer tunnel" x="74" y="228" width="8" height="8" rx="2"/>
-    <rect id="room-d0e49d65656fa94b8b79a9f00a73f6da302879ee" class="room indoor" data-label="dank and draughty sewer tunnel" x="60" y="214" width="8" height="8" rx="2"/>
-    <rect id="room-9de7905cfdfa5cffa6d0e74ef7159f65111ec4a8" class="room indoor" data-label="dank and draughty sewer tunnel" x="60" y="200" width="8" height="8" rx="2"/>
-    <rect id="room-c26c0bda690ef5e80fbfe5a3c54f665a68c903cc" class="room indoor" data-label="dank and draughty sewer tunnel" x="46" y="186" width="8" height="8" rx="2"/>
-    <rect id="room-520345ac929cd62386768719680c69366017f806" class="room indoor" data-label="dank and draughty sewer tunnel" x="46" y="172" width="8" height="8" rx="2"/>
-    <rect id="room-296eceb0d02fc26074c9bcc2d0affe8b1a9cd661" class="room indoor" data-label="dank and draughty sewer tunnel with a grille set into one wall" x="60" y="186" width="8" height="8" rx="2"/>
-    <rect id="room-9437ea6e21716578ba9c802995a2142d7f48b1fd" class="room indoor" data-label="dank and draughty sewer tunnel" x="74" y="186" width="8" height="8" rx="2"/>
-    <rect id="room-190060cd4ed561c2df106cd6b6c21d3b86d3a297" class="room indoor" data-label="dank and draughty sewer tunnel" x="88" y="186" width="8" height="8" rx="2"/>
-    <rect id="room-fb872721229fc753f5abfae5db21a5c0dd62cd53" class="room indoor" data-label="dank and draughty sewer tunnel" x="102" y="186" width="8" height="8" rx="2"/>
-    <rect id="room-a940bd8fc4a81dc3488dfe83a9514ad2d5f309d1" class="room indoor" data-label="dank and draughty sewer tunnel" x="116" y="186" width="8" height="8" rx="2"/>
-    <rect id="room-9ad3fa2a94ecac0695e9131c18471c1018daeb72" class="room indoor" data-label="dank and draughty sewer tunnel with a ledge running along one wall" x="130" y="186" width="8" height="8" rx="2"/>
-    <rect id="room-563f4f7dca7e2aa6b0ec758af107072b3cea6adc" class="room indoor" data-label="dank and draughty sewer tunnel" x="158" y="172" width="8" height="8" rx="2"/>
-    <rect id="room-0eafa14030c088855075248c548bb972c0359d5c" class="room indoor" data-label="dank and draughty sewer tunnel" x="186" y="46" width="8" height="8" rx="2"/>
-    <rect id="room-51af0ce204b3a470faef7252745e5591f45cb302" class="room indoor" data-label="dank and draughty sewer tunnel with a grille set into one wall" x="172" y="32" width="8" height="8" rx="2"/>
-    <rect id="room-bfdb02cb3065b2b200a2001732b24a10b69d2ef5" class="room indoor" data-label="dank and draughty sewer tunnel" x="158" y="32" width="8" height="8" rx="2"/>
-    <rect id="room-41226fff7faac8c1c8172c578c6b610a6b5e8c69" class="room indoor" data-label="dank and draughty sewer tunnel" x="116" y="32" width="8" height="8" rx="2"/>
-    <rect id="room-f425d688dbc63c1f111522b68b30164ca35af078" class="room indoor" data-label="dank and draughty sewer tunnel" x="130" y="32" width="8" height="8" rx="2"/>
-    <rect id="room-86fd5249941ffa530abfb16d363aa969087c1bd3" class="room indoor" data-label="dank and draughty sewer tunnel" x="144" y="32" width="8" height="8" rx="2"/>
-    <rect id="room-45329a143f1a2af34366c2b422a44c26bea505ef" class="room indoor" data-label="dank and draughty sewer tunnel" x="130" y="228" width="8" height="8" rx="2"/>
-    <rect id="room-4a10734b4cd56416c6c7d3330cc954ad4910d629" class="room indoor" data-label="dank and draughty sewer tunnel" x="242" y="130" width="8" height="8" rx="2"/>
-    <rect id="room-2515b922c3e1c57165a81f929b5b6bf6f52658b0" class="room indoor" data-label="dank and draughty sewer tunnel" x="228" y="130" width="8" height="8" rx="2"/>
-    <rect id="room-9fd50567acf30e740d16883e2014ba9a6affb6d1" class="room indoor" data-label="dank and draughty sewer tunnel" x="228" y="102" width="8" height="8" rx="2"/>
-    <rect id="room-496402165176cc50047ac6f40ee8678d3a3115d0" class="room indoor" data-label="dank and draughty sewer tunnel" x="228" y="88" width="8" height="8" rx="2"/>
-    <rect id="room-26beea242856bcbead8592c00405fe0329577a9c" class="room indoor" data-label="dank and draughty sewer tunnel" x="214" y="74" width="8" height="8" rx="2"/>
-    <rect id="room-040afc9bfd276f8b42698ec85f035dfa7e300ff2" class="room indoor" data-label="dank and draughty sewer tunnel" x="200" y="60" width="8" height="8" rx="2"/>
-    <rect id="room-35171fbc81f343f672598161b9f81a4bdabc5147" class="room indoor" data-label="dank and draughty sewer tunnel" x="200" y="46" width="8" height="8" rx="2"/>
-    <rect id="room-9116cc82fb35a9f61b1beeb841301533e71f4fad" class="room indoor" data-label="dank and draughty sewer tunnel" x="200" y="32" width="8" height="8" rx="2"/>
-    <rect id="room-677463f3903823503e04dbe144045f3e6980bacb" class="room indoor" data-label="dank and draughty sewer tunnel" x="200" y="18" width="8" height="8" rx="2"/>
-    <rect id="room-cc2b512136f96940309d2f92433d590c0fc7c4d7" class="room indoor" data-label="dank and draughty sewer tunnel with a grille set into one wall" x="116" y="228" width="8" height="8" rx="2"/>
-    <rect id="room-3369dfdf3a59aa222b265e8aff865cdc9e542bc3" class="room indoor" data-label="dank and draughty sewer tunnel" x="256" y="116" width="8" height="8" rx="2"/>
-    <rect id="room-4ca272693331160344810df5b2f2ff1758d46c2a" class="room indoor" data-label="dank and draughty sewer tunnel with a grille set into one wall" x="256" y="102" width="8" height="8" rx="2"/>
-    <rect id="room-77042fb9f51986ed04f4127b0390e6ab64dc7713" class="room indoor" data-label="dank and draughty sewer tunnel with a ledge running along one wall" x="256" y="88" width="8" height="8" rx="2"/>
-    <rect id="room-42bcf7b4f63b9895b8dddf2751c62c6b54f74091" class="room indoor" data-label="dank and draughty sewer tunnel with a grille set into one wall" x="242" y="74" width="8" height="8" rx="2"/>
-    <rect id="room-798124906b9a18c242664f4b023a549bf228bc4c" class="room indoor" data-label="dank and draughty sewer tunnel" x="228" y="60" width="8" height="8" rx="2"/>
-    <rect id="room-07df0ca0710b64298768d23b3211b2eca8178322" class="room indoor" data-label="dank and draughty sewer tunnel" x="214" y="60" width="8" height="8" rx="2"/>
-    <rect id="room-214441641be075d0e2d417a9f5abd5ea539eb616" class="room indoor" data-label="dank and draughty sewer tunnel" x="186" y="4" width="8" height="8" rx="2"/>
-    <rect id="room-0749e55771a0adafee43adbd9dd394d82b2f5c94" class="room indoor" data-label="dank and draughty sewer tunnel" x="172" y="4" width="8" height="8" rx="2"/>
-    <rect id="room-128b87e32f7e7858b51d866a95bb5714db38b559" class="room indoor" data-label="dank and draughty sewer tunnel" x="270" y="228" width="8" height="8" rx="2"/>
-    <rect id="room-aaf100c86f7460b7d2ef8b0da4402cd34d70e074" class="room indoor" data-label="dank and draughty sewer tunnel with a ledge running along one wall" x="256" y="242" width="8" height="8" rx="2"/>
-    <rect id="room-690eae8c73442ba7767858044d1c500e9f690410" class="room indoor" data-label="dank and draughty sewer tunnel" x="256" y="256" width="8" height="8" rx="2"/>
-    <rect id="room-146aa375814fa08a255aa7a767c99e5faa11533c" class="room indoor" data-label="dank and draughty sewer tunnel with a ledge running along one wall" x="102" y="32" width="8" height="8" rx="2"/>
-    <rect id="room-fca5c1016aa3ff4f5bd76580815bb8244e61172d" class="room indoor" data-label="dank and draughty sewer tunnel" x="88" y="32" width="8" height="8" rx="2"/>
-    <rect id="room-4a6ace07f17bbfcdb7cb0b6b0318df3b4dbc8ee0" class="room indoor" data-label="dank and draughty sewer tunnel" x="60" y="228" width="8" height="8" rx="2"/>
-    <rect id="room-a01b233cee04609bbc7c90b3b35e6c05f71ead0e" class="room indoor" data-label="dank and draughty sewer tunnel" x="60" y="242" width="8" height="8" rx="2"/>
-    <rect id="room-4e3299a619c311596aff198f83d3e0d3ba0ee5d2" class="room indoor" data-label="dank and draughty sewer tunnel" x="60" y="256" width="8" height="8" rx="2"/>
-    <rect id="room-39ff7a3ddb66e8e13709a43ad23e873b52ac9120" class="room indoor" data-label="dank and draughty sewer tunnel" x="74" y="270" width="8" height="8" rx="2"/>
-    <rect id="room-f6451bf9f71ffcb0ea24ba95fc6c357366fe472a" class="room indoor" data-label="dank and draughty sewer tunnel with a grille set into one wall" x="74" y="284" width="8" height="8" rx="2"/>
-    <rect id="room-423124b122e9a86c29c8c354561f49f3566d1d1c" class="room indoor" data-label="dank and draughty sewer tunnel with a grille set into one wall" x="88" y="312" width="8" height="8" rx="2"/>
-    <rect id="room-213dcdb3a95c6523b8fb9d66c3a71d6e83bf3c49" class="room indoor" data-label="dank and draughty sewer tunnel" x="102" y="312" width="8" height="8" rx="2"/>
-    <rect id="room-35083414386f3a68e11458467bd3cca794f1a79a" class="room indoor" data-label="dank and draughty sewer tunnel" x="116" y="312" width="8" height="8" rx="2"/>
-    <rect id="room-aa9d9be88323cb18c4c31b2d7cb773ef3d50d504" class="room indoor" data-label="dank and draughty sewer tunnel with a ledge running along one wall" x="130" y="298" width="8" height="8" rx="2"/>
-    <rect id="room-4e4f3c587218e77fccfd259f16c79086fa168d6c" class="room indoor" data-label="dank and draughty sewer tunnel" x="144" y="298" width="8" height="8" rx="2"/>
-    <rect id="room-709c0262c85cebe72f9db8d6f863e2bdc2401362" class="room indoor" data-label="dank and draughty sewer tunnel" x="158" y="298" width="8" height="8" rx="2"/>
-    <rect id="room-64548da621a9283ec86f7b2f3c23d4c1cf4b7727" class="room indoor" data-label="dank and draughty sewer tunnel" x="172" y="298" width="8" height="8" rx="2"/>
-    <rect id="room-81d2b28e882eaaa7a7c238987679e92e63729736" class="room indoor" data-label="dank and draughty sewer tunnel" x="186" y="298" width="8" height="8" rx="2"/>
-    <rect id="room-21da051bd41f8dc8aacddb1bda16862ee483016f" class="room indoor" data-label="dank and draughty sewer tunnel" x="144" y="228" width="8" height="8" rx="2"/>
-    <rect id="room-cbcc834421529e5cf5d1fefb7433c221ccf6fb0c" class="room indoor" data-label="dank and draughty sewer tunnel" x="158" y="214" width="8" height="8" rx="2"/>
-    <rect id="room-8209d8de41a40aff99657353cdab5b9e0bb1437f" class="room indoor" data-label="dank and draughty sewer tunnel" x="172" y="214" width="8" height="8" rx="2"/>
-    <rect id="room-c3939cf7b99e96e560ce9f44a60c302008114da6" class="room indoor" data-label="dank and draughty sewer tunnel" x="186" y="200" width="8" height="8" rx="2"/>
-    <rect id="room-91d2d682a78e69029d2c31830aa1791c110e6779" class="room indoor" data-label="dank and draughty sewer tunnel" x="172" y="200" width="8" height="8" rx="2"/>
-    <rect id="room-e513f72dfc78b05d76caed41bbd749983da789dc" class="room indoor" data-label="dank and draughty sewer tunnel" x="200" y="200" width="8" height="8" rx="2"/>
-    <rect id="room-d44d8ed6f8974c801ee5ef39f0b809e7d41649c6" class="room indoor" data-label="dank and draughty sewer tunnel" x="214" y="186" width="8" height="8" rx="2"/>
-    <rect id="room-de7f2a2d081e4c94430ff47778f70b69e1c9c7ac" class="room indoor" data-label="dank and draughty sewer tunnel" x="228" y="186" width="8" height="8" rx="2"/>
-    <rect id="room-9568e818ba22be3a2b537b58383df92b2e369068" class="room indoor" data-label="dank and draughty sewer tunnel" x="242" y="186" width="8" height="8" rx="2"/>
-    <rect id="room-4c8bf02e8f78c3240c6f5195f477b5b1af3f5b3b" class="room indoor" data-label="dank and draughty sewer tunnel with a grille set into one wall" x="256" y="186" width="8" height="8" rx="2"/>
-    <rect id="room-f00d3506afef1a774d7a1ab5701e1b14525d705d" class="room indoor" data-label="dank and draughty sewer tunnel" x="270" y="200" width="8" height="8" rx="2"/>
-    <rect id="room-66d8c50eb75581fc319715b1376504c2a36b7672" class="room indoor" data-label="dank and draughty sewer tunnel" x="270" y="186" width="8" height="8" rx="2"/>
-    <rect id="room-f52565b871033aef58308b71bdaa41531a9f42e0" class="room indoor" data-label="dank and draughty sewer tunnel" x="284" y="172" width="8" height="8" rx="2"/>
-    <rect id="room-0c4104e1f86666505e7d976aa2a2086117964bcd" class="room indoor" data-label="dank and draughty sewer tunnel" x="298" y="158" width="8" height="8" rx="2"/>
-    <rect id="room-59ffbed2c304f620f8dfc195aa4d2d526e076e13" class="room indoor" data-label="dank and draughty sewer tunnel with a grille set into one wall" x="312" y="158" width="8" height="8" rx="2"/>
-    <rect id="room-44fa60e1a8022b23621f0b521bc253c2805c4909" class="room indoor" data-label="dank and draughty sewer tunnel" x="326" y="158" width="8" height="8" rx="2"/>
-    <rect id="room-9d66da8ed5c5c1cf367fa8f3157b2946dd75b1df" class="room indoor" data-label="dank and draughty sewer tunnel" x="340" y="144" width="8" height="8" rx="2"/>
-    <rect id="room-0fb8255832950cb709abf043f6ebecb44574b86a" class="room indoor" data-label="dank and draughty sewer tunnel" x="340" y="130" width="8" height="8" rx="2"/>
-    <rect id="room-0750d8adc4ab519070538d02e41b0e44050032dc" class="room indoor" data-label="dank and draughty sewer tunnel" x="340" y="116" width="8" height="8" rx="2"/>
-    <rect id="room-ad99bd8cd7223d8579b19f22569a40b0c6b0b78f" class="room indoor" data-label="dank and draughty sewer tunnel with a ledge running along one wall" x="32" y="158" width="8" height="8" rx="2"/>
-    <rect id="room-40c29cd3efecd2fb1643313afd86ac02b01eba2d" class="room indoor" data-label="dank and draughty sewer tunnel" x="32" y="144" width="8" height="8" rx="2"/>
-    <rect id="room-a6c0f62165e585902ce68dd607cfd30b4686c6af" class="room indoor" data-label="dank and draughty sewer tunnel" x="32" y="130" width="8" height="8" rx="2"/>
-    <rect id="room-0e7b6308e23d5e0e2f25e6024f7efa79bfe93787" class="room indoor" data-label="dank and draughty sewer tunnel" x="18" y="102" width="8" height="8" rx="2"/>
-    <rect id="room-624d4fa166f8b8ac992a4857ebf3ca6ce2e7b58e" class="room indoor" data-label="dank and draughty sewer tunnel" x="4" y="88" width="8" height="8" rx="2"/>
-    <rect id="room-70fa5265e58fa4ba53aea8a31bcf752244e30004" class="room indoor" data-label="dank and draughty sewer tunnel" x="18" y="74" width="8" height="8" rx="2"/>
-    <rect id="room-82b87247dc54318b35bbe6199cdbc1f23d97d41f" class="room indoor" data-label="dank and draughty sewer tunnel with a grille set into one wall" x="32" y="60" width="8" height="8" rx="2"/>
-    <rect id="room-c0590df33b119a770df69fe09468e55add3208f6" class="room indoor" data-label="dank and draughty sewer tunnel with a ledge running along one wall" x="46" y="46" width="8" height="8" rx="2"/>
-    <rect id="room-8eb090338ac53b6ed01192c6e9e6bd3024fc2b01" class="room indoor" data-label="dank and draughty sewer tunnel with a grille set into one wall" x="186" y="144" width="8" height="8" rx="2"/>
-    <rect id="room-5bed22aae0424c8b477c5fa70dde996df0e269df" class="room indoor" data-label="dank and draughty sewer tunnel" x="186" y="158" width="8" height="8" rx="2"/>
-    <rect id="room-f9792de44fc38a186d7394825d5bd1d64ec90430" class="room indoor" data-label="dank and draughty sewer tunnel" x="312" y="74" width="8" height="8" rx="2"/>
-    <rect id="room-2e209f1532bc0a9a389fbf8fd348eada3187ee27" class="room indoor" data-label="dank and draughty sewer tunnel" x="326" y="88" width="8" height="8" rx="2"/>
-    <rect id="room-80c048ba2a3a33394a8c3340cf152f078a0c9294" class="room indoor" data-label="dank and draughty sewer tunnel" x="340" y="102" width="8" height="8" rx="2"/>
-    <rect id="room-0bdd5551a649f1a4894fc7fb0b46f937abcecd94" class="room indoor" data-label="dank and draughty sewer tunnel" x="326" y="102" width="8" height="8" rx="2"/>
-    <rect id="room-23276048e463aaf39c766c1723e93661d0544382" class="room indoor" data-label="dank and draughty sewer tunnel" x="298" y="60" width="8" height="8" rx="2"/>
-    <rect id="room-cbff55bb3ef647b6f312b212c5816598d3b12d8e" class="room indoor" data-label="dank and draughty sewer tunnel with a ledge running along one wall" x="284" y="60" width="8" height="8" rx="2"/>
-    <rect id="room-e4efeeddecfec42bb5b709527d34a1b3cba3e13e" class="room indoor" data-label="dank and draughty sewer tunnel" x="270" y="46" width="8" height="8" rx="2"/>
-    <rect id="room-da36c401eaf76bb5f157b67abe3c5596eeb122e2" class="room indoor" data-label="dank and draughty sewer tunnel" x="60" y="32" width="8" height="8" rx="2"/>
-    <rect id="room-c013b68fddb2769ba33c2ff8744df5032c5c0f54" class="room indoor" data-label="dank and draughty sewer tunnel" x="74" y="32" width="8" height="8" rx="2"/>
-    <rect id="room-5a0bcaff0245b5b42eaa13f5bdd322d47980beed" class="room indoor" data-label="dank and draughty sewer tunnel" x="242" y="32" width="8" height="8" rx="2"/>
-    <rect id="room-3d364b3c62a95e78838903c5ca296751ca7ee496" class="room indoor" data-label="dank and draughty sewer tunnel" x="228" y="32" width="8" height="8" rx="2"/>
-    <rect id="room-20b588e5d9ef434813e18888b81a0429203da079" class="room indoor" data-label="dank and draughty sewer tunnel" x="214" y="32" width="8" height="8" rx="2"/>
-    <rect id="room-f36a0072ee97142ea43fce2ccc29e07a884300e4" class="room indoor" data-label="dank and draughty sewer tunnel with a ledge running along one wall" x="172" y="172" width="8" height="8" rx="2"/>
-    <rect id="room-4489281e5efb6060d8e8298afbc738d1e284ed8c" class="room indoor" data-label="dank and draughty sewer tunnel with a grille set into one wall" x="200" y="130" width="8" height="8" rx="2"/>
-    <rect id="room-af0fdc5bb402f2966398f8fdd2c4c3362e47d18e" class="room indoor" data-label="dank and draughty sewer tunnel" x="200" y="116" width="8" height="8" rx="2"/>
-    <rect id="room-5e2081439ab922f7fa5c7ded7f96e51d62c6a609" class="room indoor" data-label="dank and draughty sewer tunnel" x="200" y="102" width="8" height="8" rx="2"/>
-    <rect id="room-1f4f3ad4083116fab1fc0259c666909449ff717a" class="room indoor" data-label="dank and draughty sewer tunnel" x="200" y="88" width="8" height="8" rx="2"/>
-    <rect id="room-a241da9b5b7aa7b419eb39d2021168bdc9950a4b" class="room indoor" data-label="dank and draughty sewer tunnel" x="200" y="74" width="8" height="8" rx="2"/>
-    <rect id="room-48319f120f2936b0e169fb5fe1acbd33cd25cf83" class="room indoor" data-label="dank and draughty sewer tunnel" x="214" y="144" width="8" height="8" rx="2"/>
-    <rect id="room-0e6ea7b25910bb657fd656f2fc8f13c25f2741d0" class="room indoor" data-label="dank and draughty sewer tunnel" x="200" y="158" width="8" height="8" rx="2"/>
-    <rect id="room-69047221fcee133fb9edcff850aaed7482e42bf7" class="room indoor" data-label="dank and draughty sewer tunnel" x="256" y="172" width="8" height="8" rx="2"/>
-    <rect id="room-81ac8b070787f6037c1831643ad17d7e3d8d9212" class="room indoor" data-label="dank and draughty sewer tunnel" x="256" y="158" width="8" height="8" rx="2"/>
-    <rect id="room-4bff60dac46cf5118162976bab3cbe705c7b0fcc" class="room indoor" data-label="dank and draughty sewer tunnel" x="270" y="144" width="8" height="8" rx="2"/>
-    <rect id="room-093900de688641110888c9280daa645582fe5064" class="room indoor" data-label="dank and draughty sewer tunnel" x="270" y="130" width="8" height="8" rx="2"/>
-    <rect id="room-d831728badb22d8a4f1021a39b0afe49d392bfbf" class="room indoor" data-label="dank and draughty sewer tunnel" x="256" y="130" width="8" height="8" rx="2"/>
-    <rect id="room-00f62a887952182a40ffab4e84bce9a9da747173" class="room indoor" data-label="dank and draughty sewer tunnel with a ledge running along one wall" x="284" y="130" width="8" height="8" rx="2"/>
-    <rect id="room-3f86dec7df42fb5a855b27c376c28c71a7920f90" class="room indoor" data-label="dank and draughty sewer tunnel" x="298" y="130" width="8" height="8" rx="2"/>
-    <rect id="room-dd5a5ef8837470bce5db8c863a26dbdd64399215" class="room indoor" data-label="dank and draughty sewer tunnel" x="298" y="144" width="8" height="8" rx="2"/>
-    <rect id="room-df124568708dab2da7335afe0597a0c3f6efaf3a" class="room indoor" data-label="dank and draughty sewer tunnel" x="214" y="284" width="8" height="8" rx="2"/>
-    <rect id="room-61621be355ba7570de482fa0852844a145a17ac4" class="room indoor" data-label="dank and draughty sewer tunnel" x="228" y="284" width="8" height="8" rx="2"/>
-    <rect id="room-39509d9e6aeb0d2f4d2b24540759af65c5bde8a8" class="room indoor" data-label="dank and draughty sewer tunnel" x="242" y="270" width="8" height="8" rx="2"/>
-    <rect id="room-c7da48ec2cf71aa72901d712e045aeec0d66726d" class="room indoor" data-label="dank and draughty sewer tunnel" x="312" y="130" width="8" height="8" rx="2"/>
-    <rect id="room-f8a857039f94af1eb191af12fc84fdf0420caa1c" class="room indoor" data-label="underground room" x="298" y="189" width="8" height="8" rx="2"/>
-    <rect id="room-74ef431c926e729fe1e07e225727c14b44919188" class="room indoor" data-label="underground tunnel" x="298" y="189" width="8" height="8" rx="2"/>
-    <rect id="room-02f1d1b27eab8d65affb880525ddafb9f0941735" class="room indoor" data-label="silent tunnel" x="298" y="189" width="8" height="8" rx="2"/>
-  </g>
-
-
-  <g id="layer-room-labels"></g>
-  <g id="layer-labels"><!-- labels --></g>
-
-</svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 389 359"
+   class="map-svg"
+   data-map-id="43"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="sl_sewers.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1" /><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.5757254"
+     inkscape:cx="207.52347"
+     inkscape:cy="147.23377"
+     inkscape:window-width="1968"
+     inkscape:window-height="1011"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer-artwork" /><g
+     id="layer-artwork"><!-- artwork --><rect
+       id="rect118-2-6-2"
+       width="67.592003"
+       height="10"
+       x="198.20399"
+       y="318.64001"
+       class="city-sign"
+       style="stroke-width:0.671623" /><path
+       d="M 162,176 V 163.345"
+       id="path1"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" /><path
+       d="M 134,48.655 V 36"
+       id="path2"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" /><path
+       d="M 191.345,92 H 204"
+       id="path3"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" /><path
+       d="m 64,36 h 112 l 56,56 v 42 l -28,28 h -14 l -14,14 h -14 l -14,14 H 64 L 36,162 V 134 L 22,120 V 106 L 8,92 Z"
+       id="path4"
+       class="exit"
+       fill="none"
+       stroke="#888888" /><path
+       d="M 162,36 V 22 L 176,8 h 14 l 14,14 v 28 h -14"
+       id="path5"
+       class="exit"
+       fill="none"
+       stroke="#888888" /><path
+       d="m 204,22 14,14 h 28 l 14,14 h 14 l 14,14 h 14 l 42,42 v 70 l -28,28 h -14 v -11"
+       id="path6"
+       class="exit"
+       fill="none"
+       stroke="#888888" /><path
+       d="m 190,162 v -14 l 14,-14 V 64"
+       id="path7"
+       class="exit"
+       fill="none"
+       stroke="#888888" /><path
+       d="m 204,50 14,14 h 14 l 14,14 14,14 v 42 h -28"
+       id="path8"
+       class="exit"
+       fill="none"
+       stroke="#888888" /><path
+       d="m 260,134 h 56 l 14,-14 V 92"
+       id="path9"
+       class="exit"
+       fill="none"
+       stroke="#888888" /><path
+       d="M 344,162 H 302 V 134"
+       id="path10"
+       class="exit"
+       fill="none"
+       stroke="#888888" /><path
+       d="m 302,162 -28,28 h -14 v -28 l 14,-14 v -14"
+       id="path11"
+       class="exit"
+       fill="none"
+       stroke="#888888" /><path
+       d="m 302,204 -14,14 -14,-14 -14,-14 h -42 l -14,14 h -56 v -14"
+       id="path12"
+       class="exit"
+       fill="none"
+       stroke="#888888" /><path
+       d="m 288,218 -14,14 -14,14 v 14 l -14,14 -14,14 h -28 l -14,14 h -56 l -14,14 H 92 L 78,302 V 274 L 64,260 v -42 l 14,14 h 70 l 14,-14 h 14 l 14,-14"
+       id="path13"
+       class="exit"
+       fill="none"
+       stroke="#888888" /><path
+       d="M 106,243 V 232"
+       id="path14"
+       class="exit"
+       fill="none"
+       stroke="#888888" /><path
+       d="M 64,218 V 204 L 50,190 v -14"
+       id="path15"
+       class="exit"
+       fill="none"
+       stroke="#888888" /><text
+       xml:space="preserve"
+       x="231.98398"
+       y="326.5"
+       id="text118-7-2-7"
+       class="city-sign-label"
+       text-anchor="middle"
+       font-size="8px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="231.98398"
+         y="326.5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan119-9-0">STO LAT SEWERS</tspan></text><text
+       xml:space="preserve"
+       x="302.39255"
+       y="187.74446"
+       id="text156-1"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="302.39255"
+         y="187.74446"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan157">THIEF</tspan></text></g><g
+     id="layer-exits"><line
+       id="edge-74ef431c926e729fe1e07e225727c14b44919188-f8a857039f94af1eb191af12fc84fdf0420caa1c"
+       class="exit"
+       x1="302"
+       y1="193"
+       x2="302"
+       y2="193" /><line
+       id="edge-02f1d1b27eab8d65affb880525ddafb9f0941735-74ef431c926e729fe1e07e225727c14b44919188"
+       class="exit"
+       x1="302"
+       y1="193"
+       x2="302"
+       y2="193" /></g><g
+     id="layer-rooms"><rect
+       id="room-c9adb6b5b8e4df64fc39bceccec2ed270fada818"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel, where a ladder leads upwards"
+       x="256"
+       y="46"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-e6bf2371ee518fbb0883f634daf46b3881a70de6"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel, where a ladder leads upwards"
+       x="158"
+       y="18"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-ab0c53ea14e9cb39e75c9cbaa889fec2f08d9314"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel, where a ladder leads upwards"
+       x="228"
+       y="116"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-c3b52402697ebc6b54edf5e633ba2328c273f590"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel, where a ladder leads upwards"
+       x="326"
+       y="116"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-2f6660fb7457d421d71d519ed99c1c681b583a7a"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel, where a ladder leads upwards"
+       x="158"
+       y="200"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-92291858f88336568483058e28084076dfc9d307"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel, where a ladder leads upwards"
+       x="18"
+       y="116"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-cb93a7ac59cc1205cc44a7fd471dfe17908d5e7b"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel, where a ladder leads upwards"
+       x="74"
+       y="298"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-1db1601528d3758cd1485e8c7e36e3ba344346fd"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel, where a ladder leads upwards"
+       x="200"
+       y="284"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-b19929dca3a18b7c4f7510158c1d7a57f9fa23e2"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel with a grille set into one wall"
+       x="298"
+       y="200"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-2850b9ac3627d36f57e33a4905e94d13ae554f31"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="144"
+       y="200"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-6e58e794f1bb290ffd28f8bb78f3fe68bdfa1627"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="144"
+       y="186"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-b028630c1b20fd182b97893a932dc162b9bf7b7c"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel with a ledge running along one wall"
+       x="284"
+       y="214"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-307a7a8419b5b3d185b922078f6dc07d7b48a48d"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="312"
+       y="200"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-75d76f268928473baf3eb1ff07da962f9a2ef980"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="326"
+       y="186"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-425cd4d9aa857cb50358914d60088e0dbf3d9850"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="340"
+       y="172"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-ce7df6c20a83fbfdbb7e018e27c77c0229ddf31a"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="340"
+       y="158"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-7a7ec41cf0130f4ec6c9b035d80731df1bd9e6dc"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="102"
+       y="228"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-1e2e020631f7c8c6ceedda1e28127135d0aa1a4c"
+       class="room indoor"
+       data-label="opulent underground room"
+       x="102"
+       y="239"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-26820eefa7359f6f501aa3d067f7b85e907d1252"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="88"
+       y="228"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-2b0ec12f9f78260b0e73652db48929eac6362ad4"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="74"
+       y="228"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-d0e49d65656fa94b8b79a9f00a73f6da302879ee"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="60"
+       y="214"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-9de7905cfdfa5cffa6d0e74ef7159f65111ec4a8"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="60"
+       y="200"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-c26c0bda690ef5e80fbfe5a3c54f665a68c903cc"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="46"
+       y="186"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-520345ac929cd62386768719680c69366017f806"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="46"
+       y="172"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-296eceb0d02fc26074c9bcc2d0affe8b1a9cd661"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel with a grille set into one wall"
+       x="60"
+       y="186"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-9437ea6e21716578ba9c802995a2142d7f48b1fd"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="74"
+       y="186"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-190060cd4ed561c2df106cd6b6c21d3b86d3a297"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="88"
+       y="186"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-fb872721229fc753f5abfae5db21a5c0dd62cd53"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="102"
+       y="186"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-a940bd8fc4a81dc3488dfe83a9514ad2d5f309d1"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="116"
+       y="186"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-9ad3fa2a94ecac0695e9131c18471c1018daeb72"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel with a ledge running along one wall"
+       x="130"
+       y="186"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-563f4f7dca7e2aa6b0ec758af107072b3cea6adc"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="158"
+       y="172"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-0eafa14030c088855075248c548bb972c0359d5c"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="186"
+       y="46"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-51af0ce204b3a470faef7252745e5591f45cb302"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel with a grille set into one wall"
+       x="172"
+       y="32"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-bfdb02cb3065b2b200a2001732b24a10b69d2ef5"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="158"
+       y="32"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-41226fff7faac8c1c8172c578c6b610a6b5e8c69"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="116"
+       y="32"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-f425d688dbc63c1f111522b68b30164ca35af078"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="130"
+       y="32"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-86fd5249941ffa530abfb16d363aa969087c1bd3"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="144"
+       y="32"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-45329a143f1a2af34366c2b422a44c26bea505ef"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="130"
+       y="228"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-4a10734b4cd56416c6c7d3330cc954ad4910d629"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="242"
+       y="130"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-2515b922c3e1c57165a81f929b5b6bf6f52658b0"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="228"
+       y="130"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-9fd50567acf30e740d16883e2014ba9a6affb6d1"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="228"
+       y="102"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-496402165176cc50047ac6f40ee8678d3a3115d0"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="228"
+       y="88"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-26beea242856bcbead8592c00405fe0329577a9c"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="214"
+       y="74"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-040afc9bfd276f8b42698ec85f035dfa7e300ff2"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="200"
+       y="60"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-35171fbc81f343f672598161b9f81a4bdabc5147"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="200"
+       y="46"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-9116cc82fb35a9f61b1beeb841301533e71f4fad"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="200"
+       y="32"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-677463f3903823503e04dbe144045f3e6980bacb"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="200"
+       y="18"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-cc2b512136f96940309d2f92433d590c0fc7c4d7"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel with a grille set into one wall"
+       x="116"
+       y="228"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-3369dfdf3a59aa222b265e8aff865cdc9e542bc3"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="256"
+       y="116"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-4ca272693331160344810df5b2f2ff1758d46c2a"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel with a grille set into one wall"
+       x="256"
+       y="102"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-77042fb9f51986ed04f4127b0390e6ab64dc7713"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel with a ledge running along one wall"
+       x="256"
+       y="88"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-42bcf7b4f63b9895b8dddf2751c62c6b54f74091"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel with a grille set into one wall"
+       x="242"
+       y="74"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-798124906b9a18c242664f4b023a549bf228bc4c"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="228"
+       y="60"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-07df0ca0710b64298768d23b3211b2eca8178322"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="214"
+       y="60"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-214441641be075d0e2d417a9f5abd5ea539eb616"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="186"
+       y="4"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-0749e55771a0adafee43adbd9dd394d82b2f5c94"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="172"
+       y="4"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-128b87e32f7e7858b51d866a95bb5714db38b559"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="270"
+       y="228"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-aaf100c86f7460b7d2ef8b0da4402cd34d70e074"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel with a ledge running along one wall"
+       x="256"
+       y="242"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-690eae8c73442ba7767858044d1c500e9f690410"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="256"
+       y="256"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-146aa375814fa08a255aa7a767c99e5faa11533c"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel with a ledge running along one wall"
+       x="102"
+       y="32"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-fca5c1016aa3ff4f5bd76580815bb8244e61172d"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="88"
+       y="32"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-4a6ace07f17bbfcdb7cb0b6b0318df3b4dbc8ee0"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="60"
+       y="228"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-a01b233cee04609bbc7c90b3b35e6c05f71ead0e"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="60"
+       y="242"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-4e3299a619c311596aff198f83d3e0d3ba0ee5d2"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="60"
+       y="256"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-39ff7a3ddb66e8e13709a43ad23e873b52ac9120"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="74"
+       y="270"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-f6451bf9f71ffcb0ea24ba95fc6c357366fe472a"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel with a grille set into one wall"
+       x="74"
+       y="284"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-423124b122e9a86c29c8c354561f49f3566d1d1c"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel with a grille set into one wall"
+       x="88"
+       y="312"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-213dcdb3a95c6523b8fb9d66c3a71d6e83bf3c49"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="102"
+       y="312"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-35083414386f3a68e11458467bd3cca794f1a79a"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="116"
+       y="312"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-aa9d9be88323cb18c4c31b2d7cb773ef3d50d504"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel with a ledge running along one wall"
+       x="130"
+       y="298"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-4e4f3c587218e77fccfd259f16c79086fa168d6c"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="144"
+       y="298"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-709c0262c85cebe72f9db8d6f863e2bdc2401362"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="158"
+       y="298"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-64548da621a9283ec86f7b2f3c23d4c1cf4b7727"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="172"
+       y="298"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-81d2b28e882eaaa7a7c238987679e92e63729736"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="186"
+       y="298"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-21da051bd41f8dc8aacddb1bda16862ee483016f"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="144"
+       y="228"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-cbcc834421529e5cf5d1fefb7433c221ccf6fb0c"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="158"
+       y="214"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-8209d8de41a40aff99657353cdab5b9e0bb1437f"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="172"
+       y="214"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-c3939cf7b99e96e560ce9f44a60c302008114da6"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="186"
+       y="200"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-91d2d682a78e69029d2c31830aa1791c110e6779"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="172"
+       y="200"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-e513f72dfc78b05d76caed41bbd749983da789dc"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="200"
+       y="200"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-d44d8ed6f8974c801ee5ef39f0b809e7d41649c6"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="214"
+       y="186"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-de7f2a2d081e4c94430ff47778f70b69e1c9c7ac"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="228"
+       y="186"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-9568e818ba22be3a2b537b58383df92b2e369068"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="242"
+       y="186"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-4c8bf02e8f78c3240c6f5195f477b5b1af3f5b3b"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel with a grille set into one wall"
+       x="256"
+       y="186"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-f00d3506afef1a774d7a1ab5701e1b14525d705d"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="270"
+       y="200"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-66d8c50eb75581fc319715b1376504c2a36b7672"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="270"
+       y="186"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-f52565b871033aef58308b71bdaa41531a9f42e0"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="284"
+       y="172"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-0c4104e1f86666505e7d976aa2a2086117964bcd"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="298"
+       y="158"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-59ffbed2c304f620f8dfc195aa4d2d526e076e13"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel with a grille set into one wall"
+       x="312"
+       y="158"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-44fa60e1a8022b23621f0b521bc253c2805c4909"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="326"
+       y="158"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-9d66da8ed5c5c1cf367fa8f3157b2946dd75b1df"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="340"
+       y="144"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-0fb8255832950cb709abf043f6ebecb44574b86a"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="340"
+       y="130"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-0750d8adc4ab519070538d02e41b0e44050032dc"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="340"
+       y="116"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-ad99bd8cd7223d8579b19f22569a40b0c6b0b78f"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel with a ledge running along one wall"
+       x="32"
+       y="158"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-40c29cd3efecd2fb1643313afd86ac02b01eba2d"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="32"
+       y="144"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-a6c0f62165e585902ce68dd607cfd30b4686c6af"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="32"
+       y="130"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-0e7b6308e23d5e0e2f25e6024f7efa79bfe93787"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="18"
+       y="102"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-624d4fa166f8b8ac992a4857ebf3ca6ce2e7b58e"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="4"
+       y="88"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-70fa5265e58fa4ba53aea8a31bcf752244e30004"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="18"
+       y="74"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-82b87247dc54318b35bbe6199cdbc1f23d97d41f"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel with a grille set into one wall"
+       x="32"
+       y="60"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-c0590df33b119a770df69fe09468e55add3208f6"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel with a ledge running along one wall"
+       x="46"
+       y="46"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-8eb090338ac53b6ed01192c6e9e6bd3024fc2b01"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel with a grille set into one wall"
+       x="186"
+       y="144"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-5bed22aae0424c8b477c5fa70dde996df0e269df"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="186"
+       y="158"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-f9792de44fc38a186d7394825d5bd1d64ec90430"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="312"
+       y="74"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-2e209f1532bc0a9a389fbf8fd348eada3187ee27"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="326"
+       y="88"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-80c048ba2a3a33394a8c3340cf152f078a0c9294"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="340"
+       y="102"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-0bdd5551a649f1a4894fc7fb0b46f937abcecd94"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="326"
+       y="102"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-23276048e463aaf39c766c1723e93661d0544382"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="298"
+       y="60"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-cbff55bb3ef647b6f312b212c5816598d3b12d8e"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel with a ledge running along one wall"
+       x="284"
+       y="60"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-e4efeeddecfec42bb5b709527d34a1b3cba3e13e"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="270"
+       y="46"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-da36c401eaf76bb5f157b67abe3c5596eeb122e2"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="60"
+       y="32"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-c013b68fddb2769ba33c2ff8744df5032c5c0f54"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="74"
+       y="32"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-5a0bcaff0245b5b42eaa13f5bdd322d47980beed"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="242"
+       y="32"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-3d364b3c62a95e78838903c5ca296751ca7ee496"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="228"
+       y="32"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-20b588e5d9ef434813e18888b81a0429203da079"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="214"
+       y="32"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-f36a0072ee97142ea43fce2ccc29e07a884300e4"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel with a ledge running along one wall"
+       x="172"
+       y="172"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-4489281e5efb6060d8e8298afbc738d1e284ed8c"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel with a grille set into one wall"
+       x="200"
+       y="130"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-af0fdc5bb402f2966398f8fdd2c4c3362e47d18e"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="200"
+       y="116"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-5e2081439ab922f7fa5c7ded7f96e51d62c6a609"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="200"
+       y="102"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-1f4f3ad4083116fab1fc0259c666909449ff717a"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="200"
+       y="88"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-a241da9b5b7aa7b419eb39d2021168bdc9950a4b"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="200"
+       y="74"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-48319f120f2936b0e169fb5fe1acbd33cd25cf83"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="214"
+       y="144"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-0e6ea7b25910bb657fd656f2fc8f13c25f2741d0"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="200"
+       y="158"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-69047221fcee133fb9edcff850aaed7482e42bf7"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="256"
+       y="172"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-81ac8b070787f6037c1831643ad17d7e3d8d9212"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="256"
+       y="158"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-4bff60dac46cf5118162976bab3cbe705c7b0fcc"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="270"
+       y="144"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-093900de688641110888c9280daa645582fe5064"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="270"
+       y="130"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-d831728badb22d8a4f1021a39b0afe49d392bfbf"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="256"
+       y="130"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-00f62a887952182a40ffab4e84bce9a9da747173"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel with a ledge running along one wall"
+       x="284"
+       y="130"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-3f86dec7df42fb5a855b27c376c28c71a7920f90"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="298"
+       y="130"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-dd5a5ef8837470bce5db8c863a26dbdd64399215"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="298"
+       y="144"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-df124568708dab2da7335afe0597a0c3f6efaf3a"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="214"
+       y="284"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-61621be355ba7570de482fa0852844a145a17ac4"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="228"
+       y="284"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-39509d9e6aeb0d2f4d2b24540759af65c5bde8a8"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="242"
+       y="270"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-c7da48ec2cf71aa72901d712e045aeec0d66726d"
+       class="room indoor"
+       data-label="dank and draughty sewer tunnel"
+       x="312"
+       y="130"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-f8a857039f94af1eb191af12fc84fdf0420caa1c"
+       class="room indoor"
+       data-label="underground room"
+       x="298"
+       y="189"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-74ef431c926e729fe1e07e225727c14b44919188"
+       class="room indoor"
+       data-label="underground tunnel"
+       x="298"
+       y="189"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-02f1d1b27eab8d65affb880525ddafb9f0941735"
+       class="room indoor"
+       data-label="silent tunnel"
+       x="298"
+       y="189"
+       width="8"
+       height="8"
+       rx="2" /></g><g
+     id="layer-room-labels" /><g
+     id="layer-labels"><!-- labels --></g></svg>
