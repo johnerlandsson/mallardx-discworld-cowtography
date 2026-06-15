@@ -14,7 +14,7 @@ match = ["discworld.starturtle.net:*"]
 
 [permissions]
 sends       = true
-gmcp_access = ["room.info", "char.info", "char.info.*"]
+gmcp_access = ["room.info", "char.info", "char.info.*", "char.info.capname"]
 
 [gmcp]
 advertise = ["room.info", "char.info"]

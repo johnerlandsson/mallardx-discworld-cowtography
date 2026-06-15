@@ -39,6 +39,7 @@ Overrides or supplements the auto-detected room type for specific rooms. Use it 
 | `lang` | L | dark orange | Manual only |
 | `crafts` | K | dark green (muted) | Manual only |
 | `tshop` | T | near-black | Manual only |
+| `temple` | R | dark purple | Manual only |
 
 **Priority:** `shop_items` keywords → `room_short` patterns → `room-types.json` (always wins).
 
@@ -82,6 +83,50 @@ Compact rooms are slightly transparent (`opacity: 0.7`) to further reduce visual
 
 - Compact rooms can still have a type (from `room-types.json`) — the type letter will render at the same position but inside the smaller shape. In practice, tight corridors rarely have shops, so this combination is uncommon.
 - Compact rooms still show stair indicators if the room has vertical exits.
+- Rebuild with `npm run build:svg && npm run sync:svg` after editing.
+
+---
+
+## room-green.json
+
+**File:** `ui/data/room-green.json`
+
+Marks rooms that are in a green/natural area (parks, forests, countryside). Green rooms render with a dark green fill and green stroke (`.room.green`); exits between two green rooms get a muted green stroke (`.exit-green`).
+
+**Format:**
+
+```json
+["<room_id>", "<room_id>", ...]
+```
+
+**Finding room IDs:** Same as `room-compact.json` — search the SVG for the room's `data-label`, read the `id` attribute, strip the `room-` prefix. Or use `dbid` in-game.
+
+**Notes:**
+
+- An exit only gets `.exit-green` colouring when **both** endpoints are in `room-green.json`.
+- Green rooms can still carry a type from `room-types.json`.
+- Rebuild with `npm run build:svg && npm run sync:svg` after editing.
+
+---
+
+## room-water.json
+
+**File:** `ui/data/room-water.json`
+
+Marks rooms that are on or near water (rivers, docks, boats). Water rooms render with a dark blue fill and blue stroke (`.room.water`); exits between two water rooms get a blue stroke (`.exit-water`).
+
+**Format:**
+
+```json
+["<room_id>", "<room_id>", ...]
+```
+
+**Finding room IDs:** Same as `room-compact.json` — search the SVG for the room's `data-label`, read the `id` attribute, strip the `room-` prefix. Or use `dbid` in-game.
+
+**Notes:**
+
+- An exit only gets `.exit-water` colouring when **both** endpoints are in `room-water.json`.
+- Water rooms can still carry a type from `room-types.json`.
 - Rebuild with `npm run build:svg && npm run sync:svg` after editing.
 
 ---

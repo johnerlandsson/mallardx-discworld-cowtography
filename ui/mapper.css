@@ -104,6 +104,7 @@ body {
 .room-club                               { fill: #1a1a4a; }
 .room-pshop                              { fill: #3a0838; }
 .room-tshop                              { fill: #080808; }
+.room-temple                             { fill: #2d1a47; }
 
 /* ─── UU Library overlay ───────────────────────────────────────────────────── */
 .lib-distortion { fill: rgba(220, 20, 20, 0.9); }
