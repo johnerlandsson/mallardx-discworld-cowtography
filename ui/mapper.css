@@ -176,3 +176,48 @@ body {
   font-size: 0.65rem; margin-top: 0.2em; letter-spacing: 0.07em; opacity: 0.5;
 }
 
+/* ─── Route footer ─────────────────────────────────────────────────────────── */
+.route-footer[hidden] { display: none; }
+.route-footer {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 24px;
+  padding: 0 8px;
+  background: var(--bg-elevated);
+  border-top: 1px solid var(--border);
+  flex: 0 0 auto;
+}
+.route-dest {
+  flex: 1;
+  color: var(--muted);
+  font-size: 11px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.route-walk {
+  background: color-mix(in srgb, var(--accent) 15%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent) 40%, transparent);
+  color: var(--accent);
+  border-radius: 3px;
+  padding: 2px 6px;
+  font-size: 10px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.route-walk:hover {
+  background: color-mix(in srgb, var(--accent) 25%, transparent);
+}
+.route-clear {
+  color: var(--muted);
+  font-size: 13px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0 2px;
+  line-height: 1;
+}
+.route-clear:hover {
+  color: var(--fg);
+}
