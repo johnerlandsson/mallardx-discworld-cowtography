@@ -49,7 +49,9 @@ local SPECIAL_SCREENS = {
 
 local panel        = mud.panel("map")
 local last_payload = nil
-local last_route   = nil
+local last_route             = nil
+local last_route_destination = nil
+local last_route_steps       = nil
 
 local function post_room(payload)
   panel:post("room_info", {
@@ -61,9 +63,11 @@ local function post_room(payload)
   })
 end
 
-local function post_route(room_ids)
-  last_route = room_ids
-  panel:post("route_set", { rooms = room_ids })
+local function post_route(room_ids, destination, steps)
+  last_route             = room_ids
+  last_route_destination = destination
+  last_route_steps       = steps
+  panel:post("route_set", { rooms = room_ids, destination = destination, steps = steps })
 end
 
 local function post_route_clear()
@@ -92,7 +96,9 @@ panel:on_message("ready", function()
     if last_lib_overlay  then panel:post("library_overlay",  last_lib_overlay)  end
   else
     if last_payload then post_room(last_payload) end
-    if last_route   then panel:post("route_set", { rooms = last_route }) end
+    if last_route then
+      panel:post("route_set", { rooms = last_route, destination = last_route_destination, steps = last_route_steps })
+    end
   end
 end)
 
@@ -632,7 +638,7 @@ local function route_to_room(room_id, display_name, walk_immediately)
     walk_steps[#walk_steps + 1] = dir
   end
   walk_target_name = display_name
-  post_route(route_rooms)
+  post_route(route_rooms, display_name, steps)
 
   if steps > 140 then
     note('  Warning: long route. Discworld clears movement queues after 5 minutes of idle time.', C.header)
@@ -647,6 +653,26 @@ local function route_to_room(room_id, display_name, walk_immediately)
     note(string.format('  Route to "%s" — %d move%s. Type "db walk" to begin.', display_name, steps, steps == 1 and '' or 's'), C.ok)
   end
 end
+
+panel:on_message("room_click", function(frame)
+  route_to_room(frame.id, frame.name, false)
+end)
+
+panel:on_message("walk_request", function(_frame)
+  if #walk_steps == 0 or walk_pos > 0 then return end
+  walk_pos = 1
+  note(string.format('  Walking to "%s" — %d move%s.',
+    walk_target_name, #walk_steps, #walk_steps == 1 and '' or 's'), C.ok)
+  mud.send(walk_steps[1])
+end)
+
+panel:on_message("clear_request", function(_frame)
+  walk_steps       = {}
+  walk_pos         = 0
+  walk_target_name = ''
+  post_route_clear()
+  note('  Route cleared.', C.muted)
+end)
 
 local function do_route(n, walk_immediately)
   if #last_results == 0 then
@@ -823,7 +849,7 @@ end)
 -- ─── ocd ─────────────────────────────────────────────────────────────────────
 -- Re-centre the map on the current position without sending 'look' to the MUD.
 
-mud.alias([[^ocd$]], function()
+mud.command("ocd", function()
   if last_payload then
     post_room(last_payload)
   else
