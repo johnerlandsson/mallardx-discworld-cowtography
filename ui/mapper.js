@@ -564,6 +564,7 @@ panel.on("room_info", async (frame) => {
 panel.on("route_set", (frame) => {
   routeRoomIds = Array.isArray(frame.rooms) ? frame.rooms : [];
   applyState();
+  $routeWalk.disabled = false;
   if (frame.destination) {
     const s = frame.steps ?? Math.max(0, routeRoomIds.length - 1);
     $routeDest.textContent = `→ ${frame.destination} (${s} move${s === 1 ? '' : 's'})`;
@@ -573,9 +574,12 @@ panel.on("route_set", (frame) => {
   }
 });
 
+panel.on("walk_active", () => { $routeWalk.disabled = true; });
+
 panel.on("route_clear", () => {
   routeRoomIds = [];
   applyState();
+  $routeWalk.disabled = false;
   $footer.hidden = true;
 });
 

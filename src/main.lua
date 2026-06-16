@@ -650,6 +650,7 @@ local function route_to_room(room_id, display_name, walk_immediately)
     walk_pos = 1
     note(string.format('  Walking to "%s" — %d move%s.', display_name, steps, steps == 1 and '' or 's'), C.ok)
     mud.send(walk_steps[1])
+    panel:post("walk_active", {})
   else
     walk_pos = 0
     note(string.format('  Route to "%s" — %d move%s. Type "db walk" to begin.', display_name, steps, steps == 1 and '' or 's'), C.ok)
@@ -666,6 +667,7 @@ panel:on_message("walk_request", function(_frame)
   note(string.format('  Walking to "%s" — %d move%s.',
     walk_target_name, #walk_steps, #walk_steps == 1 and '' or 's'), C.ok)
   mud.send(walk_steps[1])
+  panel:post("walk_active", {})
 end)
 
 panel:on_message("clear_request", function(_frame)
