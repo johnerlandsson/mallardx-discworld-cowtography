@@ -20,6 +20,7 @@
       .shades-path-green { fill: #4ade80; stroke: none; }
       .shades-exit       { fill: #b58a00; stroke: #ffffff; stroke-width: 0.4; paint-order: stroke fill; }
       .shades-room       { fill: #d0d0d0; stroke: #333333; stroke-width: 1; }
+      .shades-exit-label { fill: #282828; }
     </style>
   </defs>
   <sodipodi:namedview
@@ -982,7 +983,7 @@
        x="51.829514"
        y="174.31763"
        id="text48"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -996,7 +997,7 @@
        x="53.804543"
        y="179.87662"
        id="text105"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1010,7 +1011,7 @@
        x="51.903946"
        y="185.64017"
        id="text106"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1024,7 +1025,7 @@
        x="108.01569"
        y="171.9633"
        id="text107"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1038,7 +1039,7 @@
        x="113.7233"
        y="174.33653"
        id="text108"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1052,7 +1053,7 @@
        x="115.92562"
        y="179.91362"
        id="text109"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1066,7 +1067,7 @@
        x="113.7233"
        y="185.64893"
        id="text110"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1080,7 +1081,7 @@
        x="108.13435"
        y="187.86227"
        id="text111"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1094,7 +1095,7 @@
        x="102.24084"
        y="185.64893"
        id="text112"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1108,7 +1109,7 @@
        x="100.20382"
        y="180.071"
        id="text113"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1122,7 +1123,7 @@
        x="102.24084"
        y="174.17749"
        id="text114"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1136,7 +1137,7 @@
        x="107.83495"
        y="140.6106"
        id="text107-5"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1150,7 +1151,7 @@
        x="113.54256"
        y="142.98383"
        id="text108-7"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1164,7 +1165,7 @@
        x="115.74488"
        y="148.56091"
        id="text109-3"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1178,7 +1179,7 @@
        x="113.54256"
        y="154.29622"
        id="text110-8"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1192,7 +1193,7 @@
        x="107.95361"
        y="156.50957"
        id="text111-1"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1206,7 +1207,7 @@
        x="102.0601"
        y="154.29622"
        id="text112-9"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1220,7 +1221,7 @@
        x="100.02308"
        y="148.71829"
        id="text113-4"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1234,7 +1235,7 @@
        x="82.591209"
        y="142.98383"
        id="text108-4"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1248,7 +1249,7 @@
        x="84.793533"
        y="148.56091"
        id="text109-8"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1262,7 +1263,7 @@
        x="82.591209"
        y="154.29622"
        id="text110-7"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1276,7 +1277,7 @@
        x="77.002266"
        y="156.50957"
        id="text111-6"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1290,7 +1291,7 @@
        x="71.108749"
        y="154.29622"
        id="text112-3"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1304,7 +1305,7 @@
        x="139.05652"
        y="140.30051"
        id="text107-4"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1318,7 +1319,7 @@
        x="146.96645"
        y="148.25082"
        id="text109-6"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1332,7 +1333,7 @@
        x="144.76411"
        y="153.98613"
        id="text110-2"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1346,7 +1347,7 @@
        x="139.17517"
        y="156.19948"
        id="text111-4"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1360,7 +1361,7 @@
        x="133.28166"
        y="153.98613"
        id="text112-7"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1374,7 +1375,7 @@
        x="131.24464"
        y="148.4082"
        id="text113-48"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1388,7 +1389,7 @@
        x="133.28166"
        y="142.51469"
        id="text114-2"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1402,7 +1403,7 @@
        x="170.34709"
        y="156.35852"
        id="text111-11"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1416,7 +1417,7 @@
        x="164.45358"
        y="154.14517"
        id="text112-8"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1430,7 +1431,7 @@
        x="162.41656"
        y="148.56725"
        id="text113-6"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1444,7 +1445,7 @@
        x="164.45358"
        y="142.67374"
        id="text114-6"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1458,7 +1459,7 @@
        x="144.70125"
        y="122.77185"
        id="text110-6"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1472,7 +1473,7 @@
        x="139.1123"
        y="124.9852"
        id="text111-9"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1486,7 +1487,7 @@
        x="133.2188"
        y="122.77185"
        id="text112-1"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1500,7 +1501,7 @@
        x="131.18178"
        y="117.19392"
        id="text113-1"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1514,7 +1515,7 @@
        x="115.59679"
        y="117.50004"
        id="text109-33"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1528,7 +1529,7 @@
        x="113.39446"
        y="123.23534"
        id="text110-5"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1542,7 +1543,7 @@
        x="107.80552"
        y="125.44869"
        id="text111-64"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1556,7 +1557,7 @@
        x="101.912"
        y="123.23534"
        id="text112-4"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1570,7 +1571,7 @@
        x="77.367455"
        y="171.9633"
        id="text107-8"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1584,7 +1585,7 @@
        x="83.075058"
        y="174.33653"
        id="text108-99"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1598,7 +1599,7 @@
        x="85.277382"
        y="179.91362"
        id="text109-0"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1612,7 +1613,7 @@
        x="83.075058"
        y="185.64893"
        id="text110-76"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1626,7 +1627,7 @@
        x="77.486115"
        y="187.86227"
        id="text111-3"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1640,7 +1641,7 @@
        x="69.55558"
        y="180.071"
        id="text113-9"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1654,7 +1655,7 @@
        x="77.275055"
        y="202.72922"
        id="text107-87"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1668,7 +1669,7 @@
        x="82.982658"
        y="205.10245"
        id="text108-80"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1682,7 +1683,7 @@
        x="85.184982"
        y="210.67953"
        id="text109-9"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1696,7 +1697,7 @@
        x="82.982658"
        y="216.41484"
        id="text110-1"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1710,7 +1711,7 @@
        x="71.500198"
        y="204.94341"
        id="text114-0"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1724,7 +1725,7 @@
        x="108.35809"
        y="202.84889"
        id="text107-80"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1738,7 +1739,7 @@
        x="114.0657"
        y="205.22212"
        id="text108-0"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1752,7 +1753,7 @@
        x="116.26802"
        y="210.79921"
        id="text109-96"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1766,7 +1767,7 @@
        x="114.0657"
        y="216.53452"
        id="text110-4"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1780,7 +1781,7 @@
        x="108.47675"
        y="218.74786"
        id="text111-99"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1794,7 +1795,7 @@
        x="100.54622"
        y="210.95659"
        id="text113-0"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1808,7 +1809,7 @@
        x="102.58324"
        y="205.06308"
        id="text114-94"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1822,7 +1823,7 @@
        x="139.65744"
        y="202.06804"
        id="text107-7"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1836,7 +1837,7 @@
        x="145.36504"
        y="204.44127"
        id="text108-1"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1850,7 +1851,7 @@
        x="147.56737"
        y="210.01836"
        id="text109-94"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1864,7 +1865,7 @@
        x="139.77609"
        y="217.96701"
        id="text111-8"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1878,7 +1879,7 @@
        x="133.88258"
        y="215.75366"
        id="text112-2"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1892,7 +1893,7 @@
        x="131.84557"
        y="210.17574"
        id="text113-8"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1906,7 +1907,7 @@
        x="133.88258"
        y="204.28223"
        id="text114-68"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1920,7 +1921,7 @@
        x="170.52422"
        y="202.07507"
        id="text107-33"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1934,7 +1935,7 @@
        x="164.74936"
        y="215.7607"
        id="text112-26"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1948,7 +1949,7 @@
        x="162.71234"
        y="210.18277"
        id="text113-65"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1962,7 +1963,7 @@
        x="164.74936"
        y="204.28926"
        id="text114-96"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1976,7 +1977,7 @@
        x="139.88866"
        y="232.95032"
        id="text107-0"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -1990,7 +1991,7 @@
        x="145.59625"
        y="235.32355"
        id="text108-70"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2004,7 +2005,7 @@
        x="132.07678"
        y="241.05801"
        id="text113-89"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2018,7 +2019,7 @@
        x="134.1138"
        y="235.16451"
        id="text114-4"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2032,7 +2033,7 @@
        x="108.58185"
        y="233.79819"
        id="text107-57"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2046,7 +2047,7 @@
        x="114.28945"
        y="236.17142"
        id="text108-94"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2060,7 +2061,7 @@
        x="116.49178"
        y="241.7485"
        id="text109-35"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2074,7 +2075,7 @@
        x="102.80699"
        y="236.01237"
        id="text114-1"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2088,7 +2089,7 @@
        x="139.28026"
        y="171.31746"
        id="text107-1"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2102,7 +2103,7 @@
        x="144.98785"
        y="173.69069"
        id="text108-73"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2116,7 +2117,7 @@
        x="147.19019"
        y="179.26778"
        id="text109-1"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2130,7 +2131,7 @@
        x="144.98785"
        y="185.00308"
        id="text110-56"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2144,7 +2145,7 @@
        x="139.39891"
        y="187.21643"
        id="text111-40"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2158,7 +2159,7 @@
        x="133.5054"
        y="185.00308"
        id="text112-47"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2172,7 +2173,7 @@
        x="131.46838"
        y="179.42516"
        id="text113-85"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2186,7 +2187,7 @@
        x="133.5054"
        y="173.53165"
        id="text114-60"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2200,7 +2201,7 @@
        x="170.52422"
        y="171.60851"
        id="text107-46"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2214,7 +2215,7 @@
        x="170.64287"
        y="187.50748"
        id="text111-645"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2228,7 +2229,7 @@
        x="164.74936"
        y="185.29413"
        id="text112-29"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2242,7 +2243,7 @@
        x="162.71234"
        y="179.7162"
        id="text113-94"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2256,7 +2257,7 @@
        x="164.74936"
        y="173.82269"
        id="text114-03"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2270,7 +2271,7 @@
        x="176.04027"
        y="173.46753"
        id="text115"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2284,7 +2285,7 @@
        x="176.37471"
        y="184.57826"
        id="text116"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="3px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2298,7 +2299,7 @@
        x="77.059052"
        y="181.142"
        id="text2"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="6px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2312,7 +2313,7 @@
        x="77.184151"
        y="212.07684"
        id="text3"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="6px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2326,7 +2327,7 @@
        x="76.730049"
        y="149.91669"
        id="text4"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="6px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2340,7 +2341,7 @@
        x="107.43645"
        y="118.42841"
        id="text5"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="6px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2354,7 +2355,7 @@
        x="107.7336"
        y="149.83521"
        id="text6"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="6px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2368,7 +2369,7 @@
        x="108.09383"
        y="180.6586"
        id="text7"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="6px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2382,7 +2383,7 @@
        x="108.18109"
        y="212.0013"
        id="text8"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="6px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2396,7 +2397,7 @@
        x="108.38763"
        y="243.09639"
        id="text9"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="6px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2410,7 +2411,7 @@
        x="138.79877"
        y="118.09248"
        id="text10"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="6px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2424,7 +2425,7 @@
        x="139.04041"
        y="149.16396"
        id="text11"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="6px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2438,7 +2439,7 @@
        x="139.25217"
        y="180.47075"
        id="text12"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="6px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2452,7 +2453,7 @@
        x="139.36656"
        y="211.76797"
        id="text13"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="6px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2466,7 +2467,7 @@
        x="139.6933"
        y="242.42451"
        id="text14"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="6px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2480,7 +2481,7 @@
        x="170.10539"
        y="149.17549"
        id="text15"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="6px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2494,7 +2495,7 @@
        x="170.33"
        y="180.25848"
        id="text16"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="6px"
        style="font-family:'Noto Sans', sans-serif"><tspan
@@ -2508,7 +2509,7 @@
        x="170.55267"
        y="211.34151"
        id="text17"
-       class="map-label"
+       class="shades-exit-label"
        text-anchor="middle"
        font-size="6px"
        style="font-family:'Noto Sans', sans-serif"><tspan

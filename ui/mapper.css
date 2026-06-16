@@ -71,7 +71,7 @@ body {
 .exit-compact { stroke-width: 0.75; }
 .exit-offmap  { stroke: #3a3a3a; stroke-width: 1.5; stroke-dasharray: 3 2; fill: none; }
 .room-phantom { fill: var(--bg); stroke: var(--ansi-3, #c8a228); stroke-width: 0.5; }
-.room.water   { fill: #0d1f2d; stroke: #4a9fd4; }
+.room.water   { fill: color-mix(in srgb, #4a9fd4 20%, var(--bg)); stroke: #4a9fd4; }
 .exit-water   { stroke: #4a9fd4; }
 .room.green   { fill: #0d1f0d; stroke: #4a9f4a; }
 .exit-green   { stroke: #3d6b3d; }
@@ -88,8 +88,8 @@ body {
 .exit-journey        { stroke: var(--ansi-3, #c8a228); stroke-width: 1.82; fill: none; }
 .exit-journey-offmap { stroke: var(--ansi-3, #c8a228); stroke-width: 1.82; stroke-dasharray: 3 2; fill: none; }
 .exit-ferry          { stroke: #a8d8f0; stroke-width: 1.82; stroke-dasharray: 0 4; stroke-linecap: round; fill: none; }
-.map-river           { stroke: #0d1f2d;      stroke-width: 1.82; fill: none; }
-.map-river-offmap    { stroke: #0d1f2d;      stroke-width: 1.82; stroke-dasharray: 3 2; fill: none; }
+.map-river           { stroke: color-mix(in srgb, #4a9fd4 40%, var(--bg)); stroke-width: 1.82; fill: none; }
+.map-river-offmap    { stroke: color-mix(in srgb, #4a9fd4 40%, var(--bg)); stroke-width: 1.82; stroke-dasharray: 3 2; fill: none; }
 .lib-exit     { stroke-width: 3; }
 .stair-symbol { fill: var(--fg); pointer-events: none; }
 .room-compact    { opacity: 0.7; }
@@ -129,7 +129,7 @@ body {
 .map-label-accent { fill: var(--accent); font-family: "Noto Sans", sans-serif; }
 .map-area-fill   { fill: var(--bg-elevated); }
 .map-area-stroke { stroke: var(--border);    fill: none; }
-.map-water       { fill: #0d1f2d; }
+.map-water       { fill: color-mix(in srgb, #4a9fd4 20%, var(--bg)); }
 .map-accent      { fill: var(--accent); }
 .anno-box        { stroke: var(--fg); stroke-width: 0.75; fill: var(--bg-elevated); }
 .anno-box-sm     { stroke: none; fill: var(--bg-elevated); }
@@ -185,6 +185,8 @@ body {
 /* Exit arrows + their number labels — apply to both <path>/<line> and <text> */
 .map-svg .shades-exit       { fill: var(--ansi-11, #e5c07b); stroke: var(--bg, #1a1a1a); stroke-width: 0.4; paint-order: stroke fill; }
 .map-svg .shades-room       { fill: var(--bg-elevated); stroke: var(--fg); stroke-width: 1; }
+/* Text labels sitting on top of shades-exit shapes */
+.map-svg .shades-exit-label { fill: var(--bg); }
 
 /* ─── Route footer ─────────────────────────────────────────────────────────── */
 .route-footer {
