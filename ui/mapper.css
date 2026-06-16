@@ -209,6 +209,8 @@ body {
 .route-walk:hover {
   background: color-mix(in srgb, var(--accent) 25%, transparent);
 }
+.route-walk:disabled,
+.route-clear:disabled { opacity: 0.4; cursor: not-allowed; }
 .route-clear {
   color: var(--muted);
   font-size: 13px;
@@ -218,6 +220,6 @@ body {
   padding: 0 2px;
   line-height: 1;
 }
-.route-clear:hover {
+.route-clear:hover:not(:disabled) {
   color: var(--fg);
 }
