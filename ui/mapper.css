@@ -176,6 +176,16 @@ body {
   font-size: 0.65rem; margin-top: 0.2em; letter-spacing: 0.07em; opacity: 0.5;
 }
 
+/* ─── Shades maze reference colours ─────────────────────────────────────────── */
+/* Numbers in room circles = exit count. Exit arrows drawn manually.           */
+/* .map-svg prefix raises specificity above the SVG-embedded <style> fallbacks */
+.map-svg .shades-path-blue  { fill: var(--ansi-12, #61afef); stroke: none; }
+.map-svg .shades-path-pink  { fill: var(--ansi-13, #c678dd); stroke: none; }
+.map-svg .shades-path-green { fill: var(--ansi-10, #4ade80); stroke: none; }
+/* Exit arrows + their number labels — apply to both <path>/<line> and <text> */
+.map-svg .shades-exit       { fill: var(--ansi-11, #e5c07b); stroke: var(--bg, #1a1a1a); stroke-width: 0.4; paint-order: stroke fill; }
+.map-svg .shades-room       { fill: var(--bg-elevated); stroke: var(--fg); stroke-width: 1; }
+
 /* ─── Route footer ─────────────────────────────────────────────────────────── */
 .route-footer {
   display: flex;
