@@ -35,15 +35,15 @@ text, .map-label, .map-label-muted, .map-label-accent,
    inkscape:pageopacity="0.0"
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#d1d1d1"
-   inkscape:zoom="0.6369427"
-   inkscape:cx="211.94999"
-   inkscape:cy="593.45998"
+   inkscape:zoom="5.0955416"
+   inkscape:cx="520.45498"
+   inkscape:cy="491.60623"
    inkscape:window-width="1968"
    inkscape:window-height="1011"
    inkscape:window-x="26"
    inkscape:window-y="23"
    inkscape:window-maximized="0"
-   inkscape:current-layer="svg853"
+   inkscape:current-layer="layer-room-labels"
    showgrid="false" /><g
    id="layer-artwork"><!-- artwork --><path
      d="m 1012,648 -21,10e-6"
@@ -1283,7 +1283,24 @@ text, .map-label, .map-label-muted, .map-label-accent,
        sodipodi:role="line"
        x="684.14398"
        y="166.94"
-       id="tspan916">WATCH HOUSE</tspan></text></g><g
+       id="tspan916">WATCH HOUSE</tspan></text><path
+     d="m 410,326 h 56 l 14,14 v 14 l -14,14 -14,14 h -14 l -14,14 h -42 l -14,-14 v -28 l 14,-14 h 14 z"
+     id="path917"
+     sodipodi:nodetypes="ccccccccccc"
+     class="map-water" /><path
+     d="m 578,480 -14,0.004"
+     id="path918"
+     class="exit-offmap"
+     fill="none"
+     stroke="#888888" /><rect
+     id="room-8f7d8909e1bb1fe402c81a046eb7f48af9951e0d"
+     class="room indoor room-temple"
+     data-label="nave"
+     x="560"
+     y="476.004"
+     width="8"
+     height="8"
+     rx="2" /></g><g
    id="layer-exits">
     <line id="edge-284a1cd521c3556c6b1670450dbcb50f78a07187-5a3c0a822a2ba329493fd4db2f4e59508c08d548" class="exit exit-green" x1="480" y1="284" x2="494" y2="284"/>
     <line id="edge-0e1ef72ba45472c9db204f2b8ebcb47e5ca50fc6-7336fdc60e05d15412e691105f3eba791ae3c9bd" class="exit exit-green" x1="368" y1="382" x2="354" y2="368"/>
@@ -10087,5 +10104,13 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-2dbe1f04f43f0697e3cd03d4505bc63367adfa44" class="room outdoor" data-label="west Ankh ferry" cx="45" cy="547" r="4"/>
     <rect id="room-a962f2a42b66b80ccb85b430802fd4a7a108c96f" class="room indoor" data-label="grim workshop" x="1305" y="504" width="8" height="8" rx="2"/>
   </g><g
-   id="layer-room-labels" /><g
+   id="layer-room-labels"><text
+     class="room-type-label"
+     font-size="4.5px"
+     x="564"
+     y="480.004"
+     text-anchor="middle"
+     dominant-baseline="central"
+     id="text24-9"
+     style="font-family:'Noto Sans', sans-serif">R</text></g><g
    id="layer-labels"><!-- labels --></g></svg>
