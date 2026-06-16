@@ -569,9 +569,12 @@ panel.on("route_set", (frame) => {
   if (frame.destination) {
     const s = frame.steps ?? Math.max(0, routeRoomIds.length - 1);
     $routeDest.textContent = `→ ${frame.destination} (${s} move${s === 1 ? '' : 's'})`;
-    $footer.hidden = false;
+    $routeWalk.hidden = false;
+    $routeClear.hidden = false;
   } else {
-    $footer.hidden = true;
+    $routeDest.textContent = '';
+    $routeWalk.hidden = true;
+    $routeClear.hidden = true;
   }
 });
 
@@ -580,9 +583,11 @@ panel.on("walk_active", () => { $routeWalk.disabled = true; $routeClear.disabled
 panel.on("route_clear", () => {
   routeRoomIds = [];
   applyState();
+  $routeDest.textContent = '';
+  $routeWalk.hidden = true;
+  $routeClear.hidden = true;
   $routeWalk.disabled = false;
   $routeClear.disabled = false;
-  $footer.hidden = true;
 });
 
 panel.on("target_move", async (frame) => {

@@ -177,7 +177,6 @@ body {
 }
 
 /* ─── Route footer ─────────────────────────────────────────────────────────── */
-.route-footer[hidden] { display: none; }
 .route-footer {
   display: flex;
   align-items: center;
