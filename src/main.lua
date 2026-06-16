@@ -71,7 +71,9 @@ local function post_route(room_ids, destination, steps)
 end
 
 local function post_route_clear()
-  last_route = nil
+  last_route             = nil
+  last_route_destination = nil
+  last_route_steps       = nil
   panel:post("route_clear", {})
 end
 
