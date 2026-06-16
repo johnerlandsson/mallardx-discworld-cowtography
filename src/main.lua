@@ -835,7 +835,10 @@ mud.command("db", function(m)
   end
 
   do_search('room', args, nil)
-end)
+end, {
+  description = "Search Quow's Discworld database and navigate to results. Run with no arguments for full usage.",
+  usage       = "db [<room>|npc|item|npcitem|walk|clear|bm] [...]",
+})
 
 -- ─── dbid ────────────────────────────────────────────────────────────────────
 -- Toggle printing of the current room ID on every room transition.
@@ -860,7 +863,10 @@ mud.command("ocd", function()
   else
     note('  Current position unknown.', C.muted)
   end
-end)
+end, {
+  description = "Re-centre the map on the current position without sending 'look' to the MUD.",
+  usage       = "ocd",
+})
 
 -- ─── libclear ────────────────────────────────────────────────────────────────
 -- Manually clear library overlays (distortion + orb) without changing rooms.
