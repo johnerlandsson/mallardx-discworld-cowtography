@@ -10,6 +10,8 @@ Map data from **[Quow's Cow Bar and Minimap](https://quow.co.uk/minimap.php)**.
 
 The map panel opens automatically on the right side of the window. As you walk through the MUD it tracks your position and highlights it on the map. Zoom in and out with the `+` and `−` buttons. Hover over the map to see room names.
 
+**Click any room to route there.** The path is highlighted on the map and a footer appears at the bottom of the panel showing the destination and move count. Click **walk** to start walking, or **✕** to cancel. Middle-mouse drag pans the map; left-drag on empty space also pans.
+
 ---
 
 ## Commands
@@ -53,6 +55,8 @@ After a search, pick a result by number to route there and start walking immedia
 /db walk    — start or resume walking the current route
 /db clear   — cancel the current route
 ```
+
+You can also click any room on the map to set a route directly, without running a search first.
 
 > You must be in a room tracked by the map data for routing and distance sorting to work.
 
