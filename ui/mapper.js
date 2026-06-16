@@ -13,6 +13,10 @@ const $specialTitle = $special.querySelector(".special-title");
 const $specialSub   = $special.querySelector(".special-sub");
 const $zoomIn       = document.querySelector(".zoom-in");
 const $zoomOut      = document.querySelector(".zoom-out");
+const $footer     = document.querySelector(".route-footer");
+const $routeDest  = document.querySelector(".route-dest");
+const $routeWalk  = document.querySelector(".route-walk");
+const $routeClear = document.querySelector(".route-clear");
 
 const SPECIAL_SCREENS = {
   unknown:   { title: "Unknown Location",  sub: "No map data for this room." },
@@ -33,7 +37,8 @@ let libraryOverlay = null;  // { facing, distortion, orb } | null
 let lastKnownMapId = null;
 let displayedMapId = null;  // mapId of the SVG/canvas currently on screen
 let viewBox        = { x: 0, y: 0, w: 0, h: 0 };
-let drag           = null;  // { screenX, screenY, vbX, vbY } | null
+let drag              = null;  // { screenX, screenY, vbX, vbY } | null
+let pendingRoomClick  = null;  // { el, startX, startY } | null — candidate left-click on a room
 let loadGeneration = 0;
 let lspaceAnim     = null;  // requestAnimationFrame id for L-space bouncer
 let darkMode       = false; // true while in a room without a GMCP identifier
@@ -435,6 +440,8 @@ function applyLibraryOverlay() {
 // ─── Zoom buttons ─────────────────────────────────────────────────────────
 $zoomIn.addEventListener("click",  () => { viewBox.w /= ZOOM_FACTOR; viewBox.h /= ZOOM_FACTOR; applyViewBox(); });
 $zoomOut.addEventListener("click", () => { viewBox.w *= ZOOM_FACTOR; viewBox.h *= ZOOM_FACTOR; applyViewBox(); });
+$routeWalk.addEventListener("click",  () => { panel.post("walk_request",  {}); });
+$routeClear.addEventListener("click", () => { panel.post("clear_request", {}); });
 
 // ─── Scroll zoom ──────────────────────────────────────────────────────────
 $container.addEventListener("wheel", (e) => {
@@ -450,21 +457,51 @@ $container.addEventListener("wheel", (e) => {
   applyViewBox();
 }, { passive: false });
 
-// ─── Drag pan ─────────────────────────────────────────────────────────────
+// ─── Pointer events: pan + click-to-route ─────────────────────────────────
+// Middle mouse: pan anywhere.
+// Left mouse on empty space: pan.
+// Left click on a room (< 4px movement): route to that room.
 $container.addEventListener("pointerdown", (e) => {
-  if (!currentSvg || e.target.closest(".room")) return;
-  drag = { screenX: e.clientX, screenY: e.clientY, vbX: viewBox.x, vbY: viewBox.y };
-  $container.setPointerCapture(e.pointerId);
+  if (!currentSvg) return;
+  const roomEl = e.target.closest(".room");
+  if (e.button === 1) {
+    e.preventDefault();  // suppress browser autoscroll cursor
+    drag = { screenX: e.clientX, screenY: e.clientY, vbX: viewBox.x, vbY: viewBox.y };
+    $container.setPointerCapture(e.pointerId);
+  } else if (e.button === 0 && !roomEl) {
+    drag = { screenX: e.clientX, screenY: e.clientY, vbX: viewBox.x, vbY: viewBox.y };
+    $container.setPointerCapture(e.pointerId);
+  } else if (e.button === 0 && roomEl) {
+    pendingRoomClick = { el: roomEl, startX: e.clientX, startY: e.clientY };
+    $container.setPointerCapture(e.pointerId);
+  }
 });
 $container.addEventListener("pointermove", (e) => {
-  if (!drag) return;
-  const rect = $container.getBoundingClientRect();
-  viewBox.x  = drag.vbX - (e.clientX - drag.screenX) / rect.width  * viewBox.w;
-  viewBox.y  = drag.vbY - (e.clientY - drag.screenY) / rect.height * viewBox.h;
-  applyViewBox();
+  if (drag) {
+    const rect = $container.getBoundingClientRect();
+    viewBox.x  = drag.vbX - (e.clientX - drag.screenX) / rect.width  * viewBox.w;
+    viewBox.y  = drag.vbY - (e.clientY - drag.screenY) / rect.height * viewBox.h;
+    applyViewBox();
+  } else if (pendingRoomClick) {
+    const dx = e.clientX - pendingRoomClick.startX;
+    const dy = e.clientY - pendingRoomClick.startY;
+    if (Math.hypot(dx, dy) > 4) pendingRoomClick = null;
+  }
 });
-$container.addEventListener("pointerup",     () => { drag = null; });
-$container.addEventListener("pointercancel", () => { drag = null; });
+$container.addEventListener("pointerup", () => {
+  if (pendingRoomClick) {
+    const el = pendingRoomClick.el;
+    const roomId = el.id.slice(5);        // strip "room-" prefix
+    const name   = el.dataset.label ?? "";
+    panel.post("room_click", { id: roomId, name });
+  }
+  drag = null;
+  pendingRoomClick = null;
+});
+$container.addEventListener("pointercancel", () => {
+  drag = null;
+  pendingRoomClick = null;
+});
 
 // ─── Resize ───────────────────────────────────────────────────────────────
 new ResizeObserver(() => {
@@ -527,11 +564,19 @@ panel.on("room_info", async (frame) => {
 panel.on("route_set", (frame) => {
   routeRoomIds = Array.isArray(frame.rooms) ? frame.rooms : [];
   applyState();
+  if (frame.destination) {
+    const s = frame.steps ?? routeRoomIds.length;
+    $routeDest.textContent = `→ ${frame.destination} (${s} move${s === 1 ? '' : 's'})`;
+    $footer.hidden = false;
+  } else {
+    $footer.hidden = true;
+  }
 });
 
 panel.on("route_clear", () => {
   routeRoomIds = [];
   applyState();
+  $footer.hidden = true;
 });
 
 panel.on("target_move", async (frame) => {
