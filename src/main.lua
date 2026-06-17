@@ -550,6 +550,7 @@ mud.trigger([[^(?:> )?Removed queue\.$]], function()
 end)
 
 -- ─── db ──────────────────────────────────────────────────────────────────────
+local route_to_room  -- forward declaration; defined below after panel setup
 
 local function do_search(search_type, query, area_filter)
   local candidates
@@ -622,7 +623,7 @@ local function do_search(search_type, query, area_filter)
   display_results(search_type, query, results, sorted_by_dist)
 end
 
-local function route_to_room(room_id, display_name, walk_immediately)
+route_to_room = function(room_id, display_name, walk_immediately)
   if current_room == nil then
     note('  Current room unknown. Move through a mapped room first.', C.err)
     return
