@@ -899,6 +899,21 @@ end, {
   usage       = "pan <n|s|e|w>",
 })
 
+-- ─── zoom ────────────────────────────────────────────────────────────────────
+-- Zoom the map view in or out.
+
+mud.command("zoom", function(m)
+  local arg = m.args:lower()
+  if arg ~= "in" and arg ~= "out" then
+    note('  Usage: /zoom in|out', C.err)
+    return
+  end
+  panel:post("zoom", { dir = arg })
+end, {
+  description = "Zoom the map view in or out.",
+  usage       = "zoom <in|out>",
+})
+
 -- ─── libclear ────────────────────────────────────────────────────────────────
 -- Manually clear library overlays (distortion + orb) without changing rooms.
 
