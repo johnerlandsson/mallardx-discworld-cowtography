@@ -1,6 +1,6 @@
 {
   "name": "mallardx-discworld-cowtography",
-  "version": "0.16.1",
+  "version": "0.17.0",
   "type": "module",
   "scripts": {
     "test": "vitest run && lua tests/search_test.lua && lua tests/pathfind_test.lua",
@@ -9,7 +9,7 @@
     "build:data": "node scripts/build-db.mjs",
     "build:svg": "node scripts/build-svg.mjs",
     "sync:svg": "node scripts/sync-svg-js.mjs",
-    "pack": "rm -f discworld-cowtography-0.16.1.mallardx && zip -r discworld-cowtography-0.16.1.mallardx plugin.toml README.md src/ ui/ --exclude 'ui/maps/*.svg'"
+    "pack": "rm -f discworld-cowtography-0.17.0.mallardx && zip -r discworld-cowtography-0.17.0.mallardx plugin.toml README.md src/ ui/ --exclude 'ui/maps/*.svg'"
   },
   "devDependencies": {
     "adm-zip": "^0.5.10",
