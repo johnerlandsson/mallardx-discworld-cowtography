@@ -923,3 +923,18 @@ mud.alias([[^libclear$]], function()
   post_library_overlay()
   note('  Library overlays cleared.', C.muted)
 end)
+
+-- ─── keyboard map navigation ─────────────────────────────────────────────────
+-- Alt+arrows → pan, Alt+=/- → zoom, Alt+0 → re-centre.
+-- Uses keymap.bind (plugin-level keymaps). Will appear in /commands once
+-- Mallard's upcoming Lua keymap surface lands.
+
+keymap.bind("Alt+Up",    function() panel:post("pan",  { dir = "n" }) end)
+keymap.bind("Alt+Down",  function() panel:post("pan",  { dir = "s" }) end)
+keymap.bind("Alt+Left",  function() panel:post("pan",  { dir = "w" }) end)
+keymap.bind("Alt+Right", function() panel:post("pan",  { dir = "e" }) end)
+keymap.bind("Alt+=",     function() panel:post("zoom", { dir = "in"  }) end)
+keymap.bind("Alt+-",     function() panel:post("zoom", { dir = "out" }) end)
+keymap.bind("Alt+0",     function()
+  if last_payload then post_room(last_payload) end
+end)
