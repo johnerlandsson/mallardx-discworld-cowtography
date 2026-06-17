@@ -1,5 +1,7 @@
 node_modules/
 *.mallardx
+ui/maps/*.svg.*.js
+ui/maps/*.svg.*.svg
 
 # Claude working files
 claude_resources/
