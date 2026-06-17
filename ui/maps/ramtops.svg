@@ -2237,7 +2237,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-5a2c5fcddaa89db63110a5fec7c344a7b63a4347" class="room outdoor" data-label="northern end of Castle Way" cx="881" cy="237" r="4"/>
     <circle id="room-5093f2e2f5d2625b16ed0ad7d540c21b7a69fa1c" class="room outdoor" data-label="Castle Way outside the keep gates" cx="881" cy="251" r="4"/>
     <rect id="room-c7ac94bcc4e5ff6bcd417175a96765c13475a034" class="room indoor" data-label="hall" x="888" y="247" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="892,248 889.5,253 894.5,253"/>
-    <rect id="room-3903070ab58bf7fd52cc6484984647fe6133dfc6" class="room indoor" data-label="Ohulan-Cutash money changer" x="891" y="230" width="8" height="8" rx="2"/>
+    <rect id="room-3903070ab58bf7fd52cc6484984647fe6133dfc6" class="room indoor room-changer" data-label="Ohulan-Cutash money changer" x="891" y="230" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="895" y="234" text-anchor="middle" dominant-baseline="central">¢</text>
     <circle id="room-d623942da87b7854392b2a297eacc1092a2f313a" class="room outdoor" data-label="junction of Cutash Way and Lancre Street" cx="909" cy="223" r="4"/>
     <rect id="room-8bc2f3a5b643586ec10a721a07b943a00d40c8c7" class="room indoor room-weapon" data-label="weapons shop" x="905" y="208" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="909" y="212" text-anchor="middle" dominant-baseline="central">W</text>
     <circle id="room-98ae56ea0cb61926a06cca058ea737f252226873" class="room outdoor" data-label="north end of Cutash Way" cx="909" cy="237" r="4"/>

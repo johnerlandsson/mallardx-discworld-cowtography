@@ -1428,7 +1428,7 @@
     <circle id="room-78abdc29c1133d5df619753a84254fcc979abff8" class="room outdoor" data-label="Dockside Walk, near a market" cx="421" cy="279" r="4"/>
     <circle id="room-30fc2b987ab0c37289e5c3e5364a15b2ef346d2a" class="room outdoor" data-label="Dockside Walk, south of a market" cx="393" cy="251" r="4"/>
     <circle id="room-36525ac6ad7adef4b31f964ba7952eb156c30027" class="room outdoor" data-label="Dockside Walk, at the south end of a market" cx="379" cy="237" r="4"/>
-    <rect id="room-4c9b04fc5c87eb5f2c742dde897ed2be2ac8aa80" class="room indoor" data-label="Krimat&#x27;s Foreign Exchange" x="375" y="244" width="8" height="8" rx="2"/>
+    <rect id="room-4c9b04fc5c87eb5f2c742dde897ed2be2ac8aa80" class="room indoor room-changer" data-label="Krimat&#x27;s Foreign Exchange" x="375" y="244" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="379" y="248" text-anchor="middle" dominant-baseline="central">¢</text>
     <circle id="room-684c9d9a70b6e730c4e66cfd5b944f851d0930a3" class="room outdoor" data-label="The southern end of Dockside Market" cx="365" cy="237" r="4"/>
     <circle id="room-9d3fecf24a7418dff996e67a0950aa6752748e02" class="room outdoor" data-label="grassy area between stalls" cx="351" cy="223" r="4"/><polygon class="stair-symbol" points="351,220 348.5,225 353.5,225"/>
     <circle id="room-99efdda67decc85da9f008918b06df2a25328133" class="room outdoor" data-label="tiny park on the south end of the Dock Market" cx="365" cy="223" r="4"/>

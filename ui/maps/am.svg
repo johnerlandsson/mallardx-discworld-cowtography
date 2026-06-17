@@ -8185,7 +8185,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-d06e261da0bfd6e897f20dfc0af5a0b96a4aae36" class="room outdoor" data-label="Street of Bookkeepers" cx="788" cy="970" r="4"/>
     <rect id="room-dbe4ea262a6a5c77e75aa1ce780d1ab16c34a0e2" class="room indoor" data-label="Dunstan Tichenor&#x27;s Travel Agency" x="795" y="966" width="8" height="8" rx="2"/>
     <circle id="room-74ded2e685fc8ac4096807e24dac588abdbf692d" class="room outdoor" data-label="Street of Bookkeepers" cx="774" cy="984" r="4"/>
-    <rect id="room-f32560bdd6d41e3c4d470d8154fdcc75f28da6ed" class="room indoor" data-label="currency exchange office" x="781" y="980" width="8" height="8" rx="2"/>
+    <rect id="room-f32560bdd6d41e3c4d470d8154fdcc75f28da6ed" class="room indoor room-changer" data-label="currency exchange office" x="781" y="980" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="785" y="984" text-anchor="middle" dominant-baseline="central">¢</text>
     <rect id="room-4fc5a40d6c03eda5c867e209d9ca744492e60787" class="room indoor" data-label="entrance to Weichert&#x27;s Tower" x="759" y="980" width="8" height="8" rx="2"/>
     <circle id="room-f805ffca10914d72886930d5bf23a39052e60081" class="room outdoor" data-label="Street of Bookkeepers" cx="760" cy="998" r="4"/>
     <circle id="room-4dd1faccaf3764ff27cdd4751f48792a6d60ce6a" class="room outdoor" data-label="Street of Bookkeepers" cx="760" cy="1012" r="4"/>

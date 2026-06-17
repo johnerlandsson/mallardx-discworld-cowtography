@@ -34,9 +34,9 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      showguides="true"
-     inkscape:zoom="5.6568543"
-     inkscape:cx="100.32077"
-     inkscape:cy="180.13545"
+     inkscape:zoom="2.8284272"
+     inkscape:cx="52.856231"
+     inkscape:cy="105.00536"
      inkscape:window-width="1968"
      inkscape:window-height="1011"
      inkscape:window-x="26"
@@ -963,18 +963,43 @@
        d="m 157.91345,139.87693 -14.88696,6.16638 -14.88697,-6.16638 -6.16638,-14.88697 6.16638,-14.88697 14.88697,-6.16638 14.88696,6.16638 6.16639,14.88697 z"
        transform="matrix(0.12295578,0.29684151,-0.29684151,0.12295578,127.45862,121.17556)"
        class="shades-room" />
+    <rect
+       id="rect24"
+       width="41.194"
+       height="15.844001"
+       x="-9.8484201"
+       y="171.078"
+       ry="1.1078731"
+       class="anno-box"
+       style="stroke-width:0.999991" />
+    <text
+       xml:space="preserve"
+       x="10.628577"
+       y="177.42201"
+       id="text23"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="10.628577"
+         y="177.42201"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan23">SWEETHEART</tspan><tspan
+         sodipodi:role="line"
+         x="10.628577"
+         y="184.92201"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan18">LANE</tspan></text>
+    <path
+       d="M 31.34558,179 H 46"
+       id="path24"
+       class="exit-offmap"
+       sodipodi:nodetypes="cc" />
   </g>
   <g
      id="layer-exits" />
-  <g
-     id="layer-rooms">
-    <circle
-       id="room-01bbd8b887e71314d8e358cbaf4f585391206bc4"
-       class="room outdoor"
-       data-label="maze entrance"
-       cx="46"
-       cy="179"
-       r="4" />
+
   </g>
   <g
      id="layer-room-labels">

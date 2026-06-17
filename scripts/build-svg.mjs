@@ -48,7 +48,7 @@ export const SHOP_KEYWORDS = {
 
 export const TYPE_LETTERS = {
   shop: 'S', weapon: 'W', armour: 'A', clothes: 'C', food: 'F', access: 'X',
-  bank: '$', mission: '!', post: 'O', lang: 'L', temple: 'R',
+  bank: '$', changer: '¢', mission: '!', post: 'O', lang: 'L', temple: 'R',
   crafts: 'K', house: 'H', club: 'G', pshop: 'P', tshop: 'T',
 }
 
@@ -100,11 +100,11 @@ export function queryShopTypes(db, mapId, overrides = {}) {
   }
 
   const shortTypePatterns = [
-    ['%[player house]%', 'house'],
-    ['%[player shop]%',  'pshop'],
-    ['%[player club]%',  'club'],
-    ['%Bing%bank%',      'bank'],
-    ['%Coop%bank%',      'bank'],
+    ['%[player house]%',  'house'],
+    ['%[player shop]%',   'pshop'],
+    ['%[player club]%',   'club'],
+    ['%Bing%bank%',       'bank'],
+    ['%Coop%bank%',       'bank'],
   ]
   const shortStmt = db.prepare(
     `SELECT room_id FROM rooms WHERE map_id = ? AND room_short LIKE ? COLLATE NOCASE`

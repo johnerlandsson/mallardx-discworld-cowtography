@@ -2584,7 +2584,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-2dd9ccd269aaee8e443f5f19f37b8055ef19ecff" class="room indoor" data-label="jail area of Djelibeybi prison" x="294" y="404" width="8" height="8" rx="2"/>
     <circle id="room-ee11bc576d6da5cf1e6944568cf85cdc0d2141ef" class="room outdoor" data-label="western section of Lettuce Lane" cx="312" cy="397" r="4"/>
     <circle id="room-3d086b829c1ade6842f294d96abce71ee0b5724a" class="room outdoor" data-label="outside the Ankh-Morpork Embassy on Lettuce Lane" cx="326" cy="411" r="4"/>
-    <rect id="room-94d42056d8bce1a46364b9bd18ee6486bd6edfb8" class="room indoor" data-label="Morporkian Embassy" x="322" y="418" width="8" height="8" rx="2"/>
+    <rect id="room-94d42056d8bce1a46364b9bd18ee6486bd6edfb8" class="room indoor room-changer" data-label="Morporkian Embassy" x="322" y="418" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="326" y="422" text-anchor="middle" dominant-baseline="central">¢</text>
     <circle id="room-b5e14c0eab540d6633be66bd98f52d6de6cc83fe" class="room outdoor" data-label="middle of Lettuce Lane" cx="340" cy="411" r="4"/>
     <circle id="room-71c2dc4077de5784c920440700695c9a3f1e5274" class="room outdoor" data-label="middle of Lettuce Lane" cx="354" cy="425" r="4"/>
     <circle id="room-82f0d179fa21037b6f23079040aeb4ddeccae9f9" class="room outdoor" data-label="north end of Pooney Alley" cx="340" cy="439" r="4"/>

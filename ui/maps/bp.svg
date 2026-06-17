@@ -3254,7 +3254,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-4a29d9bde2b6b7752329faa0a2711f8f0e4fe6ac" class="room outdoor" data-label="Hook Street, at the edge of the Red Triangle District" cx="1112" cy="692" r="4"/>
     <circle id="room-09e3c4ca14b120d69fab51ac6d5cc69cb6cee005" class="room outdoor" data-label="near the eastern end of Hook Street" cx="1098" cy="692" r="4"/>
     <circle id="room-306b0155c6ded1aa0666f86e0b2a290fb85e93c6" class="room outdoor" data-label="Hook Street, outside of a money changer" cx="1084" cy="692" r="4"/>
-    <rect id="room-24b2ffde15897df53f685128b8cc6fe22a534c51" class="room indoor" data-label="Bes Pelargic money changers" x="1080" y="699" width="8" height="8" rx="2"/>
+    <rect id="room-24b2ffde15897df53f685128b8cc6fe22a534c51" class="room indoor room-changer" data-label="Bes Pelargic money changers" x="1080" y="699" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1084" y="703" text-anchor="middle" dominant-baseline="central">¢</text>
     <circle id="room-4544a9e2de0f165e10af2dfe04fd5182781df9f3" class="room outdoor" data-label="Hook Street" cx="1070" cy="692" r="4"/>
     <circle id="room-60e20da11a48e76ee072ffb514ad631f0ab2e343" class="room outdoor" data-label="Hook Street" cx="1056" cy="692" r="4"/>
     <circle id="room-8eabfa9e317ba1f9b6e8e500563a383121022b10" class="room outdoor" data-label="small park off Hook Street" cx="1056" cy="707" r="4"/>

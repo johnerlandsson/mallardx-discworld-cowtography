@@ -1,11 +1,320 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 432 743"
-     class="map-svg"
-     data-map-id="9">
-
-  <g id="layer-artwork"><!-- artwork --></g>
-
-  <g id="layer-exits">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 432 743"
+   class="map-svg"
+   data-map-id="9"
+   version="1.1"
+   id="svg20"
+   sodipodi:docname="am_smallgods.svg"
+   xml:space="preserve"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs20" />
+  <style id="inkscape-font-fix">
+text, .map-label, .map-label-muted, .map-label-accent,
+.lib-table, .lib-gap-label, .lib-book-label,
+.lib-row-num, .lib-book-list, .room-type-label {
+  font-family: "Noto Sans", sans-serif;
+}
+</style><sodipodi:namedview
+     id="namedview20"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="6.0908256"
+     inkscape:cx="381.22911"
+     inkscape:cy="211.79395"
+     inkscape:window-width="1968"
+     inkscape:window-height="1011"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer-artwork" /><g
+     id="layer-artwork"><!-- artwork --><rect
+       id="rect39"
+       width="53.403126"
+       height="66.129219"
+       x="364.53436"
+       y="188"
+       ry="0.47105616"
+       class="anno-box"
+       style="stroke-width:0.999996" /><rect
+       id="rect24"
+       width="59.355999"
+       height="8.4040003"
+       x="191.32201"
+       y="123.596"
+       ry="0.58763981"
+       class="anno-box"
+       style="stroke-width:0.999991" /><text
+       xml:space="preserve"
+       x="220.98801"
+       y="129.931"
+       id="text23"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="220.98801"
+         y="129.931"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan23">ST. OF SMALL GODS</tspan></text><path
+       d="m 221,98 v 25.596"
+       id="path24"
+       class="exit-offmap"
+       sodipodi:nodetypes="cc" /><path
+       d="m 221,132 v 20"
+       id="path20"
+       class="exit-offmap"
+       sodipodi:nodetypes="cc" /><rect
+       id="rect20-9"
+       width="84.687996"
+       height="10"
+       x="282.76141"
+       y="23"
+       class="city-sign"
+       style="stroke-width:0.671623" /><text
+       xml:space="preserve"
+       x="325.30942"
+       y="30.860001"
+       id="text21-6"
+       class="city-sign-label"
+       text-anchor="middle"
+       font-size="8px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="325.30942"
+         y="30.860001"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan20-4">TEMPLE OF BLIND IO</tspan></text><rect
+       id="rect20-9-5"
+       width="99.264"
+       height="10"
+       x="11.149575"
+       y="170.91098"
+       class="city-sign"
+       style="stroke-width:0.671623" /><text
+       xml:space="preserve"
+       x="60.929569"
+       y="178.77098"
+       id="text21-6-6"
+       class="city-sign-label"
+       text-anchor="middle"
+       font-size="8px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="60.929569"
+         y="178.77098"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan20-4-2">TEMPLE OF SMALL GODS</tspan></text><text
+       xml:space="preserve"
+       x="252.683"
+       y="154.145"
+       id="text46"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="252.683"
+         y="154.145"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan46">PRIEST BOARD</tspan></text><text
+       xml:space="preserve"
+       x="149.17999"
+       y="190.145"
+       id="text20"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="149.17999"
+         y="190.145"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan20">VOTE</tspan></text><text
+       xml:space="preserve"
+       x="104.84747"
+       y="202.142"
+       id="text21"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="104.84747"
+         y="202.142"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan21">RAISE</tspan></text><text
+       xml:space="preserve"
+       x="101.889"
+       y="430.142"
+       id="text22"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="101.889"
+         y="430.142"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan22">PRACTICE</tspan></text><text
+       xml:space="preserve"
+       x="73.678215"
+       y="454.142"
+       id="text24"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="73.678215"
+         y="454.142"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan24">ARGUMENTS</tspan></text><text
+       xml:space="preserve"
+       x="101.889"
+       y="478.142"
+       id="text25"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="101.889"
+         y="478.142"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan25">PRACTICE</tspan></text><text
+       xml:space="preserve"
+       x="368.8949"
+       y="194.472"
+       id="text32"
+       class="map-label"
+       text-anchor="left"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="368.8949"
+         y="194.472"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan32">INFO ROOMS</tspan></text><text
+       xml:space="preserve"
+       x="369.00891"
+       y="203.64427"
+       id="text33"
+       class="map-label"
+       text-anchor="left"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="369.00891"
+         y="203.64427"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan33">1. GAPP</tspan><tspan
+         sodipodi:role="line"
+         x="369.00891"
+         y="211.14427"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan34">2. SEK</tspan><tspan
+         sodipodi:role="line"
+         x="369.00891"
+         y="218.64427"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan35">3. PISHE</tspan><tspan
+         sodipodi:role="line"
+         x="369.00891"
+         y="226.14427"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan36">4. HAT</tspan><tspan
+         sodipodi:role="line"
+         x="369.00891"
+         y="233.64427"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan37">5. SANDELFON</tspan><tspan
+         sodipodi:role="line"
+         x="369.00891"
+         y="241.14427"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan38">6. FISH</tspan><tspan
+         sodipodi:role="line"
+         x="369.00891"
+         y="248.64427"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan39">7. GUFNORK</tspan></text><path
+       d="m 364.53436,196.39149 h 53.40313"
+       id="path39"
+       class="anno-rule" /><text
+       xml:space="preserve"
+       x="181.41501"
+       y="579.94"
+       id="text40"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="181.41501"
+         y="579.94"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan40">SECOND</tspan><tspan
+         sodipodi:role="line"
+         x="181.41501"
+         y="587.44"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan41">FLOOR &amp;</tspan><tspan
+         sodipodi:role="line"
+         x="181.41501"
+         y="594.94"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan42">ABOVE</tspan></text><text
+       xml:space="preserve"
+       x="159.039"
+       y="394.74341"
+       id="text45"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="159.039"
+         y="394.74341"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan45">FIRST</tspan><tspan
+         sodipodi:role="line"
+         x="159.039"
+         y="402.24341"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan48">FLOOR</tspan></text><text
+       xml:space="preserve"
+       x="57.903286"
+       y="222.392"
+       id="text50"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="57.903286"
+         y="222.392"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan50">GROUND</tspan><tspan
+         sodipodi:role="line"
+         x="57.903286"
+         y="229.892"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan51">FLOOR</tspan></text></g><g
+     id="layer-exits">
+    <line id="edge-18c958313f70590bbeb5102dfde60f196007cd6b-c96a1222edd608455413dd81be109c6441e05628" class="exit exit-green" x1="343" y1="267" x2="343" y2="224"/>
+    <line id="edge-53bbbeac657eb23cca7dda93d208b34b30953941-c96a1222edd608455413dd81be109c6441e05628" class="exit exit-green" x1="343" y1="196" x2="343" y2="224"/>
+    <line id="edge-18c958313f70590bbeb5102dfde60f196007cd6b-802aab6a05b134188dfc8540c0526b74a7521078" class="exit exit-green" x1="343" y1="267" x2="290" y2="320"/>
     <line id="edge-390f28100270174173c2a6fdecfad543986f99dd-e59f1c8f73806c54b29c2823bd7f8de936647fe7" class="exit" x1="221" y1="72" x2="221" y2="98"/>
     <line id="edge-1b36457a8b9666e84b18536cc2de715dc48e520d-390f28100270174173c2a6fdecfad543986f99dd" class="exit" x1="221" y1="48" x2="221" y2="72"/>
     <line id="edge-0f86278e418b8475036ed189582f8a2f77585f6f-1b36457a8b9666e84b18536cc2de715dc48e520d" class="exit" x1="245" y1="48" x2="221" y2="48"/>
@@ -65,9 +374,6 @@
     <line id="edge-c2f0d5460dd5ab4aec118b337fae3e6b3dda35a2-c96a1222edd608455413dd81be109c6441e05628" class="exit" x1="317" y1="224" x2="343" y2="224"/>
     <line id="edge-c2f0d5460dd5ab4aec118b337fae3e6b3dda35a2-e4e1b55860177ac149a3aa1b242c2e634bacb660" class="exit" x1="317" y1="224" x2="317" y2="200"/>
     <line id="edge-c2f0d5460dd5ab4aec118b337fae3e6b3dda35a2-f3e68cec5e839d9f52daab8adddeacece5dcf381" class="exit" x1="317" y1="224" x2="317" y2="248"/>
-    <line id="edge-18c958313f70590bbeb5102dfde60f196007cd6b-c96a1222edd608455413dd81be109c6441e05628" class="exit" x1="343" y1="267" x2="343" y2="224"/>
-    <line id="edge-53bbbeac657eb23cca7dda93d208b34b30953941-c96a1222edd608455413dd81be109c6441e05628" class="exit" x1="343" y1="196" x2="343" y2="224"/>
-    <line id="edge-18c958313f70590bbeb5102dfde60f196007cd6b-802aab6a05b134188dfc8540c0526b74a7521078" class="exit" x1="343" y1="267" x2="290" y2="320"/>
     <line id="edge-26fce4c5b58cfacfdc3039b5e38b8fc1cf275129-802aab6a05b134188dfc8540c0526b74a7521078" class="exit" x1="221" y1="320" x2="290" y2="320"/>
     <line id="edge-13c33a2610639d0964b07ea27c650c46c2bb2434-26fce4c5b58cfacfdc3039b5e38b8fc1cf275129" class="exit" x1="221" y1="344" x2="221" y2="320"/>
     <line id="edge-26fce4c5b58cfacfdc3039b5e38b8fc1cf275129-6a6b7b9d0c115960d8994da4f9408b0f85a428b6" class="exit" x1="221" y1="320" x2="221" y2="296"/>
@@ -109,9 +415,8 @@
     <line id="edge-234d5a9c14adeafdd05a0528fe682934382a0bc2-4677c81ba509a9703973460e4d97ffafd4a59fa6" class="exit" x1="126" y1="452" x2="126" y2="476"/>
     <line id="edge-234d5a9c14adeafdd05a0528fe682934382a0bc2-6c4072051a038b8f14a51371342f3ecdd0c6126e" class="exit" x1="126" y1="452" x2="126" y2="428"/>
     <line id="edge-234d5a9c14adeafdd05a0528fe682934382a0bc2-8d58878fa4fdf27522121c5a7ae1e8aed4f6bde8" class="exit" x1="126" y1="452" x2="102" y2="452"/>
-  </g>
-
-  <g id="layer-rooms">
+  </g><g
+     id="layer-rooms">
     <circle id="room-e59f1c8f73806c54b29c2823bd7f8de936647fe7" class="room outdoor" data-label="entrance to the Temple of Blind Io" cx="221" cy="98" r="4"/>
     <rect id="room-390f28100270174173c2a6fdecfad543986f99dd" class="room indoor" data-label="hallway" x="217" y="68" width="8" height="8" rx="2"/>
     <rect id="room-1b36457a8b9666e84b18536cc2de715dc48e520d" class="room indoor" data-label="hallway" x="217" y="44" width="8" height="8" rx="2"/>
@@ -121,7 +426,7 @@
     <rect id="room-b3b83c6b6a793f4fd3d81ce9a7d14cfad1d3a655" class="room indoor" data-label="sheet shrouded room" x="193" y="20" width="8" height="8" rx="2"/>
     <rect id="room-82904f67e9503c63145b4d6fed4c8e157926c827" class="room indoor" data-label="sheet shrouded room" x="193" y="68" width="8" height="8" rx="2"/>
     <rect id="room-3e535794716371c5bcc29a037e7c08878b438f1a" class="room indoor" data-label="Main Hall of the Temple of Blind Io" x="169" y="44" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="173,45 170.5,50 175.5,50"/>
-    <rect id="room-afaff16aec0303e7383b5cc17672d8935017be1a" class="room indoor" data-label="High Altar of the Temple of Blind Io" x="170" y="19" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="174,26 171.5,21 176.5,21"/>
+    <rect id="room-afaff16aec0303e7383b5cc17672d8935017be1a" class="room indoor room-temple" data-label="High Altar of the Temple of Blind Io" x="170" y="19" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="174" y="23" text-anchor="middle" dominant-baseline="central">R</text>
     <rect id="room-0dd4f89a4a426dde74df94505e55c1e5410b0a0a" class="room indoor" data-label="entrance hall of the Temple of Small Gods" x="217" y="148" width="8" height="8" rx="2"/>
     <rect id="room-51dc555b97c0906a20ab019418d273cc5685758d" class="room indoor" data-label="middle of the northern cloister" x="217" y="172" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="221,173 218.5,178 223.5,178"/>
     <rect id="room-fb46c0a576c3e718ff45d6e4a5a555b83370b574" class="room indoor" data-label="eastern end of the northern cloister" x="241" y="172" width="8" height="8" rx="2"/>
@@ -139,7 +444,7 @@
     <rect id="room-cb5ac699e665dadaec86ee813ce133e98eabb6e5" class="room indoor" data-label="northwest from the atrium centre" x="193" y="196" width="8" height="8" rx="2"/>
     <rect id="room-1c6bc24d4424b1fd112e1734fe2107f688ca786c" class="room indoor" data-label="northeast of atrium centre" x="241" y="196" width="8" height="8" rx="2"/>
     <rect id="room-192d23f38d668bf08ea6da1800f16a012ed7edac" class="room indoor" data-label="point east from the atrium centre" x="241" y="220" width="8" height="8" rx="2"/>
-    <rect id="room-66554124844ec7ce36bf94728b529c27a2618016" class="room indoor" data-label="centre of the atrium" x="217" y="220" width="8" height="8" rx="2"/>
+    <rect id="room-66554124844ec7ce36bf94728b529c27a2618016" class="room indoor water" data-label="centre of the atrium" x="217" y="220" width="8" height="8" rx="2"/>
     <rect id="room-0e51e445e88dd8c4d1fa00a255b1e7434e1c9665" class="room indoor" data-label="west from the atrium centre" x="193" y="220" width="8" height="8" rx="2"/>
     <rect id="room-414166a6a246aac10ad531cbb6063bcc0beb1229" class="room indoor" data-label="southwest from the atrium centre" x="193" y="244" width="8" height="8" rx="2"/>
     <rect id="room-15988c0c2a377ac3f71d5abd3b1ceaec3663b77c" class="room indoor" data-label="just south from the atrium centre" x="217" y="244" width="8" height="8" rx="2"/>
@@ -150,10 +455,10 @@
     <rect id="room-c2f0d5460dd5ab4aec118b337fae3e6b3dda35a2" class="room indoor" data-label="Chapel of Sandelfon" x="313" y="220" width="8" height="8" rx="2"/>
     <rect id="room-e4e1b55860177ac149a3aa1b242c2e634bacb660" class="room indoor" data-label="Chapel of Sek" x="313" y="196" width="8" height="8" rx="2"/>
     <rect id="room-f3e68cec5e839d9f52daab8adddeacece5dcf381" class="room indoor" data-label="Chapel of Gufnork" x="313" y="244" width="8" height="8" rx="2"/>
-    <circle id="room-c96a1222edd608455413dd81be109c6441e05628" class="room outdoor" data-label="northern part of the temple gardens" cx="343" cy="224" r="4"/>
-    <circle id="room-53bbbeac657eb23cca7dda93d208b34b30953941" class="room outdoor" data-label="small garden" cx="343" cy="196" r="4"/>
-    <circle id="room-18c958313f70590bbeb5102dfde60f196007cd6b" class="room outdoor" data-label="middle part of the Temple gardens" cx="343" cy="267" r="4"/>
-    <circle id="room-802aab6a05b134188dfc8540c0526b74a7521078" class="room outdoor" data-label="bottom part of the Temple gardens" cx="290" cy="320" r="4"/>
+    <circle id="room-c96a1222edd608455413dd81be109c6441e05628" class="room outdoor green" data-label="northern part of the temple gardens" cx="343" cy="224" r="4"/>
+    <circle id="room-53bbbeac657eb23cca7dda93d208b34b30953941" class="room outdoor green" data-label="small garden" cx="343" cy="196" r="4"/>
+    <circle id="room-18c958313f70590bbeb5102dfde60f196007cd6b" class="room outdoor green" data-label="middle part of the Temple gardens" cx="343" cy="267" r="4"/>
+    <circle id="room-802aab6a05b134188dfc8540c0526b74a7521078" class="room outdoor green" data-label="bottom part of the Temple gardens" cx="290" cy="320" r="4"/>
     <rect id="room-26fce4c5b58cfacfdc3039b5e38b8fc1cf275129" class="room indoor" data-label="southernmost point of the southern corridor" x="217" y="316" width="8" height="8" rx="2"/>
     <rect id="room-13c33a2610639d0964b07ea27c650c46c2bb2434" class="room indoor room-clothes" data-label="relic shop" x="217" y="340" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="221" y="344" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-96fbb85b40e6b5bf50eaea8f3da113a432a0b7a2" class="room indoor room-shop" data-label="Temple furniture shop" x="193" y="316" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="197" y="320" text-anchor="middle" dominant-baseline="central">S</text>
@@ -193,10 +498,90 @@
     <rect id="room-6c4072051a038b8f14a51371342f3ecdd0c6126e" class="room indoor" data-label="classroom" x="122" y="424" width="8" height="8" rx="2"/>
     <rect id="room-4677c81ba509a9703973460e4d97ffafd4a59fa6" class="room indoor" data-label="small chapel" x="122" y="472" width="8" height="8" rx="2"/>
     <rect id="room-8d58878fa4fdf27522121c5a7ae1e8aed4f6bde8" class="room indoor" data-label="dry and dusty room" x="98" y="448" width="8" height="8" rx="2"/>
-  </g>
-
-
-  <g id="layer-room-labels"></g>
-  <g id="layer-labels"><!-- labels --></g>
-
-</svg>
+  </g><g
+     id="layer-room-labels"><text
+       xml:space="preserve"
+       x="292.112"
+       y="201.42801"
+       id="text3"
+       class="map-label"
+       font-size="4px"
+       text-align="center"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         x="292.112"
+         y="201.42801">1</tspan></text><text
+       xml:space="preserve"
+       x="315.86401"
+       y="201.448"
+       id="text26"
+       class="map-label"
+       font-size="4px"
+       text-align="center"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         id="tspan26"
+         x="315.86401"
+         y="201.448">2</tspan></text><text
+       xml:space="preserve"
+       x="341.88"
+       y="197.42801"
+       id="text27"
+       class="map-label"
+       font-size="4px"
+       text-align="center"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         id="tspan27"
+         x="341.88"
+         y="197.42801">3</tspan></text><text
+       xml:space="preserve"
+       x="291.854"
+       y="225.436"
+       id="text28"
+       class="map-label"
+       font-size="4px"
+       text-align="center"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         id="tspan28"
+         x="291.854"
+         y="225.436">4</tspan></text><text
+       xml:space="preserve"
+       x="315.84399"
+       y="225.408"
+       id="text29"
+       class="map-label"
+       font-size="4px"
+       text-align="center"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         id="tspan29"
+         x="315.84399"
+         y="225.408">5</tspan></text><text
+       xml:space="preserve"
+       x="291.84"
+       y="249.42801"
+       id="text30"
+       class="map-label"
+       font-size="4px"
+       text-align="center"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         id="tspan30"
+         x="291.84"
+         y="249.42801">6</tspan></text><text
+       xml:space="preserve"
+       x="315.866"
+       y="249.42801"
+       id="text31"
+       class="map-label"
+       font-size="4px"
+       text-align="center"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         id="tspan31"
+         x="315.866"
+         y="249.42801">7</tspan></text></g><g
+     id="layer-labels"><!-- labels --></g></svg>
