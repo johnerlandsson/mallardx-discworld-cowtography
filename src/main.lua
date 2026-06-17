@@ -878,6 +878,27 @@ end, {
   usage       = "ocd",
 })
 
+-- ─── pan ──────────────────────────────────────────────────────────────────────
+-- Shift the map view without touching the mouse.
+
+mud.command("pan", function(m)
+  local dir_map = {
+    n = "n", north = "n",
+    s = "s", south = "s",
+    e = "e", east  = "e",
+    w = "w", west  = "w",
+  }
+  local dir = dir_map[m.args:lower()]
+  if not dir then
+    note('  Usage: /pan n|s|e|w', C.err)
+    return
+  end
+  panel:post("pan", { dir = dir })
+end, {
+  description = "Pan the map view north, south, east, or west.",
+  usage       = "pan <n|s|e|w>",
+})
+
 -- ─── libclear ────────────────────────────────────────────────────────────────
 -- Manually clear library overlays (distortion + orb) without changing rooms.
 
