@@ -45,6 +45,11 @@ local SPECIAL_SCREENS = {
   SandelfonMaze = 'labyrinth',
 }
 
+-- The Shades: all interior rooms share the identifier "AMShades". The entrance
+-- room has a unique ID and is the only room element in the SVG. We load the map
+-- anchored to the entrance and show a muted indicator for the interior.
+local SHADES_ENTRY_ID = "01bbd8b887e71314d8e358cbaf4f585391206bc4"
+
 -- ─── Map panel ───────────────────────────────────────────────────────────────
 
 local panel        = mud.panel("map")
@@ -425,6 +430,16 @@ gmcp.on('room.info', function(_, data)
         local special = SPECIAL_SCREENS[data.identifier]
         if special then
           panel:post("special_screen", { name = special })
+        elseif data.identifier == "AMShades" then
+          -- Interior Shades rooms all share this identifier: exact position unknown.
+          -- Load the map once (anchored to the entrance) then keep the indicator muted.
+          if prev_room ~= "AMShades" then
+            local anchor = { identifier = SHADES_ENTRY_ID, name = data.name }
+            last_payload = anchor
+            post_room(anchor)
+          end
+          _in_dark = true
+          panel:post("room_dark", {})
         else
           last_payload = data
           post_room(data)
