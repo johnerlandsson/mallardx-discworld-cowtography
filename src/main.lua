@@ -470,6 +470,8 @@ local TYPE_LABELS = {
   npc     = 'npc',
 }
 
+local route_to_room  -- forward declaration; assigned below after panel setup
+
 local function display_results(search_type, query, results, sorted_by_dist)
   local count     = #results
   local sort_note = sorted_by_dist and ', nearest first' or ''
@@ -550,7 +552,6 @@ mud.trigger([[^(?:> )?Removed queue\.$]], function()
 end)
 
 -- ─── db ──────────────────────────────────────────────────────────────────────
-local route_to_room  -- forward declaration; defined below after panel setup
 
 local function do_search(search_type, query, area_filter)
   local candidates
