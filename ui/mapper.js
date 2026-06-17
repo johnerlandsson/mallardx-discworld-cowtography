@@ -700,5 +700,27 @@ panel.on("special_screen", (frame) => {
   $mapName.textContent = $specialTitle.textContent;
 });
 
+panel.on("pan", (frame) => {
+  if (!currentSvg) return;
+  const step = 0.2;
+  if      (frame.dir === "n") viewBox.y -= viewBox.h * step;
+  else if (frame.dir === "s") viewBox.y += viewBox.h * step;
+  else if (frame.dir === "w") viewBox.x -= viewBox.w * step;
+  else if (frame.dir === "e") viewBox.x += viewBox.w * step;
+  applyViewBox();
+});
+
+panel.on("zoom", (frame) => {
+  if (!currentSvg) return;
+  const factor = frame.dir === "in" ? 1 / ZOOM_FACTOR : ZOOM_FACTOR;
+  const newW = viewBox.w * factor;
+  const newH = viewBox.h * factor;
+  viewBox.x += 0.5 * (viewBox.w - newW);
+  viewBox.y += 0.5 * (viewBox.h - newH);
+  viewBox.w  = newW;
+  viewBox.h  = newH;
+  applyViewBox();
+});
+
 panel.post("ready", {});
 updateHeader();
