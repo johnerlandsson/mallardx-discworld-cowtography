@@ -1,55 +1,486 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 542 259"
-     class="map-svg"
-     data-map-id="13">
-
-  <g id="layer-artwork"><!-- artwork --></g>
-
-  <g id="layer-exits">
-    <line id="edge-22cb1754a73395759e82a1dbe8c51dd8be5b9401-4eac413f2e3a4a44f3a673ecdb0dbe4683b4fab4" class="exit" x1="401" y1="111" x2="401" y2="135"/>
-    <line id="edge-4eac413f2e3a4a44f3a673ecdb0dbe4683b4fab4-591fbb893e9e0fc9876b9144467cd498b5616578" class="exit" x1="401" y1="135" x2="433" y2="135"/>
-    <line id="edge-4eac413f2e3a4a44f3a673ecdb0dbe4683b4fab4-65f5f055eef03f846ef0198c397d03bea70cb675" class="exit" x1="401" y1="135" x2="401" y2="159"/>
-    <line id="edge-305627fd4ae44deb99a08820224b4a7acc719b8b-591fbb893e9e0fc9876b9144467cd498b5616578" class="exit" x1="433" y1="159" x2="433" y2="135"/>
-    <line id="edge-591fbb893e9e0fc9876b9144467cd498b5616578-62f6b3f50ef49ca7fd8105ecf96764e0b1a9463a" class="exit" x1="433" y1="135" x2="433" y2="111"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 542 259"
+   class="map-svg"
+   data-map-id="13"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="am_warriors.svg"
+   xml:space="preserve"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs3" />
+  <style id="inkscape-font-fix">
+text, .map-label, .map-label-muted, .map-label-accent,
+.lib-table, .lib-gap-label, .lib-book-label,
+.lib-row-num, .lib-book-list, .room-type-label {
+  font-family: "Noto Sans", sans-serif;
+}
+</style><sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.5444015"
+     inkscape:cx="311.4475"
+     inkscape:cy="56.3325"
+     inkscape:window-width="1968"
+     inkscape:window-height="1011"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3" /><g
+     id="layer-artwork"><!-- artwork --><text
+       xml:space="preserve"
+       x="162.99699"
+       y="150.23236"
+       id="text46"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="162.99699"
+         y="150.23236"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan46">GM</tspan><tspan
+         sodipodi:role="line"
+         x="162.99699"
+         y="157.73236"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan8">OFFICE</tspan></text><rect
+       id="rect20-9"
+       width="70.143997"
+       height="21.879999"
+       x="55.928005"
+       y="21.026493"
+       class="city-sign"
+       style="stroke-width:0.671623" /><text
+       xml:space="preserve"
+       x="91"
+       y="29.826492"
+       id="text21-6"
+       class="city-sign-label"
+       text-anchor="middle"
+       font-size="8px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="91"
+         y="29.826492"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan20-4">ANKH-MORPORK</tspan><tspan
+         sodipodi:role="line"
+         x="91"
+         y="39.826492"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan3">PALACE GUARDS</tspan></text><rect
+       id="rect3"
+       width="78.456001"
+       height="21.879999"
+       x="391.73349"
+       y="17.378998"
+       class="city-sign"
+       style="stroke-width:0.671623" /><text
+       xml:space="preserve"
+       x="431.17349"
+       y="26.178997"
+       id="text5"
+       class="city-sign-label"
+       text-anchor="middle"
+       font-size="8px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="431.17349"
+         y="26.178997"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan5">WEAPON MASTERS'</tspan><tspan
+         sodipodi:role="line"
+         x="431.17349"
+         y="36.178997"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan6">COURT</tspan></text><rect
+       id="rect24"
+       width="45.807999"
+       height="8.4040003"
+       x="378.09601"
+       y="77"
+       ry="0.58763981"
+       class="anno-box"
+       style="stroke-width:0.999989" /><text
+       xml:space="preserve"
+       x="401.216"
+       y="83.334999"
+       id="text23"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="401.216"
+         y="83.334999"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan23">VAGABOND ST.</tspan></text><path
+       d="M 401,85.404 V 111"
+       id="path24"
+       class="exit-offmap"
+       sodipodi:nodetypes="cc" /><rect
+       id="rect6"
+       width="67.954002"
+       height="8.4040003"
+       x="155.20523"
+       y="78.133125"
+       ry="0.58763981"
+       class="anno-box"
+       style="stroke-width:0.999989" /><text
+       xml:space="preserve"
+       x="188.89124"
+       y="84.480125"
+       id="text7"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="188.89124"
+         y="84.480125"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan7">NW UPPER BROADWAY</tspan></text><path
+       d="M 155.20523,86.537125 135,105"
+       id="path7"
+       class="exit-offmap"
+       sodipodi:nodetypes="cc" /><text
+       xml:space="preserve"
+       x="40.187866"
+       y="83.141998"
+       id="text10"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="40.187866"
+         y="83.141998"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan10">TRAINING</tspan></text><text
+       xml:space="preserve"
+       x="111.009"
+       y="64.312851"
+       id="text11"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="111.009"
+         y="64.312851"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan11">WARRIOR</tspan><tspan
+         sodipodi:role="line"
+         x="111.009"
+         y="71.812851"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan12">BOARD</tspan></text><text
+       xml:space="preserve"
+       x="374.24585"
+       y="109.362"
+       id="text14"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="374.24585"
+         y="109.362"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan14">HIRE</tspan><tspan
+         sodipodi:role="line"
+         x="374.24585"
+         y="116.862"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan15">MERCENARY</tspan></text></g><g
+     id="layer-exits"><line
+   id="edge-22cb1754a73395759e82a1dbe8c51dd8be5b9401-4eac413f2e3a4a44f3a673ecdb0dbe4683b4fab4"
+   class="exit"
+   x1="401"
+   y1="111"
+   x2="401"
+   y2="135" /><line
+   id="edge-4eac413f2e3a4a44f3a673ecdb0dbe4683b4fab4-591fbb893e9e0fc9876b9144467cd498b5616578"
+   class="exit"
+   x1="401"
+   y1="135"
+   x2="433"
+   y2="135" /><line
+   id="edge-4eac413f2e3a4a44f3a673ecdb0dbe4683b4fab4-65f5f055eef03f846ef0198c397d03bea70cb675"
+   class="exit"
+   x1="401"
+   y1="135"
+   x2="401"
+   y2="159" /><line
+   id="edge-305627fd4ae44deb99a08820224b4a7acc719b8b-591fbb893e9e0fc9876b9144467cd498b5616578"
+   class="exit"
+   x1="433"
+   y1="159"
+   x2="433"
+   y2="135" /><line
+   id="edge-591fbb893e9e0fc9876b9144467cd498b5616578-62f6b3f50ef49ca7fd8105ecf96764e0b1a9463a"
+   class="exit"
+   x1="433"
+   y1="135"
+   x2="433"
+   y2="111" />
     null
-    <line id="edge-e4f74aa8c18b572fc5d7ccb7f560e9a722ae11b6-f3a806329d4a147a45597c3983851736f4479446" class="exit" x1="465" y1="111" x2="489" y2="110"/>
-    <line id="edge-2b1f073a1de9cee7708c98fbf5d54182d57ebc96-d5b54f04904f81f73dbec4da0bd5d263b3910d77" class="exit" x1="111" y1="129" x2="135" y2="105"/>
-    <line id="edge-4711f12f0554ca2a531c485a87f4dd115da8e20d-d5b54f04904f81f73dbec4da0bd5d263b3910d77" class="exit" x1="111" y1="81" x2="135" y2="105"/>
-    <line id="edge-0d0af79d73e61a5a0f26305e268f714263d265f9-2b1f073a1de9cee7708c98fbf5d54182d57ebc96" class="exit" x1="139" y1="157" x2="111" y2="129"/>
-    <line id="edge-2b1f073a1de9cee7708c98fbf5d54182d57ebc96-597206ad46db04edee523461b0849d14a535d1fe" class="exit" x1="111" y1="129" x2="87" y2="105"/>
-    <line id="edge-2b1f073a1de9cee7708c98fbf5d54182d57ebc96-d8d7736fcd7c173602a8c975fb3f5c558c052720" class="exit" x1="111" y1="129" x2="83" y2="157"/>
-    <line id="edge-337a7e6f801aa9937ab51c3822fee16cad0d2cc7-597206ad46db04edee523461b0849d14a535d1fe" class="exit" x1="63" y1="81" x2="87" y2="105"/>
-    <line id="edge-0d0af79d73e61a5a0f26305e268f714263d265f9-40bb6bad8a07db87bf75b4d8f15dd8866bf7dc02" class="exit" x1="139" y1="157" x2="111" y2="185"/>
-    <line id="edge-0d0af79d73e61a5a0f26305e268f714263d265f9-6aab94d9d2009ac8d1a007389e539256972864b0" class="exit" x1="139" y1="157" x2="163" y2="133"/>
-    <line id="edge-40bb6bad8a07db87bf75b4d8f15dd8866bf7dc02-d8d7736fcd7c173602a8c975fb3f5c558c052720" class="exit" x1="111" y1="185" x2="83" y2="157"/>
-    <line id="edge-6159fbd9e5f18945824a54fbd11d5d1239818c19-d8d7736fcd7c173602a8c975fb3f5c558c052720" class="exit" x1="59" y1="133" x2="83" y2="157"/>
-    <line id="edge-6159fbd9e5f18945824a54fbd11d5d1239818c19-9734cf06ac2ff728b531b00e1bc99763b0bb982d" class="exit" x1="59" y1="133" x2="27" y2="109"/>
-  </g>
-
-  <g id="layer-rooms">
-    <rect id="room-22cb1754a73395759e82a1dbe8c51dd8be5b9401" class="room indoor room-food" data-label="Weapon Masters&#x27; Court&#x27;s bar" x="397" y="107" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="401" y="111" text-anchor="middle" dominant-baseline="central">F</text>
-    <rect id="room-4eac413f2e3a4a44f3a673ecdb0dbe4683b4fab4" class="room indoor" data-label="Weapon Masters&#x27; Court recruitment centre" x="397" y="131" width="8" height="8" rx="2"/>
-    <rect id="room-65f5f055eef03f846ef0198c397d03bea70cb675" class="room indoor" data-label="fighting pit" x="397" y="155" width="8" height="8" rx="2"/>
-    <rect id="room-591fbb893e9e0fc9876b9144467cd498b5616578" class="room indoor" data-label="Weapon Masters&#x27; Court practice centre" x="429" y="131" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="433,132 430.5,137 435.5,137"/>
-    <rect id="room-305627fd4ae44deb99a08820224b4a7acc719b8b" class="room indoor" data-label="Weapon Masters&#x27; Court smithy" x="429" y="155" width="8" height="8" rx="2"/>
-    <rect id="room-62f6b3f50ef49ca7fd8105ecf96764e0b1a9463a" class="room indoor room-weapon" data-label="Weapon Masters&#x27; Court armoury" x="429" y="107" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="433" y="111" text-anchor="middle" dominant-baseline="central">W</text>
-    <rect id="room-f3a806329d4a147a45597c3983851736f4479446" class="room indoor" data-label="landing" x="485" y="106" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="489,113 486.5,108 491.5,108"/>
-    <rect id="room-e4f74aa8c18b572fc5d7ccb7f560e9a722ae11b6" class="room indoor" data-label="balcony" x="461" y="107" width="8" height="8" rx="2"/>
-    <rect id="room-d5b54f04904f81f73dbec4da0bd5d263b3910d77" class="room indoor" data-label="lobby of the Palace Guard" x="131" y="101" width="8" height="8" rx="2"/>
-    <rect id="room-4711f12f0554ca2a531c485a87f4dd115da8e20d" class="room indoor" data-label="Palace Guard message room" x="107" y="77" width="8" height="8" rx="2"/>
-    <circle id="room-2b1f073a1de9cee7708c98fbf5d54182d57ebc96" class="room outdoor" data-label="northern corner of a courtyard" cx="111" cy="129" r="4"/>
-    <rect id="room-597206ad46db04edee523461b0849d14a535d1fe" class="room indoor" data-label="Palace Guard training area" x="83" y="101" width="8" height="8" rx="2"/>
-    <rect id="room-337a7e6f801aa9937ab51c3822fee16cad0d2cc7" class="room indoor" data-label="arena for armed combat" x="59" y="77" width="8" height="8" rx="2"/>
-    <circle id="room-0d0af79d73e61a5a0f26305e268f714263d265f9" class="room outdoor" data-label="eastern corner of a courtyard" cx="139" cy="157" r="4"/>
-    <circle id="room-40bb6bad8a07db87bf75b4d8f15dd8866bf7dc02" class="room outdoor" data-label="southern corner of a courtyard" cx="111" cy="185" r="4"/>
-    <circle id="room-d8d7736fcd7c173602a8c975fb3f5c558c052720" class="room outdoor" data-label="western corner of a courtyard" cx="83" cy="157" r="4"/>
-    <rect id="room-6159fbd9e5f18945824a54fbd11d5d1239818c19" class="room indoor" data-label="Palace Guard smithy" x="55" y="129" width="8" height="8" rx="2"/>
-    <rect id="room-9734cf06ac2ff728b531b00e1bc99763b0bb982d" class="room indoor room-armour" data-label="Palace Guard armoury" x="23" y="105" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="27" y="109" text-anchor="middle" dominant-baseline="central">A</text>
-    <rect id="room-6aab94d9d2009ac8d1a007389e539256972864b0" class="room indoor" data-label="office of the Guildmaster of the Ankh-Morpork Palace Guard" x="159" y="129" width="8" height="8" rx="2"/>
-  </g>
-
-
-  <g id="layer-room-labels"></g>
-  <g id="layer-labels"><!-- labels --></g>
-
-</svg>
+    <line
+   id="edge-e4f74aa8c18b572fc5d7ccb7f560e9a722ae11b6-f3a806329d4a147a45597c3983851736f4479446"
+   class="exit"
+   x1="465"
+   y1="111"
+   x2="489"
+   y2="110" /><line
+   id="edge-2b1f073a1de9cee7708c98fbf5d54182d57ebc96-d5b54f04904f81f73dbec4da0bd5d263b3910d77"
+   class="exit"
+   x1="111"
+   y1="129"
+   x2="135"
+   y2="105" /><line
+   id="edge-4711f12f0554ca2a531c485a87f4dd115da8e20d-d5b54f04904f81f73dbec4da0bd5d263b3910d77"
+   class="exit"
+   x1="111"
+   y1="81"
+   x2="135"
+   y2="105" /><line
+   id="edge-0d0af79d73e61a5a0f26305e268f714263d265f9-2b1f073a1de9cee7708c98fbf5d54182d57ebc96"
+   class="exit"
+   x1="139"
+   y1="157"
+   x2="111"
+   y2="129" /><line
+   id="edge-2b1f073a1de9cee7708c98fbf5d54182d57ebc96-597206ad46db04edee523461b0849d14a535d1fe"
+   class="exit"
+   x1="111"
+   y1="129"
+   x2="87"
+   y2="105" /><line
+   id="edge-2b1f073a1de9cee7708c98fbf5d54182d57ebc96-d8d7736fcd7c173602a8c975fb3f5c558c052720"
+   class="exit"
+   x1="111"
+   y1="129"
+   x2="83"
+   y2="157" /><line
+   id="edge-337a7e6f801aa9937ab51c3822fee16cad0d2cc7-597206ad46db04edee523461b0849d14a535d1fe"
+   class="exit"
+   x1="63"
+   y1="81"
+   x2="87"
+   y2="105" /><line
+   id="edge-0d0af79d73e61a5a0f26305e268f714263d265f9-40bb6bad8a07db87bf75b4d8f15dd8866bf7dc02"
+   class="exit"
+   x1="139"
+   y1="157"
+   x2="111"
+   y2="185" /><line
+   id="edge-0d0af79d73e61a5a0f26305e268f714263d265f9-6aab94d9d2009ac8d1a007389e539256972864b0"
+   class="exit"
+   x1="139"
+   y1="157"
+   x2="163"
+   y2="133" /><line
+   id="edge-40bb6bad8a07db87bf75b4d8f15dd8866bf7dc02-d8d7736fcd7c173602a8c975fb3f5c558c052720"
+   class="exit"
+   x1="111"
+   y1="185"
+   x2="83"
+   y2="157" /><line
+   id="edge-6159fbd9e5f18945824a54fbd11d5d1239818c19-d8d7736fcd7c173602a8c975fb3f5c558c052720"
+   class="exit"
+   x1="59"
+   y1="133"
+   x2="83"
+   y2="157" /><line
+   id="edge-6159fbd9e5f18945824a54fbd11d5d1239818c19-9734cf06ac2ff728b531b00e1bc99763b0bb982d"
+   class="exit"
+   x1="59"
+   y1="133"
+   x2="27"
+   y2="109" /></g><g
+     id="layer-rooms"><rect
+       id="room-22cb1754a73395759e82a1dbe8c51dd8be5b9401"
+       class="room indoor room-food"
+       data-label="Weapon Masters' Court's bar"
+       x="397"
+       y="107"
+       width="8"
+       height="8"
+       rx="2" /><text
+       class="room-type-label"
+       font-size="4.5"
+       x="401"
+       y="111"
+       text-anchor="middle"
+       dominant-baseline="central"
+       id="text1">F</text><rect
+       id="room-4eac413f2e3a4a44f3a673ecdb0dbe4683b4fab4"
+       class="room indoor"
+       data-label="Weapon Masters' Court recruitment centre"
+       x="397"
+       y="131"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-65f5f055eef03f846ef0198c397d03bea70cb675"
+       class="room indoor"
+       data-label="fighting pit"
+       x="397"
+       y="155"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-591fbb893e9e0fc9876b9144467cd498b5616578"
+       class="room indoor"
+       data-label="Weapon Masters' Court practice centre"
+       x="429"
+       y="131"
+       width="8"
+       height="8"
+       rx="2" /><polygon
+       class="stair-symbol"
+       points="433,132 430.5,137 435.5,137"
+       id="polygon1" /><rect
+       id="room-305627fd4ae44deb99a08820224b4a7acc719b8b"
+       class="room indoor"
+       data-label="Weapon Masters' Court smithy"
+       x="429"
+       y="155"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-62f6b3f50ef49ca7fd8105ecf96764e0b1a9463a"
+       class="room indoor room-weapon"
+       data-label="Weapon Masters' Court armoury"
+       x="429"
+       y="107"
+       width="8"
+       height="8"
+       rx="2" /><text
+       class="room-type-label"
+       font-size="4.5"
+       x="433"
+       y="111"
+       text-anchor="middle"
+       dominant-baseline="central"
+       id="text2">W</text><rect
+       id="room-f3a806329d4a147a45597c3983851736f4479446"
+       class="room indoor"
+       data-label="landing"
+       x="485"
+       y="106"
+       width="8"
+       height="8"
+       rx="2" /><polygon
+       class="stair-symbol"
+       points="489,113 486.5,108 491.5,108"
+       id="polygon2" /><rect
+       id="room-e4f74aa8c18b572fc5d7ccb7f560e9a722ae11b6"
+       class="room indoor"
+       data-label="balcony"
+       x="461"
+       y="107"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-d5b54f04904f81f73dbec4da0bd5d263b3910d77"
+       class="room indoor"
+       data-label="lobby of the Palace Guard"
+       x="131"
+       y="101"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-4711f12f0554ca2a531c485a87f4dd115da8e20d"
+       class="room indoor"
+       data-label="Palace Guard message room"
+       x="107"
+       y="77"
+       width="8"
+       height="8"
+       rx="2" /><circle
+       id="room-2b1f073a1de9cee7708c98fbf5d54182d57ebc96"
+       class="room outdoor"
+       data-label="northern corner of a courtyard"
+       cx="111"
+       cy="129"
+       r="4" /><rect
+       id="room-597206ad46db04edee523461b0849d14a535d1fe"
+       class="room indoor"
+       data-label="Palace Guard training area"
+       x="83"
+       y="101"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-337a7e6f801aa9937ab51c3822fee16cad0d2cc7"
+       class="room indoor"
+       data-label="arena for armed combat"
+       x="59"
+       y="77"
+       width="8"
+       height="8"
+       rx="2" /><circle
+       id="room-0d0af79d73e61a5a0f26305e268f714263d265f9"
+       class="room outdoor"
+       data-label="eastern corner of a courtyard"
+       cx="139"
+       cy="157"
+       r="4" /><circle
+       id="room-40bb6bad8a07db87bf75b4d8f15dd8866bf7dc02"
+       class="room outdoor"
+       data-label="southern corner of a courtyard"
+       cx="111"
+       cy="185"
+       r="4" /><circle
+       id="room-d8d7736fcd7c173602a8c975fb3f5c558c052720"
+       class="room outdoor"
+       data-label="western corner of a courtyard"
+       cx="83"
+       cy="157"
+       r="4" /><rect
+       id="room-6159fbd9e5f18945824a54fbd11d5d1239818c19"
+       class="room indoor"
+       data-label="Palace Guard smithy"
+       x="55"
+       y="129"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-9734cf06ac2ff728b531b00e1bc99763b0bb982d"
+       class="room indoor room-armour"
+       data-label="Palace Guard armoury"
+       x="23"
+       y="105"
+       width="8"
+       height="8"
+       rx="2" /><text
+       class="room-type-label"
+       font-size="4.5"
+       x="27"
+       y="109"
+       text-anchor="middle"
+       dominant-baseline="central"
+       id="text3">A</text><rect
+       id="room-6aab94d9d2009ac8d1a007389e539256972864b0"
+       class="room indoor"
+       data-label="office of the Guildmaster of the Ankh-Morpork Palace Guard"
+       x="159"
+       y="129"
+       width="8"
+       height="8"
+       rx="2" /></g><g
+     id="layer-room-labels" /><g
+     id="layer-labels"><!-- labels --></g></svg>
