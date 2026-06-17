@@ -519,7 +519,27 @@ panel.on("room_info", async (frame) => {
   const wasInDark = darkMode;
   darkMode = false;
   if (wasInDark) target = null;
-  const next = resolveRoom(data, frame);
+  let next = resolveRoom(data, frame);
+  // Name-based fallback: if ID lookup failed, search the current map's SVG for
+  // a room element whose data-label matches the GMCP room name. Enables maps
+  // (e.g. am_shades) to track rooms that aren't in the rooms DB, as long as the
+  // SVG node carries a matching data-label attribute.
+  if (next === null && frame.name && currentSvg && displayedMapId !== null) {
+    const el = currentSvg.querySelector(`[data-label="${CSS.escape(frame.name)}"]`);
+    if (el) {
+      const cx = el.getAttribute('cx');
+      const x  = cx !== null
+        ? parseFloat(cx)
+        : parseFloat(el.getAttribute('x') ?? 0) + parseFloat(el.getAttribute('width') ?? 0) / 2;
+      const cy = el.getAttribute('cy');
+      const y  = cy !== null
+        ? parseFloat(cy)
+        : parseFloat(el.getAttribute('y') ?? 0) + parseFloat(el.getAttribute('height') ?? 0) / 2;
+      if (!isNaN(x) && !isNaN(y)) {
+        next = { mapId: displayedMapId, x, y, short: frame.name };
+      }
+    }
+  }
   // library_position is authoritative for map 47. Ignore room_info events
   // that would keep us on map 47 or set current to null while already there —
   // only process if the event signals leaving the library entirely.
