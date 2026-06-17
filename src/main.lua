@@ -510,7 +510,9 @@ local function display_results(search_type, query, results, sorted_by_dist)
   note('  ' .. rule, C.rule)
   for i, line in ipairs(lines) do
     local r = results[i]
-    mud.note(mud.span(line, { fg = colours[i], on_click = function() route_to_room(r.room_id, r.location, false) end }))
+    local pad, text = line:match('^(%s*)(.*)')
+    mud.note(mud.span(pad, { fg = colours[i] })
+          .. mud.span(text, { fg = colours[i], on_click = function() route_to_room(r.room_id, r.location, false) end }))
   end
   note('  ' .. rule, C.rule)
   note('  Click result to route · db <number> to route and walk.', C.muted)
@@ -796,10 +798,9 @@ mud.command("db", function(m)
     note('  Bookmarks:', C.header)
     for _, name in ipairs(names) do
       local entry = bmarks[name]
-      mud.note(mud.span(string.format('  %-20s %s', name, entry.location), {
-        fg = C.alt,
-        on_click = function() route_to_room(entry.room_id, entry.location, false) end,
-      }))
+      local text = string.format('%-20s %s', name, entry.location)
+      mud.note(mud.span('  ', { fg = C.alt })
+            .. mud.span(text, { fg = C.alt, on_click = function() route_to_room(entry.room_id, entry.location, false) end }))
     end
     return
   end
