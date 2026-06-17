@@ -867,12 +867,16 @@ end)
 -- ─── ocd ─────────────────────────────────────────────────────────────────────
 -- Re-centre the map on the current position without sending 'look' to the MUD.
 
-mud.command("ocd", function()
+local function do_ocd()
   if last_payload then
     post_room(last_payload)
   else
     note('  Current position unknown.', C.muted)
   end
+end
+
+mud.command("ocd", function()
+  do_ocd()
 end, {
   description = "Re-centre the map on the current position without sending 'look' to the MUD.",
   usage       = "ocd",
@@ -935,6 +939,4 @@ keymap.bind("Alt+Left",  function() panel:post("pan",  { dir = "w" }) end)
 keymap.bind("Alt+Right", function() panel:post("pan",  { dir = "e" }) end)
 keymap.bind("Alt+=",     function() panel:post("zoom", { dir = "in"  }) end)
 keymap.bind("Alt+-",     function() panel:post("zoom", { dir = "out" }) end)
-keymap.bind("Alt+0",     function()
-  if last_payload then post_room(last_payload) end
-end)
+keymap.bind("Alt+0",     function() do_ocd() end)
