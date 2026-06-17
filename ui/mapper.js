@@ -309,7 +309,18 @@ function applyState() {
   // Route rooms — lifted above route edges.
   for (const id of routeRoomIds) {
     const el = currentSvg.querySelector(`#room-${CSS.escape(id)}`);
-    if (el) { el.classList.add("route"); _lift(el, routeOverlay); }
+    if (el) {
+      el.classList.add("route");
+      const sib1 = el.nextElementSibling;
+      const sib2 = sib1?.nextElementSibling;
+      _lift(el, routeOverlay);
+      if (sib1?.classList.contains("stair-symbol")) {
+        _lift(sib1, routeOverlay);
+        if (sib2?.classList.contains("room-type-label")) _lift(sib2, routeOverlay);
+      } else if (sib1?.classList.contains("room-type-label")) {
+        _lift(sib1, routeOverlay);
+      }
+    }
   }
 
   // Position indicator — lifted above route overlay.

@@ -473,6 +473,7 @@ local TYPE_LABELS = {
 local route_to_room  -- forward declaration; assigned below after panel setup
 
 local function display_results(search_type, query, results, sorted_by_dist)
+  local p         = mud.command_prefix()
   local count     = #results
   local sort_note = sorted_by_dist and ', nearest first' or ''
   local header    = string.format('  DB Search: %s \xe2\x80\x94 "%s"  (%d result%s%s)',
@@ -515,7 +516,7 @@ local function display_results(search_type, query, results, sorted_by_dist)
           .. mud.span(text, { fg = colours[i], on_click = function() route_to_room(r.room_id, r.location, false) end }))
   end
   note('  ' .. rule, C.rule)
-  note('  Click result to route · db <number> to route and walk.', C.muted)
+  note(string.format('  Click result to route · %sdb <number> to route and walk.', p), C.muted)
 end
 
 -- ─── Movement prediction ─────────────────────────────────────────────────────
@@ -627,6 +628,7 @@ local function do_search(search_type, query, area_filter)
 end
 
 route_to_room = function(room_id, display_name, walk_immediately)
+  local p = mud.command_prefix()
   if current_room == nil then
     note('  Current room unknown. Move through a mapped room first.', C.err)
     return
@@ -660,7 +662,7 @@ route_to_room = function(room_id, display_name, walk_immediately)
     panel:post("walk_active", {})
   else
     walk_pos = 0
-    note(string.format('  Route to "%s" — %d move%s. Type "db walk" to begin.', display_name, steps, steps == 1 and '' or 's'), C.ok)
+    note(string.format('  Route to "%s" — %d move%s. Type "%sdb walk" to begin.', display_name, steps, steps == 1 and '' or 's', p), C.ok)
   end
 end
 
@@ -685,9 +687,10 @@ panel:on_message("clear_request", function(_frame)
   note('  Route cleared.', C.muted)
 end)
 
+
 local function do_route(n, walk_immediately)
   if #last_results == 0 then
-    note('  No search results. Run a db search first.', C.err)
+    note('  No search results. Run a /db search first.', C.err)
     return
   end
   if n < 1 or n > #last_results then
@@ -704,30 +707,31 @@ end
 
 mud.command("db", function(m)
   local args = m.args
+  local p    = mud.command_prefix()
 
   if args == '' then
-    note("  /db — search Quow's Discworld database", C.header)
+    note(string.format("  %sdb — search Quow's Discworld database", p), C.header)
     note('  ─────────────────────────────────────────────────────', C.rule)
-    note('  /db <room name>             search rooms', C.alt)
-    note('  /db npc <name>              search NPCs', C.alt)
-    note('  /db npc {<area>} <name>     search NPCs filtered by area', C.alt)
-    note('  /db item <name>             search shop items', C.alt)
-    note('  /db npcitem <name>          search items carried by NPCs', C.alt)
+    note(string.format('  %sdb <room name>             search rooms', p), C.alt)
+    note(string.format('  %sdb npc <name>              search NPCs', p), C.alt)
+    note(string.format('  %sdb npc {<area>} <name>     search NPCs filtered by area', p), C.alt)
+    note(string.format('  %sdb item <name>             search shop items', p), C.alt)
+    note(string.format('  %sdb npcitem <name>          search items carried by NPCs', p), C.alt)
     note('  ─────────────────────────────────────────────────────', C.rule)
-    note('  /db <number>                route to result and walk', C.alt)
-    note('  /db walk                    start or resume walking', C.alt)
-    note('  /db clear                   clear current route', C.alt)
+    note(string.format('  %sdb <number>                route to result and walk', p), C.alt)
+    note(string.format('  %sdb walk                    start or resume walking', p), C.alt)
+    note(string.format('  %sdb clear                   clear current route', p), C.alt)
     note('  ─────────────────────────────────────────────────────', C.rule)
-    note('  /db bm                      list bookmarks', C.alt)
-    note('  /db bm add <name>           bookmark current room', C.alt)
-    note('  /db bm rm <name>            remove bookmark', C.alt)
-    note('  /db bm <name>               route to bookmark', C.alt)
+    note(string.format('  %sdb bm                      list bookmarks', p), C.alt)
+    note(string.format('  %sdb bm add <name>           bookmark current room', p), C.alt)
+    note(string.format('  %sdb bm rm <name>            remove bookmark', p), C.alt)
+    note(string.format('  %sdb bm <name>               route to bookmark', p), C.alt)
     return
   end
 
   if args == 'walk' then
     if #walk_steps == 0 then
-      note('  No route set. Run "/db <number>" first.', C.err)
+      note(string.format('  No route set. Run "%sdb <number>" first.', p), C.err)
       return
     end
     if walk_pos > 0 then
@@ -894,7 +898,7 @@ mud.command("pan", function(m)
   }
   local dir = dir_map[m.args:lower()]
   if not dir then
-    note('  Usage: /pan n|s|e|w', C.err)
+    note(string.format('  Usage: %span n|s|e|w', mud.command_prefix()), C.err)
     return
   end
   panel:post("pan", { dir = dir })
@@ -909,7 +913,7 @@ end, {
 mud.command("zoom", function(m)
   local arg = m.args:lower()
   if arg ~= "in" and arg ~= "out" then
-    note('  Usage: /zoom in|out', C.err)
+    note(string.format('  Usage: %szoom in|out', mud.command_prefix()), C.err)
     return
   end
   panel:post("zoom", { dir = arg })
@@ -928,15 +932,3 @@ mud.alias([[^libclear$]], function()
   note('  Library overlays cleared.', C.muted)
 end)
 
--- ─── keyboard map navigation ─────────────────────────────────────────────────
--- Alt+arrows → pan, Alt+=/- → zoom, Alt+0 → re-centre.
--- Uses keymap.bind (plugin-level keymaps). Will appear in /commands once
--- Mallard's upcoming Lua keymap surface lands.
-
-keymap.bind("Alt+Up",    function() panel:post("pan",  { dir = "n" }) end)
-keymap.bind("Alt+Down",  function() panel:post("pan",  { dir = "s" }) end)
-keymap.bind("Alt+Left",  function() panel:post("pan",  { dir = "w" }) end)
-keymap.bind("Alt+Right", function() panel:post("pan",  { dir = "e" }) end)
-keymap.bind("Alt+=",     function() panel:post("zoom", { dir = "in"  }) end)
-keymap.bind("Alt+-",     function() panel:post("zoom", { dir = "out" }) end)
-keymap.bind("Alt+0",     function() do_ocd() end)
