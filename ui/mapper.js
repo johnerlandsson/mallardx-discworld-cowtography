@@ -17,7 +17,6 @@ const $footer     = document.querySelector(".route-footer");
 const $routeDest  = document.querySelector(".route-dest");
 const $routeWalk  = document.querySelector(".route-walk");
 const $routeClear = document.querySelector(".route-clear");
-const $focusBadge = document.querySelector(".focus-badge");
 
 const SPECIAL_SCREENS = {
   unknown:   { title: "Unknown Location",  sub: "No map data for this room." },
@@ -479,13 +478,13 @@ let mapFocused = false;
 function grabFocus() {
   mapFocused = true;
   panel.captureKeys(true);
-  $focusBadge.hidden = false;
+  $container.classList.add("focused");
 }
 
 function releaseFocus() {
   mapFocused = false;
   panel.captureKeys(false);
-  $focusBadge.hidden = true;
+  $container.classList.remove("focused");
 }
 
 $container.addEventListener("click", () => { if (!mapFocused) grabFocus(); });
