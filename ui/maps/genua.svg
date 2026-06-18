@@ -1497,7 +1497,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-22fc549443a42342ece5b9ec4586806db27944e4" class="room indoor" data-label="bedroom" x="480" y="257" width="8" height="8" rx="2"/>
     <rect id="room-1c2eb697c45408c26d5110c44f931480ed0f6266" class="room indoor" data-label="hall" x="480" y="257" width="8" height="8" rx="2"/>
     <rect id="room-39321e41670aff74cebae03bf6c51c2aea31d5c7" class="room indoor" data-label="dining room" x="480" y="257" width="8" height="8" rx="2"/>
-    <rect id="room-e928b0135e84ba06ff10d1c69842ee5cc545a460" class="room indoor" data-label="Ankh-Morporkian Embassy" x="480" y="249" width="8" height="8" rx="2"/>
+    <rect id="room-e928b0135e84ba06ff10d1c69842ee5cc545a460" class="room indoor room-changer" data-label="Ankh-Morporkian Embassy" x="480" y="249" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="484" y="253" text-anchor="middle" dominant-baseline="central">¢</text>
     <circle id="room-dde356c871f15002d0a0f81beb11e4b48c87561d" class="room outdoor" data-label="Royal Avenue" cx="484" cy="242" r="4"/>
     <circle id="room-a5906aa3db535856519ba79a310876098286cc76" class="room outdoor" data-label="the eastern half of Royal Avenue" cx="526" cy="242" r="4"/>
     <rect id="room-e532fce0ba3b6b564e8a25b4bd27bbf71ead6bfc" class="room indoor room-access" data-label="magic shop" x="522" y="249" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="526" y="253" text-anchor="middle" dominant-baseline="central">X</text>
