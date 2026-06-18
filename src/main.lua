@@ -50,6 +50,46 @@ local SPECIAL_SCREENS = {
 -- anchored to the entrance and show a muted indicator for the interior.
 local SHADES_ENTRY_ID = "01bbd8b887e71314d8e358cbaf4f585391206bc4"
 
+-- BPMedina: 18 rooms share one GMCP identifier. Identified by description
+-- substring + exit count + previous Medina room (mirrors Quow's logic).
+local MEDINA_BY_DESC = {
+  { pat = "and there are other alleys", id = "Medina01" },
+  { pat = "head spins",                 id = "Medina02" },
+  { pat = "very narrow",                id = "Medina03" },
+  { pat = "T%-junction",                id = "Medina04" },
+  { pat = "cross alleyways",            id = "Medina06" },
+  { pat = "decision is simple",         id = "Medina07" },
+  { pat = "Six alleys meet",            id = "Medina09" },
+  { pat = "Three alleyways merge",      id = "Medina10" },
+  { pat = "same place you were",        id = "Medina11" },
+  { pat = "the Aurient",                id = "Medina12" },
+  { pat = "north and south",            id = "Medina16" },
+  { pat = "alleys twist and turn",      id = "Medina17" },
+  { pat = "dark and with",              id = "Medina18" },
+}
+-- Rooms in the inner cluster — coming from one of these makes 3-exit
+-- MedinaGuess rooms more likely to be Medina14 than Medina08.
+local MEDINA_INNER = {
+  Medina10=true, Medina11=true, Medina13=true,
+  Medina14=true, Medina16=true, Medina17=true, Medina18=true,
+}
+local medina_prev = nil
+
+local function medina_identify(desc, exit_count)
+  for _, entry in ipairs(MEDINA_BY_DESC) do
+    if desc:find(entry.pat) then return entry.id end
+  end
+  -- Generic "You are standing in a small winding alleyway" — disambiguate by exits.
+  if     exit_count == 5 then return "Medina05"
+  elseif exit_count == 4 then return "Medina13"
+  elseif exit_count == 2 then return "Medina15"
+  elseif exit_count == 3 then
+    if medina_prev and MEDINA_INNER[medina_prev] then return "Medina14"
+    else return "Medina08" end
+  end
+  return nil
+end
+
 -- ─── Map panel ───────────────────────────────────────────────────────────────
 
 local panel        = mud.panel("map")
@@ -440,6 +480,23 @@ gmcp.on('room.info', function(_, data)
           end
           _in_dark = true
           panel:post("room_dark", {})
+        elseif data.identifier == "BPMedina" then
+          -- All 18 Medina rooms share this identifier; identify by description + exits.
+          local desc = data.description or ''
+          local exit_count = 0
+          if type(data.exits) == 'table' then
+            for _ in pairs(data.exits) do exit_count = exit_count + 1 end
+          end
+          local room_id = medina_identify(desc, exit_count)
+          if room_id then
+            medina_prev = room_id
+            local frame = { identifier = room_id, name = data.name }
+            last_payload = frame
+            post_room(frame)
+          elseif prev_room ~= "BPMedina" and last_payload then
+            -- Can't identify on entry; stay on last known position.
+            post_room(last_payload)
+          end
         else
           last_payload = data
           post_room(data)
