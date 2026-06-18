@@ -1,8 +1,9 @@
 import { rooms, maps, terrain } from "./data/rooms.js";
+import customRooms from "./data/room-custom.js";
 import { resolveRoom } from "./lookup.js";
 import { mapDidChange, headerText } from "./render.js";
 
-const data = { rooms, maps, terrain };
+const data = { rooms: { ...rooms, ...customRooms }, maps, terrain };
 
 // ─── DOM refs ─────────────────────────────────────────────────────────────
 const $mapName      = document.querySelector(".map-name");
