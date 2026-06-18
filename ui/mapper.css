@@ -128,8 +128,8 @@ body {
 .map-label       { fill: var(--fg);    font-family: "Noto Sans", sans-serif; }
 .map-label-muted { fill: color-mix(in srgb, var(--fg) 60%, var(--bg)); font-family: "Noto Sans", sans-serif; }
 .map-label-accent { fill: var(--accent); font-family: "Noto Sans", sans-serif; }
-.map-area-fill   { fill: var(--bg-elevated); }
-.map-area-stroke { stroke: var(--border);    fill: none; }
+.map-area-fill   { fill: rgba(255, 255, 255, 0.07); }
+.map-area-stroke { stroke: rgba(255, 255, 255, 0.2); fill: none; }
 .map-water       { fill: color-mix(in srgb, #4a9fd4 20%, var(--bg)); }
 .map-accent      { fill: var(--accent); }
 .anno-box        { stroke: var(--fg); stroke-width: 0.75; fill: var(--bg-elevated); }
