@@ -115,6 +115,25 @@ body {
 .room-tshop                              { fill: #080808; }
 .room-temple                             { fill: #2d1a47; }
 
+/* ─── CTF Arena room types ─────────────────────────────────────────────────── */
+/* color-mix blends a Mallard ANSI theme colour into the bg at varying        */
+/* intensities. Applies to both room shapes and SVG text (fill is shared).    */
+.room-ctf-guard          { fill: color-mix(in srgb, var(--ansi-12, #61afef) 18%, var(--bg, #1a1a1a)); }
+.room-ctf-jail           { fill: color-mix(in srgb, var(--ansi-1,  #e06c75) 24%, var(--bg, #1a1a1a)); }
+.room-ctf-prison         { fill: color-mix(in srgb, var(--ansi-1,  #e06c75) 12%, var(--bg, #1a1a1a)); }
+.room-ctf-torture        { fill: color-mix(in srgb, var(--ansi-9,  #ef596f) 32%, var(--bg, #1a1a1a)); }
+.room-ctf-luxurious      { fill: color-mix(in srgb, var(--ansi-11, #e5c07b) 28%, var(--bg, #1a1a1a)); }
+.room-ctf-hallway        { fill: color-mix(in srgb, var(--fg,      #eaeaea)  9%, var(--bg, #1a1a1a)); }
+.room-ctf-banquet        { fill: color-mix(in srgb, var(--ansi-3,  #c8a228) 24%, var(--bg, #1a1a1a)); }
+.room-ctf-kitchen        { fill: color-mix(in srgb, var(--ansi-3,  #c8a228) 14%, var(--bg, #1a1a1a)); }
+.room-ctf-cellar         { fill: color-mix(in srgb, var(--ansi-8,  #5c6370) 26%, var(--bg, #1a1a1a)); }
+.room-ctf-wine-cellar    { fill: color-mix(in srgb, var(--ansi-5,  #c678dd) 22%, var(--bg, #1a1a1a)); }
+.room-ctf-chapel         { fill: color-mix(in srgb, var(--ansi-6,  #56b6c2) 22%, var(--bg, #1a1a1a)); }
+.room-ctf-secret-passage { fill: color-mix(in srgb, var(--fg,      #eaeaea)  5%, var(--bg, #1a1a1a)); }
+.room-ctf-necropolis     { fill: color-mix(in srgb, var(--ansi-13, #c678dd) 30%, var(--bg, #1a1a1a)); }
+.room-ctf-courtyard      { fill: color-mix(in srgb, var(--ansi-10, #4ade80) 18%, var(--bg, #1a1a1a)); }
+.room-ctf-underground    { fill: color-mix(in srgb, var(--ansi-8,  #5c6370) 14%, var(--bg, #1a1a1a)); }
+
 /* ─── UU Library overlay ───────────────────────────────────────────────────── */
 .lib-distortion { fill: rgba(220, 20, 20, 0.9); }
 .lib-orb        { fill: rgba(255, 140, 0, 0.9); stroke: rgba(0,0,0,0.6); stroke-width: 1.5; }
