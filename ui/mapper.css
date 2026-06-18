@@ -66,7 +66,7 @@ body {
 .room         { fill: var(--bg); stroke: var(--fg); stroke-width: 0.5; }
 .room.route   { fill: #0d2d4a;   stroke: #00d2ff;   stroke-width: 2.03; }
 .room.current         { fill: var(--bg); stroke: #ff3b30;   stroke-width: 1.5; stroke-opacity: 0.6; }
-.room.target          { fill: #ff3b30;   stroke: #fff;      stroke-width: 2.03; opacity: 1; }
+.room.target          { fill: #ff3b30;   stroke: var(--fg); stroke-width: 2.03; opacity: 1; }
 .room-compact.target  { stroke-width: 1; }
 .exit         { stroke: #525252; stroke-width: 1.82; fill: none; }
 .exit.route   { stroke: #00d2ff; stroke-width: 3.03; }
@@ -116,9 +116,10 @@ body {
 .room-temple                             { fill: #2d1a47; }
 
 /* ─── CTF Arena room types ─────────────────────────────────────────────────── */
+[class^="room-ctf-"], [class*=" room-ctf-"] { font-size: 8px; }
 .room-ctf-guard          { fill: #3c3820; }
 .room-ctf-jail           { fill: #7a3a1a; }
-.room-ctf-prison         { fill: #6a1a1a; }
+.room-ctf-prison         { fill: #383038; }
 .room-ctf-torture        { fill: #8c1520; }
 .room-ctf-luxurious      { fill: #7a6400; }
 .room-ctf-hallway        { fill: #3a3a3a; }
@@ -135,7 +136,7 @@ body {
 .room-ctf-dead-end       { fill: #2a2218; }
 .light-bg .room-ctf-guard          { fill: #d8d0a0; }
 .light-bg .room-ctf-jail           { fill: #e8c0a0; }
-.light-bg .room-ctf-prison         { fill: #e8a0a0; }
+.light-bg .room-ctf-prison         { fill: #d0ccd8; }
 .light-bg .room-ctf-torture        { fill: #f09090; }
 .light-bg .room-ctf-luxurious      { fill: #f5e860; }
 .light-bg .room-ctf-hallway        { fill: #d8d8d8; }
@@ -172,6 +173,8 @@ body {
 .map-label       { fill: var(--fg);    font-family: "Noto Sans", sans-serif; }
 .map-label-muted { fill: color-mix(in srgb, var(--fg) 60%, var(--bg)); font-family: "Noto Sans", sans-serif; }
 .map-label-accent { fill: var(--accent); font-family: "Noto Sans", sans-serif; }
+.map-label-water  { fill: #4a9fd4;    font-family: "Noto Sans", sans-serif; }
+.light-bg .map-label-water { fill: #2d7aad; }
 .map-area-fill              { fill: rgba(255, 255, 255, 0.07); }
 .light-bg .map-area-fill   { fill: rgba(0,   0,   0,   0.10); }
 .map-area-stroke { stroke: rgba(255, 255, 255, 0.2); fill: none; }
