@@ -944,7 +944,7 @@ end, {
 mud.command("map_focus",   function() panel:post("grab_focus",    {}) end, { hidden = true })
 mud.command("map_unfocus", function() panel:post("release_focus", {}) end, { hidden = true })
 
-mud.keymap.activate("Map Navigation")
+mud.keymap.activate("Cowtography")
 
 -- ─── libclear ────────────────────────────────────────────────────────────────
 -- Manually clear library overlays (distortion + orb) without changing rooms.
