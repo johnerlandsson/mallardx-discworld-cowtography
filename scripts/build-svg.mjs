@@ -661,6 +661,12 @@ async function buildOneSvg(db, mapId, mapMeta) {
   let svg
   try {
     const existing = await fs.readFile(outPath, 'utf8')
+    // If the DB has no rooms for this map (e.g. Medina — rooms come from
+    // room-custom.js at runtime), keep the existing SVG unchanged.
+    if (roomRows.length === 0) {
+      console.log(`[build-svg]   ↷ map ${mapId}: no DB rooms — keeping existing SVG`)
+      return
+    }
     const oldIds = new Set([...existing.matchAll(/id="room-([^"]+)"/g)].map(m => m[1]))
     const newIds = new Set(roomRows.map(r => r.id))
     const added   = [...newIds].filter(id => !oldIds.has(id)).length
