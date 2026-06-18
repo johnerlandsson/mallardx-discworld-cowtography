@@ -1,151 +1,1178 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 460 383"
-     class="map-svg"
-     data-map-id="4">
-
-  <g id="layer-artwork"><!-- artwork --></g>
-
-  <g id="layer-exits">
-    <line id="edge-130e329f89050a7a7c29c16bad8ca0d42f2d21c1-4609a954a57222d6f73a4fcdfc1c71f3f452cccf" class="exit" x1="105" y1="70" x2="81" y2="70"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 460 383"
+   class="map-svg"
+   data-map-id="4"
+   version="1.1"
+   id="svg15"
+   sodipodi:docname="am_cruets.svg"
+   xml:space="preserve"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs15" />
+  <style id="inkscape-font-fix">
+text, .map-label, .map-label-muted, .map-label-accent,
+.lib-table, .lib-gap-label, .lib-book-label,
+.lib-row-num, .lib-book-list, .room-type-label {
+  font-family: "Noto Sans", sans-serif;
+}
+</style><sodipodi:namedview
+     id="namedview15"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.4769854"
+     inkscape:cx="267.43662"
+     inkscape:cy="180.09656"
+     inkscape:window-width="1968"
+     inkscape:window-height="1011"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg15" /><g
+     id="layer-artwork"><!-- artwork --><text
+       xml:space="preserve"
+       x="98.61319"
+       y="118.35001"
+       id="text45"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="98.61319"
+         y="118.35001"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan48">GROUND</tspan><tspan
+         sodipodi:role="line"
+         x="98.61319"
+         y="125.85001"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan17">FLOOR</tspan></text><text
+       xml:space="preserve"
+       x="196.754"
+       y="118.34401"
+       id="text16"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="196.754"
+         y="118.34401"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan15">FIRST</tspan><tspan
+         sodipodi:role="line"
+         x="196.754"
+         y="125.84399"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan16">FLOOR</tspan></text><text
+       xml:space="preserve"
+       x="322.754"
+       y="118.34401"
+       id="text19"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="322.754"
+         y="118.34401"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan18">SECOND</tspan><tspan
+         sodipodi:role="line"
+         x="322.754"
+         y="125.84401"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan19">FLOOR</tspan></text><rect
+       id="rect12-7"
+       width="55.343998"
+       height="10"
+       x="323"
+       y="8"
+       class="city-sign"
+       style="stroke-width:0.671623" /><text
+       xml:space="preserve"
+       x="350.52798"
+       y="15.856003"
+       id="text13-5"
+       class="city-sign-label"
+       text-anchor="middle"
+       font-size="8px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="350.52798"
+         y="15.856003"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan12-9">SALT SHAKER</tspan></text><rect
+       id="rect12-7-5"
+       width="50.903999"
+       height="10"
+       x="328.68134"
+       y="302"
+       class="city-sign"
+       style="stroke-width:0.671623" /><text
+       xml:space="preserve"
+       x="353.78934"
+       y="309.85999"
+       id="text13-5-3"
+       class="city-sign-label"
+       text-anchor="middle"
+       font-size="8px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="353.78934"
+         y="309.85999"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan12-9-5">PEPPER POT</tspan></text><text
+       xml:space="preserve"
+       x="418.77798"
+       y="124.52213"
+       id="text21"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="418.77798"
+         y="124.52213"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan21">ROOF</tspan></text><rect
+       id="rect24-0"
+       width="37.98"
+       height="15.904"
+       x="25.74972"
+       y="263.048"
+       ry="1.1120684"
+       class="anno-box"
+       style="stroke-width:0.999988" /><text
+       xml:space="preserve"
+       x="44.448719"
+       y="269.392"
+       id="text23-3"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="44.448719"
+         y="269.392"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan23-6">SE UPPER</tspan><tspan
+         sodipodi:role="line"
+         x="44.448719"
+         y="276.892"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan22">BROADWAY</tspan></text><path
+       d="M 81,271 H 63.72972"
+       id="path24-1"
+       class="exit-offmap"
+       sodipodi:nodetypes="cc" /><rect
+       id="rect24-0-9"
+       width="37.98"
+       height="15.904"
+       x="25.74972"
+       y="62.048004"
+       ry="1.1120684"
+       class="anno-box"
+       style="stroke-width:0.999988" /><text
+       xml:space="preserve"
+       x="44.448719"
+       y="68.391998"
+       id="text23-3-1"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="44.448719"
+         y="68.391998"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan23-6-2">SE UPPER</tspan><tspan
+         sodipodi:role="line"
+         x="44.448719"
+         y="75.891991"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan22-7">BROADWAY</tspan></text><path
+       d="M 81,70 H 63.72972"
+       id="path24-1-0"
+       class="exit-offmap"
+       sodipodi:nodetypes="cc" /><text
+       xml:space="preserve"
+       x="418.754"
+       y="46.531509"
+       id="text24"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="418.754"
+         y="46.531509"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan24">THIRD</tspan><tspan
+         sodipodi:role="line"
+         x="418.754"
+         y="54.031509"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan25">FLOOR</tspan></text></g><g
+     id="layer-exits"><line
+   id="edge-130e329f89050a7a7c29c16bad8ca0d42f2d21c1-4609a954a57222d6f73a4fcdfc1c71f3f452cccf"
+   class="exit"
+   x1="105"
+   y1="70"
+   x2="81"
+   y2="70" />
     null
-    <line id="edge-130e329f89050a7a7c29c16bad8ca0d42f2d21c1-7f2fff7d66be6b9143c4a08c6a7c72e90d97023e" class="exit" x1="105" y1="70" x2="129" y2="70"/>
-    <line id="edge-130e329f89050a7a7c29c16bad8ca0d42f2d21c1-8d85dee6c227ddd012642f20b087e6f70d975dc0" class="exit" x1="105" y1="70" x2="105" y2="94"/>
-    <line id="edge-130e329f89050a7a7c29c16bad8ca0d42f2d21c1-daf8a641de839778a9162eef3d9aead81958296a" class="exit" x1="105" y1="70" x2="105" y2="46"/>
-    <line id="edge-5bc5a433f9c18f7cb0ab441eaebf4ed306755167-daf8a641de839778a9162eef3d9aead81958296a" class="exit" x1="81" y1="46" x2="105" y2="46"/>
-    <line id="edge-8d85dee6c227ddd012642f20b087e6f70d975dc0-c0166c785d5b4d6b1a27fc12dec91f1e7bfbed25" class="exit" x1="105" y1="94" x2="81" y2="94"/>
+    <line
+   id="edge-130e329f89050a7a7c29c16bad8ca0d42f2d21c1-7f2fff7d66be6b9143c4a08c6a7c72e90d97023e"
+   class="exit"
+   x1="105"
+   y1="70"
+   x2="129"
+   y2="70" /><line
+   id="edge-130e329f89050a7a7c29c16bad8ca0d42f2d21c1-8d85dee6c227ddd012642f20b087e6f70d975dc0"
+   class="exit"
+   x1="105"
+   y1="70"
+   x2="105"
+   y2="94" /><line
+   id="edge-130e329f89050a7a7c29c16bad8ca0d42f2d21c1-daf8a641de839778a9162eef3d9aead81958296a"
+   class="exit"
+   x1="105"
+   y1="70"
+   x2="105"
+   y2="46" /><line
+   id="edge-5bc5a433f9c18f7cb0ab441eaebf4ed306755167-daf8a641de839778a9162eef3d9aead81958296a"
+   class="exit"
+   x1="81"
+   y1="46"
+   x2="105"
+   y2="46" /><line
+   id="edge-8d85dee6c227ddd012642f20b087e6f70d975dc0-c0166c785d5b4d6b1a27fc12dec91f1e7bfbed25"
+   class="exit"
+   x1="105"
+   y1="94"
+   x2="81"
+   y2="94" />
     null
-    <line id="edge-15089447ab5046dd611b3416095d7e04f7845524-6543ae6679ab7c68fd5ea4c0824cb98304de4622" class="exit" x1="323" y1="70" x2="299" y2="70"/>
+    <line
+   id="edge-15089447ab5046dd611b3416095d7e04f7845524-6543ae6679ab7c68fd5ea4c0824cb98304de4622"
+   class="exit"
+   x1="323"
+   y1="70"
+   x2="299"
+   y2="70" />
     null
-    <line id="edge-15089447ab5046dd611b3416095d7e04f7845524-9384aa6327f9c88078ec28d9e9f46debc2059bda" class="exit" x1="323" y1="70" x2="347" y2="70"/>
-    <line id="edge-15089447ab5046dd611b3416095d7e04f7845524-bee9e579e295d7369805021d0e2664814e9da46d" class="exit" x1="323" y1="70" x2="323" y2="46"/>
-    <line id="edge-15089447ab5046dd611b3416095d7e04f7845524-cb8aaf1cc79bb5e8977a6d0124791dd116eef443" class="exit" x1="323" y1="70" x2="323" y2="94"/>
-    <line id="edge-b8ea6a04ebd787bf121799d7a265ad69fe986818-bee9e579e295d7369805021d0e2664814e9da46d" class="exit" x1="299" y1="46" x2="323" y2="46"/>
-    <line id="edge-cb8aaf1cc79bb5e8977a6d0124791dd116eef443-dd628f6996a877e876ca2f04d74477b9cf21f227" class="exit" x1="323" y1="94" x2="299" y2="94"/>
-    <line id="edge-532d0785b0e4ac1d41e5c3c344b70cb237bb2510-776042cd4f6d5c4f52ae31e33fe86a238053a621" class="exit" x1="431" y1="69" x2="407" y2="70"/>
-    <line id="edge-5b7881be3464afc8e82c64694637d2c76fcbce85-ebfd03de5885e8a24426811f1cabca043f5d81f5" class="exit" x1="81" y1="247" x2="81" y2="271"/>
-    <line id="edge-97e57b200274898a4fa90a7ce22632e3d18e412a-ebfd03de5885e8a24426811f1cabca043f5d81f5" class="exit" x1="105" y1="271" x2="81" y2="271"/>
-    <line id="edge-08ac555676ee6809973cff2b9c27a365fc9847a2-97e57b200274898a4fa90a7ce22632e3d18e412a" class="exit" x1="130" y1="295" x2="105" y2="271"/>
-    <line id="edge-139b49cd223447ad421747264cb82b49cfc9af29-97e57b200274898a4fa90a7ce22632e3d18e412a" class="exit" x1="106" y1="319" x2="105" y2="271"/>
-    <line id="edge-97e57b200274898a4fa90a7ce22632e3d18e412a-a860dea8abb6b953216269657fab13bd2de2df0f" class="exit" x1="105" y1="271" x2="129" y2="247"/>
-    <line id="edge-97e57b200274898a4fa90a7ce22632e3d18e412a-f669f1fed5feb4a0dc65619c098d7de1b416d5d4" class="exit" x1="105" y1="271" x2="105" y2="223"/>
-    <line id="edge-08ac555676ee6809973cff2b9c27a365fc9847a2-139b49cd223447ad421747264cb82b49cfc9af29" class="exit" x1="130" y1="295" x2="106" y2="319"/>
+    <line
+   id="edge-15089447ab5046dd611b3416095d7e04f7845524-9384aa6327f9c88078ec28d9e9f46debc2059bda"
+   class="exit"
+   x1="323"
+   y1="70"
+   x2="347"
+   y2="70" /><line
+   id="edge-15089447ab5046dd611b3416095d7e04f7845524-bee9e579e295d7369805021d0e2664814e9da46d"
+   class="exit"
+   x1="323"
+   y1="70"
+   x2="323"
+   y2="46" /><line
+   id="edge-15089447ab5046dd611b3416095d7e04f7845524-cb8aaf1cc79bb5e8977a6d0124791dd116eef443"
+   class="exit"
+   x1="323"
+   y1="70"
+   x2="323"
+   y2="94" /><line
+   id="edge-b8ea6a04ebd787bf121799d7a265ad69fe986818-bee9e579e295d7369805021d0e2664814e9da46d"
+   class="exit"
+   x1="299"
+   y1="46"
+   x2="323"
+   y2="46" /><line
+   id="edge-cb8aaf1cc79bb5e8977a6d0124791dd116eef443-dd628f6996a877e876ca2f04d74477b9cf21f227"
+   class="exit"
+   x1="323"
+   y1="94"
+   x2="299"
+   y2="94" /><line
+   id="edge-532d0785b0e4ac1d41e5c3c344b70cb237bb2510-776042cd4f6d5c4f52ae31e33fe86a238053a621"
+   class="exit"
+   x1="431"
+   y1="69"
+   x2="407"
+   y2="70" /><line
+   id="edge-5b7881be3464afc8e82c64694637d2c76fcbce85-ebfd03de5885e8a24426811f1cabca043f5d81f5"
+   class="exit"
+   x1="81"
+   y1="247"
+   x2="81"
+   y2="271" /><line
+   id="edge-97e57b200274898a4fa90a7ce22632e3d18e412a-ebfd03de5885e8a24426811f1cabca043f5d81f5"
+   class="exit"
+   x1="105"
+   y1="271"
+   x2="81"
+   y2="271" /><line
+   id="edge-08ac555676ee6809973cff2b9c27a365fc9847a2-97e57b200274898a4fa90a7ce22632e3d18e412a"
+   class="exit"
+   x1="130"
+   y1="295"
+   x2="105"
+   y2="271" /><line
+   id="edge-139b49cd223447ad421747264cb82b49cfc9af29-97e57b200274898a4fa90a7ce22632e3d18e412a"
+   class="exit"
+   x1="106"
+   y1="319"
+   x2="105"
+   y2="271" /><line
+   id="edge-97e57b200274898a4fa90a7ce22632e3d18e412a-a860dea8abb6b953216269657fab13bd2de2df0f"
+   class="exit"
+   x1="105"
+   y1="271"
+   x2="129"
+   y2="247" /><line
+   id="edge-97e57b200274898a4fa90a7ce22632e3d18e412a-f669f1fed5feb4a0dc65619c098d7de1b416d5d4"
+   class="exit"
+   x1="105"
+   y1="271"
+   x2="105"
+   y2="223" /><line
+   id="edge-08ac555676ee6809973cff2b9c27a365fc9847a2-139b49cd223447ad421747264cb82b49cfc9af29"
+   class="exit"
+   x1="130"
+   y1="295"
+   x2="106"
+   y2="319" />
     null
-    <line id="edge-08ac555676ee6809973cff2b9c27a365fc9847a2-a860dea8abb6b953216269657fab13bd2de2df0f" class="exit" x1="130" y1="295" x2="129" y2="247"/>
-    <line id="edge-a860dea8abb6b953216269657fab13bd2de2df0f-f669f1fed5feb4a0dc65619c098d7de1b416d5d4" class="exit" x1="129" y1="247" x2="105" y2="223"/>
-    <line id="edge-a860dea8abb6b953216269657fab13bd2de2df0f-ffb9a6647ab26ab30802d7d97d6a9a88b3542ded" class="exit" x1="129" y1="247" x2="129" y2="199"/>
-    <line id="edge-02ac6111ebd40da47ff26645d9a6004c338bbad4-f669f1fed5feb4a0dc65619c098d7de1b416d5d4" class="exit" x1="105" y1="175" x2="105" y2="223"/>
-    <line id="edge-41ce89cdab3d204c5c1ef43f33cb485edd8ef1f0-f669f1fed5feb4a0dc65619c098d7de1b416d5d4" class="exit" x1="81" y1="199" x2="105" y2="223"/>
-    <line id="edge-f669f1fed5feb4a0dc65619c098d7de1b416d5d4-ffb9a6647ab26ab30802d7d97d6a9a88b3542ded" class="exit" x1="105" y1="223" x2="129" y2="199"/>
-    <line id="edge-02ac6111ebd40da47ff26645d9a6004c338bbad4-41ce89cdab3d204c5c1ef43f33cb485edd8ef1f0" class="exit" x1="105" y1="175" x2="81" y2="199"/>
-    <line id="edge-02ac6111ebd40da47ff26645d9a6004c338bbad4-ffb9a6647ab26ab30802d7d97d6a9a88b3542ded" class="exit" x1="105" y1="175" x2="129" y2="199"/>
-    <line id="edge-3e1bfd46f00507744137434359d37a026522ce57-8dc680216ff543581c831b35e0bfe00dfe5a0ec2" class="exit" x1="178" y1="295" x2="201" y2="322"/>
+    <line
+   id="edge-08ac555676ee6809973cff2b9c27a365fc9847a2-a860dea8abb6b953216269657fab13bd2de2df0f"
+   class="exit"
+   x1="130"
+   y1="295"
+   x2="129"
+   y2="247" /><line
+   id="edge-a860dea8abb6b953216269657fab13bd2de2df0f-f669f1fed5feb4a0dc65619c098d7de1b416d5d4"
+   class="exit"
+   x1="129"
+   y1="247"
+   x2="105"
+   y2="223" /><line
+   id="edge-a860dea8abb6b953216269657fab13bd2de2df0f-ffb9a6647ab26ab30802d7d97d6a9a88b3542ded"
+   class="exit"
+   x1="129"
+   y1="247"
+   x2="129"
+   y2="199" /><line
+   id="edge-02ac6111ebd40da47ff26645d9a6004c338bbad4-f669f1fed5feb4a0dc65619c098d7de1b416d5d4"
+   class="exit"
+   x1="105"
+   y1="175"
+   x2="105"
+   y2="223" /><line
+   id="edge-41ce89cdab3d204c5c1ef43f33cb485edd8ef1f0-f669f1fed5feb4a0dc65619c098d7de1b416d5d4"
+   class="exit"
+   x1="81"
+   y1="199"
+   x2="105"
+   y2="223" /><line
+   id="edge-f669f1fed5feb4a0dc65619c098d7de1b416d5d4-ffb9a6647ab26ab30802d7d97d6a9a88b3542ded"
+   class="exit"
+   x1="105"
+   y1="223"
+   x2="129"
+   y2="199" /><line
+   id="edge-02ac6111ebd40da47ff26645d9a6004c338bbad4-41ce89cdab3d204c5c1ef43f33cb485edd8ef1f0"
+   class="exit"
+   x1="105"
+   y1="175"
+   x2="81"
+   y2="199" /><line
+   id="edge-02ac6111ebd40da47ff26645d9a6004c338bbad4-ffb9a6647ab26ab30802d7d97d6a9a88b3542ded"
+   class="exit"
+   x1="105"
+   y1="175"
+   x2="129"
+   y2="199" /><line
+   id="edge-3e1bfd46f00507744137434359d37a026522ce57-8dc680216ff543581c831b35e0bfe00dfe5a0ec2"
+   class="exit"
+   x1="178"
+   y1="295"
+   x2="201"
+   y2="322" />
     null
-    <line id="edge-8dc680216ff543581c831b35e0bfe00dfe5a0ec2-b291ad014e4af8a7f3a8872d92cdf84e5cfa42cc" class="exit" x1="201" y1="322" x2="225" y2="298"/>
-    <line id="edge-8dc680216ff543581c831b35e0bfe00dfe5a0ec2-ed3ac1cd8688b7b20a445f72cb172a7169b06618" class="exit" x1="201" y1="322" x2="202" y2="271"/>
-    <line id="edge-3e1bfd46f00507744137434359d37a026522ce57-ed3ac1cd8688b7b20a445f72cb172a7169b06618" class="exit" x1="178" y1="295" x2="202" y2="271"/>
-    <line id="edge-ac489c23d5b0b7e65dcad8217674b5877f81bbb1-ed3ac1cd8688b7b20a445f72cb172a7169b06618" class="exit" x1="178" y1="247" x2="202" y2="271"/>
-    <line id="edge-b291ad014e4af8a7f3a8872d92cdf84e5cfa42cc-ed3ac1cd8688b7b20a445f72cb172a7169b06618" class="exit" x1="225" y1="298" x2="202" y2="271"/>
-    <line id="edge-8b6df24d2ab1f4b41a83a721ab0f9627b9c9023d-ac489c23d5b0b7e65dcad8217674b5877f81bbb1" class="exit" x1="202" y1="223" x2="178" y2="247"/>
-    <line id="edge-8b6df24d2ab1f4b41a83a721ab0f9627b9c9023d-976505ce1bef7ce2937fd5a739b7b746f3c3b2c4" class="exit" x1="202" y1="223" x2="176" y2="200"/>
-    <line id="edge-8b6df24d2ab1f4b41a83a721ab0f9627b9c9023d-a2f063a1dfa18c69f4a4d064ecef2e82f01634f3" class="exit" x1="202" y1="223" x2="200" y2="176"/>
-    <line id="edge-8b6df24d2ab1f4b41a83a721ab0f9627b9c9023d-be8784ae780818aaa3d8fa10827eb55f5de2109b" class="exit" x1="202" y1="223" x2="226" y2="199"/>
-    <line id="edge-8b6df24d2ab1f4b41a83a721ab0f9627b9c9023d-bfe0fcd34ee82f555abf03b7e175e51440cac852" class="exit" x1="202" y1="223" x2="226" y2="247"/>
-    <line id="edge-be8784ae780818aaa3d8fa10827eb55f5de2109b-bfe0fcd34ee82f555abf03b7e175e51440cac852" class="exit" x1="226" y1="199" x2="226" y2="247"/>
-    <line id="edge-976505ce1bef7ce2937fd5a739b7b746f3c3b2c4-a2f063a1dfa18c69f4a4d064ecef2e82f01634f3" class="exit" x1="176" y1="200" x2="200" y2="176"/>
+    <line
+   id="edge-8dc680216ff543581c831b35e0bfe00dfe5a0ec2-b291ad014e4af8a7f3a8872d92cdf84e5cfa42cc"
+   class="exit"
+   x1="201"
+   y1="322"
+   x2="225"
+   y2="298" /><line
+   id="edge-8dc680216ff543581c831b35e0bfe00dfe5a0ec2-ed3ac1cd8688b7b20a445f72cb172a7169b06618"
+   class="exit"
+   x1="201"
+   y1="322"
+   x2="202"
+   y2="271" /><line
+   id="edge-3e1bfd46f00507744137434359d37a026522ce57-ed3ac1cd8688b7b20a445f72cb172a7169b06618"
+   class="exit"
+   x1="178"
+   y1="295"
+   x2="202"
+   y2="271" /><line
+   id="edge-ac489c23d5b0b7e65dcad8217674b5877f81bbb1-ed3ac1cd8688b7b20a445f72cb172a7169b06618"
+   class="exit"
+   x1="178"
+   y1="247"
+   x2="202"
+   y2="271" /><line
+   id="edge-b291ad014e4af8a7f3a8872d92cdf84e5cfa42cc-ed3ac1cd8688b7b20a445f72cb172a7169b06618"
+   class="exit"
+   x1="225"
+   y1="298"
+   x2="202"
+   y2="271" /><line
+   id="edge-8b6df24d2ab1f4b41a83a721ab0f9627b9c9023d-ac489c23d5b0b7e65dcad8217674b5877f81bbb1"
+   class="exit"
+   x1="202"
+   y1="223"
+   x2="178"
+   y2="247" /><line
+   id="edge-8b6df24d2ab1f4b41a83a721ab0f9627b9c9023d-976505ce1bef7ce2937fd5a739b7b746f3c3b2c4"
+   class="exit"
+   x1="202"
+   y1="223"
+   x2="176"
+   y2="200" /><line
+   id="edge-8b6df24d2ab1f4b41a83a721ab0f9627b9c9023d-a2f063a1dfa18c69f4a4d064ecef2e82f01634f3"
+   class="exit"
+   x1="202"
+   y1="223"
+   x2="200"
+   y2="176" /><line
+   id="edge-8b6df24d2ab1f4b41a83a721ab0f9627b9c9023d-be8784ae780818aaa3d8fa10827eb55f5de2109b"
+   class="exit"
+   x1="202"
+   y1="223"
+   x2="226"
+   y2="199" /><line
+   id="edge-8b6df24d2ab1f4b41a83a721ab0f9627b9c9023d-bfe0fcd34ee82f555abf03b7e175e51440cac852"
+   class="exit"
+   x1="202"
+   y1="223"
+   x2="226"
+   y2="247" /><line
+   id="edge-be8784ae780818aaa3d8fa10827eb55f5de2109b-bfe0fcd34ee82f555abf03b7e175e51440cac852"
+   class="exit"
+   x1="226"
+   y1="199"
+   x2="226"
+   y2="247" /><line
+   id="edge-976505ce1bef7ce2937fd5a739b7b746f3c3b2c4-a2f063a1dfa18c69f4a4d064ecef2e82f01634f3"
+   class="exit"
+   x1="176"
+   y1="200"
+   x2="200"
+   y2="176" />
     null
     null
-    <line id="edge-a2e51b7cc8844de06d5b4a1b8497d694d62df288-dd68200d7a58603085e0c8247b33202b64514b97" class="exit" x1="323" y1="224" x2="323" y2="248"/>
-    <line id="edge-a2e51b7cc8844de06d5b4a1b8497d694d62df288-f238a81d6d99de8b7b7b9c74b6bfa3f4781daca0" class="exit" x1="323" y1="224" x2="347" y2="248"/>
-    <line id="edge-65f6e7d59782243fed1e98aea8d669f2983df086-f238a81d6d99de8b7b7b9c74b6bfa3f4781daca0" class="exit" x1="323" y1="272" x2="347" y2="248"/>
-    <line id="edge-dd68200d7a58603085e0c8247b33202b64514b97-f238a81d6d99de8b7b7b9c74b6bfa3f4781daca0" class="exit" x1="323" y1="248" x2="347" y2="248"/>
-    <line id="edge-1f4d63ec2eef6bc9caa67e20a801f62135e81ae6-65f6e7d59782243fed1e98aea8d669f2983df086" class="exit" x1="299" y1="248" x2="323" y2="272"/>
+    <line
+   id="edge-a2e51b7cc8844de06d5b4a1b8497d694d62df288-dd68200d7a58603085e0c8247b33202b64514b97"
+   class="exit"
+   x1="323"
+   y1="224"
+   x2="323"
+   y2="248" /><line
+   id="edge-a2e51b7cc8844de06d5b4a1b8497d694d62df288-f238a81d6d99de8b7b7b9c74b6bfa3f4781daca0"
+   class="exit"
+   x1="323"
+   y1="224"
+   x2="347"
+   y2="248" /><line
+   id="edge-65f6e7d59782243fed1e98aea8d669f2983df086-f238a81d6d99de8b7b7b9c74b6bfa3f4781daca0"
+   class="exit"
+   x1="323"
+   y1="272"
+   x2="347"
+   y2="248" /><line
+   id="edge-dd68200d7a58603085e0c8247b33202b64514b97-f238a81d6d99de8b7b7b9c74b6bfa3f4781daca0"
+   class="exit"
+   x1="323"
+   y1="248"
+   x2="347"
+   y2="248" /><line
+   id="edge-1f4d63ec2eef6bc9caa67e20a801f62135e81ae6-65f6e7d59782243fed1e98aea8d669f2983df086"
+   class="exit"
+   x1="299"
+   y1="248"
+   x2="323"
+   y2="272" />
     null
-    <line id="edge-65f6e7d59782243fed1e98aea8d669f2983df086-dd68200d7a58603085e0c8247b33202b64514b97" class="exit" x1="323" y1="272" x2="323" y2="248"/>
-    <line id="edge-0d9742ebe98dec2e612f9379cddbd4c121b421d3-1f4d63ec2eef6bc9caa67e20a801f62135e81ae6" class="exit" x1="275" y1="248" x2="299" y2="248"/>
-    <line id="edge-1f4d63ec2eef6bc9caa67e20a801f62135e81ae6-dd68200d7a58603085e0c8247b33202b64514b97" class="exit" x1="299" y1="248" x2="323" y2="248"/>
-    <line id="edge-03421121f63140dd9f69dceb18f08bd3afb6d504-2cd6c9224435b0dcc6bb6809ec9f74d179b39c39" class="exit" x1="443" y1="246" x2="418" y2="273"/>
-    <line id="edge-11b5850bea179312fcd10faff6f3f900eb1dd41f-2cd6c9224435b0dcc6bb6809ec9f74d179b39c39" class="exit" x1="395" y1="249" x2="418" y2="273"/>
-    <line id="edge-18c96dad0549ae8783ef0a988b2e3bc0aa95242b-2cd6c9224435b0dcc6bb6809ec9f74d179b39c39" class="exit" x1="419" y1="222" x2="418" y2="273"/>
-    <line id="edge-03421121f63140dd9f69dceb18f08bd3afb6d504-18c96dad0549ae8783ef0a988b2e3bc0aa95242b" class="exit" x1="443" y1="246" x2="419" y2="222"/>
-    <line id="edge-11b5850bea179312fcd10faff6f3f900eb1dd41f-18c96dad0549ae8783ef0a988b2e3bc0aa95242b" class="exit" x1="395" y1="249" x2="419" y2="222"/>
-    <line id="edge-03421121f63140dd9f69dceb18f08bd3afb6d504-11b5850bea179312fcd10faff6f3f900eb1dd41f" class="exit" x1="443" y1="246" x2="395" y2="249"/>
-    <line id="edge-317e3056b7bdc7fd8621b4d1a42a4207851e0f90-c492a94ebc15ed66dc4fa1dc95ba8a01d7a22677" class="exit" x1="201" y1="46" x2="201" y2="70"/>
-    <line id="edge-7f6c0d8df48ddce6faf20c1e4c4494daa1cfbe36-c492a94ebc15ed66dc4fa1dc95ba8a01d7a22677" class="exit" x1="201" y1="94" x2="201" y2="70"/>
-    <line id="edge-a0d4209bb07ab5b2dfefda19bd5687cce02c2288-c492a94ebc15ed66dc4fa1dc95ba8a01d7a22677" class="exit" x1="225" y1="70" x2="201" y2="70"/>
-    <line id="edge-c492a94ebc15ed66dc4fa1dc95ba8a01d7a22677-d20ff7e5869be751978ec4f41b39308f5d310cad" class="exit" x1="201" y1="70" x2="177" y2="94"/>
-    <line id="edge-317e3056b7bdc7fd8621b4d1a42a4207851e0f90-eed262c363c9acb5031f52824c6560ef1442b128" class="exit" x1="201" y1="46" x2="177" y2="46"/>
-    <line id="edge-532d0785b0e4ac1d41e5c3c344b70cb237bb2510-741896c9bf809ac8bc227ca8359fcc7e573bb19e" class="exit" x1="431" y1="69" x2="431" y2="69"/>
-    <line id="edge-532d0785b0e4ac1d41e5c3c344b70cb237bb2510-b528b2f6c2e372854ac78f505fcd07d55fa4fd67" class="exit" x1="431" y1="69" x2="431" y2="69"/>
-    <line id="edge-532d0785b0e4ac1d41e5c3c344b70cb237bb2510-e0001bee5cde40fdca2683c133d9d7345baef78f" class="exit" x1="431" y1="69" x2="431" y2="69"/>
-    <line id="edge-521191359a7b8a5334c0b0829a71e6f793c5458b-e0001bee5cde40fdca2683c133d9d7345baef78f" class="exit" x1="431" y1="69" x2="431" y2="69"/>
-    <line id="edge-950d9b8b10eea96a2996376cadb33add1ebfa898-b528b2f6c2e372854ac78f505fcd07d55fa4fd67" class="exit" x1="431" y1="69" x2="431" y2="69"/>
-  </g>
-
-  <g id="layer-rooms">
-    <rect id="room-4609a954a57222d6f73a4fcdfc1c71f3f452cccf" class="room indoor" data-label="entry of the Salt Shaker" x="77" y="66" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="81,67 78.5,72 83.5,72"/>
-    <rect id="room-130e329f89050a7a7c29c16bad8ca0d42f2d21c1" class="room indoor" data-label="entry hall" x="101" y="66" width="8" height="8" rx="2"/>
-    <rect id="room-daf8a641de839778a9162eef3d9aead81958296a" class="room indoor" data-label="living room" x="101" y="42" width="8" height="8" rx="2"/>
-    <rect id="room-5bc5a433f9c18f7cb0ab441eaebf4ed306755167" class="room indoor" data-label="master bedroom" x="77" y="42" width="8" height="8" rx="2"/>
-    <rect id="room-7f2fff7d66be6b9143c4a08c6a7c72e90d97023e" class="room indoor" data-label="bathroom" x="125" y="66" width="8" height="8" rx="2"/>
-    <rect id="room-8d85dee6c227ddd012642f20b087e6f70d975dc0" class="room indoor" data-label="kitchen" x="101" y="90" width="8" height="8" rx="2"/>
-    <rect id="room-c0166c785d5b4d6b1a27fc12dec91f1e7bfbed25" class="room indoor" data-label="bedroom" x="77" y="90" width="8" height="8" rx="2"/>
-    <rect id="room-e9969fec0662e14b06b44e3d722d7745d3e74b2f" class="room indoor" data-label="staircase of the Salt Shaker" x="173" y="66" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="177,67 179.5,70 177,73 174.5,70"/>
-    <rect id="room-6543ae6679ab7c68fd5ea4c0824cb98304de4622" class="room indoor" data-label="staircase on the second floor of the Salt Shaker" x="295" y="66" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="299,67 301.5,70 299,73 296.5,70"/>
-    <rect id="room-15089447ab5046dd611b3416095d7e04f7845524" class="room indoor" data-label="entry of the second floor flat of the Salt Shaker" x="319" y="66" width="8" height="8" rx="2"/>
-    <rect id="room-bee9e579e295d7369805021d0e2664814e9da46d" class="room indoor" data-label="living room of the second floor flat of the Salt Shaker" x="319" y="42" width="8" height="8" rx="2"/>
-    <rect id="room-b8ea6a04ebd787bf121799d7a265ad69fe986818" class="room indoor" data-label="north bedroom of the second floor flat of the Salt Shaker" x="295" y="42" width="8" height="8" rx="2"/>
-    <rect id="room-9384aa6327f9c88078ec28d9e9f46debc2059bda" class="room indoor" data-label="bathroom of second floor flat of the Salt Shaker" x="343" y="66" width="8" height="8" rx="2"/>
-    <rect id="room-cb8aaf1cc79bb5e8977a6d0124791dd116eef443" class="room indoor" data-label="kitchen of second floor flat of the Salt Shaker" x="319" y="90" width="8" height="8" rx="2"/>
-    <rect id="room-dd628f6996a877e876ca2f04d74477b9cf21f227" class="room indoor" data-label="south bedroom of second floor flat of the Salt Shaker" x="295" y="90" width="8" height="8" rx="2"/>
-    <rect id="room-776042cd4f6d5c4f52ae31e33fe86a238053a621" class="room indoor" data-label="top-floor stairway of the Salt Shaker" x="403" y="66" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="407,73 404.5,68 409.5,68"/>
-    <rect id="room-ebfd03de5885e8a24426811f1cabca043f5d81f5" class="room indoor" data-label="entrance to the Pepper Pot" x="77" y="267" width="8" height="8" rx="2"/>
-    <rect id="room-5b7881be3464afc8e82c64694637d2c76fcbce85" class="room indoor" data-label="Pepper Pot office" x="77" y="243" width="8" height="8" rx="2"/>
-    <rect id="room-97e57b200274898a4fa90a7ce22632e3d18e412a" class="room indoor" data-label="somewhere in the middle of the maze" x="101" y="267" width="8" height="8" rx="2"/>
-    <rect id="room-139b49cd223447ad421747264cb82b49cfc9af29" class="room indoor" data-label="south edge of the maze" x="102" y="315" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="106,316 103.5,321 108.5,321"/>
-    <rect id="room-08ac555676ee6809973cff2b9c27a365fc9847a2" class="room indoor" data-label="southeastern side of the maze" x="126" y="291" width="8" height="8" rx="2"/>
-    <rect id="room-a860dea8abb6b953216269657fab13bd2de2df0f" class="room indoor" data-label="eastern side of the maze" x="125" y="243" width="8" height="8" rx="2"/>
-    <rect id="room-f669f1fed5feb4a0dc65619c098d7de1b416d5d4" class="room indoor" data-label="somewhere in the middle of the maze" x="101" y="219" width="8" height="8" rx="2"/>
-    <rect id="room-41ce89cdab3d204c5c1ef43f33cb485edd8ef1f0" class="room indoor" data-label="northwest corner of the maze" x="77" y="195" width="8" height="8" rx="2"/>
-    <rect id="room-02ac6111ebd40da47ff26645d9a6004c338bbad4" class="room indoor" data-label="north edge of the maze" x="101" y="171" width="8" height="8" rx="2"/>
-    <rect id="room-ffb9a6647ab26ab30802d7d97d6a9a88b3542ded" class="room indoor" data-label="northeastern point of the ground floor" x="125" y="195" width="8" height="8" rx="2"/>
-    <rect id="room-8dc680216ff543581c831b35e0bfe00dfe5a0ec2" class="room indoor" data-label="south edge of the first floor" x="197" y="318" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="201,319 203.5,322 201,325 198.5,322"/>
-    <rect id="room-ed3ac1cd8688b7b20a445f72cb172a7169b06618" class="room indoor" data-label="somewhere in the middle of the first floor" x="198" y="267" width="8" height="8" rx="2"/>
-    <rect id="room-3e1bfd46f00507744137434359d37a026522ce57" class="room indoor" data-label="southwest corner of the first floor" x="174" y="291" width="8" height="8" rx="2"/>
-    <rect id="room-b291ad014e4af8a7f3a8872d92cdf84e5cfa42cc" class="room indoor" data-label="southeastern side of the first floor" x="221" y="294" width="8" height="8" rx="2"/>
-    <rect id="room-ac489c23d5b0b7e65dcad8217674b5877f81bbb1" class="room indoor" data-label="west corner of the first floor" x="174" y="243" width="8" height="8" rx="2"/>
-    <rect id="room-8b6df24d2ab1f4b41a83a721ab0f9627b9c9023d" class="room indoor" data-label="somewhere in the middle the first floor" x="198" y="219" width="8" height="8" rx="2"/>
-    <rect id="room-bfe0fcd34ee82f555abf03b7e175e51440cac852" class="room indoor" data-label="eastern side of the first floor" x="222" y="243" width="8" height="8" rx="2"/>
-    <rect id="room-be8784ae780818aaa3d8fa10827eb55f5de2109b" class="room indoor" data-label="northeastern point of the first floor" x="222" y="195" width="8" height="8" rx="2"/>
-    <rect id="room-a2f063a1dfa18c69f4a4d064ecef2e82f01634f3" class="room indoor" data-label="north edge of the first floor" x="196" y="172" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="200,173 197.5,178 202.5,178"/>
-    <rect id="room-976505ce1bef7ce2937fd5a739b7b746f3c3b2c4" class="room indoor" data-label="northwest corner of the first floor" x="172" y="196" width="8" height="8" rx="2"/>
-    <rect id="room-a2e51b7cc8844de06d5b4a1b8497d694d62df288" class="room indoor" data-label="northern side of the second floor" x="319" y="220" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="323,221 320.5,226 325.5,226"/>
-    <rect id="room-f238a81d6d99de8b7b7b9c74b6bfa3f4781daca0" class="room indoor" data-label="eastern edge of the second floor" x="343" y="244" width="8" height="8" rx="2"/>
-    <rect id="room-65f6e7d59782243fed1e98aea8d669f2983df086" class="room indoor" data-label="southern side of the second floor" x="319" y="268" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="323,269 325.5,272 323,275 320.5,272"/>
-    <rect id="room-1f4d63ec2eef6bc9caa67e20a801f62135e81ae6" class="room indoor" data-label="western side of the second floor" x="295" y="244" width="8" height="8" rx="2"/>
-    <circle id="room-0d9742ebe98dec2e612f9379cddbd4c121b421d3" class="room outdoor" data-label="tiny balcony" cx="275" cy="248" r="4"/>
-    <rect id="room-dd68200d7a58603085e0c8247b33202b64514b97" class="room indoor" data-label="middle of the second floor" x="319" y="244" width="8" height="8" rx="2"/>
-    <rect id="room-2cd6c9224435b0dcc6bb6809ec9f74d179b39c39" class="room indoor" data-label="southern part of the third floor" x="414" y="269" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="418,276 415.5,271 420.5,271"/>
-    <rect id="room-18c96dad0549ae8783ef0a988b2e3bc0aa95242b" class="room indoor" data-label="northern part of the third floor" x="415" y="218" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="419,225 416.5,220 421.5,220"/>
-    <rect id="room-03421121f63140dd9f69dceb18f08bd3afb6d504" class="room indoor" data-label="east part of the third floor" x="439" y="242" width="8" height="8" rx="2"/>
-    <rect id="room-11b5850bea179312fcd10faff6f3f900eb1dd41f" class="room indoor" data-label="western part of the third floor" x="391" y="245" width="8" height="8" rx="2"/>
-    <circle id="room-293d0928a4d0cb2b8b48d77b2ad998f9cb157b14" class="room outdoor" data-label="roof of the Salt Shaker" cx="419" cy="140" r="4"/>
-    <rect id="room-AMPepperPot" class="room indoor" data-label="somewhere in the middle of the maze" x="101" y="267" width="8" height="8" rx="2"/>
-    <rect id="room-c492a94ebc15ed66dc4fa1dc95ba8a01d7a22677" class="room indoor" data-label="entry of a flat" x="197" y="66" width="8" height="8" rx="2"/>
-    <rect id="room-317e3056b7bdc7fd8621b4d1a42a4207851e0f90" class="room indoor" data-label="living room" x="197" y="42" width="8" height="8" rx="2"/>
-    <rect id="room-eed262c363c9acb5031f52824c6560ef1442b128" class="room indoor" data-label="master bedroom" x="173" y="42" width="8" height="8" rx="2"/>
-    <rect id="room-a0d4209bb07ab5b2dfefda19bd5687cce02c2288" class="room indoor" data-label="bathroom" x="221" y="66" width="8" height="8" rx="2"/>
-    <rect id="room-7f6c0d8df48ddce6faf20c1e4c4494daa1cfbe36" class="room indoor" data-label="kitchen" x="197" y="90" width="8" height="8" rx="2"/>
-    <rect id="room-d20ff7e5869be751978ec4f41b39308f5d310cad" class="room indoor" data-label="study" x="173" y="90" width="8" height="8" rx="2"/>
-    <rect id="room-532d0785b0e4ac1d41e5c3c344b70cb237bb2510" class="room indoor" data-label="hallway" x="427" y="65" width="8" height="8" rx="2"/>
-    <rect id="room-e0001bee5cde40fdca2683c133d9d7345baef78f" class="room indoor room-house" data-label="[player house]" x="427" y="65" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="431" y="69" text-anchor="middle" dominant-baseline="central">H</text>
-    <rect id="room-521191359a7b8a5334c0b0829a71e6f793c5458b" class="room indoor room-house" data-label="[player house]" x="427" y="65" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="431" y="69" text-anchor="middle" dominant-baseline="central">H</text>
-    <rect id="room-741896c9bf809ac8bc227ca8359fcc7e573bb19e" class="room indoor room-house" data-label="[player house]" x="427" y="65" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="431" y="69" text-anchor="middle" dominant-baseline="central">H</text>
-    <rect id="room-b528b2f6c2e372854ac78f505fcd07d55fa4fd67" class="room indoor room-house" data-label="[player house]" x="427" y="65" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="431" y="69" text-anchor="middle" dominant-baseline="central">H</text>
-    <rect id="room-950d9b8b10eea96a2996376cadb33add1ebfa898" class="room indoor room-house" data-label="[player house]" x="427" y="65" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="431" y="69" text-anchor="middle" dominant-baseline="central">H</text>
-  </g>
-
-
-  <g id="layer-room-labels"></g>
-  <g id="layer-labels"><!-- labels --></g>
-
-</svg>
+    <line
+   id="edge-65f6e7d59782243fed1e98aea8d669f2983df086-dd68200d7a58603085e0c8247b33202b64514b97"
+   class="exit"
+   x1="323"
+   y1="272"
+   x2="323"
+   y2="248" /><line
+   id="edge-0d9742ebe98dec2e612f9379cddbd4c121b421d3-1f4d63ec2eef6bc9caa67e20a801f62135e81ae6"
+   class="exit"
+   x1="275"
+   y1="248"
+   x2="299"
+   y2="248" /><line
+   id="edge-1f4d63ec2eef6bc9caa67e20a801f62135e81ae6-dd68200d7a58603085e0c8247b33202b64514b97"
+   class="exit"
+   x1="299"
+   y1="248"
+   x2="323"
+   y2="248" /><line
+   id="edge-03421121f63140dd9f69dceb18f08bd3afb6d504-2cd6c9224435b0dcc6bb6809ec9f74d179b39c39"
+   class="exit"
+   x1="443"
+   y1="246"
+   x2="418"
+   y2="273" /><line
+   id="edge-11b5850bea179312fcd10faff6f3f900eb1dd41f-2cd6c9224435b0dcc6bb6809ec9f74d179b39c39"
+   class="exit"
+   x1="395"
+   y1="249"
+   x2="418"
+   y2="273" /><line
+   id="edge-18c96dad0549ae8783ef0a988b2e3bc0aa95242b-2cd6c9224435b0dcc6bb6809ec9f74d179b39c39"
+   class="exit"
+   x1="419"
+   y1="222"
+   x2="418"
+   y2="273" /><line
+   id="edge-03421121f63140dd9f69dceb18f08bd3afb6d504-18c96dad0549ae8783ef0a988b2e3bc0aa95242b"
+   class="exit"
+   x1="443"
+   y1="246"
+   x2="419"
+   y2="222" /><line
+   id="edge-11b5850bea179312fcd10faff6f3f900eb1dd41f-18c96dad0549ae8783ef0a988b2e3bc0aa95242b"
+   class="exit"
+   x1="395"
+   y1="249"
+   x2="419"
+   y2="222" /><line
+   id="edge-03421121f63140dd9f69dceb18f08bd3afb6d504-11b5850bea179312fcd10faff6f3f900eb1dd41f"
+   class="exit"
+   x1="443"
+   y1="246"
+   x2="395"
+   y2="249" /><line
+   id="edge-317e3056b7bdc7fd8621b4d1a42a4207851e0f90-c492a94ebc15ed66dc4fa1dc95ba8a01d7a22677"
+   class="exit"
+   x1="201"
+   y1="46"
+   x2="201"
+   y2="70" /><line
+   id="edge-7f6c0d8df48ddce6faf20c1e4c4494daa1cfbe36-c492a94ebc15ed66dc4fa1dc95ba8a01d7a22677"
+   class="exit"
+   x1="201"
+   y1="94"
+   x2="201"
+   y2="70" /><line
+   id="edge-a0d4209bb07ab5b2dfefda19bd5687cce02c2288-c492a94ebc15ed66dc4fa1dc95ba8a01d7a22677"
+   class="exit"
+   x1="225"
+   y1="70"
+   x2="201"
+   y2="70" /><line
+   id="edge-c492a94ebc15ed66dc4fa1dc95ba8a01d7a22677-d20ff7e5869be751978ec4f41b39308f5d310cad"
+   class="exit"
+   x1="201"
+   y1="70"
+   x2="177"
+   y2="94" /><line
+   id="edge-317e3056b7bdc7fd8621b4d1a42a4207851e0f90-eed262c363c9acb5031f52824c6560ef1442b128"
+   class="exit"
+   x1="201"
+   y1="46"
+   x2="177"
+   y2="46" /><line
+   id="edge-532d0785b0e4ac1d41e5c3c344b70cb237bb2510-741896c9bf809ac8bc227ca8359fcc7e573bb19e"
+   class="exit"
+   x1="431"
+   y1="69"
+   x2="431"
+   y2="69" /><line
+   id="edge-532d0785b0e4ac1d41e5c3c344b70cb237bb2510-b528b2f6c2e372854ac78f505fcd07d55fa4fd67"
+   class="exit"
+   x1="431"
+   y1="69"
+   x2="431"
+   y2="69" /><line
+   id="edge-532d0785b0e4ac1d41e5c3c344b70cb237bb2510-e0001bee5cde40fdca2683c133d9d7345baef78f"
+   class="exit"
+   x1="431"
+   y1="69"
+   x2="431"
+   y2="69" /><line
+   id="edge-521191359a7b8a5334c0b0829a71e6f793c5458b-e0001bee5cde40fdca2683c133d9d7345baef78f"
+   class="exit"
+   x1="431"
+   y1="69"
+   x2="431"
+   y2="69" /><line
+   id="edge-950d9b8b10eea96a2996376cadb33add1ebfa898-b528b2f6c2e372854ac78f505fcd07d55fa4fd67"
+   class="exit"
+   x1="431"
+   y1="69"
+   x2="431"
+   y2="69" /></g><g
+     id="layer-rooms"><rect
+       id="room-4609a954a57222d6f73a4fcdfc1c71f3f452cccf"
+       class="room indoor"
+       data-label="entry of the Salt Shaker"
+       x="77"
+       y="66"
+       width="8"
+       height="8"
+       rx="2" /><polygon
+       class="stair-symbol"
+       points="81,67 78.5,72 83.5,72"
+       id="polygon1" /><rect
+       id="room-130e329f89050a7a7c29c16bad8ca0d42f2d21c1"
+       class="room indoor"
+       data-label="entry hall"
+       x="101"
+       y="66"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-daf8a641de839778a9162eef3d9aead81958296a"
+       class="room indoor"
+       data-label="living room"
+       x="101"
+       y="42"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-5bc5a433f9c18f7cb0ab441eaebf4ed306755167"
+       class="room indoor"
+       data-label="master bedroom"
+       x="77"
+       y="42"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-7f2fff7d66be6b9143c4a08c6a7c72e90d97023e"
+       class="room indoor"
+       data-label="bathroom"
+       x="125"
+       y="66"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-8d85dee6c227ddd012642f20b087e6f70d975dc0"
+       class="room indoor"
+       data-label="kitchen"
+       x="101"
+       y="90"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-c0166c785d5b4d6b1a27fc12dec91f1e7bfbed25"
+       class="room indoor"
+       data-label="bedroom"
+       x="77"
+       y="90"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-e9969fec0662e14b06b44e3d722d7745d3e74b2f"
+       class="room indoor"
+       data-label="staircase of the Salt Shaker"
+       x="173"
+       y="66"
+       width="8"
+       height="8"
+       rx="2" /><polygon
+       class="stair-symbol"
+       points="177,67 179.5,70 177,73 174.5,70"
+       id="polygon2" /><rect
+       id="room-6543ae6679ab7c68fd5ea4c0824cb98304de4622"
+       class="room indoor"
+       data-label="staircase on the second floor of the Salt Shaker"
+       x="295"
+       y="66"
+       width="8"
+       height="8"
+       rx="2" /><polygon
+       class="stair-symbol"
+       points="299,67 301.5,70 299,73 296.5,70"
+       id="polygon3" /><rect
+       id="room-15089447ab5046dd611b3416095d7e04f7845524"
+       class="room indoor"
+       data-label="entry of the second floor flat of the Salt Shaker"
+       x="319"
+       y="66"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-bee9e579e295d7369805021d0e2664814e9da46d"
+       class="room indoor"
+       data-label="living room of the second floor flat of the Salt Shaker"
+       x="319"
+       y="42"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-b8ea6a04ebd787bf121799d7a265ad69fe986818"
+       class="room indoor"
+       data-label="north bedroom of the second floor flat of the Salt Shaker"
+       x="295"
+       y="42"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-9384aa6327f9c88078ec28d9e9f46debc2059bda"
+       class="room indoor"
+       data-label="bathroom of second floor flat of the Salt Shaker"
+       x="343"
+       y="66"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-cb8aaf1cc79bb5e8977a6d0124791dd116eef443"
+       class="room indoor"
+       data-label="kitchen of second floor flat of the Salt Shaker"
+       x="319"
+       y="90"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-dd628f6996a877e876ca2f04d74477b9cf21f227"
+       class="room indoor"
+       data-label="south bedroom of second floor flat of the Salt Shaker"
+       x="295"
+       y="90"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-776042cd4f6d5c4f52ae31e33fe86a238053a621"
+       class="room indoor"
+       data-label="top-floor stairway of the Salt Shaker"
+       x="403"
+       y="66"
+       width="8"
+       height="8"
+       rx="2" /><polygon
+       class="stair-symbol"
+       points="407,73 404.5,68 409.5,68"
+       id="polygon4" /><rect
+       id="room-ebfd03de5885e8a24426811f1cabca043f5d81f5"
+       class="room indoor"
+       data-label="entrance to the Pepper Pot"
+       x="77"
+       y="267"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-5b7881be3464afc8e82c64694637d2c76fcbce85"
+       class="room indoor"
+       data-label="Pepper Pot office"
+       x="77"
+       y="243"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-97e57b200274898a4fa90a7ce22632e3d18e412a"
+       class="room indoor"
+       data-label="somewhere in the middle of the maze"
+       x="101"
+       y="267"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-139b49cd223447ad421747264cb82b49cfc9af29"
+       class="room indoor"
+       data-label="south edge of the maze"
+       x="102"
+       y="315"
+       width="8"
+       height="8"
+       rx="2" /><polygon
+       class="stair-symbol"
+       points="106,316 103.5,321 108.5,321"
+       id="polygon5" /><rect
+       id="room-08ac555676ee6809973cff2b9c27a365fc9847a2"
+       class="room indoor"
+       data-label="southeastern side of the maze"
+       x="126"
+       y="291"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-a860dea8abb6b953216269657fab13bd2de2df0f"
+       class="room indoor"
+       data-label="eastern side of the maze"
+       x="125"
+       y="243"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-f669f1fed5feb4a0dc65619c098d7de1b416d5d4"
+       class="room indoor"
+       data-label="somewhere in the middle of the maze"
+       x="101"
+       y="219"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-41ce89cdab3d204c5c1ef43f33cb485edd8ef1f0"
+       class="room indoor"
+       data-label="northwest corner of the maze"
+       x="77"
+       y="195"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-02ac6111ebd40da47ff26645d9a6004c338bbad4"
+       class="room indoor"
+       data-label="north edge of the maze"
+       x="101"
+       y="171"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-ffb9a6647ab26ab30802d7d97d6a9a88b3542ded"
+       class="room indoor"
+       data-label="northeastern point of the ground floor"
+       x="125"
+       y="195"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-8dc680216ff543581c831b35e0bfe00dfe5a0ec2"
+       class="room indoor"
+       data-label="south edge of the first floor"
+       x="197"
+       y="318"
+       width="8"
+       height="8"
+       rx="2" /><polygon
+       class="stair-symbol"
+       points="201,319 203.5,322 201,325 198.5,322"
+       id="polygon6" /><rect
+       id="room-ed3ac1cd8688b7b20a445f72cb172a7169b06618"
+       class="room indoor"
+       data-label="somewhere in the middle of the first floor"
+       x="198"
+       y="267"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-3e1bfd46f00507744137434359d37a026522ce57"
+       class="room indoor"
+       data-label="southwest corner of the first floor"
+       x="174"
+       y="291"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-b291ad014e4af8a7f3a8872d92cdf84e5cfa42cc"
+       class="room indoor"
+       data-label="southeastern side of the first floor"
+       x="221"
+       y="294"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-ac489c23d5b0b7e65dcad8217674b5877f81bbb1"
+       class="room indoor"
+       data-label="west corner of the first floor"
+       x="174"
+       y="243"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-8b6df24d2ab1f4b41a83a721ab0f9627b9c9023d"
+       class="room indoor"
+       data-label="somewhere in the middle the first floor"
+       x="198"
+       y="219"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-bfe0fcd34ee82f555abf03b7e175e51440cac852"
+       class="room indoor"
+       data-label="eastern side of the first floor"
+       x="222"
+       y="243"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-be8784ae780818aaa3d8fa10827eb55f5de2109b"
+       class="room indoor"
+       data-label="northeastern point of the first floor"
+       x="222"
+       y="195"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-a2f063a1dfa18c69f4a4d064ecef2e82f01634f3"
+       class="room indoor"
+       data-label="north edge of the first floor"
+       x="196"
+       y="172"
+       width="8"
+       height="8"
+       rx="2" /><polygon
+       class="stair-symbol"
+       points="200,173 197.5,178 202.5,178"
+       id="polygon7" /><rect
+       id="room-976505ce1bef7ce2937fd5a739b7b746f3c3b2c4"
+       class="room indoor"
+       data-label="northwest corner of the first floor"
+       x="172"
+       y="196"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-a2e51b7cc8844de06d5b4a1b8497d694d62df288"
+       class="room indoor"
+       data-label="northern side of the second floor"
+       x="319"
+       y="220"
+       width="8"
+       height="8"
+       rx="2" /><polygon
+       class="stair-symbol"
+       points="323,221 320.5,226 325.5,226"
+       id="polygon8" /><rect
+       id="room-f238a81d6d99de8b7b7b9c74b6bfa3f4781daca0"
+       class="room indoor"
+       data-label="eastern edge of the second floor"
+       x="343"
+       y="244"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-65f6e7d59782243fed1e98aea8d669f2983df086"
+       class="room indoor"
+       data-label="southern side of the second floor"
+       x="319"
+       y="268"
+       width="8"
+       height="8"
+       rx="2" /><polygon
+       class="stair-symbol"
+       points="323,269 325.5,272 323,275 320.5,272"
+       id="polygon9" /><rect
+       id="room-1f4d63ec2eef6bc9caa67e20a801f62135e81ae6"
+       class="room indoor"
+       data-label="western side of the second floor"
+       x="295"
+       y="244"
+       width="8"
+       height="8"
+       rx="2" /><circle
+       id="room-0d9742ebe98dec2e612f9379cddbd4c121b421d3"
+       class="room outdoor"
+       data-label="tiny balcony"
+       cx="275"
+       cy="248"
+       r="4" /><rect
+       id="room-dd68200d7a58603085e0c8247b33202b64514b97"
+       class="room indoor"
+       data-label="middle of the second floor"
+       x="319"
+       y="244"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-2cd6c9224435b0dcc6bb6809ec9f74d179b39c39"
+       class="room indoor"
+       data-label="southern part of the third floor"
+       x="414"
+       y="269"
+       width="8"
+       height="8"
+       rx="2" /><polygon
+       class="stair-symbol"
+       points="418,276 415.5,271 420.5,271"
+       id="polygon10" /><rect
+       id="room-18c96dad0549ae8783ef0a988b2e3bc0aa95242b"
+       class="room indoor"
+       data-label="northern part of the third floor"
+       x="415"
+       y="218"
+       width="8"
+       height="8"
+       rx="2" /><polygon
+       class="stair-symbol"
+       points="419,225 416.5,220 421.5,220"
+       id="polygon11" /><rect
+       id="room-03421121f63140dd9f69dceb18f08bd3afb6d504"
+       class="room indoor"
+       data-label="east part of the third floor"
+       x="439"
+       y="242"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-11b5850bea179312fcd10faff6f3f900eb1dd41f"
+       class="room indoor"
+       data-label="western part of the third floor"
+       x="391"
+       y="245"
+       width="8"
+       height="8"
+       rx="2" /><circle
+       id="room-293d0928a4d0cb2b8b48d77b2ad998f9cb157b14"
+       class="room outdoor"
+       data-label="roof of the Salt Shaker"
+       cx="419"
+       cy="140"
+       r="4" /><rect
+       id="room-AMPepperPot"
+       class="room indoor"
+       data-label="somewhere in the middle of the maze"
+       x="101"
+       y="267"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-c492a94ebc15ed66dc4fa1dc95ba8a01d7a22677"
+       class="room indoor"
+       data-label="entry of a flat"
+       x="197"
+       y="66"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-317e3056b7bdc7fd8621b4d1a42a4207851e0f90"
+       class="room indoor"
+       data-label="living room"
+       x="197"
+       y="42"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-eed262c363c9acb5031f52824c6560ef1442b128"
+       class="room indoor"
+       data-label="master bedroom"
+       x="173"
+       y="42"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-a0d4209bb07ab5b2dfefda19bd5687cce02c2288"
+       class="room indoor"
+       data-label="bathroom"
+       x="221"
+       y="66"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-7f6c0d8df48ddce6faf20c1e4c4494daa1cfbe36"
+       class="room indoor"
+       data-label="kitchen"
+       x="197"
+       y="90"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-d20ff7e5869be751978ec4f41b39308f5d310cad"
+       class="room indoor"
+       data-label="study"
+       x="173"
+       y="90"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-532d0785b0e4ac1d41e5c3c344b70cb237bb2510"
+       class="room indoor"
+       data-label="hallway"
+       x="427"
+       y="65"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-e0001bee5cde40fdca2683c133d9d7345baef78f"
+       class="room indoor room-house"
+       data-label="[player house]"
+       x="427"
+       y="65"
+       width="8"
+       height="8"
+       rx="2" /><text
+       class="room-type-label"
+       font-size="4.5"
+       x="431"
+       y="69"
+       text-anchor="middle"
+       dominant-baseline="central"
+       id="text11">H</text><rect
+       id="room-521191359a7b8a5334c0b0829a71e6f793c5458b"
+       class="room indoor room-house"
+       data-label="[player house]"
+       x="427"
+       y="65"
+       width="8"
+       height="8"
+       rx="2" /><text
+       class="room-type-label"
+       font-size="4.5"
+       x="431"
+       y="69"
+       text-anchor="middle"
+       dominant-baseline="central"
+       id="text12">H</text><rect
+       id="room-741896c9bf809ac8bc227ca8359fcc7e573bb19e"
+       class="room indoor room-house"
+       data-label="[player house]"
+       x="427"
+       y="65"
+       width="8"
+       height="8"
+       rx="2" /><text
+       class="room-type-label"
+       font-size="4.5"
+       x="431"
+       y="69"
+       text-anchor="middle"
+       dominant-baseline="central"
+       id="text13">H</text><rect
+       id="room-b528b2f6c2e372854ac78f505fcd07d55fa4fd67"
+       class="room indoor room-house"
+       data-label="[player house]"
+       x="427"
+       y="65"
+       width="8"
+       height="8"
+       rx="2" /><text
+       class="room-type-label"
+       font-size="4.5"
+       x="431"
+       y="69"
+       text-anchor="middle"
+       dominant-baseline="central"
+       id="text14">H</text><rect
+       id="room-950d9b8b10eea96a2996376cadb33add1ebfa898"
+       class="room indoor room-house"
+       data-label="[player house]"
+       x="427"
+       y="65"
+       width="8"
+       height="8"
+       rx="2" /><text
+       class="room-type-label"
+       font-size="4.5"
+       x="431"
+       y="69"
+       text-anchor="middle"
+       dominant-baseline="central"
+       id="text15">H</text></g><g
+     id="layer-room-labels" /><g
+     id="layer-labels"><!-- labels --></g></svg>
