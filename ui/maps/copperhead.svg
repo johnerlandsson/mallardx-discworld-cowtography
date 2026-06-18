@@ -1,11 +1,165 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 240 130"
-     class="map-svg"
-     data-map-id="59">
-
-  <g id="layer-artwork"><!-- artwork --></g>
-
-  <g id="layer-exits">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 240 130"
+   class="map-svg"
+   data-map-id="59"
+   version="1.1"
+   id="svg7"
+   sodipodi:docname="copperhead.svg"
+   xml:space="preserve"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs7" />
+  <style id="inkscape-font-fix">
+text, .map-label, .map-label-muted, .map-label-accent,
+.lib-table, .lib-gap-label, .lib-book-label,
+.lib-row-num, .lib-book-list, .room-type-label {
+  font-family: "Noto Sans", sans-serif;
+}
+</style><sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="4.3514263"
+     inkscape:cx="93.992169"
+     inkscape:cy="87.327687"
+     inkscape:window-width="1968"
+     inkscape:window-height="1011"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer-exits" /><g
+     id="layer-artwork"><!-- artwork --><path
+       d="m 97,103 9.90649,9.90649 h 10.52627 l 6.29728,-6.29728 V 86.521875 l 7.8381,-7.838107 h 18.02249 L 164,92"
+       id="path7"
+       sodipodi:nodetypes="cccccccc"
+       class="exit"
+       fill="none"
+       stroke="#888888" /><text
+       xml:space="preserve"
+       x="12.879249"
+       y="64.121002"
+       id="text28"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="12.879249"
+         y="64.121002"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan27">BEARD</tspan><tspan
+         sodipodi:role="line"
+         x="12.879249"
+         y="71.621002"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan11">&amp;</tspan><tspan
+         sodipodi:role="line"
+         x="12.879249"
+         y="79.121002"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan12">BADGER</tspan></text><rect
+       id="rect1"
+       width="30.969999"
+       height="8.4099998"
+       x="5.944603"
+       y="42.794998"
+       class="city-sign"
+       ry="0.42050001"
+       style="stroke-width:1" /><text
+       xml:space="preserve"
+       x="21.279598"
+       y="49.145004"
+       id="text1-3"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="21.279598"
+         y="49.145004"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan1">RAMTOPS</tspan></text><path
+       d="M 36.914604,46.999998 55,47"
+       id="path1"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888"
+       sodipodi:nodetypes="cc" /><text
+       xml:space="preserve"
+       x="163.88899"
+       y="25.450256"
+       id="text58"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="163.88899"
+         y="25.450256"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan58">FIVE</tspan></text><text
+       xml:space="preserve"
+       x="225.79248"
+       y="46.145"
+       id="text8"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="225.79248"
+         y="46.145"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan7">FOUR</tspan></text><text
+       xml:space="preserve"
+       x="215.13437"
+       y="94.141998"
+       id="text9"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="215.13437"
+         y="94.141998"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan8">THREE</tspan></text><text
+       xml:space="preserve"
+       x="164.153"
+       y="127.2346"
+       id="text10"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="164.153"
+         y="127.2346"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan9">TWO</tspan></text><text
+       xml:space="preserve"
+       x="149.21536"
+       y="115.55149"
+       id="text11"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="149.21536"
+         y="115.55149"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan10">ONE</tspan></text></g><g
+     id="layer-exits">
     <line id="edge-0599afdbf4ccd7fa337394294d59506135dc5dd8-69b0d9b6e6e2d1d3045b9b563cf39478a84a94b0" class="exit" x1="55" y1="47" x2="55" y2="61"/>
     <line id="edge-0599afdbf4ccd7fa337394294d59506135dc5dd8-6ae6278cf740bf60fd8d6d39fc77860fce85e8ca" class="exit" x1="55" y1="47" x2="69" y2="61"/>
     <line id="edge-0599afdbf4ccd7fa337394294d59506135dc5dd8-78ab12b18ef21b8b875c848aa1c31a48fe10f546" class="exit" x1="55" y1="47" x2="55" y2="47"/>
@@ -30,7 +184,6 @@
     <line id="edge-5971d2fff7558b7b9992832b15d4690389123f9d-dbe91b4395adce5e7969a90f5a5a40468c57ab66" class="exit" x1="44" y1="64" x2="33" y2="64"/>
     <line id="edge-554347c9d007fcbde57c82f53c156469588bb710-5b5c6ad5183c287d4d87e00df3ecf6e663a88c64" class="exit" x1="83" y1="75" x2="83" y2="89"/>
     <line id="edge-204e80045f0e590c57df02bea7f79469606178ba-5b5c6ad5183c287d4d87e00df3ecf6e663a88c64" class="exit" x1="97" y1="103" x2="83" y2="89"/>
-    <line id="edge-204e80045f0e590c57df02bea7f79469606178ba-9a5fd127925511ee2bab86eb7c1e6774e4c95ce4" class="exit" x1="97" y1="103" x2="164" y2="92"/>
     <line id="edge-237273ce6444e078c76c0f4275d4c66ea81811a3-9a5fd127925511ee2bab86eb7c1e6774e4c95ce4" class="exit" x1="176" y1="92" x2="164" y2="92"/>
     <line id="edge-3c394735809737e75e9d4ee3264b90879e1fa34a-9a5fd127925511ee2bab86eb7c1e6774e4c95ce4" class="exit" x1="152" y1="104" x2="164" y2="92"/>
     <line id="edge-516f7c964d1491ea62368322ce7dbd31a19967de-9a5fd127925511ee2bab86eb7c1e6774e4c95ce4" class="exit" x1="176" y1="80" x2="164" y2="92"/>
@@ -46,16 +199,15 @@
     <line id="edge-237273ce6444e078c76c0f4275d4c66ea81811a3-6f725b7b9945336162e684661e6c8c5e149d71b3" class="exit" x1="176" y1="92" x2="188" y2="92"/>
     <line id="edge-6f725b7b9945336162e684661e6c8c5e149d71b3-dfd67a82b490b024b1c07d9ae943d782ee0d92e7" class="exit" x1="188" y1="92" x2="200" y2="92"/>
     <line id="edge-93c1bd3dbd290cd1ce24823e91b251702fe39c2a-bedb0e8c1dbf3964b432d856edd5efffcf2bd761" class="exit" x1="164" y1="104" x2="164" y2="116"/>
-  </g>
-
-  <g id="layer-rooms">
+  </g><g
+     id="layer-rooms">
     <circle id="room-0599afdbf4ccd7fa337394294d59506135dc5dd8" class="room outdoor" data-label="northwest corner of the Copperhead village square" cx="55" cy="47" r="4"/>
     <circle id="room-69b0d9b6e6e2d1d3045b9b563cf39478a84a94b0" class="room outdoor" data-label="southwest corner of the Copperhead village square" cx="55" cy="61" r="4"/>
     <circle id="room-6ae6278cf740bf60fd8d6d39fc77860fce85e8ca" class="room outdoor" data-label="southeast corner of the Copperhead village square" cx="69" cy="61" r="4"/>
     <circle id="room-cb58661deea9f3d7e0a360a1ead16206c9d60eb6" class="room outdoor" data-label="northeast corner of the Copperhead village square" cx="69" cy="47" r="4"/>
     <rect id="room-ee2bb6f40b325607285b0508906568a37314a98b" class="room indoor room-shop" data-label="smithy" x="51" y="32" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="55" y="36" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-dd3b8b435c2620b459aabf4c1dcd1c8bd791d74c" class="room indoor room-clothes" data-label="broomstick shop" x="65" y="32" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="69" y="36" text-anchor="middle" dominant-baseline="central">C</text>
-    <rect id="room-d2b53366511991f11de8874a3598a0267707a8b8" class="room indoor" data-label="high altar of Sandelfon in Copperhead" x="76" y="43" width="8" height="8" rx="2"/>
+    <rect id="room-d2b53366511991f11de8874a3598a0267707a8b8" class="room indoor room-temple" data-label="high altar of Sandelfon in Copperhead" x="76" y="43" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="80" y="47" text-anchor="middle" dominant-baseline="central">R</text>
     <rect id="room-49d92a9de117843c348cce0d52d0dd99309c0ac8" class="room indoor room-shop" data-label="rickety stall" x="63" y="55" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="67" y="59" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-68c387d1c69b7e89da999ebbf8bc4a9d3d595f92" class="room outdoor" data-label="north end of Granite Street" cx="55" cy="75" r="4"/>
     <circle id="room-a23f2a5acd4c5f57617d551e012cd907699ea01c" class="room outdoor" data-label="south end of Granite Street" cx="55" cy="89" r="4"/>
@@ -87,10 +239,6 @@
     <rect id="room-226b431202e3a3ea0a4c300b289f15919bd77e95" class="room indoor" data-label="holy corridor" x="76" y="53" width="8" height="8" rx="2"/>
     <circle id="room-6a1f57c4aa89cd8ef1f3957ffd0b632186cfe387" class="room outdoor room-house" data-label="[player house]" cx="66" cy="89" r="4"/><text class="room-type-label" font-size="4.5" x="66" y="89" text-anchor="middle" dominant-baseline="central">H</text>
     <rect id="room-324b719668052bcfda759a1e8d6eebbb2e26bf65" class="room indoor room-house" data-label="[player house]" x="62" y="85" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="66" y="89" text-anchor="middle" dominant-baseline="central">H</text>
-  </g>
-
-
-  <g id="layer-room-labels"></g>
-  <g id="layer-labels"><!-- labels --></g>
-
-</svg>
+  </g><g
+     id="layer-room-labels" /><g
+     id="layer-labels"><!-- labels --></g></svg>
