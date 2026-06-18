@@ -1,43 +1,297 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 348 148"
-     class="map-svg"
-     data-map-id="55">
-
-  <g id="layer-artwork"><!-- artwork --></g>
-
-  <g id="layer-exits">
-    <line id="edge-127d267237515f062e0687a66f4278b37a7ca4c9-38d3f230ba1311c88ad5a9611a05bcc7347b04c1" class="exit" x1="38" y1="86" x2="66" y2="86"/>
-    <line id="edge-0198518e2ec25f6a4688a550f39c1c94a1a48b57-38d3f230ba1311c88ad5a9611a05bcc7347b04c1" class="exit" x1="66" y1="114" x2="66" y2="86"/>
-    <line id="edge-38d3f230ba1311c88ad5a9611a05bcc7347b04c1-69d040d0bca3d09bac8b3faee7045359eff7211a" class="exit" x1="66" y1="86" x2="66" y2="58"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 348 148"
+   class="map-svg"
+   data-map-id="55"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="creel_guild.svg"
+   xml:space="preserve"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs4" />
+  <style id="inkscape-font-fix">
+text, .map-label, .map-label-muted, .map-label-accent,
+.lib-table, .lib-gap-label, .lib-book-label,
+.lib-row-num, .lib-book-list, .room-type-label {
+  font-family: "Noto Sans", sans-serif;
+}
+</style><sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="3.8221988"
+     inkscape:cx="185.23369"
+     inkscape:cy="64.09923"
+     inkscape:window-width="1968"
+     inkscape:window-height="1011"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4" /><g
+     id="layer-artwork"><!-- artwork --><text
+       xml:space="preserve"
+       x="65.862"
+       y="130.92651"
+       id="text58"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="65.862"
+         y="130.92651"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan58">GROUND FLOOR</tspan></text><text
+       xml:space="preserve"
+       x="162.754"
+       y="130.92651"
+       id="text5"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="162.754"
+         y="130.92651"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan4">FIRST FLOOR</tspan></text><text
+       xml:space="preserve"
+       x="289.892"
+       y="130.92651"
+       id="text6"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="289.892"
+         y="130.92651"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan5">SECOND FLOOR</tspan></text><rect
+       id="rect1"
+       width="47.164001"
+       height="8.4099998"
+       x="14.418001"
+       y="31.251484"
+       class="city-sign"
+       ry="0.42050001"
+       style="stroke-width:1" /><text
+       xml:space="preserve"
+       x="37.957993"
+       y="37.598488"
+       id="text1-3"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="37.957993"
+         y="37.598488"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan1">CREEL SPRINGS</tspan></text><path
+       d="M 38.000001,39.661484 38,86"
+       id="path1"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888"
+       sodipodi:nodetypes="cc" /></g><g
+     id="layer-exits"><line
+   id="edge-127d267237515f062e0687a66f4278b37a7ca4c9-38d3f230ba1311c88ad5a9611a05bcc7347b04c1"
+   class="exit"
+   x1="38"
+   y1="86"
+   x2="66"
+   y2="86" /><line
+   id="edge-0198518e2ec25f6a4688a550f39c1c94a1a48b57-38d3f230ba1311c88ad5a9611a05bcc7347b04c1"
+   class="exit"
+   x1="66"
+   y1="114"
+   x2="66"
+   y2="86" /><line
+   id="edge-38d3f230ba1311c88ad5a9611a05bcc7347b04c1-69d040d0bca3d09bac8b3faee7045359eff7211a"
+   class="exit"
+   x1="66"
+   y1="86"
+   x2="66"
+   y2="58" />
     null
-    <line id="edge-37e4b1dd62b558efdde85ca601172299e7b39187-cb35f106a7bada58f595c4715b341261b012f6b3" class="exit" x1="135" y1="51" x2="163" y2="51"/>
-    <line id="edge-64b0144b7d7df41be6bdab84e7da32fb0e456ce3-cb35f106a7bada58f595c4715b341261b012f6b3" class="exit" x1="163" y1="85" x2="163" y2="51"/>
-    <line id="edge-ad81e225b7c0db0baae4e1fdad6bfcc2b71989ee-cb35f106a7bada58f595c4715b341261b012f6b3" class="exit" x1="191" y1="51" x2="163" y2="51"/>
-    <line id="edge-3746178a5177134b11622cfead858782000d2f7b-ad81e225b7c0db0baae4e1fdad6bfcc2b71989ee" class="exit" x1="191" y1="68" x2="191" y2="51"/>
+    <line
+   id="edge-37e4b1dd62b558efdde85ca601172299e7b39187-cb35f106a7bada58f595c4715b341261b012f6b3"
+   class="exit"
+   x1="135"
+   y1="51"
+   x2="163"
+   y2="51" /><line
+   id="edge-64b0144b7d7df41be6bdab84e7da32fb0e456ce3-cb35f106a7bada58f595c4715b341261b012f6b3"
+   class="exit"
+   x1="163"
+   y1="85"
+   x2="163"
+   y2="51" /><line
+   id="edge-ad81e225b7c0db0baae4e1fdad6bfcc2b71989ee-cb35f106a7bada58f595c4715b341261b012f6b3"
+   class="exit"
+   x1="191"
+   y1="51"
+   x2="163"
+   y2="51" /><line
+   id="edge-3746178a5177134b11622cfead858782000d2f7b-ad81e225b7c0db0baae4e1fdad6bfcc2b71989ee"
+   class="exit"
+   x1="191"
+   y1="68"
+   x2="191"
+   y2="51" />
     null
-    <line id="edge-2d8788f5028e26187cfe98d24102baaa1fe0be07-64b0144b7d7df41be6bdab84e7da32fb0e456ce3" class="exit" x1="135" y1="85" x2="163" y2="85"/>
-    <line id="edge-4fe23fa83173cc4a248ad036c4b93fb11d45c535-64b0144b7d7df41be6bdab84e7da32fb0e456ce3" class="exit" x1="191" y1="85" x2="163" y2="85"/>
-    <line id="edge-64b0144b7d7df41be6bdab84e7da32fb0e456ce3-79171205802b4988e2b114b40185f90f98d1faa9" class="exit" x1="163" y1="85" x2="163" y2="113"/>
-  </g>
-
-  <g id="layer-rooms">
-    <rect id="room-127d267237515f062e0687a66f4278b37a7ca4c9" class="room indoor" data-label="foyer of the House of Magic" x="34" y="82" width="8" height="8" rx="2"/>
-    <rect id="room-38d3f230ba1311c88ad5a9611a05bcc7347b04c1" class="room indoor" data-label="corridor in the House" x="62" y="82" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="66,83 63.5,88 68.5,88"/>
-    <rect id="room-69d040d0bca3d09bac8b3faee7045359eff7211a" class="room indoor" data-label="kitchen of the House of Magic" x="62" y="54" width="8" height="8" rx="2"/>
-    <rect id="room-0198518e2ec25f6a4688a550f39c1c94a1a48b57" class="room indoor" data-label="dining hall of the House of Magic" x="62" y="110" width="8" height="8" rx="2"/>
-    <rect id="room-cb35f106a7bada58f595c4715b341261b012f6b3" class="room indoor" data-label="second floor of the House" x="159" y="47" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="163,54 160.5,49 165.5,49"/>
-    <rect id="room-37e4b1dd62b558efdde85ca601172299e7b39187" class="room indoor" data-label="wizard&#x27;s study" x="131" y="47" width="8" height="8" rx="2"/>
-    <rect id="room-ad81e225b7c0db0baae4e1fdad6bfcc2b71989ee" class="room indoor" data-label="laboratory of sorts" x="187" y="47" width="8" height="8" rx="2"/>
-    <rect id="room-64b0144b7d7df41be6bdab84e7da32fb0e456ce3" class="room indoor" data-label="corridor in the House of Magic" x="159" y="81" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="163,82 160.5,87 165.5,87"/>
-    <rect id="room-2d8788f5028e26187cfe98d24102baaa1fe0be07" class="room indoor" data-label="bedroom of Graham Hobre" x="131" y="81" width="8" height="8" rx="2"/>
-    <rect id="room-79171205802b4988e2b114b40185f90f98d1faa9" class="room indoor" data-label="guest bedroom" x="159" y="109" width="8" height="8" rx="2"/>
-    <rect id="room-4fe23fa83173cc4a248ad036c4b93fb11d45c535" class="room indoor" data-label="bedroom of Terence" x="187" y="81" width="8" height="8" rx="2"/>
-    <rect id="room-276d553ba6d407530a96bf39ae3a64c0e135f2dc" class="room indoor" data-label="attic" x="286" y="81" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="290,88 287.5,83 292.5,83"/>
-    <rect id="room-3746178a5177134b11622cfead858782000d2f7b" class="room indoor room-access" data-label="Magic and Meddlers&#x27; Shop" x="187" y="64" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="191" y="68" text-anchor="middle" dominant-baseline="central">X</text>
-  </g>
-
-
-  <g id="layer-room-labels"></g>
-  <g id="layer-labels"><!-- labels --></g>
-
-</svg>
+    <line
+   id="edge-2d8788f5028e26187cfe98d24102baaa1fe0be07-64b0144b7d7df41be6bdab84e7da32fb0e456ce3"
+   class="exit"
+   x1="135"
+   y1="85"
+   x2="163"
+   y2="85" /><line
+   id="edge-4fe23fa83173cc4a248ad036c4b93fb11d45c535-64b0144b7d7df41be6bdab84e7da32fb0e456ce3"
+   class="exit"
+   x1="191"
+   y1="85"
+   x2="163"
+   y2="85" /><line
+   id="edge-64b0144b7d7df41be6bdab84e7da32fb0e456ce3-79171205802b4988e2b114b40185f90f98d1faa9"
+   class="exit"
+   x1="163"
+   y1="85"
+   x2="163"
+   y2="113" /></g><g
+     id="layer-rooms"><rect
+       id="room-127d267237515f062e0687a66f4278b37a7ca4c9"
+       class="room indoor"
+       data-label="foyer of the House of Magic"
+       x="34"
+       y="82"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-38d3f230ba1311c88ad5a9611a05bcc7347b04c1"
+       class="room indoor"
+       data-label="corridor in the House"
+       x="62"
+       y="82"
+       width="8"
+       height="8"
+       rx="2" /><polygon
+       class="stair-symbol"
+       points="66,83 63.5,88 68.5,88"
+       id="polygon1" /><rect
+       id="room-69d040d0bca3d09bac8b3faee7045359eff7211a"
+       class="room indoor"
+       data-label="kitchen of the House of Magic"
+       x="62"
+       y="54"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-0198518e2ec25f6a4688a550f39c1c94a1a48b57"
+       class="room indoor"
+       data-label="dining hall of the House of Magic"
+       x="62"
+       y="110"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-cb35f106a7bada58f595c4715b341261b012f6b3"
+       class="room indoor"
+       data-label="second floor of the House"
+       x="159"
+       y="47"
+       width="8"
+       height="8"
+       rx="2" /><polygon
+       class="stair-symbol"
+       points="163,54 160.5,49 165.5,49"
+       id="polygon2" /><rect
+       id="room-37e4b1dd62b558efdde85ca601172299e7b39187"
+       class="room indoor"
+       data-label="wizard's study"
+       x="131"
+       y="47"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-ad81e225b7c0db0baae4e1fdad6bfcc2b71989ee"
+       class="room indoor"
+       data-label="laboratory of sorts"
+       x="187"
+       y="47"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-64b0144b7d7df41be6bdab84e7da32fb0e456ce3"
+       class="room indoor"
+       data-label="corridor in the House of Magic"
+       x="159"
+       y="81"
+       width="8"
+       height="8"
+       rx="2" /><polygon
+       class="stair-symbol"
+       points="163,82 160.5,87 165.5,87"
+       id="polygon3" /><rect
+       id="room-2d8788f5028e26187cfe98d24102baaa1fe0be07"
+       class="room indoor"
+       data-label="bedroom of Graham Hobre"
+       x="131"
+       y="81"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-79171205802b4988e2b114b40185f90f98d1faa9"
+       class="room indoor"
+       data-label="guest bedroom"
+       x="159"
+       y="109"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-4fe23fa83173cc4a248ad036c4b93fb11d45c535"
+       class="room indoor"
+       data-label="bedroom of Terence"
+       x="187"
+       y="81"
+       width="8"
+       height="8"
+       rx="2" /><rect
+       id="room-276d553ba6d407530a96bf39ae3a64c0e135f2dc"
+       class="room indoor"
+       data-label="attic"
+       x="286"
+       y="81"
+       width="8"
+       height="8"
+       rx="2" /><polygon
+       class="stair-symbol"
+       points="290,88 287.5,83 292.5,83"
+       id="polygon4" /><rect
+       id="room-3746178a5177134b11622cfead858782000d2f7b"
+       class="room indoor room-access"
+       data-label="Magic and Meddlers' Shop"
+       x="187"
+       y="64"
+       width="8"
+       height="8"
+       rx="2" /><text
+       class="room-type-label"
+       font-size="4.5"
+       x="191"
+       y="68"
+       text-anchor="middle"
+       dominant-baseline="central"
+       id="text4">X</text></g><g
+     id="layer-room-labels" /><g
+     id="layer-labels"><!-- labels --></g></svg>
