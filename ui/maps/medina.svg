@@ -61,26 +61,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
   </g>
   <g
      id="layer-exits" />
-  <g
-     id="layer-rooms">
-    <circle id="room-Medina01" class="room" data-label="somewhere in an alleyway" cx="51"  cy="46"  r="4"/>
-    <circle id="room-Medina02" class="room" data-label="somewhere in an alleyway" cx="91"  cy="46"  r="4"/>
-    <circle id="room-Medina03" class="room" data-label="somewhere in an alleyway" cx="131" cy="46"  r="4"/>
-    <circle id="room-Medina04" class="room" data-label="somewhere in an alleyway" cx="51"  cy="86"  r="4"/>
-    <circle id="room-Medina05" class="room" data-label="somewhere in an alleyway" cx="91"  cy="86"  r="4"/>
-    <circle id="room-Medina06" class="room" data-label="somewhere in an alleyway" cx="131" cy="86"  r="4"/>
-    <circle id="room-Medina07" class="room" data-label="somewhere in an alleyway" cx="171" cy="86"  r="4"/>
-    <circle id="room-Medina08" class="room" data-label="somewhere in an alleyway" cx="91"  cy="126" r="4"/>
-    <circle id="room-Medina09" class="room" data-label="somewhere in an alleyway" cx="131" cy="126" r="4"/>
-    <circle id="room-Medina10" class="room" data-label="somewhere in an alleyway" cx="171" cy="126" r="4"/>
-    <circle id="room-Medina11" class="room" data-label="somewhere in an alleyway" cx="211" cy="126" r="4"/>
-    <circle id="room-Medina12" class="room" data-label="somewhere in an alleyway" cx="131" cy="166" r="4"/>
-    <circle id="room-Medina13" class="room" data-label="somewhere in an alleyway" cx="171" cy="166" r="4"/>
-    <circle id="room-Medina14" class="room" data-label="somewhere in an alleyway" cx="211" cy="166" r="4"/>
-    <circle id="room-Medina15" class="room" data-label="somewhere in an alleyway" cx="131" cy="206" r="4"/>
-    <circle id="room-Medina16" class="room" data-label="somewhere in an alleyway" cx="171" cy="206" r="4"/>
-    <circle id="room-Medina17" class="room" data-label="somewhere in an alleyway" cx="211" cy="206" r="4"/>
-    <circle id="room-Medina18" class="room" data-label="somewhere in an alleyway" cx="251" cy="206" r="4"/>
+
   </g>
   <g
      id="layer-room-labels">

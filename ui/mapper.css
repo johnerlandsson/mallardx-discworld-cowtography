@@ -116,23 +116,40 @@ body {
 .room-temple                             { fill: #2d1a47; }
 
 /* ─── CTF Arena room types ─────────────────────────────────────────────────── */
-/* color-mix blends a Mallard ANSI theme colour into the bg at varying        */
-/* intensities. Applies to both room shapes and SVG text (fill is shared).    */
-.room-ctf-guard          { fill: color-mix(in srgb, var(--ansi-12, #61afef) 18%, var(--bg, #1a1a1a)); }
-.room-ctf-jail           { fill: color-mix(in srgb, var(--ansi-1,  #e06c75) 24%, var(--bg, #1a1a1a)); }
-.room-ctf-prison         { fill: color-mix(in srgb, var(--ansi-1,  #e06c75) 12%, var(--bg, #1a1a1a)); }
-.room-ctf-torture        { fill: color-mix(in srgb, var(--ansi-9,  #ef596f) 32%, var(--bg, #1a1a1a)); }
-.room-ctf-luxurious      { fill: color-mix(in srgb, var(--ansi-11, #e5c07b) 28%, var(--bg, #1a1a1a)); }
-.room-ctf-hallway        { fill: color-mix(in srgb, var(--fg,      #eaeaea)  9%, var(--bg, #1a1a1a)); }
-.room-ctf-banquet        { fill: color-mix(in srgb, var(--ansi-3,  #c8a228) 24%, var(--bg, #1a1a1a)); }
-.room-ctf-kitchen        { fill: color-mix(in srgb, var(--ansi-3,  #c8a228) 14%, var(--bg, #1a1a1a)); }
-.room-ctf-cellar         { fill: color-mix(in srgb, var(--ansi-8,  #5c6370) 26%, var(--bg, #1a1a1a)); }
-.room-ctf-wine-cellar    { fill: color-mix(in srgb, var(--ansi-5,  #c678dd) 22%, var(--bg, #1a1a1a)); }
-.room-ctf-chapel         { fill: color-mix(in srgb, var(--ansi-6,  #56b6c2) 22%, var(--bg, #1a1a1a)); }
-.room-ctf-secret-passage { fill: color-mix(in srgb, var(--fg,      #eaeaea)  5%, var(--bg, #1a1a1a)); }
-.room-ctf-necropolis     { fill: color-mix(in srgb, var(--ansi-13, #c678dd) 30%, var(--bg, #1a1a1a)); }
-.room-ctf-courtyard      { fill: color-mix(in srgb, var(--ansi-10, #4ade80) 18%, var(--bg, #1a1a1a)); }
-.room-ctf-underground    { fill: color-mix(in srgb, var(--ansi-8,  #5c6370) 14%, var(--bg, #1a1a1a)); }
+.room-ctf-guard          { fill: #3c3820; }
+.room-ctf-jail           { fill: #7a3a1a; }
+.room-ctf-prison         { fill: #6a1a1a; }
+.room-ctf-torture        { fill: #8c1520; }
+.room-ctf-luxurious      { fill: #7a6400; }
+.room-ctf-hallway        { fill: #3a3a3a; }
+.room-ctf-banquet        { fill: #7a2e0a; }
+.room-ctf-kitchen        { fill: #283818; }
+.room-ctf-cellar         { fill: #14243a; }
+.room-ctf-wine-cellar    { fill: #6a0a50; }
+.room-ctf-chapel         { fill: #0e3d44; }
+.room-ctf-secret-passage { fill: #1c1812; }
+.room-ctf-necropolis     { fill: #10103c; }
+.room-ctf-courtyard      { fill: #0e3d18; }
+.room-ctf-underground    { fill: #0a1628; }
+.room-ctf-pit            { fill: #0a0a0e; }
+.room-ctf-dead-end       { fill: #2a2218; }
+.light-bg .room-ctf-guard          { fill: #d8d0a0; }
+.light-bg .room-ctf-jail           { fill: #e8c0a0; }
+.light-bg .room-ctf-prison         { fill: #e8a0a0; }
+.light-bg .room-ctf-torture        { fill: #f09090; }
+.light-bg .room-ctf-luxurious      { fill: #f5e860; }
+.light-bg .room-ctf-hallway        { fill: #d8d8d8; }
+.light-bg .room-ctf-banquet        { fill: #f5a878; }
+.light-bg .room-ctf-kitchen        { fill: #c8d8a8; }
+.light-bg .room-ctf-cellar         { fill: #a8c0d8; }
+.light-bg .room-ctf-wine-cellar    { fill: #f0a8e0; }
+.light-bg .room-ctf-chapel         { fill: #a0d8e4; }
+.light-bg .room-ctf-secret-passage { fill: #e4e0d8; }
+.light-bg .room-ctf-necropolis     { fill: #a8a8e8; }
+.light-bg .room-ctf-courtyard      { fill: #a0e4a8; }
+.light-bg .room-ctf-underground    { fill: #b4c4d8; }
+.light-bg .room-ctf-pit            { fill: #c8c4c8; }
+.light-bg .room-ctf-dead-end       { fill: #c8c0b0; }
 
 /* ─── UU Library overlay ───────────────────────────────────────────────────── */
 .lib-distortion { fill: rgba(220, 20, 20, 0.9); }
