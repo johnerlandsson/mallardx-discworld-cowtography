@@ -18,6 +18,18 @@ const $routeDest  = document.querySelector(".route-dest");
 const $routeWalk  = document.querySelector(".route-walk");
 const $routeClear = document.querySelector(".route-clear");
 
+// Mallard pushes --bg as an inline style on :root after panel ready.
+// Read the R channel — if >= 128 the background is light.
+function applyThemeClass() {
+  const bg = getComputedStyle(document.documentElement).getPropertyValue('--bg').trim();
+  const m  = bg.match(/^#([0-9a-f]{2})/i);
+  document.documentElement.classList.toggle('light-bg', m ? parseInt(m[1], 16) >= 128 : false);
+}
+new MutationObserver(applyThemeClass).observe(
+  document.documentElement, { attributes: true, attributeFilter: ['style'] }
+);
+applyThemeClass();
+
 const SPECIAL_SCREENS = {
   unknown:   { title: "Unknown Location",  sub: "No map data for this room." },
   darkness:  { title: "Darkness",          sub: "You cannot see a thing."    },
