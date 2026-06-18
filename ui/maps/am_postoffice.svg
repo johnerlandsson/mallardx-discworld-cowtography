@@ -7,11 +7,11 @@
    id="svg6"
    sodipodi:docname="am_postoffice.svg"
    inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xml:space="preserve"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
      id="defs6" />
   <style id="inkscape-font-fix">
 text, .map-label, .map-label-muted, .map-label-accent,
@@ -19,8 +19,14 @@ text, .map-label, .map-label-muted, .map-label-accent,
 .lib-row-num, .lib-book-list, .room-type-label {
   font-family: "Noto Sans", sans-serif;
 }
-</style>
-  <sodipodi:namedview
+</style><style
+     id="inkscape-font-fix">
+text, .map-label, .map-label-muted, .map-label-accent,
+.lib-table, .lib-gap-label, .lib-book-label,
+.lib-row-num, .lib-book-list, .room-type-label {
+  font-family: &quot;Noto Sans&quot;, sans-serif;
+}
+</style><sodipodi:namedview
      id="namedview6"
      pagecolor="#ffffff"
      bordercolor="#000000"
@@ -29,64 +35,180 @@ text, .map-label, .map-label-muted, .map-label-accent,
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="5.3872054"
-     inkscape:cx="144.7875"
-     inkscape:cy="80.9325"
+     inkscape:zoom="1.9046647"
+     inkscape:cx="135.45691"
+     inkscape:cy="165.90846"
      inkscape:window-width="1968"
      inkscape:window-height="1011"
      inkscape:window-x="26"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer-artwork" />
-  <g
-     id="layer-artwork">
-    <!-- artwork -->
-    <text
+     inkscape:current-layer="layer-artwork" /><g
+     id="layer-artwork"><!-- artwork --><rect
+       id="rect18"
+       width="48.598331"
+       height="18.985249"
+       x="179"
+       y="91.507378"
+       ry="0.37480345"
+       class="anno-box"
+       style="stroke-width:0.999996" /><rect
+       id="rect24-0"
+       width="25.191999"
+       height="8.4040003"
+       x="26.53772"
+       y="92.798004"
+       ry="0.58763981"
+       class="anno-box"
+       style="stroke-width:0.999991" /><rect
+       id="rect24-0-6"
+       width="44.998001"
+       height="23.41"
+       x="172.50198"
+       y="29.86875"
+       ry="1.6369166"
+       class="anno-box"
+       style="stroke-width:0.999993" /><text
        xml:space="preserve"
-       x="190.62711"
-       y="53.851509"
-       id="text6"
-       text-anchor="middle"
+       x="38.983715"
+       y="99.145004"
+       id="text23-3"
        class="map-label"
-       font-size="5px"><tspan
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
          sodipodi:role="line"
-         id="tspan6"
-         x="190.62711"
-         y="53.851509">TO </tspan><tspan
-         sodipodi:role="line"
-         x="190.62711"
-         y="60.773045"
-         id="tspan7">WIDDERSHINS </tspan><tspan
-         sodipodi:role="line"
-         x="190.62711"
-         y="67.69458"
-         id="tspan8">BROADWAY</tspan></text>
-    <path
-       d="m 159,65 12.02748,-6.014457"
-       id="path8"
-       class="exit-offmap" />
-    <text
+         x="38.983715"
+         y="99.145004"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan23-6">GOD ST</tspan></text><path
+       d="M 69,97 H 51.72972"
+       id="path24-1"
+       class="exit-offmap"
+       sodipodi:nodetypes="cc" /><text
        xml:space="preserve"
-       x="46.02523"
-       y="95.326736"
-       id="text11"
-       text-anchor="middle"
+       x="195.745"
+       y="36.218754"
+       id="text9"
        class="map-label"
-       font-size="5px"><tspan
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
          sodipodi:role="line"
-         id="tspan9"
-         x="46.02523"
-         y="95.326736">TO </tspan><tspan
+         x="195.745"
+         y="36.218754"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan9">TO </tspan><tspan
          sodipodi:role="line"
-         x="46.02523"
-         y="102.24827"
-         id="tspan11">GOD ST</tspan></text>
-    <path
-       d="m 65,97 -10.019768,4e-6"
-       id="path12"
-       class="exit-offmap" />
-  </g>
-  <g
+         x="195.745"
+         y="43.718758"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan10">WIDDERSHINS </tspan><tspan
+         sodipodi:role="line"
+         x="195.745"
+         y="51.218758"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan11">BROADWAY</tspan></text><path
+       d="M 155,69 172.50198,53.278748"
+       id="path11"
+       class="exit-offmap"
+       sodipodi:nodetypes="cc" /><text
+       xml:space="preserve"
+       x="126.862"
+       y="142.72751"
+       id="text45"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="126.862"
+         y="142.72751"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan17">GROUND FLOOR</tspan></text><text
+       xml:space="preserve"
+       x="58.861996"
+       y="263.01251"
+       id="text12"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="58.861996"
+         y="263.01251"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan12">BASEMENT</tspan></text><text
+       xml:space="preserve"
+       x="162.742"
+       y="263.01251"
+       id="text13"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="162.742"
+         y="263.01251"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan13">FIRST FLOOR</tspan></text><text
+       xml:space="preserve"
+       x="301.754"
+       y="263.01251"
+       id="text14"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="301.754"
+         y="263.01251"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan14">SECOND FLOOR</tspan></text><text
+       xml:space="preserve"
+       x="377.77798"
+       y="129.44376"
+       id="text15"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="377.77798"
+         y="129.44376"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan15">ROOF</tspan></text><text
+       xml:space="preserve"
+       x="126.892"
+       y="58.660629"
+       id="text22-2"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="126.892"
+         y="58.660629"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan60">GRAND HALL</tspan></text><text
+       xml:space="preserve"
+       x="181.48703"
+       y="99.380005"
+       id="text16"
+       class="map-label"
+       text-anchor="left"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="181.48703"
+         y="99.380005"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan16">1. PARCELS</tspan><tspan
+         sodipodi:role="line"
+         x="181.48703"
+         y="106.88"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan18">2. MAIL COACH</tspan></text></g><g
      id="layer-exits">
     <line id="edge-109a9d6ff64b288e95580099e5b72864d67e4d33-ccf7a95fa6cd3e8593c6efe9c19a2f0247fe4014" class="exit" x1="99" y1="125" x2="127" y2="125"/>
     <line id="edge-67346fb963c7ad32b34357bd5c62bc91bd662fe7-7ffffd3d3fe831f21a6bf987d4aba52999d1afc9" class="exit" x1="378" y1="110" x2="406" y2="110"/>
@@ -99,7 +221,6 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <line id="edge-485a35ad0c51482550f76d030aaea4a305a7963d-b1049d91fa611ae04c794353535a28ca18afd131" class="exit" x1="302" y1="217" x2="330" y2="217"/>
     <line id="edge-3daa238f886a72f47fccb3fbfa0d72eaa2094422-b1049d91fa611ae04c794353535a28ca18afd131" class="exit" x1="330" y1="245" x2="330" y2="217"/>
     <line id="edge-3daa238f886a72f47fccb3fbfa0d72eaa2094422-a508956cf9e8d39910f0d3ab7edb898f2d7e6ca2" class="exit" x1="330" y1="245" x2="302" y2="245"/>
-    <line id="edge-a508956cf9e8d39910f0d3ab7edb898f2d7e6ca2-e6f0f6ea4a5efd036982bd3cbfe75a32e21411fc" class="exit" x1="302" y1="245" x2="99" y2="98"/>
     <line id="edge-29a80ffef6d4f5235f4e6b9c7adcfc55d63a7017-3883d2d5ed0e06d3db341650cd02607249b4a432" class="exit" x1="163" y1="191" x2="135" y2="191"/>
     null
     <line id="edge-29a80ffef6d4f5235f4e6b9c7adcfc55d63a7017-369af49520a50511e528c7eb9ebd83376a687f9f" class="exit" x1="163" y1="191" x2="163" y2="219"/>
@@ -119,8 +240,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <line id="edge-b8432006b9acbf9a42ec721cda4561d1364b2e89-ccf7a95fa6cd3e8593c6efe9c19a2f0247fe4014" class="exit" x1="99" y1="97" x2="127" y2="125"/>
     <line id="edge-2c112994add10ae565da349d7056360437d0323a-b8432006b9acbf9a42ec721cda4561d1364b2e89" class="exit" x1="69" y1="97" x2="99" y2="97"/>
     <line id="edge-22877bc8ad195b7b7c6cdfb0ef380c085b9eb861-323759dd8a1741dd37c2ac40b11f7fe83f28e8b1" class="exit" x1="59" y1="218" x2="59" y2="246"/>
-  </g>
-  <g
+  </g><g
      id="layer-rooms">
     <rect id="room-109a9d6ff64b288e95580099e5b72864d67e4d33" class="room indoor room-mission" data-label="dead letter office" x="95" y="121" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="99" y="125" text-anchor="middle" dominant-baseline="central">!</text>
     <rect id="room-7ffffd3d3fe831f21a6bf987d4aba52999d1afc9" class="room indoor" data-label="pigeon loft" x="402" y="106" width="8" height="8" rx="2"/>
@@ -152,11 +272,30 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-e6f0f6ea4a5efd036982bd3cbfe75a32e21411fc" class="room outdoor" data-label="back wall of the Post Office" cx="99" cy="98" r="4"/>
     <rect id="room-323759dd8a1741dd37c2ac40b11f7fe83f28e8b1" class="room indoor" data-label="bottom of a staircase" x="55" y="242" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="59,243 56.5,248 61.5,248"/>
     <rect id="room-22877bc8ad195b7b7c6cdfb0ef380c085b9eb861" class="room indoor" data-label="locker room" x="55" y="214" width="8" height="8" rx="2"/>
-  </g>
-  <g
-     id="layer-room-labels" />
-  <g
-     id="layer-labels">
-    <!-- labels -->
-  </g>
-</svg>
+  </g><g
+     id="layer-room-labels"><text
+       xml:space="preserve"
+       x="126.112"
+       y="98.428001"
+       id="text31-5"
+       class="map-label"
+       font-size="4px"
+       text-align="center"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         id="tspan31-0"
+         x="126.112"
+         y="98.428001">1</tspan></text><text
+       xml:space="preserve"
+       x="97.863998"
+       y="98.447998"
+       id="text19"
+       class="map-label"
+       font-size="4px"
+       text-align="center"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         id="tspan19"
+         x="97.863998"
+         y="98.447998">2</tspan></text></g><g
+     id="layer-labels"><!-- labels --></g></svg>
