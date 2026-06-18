@@ -29,7 +29,7 @@ default_size = { width = 360, height = 360 }
 name = "Cowtography"
 
 [[keymaps.bindings]]
-combo = "Ctrl+m"
+combo = "Ctrl+Shift+m"
 command = "map_focus"
 label = "Focus map (arrows pan, +/- zoom, Escape releases)"
 
