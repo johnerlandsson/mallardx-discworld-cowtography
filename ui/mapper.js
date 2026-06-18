@@ -491,7 +491,7 @@ function grabFocus() {
   mapFocused = true;
   panel.captureKeys(true);
   $container.classList.add("focused");
-  window.focus();
+  $container.focus();
 }
 
 function releaseFocus() {
