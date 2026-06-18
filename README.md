@@ -10,6 +10,8 @@ Map data from **[Quow's Cow Bar and Minimap](https://quow.co.uk/minimap.php)**.
 
 The map panel opens automatically on the right side of the window. As you walk through the MUD it tracks your position and highlights it on the map. Zoom in and out with the `+` and `−` buttons. Hover over the map to see room names.
 
+**Keyboard navigation:** Click the map or press `Ctrl+Shift+m` to focus it, then use arrow keys to pan and `+`/`−` to zoom. Press `Escape` to release focus and return keyboard input to the MUD.
+
 **Click any room to route there.** The path is highlighted on the map and a footer appears at the bottom of the panel showing the destination and move count. Click **walk** to start walking, or **✕** to cancel. Middle-mouse drag pans the map; left-drag on empty space also pans.
 
 ---
