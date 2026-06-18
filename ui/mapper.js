@@ -72,14 +72,14 @@ function persistZoom(mapId, w) {
 }
 
 // Inject warp arrowhead marker into an SVG element if not already present.
-// Uses context-stroke so the arrowhead inherits the path's stroke colour.
+// Hardcoded fill: context-stroke is unsupported in Mallard's WebKit.
 function ensureWarpDefs(svgEl) {
   if (svgEl.querySelector('#warp-arrow')) return;
   const defs = document.createElementNS('http://www.w3.org/2000/svg', 'defs');
   defs.innerHTML =
-    '<marker id="warp-arrow" viewBox="0 0 6 6" markerWidth="6" markerHeight="6"' +
+    '<marker id="warp-arrow" viewBox="0 0 6 6" markerWidth="7.2" markerHeight="7.2"' +
     ' refX="6" refY="3" orient="auto-start-reverse" markerUnits="userSpaceOnUse">' +
-    '<path d="M0,0 L6,3 L0,6 Z" fill="context-stroke"/></marker>';
+    '<path d="M0,0 L6,3 L0,6 Z" fill="#a855f7"/></marker>';
   svgEl.prepend(defs);
 }
 
