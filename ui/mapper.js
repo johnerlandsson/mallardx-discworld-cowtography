@@ -17,6 +17,7 @@ const $footer     = document.querySelector(".route-footer");
 const $routeDest  = document.querySelector(".route-dest");
 const $routeWalk  = document.querySelector(".route-walk");
 const $routeClear = document.querySelector(".route-clear");
+const $focusBadge = document.querySelector(".focus-badge");
 
 const SPECIAL_SCREENS = {
   unknown:   { title: "Unknown Location",  sub: "No map data for this room." },
@@ -467,6 +468,59 @@ $container.addEventListener("wheel", (e) => {
   viewBox.h    = newH;
   applyViewBox();
 }, { passive: false });
+
+// ─── Map focus (keyboard nav) ─────────────────────────────────────────────
+// Click the map to grab focus: bare arrow keys pan, +/-/= zoom, 0 re-centres.
+// Clicking outside or pressing Escape releases. panel.captureKeys(true) stops
+// stray-key forwarding so the keys stay in our panel instead of going to the
+// host text input.
+let mapFocused = false;
+
+function grabFocus() {
+  mapFocused = true;
+  panel.captureKeys(true);
+  $focusBadge.hidden = false;
+}
+
+function releaseFocus() {
+  mapFocused = false;
+  panel.captureKeys(false);
+  $focusBadge.hidden = true;
+}
+
+$container.addEventListener("click", () => { if (!mapFocused) grabFocus(); });
+window.addEventListener("blur", releaseFocus);
+
+window.addEventListener("keydown", (e) => {
+  if (!mapFocused || !currentSvg) return;
+  switch (e.key) {
+    case "ArrowUp":    viewBox.y -= viewBox.h * 0.2; applyViewBox(); break;
+    case "ArrowDown":  viewBox.y += viewBox.h * 0.2; applyViewBox(); break;
+    case "ArrowLeft":  viewBox.x -= viewBox.w * 0.2; applyViewBox(); break;
+    case "ArrowRight": viewBox.x += viewBox.w * 0.2; applyViewBox(); break;
+    case "+": case "=": {
+      const nw = viewBox.w / ZOOM_FACTOR, nh = viewBox.h / ZOOM_FACTOR;
+      viewBox.x += 0.5 * (viewBox.w - nw); viewBox.y += 0.5 * (viewBox.h - nh);
+      viewBox.w = nw; viewBox.h = nh; applyViewBox(); break;
+    }
+    case "-": {
+      const nw = viewBox.w * ZOOM_FACTOR, nh = viewBox.h * ZOOM_FACTOR;
+      viewBox.x += 0.5 * (viewBox.w - nw); viewBox.y += 0.5 * (viewBox.h - nh);
+      viewBox.w = nw; viewBox.h = nh; applyViewBox(); break;
+    }
+    case "0": {
+      const pos = target ?? current;
+      if (pos && pos.mapId === displayedMapId) centerOnRoom(pos.x, pos.y);
+      break;
+    }
+    case "Escape": releaseFocus(); break;
+    default: return;
+  }
+  e.preventDefault();
+});
+
+panel.on("grab_focus",    grabFocus);
+panel.on("release_focus", releaseFocus);
 
 // ─── Pointer events: pan + click-to-route ─────────────────────────────────
 // Middle mouse: pan anywhere.

@@ -938,17 +938,11 @@ end, {
 })
 
 -- ─── keyboard map navigation ─────────────────────────────────────────────────
--- Hidden commands backing the "Map Navigation" keymap layer declared in
--- plugin.toml. Ctrl+wasd pans, Ctrl+i/o zooms. The layer is seeded once at
--- install and activated at plugin load.
+-- Focus the map panel so bare arrow keys pan and +/-/= zoom. Clicking the map
+-- also grabs focus; Escape or clicking outside releases it.
 
-mud.command("map_pan_n",   function() panel:post("pan",  { dir = "n" }) end, { hidden = true })
-mud.command("map_pan_s",   function() panel:post("pan",  { dir = "s" }) end, { hidden = true })
-mud.command("map_pan_e",   function() panel:post("pan",  { dir = "e" }) end, { hidden = true })
-mud.command("map_pan_w",   function() panel:post("pan",  { dir = "w" }) end, { hidden = true })
-mud.command("map_zoom_in", function() panel:post("zoom", { dir = "in"  }) end, { hidden = true })
-mud.command("map_zoom_out",function() panel:post("zoom", { dir = "out" }) end, { hidden = true })
-mud.command("map_ocd",     function() do_ocd() end, { hidden = true })
+mud.command("map_focus",   function() panel:post("grab_focus",    {}) end, { hidden = true })
+mud.command("map_unfocus", function() panel:post("release_focus", {}) end, { hidden = true })
 
 mud.keymap.activate("Map Navigation")
 

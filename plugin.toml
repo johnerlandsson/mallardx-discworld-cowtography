@@ -29,39 +29,9 @@ default_size = { width = 360, height = 360 }
 name = "Map Navigation"
 
 [[keymaps.bindings]]
-combo = "Ctrl+w"
-command = "map_pan_n"
-label = "Pan north"
-
-[[keymaps.bindings]]
-combo = "Ctrl+s"
-command = "map_pan_s"
-label = "Pan south"
-
-[[keymaps.bindings]]
-combo = "Ctrl+a"
-command = "map_pan_w"
-label = "Pan west"
-
-[[keymaps.bindings]]
-combo = "Ctrl+d"
-command = "map_pan_e"
-label = "Pan east"
-
-[[keymaps.bindings]]
-combo = "Ctrl+i"
-command = "map_zoom_in"
-label = "Zoom in"
-
-[[keymaps.bindings]]
-combo = "Ctrl+o"
-command = "map_zoom_out"
-label = "Zoom out"
-
-[[keymaps.bindings]]
-combo = "Ctrl+0"
-command = "map_ocd"
-label = "Re-centre map"
+combo = "Ctrl+m"
+command = "map_focus"
+label = "Focus map (arrows pan, +/- zoom, Escape releases)"
 
 [settings.walk_sound]
 type    = "enum"

@@ -39,6 +39,8 @@ body {
 }
 .map-header .map-name { flex: 0 1 auto; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .map-header .spacer   { flex: 1 1 auto; }
+.focus-badge         { font-size: 11px; color: var(--accent); margin-right: 4px; opacity: 0.8; }
+.focus-badge[hidden] { display: none; }
 .map-header button {
   width: 20px; height: 18px; margin-left: 4px;
   background: color-mix(in srgb, var(--fg, #ddd) 10%, transparent);
