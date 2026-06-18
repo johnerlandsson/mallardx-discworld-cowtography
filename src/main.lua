@@ -221,41 +221,41 @@ end
 -- Turn commands: rotate facing, pass command through to MUD.
 mud.alias([[^turn (?:left|lt)$]], function(m)
   lib_facing = TURN_LEFT[lib_facing]
-  mud.send(m.text)
+  mud.send(m.text, { silent = true })
   post_library_overlay()
 end)
 
 mud.alias([[^turn (?:right|rt)$]], function(m)
   lib_facing = TURN_RIGHT[lib_facing]
-  mud.send(m.text)
+  mud.send(m.text, { silent = true })
   post_library_overlay()
 end)
 
 mud.alias([[^turn around$]], function(m)
   lib_facing = OPPOSITE[lib_facing]
-  mud.send(m.text)
+  mud.send(m.text, { silent = true })
   post_library_overlay()
 end)
 
 -- Strafe/walk commands: record intended move direction; GMCP confirms arrival.
 mud.alias([[^(?:forward|fw)$]], function(m)
   if lib_in_library then table.insert(lib_move_queue, lib_facing) end
-  mud.send(m.text)
+  mud.send(m.text, { silent = true })
 end)
 
 mud.alias([[^(?:backward|bw)$]], function(m)
   if lib_in_library then table.insert(lib_move_queue, OPPOSITE[lib_facing]) end
-  mud.send(m.text)
+  mud.send(m.text, { silent = true })
 end)
 
 mud.alias([[^(?:left|lt)$]], function(m)
   if lib_in_library then table.insert(lib_move_queue, TURN_LEFT[lib_facing]) end
-  mud.send(m.text)
+  mud.send(m.text, { silent = true })
 end)
 
 mud.alias([[^(?:right|rt)$]], function(m)
   if lib_in_library then table.insert(lib_move_queue, TURN_RIGHT[lib_facing]) end
-  mud.send(m.text)
+  mud.send(m.text, { silent = true })
 end)
 
 -- Blocked-move handler. The UU Library returns one of three messages when
@@ -557,12 +557,12 @@ mud.alias([[^(n|ne|e|se|s|sw|w|nw|u|d|north|northeast|east|southeast|south|south
       end
     end
   end
-  mud.send(m[1])
+  mud.send(m[1], { silent = true })
 end)
 
 mud.alias([[^stop$]], function(m)
   reset_walk()
-  mud.send(m.text)
+  mud.send(m.text, { silent = true })
 end)
 
 mud.trigger([[^(?:> )?Removed queue\.$]], function()
