@@ -50,45 +50,22 @@ local SPECIAL_SCREENS = {
 -- anchored to the entrance and show a muted indicator for the interior.
 local SHADES_ENTRY_ID = "01bbd8b887e71314d8e358cbaf4f585391206bc4"
 
--- BPMedina: 18 rooms share one GMCP identifier. Identified by description
--- substring + exit count + previous Medina room (mirrors Quow's logic).
-local MEDINA_BY_DESC = {
-  { pat = "and there are other alleys", id = "Medina01" },
-  { pat = "head spins",                 id = "Medina02" },
-  { pat = "very narrow",                id = "Medina03" },
-  { pat = "T%-junction",                id = "Medina04" },
-  { pat = "cross alleyways",            id = "Medina06" },
-  { pat = "decision is simple",         id = "Medina07" },
-  { pat = "Six alleys meet",            id = "Medina09" },
-  { pat = "Three alleyways merge",      id = "Medina10" },
-  { pat = "same place you were",        id = "Medina11" },
-  { pat = "the Aurient",                id = "Medina12" },
-  { pat = "north and south",            id = "Medina16" },
-  { pat = "alleys twist and turn",      id = "Medina17" },
-  { pat = "dark and with",              id = "Medina18" },
-}
+-- BPMedina: 18 rooms share one GMCP identifier. Identified by room description
+-- text triggers (GMCP room.info doesn't carry the description field). Specific
+-- descriptions match 13 rooms uniquely; the generic description is disambiguated
+-- by exit count + previous Medina room (mirrors Quow's logic).
+--
 -- Rooms in the inner cluster — coming from one of these makes 3-exit
--- MedinaGuess rooms more likely to be Medina14 than Medina08.
+-- generic rooms more likely to be Medina14 than Medina08.
 local MEDINA_INNER = {
   Medina10=true, Medina11=true, Medina13=true,
   Medina14=true, Medina16=true, Medina17=true, Medina18=true,
 }
-local medina_prev = nil
-
-local function medina_identify(desc, exit_count)
-  for _, entry in ipairs(MEDINA_BY_DESC) do
-    if desc:find(entry.pat) then return entry.id end
-  end
-  -- Generic "You are standing in a small winding alleyway" — disambiguate by exits.
-  if     exit_count == 5 then return "Medina05"
-  elseif exit_count == 4 then return "Medina13"
-  elseif exit_count == 2 then return "Medina15"
-  elseif exit_count == 3 then
-    if medina_prev and MEDINA_INNER[medina_prev] then return "Medina14"
-    else return "Medina08" end
-  end
-  return nil
-end
+local medina_prev       = nil
+local medina_name       = nil  -- data.name from last BPMedina GMCP event
+local medina_exit_count = 0    -- exit count from last BPMedina GMCP event
+local medina_identified = false -- guards against double-posting per room
+local post_medina_room          -- forward declaration; body assigned after post_room
 
 -- ─── Map panel ───────────────────────────────────────────────────────────────
 
@@ -106,6 +83,15 @@ local function post_room(payload)
     tx         = payload.tx,
     ty         = payload.ty,
   })
+end
+
+post_medina_room = function(room_id)
+  if medina_identified then return end
+  medina_identified = true
+  medina_prev = room_id
+  local frame = { identifier = room_id, name = medina_name }
+  last_payload = frame
+  post_room(frame)
 end
 
 local function post_route(room_ids, destination, steps)
@@ -358,6 +344,47 @@ mud.trigger([[^(?:> )?You are somewhere in the depths of L-space\.]], function()
   panel:post("lspace", {})
 end)
 
+-- ─── BPMedina: room description text triggers ───────────────────────────────
+-- Discworld GMCP room.info doesn't carry description text, so we match the
+-- room's long description as it appears in game output. Specific patterns
+-- cover 13 uniquely-described rooms; the generic "You are standing" pattern
+-- handles the remaining 5 (Medina05/08/13/14/15) by exit count + prev room.
+-- Register specific patterns before the generic one so that when both could
+-- fire on the same line (e.g. Medina16), the specific one wins first.
+for _, entry in ipairs({
+  { "and there are other alleys",  "Medina01" },
+  { "head spins",                  "Medina02" },
+  { "very narrow",                 "Medina03" },
+  { "T-junction",                  "Medina04" },
+  { "cross alleyways",             "Medina06" },
+  { "decision is simple",          "Medina07" },
+  { "Six alleys meet",             "Medina09" },
+  { "Three alleyways merge",       "Medina10" },
+  { "same place you were",         "Medina11" },
+  { "the Aurient",                 "Medina12" },
+  { "north and south",             "Medina16" },
+  { "alleys twist and turn",       "Medina17" },
+  { "dark and with",               "Medina18" },
+}) do
+  local id = entry[2]
+  mud.trigger(entry[1], function()
+    if current_room == "BPMedina" then post_medina_room(id) end
+  end)
+end
+
+mud.trigger([[You are standing in a small winding alleyway]], function()
+  if current_room ~= "BPMedina" or medina_identified then return end
+  local room_id
+  if     medina_exit_count == 5 then room_id = "Medina05"
+  elseif medina_exit_count == 4 then room_id = "Medina13"
+  elseif medina_exit_count == 2 then room_id = "Medina15"
+  elseif medina_exit_count == 3 then
+    if medina_prev and MEDINA_INNER[medina_prev] then room_id = "Medina14"
+    else room_id = "Medina08" end
+  end
+  if room_id then post_medina_room(room_id) end
+end)
+
 -- ─── World lifecycle ─────────────────────────────────────────────────────────
 
 local function seed_room()
@@ -481,21 +508,21 @@ gmcp.on('room.info', function(_, data)
           _in_dark = true
           panel:post("room_dark", {})
         elseif data.identifier == "BPMedina" then
-          -- All 18 Medina rooms share this identifier; identify by description + exits.
-          local desc = data.description or ''
-          local exit_count = 0
+          -- All 18 Medina rooms share this identifier. Description-based
+          -- identification happens via mud.trigger (description text is not
+          -- a GMCP field). Store state for those triggers to consume.
+          medina_name       = data.name
+          medina_exit_count = 0
           if type(data.exits) == 'table' then
-            for _ in pairs(data.exits) do exit_count = exit_count + 1 end
+            for _ in pairs(data.exits) do medina_exit_count = medina_exit_count + 1 end
           end
-          local room_id = medina_identify(desc, exit_count)
-          if room_id then
-            medina_prev = room_id
-            local frame = { identifier = room_id, name = data.name }
-            last_payload = frame
-            post_room(frame)
-          elseif prev_room ~= "BPMedina" and last_payload then
-            -- Can't identify on entry; stay on last known position.
-            post_room(last_payload)
+          medina_identified = false
+          if prev_room ~= "BPMedina" then
+            -- First entry: load the Medina map immediately. Text trigger will
+            -- refine position once the room description arrives.
+            local anchor = { identifier = "Medina09", name = data.name }
+            last_payload = anchor
+            post_room(anchor)
           end
         else
           last_payload = data
