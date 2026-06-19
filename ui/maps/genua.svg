@@ -7,11 +7,11 @@
    id="svg138"
    sodipodi:docname="genua.svg"
    inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xml:space="preserve"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
      id="defs138" />
   <style id="inkscape-font-fix">
 text, .map-label, .map-label-muted, .map-label-accent,
@@ -19,8 +19,14 @@ text, .map-label, .map-label-muted, .map-label-accent,
 .lib-row-num, .lib-book-list, .room-type-label {
   font-family: "Noto Sans", sans-serif;
 }
-</style>
-  <sodipodi:namedview
+</style><style
+     id="inkscape-font-fix">
+text, .map-label, .map-label-muted, .map-label-accent,
+.lib-table, .lib-gap-label, .lib-book-label,
+.lib-row-num, .lib-book-list, .room-type-label {
+  font-family: &quot;Noto Sans&quot;, sans-serif;
+}
+</style><sodipodi:namedview
      id="namedview138"
      pagecolor="#ffffff"
      bordercolor="#000000"
@@ -31,86 +37,73 @@ text, .map-label, .map-label-muted, .map-label-accent,
      inkscape:deskcolor="#d1d1d1"
      showguides="false"
      inkscape:zoom="0.7142857"
-     inkscape:cx="319.90001"
-     inkscape:cy="403.20001"
+     inkscape:cx="707.00001"
+     inkscape:cy="81.200002"
      inkscape:window-width="1968"
      inkscape:window-height="1011"
      inkscape:window-x="26"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer-artwork"
-     showgrid="false" />
-  <g
-     id="layer-artwork">
-    <!-- artwork -->
-    <path
+     inkscape:current-layer="svg138"
+     showgrid="false" /><g
+     id="layer-artwork"><!-- artwork --><path
        d="m 288,116 h 42 l 28,28 -28,28 h -28 l -14,-14 z"
        id="path148"
-       class="map-water" />
-    <rect
+       class="map-water" /><rect
        id="rect165"
        width="35"
        height="82.950005"
        x="57.400002"
        y="269.32498"
-       class="map-area-fill" />
-    <rect
+       class="map-area-fill" /><rect
        id="rect166"
        width="149.8"
        height="73.675003"
        x="4.5500031"
        y="356.64996"
-       class="map-area-fill" />
-    <rect
+       class="map-area-fill" /><rect
        id="rect167"
        width="149.8"
        height="51.100002"
        x="4.5500031"
        y="434.34998"
-       class="map-area-fill" />
-    <rect
+       class="map-area-fill" /><rect
        id="rect168"
        width="36.050003"
        height="55.300003"
        x="262.5"
        y="492.44998"
-       class="map-area-fill" />
-    <rect
+       class="map-area-fill" /><rect
        id="rect169"
        width="58.100002"
        height="51.800003"
        x="302.57501"
        y="492.44998"
-       class="map-area-fill" />
-    <rect
+       class="map-area-fill" /><rect
        id="rect170"
        width="39.025002"
        height="56.875004"
        x="364.35001"
        y="492.45001"
-       class="map-area-fill" />
-    <rect
+       class="map-area-fill" /><rect
        id="rect171"
        width="77.700005"
        height="46.025005"
        x="584.8501"
        y="439.42502"
-       class="map-area-fill" />
-    <rect
+       class="map-area-fill" /><rect
        id="rect172"
        width="115.44183"
        height="69.041336"
        x="697.20007"
        y="190.57501"
-       class="map-area-fill" />
-    <rect
+       class="map-area-fill" /><rect
        id="rect164"
        width="49"
        height="73.849998"
        x="4.5500002"
        y="278.42499"
-       class="map-area-fill" />
-    <rect
+       class="map-area-fill" /><rect
        id="rect152-9"
        width="18.790001"
        height="8.4099998"
@@ -118,8 +111,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        y="434"
        class="city-sign"
        style="stroke-width:0.661891"
-       ry="0.42050001" />
-    <rect
+       ry="0.42050001" /><rect
        id="rect173"
        width="17.049999"
        height="8.4099998"
@@ -127,8 +119,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        y="209.795"
        class="city-sign"
        style="stroke-width:0.661891"
-       ry="0.42050001" />
-    <rect
+       ry="0.42050001" /><rect
        id="rect152"
        width="40.341999"
        height="8.4099998"
@@ -136,8 +127,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        y="266"
        class="city-sign"
        style="stroke-width:0.661891"
-       ry="0.42050001" />
-    <rect
+       ry="0.42050001" /><rect
        id="rect150"
        width="25.468"
        height="8.4099998"
@@ -145,8 +135,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        y="377.79498"
        class="city-sign"
        style="stroke-width:0.661891"
-       ry="0.42050001" />
-    <rect
+       ry="0.42050001" /><rect
        id="rect148"
        width="31.893999"
        height="15.904"
@@ -154,8 +143,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        y="262.048"
        class="city-sign"
        style="stroke-width:0.661891"
-       ry="0.79520005" />
-    <rect
+       ry="0.79520005" /><rect
        id="rect146"
        width="32.848"
        height="8.4099998"
@@ -163,8 +151,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        y="282.79498"
        class="city-sign"
        style="stroke-width:0.661891"
-       ry="0.42050001" />
-    <rect
+       ry="0.42050001" /><rect
        id="rect144"
        width="22.035999"
        height="8.4099998"
@@ -172,8 +159,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
        y="251.19667"
        class="city-sign"
        style="stroke-width:0.661891"
-       ry="0.42050001" />
-    <rect
+       ry="0.42050001" /><rect
        id="rect118-2-3-2-7-2-9-7-6-4-1"
        width="23.746"
        height="15.904"
@@ -181,12 +167,10 @@ text, .map-label, .map-label-muted, .map-label-accent,
        y="220.048"
        class="city-sign"
        style="stroke-width:0.661888"
-       ry="0.79519999" />
-    <path
+       ry="0.79519999" /><path
        d="m 4.55,206.5875 v 67.55 h 35 v -21.35 h 74.8125 v -46.2 z"
        id="path164"
-       class="map-area-fill" />
-    <text
+       class="map-area-fill" /><text
        xml:space="preserve"
        x="17.158998"
        y="285.34399"
@@ -204,8 +188,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
          x="17.158998"
          y="292.84399"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
-         id="tspan140">HOUSE</tspan></text>
-    <text
+         id="tspan140">HOUSE</tspan></text><text
        xml:space="preserve"
        x="148.12975"
        y="226.392"
@@ -223,14 +206,12 @@ text, .map-label, .map-label-muted, .map-label-accent,
          x="148.12975"
          y="233.892"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
-         id="tspan142">HOUSE</tspan></text>
-    <path
+         id="tspan142">HOUSE</tspan></text><path
        d="m 176,228 -16.15625,1e-5"
        id="path142"
        class="exit-offmap"
        fill="none"
-       stroke="#888888" />
-    <text
+       stroke="#888888" /><text
        xml:space="preserve"
        x="217.784"
        y="257.54666"
@@ -243,8 +224,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
          x="217.784"
          y="257.54666"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
-         id="tspan142-3">HOTEL</tspan></text>
-    <text
+         id="tspan142-3">HOTEL</tspan></text><text
        xml:space="preserve"
        x="73.783997"
        y="276.82751"
@@ -257,8 +237,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
          x="73.783997"
          y="276.82751"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
-         id="tspan143">HOTEL</tspan></text>
-    <text
+         id="tspan143">HOTEL</tspan></text><text
        xml:space="preserve"
        x="60.298996"
        y="213.94"
@@ -271,14 +250,12 @@ text, .map-label, .map-label-muted, .map-label-accent,
          x="60.298996"
          y="213.94"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
-         id="tspan144">TACTICUS ACADEMY</tspan></text>
-    <path
+         id="tspan144">TACTICUS ACADEMY</tspan></text><path
        d="m 218,242 v 9.19667"
        id="path145"
        class="exit-offmap"
        fill="none"
-       stroke="#888888" />
-    <text
+       stroke="#888888" /><text
        xml:space="preserve"
        x="217.84998"
        y="289.14203"
@@ -291,8 +268,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
          x="217.84998"
          y="289.14203"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
-         id="tspan146">BARRACKS</tspan></text>
-    <text
+         id="tspan146">BARRACKS</tspan></text><text
        xml:space="preserve"
        x="133.42599"
        y="426.142"
@@ -305,14 +281,12 @@ text, .map-label, .map-label-muted, .map-label-accent,
          x="133.42599"
          y="426.142"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
-         id="tspan147">BARRACKS</tspan></text>
-    <path
+         id="tspan147">BARRACKS</tspan></text><path
        d="M 218,312 V 291.20498"
        id="path147"
        class="exit-offmap"
        fill="none"
-       stroke="#888888" />
-    <text
+       stroke="#888888" /><text
        xml:space="preserve"
        x="229.01799"
        y="268.392"
@@ -330,14 +304,12 @@ text, .map-label, .map-label-muted, .map-label-accent,
          x="229.01799"
          y="275.892"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
-         id="tspan149">ACADEMY</tspan></text>
-    <path
+         id="tspan149">ACADEMY</tspan></text><path
        d="M 244.965,270 H 260"
        id="path149"
        class="exit-offmap"
        fill="none"
-       stroke="#888888" />
-    <text
+       stroke="#888888" /><text
        xml:space="preserve"
        x="344"
        y="384.14496"
@@ -350,8 +322,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
          x="344"
          y="384.14496"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
-         id="tspan150">CASINO</tspan></text>
-    <text
+         id="tspan150">CASINO</tspan></text><text
        xml:space="preserve"
        x="331"
        y="498.35001"
@@ -364,14 +335,38 @@ text, .map-label, .map-label-muted, .map-label-accent,
          x="331"
          y="498.35001"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
-         id="tspan151">CASINO</tspan></text>
-    <path
+         id="tspan151">CASINO</tspan></text><path
        d="m 316,382 h 15.26599"
        id="path151"
        class="exit-offmap"
        fill="none"
-       stroke="#888888" />
-    <text
+       stroke="#888888" /><rect
+       id="rect150-3"
+       width="24.208"
+       height="8.4099998"
+       x="373.2066"
+       y="237.79498"
+       class="city-sign"
+       style="stroke-width:0.661891"
+       ry="0.42050001" /><text
+       xml:space="preserve"
+       x="385.19962"
+       y="244.14198"
+       id="text150-9"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="385.19962"
+         y="244.14198"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan150-0">PALACE</tspan></text><path
+       d="m 357.94062,242 h 15.26599"
+       id="path151-8"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" /><text
        xml:space="preserve"
        x="458.021"
        y="272.34702"
@@ -384,8 +379,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
          x="458.021"
          y="272.34702"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
-         id="tspan152">MUSKETEERS</tspan></text>
-    <text
+         id="tspan152">MUSKETEERS</tspan></text><text
        xml:space="preserve"
        x="499.93906"
        y="440.34698"
@@ -398,8 +392,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
          x="499.93906"
          y="440.34698"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
-         id="tspan152-2">GAPP</tspan></text>
-    <text
+         id="tspan152-2">GAPP</tspan></text><text
        xml:space="preserve"
        x="720.49121"
        y="197.34401"
@@ -412,32 +405,27 @@ text, .map-label, .map-label-muted, .map-label-accent,
          x="720.49121"
          y="197.34401"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
-         id="tspan153">MUSKETEERS</tspan></text>
-    <path
+         id="tspan153">MUSKETEERS</tspan></text><path
        d="m 428,270 10,0.205"
        id="path153"
        class="exit-offmap"
        fill="none"
-       stroke="#888888" />
-    <path
+       stroke="#888888" /><path
        d="m 48,412 v 15.03946"
        id="path154"
        class="exit-offmap"
        fill="none"
-       stroke="#888888" />
-    <path
+       stroke="#888888" /><path
        d="m 166,302 v -9.34618"
        id="path155"
        class="exit-offmap"
        fill="none"
-       stroke="#888888" />
-    <path
+       stroke="#888888" /><path
        d="M 715,224 H 700.45114"
        id="path156"
        class="exit-offmap"
        fill="none"
-       stroke="#888888" />
-    <text
+       stroke="#888888" /><text
        xml:space="preserve"
        x="616.12299"
        y="446.94"
@@ -450,33 +438,28 @@ text, .map-label, .map-label-muted, .map-label-accent,
          x="616.12299"
          y="446.94"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
-         id="tspan156">TEMPLE OF GAPP</tspan></text>
-    <path
+         id="tspan156">TEMPLE OF GAPP</tspan></text><path
        d="m 590,458 v -4 l 3.01445,-3.01445 h 14.41237 l 1.84759,1.84758 V 454"
        id="path157"
        class="exit"
        fill="none"
        stroke="#888888"
-       sodipodi:nodetypes="cccccc" />
-    <path
+       sodipodi:nodetypes="cccccc" /><path
        d="m 645,458 v -4 l -3.12812,-3.01445 -27.34688,-0.11367 -1.87256,1.87256 0.0108,1.25556"
        id="path158"
        class="exit"
        fill="none"
-       stroke="#888888" />
-    <path
+       stroke="#888888" /><path
        d="m 484,438 h 6.57407"
        id="path159"
        class="exit-offmap"
        fill="none"
-       stroke="#888888" />
-    <path
+       stroke="#888888" /><path
        d="M 601,468 H 587.22567"
        id="path160"
        class="exit-offmap"
        fill="none"
-       stroke="#888888" />
-    <text
+       stroke="#888888" /><text
        xml:space="preserve"
        x="385.14999"
        y="498.41"
@@ -489,8 +472,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
          x="385.14999"
          y="498.41"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
-         id="tspan160">PIZZERIA</tspan></text>
-    <text
+         id="tspan160">PIZZERIA</tspan></text><text
        xml:space="preserve"
        x="281.54999"
        y="498.35602"
@@ -503,20 +485,16 @@ text, .map-label, .map-label-muted, .map-label-accent,
          x="281.54999"
          y="498.35602"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
-         id="tspan161">STABLES</tspan></text>
-    <path
+         id="tspan161">STABLES</tspan></text><path
        d="m 395,507 -5.89844,-5.89844"
        id="path161"
-       class="exit-offmap" />
-    <path
+       class="exit-offmap" /><path
        d="m 311,504 h 8.44433"
        id="path162"
-       class="exit-offmap" />
-    <path
+       class="exit-offmap" /><path
        d="m 279,537 v 8.02907"
        id="path163"
-       class="exit-offmap" />
-    <text
+       class="exit-offmap" /><text
        xml:space="preserve"
        x="21"
        y="442.12488"
@@ -529,8 +507,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
          x="21"
          y="442.12488"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
-         id="tspan163">CASINO</tspan></text>
-    <text
+         id="tspan163">CASINO</tspan></text><text
        xml:space="preserve"
        x="625.07501"
        y="216.145"
@@ -543,15 +520,59 @@ text, .map-label, .map-label-muted, .map-label-accent,
          x="625.07501"
          y="216.145"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
-         id="tspan172">BOIS</tspan></text>
-    <path
+         id="tspan172">BOIS</tspan></text><path
        d="m 596,214 h 20.7"
        id="path173"
        class="exit-ferry"
        fill="none"
-       stroke="#888888" />
-  </g>
-  <g
+       stroke="#888888" /><path
+       d="m 232,340 13.99425,14"
+       id="path138-3"
+       class="exit-tshop"
+       fill="none"
+       stroke="888888"
+       sodipodi:nodetypes="cc" /><rect
+       id="room-tshop-1-6"
+       class="room room-tshop-portal"
+       data-label="T-Shop (maybe)"
+       x="241.99425"
+       y="350"
+       width="8"
+       height="8"
+       rx="2" /><path
+       d="M 526,438 H 514.55109"
+       id="path138-3-0"
+       class="exit-tshop"
+       fill="none"
+       stroke="888888"
+       sodipodi:nodetypes="cc" /><rect
+       id="room-tshop-1-6-9"
+       class="room room-tshop-portal"
+       data-label="T-Shop (maybe)"
+       x="510.55109"
+       y="434"
+       width="8"
+       height="8"
+       rx="2" /><path
+       d="m 246,298 6.75313,6.75313 h 14.95313 L 274,311"
+       id="path139"
+       class="exit"
+       fill="none"
+       stroke="#888888" /><path
+       d="M 568,214 555.90442,201.9044"
+       id="path138-3-0-3"
+       class="exit-tshop"
+       fill="none"
+       stroke="888888"
+       sodipodi:nodetypes="cc" /><rect
+       id="room-tshop-1-6-9-8"
+       class="room room-tshop-portal"
+       data-label="T-Shop (maybe)"
+       x="551.90442"
+       y="197.9044"
+       width="8"
+       height="8"
+       rx="2" /></g><g
      id="layer-exits">
     <line id="edge-ebba2eb5029659cc6eb0cd899b169afca3c3a9b9-f008c98b2d74392f37ebb07cefb5de27a077e00c" class="exit exit-green" x1="358" y1="144" x2="344" y2="158"/>
     <line id="edge-4b3e7c7e73aa611943fb4d145e27330addfa876f-6406e512e80cdb32d65412ee6f6a81a826f6223f" class="exit exit-green" x1="330" y1="144" x2="316" y2="144"/>
@@ -1263,7 +1284,6 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <line id="edge-234fdcbb8021764f038afdc191db5c78b55654f1-8bd644febf9938c212673cf17c083c2774779fd0" class="exit" x1="260" y1="270" x2="260" y2="284"/>
     <line id="edge-8bd644febf9938c212673cf17c083c2774779fd0-fe05bee48cd7d2ba630caa5b80ec091c82eb72b6" class="exit" x1="260" y1="284" x2="246" y2="298"/>
     <line id="edge-08eb1303e1f79a26a8bf3e90c95379b020a5b59b-fe05bee48cd7d2ba630caa5b80ec091c82eb72b6" class="exit" x1="246" y1="312" x2="246" y2="298"/>
-    <line id="edge-5af705ebfc70818de5f08af7352b616e4f477c4d-fe05bee48cd7d2ba630caa5b80ec091c82eb72b6" class="exit" x1="274" y1="311" x2="246" y2="298"/>
     <line id="edge-8c562134e3cd6904ca5e439f60d34ab5fe70f36d-fe05bee48cd7d2ba630caa5b80ec091c82eb72b6" class="exit" x1="232" y1="298" x2="246" y2="298"/>
     <line id="edge-1d5f9709b7530414cdf011f04a25a0fd661f646a-5af705ebfc70818de5f08af7352b616e4f477c4d" class="exit" x1="264" y1="311" x2="274" y2="311"/>
     <line id="edge-5af705ebfc70818de5f08af7352b616e4f477c4d-9d1f72c12895db2f218cac606b91e0d0b9b7cbba" class="exit" x1="274" y1="311" x2="274" y2="321"/>
@@ -1417,10 +1437,9 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <line id="edge-0436e2de28abc2b0b061a22b16fd4afa92d2fce3-e0a8d0f3a92375d3bb88f78a4e2f0fd292ac0cf0" class="exit" x1="554" y1="298" x2="554" y2="298"/>
     <line id="edge-48ee31fd5d78131b0a2195c81e39cc66a56db405-e66191b63769c9d1719883df7eb08912618982b5" class="exit" x1="554" y1="256" x2="554" y2="256"/>
     <line id="edge-4bf2696373609069a0127f239b5e9c5af5f89dc5-5f7b2c12084165dc963414fb59b36f37c235861c" class="exit" x1="176" y1="312" x2="176" y2="312"/>
-  </g>
-  <g
+  </g><g
      id="layer-rooms">
-    <rect id="room-35ea94550b0f3b7a800e5141e1f0251278ecfe3c" class="room indoor" data-label="Genua National Bank" x="466" y="227" width="8" height="8" rx="2"/>
+    <rect id="room-35ea94550b0f3b7a800e5141e1f0251278ecfe3c" class="room indoor room-bank" data-label="Genua National Bank" x="466" y="227" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="470" y="231" text-anchor="middle" dominant-baseline="central">$</text>
     <circle id="room-0ebbc916f35c03181af68366e85e7863d4ca5d68" class="room outdoor" data-label="Royal Avenue" cx="470" cy="242" r="4"/>
     <rect id="room-8a72343467394f736496ccb4a57f7677b415d343" class="room indoor" data-label="safety deposit waiting room" x="466" y="227" width="8" height="8" rx="2"/>
     <circle id="room-fdc057982be33f9b8adc24b7ad375d17e138e3d1" class="room outdoor" data-label="Royal Avenue, joining Dauphin Street" cx="456" cy="242" r="4"/>
@@ -1575,7 +1594,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-5bdc6a57a67917fef3518ae36a2d1c81f6f7b6d9" class="room indoor room-shop" data-label="Scum Bar" x="536" y="185" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="540" y="189" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-0ccb7c5f3e53f08d08da1efb15d547ebfef0970a" class="room outdoor" data-label="Sapphire Street" cx="526" cy="130" r="4"/>
     <circle id="room-52580e39d6bfb22bfd58ba921f327c5fd79237e0" class="room outdoor" data-label="Sapphire Street" cx="512" cy="116" r="4"/>
-    <rect id="room-c5effec3c9082057e476422fa6fd0af5964154d4" class="room indoor" data-label="odd jobs office" x="497" y="112" width="8" height="8" rx="2"/>
+    <rect id="room-c5effec3c9082057e476422fa6fd0af5964154d4" class="room indoor room-mission" data-label="odd jobs office" x="497" y="112" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="501" y="116" text-anchor="middle" dominant-baseline="central">!</text>
     <circle id="room-89ec24e158f79c2d2ac66285cdafdd654519e2d3" class="room outdoor" data-label="north end of Sapphire Street" cx="498" cy="102" r="4"/>
     <circle id="room-6635bfa4f664b2e4193a555623ada26fa846df5b" class="room outdoor" data-label="Lachaise Road outside an undertakers" cx="484" cy="88" r="4"/>
     <rect id="room-a68535d1565bd2e98e4e75c7e5ebb03cee55208a" class="room indoor room-shop" data-label="funeral parlour on Lachaise Road" x="491" y="84" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="495" y="88" text-anchor="middle" dominant-baseline="central">S</text>
@@ -1741,7 +1760,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-efdf7cb8dfcf0f78c10488471899b4e15ae45e6d" class="room outdoor" data-label="courtyard inside the main gate" cx="176" cy="242" r="4"/>
     <circle id="room-a12f6e1381ebcf498d487bdc258900aaeaca5725" class="room outdoor" data-label="southeastern side of the courtyard around the main gate" cx="190" cy="256" r="4"/>
     <circle id="room-8ecd0eabddbb4deeb34e89759f10ff020b82cf60" class="room outdoor" data-label="southern side of the courtyard around the main gate" cx="176" cy="256" r="4"/>
-    <rect id="room-44fd4de4f8251012143eb8d4b1790dd86314658b" class="room indoor" data-label="Chester Shillock&#x27;s money changers" x="186" y="263" width="8" height="8" rx="2"/>
+    <rect id="room-44fd4de4f8251012143eb8d4b1790dd86314658b" class="room indoor room-changer" data-label="Chester Shillock&#x27;s money changers" x="186" y="263" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="190" y="267" text-anchor="middle" dominant-baseline="central">¢</text>
     <rect id="room-5f39e836ffabb9851c240b398a2ccad9ecbf0e04" class="room indoor room-shop" data-label="Charre Bux Coffee House" x="197" y="252" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="201" y="256" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-6defa37c6e05a11807104e98f17e3f5b48ab58ca" class="room outdoor green" data-label="courtyard outside the main gate" cx="162" cy="242" r="4"/>
     <rect id="room-a1755a2f5b92db6af5feb15f06879896aff8a44c" class="room indoor" data-label="comfortable office" x="31" y="311" width="8" height="8" rx="2"/>
@@ -1771,7 +1790,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-0d34dead71b1cd7eefa75f128d8f296852ea8288" class="room outdoor" data-label="eastern part of Genua Avenue" cx="316" cy="242" r="4"/>
     <rect id="room-d5b77607f24dd02bc946953f295dcd2182502ba5" class="room indoor" data-label="Klatchian Embassy" x="312" y="249" width="8" height="8" rx="2"/>
     <rect id="room-822ac27b045b156156f7e11b1246a0ecb33f3ebf" class="room indoor" data-label="elegant interior" x="312" y="227" width="8" height="8" rx="2"/>
-    <rect id="room-9fd4a687dc5eef3a4dce00fc63a76324ddf7eaa3" class="room indoor" data-label="elegant interior" x="312" y="227" width="8" height="8" rx="2"/>
+    <rect id="room-9fd4a687dc5eef3a4dce00fc63a76324ddf7eaa3" class="room indoor room-post" data-label="elegant interior" x="312" y="227" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="316" y="231" text-anchor="middle" dominant-baseline="central">O</text>
     <circle id="room-9d595503c61b0e614bbba9504a3be4312e3d4394" class="room outdoor" data-label="eastern part of Genua Avenue" cx="330" cy="242" r="4"/>
     <rect id="room-ce9604c6d9c0fcfbf5bcab48f6647eca5762253f" class="room indoor room-shop" data-label="chandlery" x="326" y="249" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="330" y="253" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-49ebd93426b886b3311cf5ecd4c87d7d24c12b91" class="room outdoor" data-label="Genua Avenue west of Dauphin Street" cx="344" cy="242" r="4"/>
@@ -1943,10 +1962,10 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-9d801d155ff155b7134ebf5eeb8c73117563da56" class="room indoor" data-label="top of the stairwell" x="369" y="527" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="373,534 370.5,529 375.5,529"/>
     <rect id="room-82129d6537efab6e0ff30cdb97b2729d23642b3f" class="room indoor" data-label="stylishly decorated corridor" x="380" y="527" width="8" height="8" rx="2"/>
     <rect id="room-babb4de327cd0e604e5368a82219b00772195e68" class="room indoor" data-label="well appointed office" x="380" y="516" width="8" height="8" rx="2"/>
-    <rect id="room-ae9c75c25087146424d62b4e7a497fe3e8a70be2" class="room indoor" data-label="old fashioned office" x="380" y="538" width="8" height="8" rx="2"/>
+    <rect id="room-ae9c75c25087146424d62b4e7a497fe3e8a70be2" class="room indoor room-mission" data-label="old fashioned office" x="380" y="538" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="384" y="542" text-anchor="middle" dominant-baseline="central">!</text>
     <rect id="room-41a9038660df9a36f11513d865212f6a1d176853" class="room indoor" data-label="stylishly decorated corridor" x="391" y="527" width="8" height="8" rx="2"/>
     <rect id="room-e4819f406ab15054f9014b71135a0382afcd514d" class="room indoor" data-label="well styled office" x="391" y="516" width="8" height="8" rx="2"/>
-    <rect id="room-c28bf5e86ee23fbb8fb8d58fbb4df6a16c8f5645" class="room indoor" data-label="well appointed office" x="391" y="538" width="8" height="8" rx="2"/>
+    <rect id="room-c28bf5e86ee23fbb8fb8d58fbb4df6a16c8f5645" class="room indoor room-mission" data-label="well appointed office" x="391" y="538" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="395" y="542" text-anchor="middle" dominant-baseline="central">!</text>
     <circle id="room-cf2b6cd48e3a7d6fdea2ffa9a1b887bcdad68991" class="room outdoor" data-label="Little Brindisi outside a courtyard" cx="372" cy="424" r="4"/>
     <circle id="room-4460da2637a94792a3d582d2d13f7c943b5bcd26" class="room outdoor" data-label="crowded courtyard off Little Brindisi" cx="380" cy="416" r="4"/>
     <rect id="room-adb8d84b177939cf804ce988ca73085b47fae2b7" class="room indoor room-food" data-label="smelly cheese shop" x="368" y="431" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="372" y="435" text-anchor="middle" dominant-baseline="central">F</text>
@@ -2055,7 +2074,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-bf48f468c8b88f2c9b8516fe6b0483aedf3cceb3" class="room outdoor" data-label="Carrefour Crescent, just south of the main gate of Genua" cx="176" cy="270" r="4"/>
     <circle id="room-64bfa4f0f651e4b805118adbc4c14adfe115470c" class="room outdoor room-shop" data-label="Palude Ditta park" cx="162" cy="284" r="4"/><text class="room-type-label" font-size="4.5" x="162" y="284" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-e7e9b993b17628323c0b13c1fce540b18984fc44" class="room outdoor" data-label="Carrefour Crescent, just west of the park" cx="176" cy="312" r="4"/><polygon class="stair-symbol" points="176,309 173.5,314 178.5,314"/>
-    <rect id="room-77e943d49de7348fdef7c49bfcc05427af22d739" class="room indoor" data-label="neat reception" x="162" y="298" width="8" height="8" rx="2"/>
+    <rect id="room-77e943d49de7348fdef7c49bfcc05427af22d739" class="room indoor room-mission" data-label="neat reception" x="162" y="298" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="166" y="302" text-anchor="middle" dominant-baseline="central">!</text>
     <rect id="room-70bf1dd2c838b6b018f76886832c161c66495813" class="room indoor" data-label="sales office" x="275" y="533" width="8" height="8" rx="2"/>
     <rect id="room-62603b86954ab72c73d48dc95fb74d71cbdc7608" class="room indoor" data-label="accounting office" x="264" y="533" width="8" height="8" rx="2"/>
     <rect id="room-0718929d8b608454f33d0bcb66b48d22caf4be8c" class="room indoor" data-label="Honest Joe&#x27;s carriage warehouse" x="264" y="522" width="8" height="8" rx="2"/>
@@ -2158,12 +2177,12 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-d84d44aaa9bd513fe0508b26deb5df4a00c53f0a" class="room indoor" data-label="comfortable lounge" x="349" y="533" width="8" height="8" rx="2"/>
     <rect id="room-11f3c9c2ccc3c66cdcaaad2a44854531275ccc52" class="room indoor" data-label="large office" x="338" y="533" width="8" height="8" rx="2"/>
     <rect id="room-e9a4b7457be59438fbbfc44559e70a97c106f62c" class="room indoor" data-label="Gumboni banker office" x="349" y="511" width="8" height="8" rx="2"/>
-    <rect id="room-8b7eefa4c958d0ff05029fe390d772ad42b3c1c4" class="room indoor" data-label="Cup O&#x27; Regime&#x27;s Office" x="338" y="511" width="8" height="8" rx="2"/>
+    <rect id="room-8b7eefa4c958d0ff05029fe390d772ad42b3c1c4" class="room indoor room-mission" data-label="Cup O&#x27; Regime&#x27;s Office" x="338" y="511" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="342" y="515" text-anchor="middle" dominant-baseline="central">!</text>
     <rect id="room-081bb9e8862a6ac8e483643a54676ce2e85125b2" class="room indoor" data-label="Gumboni ante room" x="327" y="511" width="8" height="8" rx="2"/>
     <rect id="room-8357512e66bfacc2447da77a7274f006b1118853" class="room indoor" data-label="Gumboni Meeting Room" x="327" y="522" width="8" height="8" rx="2"/>
     <rect id="room-2728c33f0ce86c4c14bdb25962a8a9ab2d500d61" class="room indoor" data-label="small entryway" x="327" y="500" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="331,507 328.5,502 333.5,502"/>
     <rect id="room-29b5391bc5933e9fbfe3b8074ebd94cad6eed287" class="room indoor" data-label="extravagant stage" x="307" y="500" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="311,501 308.5,506 313.5,506"/>
-    <rect id="room-307eabe1818ea198a55c0d77ece38980981e2d57" class="room indoor" data-label="vault" x="466" y="227" width="8" height="8" rx="2"/>
+    <rect id="room-307eabe1818ea198a55c0d77ece38980981e2d57" class="room indoor room-bank" data-label="vault" x="466" y="227" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="470" y="231" text-anchor="middle" dominant-baseline="central">$</text>
     <rect id="room-b5834e773ffc47465eb934e2dc2616caa80b4cc8" class="room indoor room-weapon" data-label="Heroic Endeavours" x="592" y="154" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="596" y="158" text-anchor="middle" dominant-baseline="central">W</text>
     <rect id="room-9880199d9b2f403afaa44f134dfaba7004de370e" class="room indoor room-food" data-label="musty stall" x="606" y="154" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="610" y="158" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-b89a972fc9c8f6b6a2cf68b4385810ff43e0a62e" class="room indoor" data-label="Magick Boxe (Restricted Items)" x="589" y="98" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="593,105 590.5,100 595.5,100"/>
@@ -2227,11 +2246,10 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-e16bd1bc9153d3455460b08e9a50252fef934a4e" class="room indoor" data-label="Ettouferie of Luc Chanceux" x="382" y="151" width="8" height="8" rx="2"/>
     <rect id="room-93cb6e76ff4bcfc0b4b1d7ce9dcf53e550871627" class="room indoor" data-label="office of the High Priest of Gapp" x="651" y="454" width="8" height="8" rx="2"/>
     <rect id="room-784c862983494eb0f0b3a0416c4311ae577441a2" class="room indoor" data-label="Temple scriptorium" x="586" y="454" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="590,455 587.5,460 592.5,460"/>
-  </g>
-  <g
-     id="layer-room-labels" />
-  <g
-     id="layer-labels">
-    <!-- labels -->
-  </g>
-</svg>
+  </g><g
+     id="layer-room-labels">
+    <text class="room-type-label" x="246" y="354" text-anchor="middle" dominant-baseline="central">T</text>
+    <text class="room-type-label" x="514.6" y="438" text-anchor="middle" dominant-baseline="central">T</text>
+    <text class="room-type-label" x="555.9" y="201.9" text-anchor="middle" dominant-baseline="central">T</text>
+  </g><g
+     id="layer-labels"><!-- labels --></g></svg>

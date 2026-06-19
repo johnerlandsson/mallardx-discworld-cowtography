@@ -101,6 +101,8 @@ body {
 .exit-warp           { stroke: #a855f7; stroke-width: 1.82; fill: none; marker-end: url(#warp-arrow); }
 .exit-warp-two       { stroke: #a855f7; stroke-width: 1.82; fill: none; marker-end: url(#warp-arrow); marker-start: url(#warp-arrow); }
 .exit-tshop          { stroke: #e0b0ff; stroke-width: 1.82; fill: none; stroke-dasharray: 0.5 2.5; stroke-linecap: round; }
+.exit-climb          { stroke: #525252; stroke-width: 1.82; fill: none; stroke-dasharray: 4 2 1 2; }
+.exit-nopass         { stroke: #525252; stroke-width: 1.82; fill: none; stroke-dasharray: 1 3; }
 .map-river           { stroke: #2d4f64; stroke-width: 1.82; fill: none; }
 .map-river-offmap    { stroke: #2d4f64; stroke-width: 1.82; stroke-dasharray: 3 2; fill: none; }
 .light-bg .map-river,

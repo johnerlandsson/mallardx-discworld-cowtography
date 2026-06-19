@@ -280,8 +280,10 @@ function drawWorldDisc(x, y) {
 // ─── SVG overlay helpers ─────────────────────────────────────────────────
 // Route elements and the position indicator are lifted into overlay <g>s
 // appended to the SVG root so they always paint above the static layers.
-// originalParent tracks where each element came from so it can be restored.
-const _origParent = new WeakMap();
+// originalParent/NextSib track where each element came from so it can be
+// restored to its exact original DOM position (not just appended to the end).
+const _origParent  = new WeakMap();
+const _origNextSib = new WeakMap();
 
 function _ensureOverlay(svg, id) {
   let g = svg.querySelector(`#${id}`);
@@ -295,15 +297,25 @@ function _ensureOverlay(svg, id) {
 
 function _lift(el, overlay) {
   if (!el) return;
-  if (!_origParent.has(el)) _origParent.set(el, el.parentNode);
+  if (!_origParent.has(el)) {
+    _origParent.set(el, el.parentNode);
+    _origNextSib.set(el, el.nextSibling);
+  }
   overlay.appendChild(el);
 }
 
 function _restoreOverlay(overlay) {
-  for (const el of [...overlay.children]) {
-    const p = _origParent.get(el);
-    if (p) p.appendChild(el);
+  // Restore in reverse so that each element's saved nextSibling has already
+  // been restored by the time we insertBefore it.
+  for (const el of [...overlay.children].reverse()) {
+    const p   = _origParent.get(el);
+    const sib = _origNextSib.get(el);
+    if (p) {
+      if (sib && sib.parentNode === p) p.insertBefore(el, sib);
+      else p.appendChild(el);
+    }
     _origParent.delete(el);
+    _origNextSib.delete(el);
   }
 }
 

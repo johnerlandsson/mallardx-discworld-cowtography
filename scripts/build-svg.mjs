@@ -21,6 +21,7 @@ const WATER_CONFIG        = path.join(REPO_ROOT, 'ui', 'data', 'room-water.json'
 const GREEN_CONFIG        = path.join(REPO_ROOT, 'ui', 'data', 'room-green.json')
 const DANGER_CONFIG       = path.join(REPO_ROOT, 'ui', 'data', 'room-danger.json')
 const EXIT_EXCLUDE_CONFIG = path.join(REPO_ROOT, 'ui', 'data', 'exit-exclude.json')
+const EXIT_CLIMB_CONFIG   = path.join(REPO_ROOT, 'ui', 'data', 'exit-climb.json')
 
 // ─── DB queries ──────────────────────────────────────────────────────────────
 
@@ -284,7 +285,7 @@ export function roomElement(id, x, y, short, isIndoor, stair = null, type = null
 }
 
 // Returns null for vertical exit pairs (no line drawn).
-export function exitElement(fromId, toId, rooms, isVertical = false, compactRooms = new Set(), waterRooms = new Set(), greenRooms = new Set(), dangerRooms = new Set()) {
+export function exitElement(fromId, toId, rooms, isVertical = false, compactRooms = new Set(), waterRooms = new Set(), greenRooms = new Set(), dangerRooms = new Set(), climbEdges = new Set()) {
   if (isVertical) return null
   const from = rooms.find(r => r.id === fromId)
   const to   = rooms.find(r => r.id === toId)
@@ -293,17 +294,18 @@ export function exitElement(fromId, toId, rooms, isVertical = false, compactRoom
   const water   = waterRooms.has(fromId)  && waterRooms.has(toId)
   const green   = !water && greenRooms.has(fromId)  && greenRooms.has(toId)
   const danger  = !water && dangerRooms.has(fromId) && dangerRooms.has(toId)
-  return `<line id="${edgeId(fromId, toId)}" class="exit${compact ? ' exit-compact' : ''}${water ? ' exit-water' : ''}${green ? ' exit-green' : ''}${danger ? ' exit-danger' : ''}" x1="${from.x}" y1="${from.y}" x2="${to.x}" y2="${to.y}"/>`
+  const climb   = !water && !green && !danger && climbEdges.has(edgeId(fromId, toId))
+  return `<line id="${edgeId(fromId, toId)}" class="exit${compact ? ' exit-compact' : ''}${water ? ' exit-water' : ''}${green ? ' exit-green' : ''}${danger ? ' exit-danger' : ''}${climb ? ' exit-climb' : ''}" x1="${from.x}" y1="${from.y}" x2="${to.x}" y2="${to.y}"/>`
 }
 
 // ─── Map SVG builders ────────────────────────────────────────────────────────
 
 // Typed exits (water/green/danger) rendered before normal ones so normal exits sit on top.
-function buildExitLines(exits, rooms, compactRooms, waterRooms, greenRooms, dangerRooms, exitExcludes = new Set()) {
+function buildExitLines(exits, rooms, compactRooms, waterRooms, greenRooms, dangerRooms, exitExcludes = new Set(), climbEdges = new Set()) {
   const typed = [], normal = []
   for (const e of exits) {
     if (exitExcludes.has(edgeId(e.from, e.to))) continue
-    const line = '    ' + exitElement(e.from, e.to, rooms, e.isVertical, compactRooms, waterRooms, greenRooms, dangerRooms)
+    const line = '    ' + exitElement(e.from, e.to, rooms, e.isVertical, compactRooms, waterRooms, greenRooms, dangerRooms, climbEdges)
     if (!line.trim()) continue
     const isTyped = (waterRooms.has(e.from)  && waterRooms.has(e.to))  ||
                     (greenRooms.has(e.from)   && greenRooms.has(e.to))  ||
@@ -313,11 +315,11 @@ function buildExitLines(exits, rooms, compactRooms, waterRooms, greenRooms, dang
   return [...typed, ...normal].join('\n')
 }
 
-export function buildNewSvg(mapMeta, rooms, exits, mapId = '', stairRooms = new Map(), shopTypes = new Map(), compactRooms = new Set(), waterOverrides = new Set(), greenOverrides = new Set(), exitExcludes = new Set(), dangerOverrides = new Set(), largeRooms = new Set(), extraClasses = new Map()) {
+export function buildNewSvg(mapMeta, rooms, exits, mapId = '', stairRooms = new Map(), shopTypes = new Map(), compactRooms = new Set(), waterOverrides = new Set(), greenOverrides = new Set(), exitExcludes = new Set(), dangerOverrides = new Set(), largeRooms = new Set(), extraClasses = new Map(), climbEdges = new Set()) {
   const waterRooms  = new Set(rooms.filter(r => isWaterRoom(r, waterOverrides)).map(r => r.id))
   const greenRooms  = new Set(rooms.filter(r => greenOverrides.has(r.id)).map(r => r.id))
   const dangerRooms = new Set(rooms.filter(r => dangerOverrides.has(r.id)).map(r => r.id))
-  const exitLines   = buildExitLines(exits, rooms, compactRooms, waterRooms, greenRooms, dangerRooms, exitExcludes)
+  const exitLines   = buildExitLines(exits, rooms, compactRooms, waterRooms, greenRooms, dangerRooms, exitExcludes, climbEdges)
   const roomShapes  = rooms.map(r => '    ' + roomElement(r.id, r.x, r.y, r.short, r.roomType === 'inside', stairRooms.get(r.id) ?? null, shopTypes.get(r.id) ?? null, compactRooms.has(r.id), waterRooms.has(r.id), greenRooms.has(r.id), dangerRooms.has(r.id), largeRooms.has(r.id), extraClasses.get(r.id) ?? '')).join('\n')
 
   return `<svg xmlns="http://www.w3.org/2000/svg"
@@ -342,11 +344,11 @@ ${roomShapes}
 </svg>`
 }
 
-export function updateExistingSvg(existingSvg, mapMeta, rooms, exits, stairRooms = new Map(), shopTypes = new Map(), compactRooms = new Set(), waterOverrides = new Set(), greenOverrides = new Set(), exitExcludes = new Set(), dangerOverrides = new Set(), largeRooms = new Set(), extraClasses = new Map()) {
+export function updateExistingSvg(existingSvg, mapMeta, rooms, exits, stairRooms = new Map(), shopTypes = new Map(), compactRooms = new Set(), waterOverrides = new Set(), greenOverrides = new Set(), exitExcludes = new Set(), dangerOverrides = new Set(), largeRooms = new Set(), extraClasses = new Map(), climbEdges = new Set()) {
   const waterRooms  = new Set(rooms.filter(r => isWaterRoom(r, waterOverrides)).map(r => r.id))
   const greenRooms  = new Set(rooms.filter(r => greenOverrides.has(r.id)).map(r => r.id))
   const dangerRooms = new Set(rooms.filter(r => dangerOverrides.has(r.id)).map(r => r.id))
-  const exitLines   = buildExitLines(exits, rooms, compactRooms, waterRooms, greenRooms, dangerRooms, exitExcludes)
+  const exitLines   = buildExitLines(exits, rooms, compactRooms, waterRooms, greenRooms, dangerRooms, exitExcludes, climbEdges)
   const roomShapes  = rooms.map(r => '    ' + roomElement(r.id, r.x, r.y, r.short, r.roomType === 'inside', stairRooms.get(r.id) ?? null, shopTypes.get(r.id) ?? null, compactRooms.has(r.id), waterRooms.has(r.id), greenRooms.has(r.id), dangerRooms.has(r.id), largeRooms.has(r.id), extraClasses.get(r.id) ?? '')).join('\n')
 
   let svg = existingSvg.replace(
@@ -658,6 +660,9 @@ async function buildOneSvg(db, mapId, mapMeta) {
   let exitExcludes = new Set()
   try { exitExcludes = new Set(JSON.parse(await fs.readFile(EXIT_EXCLUDE_CONFIG, 'utf8'))) } catch {}
 
+  let climbEdges = new Set()
+  try { climbEdges = new Set(JSON.parse(await fs.readFile(EXIT_CLIMB_CONFIG, 'utf8'))) } catch {}
+
   let svg
   try {
     const existing = await fs.readFile(outPath, 'utf8')
@@ -674,10 +679,10 @@ async function buildOneSvg(db, mapId, mapMeta) {
     if (added > 0 || removed > 0) {
       console.log(`[build-svg] map ${mapId}: +${added} rooms, -${removed} removed — update labels manually`)
     }
-    svg = updateExistingSvg(existing, mapMeta, roomRows, exitRows, stairRooms, shopTypes, compactRooms, waterOverrides, greenOverrides, exitExcludes, dangerOverrides, largeRooms, extraClasses)
+    svg = updateExistingSvg(existing, mapMeta, roomRows, exitRows, stairRooms, shopTypes, compactRooms, waterOverrides, greenOverrides, exitExcludes, dangerOverrides, largeRooms, extraClasses, climbEdges)
   } catch (e) {
     if (e.code !== 'ENOENT') throw e
-    svg = buildNewSvg(mapMeta, roomRows, exitRows, mapId, stairRooms, shopTypes, compactRooms, waterOverrides, greenOverrides, exitExcludes, dangerOverrides, largeRooms, extraClasses)
+    svg = buildNewSvg(mapMeta, roomRows, exitRows, mapId, stairRooms, shopTypes, compactRooms, waterOverrides, greenOverrides, exitExcludes, dangerOverrides, largeRooms, extraClasses, climbEdges)
   }
 
   await fs.writeFile(outPath, svg, 'utf8')

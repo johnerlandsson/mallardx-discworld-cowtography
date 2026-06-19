@@ -187,6 +187,43 @@ Exit IDs have the form `edge-<roomA>-<roomB>` where the two room IDs are sorted 
 
 ---
 
+## exit-climb.json
+
+**File:** `ui/data/exit-climb.json`
+
+Marks specific exits as climbing or crawling passages. These exits render with a dash-dot stroke (`4 2 1 2`) in the same grey as regular exits (`.exit-climb`).
+
+**Format:**
+
+```json
+["<exit_id>", "<exit_id>", ...]
+```
+
+Same edge-ID format as `exit-exclude.json` — `edge-<roomA>-<roomB>` with room IDs sorted alphabetically. Find the ID in the generated SVG by searching for either room ID.
+
+**Notes:**
+
+- Climb styling is suppressed when either room is also water, green, or danger — those type colours take precedence.
+- Rebuild with `npm run build:svg && npm run sync:svg` after editing.
+
+---
+
+## Impassable exits (exit-nopass)
+
+**No JSON file** — apply the `exit-nopass` CSS class manually in the SVG.
+
+Marks exits that exist in the DB (and therefore appear as auto-generated lines) but cannot actually be traversed by the player. These render as sparse short dashes in the same grey as regular exits.
+
+To mark an exit impassable, open the SVG in a text editor, find the `<line>` element in `layer-exits` with the matching `id`, and add `exit-nopass` to its `class` attribute alongside the existing `exit` class:
+
+```svg
+<line id="edge-abc…-def…" class="exit exit-nopass" x1="…" y1="…" x2="…" y2="…"/>
+```
+
+The class is preserved across `build:svg` runs because the build script replaces the entire `layer-exits` content — you will need to re-apply it after every rebuild. If that becomes tedious, consider adding the pair to `exit-exclude.json` instead and drawing a manual `exit-nopass` line in `layer-artwork`.
+
+---
+
 ## Finding room IDs in-game
 
 Use the `dbid` alias to print the current room's ID as you move around:

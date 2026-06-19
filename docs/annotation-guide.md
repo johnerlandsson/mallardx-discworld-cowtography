@@ -59,6 +59,8 @@ Use the XML editor (Shift+Ctrl+X) to set the `class` attribute on elements.
 | `exit-journey` | Inter-town journey path (muted colour, same weight as exit) |
 | `exit-journey-offmap` | Journey path exiting off-map (muted, dashed) |
 | `exit-ferry` | Ferry route (water blue, dotted) |
+| `exit-climb` | Climbing or crawling exit (dash-dot, same grey as `exit`) — also driven by `exit-climb.json` |
+| `exit-nopass` | Impassable exit — connection exists in the DB but cannot be traversed (sparse short dashes) |
 | `map-river` | River or stream line (water blue, same weight as exit) |
 | `map-river-offmap` | River exiting off-map (water blue, dashed) |
 

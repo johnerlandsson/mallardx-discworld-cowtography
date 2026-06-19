@@ -1,11 +1,89 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 622 238"
-     class="map-svg"
-     data-map-id="32">
-
-  <g id="layer-artwork"><!-- artwork --></g>
-
-  <g id="layer-exits">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 622 238"
+   class="map-svg"
+   data-map-id="32"
+   version="1.1"
+   id="svg2"
+   sodipodi:docname="lancre_castle.svg"
+   xml:space="preserve"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs2" />
+  <style id="inkscape-font-fix">
+text, .map-label, .map-label-muted, .map-label-accent,
+.lib-table, .lib-gap-label, .lib-book-label,
+.lib-row-num, .lib-book-list, .room-type-label {
+  font-family: "Noto Sans", sans-serif;
+}
+</style><sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.6806723"
+     inkscape:cx="288.575"
+     inkscape:cy="120.785"
+     inkscape:window-width="1968"
+     inkscape:window-height="1011"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" /><g
+     id="layer-artwork"><!-- artwork --><rect
+       id="rect24-7"
+       width="44.776001"
+       height="8.4040003"
+       x="262.612"
+       y="11.131898"
+       ry="0.58763981"
+       class="anno-box"
+       style="stroke-width:0.999993" /><text
+       xml:space="preserve"
+       x="285"
+       y="17.478899"
+       id="text23-8"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="285"
+         y="17.478899"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan23-4">LANCRE TOWN</tspan></text><path
+       d="M 285,19.535898 V 33"
+       id="path32"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888"
+       sodipodi:nodetypes="cc" /><path
+       d="m 257,215 v 17.25066"
+       id="path2"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888"
+       sodipodi:nodetypes="cc" /></g><g
+     id="layer-exits">
+    <line id="edge-660a94d4397d214b1e02edb373cbf38d76e38122-dacc476e6a147c3fec8f38fd9540549ea9f89ec6" class="exit exit-green" x1="341" y1="61" x2="327" y2="61"/>
+    <line id="edge-660a94d4397d214b1e02edb373cbf38d76e38122-f7f47c2b431bf2eb33fef6483e8349a3ea0b8a8d" class="exit exit-green" x1="341" y1="61" x2="355" y2="61"/>
+    <line id="edge-87fdb717c6f1cc2a182d4caebab40887aba80704-f7f47c2b431bf2eb33fef6483e8349a3ea0b8a8d" class="exit exit-green" x1="369" y1="47" x2="355" y2="61"/>
+    <line id="edge-e8bc54c1a0b78f31c7be8c2755e48a1ec8ae066e-f7f47c2b431bf2eb33fef6483e8349a3ea0b8a8d" class="exit exit-green" x1="369" y1="75" x2="355" y2="61"/>
+    <line id="edge-87fdb717c6f1cc2a182d4caebab40887aba80704-dbdaf282733e26d91ebf53d99d8518ac8994111f" class="exit exit-green" x1="369" y1="47" x2="369" y2="33"/>
+    <line id="edge-dbdaf282733e26d91ebf53d99d8518ac8994111f-f86a7c06b4c318e159abf0804e694edebac68603" class="exit exit-green" x1="369" y1="33" x2="355" y2="19"/>
+    <line id="edge-68f87bb4313ee6e4817a8def64286120638394a0-f86a7c06b4c318e159abf0804e694edebac68603" class="exit exit-green" x1="341" y1="19" x2="355" y2="19"/>
+    <line id="edge-e8bc54c1a0b78f31c7be8c2755e48a1ec8ae066e-f610227c1bef503a6da94c00b22e9ef86c7d0f46" class="exit exit-green" x1="369" y1="75" x2="383" y2="89"/>
+    <line id="edge-5094182a32ff061be6289835a87b421ac54d7d64-f610227c1bef503a6da94c00b22e9ef86c7d0f46" class="exit exit-green" x1="397" y1="103" x2="383" y2="89"/>
+    <line id="edge-2b9099e39d27565c1d2ea587c1c5991417c0f942-bebb7f6fe144fa57732d633664473b4f2ad645d7" class="exit exit-green" x1="299" y1="131" x2="285" y2="131"/>
+    <line id="edge-2b9099e39d27565c1d2ea587c1c5991417c0f942-5f1b5327f2a45530bcae78b68c06d181faaf7168" class="exit exit-green" x1="299" y1="131" x2="313" y2="131"/>
+    <line id="edge-5f1b5327f2a45530bcae78b68c06d181faaf7168-9fa5442c8e140a8a9e6b7abb5c5404e5da70bc72" class="exit exit-green" x1="313" y1="131" x2="327" y2="131"/>
     <line id="edge-01343c88667e057f6c3cb2ee57c70218bcab5abf-89df609928ea5193b5e093db2cab470703ea5e99" class="exit" x1="285" y1="47" x2="285" y2="33"/>
     <line id="edge-01343c88667e057f6c3cb2ee57c70218bcab5abf-9a934c1d64156a0343145d1eb2400c746276ec2f" class="exit" x1="285" y1="47" x2="285" y2="61"/>
     <line id="edge-9a934c1d64156a0343145d1eb2400c746276ec2f-fbec267c334c1fcd5a861ae0d488cbd128603e17" class="exit" x1="285" y1="61" x2="271" y2="75"/>
@@ -19,24 +97,12 @@
     <line id="edge-0fabac0fb0fc78782da9c57503e15b8983727e46-e66df672328fe776bfe20e8809e078595685144e" class="exit" x1="323" y1="51" x2="313" y2="61"/>
     <line id="edge-4aefc6071b4b278c6a0803f8b044cc54a86e4d85-e66df672328fe776bfe20e8809e078595685144e" class="exit" x1="313" y1="47" x2="313" y2="61"/>
     <line id="edge-dacc476e6a147c3fec8f38fd9540549ea9f89ec6-e66df672328fe776bfe20e8809e078595685144e" class="exit" x1="327" y1="61" x2="313" y2="61"/>
-    <line id="edge-660a94d4397d214b1e02edb373cbf38d76e38122-dacc476e6a147c3fec8f38fd9540549ea9f89ec6" class="exit" x1="341" y1="61" x2="327" y2="61"/>
-    <line id="edge-660a94d4397d214b1e02edb373cbf38d76e38122-f7f47c2b431bf2eb33fef6483e8349a3ea0b8a8d" class="exit" x1="341" y1="61" x2="355" y2="61"/>
-    <line id="edge-87fdb717c6f1cc2a182d4caebab40887aba80704-f7f47c2b431bf2eb33fef6483e8349a3ea0b8a8d" class="exit" x1="369" y1="47" x2="355" y2="61"/>
-    <line id="edge-e8bc54c1a0b78f31c7be8c2755e48a1ec8ae066e-f7f47c2b431bf2eb33fef6483e8349a3ea0b8a8d" class="exit" x1="369" y1="75" x2="355" y2="61"/>
-    <line id="edge-87fdb717c6f1cc2a182d4caebab40887aba80704-dbdaf282733e26d91ebf53d99d8518ac8994111f" class="exit" x1="369" y1="47" x2="369" y2="33"/>
     <line id="edge-506904763abc4fd1484479969f92df834892a745-dbdaf282733e26d91ebf53d99d8518ac8994111f" class="exit" x1="380" y1="33" x2="369" y2="33"/>
-    <line id="edge-dbdaf282733e26d91ebf53d99d8518ac8994111f-f86a7c06b4c318e159abf0804e694edebac68603" class="exit" x1="369" y1="33" x2="355" y2="19"/>
-    <line id="edge-68f87bb4313ee6e4817a8def64286120638394a0-f86a7c06b4c318e159abf0804e694edebac68603" class="exit" x1="341" y1="19" x2="355" y2="19"/>
-    <line id="edge-e8bc54c1a0b78f31c7be8c2755e48a1ec8ae066e-f610227c1bef503a6da94c00b22e9ef86c7d0f46" class="exit" x1="369" y1="75" x2="383" y2="89"/>
-    <line id="edge-5094182a32ff061be6289835a87b421ac54d7d64-f610227c1bef503a6da94c00b22e9ef86c7d0f46" class="exit" x1="397" y1="103" x2="383" y2="89"/>
     <line id="edge-a27eccdeb46074922bcf24efe550e7ac80a43416-ee635bb9aebb862aa1110f6fc96294343d92166d" class="exit" x1="271" y1="103" x2="271" y2="89"/>
     <line id="edge-9f3b762a7110cfd426f5a833f301d498c9079bca-a27eccdeb46074922bcf24efe550e7ac80a43416" class="exit" x1="271" y1="117" x2="271" y2="103"/>
     <line id="edge-7c455edbbed8ef44d30c99b56a7db1ebb6ced614-9f3b762a7110cfd426f5a833f301d498c9079bca" class="exit" x1="271" y1="131" x2="271" y2="117"/>
     <line id="edge-7c455edbbed8ef44d30c99b56a7db1ebb6ced614-7cfd153ee0547a58ae4ab7ca56f1bf01cdee2fe8" class="exit" x1="271" y1="131" x2="257" y2="145"/>
     <line id="edge-7c455edbbed8ef44d30c99b56a7db1ebb6ced614-bebb7f6fe144fa57732d633664473b4f2ad645d7" class="exit" x1="271" y1="131" x2="285" y2="131"/>
-    <line id="edge-2b9099e39d27565c1d2ea587c1c5991417c0f942-bebb7f6fe144fa57732d633664473b4f2ad645d7" class="exit" x1="299" y1="131" x2="285" y2="131"/>
-    <line id="edge-2b9099e39d27565c1d2ea587c1c5991417c0f942-5f1b5327f2a45530bcae78b68c06d181faaf7168" class="exit" x1="299" y1="131" x2="313" y2="131"/>
-    <line id="edge-5f1b5327f2a45530bcae78b68c06d181faaf7168-9fa5442c8e140a8a9e6b7abb5c5404e5da70bc72" class="exit" x1="313" y1="131" x2="327" y2="131"/>
     <line id="edge-5591a45c0553ac1d9d2a3179e9b78b27ed4fb928-9fa5442c8e140a8a9e6b7abb5c5404e5da70bc72" class="exit" x1="338" y1="131" x2="327" y2="131"/>
     <line id="edge-5591a45c0553ac1d9d2a3179e9b78b27ed4fb928-76c6afe2a120ffd116eb9362a4e50bce6a0edaf3" class="exit" x1="338" y1="131" x2="348" y2="131"/>
     <line id="edge-7cfd153ee0547a58ae4ab7ca56f1bf01cdee2fe8-ad7cd744e3a339352c63588742d232692194687f" class="exit" x1="257" y1="145" x2="257" y2="159"/>
@@ -64,9 +130,8 @@
     <line id="edge-49e7a633ed222be3572f6b259e76526d6c8d99b2-7fc2a11a9a0ff2c4e34279dd2df4f4236fc34cc9" class="exit" x1="257" y1="215" x2="257" y2="201"/>
     <line id="edge-2b9329a0e64b2dc943a083585055f203a2e47fca-506904763abc4fd1484479969f92df834892a745" class="exit" x1="380" y1="33" x2="380" y2="33"/>
     <line id="edge-2dbf08d473a6d0dd12d426ed7cf83d03ff91fe09-506904763abc4fd1484479969f92df834892a745" class="exit" x1="380" y1="33" x2="380" y2="33"/>
-  </g>
-
-  <g id="layer-rooms">
+  </g><g
+     id="layer-rooms">
     <circle id="room-89df609928ea5193b5e093db2cab470703ea5e99" class="room outdoor" data-label="bridge over Lancre Gorge" cx="285" cy="33" r="4"/>
     <circle id="room-01343c88667e057f6c3cb2ee57c70218bcab5abf" class="room outdoor" data-label="bridge over Lancre Gorge" cx="285" cy="47" r="4"/>
     <circle id="room-9a934c1d64156a0343145d1eb2400c746276ec2f" class="room outdoor" data-label="track into Lancre Town" cx="285" cy="61" r="4"/>
@@ -78,24 +143,24 @@
     <circle id="room-e66df672328fe776bfe20e8809e078595685144e" class="room outdoor" data-label="forest path" cx="313" cy="61" r="4"/>
     <circle id="room-4aefc6071b4b278c6a0803f8b044cc54a86e4d85" class="room outdoor" data-label="top of a log pile" cx="313" cy="47" r="4"/>
     <rect id="room-0fabac0fb0fc78782da9c57503e15b8983727e46" class="room indoor" data-label="wooden hut" x="319" y="47" width="8" height="8" rx="2"/>
-    <circle id="room-dacc476e6a147c3fec8f38fd9540549ea9f89ec6" class="room outdoor" data-label="winding track" cx="327" cy="61" r="4"/>
-    <circle id="room-660a94d4397d214b1e02edb373cbf38d76e38122" class="room outdoor" data-label="winding track" cx="341" cy="61" r="4"/>
-    <circle id="room-f7f47c2b431bf2eb33fef6483e8349a3ea0b8a8d" class="room outdoor" data-label="winding track" cx="355" cy="61" r="4"/>
-    <circle id="room-87fdb717c6f1cc2a182d4caebab40887aba80704" class="room outdoor" data-label="winding track" cx="369" cy="47" r="4"/>
-    <circle id="room-dbdaf282733e26d91ebf53d99d8518ac8994111f" class="room outdoor" data-label="winding track" cx="369" cy="33" r="4"/>
-    <circle id="room-f86a7c06b4c318e159abf0804e694edebac68603" class="room outdoor" data-label="winding track" cx="355" cy="19" r="4"/>
-    <circle id="room-68f87bb4313ee6e4817a8def64286120638394a0" class="room outdoor" data-label="forest glade with pool" cx="341" cy="19" r="4"/>
-    <circle id="room-e8bc54c1a0b78f31c7be8c2755e48a1ec8ae066e" class="room outdoor" data-label="winding track" cx="369" cy="75" r="4"/>
-    <circle id="room-f610227c1bef503a6da94c00b22e9ef86c7d0f46" class="room outdoor" data-label="winding track" cx="383" cy="89" r="4"/>
-    <circle id="room-5094182a32ff061be6289835a87b421ac54d7d64" class="room outdoor" data-label="end of a winding track" cx="397" cy="103" r="4"/>
+    <circle id="room-dacc476e6a147c3fec8f38fd9540549ea9f89ec6" class="room outdoor green" data-label="winding track" cx="327" cy="61" r="4"/>
+    <circle id="room-660a94d4397d214b1e02edb373cbf38d76e38122" class="room outdoor green" data-label="winding track" cx="341" cy="61" r="4"/>
+    <circle id="room-f7f47c2b431bf2eb33fef6483e8349a3ea0b8a8d" class="room outdoor green" data-label="winding track" cx="355" cy="61" r="4"/>
+    <circle id="room-87fdb717c6f1cc2a182d4caebab40887aba80704" class="room outdoor green" data-label="winding track" cx="369" cy="47" r="4"/>
+    <circle id="room-dbdaf282733e26d91ebf53d99d8518ac8994111f" class="room outdoor green" data-label="winding track" cx="369" cy="33" r="4"/>
+    <circle id="room-f86a7c06b4c318e159abf0804e694edebac68603" class="room outdoor green" data-label="winding track" cx="355" cy="19" r="4"/>
+    <circle id="room-68f87bb4313ee6e4817a8def64286120638394a0" class="room outdoor green" data-label="forest glade with pool" cx="341" cy="19" r="4"/>
+    <circle id="room-e8bc54c1a0b78f31c7be8c2755e48a1ec8ae066e" class="room outdoor green" data-label="winding track" cx="369" cy="75" r="4"/>
+    <circle id="room-f610227c1bef503a6da94c00b22e9ef86c7d0f46" class="room outdoor green" data-label="winding track" cx="383" cy="89" r="4"/>
+    <circle id="room-5094182a32ff061be6289835a87b421ac54d7d64" class="room outdoor green" data-label="end of a winding track" cx="397" cy="103" r="4"/>
     <circle id="room-ee635bb9aebb862aa1110f6fc96294343d92166d" class="room outdoor" data-label="track through the forest" cx="271" cy="89" r="4"/>
     <circle id="room-a27eccdeb46074922bcf24efe550e7ac80a43416" class="room outdoor" data-label="track through the forest" cx="271" cy="103" r="4"/>
     <circle id="room-9f3b762a7110cfd426f5a833f301d498c9079bca" class="room outdoor" data-label="track through the forest" cx="271" cy="117" r="4"/>
     <circle id="room-7c455edbbed8ef44d30c99b56a7db1ebb6ced614" class="room outdoor" data-label="track through the forest" cx="271" cy="131" r="4"/>
-    <circle id="room-bebb7f6fe144fa57732d633664473b4f2ad645d7" class="room outdoor" data-label="track through the forest" cx="285" cy="131" r="4"/>
-    <circle id="room-2b9099e39d27565c1d2ea587c1c5991417c0f942" class="room outdoor" data-label="track through the forest" cx="299" cy="131" r="4"/>
-    <circle id="room-5f1b5327f2a45530bcae78b68c06d181faaf7168" class="room outdoor" data-label="track through the forest" cx="313" cy="131" r="4"/>
-    <circle id="room-9fa5442c8e140a8a9e6b7abb5c5404e5da70bc72" class="room outdoor" data-label="forest clearing" cx="327" cy="131" r="4"/>
+    <circle id="room-bebb7f6fe144fa57732d633664473b4f2ad645d7" class="room outdoor green" data-label="track through the forest" cx="285" cy="131" r="4"/>
+    <circle id="room-2b9099e39d27565c1d2ea587c1c5991417c0f942" class="room outdoor green" data-label="track through the forest" cx="299" cy="131" r="4"/>
+    <circle id="room-5f1b5327f2a45530bcae78b68c06d181faaf7168" class="room outdoor green" data-label="track through the forest" cx="313" cy="131" r="4"/>
+    <circle id="room-9fa5442c8e140a8a9e6b7abb5c5404e5da70bc72" class="room outdoor green" data-label="forest clearing" cx="327" cy="131" r="4"/>
     <rect id="room-5591a45c0553ac1d9d2a3179e9b78b27ed4fb928" class="room indoor" data-label="wooden shack" x="334" y="127" width="8" height="8" rx="2"/>
     <rect id="room-76c6afe2a120ffd116eb9362a4e50bce6a0edaf3" class="room indoor" data-label="small room in a shack" x="344" y="127" width="8" height="8" rx="2"/>
     <circle id="room-7cfd153ee0547a58ae4ab7ca56f1bf01cdee2fe8" class="room outdoor" data-label="track through the forest" cx="257" cy="145" r="4"/>
@@ -110,14 +175,10 @@
     <circle id="room-7fc2a11a9a0ff2c4e34279dd2df4f4236fc34cc9" class="room outdoor" data-label="path to Lancre Castle" cx="257" cy="201" r="4"/>
     <circle id="room-0167c06497768660fceedd4d5b891a668d84f620" class="room outdoor" data-label="cliff edge" cx="243" cy="201" r="4"/>
     <circle id="room-49e7a633ed222be3572f6b259e76526d6c8d99b2" class="room outdoor" data-label="outside the castle" cx="257" cy="215" r="4"/>
-    <rect id="room-617ab671a58d30c979d0b8acaae423d7d3f0eab9" class="room indoor" data-label="hut" x="306" y="71" width="8" height="8" rx="2"/>
+    <rect id="room-617ab671a58d30c979d0b8acaae423d7d3f0eab9" class="room indoor room-house" data-label="hut" x="306" y="71" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="310" y="75" text-anchor="middle" dominant-baseline="central">H</text>
     <rect id="room-506904763abc4fd1484479969f92df834892a745" class="room indoor" data-label="library" x="376" y="29" width="8" height="8" rx="2"/>
     <rect id="room-2b9329a0e64b2dc943a083585055f203a2e47fca" class="room indoor room-house" data-label="[player house]" x="376" y="29" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="380" y="33" text-anchor="middle" dominant-baseline="central">H</text>
     <rect id="room-2dbf08d473a6d0dd12d426ed7cf83d03ff91fe09" class="room indoor room-house" data-label="[player house]" x="376" y="29" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="380" y="33" text-anchor="middle" dominant-baseline="central">H</text>
-  </g>
-
-
-  <g id="layer-room-labels"></g>
-  <g id="layer-labels"><!-- labels --></g>
-
-</svg>
+  </g><g
+     id="layer-room-labels" /><g
+     id="layer-labels"><!-- labels --></g></svg>
