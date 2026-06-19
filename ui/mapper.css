@@ -100,7 +100,7 @@ body {
 .exit-ferry          { stroke: #a8d8f0; stroke-width: 1.82; stroke-dasharray: 0 4; stroke-linecap: round; fill: none; }
 .exit-warp           { stroke: #a855f7; stroke-width: 1.82; fill: none; marker-end: url(#warp-arrow); }
 .exit-warp-two       { stroke: #a855f7; stroke-width: 1.82; fill: none; marker-end: url(#warp-arrow); marker-start: url(#warp-arrow); }
-.exit-tshop          { stroke: #c0caf5; stroke-width: 1.82; fill: none; stroke-dasharray: 0.5 2.5; stroke-linecap: round; }
+.exit-tshop          { stroke: #e0b0ff; stroke-width: 1.82; fill: none; stroke-dasharray: 0.5 2.5; stroke-linecap: round; }
 .map-river           { stroke: #2d4f64; stroke-width: 1.82; fill: none; }
 .map-river-offmap    { stroke: #2d4f64; stroke-width: 1.82; stroke-dasharray: 3 2; fill: none; }
 .light-bg .map-river,
@@ -119,7 +119,7 @@ body {
 .room-club                               { fill: #1a1a4a; }
 .room-pshop                              { fill: #3a0838; }
 .room-tshop                              { fill: #080808; }
-.room-tshop-portal                       { fill: #060610; stroke: #c0caf5; }
+.room-tshop-portal                       { fill: #060610; stroke: #e0b0ff; }
 .light-bg .room-tshop-portal             { fill: #eef0ff; }
 .room-temple                             { fill: #2d1a47; }
 

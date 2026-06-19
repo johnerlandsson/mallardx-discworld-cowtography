@@ -1,14 +1,91 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 252 256"
-     class="map-svg"
-     data-map-id="21">
-
-  <g id="layer-artwork"><!-- artwork --></g>
-
-  <g id="layer-exits">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 252 256"
+   class="map-svg"
+   data-map-id="21"
+   version="1.1"
+   id="svg2"
+   sodipodi:docname="brown_islands.svg"
+   xml:space="preserve"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs2" />
+  <style id="inkscape-font-fix">
+text, .map-label, .map-label-muted, .map-label-accent,
+.lib-table, .lib-gap-label, .lib-book-label,
+.lib-row-num, .lib-book-list, .room-type-label {
+  font-family: "Noto Sans", sans-serif;
+}
+</style><sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="3.125"
+     inkscape:cx="130.88"
+     inkscape:cy="118.08"
+     inkscape:window-width="1968"
+     inkscape:window-height="1011"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" /><g
+     id="layer-artwork"><!-- artwork --><path
+       d="M 119.89771,73 H 105"
+       id="path138"
+       class="exit-tshop"
+       fill="none"
+       stroke="888888" /><rect
+       id="room-tshop-1"
+       class="room room-tshop-portal"
+       data-label="T-Shop (maybe)"
+       x="115.89771"
+       y="69"
+       width="8"
+       height="8"
+       rx="2" /><text
+       xml:space="preserve"
+       x="48.889"
+       y="71.410782"
+       id="text178"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="48.889"
+         y="71.410782"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan179">RAISE</tspan></text><text
+       xml:space="preserve"
+       x="184.442"
+       y="75.141998"
+       id="text3"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="184.442"
+         y="75.141998"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan2">T-FERRY</tspan></text></g><g
+     id="layer-exits">
+    <line id="edge-2b610a2f2a05f79e376b9b56d8513b906e3abac3-d29e733c7b0b607cb4bdf8ca295b2663f3157636" class="exit exit-water" x1="77" y1="129" x2="49" y2="129"/>
+    <line id="edge-b40289d33322121e648a9909169d438e0e0aca20-d29e733c7b0b607cb4bdf8ca295b2663f3157636" class="exit exit-water" x1="49" y1="157" x2="49" y2="129"/>
     <line id="edge-94ec25e2b8f4f5ae6b3fc363687d031c03406aa0-b40289d33322121e648a9909169d438e0e0aca20" class="exit exit-water" x1="77" y1="157" x2="49" y2="157"/>
     <line id="edge-2e142dafb86f677fa761dfae990b2aff6ad013e8-dfa7fee6d5b82abf6680f2e4b2e6043cd8f7f5bb" class="exit exit-water" x1="105" y1="185" x2="105" y2="157"/>
+    <line id="edge-2b610a2f2a05f79e376b9b56d8513b906e3abac3-94ec25e2b8f4f5ae6b3fc363687d031c03406aa0" class="exit exit-water" x1="77" y1="129" x2="77" y2="157"/>
     <line id="edge-94ec25e2b8f4f5ae6b3fc363687d031c03406aa0-dfa7fee6d5b82abf6680f2e4b2e6043cd8f7f5bb" class="exit exit-water" x1="77" y1="157" x2="105" y2="157"/>
+    <line id="edge-c3e3c46773e4cb6b7b7c257e58666fbe306be023-dfa7fee6d5b82abf6680f2e4b2e6043cd8f7f5bb" class="exit exit-water" x1="105" y1="129" x2="105" y2="157"/>
+    <line id="edge-2b610a2f2a05f79e376b9b56d8513b906e3abac3-c3e3c46773e4cb6b7b7c257e58666fbe306be023" class="exit exit-water" x1="77" y1="129" x2="105" y2="129"/>
     <line id="edge-a7e987b21a713fff4c7e28f723a7a310f06526f5-ef740e3f6cb0aec56ba6f4c71620cb817b0bb1f0" class="exit" x1="105" y1="45" x2="105" y2="73"/>
     <line id="edge-d4564467c0c38446dda8ca639dabf6a6afdaf92f-ef740e3f6cb0aec56ba6f4c71620cb817b0bb1f0" class="exit" x1="105" y1="101" x2="105" y2="73"/>
     <line id="edge-79ff44f63cf571eaebc9d1f3421b2bbef30b7be5-a7e987b21a713fff4c7e28f723a7a310f06526f5" class="exit" x1="133" y1="45" x2="105" y2="45"/>
@@ -30,25 +107,19 @@
     <line id="edge-2b610a2f2a05f79e376b9b56d8513b906e3abac3-c290059ded7bb9440492b43a96f5ffacac6d4fd3" class="exit" x1="77" y1="129" x2="77" y2="101"/>
     <line id="edge-0bb72aa6a38f305db38cc005655a60fe2bb0c047-7959495c4f3c78e3850657c08e258c3b06ae97a3" class="exit" x1="49" y1="101" x2="49" y2="79"/>
     <line id="edge-0bb72aa6a38f305db38cc005655a60fe2bb0c047-d29e733c7b0b607cb4bdf8ca295b2663f3157636" class="exit" x1="49" y1="101" x2="49" y2="129"/>
-    <line id="edge-2b610a2f2a05f79e376b9b56d8513b906e3abac3-d29e733c7b0b607cb4bdf8ca295b2663f3157636" class="exit" x1="77" y1="129" x2="49" y2="129"/>
-    <line id="edge-b40289d33322121e648a9909169d438e0e0aca20-d29e733c7b0b607cb4bdf8ca295b2663f3157636" class="exit" x1="49" y1="157" x2="49" y2="129"/>
     <line id="edge-989b28baa1ba84dce134a87cc4f81357b1365d73-b40289d33322121e648a9909169d438e0e0aca20" class="exit" x1="49" y1="185" x2="49" y2="157"/>
     <line id="edge-989b28baa1ba84dce134a87cc4f81357b1365d73-df4127d5a2d3c4f8d55c207db03033b4c9b6bfa3" class="exit" x1="49" y1="185" x2="77" y2="185"/>
     <line id="edge-2e142dafb86f677fa761dfae990b2aff6ad013e8-df4127d5a2d3c4f8d55c207db03033b4c9b6bfa3" class="exit" x1="105" y1="185" x2="77" y2="185"/>
     <line id="edge-94ec25e2b8f4f5ae6b3fc363687d031c03406aa0-df4127d5a2d3c4f8d55c207db03033b4c9b6bfa3" class="exit" x1="77" y1="157" x2="77" y2="185"/>
-    <line id="edge-2b610a2f2a05f79e376b9b56d8513b906e3abac3-94ec25e2b8f4f5ae6b3fc363687d031c03406aa0" class="exit" x1="77" y1="129" x2="77" y2="157"/>
-    <line id="edge-c3e3c46773e4cb6b7b7c257e58666fbe306be023-dfa7fee6d5b82abf6680f2e4b2e6043cd8f7f5bb" class="exit" x1="105" y1="129" x2="105" y2="157"/>
-    <line id="edge-2b610a2f2a05f79e376b9b56d8513b906e3abac3-c3e3c46773e4cb6b7b7c257e58666fbe306be023" class="exit" x1="77" y1="129" x2="105" y2="129"/>
     null
-  </g>
-
-  <g id="layer-rooms">
+  </g><g
+     id="layer-rooms">
     <circle id="room-ef740e3f6cb0aec56ba6f4c71620cb817b0bb1f0" class="room outdoor" data-label="edge of a small native village" cx="105" cy="73" r="4"/>
     <circle id="room-a7e987b21a713fff4c7e28f723a7a310f06526f5" class="room outdoor" data-label="centre of a small native village" cx="105" cy="45" r="4"/>
     <rect id="room-a26a763a1b3596eb4d37265cbed32f5a9c0a265a" class="room indoor room-access" data-label="pleasant little souvenir shop" x="129" y="13" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="133" y="17" text-anchor="middle" dominant-baseline="central">X</text>
     <circle id="room-7b80a3a0092826bb8f3f2f6e8bee8aa0d0f8e57c" class="room outdoor" data-label="northwestern corner of a small native village" cx="105" cy="17" r="4"/>
     <circle id="room-79ff44f63cf571eaebc9d1f3421b2bbef30b7be5" class="room outdoor" data-label="centre of a small native village" cx="133" cy="45" r="4"/>
-    <rect id="room-270ac5a8f273353b23decd4bc69fa119cb236803" class="room indoor" data-label="tropical bar" x="129" y="59" width="8" height="8" rx="2"/>
+    <rect id="room-270ac5a8f273353b23decd4bc69fa119cb236803" class="room indoor room-food" data-label="tropical bar" x="129" y="59" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="133" y="63" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-e81310aac7b7d7d52915e1fff1efde7e77212721" class="room outdoor" data-label="edge of a small native village" cx="161" cy="73" r="4"/>
     <circle id="room-52521b36d9998098341c0fc917ef49f7f48cb7e3" class="room outdoor" data-label="eastern end of a sandy beach" cx="161" cy="101" r="4"/>
     <circle id="room-10aef9b1d244c6d2d331a99ebc4b2ec1d4267297" class="room outdoor" data-label="sandy beach at the base of a pier" cx="133" cy="101" r="4"/>
@@ -59,22 +130,18 @@
     <circle id="room-c290059ded7bb9440492b43a96f5ffacac6d4fd3" class="room outdoor" data-label="near the western end of a sandy beach" cx="77" cy="101" r="4"/>
     <circle id="room-0bb72aa6a38f305db38cc005655a60fe2bb0c047" class="room outdoor" data-label="western end of a sandy beach" cx="49" cy="101" r="4"/>
     <rect id="room-7959495c4f3c78e3850657c08e258c3b06ae97a3" class="room indoor" data-label="quiet little hut" x="45" y="75" width="8" height="8" rx="2"/>
-    <circle id="room-d29e733c7b0b607cb4bdf8ca295b2663f3157636" class="room outdoor" data-label="sea-shore" cx="49" cy="129" r="4"/>
+    <circle id="room-d29e733c7b0b607cb4bdf8ca295b2663f3157636" class="room outdoor water" data-label="sea-shore" cx="49" cy="129" r="4"/>
     <circle id="room-b40289d33322121e648a9909169d438e0e0aca20" class="room outdoor water" data-label="sea just north of a large rock" cx="49" cy="157" r="4"/>
     <circle id="room-989b28baa1ba84dce134a87cc4f81357b1365d73" class="room outdoor" data-label="western side of a large rock" cx="49" cy="185" r="4"/>
     <circle id="room-df4127d5a2d3c4f8d55c207db03033b4c9b6bfa3" class="room outdoor" data-label="eastern side of a large rock" cx="77" cy="185" r="4"/>
     <circle id="room-2e142dafb86f677fa761dfae990b2aff6ad013e8" class="room outdoor water" data-label="sea between a large rock and a pier" cx="105" cy="185" r="4"/>
     <circle id="room-94ec25e2b8f4f5ae6b3fc363687d031c03406aa0" class="room outdoor water" data-label="sea just north of a large rock" cx="77" cy="157" r="4"/>
     <circle id="room-dfa7fee6d5b82abf6680f2e4b2e6043cd8f7f5bb" class="room outdoor water" data-label="sea just west of a pier" cx="105" cy="157" r="4"/>
-    <circle id="room-c3e3c46773e4cb6b7b7c257e58666fbe306be023" class="room outdoor" data-label="sea-shore by a pier" cx="105" cy="129" r="4"/>
-    <circle id="room-2b610a2f2a05f79e376b9b56d8513b906e3abac3" class="room outdoor" data-label="sea-shore" cx="77" cy="129" r="4"/>
+    <circle id="room-c3e3c46773e4cb6b7b7c257e58666fbe306be023" class="room outdoor water" data-label="sea-shore by a pier" cx="105" cy="129" r="4"/>
+    <circle id="room-2b610a2f2a05f79e376b9b56d8513b906e3abac3" class="room outdoor water" data-label="sea-shore" cx="77" cy="129" r="4"/>
     <rect id="room-9217032cfbba083b72044841cfe19208dd250494" class="room indoor room-food" data-label="front of a ferry shop" x="137" y="69" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="141" y="73" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-e105ad4f0d5013f7686b32f8b33ad304d76f99a5" class="room indoor" data-label="dimly lit cellar" x="137" y="69" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="141,70 138.5,75 143.5,75"/>
     <circle id="room-19c5968935538da2e81a88f39e5d8927a00eaca5" class="room outdoor" data-label="top of a totem pole" cx="133" cy="45" r="4"/>
-  </g>
-
-
-  <g id="layer-room-labels"></g>
-  <g id="layer-labels"><!-- labels --></g>
-
-</svg>
+  </g><g
+     id="layer-room-labels"><text class="room-type-label" x="119.9" y="73" text-anchor="middle" dominant-baseline="central">T</text></g><g
+     id="layer-labels"><!-- labels --></g></svg>

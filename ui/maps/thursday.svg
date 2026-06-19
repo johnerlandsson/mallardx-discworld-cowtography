@@ -29,9 +29,9 @@ text, .map-label, .map-label-muted, .map-label-accent,
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="2.962963"
-     inkscape:cx="50.2875"
-     inkscape:cy="90.1125"
+     inkscape:zoom="11.851852"
+     inkscape:cx="84.290624"
+     inkscape:cy="48.178124"
      inkscape:window-width="1968"
      inkscape:window-height="1011"
      inkscape:window-x="26"
@@ -63,6 +63,21 @@ text, .map-label, .map-label-muted, .map-label-accent,
          y="122.92"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
          id="tspan119-9-0">THURSDAY'S ISLAND</tspan></text>
+    <path
+       d="M 83,39 93.534276,49.534272"
+       id="path138"
+       class="exit-tshop"
+       fill="none"
+       stroke="888888" />
+    <rect
+       id="room-tshop-1"
+       class="room room-tshop-portal"
+       data-label="T-Shop (maybe)"
+       x="89.534279"
+       y="45.534271"
+       width="8"
+       height="8"
+       rx="2" />
   </g>
   <g
      id="layer-exits">
@@ -87,7 +102,9 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-905a8aeba3eb28f8064c7a54e7a2d415d6d740b1" class="room outdoor green" data-label="desert island" cx="139" cy="39" r="4"/>
   </g>
   <g
-     id="layer-room-labels" />
+     id="layer-room-labels">
+    <text class="room-type-label" x="93.5" y="49.5" text-anchor="middle" dominant-baseline="central">T</text>
+  </g>
   <g
      id="layer-labels">
     <!-- labels -->

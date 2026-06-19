@@ -12,7 +12,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"><defs
-     id="defs7" />
+   id="defs7" />
   <style id="inkscape-font-fix">
 text, .map-label, .map-label-muted, .map-label-accent,
 .lib-table, .lib-gap-label, .lib-book-label,
@@ -20,53 +20,66 @@ text, .map-label, .map-label-muted, .map-label-accent,
   font-family: "Noto Sans", sans-serif;
 }
 </style><sodipodi:namedview
-     id="namedview7"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="1.7844966"
-     inkscape:cx="274.30705"
-     inkscape:cy="163.63158"
-     inkscape:window-width="1968"
-     inkscape:window-height="1011"
-     inkscape:window-x="26"
-     inkscape:window-y="23"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg7" /><g
-     id="layer-artwork"><!-- artwork --><path
-       d="m 309,183 h 15"
-       id="path7"
-       class="exit-ferry"
-       fill="none"
-       stroke="#888888" /><text
-       xml:space="preserve"
+   id="namedview7"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="7.1379864"
+   inkscape:cx="224.57314"
+   inkscape:cy="144.2984"
+   inkscape:window-width="1968"
+   inkscape:window-height="1011"
+   inkscape:window-x="26"
+   inkscape:window-y="23"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="layer-artwork" /><g
+   id="layer-artwork"><!-- artwork --><path
+     d="m 309,183 h 15"
+     id="path7"
+     class="exit-ferry"
+     fill="none"
+     stroke="#888888" /><text
+     xml:space="preserve"
+     x="323.68848"
+     y="194.284"
+     id="text46"
+     class="map-label-muted"
+     text-anchor="middle"
+     font-size="6px"
+     style="font-family:'Noto Sans', sans-serif"><tspan
+       sodipodi:role="line"
        x="323.68848"
        y="194.284"
-       id="text46"
-       class="map-label-muted"
-       text-anchor="middle"
-       font-size="6px"
-       style="font-family:'Noto Sans', sans-serif"><tspan
-         sodipodi:role="line"
-         x="323.68848"
-         y="194.284"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
-         id="tspan1">FERRY</tspan><tspan
-         sodipodi:role="line"
-         x="323.68848"
-         y="201.784"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
-         id="tspan2">TO</tspan><tspan
-         sodipodi:role="line"
-         x="323.68848"
-         y="209.284"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
-         id="tspan3">GENUA</tspan></text></g><g
-     id="layer-exits">
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+       id="tspan1">FERRY</tspan><tspan
+       sodipodi:role="line"
+       x="323.68848"
+       y="201.784"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+       id="tspan2">TO</tspan><tspan
+       sodipodi:role="line"
+       x="323.68848"
+       y="209.284"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+       id="tspan3">GENUA</tspan></text><path
+     d="M 211,126.10229 V 141"
+     id="path138"
+     class="exit-tshop"
+     fill="none"
+     stroke="888888" /><rect
+     id="room-tshop-1"
+     class="room room-tshop-portal"
+     data-label="T-Shop (maybe)"
+     x="207"
+     y="122.10229"
+     width="8"
+     height="8"
+     rx="2" /></g><g
+   id="layer-exits">
     <line id="edge-4cfd8590b2dfe5ddabdb33fc5756d333b58179ac-d2092dbbee59c19275ca7919be046439f02e70c4" class="exit exit-green" x1="197" y1="155" x2="183" y2="169"/>
     <line id="edge-5a864d03b2387a9065f7d234f349dbefd8545b50-d2092dbbee59c19275ca7919be046439f02e70c4" class="exit exit-green" x1="183" y1="183" x2="183" y2="169"/>
     <line id="edge-5a864d03b2387a9065f7d234f349dbefd8545b50-5ad44311f3e8a4d26ad5df912c0a6e879ccd02f1" class="exit exit-green" x1="183" y1="183" x2="169" y2="197"/>
@@ -164,7 +177,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <line id="edge-9024230a2938b78d0d62f8c80ef9f28c0a1bae5b-b55dc949f3d460b4ea42376e6a044e3a00b451fb" class="exit" x1="449" y1="211" x2="449" y2="222"/>
     null
   </g><g
-     id="layer-rooms">
+   id="layer-rooms">
     <circle id="room-a2419925c6cc42e592a43f0cfc03d34c10940ea5" class="room outdoor" data-label="centre of the square" cx="239" cy="169" r="4"/>
     <circle id="room-80f8ac7814016571086d2c472839a6bba2688b38" class="room outdoor" data-label="northeast corner of the square" cx="253" cy="155" r="4"/>
     <rect id="room-71d56713694f91bd20751dc47352a8cc6dfca45d" class="room indoor room-clothes" data-label="small general store" x="260" y="151" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="264" y="155" text-anchor="middle" dominant-baseline="central">C</text>
@@ -268,5 +281,5 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-be9e320f1a26dc084a2c97532298ee770101e5aa" class="room indoor" data-label="small loft room" x="214" y="267" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="218,274 215.5,269 220.5,269"/>
     <circle id="room-211810c8a192c4d3b3ad295843e3a30e4385fce5" class="room outdoor" data-label="boughs of an ancient oak" cx="239" cy="169" r="4"/>
   </g><g
-     id="layer-room-labels" /><g
-     id="layer-labels"><!-- labels --></g></svg>
+   id="layer-room-labels"><text class="room-type-label" x="211" y="126.1" text-anchor="middle" dominant-baseline="central">T</text></g><g
+   id="layer-labels"><!-- labels --></g></svg>

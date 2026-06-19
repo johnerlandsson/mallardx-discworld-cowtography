@@ -35,15 +35,15 @@ text, .map-label, .map-label-muted, .map-label-accent,
    inkscape:pageopacity="0.0"
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#d1d1d1"
-   inkscape:zoom="2.4568314"
-   inkscape:cx="1198.6985"
-   inkscape:cy="176.24327"
+   inkscape:zoom="0.86862107"
+   inkscape:cx="414.45"
+   inkscape:cy="445.53375"
    inkscape:window-width="1968"
    inkscape:window-height="1011"
    inkscape:window-x="26"
    inkscape:window-y="23"
    inkscape:window-maximized="0"
-   inkscape:current-layer="layer-artwork" /><g
+   inkscape:current-layer="svg444" /><g
    id="layer-artwork"><!-- artwork --><rect
      id="area-hong-hall-ground"
      class="map-area-fill"
@@ -466,7 +466,20 @@ text, .map-label, .map-label-muted, .map-label-accent,
      class="exit-offmap"
      fill="none"
      stroke="#888888"
-     sodipodi:nodetypes="cc" /></g><g
+     sodipodi:nodetypes="cc" /><path
+     d="M 1070,733.1023 V 748"
+     id="path138-89"
+     class="exit-tshop"
+     fill="none"
+     stroke="888888" /><rect
+     id="room-tshop-1-2"
+     class="room room-tshop-portal"
+     data-label="T-Shop (maybe)"
+     x="1066"
+     y="729.10229"
+     width="8"
+     height="8"
+     rx="2" /></g><g
    id="layer-exits">
     <line id="edge-66d68b7d738966dee748aebde9914d2d2386642c-d3e4590f4fbb4c56fc49c9582437a730fd256ebf" class="exit exit-green" x1="650" y1="580" x2="636" y2="594"/>
     <line id="edge-acf2bc687a35ee3109a9834052e814d26250a433-d3e4590f4fbb4c56fc49c9582437a730fd256ebf" class="exit exit-green" x1="622" y1="580" x2="636" y2="594"/>
@@ -5427,5 +5440,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-462d082296c84dd77f26540c68ec309a7323d93a" class="room indoor" data-label="room filled with rice" x="429" y="456" width="8" height="8" rx="2"/>
     <rect id="room-1aa61d2927560e08003938f46c99e464ee15ddc5" class="room indoor" data-label="abandoned stall" x="1094" y="520" width="8" height="8" rx="2"/>
   </g><g
-   id="layer-room-labels" /><g
+   id="layer-room-labels">
+    <text class="room-type-label" x="1070" y="733.1" text-anchor="middle" dominant-baseline="central">T</text>
+  </g><g
    id="layer-labels"><!-- labels --></g></svg>
