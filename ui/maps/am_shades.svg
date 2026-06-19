@@ -19,10 +19,10 @@
       .shades-path-pink  { fill: #c678dd; stroke: none; }
       .shades-path-green { fill: #4ade80; stroke: none; }
       .shades-exit       { fill: #b58a00; stroke: #ffffff; stroke-width: 0.4; paint-order: stroke fill; }
-      .shades-room          { fill: #d0d0d0; stroke: #333333; stroke-width: 1; }
-      .shades-room.target   { fill: #ff3b30 !important; stroke: #fff !important; stroke-width: 2 !important; opacity: 1 !important; }
-      .shades-room.current  { fill: #3a0a0a !important; stroke: #ff3b30 !important; stroke-width: 1.5 !important; opacity: 0.6 !important; }
-      .shades-exit-label    { fill: #282828; }
+      .shades-room                { fill: #d0d0d0; stroke: #333333; stroke-width: 1; }
+      .shades-room.target         { fill: #ff3b30 !important; stroke: #fff !important; stroke-width: 2 !important; opacity: 1 !important; }
+      .shades-room.current        { fill: #3a0a0a !important; stroke: #ff3b30 !important; stroke-width: 1.5 !important; opacity: 0.6 !important; }
+.shades-exit-label          { fill: #282828; }
     </style>
   </defs>
   <sodipodi:namedview
