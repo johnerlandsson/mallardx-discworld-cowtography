@@ -719,8 +719,9 @@ async function main() {
       await fs.writeFile(libJsPath, `export default ${JSON.stringify(libSvg)};\n`, 'utf8')
     }
 
-    // Standard maps — all except 47 (UU Library) and 99 (World Disc — stays PNG)
-    const mapIds = Object.keys(maps).map(Number).filter(id => id !== 47 && id !== 99)
+    // Standard maps — all except 47 (UU Library), 99 (World Disc — stays PNG),
+    // and 8 (Shades — manually drawn SVG, not generated from DB).
+    const mapIds = Object.keys(maps).map(Number).filter(id => id !== 47 && id !== 99 && id !== 8)
     for (const mapId of mapIds.sort((a, b) => a - b)) {
       if (onlyMapId !== null && mapId !== onlyMapId) continue
       const meta = maps[mapId]

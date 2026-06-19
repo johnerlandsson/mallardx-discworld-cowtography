@@ -45,10 +45,69 @@ local SPECIAL_SCREENS = {
   SandelfonMaze = 'labyrinth',
 }
 
--- The Shades: all interior rooms share the identifier "AMShades". The entrance
--- room has a unique ID and is the only room element in the SVG. We load the map
--- anchored to the entrance and show a muted indicator for the interior.
+-- ─── AMShades: 16 interior rooms share the GMCP identifier "AMShades" ────────
+-- The entrance room has a real unique ID. The 16 inner rooms are identified by
+-- long description text triggers (mirrors Quow's approach).
+--
+-- 6 rooms have unique descriptions; the remaining 10 split into two ambiguous
+-- groups (ShadesGuess1: rooms 1,10,11,13,14 / ShadesGuess2: rooms 3,4,6,7,15).
+-- For ambiguous rooms we check how many of the group are reachable from the
+-- previously confirmed room — if exactly one, that must be the destination.
+--
+-- Room numbering 1-17 matches Quow's; 17 = entrance (has a real GMCP ID).
+-- Navigation graph mirrors Quow's sQSDir: SHADES_DIR[from][exit] = to.
+
 local SHADES_ENTRY_ID = "01bbd8b887e71314d8e358cbaf4f585391206bc4"
+
+local SHADES_GUESS1 = { [1]=true, [10]=true, [11]=true, [13]=true, [14]=true }
+local SHADES_GUESS2 = { [3]=true, [4]=true,  [6]=true,  [7]=true,  [15]=true }
+
+local SHADES_DIR = {
+  [1]  = {["5"]=2,  ["3"]=11, ["2"]=16, ["4"]=10, ["1"]=17},
+  [2]  = {["4"]=3,  ["1"]=12, ["3"]=11, ["2"]=1},
+  [3]  = {["1"]=4,  ["3"]=12, ["4"]=11, ["2"]=2},
+  [4]  = {["1"]=5,  ["4"]=13, ["2"]=12, ["3"]=3},
+  [5]  = {["6"]=4,  ["5"]=6,  ["1"]=14, ["2"]=13, ["3"]=12, ["7"]=3, ["4"]=7},
+  [6]  = {["3"]=5,  ["1"]=7,  ["2"]=14, ["4"]=13},
+  [7]  = {["3"]=14, ["4"]=6,  ["1"]=8,  ["2"]=15},
+  [8]  = {["2"]=15, ["1"]=14, ["4"]=7,  ["3"]=9},
+  [9]  = {["4"]=10, ["2"]=16, ["3"]=15, ["5"]=8,  ["1"]=17},
+  [10] = {["4"]=1,  ["2"]=11, ["6"]=16, ["3"]=15, ["5"]=9,  ["1"]=17},
+  [11] = {["6"]=2,  ["7"]=3,  ["3"]=12, ["5"]=13, ["4"]=16, ["1"]=10, ["2"]=1},
+  [12] = {["7"]=3,  ["6"]=4,  ["2"]=5,  ["3"]=13, ["1"]=16, ["4"]=11, ["5"]=2},
+  [13] = {["3"]=12, ["8"]=4,  ["1"]=5,  ["7"]=6,  ["6"]=14, ["5"]=15, ["4"]=16, ["2"]=11},
+  [14] = {["1"]=13, ["2"]=5,  ["6"]=6,  ["7"]=7,  ["5"]=8,  ["3"]=15, ["4"]=16},
+  [15] = {["2"]=16, ["3"]=13, ["5"]=14, ["7"]=7,  ["6"]=8,  ["1"]=9,  ["4"]=10},
+  [16] = {["3"]=11, ["4"]=12, ["7"]=13, ["8"]=14, ["5"]=15, ["6"]=9,  ["2"]=10, ["1"]=1},
+  [17] = {["1"]=1,  ["3"]=10, ["2"]=9},
+}
+
+local shades_room       = nil   -- current room number (1-16), 17 (entrance), or nil
+local shades_name       = nil   -- GMCP room name from last AMShades event
+local shades_identified = false -- guard against double-posting per room
+local post_shades_room          -- forward declaration
+
+local function shades_room_id(n)
+  if n == 17 then return "ShadesEntrance" end
+  if n < 10  then return "Shades0" .. n end
+  return "Shades" .. n
+end
+
+-- Try to resolve an ambiguous guess group given the current confirmed room.
+-- Returns the room number if exactly one member of the group is reachable, else nil.
+local function shades_disambiguate(guess_group)
+  if not shades_room then return nil end
+  local exits = SHADES_DIR[shades_room]
+  if not exits then return nil end
+  local candidate = nil
+  for _, dest in pairs(exits) do
+    if guess_group[dest] then
+      if candidate then return nil end
+      candidate = dest
+    end
+  end
+  return candidate
+end
 
 -- BPMedina: 18 rooms share one GMCP identifier. Identified by room description
 -- text triggers (GMCP room.info doesn't carry the description field). Specific
@@ -90,6 +149,16 @@ post_medina_room = function(room_id)
   medina_identified = true
   medina_prev = room_id
   local frame = { identifier = room_id, name = medina_name }
+  last_payload = frame
+  post_room(frame)
+end
+
+post_shades_room = function(n)
+  if shades_identified then return end
+  shades_identified = true
+  shades_room = n
+  local id = shades_room_id(n)
+  local frame = { identifier = id, name = shades_name }
   last_payload = frame
   post_room(frame)
 end
@@ -385,6 +454,37 @@ mud.trigger([[You are standing in a small winding alleyway]], function()
   if room_id then post_medina_room(room_id) end
 end)
 
+-- ─── AMShades: room description text triggers ────────────────────────────────
+-- 6 rooms have unique descriptions; patterns chosen to be unambiguous even
+-- when "alley" and "alleyway" appear in similar sentences.
+for _, entry in ipairs({
+  { "alley in this rabbit",   2  },  -- Shades02: "alley" (not "alleyway") + "rabbit warren"
+  { "smoky, hazy",            5  },  -- Shades05: "smoky, hazy alleys"
+  { "alleyway in this rabbit", 8 },  -- Shades08: "alleyway" + "rabbit warren"
+  { "leads to other dark dank", 9 }, -- Shades09: unique phrasing
+  { "Howls of fear and pain", 12 },  -- Shades12: unique
+  { "Lady is evidently",      16 },  -- Shades16: unique
+}) do
+  local n = entry[2]
+  mud.trigger(entry[1], function()
+    if current_room == "AMShades" then post_shades_room(n) end
+  end)
+end
+
+-- ShadesGuess1 (rooms 1,10,11,13,14): try to resolve via prev room.
+mud.trigger([[no hope of ever escaping]], function()
+  if current_room ~= "AMShades" or shades_identified then return end
+  local n = shades_disambiguate(SHADES_GUESS1)
+  if n then post_shades_room(n) end
+end)
+
+-- ShadesGuess2 (rooms 3,4,6,7,15): try to resolve via prev room.
+mud.trigger([[Dim fires flicker]], function()
+  if current_room ~= "AMShades" or shades_identified then return end
+  local n = shades_disambiguate(SHADES_GUESS2)
+  if n then post_shades_room(n) end
+end)
+
 -- ─── World lifecycle ─────────────────────────────────────────────────────────
 
 local function seed_room()
@@ -442,6 +542,10 @@ gmcp.on('room.info', function(_, data)
     end
     local prev_room = current_room
     current_room = data.identifier
+    -- Leaving the Shades entirely: reset tracked position.
+    if prev_room == "AMShades" and current_room ~= "AMShades" and current_room ~= SHADES_ENTRY_ID then
+      shades_room = nil
+    end
     if target_room == current_room then
       target_room = nil  -- room_info handles this atomically
     elseif target_room ~= nil and current_room == prev_room then
@@ -498,15 +602,18 @@ gmcp.on('room.info', function(_, data)
         if special then
           panel:post("special_screen", { name = special })
         elseif data.identifier == "AMShades" then
-          -- Interior Shades rooms all share this identifier: exact position unknown.
-          -- Load the map once (anchored to the entrance) then keep the indicator muted.
+          -- Interior Shades rooms (1-16) all share this GMCP identifier.
+          -- Description triggers below will call post_shades_room() to refine.
+          shades_name       = data.name
+          shades_identified = false
           if prev_room ~= "AMShades" then
-            local anchor = { identifier = SHADES_ENTRY_ID, name = data.name }
+            -- Entering from outside: anchor map to entrance, treat prev as room 17.
+            shades_room = 17
+            local anchor = { identifier = "ShadesEntrance", name = data.name }
             last_payload = anchor
             post_room(anchor)
           end
-          _in_dark = true
-          panel:post("room_dark", {})
+          -- Don't set _in_dark — description trigger will post the real position.
         elseif data.identifier == "BPMedina" then
           -- All 18 Medina rooms share this identifier. Description-based
           -- identification happens via mud.trigger (description text is not
@@ -524,6 +631,12 @@ gmcp.on('room.info', function(_, data)
             last_payload = anchor
             post_room(anchor)
           end
+        elseif data.identifier == SHADES_ENTRY_ID then
+          -- Player is physically at the Shades entrance room. Use the clean
+          -- fake ID so the mapper can find room-ShadesEntrance in the SVG.
+          local frame = { identifier = "ShadesEntrance", name = data.name }
+          last_payload = frame
+          post_room(frame)
         else
           last_payload = data
           post_room(data)
