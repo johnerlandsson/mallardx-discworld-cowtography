@@ -22,6 +22,8 @@ const GREEN_CONFIG        = path.join(REPO_ROOT, 'ui', 'data', 'room-green.json'
 const DANGER_CONFIG       = path.join(REPO_ROOT, 'ui', 'data', 'room-danger.json')
 const EXIT_EXCLUDE_CONFIG = path.join(REPO_ROOT, 'ui', 'data', 'exit-exclude.json')
 const EXIT_CLIMB_CONFIG   = path.join(REPO_ROOT, 'ui', 'data', 'exit-climb.json')
+const GROUND_CONFIG = path.join(REPO_ROOT, 'ui', 'data', 'room-ground.json')
+const STACKS_OUT    = path.join(REPO_ROOT, 'ui', 'data', 'room-stacks.js')
 
 // ─── DB queries ──────────────────────────────────────────────────────────────
 
@@ -827,11 +829,41 @@ async function main() {
     // Standard maps — all except 47 (UU Library), 99 (World Disc — stays PNG),
     // and 8 (Shades — manually drawn SVG, not generated from DB).
     const mapIds = Object.keys(maps).map(Number).filter(id => id !== 47 && id !== 99 && id !== 8)
+
+    const allRoomsForStacks      = []
+    const allExitsForStacks      = []
+    const allStairRoomsForStacks = new Map()
+
     for (const mapId of mapIds.sort((a, b) => a - b)) {
       if (onlyMapId !== null && mapId !== onlyMapId) continue
       const meta = maps[mapId]
       if (!meta) continue
       await buildOneSvg(db, mapId, meta)
+
+      // Accumulate for stack data — only on full builds (room-stacks.js is skipped for --map N).
+      if (onlyMapId === null) {
+        const roomRows  = queryRooms(db, mapId)
+        const exitRows  = queryExits(db, mapId)
+        const stairRows = queryStairRooms(db, mapId)
+        for (const r of roomRows) allRoomsForStacks.push({ ...r, mapId })
+        for (const e of exitRows)  allExitsForStacks.push(e)
+        for (const [id, v] of stairRows) allStairRoomsForStacks.set(id, v)
+      }
+    }
+
+    // Build and write stacking data (full builds only).
+    if (onlyMapId === null) {
+      let groundOverrides = {}
+      try { groundOverrides = JSON.parse(await fs.readFile(GROUND_CONFIG, 'utf8')) } catch {}
+
+      const { upperToGround, groundToUppers } = buildStackData(
+        allRoomsForStacks, allExitsForStacks, allStairRoomsForStacks, groundOverrides
+      )
+      const stacksJs =
+        `export const upperToGround = ${JSON.stringify(upperToGround, null, 2)};\n\n` +
+        `export const groundToUppers = ${JSON.stringify(groundToUppers, null, 2)};\n`
+      await fs.writeFile(STACKS_OUT, stacksJs, 'utf8')
+      console.log(`[build-svg] room-stacks.js written (${Object.keys(upperToGround).length} upper rooms)`)
     }
   } finally {
     db.close()
