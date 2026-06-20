@@ -54,6 +54,7 @@ let drag              = null;  // { screenX, screenY, vbX, vbY } | null
 let pendingRoomClick  = null;  // { el, startX, startY } | null — candidate left-click on a room
 let loadGeneration = 0;
 let lspaceAnim     = null;  // requestAnimationFrame id for L-space bouncer
+let tshopAnim      = null;  // requestAnimationFrame id for tshop hyperspace canvas
 let darkMode       = false; // true while in a room without a GMCP identifier
 
 // World-disc canvas state (map 99 only)
@@ -181,6 +182,62 @@ function stopLSpaceAnim() {
   lspaceAnim = null;
 }
 
+function startTshopAnim(svgEl, wrapEl) {
+  stopTshopAnim();
+  const canvas = document.createElement("canvas");
+  canvas.style.cssText = "position:absolute;inset:0;pointer-events:none;z-index:-1;";
+  wrapEl.insertBefore(canvas, wrapEl.firstChild);
+  const particles = [];
+  const CX = 371, CY = 304;
+  const HS_MAX = 80, HS_SPAWN = 0.35, HS_ACCEL = 1.015;
+  const HS_FADE_OUT = 180, HS_MAX_DIST = 220;
+
+  function frame() {
+    if (!canvas.isConnected) { tshopAnim = null; return; }
+    tshopAnim = requestAnimationFrame(frame);
+    const cw = canvas.offsetWidth, ch = canvas.offsetHeight;
+    if (canvas.width !== cw || canvas.height !== ch) { canvas.width = cw; canvas.height = ch; }
+    const ctx = canvas.getContext("2d");
+    ctx.clearRect(0, 0, cw, ch);
+    const ctm = svgEl.getScreenCTM();
+    if (!ctm) return;
+    const cr = canvas.getBoundingClientRect();
+    const fg = getComputedStyle(document.documentElement).getPropertyValue("--fg").trim() || "#ffffff";
+    if (particles.length < HS_MAX && Math.random() < HS_SPAWN) {
+      particles.push({ angle: Math.random() * Math.PI * 2, dist: 0, speed: 0.15 + Math.random() * 0.25 });
+    }
+    ctx.strokeStyle = fg;
+    ctx.lineCap = "round";
+    for (let i = particles.length - 1; i >= 0; i--) {
+      const p = particles[i];
+      const prev = p.dist;
+      p.speed *= HS_ACCEL;
+      p.dist  += p.speed;
+      if (p.dist >= HS_MAX_DIST) { particles.splice(i, 1); continue; }
+      const opacity = p.dist < 15
+        ? p.dist / 15
+        : p.dist > HS_FADE_OUT
+          ? 1 - (p.dist - HS_FADE_OUT) / (HS_MAX_DIST - HS_FADE_OUT)
+          : 1;
+      const cos = Math.cos(p.angle), sin = Math.sin(p.angle);
+      ctx.globalAlpha = opacity * 0.75;
+      ctx.lineWidth   = Math.max(0.5, p.speed * ctm.a * 0.4);
+      ctx.beginPath();
+      ctx.moveTo((CX + cos * prev)   * ctm.a + ctm.e - cr.left, (CY + sin * prev)   * ctm.d + ctm.f - cr.top);
+      ctx.lineTo((CX + cos * p.dist) * ctm.a + ctm.e - cr.left, (CY + sin * p.dist) * ctm.d + ctm.f - cr.top);
+      ctx.stroke();
+    }
+    ctx.globalAlpha = 1;
+  }
+  tshopAnim = requestAnimationFrame(frame);
+}
+
+function stopTshopAnim() {
+  if (tshopAnim === null) return;
+  cancelAnimationFrame(tshopAnim);
+  tshopAnim = null;
+}
+
 function showSpecialScreen(name) {
   const info = SPECIAL_SCREENS[name] ?? { title: name, sub: "" };
   $specialTitle.textContent = info.title;
@@ -194,6 +251,7 @@ function hideSpecialScreen() {
 }
 
 function clearContainer() {
+  stopTshopAnim();
   for (const child of [...$container.children]) {
     if (!child.classList.contains("lspace-overlay") &&
         !child.classList.contains("special-screen") &&
@@ -218,6 +276,7 @@ async function loadSvgMap(mapId, x, y) {
   currentSvg = wrap.querySelector("svg");
   ensureWarpDefs(currentSvg);
   $container.insertBefore(wrap, $lspace);
+  if (mapId === 53) startTshopAnim(currentSvg, wrap);
   if (!roomUnits.has(mapId)) {
     const unit = computeRoomUnit(currentSvg);
     if (unit) roomUnits.set(mapId, unit);
