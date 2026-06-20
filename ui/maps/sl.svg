@@ -7,11 +7,11 @@
    id="svg55"
    sodipodi:docname="sl.svg"
    inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xml:space="preserve"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
      id="defs55" />
   <style id="inkscape-font-fix">
 text, .map-label, .map-label-muted, .map-label-accent,
@@ -19,8 +19,14 @@ text, .map-label, .map-label-muted, .map-label-accent,
 .lib-row-num, .lib-book-list, .room-type-label {
   font-family: "Noto Sans", sans-serif;
 }
-</style>
-  <sodipodi:namedview
+</style><style
+     id="inkscape-font-fix">
+text, .map-label, .map-label-muted, .map-label-accent,
+.lib-table, .lib-gap-label, .lib-book-label,
+.lib-row-num, .lib-book-list, .room-type-label {
+  font-family: &quot;Noto Sans&quot;, sans-serif;
+}
+</style><sodipodi:namedview
      id="namedview55"
      pagecolor="#ffffff"
      bordercolor="#000000"
@@ -29,22 +35,90 @@ text, .map-label, .map-label-muted, .map-label-accent,
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="1.235121"
-     inkscape:cx="306.85252"
-     inkscape:cy="220.22133"
+     inkscape:zoom="0.87336243"
+     inkscape:cx="-45.800001"
+     inkscape:cy="196.94"
      inkscape:window-width="1968"
      inkscape:window-height="1011"
      inkscape:window-x="26"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg55"
-     showgrid="false" />
-  <g
-     id="layer-artwork">
-    <!-- artwork -->
-    <text
+     inkscape:current-layer="layer-artwork"
+     showgrid="false" /><g
+     id="layer-artwork"><rect
+       id="rect66"
+       width="26.880356"
+       height="32"
+       x="402.59869"
+       y="373"
+       ry="0.34175292"
+       class="map-area-fill"
+       style="stroke-width:0.999998" /><rect
+       id="rect65-2"
+       width="98"
+       height="56.5107"
+       x="219.99998"
+       y="9.5132341"
+       ry="0.60352182"
+       class="map-area-fill"
+       style="stroke-width:1" /><rect
+       id="rect65"
+       width="91.286606"
+       height="46.817448"
+       x="474.44745"
+       y="368.18256"
+       ry="0.5"
+       class="map-area-fill" /><rect
+       id="rect24-2-1-7-2"
+       width="51.736"
+       height="8.4099998"
+       x="33.870491"
+       y="217.795"
+       ry="0.58805931"
+       class="anno-box"
+       style="stroke-width:0.999995" /><rect
+       id="rect24-2-1-7"
+       width="36.664001"
+       height="8.4099998"
+       x="545.5943"
+       y="175.795"
+       ry="0.58805931"
+       class="anno-box"
+       style="stroke-width:0.999995" /><rect
+       id="rect55"
+       width="25.582001"
+       height="8.4099998"
+       x="446.67816"
+       y="173.97081"
+       ry="0.58805931"
+       class="anno-box"
+       style="stroke-width:0.999998" /><rect
+       id="rect24-2-1"
+       width="31.245998"
+       height="8.4099998"
+       x="393.28131"
+       y="175.795"
+       ry="0.58805931"
+       class="anno-box"
+       style="stroke-width:0.999995" /><rect
+       id="rect24-2"
+       width="29.931999"
+       height="15.904"
+       x="296.034"
+       y="262.14536"
+       ry="1.1120684"
+       class="anno-box"
+       style="stroke-width:0.999996" /><rect
+       id="rect24"
+       width="39.958"
+       height="15.904"
+       x="395.70483"
+       y="333.048"
+       ry="1.1120684"
+       class="anno-box"
+       style="stroke-width:0.999993" /><!-- artwork --><text
        xml:space="preserve"
-       x="562.49518"
+       x="563.91431"
        y="182.145"
        id="text134-4"
        class="map-label"
@@ -52,14 +126,13 @@ text, .map-label, .map-label-muted, .map-label-accent,
        font-size="6px"
        style="font-family:'Noto Sans', sans-serif"><tspan
          sodipodi:role="line"
-         x="562.49518"
+         x="563.91431"
          y="182.145"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
-         id="tspan134-7">STO PLAINS</tspan></text>
-    <text
+         id="tspan134-7">STO PLAINS</tspan></text><text
        xml:space="preserve"
        x="311.10501"
-       y="267.35001"
+       y="268.49234"
        id="text134-4-7"
        class="map-label"
        text-anchor="middle"
@@ -67,17 +140,16 @@ text, .map-label, .map-label-muted, .map-label-accent,
        style="font-family:'Noto Sans', sans-serif"><tspan
          sodipodi:role="line"
          x="311.10501"
-         y="267.35001"
+         y="268.49234"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
          id="tspan134-7-04">A.O.A</tspan><tspan
          sodipodi:role="line"
          x="311.10501"
-         y="274.85001"
+         y="275.99234"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
-         id="tspan63">WIZARDS</tspan></text>
-    <text
+         id="tspan63">WIZARDS</tspan></text><text
        xml:space="preserve"
-       x="414.64352"
+       x="415.82785"
        y="339.392"
        id="text134-4-7-0"
        class="map-label"
@@ -85,18 +157,17 @@ text, .map-label, .map-label-muted, .map-label-accent,
        font-size="6px"
        style="font-family:'Noto Sans', sans-serif"><tspan
          sodipodi:role="line"
-         x="414.64352"
+         x="415.82785"
          y="339.392"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
          id="tspan63-2">CABBAGE</tspan><tspan
          sodipodi:role="line"
-         x="414.64352"
+         x="415.82785"
          y="346.892"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
-         id="tspan64">WAREHOUSE</tspan></text>
-    <text
+         id="tspan64">WAREHOUSE</tspan></text><text
        xml:space="preserve"
-       x="407.90918"
+       x="408.9043"
        y="182.145"
        id="text134-4-91"
        class="map-label"
@@ -104,35 +175,31 @@ text, .map-label, .map-label-muted, .map-label-accent,
        font-size="6px"
        style="font-family:'Noto Sans', sans-serif"><tspan
          sodipodi:role="line"
-         x="407.90918"
+         x="408.9043"
          y="182.145"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
-         id="tspan134-7-0">MANSION</tspan></text>
-    <text
+         id="tspan134-7-0">MANSION</tspan></text><text
        xml:space="preserve"
-       x="460.32562"
-       y="178.68492"
+       x="459.22314"
+       y="180.32082"
        id="text134-4-9"
        class="map-label"
        text-anchor="middle"
        font-size="6px"
        style="font-family:'Noto Sans', sans-serif"><tspan
          sodipodi:role="line"
-         x="460.32562"
-         y="178.68492"
+         x="459.22314"
+         y="180.32082"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
-         id="tspan134-7-6">MANOR</tspan></text>
-    <path
+         id="tspan134-7-6">MANOR</tspan></text><path
        d="m 521,180 h 24.59431"
        id="path55"
-       class="exit-offmap" />
-    <path
+       class="exit-offmap" /><path
        d="m 451,166 8.46915,7.97081"
        id="path56"
        class="exit-offmap"
        fill="none"
-       stroke="#888888" />
-    <text
+       stroke="#888888" /><text
        xml:space="preserve"
        x="506"
        y="377.0675"
@@ -145,8 +212,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
          x="506"
          y="377.0675"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
-         id="tspan134-7-7">MANSION</tspan></text>
-    <text
+         id="tspan134-7-7">MANSION</tspan></text><text
        xml:space="preserve"
        x="265.42157"
        y="18.939999"
@@ -159,10 +225,9 @@ text, .map-label, .map-label-muted, .map-label-accent,
          x="265.42157"
          y="18.939999"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
-         id="tspan134-7-3">HILL STREET MANOR</tspan></text>
-    <text
+         id="tspan134-7-3">HILL STREET MANOR</tspan></text><text
        xml:space="preserve"
-       x="61.125092"
+       x="59.738491"
        y="224.145"
        id="text134-4-15"
        class="map-label"
@@ -170,77 +235,179 @@ text, .map-label, .map-label-muted, .map-label-accent,
        font-size="6px"
        style="font-family:'Noto Sans', sans-serif"><tspan
          sodipodi:role="line"
-         x="61.125092"
+         x="59.738491"
          y="224.145"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
-         id="tspan134-7-9">ANKH MORPORK</tspan></text>
-    <path
+         id="tspan134-7-9">ANKH MORPORK</tspan></text><path
        d="M 99.853127,222 H 115.84346"
        id="path57"
        class="exit"
        fill="none"
-       stroke="#888888" />
-    <path
+       stroke="#888888" /><path
        d="m 115.84346,222 h 15.31778 v -3.09432 h 12.34697 v 8.07107 h 11.66383 L 155.21906,222 H 171"
        id="path58"
        class="exit-journey"
        fill="none"
-       stroke="#888888" />
-    <path
+       stroke="#888888" /><path
        d="M 99.853127,222 H 85.60649"
        id="path59"
        class="exit-journey-offmap"
        fill="none"
-       stroke="#888888" />
-    <path
+       stroke="#888888" /><path
        d="m 171,222 h 14"
        id="path60"
        class="exit"
        fill="none"
        stroke="#888888"
-       sodipodi:nodetypes="cc" />
-    <path
+       sodipodi:nodetypes="cc" /><path
        d="m 381,180 h 12.2813"
        id="path61"
        class="exit-offmap"
        fill="none"
-       stroke="#888888" />
-    <path
+       stroke="#888888" /><path
        id="Moat"
        d="M 311 355 L 297 369 L 297 397 L 311 411 L 339 411 L 353 397 L 353 369 L 339 355 L 311 355 z M 311 369 L 339 369 L 339 397 L 311 397 L 311 369 z "
-       class="map-water" />
-    <circle
+       class="map-water" /><circle
        id="circle"
        class="room-phantom"
        cx="171"
        cy="222"
-       r="4" />
-    <circle
+       r="4" /><circle
        id="circle56"
        class="room outdoor"
        cx="99.853127"
        cy="222"
-       r="4" />
-    <circle
+       r="4" /><circle
        id="circle57"
        class="room-phantom"
        cx="115.84346"
        cy="222"
-       r="4" />
-    <path
+       r="4" /><path
        d="m 311,250 v 12.14536"
        id="path63"
        class="exit-offmap"
        fill="none"
-       stroke="#888888" />
-    <path
+       stroke="#888888" /><path
        d="m 381,341 h 14.70484"
        id="path64"
        class="exit-offmap"
        fill="none"
-       stroke="#888888" />
-  </g>
-  <g
+       stroke="#888888" /><path
+       d="M 227,369 H 212.1023"
+       id="path138-1"
+       class="exit-tshop"
+       fill="none"
+       stroke="888888" /><rect
+       id="room-tshop-1-8"
+       class="room room-tshop-portal"
+       data-label="T-Shop (maybe)"
+       x="208.10229"
+       y="365"
+       width="8"
+       height="8"
+       rx="2" /><text class="room-type-label" font-size="4.5" x="212.10229" y="369" text-anchor="middle" dominant-baseline="central">T</text><path
+       d="M 423,277.1023 V 292"
+       id="path138-1-5"
+       class="exit-tshop"
+       fill="none"
+       stroke="888888" /><rect
+       id="room-tshop-1-8-3"
+       class="room room-tshop-portal"
+       data-label="T-Shop (maybe)"
+       x="419"
+       y="273.10229"
+       width="8"
+       height="8"
+       rx="2" /><text class="room-type-label" font-size="4.5" x="423" y="277.10229" text-anchor="middle" dominant-baseline="central">T</text><path
+       d="M 381,247.00001 367,236"
+       id="path138-1-6"
+       class="exit-tshop"
+       fill="none"
+       stroke="888888"
+       sodipodi:nodetypes="cc" /><rect
+       id="room-tshop-1-8-2"
+       class="room room-tshop-portal"
+       data-label="T-Shop (maybe)"
+       x="377"
+       y="243"
+       width="8"
+       height="8"
+       rx="2" /><text class="room-type-label" font-size="4.5" x="381" y="247" text-anchor="middle" dominant-baseline="central">T</text><path
+       d="m 297,312.55115 v 14.8977"
+       id="path138-1-1"
+       class="exit-tshop"
+       fill="none"
+       stroke="888888" /><rect
+       id="room-tshop-1-8-27"
+       class="room room-tshop-portal"
+       data-label="T-Shop (maybe)"
+       x="293"
+       y="308.55115"
+       width="8"
+       height="8"
+       rx="2" /><text class="room-type-label" font-size="4.5" x="297" y="312.55115" text-anchor="middle" dominant-baseline="central">T</text><path
+       d="M 451,137.1023 V 152"
+       id="path138-1-9"
+       class="exit-tshop"
+       fill="none"
+       stroke="888888" /><rect
+       id="room-tshop-1-8-36"
+       class="room room-tshop-portal"
+       data-label="T-Shop (maybe)"
+       x="447"
+       y="133.10229"
+       width="8"
+       height="8"
+       rx="2" /><text class="room-type-label" font-size="4.5" x="451" y="137.10229" text-anchor="middle" dominant-baseline="central">T</text><path
+       d="m 236,26 -9.41531,-9.415311"
+       id="path62"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" /><path
+       d="m 484,396 h -7.62967"
+       id="path65"
+       class="exit-offmap"
+       fill="none"
+       stroke="#888888" /><text
+       xml:space="preserve"
+       x="245"
+       y="63.097809"
+       id="text5-7"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="245"
+         y="63.097809"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan5">GROUND</tspan></text><text
+       xml:space="preserve"
+       x="292.742"
+       y="63.09481"
+       id="text65"
+       class="map-label-muted"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="292.742"
+         y="63.09481"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan65">FIRST</tspan></text><text
+       xml:space="preserve"
+       x="415.89801"
+       y="379.94"
+       id="text66"
+       class="map-label"
+       text-anchor="middle"
+       font-size="6px"
+       style="font-family:'Noto Sans', sans-serif"><tspan
+         sodipodi:role="line"
+         x="415.89801"
+         y="379.94"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NotoSans;-inkscape-font-specification:NotoSans"
+         id="tspan66">PISHE</tspan></text></g><g
      id="layer-exits">
     <line id="edge-0d53f2e0ff4b9a0ab0d30e56cb8c4d6a57dd05a7-33d602383930a9255b5bc36408a201a74fa8a4cd" class="exit exit-green" x1="325" y1="355" x2="325" y2="341"/>
     <line id="edge-33d602383930a9255b5bc36408a201a74fa8a4cd-ad9b8a5449c10d63635f751642d8082ecc7e4bde" class="exit exit-green" x1="325" y1="341" x2="339" y2="341"/>
@@ -790,9 +957,9 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <line id="edge-4525132dfbe415e2b69f158d11c9ad7af365c2a9-900a5cd3d46789001e40469374d499f561a7af28" class="exit" x1="244" y1="369" x2="244" y2="369"/>
     <line id="edge-900a5cd3d46789001e40469374d499f561a7af28-9fc7ded5104c38b9c2fcaf17fe61cec3affc34ca" class="exit" x1="244" y1="369" x2="244" y2="369"/>
     <line id="edge-900a5cd3d46789001e40469374d499f561a7af28-e613af0df1fd9ad8a811a8c3a49f94a7bf3217c4" class="exit" x1="244" y1="369" x2="244" y2="369"/>
-  </g>
-  <g
-     id="layer-rooms">
+  </g><g
+     id="layer-rooms"
+     sodipodi:insensitive="true">
     <rect id="room-f1aaac4f414f1b99b8f46b0396b1b4a24298917e" class="room indoor" data-label="dining room" x="502" y="403" width="8" height="8" rx="2"/>
     <circle id="room-b36f2c4abeea2eb0faefa563504ece0422277b5d" class="room outdoor" data-label="Queen&#x27;s Road" cx="353" cy="54" r="4"/>
     <circle id="room-4307b680d9e485da1a294d4480117318d1cf253f" class="room outdoor" data-label="hard cobbles of Queen&#x27;s Road" cx="367" cy="96" r="4"/>
@@ -1261,11 +1428,6 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-9fc7ded5104c38b9c2fcaf17fe61cec3affc34ca" class="room indoor room-shop" data-label="Hogswatch workshop" x="240" y="365" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="244" y="369" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-4525132dfbe415e2b69f158d11c9ad7af365c2a9" class="room indoor" data-label="Hogswatch tree warehouse" x="240" y="365" width="8" height="8" rx="2"/>
     <rect id="room-2b5bdc8a41561b3799d6e3fdfa699ba0ae21fccb" class="room indoor" data-label="small well-lit studio" x="192" y="190" width="8" height="8" rx="2"/>
-  </g>
-  <g
-     id="layer-room-labels" />
-  <g
-     id="layer-labels">
-    <!-- labels -->
-  </g>
-</svg>
+  </g><g
+     id="layer-room-labels" /><g
+     id="layer-labels"><!-- labels --></g></svg>
