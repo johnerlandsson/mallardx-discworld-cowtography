@@ -28,15 +28,15 @@ text, .map-label, .map-label-muted, .map-label-accent,
    inkscape:pageopacity="0.0"
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#d1d1d1"
-   inkscape:zoom="5.8608059"
-   inkscape:cx="460.6875"
-   inkscape:cy="222.495"
+   inkscape:zoom="1.0360539"
+   inkscape:cx="435.30554"
+   inkscape:cy="214.27457"
    inkscape:window-width="1968"
    inkscape:window-height="1011"
    inkscape:window-x="26"
    inkscape:window-y="23"
    inkscape:window-maximized="0"
-   inkscape:current-layer="svg4"
+   inkscape:current-layer="layer-artwork"
    showgrid="false" /><g
    id="layer-artwork"><!-- artwork --><path
      d="m 163,475 v 48 L 115,475 V 427 H 67 v 48 h 48 L 67,427 v -48 l 48,-48 H 67"
@@ -117,12 +117,12 @@ text, .map-label, .map-label-muted, .map-label-accent,
      sodipodi:nodetypes="cc" /><path
      d="M 163,475 H 400"
      id="path20"
-     class="exit-offmap"
+     class="exit-climb"
      fill="none"
      stroke="#888888" /><path
      d="m 355,235 17.93691,17.62071 h 153.14492"
      id="path21"
-     class="exit-offmap"
+     class="exit-climb"
      fill="none"
      stroke="#888888"
      sodipodi:nodetypes="cc" /><path
@@ -453,7 +453,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
      sodipodi:nodetypes="cc" /><path
      d="m 258.8504,138.69675 17.93691,-17.62071 152.92538,0.44657"
      id="path1-1"
-     class="exit-offmap"
+     class="exit-climb"
      fill="none"
      stroke="#888888"
      sodipodi:nodetypes="cc" /><path
@@ -464,72 +464,550 @@ text, .map-label, .map-label-muted, .map-label-accent,
      stroke="#888888"
      sodipodi:nodetypes="cc" /></g><g
    id="layer-exits">
-    <line id="edge-3366ea4fb55a46580f5ab5d6264af9616a51d601-55496e679819763751baf7a874228ca98687d547" class="exit" x1="464" y1="81" x2="436" y2="53"/>
-    <line id="edge-06035cb7f96092f3e4675510b292a455ea7e2fcc-55496e679819763751baf7a874228ca98687d547" class="exit" x1="464" y1="53" x2="436" y2="53"/>
+    <line
+   id="edge-3366ea4fb55a46580f5ab5d6264af9616a51d601-55496e679819763751baf7a874228ca98687d547"
+   class="exit"
+   x1="464"
+   y1="81"
+   x2="436"
+   y2="53" />
+    <line
+   id="edge-06035cb7f96092f3e4675510b292a455ea7e2fcc-55496e679819763751baf7a874228ca98687d547"
+   class="exit"
+   x1="464"
+   y1="53"
+   x2="436"
+   y2="53" />
     null
-    <line id="edge-06035cb7f96092f3e4675510b292a455ea7e2fcc-4644cb33c6c9f7ed701c45d07b4b53c5d575915c" class="exit" x1="464" y1="53" x2="492" y2="81"/>
+    <line
+   id="edge-06035cb7f96092f3e4675510b292a455ea7e2fcc-4644cb33c6c9f7ed701c45d07b4b53c5d575915c"
+   class="exit"
+   x1="464"
+   y1="53"
+   x2="492"
+   y2="81" />
     null
   </g><g
    id="layer-rooms">
-    <circle id="room-3366ea4fb55a46580f5ab5d6264af9616a51d601" class="room outdoor" data-label="overgrown moat" cx="464" cy="81" r="4"/>
-    <circle id="room-55496e679819763751baf7a874228ca98687d547" class="room outdoor" data-label="castle ruins" cx="436" cy="53" r="4"/>
-    <circle id="room-06035cb7f96092f3e4675510b292a455ea7e2fcc" class="room outdoor" data-label="mystical castle ruins" cx="464" cy="53" r="4"/><polygon class="stair-symbol" points="464,50 461.5,55 466.5,55"/>
-    <rect id="room-4644cb33c6c9f7ed701c45d07b4b53c5d575915c" class="room indoor" data-label="sanctuary" x="488" y="77" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="492,78 489.5,83 494.5,83"/>
-    <rect id="room-c30e844d0cc6035207992cd727c1eaf661a52b7c" class="room indoor" data-label="belfry" x="506" y="53" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="510,60 507.5,55 512.5,55"/>
-    <rect id="room-25e11902534f2b18de7f93cd531f1c36b2c678e7" class="room indoor" data-label="spectator gallery" x="479" y="23" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="483,30 480.5,25 485.5,25"/>
-    <rect id="room-52a3f54ac7f4d46f73dd262bb9f7f2822000e396" class="room indoor room-ctf-secret-passage" data-label="Secret Passageway" x="299" y="179" width="16" height="16" rx="2"/>
-    <rect id="room-2f8eb67f8bf8caa0c7f9a69e20ac30982c689938" class="room indoor room-ctf-secret-passage" data-label="Secret Passageway" x="299" y="131" width="16" height="16" rx="2"/>
-    <rect id="room-304bb3686957ac6ab74dd5d076d93a87ad0478a3" class="room indoor room-ctf-prison" data-label="Prison Hallway" x="299" y="83" width="16" height="16" rx="2"/>
-    <rect id="room-d5075bd9f35abf4ba1e3517e5428c244a314583d" class="room indoor room-ctf-prison" data-label="Prison Hallway" x="251" y="83" width="16" height="16" rx="2"/>
-    <rect id="room-27fce23d65093578b2dc2078a7011f9b4370fc2e" class="room indoor room-ctf-guard" data-label="Guard Room" x="251" y="35" width="16" height="16" rx="2"/>
-    <rect id="room-3bdbe3b1146d4911b7ecb032defd626afdf9e026" class="room indoor room-ctf-prison" data-label="Prison Hallway" x="203" y="83" width="16" height="16" rx="2"/>
-    <rect id="room-02d2390a897cfd24cbd73f74dfd845ebc6534220" class="room indoor room-ctf-jail" data-label="Jail Cell" x="155" y="83" width="16" height="16" rx="2"/>
-    <rect id="room-380b8682e7d0f5cb2fd26c4dcbf72fd8e5fa08f5" class="room indoor room-ctf-prison" data-label="Prison Hallway" x="203" y="131" width="16" height="16" rx="2"/>
-    <rect id="room-06ebb1d3ba63b678fdc941bc65824afc62a1092e" class="room indoor room-ctf-jail" data-label="Jail Cell" x="251" y="131" width="16" height="16" rx="2"/>
-    <rect id="room-a14ecfc7cb7094048e567d25e3a65665e135da73" class="room indoor room-ctf-prison" data-label="Prison Hallway" x="203" y="179" width="16" height="16" rx="2"/>
-    <rect id="room-fccf440f06bbe769b6850cdc2cddc953d5dd9cc3" class="room indoor room-ctf-torture" data-label="Torture Chamber" x="155" y="179" width="16" height="16" rx="2"/>
-    <rect id="room-281708e6c2c544e89a6d9e7d4199952d7d7eb962" class="room indoor room-ctf-prison" data-label="Prison Hallway" x="203" y="227" width="16" height="16" rx="2"/>
-    <circle id="room-2f6b158cd8d79a7e85be88885bf697b78de1c8b2" class="room outdoor room-ctf-courtyard" data-label="northwestern courtyard" cx="259" cy="235" r="8"/>
-    <circle id="room-1dab6561295f4cd0f82b81a6313595ebf3730084" class="room outdoor room-ctf-courtyard" data-label="northern courtyard" cx="307" cy="235" r="8"/>
-    <circle id="room-429e3176eb1c3e6d32f518104d456d228e77c14c" class="room outdoor room-ctf-courtyard" data-label="northeastern courtyard" cx="355" cy="235" r="8"/>
-    <circle id="room-197efacd632517af2d488e6a12322ad6ac700649" class="room outdoor room-ctf-courtyard" data-label="southeastern courtyard" cx="355" cy="283" r="8"/>
-    <circle id="room-4a6a1d14ecd41cd970baf1cf86bda2cf0323f749" class="room outdoor room-ctf-courtyard" data-label="southern courtyard, by the flagpole" cx="307" cy="283" r="8"/>
-    <circle id="room-88cb1dd9e0c922609df617255ddd7d05d575e165" class="room outdoor room-ctf-courtyard" data-label="southwestern courtyard" cx="259" cy="283" r="8"/>
-    <rect id="room-094239d0ecaacb693c9426b61c818615b3d8f24d" class="room indoor room-ctf-underground" data-label="Underground Passageway" x="536" y="227" width="16" height="16" rx="2"/>
-    <rect id="room-1ca7db9ff76bd460278c455e28205520df570ed6" class="room indoor room-ctf-dead-end" data-label="Dead End Passageway" x="488" y="227" width="16" height="16" rx="2"/>
-    <rect id="room-a21785d0b3d4c8d3b1e34e7ee115add64e2b7079" class="room indoor room-ctf-necropolis" data-label="Necropolis" x="488" y="275" width="16" height="16" rx="2"/>
-    <rect id="room-75e680fdb73a2de5c5e770994ef11b3a2da7aed1" class="room indoor room-ctf-necropolis" data-label="Necropolis" x="488" y="323" width="16" height="16" rx="2"/>
-    <rect id="room-5c5d6c0520ec8ad803e2b01d8b2475357fe4c70a" class="room indoor room-ctf-necropolis" data-label="Necropolis" x="488" y="371" width="16" height="16" rx="2"/>
-    <rect id="room-4dd8d13f1312d98dd2ab3d81eb341c972af95c52" class="room indoor room-ctf-cellar" data-label="Cellar" x="440" y="419" width="16" height="16" rx="2"/>
-    <rect id="room-3ea011e9f023b63640f8f232daa5af0442996f40" class="room indoor room-ctf-wine-cellar" data-label="Wine Cellar" x="488" y="419" width="16" height="16" rx="2"/>
-    <rect id="room-e48da8dcc163769a6d1c9b352e42f433723f827f" class="room indoor room-ctf-cellar" data-label="Cellar" x="392" y="419" width="16" height="16" rx="2"/>
-    <rect id="room-4c70874daa19598d1435fa467ab1a0709aca694e" class="room indoor room-ctf-cellar" data-label="Cellar" x="392" y="467" width="16" height="16" rx="2"/>
-    <rect id="room-f7d94feab84890256110b43c828807283412ba27" class="room indoor room-ctf-cellar" data-label="Cellar" x="440" y="467" width="16" height="16" rx="2"/>
-    <rect id="room-d2f9505f26b14ed0d5bb2924365c7aefe10a2140" class="room indoor room-ctf-necropolis" data-label="Necropolis" x="440" y="275" width="16" height="16" rx="2"/>
-    <rect id="room-1019b6c54ec217363bea3128ad62ec7791b620a2" class="room indoor room-ctf-chapel" data-label="Chapel" x="440" y="323" width="16" height="16" rx="2"/>
-    <circle id="room-e66db04281f47e45ac594c073c0a01c895e37858" class="room outdoor room-ctf-pit" data-label="Pit" cx="448" cy="235" r="8"/>
-    <rect id="room-937c388d838596b012cb9d8e0c5eff78f180c324" class="room indoor room-ctf-secret-passage" data-label="Secret Passageway" x="488" y="179" width="16" height="16" rx="2"/>
-    <rect id="room-e6c9df3630348b83ce7176156dcb8281f01c3fe1" class="room indoor room-ctf-secret-passage" data-label="Secret Passageway" x="440" y="131" width="16" height="16" rx="2"/>
-    <rect id="room-04fb9c1c87d7d7e548b81e11b7e6d6b335613b8f" class="room indoor room-ctf-hallway" data-label="hallway" x="155" y="275" width="16" height="16" rx="2"/>
-    <rect id="room-f66deb8c213a808e239d13ff7eca1b6180567b7a" class="room indoor room-ctf-luxurious" data-label="Luxurious Room" x="107" y="227" width="16" height="16" rx="2"/>
-    <rect id="room-716a299008e3f90ef9eb03ef99efce1ea1371468" class="room indoor room-ctf-hallway" data-label="hallway" x="107" y="323" width="16" height="16" rx="2"/>
-    <rect id="room-dc539b619e20acaecf9b99c71487f730606cdea2" class="room indoor room-ctf-guard" data-label="Guard Room" x="59" y="323" width="16" height="16" rx="2"/>
-    <rect id="room-d23c03e61db9b59dee43d021da7b797d00b42433" class="room indoor room-ctf-luxurious" data-label="Luxurious Room" x="155" y="371" width="16" height="16" rx="2"/>
-    <rect id="room-504b73349a7293e5926448d691055f4b7a7ba3f9" class="room indoor room-ctf-hallway" data-label="hallway" x="59" y="371" width="16" height="16" rx="2"/>
-    <rect id="room-5d83e58d556414e2f00559acadc827515eb2e88b" class="room indoor room-ctf-banquet" data-label="banquet hall" x="59" y="419" width="16" height="16" rx="2"/>
-    <rect id="room-891c681b433f31ebd2d8cb100d1cfb42fe939236" class="room indoor room-ctf-banquet" data-label="banquet hall" x="107" y="419" width="16" height="16" rx="2"/>
-    <rect id="room-631f02f5be902cd225467c4d851730a161966572" class="room indoor room-ctf-banquet" data-label="banquet hall" x="59" y="467" width="16" height="16" rx="2"/>
-    <rect id="room-53a1434f076e4255a9be059251d0c2fca0a7054d" class="room indoor room-ctf-banquet" data-label="banquet hall" x="107" y="467" width="16" height="16" rx="2"/>
-    <rect id="room-c473bd2493f8864a1333f3d1c48fc8dc8cf104ea" class="room indoor room-ctf-kitchen" data-label="Kitchen" x="155" y="515" width="16" height="16" rx="2"/>
-    <rect id="room-ed8f638d6fca744c2bb8a5b3e2b903daf4dc8755" class="room indoor room-ctf-kitchen" data-label="Kitchen" x="155" y="467" width="16" height="16" rx="2"/>
-    <circle id="room-7d3a1fac8b2dde60f7b2224f03f4464805ffe05f" class="room outdoor water" data-label="Underwater Passageway" cx="496" cy="206" r="4"/>
-    <circle id="room-400ad34f976b47da57950ffe9b1f744013f84fd1" class="room outdoor water" data-label="Underwater Passageway" cx="496" cy="216" r="4"/>
-    <rect id="room-984d6e09525b6d95fb4509d0e16822446cc6d2ec" class="room indoor room-ctf-underground" data-label="Base 1" x="536" y="227" width="16" height="16" rx="2"/>
-    <rect id="room-8bf48fe21304d022c7d207fd3aba993fd8c2156f" class="room indoor room-ctf-courtyard" data-label="Base 2" x="347" y="275" width="16" height="16" rx="2"/>
-    <rect id="room-dc2bf8117940227015a2d30457d1f5bf6a2c548a" class="room indoor room-ctf-prison" data-label="Base 3" x="203" y="227" width="16" height="16" rx="2"/>
-    <rect id="room-d5a63aed6a68cdbd81e8060adc1721db248e42c6" class="room indoor room-ctf-secret-passage" data-label="Base 4" x="299" y="179" width="16" height="16" rx="2"/>
-    <rect id="room-a96637c8c6aec5aae8e6908aaf1c8a8c158e6253" class="room indoor room-ctf-prison" data-label="Base 5" x="203" y="83" width="16" height="16" rx="2"/>
-    <rect id="room-f3a3cb2a1e64d80a500c6d9ccb8f58333c06cbc9" class="room indoor room-ctf-prison" data-label="Base 6" x="299" y="83" width="16" height="16" rx="2"/>
+    <circle
+   id="room-3366ea4fb55a46580f5ab5d6264af9616a51d601"
+   class="room outdoor"
+   data-label="overgrown moat"
+   cx="464"
+   cy="81"
+   r="4" />
+    <circle
+   id="room-55496e679819763751baf7a874228ca98687d547"
+   class="room outdoor"
+   data-label="castle ruins"
+   cx="436"
+   cy="53"
+   r="4" />
+    <circle
+   id="room-06035cb7f96092f3e4675510b292a455ea7e2fcc"
+   class="room outdoor"
+   data-label="mystical castle ruins"
+   cx="464"
+   cy="53"
+   r="4" /><polygon
+   class="stair-symbol"
+   points="464,50 461.5,55 466.5,55"
+   id="polygon1" />
+    <rect
+   id="room-4644cb33c6c9f7ed701c45d07b4b53c5d575915c"
+   class="room indoor"
+   data-label="sanctuary"
+   x="488"
+   y="77"
+   width="8"
+   height="8"
+   rx="2" /><polygon
+   class="stair-symbol"
+   points="492,78 489.5,83 494.5,83"
+   id="polygon2" />
+    <rect
+   id="room-c30e844d0cc6035207992cd727c1eaf661a52b7c"
+   class="room indoor"
+   data-label="belfry"
+   x="506"
+   y="53"
+   width="8"
+   height="8"
+   rx="2" /><polygon
+   class="stair-symbol"
+   points="510,60 507.5,55 512.5,55"
+   id="polygon3" />
+    <rect
+   id="room-25e11902534f2b18de7f93cd531f1c36b2c678e7"
+   class="room indoor"
+   data-label="spectator gallery"
+   x="479"
+   y="23"
+   width="8"
+   height="8"
+   rx="2" /><polygon
+   class="stair-symbol"
+   points="483,30 480.5,25 485.5,25"
+   id="polygon4" />
+    <rect
+   id="room-52a3f54ac7f4d46f73dd262bb9f7f2822000e396"
+   class="room indoor room-ctf-secret-passage"
+   data-label="Secret Passageway"
+   x="299"
+   y="179"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-2f8eb67f8bf8caa0c7f9a69e20ac30982c689938"
+   class="room indoor room-ctf-secret-passage"
+   data-label="Secret Passageway"
+   x="299"
+   y="131"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-304bb3686957ac6ab74dd5d076d93a87ad0478a3"
+   class="room indoor room-ctf-prison"
+   data-label="Prison Hallway"
+   x="299"
+   y="83"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-d5075bd9f35abf4ba1e3517e5428c244a314583d"
+   class="room indoor room-ctf-prison"
+   data-label="Prison Hallway"
+   x="251"
+   y="83"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-27fce23d65093578b2dc2078a7011f9b4370fc2e"
+   class="room indoor room-ctf-guard"
+   data-label="Guard Room"
+   x="251"
+   y="35"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-3bdbe3b1146d4911b7ecb032defd626afdf9e026"
+   class="room indoor room-ctf-prison"
+   data-label="Prison Hallway"
+   x="203"
+   y="83"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-02d2390a897cfd24cbd73f74dfd845ebc6534220"
+   class="room indoor room-ctf-jail"
+   data-label="Jail Cell"
+   x="155"
+   y="83"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-380b8682e7d0f5cb2fd26c4dcbf72fd8e5fa08f5"
+   class="room indoor room-ctf-prison"
+   data-label="Prison Hallway"
+   x="203"
+   y="131"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-06ebb1d3ba63b678fdc941bc65824afc62a1092e"
+   class="room indoor room-ctf-jail"
+   data-label="Jail Cell"
+   x="251"
+   y="131"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-a14ecfc7cb7094048e567d25e3a65665e135da73"
+   class="room indoor room-ctf-prison"
+   data-label="Prison Hallway"
+   x="203"
+   y="179"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-fccf440f06bbe769b6850cdc2cddc953d5dd9cc3"
+   class="room indoor room-ctf-torture"
+   data-label="Torture Chamber"
+   x="155"
+   y="179"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-281708e6c2c544e89a6d9e7d4199952d7d7eb962"
+   class="room indoor room-ctf-prison"
+   data-label="Prison Hallway"
+   x="203"
+   y="227"
+   width="16"
+   height="16"
+   rx="2" />
+    <circle
+   id="room-2f6b158cd8d79a7e85be88885bf697b78de1c8b2"
+   class="room outdoor room-ctf-courtyard"
+   data-label="northwestern courtyard"
+   cx="259"
+   cy="235"
+   r="8" />
+    <circle
+   id="room-1dab6561295f4cd0f82b81a6313595ebf3730084"
+   class="room outdoor room-ctf-courtyard"
+   data-label="northern courtyard"
+   cx="307"
+   cy="235"
+   r="8" />
+    <circle
+   id="room-429e3176eb1c3e6d32f518104d456d228e77c14c"
+   class="room outdoor room-ctf-courtyard"
+   data-label="northeastern courtyard"
+   cx="355"
+   cy="235"
+   r="8" />
+    <circle
+   id="room-197efacd632517af2d488e6a12322ad6ac700649"
+   class="room outdoor room-ctf-courtyard"
+   data-label="southeastern courtyard"
+   cx="355"
+   cy="283"
+   r="8" />
+    <circle
+   id="room-4a6a1d14ecd41cd970baf1cf86bda2cf0323f749"
+   class="room outdoor room-ctf-courtyard"
+   data-label="southern courtyard, by the flagpole"
+   cx="307"
+   cy="283"
+   r="8" />
+    <circle
+   id="room-88cb1dd9e0c922609df617255ddd7d05d575e165"
+   class="room outdoor room-ctf-courtyard"
+   data-label="southwestern courtyard"
+   cx="259"
+   cy="283"
+   r="8" />
+    <rect
+   id="room-094239d0ecaacb693c9426b61c818615b3d8f24d"
+   class="room indoor room-ctf-underground"
+   data-label="Underground Passageway"
+   x="536"
+   y="227"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-1ca7db9ff76bd460278c455e28205520df570ed6"
+   class="room indoor room-ctf-dead-end"
+   data-label="Dead End Passageway"
+   x="488"
+   y="227"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-a21785d0b3d4c8d3b1e34e7ee115add64e2b7079"
+   class="room indoor room-ctf-necropolis"
+   data-label="Necropolis"
+   x="488"
+   y="275"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-75e680fdb73a2de5c5e770994ef11b3a2da7aed1"
+   class="room indoor room-ctf-necropolis"
+   data-label="Necropolis"
+   x="488"
+   y="323"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-5c5d6c0520ec8ad803e2b01d8b2475357fe4c70a"
+   class="room indoor room-ctf-necropolis"
+   data-label="Necropolis"
+   x="488"
+   y="371"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-4dd8d13f1312d98dd2ab3d81eb341c972af95c52"
+   class="room indoor room-ctf-cellar"
+   data-label="Cellar"
+   x="440"
+   y="419"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-3ea011e9f023b63640f8f232daa5af0442996f40"
+   class="room indoor room-ctf-wine-cellar"
+   data-label="Wine Cellar"
+   x="488"
+   y="419"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-e48da8dcc163769a6d1c9b352e42f433723f827f"
+   class="room indoor room-ctf-cellar"
+   data-label="Cellar"
+   x="392"
+   y="419"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-4c70874daa19598d1435fa467ab1a0709aca694e"
+   class="room indoor room-ctf-cellar"
+   data-label="Cellar"
+   x="392"
+   y="467"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-f7d94feab84890256110b43c828807283412ba27"
+   class="room indoor room-ctf-cellar"
+   data-label="Cellar"
+   x="440"
+   y="467"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-d2f9505f26b14ed0d5bb2924365c7aefe10a2140"
+   class="room indoor room-ctf-necropolis"
+   data-label="Necropolis"
+   x="440"
+   y="275"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-1019b6c54ec217363bea3128ad62ec7791b620a2"
+   class="room indoor room-ctf-chapel"
+   data-label="Chapel"
+   x="440"
+   y="323"
+   width="16"
+   height="16"
+   rx="2" />
+    <circle
+   id="room-e66db04281f47e45ac594c073c0a01c895e37858"
+   class="room outdoor room-ctf-pit"
+   data-label="Pit"
+   cx="448"
+   cy="235"
+   r="8" />
+    <rect
+   id="room-937c388d838596b012cb9d8e0c5eff78f180c324"
+   class="room indoor room-ctf-secret-passage"
+   data-label="Secret Passageway"
+   x="488"
+   y="179"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-e6c9df3630348b83ce7176156dcb8281f01c3fe1"
+   class="room indoor room-ctf-secret-passage"
+   data-label="Secret Passageway"
+   x="440"
+   y="131"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-04fb9c1c87d7d7e548b81e11b7e6d6b335613b8f"
+   class="room indoor room-ctf-hallway"
+   data-label="hallway"
+   x="155"
+   y="275"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-f66deb8c213a808e239d13ff7eca1b6180567b7a"
+   class="room indoor room-ctf-luxurious"
+   data-label="Luxurious Room"
+   x="107"
+   y="227"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-716a299008e3f90ef9eb03ef99efce1ea1371468"
+   class="room indoor room-ctf-hallway"
+   data-label="hallway"
+   x="107"
+   y="323"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-dc539b619e20acaecf9b99c71487f730606cdea2"
+   class="room indoor room-ctf-guard"
+   data-label="Guard Room"
+   x="59"
+   y="323"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-d23c03e61db9b59dee43d021da7b797d00b42433"
+   class="room indoor room-ctf-luxurious"
+   data-label="Luxurious Room"
+   x="155"
+   y="371"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-504b73349a7293e5926448d691055f4b7a7ba3f9"
+   class="room indoor room-ctf-hallway"
+   data-label="hallway"
+   x="59"
+   y="371"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-5d83e58d556414e2f00559acadc827515eb2e88b"
+   class="room indoor room-ctf-banquet"
+   data-label="banquet hall"
+   x="59"
+   y="419"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-891c681b433f31ebd2d8cb100d1cfb42fe939236"
+   class="room indoor room-ctf-banquet"
+   data-label="banquet hall"
+   x="107"
+   y="419"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-631f02f5be902cd225467c4d851730a161966572"
+   class="room indoor room-ctf-banquet"
+   data-label="banquet hall"
+   x="59"
+   y="467"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-53a1434f076e4255a9be059251d0c2fca0a7054d"
+   class="room indoor room-ctf-banquet"
+   data-label="banquet hall"
+   x="107"
+   y="467"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-c473bd2493f8864a1333f3d1c48fc8dc8cf104ea"
+   class="room indoor room-ctf-kitchen"
+   data-label="Kitchen"
+   x="155"
+   y="515"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-ed8f638d6fca744c2bb8a5b3e2b903daf4dc8755"
+   class="room indoor room-ctf-kitchen"
+   data-label="Kitchen"
+   x="155"
+   y="467"
+   width="16"
+   height="16"
+   rx="2" />
+    <circle
+   id="room-7d3a1fac8b2dde60f7b2224f03f4464805ffe05f"
+   class="room outdoor water"
+   data-label="Underwater Passageway"
+   cx="496"
+   cy="206"
+   r="4" />
+    <circle
+   id="room-400ad34f976b47da57950ffe9b1f744013f84fd1"
+   class="room outdoor water"
+   data-label="Underwater Passageway"
+   cx="496"
+   cy="216"
+   r="4" />
+    <rect
+   id="room-984d6e09525b6d95fb4509d0e16822446cc6d2ec"
+   class="room indoor room-ctf-underground"
+   data-label="Base 1"
+   x="536"
+   y="227"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-8bf48fe21304d022c7d207fd3aba993fd8c2156f"
+   class="room indoor room-ctf-courtyard"
+   data-label="Base 2"
+   x="347"
+   y="275"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-dc2bf8117940227015a2d30457d1f5bf6a2c548a"
+   class="room indoor room-ctf-prison"
+   data-label="Base 3"
+   x="203"
+   y="227"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-d5a63aed6a68cdbd81e8060adc1721db248e42c6"
+   class="room indoor room-ctf-secret-passage"
+   data-label="Base 4"
+   x="299"
+   y="179"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-a96637c8c6aec5aae8e6908aaf1c8a8c158e6253"
+   class="room indoor room-ctf-prison"
+   data-label="Base 5"
+   x="203"
+   y="83"
+   width="16"
+   height="16"
+   rx="2" />
+    <rect
+   id="room-f3a3cb2a1e64d80a500c6d9ccb8f58333c06cbc9"
+   class="room indoor room-ctf-prison"
+   data-label="Base 6"
+   x="299"
+   y="83"
+   width="16"
+   height="16"
+   rx="2" />
   </g><g
    id="layer-room-labels"><text
      xml:space="preserve"
