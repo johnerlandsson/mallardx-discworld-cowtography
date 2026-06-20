@@ -223,6 +223,7 @@ function startTshopAnim(svgEl, wrapEl) {
       ctx.globalAlpha = opacity * 0.75;
       ctx.lineWidth   = Math.max(0.5, p.speed * ctm.a * 0.4);
       ctx.beginPath();
+      // ctm.b/c (shear/rotation) are omitted — map SVGs are never rotated so ctm.b===ctm.c===0
       ctx.moveTo((CX + cos * prev)   * ctm.a + ctm.e - cr.left, (CY + sin * prev)   * ctm.d + ctm.f - cr.top);
       ctx.lineTo((CX + cos * p.dist) * ctm.a + ctm.e - cr.left, (CY + sin * p.dist) * ctm.d + ctm.f - cr.top);
       ctx.stroke();
