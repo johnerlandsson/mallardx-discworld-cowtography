@@ -2,6 +2,7 @@ import { rooms, maps, terrain } from "./data/rooms.js";
 import customRooms from "./data/room-custom.js";
 import { resolveRoom } from "./lookup.js";
 import { mapDidChange, headerText } from "./render.js";
+import { upperToGround, groundToUppers } from "./data/room-stacks.js";
 
 const data = { rooms: { ...rooms, ...customRooms }, maps, terrain };
 
@@ -59,6 +60,37 @@ $stairsToggle.addEventListener('click', () => {
   localStorage.setItem('cowtography.stairs', nowVisible ? '1' : '0');
 });
 
+// ─── Stack visibility ─────────────────────────────────────────────────────
+function setStackRoomVisible(svg, id, visible) {
+  const d = visible ? '' : 'none';
+  const roomEl = svg.querySelector(`#room-${CSS.escape(id)}`);
+  if (roomEl) {
+    roomEl.style.display = d;
+    const sib = roomEl.nextElementSibling;
+    if (sib?.classList.contains('room-type-label')) sib.style.display = d;
+  }
+  const stairEl = svg.querySelector(`#stair-${CSS.escape(id)}`);
+  if (stairEl) stairEl.style.display = d;
+}
+
+function updateStackVisibility(roomId) {
+  if (!currentSvg) return;
+  // Restore previous stacked group to defaults before applying new state.
+  if (currentStackGround) {
+    setStackRoomVisible(currentSvg, currentStackGround, true);
+    for (const u of groundToUppers[currentStackGround] ?? [])
+      setStackRoomVisible(currentSvg, u, false);
+    currentStackGround = null;
+  }
+  if (!roomId) return;
+  const ground = upperToGround[roomId];
+  if (ground) {
+    setStackRoomVisible(currentSvg, ground, false);
+    setStackRoomVisible(currentSvg, roomId, true);
+    currentStackGround = ground;
+  }
+}
+
 const SPECIAL_SCREENS = {
   unknown:   { title: "Unknown Location",  sub: "No map data for this room." },
   darkness:  { title: "Darkness",          sub: "You cannot see a thing."    },
@@ -74,6 +106,7 @@ let current        = null;  // { mapId, x, y, short, roomId } | null — GMCP-co
 let target         = null;  // { mapId, x, y, short, roomId } | null — predicted position
 let currentSvg     = null;  // <svg> element | null
 let routeRoomIds   = [];
+let currentStackGround = null;  // groundRoomId of the stack the player is currently inside, or null
 let libraryOverlay = null;  // { facing, distortion, orb } | null
 let lastKnownMapId = null;
 let displayedMapId = null;  // mapId of the SVG/canvas currently on screen
@@ -309,6 +342,7 @@ async function loadSvgMap(mapId, x, y) {
   const { default: svgText } = await import(`./maps/${meta.file.replace(".png", ".js")}`);
   if (gen !== loadGeneration) return;  // superseded by a later load
   target = null;  // prediction is map-specific; clear on map change
+  currentStackGround = null;
   clearContainer();
   const wrap = document.createElement("div");
   wrap.style.cssText = "position:absolute;inset:0;overflow:hidden;";
@@ -333,6 +367,11 @@ async function loadSvgMap(mapId, x, y) {
   displayedMapId = mapId;
   centerOnRoom(x, y);
   wireTooltip();
+  // Hide all upper-floor rooms on this map by default.
+  for (const [groundId, uppers] of Object.entries(groundToUppers)) {
+    if (!currentSvg.querySelector(`#room-${CSS.escape(groundId)}`)) continue;
+    for (const upperId of uppers) setStackRoomVisible(currentSvg, upperId, false);
+  }
 }
 
 function loadWorldDisc(x, y) {
@@ -431,6 +470,8 @@ function applyState() {
   currentSvg.querySelectorAll(".current, .target, .route").forEach(el => {
     el.classList.remove("current", "target", "route");
   });
+
+  updateStackVisibility(current?.roomId ?? null);
 
   const routeOverlay = _ensureOverlay(currentSvg, "sg-route-overlay");
   const posOverlay   = _ensureOverlay(currentSvg, "sg-pos-overlay");
