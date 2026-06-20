@@ -188,6 +188,7 @@ function startTshopAnim(svgEl, wrapEl) {
   canvas.style.cssText = "position:absolute;inset:0;pointer-events:none;z-index:-1;";
   wrapEl.insertBefore(canvas, wrapEl.firstChild);
   const particles = [];
+  const ctx = canvas.getContext("2d");
   const CX = 371, CY = 304;
   const HS_MAX = 80, HS_SPAWN = 0.35, HS_ACCEL = 1.015;
   const HS_FADE_OUT = 180, HS_MAX_DIST = 220;
@@ -197,7 +198,6 @@ function startTshopAnim(svgEl, wrapEl) {
     tshopAnim = requestAnimationFrame(frame);
     const cw = canvas.offsetWidth, ch = canvas.offsetHeight;
     if (canvas.width !== cw || canvas.height !== ch) { canvas.width = cw; canvas.height = ch; }
-    const ctx = canvas.getContext("2d");
     ctx.clearRect(0, 0, cw, ch);
     const ctm = svgEl.getScreenCTM();
     if (!ctm) return;
