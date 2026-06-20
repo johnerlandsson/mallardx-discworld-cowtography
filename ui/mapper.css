@@ -313,3 +313,5 @@ body {
 .streets-toggle:hover { background: color-mix(in srgb, var(--fg, #ddd) 30%, transparent); }
 .streets-toggle.off   { background: color-mix(in srgb, var(--fg, #ddd) 10%, transparent); }
 .streets-toggle.off:hover { background: color-mix(in srgb, var(--fg, #ddd) 20%, transparent); }
+
+.street-name { fill: color-mix(in srgb, var(--fg) 60%, var(--bg)); font-family: "Noto Sans", sans-serif; }
