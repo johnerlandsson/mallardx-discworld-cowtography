@@ -184,6 +184,7 @@ function stopLSpaceAnim() {
 
 function startTshopAnim(svgEl, wrapEl) {
   stopTshopAnim();
+  wrapEl.style.isolation = "isolate"; // create stacking context so canvas z-index:-1 sits behind SVG
   const canvas = document.createElement("canvas");
   canvas.style.cssText = "position:absolute;inset:0;pointer-events:none;z-index:-1;";
   wrapEl.insertBefore(canvas, wrapEl.firstChild);
