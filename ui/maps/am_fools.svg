@@ -211,7 +211,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-3967b71d0de19316b69e3571101afe151aae6635" class="room indoor" data-label="Fools&#x27; Guild Advancement Area" x="131" y="41" width="8" height="8" rx="2"/>
     <circle id="room-ced1bbe392ed9b20284b4e2687811a0dbcdbd095" class="room outdoor" data-label="pie range" cx="107" cy="101" r="4"/>
     <circle id="room-48e5e659f6684213e13cd0e7815d0585bc85ad81" class="room outdoor" data-label="southeast section of the Fools&#x27; Guild courtyard" cx="135" cy="129" r="4"/>
-    <rect id="room-d1e76bb061af474693d9bef098026b1c642f0d39" class="room indoor" data-label="receptionist&#x27;s office" x="131" y="153" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="135,154 132.5,159 137.5,159"/>
+    <rect id="room-d1e76bb061af474693d9bef098026b1c642f0d39" class="room indoor" data-label="receptionist&#x27;s office" x="131" y="153" width="8" height="8" rx="2"/>
     <rect id="room-c2186e0f506f4e3c442f0c887219f23d78c4be50" class="room indoor" data-label="office of Doctor Whiteface" x="131" y="181" width="8" height="8" rx="2"/>
     <circle id="room-0bd4eeb9729e8dc3cb177fe953be63fecfb6442c" class="room outdoor" data-label="northeast section of the Fools&#x27; Guild courtyard" cx="135" cy="73" r="4"/>
     <circle id="room-5d4102f60e875e1cdb41115ac1dabceedfe83841" class="room outdoor" data-label="north section of the Fools&#x27; Guild courtyard" cx="107" cy="73" r="4"/>
@@ -223,8 +223,13 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-25849c5afba9cc00dd9cb99cffc26946d01b5042" class="room outdoor" data-label="southwest section of the Fools&#x27; Guild courtyard" cx="79" cy="129" r="4"/>
     <rect id="room-a623e7a64746cf00d95189771f59ae094368af37" class="room indoor" data-label="Bouncy Normo Memorial Library" x="75" y="153" width="8" height="8" rx="2"/>
     <circle id="room-9dd1575ad185168351a7a4e271c9dfefdbe05318" class="room outdoor" data-label="southern section of the Fools&#x27; Guild courtyard" cx="107" cy="129" r="4"/>
-    <circle id="room-5036857ec5efa0be754c8bc0775f8e0f217ee43e" class="room outdoor" data-label="Fools&#x27; Guild clock tower" cx="192" cy="150" r="4"/><polygon class="stair-symbol" points="192,153 189.5,148 194.5,148"/>
+    <circle id="room-5036857ec5efa0be754c8bc0775f8e0f217ee43e" class="room outdoor" data-label="Fools&#x27; Guild clock tower" cx="192" cy="150" r="4"/>
     <rect id="room-e094f27114ac1068944d1694ea5e03bc2cf60c32" class="room indoor" data-label="barrel of a cannon" x="75" y="41" width="8" height="8" rx="2"/>
+  </g>
+
+  <g id="layer-stairs">
+    <polygon id="stair-d1e76bb061af474693d9bef098026b1c642f0d39" class="stair-symbol" points="135,154 132.5,159 137.5,159"/>
+    <polygon id="stair-5036857ec5efa0be754c8bc0775f8e0f217ee43e" class="stair-symbol" points="192,153 189.5,148 194.5,148"/>
   </g><g
      id="layer-room-labels" /><g
      id="layer-labels"><!-- labels --></g></svg>

@@ -211,7 +211,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-49d92a9de117843c348cce0d52d0dd99309c0ac8" class="room indoor room-shop" data-label="rickety stall" x="63" y="55" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="67" y="59" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-68c387d1c69b7e89da999ebbf8bc4a9d3d595f92" class="room outdoor" data-label="north end of Granite Street" cx="55" cy="75" r="4"/>
     <circle id="room-a23f2a5acd4c5f57617d551e012cd907699ea01c" class="room outdoor" data-label="south end of Granite Street" cx="55" cy="89" r="4"/>
-    <rect id="room-960fcf86a8751c922cbd4328e298188169491afe" class="room indoor" data-label="cottage" x="62" y="85" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="66,86 63.5,91 68.5,91"/>
+    <rect id="room-960fcf86a8751c922cbd4328e298188169491afe" class="room indoor" data-label="cottage" x="62" y="85" width="8" height="8" rx="2"/>
     <rect id="room-795b66503f2575895150d078cb8f42d7065fc38a" class="room indoor room-food" data-label="Beard and Badger" x="40" y="71" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="44" y="75" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-8f19a7ebbef505bb2e5803a318f3cff2bbe5b9b4" class="room outdoor green" data-label="garden of the Beard and Badger" cx="33" cy="75" r="4"/>
     <rect id="room-5971d2fff7558b7b9992832b15d4690389123f9d" class="room indoor" data-label="kitchen of the Beard and Badger" x="40" y="60" width="8" height="8" rx="2"/>
@@ -239,6 +239,10 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-226b431202e3a3ea0a4c300b289f15919bd77e95" class="room indoor" data-label="holy corridor" x="76" y="53" width="8" height="8" rx="2"/>
     <circle id="room-6a1f57c4aa89cd8ef1f3957ffd0b632186cfe387" class="room outdoor room-house" data-label="[player house]" cx="66" cy="89" r="4"/><text class="room-type-label" font-size="4.5" x="66" y="89" text-anchor="middle" dominant-baseline="central">H</text>
     <rect id="room-324b719668052bcfda759a1e8d6eebbb2e26bf65" class="room indoor room-house" data-label="[player house]" x="62" y="85" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="66" y="89" text-anchor="middle" dominant-baseline="central">H</text>
+  </g>
+
+  <g id="layer-stairs">
+    <polygon id="stair-960fcf86a8751c922cbd4328e298188169491afe" class="stair-symbol" points="66,86 63.5,91 68.5,91"/>
   </g><g
      id="layer-room-labels" /><g
      id="layer-labels"><!-- labels --></g></svg>

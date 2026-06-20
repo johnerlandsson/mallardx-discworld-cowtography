@@ -381,7 +381,7 @@ export function updateExistingSvg(existingSvg, mapMeta, rooms, exits, stairRooms
     `$1\n${stairShapes}\n  $3`
   )
   if (!svg.includes('id="layer-stairs"')) {
-    const re = /(\n[ \t]*<g[^>]*\bid="layer-rooms"[^>]*>[\s\S]*?<\/g>)/
+    const re = /(<g[^>]*\bid="layer-rooms"[^>]*>[\s\S]*?<\/g>)/
     if (re.test(svg)) {
       svg = svg.replace(re, `$1\n\n  <g id="layer-stairs">\n${stairShapes}\n  </g>`)
     } else {

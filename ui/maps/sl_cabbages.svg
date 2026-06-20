@@ -228,6 +228,10 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-931ad2b48e46f7e0d5ad9e21fbcc978bb403d9cd" class="room indoor" data-label="rafters high above the floor of a cabbage warehouse" x="225" y="246" width="8" height="8" rx="2"/>
     <rect id="room-64b31ad0f1ae7e59e3eff091352885bb534db323" class="room indoor" data-label="secret attic in the warehouse" x="273" y="318" width="8" height="8" rx="2"/>
   </g>
+
+  <g id="layer-stairs">
+
+  </g>
   <g
      id="layer-room-labels" />
   <g

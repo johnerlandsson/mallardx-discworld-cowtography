@@ -101,6 +101,10 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-97da4e4119cd9ad1db5465fbde9e70d66fb1ebb8" class="room outdoor green" data-label="desert island" cx="111" cy="11" r="4"/>
     <circle id="room-905a8aeba3eb28f8064c7a54e7a2d415d6d740b1" class="room outdoor green" data-label="desert island" cx="139" cy="39" r="4"/>
   </g>
+
+  <g id="layer-stairs">
+
+  </g>
   <g
      id="layer-room-labels">
     <text class="room-type-label" x="93.5" y="49.5" text-anchor="middle" dominant-baseline="central">T</text>

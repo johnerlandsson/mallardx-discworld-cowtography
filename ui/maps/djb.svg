@@ -2111,13 +2111,13 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-1b204eddba6cc6770c5ab2b79ddf34089e5fcc41" class="room indoor" data-label="southeastern corner of the main hall" x="413" y="68" width="8" height="8" rx="2"/>
     <rect id="room-88e1a946921526fcbac6b525f9800fd591d50437" class="room indoor" data-label="southwestern corner of the main hall" x="393" y="68" width="8" height="8" rx="2"/>
     <rect id="room-0dabe735d74885ce14e266d7cbe6c8ed8acb32d4" class="room indoor" data-label="northwestern corner of the main hall" x="393" y="58" width="8" height="8" rx="2"/>
-    <rect id="room-3b01d49420a963033cf4e0c617a1a9d5e828e009" class="room indoor" data-label="corridor with a staircase" x="383" y="58" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="387,59 384.5,64 389.5,64"/>
-    <rect id="room-0d230c2ec12aefd7c9d96348f6f670b7345b72ea" class="room indoor" data-label="corridor with a staircase" x="373" y="58" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="377,65 374.5,60 379.5,60"/>
+    <rect id="room-3b01d49420a963033cf4e0c617a1a9d5e828e009" class="room indoor" data-label="corridor with a staircase" x="383" y="58" width="8" height="8" rx="2"/>
+    <rect id="room-0d230c2ec12aefd7c9d96348f6f670b7345b72ea" class="room indoor" data-label="corridor with a staircase" x="373" y="58" width="8" height="8" rx="2"/>
     <rect id="room-5103b0edcef8f631ee969b967857008be6b3c620" class="room indoor" data-label="western end of a corridor in the palace" x="363" y="58" width="8" height="8" rx="2"/>
     <circle id="room-2a4e9cb4682bd9f3ce1ae4473cc774b18abac20d" class="room outdoor" data-label="northern end of the royal stable" cx="367" cy="73" r="4"/>
     <rect id="room-5ebafa2cb9f42501ab7603679f0ff9ea7e1e9c94" class="room indoor" data-label="southern end of the royal stable" x="363" y="80" width="8" height="8" rx="2"/>
     <rect id="room-740e318106e7b6c9bd6e2f963edee2d825256efa" class="room indoor" data-label="temple in the palace" x="373" y="48" width="8" height="8" rx="2"/>
-    <rect id="room-8f23991b7b3ada5f855d9200d0cf3a1bd5e76e90" class="room indoor" data-label="landing in the Palace" x="383" y="38" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="387,45 384.5,40 389.5,40"/>
+    <rect id="room-8f23991b7b3ada5f855d9200d0cf3a1bd5e76e90" class="room indoor" data-label="landing in the Palace" x="383" y="38" width="8" height="8" rx="2"/>
     <rect id="room-b16f1662f906ce090eb66f9ea09e19d9c99049c1" class="room indoor" data-label="complaints room" x="383" y="38" width="8" height="8" rx="2"/>
     <rect id="room-138ea789d7a097c9b5b2a28cc75357b4e9f7cdde" class="room indoor" data-label="luxurious room" x="383" y="38" width="8" height="8" rx="2"/>
     <rect id="room-fb1e348b7e9dc1c6f198515a9166f0a60f8e6b78" class="room indoor" data-label="plain room" x="383" y="38" width="8" height="8" rx="2"/>
@@ -2150,13 +2150,13 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-acd9f4fa7aecea56479f3229bbbd0713daf6e14b" class="room indoor" data-label="eastern end of the Hall of Warriors" x="796" y="164" width="8" height="8" rx="2"/>
     <rect id="room-c4a83568847ea647ac1c8c0e9b1902a75ba9fde8" class="room indoor" data-label="corridor" x="786" y="174" width="8" height="8" rx="2"/>
     <rect id="room-315be737f8676ba7f88e07f533363220b7b42a7d" class="room indoor" data-label="duty room" x="776" y="174" width="8" height="8" rx="2"/>
-    <rect id="room-f5390582884cc1def3c60a7250c36f9f6fbc81b6" class="room indoor" data-label="bottom of a staircase" x="796" y="174" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="800,175 797.5,180 802.5,180"/>
+    <rect id="room-f5390582884cc1def3c60a7250c36f9f6fbc81b6" class="room indoor" data-label="bottom of a staircase" x="796" y="174" width="8" height="8" rx="2"/>
     <rect id="room-5d70a146a4030594bc108f71f9d8fc78f6fabf2a" class="room indoor room-food" data-label="Djelian Champion bar" x="806" y="164" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="810" y="168" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-78ddf153482b6003e43388618e8f93564f1df1ff" class="room indoor" data-label="corridor" x="786" y="154" width="8" height="8" rx="2"/>
     <rect id="room-780b00a39490812ccfe170095fb62fa6f906c729" class="room indoor room-weapon" data-label="guild forge" x="786" y="144" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="790" y="148" text-anchor="middle" dominant-baseline="central">W</text>
     <rect id="room-e411366f3ff9c84b9cbb7ad75937b8f8aa562552" class="room indoor" data-label="Djelian Guard smithy" x="796" y="144" width="8" height="8" rx="2"/>
-    <rect id="room-ba78df0579a91e1d01f09179a162532b19c2aa06" class="room indoor" data-label="top of a spiral staircase" x="796" y="154" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="800,161 797.5,156 802.5,156"/>
-    <rect id="room-b129e486e76dd0c648adf6b6d310b71dfbcc4bfb" class="room indoor" data-label="bottom of a spiral staircase" x="806" y="124" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="810,125 807.5,130 812.5,130"/>
+    <rect id="room-ba78df0579a91e1d01f09179a162532b19c2aa06" class="room indoor" data-label="top of a spiral staircase" x="796" y="154" width="8" height="8" rx="2"/>
+    <rect id="room-b129e486e76dd0c648adf6b6d310b71dfbcc4bfb" class="room indoor" data-label="bottom of a spiral staircase" x="806" y="124" width="8" height="8" rx="2"/>
     <rect id="room-76baaedd4b31bb7e666d3fd8c0ed1a72ac2f8a76" class="room indoor" data-label="narrow passageway" x="796" y="124" width="8" height="8" rx="2"/>
     <rect id="room-c3fb28c20095d4764d828d836d9d3c257b3deb4c" class="room indoor" data-label="training room" x="796" y="134" width="8" height="8" rx="2"/>
     <rect id="room-285a65d776d3557788fa1c7d3a260b854878b67a" class="room indoor" data-label="narrow passageway" x="786" y="124" width="8" height="8" rx="2"/>
@@ -2176,19 +2176,19 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-40e1e8673c08444a57cb35000caff725585911b2" class="room outdoor" data-label="intersection of the Road of the Sun and Ibis Parade" cx="522" cy="229" r="4"/>
     <circle id="room-d7b72a94952624b58400371874957bb7c09d8a94" class="room outdoor" data-label="Ibis Parade near the Road of the Sun" cx="536" cy="243" r="4"/>
     <circle id="room-b4f9acafc652b00ed1d2d395726d42dee207991b" class="room outdoor" data-label="Ibis Parade approaching the Road of the Sun" cx="536" cy="257" r="4"/>
-    <rect id="room-075b7543348543c389d39ccd38247a59d00ac98a" class="room indoor" data-label="foyer" x="777" y="199" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="781,200 778.5,205 783.5,205"/>
+    <rect id="room-075b7543348543c389d39ccd38247a59d00ac98a" class="room indoor" data-label="foyer" x="777" y="199" width="8" height="8" rx="2"/>
     <rect id="room-dc676ba6ca601f7e57eb3f6f1def4ec79da32d53" class="room indoor" data-label="salon" x="791" y="199" width="8" height="8" rx="2"/>
     <rect id="room-fc13ceeb87c8c6f8d3a1d203baf93328c1a55c5c" class="room indoor" data-label="office" x="805" y="199" width="8" height="8" rx="2"/>
     <rect id="room-7962b0a88f4136058836ceeed1a4de28589d2ce4" class="room indoor" data-label="ladies&#x27; sitting room" x="805" y="213" width="8" height="8" rx="2"/>
-    <rect id="room-11999fc6b53d18064ec53967126004e94b52aa4e" class="room indoor" data-label="foyer" x="805" y="227" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="809,228 806.5,233 811.5,233"/>
+    <rect id="room-11999fc6b53d18064ec53967126004e94b52aa4e" class="room indoor" data-label="foyer" x="805" y="227" width="8" height="8" rx="2"/>
     <rect id="room-ae3842ba8d37abb7e7b7ac895340e6d0f4f40e97" class="room indoor" data-label="gentlemen&#x27;s sitting room" x="805" y="241" width="8" height="8" rx="2"/>
     <rect id="room-d1c234e51a1aa9f39278eba3ecae4db7eb73d65b" class="room indoor" data-label="bathing room" x="805" y="255" width="8" height="8" rx="2"/>
     <rect id="room-046d584cee373c467d96c397497ffd9497cc5463" class="room indoor" data-label="handmaiden&#x27;s room" x="791" y="255" width="8" height="8" rx="2"/>
-    <rect id="room-73cd76f78d857dbdaca3df1a2a6aea7e89598ceb" class="room indoor" data-label="handmaiden&#x27;s room" x="777" y="255" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="781,256 778.5,261 783.5,261"/>
+    <rect id="room-73cd76f78d857dbdaca3df1a2a6aea7e89598ceb" class="room indoor" data-label="handmaiden&#x27;s room" x="777" y="255" width="8" height="8" rx="2"/>
     <rect id="room-9e730348103071878d88e8e5bf61e4d75ffe08ce" class="room indoor" data-label="cook&#x27;s private quarters" x="763" y="255" width="8" height="8" rx="2"/>
     <rect id="room-a12d6d414ab79b9cb70e6175213e7679aa88801f" class="room indoor" data-label="kitchen" x="749" y="255" width="8" height="8" rx="2"/>
     <rect id="room-7ac521ba2713609abc7c0a7171517a05983e444a" class="room indoor" data-label="formal dining room" x="749" y="241" width="8" height="8" rx="2"/>
-    <circle id="room-ef895c814c7e0c0408133a20e36cd3d01285377c" class="room outdoor" data-label="patio" cx="753" cy="231" r="4"/><polygon class="stair-symbol" points="753,228 750.5,233 755.5,233"/>
+    <circle id="room-ef895c814c7e0c0408133a20e36cd3d01285377c" class="room outdoor" data-label="patio" cx="753" cy="231" r="4"/>
     <rect id="room-ec20690e1162a00ef64eff40795f1477841357d6" class="room indoor" data-label="private dining room" x="749" y="213" width="8" height="8" rx="2"/>
     <rect id="room-6e6abe0eb7df0904f2532d36e4d3a5836f34680f" class="room indoor" data-label="library" x="749" y="199" width="8" height="8" rx="2"/>
     <rect id="room-685a7cfd25c6a0857dce9a74b592416652bae2f6" class="room indoor" data-label="music room" x="763" y="199" width="8" height="8" rx="2"/>
@@ -2201,20 +2201,20 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-6202984c4d662216895a50056c9fb9fe6b227cc9" class="room outdoor green" data-label="edge of the pond" cx="781" cy="231" r="4"/>
     <circle id="room-c629d5fa8c4b6bde2729220a68b74362dc315224" class="room outdoor green" data-label="garden" cx="767" cy="231" r="4"/>
     <circle id="room-ac7c0afe1be011cfbda0f6e521ac5b583cc0031e" class="room outdoor green" data-label="garden" cx="767" cy="245" r="4"/>
-    <rect id="room-18a80352818fec449e783fd777d6ec1bbda36921" class="room indoor" data-label="upstairs hallway" x="880" y="227" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="884,234 881.5,229 886.5,229"/>
+    <rect id="room-18a80352818fec449e783fd777d6ec1bbda36921" class="room indoor" data-label="upstairs hallway" x="880" y="227" width="8" height="8" rx="2"/>
     <rect id="room-6335209f7382ee72baff7256c5fb62ab9ada290d" class="room indoor" data-label="conservatory" x="880" y="213" width="8" height="8" rx="2"/>
     <rect id="room-2a7768fa86ce8729af09aa7c1aa74b39a32e4a5b" class="room indoor" data-label="bedroom" x="880" y="199" width="8" height="8" rx="2"/>
     <rect id="room-78114db527f636d64a04dfbc9a2f09179fac6be6" class="room indoor" data-label="bedroom" x="866" y="199" width="8" height="8" rx="2"/>
-    <rect id="room-53e389029ef33f58be0c171a0538cd29a83afb67" class="room indoor" data-label="upstairs hallway" x="852" y="199" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="856,206 853.5,201 858.5,201"/>
+    <rect id="room-53e389029ef33f58be0c171a0538cd29a83afb67" class="room indoor" data-label="upstairs hallway" x="852" y="199" width="8" height="8" rx="2"/>
     <rect id="room-d41bd93679055c3119036e658de813bb1c6b06e4" class="room indoor" data-label="sewing room" x="838" y="199" width="8" height="8" rx="2"/>
     <rect id="room-ae026fed9f0df084f8b3db6bf778ab0fce3e3be7" class="room indoor" data-label="lady&#x27;s bedroom" x="824" y="199" width="8" height="8" rx="2"/>
     <rect id="room-6b96e992659f0e877f997a451983e4f00e84e986" class="room indoor" data-label="dressing room" x="824" y="213" width="8" height="8" rx="2"/>
-    <circle id="room-60929a978aaf9faf1997a2d00eaf683fc2d993ef" class="room outdoor" data-label="balcony" cx="828" cy="231" r="4"/><polygon class="stair-symbol" points="828,234 825.5,229 830.5,229"/>
+    <circle id="room-60929a978aaf9faf1997a2d00eaf683fc2d993ef" class="room outdoor" data-label="balcony" cx="828" cy="231" r="4"/>
     <rect id="room-099ff53de8d2fbf3f20260810aa9f40a9e7fe2f8" class="room indoor" data-label="dressing room" x="824" y="241" width="8" height="8" rx="2"/>
     <rect id="room-58d710a830cfca9668be313c5f2dcb6242f870f5" class="room indoor" data-label="master bedroom" x="824" y="255" width="8" height="8" rx="2"/>
-    <rect id="room-56c2833a9affb29f70d9e03e8255ac60a57a5d7d" class="room indoor" data-label="empty room" x="838" y="255" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="842,256 839.5,261 844.5,261"/>
-    <rect id="room-8eb244628e5671795dda195f2777cef7fcc60ed5" class="room indoor" data-label="mews" x="838" y="241" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="842,248 839.5,243 844.5,243"/>
-    <circle id="room-9d7e05fa1efb9491a97fd5a6add3602728f38267" class="room outdoor" data-label="balcony" cx="856" cy="259" r="4"/><polygon class="stair-symbol" points="856,262 853.5,257 858.5,257"/>
+    <rect id="room-56c2833a9affb29f70d9e03e8255ac60a57a5d7d" class="room indoor" data-label="empty room" x="838" y="255" width="8" height="8" rx="2"/>
+    <rect id="room-8eb244628e5671795dda195f2777cef7fcc60ed5" class="room indoor" data-label="mews" x="838" y="241" width="8" height="8" rx="2"/>
+    <circle id="room-9d7e05fa1efb9491a97fd5a6add3602728f38267" class="room outdoor" data-label="balcony" cx="856" cy="259" r="4"/>
     <rect id="room-c87e1ea30d2be53d6264382827321bcd59d48341" class="room indoor" data-label="bedroom" x="866" y="255" width="8" height="8" rx="2"/>
     <rect id="room-9af54374cd9025b45aa787eb8cdc15d184eae345" class="room indoor" data-label="upstairs sitting room" x="880" y="255" width="8" height="8" rx="2"/>
     <rect id="room-036365413ce4bf8c05c631ab86ba664df2f685d3" class="room indoor" data-label="bedroom" x="880" y="241" width="8" height="8" rx="2"/>
@@ -2284,8 +2284,8 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-327b3e92831cfb60fa39e1b7acc23343001f2536" class="room indoor" data-label="Ptaclusp associates hall" x="305" y="267" width="8" height="8" rx="2"/>
     <rect id="room-8984baa23ffa163b3621882879d2088df8972453" class="room indoor" data-label="Ptaclusp associates living room" x="305" y="267" width="8" height="8" rx="2"/>
     <rect id="room-160b0e7fb8417b89384fc1cbe5446c4c85bf03ae" class="room indoor" data-label="Ptaclusp associates kitchen" x="305" y="267" width="8" height="8" rx="2"/>
-    <rect id="room-e97575e23723c153550de46412baa52393648167" class="room indoor" data-label="Ptaclusp associates hall" x="305" y="267" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="309,268 306.5,273 311.5,273"/>
-    <rect id="room-eeb5af44176e4cc2ab058ca37057a18438294234" class="room indoor" data-label="Ptaclusp associates landing" x="305" y="267" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="309,274 306.5,269 311.5,269"/>
+    <rect id="room-e97575e23723c153550de46412baa52393648167" class="room indoor" data-label="Ptaclusp associates hall" x="305" y="267" width="8" height="8" rx="2"/>
+    <rect id="room-eeb5af44176e4cc2ab058ca37057a18438294234" class="room indoor" data-label="Ptaclusp associates landing" x="305" y="267" width="8" height="8" rx="2"/>
     <rect id="room-0a91fd34fc626ca177075bb5eaed25608079c416" class="room indoor" data-label="Ptaclusp IIb&#x27;s bedroom" x="305" y="267" width="8" height="8" rx="2"/>
     <rect id="room-8f6f41339fbc53950920469feff7cee82bd32d40" class="room indoor" data-label="Ptaclusp IIa&#x27;s bedroom" x="305" y="267" width="8" height="8" rx="2"/>
     <rect id="room-a4b3bdb1967cc081c3d80b2ca32ec6fdf0e08f8e" class="room indoor" data-label="Ptaclusp&#x27;s bedroom" x="305" y="267" width="8" height="8" rx="2"/>
@@ -2353,10 +2353,10 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-12c9f85bdb5aa62409b208c213027828c848096d" class="room outdoor" data-label="junction of the Road of the Sun and Scarab Walk" cx="592" cy="285" r="4"/>
     <circle id="room-f06485a46fc060dd6f146f1082fbca4c5fb278f4" class="room outdoor" data-label="Road of the Sun" cx="592" cy="271" r="4"/>
     <circle id="room-bfc6d34b417260bcab730fbbcf4a12dbc8b6c915" class="room outdoor" data-label="Road of the Sun" cx="578" cy="257" r="4"/>
-    <rect id="room-ffc3c73c9e526362fa6d0ac070e06eb82d87e88a" class="room indoor" data-label="rather neat looking living room" x="563" y="253" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="567,254 564.5,259 569.5,259"/>
+    <rect id="room-ffc3c73c9e526362fa6d0ac070e06eb82d87e88a" class="room indoor" data-label="rather neat looking living room" x="563" y="253" width="8" height="8" rx="2"/>
     <rect id="room-53d692b9a5b646e8b082edcd99ce26f55270ce73" class="room indoor" data-label="bedroom" x="563" y="253" width="8" height="8" rx="2"/>
     <rect id="room-be11a9ff2228549ccc374dbae0d762bc7b1bfcb0" class="room indoor" data-label="immaculately clean kitchen" x="563" y="253" width="8" height="8" rx="2"/>
-    <circle id="room-ecc2f0dacdd9ddce39ba7ca87dfb25ccbd9f915a" class="room outdoor" data-label="roof of a house" cx="567" cy="257" r="4"/><polygon class="stair-symbol" points="567,260 564.5,255 569.5,255"/>
+    <circle id="room-ecc2f0dacdd9ddce39ba7ca87dfb25ccbd9f915a" class="room outdoor" data-label="roof of a house" cx="567" cy="257" r="4"/>
     <circle id="room-fcd0a740ae361c26ce2c4599943f39ac488c0a6c" class="room outdoor" data-label="Road of the Sun" cx="578" cy="243" r="4"/>
     <circle id="room-1cd5b4a2b0224790c74512ad367f5822c2d65882" class="room outdoor" data-label="Road of the Sun" cx="564" cy="229" r="4"/>
     <circle id="room-5210d506e5ab5698f63dad94a06cb02d9958efb1" class="room outdoor" data-label="Road of the Sun" cx="550" cy="215" r="4"/>
@@ -2405,9 +2405,9 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-bae3ae4e25b6758817814b1bb4c69842607b729e" class="room indoor room-pshop" data-label="[player shop]" x="487" y="407" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="491" y="411" text-anchor="middle" dominant-baseline="central">P</text>
     <circle id="room-267a1e0b26795f7a67211c71c9b265c35f306aae" class="room outdoor" data-label="eastern side of the east bazaar" cx="480" cy="397" r="4"/>
     <circle id="room-cd288cae38a7bad77691cd26763d687e10bb4937" class="room outdoor" data-label="northeastern corner of the east bazaar" cx="480" cy="383" r="4"/>
-    <rect id="room-c77e2cfa1dff2569b09e74decbb16bc0d488206f" class="room indoor" data-label="language school foyer" x="487" y="379" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="491,380 488.5,385 493.5,385"/>
+    <rect id="room-c77e2cfa1dff2569b09e74decbb16bc0d488206f" class="room indoor" data-label="language school foyer" x="487" y="379" width="8" height="8" rx="2"/>
     <rect id="room-c1c1ba854b45b3fc0cf73e05fac9e32644382418" class="room indoor" data-label="teacher&#x27;s lounge" x="487" y="379" width="8" height="8" rx="2"/>
-    <rect id="room-6405556eb1b7220087dafe3e22cf2b0bf2ed2556" class="room indoor" data-label="student lounge" x="487" y="379" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="491,386 488.5,381 493.5,381"/>
+    <rect id="room-6405556eb1b7220087dafe3e22cf2b0bf2ed2556" class="room indoor" data-label="student lounge" x="487" y="379" width="8" height="8" rx="2"/>
     <rect id="room-d6f5c1911d8ca682e8f7b50ac42976129c340a0a" class="room indoor" data-label="Ephebian classroom" x="487" y="379" width="8" height="8" rx="2"/>
     <rect id="room-95a13952076b649aae5f569a7756fabefc5ebce1" class="room indoor" data-label="Klatchian classroom" x="487" y="379" width="8" height="8" rx="2"/>
     <rect id="room-ba1311a3625efc61c9e0d43b8e2af73542781bef" class="room indoor" data-label="Djelian classroom" x="487" y="379" width="8" height="8" rx="2"/>
@@ -2419,7 +2419,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-7a2aa4bee2034787e343ff3e1e8962b83f103f0d" class="room outdoor" data-label="Phoenix Road outside the Post Office" cx="494" cy="369" r="4"/>
     <rect id="room-8996c145b1b02f540f510abc850d8d952ca26b33" class="room indoor room-food" data-label="Djelibeybi Post Office" x="490" y="354" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="494" y="358" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-535a80d552e65c4e6a3e9a7e9d5e5c10adcccc16" class="room indoor" data-label="mailing booth" x="490" y="354" width="8" height="8" rx="2"/>
-    <rect id="room-84ee197c8d603cb5d55c687428eb48a241be662d" class="room indoor" data-label="Djelian Parcel Department" x="490" y="354" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="494,361 491.5,356 496.5,356"/>
+    <rect id="room-84ee197c8d603cb5d55c687428eb48a241be662d" class="room indoor" data-label="Djelian Parcel Department" x="490" y="354" width="8" height="8" rx="2"/>
     <circle id="room-bab8a8a3a5d2e10b1ad71d547652146bc5c21979" class="room outdoor" data-label="Phoenix Road&#x27;s residential area" cx="508" cy="369" r="4"/>
     <circle id="room-0f586a3f7dba7fdabaa17bcf86b041b96863b1db" class="room outdoor" data-label="Phoenix Road" cx="522" cy="369" r="4"/>
     <circle id="room-2f0e60f4061ecc4a7bd88edafc28b45bace7d2e0" class="room outdoor" data-label="Phoenix Road outside Merk&#x27;s" cx="536" cy="369" r="4"/>
@@ -2454,7 +2454,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-174d2ac91ce4aa3b553b4f53f88326c7a5b9493a" class="room indoor" data-label="Klatchian Continental Bank" x="420" y="354" width="8" height="8" rx="2"/>
     <circle id="room-388850f565d215855886d8cbefce7911d1b21313" class="room outdoor" data-label="Market Street overlooking the bazaar" cx="410" cy="369" r="4"/>
     <rect id="room-8c51f7ed297cf5ab7bceef02f36de9b98164fce2" class="room indoor room-shop" data-label="Lip-Bahm&#x27;s Cosy House" x="406" y="354" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="410" y="358" text-anchor="middle" dominant-baseline="central">S</text>
-    <rect id="room-1ceda6e79f511b79c33fcb4d7cd94bebe5ff1b15" class="room indoor" data-label="dusty attic" x="413" y="345" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="417,352 414.5,347 419.5,347"/>
+    <rect id="room-1ceda6e79f511b79c33fcb4d7cd94bebe5ff1b15" class="room indoor" data-label="dusty attic" x="413" y="345" width="8" height="8" rx="2"/>
     <circle id="room-dc901483b6eb1af50d1fcd831f3c38a6773c0532" class="room outdoor" data-label="northern side of the west bazaar" cx="410" cy="383" r="4"/>
     <circle id="room-e06583ec49edb5350abc913725fa32d1ffbb6175" class="room outdoor" data-label="centre of the west bazaar" cx="410" cy="397" r="4"/>
     <rect id="room-56ba1880f2b21941ec9a216de65f1a6e2319d03d" class="room indoor" data-label="sacred Shrine" x="406" y="393" width="8" height="8" rx="2"/>
@@ -2472,13 +2472,13 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-27d355febb4d1d995e09782a5c36ff2acd02f574" class="room outdoor" data-label="Temple Street" cx="410" cy="327" r="4"/>
     <circle id="room-8071fb32f95a7202a41232d510acc7cc3c542a11" class="room outdoor" data-label="Piety Walk" cx="396" cy="341" r="4"/>
     <circle id="room-39a1e8fcf9747acaf75f2420935d95085465fc1b" class="room outdoor" data-label="Piety Walk" cx="396" cy="355" r="4"/>
-    <rect id="room-3df941a90fa4539e66e42758099e35887e6eeed1" class="room indoor" data-label="dark, dingy space just off Piety Walk" x="403" y="343" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="407,344 404.5,349 409.5,349"/>
+    <rect id="room-3df941a90fa4539e66e42758099e35887e6eeed1" class="room indoor" data-label="dark, dingy space just off Piety Walk" x="403" y="343" width="8" height="8" rx="2"/>
     <circle id="room-199b2bf895db1c0225f7a5ddc0483a190697e227" class="room outdoor room-food" data-label="The Sandy Hole" cx="407" cy="347" r="4"/><text class="room-type-label" font-size="4.5" x="407" y="347" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-7e3ebb0e6d53b2d8a2f7401ea97d5c9a3136c482" class="room outdoor" data-label="Temple Street" cx="396" cy="313" r="4"/>
     <rect id="room-ebdc21f702d64b0b9ffaca6882578cddf78eaa93" class="room indoor" data-label="entrance to the Temple of Hat" x="63" y="308" width="8" height="8" rx="2"/>
     <rect id="room-65426242c536871c04f66229dffe921ccc02fee3" class="room indoor" data-label="party in the temple of Hat" x="63" y="297" width="8" height="8" rx="2"/>
-    <rect id="room-283715fdaa782d2a7af028fc693d0d18d1f416bf" class="room indoor" data-label="stairwell" x="74" y="297" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="78,298 75.5,303 80.5,303"/>
-    <circle id="room-c05a8427566963d4d123752a60a076e76b2869e9" class="room outdoor" data-label="roof of the temple of Hat" cx="79" cy="266" r="4"/><polygon class="stair-symbol" points="79,269 76.5,264 81.5,264"/>
+    <rect id="room-283715fdaa782d2a7af028fc693d0d18d1f416bf" class="room indoor" data-label="stairwell" x="74" y="297" width="8" height="8" rx="2"/>
+    <circle id="room-c05a8427566963d4d123752a60a076e76b2869e9" class="room outdoor" data-label="roof of the temple of Hat" cx="79" cy="266" r="4"/>
     <circle id="room-46ef49dda2cf6fe06cbd7bfda1b8966aaf47efc8" class="room outdoor" data-label="large vulture nest" cx="67" cy="266" r="4"/>
     <circle id="room-503c1aac7c05105a5268b8940f7d2e63c7756845" class="room outdoor" data-label="large vulture nest" cx="55" cy="266" r="4"/>
     <circle id="room-19ecf5024f4bae5afff64648d4bd6d687b9bec08" class="room outdoor room-food" data-label="large vulture nest" cx="55" cy="254" r="4"/><text class="room-type-label" font-size="4.5" x="55" y="254" text-anchor="middle" dominant-baseline="central">F</text>
@@ -2525,7 +2525,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-3241ee8dea187874cd15dd7038816d4c50797f9e" class="room indoor" data-label="high altar" x="156" y="339" width="8" height="8" rx="2"/>
     <rect id="room-e74ed6de12d38979336a41a82ab0b736c95a25f6" class="room indoor room-shop" data-label="large shop" x="167" y="339" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="171" y="343" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-b416e96838a5b9ff6ce18c82c4d0d288caf262e5" class="room outdoor" data-label="Market Street, north of Guild of Embalmers and Allied Trades" cx="368" cy="355" r="4"/>
-    <rect id="room-ae47bc4f84fa77b823c93f81723f36d29b8e4df0" class="room indoor" data-label="reception foyer" x="93" y="183" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="97,190 94.5,185 99.5,185"/>
+    <rect id="room-ae47bc4f84fa77b823c93f81723f36d29b8e4df0" class="room indoor" data-label="reception foyer" x="93" y="183" width="8" height="8" rx="2"/>
     <rect id="room-ea339b022b59880b3a9312ebf433bcb90f125657" class="room indoor" data-label="reception corridor" x="82" y="183" width="8" height="8" rx="2"/>
     <circle id="room-3f545320010e36a11d9a319115d6079af50e279a" class="room outdoor" data-label="middle of Market Street" cx="382" cy="369" r="4"/>
     <rect id="room-02b6ae2589b52df023cea5ac3921a67b13c58ae1" class="room indoor" data-label="Djelibeybi Real Estate Agency" x="368" y="375" width="8" height="8" rx="2"/>
@@ -2597,32 +2597,32 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-2b91ca55314f5114bfc6873dec672b2e0e6b518f" class="room indoor" data-label="seating area near the dance floor" x="321" y="553" width="8" height="8" rx="2"/>
     <rect id="room-50f4942833f7fbe77b29742187afe90c99d6dd12" class="room indoor room-food" data-label="bar in the Fez Club" x="333" y="565" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="337" y="569" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-7cd38e60f16a0c7b4cbd0fc13bfcdffc87f95d59" class="room indoor" data-label="dance floor in the Fez Club" x="321" y="565" width="8" height="8" rx="2"/>
-    <rect id="room-0f6001bc21ee70479938818ed824a40b39a05988" class="room indoor" data-label="upper floor of the Fez Club" x="311" y="565" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="315,572 312.5,567 317.5,567"/>
+    <rect id="room-0f6001bc21ee70479938818ed824a40b39a05988" class="room indoor" data-label="upper floor of the Fez Club" x="311" y="565" width="8" height="8" rx="2"/>
     <rect id="room-aee8ec62326401790e9dbe1414a7341ddaa1416b" class="room indoor" data-label="in the Fez Club" x="311" y="553" width="8" height="8" rx="2"/>
     <rect id="room-7bb0e9708628d607f5d9139d8a70c1fc15b2cc2c" class="room indoor" data-label="quiet corner in the Fez Club" x="299" y="565" width="8" height="8" rx="2"/>
     <circle id="room-501b1bc1edf1d86dd81b0dac7f2d44665e9793f9" class="room outdoor" data-label="roof terrace at the Fez Club" cx="303" cy="556" r="4"/>
-    <rect id="room-f2b83918b4e325fed63c38679ed50ee271cee1e5" class="room indoor" data-label="ground floor of a gatehouse" x="420" y="505" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="424,506 421.5,511 426.5,511"/>
+    <rect id="room-f2b83918b4e325fed63c38679ed50ee271cee1e5" class="room indoor" data-label="ground floor of a gatehouse" x="420" y="505" width="8" height="8" rx="2"/>
     <rect id="room-8a1f8521004be01627fb8f6cbd2f17a8f309ae5e" class="room indoor" data-label="dormitory of a gatehouse" x="408" y="505" width="8" height="8" rx="2"/>
-    <rect id="room-f3e2206576198d568ca302753d93062bf606db13" class="room indoor" data-label="ground floor of a gatehouse" x="448" y="505" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="452,506 449.5,511 454.5,511"/>
+    <rect id="room-f3e2206576198d568ca302753d93062bf606db13" class="room indoor" data-label="ground floor of a gatehouse" x="448" y="505" width="8" height="8" rx="2"/>
     <rect id="room-aac6a7b833871d5822068227b7fb208ae26bb9b6" class="room indoor" data-label="dormitory of a gatehouse" x="460" y="505" width="8" height="8" rx="2"/>
-    <rect id="room-fd36e03680bad1da2d940e8c2762a2a805ae9cbd" class="room indoor" data-label="gate control of a gatehouse" x="448" y="523" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="452,524 449.5,529 454.5,529"/>
+    <rect id="room-fd36e03680bad1da2d940e8c2762a2a805ae9cbd" class="room indoor" data-label="gate control of a gatehouse" x="448" y="523" width="8" height="8" rx="2"/>
     <circle id="room-2ee610095e8a6d324371a4f9853a5b96782e11fe" class="room outdoor" data-label="look-out post of the gatehouse" cx="452" cy="536" r="4"/>
     <rect id="room-60fe7720ceb89b809bf5837a21c77104f603c6b3" class="room indoor" data-label="top floor of a gatehouse" x="448" y="541" width="8" height="8" rx="2"/>
     <circle id="room-2fdf84f3d175704c8f96928a4847178851e0847e" class="room outdoor" data-label="above the Ephebe Gate" cx="438" cy="545" r="4"/>
-    <rect id="room-91b96103d5a0088afd25bc21d85a5bf66d9baffa" class="room indoor" data-label="top floor of a gatehouse" x="420" y="541" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="424,548 421.5,543 426.5,543"/>
-    <rect id="room-54758c151084ca836eb5e7f9f3ab5b968eea7e58" class="room indoor" data-label="gate control of a gatehouse" x="420" y="523" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="424,530 421.5,525 426.5,525"/>
+    <rect id="room-91b96103d5a0088afd25bc21d85a5bf66d9baffa" class="room indoor" data-label="top floor of a gatehouse" x="420" y="541" width="8" height="8" rx="2"/>
+    <rect id="room-54758c151084ca836eb5e7f9f3ab5b968eea7e58" class="room indoor" data-label="gate control of a gatehouse" x="420" y="523" width="8" height="8" rx="2"/>
     <circle id="room-4b0c4b15a5d7d3b4f48fa4ede93519a6040c2131" class="room outdoor" data-label="look-out post of the gatehouse" cx="424" cy="536" r="4"/>
     <circle id="room-bc27e8c0f9d277d4886783004169ccf2477d72fd" class="room outdoor" data-label="Djelibeybi road" cx="674" cy="397" r="4"/>
-    <rect id="room-195acec9d0ee41415d6040eadebe2f6e981a52cd" class="room indoor" data-label="ground floor of a gatehouse" x="616" y="379" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="620,380 617.5,385 622.5,385"/>
+    <rect id="room-195acec9d0ee41415d6040eadebe2f6e981a52cd" class="room indoor" data-label="ground floor of a gatehouse" x="616" y="379" width="8" height="8" rx="2"/>
     <rect id="room-6a4fddb3cb008c61fb0384e8ec0eed2971d7fe4c" class="room indoor" data-label="dormitory of a gatehouse" x="616" y="367" width="8" height="8" rx="2"/>
-    <rect id="room-31a178a77d83baba9baaab646da90f52ef06acfb" class="room indoor" data-label="ground floor of a gatehouse" x="616" y="407" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="620,408 617.5,413 622.5,413"/>
+    <rect id="room-31a178a77d83baba9baaab646da90f52ef06acfb" class="room indoor" data-label="ground floor of a gatehouse" x="616" y="407" width="8" height="8" rx="2"/>
     <rect id="room-0df4843f03bb319e6ece258dcc2d4db051f1619c" class="room indoor" data-label="dormitory of a gatehouse" x="616" y="419" width="8" height="8" rx="2"/>
-    <rect id="room-562a11fde16e56cfb729ec29ba7ed77eef7b52f2" class="room indoor" data-label="gate control of a gatehouse" x="634" y="407" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="638,408 640.5,411 638,414 635.5,411"/>
+    <rect id="room-562a11fde16e56cfb729ec29ba7ed77eef7b52f2" class="room indoor" data-label="gate control of a gatehouse" x="634" y="407" width="8" height="8" rx="2"/>
     <circle id="room-9189a06d9e890f2bcdae6cb09a8b25cc5fe5035a" class="room outdoor" data-label="look-out post of the gatehouse" cx="647" cy="411" r="4"/>
-    <rect id="room-2de86a62c9c3fe082fe69211066c116b9a496638" class="room indoor" data-label="top floor of a gatehouse" x="652" y="407" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="656,414 653.5,409 658.5,409"/>
+    <rect id="room-2de86a62c9c3fe082fe69211066c116b9a496638" class="room indoor" data-label="top floor of a gatehouse" x="652" y="407" width="8" height="8" rx="2"/>
     <circle id="room-66e314a31288216e0e0a670b69bef95c7956ee0c" class="room outdoor" data-label="top of the Harbour Gate" cx="656" cy="397" r="4"/>
-    <rect id="room-79b5b844e23b2241ae94c61a40eaf6b9eb143799" class="room indoor" data-label="top floor of a gatehouse" x="652" y="379" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="656,386 653.5,381 658.5,381"/>
-    <rect id="room-dfd0ed52b9d65fd4200baa8afabb003a372c1e7f" class="room indoor" data-label="gate control of a gatehouse" x="634" y="379" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="638,380 640.5,383 638,386 635.5,383"/>
+    <rect id="room-79b5b844e23b2241ae94c61a40eaf6b9eb143799" class="room indoor" data-label="top floor of a gatehouse" x="652" y="379" width="8" height="8" rx="2"/>
+    <rect id="room-dfd0ed52b9d65fd4200baa8afabb003a372c1e7f" class="room indoor" data-label="gate control of a gatehouse" x="634" y="379" width="8" height="8" rx="2"/>
     <circle id="room-864d320a208e58c235cc3e23a0be97809df43013" class="room outdoor" data-label="look-out post of the gatehouse" cx="647" cy="383" r="4"/>
     <circle id="room-9b94518d0be0e50811a0610e5862fd631487dc74" class="room outdoor" data-label="Djelibeybi road" cx="764" cy="428" r="4"/>
     <circle id="room-1a98ad51da8a7dc72174ca33e86c4c4c04335181" class="room outdoor" data-label="Harbour Road" cx="778" cy="428" r="4"/>
@@ -2641,8 +2641,8 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-d34314ac28065ecafcbebd1d9ac91810d7c9dd48" class="room outdoor" data-label="Quayside" cx="820" cy="372" r="4"/>
     <circle id="room-9c307cc36ea57a8476ccc2d996781ea4d2143771" class="room outdoor" data-label="pier" cx="820" cy="358" r="4"/>
     <circle id="room-da6ef32170fc4e54fb57be90a0486385302c9843" class="room outdoor" data-label="pier" cx="820" cy="344" r="4"/>
-    <circle id="room-a069023d2f77ca45ab4bb7fa4f5d399449673e6f" class="room outdoor" data-label="deck of the &#x27;Brazen Mermaid&#x27;" cx="831" cy="344" r="4"/><polygon class="stair-symbol" points="831,347 828.5,342 833.5,342"/>
-    <rect id="room-4ba9dc7cf9641eef897368043d07c6e80cdd2c86" class="room indoor" data-label="hold of the &#x27;Brazen Mermaid&#x27;" x="827" y="340" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="831,341 828.5,346 833.5,346"/>
+    <circle id="room-a069023d2f77ca45ab4bb7fa4f5d399449673e6f" class="room outdoor" data-label="deck of the &#x27;Brazen Mermaid&#x27;" cx="831" cy="344" r="4"/>
+    <rect id="room-4ba9dc7cf9641eef897368043d07c6e80cdd2c86" class="room indoor" data-label="hold of the &#x27;Brazen Mermaid&#x27;" x="827" y="340" width="8" height="8" rx="2"/>
     <rect id="room-d74aacec4705f634c4b8109daf2d19c81b24ca96" class="room indoor" data-label="galley of the &#x27;Brazen Mermaid&#x27;" x="827" y="340" width="8" height="8" rx="2"/>
     <rect id="room-b103f5d62ee8519054a3f1e52b8fb13034444667" class="room indoor" data-label="quarters of the crew on the &#x27;Brazen Mermaid&#x27;" x="827" y="340" width="8" height="8" rx="2"/>
     <rect id="room-55fca67ffb1c89a84843ef8b9ac716f4a0cac6db" class="room indoor" data-label="captain&#x27;s cabin" x="827" y="340" width="8" height="8" rx="2"/>
@@ -2654,8 +2654,8 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-65a69125ec8c6190354e5feb550c1fcc63648ece" class="room outdoor" data-label="Quayside" cx="876" cy="372" r="4"/>
     <circle id="room-40d21ab4933ccba65dfe938f69287b1eb341ccae" class="room outdoor" data-label="pier" cx="848" cy="358" r="4"/>
     <circle id="room-6a9707eb47201e3bc714ee4efcd3c6989248990f" class="room outdoor" data-label="pier" cx="848" cy="344" r="4"/>
-    <circle id="room-e3059c3db530ef9c6c239fe6dbf1f77a5e680731" class="room outdoor" data-label="deck of Morgoin&#x27;s Foil" cx="859" cy="344" r="4"/><polygon class="stair-symbol" points="859,347 856.5,342 861.5,342"/>
-    <rect id="room-89ee929a6aa7baabfbc6055cb04d204fe87639be" class="room indoor" data-label="hold of Morgoin&#x27;s Foil" x="855" y="340" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="859,341 856.5,346 861.5,346"/>
+    <circle id="room-e3059c3db530ef9c6c239fe6dbf1f77a5e680731" class="room outdoor" data-label="deck of Morgoin&#x27;s Foil" cx="859" cy="344" r="4"/>
+    <rect id="room-89ee929a6aa7baabfbc6055cb04d204fe87639be" class="room indoor" data-label="hold of Morgoin&#x27;s Foil" x="855" y="340" width="8" height="8" rx="2"/>
     <rect id="room-731c534e04ecf5cf2bd6025cd8bb2ab870b132b1" class="room indoor" data-label="cabin of Morgoin&#x27;s foil" x="855" y="340" width="8" height="8" rx="2"/>
     <rect id="room-497f572a83b9b2c8801fcffff69644170043dfe9" class="room indoor" data-label="warehouse" x="844" y="382" width="8" height="8" rx="2"/>
     <circle id="room-bf87a3a68cbc334c6e02e41af45498a185df1780" class="room outdoor" data-label="Riverwalk" cx="848" cy="400" r="4"/>
@@ -2733,17 +2733,17 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-3891fcb2511ed7edfa48be870a112106f2d4c762" class="room outdoor" data-label="wall" cx="252" cy="443" r="4"/>
     <circle id="room-b4a5456ee19dd2a56af175e7734ee8601e8253ec" class="room outdoor" data-label="wall" cx="238" cy="429" r="4"/>
     <rect id="room-f1900a85e39c296f41069ff33420360dc381c2bf" class="room indoor" data-label="area of a gatehouse" x="234" y="405" width="8" height="8" rx="2"/>
-    <rect id="room-c1318efad4947f80cd804d9baf84e55ae4cbd910" class="room indoor" data-label="gate control of a gatehouse" x="234" y="393" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="238,394 240.5,397 238,400 235.5,397"/>
+    <rect id="room-c1318efad4947f80cd804d9baf84e55ae4cbd910" class="room indoor" data-label="gate control of a gatehouse" x="234" y="393" width="8" height="8" rx="2"/>
     <circle id="room-20441214d14d8e640e568cecb39bc00b2fbbc882" class="room outdoor" data-label="look-out post of the gatehouse" cx="229" cy="397" r="4"/>
     <rect id="room-0a8e2e91ba538187c08e930729d29218c62b929f" class="room indoor" data-label="ground floor of a gatehouse" x="252" y="393" width="8" height="8" rx="2"/>
     <rect id="room-1ab0d7cdf417a2bb254b348976c71cff7fda6e95" class="room indoor" data-label="dormitory of a gatehouse" x="252" y="405" width="8" height="8" rx="2"/>
-    <rect id="room-53354dcf5c24218bd47de580848b52af74507424" class="room indoor" data-label="ground floor of a gatehouse" x="252" y="365" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="256,366 253.5,371 258.5,371"/>
+    <rect id="room-53354dcf5c24218bd47de580848b52af74507424" class="room indoor" data-label="ground floor of a gatehouse" x="252" y="365" width="8" height="8" rx="2"/>
     <rect id="room-6e7d8e2d951fd91386268b945e1254077975aad9" class="room indoor" data-label="dormitory of a gatehouse" x="252" y="353" width="8" height="8" rx="2"/>
-    <rect id="room-dfab940dcfe6ad74c1170b717780ed9fcba68d33" class="room indoor" data-label="gate control of a gatehouse" x="234" y="365" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="238,366 235.5,371 240.5,371"/>
+    <rect id="room-dfab940dcfe6ad74c1170b717780ed9fcba68d33" class="room indoor" data-label="gate control of a gatehouse" x="234" y="365" width="8" height="8" rx="2"/>
     <circle id="room-6afda5bc16d456b732dd7e7483c35e63dc933b02" class="room outdoor" data-label="look-out post of the gatehouse" cx="229" cy="369" r="4"/>
-    <rect id="room-a0d7016733d108a8e4e8ed6ab7656f73beb4220e" class="room indoor" data-label="top floor of a gatehouse" x="216" y="365" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="220,372 217.5,367 222.5,367"/>
+    <rect id="room-a0d7016733d108a8e4e8ed6ab7656f73beb4220e" class="room indoor" data-label="top floor of a gatehouse" x="216" y="365" width="8" height="8" rx="2"/>
     <circle id="room-b47a4295abd6a9896a77c5bdd336974f0363071b" class="room outdoor" data-label="walkway above the Ur Gate" cx="220" cy="383" r="4"/>
-    <rect id="room-6dde7dda9fec1309816d3434f028bf47e64d4a39" class="room indoor" data-label="top floor of a gatehouse" x="216" y="393" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="220,400 217.5,395 222.5,395"/>
+    <rect id="room-6dde7dda9fec1309816d3434f028bf47e64d4a39" class="room indoor" data-label="top floor of a gatehouse" x="216" y="393" width="8" height="8" rx="2"/>
     <rect id="room-06602a71ee96d6589a37ef186089da5d2cc88e48" class="room indoor" data-label="area of a gatehouse" x="234" y="353" width="8" height="8" rx="2"/>
     <circle id="room-6722008e7dc0a94a73d0628db19dc6741fce9b7e" class="room outdoor" data-label="wall" cx="238" cy="337" r="4"/>
     <circle id="room-472d7c3770a879edece47f4117b40ef05e755cc0" class="room outdoor" data-label="wall" cx="238" cy="323" r="4"/>
@@ -2757,17 +2757,17 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-e87d4efc3d90edecf2c7e5711c664f44f2c71181" class="room outdoor" data-label="wall" cx="294" cy="211" r="4"/>
     <circle id="room-0fb1cd342c4451e5a5872b1e718b6ad1b36adaaf" class="room outdoor" data-label="wall" cx="308" cy="197" r="4"/>
     <rect id="room-f5975c7081e53018fdd961d16ccc58b288ac4719" class="room indoor" data-label="area within a gatehouse" x="324" y="193" width="8" height="8" rx="2"/>
-    <rect id="room-ed2587b128e7545df28422fad55b2b6bac9a3a42" class="room indoor" data-label="gate control of a gatehouse" x="336" y="193" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="340,194 342.5,197 340,200 337.5,197"/>
+    <rect id="room-ed2587b128e7545df28422fad55b2b6bac9a3a42" class="room indoor" data-label="gate control of a gatehouse" x="336" y="193" width="8" height="8" rx="2"/>
     <circle id="room-e08baace60643de504e0dc902850fbaf7972dcd3" class="room outdoor" data-label="look-out post of the gatehouse" cx="340" cy="188" r="4"/>
-    <rect id="room-95d6b93da41acc905ba52d9c4eae3701180e4f8c" class="room indoor" data-label="ground floor of a gatehouse" x="336" y="211" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="340,212 337.5,217 342.5,217"/>
+    <rect id="room-95d6b93da41acc905ba52d9c4eae3701180e4f8c" class="room indoor" data-label="ground floor of a gatehouse" x="336" y="211" width="8" height="8" rx="2"/>
     <rect id="room-74b901e7f5bad735af83f022fc03855aca4cc2f3" class="room indoor" data-label="dormitory of a gatehouse" x="324" y="211" width="8" height="8" rx="2"/>
-    <rect id="room-dae98e59eb6332b1fac36488c30ab9fd9c0f8ee4" class="room indoor" data-label="ground floor of a gatehouse" x="364" y="211" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="368,212 365.5,217 370.5,217"/>
+    <rect id="room-dae98e59eb6332b1fac36488c30ab9fd9c0f8ee4" class="room indoor" data-label="ground floor of a gatehouse" x="364" y="211" width="8" height="8" rx="2"/>
     <rect id="room-3bb7b89d7f61cd9e1ef3ef0af3e2b0fe048452f1" class="room indoor" data-label="dormitory of a gatehouse" x="376" y="211" width="8" height="8" rx="2"/>
-    <rect id="room-37a77b6527f493cfad789e132ecbbdf2ca0f2e1a" class="room indoor" data-label="gate control of a gatehouse" x="364" y="193" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="368,194 370.5,197 368,200 365.5,197"/>
+    <rect id="room-37a77b6527f493cfad789e132ecbbdf2ca0f2e1a" class="room indoor" data-label="gate control of a gatehouse" x="364" y="193" width="8" height="8" rx="2"/>
     <circle id="room-a1f6211a8bc76b2d2763e0d2a57ebe43bc30da48" class="room outdoor" data-label="look-out post of the gatehouse" cx="368" cy="188" r="4"/>
-    <rect id="room-0120410ca42940c9980366eff747ebe02a623340" class="room indoor" data-label="top floor of a gatehouse" x="364" y="175" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="368,182 365.5,177 370.5,177"/>
+    <rect id="room-0120410ca42940c9980366eff747ebe02a623340" class="room indoor" data-label="top floor of a gatehouse" x="364" y="175" width="8" height="8" rx="2"/>
     <circle id="room-2c07e64ef2ec563bc585edc1351615bff7fb42d0" class="room outdoor" data-label="Tsort Gate" cx="354" cy="179" r="4"/>
-    <rect id="room-7fa9cd46c48bd4203d725768e0a0ca1e798ed8c6" class="room indoor" data-label="top floor of a gatehouse" x="336" y="175" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="340,182 337.5,177 342.5,177"/>
+    <rect id="room-7fa9cd46c48bd4203d725768e0a0ca1e798ed8c6" class="room indoor" data-label="top floor of a gatehouse" x="336" y="175" width="8" height="8" rx="2"/>
     <rect id="room-3d0f2a6ca860dc60b2c98fcebcad5938e231a2bc" class="room indoor" data-label="area of a gatehouse" x="376" y="193" width="8" height="8" rx="2"/>
     <circle id="room-d4636948c3232243bc53ffbd97c6aa3afc5984c9" class="room outdoor" data-label="wall" cx="394" cy="197" r="4"/>
     <circle id="room-c1a004e4544b6c49a66ed4af606fb5991e1a82e5" class="room outdoor" data-label="wall" cx="408" cy="211" r="4"/>
@@ -2776,10 +2776,10 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-16c8808bc4a610e3451aa817225b75b1ae061efb" class="room outdoor" data-label="intersection" cx="259" cy="206" r="4"/>
     <circle id="room-3abe3eeb907d8747da3d929811336fb722520a45" class="room outdoor" data-label="Djelibeybi road" cx="202" cy="383" r="4"/>
     <circle id="room-5dbba6192178205bac6f47bf8224e327c621837a" class="room outdoor" data-label="Djelibeybi road" cx="218" cy="147" r="4"/>
-    <circle id="room-bdf61f65e0b9cf7d87e50213d1f7fc2d3db02cd2" class="room outdoor" data-label="Ptrip-Ptrap bridge" cx="218" cy="133" r="4"/><polygon class="stair-symbol" points="218,136 215.5,131 220.5,131"/>
+    <circle id="room-bdf61f65e0b9cf7d87e50213d1f7fc2d3db02cd2" class="room outdoor" data-label="Ptrip-Ptrap bridge" cx="218" cy="133" r="4"/>
     <circle id="room-2c8847fb3002888a069e90caca13078d22b1d8af" class="room outdoor" data-label="north end of the Ptrip-Ptrap bridge" cx="218" cy="119" r="4"/>
     <circle id="room-6cdae7a8b2c5566d10fe807f3464e6696bf63229" class="room outdoor" data-label="intersection" cx="206" cy="107" r="4"/>
-    <rect id="room-78dce8190b204d0292c99a769c60218aba9b6a15" class="room indoor water" data-label="river Djel as it flows under a bridge" x="214" y="129" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="218,130 215.5,135 220.5,135"/>
+    <rect id="room-78dce8190b204d0292c99a769c60218aba9b6a15" class="room indoor water" data-label="river Djel as it flows under a bridge" x="214" y="129" width="8" height="8" rx="2"/>
     <circle id="room-f758390eb147e7c023a1b3bfdce5897eece6a17f" class="room outdoor water" data-label="small section of the river Djel" cx="204" cy="133" r="4"/>
     <circle id="room-4921f940a2477c54c7000fbb11a2d8efbe2ddeec" class="room outdoor water" data-label="small section of the river Djel" cx="190" cy="133" r="4"/>
     <circle id="room-874c924f8d933aad49c320c3b9862b805a4a748a" class="room outdoor water" data-label="river Djel" cx="204" cy="147" r="4"/>
@@ -2841,7 +2841,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-efaba71193bd847b4c870e8eb5a771b94db5382d" class="room outdoor water" data-label="river Djel" cx="176" cy="147" r="4"/>
     <circle id="room-0e6b6a926683f99ebacbb15462c0bf4bc3076504" class="room outdoor water" data-label="river Djel" cx="190" cy="147" r="4"/>
     <rect id="room-7947630c77d82dba3c986f3a641fdad7d974e019" class="room indoor" data-label="high altar" x="162" y="313" width="8" height="8" rx="2"/>
-    <rect id="room-bc2ddf91beea30776c9c0422abaf4355bd77f4e0" class="room indoor" data-label="reception area" x="376" y="77" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="380,78 377.5,83 382.5,83"/>
+    <rect id="room-bc2ddf91beea30776c9c0422abaf4355bd77f4e0" class="room indoor" data-label="reception area" x="376" y="77" width="8" height="8" rx="2"/>
     <rect id="room-bb982d85662250097cceb0a1aa89fd6cc7ea2b6b" class="room indoor" data-label="applications room" x="376" y="77" width="8" height="8" rx="2"/>
     <rect id="room-131b7b81a28668d8a919a0c5f885fba0b2fd6562" class="room indoor" data-label="cramped voting room" x="376" y="77" width="8" height="8" rx="2"/>
     <rect id="room-7a394bca8dc1169b437f3e7e8d97f4d40266d5fe" class="room indoor" data-label="short corridor" x="376" y="77" width="8" height="8" rx="2"/>
@@ -2920,7 +2920,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-2b2952251488e724a069cdbeb8a519d385c8c227" class="room indoor room-weapon" data-label="guild supplies store" x="60" y="208" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="64" y="212" text-anchor="middle" dominant-baseline="central">W</text>
     <rect id="room-ea15d203a4f0f09096763e8256f850d036d6e47f" class="room indoor" data-label="corridor" x="82" y="208" width="8" height="8" rx="2"/>
     <rect id="room-7feb334e1605f367d6959ba5b761f438a8ef15d2" class="room indoor" data-label="mosaic corridor" x="82" y="219" width="8" height="8" rx="2"/>
-    <rect id="room-6c608b9b242a0d5bf0a73cfd0670261942e70d65" class="room indoor" data-label="bottom of the stairs" x="93" y="219" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="97,220 94.5,225 99.5,225"/>
+    <rect id="room-6c608b9b242a0d5bf0a73cfd0670261942e70d65" class="room indoor" data-label="bottom of the stairs" x="93" y="219" width="8" height="8" rx="2"/>
     <rect id="room-a107699c8b05e1232c68082796904630edfe1912" class="room indoor room-food" data-label="members lounge" x="71" y="183" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="75" y="187" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-aa6d0e62e63830ed3da16076555aaa05799ffb93" class="room indoor" data-label="monumental masonry and sarcophagus room" x="82" y="197" width="8" height="8" rx="2"/>
     <rect id="room-c1936c46cdbed9f86971ac46eb61f61ffa28fe6d" class="room indoor" data-label="painting and artistry classroom" x="93" y="208" width="8" height="8" rx="2"/>
@@ -2929,7 +2929,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-cb5da6be710267903224871bac9470edf543c985" class="room indoor" data-label="Hood&#x27;s southwestern hideout" x="120" y="210" width="8" height="8" rx="2"/>
     <rect id="room-d2d3ccb73c3aa99a4ba2ba9ebfd462d83f0e1ff2" class="room indoor" data-label="Hood&#x27;s northeastern hideout" x="154" y="186" width="8" height="8" rx="2"/>
     <circle id="room-7521930d28b74c325cd1a31efc596ca4c4f3a4c0" class="room outdoor" data-label="space behind a building and the park" cx="406" cy="467" r="4"/>
-    <circle id="room-d4d9a608ac6cfcccb92af4e5dc74931674d00b6a" class="room outdoor" data-label="disused balcony" cx="406" cy="467" r="4"/><polygon class="stair-symbol" points="406,470 403.5,465 408.5,465"/>
+    <circle id="room-d4d9a608ac6cfcccb92af4e5dc74931674d00b6a" class="room outdoor" data-label="disused balcony" cx="406" cy="467" r="4"/>
     <circle id="room-99eb4a00d5f2ff101e1a793c7fce4926627fff2a" class="room outdoor" data-label="vestry" cx="102" cy="295" r="4"/>
     <rect id="room-9b71ae31e5b3407b1b53274e71657d2102dfc0a2" class="room indoor" data-label="vestry" x="109" y="355" width="8" height="8" rx="2"/>
     <rect id="room-fb24f5194b57059ce1ac00179c70ffdd7f091688" class="room indoor" data-label="vestry" x="145" y="350" width="8" height="8" rx="2"/>
@@ -2968,6 +2968,69 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-51fb22f1ad7644e9565bcc87728e106f23f3faef" class="room outdoor" data-label="roof of an old house" cx="578" cy="341" r="4"/>
     <rect id="room-f733f4dba1923138ae73b5b8d11b81abd9a113cb" class="room indoor room-food" data-label="pottery workshop" x="378" y="264" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="382" y="268" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-e2b17ebf68fd0102ad63b56fd313e7848bc524fb" class="room outdoor" data-label="in mid-air above the Avenue of the Pharaohs" cx="438" cy="313" r="4"/>
+  </g>
+
+  <g id="layer-stairs">
+    <polygon id="stair-3b01d49420a963033cf4e0c617a1a9d5e828e009" class="stair-symbol" points="387,59 384.5,64 389.5,64"/>
+    <polygon id="stair-0d230c2ec12aefd7c9d96348f6f670b7345b72ea" class="stair-symbol" points="377,65 374.5,60 379.5,60"/>
+    <polygon id="stair-8f23991b7b3ada5f855d9200d0cf3a1bd5e76e90" class="stair-symbol" points="387,45 384.5,40 389.5,40"/>
+    <polygon id="stair-f5390582884cc1def3c60a7250c36f9f6fbc81b6" class="stair-symbol" points="800,175 797.5,180 802.5,180"/>
+    <polygon id="stair-ba78df0579a91e1d01f09179a162532b19c2aa06" class="stair-symbol" points="800,161 797.5,156 802.5,156"/>
+    <polygon id="stair-b129e486e76dd0c648adf6b6d310b71dfbcc4bfb" class="stair-symbol" points="810,125 807.5,130 812.5,130"/>
+    <polygon id="stair-075b7543348543c389d39ccd38247a59d00ac98a" class="stair-symbol" points="781,200 778.5,205 783.5,205"/>
+    <polygon id="stair-11999fc6b53d18064ec53967126004e94b52aa4e" class="stair-symbol" points="809,228 806.5,233 811.5,233"/>
+    <polygon id="stair-73cd76f78d857dbdaca3df1a2a6aea7e89598ceb" class="stair-symbol" points="781,256 778.5,261 783.5,261"/>
+    <polygon id="stair-ef895c814c7e0c0408133a20e36cd3d01285377c" class="stair-symbol" points="753,228 750.5,233 755.5,233"/>
+    <polygon id="stair-18a80352818fec449e783fd777d6ec1bbda36921" class="stair-symbol" points="884,234 881.5,229 886.5,229"/>
+    <polygon id="stair-53e389029ef33f58be0c171a0538cd29a83afb67" class="stair-symbol" points="856,206 853.5,201 858.5,201"/>
+    <polygon id="stair-60929a978aaf9faf1997a2d00eaf683fc2d993ef" class="stair-symbol" points="828,234 825.5,229 830.5,229"/>
+    <polygon id="stair-56c2833a9affb29f70d9e03e8255ac60a57a5d7d" class="stair-symbol" points="842,256 839.5,261 844.5,261"/>
+    <polygon id="stair-8eb244628e5671795dda195f2777cef7fcc60ed5" class="stair-symbol" points="842,248 839.5,243 844.5,243"/>
+    <polygon id="stair-9d7e05fa1efb9491a97fd5a6add3602728f38267" class="stair-symbol" points="856,262 853.5,257 858.5,257"/>
+    <polygon id="stair-e97575e23723c153550de46412baa52393648167" class="stair-symbol" points="309,268 306.5,273 311.5,273"/>
+    <polygon id="stair-eeb5af44176e4cc2ab058ca37057a18438294234" class="stair-symbol" points="309,274 306.5,269 311.5,269"/>
+    <polygon id="stair-ffc3c73c9e526362fa6d0ac070e06eb82d87e88a" class="stair-symbol" points="567,254 564.5,259 569.5,259"/>
+    <polygon id="stair-ecc2f0dacdd9ddce39ba7ca87dfb25ccbd9f915a" class="stair-symbol" points="567,260 564.5,255 569.5,255"/>
+    <polygon id="stair-c77e2cfa1dff2569b09e74decbb16bc0d488206f" class="stair-symbol" points="491,380 488.5,385 493.5,385"/>
+    <polygon id="stair-6405556eb1b7220087dafe3e22cf2b0bf2ed2556" class="stair-symbol" points="491,386 488.5,381 493.5,381"/>
+    <polygon id="stair-84ee197c8d603cb5d55c687428eb48a241be662d" class="stair-symbol" points="494,361 491.5,356 496.5,356"/>
+    <polygon id="stair-1ceda6e79f511b79c33fcb4d7cd94bebe5ff1b15" class="stair-symbol" points="417,352 414.5,347 419.5,347"/>
+    <polygon id="stair-3df941a90fa4539e66e42758099e35887e6eeed1" class="stair-symbol" points="407,344 404.5,349 409.5,349"/>
+    <polygon id="stair-283715fdaa782d2a7af028fc693d0d18d1f416bf" class="stair-symbol" points="78,298 75.5,303 80.5,303"/>
+    <polygon id="stair-c05a8427566963d4d123752a60a076e76b2869e9" class="stair-symbol" points="79,269 76.5,264 81.5,264"/>
+    <polygon id="stair-ae47bc4f84fa77b823c93f81723f36d29b8e4df0" class="stair-symbol" points="97,190 94.5,185 99.5,185"/>
+    <polygon id="stair-0f6001bc21ee70479938818ed824a40b39a05988" class="stair-symbol" points="315,572 312.5,567 317.5,567"/>
+    <polygon id="stair-f2b83918b4e325fed63c38679ed50ee271cee1e5" class="stair-symbol" points="424,506 421.5,511 426.5,511"/>
+    <polygon id="stair-f3e2206576198d568ca302753d93062bf606db13" class="stair-symbol" points="452,506 449.5,511 454.5,511"/>
+    <polygon id="stair-fd36e03680bad1da2d940e8c2762a2a805ae9cbd" class="stair-symbol" points="452,524 449.5,529 454.5,529"/>
+    <polygon id="stair-91b96103d5a0088afd25bc21d85a5bf66d9baffa" class="stair-symbol" points="424,548 421.5,543 426.5,543"/>
+    <polygon id="stair-54758c151084ca836eb5e7f9f3ab5b968eea7e58" class="stair-symbol" points="424,530 421.5,525 426.5,525"/>
+    <polygon id="stair-195acec9d0ee41415d6040eadebe2f6e981a52cd" class="stair-symbol" points="620,380 617.5,385 622.5,385"/>
+    <polygon id="stair-31a178a77d83baba9baaab646da90f52ef06acfb" class="stair-symbol" points="620,408 617.5,413 622.5,413"/>
+    <polygon id="stair-562a11fde16e56cfb729ec29ba7ed77eef7b52f2" class="stair-symbol" points="638,408 640.5,411 638,414 635.5,411"/>
+    <polygon id="stair-2de86a62c9c3fe082fe69211066c116b9a496638" class="stair-symbol" points="656,414 653.5,409 658.5,409"/>
+    <polygon id="stair-79b5b844e23b2241ae94c61a40eaf6b9eb143799" class="stair-symbol" points="656,386 653.5,381 658.5,381"/>
+    <polygon id="stair-dfd0ed52b9d65fd4200baa8afabb003a372c1e7f" class="stair-symbol" points="638,380 640.5,383 638,386 635.5,383"/>
+    <polygon id="stair-a069023d2f77ca45ab4bb7fa4f5d399449673e6f" class="stair-symbol" points="831,347 828.5,342 833.5,342"/>
+    <polygon id="stair-4ba9dc7cf9641eef897368043d07c6e80cdd2c86" class="stair-symbol" points="831,341 828.5,346 833.5,346"/>
+    <polygon id="stair-e3059c3db530ef9c6c239fe6dbf1f77a5e680731" class="stair-symbol" points="859,347 856.5,342 861.5,342"/>
+    <polygon id="stair-89ee929a6aa7baabfbc6055cb04d204fe87639be" class="stair-symbol" points="859,341 856.5,346 861.5,346"/>
+    <polygon id="stair-c1318efad4947f80cd804d9baf84e55ae4cbd910" class="stair-symbol" points="238,394 240.5,397 238,400 235.5,397"/>
+    <polygon id="stair-53354dcf5c24218bd47de580848b52af74507424" class="stair-symbol" points="256,366 253.5,371 258.5,371"/>
+    <polygon id="stair-dfab940dcfe6ad74c1170b717780ed9fcba68d33" class="stair-symbol" points="238,366 235.5,371 240.5,371"/>
+    <polygon id="stair-a0d7016733d108a8e4e8ed6ab7656f73beb4220e" class="stair-symbol" points="220,372 217.5,367 222.5,367"/>
+    <polygon id="stair-6dde7dda9fec1309816d3434f028bf47e64d4a39" class="stair-symbol" points="220,400 217.5,395 222.5,395"/>
+    <polygon id="stair-ed2587b128e7545df28422fad55b2b6bac9a3a42" class="stair-symbol" points="340,194 342.5,197 340,200 337.5,197"/>
+    <polygon id="stair-95d6b93da41acc905ba52d9c4eae3701180e4f8c" class="stair-symbol" points="340,212 337.5,217 342.5,217"/>
+    <polygon id="stair-dae98e59eb6332b1fac36488c30ab9fd9c0f8ee4" class="stair-symbol" points="368,212 365.5,217 370.5,217"/>
+    <polygon id="stair-37a77b6527f493cfad789e132ecbbdf2ca0f2e1a" class="stair-symbol" points="368,194 370.5,197 368,200 365.5,197"/>
+    <polygon id="stair-0120410ca42940c9980366eff747ebe02a623340" class="stair-symbol" points="368,182 365.5,177 370.5,177"/>
+    <polygon id="stair-7fa9cd46c48bd4203d725768e0a0ca1e798ed8c6" class="stair-symbol" points="340,182 337.5,177 342.5,177"/>
+    <polygon id="stair-bdf61f65e0b9cf7d87e50213d1f7fc2d3db02cd2" class="stair-symbol" points="218,136 215.5,131 220.5,131"/>
+    <polygon id="stair-78dce8190b204d0292c99a769c60218aba9b6a15" class="stair-symbol" points="218,130 215.5,135 220.5,135"/>
+    <polygon id="stair-bc2ddf91beea30776c9c0422abaf4355bd77f4e0" class="stair-symbol" points="380,78 377.5,83 382.5,83"/>
+    <polygon id="stair-6c608b9b242a0d5bf0a73cfd0670261942e70d65" class="stair-symbol" points="97,220 94.5,225 99.5,225"/>
+    <polygon id="stair-d4d9a608ac6cfcccb92af4e5dc74931674d00b6a" class="stair-symbol" points="406,470 403.5,465 408.5,465"/>
   </g><g
      id="layer-room-labels">
     <text class="room-type-label" x="495.1" y="397" text-anchor="middle" dominant-baseline="central">T</text>

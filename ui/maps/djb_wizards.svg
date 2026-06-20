@@ -94,17 +94,17 @@
     <rect id="room-f294db081f330382e25afbac84e11e12e35df400" class="room indoor" data-label="northern edge of Toad Hall" x="347" y="178" width="8" height="8" rx="2"/>
     <rect id="room-1fb60be6a5f04c409d1648bff430a526afe84f05" class="room indoor" data-label="Chancellor&#x27;s office" x="375" y="178" width="8" height="8" rx="2"/>
     <rect id="room-1e92d592ffe28ed71975cc521e40085ed0b8db88" class="room indoor" data-label="centre of Toad Hall" x="347" y="206" width="8" height="8" rx="2"/>
-    <rect id="room-8d9017e23c981dbe4c9ebc8090095ff12244c0b9" class="room indoor" data-label="southwestern corner of Toad Hall" x="319" y="234" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="323,241 320.5,236 325.5,236"/>
+    <rect id="room-8d9017e23c981dbe4c9ebc8090095ff12244c0b9" class="room indoor" data-label="southwestern corner of Toad Hall" x="319" y="234" width="8" height="8" rx="2"/>
     <rect id="room-f9c4df57897d9576f532f78bb0e6c54753453e00" class="room indoor" data-label="southern edge of Toad Hall" x="347" y="234" width="8" height="8" rx="2"/>
-    <rect id="room-6e58ca43824681a69a633bf1ea5ef56b264fb21b" class="room indoor" data-label="southwestern corner of the cellar" x="318" y="318" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="322,319 319.5,324 324.5,324"/>
+    <rect id="room-6e58ca43824681a69a633bf1ea5ef56b264fb21b" class="room indoor" data-label="southwestern corner of the cellar" x="318" y="318" width="8" height="8" rx="2"/>
     <rect id="room-bb4b9aa198a6f9eb89ec3cbaf827e3d6a3d1eb0f" class="room indoor" data-label="eastern end of the cellar" x="346" y="318" width="8" height="8" rx="2"/>
     <rect id="room-b573c5e84150e4da56d1833f90b4ae6b5b03bc32" class="room indoor" data-label="west end of the dining hall" x="318" y="290" width="8" height="8" rx="2"/>
     <rect id="room-118bb3cf718100d55a0d7a26f39d582a219925e1" class="room indoor" data-label="east end of the dining hall" x="346" y="290" width="8" height="8" rx="2"/>
     <rect id="room-e7961ad532c34820dddc82d80f8b91424d2b538f" class="room indoor" data-label="guild&#x27;s kitchen" x="346" y="262" width="8" height="8" rx="2"/>
     <rect id="room-ad4fb9aa900217a34254a4d4d312bf1ae031d04e" class="room indoor" data-label="guild&#x27;s kitchen" x="318" y="262" width="8" height="8" rx="2"/>
     <rect id="room-4f023b5dad1910712837b6ac0f747d0871ea7f5a" class="room indoor" data-label="Headmaster&#x27;s anteroom" x="375" y="234" width="8" height="8" rx="2"/>
-    <rect id="room-13dc07155f0988b698165c253551caffa84e3388" class="room indoor" data-label="eastern end of Toad Hall" x="374" y="206" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="378,207 375.5,212 380.5,212"/>
-    <rect id="room-f8801dd50082d159a2d455abb09dd0d5faf7ae1b" class="room indoor" data-label="eastern end of the first floor lounge" x="375" y="94" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="379,101 376.5,96 381.5,96"/>
+    <rect id="room-13dc07155f0988b698165c253551caffa84e3388" class="room indoor" data-label="eastern end of Toad Hall" x="374" y="206" width="8" height="8" rx="2"/>
+    <rect id="room-f8801dd50082d159a2d455abb09dd0d5faf7ae1b" class="room indoor" data-label="eastern end of the first floor lounge" x="375" y="94" width="8" height="8" rx="2"/>
     <rect id="room-82a49dea7a9d4d3cb1c9203dd39252789cdc6411" class="room indoor" data-label="northeastern end of the first floor lounge" x="375" y="66" width="8" height="8" rx="2"/>
     <rect id="room-bf1e401e389c80dea5b1bdc20854fd12e9fce4bb" class="room indoor" data-label="southeastern end of the first floor lounge" x="375" y="122" width="8" height="8" rx="2"/>
     <rect id="room-eee65b4e1a5d7eb7c57604bbc9f0a5df4d3a46e6" class="room indoor" data-label="centre of the corridor" x="347" y="94" width="8" height="8" rx="2"/>
@@ -129,6 +129,13 @@
     <rect id="room-8eeefbc68d10a9eba49845ef6f1a20e3992991a8" class="room indoor" data-label="small wooden stairway" x="346" y="318" width="8" height="8" rx="2"/>
     <rect id="room-6d88dbdd38a22f8e4a6e876d9b68c15f97bcc3e5" class="room indoor room-clothes" data-label=" north end of the guild room of The Ancient Order of the Incarnation of the Dynastic Crescent" x="318" y="37" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="322" y="41" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-eec5da7a937fc3680e02783630321df2a7b35fc9" class="room indoor" data-label="guild room of The Ancient Order of the Incarnation of the Dynastic Crescent" x="318" y="65" width="8" height="8" rx="2"/>
+  </g>
+
+  <g id="layer-stairs">
+    <polygon id="stair-8d9017e23c981dbe4c9ebc8090095ff12244c0b9" class="stair-symbol" points="323,241 320.5,236 325.5,236"/>
+    <polygon id="stair-6e58ca43824681a69a633bf1ea5ef56b264fb21b" class="stair-symbol" points="322,319 319.5,324 324.5,324"/>
+    <polygon id="stair-13dc07155f0988b698165c253551caffa84e3388" class="stair-symbol" points="378,207 375.5,212 380.5,212"/>
+    <polygon id="stair-f8801dd50082d159a2d455abb09dd0d5faf7ae1b" class="stair-symbol" points="379,101 376.5,96 381.5,96"/>
   </g>
 
 

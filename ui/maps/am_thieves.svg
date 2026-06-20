@@ -618,7 +618,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
   </g><g
      id="layer-rooms">
     <circle id="room-8817da35e947db5de18a5cb513f64f32812d34a9" class="room outdoor" data-label="Portico of the Thieves&#x27; Guild Building" cx="459" cy="300" r="4"/>
-    <rect id="room-fca4d62329576c1387d4c7e0299abd6adc3b10f6" class="room indoor" data-label="entrance hall of the Thieves&#x27; Guild" x="427" y="296" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="431,297 428.5,302 433.5,302"/>
+    <rect id="room-fca4d62329576c1387d4c7e0299abd6adc3b10f6" class="room indoor" data-label="entrance hall of the Thieves&#x27; Guild" x="427" y="296" width="8" height="8" rx="2"/>
     <rect id="room-3acd32d8e006a8aba5ae772b0fd8473aed00cbab" class="room indoor" data-label="entrance hall of the Thieves&#x27; Guild" x="427" y="324" width="8" height="8" rx="2"/>
     <circle id="room-53818160d0841388eb28ab67b21b5c3a02e888a0" class="room outdoor green" data-label="overgrown garden" cx="431" cy="356" r="4"/>
     <circle id="room-d40cc7b20aea8ae2780793201326db32d6d6bf78" class="room outdoor green" data-label="untended garden" cx="403" cy="356" r="4"/>
@@ -626,7 +626,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-7c0173078c9a0d5adc831ab0ea79f734fadc4613" class="room outdoor green" data-label="overgrown garden" cx="347" cy="356" r="4"/>
     <circle id="room-c3d65549c97783dc9b6a7e987386c76aafa858ac" class="room outdoor green" data-label="overgrown garden" cx="319" cy="356" r="4"/>
     <rect id="room-8043c78ce28affbb05790b079a210684dadde552" class="room indoor" data-label="corridor in the Thieves&#x27; Guild" x="315" y="324" width="8" height="8" rx="2"/>
-    <rect id="room-35c22aacce452fbad3b15f329fe9a93f66f30555" class="room indoor" data-label="corridor in the Thieves&#x27; Guild" x="315" y="296" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="319,297 321.5,300 319,303 316.5,300"/>
+    <rect id="room-35c22aacce452fbad3b15f329fe9a93f66f30555" class="room indoor" data-label="corridor in the Thieves&#x27; Guild" x="315" y="296" width="8" height="8" rx="2"/>
     <rect id="room-9f73260d85556ae9502be864df413d47de1c0e6d" class="room indoor" data-label="corridor in the Thieves&#x27; Guild" x="315" y="268" width="8" height="8" rx="2"/>
     <circle id="room-f23755a5e337810ee11656003bcb2340ec3e6639" class="room outdoor green" data-label="guild gardens" cx="319" cy="244" r="4"/>
     <circle id="room-e636a280cb61550cdeff91f633e9b7a612e06975" class="room outdoor green" data-label="guild gardens" cx="347" cy="244" r="4"/>
@@ -642,7 +642,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-83babeda02be8dadb15b163306d2e95ec99b11b7" class="room indoor" data-label="Thieves&#x27; Guild hospital" x="342" y="268" width="8" height="8" rx="2"/>
     <rect id="room-f8797e1f0df24b04fe9ab65d03f64b04007c31bd" class="room indoor" data-label="insurance office" x="343" y="324" width="8" height="8" rx="2"/>
     <rect id="room-34453e5c0493545aa790f917f2b0d6f262126e29" class="room indoor" data-label="ambush and backstab classroom" x="252" y="296" width="8" height="8" rx="2"/>
-    <rect id="room-e288e964b36bf6e6483216bf2d28fcbec4026cc0" class="room indoor" data-label="Thieves&#x27; Guild kitchen" x="223" y="296" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="227,297 224.5,302 229.5,302"/>
+    <rect id="room-e288e964b36bf6e6483216bf2d28fcbec4026cc0" class="room indoor" data-label="Thieves&#x27; Guild kitchen" x="223" y="296" width="8" height="8" rx="2"/>
     <rect id="room-d51f3c3131fb24a9118fb6874c65a9ac979af829" class="room indoor" data-label="lockpick classroom" x="252" y="268" width="8" height="8" rx="2"/>
     <rect id="room-f9f5807ab35742f6b87c114bcbc4c7b0152c8941" class="room indoor" data-label="hiding object classroom" x="223" y="268" width="8" height="8" rx="2"/>
     <rect id="room-a68c9c82c0b4c23aef8170834d9a14cdea70781c" class="room indoor" data-label="palming and sleight of hand classroom" x="195" y="268" width="8" height="8" rx="2"/>
@@ -653,12 +653,12 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-dddc72193ce628c291192cceeb1d266193929d4f" class="room outdoor green" data-label="fired and thrown classroom" cx="171" cy="300" r="4"/>
     <circle id="room-b7ce5cb55ce03e88f1f611bbbeae924e79ab1306" class="room outdoor green" data-label="outside stealth classroom" cx="171" cy="272" r="4"/>
     <circle id="room-1a91b4d419937092f2a8ebfd089146b3dd559ef4" class="room outdoor green" data-label="climbing classroom" cx="171" cy="328" r="4"/>
-    <rect id="room-7a69c826b727275e70fb8c8a05892efb6ea6d691" class="room indoor" data-label="Thieves&#x27; Guild museum" x="315" y="444" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="319,445 316.5,450 321.5,450"/>
+    <rect id="room-7a69c826b727275e70fb8c8a05892efb6ea6d691" class="room indoor" data-label="Thieves&#x27; Guild museum" x="315" y="444" width="8" height="8" rx="2"/>
     <rect id="room-e50f387377932283915772d19b9375e09eceb9cf" class="room indoor" data-label="Heavy Stuff" x="315" y="416" width="8" height="8" rx="2"/>
     <rect id="room-774a6967fde682aa4a3b50358897968b3410b57c" class="room indoor" data-label="launder room" x="315" y="471" width="8" height="8" rx="2"/>
     <rect id="room-c5c53d1a55138b90d18d6b0859b81ad15f9b2ece" class="room indoor" data-label="Thieves&#x27; Guild library" x="343" y="444" width="8" height="8" rx="2"/>
     <rect id="room-1ca80ebfb8423cfb42ed4b5f40e89c1682ff95dd" class="room indoor room-shop" data-label="Nicolette&#x27;s Custom Costumes and Tailoring" x="371" y="444" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="375" y="448" text-anchor="middle" dominant-baseline="central">S</text>
-    <rect id="room-0debdcab62434cdf629a03f09f8ee11a1f53db03" class="room indoor" data-label="hiding person classroom" x="223" y="133" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="227,134 229.5,137 227,140 224.5,137"/>
+    <rect id="room-0debdcab62434cdf629a03f09f8ee11a1f53db03" class="room indoor" data-label="hiding person classroom" x="223" y="133" width="8" height="8" rx="2"/>
     <rect id="room-b44baf16289a7d294944047fc789d2d33accb79e" class="room indoor" data-label="Thieves&#x27; Guild quota room" x="223" y="105" width="8" height="8" rx="2"/>
     <rect id="room-0518521daac20d3c4de3916d6121df59533c955c" class="room indoor" data-label="passing and stealing classroom" x="251" y="105" width="8" height="8" rx="2"/>
     <rect id="room-0093553cfe7766e2ec49ce316928d1f23aff59c9" class="room indoor" data-label="casing classroom" x="251" y="133" width="8" height="8" rx="2"/>
@@ -667,7 +667,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-730cd548f31d4002f8a237be898f6482f6cd5046" class="room indoor" data-label="Thieves&#x27; Guild Research Room" x="195" y="161" width="8" height="8" rx="2"/>
     <rect id="room-e13409c2d8974613cec7fb4909464ee0eb0d0b1a" class="room indoor" data-label="bookkeeping office" x="195" y="105" width="8" height="8" rx="2"/>
     <rect id="room-c3c20fdebff2396b4c6ca36ceb8947eb5417cba7" class="room indoor" data-label="combat practice room" x="195" y="133" width="8" height="8" rx="2"/>
-    <rect id="room-10998345bde8c55118e98adc9a7cef5d872c170f" class="room indoor" data-label="Thieves&#x27; Guild chapter room" x="223" y="20" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="227,27 224.5,22 229.5,22"/>
+    <rect id="room-10998345bde8c55118e98adc9a7cef5d872c170f" class="room indoor" data-label="Thieves&#x27; Guild chapter room" x="223" y="20" width="8" height="8" rx="2"/>
     <rect id="room-40dcb9a690caabeb2afeaf9502a642b7a726f2c5" class="room indoor" data-label="Main Hall of the Thieves&#x27; Guild" x="315" y="133" width="8" height="8" rx="2"/>
     <rect id="room-1fb8eea7765aa2f60adff16ddaa8b7c696c05fa1" class="room indoor" data-label="The office of the Assistant Guildmistress" x="315" y="105" width="8" height="8" rx="2"/>
     <circle id="room-2f7b07c4cfce9c015cda684188000ffcd103d8f8" class="room outdoor" data-label="balcony" cx="319" cy="81" r="4"/>
@@ -683,12 +683,12 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-e5e975c6501514ddcffe9494f21364b7fae564b4" class="room indoor" data-label="Main Hall of the Thieves&#x27; Guild" x="371" y="133" width="8" height="8" rx="2"/>
     <rect id="room-ef60bab885a29684d6109f1d25bc883f50c1cd2a" class="room indoor" data-label="The office of the Monitor of Safecrackers" x="371" y="161" width="8" height="8" rx="2"/>
     <circle id="room-e01316d858eac63e0b2cc4e52921514d900cefc4" class="room outdoor" data-label="balcony" cx="375" cy="193" r="4"/>
-    <rect id="room-ba3cad72e1eb709611dc4533d21034d1521c5fdc" class="room indoor" data-label="Main Hall of the Thieves&#x27; Guild" x="427" y="133" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="431,140 428.5,135 433.5,135"/>
+    <rect id="room-ba3cad72e1eb709611dc4533d21034d1521c5fdc" class="room indoor" data-label="Main Hall of the Thieves&#x27; Guild" x="427" y="133" width="8" height="8" rx="2"/>
     <rect id="room-4289d340ebe36d328df506bb777ef988d13d0816" class="room indoor" data-label="The office of the Guildmistress" x="427" y="105" width="8" height="8" rx="2"/>
     <circle id="room-d66688353fdfb447d40eb71e5a3d0d1a4a9a9136" class="room outdoor" data-label="balcony" cx="431" cy="81" r="4"/>
     <rect id="room-61b1095c72f42f63ae420bd5610265e5900deb81" class="room indoor" data-label="office of the Thieves&#x27; Guild recruitmaster" x="427" y="161" width="8" height="8" rx="2"/>
     <circle id="room-6942e3348e555aa7cf722eef55a4953deb8e38a1" class="room outdoor" data-label="balcony" cx="431" cy="193" r="4"/>
-    <rect id="room-55fd1e102b5481b31b96191e4aaa2715cd21c3c6" class="room indoor" data-label="cellar corridor" x="372" y="584" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="376,585 373.5,590 378.5,590"/>
+    <rect id="room-55fd1e102b5481b31b96191e4aaa2715cd21c3c6" class="room indoor" data-label="cellar corridor" x="372" y="584" width="8" height="8" rx="2"/>
     <rect id="room-94d124a6a16e3c037f5cc84ac39de9d0cbe27a05" class="room indoor" data-label="cellar corridor" x="372" y="612" width="8" height="8" rx="2"/>
     <rect id="room-c34f7bdd3ca3a9f725e869471c33ae0606300868" class="room indoor" data-label="lounge" x="372" y="640" width="8" height="8" rx="2"/>
     <rect id="room-2acb72bf9c57f9fc413fdf284b8c7b3d3c7af9b8" class="room indoor room-pshop" data-label="[player shop]" x="400" y="640" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="404" y="644" text-anchor="middle" dominant-baseline="central">P</text>
@@ -703,6 +703,17 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-fa9aa885afb7f7799771dbb52eb6e87d92525be0" class="room indoor" data-label="Thieves&#x27; Guild Voting Room" x="399" y="268" width="8" height="8" rx="2"/>
     <circle id="room-ca1a0a3ace14a43e10b2c09120286fe90e5300c8" class="room outdoor" data-label="Thieves&#x27; Guild roof" cx="319" cy="137" r="4"/>
     <circle id="room-93a6ebc766f495d1e36357f0d84866b66c462d5c" class="room outdoor" data-label="Thieves&#x27; Guild ledge" cx="287" cy="137" r="4"/>
+  </g>
+
+  <g id="layer-stairs">
+    <polygon id="stair-fca4d62329576c1387d4c7e0299abd6adc3b10f6" class="stair-symbol" points="431,297 428.5,302 433.5,302"/>
+    <polygon id="stair-35c22aacce452fbad3b15f329fe9a93f66f30555" class="stair-symbol" points="319,297 321.5,300 319,303 316.5,300"/>
+    <polygon id="stair-e288e964b36bf6e6483216bf2d28fcbec4026cc0" class="stair-symbol" points="227,297 224.5,302 229.5,302"/>
+    <polygon id="stair-7a69c826b727275e70fb8c8a05892efb6ea6d691" class="stair-symbol" points="319,445 316.5,450 321.5,450"/>
+    <polygon id="stair-0debdcab62434cdf629a03f09f8ee11a1f53db03" class="stair-symbol" points="227,134 229.5,137 227,140 224.5,137"/>
+    <polygon id="stair-10998345bde8c55118e98adc9a7cef5d872c170f" class="stair-symbol" points="227,27 224.5,22 229.5,22"/>
+    <polygon id="stair-ba3cad72e1eb709611dc4533d21034d1521c5fdc" class="stair-symbol" points="431,140 428.5,135 433.5,135"/>
+    <polygon id="stair-55fd1e102b5481b31b96191e4aaa2715cd21c3c6" class="stair-symbol" points="376,585 373.5,590 378.5,590"/>
   </g><g
      id="layer-room-labels"><text
        xml:space="preserve"

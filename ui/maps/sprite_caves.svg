@@ -121,6 +121,10 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-f1283a40b1c1dafcb40d0f857a72da80d8063984" class="room indoor" data-label="underground cavern" x="151" y="234" width="8" height="8" rx="2"/>
     <circle id="room-a6b70b577ab148a7dbab8f5a3fbda797cdd22bda" class="room outdoor" data-label="rocky crag jutting out from a waterfall" cx="169" cy="252" r="4"/>
   </g>
+
+  <g id="layer-stairs">
+
+  </g>
   <g
      id="layer-room-labels" />
   <g

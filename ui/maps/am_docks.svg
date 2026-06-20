@@ -816,6 +816,10 @@
     <rect id="room-00c9e154c292f4fff9b6ccf5c23f12d43ef58bcf" class="room indoor room-house" data-label="[player house]" x="72" y="237" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="76" y="241" text-anchor="middle" dominant-baseline="central">H</text>
   </g>
 
+  <g id="layer-stairs">
+
+  </g>
+
 
   <g id="layer-room-labels"></g>
   <g id="layer-labels"><!-- labels --></g>

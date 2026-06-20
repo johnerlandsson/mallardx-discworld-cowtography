@@ -192,7 +192,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-a8a10433cf292c31c272e23940d813cafd169cdc" class="room outdoor" data-label="southern edge of the square" cx="239" cy="183" r="4"/>
     <circle id="room-e0d2944fa20f6c3f77071b6692fe6a0284fb57f3" class="room outdoor" data-label="southwestern corner of the square" cx="225" cy="183" r="4"/>
     <rect id="room-1f270665a20a58a4c9e3f0f4269086511e69685a" class="room indoor room-food" data-label="Bois Village Inn" x="221" y="190" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="225" y="194" text-anchor="middle" dominant-baseline="central">F</text>
-    <rect id="room-42fc66e3a3d2d219435c82afd199ff7117e9086f" class="room indoor" data-label="small room" x="231" y="200" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="235,207 232.5,202 237.5,202"/>
+    <rect id="room-42fc66e3a3d2d219435c82afd199ff7117e9086f" class="room indoor" data-label="small room" x="231" y="200" width="8" height="8" rx="2"/>
     <rect id="room-631c763481627177ad319580021484e41ca5d787" class="room indoor" data-label="village hall common room" x="259" y="189" width="8" height="8" rx="2"/>
     <rect id="room-ca812ea7a72af42ba1192c8e9e43f24ca8786e4a" class="room indoor" data-label="converted storeroom" x="267" y="197" width="8" height="8" rx="2"/>
     <circle id="room-6f1e3c2f1895fe23fc991808f421286f9d233b1e" class="room outdoor" data-label="end of Brindille Alley" cx="253" cy="197" r="4"/>
@@ -235,9 +235,9 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-8214b194814676c820b568fcdf68acec08122fef" class="room outdoor green" data-label="forest trail" cx="379" cy="43" r="4"/>
     <circle id="room-7f9f0cf18846f5f4f84d3c1e992391fc67142c0f" class="room outdoor green" data-label="forest trail" cx="379" cy="29" r="4"/>
     <circle id="room-61e6362d2a8ca873079f1fc5ad07dbb379348c60" class="room outdoor green" data-label="outside a house" cx="365" cy="15" r="4"/>
-    <rect id="room-858d55f35ac27144449ed5f9fa8ca13ff7b011a5" class="room indoor" data-label="cosy living room" x="350" y="11" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="354,12 351.5,17 356.5,17"/>
+    <rect id="room-858d55f35ac27144449ed5f9fa8ca13ff7b011a5" class="room indoor" data-label="cosy living room" x="350" y="11" width="8" height="8" rx="2"/>
     <rect id="room-492f4def3ec815553c7cdcc04abdb830f3559f51" class="room indoor" data-label="warm kitchen" x="350" y="1" width="8" height="8" rx="2"/>
-    <rect id="room-b7f12ad392eeebfa3a88a40c702ce8e4e3d7b1fa" class="room indoor" data-label="small bedroom" x="340" y="1" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="344,8 341.5,3 346.5,3"/>
+    <rect id="room-b7f12ad392eeebfa3a88a40c702ce8e4e3d7b1fa" class="room indoor" data-label="small bedroom" x="340" y="1" width="8" height="8" rx="2"/>
     <circle id="room-1851df8886f295c77915c690578d33ac6a7b6727" class="room outdoor green" data-label="forest trail" cx="351" cy="113" r="4"/>
     <circle id="room-33954756c55fdc242a0af31413278db9b1c6b749" class="room outdoor green" data-label="forest trail" cx="365" cy="113" r="4"/>
     <circle id="room-4efe61eccf06fdf199b8a50c0ed73ca2225e0055" class="room outdoor green" data-label="forest trail" cx="379" cy="113" r="4"/>
@@ -277,9 +277,17 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-a97f20f35ac0dff31530de05d1dd723c8f869a52" class="room outdoor water" data-label="the lake" cx="194" cy="96" r="4"/>
     <circle id="room-1e76a259a432cb8b0598c978de2d415194b1a847" class="room outdoor water" data-label="the lake" cx="180" cy="96" r="4"/>
     <circle id="room-70dc39f6f7aa310ce79182dd5b5691759e26cecb" class="room outdoor water" data-label="the lake" cx="166" cy="96" r="4"/>
-    <rect id="room-b0f2bef412f98ed95dcf3bc5d564d2fac8efbcc3" class="room indoor" data-label="cosy downstairs room" x="204" y="277" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="208,278 205.5,283 210.5,283"/>
-    <rect id="room-be9e320f1a26dc084a2c97532298ee770101e5aa" class="room indoor" data-label="small loft room" x="214" y="267" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="218,274 215.5,269 220.5,269"/>
+    <rect id="room-b0f2bef412f98ed95dcf3bc5d564d2fac8efbcc3" class="room indoor" data-label="cosy downstairs room" x="204" y="277" width="8" height="8" rx="2"/>
+    <rect id="room-be9e320f1a26dc084a2c97532298ee770101e5aa" class="room indoor" data-label="small loft room" x="214" y="267" width="8" height="8" rx="2"/>
     <circle id="room-211810c8a192c4d3b3ad295843e3a30e4385fce5" class="room outdoor" data-label="boughs of an ancient oak" cx="239" cy="169" r="4"/>
+  </g>
+
+  <g id="layer-stairs">
+    <polygon id="stair-42fc66e3a3d2d219435c82afd199ff7117e9086f" class="stair-symbol" points="235,207 232.5,202 237.5,202"/>
+    <polygon id="stair-858d55f35ac27144449ed5f9fa8ca13ff7b011a5" class="stair-symbol" points="354,12 351.5,17 356.5,17"/>
+    <polygon id="stair-b7f12ad392eeebfa3a88a40c702ce8e4e3d7b1fa" class="stair-symbol" points="344,8 341.5,3 346.5,3"/>
+    <polygon id="stair-b0f2bef412f98ed95dcf3bc5d564d2fac8efbcc3" class="stair-symbol" points="208,278 205.5,283 210.5,283"/>
+    <polygon id="stair-be9e320f1a26dc084a2c97532298ee770101e5aa" class="stair-symbol" points="218,274 215.5,269 220.5,269"/>
   </g><g
    id="layer-room-labels"><text class="room-type-label" x="211" y="126.1" text-anchor="middle" dominant-baseline="central">T</text></g><g
    id="layer-labels"><!-- labels --></g></svg>

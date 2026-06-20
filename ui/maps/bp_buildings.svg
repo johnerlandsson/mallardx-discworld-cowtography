@@ -420,12 +420,12 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-6931ce621b7f9c0a90ced8e9b7435a3e77beb5d3" class="room indoor" data-label="the ground floor corridor in the Language Institute" x="424" y="149" width="8" height="8" rx="2"/>
     <rect id="room-7f78df3f202caa46c9ca249e88c3bb031180a5e8" class="room indoor" data-label="Morporkian learning room for Agatean students" x="400" y="149" width="8" height="8" rx="2"/>
     <rect id="room-5f1465dd886e18e50ed25570d824399ffdc0a89d" class="room indoor" data-label="Morporkian classroom for Agatean students" x="400" y="125" width="8" height="8" rx="2"/>
-    <rect id="room-76335cd6a1a0e2ad3280cee78b467f5a225d5f58" class="room indoor" data-label="ground floor of a stairwell in the Language Institute" x="424" y="125" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="428,126 425.5,131 430.5,131"/>
+    <rect id="room-76335cd6a1a0e2ad3280cee78b467f5a225d5f58" class="room indoor" data-label="ground floor of a stairwell in the Language Institute" x="424" y="125" width="8" height="8" rx="2"/>
     <rect id="room-c3c8c14270b514de42a131559c2dd7cb37dad1b1" class="room indoor" data-label="Uberwaldean classroom for Agatean students" x="424" y="101" width="8" height="8" rx="2"/>
     <rect id="room-d369c8c457e2ee1776779b47db101841ac14d662" class="room indoor" data-label="Djelian learning room for Agatean students" x="448" y="101" width="8" height="8" rx="2"/>
     <rect id="room-7deb4e7c503c95a2a69b4dbb2df0c1f5110099ba" class="room indoor" data-label="Ephebian classroom for Agatean students" x="448" y="125" width="8" height="8" rx="2"/>
     <rect id="room-5ba30e2a2e11a440a4c7d61f088ce9ed70ba0013" class="room indoor" data-label="Djelian classroom for Agatean students" x="472" y="101" width="8" height="8" rx="2"/>
-    <rect id="room-47532aa9eb0eade0dcc53ee3417319e9cacc888c" class="room indoor" data-label="the first floor of a stairwell in the Language Institute" x="368" y="33" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="372,40 369.5,35 374.5,35"/>
+    <rect id="room-47532aa9eb0eade0dcc53ee3417319e9cacc888c" class="room indoor" data-label="the first floor of a stairwell in the Language Institute" x="368" y="33" width="8" height="8" rx="2"/>
     <rect id="room-2eb04c203d29a3b7588cf6413d7794dd262875a9" class="room indoor" data-label="Agatean classroom for Ephebian students" x="392" y="33" width="8" height="8" rx="2"/>
     <rect id="room-b5024ab154b38a47e248cadf7145f86dbb5cfe8f" class="room indoor" data-label="Agatean learning room for Morporkian students" x="392" y="9" width="8" height="8" rx="2"/>
     <rect id="room-fdff616dbb5c683e56bdab3d4e5429942840da10" class="room indoor" data-label="Agatean classroom for Morporkian students" x="416" y="9" width="8" height="8" rx="2"/>
@@ -435,13 +435,13 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-484eaeac133fd374ff330b2a125d6d64bf99fc53" class="room indoor" data-label="Agatean classroom for Djelian students" x="344" y="33" width="8" height="8" rx="2"/>
     <rect id="room-a05e30af7b025d1e8f86d8b9cfdff4f357029548" class="room indoor room-shop" data-label="small shop" x="368" y="81" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="372" y="85" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-b92fc00e0eaaf546f6eadb07eadbd688a9dd9d18" class="room indoor" data-label="north entrance to a friendly building" x="135" y="366" width="8" height="8" rx="2"/>
-    <rect id="room-b72ab8ab69eb114374405541cf774097c0badc36" class="room indoor" data-label="octagon court" x="463" y="405" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="467,406 464.5,411 469.5,411"/>
+    <rect id="room-b72ab8ab69eb114374405541cf774097c0badc36" class="room indoor" data-label="octagon court" x="463" y="405" width="8" height="8" rx="2"/>
     <rect id="room-452069897f8e5b245c4cffe4f2a4bd727c0a0b77" class="room indoor" data-label="Complaints Department" x="439" y="429" width="8" height="8" rx="2"/>
     <rect id="room-b89099126a39b696af6369fa87d7ab8a39ad40a8" class="room indoor" data-label="citizenship application room" x="487" y="429" width="8" height="8" rx="2"/>
     <rect id="room-0a243b73afab106a2314656699179cc25cf69f88" class="room indoor" data-label="club control room" x="487" y="381" width="8" height="8" rx="2"/>
     <rect id="room-ff89888267d2c90791638d7d5f6e3abd6743cce5" class="room indoor" data-label="family control room" x="439" y="381" width="8" height="8" rx="2"/>
     <rect id="room-c388c4e98d118e8da34d329d7a7a60e420dc853b" class="room indoor" data-label="nobility records room" x="439" y="357" width="8" height="8" rx="2"/>
-    <rect id="room-cbdd0bee70cbc7b6ee0a81e40bd93fde52d44803" class="room indoor" data-label="landing" x="522" y="319" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="526,326 523.5,321 528.5,321"/>
+    <rect id="room-cbdd0bee70cbc7b6ee0a81e40bd93fde52d44803" class="room indoor" data-label="landing" x="522" y="319" width="8" height="8" rx="2"/>
     <rect id="room-c7c2f2d57777327d0930ded30ae068f010b56bf5" class="room indoor" data-label="Alt.fan.pratchett room, Hall of Records" x="546" y="343" width="8" height="8" rx="2"/>
     <rect id="room-8c8aa38cc035a0a0b0fe9eabb4bfc8832a8a60d5" class="room indoor" data-label="Fluff room, Hall of Records" x="546" y="319" width="8" height="8" rx="2"/>
     <rect id="room-c042dd257c355d7370865e6b8fb7937b7fa69eec" class="room indoor" data-label="Equality room, Hall of Records" x="546" y="295" width="8" height="8" rx="2"/>
@@ -481,6 +481,13 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-318fcb2234dfcb6d5ce71b4a62ca7bba1767638c" class="room indoor" data-label="republic room in the Culture Institute" x="207" y="366" width="8" height="8" rx="2"/>
     <rect id="room-11b57b1cbfb470b7b3c5f2ac69ddad833552b180" class="room indoor" data-label="exit room in the Culture Institute" x="183" y="366" width="8" height="8" rx="2"/>
     <rect id="room-6c002ab33a87ac8cba0315580753f2a6c06c0214" class="room indoor room-shop" data-label="small office" x="96" y="112" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="100" y="116" text-anchor="middle" dominant-baseline="central">S</text>
+  </g>
+
+  <g id="layer-stairs">
+    <polygon id="stair-76335cd6a1a0e2ad3280cee78b467f5a225d5f58" class="stair-symbol" points="428,126 425.5,131 430.5,131"/>
+    <polygon id="stair-47532aa9eb0eade0dcc53ee3417319e9cacc888c" class="stair-symbol" points="372,40 369.5,35 374.5,35"/>
+    <polygon id="stair-b72ab8ab69eb114374405541cf774097c0badc36" class="stair-symbol" points="467,406 464.5,411 469.5,411"/>
+    <polygon id="stair-cbdd0bee70cbc7b6ee0a81e40bd93fde52d44803" class="stair-symbol" points="526,326 523.5,321 528.5,321"/>
   </g><g
      id="layer-room-labels"><text
        xml:space="preserve"

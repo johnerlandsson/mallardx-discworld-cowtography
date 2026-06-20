@@ -359,13 +359,13 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-7faa2b8f46fda39e512066dcd844fef413f0366b" class="room outdoor" data-label="northwestern part of a forest clearing" cx="583" cy="202" r="4"/>
     <circle id="room-9b61426230fa82ca08f292adf128e2134b39c641" class="room outdoor" data-label="northeastern part of a forest clearing" cx="603" cy="202" r="4"/>
     <circle id="room-42cc8e8d400b8b9229f0b28352081d949b276dca" class="room outdoor" data-label="southeastern part of a forest clearing" cx="603" cy="222" r="4"/>
-    <rect id="room-aa5d3cfcb0ad8df1e4737d8c5e2d8151cf8acb86" class="room indoor" data-label="narrow passageway leading down" x="299" y="218" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="303,225 300.5,220 305.5,220"/>
+    <rect id="room-aa5d3cfcb0ad8df1e4737d8c5e2d8151cf8acb86" class="room indoor" data-label="narrow passageway leading down" x="299" y="218" width="8" height="8" rx="2"/>
     <rect id="room-de4e8ed869fd0d6a6795fe5ed504e3c3400946eb" class="room indoor" data-label="irregular passageway dotted with rim pools" x="319" y="218" width="8" height="8" rx="2"/>
     <rect id="room-8d79b3a75d076e7dea0def6c32cc7c70e5cbc436" class="room indoor water" data-label="cave filled with water" x="319" y="238" width="8" height="8" rx="2"/>
     <rect id="room-5406e564343fda9a97d5f27255baa04e2ab44a5f" class="room indoor" data-label="narrow passageway with rim pools" x="339" y="198" width="8" height="8" rx="2"/>
     <rect id="room-fcc311043aeff5941e612d01f9141ca53a70fc32" class="room indoor" data-label="gloomy tunnel with a collapsed south wall" x="359" y="198" width="8" height="8" rx="2"/>
     <rect id="room-9c6da28cd342030de373338ea92bc74af9624166" class="room indoor" data-label="flooded cavern with smooth, carved walls" x="379" y="178" width="8" height="8" rx="2"/>
-    <rect id="room-72019ab24d167fe86b553234428d611d440241b5" class="room indoor" data-label="cave" x="299" y="258" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="303,259 300.5,264 305.5,264"/>
+    <rect id="room-72019ab24d167fe86b553234428d611d440241b5" class="room indoor" data-label="cave" x="299" y="258" width="8" height="8" rx="2"/>
     <rect id="room-a1511e4ca8a70d93d551347494fc97ce2da41c62" class="room indoor" data-label="cave" x="279" y="258" width="8" height="8" rx="2"/>
     <rect id="room-d73c3f706c6f1839c94af1a2271d4faa5b7318be" class="room indoor" data-label="cave" x="259" y="258" width="8" height="8" rx="2"/>
     <rect id="room-f7a0c67b412ef21acb6e4647df124b1576043d3c" class="room indoor" data-label="grflx den" x="239" y="278" width="8" height="8" rx="2"/>
@@ -420,6 +420,11 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-132910dbbcf5d94eb3ec8afefd2c4c362d0a4ec2" class="room indoor" data-label="sinkhole" x="339" y="258" width="8" height="8" rx="2"/>
     <rect id="room-d47e89483ea276962813be2bea5785eba1119006" class="room indoor" data-label="low crack" x="439" y="178" width="8" height="8" rx="2"/>
     <rect id="room-ef05f49f7e1ebc42f07cfb9d95149b5270ec648b" class="room indoor" data-label="broad, low horizontal crack" x="419" y="178" width="8" height="8" rx="2"/>
+  </g>
+
+  <g id="layer-stairs">
+    <polygon id="stair-aa5d3cfcb0ad8df1e4737d8c5e2d8151cf8acb86" class="stair-symbol" points="303,225 300.5,220 305.5,220"/>
+    <polygon id="stair-72019ab24d167fe86b553234428d611d440241b5" class="stair-symbol" points="303,259 300.5,264 305.5,264"/>
   </g><g
    id="layer-room-labels"><path
      id="path10"

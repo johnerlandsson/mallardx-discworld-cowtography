@@ -633,8 +633,8 @@ text, .map-label, .map-label-muted, .map-label-accent,
   <g
      id="layer-rooms">
     <circle id="room-5e05bef4f24fedd01536ef5a44a657aef89617be" class="room outdoor" data-label="small alley" cx="540" cy="557" r="4"/>
-    <circle id="room-eee01e7d96b0e95cec5269c23db9e1ef24b164d9" class="room outdoor" data-label="large mossy courtyard" cx="568" cy="557" r="4"/><polygon class="stair-symbol" points="568,560 565.5,555 570.5,555"/>
-    <rect id="room-c3fb3ef3ee59d1c56556fb61089ea00b2c44f971" class="room indoor" data-label="foot of a staircase" x="580" y="575" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="584,576 581.5,581 586.5,581"/>
+    <circle id="room-eee01e7d96b0e95cec5269c23db9e1ef24b164d9" class="room outdoor" data-label="large mossy courtyard" cx="568" cy="557" r="4"/>
+    <rect id="room-c3fb3ef3ee59d1c56556fb61089ea00b2c44f971" class="room indoor" data-label="foot of a staircase" x="580" y="575" width="8" height="8" rx="2"/>
     <rect id="room-1d7ee12a909fb9271b722f31767c83043de23f49" class="room indoor" data-label="near the western end of the long corridor" x="608" y="575" width="8" height="8" rx="2"/>
     <rect id="room-b0281adbb4d8eef876738a1eb206648a0ad8ecc0" class="room indoor" data-label="western part of the long corridor" x="636" y="575" width="8" height="8" rx="2"/>
     <rect id="room-b88700aab99f698f3a82d2c4d0bb918b7588e379" class="room indoor" data-label="middle of the long corridor" x="664" y="575" width="8" height="8" rx="2"/>
@@ -682,15 +682,15 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-77b37e04ac486da1f70f363b5cec71641b6cb3a2" class="room indoor" data-label="corner of two corridors" x="916" y="295" width="8" height="8" rx="2"/>
     <rect id="room-9485665c7592683e2f5d9f73d0d9e322bef464f3" class="room indoor" data-label="east side of a corridor" x="888" y="295" width="8" height="8" rx="2"/>
     <rect id="room-4f6e9dcd6d01ee5312f8adede0ce1d25766933a9" class="room indoor" data-label="middle of a corridor" x="860" y="295" width="8" height="8" rx="2"/>
-    <rect id="room-41c8e1119023ae76d5d0e7752694b01cbc95c09e" class="room indoor" data-label="stairway" x="860" y="266" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="864,267 861.5,272 866.5,272"/>
+    <rect id="room-41c8e1119023ae76d5d0e7752694b01cbc95c09e" class="room indoor" data-label="stairway" x="860" y="266" width="8" height="8" rx="2"/>
     <rect id="room-a2d501594260631fac71ede7b500a37169b821fb" class="room indoor" data-label="west side of a corridor" x="832" y="295" width="8" height="8" rx="2"/>
     <rect id="room-8e964c6f43ed57468f8931a00d86ce740e79ed31" class="room indoor" data-label="corner of two corridors" x="804" y="295" width="8" height="8" rx="2"/>
-    <rect id="room-6f023ec9e647fa17e27fd357b46e61f75af4ab7a" class="room indoor" data-label="north end of the average corridor" x="804" y="323" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="808,324 805.5,329 810.5,329"/>
+    <rect id="room-6f023ec9e647fa17e27fd357b46e61f75af4ab7a" class="room indoor" data-label="north end of the average corridor" x="804" y="323" width="8" height="8" rx="2"/>
     <rect id="room-963e57b35c5c710eef150c02237327e1050f66eb" class="room indoor" data-label="middle of the average corridor" x="804" y="351" width="8" height="8" rx="2"/>
     <rect id="room-d2fb4de365a75da989facedab62f6c3ee2742a33" class="room indoor" data-label="south end of the average corridor" x="804" y="379" width="8" height="8" rx="2"/>
-    <rect id="room-a3c15cbd48d1d08b8ce9971405812846d636d914" class="room indoor" data-label="the southern end of the Residence Hall&#x27;s ground floor" x="162" y="332" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="166,339 163.5,334 168.5,334"/>
-    <rect id="room-27485829265d1afe37436dbbb2344fed1a4122fd" class="room indoor" data-label="hallway" x="138" y="450" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="142,451 139.5,456 144.5,456"/>
-    <rect id="room-d382a2bd6420e9de5b5b6f40bb964c15ec2b7d51" class="room indoor" data-label="cheerful and well-lit hallway" x="106" y="389" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="110,390 112.5,393 110,396 107.5,393"/>
+    <rect id="room-a3c15cbd48d1d08b8ce9971405812846d636d914" class="room indoor" data-label="the southern end of the Residence Hall&#x27;s ground floor" x="162" y="332" width="8" height="8" rx="2"/>
+    <rect id="room-27485829265d1afe37436dbbb2344fed1a4122fd" class="room indoor" data-label="hallway" x="138" y="450" width="8" height="8" rx="2"/>
+    <rect id="room-d382a2bd6420e9de5b5b6f40bb964c15ec2b7d51" class="room indoor" data-label="cheerful and well-lit hallway" x="106" y="389" width="8" height="8" rx="2"/>
     <rect id="room-efe6785d4a5df3a6e107ad6165ec6b944f29c9f1" class="room indoor" data-label="corridor" x="106" y="416" width="8" height="8" rx="2"/>
     <rect id="room-e2a7807e740198eaaaaef2f7662a01c18acb16e9" class="room indoor" data-label="ground floor of the workshops corridor" x="78" y="416" width="8" height="8" rx="2"/>
     <rect id="room-ede9465d65f6e10bcc2e0a472d4dfc5cc557499a" class="room indoor" data-label="wizard&#x27;s workroom" x="78" y="388" width="8" height="8" rx="2"/>
@@ -722,7 +722,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-ab9be74f235d637f503d28cea9bc2bb579bc5e57" class="room indoor" data-label="the southwestern corner of the Great Hall" x="134" y="416" width="8" height="8" rx="2"/>
     <rect id="room-0e2a9cdb4da279d919023c30cbf16b71c1c7b5fc" class="room indoor" data-label="the southern side of the Great Hall" x="162" y="416" width="8" height="8" rx="2"/>
     <rect id="room-b6601fa17bb9baab5a1edc9dc99ac4b8ccdca05a" class="room indoor" data-label="the southeastern corner of the Great Hall" x="190" y="416" width="8" height="8" rx="2"/>
-    <rect id="room-65e52e67398ff2e937eaea5d8759715235378387" class="room indoor" data-label="landing in Unseen University" x="853" y="139" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="857,146 854.5,141 859.5,141"/>
+    <rect id="room-65e52e67398ff2e937eaea5d8759715235378387" class="room indoor" data-label="landing in Unseen University" x="853" y="139" width="8" height="8" rx="2"/>
     <rect id="room-d7e15ef43e742e052f075a7ed74f8cbbc1ccf67d" class="room indoor" data-label="hallway" x="853" y="111" width="8" height="8" rx="2"/>
     <rect id="room-3ef1a3b2243b072c9307857732a229cbec562766" class="room indoor" data-label="hallway" x="825" y="111" width="8" height="8" rx="2"/>
     <rect id="room-34d2a7ab1a6ae5f345f6085294230dbf23fea243" class="room indoor" data-label="hallway" x="853" y="83" width="8" height="8" rx="2"/>
@@ -826,6 +826,17 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-590a0c445fdb7dfd80fb0b02dbb40f030f6c8587" class="room indoor" data-label="Porters&#x27; Office" x="355" y="333" width="8" height="8" rx="2"/>
     <circle id="room-4c11d730b26acc4523452f313890d37ad032864d" class="room outdoor" data-label="cramped chimney" cx="359" cy="337" r="4"/>
     <circle id="room-26bb1de192b52f733fe1189ff1922ae5382e5337" class="room outdoor" data-label="roof of the Porters&#x27; Lodge" cx="359" cy="337" r="4"/>
+  </g>
+
+  <g id="layer-stairs">
+    <polygon id="stair-eee01e7d96b0e95cec5269c23db9e1ef24b164d9" class="stair-symbol" points="568,560 565.5,555 570.5,555"/>
+    <polygon id="stair-c3fb3ef3ee59d1c56556fb61089ea00b2c44f971" class="stair-symbol" points="584,576 581.5,581 586.5,581"/>
+    <polygon id="stair-41c8e1119023ae76d5d0e7752694b01cbc95c09e" class="stair-symbol" points="864,267 861.5,272 866.5,272"/>
+    <polygon id="stair-6f023ec9e647fa17e27fd357b46e61f75af4ab7a" class="stair-symbol" points="808,324 805.5,329 810.5,329"/>
+    <polygon id="stair-a3c15cbd48d1d08b8ce9971405812846d636d914" class="stair-symbol" points="166,339 163.5,334 168.5,334"/>
+    <polygon id="stair-27485829265d1afe37436dbbb2344fed1a4122fd" class="stair-symbol" points="142,451 139.5,456 144.5,456"/>
+    <polygon id="stair-d382a2bd6420e9de5b5b6f40bb964c15ec2b7d51" class="stair-symbol" points="110,390 112.5,393 110,396 107.5,393"/>
+    <polygon id="stair-65e52e67398ff2e937eaea5d8759715235378387" class="stair-symbol" points="857,146 854.5,141 859.5,141"/>
   </g>
   <g
      id="layer-room-labels">

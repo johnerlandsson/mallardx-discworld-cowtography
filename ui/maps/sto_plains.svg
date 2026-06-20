@@ -1384,16 +1384,16 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-22a5bfab84412168732c9d40c4feebeedc8714ea" class="room outdoor" data-label="road" cx="370" cy="456" r="4"/>
     <circle id="room-e31337ed58ac5bdf7352c52fc4ded9ca0188706d" class="room outdoor" data-label="intersection of Pseudopolis road and the Ramtops road" cx="1408" cy="152" r="4"/>
     <circle id="room-230d6c53459deae6dd858be637be73485e130ad2" class="room outdoor" data-label="east Ankh Pass road" cx="1394" cy="166" r="4"/>
-    <circle id="room-07d6e478132c338bb4594ebecfd9217504fc45e5" class="room outdoor" data-label="Quawi bridge over the river Ankh" cx="1380" cy="166" r="4"/><polygon class="stair-symbol" points="1380,169 1377.5,164 1382.5,164"/>
-    <circle id="room-1ca33d8b3f115c6e79809773ff8380908cd5e867" class="room outdoor" data-label="under the Quawi bridge" cx="1380" cy="166" r="4"/><polygon class="stair-symbol" points="1380,163 1377.5,168 1382.5,168"/>
+    <circle id="room-07d6e478132c338bb4594ebecfd9217504fc45e5" class="room outdoor" data-label="Quawi bridge over the river Ankh" cx="1380" cy="166" r="4"/>
+    <circle id="room-1ca33d8b3f115c6e79809773ff8380908cd5e867" class="room outdoor" data-label="under the Quawi bridge" cx="1380" cy="166" r="4"/>
     <circle id="room-ed870f076839aebd7b86596158956df1de2c2d40" class="room outdoor" data-label="intersection of east Ankh Pass road and Pseudopolis road" cx="1365" cy="181" r="4"/>
     <circle id="room-d63f94c9d6488d662d6c1e0f17565d796037d6b5" class="room outdoor" data-label="road" cx="1325" cy="165" r="4"/>
-    <circle id="room-c298afe2ab3751cbe22d82a5f64103ece4080c85" class="room outdoor" data-label="Hegret bridge" cx="1325" cy="151" r="4"/><polygon class="stair-symbol" points="1325,154 1322.5,149 1327.5,149"/>
-    <circle id="room-c6d154dccb79cf380e92a4b671cadc774f03db53" class="room outdoor" data-label="under the Hegret bridge" cx="1325" cy="151" r="4"/><polygon class="stair-symbol" points="1325,148 1322.5,153 1327.5,153"/>
+    <circle id="room-c298afe2ab3751cbe22d82a5f64103ece4080c85" class="room outdoor" data-label="Hegret bridge" cx="1325" cy="151" r="4"/>
+    <circle id="room-c6d154dccb79cf380e92a4b671cadc774f03db53" class="room outdoor" data-label="under the Hegret bridge" cx="1325" cy="151" r="4"/>
     <circle id="room-b9b0b48c6e5da335f17ff75cc41649b6b53ff578" class="room outdoor" data-label="road" cx="1325" cy="137" r="4"/>
     <circle id="room-70b78c4d20b9c212d6c98fcf570e7ed3a653b2b6" class="room outdoor" data-label="road" cx="1282" cy="137" r="4"/>
-    <circle id="room-fcbcec61956b1d60028effdeddd48edd803dc0bf" class="room outdoor" data-label="Egret bridge" cx="1282" cy="151" r="4"/><polygon class="stair-symbol" points="1282,154 1279.5,149 1284.5,149"/>
-    <circle id="room-86ba17a6b16520060fd866a3b3ae14da2dcc1a27" class="room outdoor" data-label="under the Egret bridge" cx="1282" cy="151" r="4"/><polygon class="stair-symbol" points="1282,148 1279.5,153 1284.5,153"/>
+    <circle id="room-fcbcec61956b1d60028effdeddd48edd803dc0bf" class="room outdoor" data-label="Egret bridge" cx="1282" cy="151" r="4"/>
+    <circle id="room-86ba17a6b16520060fd866a3b3ae14da2dcc1a27" class="room outdoor" data-label="under the Egret bridge" cx="1282" cy="151" r="4"/>
     <circle id="room-77b6e4637ab55172dce33fe680ecf55ebe4fd5b2" class="room outdoor" data-label="road" cx="1282" cy="165" r="4"/>
     <circle id="room-683a8d12e92b0343ff77283191e39dd3f537a8f2" class="room outdoor" data-label="clearing on the east Ankh Pass road" cx="1275" cy="175" r="4"/>
     <circle id="room-82bfe4c930c2714ba25ea73a8377a1ee37e8b14a" class="room outdoor" data-label="road" cx="1268" cy="165" r="4"/>
@@ -1413,8 +1413,8 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-6ec65b823807addd2a4a3541eff9420b27a656b2" class="room indoor" data-label="foyer of the town hall" x="1235" y="245" width="8" height="8" rx="2"/>
     <rect id="room-ce1031241bd3ed046977595c4627881bdd113e40" class="room indoor room-food" data-label="Flying Klatchman Pub" x="1235" y="231" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1239" y="235" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-e04e13e7dceeeb0e3338e0a3bcc80a4c3c226362" class="room indoor room-shop" data-label="small crafts shop" x="1223" y="219" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1227" y="223" text-anchor="middle" dominant-baseline="central">S</text>
-    <rect id="room-871535437c7e16aa8265eaa88fbf7022e2d7bc0d" class="room indoor" data-label="clocktower" x="1197" y="231" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="1201,232 1198.5,237 1203.5,237"/>
-    <rect id="room-b7b8b7e7b1a1674ccc4358fd1060097cee1f812a" class="room indoor" data-label="belfry" x="1187" y="221" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="1191,228 1188.5,223 1193.5,223"/>
+    <rect id="room-871535437c7e16aa8265eaa88fbf7022e2d7bc0d" class="room indoor" data-label="clocktower" x="1197" y="231" width="8" height="8" rx="2"/>
+    <rect id="room-b7b8b7e7b1a1674ccc4358fd1060097cee1f812a" class="room indoor" data-label="belfry" x="1187" y="221" width="8" height="8" rx="2"/>
     <rect id="room-153638d11334e4e573fc0a6dc8fd9efc2ed1627d" class="room indoor room-food" data-label="small bakery" x="1209" y="256" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1213" y="260" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-fbb8d9086a755ae9b7a679c94232a8a731fbb42c" class="room outdoor" data-label="western road" cx="1199" cy="249" r="4"/>
     <circle id="room-28fdcc70c966db28d7060d12a733c381f9bb4b9f" class="room outdoor" data-label="road past a pond" cx="1185" cy="263" r="4"/>
@@ -1431,15 +1431,15 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-3be8ba0fbfbe0fcc49317e16cddad596cdfeb0f8" class="room outdoor" data-label="road north of Bleak Prospect" cx="1213" cy="165" r="4"/>
     <circle id="room-270e3304c7ffef50f9430d4d9107e864c215844b" class="room outdoor" data-label="Ankh Pass road" cx="1213" cy="151" r="4"/>
     <circle id="room-3538275f052c883828afb070c15386cea699be46" class="room outdoor" data-label="intersection of South road and the Ankh River Road" cx="1143" cy="145" r="4"/>
-    <circle id="room-66bbb7f392ead2fe2ac15de10e635ad4b41a139c" class="room outdoor" data-label="Flat bridge" cx="1143" cy="131" r="4"/><polygon class="stair-symbol" points="1143,134 1140.5,129 1145.5,129"/>
-    <circle id="room-dc31e10958b6218b256a8a6a6e042c41bd23afa5" class="room outdoor" data-label="under the Flat bridge" cx="1143" cy="131" r="4"/><polygon class="stair-symbol" points="1143,128 1140.5,133 1145.5,133"/>
+    <circle id="room-66bbb7f392ead2fe2ac15de10e635ad4b41a139c" class="room outdoor" data-label="Flat bridge" cx="1143" cy="131" r="4"/>
+    <circle id="room-dc31e10958b6218b256a8a6a6e042c41bd23afa5" class="room outdoor" data-label="under the Flat bridge" cx="1143" cy="131" r="4"/>
     <circle id="room-1b5c0d085cfaaa0682216583ce28c1ebf7f88f5d" class="room outdoor" data-label="road" cx="1143" cy="117" r="4"/>
     <circle id="room-fa92b867907ee3ad26ffe33ddaa2552e7fba242e" class="room outdoor" data-label="road" cx="1040" cy="220" r="4"/>
     <circle id="room-36c21dc9a1a9470453c411ece42e147854f3c61d" class="room outdoor" data-label="between a cottage and a mill" cx="1025" cy="235" r="4"/>
     <circle id="room-5dd6d00437e8679e2069ab577c9ae8cd65158aab" class="room outdoor" data-label="outside a riverside cottage" cx="1025" cy="249" r="4"/>
-    <rect id="room-d3e8c9b2461d989be570401d61a6cc0323538ae7" class="room indoor" data-label="riverside cottage" x="1010" y="245" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="1014,246 1011.5,251 1016.5,251"/>
+    <rect id="room-d3e8c9b2461d989be570401d61a6cc0323538ae7" class="room indoor" data-label="riverside cottage" x="1010" y="245" width="8" height="8" rx="2"/>
     <rect id="room-9e96a5d20b67c1a8e6c4bb15870864cf6d26fc3e" class="room indoor" data-label="kitchen" x="1010" y="234" width="8" height="8" rx="2"/>
-    <rect id="room-b8580e89f4d87400834a9ed422c9ce9e6be32886" class="room indoor" data-label="bedroom" x="1000" y="234" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="1004,241 1001.5,236 1006.5,236"/>
+    <rect id="room-b8580e89f4d87400834a9ed422c9ce9e6be32886" class="room indoor" data-label="bedroom" x="1000" y="234" width="8" height="8" rx="2"/>
     <rect id="room-115dbffe1eb63041141d3a2cf936d05a96960056" class="room indoor" data-label="spinning room" x="1000" y="224" width="8" height="8" rx="2"/>
     <rect id="room-1ed9614e3a58eba9b63ebce789078e0caebaea64" class="room indoor" data-label="sitting room" x="988" y="245" width="8" height="8" rx="2"/>
     <circle id="room-02e09d867f05b5126f88e4b507ef9123ab673afa" class="room outdoor green" data-label="southeast garden" cx="992" cy="238" r="4"/>
@@ -1460,18 +1460,18 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-b78d7ec4d823b9c8ec4236872d93d7ecbc569d13" class="room outdoor" data-label="path by a meandering river" cx="1053" cy="349" r="4"/>
     <circle id="room-c5c07af7713cc0985fddeca0331a3e0bd0ed80e6" class="room outdoor" data-label="road" cx="1067" cy="363" r="4"/>
     <circle id="room-c0c0e304ec8a0e2938586e542f33c2744b8658f8" class="room outdoor" data-label="road" cx="1028" cy="349" r="4"/>
-    <circle id="room-5f579c822147a3755005736d2c66ecb5d0344937" class="room outdoor" data-label="Scrogden bridge" cx="1028" cy="335" r="4"/><polygon class="stair-symbol" points="1028,338 1025.5,333 1030.5,333"/>
+    <circle id="room-5f579c822147a3755005736d2c66ecb5d0344937" class="room outdoor" data-label="Scrogden bridge" cx="1028" cy="335" r="4"/>
     <circle id="room-f4ab5c4594af7bd0293f448a1f25195551226ed2" class="room outdoor" data-label="road" cx="1028" cy="321" r="4"/>
-    <circle id="room-d914dc3c659edc4f90ed16ef2706a135d1fa78c6" class="room outdoor water" data-label="under the Scrogden bridge" cx="1028" cy="335" r="4"/><polygon class="stair-symbol" points="1028,332 1025.5,337 1030.5,337"/>
+    <circle id="room-d914dc3c659edc4f90ed16ef2706a135d1fa78c6" class="room outdoor water" data-label="under the Scrogden bridge" cx="1028" cy="335" r="4"/>
     <circle id="room-7a81a6406c51baac2a012be0c325e371f2dd1039" class="room outdoor" data-label="junction of West Skund road and Cabbage road" cx="1165" cy="500" r="4"/>
     <circle id="room-eaeacfe2ca5153fe3d5c5419885df1e76ffd7d0d" class="room outdoor" data-label="junction of West Skund road and Hillshire road" cx="1284" cy="572" r="4"/>
     <circle id="room-617ff1dcac0dbbe732fe34126e5ba145f0d561d7" class="room outdoor" data-label="pathway" cx="1284" cy="559" r="4"/>
     <rect id="room-0f903e0f346bff97e889620b67be34b3e51120f9" class="room indoor room-shop" data-label="tourism office" x="1280" y="544" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1284" y="548" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-0e82365c4aa6cce7305d1369e37f55ef76e1d06a" class="room outdoor" data-label="road" cx="1307" cy="531" r="4"/>
     <circle id="room-2dddcd42b879665bb544e35a88335fb8b629d51e" class="room outdoor" data-label="outside of a cottage" cx="1288" cy="512" r="4"/>
-    <rect id="room-c78f2fce85bf15c16a05807c65d4e96fe247cb42" class="room indoor" data-label="cottage living room" x="1284" y="497" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="1288,498 1285.5,503 1290.5,503"/>
+    <rect id="room-c78f2fce85bf15c16a05807c65d4e96fe247cb42" class="room indoor" data-label="cottage living room" x="1284" y="497" width="8" height="8" rx="2"/>
     <rect id="room-de558c279f58f9184fa19c172d86c5df9badd24b" class="room indoor" data-label="scullery" x="1284" y="487" width="8" height="8" rx="2"/>
-    <rect id="room-938911876f6e1b3f2d5dd23c8c9c23f715876371" class="room indoor" data-label="bedroom" x="1274" y="487" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="1278,494 1275.5,489 1280.5,489"/>
+    <rect id="room-938911876f6e1b3f2d5dd23c8c9c23f715876371" class="room indoor" data-label="bedroom" x="1274" y="487" width="8" height="8" rx="2"/>
     <circle id="room-58633a6cc2a479d6e520e28124d9d1b36028d45e" class="room outdoor" data-label="road" cx="1330" cy="495" r="4"/>
     <circle id="room-40b465fd3870569000db79d8113bcb174e83b4ad" class="room outdoor" data-label="troll bridge" cx="1344" cy="481" r="4"/>
     <circle id="room-e957156f0f75d89cf263b661f630435099b44b66" class="room outdoor" data-label="village of Hillshire" cx="1358" cy="467" r="4"/>
@@ -1487,12 +1487,12 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-12b1bbbbb88298679c8ba120e96a572dd4f3447a" class="room indoor room-armour" data-label="blacksmith&#x27;s workshop" x="1410" y="441" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1414" y="445" text-anchor="middle" dominant-baseline="central">A</text>
     <circle id="room-1fb91c69aa7a1455b3f969345ed208ccde5eb2ca" class="room outdoor" data-label="alley" cx="1386" cy="445" r="4"/>
     <rect id="room-74b21ee1de8433b3215a2b180def214ec92d52ee" class="room indoor room-clothes" data-label="small and murky tobacco shop" x="1382" y="430" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1386" y="434" text-anchor="middle" dominant-baseline="central">C</text>
-    <rect id="room-10259cc14d7b00991460e585dd4aef6dd4cd386a" class="room indoor" data-label="small, dark basement" x="1382" y="430" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="1386,431 1383.5,436 1388.5,436"/>
+    <rect id="room-10259cc14d7b00991460e585dd4aef6dd4cd386a" class="room indoor" data-label="small, dark basement" x="1382" y="430" width="8" height="8" rx="2"/>
     <circle id="room-898c76650c599af6c9fe6d26d6614789d532d33a" class="room outdoor" data-label="end of the main road" cx="1400" cy="423" r="4"/>
     <rect id="room-cacb65d3f9a1c120219f8b7b57cb945835f1d997" class="room indoor" data-label="Post office" x="1407" y="419" width="8" height="8" rx="2"/>
-    <rect id="room-b8d8cd437de9d0ea66f87eab66d03e4708363fc0" class="room indoor" data-label="old house" x="1372" y="419" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="1376,420 1373.5,425 1378.5,425"/>
+    <rect id="room-b8d8cd437de9d0ea66f87eab66d03e4708363fc0" class="room indoor" data-label="old house" x="1372" y="419" width="8" height="8" rx="2"/>
     <rect id="room-b7f5bdc49f4116fea3bba0e412f86d207c147f2e" class="room indoor" data-label="kitchen" x="1372" y="409" width="8" height="8" rx="2"/>
-    <rect id="room-081cc90b208ebaf2124ecc4d7b521f72c1332f38" class="room indoor" data-label="upper room in an old house" x="1362" y="409" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="1366,416 1363.5,411 1368.5,411"/>
+    <rect id="room-081cc90b208ebaf2124ecc4d7b521f72c1332f38" class="room indoor" data-label="upper room in an old house" x="1362" y="409" width="8" height="8" rx="2"/>
     <circle id="room-47ffd552a6f2d0d8d3080c0e792d6fbaeaf69596" class="room outdoor" data-label="West Skund Road" cx="1307" cy="595" r="4"/>
     <circle id="room-de1949fefb8a0d52578dfb50af41adddae026a93" class="room outdoor" data-label="campsite" cx="1307" cy="609" r="4"/>
     <circle id="room-1a37b5aa43af3659b3787bacc88b98151e7b86f0" class="room outdoor" data-label="West Skund Road" cx="1379" cy="603" r="4"/>
@@ -1500,9 +1500,9 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-c924df028d50b4e09d2914ad301686e0152fb7f2" class="room indoor" data-label="locksmith&#x27;s workshop" x="1389" y="602" width="8" height="8" rx="2"/>
     <rect id="room-423bfa9d60d9ce394970b6266de973b36b83eb77" class="room indoor room-weapon" data-label="country store" x="1389" y="635" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1393" y="639" text-anchor="middle" dominant-baseline="central">W</text>
     <rect id="room-c6773861e6f202b0bca4847acc08f5815d614e95" class="room indoor room-food" data-label="pub" x="1379" y="635" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1383" y="639" text-anchor="middle" dominant-baseline="central">F</text>
-    <rect id="room-44699b8cba32fc40760c81803d439ba6d4ff6131" class="room indoor" data-label="sitting room" x="1389" y="645" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="1393,646 1390.5,651 1395.5,651"/>
+    <rect id="room-44699b8cba32fc40760c81803d439ba6d4ff6131" class="room indoor" data-label="sitting room" x="1389" y="645" width="8" height="8" rx="2"/>
     <rect id="room-63c5fbd31d57649a90dec73c5403a640b0160096" class="room indoor" data-label="kitchen" x="1379" y="645" width="8" height="8" rx="2"/>
-    <rect id="room-af28cd8711f16ee7fb9cca367e8ca1b371fe58cf" class="room indoor" data-label="hallway" x="1400" y="634" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="1404,641 1401.5,636 1406.5,636"/>
+    <rect id="room-af28cd8711f16ee7fb9cca367e8ca1b371fe58cf" class="room indoor" data-label="hallway" x="1400" y="634" width="8" height="8" rx="2"/>
     <rect id="room-c0df500b234bbfb7a00b011659d7a129f0a5a9bc" class="room indoor" data-label="bedroom" x="1400" y="624" width="8" height="8" rx="2"/>
     <rect id="room-8c7869d76b03251f418f49c409fc8d3825a7e50a" class="room indoor" data-label="bedroom" x="1400" y="648" width="8" height="8" rx="2"/>
     <circle id="room-3e8df84018719b734c59d5e7e14793f9b5040c70" class="room outdoor" data-label="hamlet crossroads" cx="1416" cy="617" r="4"/>
@@ -1516,9 +1516,9 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-c3943281ba39012731726d1ada70eebda0c45370" class="room indoor" data-label="entryway" x="1146" y="795" width="8" height="8" rx="2"/>
     <rect id="room-b267e53b36a0b70ec433cef77f44e7bf8f13c453" class="room indoor" data-label="living room" x="1146" y="795" width="8" height="8" rx="2"/>
     <rect id="room-9e67f5ec3a06063d1008d5b903a0c9dfbcfd43eb" class="room indoor" data-label="kitchen" x="1146" y="795" width="8" height="8" rx="2"/>
-    <rect id="room-d32875d224129cc49306c9560d45bd01c7ac3208" class="room indoor" data-label="hallway" x="1146" y="795" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="1150,802 1147.5,797 1152.5,797"/>
+    <rect id="room-d32875d224129cc49306c9560d45bd01c7ac3208" class="room indoor" data-label="hallway" x="1146" y="795" width="8" height="8" rx="2"/>
     <rect id="room-05917b36a0737b7127fa5e5253bd2df6bce0d8d5" class="room indoor" data-label="bedroom" x="1146" y="795" width="8" height="8" rx="2"/>
-    <rect id="room-e393f7a18e60a62db47d63e78ad8fa2a5cfb7e97" class="room indoor" data-label="cellar" x="1146" y="795" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="1150,796 1147.5,801 1152.5,801"/>
+    <rect id="room-e393f7a18e60a62db47d63e78ad8fa2a5cfb7e97" class="room indoor" data-label="cellar" x="1146" y="795" width="8" height="8" rx="2"/>
     <circle id="room-ce07670098dafc66f0a618ddd515149eaaf4d294" class="room outdoor" data-label="wolf trail" cx="1178" cy="788" r="4"/>
     <circle id="room-efb99a576ab702f7c04a8ae45a88884c68ff3f5c" class="room outdoor" data-label="road" cx="1137" cy="832" r="4"/>
     <circle id="room-3dbcb6fd760269938058caf73b6190a5d6aa759f" class="room outdoor" data-label="road" cx="997" cy="799" r="4"/>
@@ -1542,15 +1542,15 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-062cc94b036b942caed0aaecfa49b589ef831da3" class="room outdoor" data-label="small muddy path" cx="864" cy="376" r="4"/>
     <circle id="room-51ca304a63188a29e738aba64279e1e41e4be5aa" class="room outdoor" data-label="small muddy path" cx="864" cy="362" r="4"/>
     <circle id="room-547739d494f769f669f12e1eec482db5f970f391" class="room outdoor" data-label="farmhouse garden" cx="850" cy="390" r="4"/>
-    <rect id="room-91d21c68931c722414f0777e12ad26ba8767bb37" class="room indoor" data-label="farmhouse kitchen" x="830" y="386" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="834,387 831.5,392 836.5,392"/>
-    <rect id="room-d26df594f5a872ad2a6d1dc802f204c3d4dc0929" class="room indoor" data-label="farmhouse bedroom" x="840" y="375" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="844,382 841.5,377 846.5,377"/>
+    <rect id="room-91d21c68931c722414f0777e12ad26ba8767bb37" class="room indoor" data-label="farmhouse kitchen" x="830" y="386" width="8" height="8" rx="2"/>
+    <rect id="room-d26df594f5a872ad2a6d1dc802f204c3d4dc0929" class="room indoor" data-label="farmhouse bedroom" x="840" y="375" width="8" height="8" rx="2"/>
     <rect id="room-3a03e774b9c62f3777cefa45078c2336e5ad0295" class="room indoor" data-label="farmhouse parlour" x="830" y="375" width="8" height="8" rx="2"/>
     <circle id="room-4d59515991003e2678573508103856f0d62c65ae" class="room outdoor" data-label="muddy track" cx="836" cy="404" r="4"/>
     <circle id="room-6772e421cb11396ac2351b1eb624d276421a4899" class="room outdoor" data-label="muddy track" cx="822" cy="404" r="4"/>
     <circle id="room-93416b8fb15a208c91af5065c1c452b71a35c4fb" class="room outdoor" data-label="farmyard gate" cx="808" cy="404" r="4"/>
     <circle id="room-413d04ca8ca00d499a5376878bc8e72177753b72" class="room outdoor" data-label="farmhouse yard" cx="808" cy="390" r="4"/>
-    <rect id="room-6550847620e604dcf80298f6da25ae646da05c69" class="room indoor" data-label="farm barn" x="793" y="386" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="797,387 794.5,392 799.5,392"/>
-    <rect id="room-b35caacd34ee457ce4a703e1b9856bf75c62da30" class="room indoor" data-label="farm barn" x="783" y="376" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="787,383 784.5,378 789.5,378"/>
+    <rect id="room-6550847620e604dcf80298f6da25ae646da05c69" class="room indoor" data-label="farm barn" x="793" y="386" width="8" height="8" rx="2"/>
+    <rect id="room-b35caacd34ee457ce4a703e1b9856bf75c62da30" class="room indoor" data-label="farm barn" x="783" y="376" width="8" height="8" rx="2"/>
     <circle id="room-fe155f46ac2c7d521ae8c1569768f7c4cd7909bf" class="room outdoor" data-label="farmhouse yard" cx="808" cy="376" r="4"/>
     <rect id="room-bef068fcbb8257be818f29ec1e7e43e80054ebd0" class="room indoor" data-label="farm forge" x="793" y="372" width="8" height="8" rx="2"/>
     <circle id="room-5475b43c0e0e0d38fc27330b42f5b54fcec62e13" class="room outdoor" data-label="farmhouse yard" cx="822" cy="376" r="4"/>
@@ -1599,9 +1599,9 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-9382d837107c22b1ec49a416e7be46fb0d0fe14e" class="room outdoor" data-label="northern track" cx="738" cy="250" r="4"/>
     <circle id="room-710667b19b2ada29c4a9af3d3a7565a96c5f4b72" class="room outdoor" data-label="road" cx="738" cy="236" r="4"/>
     <circle id="room-07cf195ee39d2d771118a50944da75ccc544e38a" class="room outdoor" data-label="road" cx="729" cy="216" r="4"/>
-    <circle id="room-df4652fe6838fea1b22ee29eb13d9e6dbb61aef9" class="room outdoor" data-label="Lost Bridge" cx="743" cy="216" r="4"/><polygon class="stair-symbol" points="743,219 740.5,214 745.5,214"/>
+    <circle id="room-df4652fe6838fea1b22ee29eb13d9e6dbb61aef9" class="room outdoor" data-label="Lost Bridge" cx="743" cy="216" r="4"/>
     <circle id="room-82a59dd36b0bde66df6ef04d20588df9220a39a6" class="room outdoor" data-label="road" cx="757" cy="202" r="4"/>
-    <circle id="room-abb84cc9b4347ce086e045a62a3e9dc8d0e90cbb" class="room outdoor" data-label="under the Lost bridge" cx="743" cy="216" r="4"/><polygon class="stair-symbol" points="743,213 740.5,218 745.5,218"/>
+    <circle id="room-abb84cc9b4347ce086e045a62a3e9dc8d0e90cbb" class="room outdoor" data-label="under the Lost bridge" cx="743" cy="216" r="4"/>
     <circle id="room-4db36632764d884e393fab59927ad9dff81ccc9f" class="room outdoor" data-label="northern track" cx="738" cy="362" r="4"/>
     <circle id="room-1d4587a3a8be87fbe10d752da2cdab9edc00eef2" class="room outdoor" data-label="northern road" cx="752" cy="376" r="4"/>
     <circle id="room-1f2c4da6a08c546b0b51a51f2e46d195b40ac1f0" class="room outdoor" data-label="small village" cx="752" cy="390" r="4"/>
@@ -1665,14 +1665,14 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-065bdb8e253d698583817b3915360308d1923569" class="room outdoor" data-label="intersection of Sto Lat road and the Sto Helit Road" cx="488" cy="456" r="4"/>
     <circle id="room-fe24a81c857e935af32a78e5a0542bf70fcd7496" class="room outdoor" data-label="intersection of Sto Lat road and the Ankh River Road" cx="505" cy="439" r="4"/>
     <circle id="room-4d2bc20669e3780ce634ebc308090a59f0255344" class="room outdoor" data-label="road" cx="520" cy="439" r="4"/>
-    <circle id="room-a6dfc0cc68071732f4b0283d48e98acffa246093" class="room outdoor" data-label="Sto Kerrig bridge" cx="534" cy="439" r="4"/><polygon class="stair-symbol" points="534,442 531.5,437 536.5,437"/>
-    <circle id="room-7436c897b7605d78363c2fc0c2e46b62756ece93" class="room outdoor water" data-label="under the Sto Kerrig bridge" cx="534" cy="439" r="4"/><polygon class="stair-symbol" points="534,436 531.5,441 536.5,441"/>
+    <circle id="room-a6dfc0cc68071732f4b0283d48e98acffa246093" class="room outdoor" data-label="Sto Kerrig bridge" cx="534" cy="439" r="4"/>
+    <circle id="room-7436c897b7605d78363c2fc0c2e46b62756ece93" class="room outdoor water" data-label="under the Sto Kerrig bridge" cx="534" cy="439" r="4"/>
     <circle id="room-b53dfbdfc37563fba0390cc9023ab4e0c064b42f" class="room outdoor" data-label="road" cx="548" cy="439" r="4"/>
     <circle id="room-d6adb742476e4461a8743a86c4c0ca9f31c2021c" class="room outdoor" data-label="intersection of the Sea Grass road and the Ankh River Road" cx="678" cy="192" r="4"/>
     <circle id="room-c56161bd5c30b7f04498bc199a8b4569536e887f" class="room outdoor" data-label="road" cx="440" cy="274" r="4"/>
-    <circle id="room-8097f4d5d87cb7f7021aabf94661d76bfab99f5a" class="room outdoor" data-label="Sto Helit bridge" cx="440" cy="260" r="4"/><polygon class="stair-symbol" points="440,263 437.5,258 442.5,258"/>
+    <circle id="room-8097f4d5d87cb7f7021aabf94661d76bfab99f5a" class="room outdoor" data-label="Sto Helit bridge" cx="440" cy="260" r="4"/>
     <circle id="room-5cd1c0d033a52d3a35393e4cb457a33aca9ddb1f" class="room outdoor" data-label="road" cx="440" cy="246" r="4"/>
-    <circle id="room-2c96916d77396094942f41d9908da075a759eef4" class="room outdoor water" data-label="under the Sto Helit bridge" cx="440" cy="260" r="4"/><polygon class="stair-symbol" points="440,257 437.5,262 442.5,262"/>
+    <circle id="room-2c96916d77396094942f41d9908da075a759eef4" class="room outdoor water" data-label="under the Sto Helit bridge" cx="440" cy="260" r="4"/>
     <circle id="room-25decbe4c650951cd76c28a6e6b51b9f13fc7fd5" class="room outdoor" data-label="intersection of Sto Kerrig road and the Ankh River Road" cx="416" cy="195" r="4"/>
     <circle id="room-fbb55aa44a84fc449c8dbb5509d142aebb4431b6" class="room outdoor" data-label="fork on the Ankh Road" cx="328" cy="339" r="4"/>
     <circle id="room-ad9e0e9b280042358ed40a2705515f386ac897e8" class="room outdoor" data-label="road" cx="297" cy="360" r="4"/>
@@ -1740,12 +1740,12 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-4f3f368b9305a6d353b5661723d4eab0120ca5e2" class="room outdoor" data-label="Klatch Road, where it splits off toward the Morpork mountains" cx="46" cy="848" r="4"/>
     <circle id="room-9dc9acfe8fd09b43e5a4ae5ca473fd6cd66d111c" class="room outdoor" data-label="dead end near a ruined castle" cx="197" cy="913" r="4"/>
     <circle id="room-8d8e290fbc902c1b483a63f3fb0fb14bd38ff120" class="room outdoor" data-label="road" cx="71" cy="551" r="4"/>
-    <rect id="room-3ff15e523004ba8ae11a7c0c21ade870cf4bbc59" class="room indoor" data-label="hallway" x="239" y="717" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="243,718 240.5,723 245.5,723"/>
+    <rect id="room-3ff15e523004ba8ae11a7c0c21ade870cf4bbc59" class="room indoor" data-label="hallway" x="239" y="717" width="8" height="8" rx="2"/>
     <rect id="room-43586a987b341007308e87eb47ce34f54f5ae7e5" class="room indoor" data-label="kitchen" x="229" y="717" width="8" height="8" rx="2"/>
-    <rect id="room-94dbbb53a89580354f1198585f41a00245a1acd4" class="room indoor" data-label="parlour" x="239" y="707" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="243,714 240.5,709 245.5,709"/>
-    <rect id="room-b0c7b10762f94349a72c21643fa3a3e6b030199c" class="room indoor" data-label="bedroom" x="249" y="707" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="253,714 250.5,709 255.5,709"/>
+    <rect id="room-94dbbb53a89580354f1198585f41a00245a1acd4" class="room indoor" data-label="parlour" x="239" y="707" width="8" height="8" rx="2"/>
+    <rect id="room-b0c7b10762f94349a72c21643fa3a3e6b030199c" class="room indoor" data-label="bedroom" x="249" y="707" width="8" height="8" rx="2"/>
     <rect id="room-ea07fef7ac649af04db703e15979dad097821320" class="room indoor" data-label="ensuite" x="259" y="707" width="8" height="8" rx="2"/>
-    <rect id="room-7f9faa8cc8a5a5f63f0cebe6e1769b8d8c533938" class="room indoor" data-label="cellar" x="239" y="707" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="243,708 240.5,713 245.5,713"/>
+    <rect id="room-7f9faa8cc8a5a5f63f0cebe6e1769b8d8c533938" class="room indoor" data-label="cellar" x="239" y="707" width="8" height="8" rx="2"/>
     <circle id="room-3ee6c60fa4d4b9faeb8bae4617b8d7cbad42f2a6" class="room outdoor green" data-label="lower branches of a large pine tree" cx="1053" cy="858" r="4"/>
     <circle id="room-0f2c8b8bbe2b441d39c62cf5dce7be1ffe9c00f5" class="room outdoor green" data-label="halfway up a large pine tree" cx="1053" cy="849" r="4"/>
     <circle id="room-c3ce05ff3b7105a1f49ecd1b05f331c5a3c3440c" class="room outdoor green" data-label="lofty perch in a giant pine" cx="1053" cy="840" r="4"/>
@@ -1785,6 +1785,46 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-231db1e98cdd4603fbb33b35f4f9e4802a6ead3c" class="room indoor room-house" data-label="[player house]" x="1385" y="408" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1389" y="412" text-anchor="middle" dominant-baseline="central">H</text>
     <rect id="room-e20c8af364efc2c34be94c59d7fc9085550e308d" class="room indoor room-house" data-label="[player house]" x="1354" y="474" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1358" y="478" text-anchor="middle" dominant-baseline="central">H</text>
     <rect id="room-2df8b2ff3770031c92195f146749a27f9b7068c6" class="room indoor room-house" data-label="[player house]" x="1354" y="474" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1358" y="478" text-anchor="middle" dominant-baseline="central">H</text>
+  </g>
+
+  <g id="layer-stairs">
+    <polygon id="stair-07d6e478132c338bb4594ebecfd9217504fc45e5" class="stair-symbol" points="1380,169 1377.5,164 1382.5,164"/>
+    <polygon id="stair-1ca33d8b3f115c6e79809773ff8380908cd5e867" class="stair-symbol" points="1380,163 1377.5,168 1382.5,168"/>
+    <polygon id="stair-c298afe2ab3751cbe22d82a5f64103ece4080c85" class="stair-symbol" points="1325,154 1322.5,149 1327.5,149"/>
+    <polygon id="stair-c6d154dccb79cf380e92a4b671cadc774f03db53" class="stair-symbol" points="1325,148 1322.5,153 1327.5,153"/>
+    <polygon id="stair-fcbcec61956b1d60028effdeddd48edd803dc0bf" class="stair-symbol" points="1282,154 1279.5,149 1284.5,149"/>
+    <polygon id="stair-86ba17a6b16520060fd866a3b3ae14da2dcc1a27" class="stair-symbol" points="1282,148 1279.5,153 1284.5,153"/>
+    <polygon id="stair-871535437c7e16aa8265eaa88fbf7022e2d7bc0d" class="stair-symbol" points="1201,232 1198.5,237 1203.5,237"/>
+    <polygon id="stair-b7b8b7e7b1a1674ccc4358fd1060097cee1f812a" class="stair-symbol" points="1191,228 1188.5,223 1193.5,223"/>
+    <polygon id="stair-66bbb7f392ead2fe2ac15de10e635ad4b41a139c" class="stair-symbol" points="1143,134 1140.5,129 1145.5,129"/>
+    <polygon id="stair-dc31e10958b6218b256a8a6a6e042c41bd23afa5" class="stair-symbol" points="1143,128 1140.5,133 1145.5,133"/>
+    <polygon id="stair-d3e8c9b2461d989be570401d61a6cc0323538ae7" class="stair-symbol" points="1014,246 1011.5,251 1016.5,251"/>
+    <polygon id="stair-b8580e89f4d87400834a9ed422c9ce9e6be32886" class="stair-symbol" points="1004,241 1001.5,236 1006.5,236"/>
+    <polygon id="stair-5f579c822147a3755005736d2c66ecb5d0344937" class="stair-symbol" points="1028,338 1025.5,333 1030.5,333"/>
+    <polygon id="stair-d914dc3c659edc4f90ed16ef2706a135d1fa78c6" class="stair-symbol" points="1028,332 1025.5,337 1030.5,337"/>
+    <polygon id="stair-c78f2fce85bf15c16a05807c65d4e96fe247cb42" class="stair-symbol" points="1288,498 1285.5,503 1290.5,503"/>
+    <polygon id="stair-938911876f6e1b3f2d5dd23c8c9c23f715876371" class="stair-symbol" points="1278,494 1275.5,489 1280.5,489"/>
+    <polygon id="stair-10259cc14d7b00991460e585dd4aef6dd4cd386a" class="stair-symbol" points="1386,431 1383.5,436 1388.5,436"/>
+    <polygon id="stair-b8d8cd437de9d0ea66f87eab66d03e4708363fc0" class="stair-symbol" points="1376,420 1373.5,425 1378.5,425"/>
+    <polygon id="stair-081cc90b208ebaf2124ecc4d7b521f72c1332f38" class="stair-symbol" points="1366,416 1363.5,411 1368.5,411"/>
+    <polygon id="stair-44699b8cba32fc40760c81803d439ba6d4ff6131" class="stair-symbol" points="1393,646 1390.5,651 1395.5,651"/>
+    <polygon id="stair-af28cd8711f16ee7fb9cca367e8ca1b371fe58cf" class="stair-symbol" points="1404,641 1401.5,636 1406.5,636"/>
+    <polygon id="stair-d32875d224129cc49306c9560d45bd01c7ac3208" class="stair-symbol" points="1150,802 1147.5,797 1152.5,797"/>
+    <polygon id="stair-e393f7a18e60a62db47d63e78ad8fa2a5cfb7e97" class="stair-symbol" points="1150,796 1147.5,801 1152.5,801"/>
+    <polygon id="stair-91d21c68931c722414f0777e12ad26ba8767bb37" class="stair-symbol" points="834,387 831.5,392 836.5,392"/>
+    <polygon id="stair-d26df594f5a872ad2a6d1dc802f204c3d4dc0929" class="stair-symbol" points="844,382 841.5,377 846.5,377"/>
+    <polygon id="stair-6550847620e604dcf80298f6da25ae646da05c69" class="stair-symbol" points="797,387 794.5,392 799.5,392"/>
+    <polygon id="stair-b35caacd34ee457ce4a703e1b9856bf75c62da30" class="stair-symbol" points="787,383 784.5,378 789.5,378"/>
+    <polygon id="stair-df4652fe6838fea1b22ee29eb13d9e6dbb61aef9" class="stair-symbol" points="743,219 740.5,214 745.5,214"/>
+    <polygon id="stair-abb84cc9b4347ce086e045a62a3e9dc8d0e90cbb" class="stair-symbol" points="743,213 740.5,218 745.5,218"/>
+    <polygon id="stair-a6dfc0cc68071732f4b0283d48e98acffa246093" class="stair-symbol" points="534,442 531.5,437 536.5,437"/>
+    <polygon id="stair-7436c897b7605d78363c2fc0c2e46b62756ece93" class="stair-symbol" points="534,436 531.5,441 536.5,441"/>
+    <polygon id="stair-8097f4d5d87cb7f7021aabf94661d76bfab99f5a" class="stair-symbol" points="440,263 437.5,258 442.5,258"/>
+    <polygon id="stair-2c96916d77396094942f41d9908da075a759eef4" class="stair-symbol" points="440,257 437.5,262 442.5,262"/>
+    <polygon id="stair-3ff15e523004ba8ae11a7c0c21ade870cf4bbc59" class="stair-symbol" points="243,718 240.5,723 245.5,723"/>
+    <polygon id="stair-94dbbb53a89580354f1198585f41a00245a1acd4" class="stair-symbol" points="243,714 240.5,709 245.5,709"/>
+    <polygon id="stair-b0c7b10762f94349a72c21643fa3a3e6b030199c" class="stair-symbol" points="253,714 250.5,709 255.5,709"/>
+    <polygon id="stair-7f9faa8cc8a5a5f63f0cebe6e1769b8d8c533938" class="stair-symbol" points="243,708 240.5,713 245.5,713"/>
   </g><g
    id="layer-room-labels"><text
      class="room-type-label"

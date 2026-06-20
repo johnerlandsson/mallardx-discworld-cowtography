@@ -216,8 +216,8 @@ text, .map-label, .map-label-muted, .map-label-accent,
   </g>
   <g
      id="layer-rooms">
-    <rect id="room-6d022438847de9f631b5da5371ea5b6980fd4353" class="room indoor" data-label="musty tunnel" x="271" y="253" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="275,260 272.5,255 277.5,255"/>
-    <rect id="room-39802dde6c5f57f02e92c291f9f9211525ed1d69" class="room indoor" data-label="tunnel next to a ladder" x="271" y="267" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="275,268 272.5,273 277.5,273"/>
+    <rect id="room-6d022438847de9f631b5da5371ea5b6980fd4353" class="room indoor" data-label="musty tunnel" x="271" y="253" width="8" height="8" rx="2"/>
+    <rect id="room-39802dde6c5f57f02e92c291f9f9211525ed1d69" class="room indoor" data-label="tunnel next to a ladder" x="271" y="267" width="8" height="8" rx="2"/>
     <rect id="room-fdbc15970c3e18ca88452d963988f0a98f9edbda" class="room indoor" data-label="crumbling tunnel" x="285" y="253" width="8" height="8" rx="2"/>
     <rect id="room-8b483f9fa0bea066a4b2a495115ce57fe46dd3e1" class="room indoor" data-label="mushroomy tunnel" x="299" y="253" width="8" height="8" rx="2"/>
     <rect id="room-37b28e3e009a035f396b6b8529fff7c4a4889d16" class="room indoor" data-label="holey tunnel" x="299" y="239" width="8" height="8" rx="2"/>
@@ -238,7 +238,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-ae43222ca88d7f039a6c2b7118265f3ef7db8d85" class="room indoor" data-label="mossy tunnel" x="145" y="239" width="8" height="8" rx="2"/>
     <rect id="room-62318616516e96d4a562275933c88d1430ec035e" class="room indoor" data-label="end of a tunnel" x="131" y="239" width="8" height="8" rx="2"/>
     <circle id="room-640fb7e333e01bca1260f0a7620c83555b26b044" class="room outdoor room-mission" data-label="mysterious cove" cx="121" cy="243" r="4"/><text class="room-type-label" font-size="4.5" x="121" y="243" text-anchor="middle" dominant-baseline="central">!</text>
-    <circle id="room-c1cca17cdf028a00dcc9cb479d01bbb8bfb65e5b" class="room outdoor" data-label="treacherous cliff path" cx="105" cy="229" r="4"/><polygon class="stair-symbol" points="105,232 102.5,227 107.5,227"/>
+    <circle id="room-c1cca17cdf028a00dcc9cb479d01bbb8bfb65e5b" class="room outdoor" data-label="treacherous cliff path" cx="105" cy="229" r="4"/>
     <rect id="room-ebff897af2b8bb6800a9a8636143099d0714be07" class="room indoor" data-label="dingy tunnel" x="257" y="295" width="8" height="8" rx="2"/>
     <rect id="room-c0495c993b8ba463e6b3008a88f962ae28084582" class="room indoor danger" data-label="dingy tunnel" x="271" y="295" width="8" height="8" rx="2"/>
     <rect id="room-ddabfb40040805889125b223a2d679e0a9716fd2" class="room indoor danger" data-label="dingy tunnel" x="285" y="309" width="8" height="8" rx="2"/>
@@ -314,6 +314,12 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-e4d9861597f021392033f410b4eec96431d6ea6b" class="room indoor" data-label="sand-filled shack" x="308" y="194" width="8" height="8" rx="2"/>
     <rect id="room-3b408d9de897bd521a3ed60b15e9c30dd477cc19" class="room indoor room-shop" data-label="dank shop" x="308" y="169" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="312" y="173" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-53b277e30e63adab00b42e6f3a72138ecc87bbde" class="room indoor room-shop" data-label="shadowed basement" x="308" y="169" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="312" y="173" text-anchor="middle" dominant-baseline="central">S</text>
+  </g>
+
+  <g id="layer-stairs">
+    <polygon id="stair-6d022438847de9f631b5da5371ea5b6980fd4353" class="stair-symbol" points="275,260 272.5,255 277.5,255"/>
+    <polygon id="stair-39802dde6c5f57f02e92c291f9f9211525ed1d69" class="stair-symbol" points="275,268 272.5,273 277.5,273"/>
+    <polygon id="stair-c1cca17cdf028a00dcc9cb479d01bbb8bfb65e5b" class="stair-symbol" points="105,232 102.5,227 107.5,227"/>
   </g>
   <g
      id="layer-room-labels" />

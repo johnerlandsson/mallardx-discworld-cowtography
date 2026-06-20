@@ -382,8 +382,8 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-e4200a6ca6fe43cad5d05f1998e2107cdcf7a620" class="room indoor" data-label="public communal toilet" x="71" y="135" width="8" height="8" rx="2"/>
     <rect id="room-2b996723e2d395c22a01c73f7cea9bcb6bfc4755" class="room indoor" data-label="citizens&#x27; oath swearing and records, Tyrant&#x27;s Palace" x="71" y="165" width="8" height="8" rx="2"/>
     <rect id="room-13b93a263468c0b9b634563d52c071388c624860" class="room indoor" data-label="voting room, Tyrant&#x27;s Palace" x="61" y="165" width="8" height="8" rx="2"/>
-    <rect id="room-b08268e06a868da9f1944c624c13eddb2676b863" class="room indoor" data-label="bottom of a spiral staircase in the Tyrant&#x27;s Palace" x="81" y="165" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="85,166 82.5,171 87.5,171"/>
-    <rect id="room-16d914694833b8b0ee357eb628ea44a430729d38" class="room indoor" data-label="top of a spiral staircase in the Tyrant&#x27;s Palace" x="127" y="164" width="8" height="8" rx="2"/><polygon class="stair-symbol" points="131,171 128.5,166 133.5,166"/>
+    <rect id="room-b08268e06a868da9f1944c624c13eddb2676b863" class="room indoor" data-label="bottom of a spiral staircase in the Tyrant&#x27;s Palace" x="81" y="165" width="8" height="8" rx="2"/>
+    <rect id="room-16d914694833b8b0ee357eb628ea44a430729d38" class="room indoor" data-label="top of a spiral staircase in the Tyrant&#x27;s Palace" x="127" y="164" width="8" height="8" rx="2"/>
     <rect id="room-2b0eb24d13c330d061bd2d5bf1009346e8705b14" class="room indoor" data-label="Frog Board, Tyrant&#x27;s Palace" x="137" y="164" width="8" height="8" rx="2"/>
     <rect id="room-17eca490fbf53162e12524433ee068c9b71485b8" class="room indoor" data-label="Flame Board, Tyrant&#x27;s Palace" x="147" y="164" width="8" height="8" rx="2"/>
     <rect id="room-c47ecca5bbd69da7dffbd57aed2a15c1e2b40148" class="room indoor" data-label="Playerkiller board room" x="157" y="164" width="8" height="8" rx="2"/>
@@ -394,6 +394,11 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-fd632d09f65c6e304aaffc5f09d96b1f4b3fecb5" class="room indoor" data-label="Philosophers, Tyrant&#x27;s Palace" x="157" y="154" width="8" height="8" rx="2"/>
     <rect id="room-fabba5b4be243a4e9341049cfbac2b72c469a209" class="room indoor" data-label="Ephebe Real Estate Agency" x="161" y="38" width="8" height="8" rx="2"/>
     <circle id="room-15a43931e7f80edc24ef192e48fa89d8b6f5d504" class="room outdoor green" data-label="ledge on the side of a wall" cx="89" cy="86" r="4"/>
+  </g>
+
+  <g id="layer-stairs">
+    <polygon id="stair-b08268e06a868da9f1944c624c13eddb2676b863" class="stair-symbol" points="85,166 82.5,171 87.5,171"/>
+    <polygon id="stair-16d914694833b8b0ee357eb628ea44a430729d38" class="stair-symbol" points="131,171 128.5,166 133.5,166"/>
   </g><g
    id="layer-room-labels" /><g
    id="layer-labels"><!-- labels --></g></svg>

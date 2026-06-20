@@ -289,6 +289,10 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-f8a857039f94af1eb191af12fc84fdf0420caa1c" class="room indoor" data-label="underground room" x="298" y="189" width="8" height="8" rx="2"/>
     <rect id="room-74ef431c926e729fe1e07e225727c14b44919188" class="room indoor" data-label="underground tunnel" x="298" y="189" width="8" height="8" rx="2"/>
     <rect id="room-02f1d1b27eab8d65affb880525ddafb9f0941735" class="room indoor" data-label="silent tunnel" x="298" y="189" width="8" height="8" rx="2"/>
+  </g>
+
+  <g id="layer-stairs">
+
   </g><g
      id="layer-room-labels" /><g
      id="layer-labels"><!-- labels --></g></svg>
