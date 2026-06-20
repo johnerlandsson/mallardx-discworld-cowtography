@@ -293,3 +293,23 @@ body {
 .route-clear:hover:not(:disabled) {
   color: var(--fg);
 }
+
+/* ─── Street name layer ────────────────────────────────────────────────────── */
+:root.streets-hidden #layer-streets { display: none; }
+
+.streets-toggle {
+  height: 18px;
+  padding: 0 5px;
+  background: color-mix(in srgb, var(--fg, #ddd) 20%, transparent);
+  color: var(--fg);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 10px;
+  line-height: 1;
+  white-space: nowrap;
+  flex: 0 0 auto;
+}
+.streets-toggle:hover { background: color-mix(in srgb, var(--fg, #ddd) 30%, transparent); }
+.streets-toggle.off   { background: color-mix(in srgb, var(--fg, #ddd) 10%, transparent); }
+.streets-toggle.off:hover { background: color-mix(in srgb, var(--fg, #ddd) 20%, transparent); }
