@@ -1,6 +1,6 @@
 import { describe, it, expect, vi } from 'vitest'
 import Database from 'better-sqlite3'
-import { queryRooms, queryExits, queryStairRooms, edgeId, roomElement, stairSymbol, buildStairLayer, exitElement, buildNewSvg, updateExistingSvg, buildLibrarySvg, buildLibraryLabelsContent, buildLibraryRowNumbers, buildLibraryBookList, buildLibraryExitsContent, queryShopTypes, TYPE_LETTERS, isWaterRoom } from './build-svg.mjs'
+import { queryRooms, queryExits, queryStairRooms, edgeId, roomElement, stairSymbol, buildStairLayer, exitElement, buildNewSvg, updateExistingSvg, buildLibrarySvg, buildLibraryLabelsContent, buildLibraryRowNumbers, buildLibraryBookList, buildLibraryExitsContent, queryShopTypes, TYPE_LETTERS, isWaterRoom, buildStackData } from './build-svg.mjs'
 
 function makeDb() {
   const db = new Database(':memory:')
@@ -1037,5 +1037,101 @@ describe('queryShopTypes', () => {
     expect(result.has('r1')).toBe(false)
     expect(warnSpy).toHaveBeenCalledWith(expect.stringContaining('unknown type "bank s"'))
     warnSpy.mockRestore()
+  })
+})
+
+describe('buildStackData', () => {
+  it('returns empty maps when no stacked positions', () => {
+    const rooms = [
+      { id: 'r1', mapId: 1, x: 0, y: 0 },
+      { id: 'r2', mapId: 1, x: 10, y: 0 },
+    ]
+    const exits = [{ from: 'r1', to: 'r2', isVertical: false }]
+    const { upperToGround, groundToUppers } = buildStackData(rooms, exits, new Map())
+    expect(upperToGround).toEqual({})
+    expect(groundToUppers).toEqual({})
+  })
+
+  it('identifies ground floor by BFS reachability score', () => {
+    // r1 (ground) connects to r3 in the street; r2 (upper) has no cardinal exits
+    const rooms = [
+      { id: 'r1', mapId: 1, x: 0, y: 0 },
+      { id: 'r2', mapId: 1, x: 0, y: 0 },
+      { id: 'r3', mapId: 1, x: 10, y: 0 },
+    ]
+    const exits = [{ from: 'r1', to: 'r3', isVertical: false }]
+    const { upperToGround, groundToUppers } = buildStackData(rooms, exits, new Map())
+    expect(upperToGround).toEqual({ r2: 'r1' })
+    expect(groundToUppers).toEqual({ r1: ['r2'] })
+  })
+
+  it('applies override regardless of BFS score', () => {
+    const rooms = [
+      { id: 'r1', mapId: 1, x: 0, y: 0 },
+      { id: 'r2', mapId: 1, x: 0, y: 0 },
+      { id: 'r3', mapId: 1, x: 10, y: 0 },
+    ]
+    const exits = [{ from: 'r1', to: 'r3', isVertical: false }]
+    // r1 would normally win (higher score), but override forces r2 as ground
+    const { upperToGround, groundToUppers } = buildStackData(rooms, exits, new Map(), { '1:0:0': 'r2' })
+    expect(upperToGround).toEqual({ r1: 'r2' })
+    expect(groundToUppers).toEqual({ r2: ['r1'] })
+  })
+
+  it('uses hasDown=false as tiebreaker when BFS scores are equal', () => {
+    // Both rooms score 0; r1 has only an up exit (ground floor), r2 has only a down exit (upper)
+    const rooms = [
+      { id: 'r1', mapId: 1, x: 0, y: 0 },
+      { id: 'r2', mapId: 1, x: 0, y: 0 },
+    ]
+    const stairRooms = new Map([
+      ['r1', { hasUp: true,  hasDown: false }],
+      ['r2', { hasUp: false, hasDown: true  }],
+    ])
+    const { upperToGround } = buildStackData(rooms, [], stairRooms)
+    expect(upperToGround).toEqual({ r2: 'r1' })
+  })
+
+  it('BFS counts rooms reachable within 5 hops and ignores rooms at depth 6', () => {
+    // r1 connects to a chain of 6 rooms (c0–c5); r2 has no cardinal exits
+    // r1 should reach c0–c4 (5 rooms), c5 at depth 6 is not counted — but r1 still wins
+    const chain = Array.from({ length: 6 }, (_, i) => ({ id: `c${i}`, mapId: 1, x: (i + 1) * 10, y: 0 }))
+    const rooms = [
+      { id: 'r1', mapId: 1, x: 0, y: 0 },
+      { id: 'r2', mapId: 1, x: 0, y: 0 },
+      ...chain,
+    ]
+    const exits = chain.map((c, i) => ({
+      from: i === 0 ? 'r1' : `c${i - 1}`,
+      to: c.id,
+      isVertical: false,
+    }))
+    const { upperToGround } = buildStackData(rooms, exits, new Map())
+    expect(upperToGround).toEqual({ r2: 'r1' })
+  })
+
+  it('handles three-room stack correctly', () => {
+    const rooms = [
+      { id: 'r1', mapId: 1, x: 0, y: 0 },
+      { id: 'r2', mapId: 1, x: 0, y: 0 },
+      { id: 'r3', mapId: 1, x: 0, y: 0 },
+      { id: 'st', mapId: 1, x: 10, y: 0 },
+    ]
+    const exits = [{ from: 'r1', to: 'st', isVertical: false }]
+    const { upperToGround, groundToUppers } = buildStackData(rooms, exits, new Map())
+    expect(upperToGround['r2']).toBe('r1')
+    expect(upperToGround['r3']).toBe('r1')
+    expect(groundToUppers['r1']).toContain('r2')
+    expect(groundToUppers['r1']).toContain('r3')
+    expect(groundToUppers['r1']).toHaveLength(2)
+  })
+
+  it('rooms on different maps with same x:y are not stacked together', () => {
+    const rooms = [
+      { id: 'r1', mapId: 1, x: 0, y: 0 },
+      { id: 'r2', mapId: 2, x: 0, y: 0 },
+    ]
+    const { upperToGround } = buildStackData(rooms, [], new Map())
+    expect(upperToGround).toEqual({})
   })
 })
