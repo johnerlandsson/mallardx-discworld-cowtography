@@ -200,11 +200,10 @@ function startTshopAnim(svgEl, wrapEl) {
     if (!cw || !ch) return;
     if (canvas.width !== cw || canvas.height !== ch) { canvas.width = cw; canvas.height = ch; }
     ctx.clearRect(0, 0, cw, ch);
-    const ctm = svgEl.getScreenCTM();
-    if (!ctm) return;
-    const cr = canvas.getBoundingClientRect();
-    const ocx = CX * ctm.a + ctm.e - cr.left;
-    const ocy = CY * ctm.d + ctm.f - cr.top;
+    const vb = svgEl.viewBox.baseVal;
+    if (!vb || !vb.width) return;
+    const ocx = (CX - vb.x) / vb.width  * cw;
+    const ocy = (CY - vb.y) / vb.height * ch;
     const maxDist = Math.max(
       Math.hypot(ocx, ocy), Math.hypot(cw - ocx, ocy),
       Math.hypot(ocx, ch - ocy), Math.hypot(cw - ocx, ch - ocy)
