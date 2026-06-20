@@ -184,9 +184,10 @@ function stopLSpaceAnim() {
 
 function startTshopAnim(svgEl, wrapEl) {
   stopTshopAnim();
-  wrapEl.style.zIndex = "0"; // create stacking context so canvas z-index:-1 sits behind SVG
   const canvas = document.createElement("canvas");
-  canvas.style.cssText = "position:absolute;inset:0;pointer-events:none;z-index:-1;";
+  // No z-index — positioned canvas naturally paints above the display:block SVG.
+  // Particles over rooms is fine; they are semi-transparent thin lines.
+  canvas.style.cssText = "position:absolute;inset:0;pointer-events:none;";
   wrapEl.insertBefore(canvas, wrapEl.firstChild);
   const particles = [];
   const ctx = canvas.getContext("2d");
