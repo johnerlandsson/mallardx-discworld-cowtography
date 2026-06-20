@@ -55,6 +55,7 @@ let pendingRoomClick  = null;  // { el, startX, startY } | null — candidate le
 let loadGeneration = 0;
 let lspaceAnim     = null;  // requestAnimationFrame id for L-space bouncer
 let tshopAnim      = null;  // requestAnimationFrame id for tshop hyperspace canvas
+let tshopCanvas    = null;  // the canvas element itself (position:fixed, needs explicit removal)
 let darkMode       = false; // true while in a room without a GMCP identifier
 
 // World-disc canvas state (map 99 only)
@@ -185,21 +186,19 @@ function stopLSpaceAnim() {
 function startTshopAnim(svgEl, wrapEl) {
   stopTshopAnim();
   const canvas = document.createElement("canvas");
-  canvas.style.cssText = "position:absolute;inset:0;pointer-events:none;";
-  // Insert canvas as a sibling of the wrap inside $container, not as a child
-  // of the wrap. Both are inset:0 in the same containing block, so canvas
-  // pixels and SVG pixels share the same coordinate space. Going via the wrap
-  // stacking context shifts the visual origin in Mallard's iframe.
-  const $cont = wrapEl.parentNode;
-  $cont.insertBefore(canvas, wrapEl);
+  // position:fixed makes the canvas fill the iframe viewport (= the map panel)
+  // regardless of which CSS containing block the SVG wrap ends up in.
+  canvas.style.cssText = "position:fixed;top:0;left:0;pointer-events:none;";
+  document.body.appendChild(canvas);
+  tshopCanvas = canvas;
   const particles = [];
   const ctx = canvas.getContext("2d");
   const HS_MAX = 80, HS_SPAWN = 0.35, HS_ACCEL = 1.015;
 
   function frame() {
-    if (!canvas.isConnected) { tshopAnim = null; return; }
+    if (!canvas.isConnected) { tshopAnim = null; tshopCanvas = null; return; }
     tshopAnim = requestAnimationFrame(frame);
-    const cw = canvas.offsetWidth, ch = canvas.offsetHeight;
+    const cw = window.innerWidth, ch = window.innerHeight;
     if (!cw || !ch) return;
     if (canvas.width !== cw || canvas.height !== ch) { canvas.width = cw; canvas.height = ch; }
     ctx.clearRect(0, 0, cw, ch);
@@ -248,6 +247,7 @@ function stopTshopAnim() {
   if (tshopAnim === null) return;
   cancelAnimationFrame(tshopAnim);
   tshopAnim = null;
+  if (tshopCanvas) { tshopCanvas.remove(); tshopCanvas = null; }
 }
 
 function showSpecialScreen(name) {
