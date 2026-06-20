@@ -182,7 +182,7 @@ function stopLSpaceAnim() {
   lspaceAnim = null;
 }
 
-function startTshopAnim(svgEl, wrapEl) {
+function startTshopAnim(wrapEl) {
   stopTshopAnim();
   wrapEl.style.isolation = "isolate"; // create stacking context so canvas z-index:-1 sits behind SVG
   const canvas = document.createElement("canvas");
@@ -190,22 +190,21 @@ function startTshopAnim(svgEl, wrapEl) {
   wrapEl.insertBefore(canvas, wrapEl.firstChild);
   const particles = [];
   const ctx = canvas.getContext("2d");
-  const CX = 371, CY = 304;
   const HS_MAX = 80, HS_SPAWN = 0.35, HS_ACCEL = 1.015;
-  const HS_FADE_OUT = 180, HS_MAX_DIST = 220;
 
   function frame() {
     if (!canvas.isConnected) { tshopAnim = null; return; }
     tshopAnim = requestAnimationFrame(frame);
     const cw = canvas.offsetWidth, ch = canvas.offsetHeight;
+    if (!cw || !ch) return;
     if (canvas.width !== cw || canvas.height !== ch) { canvas.width = cw; canvas.height = ch; }
     ctx.clearRect(0, 0, cw, ch);
-    const ctm = svgEl.getScreenCTM();
-    if (!ctm) return;
-    const cr = canvas.getBoundingClientRect();
+    const cx = cw / 2, cy = ch / 2;
+    const maxDist = Math.hypot(cx, cy) * 1.15;
+    const fadeDist = maxDist * 0.75;
     const fg = getComputedStyle(document.documentElement).getPropertyValue("--fg").trim() || "#ffffff";
     if (particles.length < HS_MAX && Math.random() < HS_SPAWN) {
-      particles.push({ angle: Math.random() * Math.PI * 2, dist: 0, speed: 0.15 + Math.random() * 0.25 });
+      particles.push({ angle: Math.random() * Math.PI * 2, dist: 0, speed: 0.5 + Math.random() * 0.8 });
     }
     ctx.strokeStyle = fg;
     ctx.lineCap = "round";
@@ -214,19 +213,18 @@ function startTshopAnim(svgEl, wrapEl) {
       const prev = p.dist;
       p.speed *= HS_ACCEL;
       p.dist  += p.speed;
-      if (p.dist >= HS_MAX_DIST) { particles.splice(i, 1); continue; }
+      if (p.dist >= maxDist) { particles.splice(i, 1); continue; }
       const opacity = p.dist < 15
         ? p.dist / 15
-        : p.dist > HS_FADE_OUT
-          ? 1 - (p.dist - HS_FADE_OUT) / (HS_MAX_DIST - HS_FADE_OUT)
+        : p.dist > fadeDist
+          ? 1 - (p.dist - fadeDist) / (maxDist - fadeDist)
           : 1;
       const cos = Math.cos(p.angle), sin = Math.sin(p.angle);
       ctx.globalAlpha = opacity * 0.75;
-      ctx.lineWidth   = Math.max(0.5, p.speed * ctm.a * 0.4);
+      ctx.lineWidth   = Math.max(0.5, p.speed * 0.15);
       ctx.beginPath();
-      // ctm.b/c (shear/rotation) are omitted — map SVGs are never rotated so ctm.b===ctm.c===0
-      ctx.moveTo((CX + cos * prev)   * ctm.a + ctm.e - cr.left, (CY + sin * prev)   * ctm.d + ctm.f - cr.top);
-      ctx.lineTo((CX + cos * p.dist) * ctm.a + ctm.e - cr.left, (CY + sin * p.dist) * ctm.d + ctm.f - cr.top);
+      ctx.moveTo(cx + cos * prev,   cy + sin * prev);
+      ctx.lineTo(cx + cos * p.dist, cy + sin * p.dist);
       ctx.stroke();
     }
     ctx.globalAlpha = 1;
@@ -278,7 +276,7 @@ async function loadSvgMap(mapId, x, y) {
   currentSvg = wrap.querySelector("svg");
   ensureWarpDefs(currentSvg);
   $container.insertBefore(wrap, $lspace);
-  if (mapId === 53) startTshopAnim(currentSvg, wrap);
+  if (mapId === 53) startTshopAnim(wrap);
   if (!roomUnits.has(mapId)) {
     const unit = computeRoomUnit(currentSvg);
     if (unit) roomUnits.set(mapId, unit);
