@@ -182,7 +182,7 @@ function stopLSpaceAnim() {
   lspaceAnim = null;
 }
 
-function startTshopAnim(wrapEl) {
+function startTshopAnim(svgEl, wrapEl) {
   stopTshopAnim();
   wrapEl.style.isolation = "isolate"; // create stacking context so canvas z-index:-1 sits behind SVG
   const canvas = document.createElement("canvas");
@@ -190,6 +190,7 @@ function startTshopAnim(wrapEl) {
   wrapEl.insertBefore(canvas, wrapEl.firstChild);
   const particles = [];
   const ctx = canvas.getContext("2d");
+  const CX = 371, CY = 304;  // SVG midpoint between the two tshop rooms
   const HS_MAX = 80, HS_SPAWN = 0.35, HS_ACCEL = 1.015;
 
   function frame() {
@@ -199,8 +200,15 @@ function startTshopAnim(wrapEl) {
     if (!cw || !ch) return;
     if (canvas.width !== cw || canvas.height !== ch) { canvas.width = cw; canvas.height = ch; }
     ctx.clearRect(0, 0, cw, ch);
-    const cx = cw / 2, cy = ch / 2;
-    const maxDist = Math.hypot(cx, cy) * 1.15;
+    const ctm = svgEl.getScreenCTM();
+    if (!ctm) return;
+    const cr = canvas.getBoundingClientRect();
+    const ocx = CX * ctm.a + ctm.e - cr.left;
+    const ocy = CY * ctm.d + ctm.f - cr.top;
+    const maxDist = Math.max(
+      Math.hypot(ocx, ocy), Math.hypot(cw - ocx, ocy),
+      Math.hypot(ocx, ch - ocy), Math.hypot(cw - ocx, ch - ocy)
+    ) * 1.05;
     const fadeDist = maxDist * 0.75;
     const fg = getComputedStyle(document.documentElement).getPropertyValue("--fg").trim() || "#ffffff";
     if (particles.length < HS_MAX && Math.random() < HS_SPAWN) {
@@ -223,8 +231,8 @@ function startTshopAnim(wrapEl) {
       ctx.globalAlpha = opacity * 0.75;
       ctx.lineWidth   = Math.max(0.5, p.speed * 0.15);
       ctx.beginPath();
-      ctx.moveTo(cx + cos * prev,   cy + sin * prev);
-      ctx.lineTo(cx + cos * p.dist, cy + sin * p.dist);
+      ctx.moveTo(ocx + cos * prev,   ocy + sin * prev);
+      ctx.lineTo(ocx + cos * p.dist, ocy + sin * p.dist);
       ctx.stroke();
     }
     ctx.globalAlpha = 1;
@@ -276,7 +284,7 @@ async function loadSvgMap(mapId, x, y) {
   currentSvg = wrap.querySelector("svg");
   ensureWarpDefs(currentSvg);
   $container.insertBefore(wrap, $lspace);
-  if (mapId === 53) startTshopAnim(wrap);
+  if (mapId === 53) startTshopAnim(currentSvg, wrap);
   if (!roomUnits.has(mapId)) {
     const unit = computeRoomUnit(currentSvg);
     if (unit) roomUnits.set(mapId, unit);
