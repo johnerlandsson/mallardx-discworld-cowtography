@@ -185,10 +185,13 @@ function stopLSpaceAnim() {
 function startTshopAnim(svgEl, wrapEl) {
   stopTshopAnim();
   const canvas = document.createElement("canvas");
-  // No z-index — positioned canvas naturally paints above the display:block SVG.
-  // Particles over rooms is fine; they are semi-transparent thin lines.
   canvas.style.cssText = "position:absolute;inset:0;pointer-events:none;";
-  wrapEl.insertBefore(canvas, wrapEl.firstChild);
+  // Insert canvas as a sibling of the wrap inside $container, not as a child
+  // of the wrap. Both are inset:0 in the same containing block, so canvas
+  // pixels and SVG pixels share the same coordinate space. Going via the wrap
+  // stacking context shifts the visual origin in Mallard's iframe.
+  const $cont = wrapEl.parentNode;
+  $cont.insertBefore(canvas, wrapEl);
   const particles = [];
   const ctx = canvas.getContext("2d");
   const HS_MAX = 80, HS_SPAWN = 0.35, HS_ACCEL = 1.015;
@@ -285,7 +288,7 @@ async function loadSvgMap(mapId, x, y) {
   currentSvg = wrap.querySelector("svg");
   ensureWarpDefs(currentSvg);
   $container.insertBefore(wrap, $lspace);
-  if (mapId === 53) startTshopAnim(currentSvg, wrap);
+  if (mapId === 53) startTshopAnim(null, wrap);
   if (!roomUnits.has(mapId)) {
     const unit = computeRoomUnit(currentSvg);
     if (unit) roomUnits.set(mapId, unit);
