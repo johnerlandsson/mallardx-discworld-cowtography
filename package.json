@@ -9,7 +9,7 @@
     "build:data": "node scripts/build-db.mjs",
     "build:svg": "node scripts/build-svg.mjs",
     "sync:svg": "node scripts/sync-svg-js.mjs",
-    "pack": "rm -f discworld-cowtography-0.18.2.mallardx && zip -r discworld-cowtography-0.18.2.mallardx plugin.toml README.md src/ ui/ --exclude 'ui/maps/*.svg'"
+    "pack": "rm -f discworld-cowtography-0.19.0.mallardx && zip -r discworld-cowtography-0.19.0.mallardx plugin.toml README.md src/ ui/ --exclude 'ui/maps/*.svg'"
   },
   "devDependencies": {
     "adm-zip": "^0.5.10",
