@@ -490,14 +490,10 @@ function applyState() {
     if (el) {
       el.classList.add("route");
       const sib1 = el.nextElementSibling;
-      const sib2 = sib1?.nextElementSibling;
       _lift(el, routeOverlay);
-      if (sib1?.classList.contains("stair-symbol")) {
-        _lift(sib1, routeOverlay);
-        if (sib2?.classList.contains("room-type-label")) _lift(sib2, routeOverlay);
-      } else if (sib1?.classList.contains("room-type-label")) {
-        _lift(sib1, routeOverlay);
-      }
+      if (sib1?.classList.contains("room-type-label")) _lift(sib1, routeOverlay);
+      const stairEl = currentSvg.querySelector(`#stair-${CSS.escape(id)}`);
+      if (stairEl) _lift(stairEl, routeOverlay);
     }
   }
 
@@ -508,16 +504,11 @@ function applyState() {
     const el = currentSvg.querySelector(`#room-${CSS.escape(primary.roomId)}`);
     if (el) {
       el.classList.add("target");
-      // Capture siblings before moving (DOM order changes after appendChild).
       const sib1 = el.nextElementSibling;
-      const sib2 = sib1?.nextElementSibling;
       _lift(el, posOverlay);
-      if (sib1?.classList.contains("stair-symbol")) {
-        _lift(sib1, posOverlay);
-        if (sib2?.classList.contains("room-type-label")) _lift(sib2, posOverlay);
-      } else if (sib1?.classList.contains("room-type-label")) {
-        _lift(sib1, posOverlay);
-      }
+      if (sib1?.classList.contains("room-type-label")) _lift(sib1, posOverlay);
+      const stairEl = currentSvg.querySelector(`#stair-${CSS.escape(primary.roomId)}`);
+      if (stairEl) _lift(stairEl, posOverlay);
     }
   }
 
@@ -526,15 +517,11 @@ function applyState() {
     const el = currentSvg.querySelector(`#room-${CSS.escape(current.roomId)}`);
     if (el) {
       el.classList.add("current");
-      const gsib1 = el.nextElementSibling;
-      const gsib2 = gsib1?.nextElementSibling;
+      const sib1 = el.nextElementSibling;
       _lift(el, posOverlay);
-      if (gsib1?.classList.contains("stair-symbol")) {
-        _lift(gsib1, posOverlay);
-        if (gsib2?.classList.contains("room-type-label")) _lift(gsib2, posOverlay);
-      } else if (gsib1?.classList.contains("room-type-label")) {
-        _lift(gsib1, posOverlay);
-      }
+      if (sib1?.classList.contains("room-type-label")) _lift(sib1, posOverlay);
+      const stairEl = currentSvg.querySelector(`#stair-${CSS.escape(current.roomId)}`);
+      if (stairEl) _lift(stairEl, posOverlay);
     }
   }
 }
