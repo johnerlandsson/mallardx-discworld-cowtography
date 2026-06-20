@@ -315,3 +315,23 @@ body {
 .streets-toggle.off:hover { background: color-mix(in srgb, var(--fg, #ddd) 20%, transparent); }
 
 .street-name { fill: color-mix(in srgb, var(--fg) 60%, var(--bg)); font-family: "Noto Sans", sans-serif; }
+
+/* ─── Stair symbol layer ───────────────────────────────────────────────────── */
+:root.stairs-hidden #layer-stairs { display: none; }
+
+.stairs-toggle {
+  height: 18px;
+  padding: 0 5px;
+  background: color-mix(in srgb, var(--fg, #ddd) 20%, transparent);
+  color: var(--fg);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 10px;
+  line-height: 1;
+  white-space: nowrap;
+  flex: 0 0 auto;
+}
+.stairs-toggle:hover { background: color-mix(in srgb, var(--fg, #ddd) 30%, transparent); }
+.stairs-toggle.off   { background: color-mix(in srgb, var(--fg, #ddd) 10%, transparent); }
+.stairs-toggle.off:hover { background: color-mix(in srgb, var(--fg, #ddd) 20%, transparent); }

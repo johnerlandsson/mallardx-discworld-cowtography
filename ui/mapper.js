@@ -19,6 +19,7 @@ const $routeDest  = document.querySelector(".route-dest");
 const $routeWalk  = document.querySelector(".route-walk");
 const $routeClear = document.querySelector(".route-clear");
 const $streetsToggle = document.querySelector(".streets-toggle");
+const $stairsToggle  = document.querySelector(".stairs-toggle");
 
 // Mallard pushes --bg as an inline style on :root after panel ready.
 // Read the R channel — if >= 128 the background is light.
@@ -43,6 +44,19 @@ $streetsToggle.addEventListener('click', () => {
   const nowVisible = document.documentElement.classList.contains('streets-hidden');
   applyStreetsState(nowVisible);
   localStorage.setItem('cowtography.streets', nowVisible ? '1' : '0');
+});
+
+function applyStairsState(visible) {
+  document.documentElement.classList.toggle('stairs-hidden', !visible);
+  $stairsToggle.classList.toggle('off', !visible);
+}
+const _stairsStored = localStorage.getItem('cowtography.stairs');
+applyStairsState(_stairsStored !== '0');
+
+$stairsToggle.addEventListener('click', () => {
+  const nowVisible = document.documentElement.classList.contains('stairs-hidden');
+  applyStairsState(nowVisible);
+  localStorage.setItem('cowtography.stairs', nowVisible ? '1' : '0');
 });
 
 const SPECIAL_SCREENS = {

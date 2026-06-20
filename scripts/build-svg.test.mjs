@@ -1,6 +1,6 @@
 import { describe, it, expect, vi } from 'vitest'
 import Database from 'better-sqlite3'
-import { queryRooms, queryExits, queryStairRooms, edgeId, roomElement, stairSymbol, exitElement, buildNewSvg, updateExistingSvg, buildLibrarySvg, buildLibraryLabelsContent, buildLibraryRowNumbers, buildLibraryBookList, buildLibraryExitsContent, queryShopTypes, TYPE_LETTERS, isWaterRoom } from './build-svg.mjs'
+import { queryRooms, queryExits, queryStairRooms, edgeId, roomElement, stairSymbol, buildStairLayer, exitElement, buildNewSvg, updateExistingSvg, buildLibrarySvg, buildLibraryLabelsContent, buildLibraryRowNumbers, buildLibraryBookList, buildLibraryExitsContent, queryShopTypes, TYPE_LETTERS, isWaterRoom } from './build-svg.mjs'
 
 function makeDb() {
   const db = new Database(':memory:')
@@ -166,6 +166,54 @@ describe('stairSymbol', () => {
     expect(s).toContain('10,23')   // bottom apex y = 20+3
     expect((s.match(/<polygon/g) ?? []).length).toBe(1)
   })
+
+  it('includes id attribute when id is provided', () => {
+    const s = stairSymbol(10, 20, true, false, 'stair-abc')
+    expect(s).toContain('id="stair-abc"')
+  })
+
+  it('omits id attribute when id is not provided', () => {
+    const s = stairSymbol(10, 20, true, false)
+    expect(s).not.toContain('id=')
+  })
+})
+
+describe('buildStairLayer', () => {
+  const rooms = [
+    { id: 'r1', x: 100, y: 200 },
+    { id: 'r2', x: 50,  y: 75  },
+    { id: 'r3', x: 30,  y: 30  },
+  ]
+
+  it('returns empty string when no stair rooms', () => {
+    expect(buildStairLayer(rooms, new Map())).toBe('')
+  })
+
+  it('emits a polygon with id="stair-{roomId}" for stair rooms', () => {
+    const stairRooms = new Map([['r1', { hasUp: true, hasDown: false }]])
+    const result = buildStairLayer(rooms, stairRooms)
+    expect(result).toContain('id="stair-r1"')
+    expect(result).toContain('class="stair-symbol"')
+    expect(result).toContain('<polygon')
+  })
+
+  it('suppresses stair symbol for rooms with a shop type', () => {
+    const stairRooms = new Map([['r1', { hasUp: true, hasDown: false }]])
+    const shopTypes  = new Map([['r1', 'bank']])
+    const result = buildStairLayer(rooms, stairRooms, shopTypes)
+    expect(result).toBe('')
+  })
+
+  it('emits stair for room with stairs but no shop type, skips room with shop type', () => {
+    const stairRooms = new Map([
+      ['r1', { hasUp: true,  hasDown: false }],
+      ['r2', { hasUp: false, hasDown: true  }],
+    ])
+    const shopTypes = new Map([['r1', 'bank']])
+    const result = buildStairLayer(rooms, stairRooms, shopTypes)
+    expect(result).not.toContain('id="stair-r1"')
+    expect(result).toContain('id="stair-r2"')
+  })
 })
 
 describe('roomElement', () => {
@@ -199,16 +247,10 @@ describe('roomElement', () => {
     expect(el).toContain('&lt;')      // escaped less-than
   })
 
-  it('appends a stair symbol polygon when stair is provided', () => {
-    const el = roomElement('r1', 10, 20, 'Room', false, { hasUp: true, hasDown: false })
-    expect(el).toContain('<circle')
-    expect(el).toContain('class="stair-symbol"')
-    expect(el).toContain('<polygon')
-  })
-
-  it('returns no polygon when stair is null', () => {
-    const el = roomElement('r1', 10, 20, 'Room', false, null)
+  it('never contains a stair polygon (stair symbols live in layer-stairs)', () => {
+    const el = roomElement('r1', 10, 20, 'Room', false)
     expect(el).not.toContain('<polygon')
+    expect(el).not.toContain('stair-symbol')
   })
 })
 
@@ -221,7 +263,7 @@ describe('roomElement (with type)', () => {
   })
 
   it('outdoor typed room has type class and centered letter', () => {
-    const el = roomElement('r1', 10, 20, 'Armoury', false, null, 'weapon')
+    const el = roomElement('r1', 10, 20, 'Armoury', false, 'weapon')
     expect(el).toContain('class="room outdoor room-weapon"')
     expect(el).toContain('<text class="room-type-label"')
     expect(el).toContain('x="10"')
@@ -232,7 +274,7 @@ describe('roomElement (with type)', () => {
   })
 
   it('indoor typed room has type class and centered letter', () => {
-    const el = roomElement('r1', 50, 75, 'Inn', true, null, 'food')
+    const el = roomElement('r1', 50, 75, 'Inn', true, 'food')
     expect(el).toContain('class="room indoor room-food"')
     expect(el).toContain('<text class="room-type-label"')
     expect(el).toContain('x="50"')
@@ -240,8 +282,8 @@ describe('roomElement (with type)', () => {
     expect(el).toContain('>F<')
   })
 
-  it('room with both stair and type shows type label and hides stair symbol', () => {
-    const el = roomElement('r1', 10, 20, 'Bank', false, { hasUp: false, hasDown: true }, 'bank')
+  it('typed room has type label and no stair polygon', () => {
+    const el = roomElement('r1', 10, 20, 'Bank', false, 'bank')
     expect(el).not.toContain('<polygon')
     expect(el).toContain('<text class="room-type-label"')
     expect(el).toContain('>$<')
@@ -259,14 +301,14 @@ describe('roomElement (with type)', () => {
 
 describe('roomElement (compact)', () => {
   it('compact outdoor room has r=1.5 and room-compact class', () => {
-    const el = roomElement('r1', 10, 20, 'Alley', false, null, null, true)
+    const el = roomElement('r1', 10, 20, 'Alley', false, null, true)
     expect(el).toContain('class="room outdoor room-compact"')
     expect(el).toContain('r="1.5"')
     expect(el).not.toContain('r="4"')
   })
 
   it('compact indoor room has 3x3 size and rx=0.75', () => {
-    const el = roomElement('r1', 50, 75, 'Hall', true, null, null, true)
+    const el = roomElement('r1', 50, 75, 'Hall', true, null, true)
     expect(el).toContain('class="room indoor room-compact"')
     expect(el).toContain('width="3"')
     expect(el).toContain('height="3"')
@@ -276,13 +318,13 @@ describe('roomElement (compact)', () => {
   })
 
   it('non-compact outdoor room still has r=4', () => {
-    const el = roomElement('r1', 10, 20, 'Room', false, null, null, false)
+    const el = roomElement('r1', 10, 20, 'Room', false, null, false)
     expect(el).toContain('r="4"')
     expect(el).not.toContain('room-compact')
   })
 
   it('compact room with type has both classes', () => {
-    const el = roomElement('r1', 10, 20, 'Shop', false, null, 'weapon', true)
+    const el = roomElement('r1', 10, 20, 'Shop', false, 'weapon', true)
     expect(el).toContain('class="room outdoor room-weapon room-compact"')
     expect(el).toContain('r="1.5"')
     expect(el).toContain('>W<')
@@ -375,24 +417,24 @@ describe('isWaterRoom', () => {
 
 describe('roomElement (water)', () => {
   it('adds water class to water room', () => {
-    const el = roomElement('r1', 10, 20, 'surface of the river Ankh', false, null, null, false, true)
+    const el = roomElement('r1', 10, 20, 'surface of the river Ankh', false, null, false, true)
     expect(el).toContain('water')
   })
 
   it('does not add water class to normal room', () => {
-    const el = roomElement('r1', 10, 20, 'Dock Road', false, null, null, false, false)
+    const el = roomElement('r1', 10, 20, 'Dock Road', false, null, false, false)
     expect(el).not.toContain('water')
   })
 })
 
 describe('roomElement (green)', () => {
   it('adds green class to green room', () => {
-    const el = roomElement('r1', 10, 20, 'Scoone Avenue Park', false, null, null, false, false, true)
+    const el = roomElement('r1', 10, 20, 'Scoone Avenue Park', false, null, false, false, true)
     expect(el).toContain('green')
   })
 
   it('does not add green class to normal room', () => {
-    const el = roomElement('r1', 10, 20, 'Market Street', false, null, null, false, false, false)
+    const el = roomElement('r1', 10, 20, 'Market Street', false, null, false, false, false)
     expect(el).not.toContain('green')
   })
 
@@ -425,12 +467,12 @@ describe('exitElement (green)', () => {
 
 describe('roomElement (danger)', () => {
   it('adds danger class to danger room', () => {
-    const el = roomElement('r1', 10, 20, 'Arena', false, null, null, false, false, false, true)
+    const el = roomElement('r1', 10, 20, 'Arena', false, null, false, false, false, true)
     expect(el).toContain('danger')
   })
 
   it('does not add danger class to normal room', () => {
-    const el = roomElement('r1', 10, 20, 'Market Street', false, null, null, false, false, false, false)
+    const el = roomElement('r1', 10, 20, 'Market Street', false, null, false, false, false, false)
     expect(el).not.toContain('danger')
   })
 })
@@ -479,12 +521,13 @@ describe('buildNewSvg', () => {
     expect(svg).toContain('class="map-svg"')
   })
 
-  it('has five layers in order: artwork, exits, rooms, room-labels, labels', () => {
+  it('has six layers in order: artwork, exits, rooms, stairs, room-labels, labels', () => {
     const svg = buildNewSvg(mapMeta, rooms, exits, 7)
     const pos = id => svg.indexOf(`id="${id}"`)
     expect(pos('layer-artwork')).toBeLessThan(pos('layer-exits'))
     expect(pos('layer-exits')).toBeLessThan(pos('layer-rooms'))
-    expect(pos('layer-rooms')).toBeLessThan(pos('layer-room-labels'))
+    expect(pos('layer-rooms')).toBeLessThan(pos('layer-stairs'))
+    expect(pos('layer-stairs')).toBeLessThan(pos('layer-room-labels'))
     expect(pos('layer-room-labels')).toBeLessThan(pos('layer-labels'))
   })
 

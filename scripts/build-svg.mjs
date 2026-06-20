@@ -249,25 +249,37 @@ function escapeXml(str) {
 
 // ─── SVG element generators ──────────────────────────────────────────────────
 
-// Returns SVG polygon(s) for the stair direction indicator inside a room.
+// Returns SVG polygon for the stair direction indicator inside a room.
 // ▲ up-only, ▼ down-only, ◆ both (diamond).
-export function stairSymbol(x, y, hasUp, hasDown) {
+export function stairSymbol(x, y, hasUp, hasDown, id = null) {
+  const idAttr = id ? ` id="${id}"` : ''
   if (hasUp && hasDown) {
-    return `<polygon class="stair-symbol" points="${x},${y - 3} ${x + 2.5},${y} ${x},${y + 3} ${x - 2.5},${y}"/>`
+    return `<polygon${idAttr} class="stair-symbol" points="${x},${y - 3} ${x + 2.5},${y} ${x},${y + 3} ${x - 2.5},${y}"/>`
   }
   if (hasUp) {
-    return `<polygon class="stair-symbol" points="${x},${y - 3} ${x - 2.5},${y + 2} ${x + 2.5},${y + 2}"/>`
+    return `<polygon${idAttr} class="stair-symbol" points="${x},${y - 3} ${x - 2.5},${y + 2} ${x + 2.5},${y + 2}"/>`
   }
-  return `<polygon class="stair-symbol" points="${x},${y + 3} ${x - 2.5},${y - 2} ${x + 2.5},${y - 2}"/>`
+  return `<polygon${idAttr} class="stair-symbol" points="${x},${y + 3} ${x - 2.5},${y - 2} ${x + 2.5},${y - 2}"/>`
 }
 
-// stair: null | {hasUp, hasDown}
+// Builds the content for <g id="layer-stairs">.
+// Stair symbols are suppressed for rooms that have a shop type (type label takes priority).
+export function buildStairLayer(rooms, stairRooms, shopTypes = new Map()) {
+  return rooms
+    .filter(r => stairRooms.has(r.id) && !shopTypes.has(r.id))
+    .map(r => {
+      const s = stairRooms.get(r.id)
+      return '    ' + stairSymbol(r.x, r.y, s.hasUp, s.hasDown, `stair-${r.id}`)
+    })
+    .join('\n')
+}
+
 // type: null | string (key of TYPE_LETTERS)
 // compact: true → small room (r=1.5 circle, 3×3 rect)
 // water: true → room is in a body of water
 // green: true → room is a park or forest
 // danger: true → room is in a dangerous area
-export function roomElement(id, x, y, short, isIndoor, stair = null, type = null, compact = false, water = false, green = false, danger = false, large = false, extraClass = '') {
+export function roomElement(id, x, y, short, isIndoor, type = null, compact = false, water = false, green = false, danger = false, large = false, extraClass = '') {
   const label       = short ? ` data-label="${escapeXml(short)}"` : ''
   const typeClass   = type   ? ` room-${type}`  : ''
   const sizeClass   = compact ? ' room-compact'  : ''
@@ -279,9 +291,8 @@ export function roomElement(id, x, y, short, isIndoor, stair = null, type = null
   const shape = isIndoor
     ? `<rect id="room-${id}" class="room indoor${typeClass}${sizeClass}${waterClass}${greenClass}${dangerClass}${extraCls}"${label} x="${x - hw}" y="${y - hw}" width="${hw * 2}" height="${hw * 2}" rx="${compact ? 0.75 : 2}"/>`
     : `<circle id="room-${id}" class="room outdoor${typeClass}${sizeClass}${waterClass}${greenClass}${dangerClass}${extraCls}"${label} cx="${x}" cy="${y}" r="${hw}"/>`
-  const stairEl = (stair && !type) ? stairSymbol(x, y, stair.hasUp, stair.hasDown) : ''
   const typeEl  = type  ? `<text class="room-type-label" font-size="4.5" x="${x}" y="${y}" text-anchor="middle" dominant-baseline="central">${TYPE_LETTERS[type]}</text>` : ''
-  return shape + stairEl + typeEl
+  return shape + typeEl
 }
 
 // Returns null for vertical exit pairs (no line drawn).
@@ -320,7 +331,8 @@ export function buildNewSvg(mapMeta, rooms, exits, mapId = '', stairRooms = new 
   const greenRooms  = new Set(rooms.filter(r => greenOverrides.has(r.id)).map(r => r.id))
   const dangerRooms = new Set(rooms.filter(r => dangerOverrides.has(r.id)).map(r => r.id))
   const exitLines   = buildExitLines(exits, rooms, compactRooms, waterRooms, greenRooms, dangerRooms, exitExcludes, climbEdges)
-  const roomShapes  = rooms.map(r => '    ' + roomElement(r.id, r.x, r.y, r.short, r.roomType === 'inside', stairRooms.get(r.id) ?? null, shopTypes.get(r.id) ?? null, compactRooms.has(r.id), waterRooms.has(r.id), greenRooms.has(r.id), dangerRooms.has(r.id), largeRooms.has(r.id), extraClasses.get(r.id) ?? '')).join('\n')
+  const roomShapes  = rooms.map(r => '    ' + roomElement(r.id, r.x, r.y, r.short, r.roomType === 'inside', shopTypes.get(r.id) ?? null, compactRooms.has(r.id), waterRooms.has(r.id), greenRooms.has(r.id), dangerRooms.has(r.id), largeRooms.has(r.id), extraClasses.get(r.id) ?? '')).join('\n')
+  const stairShapes = buildStairLayer(rooms, stairRooms, shopTypes)
 
   return `<svg xmlns="http://www.w3.org/2000/svg"
      viewBox="0 0 ${mapMeta.maxX} ${mapMeta.maxY}"
@@ -337,6 +349,10 @@ ${exitLines}
 ${roomShapes}
   </g>
 
+  <g id="layer-stairs">
+${stairShapes}
+  </g>
+
   <g id="layer-room-labels"></g>
 
   <g id="layer-labels"><!-- labels --></g>
@@ -349,7 +365,8 @@ export function updateExistingSvg(existingSvg, mapMeta, rooms, exits, stairRooms
   const greenRooms  = new Set(rooms.filter(r => greenOverrides.has(r.id)).map(r => r.id))
   const dangerRooms = new Set(rooms.filter(r => dangerOverrides.has(r.id)).map(r => r.id))
   const exitLines   = buildExitLines(exits, rooms, compactRooms, waterRooms, greenRooms, dangerRooms, exitExcludes, climbEdges)
-  const roomShapes  = rooms.map(r => '    ' + roomElement(r.id, r.x, r.y, r.short, r.roomType === 'inside', stairRooms.get(r.id) ?? null, shopTypes.get(r.id) ?? null, compactRooms.has(r.id), waterRooms.has(r.id), greenRooms.has(r.id), dangerRooms.has(r.id), largeRooms.has(r.id), extraClasses.get(r.id) ?? '')).join('\n')
+  const roomShapes  = rooms.map(r => '    ' + roomElement(r.id, r.x, r.y, r.short, r.roomType === 'inside', shopTypes.get(r.id) ?? null, compactRooms.has(r.id), waterRooms.has(r.id), greenRooms.has(r.id), dangerRooms.has(r.id), largeRooms.has(r.id), extraClasses.get(r.id) ?? '')).join('\n')
+  const stairShapes = buildStairLayer(rooms, stairRooms, shopTypes)
 
   let svg = existingSvg.replace(
     /(<g[^>]*\bid="layer-exits"[^>]*>)([\s\S]*?)(<\/g>)/,
@@ -359,6 +376,18 @@ export function updateExistingSvg(existingSvg, mapMeta, rooms, exits, stairRooms
     /(<g[^>]*\bid="layer-rooms"[^>]*>)([\s\S]*?)(<\/g>)/,
     `$1\n${roomShapes}\n  $3`
   )
+  svg = svg.replace(
+    /(<g[^>]*\bid="layer-stairs"[^>]*>)([\s\S]*?)(<\/g>)/,
+    `$1\n${stairShapes}\n  $3`
+  )
+  if (!svg.includes('id="layer-stairs"')) {
+    const re = /(\n[ \t]*<g[^>]*\bid="layer-rooms"[^>]*>[\s\S]*?<\/g>)/
+    if (re.test(svg)) {
+      svg = svg.replace(re, `$1\n\n  <g id="layer-stairs">\n${stairShapes}\n  </g>`)
+    } else {
+      console.warn('[build-svg] Warning: could not insert layer-stairs — layer-rooms <g> not found')
+    }
+  }
   if (!svg.includes('id="layer-room-labels"')) {
     const re = /(\n[ \t]*<g[^>]*\bid="layer-labels"[^>]*>)/
     if (re.test(svg)) {
