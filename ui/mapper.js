@@ -18,6 +18,7 @@ const $footer     = document.querySelector(".route-footer");
 const $routeDest  = document.querySelector(".route-dest");
 const $routeWalk  = document.querySelector(".route-walk");
 const $routeClear = document.querySelector(".route-clear");
+const $streetsToggle = document.querySelector(".streets-toggle");
 
 // Mallard pushes --bg as an inline style on :root after panel ready.
 // Read the R channel — if >= 128 the background is light.
@@ -30,6 +31,19 @@ new MutationObserver(applyThemeClass).observe(
   document.documentElement, { attributes: true, attributeFilter: ['style'] }
 );
 applyThemeClass();
+
+function applyStreetsState(visible) {
+  document.documentElement.classList.toggle('streets-hidden', !visible);
+  $streetsToggle.classList.toggle('off', !visible);
+}
+const _streetsStored = localStorage.getItem('cowtography.streets');
+applyStreetsState(_streetsStored !== '0');
+
+$streetsToggle.addEventListener('click', () => {
+  const nowVisible = document.documentElement.classList.contains('streets-hidden');
+  applyStreetsState(nowVisible);
+  localStorage.setItem('cowtography.streets', nowVisible ? '1' : '0');
+});
 
 const SPECIAL_SCREENS = {
   unknown:   { title: "Unknown Location",  sub: "No map data for this room." },
