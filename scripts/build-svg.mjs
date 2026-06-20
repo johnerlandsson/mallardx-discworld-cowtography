@@ -22,8 +22,8 @@ const GREEN_CONFIG        = path.join(REPO_ROOT, 'ui', 'data', 'room-green.json'
 const DANGER_CONFIG       = path.join(REPO_ROOT, 'ui', 'data', 'room-danger.json')
 const EXIT_EXCLUDE_CONFIG = path.join(REPO_ROOT, 'ui', 'data', 'exit-exclude.json')
 const EXIT_CLIMB_CONFIG   = path.join(REPO_ROOT, 'ui', 'data', 'exit-climb.json')
-const GROUND_CONFIG = path.join(REPO_ROOT, 'ui', 'data', 'room-ground.json')
-const STACKS_OUT    = path.join(REPO_ROOT, 'ui', 'data', 'room-stacks.js')
+const GROUND_CONFIG       = path.join(REPO_ROOT, 'ui', 'data', 'room-ground.json')
+const STACKS_OUT          = path.join(REPO_ROOT, 'ui', 'data', 'room-stacks.js')
 
 // ─── DB queries ──────────────────────────────────────────────────────────────
 
