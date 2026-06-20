@@ -188,8 +188,6 @@ function startTshopAnim(svgEl, wrapEl) {
   const canvas = document.createElement("canvas");
   canvas.style.cssText = "position:absolute;inset:0;pointer-events:none;z-index:-1;";
   wrapEl.insertBefore(canvas, wrapEl.firstChild);
-  const r1 = svgEl.querySelector("#room-04fd563a7f8d4ccfc83661bbec60971ac9aa72ca");
-  const r2 = svgEl.querySelector("#room-7e727e52d2794b8c5261c5b5daf184231c0ecafe");
   const particles = [];
   const ctx = canvas.getContext("2d");
   const HS_MAX = 80, HS_SPAWN = 0.35, HS_ACCEL = 1.015;
@@ -201,17 +199,12 @@ function startTshopAnim(svgEl, wrapEl) {
     if (!cw || !ch) return;
     if (canvas.width !== cw || canvas.height !== ch) { canvas.width = cw; canvas.height = ch; }
     ctx.clearRect(0, 0, cw, ch);
-    // Derive the animation origin from the actual room pixel positions — both
-    // rects come from the same coordinate system so the offset always cancels.
-    const cr  = canvas.getBoundingClientRect();
-    const rr1 = r1?.getBoundingClientRect();
-    const rr2 = r2?.getBoundingClientRect();
-    const ocx = rr1 && rr2
-      ? (rr1.left + rr1.right + rr2.left + rr2.right) / 4 - cr.left
-      : cw / 2;
-    const ocy = rr1 && rr2
-      ? (rr1.top + rr1.bottom + rr2.top + rr2.bottom) / 4 - cr.top
-      : ch / 2;
+    // centerOnRoom puts the current room at the viewport centre, so the canvas
+    // centre is always near the rooms. All SVG-coord→canvas-pixel conversions
+    // (getScreenCTM, viewBox math, getBoundingClientRect delta) give wrong
+    // results in the Mallard iframe environment, so we use canvas centre directly.
+    const ocx = cw / 2;
+    const ocy = ch / 2;
     const maxDist = Math.max(
       Math.hypot(ocx, ocy), Math.hypot(cw - ocx, ocy),
       Math.hypot(ocx, ch - ocy), Math.hypot(cw - ocx, ch - ocy)
