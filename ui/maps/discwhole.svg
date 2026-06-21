@@ -2,9 +2,12 @@
      xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
      viewBox="0 0 5809 5000" width="5809" height="5000">
   <defs>
-    <pattern id="hbd" x="0" y="0" width="2000" height="600"
+    <pattern id="hbd" x="0" y="0" width="2000" height="500"
              patternUnits="userSpaceOnUse" patternTransform="rotate(-25)">
-      <text x="0" y="420" font-family="Georgia, serif" font-size="150"
+      <text x="0" y="200" font-family="Georgia, serif" font-size="100"
+            font-style="italic" fill="#7a5a10" opacity="0.13"
+            letter-spacing="12">HERE BE DRAGONS</text>
+      <text x="1000" y="450" font-family="Georgia, serif" font-size="100"
             font-style="italic" fill="#7a5a10" opacity="0.13"
             letter-spacing="12">HERE BE DRAGONS</text>
     </pattern>
