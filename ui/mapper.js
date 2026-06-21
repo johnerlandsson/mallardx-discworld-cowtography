@@ -33,17 +33,6 @@ const $routeClear = document.querySelector(".route-clear");
 const $streetsToggle = document.querySelector(".streets-toggle");
 const $stairsToggle  = document.querySelector(".stairs-toggle");
 
-// Mallard pushes --bg as an inline style on :root after panel ready.
-// Read the R channel — if >= 128 the background is light.
-function applyThemeClass() {
-  const bg = getComputedStyle(document.documentElement).getPropertyValue('--bg').trim();
-  const m  = bg.match(/^#([0-9a-f]{2})/i);
-  document.documentElement.classList.toggle('light-bg', m ? parseInt(m[1], 16) >= 128 : false);
-}
-new MutationObserver(applyThemeClass).observe(
-  document.documentElement, { attributes: true, attributeFilter: ['style'] }
-);
-applyThemeClass();
 
 function applyStreetsState(visible) {
   document.documentElement.classList.toggle('streets-hidden', !visible);
