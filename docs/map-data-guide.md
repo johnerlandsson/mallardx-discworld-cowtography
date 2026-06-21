@@ -8,7 +8,7 @@ Configuration for room appearance. These files live in `ui/data/` and are read b
 
 **File:** `ui/data/room-types.json`
 
-Overrides or supplements the auto-detected room type for specific rooms. Use it for types that cannot be auto-detected (`mission`, `post`, `lang`, `crafts`, `tshop`), or to correct a mis-classified room.
+Overrides or supplements the auto-detected room type for specific rooms. Use it for manual-only types (see table below) or to correct a mis-classified room.
 
 **Format:**
 
@@ -31,6 +31,7 @@ Overrides or supplements the auto-detected room type for specific rooms. Use it 
 | `food` | F | dark green | Auto — `shop_items` item name keywords |
 | `access` | X | dark green | Auto — `shop_items` item name keywords |
 | `bank` | $ | dark orange | Auto — `room_short` matches `%Bing%bank%` or `%Coop%bank%` |
+| `changer` | ¢ | dark orange | Manual only |
 | `house` | H | brown | Auto — `room_short` is `[player house]` |
 | `pshop` | P | magenta | Auto — `room_short` is `[player shop]` |
 | `club` | G | navy | Auto — `room_short` is `[player club]` |
@@ -277,7 +278,7 @@ Copy the printed ID into the appropriate JSON file, then rebuild.
 
 ## Workflow
 
-After editing either file:
+After editing any of these files:
 
 ```bash
 npm run build:svg   # regenerates ui/maps/*.svg
