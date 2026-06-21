@@ -167,21 +167,28 @@ Work only in **`layer-terrain`** and **`layer-labels`**. Always keep `layer-play
 
 Paint terrain regions as closed `<path>` elements in `layer-terrain`. After drawing, give each path an **`inkscape:label`** in the XML editor — this is how `sync:svg` assigns the CSS class.
 
+Labels follow the `NameNN` convention (e.g. `Forrest01`, `Forrest02`) so multiple separate paths can share the same terrain type. The trailing number is stripped when assigning the CSS class.
+
 | inkscape:label | CSS class | Dark | Light |
 |---|---|---|---|
-| `Mountains` | `terrain-mountains` | `#595959` | `#b0b0b0` |
-| `Desert` | `terrain-desert` | `#7a5a1a` | `#c8a050` |
-| `Plains` | `terrain-plains` | `#4a6a20` | `#90b840` |
-| `Water` | `terrain-water` | `#1a3a5c` | `#5090c0` |
-| `Grass` | `terrain-grass` | `#2a6a2a` | `#50a050` |
-| `Forrest` | `terrain-forrest` | `#1a4a20` | `#357a40` |
+| `Mountain01`, `Mountain02`, … | `terrain-mountain` | `#595959` | `#b0b0b0` |
+| `Desert01`, … | `terrain-desert` | `#7a5a1a` | `#c8a050` |
+| `Water01`, … | `terrain-water` | `#1a3a5c` | `#5090c0` |
+| `Tundra01`, … | `terrain-tundra` | `#4a5020` | `#888a50` |
+| `Grass01`, … | `terrain-grass` | `#2a6a2a` | `#50a050` |
+| `DenseForrest01`, … | `terrain-dense-forrest` | `#0d2a0e` | `#1a6a18` |
+| `Forrest01`, … | `terrain-forrest` | `#1a4a20` | `#357a40` |
+| `Plains01`, … | `terrain-plains` | `#4a6a20` | `#90b840` |
+| `Field01`, … | `terrain-field` | `#5e7a28` | `#a0c038` |
+| `Ice01`, … | `terrain-ice` | `#4888a8` | `#88c0d8` |
+| `Snow01`, … | `terrain-snow` | `#d8d8d4` | `#f4f4f0` |
 
-**Inkscape visibility:** CSS classes don't resolve inside Inkscape. Add a `fill` attribute on the path so you can see what you're painting (e.g. `fill="#595959"` for mountains). At runtime, `sync:svg` strips this inline fill and the CSS class takes over.
+**Inkscape visibility:** CSS classes don't resolve inside Inkscape. Add a `fill` attribute (or Inkscape's `style="display:inline;fill:#..."`) on the path so you can see what you're painting. At runtime, `sync:svg` strips this inline fill and the CSS class takes over.
 
 ### Adding new terrain types
 
-1. In Inkscape, label the path with a new `inkscape:label` (e.g. `Tundra`)
-2. Add the name to `WORLD_TERRAIN_TYPES` in `scripts/sync-svg-js.mjs`
+1. In Inkscape, label the path with a new `inkscape:label` using the `NameNN` convention (e.g. `Tundra01`)
+2. Add the base name → CSS class entry to `WORLD_TERRAIN_LABELS` in `scripts/sync-svg-js.mjs`
 3. Add dark and light CSS rules in `ui/mapper.css` following the existing pattern
 
 ### Text labels

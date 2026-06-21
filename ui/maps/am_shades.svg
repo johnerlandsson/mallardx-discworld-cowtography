@@ -13,6 +13,13 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs65">
+  <style id="inkscape-font-fix">
+text, .map-label, .map-label-muted, .map-label-accent,
+.lib-table, .lib-gap-label, .lib-book-label,
+.lib-row-num, .lib-book-list, .room-type-label {
+  font-family: "Noto Sans", sans-serif;
+}
+</style>
     <style
        id="style1">
       .shades-path-blue  { fill: #61afef; stroke: none; }

@@ -21,17 +21,39 @@ export function injectFontStyle(svg) {
   return stripped.replace(/(<defs[^>]*\/?>)/, `$1\n  ${FONT_STYLE_BLOCK}`)
 }
 
-// Terrain types defined by inkscape:label on <path> elements in discwhole.svg.
-// Add new terrain names here as you paint them in Inkscape.
-const WORLD_TERRAIN_TYPES = ['Mountains', 'Desert', 'Plains', 'Water', 'Grass', 'Forrest']
+// Maps inkscape:label base name (without trailing digits) → CSS class.
+// Paths may be labeled Name01, Name02, etc. to allow multiple paths of the same type.
+// Add new entries here as you paint new terrain types in Inkscape.
+const WORLD_TERRAIN_LABELS = {
+  'Mountain':     'terrain-mountain',
+  'Desert':       'terrain-desert',
+  'Water':        'terrain-water',
+  'Tundra':       'terrain-tundra',
+  'Grass':        'terrain-grass',
+  'DenseForrest': 'terrain-dense-forrest',
+  'Forrest':      'terrain-forrest',
+  'Plains':       'terrain-plains',
+  'Field':        'terrain-field',
+  'Ice':          'terrain-ice',
+  'Snow':         'terrain-snow',
+}
 
 export function processWorldMapSvg(svg) {
-  for (const terrain of WORLD_TERRAIN_TYPES) {
-    const cls = 'terrain-' + terrain.toLowerCase()
-    // Add class attribute alongside the inkscape:label
+  // Add class="map-svg" to the SVG root so CSS sizing rules apply.
+  svg = svg.replace(/(<svg\b(?![^>]*\bclass="))/, '$1 class="map-svg"')
+
+  for (const [label, cls] of Object.entries(WORLD_TERRAIN_LABELS)) {
+    // Match inkscape:label="Name01", "Name02", etc. (trailing digits optional).
+    // Capture the full label so we can preserve it in the replacement.
     svg = svg.replace(
-      new RegExp(`\\binkscape:label="${terrain}"`, 'g'),
-      `class="${cls}" inkscape:label="${terrain}"`
+      new RegExp(`\\binkscape:label="(${label}\\d*)"`, 'g'),
+      `class="${cls}" inkscape:label="$1"`
+    )
+    // Dedup: Inkscape may already have a class attribute on the path (added via
+    // the XML editor). The replace above produces a second class="..." — collapse it.
+    svg = svg.replace(
+      new RegExp(`class="${cls}"([^>]*?)class="${cls}"`, 'g'),
+      `class="${cls}"$1`
     )
     // Strip the Inkscape inline style from the same path element.
     // SVG path data contains no > characters, so [^>]*? cannot cross the /> boundary.
@@ -40,8 +62,17 @@ export function processWorldMapSvg(svg) {
       '$2$3'
     )
   }
-  // Add class="map-label" to all <text> elements that don't already have a class
-  svg = svg.replace(/<text\b(?![^>]*\bclass=")/g, '<text class="map-label"')
+  // Remove any stale second terrain class that wasn't caught by dedup (different class name,
+  // e.g. a path with inkscape:label="Tundra01" that was previously tagged terrain-plains).
+  svg = svg.replace(/(class="terrain-[^"]*"[^>]*?)\s+class="terrain-[^"]*"/g, '$1')
+  // Add class="map-label" to <text> elements in the visible layers only
+  // (after </defs>) to avoid overriding fills on watermark pattern texts.
+  const defsClose = svg.indexOf('</defs>')
+  if (defsClose !== -1) {
+    const head = svg.slice(0, defsClose + 7)
+    const body = svg.slice(defsClose + 7)
+    svg = head + body.replace(/<text\b(?![^>]*\bclass=")/g, '<text class="map-label"')
+  }
   return svg
 }
 
