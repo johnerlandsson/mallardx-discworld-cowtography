@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     viewBox="0 0 5809 5000" width="5809" height="5000">
+  <g id="layer-water" inkscape:label="Water">
+    <rect width="5809" height="5000" fill="#1a3a5c"/>
+  </g>
+  <g id="layer-terrain" inkscape:label="Terrain">
+  </g>
+  <g id="layer-labels" inkscape:label="Labels">
+  </g>
+  <g id="layer-player" inkscape:label="Player">
+    <circle id="world-player" r="30" fill="#ff3b30" stroke="#fff" stroke-width="4" style="display:none"/>
+  </g>
+</svg>

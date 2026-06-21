@@ -70,7 +70,7 @@ export const maps = {
   63: {"file":"unsinkable.png","name":"SS Unsinkable","defaultX":143,"defaultY":124,"region":"Unsinkable","maxX":431,"maxY":257,"topLevel":false},
   64: {"file":"passages.png","name":"Passage Rooms","defaultX":68,"defaultY":28,"region":"Passages","maxX":159,"maxY":98,"topLevel":false},
   65: {"file":"sto_hedge.png","name":"Skund Hedge Wizzards","defaultX":70,"defaultY":173,"region":"Hedgies","maxX":339,"maxY":289,"topLevel":false},
-  99: {"file":"discwhole.png","name":"Whole Disc","defaultX":1175,"defaultY":3726,"region":"Terrains","maxX":5809,"maxY":5000,"topLevel":true},
+  99: {"file":"discwhole.svg","name":"Whole Disc","defaultX":1175,"defaultY":3726,"region":"Terrains","maxX":5809,"maxY":5000,"topLevel":true},
 };
 
 export const rooms = {
