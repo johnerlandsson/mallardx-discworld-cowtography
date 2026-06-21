@@ -54,7 +54,7 @@ export const SHOP_KEYWORDS = {
 export const TYPE_LETTERS = {
   shop: 'S', weapon: 'W', armour: 'A', clothes: 'C', food: 'F', access: 'X',
   bank: '$', changer: '¢', mission: '!', post: 'O', lang: 'L', temple: 'R',
-  crafts: 'K', house: 'H', club: 'G', pshop: 'P', tshop: 'T',
+  crafts: 'K', house: 'H', club: 'G', pshop: 'P', tshop: 'T', talker: 'M',
 }
 
 function classifyShopItems(items) {
