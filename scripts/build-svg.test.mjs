@@ -1089,6 +1089,12 @@ describe('queryShopTypes', () => {
     expect(queryShopTypes(db, 1).has('r1')).toBe(false)
   })
 
+  it('does not classify street rooms adjacent to a tavern/cafe as tavern', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'Market Street by a boulevard cafe')").run()
+    expect(queryShopTypes(db, 1).has('r1')).toBe(false)
+  })
+
   it('manual override beats pub name detection', () => {
     const db = makeDb()
     db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'The Famous Pub')").run()

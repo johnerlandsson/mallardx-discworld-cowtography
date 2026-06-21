@@ -59,8 +59,9 @@ export const TYPE_LETTERS = {
   pub:    'B',
 }
 
-const TAVERN_NAME_KEYWORDS = ['restaurant', 'tavern', 'pizzeria', 'pizza', 'cafe', 'café']
-const PUB_NAME_RE          = /\b(?:pub|bar)\b/
+const TAVERN_NAME_KEYWORDS   = ['restaurant', 'tavern', 'pizzeria', 'pizza', 'cafe', 'café']
+const PUB_NAME_RE            = /\b(?:pub|bar)\b/
+const TAVERN_NAME_EXCLUSIONS = ['outside', ' by ']
 
 function classifyShopItems(items) {
   const counts = {}
@@ -129,7 +130,7 @@ export function queryShopTypes(db, mapId, overrides = {}) {
   const allMapRooms = db.prepare('SELECT room_id, room_short FROM rooms WHERE map_id = ?').all(mapId)
   for (const { room_id, room_short } of allMapRooms) {
     const lower = (room_short ?? '').toLowerCase()
-    if (!lower.includes('outside')) {
+    if (!TAVERN_NAME_EXCLUSIONS.some(ex => lower.includes(ex))) {
       if (PUB_NAME_RE.test(lower))                                  result.set(room_id, 'pub')
       else if (TAVERN_NAME_KEYWORDS.some(kw => lower.includes(kw))) result.set(room_id, 'tavern')
     }
