@@ -127,7 +127,7 @@ export function queryShopTypes(db, mapId, overrides = {}) {
   const allMapRooms = db.prepare('SELECT room_id, room_short FROM rooms WHERE map_id = ?').all(mapId)
   for (const { room_id, room_short } of allMapRooms) {
     const lower = (room_short ?? '').toLowerCase()
-    if (TAVERN_NAME_KEYWORDS.some(kw => lower.includes(kw))) {
+    if (!lower.includes('outside') && TAVERN_NAME_KEYWORDS.some(kw => lower.includes(kw))) {
       result.set(room_id, 'tavern')
     }
   }

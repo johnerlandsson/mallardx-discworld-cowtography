@@ -1065,6 +1065,12 @@ describe('queryShopTypes', () => {
     expect(queryShopTypes(db, 1).get('r1')).toBe('tavern')
   })
 
+  it('does not classify "outside" rooms as tavern', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'Outside the pub')").run()
+    expect(queryShopTypes(db, 1).has('r1')).toBe(false)
+  })
+
   it('manual override beats tavern name detection', () => {
     const db = makeDb()
     db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'The Famous Pub')").run()
