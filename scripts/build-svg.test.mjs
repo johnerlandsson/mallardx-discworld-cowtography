@@ -1045,10 +1045,16 @@ describe('queryShopTypes', () => {
     expect(queryShopTypes(db, 1).get('r1')).toBe('tavern')
   })
 
-  it('auto-detects tavern from name containing "bar"', () => {
+  it('auto-detects pub from name containing "bar"', () => {
     const db = makeDb()
     db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES (?, 1, 0, 0, ?)").run('r1', "Troll's Head Bar")
-    expect(queryShopTypes(db, 1).get('r1')).toBe('tavern')
+    expect(queryShopTypes(db, 1).get('r1')).toBe('pub')
+  })
+
+  it('auto-detects pub from name containing "pub"', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'The Mended Pub')").run()
+    expect(queryShopTypes(db, 1).get('r1')).toBe('pub')
   })
 
   it('auto-detects tavern from name containing "restaurant"', () => {
@@ -1057,21 +1063,21 @@ describe('queryShopTypes', () => {
     expect(queryShopTypes(db, 1).get('r1')).toBe('tavern')
   })
 
-  it('tavern name match overrides shop_items food classification', () => {
+  it('pub name match overrides shop_items food classification', () => {
     const db = makeDb()
     db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'The Pub')").run()
     db.prepare("INSERT INTO shop_items VALUES ('r1', 'apple pie', '')").run()
     db.prepare("INSERT INTO shop_items VALUES ('r1', 'beef stew', '')").run()
-    expect(queryShopTypes(db, 1).get('r1')).toBe('tavern')
+    expect(queryShopTypes(db, 1).get('r1')).toBe('pub')
   })
 
-  it('does not classify "outside" rooms as tavern', () => {
+  it('does not classify "outside" rooms as pub or tavern', () => {
     const db = makeDb()
     db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'Outside the pub')").run()
     expect(queryShopTypes(db, 1).has('r1')).toBe(false)
   })
 
-  it('manual override beats tavern name detection', () => {
+  it('manual override beats pub name detection', () => {
     const db = makeDb()
     db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'The Famous Pub')").run()
     expect(queryShopTypes(db, 1, { 'r1': 'food' }).get('r1')).toBe('food')

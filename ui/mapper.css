@@ -118,7 +118,7 @@ body {
 .room-bank, .room-changer, .room-mission,
 .room-post, .room-lang                   { fill: #5c3000; }
 .room-crafts                             { fill: #1a4a28; }
-.room-tavern                             { fill: #5c4400; }
+.room-tavern, .room-pub                  { fill: #5c4400; }
 .room-house                              { fill: #3d1e08; }
 .room-club                               { fill: #1a1a4a; }
 .room-pshop                              { fill: #3a0838; }

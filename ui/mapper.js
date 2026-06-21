@@ -7,7 +7,8 @@ const ROOM_TYPE_LABELS = {
   post: 'Post office', lang: 'Language school', temple: 'Temple',
   crafts: 'Crafts shop', house: 'Player house', club: 'Player club',
   pshop: 'Player shop', tshop: 'Travelling shop', talker: 'Talker shop',
-  tavern: 'Tavern / Bar',
+  tavern: 'Tavern / Restaurant',
+  pub:    'Pub / Bar',
 };
 import customRooms from "./data/room-custom.js";
 import { resolveRoom } from "./lookup.js";
