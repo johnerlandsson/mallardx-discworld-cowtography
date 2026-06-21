@@ -40,8 +40,11 @@ Overrides or supplements the auto-detected room type for specific rooms. Use it 
 | `crafts` | K | dark green (muted) | Manual only |
 | `tshop` | T | near-black | Manual only |
 | `temple` | R | dark purple | Manual only |
+| `talker` | M | dark green | Manual only |
 
 **Priority:** `shop_items` keywords → `room_short` patterns → `room-types.json` (always wins).
+
+> `talker` shops sell long-distance magical communicators. They are not detectable from `shop_items` keywords, so all entries must be added manually.
 
 **Example:**
 
@@ -221,6 +224,36 @@ To mark an exit impassable, open the SVG in a text editor, find the `<line>` ele
 ```
 
 The class is preserved across `build:svg` runs because the build script replaces the entire `layer-exits` content — you will need to re-apply it after every rebuild. If that becomes tedious, consider adding the pair to `exit-exclude.json` instead and drawing a manual `exit-nopass` line in `layer-artwork`.
+
+---
+
+## room-ground.json
+
+**File:** `ui/data/room-ground.json`
+
+Overrides the automatic ground-floor selection for stacked room positions (multiple rooms that share the same map coordinate). By default the build script identifies the ground floor via a BFS reachability heuristic (the room with the most cardinal connections within 5 hops). Add an entry here when the heuristic picks the wrong room.
+
+**Format:**
+
+```json
+{
+  "<mapId>:<x>:<y>": "<room_id>"
+}
+```
+
+The key is the map ID and SVG coordinate of the stack, colon-separated. The value is the room ID that should be treated as ground floor for that position.
+
+**Finding the key:** Open the SVG in a text editor and find the `<rect>` or `<circle>` for any room in the stack. Read its `cx`/`cy` (circle) or compute centre from `x`/`y`/`width`/`height` (rect). The map ID is in `ui/data/rooms.js` or from `dbid` in-game. Alternatively, check the build script console output — stacks are implicitly visible when a wrong room ends up being shown by default.
+
+**Rebuild required:** `npm run build:svg` regenerates `room-stacks.js` from this file. `npm run sync:svg` is not needed (room-stacks.js is not an SVG bundle).
+
+**Example:**
+
+```json
+{
+  "1:127:942": "abc123def456abc123def456abc123def456abc1"
+}
+```
 
 ---
 
