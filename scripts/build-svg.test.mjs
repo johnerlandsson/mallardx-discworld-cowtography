@@ -1071,6 +1071,12 @@ describe('queryShopTypes', () => {
     expect(queryShopTypes(db, 1).get('r1')).toBe('pub')
   })
 
+  it('does not classify rooms containing "barn" as pub', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'Inside the Barn')").run()
+    expect(queryShopTypes(db, 1).has('r1')).toBe(false)
+  })
+
   it('does not classify "outside" rooms as pub or tavern', () => {
     const db = makeDb()
     db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'Outside the pub')").run()
