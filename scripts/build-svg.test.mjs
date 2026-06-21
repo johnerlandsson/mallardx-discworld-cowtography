@@ -1063,6 +1063,12 @@ describe('queryShopTypes', () => {
     expect(queryShopTypes(db, 1).get('r1')).toBe('tavern')
   })
 
+  it('auto-detects tavern from name containing "cafe"', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'The Sunrise Cafe')").run()
+    expect(queryShopTypes(db, 1).get('r1')).toBe('tavern')
+  })
+
   it('pub name match overrides shop_items food classification', () => {
     const db = makeDb()
     db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'The Pub')").run()

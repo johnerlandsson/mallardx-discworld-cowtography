@@ -59,7 +59,7 @@ export const TYPE_LETTERS = {
   pub:    'B',
 }
 
-const TAVERN_NAME_KEYWORDS = ['restaurant', 'tavern', 'pizzeria', 'pizza']
+const TAVERN_NAME_KEYWORDS = ['restaurant', 'tavern', 'pizzeria', 'pizza', 'cafe', 'café']
 const PUB_NAME_RE          = /\b(?:pub|bar)\b/
 
 function classifyShopItems(items) {
