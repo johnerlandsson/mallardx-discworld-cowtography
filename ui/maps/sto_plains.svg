@@ -1411,7 +1411,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-49ebd86215ceaeef2e3d820baa289297dbb9fc34" class="room indoor" data-label="far end of a stable" x="1225" y="283" width="8" height="8" rx="2"/>
     <rect id="room-d00cf1f5ae1d86902c2d0006dc3fc78de8ef72ee" class="room indoor room-food" data-label="grocery store" x="1223" y="256" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1227" y="260" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-6ec65b823807addd2a4a3541eff9420b27a656b2" class="room indoor" data-label="foyer of the town hall" x="1235" y="245" width="8" height="8" rx="2"/>
-    <rect id="room-ce1031241bd3ed046977595c4627881bdd113e40" class="room indoor room-food" data-label="Flying Klatchman Pub" x="1235" y="231" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1239" y="235" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-ce1031241bd3ed046977595c4627881bdd113e40" class="room indoor room-pub" data-label="Flying Klatchman Pub" x="1235" y="231" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1239" y="235" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-e04e13e7dceeeb0e3338e0a3bcc80a4c3c226362" class="room indoor room-shop" data-label="small crafts shop" x="1223" y="219" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1227" y="223" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-871535437c7e16aa8265eaa88fbf7022e2d7bc0d" class="room indoor" data-label="clocktower" x="1197" y="231" width="8" height="8" rx="2"/>
     <rect id="room-b7b8b7e7b1a1674ccc4358fd1060097cee1f812a" class="room indoor" data-label="belfry" x="1187" y="221" width="8" height="8" rx="2"/>
@@ -1477,7 +1477,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-e957156f0f75d89cf263b661f630435099b44b66" class="room outdoor" data-label="village of Hillshire" cx="1358" cy="467" r="4"/>
     <circle id="room-9dfd44df4a880d3e75ef338aca18d89676ed397f" class="room outdoor" data-label="road running through Hillshire" cx="1372" cy="467" r="4"/>
     <rect id="room-35b2556979ea2afcf858b73a4c568dc55225b0f3" class="room indoor room-access" data-label="magic shop" x="1368" y="484" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1372" y="488" text-anchor="middle" dominant-baseline="central">X</text>
-    <rect id="room-a0152aec7e4dfed9e3eaea06ff56c024e741fcfc" class="room indoor room-food" data-label="loud pub" x="1368" y="452" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1372" y="456" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-a0152aec7e4dfed9e3eaea06ff56c024e741fcfc" class="room indoor room-pub" data-label="loud pub" x="1368" y="452" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1372" y="456" text-anchor="middle" dominant-baseline="central">B</text>
     <circle id="room-1a002d22b72b99db6cb99ed91450fa5726f14785" class="room outdoor" data-label="road running through Hillshire" cx="1386" cy="467" r="4"/>
     <rect id="room-7a4ee137e6b6402ed78da377e17511ff88a47e89" class="room indoor room-bank" data-label="local branch of Bing&#x27;s Bank" x="1382" y="474" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1386" y="478" text-anchor="middle" dominant-baseline="central">$</text>
     <rect id="room-fd2acb87f146f5467499c2a761ed722d162bbb45" class="room indoor room-shop" data-label="store in Hillshire" x="1382" y="452" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1386" y="456" text-anchor="middle" dominant-baseline="central">S</text>
@@ -1499,7 +1499,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-3887791d1b403771b941cb954a6a89b50ebafd17" class="room outdoor" data-label="road through a hamlet" cx="1393" cy="617" r="4"/>
     <rect id="room-c924df028d50b4e09d2914ad301686e0152fb7f2" class="room indoor" data-label="locksmith&#x27;s workshop" x="1389" y="602" width="8" height="8" rx="2"/>
     <rect id="room-423bfa9d60d9ce394970b6266de973b36b83eb77" class="room indoor room-weapon" data-label="country store" x="1389" y="635" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1393" y="639" text-anchor="middle" dominant-baseline="central">W</text>
-    <rect id="room-c6773861e6f202b0bca4847acc08f5815d614e95" class="room indoor room-food" data-label="pub" x="1379" y="635" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1383" y="639" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-c6773861e6f202b0bca4847acc08f5815d614e95" class="room indoor room-pub" data-label="pub" x="1379" y="635" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1383" y="639" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-44699b8cba32fc40760c81803d439ba6d4ff6131" class="room indoor" data-label="sitting room" x="1389" y="645" width="8" height="8" rx="2"/>
     <rect id="room-63c5fbd31d57649a90dec73c5403a640b0160096" class="room indoor" data-label="kitchen" x="1379" y="645" width="8" height="8" rx="2"/>
     <rect id="room-af28cd8711f16ee7fb9cca367e8ca1b371fe58cf" class="room indoor" data-label="hallway" x="1400" y="634" width="8" height="8" rx="2"/>
@@ -1608,7 +1608,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-085da43f7708d8c5f853ca2c2f70b0d2ffdf02a2" class="room outdoor" data-label="muddy track" cx="766" cy="390" r="4"/>
     <circle id="room-fca1204085993fc0197152f6f8bf28d83c624e23" class="room outdoor" data-label="muddy track" cx="780" cy="404" r="4"/>
     <circle id="room-ac2cc7455676cb2a6c8fd562b7d82dcc68e1ae7c" class="room outdoor" data-label="muddy track" cx="794" cy="404" r="4"/>
-    <rect id="room-dc7b0c017e428381aad9f0ccbe58f90d77d2d430" class="room indoor room-food" data-label="village tavern" x="758" y="376" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="762" y="380" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-dc7b0c017e428381aad9f0ccbe58f90d77d2d430" class="room indoor room-tavern" data-label="village tavern" x="758" y="376" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="762" y="380" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-a2e4ebdc9d42380c35ac995f6db17cdb77557605" class="room outdoor" data-label="village pond" cx="738" cy="376" r="4"/>
     <circle id="room-f264750205945fd2fa2d5c8e21f445820dd88425" class="room outdoor" data-label="small village" cx="727" cy="390" r="4"/>
     <rect id="room-93e4ceb8b65333d94f4cb642cc65851ef13a6b01" class="room indoor room-clothes" data-label="Dinky shop" x="723" y="397" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="727" y="401" text-anchor="middle" dominant-baseline="central">C</text>
@@ -1689,7 +1689,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-4a659d9f51c3ce9163f1bf81f7baaef7788aa44b" class="room indoor room-shop" data-label="Blue Lias" x="108" y="121" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="112" y="125" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-845f60511eb334f11f4bed5a0888ff0cab609891" class="room outdoor" data-label="main street" cx="98" cy="125" r="4"/>
     <circle id="room-8f261d705bc59389ced8ea150879c3c00ba9baa6" class="room outdoor" data-label="main street" cx="98" cy="153" r="4"/>
-    <rect id="room-23e434d898440f4c08524c06d882002436fff6a7" class="room indoor room-shop" data-label="Nodar Borgles restaurant" x="105" y="149" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="109" y="153" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-23e434d898440f4c08524c06d882002436fff6a7" class="room indoor room-tavern" data-label="Nodar Borgles restaurant" x="105" y="149" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="109" y="153" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-e6ece73820d4c5c95bd0d56a5171693c76dfb177" class="room outdoor" data-label="main gate to Holy Wood" cx="98" cy="167" r="4"/>
     <circle id="room-5659d881ea9762ff1f98e5462047a990f1ec7961" class="room outdoor" data-label="city wall east" cx="112" cy="167" r="4"/>
     <circle id="room-a58e3224c57f514b5b2445573078f7964559eff7" class="room outdoor" data-label="city wall west" cx="84" cy="167" r="4"/>
@@ -1709,7 +1709,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-4bc88d12c0917d4380ee024b526595b832df490a" class="room outdoor" data-label="main street" cx="98" cy="111" r="4"/>
     <circle id="room-7d1970f407ba4acdbc223c52f25c91e00485786b" class="room outdoor" data-label="crowded alleyway" cx="84" cy="111" r="4"/>
     <circle id="room-8983736e0f6089df3b299c29c7b11d20393ff98c" class="room outdoor" data-label="crowded alleyway" cx="70" cy="111" r="4"/>
-    <rect id="room-0e6c8fa5750def705c0a4e60d83fa298a121e5cb" class="room indoor room-shop" data-label="Lonely Bar" x="66" y="96" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="70" y="100" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-0e6c8fa5750def705c0a4e60d83fa298a121e5cb" class="room indoor room-pub" data-label="Lonely Bar" x="66" y="96" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="70" y="100" text-anchor="middle" dominant-baseline="central">B</text>
     <circle id="room-808fb4b6831e269499ef51c2f7ff3c4225d5b22e" class="room outdoor" data-label="alleyway" cx="56" cy="111" r="4"/>
     <circle id="room-14905999e4eec3882ff2a541aa9a8d91dc828d6c" class="room outdoor" data-label="alleyway" cx="42" cy="111" r="4"/>
     <circle id="room-18bf681bc8db261340b3002e8e217634095cdc6f" class="room outdoor" data-label="alleyway" cx="27" cy="111" r="4"/>

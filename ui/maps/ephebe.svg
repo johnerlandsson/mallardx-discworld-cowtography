@@ -2176,7 +2176,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-fbc38e2b7f9cda748cba813bf34df70cc370e18b" class="room outdoor" data-label="northwest end of Tuvelpit Road near the junction with Impartiality Avenue" cx="393" cy="489" r="4"/>
     <circle id="room-81373d0fc7c541cfb0d9f9b06787c6a0ddf93baa" class="room outdoor" data-label="northwest end of Tuvelpit Road at the junction with Impartiality Avenue" cx="379" cy="475" r="4"/>
     <circle id="room-595a592a8180236d5ab8462c42e47aedd54dbfe5" class="room outdoor" data-label="eastern corner of a small plaza" cx="365" cy="461" r="4"/>
-    <rect id="room-3aab38e66b26398376681844f06bff5fd538ebe5" class="room indoor room-food" data-label="Stavro&#x27;s taverna" x="375" y="482" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="379" y="486" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-3aab38e66b26398376681844f06bff5fd538ebe5" class="room indoor room-tavern" data-label="Stavro&#x27;s taverna" x="375" y="482" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="379" y="486" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-f82ebe3b636d845994b657fc889e904492299b16" class="room outdoor" data-label="northwest section of Tuvelpit Road approaching the crossroads with Paradox Avenue" cx="435" cy="531" r="4"/>
     <circle id="room-9f3470d4be6f5a1f3f4812f0dc7268fe69cb8955" class="room outdoor room-shop" data-label="Tuvelpit Road before the crossroads with Paradox Avenue" cx="449" cy="545" r="4"/><text class="room-type-label" font-size="4.5" x="449" y="545" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-d2c45787e372b7397559f967086ecb8d7a8da5b3" class="room outdoor" data-label="Antithesis Lane" cx="477" cy="475" r="4"/>
@@ -2208,7 +2208,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-39347a232adfc61b6483f6c0b31dff2fac9ce50c" class="room outdoor" data-label="Impartiality Avenue outside a tannery" cx="309" cy="517" r="4"/>
     <rect id="room-59e4bdbe742a37ee7b391d3a8af34ecbf4d8964d" class="room indoor room-shop" data-label="large tannery" x="315" y="523" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="319" y="527" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-ce5b133ac1752446dd3eba4981569e4c238e4e02" class="room indoor" data-label="skin trader" x="324" y="514" width="8" height="8" rx="2"/>
-    <rect id="room-f228ff8958d4544d84fa0961455198a9d312e2c1" class="room indoor room-food" data-label="The Tyrant Taverna" x="281" y="517" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="285" y="521" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-f228ff8958d4544d84fa0961455198a9d312e2c1" class="room indoor room-tavern" data-label="The Tyrant Taverna" x="281" y="517" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="285" y="521" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-db9efc881fd55f0516f15b9a4ccdd5731b137d1e" class="room outdoor" data-label="eastern end of Philosopher&#x27;s walk" cx="323" cy="461" r="4"/>
     <circle id="room-dfb0bc23d3f9a96c71e0b87aef9c87f2b9e89be2" class="room outdoor" data-label="near the eastern end of Philosopher&#x27;s walk" cx="309" cy="461" r="4"/>
     <circle id="room-016f2d119a52c862177c30080fb81e15551e0a6b" class="room outdoor" data-label="busy stretch of Philosopher&#x27;s walk" cx="295" cy="475" r="4"/>
@@ -2253,18 +2253,18 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-778b138ea4099cce3e0c9c1b3ef04f8b0134583f" class="room outdoor" data-label="Most of the way down Ponder Alley" cx="141" cy="391" r="4"/>
     <circle id="room-474eee377eb730c8717739e958716bb95468b13f" class="room outdoor" data-label="Dead-end of Ponder Alley" cx="155" cy="405" r="4"/>
     <circle id="room-556052482b7eb733ccb4851d0819587e694271a8" class="room outdoor" data-label="Logical Lane, just south of the Slouching Gardens" cx="99" cy="335" r="4"/>
-    <rect id="room-9f8f60991023b047b22afc6833606285b9a7b653" class="room indoor" data-label="foyer of a posh bar" x="19" y="320" width="8" height="8" rx="2"/>
+    <rect id="room-9f8f60991023b047b22afc6833606285b9a7b653" class="room indoor room-pub" data-label="foyer of a posh bar" x="19" y="320" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="23" y="324" text-anchor="middle" dominant-baseline="central">B</text>
     <circle id="room-dd9108144e6ad9d347a7f28e871dec8878819098" class="room outdoor" data-label="Logical Lane, at the edge of the Slouching Gardens" cx="99" cy="321" r="4"/>
     <circle id="room-51dc5cc9886a2b6aab294c502962bc78945fde54" class="room outdoor" data-label="Logical Lane, just outside a tavern near the citadel" cx="99" cy="307" r="4"/>
-    <rect id="room-96af0ab82384c13010ac74fe73737caef06c2595" class="room indoor room-food" data-label="inside a tavern" x="84" y="303" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="88" y="307" text-anchor="middle" dominant-baseline="central">F</text>
-    <rect id="room-0dcb5461b7f0d813990ee4a8fed0cce13c01a486" class="room indoor room-food" data-label="inside a tavern" x="84" y="303" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="88" y="307" text-anchor="middle" dominant-baseline="central">F</text>
-    <rect id="room-9f9ad0609ba1d68fbf00237c1894800981efd8e7" class="room indoor" data-label="stairwell in the Thousand and Two Nights of Ephebe bar" x="19" y="309" width="8" height="8" rx="2"/>
+    <rect id="room-96af0ab82384c13010ac74fe73737caef06c2595" class="room indoor room-tavern" data-label="inside a tavern" x="84" y="303" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="88" y="307" text-anchor="middle" dominant-baseline="central">V</text>
+    <rect id="room-0dcb5461b7f0d813990ee4a8fed0cce13c01a486" class="room indoor room-tavern" data-label="inside a tavern" x="84" y="303" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="88" y="307" text-anchor="middle" dominant-baseline="central">V</text>
+    <rect id="room-9f9ad0609ba1d68fbf00237c1894800981efd8e7" class="room indoor room-pub" data-label="stairwell in the Thousand and Two Nights of Ephebe bar" x="19" y="309" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="23" y="313" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-b8aa559f6f6673b65ec5b4d0f2db46f21ccc3263" class="room indoor" data-label="the top of a stairwell" x="18" y="282" width="8" height="8" rx="2"/>
-    <circle id="room-e29478ba510826921366bdb5bd3c6e3266a2685a" class="room outdoor" data-label="The Grove That Is Or Maybe Isn&#x27;t Bar and Roof Garden" cx="35" cy="286" r="4"/>
+    <circle id="room-e29478ba510826921366bdb5bd3c6e3266a2685a" class="room outdoor room-pub" data-label="The Grove That Is Or Maybe Isn&#x27;t Bar and Roof Garden" cx="35" cy="286" r="4"/><text class="room-type-label" font-size="4.5" x="35" y="286" text-anchor="middle" dominant-baseline="central">B</text>
     <circle id="room-879b9bbb632a3ead8c92752bfadb0682d4aa9b34" class="room outdoor" data-label="sheltered roof garden" cx="35" cy="299" r="4"/>
     <circle id="room-7e95e73b9e75def577ac0a62285f7c5cad53fd6d" class="room outdoor" data-label="sheltered roof garden" cx="22" cy="299" r="4"/>
     <circle id="room-3230c8a2cd372fad2dd09317ec8a604c343e06d2" class="room outdoor" data-label="sun-kissed atrium" cx="34" cy="324" r="4"/>
-    <rect id="room-cd745c9b8b7eb8668e0b2852af19be5047c03db8" class="room indoor room-food" data-label="Amaryllis&#x27; Taverna" x="30" y="309" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="34" y="313" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-cd745c9b8b7eb8668e0b2852af19be5047c03db8" class="room indoor room-tavern" data-label="Amaryllis&#x27; Taverna" x="30" y="309" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="34" y="313" text-anchor="middle" dominant-baseline="central">V</text>
     <rect id="room-f78e6fbc4c1d868a3fb9be63c0830505efd1033b" class="room indoor" data-label="The bottom of a stairwell" x="19" y="334" width="8" height="8" rx="2"/>
     <rect id="room-e8e8fc7913ceeb0fc9dba71b77214e594be06e5a" class="room indoor" data-label="the basement, outside an unusually gloomy club" x="30" y="334" width="8" height="8" rx="2"/>
     <rect id="room-62d36b900f326c2484cc10a4646d8a3445edd6e0" class="room indoor" data-label="a walk-in cupboard" x="19" y="345" width="8" height="8" rx="2"/>
@@ -2281,7 +2281,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-aa6d8a065482f3d03218818cad9d7a065c2d23c7" class="room outdoor green" data-label="top of a gentle hill between the Slouching Gardens and Logical Lane" cx="113" cy="307" r="4"/>
     <circle id="room-4c77683b8106c6a020b230095244a7cf41712ab1" class="room outdoor green" data-label="top of a steep hill between the Slouching Gardens and Logical Lane" cx="113" cy="321" r="4"/>
     <circle id="room-6dba00a3db698b6e13fb207a11d93bf873e48d06" class="room outdoor green" data-label="Slouching Gardens of Ephebe, at the north end of the Ehdnomein Atheneum of Reductive Analysis" cx="127" cy="335" r="4"/>
-    <circle id="room-61bdc5bc8db8c65ff3d9e359bac50b4b9d477016" class="room outdoor" data-label="Street of Enlightenment looking across the Slouching Gardens to a tavern" cx="127" cy="321" r="4"/>
+    <circle id="room-61bdc5bc8db8c65ff3d9e359bac50b4b9d477016" class="room outdoor room-tavern" data-label="Street of Enlightenment looking across the Slouching Gardens to a tavern" cx="127" cy="321" r="4"/><text class="room-type-label" font-size="4.5" x="127" y="321" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-0900c9c14e218ba27384bd65db4568d8149432f2" class="room outdoor" data-label="Street of Enlightenment just southeast of Pragmatic Place" cx="127" cy="307" r="4"/>
     <circle id="room-cd8792681ee7eea99a342ce97b347f52b97ac9c7" class="room outdoor green" data-label="Slouching Gardens of Ephebe, by the south end of Pragmatic Place" cx="127" cy="293" r="4"/>
     <circle id="room-b9a45d379d4b97b372571eaffb4988b5159c844d" class="room outdoor green" data-label="Slouching Gardens of Ephebe, just south of the citadel&#x27;s entrance" cx="127" cy="279" r="4"/>
@@ -2425,7 +2425,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-78353533f6f68c4cba4762ad879163043d7e00a3" class="room outdoor" data-label="Impartiality Avenue outside Sandelfon&#x27;s temple" cx="407" cy="363" r="4"/>
     <circle id="room-7f5d4364c807a75bc0233564e103a3f207804acc" class="room outdoor" data-label="near the western end of Flatulus Walk" cx="351" cy="363" r="4"/>
     <circle id="room-5258a3fce98480fd48a74e1eda25b596c65020db" class="room outdoor" data-label="outside the taverna on Flatulus Walk" cx="337" cy="377" r="4"/>
-    <rect id="room-034d51f602767e610747f729066a080daeb7dbc5" class="room indoor room-shop" data-label="the market taverna" x="324" y="382" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="328" y="386" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-034d51f602767e610747f729066a080daeb7dbc5" class="room indoor room-tavern" data-label="the market taverna" x="324" y="382" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="328" y="386" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-a8205159bdbb8ae4c813ee62f75f5d978ba007a8" class="room outdoor" data-label="northwestern end of Flatulus Walk" cx="337" cy="349" r="4"/>
     <circle id="room-de6e767db3367071914ef4396d4219642bab898c" class="room outdoor room-shop" data-label="rather bloodily religious side of the Harbour Market" cx="351" cy="349" r="4"/><text class="room-type-label" font-size="4.5" x="351" y="349" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-edfcf00326dd22514187c803a269fb368951c8e9" class="room outdoor room-shop" data-label="stall near the southern edge of the Harbour Market" cx="365" cy="349" r="4"/><text class="room-type-label" font-size="4.5" x="365" y="349" text-anchor="middle" dominant-baseline="central">S</text>
@@ -2552,13 +2552,13 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-3a74b8e51dd0c27c5ba416a9076a64fa0406aa90" class="room outdoor" data-label="on the north end of Paradox Avenue, near a five-legged donkey" cx="505" cy="363" r="4"/>
     <rect id="room-5dc717c118648cd49f2ea4f7e7235bd15d19ea55" class="room indoor" data-label="advertisement market" x="512" y="359" width="8" height="8" rx="2"/>
     <circle id="room-0ee2ec6359b08cfe1efb806ec454809cce0bf44e" class="room outdoor" data-label="outside a soot-scarred house on Paradox Avenue" cx="505" cy="377" r="4"/>
-    <circle id="room-074ae5962d1aa96eae14124dd7b92b95aa9147a2" class="room outdoor" data-label="by a tavern on Paradox Avenue" cx="505" cy="391" r="4"/>
-    <rect id="room-f743bb115e45372d9d994c6aff372751c824397b" class="room indoor room-food" data-label="dark tavern" x="490" y="387" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="494" y="391" text-anchor="middle" dominant-baseline="central">F</text>
+    <circle id="room-074ae5962d1aa96eae14124dd7b92b95aa9147a2" class="room outdoor room-tavern" data-label="by a tavern on Paradox Avenue" cx="505" cy="391" r="4"/><text class="room-type-label" font-size="4.5" x="505" y="391" text-anchor="middle" dominant-baseline="central">V</text>
+    <rect id="room-f743bb115e45372d9d994c6aff372751c824397b" class="room indoor room-tavern" data-label="dark tavern" x="490" y="387" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="494" y="391" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-94e222cbd5217e21470f2445a8253eb9dd77c773" class="room outdoor" data-label="by a stationery shop on Paradox Avenue" cx="505" cy="405" r="4"/>
     <rect id="room-648f09392be4ac6e5c70ba567414f7fde143f58e" class="room indoor room-shop" data-label="murky little shop" x="512" y="401" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="516" y="405" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-cebd461938612a2b7ab18a927292dd06fb18cc8a" class="room outdoor" data-label="quiet stretch of Paradox Avenue" cx="505" cy="419" r="4"/>
-    <circle id="room-7f98c93fd94e638db3d29dbc8df1cbc46c32ca41" class="room outdoor" data-label="off a tavern on Paradox Avenue" cx="505" cy="433" r="4"/>
-    <rect id="room-ec4bbc586f8efcfe5d9b83b53f9e905642408713" class="room indoor room-food" data-label="The Divine Feline Taverna" x="490" y="429" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="494" y="433" text-anchor="middle" dominant-baseline="central">F</text>
+    <circle id="room-7f98c93fd94e638db3d29dbc8df1cbc46c32ca41" class="room outdoor room-tavern" data-label="off a tavern on Paradox Avenue" cx="505" cy="433" r="4"/><text class="room-type-label" font-size="4.5" x="505" y="433" text-anchor="middle" dominant-baseline="central">V</text>
+    <rect id="room-ec4bbc586f8efcfe5d9b83b53f9e905642408713" class="room indoor room-tavern" data-label="The Divine Feline Taverna" x="490" y="429" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="494" y="433" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-eda24b8eae2243ce0ec33648cc89557aaf808e9f" class="room outdoor" data-label="off a wine shop on Paradox Avenue" cx="505" cy="447" r="4"/>
     <rect id="room-24023b3e948d8bd1b531fc1bede8ee2bb1c3a422" class="room indoor room-food" data-label="A murky little shop" x="490" y="443" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="494" y="447" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-dde759017d125f1fd97c4927070e70fd85591a90" class="room outdoor" data-label="busy stretch on Paradox Avenue" cx="505" cy="461" r="4"/>
@@ -2769,7 +2769,6 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <polygon id="stair-783219e639517111bb7976cd955d93c3d61b58cd" class="stair-symbol" points="124,394 121.5,389 126.5,389"/>
     <polygon id="stair-e288fce19a9b035da849f51068f8275bb8bbf4d3" class="stair-symbol" points="124,388 121.5,393 126.5,393"/>
     <polygon id="stair-b0e18e0c3dfc6ef230d6bd79d94650a69962e611" class="stair-symbol" points="113,346 110.5,351 115.5,351"/>
-    <polygon id="stair-9f9ad0609ba1d68fbf00237c1894800981efd8e7" class="stair-symbol" points="23,310 25.5,313 23,316 20.5,313"/>
     <polygon id="stair-b8aa559f6f6673b65ec5b4d0f2db46f21ccc3263" class="stair-symbol" points="22,289 19.5,284 24.5,284"/>
     <polygon id="stair-f78e6fbc4c1d868a3fb9be63c0830505efd1033b" class="stair-symbol" points="23,335 20.5,340 25.5,340"/>
     <polygon id="stair-e86fe138dbe79c34a87ec7a1885e4793231b5bde" class="stair-symbol" points="295,192 292.5,197 297.5,197"/>

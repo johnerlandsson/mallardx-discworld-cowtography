@@ -9163,7 +9163,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-8d33c2ddcb48b81a7fbc78aeac5847bce8a0d2c3" class="room outdoor" data-label="Long Wall" cx="606" cy="214" r="4"/>
     <circle id="room-3b931db8b09ae47a3d05d211ce0313535bd136b1" class="room outdoor" data-label="Long Wall" cx="592" cy="228" r="4"/>
     <circle id="room-7fb2adfd6db50749881344c55d9acc8530d4e6dc" class="room outdoor" data-label="Long Wall, outside the Wall View Tavern" cx="578" cy="228" r="4"/>
-    <rect id="room-c2cff28f63d4e1cf8abcccd370693f9180e41fcb" class="room indoor room-food" data-label="Wall View tavern" x="574" y="213" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="578" y="217" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-c2cff28f63d4e1cf8abcccd370693f9180e41fcb" class="room indoor room-tavern" data-label="Wall View tavern" x="574" y="213" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="578" y="217" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-d673c5097aaacdc3f6a6ce2f26513679d3e1c406" class="room outdoor" data-label="Long Wall" cx="564" cy="228" r="4"/>
     <circle id="room-440bc9b976eb19ba60850511aa1876843b33ef88" class="room outdoor" data-label="Long Wall" cx="550" cy="228" r="4"/>
     <circle id="room-7b58546cc5e57b61838c0ff9331f6d1c762ed2af" class="room outdoor" data-label="Long Wall" cx="536" cy="242" r="4"/>
@@ -9255,7 +9255,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-b7d1c631bde34be141b8db19b255b5ba59d374ad" class="room outdoor room-food" data-label="lumberyard on Dimwell Street" cx="284" cy="326" r="4"/><text class="room-type-label" font-size="4.5" x="284" y="326" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-2f7658069cbde3fce50f15d78b8691fc94a0dd0e" class="room outdoor" data-label="Dimwell Street" cx="298" cy="326" r="4"/>
     <circle id="room-41c308a72add18f2a90078ec4e7fc07939b01f41" class="room outdoor" data-label="Dimwell Street, outside a cafe" cx="312" cy="340" r="4"/>
-    <rect id="room-a26a7d37bb46c8726226a9237cf84c79f90c79dd" class="room indoor room-food" data-label="Mrs Dimmles&#x27; Open-All-Hours Cafe" x="308" y="325" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="312" y="329" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-a26a7d37bb46c8726226a9237cf84c79f90c79dd" class="room indoor room-tavern" data-label="Mrs Dimmles&#x27; Open-All-Hours Cafe" x="308" y="325" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="312" y="329" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-ad437c320e126e9dac62acb9ea65a417b24b3004" class="room outdoor" data-label="south end of Dimwell Street" cx="326" cy="354" r="4"/>
     <circle id="room-e795e917724e4991f7d04e019316ee98a45c8eb2" class="room outdoor" data-label="intersection of The Soake and Dimwell Street" cx="340" cy="354" r="4"/>
     <rect id="room-5cc6162f633df45d189cda9c8b8202397bb38a85" class="room indoor room-food" data-label="The Laughing Falafel, Klatchian Takeaway" x="336" y="339" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="340" y="343" text-anchor="middle" dominant-baseline="central">F</text>
@@ -9545,7 +9545,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-d84b9535541dffb1f006ffd7e4d4ce3ab73c0a9d" class="room outdoor" data-label="Speedwell Street outside the Ankh-Morpork Council" cx="648" cy="326" r="4"/>
     <circle id="room-1125dd47f81fb32c0d468be3d5e21fe45f53e089" class="room outdoor" data-label="Speedwell Street" cx="662" cy="326" r="4"/>
     <circle id="room-21d3e247fcf18a741be0f132f62266e4069d76a0" class="room outdoor" data-label="Speedwell Street outside Stuck&#x27;s Bar" cx="676" cy="326" r="4"/>
-    <rect id="room-48b5df180d837e76c09bc13a5caf8965a2013e60" class="room indoor room-shop" data-label="inside Stuck&#x27;s Bar" x="672" y="333" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="676" y="337" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-48b5df180d837e76c09bc13a5caf8965a2013e60" class="room indoor room-pub" data-label="inside Stuck&#x27;s Bar" x="672" y="333" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="676" y="337" text-anchor="middle" dominant-baseline="central">B</text>
     <circle id="room-3e94b25316e8427666d4ed0713164456bedb0c67" class="room outdoor" data-label="Speedwell Street, outside the Vulpii family house" cx="690" cy="326" r="4"/>
     <circle id="room-4605fb564e15b773ce5abd6847f356b159e085b5" class="room outdoor" data-label="east end of Speedwell Street" cx="704" cy="326" r="4"/>
     <circle id="room-41e4a855631610cb2096fca5bb09be78722cd566" class="room outdoor" data-label="intersection with King&#x27;s Way, Seven Sleepers and Speedwell Street" cx="718" cy="326" r="4"/>
@@ -9718,7 +9718,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-08c2fb6be4557a7b7726100bbb8bc3baad125cc6" class="room outdoor" data-label="Pallant Street" cx="1194" cy="354" r="4"/>
     <circle id="room-95d0fe54d94a5544d86a08a54815d39e2d4d2abf" class="room outdoor" data-label="junction of Pallant Street and Artorollo Alley" cx="1180" cy="354" r="4"/>
     <circle id="room-e31432a1315172525e4df64b8c84b09ca547d466" class="room outdoor" data-label="east end of Artorollo Alley" cx="1166" cy="340" r="4"/>
-    <rect id="room-c722a6320db00226f0c56fafe92d9be7a02a0dc6" class="room indoor room-food" data-label="Georgio&#x27;s pizza place" x="1162" y="325" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1166" y="329" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-c722a6320db00226f0c56fafe92d9be7a02a0dc6" class="room indoor room-tavern" data-label="Georgio&#x27;s pizza place" x="1162" y="325" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1166" y="329" text-anchor="middle" dominant-baseline="central">V</text>
     <rect id="room-5f86d289f3f9c884e2171d1dc97f0767e479f770" class="room indoor" data-label="staircase" x="1162" y="325" width="8" height="8" rx="2"/>
     <rect id="room-29b62d4c2b9f7caf2b1a6e516c95077ca8999bd5" class="room indoor" data-label="cellar" x="1162" y="325" width="8" height="8" rx="2"/>
     <rect id="room-63bbe9713c6a9f30c093d37ef2441b42ebe79f73" class="room indoor" data-label="storeroom" x="1162" y="325" width="8" height="8" rx="2"/>
@@ -10176,7 +10176,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-aa60d2835f68cb1f00f47963d78dd2f7aa0d48fd" class="room outdoor" data-label="southeast portion of The Cham" cx="1026" cy="718" r="4"/>
     <circle id="room-e0ec44e714c87065c70b82727e92b7ead0ce3b87" class="room outdoor" data-label="southwest portion of The Cham" cx="1012" cy="718" r="4"/>
     <circle id="room-ec29dcaa96b316d4b1696b4d62f014b3f0c7f0cf" class="room outdoor" data-label="northwest side of the Plaza of Broken Moons" cx="998" cy="732" r="4"/>
-    <rect id="room-e4889c7fe573289e63211238c6d15d85cc5ae836" class="room indoor room-food" data-label="Havlik&#x27;s Dwarf Bar" x="984" y="718" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="988" y="722" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-e4889c7fe573289e63211238c6d15d85cc5ae836" class="room indoor room-pub" data-label="Havlik&#x27;s Dwarf Bar" x="984" y="718" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="988" y="722" text-anchor="middle" dominant-baseline="central">B</text>
     <circle id="room-c1792e3ab51538156533ee60dae6693998543be0" class="room outdoor" data-label="north side of the Plaza of Broken Moons" cx="1012" cy="732" r="4"/>
     <circle id="room-fe2136425a4420fcd73696417af6224a61b01d9b" class="room outdoor" data-label="north side of the Plaza of Broken Moons" cx="1026" cy="732" r="4"/>
     <circle id="room-3317c070c4f1ca4bf05cd11fc8eb786ca94e5e58" class="room outdoor" data-label="northeast side of the Plaza of Broken Moons" cx="1040" cy="732" r="4"/>
@@ -10579,7 +10579,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-b824b7e35675a4bc5e13bb51e3ea50ec932f6228" class="room outdoor" data-label="road along the docks" cx="130" cy="606" r="4"/>
     <circle id="room-98f767cdad62418f5badce0b2261f7174b38f628" class="room outdoor" data-label="junction of Pearl Dock and Cockbill Street" cx="130" cy="620" r="4"/>
     <circle id="room-1314b0bde5c4c462ced5f98326fc0e3e5b9b0e55" class="room outdoor" data-label="Waterfront" cx="144" cy="606" r="4"/>
-    <rect id="room-b1042810bc21aec776186de4f934e94ca67b6efb" class="room indoor room-food" data-label="loud pub" x="139" y="613" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="143" y="617" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-b1042810bc21aec776186de4f934e94ca67b6efb" class="room indoor room-pub" data-label="loud pub" x="139" y="613" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="143" y="617" text-anchor="middle" dominant-baseline="central">B</text>
     <circle id="room-520ba22928f29f6055a2d401aede29d1fee838e3" class="room outdoor" data-label="Waterfront" cx="158" cy="606" r="4"/>
     <circle id="room-184fca3bd43ecf1cc2c1704cbd07c352b7eef40a" class="room outdoor" data-label="Waterfront" cx="158" cy="592" r="4"/>
     <rect id="room-2537e2414930d5a8ddc378e9c1304cd9d289e069" class="room indoor room-shop" data-label="dockside shop" x="154" y="613" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="158" y="617" text-anchor="middle" dominant-baseline="central">S</text>
@@ -10850,7 +10850,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-bec5c3121528c298ac3328df0975ae50b383be62" class="room outdoor" data-label="junction of Short Street, Heroes Street and God Street" cx="718" cy="886" r="4"/>
     <circle id="room-0612eb71ffffc7caacb1536007a801ffa16b21bf" class="room outdoor" data-label="south of the junction of God Street and Heroes Street with Short Street" cx="718" cy="900" r="4"/>
     <circle id="room-29b95196851d59efc0b87e097383b714d4ea0cc4" class="room outdoor" data-label="outside a nice shop on Short Street" cx="718" cy="914" r="4"/>
-    <rect id="room-26a79fa779221c335e38e4f90bf297f1527b9bb3" class="room indoor" data-label="Jorodin&#x27;s small and rather friendly-looking shop" x="703" y="910" width="8" height="8" rx="2"/>
+    <rect id="room-26a79fa779221c335e38e4f90bf297f1527b9bb3" class="room indoor room-talker" data-label="Jorodin&#x27;s small and rather friendly-looking shop" x="703" y="910" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="707" y="914" text-anchor="middle" dominant-baseline="central">M</text>
     <circle id="room-eeb3735c9d0c2d3be8d91256378272191ea8b733" class="room outdoor" data-label="Short Street" cx="718" cy="928" r="4"/>
     <circle id="room-282b402f4222d2c5b52574cc0c82f9f6550f1635" class="room outdoor" data-label="north of a busy junction on Short Street" cx="718" cy="942" r="4"/>
     <circle id="room-b5eb69453573b827fa6275799a99523e66768b85" class="room outdoor" data-label="God Street" cx="732" cy="886" r="4"/>
@@ -10885,14 +10885,14 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-e9abbbf7c8090d95c887a827f250334ab16e683e" class="room outdoor" data-label="northeast corner of Peasant Parade" cx="858" cy="760" r="4"/>
     <circle id="room-20f89f0871218ebe47aacb47e764ee5ed6e31b0a" class="room outdoor" data-label="junction of Turnwise Broadway and Peach Pie Street" cx="872" cy="760" r="4"/>
     <circle id="room-e4ed81b5bb51f146a4406f4749384fef1cfd6e29" class="room outdoor" data-label="Turnwise Broadway" cx="886" cy="760" r="4"/>
-    <rect id="room-eaa8715cdf2b779c63768077765b9649cbf11350" class="room indoor room-food" data-label="All Jolson&#x27;s Restaurant" x="893" y="756" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="897" y="760" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-eaa8715cdf2b779c63768077765b9649cbf11350" class="room indoor room-tavern" data-label="All Jolson&#x27;s Restaurant" x="893" y="756" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="897" y="760" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-339eba3ef34e070c349a39b32e3c35f87ba1ab1e" class="room outdoor" data-label="Turnwise Broadway" cx="900" cy="774" r="4"/>
     <circle id="room-7266a8730ad548ad8c0b8bb43ae32d52a231dbd0" class="room outdoor" data-label="Turnwise Broadway" cx="914" cy="788" r="4"/>
     <circle id="room-1bd17d4675385538d11e924c2fb743c8cdd40997" class="room outdoor" data-label="Lower Broadway" cx="816" cy="760" r="4"/>
     <circle id="room-23c39d9f1ba61e71fe7ed8b798698e7b5be37b1e" class="room outdoor" data-label="junction with Lower Broadway and Flood Walk" cx="802" cy="746" r="4"/>
     <circle id="room-fd8f8abd3bba7c425e45feab187c46f56d8669f7" class="room outdoor" data-label="northeast end of Flood Walk" cx="788" cy="760" r="4"/>
     <circle id="room-d478afcd229a0eeeec72b347a22d8cd9813340a9" class="room outdoor" data-label="Flood Walk, just outside the Groaning Platter" cx="774" cy="774" r="4"/>
-    <rect id="room-72f7ed3a6b023c275a53468236a0292a27af1279" class="room indoor room-food" data-label="Groaning Platter Tavern" x="781" y="770" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="785" y="774" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-72f7ed3a6b023c275a53468236a0292a27af1279" class="room indoor room-tavern" data-label="Groaning Platter Tavern" x="781" y="770" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="785" y="774" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-f4183d7e6bbc20c2fa0ab72a9580b74797999ba1" class="room outdoor" data-label="middle of Flood Walk" cx="760" cy="774" r="4"/>
     <circle id="room-95b1b93bf5c7f1c880bfdff4236172aa6f472851" class="room outdoor" data-label="Flood Walk" cx="746" cy="774" r="4"/>
     <circle id="room-c880136e62fc1392772862a88147f15c09e467f6" class="room outdoor" data-label="west end of Flood Walk" cx="732" cy="774" r="4"/>
@@ -10924,7 +10924,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-9c34c72889836b1ea497f10be9fe5db1af04a32f" class="room outdoor" data-label="Street of Alchemists" cx="858" cy="634" r="4"/>
     <circle id="room-0941bb44bc0c34e89e9e6a5694ea2dafb22e7bfd" class="room outdoor" data-label="junction of the Street of Alchemists and Memorial Street" cx="858" cy="620" r="4"/>
     <circle id="room-17f0b1ac4994c41c1272515c3e9deb0a58116cef" class="room outdoor" data-label="Memorial Street at the &quot;Stoat &amp; Onion&quot;" cx="872" cy="620" r="4"/>
-    <rect id="room-2f0dcdafb9f400dcef7a2d6f4e5a8856d3754597" class="room indoor room-food" data-label="main bar of the Stoat &amp; Onion" x="868" y="627" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="872" y="631" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-2f0dcdafb9f400dcef7a2d6f4e5a8856d3754597" class="room indoor room-pub" data-label="main bar of the Stoat &amp; Onion" x="868" y="627" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="872" y="631" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-60f70880da1bed81a346994be68f0a2857a7868b" class="room indoor" data-label="games room" x="868" y="627" width="8" height="8" rx="2"/>
     <circle id="room-11f56e458eac5ccb22b002a824766ddf106c58b5" class="room outdoor" data-label="junction of The Willows and Memorial Street" cx="886" cy="620" r="4"/>
     <rect id="room-7206f824ab4d6f69751f5a75fe37ac8347f84c66" class="room indoor room-shop" data-label="Head of the Table" x="882" y="627" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="886" y="631" text-anchor="middle" dominant-baseline="central">S</text>
@@ -10964,7 +10964,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-bbe7ed2dec5f12d97f7459c9d9dc58e1c15f42cf" class="room outdoor" data-label="Heroes Street" cx="662" cy="844" r="4"/>
     <circle id="room-f52fa69d71bd92058b2400bf9ed7fb2d1b24c294" class="room outdoor" data-label="Heroes Street" cx="676" cy="858" r="4"/>
     <rect id="room-4eb1bb75d9a78e52d0d982094e6da07f63e4e8b2" class="room indoor" data-label="Warriors&#x27; Guild Memorial Hall" x="683" y="843" width="8" height="8" rx="2"/>
-    <rect id="room-c2ed14f69e331ba383dc3e62de34c0542a948e7c" class="room indoor room-food" data-label="Warriors&#x27; Guild cafe" x="673" y="843" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="677" y="847" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-c2ed14f69e331ba383dc3e62de34c0542a948e7c" class="room indoor room-tavern" data-label="Warriors&#x27; Guild cafe" x="673" y="843" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="677" y="847" text-anchor="middle" dominant-baseline="central">V</text>
     <rect id="room-d9a7425a2114fc2f2604c38031558109df041da7" class="room indoor" data-label="Hall of Heroes" x="693" y="833" width="8" height="8" rx="2"/>
     <rect id="room-57981abe779a28f1e8b003732eb35430854670e4" class="room indoor room-pshop" data-label="[player shop]" x="683" y="833" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="687" y="837" text-anchor="middle" dominant-baseline="central">P</text>
     <circle id="room-a92c48757172cb851b6ccd12359e1af87d116377" class="room outdoor" data-label="Heroes Street" cx="690" cy="872" r="4"/>
@@ -10972,10 +10972,10 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-552ae47ec4c644e729f2c1b2777689ae5624d61d" class="room indoor room-armour" data-label="Woo Hun Ling&#x27;s Auriental Exotica and Martial Aids" x="697" y="868" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="701" y="872" text-anchor="middle" dominant-baseline="central">A</text>
     <circle id="room-a219b4e8b8c3eecb30e4cef9450f90e67cb9d335" class="room outdoor" data-label="junction of Heroes Street and God Street" cx="704" cy="886" r="4"/>
     <rect id="room-12f9ae4a0a2792bd1193281d0cdb5bc67bfdd9d3" class="room indoor" data-label="Job Market foyer" x="695" y="893" width="8" height="8" rx="2"/>
-    <rect id="room-73b97bddee091fd07ae5b14cccdb187b4ca11925" class="room indoor room-food" data-label="Corner Cafe of the Job Market" x="703" y="893" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="707" y="897" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-73b97bddee091fd07ae5b14cccdb187b4ca11925" class="room indoor room-tavern" data-label="Corner Cafe of the Job Market" x="703" y="893" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="707" y="897" text-anchor="middle" dominant-baseline="central">V</text>
     <rect id="room-6be2a2f4c4d9e01fcdf38498a32a92ea5f33fa51" class="room indoor room-weapon" data-label="Job Market&#x27;s Equipment Shop" x="687" y="893" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="691" y="897" text-anchor="middle" dominant-baseline="central">W</text>
     <rect id="room-a5846b0acd26afec87c2dc20daa7ccadecc94cff" class="room indoor" data-label="Job Market centre" x="695" y="901" width="8" height="8" rx="2"/>
-    <rect id="room-f32f1edac88adfd1a0ff65c4a4450d8b82849f44" class="room indoor" data-label="Job Market&#x27;s Cafe Lounge" x="703" y="901" width="8" height="8" rx="2"/>
+    <rect id="room-f32f1edac88adfd1a0ff65c4a4450d8b82849f44" class="room indoor room-tavern" data-label="Job Market&#x27;s Cafe Lounge" x="703" y="901" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="707" y="905" text-anchor="middle" dominant-baseline="central">V</text>
     <rect id="room-c86e7e36f138ae6cfe05c6f62aba2b4c88deb596" class="room indoor room-clothes" data-label="Job Market&#x27;s Clothing Shop" x="687" y="901" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="691" y="905" text-anchor="middle" dominant-baseline="central">C</text>
     <circle id="room-328d613379758e6a3fd688b9655f1735584882c4" class="room outdoor" data-label="God Street" cx="690" cy="886" r="4"/>
     <circle id="room-99ccb4f018b4d8cffab85a1d7c5a351a083c59a8" class="room outdoor" data-label="God Street" cx="676" cy="886" r="4"/>
@@ -10994,7 +10994,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-cca9645565f2bb0d017ea9b1dcc9d1b3e9fcfe72" class="room indoor room-food" data-label="beer room" x="619" y="840" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="623" y="844" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-8c91d73fc8f08ee3b8d2bfd046e753a22599b705" class="room outdoor" data-label="beer garden of the Flaming Cabbage" cx="623" cy="844" r="4"/>
     <circle id="room-cbfe878a12096696d44ef90fb8de0ecf8278e184" class="room outdoor" data-label="God Street" cx="620" cy="872" r="4"/>
-    <rect id="room-d2265a457a2d8adec9d30100fa6302e8477f045e" class="room indoor room-shop" data-label="branch of McSweeney&#x27;s Restaurant" x="616" y="857" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="620" y="861" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-d2265a457a2d8adec9d30100fa6302e8477f045e" class="room indoor room-tavern" data-label="branch of McSweeney&#x27;s Restaurant" x="616" y="857" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="620" y="861" text-anchor="middle" dominant-baseline="central">V</text>
     <rect id="room-0e4dac907042b0bb07e57725c221ae1c9e755ba9" class="room indoor room-shop" data-label="bookstore" x="616" y="879" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="620" y="883" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-d36f52c9130d54a49f0d0ab806c4b7bb2e4409b5" class="room outdoor" data-label="God Street" cx="606" cy="872" r="4"/>
     <circle id="room-cf13e9947ce4906dc5f543b4a64af2e9cda85e6a" class="room outdoor" data-label="God Street" cx="592" cy="872" r="4"/>
@@ -11018,7 +11018,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-94746e72a193c1460b2b8878002e57dc5a852d09" class="room outdoor" data-label="Attic Bee Street" cx="620" cy="942" r="4"/>
     <circle id="room-2bec7cf6aa0e3cd204f4863a61456af48aac2f56" class="room outdoor" data-label="Attic Bee Street" cx="634" cy="942" r="4"/>
     <circle id="room-3f64cfb8f393cdfaa4fd5ce54a163b988ce391e9" class="room outdoor" data-label="Attic Bee Street" cx="648" cy="956" r="4"/>
-    <rect id="room-6eb9cc4451c6fb21f7645914df98f8629cb4df33" class="room indoor" data-label="Celery Appleseed&#x27;s Juice Bar" x="644" y="963" width="8" height="8" rx="2"/>
+    <rect id="room-6eb9cc4451c6fb21f7645914df98f8629cb4df33" class="room indoor room-pub" data-label="Celery Appleseed&#x27;s Juice Bar" x="644" y="963" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="648" y="967" text-anchor="middle" dominant-baseline="central">B</text>
     <circle id="room-0ffac2ecd64050129d28ceb5b9a449a0fbfce2e3" class="room outdoor" data-label="Attic Bee Street" cx="662" cy="956" r="4"/>
     <rect id="room-1d9b770ce1ceaa4b73efb68713947486171ee3d0" class="room indoor room-pshop" data-label="[player shop]" x="658" y="963" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="662" y="967" text-anchor="middle" dominant-baseline="central">P</text>
     <circle id="room-03394f57798133760584f9a1d77355516fae5ae8" class="room outdoor" data-label="Attic Bee Street" cx="676" cy="956" r="4"/>
@@ -11126,7 +11126,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-5d45210d01174e25662f5a90ad59e83de78d6e9b" class="room indoor room-shop" data-label="Won Rip Off Emporium" x="264" y="971" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="268" y="975" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-3e658fac2b551442d118db1e726c01044e9271fa" class="room outdoor room-shop" data-label="Little Agatea" cx="289" cy="986" r="4"/><text class="room-type-label" font-size="4.5" x="289" y="986" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-3ff0a9593f19e260222a21637f865855c700987e" class="room indoor" data-label="&quot;Bes Pelargic&quot;, Laundry House" x="285" y="971" width="8" height="8" rx="2"/>
-    <rect id="room-886e1da4dd53a0b6f43c4248d014bd2838265bee" class="room indoor room-shop" data-label="Wun Phul Mouth&#x27;s Hunghungese Restaurant" x="296" y="971" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="300" y="975" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-886e1da4dd53a0b6f43c4248d014bd2838265bee" class="room indoor room-tavern" data-label="Wun Phul Mouth&#x27;s Hunghungese Restaurant" x="296" y="971" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="300" y="975" text-anchor="middle" dominant-baseline="central">V</text>
     <rect id="room-1e45bf5fd9e7720e1099f85ae93de0f364487a82" class="room indoor" data-label="CWC ideas room" x="296" y="961" width="8" height="8" rx="2"/>
     <rect id="room-feb4e26f425e9fa4dd6405c3b2534e420125016f" class="room indoor" data-label="Agatean-themed classroom" x="306" y="970" width="8" height="8" rx="2"/>
     <rect id="room-9c2dfa4380f134d5f6790e83ac816522a5cda188" class="room indoor" data-label="dusty back room" x="306" y="981" width="8" height="8" rx="2"/>
@@ -11392,7 +11392,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-874493e57dff36b786fa5dcf7d82208560872561" class="room outdoor" data-label="Sweetheart Lane" cx="186" cy="648" r="4"/>
     <circle id="room-4fe5a57bb4066088076982ebd28b579e049c90bb" class="room outdoor" data-label="Romeo Street outside Troll&#x27;s Head" cx="186" cy="662" r="4"/>
     <rect id="room-b14ec844c856e7dee9ba631182cfdc0d3c65ca46" class="room indoor" data-label="Troll&#x27;s Head" x="193" y="658" width="8" height="8" rx="2"/>
-    <rect id="room-62eaa6e10d4169b939307d2f6f87992ab0afdaa0" class="room indoor room-shop" data-label="Troll&#x27;s Head bar area" x="193" y="658" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="197" y="662" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-62eaa6e10d4169b939307d2f6f87992ab0afdaa0" class="room indoor room-pub" data-label="Troll&#x27;s Head bar area" x="193" y="658" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="197" y="662" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-84f9286bb3e4953e7d0dc4088618c4aa0ad446a1" class="room indoor" data-label="back room of the Troll&#x27;s Head" x="193" y="658" width="8" height="8" rx="2"/>
     <rect id="room-00dafb77bf23b3e00d90084e5c31c811167af7e1" class="room indoor" data-label="alcove in the Troll&#x27;s Head" x="193" y="658" width="8" height="8" rx="2"/>
     <circle id="room-3b527cc1615879e7c6900659b13cfb433b1cb105" class="room outdoor" data-label="Romeo Street" cx="186" cy="676" r="4"/>
@@ -11461,7 +11461,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-f98330fd550967b5d35dac652593f934776fb794" class="room outdoor" data-label="Gleam Street" cx="536" cy="704" r="4"/>
     <circle id="room-1740dba9eaae5293040fab13bc7371b379f328f7" class="room outdoor" data-label="Gleam Street outside of the Bucket" cx="550" cy="690" r="4"/>
     <rect id="room-a3e1dfa71c7a3e757f60d9f57a525b878ac92afe" class="room indoor" data-label="foyer of The Bucket" x="557" y="686" width="8" height="8" rx="2"/>
-    <rect id="room-e89a6907fe04cf9f53649706214794717defbf7c" class="room indoor room-food" data-label="bar" x="557" y="686" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="561" y="690" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-e89a6907fe04cf9f53649706214794717defbf7c" class="room indoor room-pub" data-label="bar" x="557" y="686" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="561" y="690" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-7779946c50e7483b2fe32606fbecd89377cec09b" class="room indoor" data-label="dark alcove" x="557" y="686" width="8" height="8" rx="2"/>
     <rect id="room-1345e2dcdacf10fc366dbff1b30c3e2c4a0aa4ae" class="room indoor" data-label="dining room" x="557" y="686" width="8" height="8" rx="2"/>
     <circle id="room-8347bcbd46bda773d045b62b2de73c07ab628e58" class="room outdoor" data-label="beer garden" cx="561" cy="690" r="4"/>
@@ -11635,7 +11635,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-6367d1c97dbdc1b4f45760668783331f33d86c4b" class="room indoor" data-label="Skunk Club entrance hall" x="661" y="686" width="8" height="8" rx="2"/>
     <rect id="room-f944a55f0b0545a439502283b8c75535a35b3b24" class="room indoor" data-label="dance floor" x="661" y="686" width="8" height="8" rx="2"/>
     <rect id="room-3a9b340b5e444518a7fdb644d9f47151c9396c95" class="room indoor" data-label="Skunk Club dance floor" x="661" y="686" width="8" height="8" rx="2"/>
-    <rect id="room-1869c388c5b2c3535047546b7ef45930ecdca809" class="room indoor room-food" data-label="Skunk Club bar" x="661" y="686" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="665" y="690" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-1869c388c5b2c3535047546b7ef45930ecdca809" class="room indoor room-pub" data-label="Skunk Club bar" x="661" y="686" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="665" y="690" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-1a7f5a5f9a7b1b0847fa8e311635121c40a8a31f" class="room indoor" data-label="boring hall" x="661" y="686" width="8" height="8" rx="2"/>
     <rect id="room-28f3503bc91ff4f1e217b1f7e201a74b29e5e300" class="room indoor" data-label="chill-out lounge" x="661" y="686" width="8" height="8" rx="2"/>
     <rect id="room-9b3b41ade07043f1fdfd551f391fa66892bbd554" class="room indoor" data-label="smart-looking office" x="661" y="686" width="8" height="8" rx="2"/>
@@ -11676,7 +11676,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-f176716d3aae8ed0f5221724f981da5d628fd625" class="room outdoor" data-label="Pseudopolis Yard" cx="676" cy="592" r="4"/>
     <rect id="room-b839d36a1108671857f43f507cd40ab62475c31c" class="room indoor room-shop" data-label="Rosa&#x27;s Chocolate Emporium" x="661" y="588" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="665" y="592" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-20fe429b34e5f50b791cc07f2083da7e43ffc0a9" class="room outdoor" data-label="Pseudopolis Yard" cx="690" cy="578" r="4"/>
-    <rect id="room-040b76b86b9ed01e635a40daeea5470cbf45bc5e" class="room indoor room-food" data-label="The Stab in the Back pub" x="675" y="574" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="679" y="578" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-040b76b86b9ed01e635a40daeea5470cbf45bc5e" class="room indoor room-pub" data-label="The Stab in the Back pub" x="675" y="574" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="679" y="578" text-anchor="middle" dominant-baseline="central">B</text>
     <circle id="room-ad942627ee46891bebb01fd673ea9dda5d18fc96" class="room outdoor" data-label="Pseudopolis Yard" cx="704" cy="578" r="4"/>
     <circle id="room-e1bd9db5068ffdc8ff21ba14f2aa525a55836c90" class="room outdoor" data-label="Pseudopolis Yard" cx="718" cy="592" r="4"/>
     <circle id="room-a16e9a96ae3b280651f5894f93b511cf506d3e06" class="room outdoor" data-label="Pseudopolis Yard" cx="718" cy="606" r="4"/>
@@ -12044,8 +12044,8 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-fb09a343d14c256c83a5ea26fdae96899519b7a7" class="room indoor" data-label="viewing room" x="865" y="1050" width="8" height="8" rx="2"/>
     <circle id="room-c8e2cf0d456b32d46335d61a2556ec8cb508bf4a" class="room outdoor" data-label="roof of block of flats" cx="746" cy="984" r="4"/>
     <rect id="room-88e904c9e801f992b2090f03e0c59a1ea0c65d9b" class="room indoor" data-label="abandoned abattoir" x="24" y="728" width="8" height="8" rx="2"/>
-    <rect id="room-ca109403186a1dfda441ac15150451b5daf92d36" class="room indoor room-shop" data-label="dark classy bar" x="24" y="728" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="28" y="732" text-anchor="middle" dominant-baseline="central">S</text>
-    <rect id="room-ddcfa0468e04766500e70a13d9ccfbf54b17e7af" class="room indoor" data-label="side room to a dark bar" x="24" y="728" width="8" height="8" rx="2"/>
+    <rect id="room-ca109403186a1dfda441ac15150451b5daf92d36" class="room indoor room-pub" data-label="dark classy bar" x="24" y="728" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="28" y="732" text-anchor="middle" dominant-baseline="central">B</text>
+    <rect id="room-ddcfa0468e04766500e70a13d9ccfbf54b17e7af" class="room indoor room-pub" data-label="side room to a dark bar" x="24" y="728" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="28" y="732" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-7a652abb135d3c05720a932186b98dc0322060b3" class="room indoor" data-label="dark cellar" x="406" y="921" width="8" height="8" rx="2"/>
     <rect id="room-a0e26672e709fdca7e2fe9d5562172c1ec4d4964" class="room indoor" data-label="psychiatrist&#x27;s office" x="725" y="840" width="8" height="8" rx="2"/>
     <rect id="room-e475139667659c87f16f7c71ac6c219b0ece7ee2" class="room indoor" data-label="short corridor" x="854" y="1011" width="8" height="8" rx="2"/>
@@ -12137,7 +12137,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-9d2101c318e4fd3a6de70c98a0fe1fb2a7d3b67a" class="room indoor" data-label="steel walled room" x="1064" y="644" width="8" height="8" rx="2"/>
     <rect id="room-c440c2ecae83070d17ca53246d0b5c76af014286" class="room indoor" data-label="inside the Philosophers Society." x="1218" y="577" width="8" height="8" rx="2"/>
     <rect id="room-54f61262a0050f2b033e37155191f699c5177533" class="room indoor" data-label="lounge in the Philosophers&#x27; Society." x="1218" y="577" width="8" height="8" rx="2"/>
-    <rect id="room-a49d4d385ab5204882ebf33c9c4722e0e629070a" class="room indoor room-shop" data-label="bar in Philosophers&#x27; Society" x="1218" y="577" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1222" y="581" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-a49d4d385ab5204882ebf33c9c4722e0e629070a" class="room indoor room-pub" data-label="bar in Philosophers&#x27; Society" x="1218" y="577" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1222" y="581" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-061339a2a7e2f296a9fd07173555f37792f01c18" class="room indoor" data-label="cellar in the Philosophers&#x27; Society." x="1218" y="577" width="8" height="8" rx="2"/>
     <rect id="room-37216d40b676d9447210d386a6b5831b109270a4" class="room indoor" data-label="lecture hall in the Philosophers&#x27; Society." x="1218" y="577" width="8" height="8" rx="2"/>
     <rect id="room-8cce61247d17d45b5e3cbee18403259e8ccc9c0e" class="room indoor" data-label="first alcove in the Curry Gardens" x="644" y="868" width="8" height="8" rx="2"/>
@@ -12169,9 +12169,9 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-f06a94361f6223e023e4456d31d2e4522eb15554" class="room outdoor" data-label="half-roof" cx="396" cy="802" r="4"/>
     <circle id="room-feb4d81440a09cb8d1535925408fbcd4f501d9ee" class="room outdoor" data-label="half-roof" cx="368" cy="802" r="4"/>
     <circle id="room-849d94d9d094e76cfc0a5344de88ecb563ea683a" class="room outdoor" data-label="half-roof" cx="312" cy="816" r="4"/>
-    <rect id="room-123f823e319b2227e077cdb1d57c04c3982a0a59" class="room indoor" data-label="supply room behind the bar" x="557" y="686" width="8" height="8" rx="2"/>
+    <rect id="room-123f823e319b2227e077cdb1d57c04c3982a0a59" class="room indoor room-pub" data-label="supply room behind the bar" x="557" y="686" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="561" y="690" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-49663d68bfcfe9e5c78aa604f961233e2fe9b863" class="room indoor" data-label="modest kitchen" x="557" y="686" width="8" height="8" rx="2"/>
-    <rect id="room-d99e7ea48c9146f735e93c8e7490bdc43fab31be" class="room indoor" data-label="room above the bar" x="557" y="686" width="8" height="8" rx="2"/>
+    <rect id="room-d99e7ea48c9146f735e93c8e7490bdc43fab31be" class="room indoor room-pub" data-label="room above the bar" x="557" y="686" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="561" y="690" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-ef32c44738745207a4b28ff4a38090dadb275e3e" class="room indoor" data-label="cellar of The Temporary Sign" x="865" y="680" width="8" height="8" rx="2"/>
     <rect id="room-52c612263550ff580c6c9f12ce69281b48cad304" class="room indoor" data-label="half flooded cellar" x="865" y="680" width="8" height="8" rx="2"/>
     <circle id="room-962e9f4ea8b71479278096781f2e89e7d2f3eb8f" class="room outdoor" data-label="dark alley" cx="522" cy="718" r="4"/>
@@ -12893,8 +12893,6 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <polygon id="stair-8cb5bf9487a30c6e265c66ef922760acb92dc36c" class="stair-symbol" points="144,326 141.5,321 146.5,321"/>
     <polygon id="stair-2375be0508c4e8e75205a77daf913a2de79dae08" class="stair-symbol" points="749,925 751.5,928 749,931 746.5,928"/>
     <polygon id="stair-f5f899d4d045869f8a97fba530a17626349259ea" class="stair-symbol" points="749,931 746.5,926 751.5,926"/>
-    <polygon id="stair-123f823e319b2227e077cdb1d57c04c3982a0a59" class="stair-symbol" points="561,687 558.5,692 563.5,692"/>
-    <polygon id="stair-d99e7ea48c9146f735e93c8e7490bdc43fab31be" class="stair-symbol" points="561,693 558.5,688 563.5,688"/>
     <polygon id="stair-d7bf5ea4a637fc4c06b03503407c6e6780720803" class="stair-symbol" points="46,785 43.5,790 48.5,790"/>
     <polygon id="stair-1d192ddc6b09f482754b698bd50fbeb1ee449004" class="stair-symbol" points="46,785 48.5,788 46,791 43.5,788"/>
     <polygon id="stair-a50e7981cc8b4d170f7416e82090e2db3f2789fd" class="stair-symbol" points="46,791 43.5,786 48.5,786"/>

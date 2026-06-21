@@ -1598,7 +1598,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-ed41ee9d0c749e51e910f4ff897f5d895a28c998" class="room outdoor" data-label="east of the intersection of Wall Street and Cabbage Street" cx="423" cy="306" r="4"/>
     <circle id="room-9cb0415cf9a9a8d7ec6ded77713e0b34a5f3a690" class="room outdoor" data-label="edge of a residential area on Cabbage Street" cx="409" cy="306" r="4"/>
     <circle id="room-c2c4631effeb99845c7b69f279c524512a51bdd1" class="room outdoor" data-label="outside a bar" cx="423" cy="292" r="4"/>
-    <rect id="room-ab0d67469f17c9a460b62e8ae538fce64f957785" class="room indoor room-food" data-label="Tony Robinson&#x27;s Bar" x="429" y="292" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="433" y="296" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-ab0d67469f17c9a460b62e8ae538fce64f957785" class="room indoor room-pub" data-label="Tony Robinson&#x27;s Bar" x="429" y="292" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="433" y="296" text-anchor="middle" dominant-baseline="central">B</text>
     <circle id="room-440b2e02be4e3a39e8961f10c33a6adc5d02c481" class="room outdoor" data-label="somewhere on Cabbage Street" cx="437" cy="278" r="4"/>
     <circle id="room-73103d46e0dc5ad70829a21b12a1a3f6d8691d05" class="room outdoor" data-label="Cabbage Street between large buildings" cx="437" cy="264" r="4"/>
     <circle id="room-b2d1bafdae1c2d63c7bbecbd46a7ed9908179f35" class="room outdoor" data-label="Cabbage Street, just near the junction with Hill Street" cx="451" cy="250" r="4"/>
@@ -1625,7 +1625,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-326449a847b703d051fd8efcc2717087a2de429e" class="room outdoor" data-label="centre of the Royal Market" cx="367" cy="222" r="4"/>
     <circle id="room-2d41a796ed24ba7766028429f41aaf52ee47c0bd" class="room outdoor" data-label="corner of the Royal Market" cx="367" cy="208" r="4"/>
     <rect id="room-696f8044c66df098d3ff3bb186c3ccde196319bd" class="room indoor room-food" data-label="Dog and Duck" x="377" y="198" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="381" y="202" text-anchor="middle" dominant-baseline="central">F</text>
-    <rect id="room-6a6f948d269ff3eac09530ce53df3507e0d357a2" class="room indoor" data-label="private bar of the Dog and Duck" x="377" y="198" width="8" height="8" rx="2"/>
+    <rect id="room-6a6f948d269ff3eac09530ce53df3507e0d357a2" class="room indoor room-pub" data-label="private bar of the Dog and Duck" x="377" y="198" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="381" y="202" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-fbd6c9f45b0ce9d778ec6a9f04c901e120d01db3" class="room indoor" data-label="seedy gambling den" x="377" y="198" width="8" height="8" rx="2"/>
     <circle id="room-5046210619b5631c68e0572b5390bb2e6912cb08" class="room outdoor" data-label="southern side of the Royal Market" cx="367" cy="236" r="4"/>
     <rect id="room-240b03e6d70dcff364f765d42b1b917a5be049f6" class="room indoor room-weapon" data-label="Royal Market smithy" x="363" y="243" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="367" y="247" text-anchor="middle" dominant-baseline="central">W</text>
@@ -1853,7 +1853,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-3c5949d1242e5533f10c4f704931a7ad23f40515" class="room outdoor" data-label="High Street" cx="381" cy="292" r="4"/>
     <circle id="room-ce76c56c9d97c4fd90c599c6fb8c8d166e17e128" class="room outdoor" data-label="High Street" cx="395" cy="292" r="4"/>
     <circle id="room-1c805e0b7c17826798ccc41b57694a7e6a4e9cd1" class="room outdoor" data-label="High Street" cx="409" cy="278" r="4"/>
-    <rect id="room-9920e00df48ac25a0ef2d674d6f57b4f07544731" class="room indoor room-food" data-label="swish tavern" x="405" y="285" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="409" y="289" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-9920e00df48ac25a0ef2d674d6f57b4f07544731" class="room indoor room-tavern" data-label="swish tavern" x="405" y="285" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="409" y="289" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-c117084b488dba821402162839ad882418820032" class="room outdoor" data-label="not quite so busy section of High Street" cx="409" cy="264" r="4"/>
     <circle id="room-d85fde7526314cc2f47de193606f91c64d592add" class="room outdoor" data-label="busy part of High Street" cx="409" cy="250" r="4"/>
     <circle id="room-0a38af5c0159a61a9eb31633659ea8b2134620b5" class="room outdoor" data-label="section of High Street, east of the Royal Market" cx="395" cy="236" r="4"/>

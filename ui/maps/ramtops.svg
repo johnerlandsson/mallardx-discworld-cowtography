@@ -2383,7 +2383,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-06a7e4612d90d5994b31195bda762d94230fb143" class="room indoor" data-label="spotless kitchen" x="1172" y="401" width="8" height="8" rx="2"/>
     <rect id="room-93590e02066662a6c460cc478f4ace9d95f70c35" class="room indoor" data-label="dimly lit cellar" x="1198" y="435" width="8" height="8" rx="2"/>
     <rect id="room-bae2dac76287d6066059fb55a35efba7db122e9b" class="room indoor" data-label="gloomy cellar" x="1198" y="424" width="8" height="8" rx="2"/>
-    <rect id="room-6c16e4e3ce1070b0ea3b70f502dc980d9d78b1a0" class="room indoor room-food" data-label="Thieves&#x27; Guild Bar" x="1219" y="424" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1223" y="428" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-6c16e4e3ce1070b0ea3b70f502dc980d9d78b1a0" class="room indoor room-pub" data-label="Thieves&#x27; Guild Bar" x="1219" y="424" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1223" y="428" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-28200fd302ce4adac70087e2852168d91c0fab65" class="room indoor" data-label="smelly alcove" x="1213" y="414" width="8" height="8" rx="2"/>
     <rect id="room-9aba6b5222fc8c308c8ff71009b68df96d0376d8" class="room indoor" data-label="dingy alcove" x="1225" y="414" width="8" height="8" rx="2"/>
     <rect id="room-9d60257b4eafc40f2036a12fd97a5fcb253510eb" class="room indoor" data-label="smoky alcove" x="1225" y="434" width="8" height="8" rx="2"/>
@@ -2459,7 +2459,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-189a1aadadaebaac39acaa1d5b3244493e1a337c" class="room indoor" data-label="Mrs Deacon&#x27;s Ladies and Gents Hairdressing" x="1308" y="655" width="8" height="8" rx="2"/>
     <rect id="room-811385b8db977d75377bf67c965e4f7557a92195" class="room indoor" data-label="entrance to the Goat &amp; Bush" x="1336" y="655" width="8" height="8" rx="2"/>
     <rect id="room-8a1ad6aa7f18ddb96c72e2e7d3c3ae4fab3d05e5" class="room indoor room-food" data-label="Goat and Bush" x="1336" y="665" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1340" y="669" text-anchor="middle" dominant-baseline="central">F</text>
-    <rect id="room-6542807ab7d7de7a305541911fc1255f108b538a" class="room indoor" data-label="balcony overlooking the bar" x="1326" y="675" width="8" height="8" rx="2"/>
+    <rect id="room-6542807ab7d7de7a305541911fc1255f108b538a" class="room indoor room-pub" data-label="balcony overlooking the bar" x="1326" y="675" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1330" y="679" text-anchor="middle" dominant-baseline="central">B</text>
     <circle id="room-6c5be0a1555be9cd2ad8736c18fdb42438d3d82d" class="room outdoor" data-label="track into Lancre Town" cx="1351" cy="673" r="4"/>
     <circle id="room-562ceed772fb585122658722d998ec90bbbf75be" class="room outdoor" data-label="intersection of the Kings Road and Dancers Lane" cx="1413" cy="339" r="4"/>
     <circle id="room-bcd8d86892687f049f5287e12f22261224ac045f" class="room outdoor" data-label="beside a creek" cx="1382" cy="353" r="4"/>
@@ -2506,7 +2506,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-25287acd9f20859194151e8267d20a7490feb9dd" class="room indoor" data-label="entrance hall of Cutangle Inn" x="1279" y="125" width="8" height="8" rx="2"/>
     <rect id="room-98c71396bacbe252751d9569f287cc8991b0db50" class="room indoor room-post" data-label="post room" x="1279" y="136" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1283" y="140" text-anchor="middle" dominant-baseline="central">O</text>
     <rect id="room-1f8abb8df52306f1043cd74f9247cdbcc2e8bf05" class="room indoor room-food" data-label="lounge of Cutangle Inn" x="1279" y="115" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1283" y="119" text-anchor="middle" dominant-baseline="central">F</text>
-    <rect id="room-8c547460b65eeadf52a35b41363819afc0defe9e" class="room indoor room-food" data-label="restaurant of Cutangle Inn" x="1289" y="115" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1293" y="119" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-8c547460b65eeadf52a35b41363819afc0defe9e" class="room indoor room-tavern" data-label="restaurant of Cutangle Inn" x="1289" y="115" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1293" y="119" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-30f25f86bdadf26bace7a5cd3ccafc72e9bd4c3c" class="room outdoor" data-label="precarious pass through the mountains" cx="1243" cy="157" r="4"/>
     <circle id="room-8be4fd0085a3d0de1cc574adb39dc1646f24f3b8" class="room outdoor" data-label="trail through Leaping Mountain" cx="1243" cy="171" r="4"/>
     <circle id="room-eb48f1ca1e724d0ac2e768d1063cf7fdec208697" class="room outdoor" data-label="pleasant village lane in Bad Ass" cx="1437" cy="210" r="4"/>
@@ -2669,7 +2669,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-32101839a2fe06a3e807cb3d7b4ce11d356d761f" class="room outdoor" data-label="just northeast of the village green" cx="1783" cy="365" r="4"/>
     <rect id="room-a463dba36df1acde073d19f102ddb399d68dfeb1" class="room indoor" data-label="thatched cottage" x="1790" y="372" width="8" height="8" rx="2"/>
     <circle id="room-5afe026fff3261d8b88de4e57ef0f0d837f0d8ab" class="room outdoor" data-label="outside the inn in Razorback" cx="1797" cy="351" r="4"/>
-    <rect id="room-285c4cda5b92cb8461d5b7b934495fc8c8d4383a" class="room indoor room-food" data-label="bar in the inn" x="1804" y="358" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1808" y="362" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-285c4cda5b92cb8461d5b7b934495fc8c8d4383a" class="room indoor room-pub" data-label="bar in the inn" x="1804" y="358" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1808" y="362" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-dd63141d2343f70e2be4b0f6bf60523c8b115941" class="room indoor" data-label="kitchen" x="1817" y="360" width="8" height="8" rx="2"/>
     <rect id="room-0581a02af493052bf626aa8aaca0527712c7c787" class="room indoor" data-label="storeroom" x="1817" y="370" width="8" height="8" rx="2"/>
     <rect id="room-71c2d51bc6def7ed2fe05fa9fce15fdd9de689d2" class="room indoor" data-label="landing" x="1814" y="345" width="8" height="8" rx="2"/>
@@ -2729,7 +2729,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-502b321a749e16b01bac7f7f215af8f4985d35c3" class="room indoor" data-label="rugby foyer" x="1409" y="321" width="8" height="8" rx="2"/>
     <rect id="room-91a6e815c550a262e99f0d8ea944a6189bbb85c2" class="room indoor" data-label="west locker room" x="1409" y="321" width="8" height="8" rx="2"/>
     <rect id="room-8b39bff637c2cc139b486b50435f0fb771abcc05" class="room indoor" data-label="east locker room" x="1409" y="321" width="8" height="8" rx="2"/>
-    <rect id="room-67c294ac327e76c04bf9ee5ca0671e1cb92605cf" class="room indoor" data-label="rugby sports bar" x="1409" y="321" width="8" height="8" rx="2"/>
+    <rect id="room-67c294ac327e76c04bf9ee5ca0671e1cb92605cf" class="room indoor room-pub" data-label="rugby sports bar" x="1409" y="321" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1413" y="325" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-0000bc13d1dbeac102806a75136ced453bf36df8" class="room indoor" data-label="rugby morgue" x="1409" y="321" width="8" height="8" rx="2"/>
     <circle id="room-b7dfae7d73a552ffbaac553aa228514ac8ac636b" class="room outdoor" data-label="Kings road" cx="1382" cy="339" r="4"/>
     <circle id="room-ae28089c61b66ff2a1d69129a94aa8634bbf9ab3" class="room outdoor" data-label="intersection of the Kings and Bad Ass roads" cx="1363" cy="328" r="4"/>
@@ -2859,7 +2859,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-c69f1a81781d21ca5d0294568275c636cc455203" class="room outdoor" data-label="path running alongside a palisade" cx="353" cy="165" r="4"/>
     <circle id="room-6bb265811f42da073e027dcea87c282ed35964a7" class="room outdoor" data-label="path running alongside a palisade" cx="375" cy="143" r="4"/>
     <circle id="room-8866bb50bac6cc1a209ad47ad196918363331c34" class="room outdoor" data-label="path running alongside a palisade" cx="375" cy="129" r="4"/>
-    <rect id="room-db92a6c7360621af0a971a83908f967ef925ef76" class="room indoor room-food" data-label="Fiddler&#x27;s Riddle Tavern" x="778" y="205" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="782" y="209" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-db92a6c7360621af0a971a83908f967ef925ef76" class="room indoor room-tavern" data-label="Fiddler&#x27;s Riddle Tavern" x="778" y="205" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="782" y="209" text-anchor="middle" dominant-baseline="central">V</text>
     <rect id="room-f69d9e7245c127df92b555cb9618d5337ed18712" class="room indoor" data-label="landing of the Fiddler&#x27;s Riddle" x="778" y="205" width="8" height="8" rx="2"/>
     <rect id="room-3b4a2782bb060d64d78c2ef7794d7db0f482545c" class="room indoor" data-label="room in the inn" x="778" y="205" width="8" height="8" rx="2"/>
     <rect id="room-73394deb20a3c3bdbcdf279ee45ba8383e2406d7" class="room indoor" data-label="room in the inn" x="778" y="205" width="8" height="8" rx="2"/>
@@ -3173,7 +3173,6 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <polygon id="stair-625d44081a6d1ee67f47503631892e3e41c4ca02" class="stair-symbol" points="1116,291 1113.5,286 1118.5,286"/>
     <polygon id="stair-22887debdf68cc50c482145ff7d4431e2ae05fb8" class="stair-symbol" points="1116,285 1113.5,290 1118.5,290"/>
     <polygon id="stair-502b321a749e16b01bac7f7f215af8f4985d35c3" class="stair-symbol" points="1413,322 1415.5,325 1413,328 1410.5,325"/>
-    <polygon id="stair-67c294ac327e76c04bf9ee5ca0671e1cb92605cf" class="stair-symbol" points="1413,328 1410.5,323 1415.5,323"/>
     <polygon id="stair-0000bc13d1dbeac102806a75136ced453bf36df8" class="stair-symbol" points="1413,322 1410.5,327 1415.5,327"/>
     <polygon id="stair-be7ad5f9229bfb89537c0a70b193da74319056e8" class="stair-symbol" points="1916,159 1913.5,164 1918.5,164"/>
     <polygon id="stair-53a4fcd6fb837946097f1257b3d1e88917af0492" class="stair-symbol" points="1929,146 1931.5,149 1929,152 1926.5,149"/>

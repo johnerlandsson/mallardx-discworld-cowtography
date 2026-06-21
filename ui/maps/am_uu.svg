@@ -805,8 +805,8 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-c497d4b6679fb07e67805bb2b54a052a65fbc061" class="room indoor" data-label="Tower of Art" x="243" y="446" width="8" height="8" rx="2"/>
     <circle id="room-ef3e69ab2d67affe57d4bb1df9ff018bc0fb0675" class="room outdoor" data-label="Tower of Art Roof" cx="275" cy="449" r="4"/>
     <rect id="room-f4e6163c80f37ba377a3527268b0ef703da086f6" class="room indoor" data-label="office of the Senior Wizard of the Ancient and Truly Original Sages of the Unbroken Circle" x="881" y="27" width="8" height="8" rx="2"/>
-    <rect id="room-2d7f00805acf4e4d9efd98b8b97387c1d7a8007e" class="room indoor room-food" data-label="Lounge House Cafe" x="1043" y="97" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1047" y="101" text-anchor="middle" dominant-baseline="central">F</text>
-    <circle id="room-176ca1ba076c2d3cc5c3038fc5846370f5e0f665" class="room outdoor" data-label="posh outdoor bar" cx="1047" cy="101" r="4"/>
+    <rect id="room-2d7f00805acf4e4d9efd98b8b97387c1d7a8007e" class="room indoor room-tavern" data-label="Lounge House Cafe" x="1043" y="97" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1047" y="101" text-anchor="middle" dominant-baseline="central">V</text>
+    <circle id="room-176ca1ba076c2d3cc5c3038fc5846370f5e0f665" class="room outdoor room-pub" data-label="posh outdoor bar" cx="1047" cy="101" r="4"/><text class="room-type-label" font-size="4.5" x="1047" y="101" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-a9ca57d39b304fe388a9674ca3eaaf53089c87c9" class="room indoor" data-label="initiation classroom" x="853" y="139" width="8" height="8" rx="2"/>
     <circle id="room-efdcd9c60925712ca8c6feb24e23fb64f8b3857b" class="room outdoor green" data-label="octangle" cx="275" cy="393" r="4"/>
     <circle id="room-d13059580c4af9f874ed8d832d1b347cdf962855" class="room outdoor green" data-label="octangle" cx="303" cy="365" r="4"/>

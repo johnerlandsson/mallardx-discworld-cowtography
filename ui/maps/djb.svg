@@ -2496,7 +2496,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-c4a83568847ea647ac1c8c0e9b1902a75ba9fde8" class="room indoor" data-label="corridor" x="786" y="174" width="8" height="8" rx="2"/>
     <rect id="room-315be737f8676ba7f88e07f533363220b7b42a7d" class="room indoor" data-label="duty room" x="776" y="174" width="8" height="8" rx="2"/>
     <rect id="room-f5390582884cc1def3c60a7250c36f9f6fbc81b6" class="room indoor" data-label="bottom of a staircase" x="796" y="174" width="8" height="8" rx="2"/>
-    <rect id="room-5d70a146a4030594bc108f71f9d8fc78f6fabf2a" class="room indoor room-food" data-label="Djelian Champion bar" x="806" y="164" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="810" y="168" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-5d70a146a4030594bc108f71f9d8fc78f6fabf2a" class="room indoor room-pub" data-label="Djelian Champion bar" x="806" y="164" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="810" y="168" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-78ddf153482b6003e43388618e8f93564f1df1ff" class="room indoor" data-label="corridor" x="786" y="154" width="8" height="8" rx="2"/>
     <rect id="room-780b00a39490812ccfe170095fb62fa6f906c729" class="room indoor room-weapon" data-label="guild forge" x="786" y="144" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="790" y="148" text-anchor="middle" dominant-baseline="central">W</text>
     <rect id="room-e411366f3ff9c84b9cbb7ad75937b8f8aa562552" class="room indoor" data-label="Djelian Guard smithy" x="796" y="144" width="8" height="8" rx="2"/>
@@ -2515,7 +2515,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-362a2273e5dc4d7e8924ac9863df20e4127b52d6" class="room indoor" data-label="moneychangers" x="487" y="89" width="8" height="8" rx="2"/>
     <circle id="room-4e14f1dbd9096efce2e031238e46cadff16c5667" class="room outdoor" data-label="elegant room" cx="491" cy="68" r="4"/>
     <rect id="room-33b46982cbeb0788966691490f2d7c9fb14cf908" class="room indoor" data-label="steam room" x="512" y="64" width="8" height="8" rx="2"/>
-    <rect id="room-d36a16c6d4d0ccabd5dc5b0f4346060c32f11486" class="room indoor room-food" data-label="simple taverna" x="487" y="39" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="491" y="43" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-d36a16c6d4d0ccabd5dc5b0f4346060c32f11486" class="room indoor room-tavern" data-label="simple taverna" x="487" y="39" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="491" y="43" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-45161a2123e7d955d721c307e5306e7699ca0e2b" class="room outdoor" data-label="Road of the Sun" cx="494" cy="243" r="4"/>
     <circle id="room-cc5785f2afd92717120b426c8babdb3c245b3e77" class="room outdoor" data-label="Road of the Sun" cx="508" cy="229" r="4"/>
     <circle id="room-40e1e8673c08444a57cb35000caff725585911b2" class="room outdoor" data-label="intersection of the Road of the Sun and Ibis Parade" cx="522" cy="229" r="4"/>
@@ -2605,7 +2605,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-84920cd5bc592a44770dd4a0e8b4cae79bf39a9d" class="room indoor" data-label="receptionist&#x27;s reception room of the Foreign Ambassadors&#x27; Reception" x="190" y="220" width="8" height="8" rx="2"/>
     <rect id="room-1e3fc20da69b4b4c84a2f80e1dfadf6c9a24dee5" class="room indoor" data-label="function room in the Foreign Ambassadors&#x27; Reception" x="190" y="210" width="8" height="8" rx="2"/>
     <rect id="room-38346cf8c124d660090ae04946d871769c275ae8" class="room indoor" data-label="kitchen of the Foreign Ambassadors&#x27; Reception" x="200" y="210" width="8" height="8" rx="2"/>
-    <rect id="room-36ff2301638896fa8b5593ba88756814b9f9e750" class="room indoor room-food" data-label="High-Life Bar in the Foreign Ambassadors&#x27; Reception" x="190" y="230" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="194" y="234" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-36ff2301638896fa8b5593ba88756814b9f9e750" class="room indoor room-pub" data-label="High-Life Bar in the Foreign Ambassadors&#x27; Reception" x="190" y="230" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="194" y="234" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-97d76776c9ea59801eeb274a32b7aa36587a0567" class="room indoor room-shop" data-label="smoky little shop in the Foreign Ambassadors&#x27; Reception" x="200" y="230" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="204" y="234" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-7b09e78f281d3c4b443e98aef58986913b0f3448" class="room outdoor" data-label="Avenue of the Pharaohs south of the Square of the Ancestors" cx="438" cy="285" r="4"/>
     <circle id="room-ccf3fbd1c2d5788b03d69d0fc796e277fd294e37" class="room outdoor" data-label="end of Tsort Road at the Square of the Ancestors" cx="396" cy="257" r="4"/>
@@ -2645,7 +2645,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-fa61d1140a9e240e7fb99af296f999959ef4d488" class="room outdoor" data-label="intersection of Tsort Road, Market Street and the Road of the Moon" cx="270" cy="383" r="4"/>
     <circle id="room-cd08b04e2e2b17d97d52c5c1496c7b62746dcf18" class="room outdoor" data-label="Ur Gate" cx="256" cy="383" r="4"/>
     <circle id="room-a4156c24ace847cff921c7b0025f737058e4c100" class="room outdoor" data-label="Road of the Moon south of the Ur Gate" cx="270" cy="397" r="4"/>
-    <rect id="room-4c4c682ac790394a862b33e160da4dfeef983c67" class="room indoor room-food" data-label="Sphinx Plucker Bar" x="277" y="393" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="281" y="397" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-4c4c682ac790394a862b33e160da4dfeef983c67" class="room indoor room-pub" data-label="Sphinx Plucker Bar" x="277" y="393" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="281" y="397" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-ea8e510615d77c79aaa9af56d7ff50dc729a4dec" class="room indoor" data-label="Sphinx Plucker lounge" x="277" y="393" width="8" height="8" rx="2"/>
     <circle id="room-200512f97ef0fd1d0050930b3180cae86c47297f" class="room outdoor" data-label="Road of the Moon" cx="270" cy="411" r="4"/>
     <circle id="room-30b51eca7fd0c0760efd163c72b5a62f84215c4e" class="room outdoor" data-label="Road of the Moon" cx="284" cy="425" r="4"/>
@@ -2739,7 +2739,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-eca2a9f2e99a92d81f525f7377d47ecdcdc18fa4" class="room outdoor" data-label="middle of Sleepers" cx="564" cy="439" r="4"/>
     <rect id="room-557c7c4398ae81084a1efc64f4e9a13304154c34" class="room indoor room-shop" data-label="nomadic equipment shop" x="560" y="432" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="564" y="436" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-a05cd5bc4e06d94421cb66a937128d8a9998de82" class="room outdoor" data-label="east end of Sleepers" cx="578" cy="439" r="4"/>
-    <rect id="room-2d59b6ea5375862a75fbe094fb6f9c353acdea9f" class="room indoor room-food" data-label="Sleepers Cafe" x="574" y="424" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="578" y="428" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-2d59b6ea5375862a75fbe094fb6f9c353acdea9f" class="room indoor room-tavern" data-label="Sleepers Cafe" x="574" y="424" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="578" y="428" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-a98ba23f065024730348ae8f6a6a0279989b662c" class="room outdoor" data-label="Garlic Street outside a shop" cx="522" cy="425" r="4"/>
     <rect id="room-84004b15868332bdcf0b5db728fba2cb6455b6c4" class="room indoor room-shop" data-label="hourglass shop" x="528" y="431" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="532" y="435" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-887c346221fdd3da3415a3e7e2ba5ddfd802c283" class="room outdoor" data-label="Garlic Street outside the garlic shop" cx="508" cy="425" r="4"/>
@@ -2838,7 +2838,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-d0cfd394cc931a5ca493488c37cc11da1d56516f" class="room indoor" data-label="entrance hall to the temple of Sek" x="162" y="269" width="8" height="8" rx="2"/>
     <rect id="room-832a2f89921d91994fb6da9c0903682f33c91f54" class="room indoor" data-label="entrance hall to the temple of Sek" x="162" y="280" width="8" height="8" rx="2"/>
     <rect id="room-f824967f111e1e0489a760f5c33bd7be9a397842" class="room indoor" data-label="entrance hall to the temple of Sek" x="151" y="280" width="8" height="8" rx="2"/>
-    <rect id="room-84e87edfa599735924bcd486745cfc7cced7bcc2" class="room indoor room-food" data-label="bar in the temple of Sek" x="140" y="291" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="144" y="295" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-84e87edfa599735924bcd486745cfc7cced7bcc2" class="room indoor room-pub" data-label="bar in the temple of Sek" x="140" y="291" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="144" y="295" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-2e515545594d7d5ef9628b014456dee77835ccfa" class="room indoor" data-label="narrow passageway" x="162" y="291" width="8" height="8" rx="2"/>
     <rect id="room-46cd5851d3e61e991dcb2f91b27e667d41192e7e" class="room indoor" data-label="narrow passageway" x="151" y="291" width="8" height="8" rx="2"/>
     <rect id="room-169c273c18975a623e9a62349d1f811173f0d383" class="room indoor room-shop" data-label="temple shop" x="140" y="302" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="144" y="306" text-anchor="middle" dominant-baseline="central">S</text>
@@ -2926,7 +2926,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-3e2a69cf94d0e548d51fe3fb68ca6160d89d2e58" class="room outdoor green" data-label="east side of the park" cx="494" cy="439" r="4"/>
     <circle id="room-b5cc13fe41435c2ac73fc44f7489590024d8bda7" class="room outdoor green" data-label="east side of the park" cx="508" cy="439" r="4"/>
     <circle id="room-e3ed5fd64ceec5854fb7427d5a9fe7057990e662" class="room outdoor green" data-label="east side of the park" cx="508" cy="453" r="4"/>
-    <rect id="room-120b3b50e9d04c58695f07d9106e4d6109fc5b11" class="room indoor room-food green" data-label="Pharaoh&#x27;s Park Cafe" x="504" y="460" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="508" y="464" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-120b3b50e9d04c58695f07d9106e4d6109fc5b11" class="room indoor room-tavern green" data-label="Pharaoh&#x27;s Park Cafe" x="504" y="460" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="508" y="464" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-dde7a7db9cabf8392d0d8a3ed67e5d916ef506ea" class="room outdoor green" data-label="east side of the park" cx="522" cy="453" r="4"/>
     <circle id="room-d5da94ccdef71f22f9f723f99ce8692409b89d20" class="room outdoor green" data-label="southeast corner of the park" cx="522" cy="467" r="4"/>
     <circle id="room-b794161b6cf0020e87b1ae767b6e17f3ae466f92" class="room outdoor green" data-label="southeast corner of the park" cx="522" cy="481" r="4"/>
@@ -2940,7 +2940,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-3c04c35499d4c9a7537c36688467c42df93e14eb" class="room indoor room-shop" data-label="tobacconist" x="345" y="565" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="349" y="569" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-2c0330275b6fe8f2ceac68a28435f3f9fde63cc5" class="room indoor" data-label="Fez Club" x="333" y="553" width="8" height="8" rx="2"/>
     <rect id="room-2b91ca55314f5114bfc6873dec672b2e0e6b518f" class="room indoor" data-label="seating area near the dance floor" x="321" y="553" width="8" height="8" rx="2"/>
-    <rect id="room-50f4942833f7fbe77b29742187afe90c99d6dd12" class="room indoor room-food" data-label="bar in the Fez Club" x="333" y="565" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="337" y="569" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-50f4942833f7fbe77b29742187afe90c99d6dd12" class="room indoor room-pub" data-label="bar in the Fez Club" x="333" y="565" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="337" y="569" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-7cd38e60f16a0c7b4cbd0fc13bfcdffc87f95d59" class="room indoor" data-label="dance floor in the Fez Club" x="321" y="565" width="8" height="8" rx="2"/>
     <rect id="room-0f6001bc21ee70479938818ed824a40b39a05988" class="room indoor" data-label="upper floor of the Fez Club" x="311" y="565" width="8" height="8" rx="2"/>
     <rect id="room-aee8ec62326401790e9dbe1414a7341ddaa1416b" class="room indoor" data-label="in the Fez Club" x="311" y="553" width="8" height="8" rx="2"/>
@@ -3131,7 +3131,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-70f584318b304ee7b32f573035a880b4b46065f1" class="room outdoor" data-label="Djelibeybi road" cx="438" cy="563" r="4"/>
     <rect id="room-e2ca6a268d412a9517bdce91509670482d712bd8" class="room indoor" data-label="inner den" x="144" y="175" width="8" height="8" rx="2"/>
     <rect id="room-62075d5ffbdea09536c75c8d93c3e8a9f1a3c03d" class="room indoor" data-label="strange hideout in the hood" x="130" y="221" width="8" height="8" rx="2"/>
-    <rect id="room-a63361c31a40aa38d79ce0442539ecf21108b9e9" class="room indoor room-shop" data-label="tenebrous pub in the Hood" x="119" y="196" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="123" y="200" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-a63361c31a40aa38d79ce0442539ecf21108b9e9" class="room indoor room-pub" data-label="tenebrous pub in the Hood" x="119" y="196" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="123" y="200" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-279d74853f074b0259a9a8bcd31a66d269d1fc58" class="room indoor room-weapon" data-label="shop in the Hood" x="155" y="196" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="159" y="200" text-anchor="middle" dominant-baseline="central">W</text>
     <rect id="room-7f4e8648c097b6c2e2d9f5068379e8ae865fe05f" class="room indoor" data-label="mysterious shrine" x="382" y="336" width="8" height="8" rx="2"/>
     <circle id="room-d393ae224af7ab346aec3699dc1ae15ee387303e" class="room outdoor" data-label="somewhere in the necropolis" cx="207" cy="85" r="4"/>

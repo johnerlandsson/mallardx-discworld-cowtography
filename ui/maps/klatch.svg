@@ -1451,7 +1451,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-997cda132917daef79d5330e14b837408b76dfbb" class="room outdoor green" data-label="middle of the Oasis" cx="649" cy="1039" r="4"/>
     <circle id="room-d16eb303a48474a47976038ea90c6ffd531ec975" class="room outdoor green" data-label="middle of the Oasis" cx="635" cy="1039" r="4"/>
     <circle id="room-67a501bc451ad97c04ae3d2592110ea7caedd5ff" class="room outdoor green" data-label="middle of the Oasis" cx="621" cy="1039" r="4"/>
-    <rect id="room-c22bf54e53c550126be6e17bef4a8282b62c5d29" class="room indoor room-shop" data-label="bread and water cafeteria" x="602" y="1140" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="606" y="1144" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-c22bf54e53c550126be6e17bef4a8282b62c5d29" class="room indoor room-tavern" data-label="bread and water cafeteria" x="602" y="1140" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="606" y="1144" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-3d1583af23c0b75cd858d6646cd297c6d89c8619" class="room outdoor green" data-label="northwestern corner of the Oasis" cx="607" cy="1039" r="4"/>
     <circle id="room-f0a99e7fee259897cf0697772e5bde89bbb9ba8a" class="room outdoor green" data-label="northwestern corner of the Oasis" cx="607" cy="1025" r="4"/>
     <circle id="room-c06a03e5dc918472f987bfc2c84766be6dc229a2" class="room outdoor green" data-label="northwestern corner of the Oasis" cx="621" cy="1025" r="4"/>
@@ -1488,7 +1488,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-c00828ab0397d805fdd3902ab5901f398d970a91" class="room outdoor" data-label="southern end of the jetty" cx="1163" cy="1138" r="4"/>
     <circle id="room-ce97c9d639febc0d32ce9bfa4af4599fe2ea9879" class="room outdoor" data-label="northern end of the jetty" cx="1163" cy="1124" r="4"/>
     <circle id="room-6edd42f9409011bca3148b176b31e9845a046034" class="room outdoor" data-label="eastern side of Il Drim" cx="1177" cy="1152" r="4"/>
-    <rect id="room-43ddb9301990034dd9fab481aaf28b52993cb49b" class="room indoor room-food" data-label="Il Drim tavern" x="1184" y="1148" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1188" y="1152" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-43ddb9301990034dd9fab481aaf28b52993cb49b" class="room indoor room-tavern" data-label="Il Drim tavern" x="1184" y="1148" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1188" y="1152" text-anchor="middle" dominant-baseline="central">V</text>
     <rect id="room-fcf325708801cb46f938907b80662f0e29f5695d" class="room indoor room-access" data-label="Il Drim general store" x="1173" y="1159" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1177" y="1163" text-anchor="middle" dominant-baseline="central">X</text>
     <circle id="room-460fb3a7ddaf37c71dbe627fba4b8dc212ac6ef0" class="room outdoor" data-label="southern side of Il Drim" cx="1163" cy="1166" r="4"/>
     <circle id="room-4e5fe24b33f83ddf204e197a46c735f4285fc4ca" class="room outdoor" data-label="Klatch Road" cx="1163" cy="1180" r="4"/>

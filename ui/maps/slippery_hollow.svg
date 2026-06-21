@@ -455,7 +455,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-cd4ebbd7d683953b667ff5f58db04e12d9e0287a" class="room outdoor" data-label="village road" cx="243" cy="81" r="4"/>
     <rect id="room-bbd6280657022446f10f291ab4e90d3866c044dc" class="room indoor" data-label="small cottage" x="228" y="77" width="8" height="8" rx="2"/>
     <circle id="room-bf5d27b94a695d02ce6b19a4083cf9989c75c18b" class="room outdoor" data-label="northeast corner of Van Dryver Place" cx="229" cy="95" r="4"/>
-    <rect id="room-658dd353a9dd0f5cbdd88e7ff270f3c32c418ac2" class="room indoor room-food" data-label="bar in the Moon Under Water" x="236" y="91" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="240" y="95" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-658dd353a9dd0f5cbdd88e7ff270f3c32c418ac2" class="room indoor room-pub" data-label="bar in the Moon Under Water" x="236" y="91" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="240" y="95" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-d81899079df4be4747c4b9242823561874558734" class="room indoor" data-label="side room in the Moon Under Water" x="236" y="91" width="8" height="8" rx="2"/>
     <rect id="room-bec31afe1d067706d113430d6a2381340b066725" class="room indoor" data-label="seating area in the Moon Under Water" x="236" y="91" width="8" height="8" rx="2"/>
     <circle id="room-f6a1164b1ed3e4f89d3875a6cb8df7e7cb3f5e4f" class="room outdoor" data-label="northwest corner of Van Dryver Place" cx="215" cy="95" r="4"/>

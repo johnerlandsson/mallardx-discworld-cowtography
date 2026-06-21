@@ -1487,7 +1487,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-f449a64b244d36873e57250e414d7f14914c383d" class="room indoor" data-label="corridor" x="94" y="121" width="8" height="8" rx="2"/>
     <rect id="room-06a675cebf41c62d72eaca3e9aecf5b1768c2458" class="room indoor" data-label="voting foyer" x="94" y="96" width="8" height="8" rx="2"/>
     <rect id="room-56e64b57ad52d38d683fadbe2295e540d6a3600e" class="room indoor" data-label="voting booth" x="94" y="96" width="8" height="8" rx="2"/>
-    <rect id="room-902a225ed35731454e1b7b374ec808f27b258bb8" class="room indoor room-food" data-label="Council Cafe" x="119" y="121" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="123" y="125" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-902a225ed35731454e1b7b374ec808f27b258bb8" class="room indoor room-tavern" data-label="Council Cafe" x="119" y="121" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="123" y="125" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-0e593a9bd77a2fcf8ba4b802216b2a5084cdeb2e" class="room outdoor" data-label="garden outside Milords and Miladies Pavilion" cx="488" cy="90" r="4"/>
     <rect id="room-4bdcf399913a4a773d299cee7b4a95300dbd76b9" class="room indoor" data-label="Grand Hall of Milords &amp; Miladies" x="484" y="112" width="8" height="8" rx="2"/>
     <rect id="room-6f2efdc2039123bb50035a9201854a8c51bf7f88" class="room indoor" data-label="Benevolent Registry" x="509" y="112" width="8" height="8" rx="2"/>
@@ -1532,7 +1532,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-3ea8f0b57f705c413ab25c5b5617acd6451174ac" class="room indoor" data-label="small room" x="643" y="427" width="8" height="8" rx="2"/>
     <rect id="room-cce108f99eabf38e6fa89c1e452e655a3e54e890" class="room indoor" data-label="Hall of Heroes" x="667" y="427" width="8" height="8" rx="2"/>
     <rect id="room-9e55428959220c32faad949ff73d7c5e1e576c5e" class="room indoor" data-label="main hall" x="695" y="403" width="8" height="8" rx="2"/>
-    <rect id="room-403f0e53b1cf9c15d9c3b98eb6dfcfe40d12a0ca" class="room indoor room-food" data-label="Apex Club bar" x="695" y="428" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="699" y="432" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-403f0e53b1cf9c15d9c3b98eb6dfcfe40d12a0ca" class="room indoor room-pub" data-label="Apex Club bar" x="695" y="428" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="699" y="432" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-6f4ced9fa684736eac3454cefa03f0a103b3459e" class="room indoor" data-label="dining room" x="719" y="428" width="8" height="8" rx="2"/>
     <rect id="room-cbf0f126972af2d1584d300ae1069ddd8e9521ab" class="room indoor" data-label="bottom of a staircase" x="743" y="428" width="8" height="8" rx="2"/>
     <rect id="room-e8223eb398a588e2eaa027b49682c09f3ab560b2" class="room indoor" data-label="first floor landing" x="743" y="403" width="8" height="8" rx="2"/>
@@ -1612,7 +1612,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-214ded505a466850f7f0f55fc3eef19f5797043c" class="room indoor" data-label="family control room" x="128" y="349" width="8" height="8" rx="2"/>
     <rect id="room-02a522b5374e994eb554347697af75a8a3d0b391" class="room indoor" data-label="club control room" x="104" y="349" width="8" height="8" rx="2"/>
     <rect id="room-1720f64c8fd19126b9f3e011c008ce3e3c5ccb0c" class="room indoor" data-label="entrance to the Mended Drum" x="1242" y="114" width="8" height="8" rx="2"/>
-    <rect id="room-964ea3c5f971d538232e683612cd41900c232bdd" class="room indoor room-food" data-label="bar of the Mended Drum" x="1242" y="86" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1246" y="90" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-964ea3c5f971d538232e683612cd41900c232bdd" class="room indoor room-pub" data-label="bar of the Mended Drum" x="1242" y="86" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1246" y="90" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-801621fc9307a20a40cb01f59c9f97590d685ad5" class="room indoor" data-label="western part of the Mended Drum" x="1213" y="86" width="8" height="8" rx="2"/>
     <circle id="room-b19063057a9d15e84d4ca055e7aa17b321299339" class="room outdoor" data-label="outside the Drum&#x27;s back door" cx="1217" cy="64" r="4"/>
     <rect id="room-c5089ada29acbbdf794fbe5d743211965e4baa6b" class="room indoor" data-label="toilets of the Mended Drum" x="1242" y="62" width="8" height="8" rx="2"/>

@@ -353,7 +353,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-f6df7499b0ee6bb5b53ee00ea99ebd9be5d42810" class="room indoor" data-label="austere office" x="105" y="80" width="8" height="8" rx="2"/>
     <circle id="room-63a13d446ffacb7b371b33f2cc3e0d84168e5472" class="room outdoor" data-label="pond" cx="137" cy="56" r="4"/>
     <circle id="room-7a7e5165de645619823945305a746e2060cf74de" class="room outdoor" data-label="secluded garden" cx="165" cy="56" r="4"/>
-    <rect id="room-4486b24883dfe025f680ec62104f63173997b518" class="room indoor" data-label="restaurant" x="133" y="80" width="8" height="8" rx="2"/>
+    <rect id="room-4486b24883dfe025f680ec62104f63173997b518" class="room indoor room-tavern" data-label="restaurant" x="133" y="80" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="137" y="84" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-9237c4acfa66262e1621b9e3c558181a5e1c7ba5" class="room outdoor" data-label="productive garden" cx="165" cy="84" r="4"/>
     <rect id="room-f1792cf84ac0f717bed27256701ae38e398e0a55" class="room indoor" data-label="corridor" x="189" y="80" width="8" height="8" rx="2"/>
     <rect id="room-e991b8015cbc0a23a37f5d4e2105ee408505cd0b" class="room indoor" data-label="tea room" x="189" y="52" width="8" height="8" rx="2"/>

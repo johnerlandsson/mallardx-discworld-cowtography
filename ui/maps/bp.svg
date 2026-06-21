@@ -4723,13 +4723,13 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-7cbe3660d374d7473b67aef9cc55a40452a546cb" class="room outdoor" data-label="southern part of Long Street, south of a junction" cx="860" cy="720" r="4"/>
     <circle id="room-46fc4a3ad487bf24b96176409c5013f24079f524" class="room outdoor" data-label="southern end of Long Street" cx="860" cy="734" r="4"/>
     <circle id="room-7f2a74e0b32ec74523e4f22acdfa0488129dc05c" class="room outdoor" data-label="southern end of Long Street" cx="874" cy="748" r="4"/>
-    <rect id="room-dca670468fe4dda769953f350c9c587c3fcda9fd" class="room indoor room-food" data-label="Flying Buffalo Pub" x="870" y="755" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="874" y="759" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-dca670468fe4dda769953f350c9c587c3fcda9fd" class="room indoor room-pub" data-label="Flying Buffalo Pub" x="870" y="755" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="874" y="759" text-anchor="middle" dominant-baseline="central">B</text>
     <circle id="room-3eb720ea87843e021c2b098c2bf2e46032b21ecb" class="room outdoor" data-label="south end of Serpentine Way" cx="888" cy="720" r="4"/>
     <circle id="room-abde5d78da920167191f2fbf12e8a9afa4987f8c" class="room outdoor" data-label="west end of Tuna Walk" cx="888" cy="734" r="4"/>
     <circle id="room-b88f9c7dd803ae2fac5490300680c1cd64051484" class="room outdoor" data-label="public fishing area of Tuna Walk" cx="902" cy="748" r="4"/>
     <rect id="room-1f9ef540321d1fc8cd143d36be1a019fb30c10aa" class="room indoor room-shop" data-label="Harbourside Fishing Supplies" x="898" y="730" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="902" y="734" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-d8b9181d179b9fe3c95b081386f1165bec19eef0" class="room indoor room-shop" data-label="The Lobster Pot" x="908" y="730" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="912" y="734" text-anchor="middle" dominant-baseline="central">S</text>
-    <rect id="room-7943140d428d73b6617ba16a355cf318f16801aa" class="room indoor" data-label="restaurant cellar" x="908" y="730" width="8" height="8" rx="2"/>
+    <rect id="room-7943140d428d73b6617ba16a355cf318f16801aa" class="room indoor room-tavern" data-label="restaurant cellar" x="908" y="730" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="912" y="734" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-c9379b83c713aa098f4874a7e34bdb65e74bbd29" class="room outdoor" data-label="public fishing area of Tuna Walk" cx="916" cy="748" r="4"/>
     <circle id="room-f81e3f3c824d06d697c8e0f0074c91ccfb74f348" class="room outdoor" data-label="public fishing area of Tuna Walk" cx="930" cy="734" r="4"/>
     <circle id="room-096061ffe61abe44137a2c50dd95bdf27c67373c" class="room outdoor" data-label="Tuna Walk south of the fish market" cx="944" cy="720" r="4"/>
@@ -4738,7 +4738,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-9f69ad1140e3d24bdfb085a7c6e9865aaf1a23d6" class="room outdoor" data-label="northern corner of the fish markets" cx="972" cy="678" r="4"/>
     <circle id="room-8e58c20981c6825c7f1f66f1eac12c9f08a39cdb" class="room outdoor room-shop" data-label="small fish stall" cx="958" cy="692" r="4"/><text class="room-type-label" font-size="4.5" x="958" y="692" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-aa1d0c67064c4e4c991dcb8b25a4811fd021cc96" class="room outdoor" data-label="northeastern entrance to the fish markets" cx="986" cy="678" r="4"/>
-    <circle id="room-a4cf2361e7fd987466ab08642601e7807e12a6f6" class="room outdoor room-shop" data-label="squishi bar" cx="986" cy="678" r="4"/><text class="room-type-label" font-size="4.5" x="986" y="678" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-a4cf2361e7fd987466ab08642601e7807e12a6f6" class="room outdoor room-pub" data-label="squishi bar" cx="986" cy="678" r="4"/><text class="room-type-label" font-size="4.5" x="986" y="678" text-anchor="middle" dominant-baseline="central">B</text>
     <circle id="room-4438d93bed9ed519e3003b06d78ff4def65fe71b" class="room outdoor" data-label="Hook Street, east of the fish markets" cx="1000" cy="678" r="4"/>
     <circle id="room-303adf56624a15a4c208e55e7b7977100d2afa9d" class="room outdoor" data-label="eastern side of the fish markets" cx="986" cy="692" r="4"/>
     <rect id="room-1bca4de1aba43d6494a36ce4b1c2c392b2a43c8e" class="room indoor room-weapon" data-label="luxury seafood shop" x="982" y="688" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="986" y="692" text-anchor="middle" dominant-baseline="central">W</text>
@@ -4809,7 +4809,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-f6c60dd36ed38707eb954c3a670f2f9370a79399" class="room outdoor" data-label="northern corner of the Black Market" cx="1112" cy="566" r="4"/>
     <rect id="room-2ad3b14d9c39254b67ec6cb0003131eac4cccf3e" class="room indoor room-shop" data-label="illegal contraband stall" x="1108" y="562" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1112" y="566" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-4fc09542c1022fbe2b338f4cd61e8e5c1c4fb059" class="room outdoor" data-label="northeastern end of Fortune Crescent" cx="1126" cy="552" r="4"/>
-    <rect id="room-c6b9247373df384e09820448fbb30fc0b03406a3" class="room indoor room-food" data-label="Tea Clipper bar" x="1133" y="548" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1137" y="552" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-c6b9247373df384e09820448fbb30fc0b03406a3" class="room indoor room-pub" data-label="Tea Clipper bar" x="1133" y="548" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1137" y="552" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-2d13f3b060588de14211a94139f5301f3c274d1a" class="room indoor" data-label="back of the Tea Clipper" x="1133" y="558" width="8" height="8" rx="2"/>
     <rect id="room-69c03124007c140469f3fc26753ccc23bc740c44" class="room indoor" data-label="backroom of the Tea Clipper" x="1143" y="558" width="8" height="8" rx="2"/>
     <circle id="room-730753618119e17ed7fbe7a5303f65e774657a76" class="room outdoor" data-label="northwestern end of Fortune Crescent" cx="1098" cy="552" r="4"/>
@@ -4869,7 +4869,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-e54b4a6a20614f46fb770dc1b8261911a2011db4" class="room indoor" data-label="ice cream parlour" x="982" y="475" width="8" height="8" rx="2"/>
     <circle id="room-76d935dedc2a3beef7e90851c7ec25929c931944" class="room outdoor" data-label="middle of Azure Promenade" cx="972" cy="468" r="4"/>
     <circle id="room-ca7159fbba0705bcc543af199d38640279ff8cb0" class="room outdoor" data-label="near the western end of Azure Promenade" cx="958" cy="468" r="4"/>
-    <rect id="room-7e02dd6ed04d33a0ae4cdde3e2af1e6fa9a5d249" class="room indoor room-shop" data-label="Riverside Bar" x="954" y="475" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="958" y="479" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-7e02dd6ed04d33a0ae4cdde3e2af1e6fa9a5d249" class="room indoor room-pub" data-label="Riverside Bar" x="954" y="475" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="958" y="479" text-anchor="middle" dominant-baseline="central">B</text>
     <circle id="room-abb9fba73831b4b16f66e3bd64b92e5c22e1da12" class="room outdoor" data-label="near the western end of Azure Promenade" cx="944" cy="468" r="4"/>
     <circle id="room-161927a289bac159f8ebeb9658c94c9d2faf3e13" class="room outdoor" data-label="near the western end of Azure Promenade" cx="930" cy="468" r="4"/>
     <circle id="room-1ef27266b61a6382708dc5e781417ce75cfe55a6" class="room outdoor" data-label="near the western end of Azure Promenade" cx="916" cy="468" r="4"/>
@@ -4978,8 +4978,8 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-32cdaa1ddcd050e2367b6167bac13b3f8cdb40f7" class="room indoor room-pshop" data-label="[player shop]" x="1231" y="751" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1235" y="755" text-anchor="middle" dominant-baseline="central">P</text>
     <circle id="room-f9c332e0099f45460b453152baaecd9b5cf37a47" class="room outdoor" data-label="a sampan outside a house" cx="1252" cy="748" r="4"/>
     <rect id="room-83dcad5f7c2a41b03619d3404da46c28d809bfb9" class="room indoor" data-label="sampan" x="1248" y="734" width="8" height="8" rx="2"/>
-    <rect id="room-c69fc03f30e42e5931493b62d4f07f425c2108c2" class="room indoor room-food" data-label="a restaurant sampan" x="1262" y="758" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1266" y="762" text-anchor="middle" dominant-baseline="central">F</text>
-    <circle id="room-d0ff0f86e444c3976712bfcd141270da0bb9d826" class="room outdoor room-shop water" data-label="underwater bar" cx="1266" cy="762" r="4"/><text class="room-type-label" font-size="4.5" x="1266" y="762" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-c69fc03f30e42e5931493b62d4f07f425c2108c2" class="room indoor room-tavern" data-label="a restaurant sampan" x="1262" y="758" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1266" y="762" text-anchor="middle" dominant-baseline="central">V</text>
+    <circle id="room-d0ff0f86e444c3976712bfcd141270da0bb9d826" class="room outdoor room-pub water" data-label="underwater bar" cx="1266" cy="762" r="4"/><text class="room-type-label" font-size="4.5" x="1266" y="762" text-anchor="middle" dominant-baseline="central">B</text>
     <circle id="room-7f7a9ef77014c0cc554f354dc862cd562b9ff689" class="room outdoor" data-label="a sampan outside a house" cx="1224" cy="748" r="4"/>
     <rect id="room-f494c976ff855dbf85a2bc9fa34a7c07c7486df4" class="room indoor" data-label="sampan" x="1220" y="734" width="8" height="8" rx="2"/>
     <rect id="room-f5b8d70245bd2bab65361882e43508285528502f" class="room indoor" data-label="floating tattoo parlour" x="1206" y="758" width="8" height="8" rx="2"/>
@@ -4990,7 +4990,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-0513be2d1d07895d8af10350881e36d16341f46c" class="room outdoor" data-label="east end of Tuna Walk" cx="1182" cy="748" r="4"/>
     <circle id="room-c71eac17b91ddb2a05ff62182ff8d5da3b1d02a4" class="room outdoor" data-label="east end of Tuna Walk" cx="1168" cy="748" r="4"/>
     <circle id="room-88038e1790ce237bf8b2ca7e050d081cb0fc8285" class="room outdoor" data-label="east end of the docks" cx="1154" cy="748" r="4"/>
-    <rect id="room-027820247d6fd59bd807de1a77ee91637d6fbdb3" class="room indoor room-food" data-label="Sailors&#x27; Bounty pub" x="1150" y="733" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1154" y="737" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-027820247d6fd59bd807de1a77ee91637d6fbdb3" class="room indoor room-pub" data-label="Sailors&#x27; Bounty pub" x="1150" y="733" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1154" y="737" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-3f8c7a87e7b583ee17192bdb064b64338d301d02" class="room indoor" data-label="Sailors&#x27; Bounty snug" x="1160" y="733" width="8" height="8" rx="2"/>
     <rect id="room-e6c6991767d5581d2d631b242f71f8d14a0fa01a" class="room indoor" data-label="toilets" x="1160" y="723" width="8" height="8" rx="2"/>
     <circle id="room-fd6a0faa7fee915ce1990bd54cd43a41a562b8d0" class="room outdoor" data-label="east end of the docks" cx="1126" cy="748" r="4"/>
@@ -5092,7 +5092,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-423f670d6ff969d12eb2994d6cfff808a436b47d" class="room outdoor" data-label="Two For Tea Lane near Rhinu Road" cx="552" cy="720" r="4"/>
     <circle id="room-13d96949303d9b1c07233bc8408d10accc18ca6e" class="room outdoor" data-label="middle of Two For Tea Lane" cx="552" cy="706" r="4"/>
     <circle id="room-115938e352c0f20274c13eb91c691b34de5d5c2e" class="room outdoor" data-label="Two For Tea Lane near The Serpent" cx="552" cy="692" r="4"/>
-    <rect id="room-c0762325195c7f2ff52ecc15727a80685152e478" class="room indoor room-food" data-label="Green Tea Takeaway Restaurant" x="548" y="677" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="552" y="681" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-c0762325195c7f2ff52ecc15727a80685152e478" class="room indoor room-tavern" data-label="Green Tea Takeaway Restaurant" x="548" y="677" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="552" y="681" text-anchor="middle" dominant-baseline="central">V</text>
     <rect id="room-4637d4053822737a8c4ea92cd71005ee7a64024a" class="room indoor" data-label="back room of a takeaway store" x="548" y="677" width="8" height="8" rx="2"/>
     <circle id="room-4d3d3adbffe479ce74919757be3d94cdbbf32859" class="room outdoor" data-label="Street of the Smiling Dog near Two For Tea Lane" cx="538" cy="692" r="4"/>
     <circle id="room-c453e26607d5af82a7cf255be3722b0c213db031" class="room outdoor" data-label="Street of the Smiling Dog" cx="524" cy="692" r="4"/>
@@ -5190,7 +5190,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-da3114f7d331dbd1c7bc40102686bda486dc7a97" class="room outdoor" data-label="Confetti Lane" cx="622" cy="496" r="4"/>
     <circle id="room-216ffb9327f91439e4f1d80f4941cc626be8f4e8" class="room outdoor" data-label="Phoenix Avenue" cx="622" cy="524" r="4"/>
     <circle id="room-17148a2891aec9ee11c6a14acf3b5e6bd42564ee" class="room outdoor" data-label="Phoenix Avenue" cx="608" cy="524" r="4"/>
-    <rect id="room-e458b6feb97f1cb1ed7a6b244e2bb802d808e50b" class="room indoor room-food" data-label="Rising Phoenix bar" x="604" y="509" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="608" y="513" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-e458b6feb97f1cb1ed7a6b244e2bb802d808e50b" class="room indoor room-pub" data-label="Rising Phoenix bar" x="604" y="509" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="608" y="513" text-anchor="middle" dominant-baseline="central">B</text>
     <circle id="room-ff652ede068ab4b1c90191846a3273d028f7cd34" class="room outdoor" data-label="Phoenix Avenue" cx="636" cy="524" r="4"/>
     <rect id="room-f48a02e0f8767f13d90652acae48e6baa96e5f8f" class="room indoor room-food" data-label="plant shop" x="632" y="509" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="636" y="513" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-adff43b6fa9992230ad0e5e0341ee1259290515e" class="room outdoor" data-label="Phoenix Avenue" cx="650" cy="524" r="4"/>
@@ -5244,8 +5244,8 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-0fa3faffa8438c2de824f2074fb2a313af4cc791" class="room outdoor" data-label="intersection of Island Street and Snake Parade" cx="524" cy="580" r="4"/>
     <circle id="room-90e5961de46b01d2daaceb8f059e91d94f0bff9a" class="room outdoor" data-label="middle of Island Street" cx="538" cy="580" r="4"/>
     <circle id="room-1f85a36279a1decc9e837398b37e02b5178d697b" class="room outdoor" data-label="outside the Placid Buffalo" cx="552" cy="580" r="4"/>
-    <rect id="room-d9ea97e59dbbca308c70a88859804e28c7f1fdb2" class="room indoor" data-label="southern end of the Placid Buffalo pub" x="548" y="565" width="8" height="8" rx="2"/>
-    <rect id="room-81142ff804e383a1a0ff99d5db184dd87dfd49c0" class="room indoor" data-label="northern end of the Placid Buffalo pub" x="548" y="555" width="8" height="8" rx="2"/>
+    <rect id="room-d9ea97e59dbbca308c70a88859804e28c7f1fdb2" class="room indoor room-pub" data-label="southern end of the Placid Buffalo pub" x="548" y="565" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="552" y="569" text-anchor="middle" dominant-baseline="central">B</text>
+    <rect id="room-81142ff804e383a1a0ff99d5db184dd87dfd49c0" class="room indoor room-pub" data-label="northern end of the Placid Buffalo pub" x="548" y="555" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="552" y="559" text-anchor="middle" dominant-baseline="central">B</text>
     <circle id="room-a25981dd642b94cd356acc480d54ee38e479c35c" class="room outdoor" data-label="east end of Island Street" cx="566" cy="580" r="4"/>
     <circle id="room-5016d7dc1997dcf35eee332dccc04684d56a2abb" class="room outdoor" data-label="Avenue of the Golden Sun" cx="510" cy="622" r="4"/>
     <circle id="room-d8d1137b68a09645907ed4f621b6e3fd5995a195" class="room outdoor" data-label="corner on the Avenue of the Golden Sun" cx="496" cy="622" r="4"/>
@@ -5623,7 +5623,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-58bbe93b2eab71e4d404636c53204d057415d3ec" class="room outdoor" data-label="Buffalo Lane between Turtle Path and High Tide Road" cx="160" cy="384" r="4"/>
     <circle id="room-b64e6df4cad0130835739500ea01c3c4148eed4b" class="room outdoor" data-label="Buffalo Lane south of High Tide Road" cx="146" cy="384" r="4"/>
     <circle id="room-665fac2b8e86dd0377b280714110d7726ec29c14" class="room outdoor" data-label="High Tide Road" cx="146" cy="370" r="4"/>
-    <rect id="room-2a9713e988a45c0f25722850c39334f0f6333160" class="room indoor room-shop" data-label="Tap Tong&#x27;s market bar" x="131" y="366" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="135" y="370" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-2a9713e988a45c0f25722850c39334f0f6333160" class="room indoor room-pub" data-label="Tap Tong&#x27;s market bar" x="131" y="366" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="135" y="370" text-anchor="middle" dominant-baseline="central">B</text>
     <circle id="room-1870e9ab6f79d95150ea78f6779883d9bd464833" class="room outdoor" data-label="High Tide Road" cx="146" cy="356" r="4"/>
     <circle id="room-01c670c164df7fda07221a16a1a183590622a76c" class="room outdoor" data-label="High Tide Road west of Turtle Path" cx="160" cy="356" r="4"/>
     <circle id="room-ef2dc60d1ff879023a275a43c1657678b3a281ab" class="room outdoor" data-label="High Tide Road and Turtle Path" cx="174" cy="356" r="4"/>
@@ -5651,7 +5651,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-b7a22f121d2fe84aa12cbeb45a5b2ced3eba28a4" class="room indoor" data-label="near the eastern end of the covered market" x="268" y="352" width="8" height="8" rx="2"/>
     <rect id="room-b2dd12ae15e1d22f4c41471130a90e5f8d13ed48" class="room indoor" data-label="High Tide Road&#x27;s junction with Fountain Road" x="254" y="352" width="8" height="8" rx="2"/>
     <rect id="room-93c9303759c422722eb64aed9825671d1a2094cc" class="room indoor" data-label="High Tide covered market outside a restaurant" x="240" y="352" width="8" height="8" rx="2"/>
-    <rect id="room-3d5c27147f4a08cdd384826036dcb8b6b34d58e7" class="room indoor room-food" data-label="tented restaurant" x="240" y="362" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="244" y="366" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-3d5c27147f4a08cdd384826036dcb8b6b34d58e7" class="room indoor room-tavern" data-label="tented restaurant" x="240" y="362" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="244" y="366" text-anchor="middle" dominant-baseline="central">V</text>
     <rect id="room-adab03949aa41ca1b4be9a388af440f4f4d46af9" class="room indoor" data-label="High Tide covered market" x="226" y="352" width="8" height="8" rx="2"/>
     <rect id="room-beb6e891912d27f9043cc7f7628e658132152cab" class="room indoor" data-label="covered market between Park Lane and Fountain Road" x="212" y="352" width="8" height="8" rx="2"/>
     <rect id="room-6a661e623c3c9b89f91e42f4e1b9c7d1b78d7976" class="room indoor" data-label="covered market&#x27;s junction with Park Lane" x="198" y="352" width="8" height="8" rx="2"/>
@@ -5685,8 +5685,8 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-1b88f3e7476ab13c58e2cf2e38054792a6e805a5" class="room outdoor" data-label="path on top of a rocky bluff running along the Turnwise Sea" cx="90" cy="314" r="4"/>
     <circle id="room-cf3c5a493bf81cee1e1ea62b5280fef089c47104" class="room outdoor" data-label="stretch of Green Way outside a cafe" cx="160" cy="272" r="4"/>
     <circle id="room-5c47dd90b5a0ccf392d22a66c428634a1485da63" class="room outdoor" data-label="Green Way" cx="174" cy="272" r="4"/>
-    <rect id="room-55beed299cc1dd0e651306e1ae89956b867cb4e7" class="room indoor" data-label="Queen&#x27;s In Cafe" x="156" y="257" width="8" height="8" rx="2"/>
-    <rect id="room-78dff556c9e4c3bb1bf4ab74ce6f4ff1237e11b1" class="room indoor room-food" data-label="Buffalo Bar at the Queen&#x27;s In Cafe" x="156" y="247" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="160" y="251" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-55beed299cc1dd0e651306e1ae89956b867cb4e7" class="room indoor room-tavern" data-label="Queen&#x27;s In Cafe" x="156" y="257" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="160" y="261" text-anchor="middle" dominant-baseline="central">V</text>
+    <rect id="room-78dff556c9e4c3bb1bf4ab74ce6f4ff1237e11b1" class="room indoor room-pub" data-label="Buffalo Bar at the Queen&#x27;s In Cafe" x="156" y="247" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="160" y="251" text-anchor="middle" dominant-baseline="central">B</text>
     <circle id="room-b4ce1edeaf5385372a6dc8bd4a7f205fb98081f9" class="room outdoor" data-label="west of a junction with Park Lane" cx="188" cy="272" r="4"/>
     <rect id="room-5607dc01a167f711418c1241bfded7bcb4a6d183" class="room indoor" data-label="dark office" x="184" y="257" width="8" height="8" rx="2"/>
     <circle id="room-fec05ef4d50ec2a14d97dbebb77c907021d56d0a" class="room outdoor" data-label="big intersection" cx="202" cy="272" r="4"/>
@@ -5840,7 +5840,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-ed05668baa44ca63bf7a601a909dc1c5cee70bdd" class="room outdoor" data-label="rotting dragonboat" cx="94" cy="153" r="4"/>
     <circle id="room-fd8d131789952b36aeafd4bb888e62de4513a3e4" class="room outdoor" data-label="Long Tang Lane at the junction with Wung-Chi Lane" cx="174" cy="118" r="4"/>
     <circle id="room-2e64e9de5dfaf31a2e529fdbcc606dd5d0aff67c" class="room outdoor" data-label="Wung-Chi Lane next to Tang Bay" cx="188" cy="118" r="4"/>
-    <rect id="room-0c5381c44cbc3ef194b975a3ad4557ac20b24cf4" class="room indoor room-shop" data-label="Squishy Fishy Bar" x="184" y="125" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="188" y="129" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-0c5381c44cbc3ef194b975a3ad4557ac20b24cf4" class="room indoor room-pub" data-label="Squishy Fishy Bar" x="184" y="125" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="188" y="129" text-anchor="middle" dominant-baseline="central">B</text>
     <circle id="room-fd4f0603825b77d790197927f0edde2b881d5434" class="room outdoor" data-label="Wung-Chi Lane" cx="202" cy="118" r="4"/>
     <rect id="room-d88d34a3efe7bfdc0d39a2c65a2ef4c38561147f" class="room indoor room-shop" data-label="Wung-Chi Cushion Emporium" x="198" y="125" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="202" y="129" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-9ed9ea7b5aafd2a082e6a8c70a3ec564597fbc56" class="room outdoor" data-label="Wung-Chi Lane" cx="216" cy="118" r="4"/>
@@ -5898,7 +5898,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-11507de2f8a0b360d129cf23ef80ca61e152b4ab" class="room outdoor" data-label="Wung-Chi Lane" cx="356" cy="118" r="4"/>
     <rect id="room-d3f90e76cd5d8dbe08e632cd1a0a94bcc1a53425" class="room indoor room-shop" data-label="stuffy futon shop" x="352" y="125" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="356" y="129" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-4c7107bb685e5b5d50a813136875a047d92e8830" class="room outdoor" data-label="Wung-Chi Lane" cx="370" cy="118" r="4"/>
-    <rect id="room-80fe0ffcdd570eac14ea06f60545179f6e1e020f" class="room indoor room-food" data-label="Wung-Chi Lane Restaurant" x="366" y="103" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="370" y="107" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-80fe0ffcdd570eac14ea06f60545179f6e1e020f" class="room indoor room-tavern" data-label="Wung-Chi Lane Restaurant" x="366" y="103" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="370" y="107" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-51800e08bfdb36bceb7c69f7db64a35519437322" class="room outdoor" data-label="Wung-Chi Lane" cx="384" cy="118" r="4"/>
     <rect id="room-13149079faf81589455fd769972281d8061ab6c8" class="room indoor room-shop" data-label="silk plant stall" x="380" y="125" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="384" y="129" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-961ab1a8a526217b1ab82075ac8ebb41ce4948f2" class="room outdoor" data-label="Wung-Chi Lane" cx="398" cy="118" r="4"/>
@@ -6078,9 +6078,9 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-da9c9bdb565ab75e9829784d2f1c17a19475e004" class="room outdoor" data-label="Sum Bing street market outside a jewellery shop" cx="608" cy="188" r="4"/>
     <rect id="room-c4e17fa292b32726d4d97643af47f10be11d97df" class="room indoor room-access" data-label="affordable jewellery store" x="604" y="173" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="608" y="177" text-anchor="middle" dominant-baseline="central">X</text>
     <circle id="room-e3078f05a16518e140d1ffb2ee8b06756fc8980c" class="room outdoor" data-label="centre of the Sum Bing street market near some brightly coloured stalls" cx="580" cy="188" r="4"/>
-    <rect id="room-e74333316fd85f62ea0a36f587c5334ff25dca1e" class="room indoor room-food" data-label="Belching Dragon pub" x="576" y="173" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="580" y="177" text-anchor="middle" dominant-baseline="central">F</text>
-    <rect id="room-1a9f3888a969957859a4033e4ce243d78fd0484c" class="room indoor room-food" data-label="Laughing Dog Restaurant" x="586" y="194" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="590" y="198" text-anchor="middle" dominant-baseline="central">F</text>
-    <rect id="room-39040f80084c76ead5556bb28bf6520c3d75c727" class="room indoor room-food" data-label="Happy Joy Takeaway Restaurant" x="566" y="194" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="570" y="198" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-e74333316fd85f62ea0a36f587c5334ff25dca1e" class="room indoor room-pub" data-label="Belching Dragon pub" x="576" y="173" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="580" y="177" text-anchor="middle" dominant-baseline="central">B</text>
+    <rect id="room-1a9f3888a969957859a4033e4ce243d78fd0484c" class="room indoor room-tavern" data-label="Laughing Dog Restaurant" x="586" y="194" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="590" y="198" text-anchor="middle" dominant-baseline="central">V</text>
+    <rect id="room-39040f80084c76ead5556bb28bf6520c3d75c727" class="room indoor room-tavern" data-label="Happy Joy Takeaway Restaurant" x="566" y="194" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="570" y="198" text-anchor="middle" dominant-baseline="central">V</text>
     <rect id="room-33897caeff38c67eb39067de2fa387a0f5cb87a9" class="room indoor room-mission" data-label="back room of a takeaway store" x="566" y="202" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="570" y="206" text-anchor="middle" dominant-baseline="central">!</text>
     <circle id="room-2e582ddd36f7d7c0fba9bfedbfa8c5bcbffe0eff" class="room outdoor" data-label="middle of Market Street outside a bank branch" cx="552" cy="188" r="4"/>
     <rect id="room-a64ecf83155515a896ed40f378b7989c58852cf9" class="room indoor" data-label="hot and humid smithy" x="548" y="173" width="8" height="8" rx="2"/>
@@ -6233,7 +6233,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-78ed876cb5249e47601c5f588338d4516cad5acc" class="room outdoor" data-label="Champion Way east of the junction with Imperial Avenue" cx="944" cy="272" r="4"/>
     <circle id="room-999070e3c1d2b0518b9f492317cd1b6458aba6db" class="room outdoor" data-label="Champion Way near Champion Stadium&#x27;s northeast corner" cx="958" cy="272" r="4"/>
     <circle id="room-0d77a3ae8a5efd8fbe4d4f8142b03e61ac054d9c" class="room outdoor" data-label="Champion Way near Champion Stadium&#x27;s northeast corner" cx="972" cy="286" r="4"/>
-    <rect id="room-c0a6e1cdec60131c777c7e5dc178b746be3d598d" class="room indoor room-food" data-label="Five Hungry Ronin Take Out Restaurant" x="979" y="282" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="983" y="286" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-c0a6e1cdec60131c777c7e5dc178b746be3d598d" class="room indoor room-tavern" data-label="Five Hungry Ronin Take Out Restaurant" x="979" y="282" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="983" y="286" text-anchor="middle" dominant-baseline="central">V</text>
     <rect id="room-d4ca6e8b9b8be452e56800ddb275a408e2bffc1c" class="room indoor room-mission" data-label="back room of a takeaway store" x="987" y="282" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="991" y="286" text-anchor="middle" dominant-baseline="central">!</text>
     <circle id="room-9d20641280dc1f930c17d1c17807310e207a3a0a" class="room outdoor" data-label="Champion Way outside The Sensei&#x27;s Rest" cx="972" cy="300" r="4"/>
     <rect id="room-356b43df2a2e49d0bee09052afbf506eddb139c4" class="room indoor room-food" data-label="Sensei&#x27;s Rest" x="979" y="296" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="983" y="300" text-anchor="middle" dominant-baseline="central">F</text>
@@ -6444,7 +6444,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-31170af0c11ebb1cd0f647f1034db5e7f7b7bd86" class="room indoor room-clothes" data-label="shop" x="871" y="897" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="875" y="901" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-6f120ffa89e995011d1791285fa87f549213c796" class="room indoor" data-label="cabin in a sunken ship" x="871" y="888" width="8" height="8" rx="2"/>
     <rect id="room-f7650b4057885a27f549bdad23a0324315bfcdfe" class="room indoor" data-label="lounge in sunken ship" x="862" y="897" width="8" height="8" rx="2"/>
-    <rect id="room-f9e29788cdf5c0131d1ff64f995dc30520560434" class="room indoor room-shop" data-label="small bar" x="880" y="888" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="884" y="892" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-f9e29788cdf5c0131d1ff64f995dc30520560434" class="room indoor room-pub" data-label="small bar" x="880" y="888" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="884" y="892" text-anchor="middle" dominant-baseline="central">B</text>
     <circle id="room-8034c2c1ec95d45789a212cfda51eba856501d79" class="room outdoor water" data-label="sunken ship" cx="875" cy="883" r="4"/>
     <rect id="room-635260166c5c2f1245bf73177820cb377c1a72ee" class="room indoor" data-label="dimly lit passage" x="961" y="667" width="8" height="8" rx="2"/>
     <rect id="room-0eeaf24e890f7bc1350cb7fcf6c61fa05027d6f9" class="room indoor" data-label="dimly lit passage" x="953" y="667" width="8" height="8" rx="2"/>
@@ -7183,7 +7183,6 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <polygon id="stair-c12fa70b5a700bac1d57c72b9aceb4b37ba06314" class="stair-symbol" points="912,545 909.5,550 914.5,550"/>
     <polygon id="stair-58899d0a7d7ecfd8e80f8c27e2023697ee83e5e6" class="stair-symbol" points="912,551 909.5,546 914.5,546"/>
     <polygon id="stair-0a8a130a2e227bd772fd749772db3c92931a6c31" class="stair-symbol" points="844,545 841.5,540 846.5,540"/>
-    <polygon id="stair-7943140d428d73b6617ba16a355cf318f16801aa" class="stair-symbol" points="912,731 909.5,736 914.5,736"/>
     <polygon id="stair-263ea81beb12329ee2ff24f65e9ba95cc94a95c6" class="stair-symbol" points="1140,611 1137.5,606 1142.5,606"/>
     <polygon id="stair-633e4a166d6c3ec2bddb49f7a715b6b295bd2e18" class="stair-symbol" points="1175,585 1172.5,590 1177.5,590"/>
     <polygon id="stair-87d410ca8290b97848c27d6d50d69547a044813f" class="stair-symbol" points="1175,585 1177.5,588 1175,591 1172.5,588"/>

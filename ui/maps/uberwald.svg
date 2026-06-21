@@ -1327,7 +1327,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-63d06172f512c94bcc0e73a80347206db1ecf9d0" class="room outdoor" data-label="market road outside a jar seller in Blackglass" cx="472" cy="215" r="4"/>
     <rect id="room-112053fc4be8fcd8961bc220fa4bfe92583ab1f8" class="room indoor room-shop" data-label="Blackglass glassblower&#x27;s jar shop" x="478" y="221" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="482" y="225" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-2509fce7b7a5e1a2f76f56209da0cb8a2cb00f6f" class="room outdoor" data-label="market street outside a pub in Blackglass" cx="472" cy="201" r="4"/>
-    <rect id="room-02d5cef38483d9e255d0d5f501c9480528bbc996" class="room indoor room-food" data-label="bar area in the Crested Eagle Inn" x="479" y="197" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="483" y="201" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-02d5cef38483d9e255d0d5f501c9480528bbc996" class="room indoor room-pub" data-label="bar area in the Crested Eagle Inn" x="479" y="197" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="483" y="201" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-f6d4e6b934be0b90cc5091fcd3e6df8679f52ed0" class="room indoor" data-label="commonroom of the Crested Eagle inn" x="489" y="197" width="8" height="8" rx="2"/>
     <circle id="room-da1dece57820733e61d7460957ff0a7d33adcb27" class="room outdoor" data-label="market street outside a forge and a bakery in Blackglass" cx="472" cy="187" r="4"/>
     <rect id="room-5987e14861f54b62c9b8aa9ac25b280e415b967e" class="room indoor" data-label="Allen Kingfisher&#x27;s Blackglass smithy" x="479" y="183" width="8" height="8" rx="2"/>
@@ -1410,7 +1410,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-d2e003eb9ec11df95e182c36fc0b379db8edc10f" class="room outdoor" data-label="Fair Street" cx="715" cy="587" r="4"/>
     <circle id="room-4bbf535dc4c89fc66025bab8f21fa91dc9304b50" class="room outdoor" data-label="Fair Street" cx="673" cy="587" r="4"/>
     <circle id="room-281e7a28003f59cea7b20c786a1c7e594ac2ceca" class="room outdoor" data-label="Fair Street" cx="659" cy="587" r="4"/>
-    <rect id="room-d65b4453e19cbce30b630e0a6062c01049f8682c" class="room indoor room-food" data-label="Dancing Garlic restaurant" x="655" y="594" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="659" y="598" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-d65b4453e19cbce30b630e0a6062c01049f8682c" class="room indoor room-tavern" data-label="Dancing Garlic restaurant" x="655" y="594" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="659" y="598" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-d0920a9d3f204350418b3b01813c46ec11d34496" class="room outdoor" data-label="fun fair" cx="687" cy="573" r="4"/>
     <circle id="room-f759de0db4f6f8bb7d07db3c860f6753e57fdf33" class="room outdoor" data-label="fun fair" cx="687" cy="559" r="4"/>
     <rect id="room-54c6af34f06f586013fa81919e166e6f632974a5" class="room indoor room-weapon" data-label="small tent" x="694" y="555" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="698" y="559" text-anchor="middle" dominant-baseline="central">W</text>
