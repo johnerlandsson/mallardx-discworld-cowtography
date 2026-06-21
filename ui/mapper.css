@@ -113,7 +113,8 @@ body {
 .room-type-label { font-family: "Noto Sans", sans-serif; font-size: 4.5px; font-weight: bold; fill: var(--fg); pointer-events: none; transform: translateY(-0.3px); }
 
 .room-shop, .room-weapon, .room-armour,
-.room-clothes, .room-food, .room-access  { fill: #1c5c3a; }
+.room-clothes, .room-food, .room-access,
+.room-talker                             { fill: #1c5c3a; }
 .room-bank, .room-changer, .room-mission,
 .room-post, .room-lang                   { fill: #5c3000; }
 .room-crafts                             { fill: #1a4a28; }
