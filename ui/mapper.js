@@ -371,6 +371,10 @@ async function loadSvgMap(mapId, x, y) {
     viewBox.h = viewBox.w * ratio;
   }
   displayedMapId = mapId;
+  const isWorld = mapId === 99;
+  $streetsToggle.hidden = isWorld;
+  $stairsToggle.hidden  = isWorld;
+  $footer.hidden        = isWorld;
   centerOnRoom(x, y);
   wireTooltip();
   // Hide all upper-floor rooms on this map by default.
@@ -425,6 +429,20 @@ function _restoreOverlay(overlay) {
 // ─── State toggling ───────────────────────────────────────────────────────
 function applyState() {
   if (!currentSvg) return;
+
+  if (displayedMapId === 99) {
+    const dot = currentSvg.querySelector('#world-player');
+    if (dot) {
+      if (current) {
+        dot.setAttribute('cx', current.x);
+        dot.setAttribute('cy', current.y);
+        dot.style.display = '';
+      } else {
+        dot.style.display = 'none';
+      }
+    }
+    return;
+  }
 
   // Restore previously lifted elements before clearing classes.
   const routeOv = currentSvg.querySelector("#sg-route-overlay");
@@ -671,7 +689,7 @@ $container.addEventListener("pointerdown", (e) => {
   } else if (e.button === 0 && !roomEl) {
     drag = { screenX: e.clientX, screenY: e.clientY, vbX: viewBox.x, vbY: viewBox.y };
     $container.setPointerCapture(e.pointerId);
-  } else if (e.button === 0 && roomEl) {
+  } else if (e.button === 0 && roomEl && displayedMapId !== 99) {
     pendingRoomClick = { el: roomEl, startX: e.clientX, startY: e.clientY };
     $container.setPointerCapture(e.pointerId);
   }
