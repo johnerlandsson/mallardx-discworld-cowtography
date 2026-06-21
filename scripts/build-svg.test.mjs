@@ -1038,6 +1038,38 @@ describe('queryShopTypes', () => {
     expect(warnSpy).toHaveBeenCalledWith(expect.stringContaining('unknown type "bank s"'))
     warnSpy.mockRestore()
   })
+
+  it('auto-detects tavern from name containing "tavern"', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'The Broken Tavern')").run()
+    expect(queryShopTypes(db, 1).get('r1')).toBe('tavern')
+  })
+
+  it('auto-detects tavern from name containing "bar"', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES (?, 1, 0, 0, ?)").run('r1', "Troll's Head Bar")
+    expect(queryShopTypes(db, 1).get('r1')).toBe('tavern')
+  })
+
+  it('auto-detects tavern from name containing "restaurant"', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'Le Petit Restaurant')").run()
+    expect(queryShopTypes(db, 1).get('r1')).toBe('tavern')
+  })
+
+  it('tavern name match overrides shop_items food classification', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'The Pub')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'apple pie', '')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'beef stew', '')").run()
+    expect(queryShopTypes(db, 1).get('r1')).toBe('tavern')
+  })
+
+  it('manual override beats tavern name detection', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'The Famous Pub')").run()
+    expect(queryShopTypes(db, 1, { 'r1': 'food' }).get('r1')).toBe('food')
+  })
 })
 
 describe('buildStackData', () => {

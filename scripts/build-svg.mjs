@@ -55,7 +55,10 @@ export const TYPE_LETTERS = {
   shop: 'S', weapon: 'W', armour: 'A', clothes: 'C', food: 'F', access: 'X',
   bank: '$', changer: '¢', mission: '!', post: 'O', lang: 'L', temple: 'R',
   crafts: 'K', house: 'H', club: 'G', pshop: 'P', tshop: 'T', talker: 'M',
+  tavern: 'V',
 }
+
+const TAVERN_NAME_KEYWORDS = ['restaurant', 'tavern', 'bar', 'pizzeria', 'pizza', 'pub']
 
 function classifyShopItems(items) {
   const counts = {}
@@ -117,6 +120,15 @@ export function queryShopTypes(db, mapId, overrides = {}) {
   for (const [pattern, type] of shortTypePatterns) {
     for (const { room_id } of shortStmt.all(mapId, pattern)) {
       if (!result.has(room_id)) result.set(room_id, type)
+    }
+  }
+
+  // Tavern name matching — overrides shop_items food/shop classification.
+  const allMapRooms = db.prepare('SELECT room_id, room_short FROM rooms WHERE map_id = ?').all(mapId)
+  for (const { room_id, room_short } of allMapRooms) {
+    const lower = (room_short ?? '').toLowerCase()
+    if (TAVERN_NAME_KEYWORDS.some(kw => lower.includes(kw))) {
+      result.set(room_id, 'tavern')
     }
   }
 

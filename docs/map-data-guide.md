@@ -41,10 +41,13 @@ Overrides or supplements the auto-detected room type for specific rooms. Use it 
 | `tshop` | T | near-black | Manual only |
 | `temple` | R | dark purple | Manual only |
 | `talker` | M | dark green | Manual only |
+| `tavern` | V | dark amber | Auto — `room_short` contains "tavern", "bar", "pub", "restaurant", "pizza", "pizzeria" |
 
-**Priority:** `shop_items` keywords → `room_short` patterns → `room-types.json` (always wins).
+**Priority (highest to lowest):** `room-types.json` (always wins) → `room_short` tavern name keywords → `shop_items` item keywords → `room_short` exact patterns (bank, house, pshop, club).
 
 > `talker` shops sell long-distance magical communicators. They are not detectable from `shop_items` keywords, so all entries must be added manually.
+>
+> `tavern` covers pubs, bars, restaurants, and inns. Name-based detection overrides a `food` classification from `shop_items`. Places not caught by the keywords (e.g. "The Mended Drum") must be added manually.
 
 **Example:**
 
