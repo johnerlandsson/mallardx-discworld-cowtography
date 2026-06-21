@@ -16,8 +16,33 @@ export function injectFontStyle(svg) {
   // Handles our single-line <style id="inkscape-font-fix"> and Inkscape's multi-line
   // re-encoding (<style\n   id="inkscape-font-fix">, with &quot; entities in content).
   const stripped = svg.replace(/\n[ \t]*<style\s+id="inkscape-font-fix">[\s\S]*?<\/style>/g, '')
-  // (Re-)inject after self-closing <defs ... />; no-op if no <defs> present
-  return stripped.replace(/(<defs[^>]*\/>)/, `$1\n  ${FONT_STYLE_BLOCK}`)
+  // (Re-)inject after <defs> — handles both self-closing (<defs ... />) and open-tag
+  // (<defs ...>) forms; Inkscape always writes the latter.
+  return stripped.replace(/(<defs[^>]*\/?>)/, `$1\n  ${FONT_STYLE_BLOCK}`)
+}
+
+// Terrain types defined by inkscape:label on <path> elements in discwhole.svg.
+// Add new terrain names here as you paint them in Inkscape.
+const WORLD_TERRAIN_TYPES = ['Mountains', 'Desert', 'Plains', 'Water', 'Grass', 'Forrest']
+
+export function processWorldMapSvg(svg) {
+  for (const terrain of WORLD_TERRAIN_TYPES) {
+    const cls = 'terrain-' + terrain.toLowerCase()
+    // Add class attribute alongside the inkscape:label
+    svg = svg.replace(
+      new RegExp(`\\binkscape:label="${terrain}"`, 'g'),
+      `class="${cls}" inkscape:label="${terrain}"`
+    )
+    // Strip the Inkscape inline style from the same path element.
+    // SVG path data contains no > characters, so [^>]*? cannot cross the /> boundary.
+    svg = svg.replace(
+      new RegExp(`(\\s+style="[^"]*")([^>]*?)(\\s+class="${cls}")`, 'g'),
+      '$2$3'
+    )
+  }
+  // Add class="map-label" to all <text> elements that don't already have a class
+  svg = svg.replace(/<text\b(?![^>]*\bclass=")/g, '<text class="map-label"')
+  return svg
 }
 
 import { promises as fs } from 'node:fs'
@@ -35,7 +60,10 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
     const svg        = await fs.readFile(svgPath, 'utf8')
     const updatedSvg = injectFontStyle(svg)
     if (updatedSvg !== svg) await fs.writeFile(svgPath, updatedSvg, 'utf8')
-    await fs.writeFile(jsPath, `export default ${JSON.stringify(updatedSvg)};\n`, 'utf8')
+    // For the world map, apply terrain class injection only to the JS bundle —
+    // not written back to the SVG so Inkscape keeps working with its own attributes.
+    const jsSvg = file === 'discwhole.svg' ? processWorldMapSvg(updatedSvg) : updatedSvg
+    await fs.writeFile(jsPath, `export default ${JSON.stringify(jsSvg)};\n`, 'utf8')
     console.log(`  synced  ${file}`)
   }
 

@@ -337,3 +337,18 @@ body {
 .stairs-toggle:hover { background: color-mix(in srgb, var(--fg, #ddd) 30%, transparent); }
 .stairs-toggle.off   { background: color-mix(in srgb, var(--fg, #ddd) 10%, transparent); }
 .stairs-toggle.off:hover { background: color-mix(in srgb, var(--fg, #ddd) 20%, transparent); }
+
+/* ─── World map terrain (discwhole.svg) ──────────────────────────────────── */
+.terrain-mountains { fill: #595959; }
+.terrain-desert    { fill: #7a5a1a; }
+.terrain-plains    { fill: #4a6a20; }
+.terrain-water     { fill: #1a3a5c; }
+.terrain-grass     { fill: #2a6a2a; }
+.terrain-forrest   { fill: #1a4a20; }
+
+.light-bg .terrain-mountains { fill: #b0b0b0; }
+.light-bg .terrain-desert    { fill: #c8a050; }
+.light-bg .terrain-plains    { fill: #90b840; }
+.light-bg .terrain-water     { fill: #5090c0; }
+.light-bg .terrain-grass     { fill: #50a050; }
+.light-bg .terrain-forrest   { fill: #357a40; }
