@@ -130,11 +130,6 @@ let tshopAnim      = null;  // requestAnimationFrame id for tshop hyperspace can
 let tshopCanvas    = null;  // the canvas element itself (position:fixed, needs explicit removal)
 let darkMode       = false; // true while in a room without a GMCP identifier
 
-// World-disc canvas state (map 99 only)
-let worldImg    = null;
-let worldCanvas = null;
-let worldCtx    = null;
-
 // ─── ViewBox ──────────────────────────────────────────────────────────────
 const ZOOM_FACTOR  = 1.3;
 const TARGET_PX    = 30;   // desired screen pixels between typical adjacent rooms
@@ -197,7 +192,8 @@ function applyViewBox() {
 function defaultZoomW(mapId) {
   const meta = data.maps[mapId];
   if (!meta) return 1;
-  if (mapId === 47) return 280;  // UU Library — fixed
+  if (mapId === 47) return 280;   // UU Library — fixed
+  if (mapId === 99) return meta.maxX / 2;  // World map — start half-zoomed
   const unit = roomUnits.get(mapId);
   if (unit) return $container.clientWidth * unit / TARGET_PX;
   return meta.maxX / 4;  // fallback before unit is computed
@@ -343,14 +339,13 @@ function clearContainer() {
       child.remove();
     }
   }
-  worldImg = null; worldCanvas = null; worldCtx = null;
 }
 
 async function loadSvgMap(mapId, x, y) {
   const meta = data.maps[mapId];
   if (!meta) return;
   const gen = ++loadGeneration;
-  const { default: svgText } = await import(`./maps/${meta.file.replace(".png", ".js")}`);
+  const { default: svgText } = await import(`./maps/${meta.file.replace(/\.\w+$/, ".js")}`);
   if (gen !== loadGeneration) return;  // superseded by a later load
   target = null;  // prediction is map-specific; clear on map change
   currentStackGround = null;
@@ -366,7 +361,7 @@ async function loadSvgMap(mapId, x, y) {
     const unit = computeRoomUnit(currentSvg);
     if (unit) roomUnits.set(mapId, unit);
   }
-  if (displayedMapId !== null && displayedMapId !== 99 && viewBox.w > 0) {
+  if (displayedMapId !== null && viewBox.w > 0) {
     persistZoom(displayedMapId, viewBox.w);
   }
   resetZoom(mapId);
@@ -383,47 +378,6 @@ async function loadSvgMap(mapId, x, y) {
     if (!currentSvg.querySelector(`#room-${CSS.escape(groundId)}`)) continue;
     for (const upperId of uppers) setStackRoomVisible(currentSvg, upperId, false);
   }
-}
-
-function loadWorldDisc(x, y) {
-  if (displayedMapId !== null && displayedMapId !== 99 && viewBox.w > 0) {
-    persistZoom(displayedMapId, viewBox.w);
-  }
-  clearContainer();
-  currentSvg = null;
-  const imgEl = document.createElement("img");
-  imgEl.className = "world-map";
-  imgEl.src = `maps/${data.maps[99].file}`;
-  const canvasEl = document.createElement("canvas");
-  canvasEl.className = "world-canvas";
-  worldCanvas = canvasEl;
-  worldCtx    = canvasEl.getContext("2d");
-  imgEl.onload = () => { worldImg = imgEl; drawWorldDisc(x, y); };
-  $container.insertBefore(imgEl, $lspace);
-  $container.insertBefore(canvasEl, $lspace);
-  displayedMapId = 99;
-}
-
-function drawWorldDisc(x, y) {
-  if (!worldCtx || !worldImg) return;
-  const cw = $container.clientWidth;
-  const ch = $container.clientHeight;
-  worldCanvas.width  = cw;
-  worldCanvas.height = ch;
-  worldCtx.clearRect(0, 0, cw, ch);
-  const meta = data.maps[99];
-  const sx = worldImg.naturalWidth  / meta.maxX;
-  const sy = worldImg.naturalHeight / meta.maxY;
-  const px = x * sx, py = y * sy;
-  const offX = cw / 2 - px, offY = ch / 2 - py;
-  worldCtx.drawImage(worldImg, offX, offY, worldImg.naturalWidth, worldImg.naturalHeight);
-  worldCtx.beginPath();
-  worldCtx.arc(offX + px, offY + py, 5, 0, Math.PI * 2);
-  worldCtx.fillStyle   = "#ff3b30";
-  worldCtx.fill();
-  worldCtx.lineWidth   = 1.5;
-  worldCtx.strokeStyle = "#fff";
-  worldCtx.stroke();
 }
 
 // ─── SVG overlay helpers ─────────────────────────────────────────────────
@@ -749,11 +703,6 @@ $container.addEventListener("pointercancel", () => {
   pendingRoomClick = null;
 });
 
-// ─── Resize ───────────────────────────────────────────────────────────────
-new ResizeObserver(() => {
-  if (worldCtx && current) drawWorldDisc(current.x, current.y);
-}).observe($container);
-
 // ─── Host messages ────────────────────────────────────────────────────────
 panel.on("zoom_data", (frame) => {
   for (const [k, v] of Object.entries(frame)) savedZoom.set(Number(k), v);
@@ -803,7 +752,7 @@ panel.on("room_info", async (frame) => {
       // is a re-confirm of the old position (e.g. after an invalid direction)
       // — don't reload the old map and undo the proactive switch.
     } else if (next?.mapId === 99) {
-      loadWorldDisc(next.x, next.y);
+      await loadSvgMap(99, next.x, next.y);
     } else if (next !== null) {
       try {
         await loadSvgMap(next.mapId, next.x, next.y);
@@ -871,8 +820,8 @@ panel.on("target_move", async (frame) => {
   if (next.mapId !== displayedMapId) {
     // Target crossed a map boundary — proactively load the new map.
     if (next.mapId === 99) {
-      loadWorldDisc(next.x, next.y);
-      target = null;  // world disc has no SVG room indicator
+      await loadSvgMap(99, next.x, next.y);
+      target = null;
     } else {
       try {
         await loadSvgMap(next.mapId, next.x, next.y);
