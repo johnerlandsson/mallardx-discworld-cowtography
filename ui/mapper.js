@@ -30,35 +30,39 @@ const $footer     = document.querySelector(".route-footer");
 const $routeDest  = document.querySelector(".route-dest");
 const $routeWalk  = document.querySelector(".route-walk");
 const $routeClear = document.querySelector(".route-clear");
-const $streetsToggle = document.querySelector(".streets-toggle");
-const $stairsToggle  = document.querySelector(".stairs-toggle");
-
-
 function applyStreetsState(visible) {
   document.documentElement.classList.toggle('streets-hidden', !visible);
-  $streetsToggle.classList.toggle('off', !visible);
 }
 const _streetsStored = localStorage.getItem('cowtography.streets');
 applyStreetsState(_streetsStored !== '0');
 
-$streetsToggle.addEventListener('click', () => {
-  const nowVisible = document.documentElement.classList.contains('streets-hidden');
-  applyStreetsState(nowVisible);
-  localStorage.setItem('cowtography.streets', nowVisible ? '1' : '0');
-});
-
 function applyStairsState(visible) {
   document.documentElement.classList.toggle('stairs-hidden', !visible);
-  $stairsToggle.classList.toggle('off', !visible);
 }
 const _stairsStored = localStorage.getItem('cowtography.stairs');
 applyStairsState(_stairsStored !== '0');
 
-$stairsToggle.addEventListener('click', () => {
-  const nowVisible = document.documentElement.classList.contains('stairs-hidden');
-  applyStairsState(nowVisible);
-  localStorage.setItem('cowtography.stairs', nowVisible ? '1' : '0');
-});
+if (panel.menu && typeof panel.menu.show === "function") {
+  document.addEventListener("contextmenu", (e) => {
+    const isWorld = displayedMapId === 99;
+    const streetsOn = !document.documentElement.classList.contains('streets-hidden');
+    const stairsOn  = !document.documentElement.classList.contains('stairs-hidden');
+    const items = [{ header: true, label: "Map" }];
+    if (!isWorld) {
+      items.push(
+        { label: "Street names", checked: streetsOn, onClick: () => {
+            applyStreetsState(!streetsOn);
+            localStorage.setItem('cowtography.streets', streetsOn ? '0' : '1');
+        }},
+        { label: "Stairs", checked: stairsOn, onClick: () => {
+            applyStairsState(!stairsOn);
+            localStorage.setItem('cowtography.stairs', stairsOn ? '0' : '1');
+        }},
+      );
+    }
+    panel.menu.show(e, items);
+  });
+}
 
 // ─── Stack visibility ─────────────────────────────────────────────────────
 function setStackRoomVisible(svg, id, visible) {
@@ -363,9 +367,7 @@ async function loadSvgMap(mapId, x, y) {
   displayedMapId = mapId;
   panel.post("map_changed", { name: meta.file.replace(/\.\w+$/, '') });
   const isWorld = mapId === 99;
-  $streetsToggle.hidden = isWorld;
-  $stairsToggle.hidden  = isWorld;
-  $footer.hidden        = isWorld;
+  $footer.hidden = isWorld;
   centerOnRoom(x, y);
   wireTooltip();
   // Hide all upper-floor rooms on this map by default.

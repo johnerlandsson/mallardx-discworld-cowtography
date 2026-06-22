@@ -299,44 +299,10 @@ body {
 /* ─── Street name layer ────────────────────────────────────────────────────── */
 :root.streets-hidden #layer-streets { display: none; }
 
-.streets-toggle {
-  height: 18px;
-  padding: 0 5px;
-  background: color-mix(in srgb, var(--fg, #ddd) 20%, transparent);
-  color: var(--fg);
-  border: 1px solid var(--border);
-  border-radius: 3px;
-  cursor: pointer;
-  font-size: 10px;
-  line-height: 1;
-  white-space: nowrap;
-  flex: 0 0 auto;
-}
-.streets-toggle:hover { background: color-mix(in srgb, var(--fg, #ddd) 30%, transparent); }
-.streets-toggle.off   { background: color-mix(in srgb, var(--fg, #ddd) 10%, transparent); }
-.streets-toggle.off:hover { background: color-mix(in srgb, var(--fg, #ddd) 20%, transparent); }
-
 .street-name { fill: color-mix(in srgb, var(--fg) 60%, var(--bg)); font-family: "Noto Sans", sans-serif; }
 
 /* ─── Stair symbol layer ───────────────────────────────────────────────────── */
 :root.stairs-hidden #layer-stairs { display: none; }
-
-.stairs-toggle {
-  height: 18px;
-  padding: 0 5px;
-  background: color-mix(in srgb, var(--fg, #ddd) 20%, transparent);
-  color: var(--fg);
-  border: 1px solid var(--border);
-  border-radius: 3px;
-  cursor: pointer;
-  font-size: 10px;
-  line-height: 1;
-  white-space: nowrap;
-  flex: 0 0 auto;
-}
-.stairs-toggle:hover { background: color-mix(in srgb, var(--fg, #ddd) 30%, transparent); }
-.stairs-toggle.off   { background: color-mix(in srgb, var(--fg, #ddd) 10%, transparent); }
-.stairs-toggle.off:hover { background: color-mix(in srgb, var(--fg, #ddd) 20%, transparent); }
 
 /* ─── World map terrain (discwhole.svg) ──────────────────────────────────── */
 .terrain-mountain      { fill: #595959; }
@@ -350,8 +316,8 @@ body {
 .terrain-field         { fill: #5e7a28; }
 .terrain-ice           { fill: #4888a8; }
 .terrain-snow          { fill: #d8d8d4; }
-.terrain-road          { fill: none; stroke: #b07040; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; }
-.terrain-location      { fill: #f0c84a; stroke: #c8a020; stroke-width: 0.5; }
+.terrain-road          { fill: none; stroke: #d4904a; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.terrain-location      { fill: #e84040; stroke: #a02020; stroke-width: 0.5; }
 
 [data-theme="light"] .terrain-mountain      { fill: #b0b0b0; }
 [data-theme="light"] .terrain-desert        { fill: #c8a050; }
@@ -365,4 +331,4 @@ body {
 [data-theme="light"] .terrain-ice           { fill: #88c0d8; }
 [data-theme="light"] .terrain-snow          { fill: #f4f4f0; }
 [data-theme="light"] .terrain-road          { stroke: #7a4818; }
-[data-theme="light"] .terrain-location      { fill: #d4a010; stroke: #a07808; }
+[data-theme="light"] .terrain-location      { fill: #c02828; stroke: #801818; }
