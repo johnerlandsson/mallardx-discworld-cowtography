@@ -778,6 +778,11 @@ panel.on("room_info", async (frame) => {
     lastKnownMapId = next.mapId;
     next.roomId = frame.identifier ?? null;
   }
+  if (current !== null && routeRoomIds.length > 0 &&
+      current.roomId != null && next?.roomId != null &&
+      next.roomId !== current.roomId) {
+    clearRoute();
+  }
   current = next;
   applyState();
   updateHeader();
@@ -802,7 +807,7 @@ panel.on("route_set", (frame) => {
 
 panel.on("walk_active", () => { $routeWalk.disabled = true; $routeClear.disabled = true; });
 
-panel.on("route_clear", () => {
+function clearRoute() {
   routeRoomIds = [];
   applyState();
   $routeDest.textContent = '';
@@ -810,7 +815,9 @@ panel.on("route_clear", () => {
   $routeClear.hidden = true;
   $routeWalk.disabled = false;
   $routeClear.disabled = false;
-});
+}
+
+panel.on("route_clear", clearRoute);
 
 panel.on("target_move", async (frame) => {
   const next = resolveRoom(data, frame);
