@@ -118,6 +118,7 @@ let lspaceAnim     = null;  // requestAnimationFrame id for L-space bouncer
 let tshopAnim      = null;  // requestAnimationFrame id for tshop hyperspace canvas
 let tshopCanvas    = null;  // the canvas element itself (position:fixed, needs explicit removal)
 let darkMode       = false; // true while in a room without a GMCP identifier
+let walkActive     = false; // true while auto-walk is running
 
 // ─── ViewBox ──────────────────────────────────────────────────────────────
 const ZOOM_FACTOR  = 1.3;
@@ -787,7 +788,7 @@ panel.on("room_info", async (frame) => {
     lastKnownMapId = next.mapId;
     next.roomId = frame.identifier ?? null;
   }
-  if (current !== null && routeRoomIds.length > 0 &&
+  if (!walkActive && current !== null && routeRoomIds.length > 0 &&
       current.roomId != null && next?.roomId != null &&
       next.roomId !== current.roomId) {
     clearRoute();
@@ -814,9 +815,10 @@ panel.on("route_set", (frame) => {
   }
 });
 
-panel.on("walk_active", () => { $routeWalk.disabled = true; $routeClear.disabled = true; });
+panel.on("walk_active", () => { walkActive = true; $routeWalk.disabled = true; $routeClear.disabled = true; });
 
 function clearRoute() {
+  walkActive = false;
   routeRoomIds = [];
   applyState();
   $routeDest.textContent = '';

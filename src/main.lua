@@ -945,6 +945,7 @@ mud.command("db", function(m)
     note(string.format('  %sdb npcitem <name>          search items carried by NPCs', p), C.alt)
     note('  ─────────────────────────────────────────────────────', C.rule)
     note(string.format('  %sdb <number>                route to result and walk', p), C.alt)
+    note(string.format('  %sdb route <number>          set route without walking', p), C.alt)
     note(string.format('  %sdb walk                    start or resume walking', p), C.alt)
     note(string.format('  %sdb clear                   clear current route', p), C.alt)
     note('  ─────────────────────────────────────────────────────', C.rule)
@@ -983,6 +984,12 @@ mud.command("db", function(m)
   local n = args:match('^(%d+)$')
   if n then
     do_route(tonumber(n), true)
+    return
+  end
+
+  local route_n = args:match('^route%s+(%d+)$')
+  if route_n then
+    do_route(tonumber(route_n), false)
     return
   end
 
