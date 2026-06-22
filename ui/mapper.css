@@ -350,15 +350,19 @@ body {
 .terrain-field         { fill: #5e7a28; }
 .terrain-ice           { fill: #4888a8; }
 .terrain-snow          { fill: #d8d8d4; }
+.terrain-road          { fill: none; stroke: #b07040; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; }
+.terrain-location      { fill: #f0c84a; stroke: #c8a020; stroke-width: 0.5; }
 
-.light-bg .terrain-mountain      { fill: #b0b0b0; }
-.light-bg .terrain-desert        { fill: #c8a050; }
-.light-bg .terrain-water         { fill: #5090c0; }
-.light-bg .terrain-tundra        { fill: #888a50; }
-.light-bg .terrain-grass         { fill: #50a050; }
-.light-bg .terrain-dense-forrest { fill: #1a6a18; }
-.light-bg .terrain-forrest       { fill: #357a40; }
-.light-bg .terrain-plains        { fill: #90b840; }
-.light-bg .terrain-field         { fill: #a0c038; }
-.light-bg .terrain-ice           { fill: #88c0d8; }
-.light-bg .terrain-snow          { fill: #f4f4f0; }
+[data-theme="light"] .terrain-mountain      { fill: #b0b0b0; }
+[data-theme="light"] .terrain-desert        { fill: #c8a050; }
+[data-theme="light"] .terrain-water         { fill: #5090c0; }
+[data-theme="light"] .terrain-tundra        { fill: #888a50; }
+[data-theme="light"] .terrain-grass         { fill: #50a050; }
+[data-theme="light"] .terrain-dense-forrest { fill: #1a6a18; }
+[data-theme="light"] .terrain-forrest       { fill: #357a40; }
+[data-theme="light"] .terrain-plains        { fill: #90b840; }
+[data-theme="light"] .terrain-field         { fill: #a0c038; }
+[data-theme="light"] .terrain-ice           { fill: #88c0d8; }
+[data-theme="light"] .terrain-snow          { fill: #f4f4f0; }
+[data-theme="light"] .terrain-road          { stroke: #7a4818; }
+[data-theme="light"] .terrain-location      { fill: #d4a010; stroke: #a07808; }

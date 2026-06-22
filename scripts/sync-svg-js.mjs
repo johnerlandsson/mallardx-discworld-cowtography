@@ -36,6 +36,8 @@ const WORLD_TERRAIN_LABELS = {
   'Field':        'terrain-field',
   'Ice':          'terrain-ice',
   'Snow':         'terrain-snow',
+  'Road':         'terrain-road',
+  'Location':     'terrain-location',
 }
 
 export function processWorldMapSvg(svg) {
