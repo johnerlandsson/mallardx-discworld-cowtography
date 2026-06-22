@@ -191,6 +191,8 @@ end
 panel:on_message("ready", function()
   local zoom = storage.get('zoom')
   if type(zoom) == 'table' then panel:post('zoom_data', zoom) end
+  local filters = storage.get('filters')
+  if type(filters) == 'table' then panel:post('filters_data', filters) end
   if lib_in_lspace then
     panel:post("lspace", {})
   elseif lib_in_library then
@@ -216,6 +218,10 @@ events.on("cowtography:region_request", function()
   if current_map then
     events.emit("cowtography:region_changed", { map = current_map })
   end
+end)
+
+panel:on_message("save_filters", function(data)
+  storage.set('filters', data)
 end)
 
 panel:on_message("save_zoom", function(data)

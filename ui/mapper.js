@@ -33,14 +33,12 @@ const $routeClear = document.querySelector(".route-clear");
 function applyStreetsState(visible) {
   document.documentElement.classList.toggle('streets-hidden', !visible);
 }
-const _streetsStored = localStorage.getItem('cowtography.streets');
-applyStreetsState(_streetsStored !== '0');
+applyStreetsState(true);  // default on; overridden by filters_data on ready
 
 function applyStairsState(visible) {
   document.documentElement.classList.toggle('stairs-hidden', !visible);
 }
-const _stairsStored = localStorage.getItem('cowtography.stairs');
-applyStairsState(_stairsStored !== '0');
+applyStairsState(true);  // default on; overridden by filters_data on ready
 
 if (panel.menu && typeof panel.menu.show === "function") {
   document.addEventListener("contextmenu", (e) => {
@@ -52,11 +50,11 @@ if (panel.menu && typeof panel.menu.show === "function") {
       items.push(
         { label: "Street names", checked: streetsOn, onClick: () => {
             applyStreetsState(!streetsOn);
-            localStorage.setItem('cowtography.streets', streetsOn ? '0' : '1');
+            panel.post("save_filters", { streets: !streetsOn, stairs: stairsOn });
         }},
         { label: "Stairs", checked: stairsOn, onClick: () => {
             applyStairsState(!stairsOn);
-            localStorage.setItem('cowtography.stairs', stairsOn ? '0' : '1');
+            panel.post("save_filters", { streets: streetsOn, stairs: !stairsOn });
         }},
       );
     }
@@ -725,6 +723,11 @@ $container.addEventListener("pointercancel", () => {
 // ─── Host messages ────────────────────────────────────────────────────────
 panel.on("zoom_data", (frame) => {
   for (const [k, v] of Object.entries(frame)) savedZoom.set(Number(k), v);
+});
+
+panel.on("filters_data", (frame) => {
+  applyStreetsState(frame.streets !== false);
+  applyStairsState(frame.stairs  !== false);
 });
 
 panel.on("room_dark", () => { darkMode = true;  applyState(); });
