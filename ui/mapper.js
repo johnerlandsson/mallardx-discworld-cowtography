@@ -360,6 +360,7 @@ async function loadSvgMap(mapId, x, y) {
     viewBox.h = viewBox.w * ratio;
   }
   displayedMapId = mapId;
+  panel.post("map_changed", { name: meta.file.replace(/\.\w+$/, '') });
   const isWorld = mapId === 99;
   $streetsToggle.hidden = isWorld;
   $stairsToggle.hidden  = isWorld;
@@ -517,6 +518,14 @@ function wireTooltip() {
   });
   currentSvg.addEventListener("pointerleave", () => { panel.tooltip.hide(); });
 }
+
+$footer.addEventListener("pointerenter", () => {
+  const text = $routeDest.textContent;
+  if (!text) return;
+  const r = $footer.getBoundingClientRect();
+  panel.tooltip.show({ x: r.left, y: r.top, width: r.width, height: r.height }, { title: text });
+});
+$footer.addEventListener("pointerleave", () => { panel.tooltip.hide(); });
 
 // ─── Header ───────────────────────────────────────────────────────────────
 function updateHeader() {

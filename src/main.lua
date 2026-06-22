@@ -204,6 +204,10 @@ panel:on_message("ready", function()
   end
 end)
 
+panel:on_message("map_changed", function(data)
+  vars.set("cowtography.map", data.name)
+end)
+
 panel:on_message("save_zoom", function(data)
   local zoom = storage.get('zoom')
   if type(zoom) ~= 'table' then zoom = {} end
