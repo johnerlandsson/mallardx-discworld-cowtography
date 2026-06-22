@@ -204,8 +204,18 @@ panel:on_message("ready", function()
   end
 end)
 
+local current_map = nil
+
 panel:on_message("map_changed", function(data)
+  current_map = data.name
   vars.set("cowtography.map", data.name)
+  events.emit("cowtography:region_changed", { map = data.name })
+end)
+
+events.on("cowtography:region_request", function()
+  if current_map then
+    events.emit("cowtography:region_changed", { map = current_map })
+  end
 end)
 
 panel:on_message("save_zoom", function(data)
