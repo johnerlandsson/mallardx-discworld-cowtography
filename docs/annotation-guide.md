@@ -148,6 +148,62 @@ Add these presentation attributes so elements are visible in Inkscape (CSS overr
 | `<rect class="city-sign">` | `stroke` | `#eaeaea` |
 | `<text class="city-sign-label">` | `fill` | `#eaeaea` |
 
+## World Map (discwhole.svg)
+
+The world map is entirely hand-crafted — `build:svg` never touches it. The coordinate space matches GMCP exactly (5809 × 5000) so game positions place the player dot with no transformation.
+
+### Layers
+
+| Layer | Purpose | Notes |
+|---|---|---|
+| `layer-base` | Dark "here be dragons" background | Do not edit — contains the watermark pattern |
+| `layer-terrain` | Biome fills | Add paths here |
+| `layer-labels` | Ocean and region names | Add text here |
+| `layer-player` | Player position dot | Do not edit |
+
+Work only in **`layer-terrain`** and **`layer-labels`**. Always keep `layer-player` as the topmost layer.
+
+### Terrain paths
+
+Paint terrain regions as closed `<path>` elements in `layer-terrain`. After drawing, give each path an **`inkscape:label`** in the XML editor — this is how `sync:svg` assigns the CSS class.
+
+Labels follow the `NameNN` convention (e.g. `Forrest01`, `Forrest02`) so multiple separate paths can share the same terrain type. The trailing number is stripped when assigning the CSS class.
+
+| inkscape:label | CSS class | Dark | Light |
+|---|---|---|---|
+| `Mountain01`, `Mountain02`, … | `terrain-mountain` | `#595959` | `#b0b0b0` |
+| `Desert01`, … | `terrain-desert` | `#7a5a1a` | `#c8a050` |
+| `Water01`, … | `terrain-water` | `#1a3a5c` | `#5090c0` |
+| `Tundra01`, … | `terrain-tundra` | `#4a5020` | `#888a50` |
+| `Grass01`, … | `terrain-grass` | `#2a6a2a` | `#50a050` |
+| `DenseForrest01`, … | `terrain-dense-forrest` | `#0d2a0e` | `#1a6a18` |
+| `Forrest01`, … | `terrain-forrest` | `#1a4a20` | `#357a40` |
+| `Plains01`, … | `terrain-plains` | `#4a6a20` | `#90b840` |
+| `Field01`, … | `terrain-field` | `#5e7a28` | `#a0c038` |
+| `Ice01`, … | `terrain-ice` | `#4888a8` | `#88c0d8` |
+| `Snow01`, … | `terrain-snow` | `#d8d8d4` | `#f4f4f0` |
+
+**Inkscape visibility:** CSS classes don't resolve inside Inkscape. Add a `fill` attribute (or Inkscape's `style="display:inline;fill:#..."`) on the path so you can see what you're painting. At runtime, `sync:svg` strips this inline fill and the CSS class takes over.
+
+### Adding new terrain types
+
+1. In Inkscape, label the path with a new `inkscape:label` using the `NameNN` convention (e.g. `Tundra01`)
+2. Add the base name → CSS class entry to `WORLD_TERRAIN_LABELS` in `scripts/sync-svg-js.mjs`
+3. Add dark and light CSS rules in `ui/mapper.css` following the existing pattern
+
+### Text labels
+
+Place `<text>` elements in `layer-labels` for ocean names, region labels, etc. `sync:svg` automatically adds `class="map-label"` to all text elements in the world map, so Noto Sans is applied at runtime. Set `font-size` as an SVG attribute for positioning. Use `fill="#c8a060"` (or similar) as a presentation attribute so labels are visible in Inkscape.
+
+### Workflow
+
+1. Edit `ui/maps/discwhole.svg` in Inkscape, working in `layer-terrain` or `layer-labels`
+2. Save in Inkscape
+3. Run `npm run sync:svg` — this strips inline styles, injects terrain classes, and bundles the SVG
+4. Reload the plugin in Mallard
+
+`build:svg` is never needed for the world map.
+
 ## The anno-box Pattern
 
 An annotation box is:
