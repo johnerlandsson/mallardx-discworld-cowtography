@@ -1,11 +1,11 @@
 id                  = "net.mallard.discworld-cowtography"
 name                = "Discworld Cowtography"
-version             = "0.19.0"
+version             = "0.20.0"
 description         = "Minimap and database search for Discworld MUD. Search Quow's database for rooms, items, shops and NPCs, speedwalk to any result, and view the map panel as you move."
 language            = "lua"
 entry               = "src/main.lua"
 mallard_api_version = "1.0"
-minimum_app_version = "0.9.1"
+minimum_app_version = "0.11.0"
 authors             = ["John Erlandsson"]
 license             = "MIT"
 
