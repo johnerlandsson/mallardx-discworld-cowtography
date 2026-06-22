@@ -668,7 +668,6 @@ gmcp.on('room.info', function(_, data)
       if walk_pos < #walk_steps then
         walk_pos = walk_pos + 1
         local remaining = #walk_steps - walk_pos + 1
-        mud.send(walk_steps[walk_pos])
         note(string.format('  %d move%s remaining.', remaining, remaining == 1 and '' or 's'), C.muted)
       else
         walk_arrived(walk_target_name)
@@ -684,7 +683,6 @@ gmcp.on('room.info', function(_, data)
       if walk_pos < #walk_steps then
         walk_pos = walk_pos + 1
         local remaining = #walk_steps - walk_pos + 1
-        mud.send(walk_steps[walk_pos])
         note(string.format('  %d move%s remaining.', remaining, remaining == 1 and '' or 's'), C.muted)
       else
         walk_arrived(walk_target_name)
@@ -890,7 +888,7 @@ route_to_room = function(room_id, display_name, walk_immediately)
   if walk_immediately then
     walk_pos = 1
     note(string.format('  Walking to "%s" — %d move%s.', display_name, steps, steps == 1 and '' or 's'), C.ok)
-    mud.send(walk_steps[1])
+    for _, step in ipairs(walk_steps) do mud.send(step) end
     panel:post("walk_active", {})
   else
     walk_pos = 0
@@ -907,7 +905,7 @@ panel:on_message("walk_request", function(_frame)
   walk_pos = 1
   note(string.format('  Walking to "%s" — %d move%s.',
     walk_target_name, #walk_steps, #walk_steps == 1 and '' or 's'), C.ok)
-  mud.send(walk_steps[1])
+  for _, step in ipairs(walk_steps) do mud.send(step) end
   panel:post("walk_active", {})
 end)
 
