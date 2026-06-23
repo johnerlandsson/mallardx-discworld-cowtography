@@ -299,7 +299,6 @@ panel.on("room_info", async (frame) => {
   current = next;
   if ((roomChanged && prevCurrent !== null) || wasInDark) {
     activeRenderer?.applyState(getState());
-    if (targetArrived) target = null;
   }
   updateHeader();
 });
