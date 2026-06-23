@@ -153,6 +153,9 @@ function rewireZoom() {
   $zoomOut.hidden = !supported;
 }
 
+// ─── Resize observer for PNG canvas ───────────────────────────────────────
+new ResizeObserver(() => activeRenderer?.handleResize()).observe($container);
+
 // ─── Context menu ─────────────────────────────────────────────────────────
 function rewireContextMenu() {
   contextMenuController?.abort();
@@ -353,8 +356,8 @@ panel.on("library_position", async (frame) => {
   }
   lastKnownMapId = 47;
   current = next;
-  activeRenderer?.applyLibraryPosition?.(frame.x, frame.y);
   activeRenderer?.applyState(getState());
+  activeRenderer?.applyLibraryPosition?.(frame.x, frame.y);
   updateHeader();
 });
 
