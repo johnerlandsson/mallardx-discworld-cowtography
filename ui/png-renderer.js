@@ -61,7 +61,7 @@ export class PngRenderer {
     const img = document.createElement("img");
     img.className = "png-map-img";
     img.style.cssText = "display:block;max-width:100%;max-height:100%;object-fit:contain;";
-    img.src = `ui/maps/${meta.file}`;
+    img.src = `maps/${meta.file}`;
 
     const canvas = document.createElement("canvas");
     canvas.className = "png-map-canvas";
