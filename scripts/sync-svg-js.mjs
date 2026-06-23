@@ -34,9 +34,12 @@ const WORLD_TERRAIN_LABELS = {
   'Forrest':      'terrain-forrest',
   'Plains':       'terrain-plains',
   'Field':        'terrain-field',
+  'Lowlands':     'terrain-lowlands',
   'Ice':          'terrain-ice',
   'Snow':         'terrain-snow',
   'Road':         'terrain-road',
+  'River':        'terrain-river',
+  'Beach':        'terrain-beach',
   'Location':     'terrain-location',
 }
 

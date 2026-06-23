@@ -186,6 +186,8 @@ body {
 .map-label-muted { fill: color-mix(in srgb, var(--fg) 60%, var(--bg)); font-family: "Noto Sans", sans-serif; }
 .map-label-accent { fill: var(--accent); font-family: "Noto Sans", sans-serif; }
 .map-label-water  { fill: #4a9fd4;    font-family: "Noto Sans", sans-serif; }
+.label-town { fill: var(--fg); font-family: "Noto Sans", sans-serif; font-weight: 600; line-height: 1.1; }
+.label-geo  { fill: color-mix(in srgb, var(--fg) 55%, var(--bg)); font-family: "Noto Sans", sans-serif; font-style: italic; letter-spacing: 0.1em; line-height: 1.1; }
 [data-theme="light"] .map-label-water { fill: #2d7aad; }
 .map-area-fill              { fill: rgba(255, 255, 255, 0.07); }
 [data-theme="light"] .map-area-fill   { fill: rgba(0,   0,   0,   0.10); }
@@ -314,9 +316,12 @@ body {
 .terrain-forrest       { fill: #1a4a20; }
 .terrain-plains        { fill: #4a6a20; }
 .terrain-field         { fill: #5e7a28; }
+.terrain-lowlands      { fill: #546e24; }
 .terrain-ice           { fill: #4888a8; }
 .terrain-snow          { fill: #d8d8d4; }
 .terrain-road          { fill: none; stroke: #d4904a; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.terrain-river         { fill: none; stroke: #1a3a5c; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.terrain-beach         { fill: #c8b870; }
 .terrain-location      { fill: #e84040; stroke: #a02020; stroke-width: 0.5; }
 
 [data-theme="light"] .terrain-mountain      { fill: #b0b0b0; }
@@ -328,7 +333,10 @@ body {
 [data-theme="light"] .terrain-forrest       { fill: #357a40; }
 [data-theme="light"] .terrain-plains        { fill: #90b840; }
 [data-theme="light"] .terrain-field         { fill: #a0c038; }
+[data-theme="light"] .terrain-lowlands      { fill: #96b03c; }
 [data-theme="light"] .terrain-ice           { fill: #88c0d8; }
 [data-theme="light"] .terrain-snow          { fill: #f4f4f0; }
 [data-theme="light"] .terrain-road          { stroke: #7a4818; }
+[data-theme="light"] .terrain-river         { stroke: #5090c0; }
+[data-theme="light"] .terrain-beach         { fill: #e8d888; }
 [data-theme="light"] .terrain-location      { fill: #c02828; stroke: #801818; }
