@@ -20,12 +20,13 @@ export class PngRenderer {
   #data;
   #callbacks;
 
-  #img       = null;
-  #canvas    = null;
-  #wrap      = null;
-  #mapId     = null;
-  #lastState = null;
-  #scale     = 1;
+  #img         = null;
+  #canvas      = null;
+  #wrap        = null;
+  #mapId       = null;
+  #lastState   = null;
+  #scale       = 1;
+  #savedScales = new Map();
   #savedOverflow = '';
 
   #pendingClick = null;
@@ -67,6 +68,7 @@ export class PngRenderer {
       this.#wrap = null;
     }
 
+    if (this.#mapId !== null) this.#savedScales.set(this.#mapId, this.#scale);
     this.#mapId = mapId;
 
     const img = document.createElement("img");
@@ -103,7 +105,9 @@ export class PngRenderer {
       img.onerror = () => reject(new Error(`Failed to load PNG: ${img.src}`));
     });
 
-    this.#scale = this.#fitScale();
+    const fit = this.#fitScale();
+    const saved = this.#savedScales.get(mapId);
+    this.#scale = saved !== undefined ? Math.max(fit, saved) : fit;
     this.#applyDimensions();
 
     this.#callbacks.onMapLoaded(mapId);
@@ -162,6 +166,7 @@ export class PngRenderer {
 
   #applyDimensions() {
     if (!this.#img?.naturalWidth) return;
+    if (this.#mapId !== null) this.#savedScales.set(this.#mapId, this.#scale);
     const w = Math.round(this.#img.naturalWidth  * this.#scale);
     const h = Math.round(this.#img.naturalHeight * this.#scale);
     this.#img.style.width  = `${w}px`;
