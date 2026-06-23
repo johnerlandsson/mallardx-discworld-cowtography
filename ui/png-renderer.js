@@ -1,4 +1,6 @@
 const PNG_CLICK_THRESHOLD = 20;  // px — max distance to nearest room for a click to register
+const PNG_ZOOM_FACTOR = 1.25;
+const PNG_MAX_SCALE   = 8;
 
 export function findNearestRoom(rooms, mapId, px, py) {
   let bestId = null, bestDist = Infinity;
@@ -11,7 +13,7 @@ export function findNearestRoom(rooms, mapId, px, py) {
 }
 
 export class PngRenderer {
-  supportsZoom    = false;
+  supportsZoom    = true;
   supportsFilters = false;
 
   #container;
@@ -23,22 +25,28 @@ export class PngRenderer {
   #wrap      = null;
   #mapId     = null;
   #lastState = null;
+  #scale     = 1;
+  #savedOverflow = '';
 
-  #pendingClick = null;
+  #pendingClick    = null;
   #onPointerdown;
   #onPointermove;
   #onPointerup;
   #onPointercancel;
+  #onWheel;
 
   constructor($container, data, callbacks) {
     this.#container = $container;
     this.#data      = data;
     this.#callbacks = callbacks;
+    this.#savedOverflow = $container.style.overflow;
+    $container.style.overflow = 'auto';
 
     this.#onPointerdown   = this.#handlePointerdown.bind(this);
     this.#onPointermove   = this.#handlePointermove.bind(this);
     this.#onPointerup     = this.#handlePointerup.bind(this);
     this.#onPointercancel = this.#handlePointercancel.bind(this);
+    this.#onWheel         = this.#handleWheel.bind(this);
   }
 
   async load(mapId, _centerX, _centerY) {
@@ -52,6 +60,7 @@ export class PngRenderer {
       this.#wrap.removeEventListener("pointermove",   this.#onPointermove);
       this.#wrap.removeEventListener("pointerup",     this.#onPointerup);
       this.#wrap.removeEventListener("pointercancel", this.#onPointercancel);
+      this.#container.removeEventListener("wheel",    this.#onWheel);
       this.#wrap.remove();
       this.#wrap = null;
     }
@@ -60,7 +69,7 @@ export class PngRenderer {
 
     const img = document.createElement("img");
     img.className = "png-map-img";
-    img.style.cssText = "display:block;max-width:100%;max-height:100%;object-fit:contain;";
+    img.style.cssText = "display:block;image-rendering:pixelated;";
     img.src = `maps/${meta.file}`;
 
     const canvas = document.createElement("canvas");
@@ -81,6 +90,7 @@ export class PngRenderer {
     wrap.addEventListener("pointermove",   this.#onPointermove);
     wrap.addEventListener("pointerup",     this.#onPointerup);
     wrap.addEventListener("pointercancel", this.#onPointercancel);
+    this.#container.addEventListener("wheel", this.#onWheel, { passive: false });
 
     const anchor = this.#container.querySelector(".lspace-overlay, .special-screen");
     this.#container.insertBefore(wrap, anchor);
@@ -89,6 +99,9 @@ export class PngRenderer {
       img.onload  = resolve;
       img.onerror = () => reject(new Error(`Failed to load PNG: ${img.src}`));
     });
+
+    this.#scale = this.#fitScale();
+    this.#applyDimensions();
 
     this.#callbacks.onMapLoaded(mapId);
   }
@@ -99,29 +112,59 @@ export class PngRenderer {
   }
 
   handleResize() {
-    if (this.#lastState) this.#drawState(this.#lastState);
+    if (!this.#img?.naturalWidth) return;
+    const fit = this.#fitScale();
+    if (this.#scale <= fit * 1.01) this.#scale = fit;
+    this.#applyDimensions();
   }
 
   destroy() {
+    this.#container.style.overflow = this.#savedOverflow;
     if (!this.#wrap) return;
     this.#wrap.removeEventListener("pointerdown",   this.#onPointerdown);
     this.#wrap.removeEventListener("pointermove",   this.#onPointermove);
     this.#wrap.removeEventListener("pointerup",     this.#onPointerup);
     this.#wrap.removeEventListener("pointercancel", this.#onPointercancel);
+    this.#container.removeEventListener("wheel",    this.#onWheel);
     this.#wrap.remove();
     this.#wrap = null; this.#img = null; this.#canvas = null;
   }
 
-  // No-op methods to satisfy the interface when coordinator calls these unconditionally:
-  centerOn()            {}
-  zoomIn()              {}
-  zoomOut()             {}
-  pan()                 {}
-  zoom()                {}
-  grabFocus()           {}
-  releaseFocus()        {}
+  zoomIn()       { this.#setScale(this.#scale * PNG_ZOOM_FACTOR); }
+  zoomOut()      { this.#setScale(this.#scale / PNG_ZOOM_FACTOR); }
+  zoom(factor)   { this.#setScale(this.#scale * factor); }
+  centerOn(x, y) {
+    if (!this.#img) return;
+    this.#container.scrollLeft = Math.max(0, x * this.#scale - this.#container.clientWidth  / 2);
+    this.#container.scrollTop  = Math.max(0, y * this.#scale - this.#container.clientHeight / 2);
+  }
+  pan()          {}
+  grabFocus()    {}
+  releaseFocus() {}
 
   // ─── Private helpers ─────────────────────────────────────────────────────
+
+  #fitScale() {
+    if (!this.#img?.naturalWidth) return 1;
+    const cw = this.#container.clientWidth;
+    const ch = this.#container.clientHeight;
+    if (!cw || !ch) return 1;
+    return Math.min(cw / this.#img.naturalWidth, ch / this.#img.naturalHeight);
+  }
+
+  #setScale(v) {
+    this.#scale = Math.max(this.#fitScale(), Math.min(PNG_MAX_SCALE, v));
+    this.#applyDimensions();
+  }
+
+  #applyDimensions() {
+    if (!this.#img?.naturalWidth) return;
+    const w = Math.round(this.#img.naturalWidth  * this.#scale);
+    const h = Math.round(this.#img.naturalHeight * this.#scale);
+    this.#img.style.width  = `${w}px`;
+    this.#img.style.height = `${h}px`;
+    if (this.#lastState) this.#drawState(this.#lastState);
+  }
 
   #drawState({ current, target, routeRoomIds }) {
     if (!this.#img || !this.#canvas) return;
@@ -166,7 +209,6 @@ export class PngRenderer {
     const primary = target ?? current;
     const primaryRoom = primary?.roomId ? rooms[primary.roomId] : null;
     if (primary && !primary.roomId) {
-      // Position by x/y coords (no roomId, e.g. library or name-based fallback)
       ctx.beginPath();
       ctx.arc(toCanvasX(primary.x), toCanvasY(primary.y), 8, 0, Math.PI * 2);
       ctx.fillStyle = "#e0e040";
@@ -212,5 +254,26 @@ export class PngRenderer {
 
   #handlePointercancel() {
     this.#pendingClick = null;
+  }
+
+  #handleWheel(e) {
+    if (!this.#img?.naturalWidth) return;
+    e.preventDefault();
+
+    const factor   = e.deltaY < 0 ? PNG_ZOOM_FACTOR : 1 / PNG_ZOOM_FACTOR;
+    const oldScale = this.#scale;
+    const newScale = Math.max(this.#fitScale(), Math.min(PNG_MAX_SCALE, this.#scale * factor));
+    if (newScale === oldScale) return;
+
+    // Zoom toward cursor
+    const rect    = this.#container.getBoundingClientRect();
+    const cursorX = e.clientX - rect.left + this.#container.scrollLeft;
+    const cursorY = e.clientY - rect.top  + this.#container.scrollTop;
+
+    this.#scale = newScale;
+    this.#applyDimensions();
+
+    this.#container.scrollLeft = cursorX * (newScale / oldScale) - (e.clientX - rect.left);
+    this.#container.scrollTop  = cursorY * (newScale / oldScale) - (e.clientY - rect.top);
   }
 }
