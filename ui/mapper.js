@@ -262,7 +262,9 @@ panel.on("room_info", async (frame) => {
     next = activeRenderer?.findRoomByLabel?.(frame.name, displayedMapId) ?? null;
   }
   if (current?.mapId === 47 && (next === null || next.mapId === 47)) return;
-  // Defer clearing target until after applyState so renderers see the arrival as red/target
+  // Defer clearing target until after applyState so renderers see the arrival as red/target.
+  // Save it now — onMapLoaded (called during cross-map loadMap) unconditionally clears target.
+  const savedTarget   = target;
   const targetArrived = target !== null && frame.identifier != null && frame.identifier === target.roomId;
   if (next?.mapId !== displayedMapId) {
     if (target?.mapId === displayedMapId) {
@@ -270,6 +272,7 @@ panel.on("room_info", async (frame) => {
     } else if (next !== null) {
       try {
         await loadMap(next.mapId, next.x, next.y);
+        if (targetArrived) target = savedTarget;  // restore after onMapLoaded cleared it
       } catch (e) {
         console.error("[mapper] loadMap failed:", e);
         $mapName.textContent = "Map load failed";
