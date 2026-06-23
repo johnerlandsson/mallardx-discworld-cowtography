@@ -240,6 +240,7 @@ panel.on("map_style", async (frame) => {
     await loadMap(displayedMapId, x, y);
     activeRenderer?.applyState(getState());
   }
+  updateHeader();
 });
 
 panel.on("zoom_data", (frame) => {
