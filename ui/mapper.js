@@ -280,7 +280,7 @@ panel.on("room_info", async (frame) => {
       }
     }
   } else if (next !== null) {
-    if (!target || targetArrived) activeRenderer?.centerOn?.(next.x, next.y);
+    if (!target) activeRenderer?.centerOn?.(next.x, next.y);
   }
   if (next !== null) {
     lastKnownMapId = next.mapId;
