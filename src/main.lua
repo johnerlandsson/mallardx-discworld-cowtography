@@ -971,7 +971,7 @@ mud.command("db", function(m)
     end
     walk_pos = 1
     note(string.format('  Walking to "%s" — %d move%s.', walk_target_name, #walk_steps, #walk_steps == 1 and '' or 's'), C.ok)
-    mud.send(walk_steps[1], { silent = true })
+    for _, step in ipairs(walk_steps) do mud.send(step, { silent = true }) end
     panel:post("walk_active", {})
     return
   end
