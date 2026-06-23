@@ -14,6 +14,7 @@ import customRooms from "./data/room-custom.js";
 import { resolveRoom } from "./lookup.js";
 import { mapDidChange, headerText } from "./render.js";
 import { upperToGround, groundToUppers } from "./data/room-stacks.js";
+import { SvgRenderer } from "./svg-renderer.js";
 
 const data = { rooms: { ...rooms, ...customRooms }, maps, terrain };
 
