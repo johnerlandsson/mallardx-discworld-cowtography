@@ -52,7 +52,7 @@ export class PngRenderer {
     this.#onWheel         = this.#handleWheel.bind(this);
   }
 
-  async load(mapId, _centerX, _centerY) {
+  async load(mapId, centerX, centerY) {
     const meta = this.#data.maps[mapId];
     if (!meta) return;
 
@@ -109,6 +109,7 @@ export class PngRenderer {
     const saved = this.#savedScales.get(mapId);
     this.#scale = saved !== undefined ? Math.max(fit, saved) : fit;
     this.#applyDimensions();
+    if (centerX != null && centerY != null) this.centerOn(centerX, centerY);
 
     this.#callbacks.onMapLoaded(mapId);
   }
