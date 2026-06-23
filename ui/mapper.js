@@ -217,6 +217,7 @@ function updateHeader() {
 function clearRoute() {
   walkActive    = false;
   routeRoomIds  = [];
+  target        = null;
   activeRenderer?.applyState(getState());
   $routeDest.textContent = '';
   $routeWalk.hidden  = true;
