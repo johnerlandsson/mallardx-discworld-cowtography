@@ -262,9 +262,8 @@ panel.on("room_info", async (frame) => {
     next = activeRenderer?.findRoomByLabel?.(frame.name, displayedMapId) ?? null;
   }
   if (current?.mapId === 47 && (next === null || next.mapId === 47)) return;
-  if (target !== null && frame.identifier != null && frame.identifier === target.roomId) {
-    target = null;
-  }
+  // Defer clearing target until after applyState so renderers see the arrival as red/target
+  const targetArrived = target !== null && frame.identifier != null && frame.identifier === target.roomId;
   if (next?.mapId !== displayedMapId) {
     if (target?.mapId === displayedMapId) {
       // Proactive load already triggered — don't reload the old map
@@ -278,7 +277,7 @@ panel.on("room_info", async (frame) => {
       }
     }
   } else if (next !== null) {
-    if (!target) activeRenderer?.centerOn?.(next.x, next.y);
+    if (!target || targetArrived) activeRenderer?.centerOn?.(next.x, next.y);
   }
   if (next !== null) {
     lastKnownMapId = next.mapId;
@@ -291,6 +290,7 @@ panel.on("room_info", async (frame) => {
   }
   current = next;
   activeRenderer?.applyState(getState());
+  if (targetArrived) target = null;
   updateHeader();
 });
 
