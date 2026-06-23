@@ -30,6 +30,7 @@ export class PngRenderer {
   #savedOverflow = '';
 
   #mapJustLoaded = false;
+  #roomUnit      = null;
 
   #pendingClick = null;
   #isDragging   = false;
@@ -113,6 +114,7 @@ export class PngRenderer {
     this.#applyDimensions();
     if (centerX != null && centerY != null) this.centerOn(centerX, centerY);
 
+    this.#roomUnit = this.#computeRoomUnit(mapId);
     this.#callbacks.onMapLoaded(mapId);
     this.#mapJustLoaded = true;
   }
@@ -202,12 +204,16 @@ export class PngRenderer {
     const rooms = this.#data.rooms;
     const mapId = this.#mapId;
 
+    const dotR   = this.#roomUnit != null ? Math.max(2, this.#roomUnit * 0.3) * scaleX : 8;
+    const ghostR = dotR * 0.85;
+    const routeR = dotR * 0.65;
+
     // Route rooms — blue circles
     for (const id of routeRoomIds) {
       const room = rooms[id];
       if (!room || room[0] !== mapId) continue;
       ctx.beginPath();
-      ctx.arc(toCanvasX(room[1]), toCanvasY(room[2]), 5, 0, Math.PI * 2);
+      ctx.arc(toCanvasX(room[1]), toCanvasY(room[2]), routeR, 0, Math.PI * 2);
       ctx.fillStyle = "rgba(74, 159, 212, 0.8)";
       ctx.fill();
     }
@@ -217,7 +223,7 @@ export class PngRenderer {
       const room = rooms[current.roomId];
       if (room && room[0] === mapId) {
         ctx.beginPath();
-        ctx.arc(toCanvasX(room[1]), toCanvasY(room[2]), 7, 0, Math.PI * 2);
+        ctx.arc(toCanvasX(room[1]), toCanvasY(room[2]), ghostR, 0, Math.PI * 2);
         ctx.fillStyle = "rgba(136, 136, 136, 0.6)";
         ctx.fill();
       }
@@ -228,10 +234,10 @@ export class PngRenderer {
     const primaryRoom = primary?.roomId ? rooms[primary.roomId] : null;
     const drawDot = (cx, cy) => {
       ctx.beginPath();
-      ctx.arc(cx, cy, 8, 0, Math.PI * 2);
+      ctx.arc(cx, cy, dotR, 0, Math.PI * 2);
       ctx.fillStyle = dotColor;
       ctx.fill();
-      ctx.strokeStyle = "#ffffff"; ctx.lineWidth = 2;
+      ctx.strokeStyle = "#ffffff"; ctx.lineWidth = Math.max(1, scaleX * 1.5);
       ctx.stroke();
     };
     if (primary && !primary.roomId) {
@@ -239,6 +245,31 @@ export class PngRenderer {
     } else if (primaryRoom && primaryRoom[0] === mapId) {
       drawDot(toCanvasX(primaryRoom[1]), toCanvasY(primaryRoom[2]));
     }
+  }
+
+  #computeRoomUnit(mapId) {
+    const pts = [];
+    for (const room of Object.values(this.#data.rooms)) {
+      if (room[0] === mapId) pts.push([room[1], room[2]]);
+    }
+    if (pts.length < 2) return null;
+    pts.sort((a, b) => a[0] - b[0]);
+    const dists = [];
+    for (let i = 0; i < pts.length; i++) {
+      let best = Infinity;
+      for (let j = i - 1; j >= 0 && pts[i][0] - pts[j][0] < best; j--) {
+        const d = Math.hypot(pts[i][0] - pts[j][0], pts[i][1] - pts[j][1]);
+        if (d < best) best = d;
+      }
+      for (let j = i + 1; j < pts.length && pts[j][0] - pts[i][0] < best; j++) {
+        const d = Math.hypot(pts[i][0] - pts[j][0], pts[i][1] - pts[j][1]);
+        if (d < best) best = d;
+      }
+      if (best < Infinity) dists.push(best);
+    }
+    if (!dists.length) return null;
+    dists.sort((a, b) => a - b);
+    return dists[Math.floor(dists.length / 2)];
   }
 
   #handlePointerdown(e) {
