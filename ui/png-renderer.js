@@ -214,9 +214,10 @@ export class PngRenderer {
       }
     }
 
-    // Position dot: red when a target is active (walking), yellow when stationary
+    // Position dot: red only when target is a different room (actively in transit), yellow otherwise
+    const isMoving    = target !== null && target.roomId !== current?.roomId;
     const primary     = target ?? current;
-    const dotColor    = target ? "#e03030" : "#e0e040";
+    const dotColor    = isMoving ? "#e03030" : "#e0e040";
     const primaryRoom = primary?.roomId ? rooms[primary.roomId] : null;
     const drawDot = (cx, cy) => {
       ctx.beginPath();
