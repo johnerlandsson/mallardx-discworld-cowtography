@@ -294,9 +294,10 @@ panel.on("room_info", async (frame) => {
       next.roomId !== current.roomId) {
     clearRoute();
   }
-  const roomChanged = next?.roomId !== current?.roomId || next?.mapId !== current?.mapId;
+  const prevCurrent = current;
+  const roomChanged = next?.roomId !== prevCurrent?.roomId || next?.mapId !== prevCurrent?.mapId;
   current = next;
-  if (roomChanged || wasInDark) {
+  if ((roomChanged && prevCurrent !== null) || wasInDark) {
     activeRenderer?.applyState(getState());
     if (targetArrived) target = null;
   }
