@@ -217,7 +217,6 @@ function updateHeader() {
 function clearRoute() {
   walkActive    = false;
   routeRoomIds  = [];
-  target        = null;
   activeRenderer?.applyState(getState());
   $routeDest.textContent = '';
   $routeWalk.hidden  = true;
@@ -323,6 +322,8 @@ panel.on("route_set", (frame) => {
 
 panel.on("walk_active", () => {
   walkActive = true;
+  target     = null;  // route walk sends all steps via mud.send (bypasses alias), so no target_moves will fire
+  activeRenderer?.applyState(getState());
   $routeWalk.disabled  = true;
   $routeClear.disabled = true;
 });
