@@ -193,6 +193,7 @@ panel:on_message("ready", function()
   if type(zoom) == 'table' then panel:post('zoom_data', zoom) end
   local filters = storage.get('filters')
   if type(filters) == 'table' then panel:post('filters_data', filters) end
+  panel:post("map_style", { style = settings.get('map_style') or 'svg' })
   if lib_in_lspace then
     panel:post("lspace", {})
   elseif lib_in_library then
@@ -532,7 +533,11 @@ world.on("disconnect", reset_walk)
 -- stays alive across setting changes instead of being restarted.
 -- walk_sound is read inline at point-of-use so no caching to update here.
 
-settings.on("change", function(_key, _new, _old) end)
+settings.on("change", function(key, new_val, _old)
+  if key == 'map_style' then
+    panel:post("map_style", { style = new_val })
+  end
+end)
 
 -- ─── Character name ──────────────────────────────────────────────────────────
 -- char.info.capname is the authoritative per-character name from GMCP.
