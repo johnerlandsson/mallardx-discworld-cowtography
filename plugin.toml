@@ -52,3 +52,13 @@ choices = [
   { value = "mallard:ding-dong2",     label = "Ding Dong 2"    },
   { value = "mallard:tritone-chime",  label = "Tritone Chime"  },
 ]
+
+[settings.map_style]
+type        = "enum"
+default     = "svg"
+label       = "Map style"
+description = "SVG vector maps or classic pixel art PNG maps from Quow's Cow Bar."
+choices = [
+  { value = "svg", label = "SVG (vector)"           },
+  { value = "png", label = "PNG (classic pixel art)" },
+]
