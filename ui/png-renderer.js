@@ -28,7 +28,9 @@ export class PngRenderer {
   #scale     = 1;
   #savedOverflow = '';
 
-  #pendingClick    = null;
+  #pendingClick = null;
+  #isDragging   = false;
+  #lastMovePos  = null;
   #onPointerdown;
   #onPointermove;
   #onPointerup;
@@ -205,37 +207,53 @@ export class PngRenderer {
       }
     }
 
-    // Player position — yellow dot with white ring
-    const primary = target ?? current;
+    // Position dot: red when a target is active (walking), yellow when stationary
+    const primary     = target ?? current;
+    const dotColor    = target ? "#e03030" : "#e0e040";
     const primaryRoom = primary?.roomId ? rooms[primary.roomId] : null;
+    const drawDot = (cx, cy) => {
+      ctx.beginPath();
+      ctx.arc(cx, cy, 8, 0, Math.PI * 2);
+      ctx.fillStyle = dotColor;
+      ctx.fill();
+      ctx.strokeStyle = "#ffffff"; ctx.lineWidth = 2;
+      ctx.stroke();
+    };
     if (primary && !primary.roomId) {
-      ctx.beginPath();
-      ctx.arc(toCanvasX(primary.x), toCanvasY(primary.y), 8, 0, Math.PI * 2);
-      ctx.fillStyle = "#e0e040";
-      ctx.fill();
-      ctx.strokeStyle = "#ffffff"; ctx.lineWidth = 2;
-      ctx.stroke();
+      drawDot(toCanvasX(primary.x), toCanvasY(primary.y));
     } else if (primaryRoom && primaryRoom[0] === mapId) {
-      ctx.beginPath();
-      ctx.arc(toCanvasX(primaryRoom[1]), toCanvasY(primaryRoom[2]), 8, 0, Math.PI * 2);
-      ctx.fillStyle = "#e0e040";
-      ctx.fill();
-      ctx.strokeStyle = "#ffffff"; ctx.lineWidth = 2;
-      ctx.stroke();
+      drawDot(toCanvasX(primaryRoom[1]), toCanvasY(primaryRoom[2]));
     }
   }
 
   #handlePointerdown(e) {
     if (e.button !== 0) return;
     this.#pendingClick = { startX: e.clientX, startY: e.clientY };
+    this.#isDragging   = false;
+    this.#lastMovePos  = { x: e.clientX, y: e.clientY };
+    this.#container.style.cursor = "grab";
     this.#wrap.setPointerCapture(e.pointerId);
   }
 
   #handlePointermove(e) {
-    if (!this.#pendingClick) return;
-    const dx = e.clientX - this.#pendingClick.startX;
-    const dy = e.clientY - this.#pendingClick.startY;
-    if (Math.hypot(dx, dy) > 4) this.#pendingClick = null;
+    if (!this.#lastMovePos) return;
+
+    if (!this.#isDragging && this.#pendingClick) {
+      const dx = e.clientX - this.#pendingClick.startX;
+      const dy = e.clientY - this.#pendingClick.startY;
+      if (Math.hypot(dx, dy) > 4) {
+        this.#pendingClick = null;
+        this.#isDragging   = true;
+        this.#container.style.cursor = "grabbing";
+      }
+    }
+
+    if (this.#isDragging) {
+      this.#container.scrollLeft -= e.clientX - this.#lastMovePos.x;
+      this.#container.scrollTop  -= e.clientY - this.#lastMovePos.y;
+    }
+
+    this.#lastMovePos = { x: e.clientX, y: e.clientY };
   }
 
   #handlePointerup(e) {
@@ -250,10 +268,16 @@ export class PngRenderer {
       }
     }
     this.#pendingClick = null;
+    this.#isDragging   = false;
+    this.#lastMovePos  = null;
+    this.#container.style.cursor = "";
   }
 
   #handlePointercancel() {
     this.#pendingClick = null;
+    this.#isDragging   = false;
+    this.#lastMovePos  = null;
+    this.#container.style.cursor = "";
   }
 
   #handleWheel(e) {
