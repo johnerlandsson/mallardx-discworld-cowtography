@@ -262,20 +262,21 @@ panel.on("room_info", async (frame) => {
     next = activeRenderer?.findRoomByLabel?.(frame.name, displayedMapId) ?? null;
   }
   if (current?.mapId === 47 && (next === null || next.mapId === 47)) return;
-  // Defer clearing target until after applyState so renderers see the arrival as red/target.
-  // Save it now — onMapLoaded (called during cross-map loadMap) unconditionally clears target.
-  // Require movement (identifier !== current room) so "look" re-confirms don't count as arrival.
-  const savedTarget   = target;
-  const targetArrived = target !== null && frame.identifier != null &&
-                        frame.identifier === target.roomId &&
-                        frame.identifier !== current?.roomId;
+
+  // Clear target atomically when GMCP confirms the predicted room, so there is
+  // never a split frame where target=null but current still points to the old room.
+  if (target !== null && frame.identifier != null && frame.identifier === target.roomId) {
+    target = null;
+  }
+
   if (next?.mapId !== displayedMapId) {
     if (target?.mapId === displayedMapId) {
-      // Proactive load already triggered — don't reload the old map
+      // Target already triggered a proactive load of the right map. This GMCP
+      // is a re-confirm of the old position (e.g. after an invalid direction)
+      // — don't reload the old map and undo the proactive switch.
     } else if (next !== null) {
       try {
         await loadMap(next.mapId, next.x, next.y);
-        if (targetArrived) target = savedTarget;  // restore after onMapLoaded cleared it
       } catch (e) {
         console.error("[mapper] loadMap failed:", e);
         $mapName.textContent = "Map load failed";
@@ -294,10 +295,9 @@ panel.on("room_info", async (frame) => {
       next.roomId !== current.roomId) {
     clearRoute();
   }
-  const prevCurrent = current;
-  const roomChanged = next?.roomId !== prevCurrent?.roomId || next?.mapId !== prevCurrent?.mapId;
+  const roomChanged = next?.roomId !== current?.roomId || next?.mapId !== current?.mapId;
   current = next;
-  if ((roomChanged && prevCurrent !== null) || wasInDark) {
+  if (roomChanged || wasInDark) {
     activeRenderer?.applyState(getState());
   }
   updateHeader();

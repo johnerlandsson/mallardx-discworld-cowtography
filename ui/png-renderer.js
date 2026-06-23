@@ -29,6 +29,8 @@ export class PngRenderer {
   #savedScales = new Map();
   #savedOverflow = '';
 
+  #mapJustLoaded = false;
+
   #pendingClick = null;
   #isDragging   = false;
   #lastMovePos  = null;
@@ -112,6 +114,7 @@ export class PngRenderer {
     if (centerX != null && centerY != null) this.centerOn(centerX, centerY);
 
     this.#callbacks.onMapLoaded(mapId);
+    this.#mapJustLoaded = true;
   }
 
   applyState(state) {
@@ -179,6 +182,12 @@ export class PngRenderer {
     if (!this.#img || !this.#canvas) return;
     const w = this.#img.clientWidth, h = this.#img.clientHeight;
     if (!w || !h) return;
+    // Suppress yellow dot on the first draw after map load (plugin reload case).
+    // Once the player moves (target set) or after the first stationary draw, show normally.
+    if (this.#mapJustLoaded) {
+      this.#mapJustLoaded = false;
+      if (target === null) return;
+    }
     if (this.#canvas.width !== w)  this.#canvas.width  = w;
     if (this.#canvas.height !== h) this.#canvas.height = h;
 
@@ -214,9 +223,8 @@ export class PngRenderer {
       }
     }
 
-    // Position dot: red while target is set (walking), yellow when stationary (target cleared by target_clear)
     const primary  = target ?? current;
-    const dotColor = target ? "#e03030" : "#e0e040";
+    const dotColor = "#e03030";
     const primaryRoom = primary?.roomId ? rooms[primary.roomId] : null;
     const drawDot = (cx, cy) => {
       ctx.beginPath();
