@@ -70,7 +70,8 @@ export class PngRenderer {
     this.#mapId = mapId;
 
     const img = document.createElement("img");
-    img.className = "png-map-img";
+    img.className  = "png-map-img";
+    img.draggable  = false;
     img.style.cssText = "display:block;image-rendering:pixelated;";
     img.src = `maps/${meta.file}`;
 
