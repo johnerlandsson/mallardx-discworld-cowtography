@@ -264,8 +264,11 @@ panel.on("room_info", async (frame) => {
   if (current?.mapId === 47 && (next === null || next.mapId === 47)) return;
   // Defer clearing target until after applyState so renderers see the arrival as red/target.
   // Save it now — onMapLoaded (called during cross-map loadMap) unconditionally clears target.
+  // Require movement (identifier !== current room) so "look" re-confirms don't count as arrival.
   const savedTarget   = target;
-  const targetArrived = target !== null && frame.identifier != null && frame.identifier === target.roomId;
+  const targetArrived = target !== null && frame.identifier != null &&
+                        frame.identifier === target.roomId &&
+                        frame.identifier !== current?.roomId;
   if (next?.mapId !== displayedMapId) {
     if (target?.mapId === displayedMapId) {
       // Proactive load already triggered — don't reload the old map
@@ -291,9 +294,12 @@ panel.on("room_info", async (frame) => {
       next.roomId !== current.roomId) {
     clearRoute();
   }
+  const roomChanged = next?.roomId !== current?.roomId || next?.mapId !== current?.mapId;
   current = next;
-  activeRenderer?.applyState(getState());
-  if (targetArrived) target = null;
+  if (roomChanged || wasInDark) {
+    activeRenderer?.applyState(getState());
+    if (targetArrived) target = null;
+  }
   updateHeader();
 });
 
