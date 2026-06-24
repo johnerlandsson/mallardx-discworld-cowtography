@@ -211,9 +211,10 @@ export class SvgRenderer {
     if (this.#displayedMapId === 99) {
       const dot = this.#svg.querySelector('#world-player');
       if (dot) {
-        if (current) {
-          dot.setAttribute('cx', current.x);
-          dot.setAttribute('cy', current.y);
+        const pos = target ?? current;
+        if (pos) {
+          dot.setAttribute('cx', pos.x);
+          dot.setAttribute('cy', pos.y);
           dot.style.display = '';
         } else {
           dot.style.display = 'none';

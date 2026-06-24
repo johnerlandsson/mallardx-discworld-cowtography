@@ -114,6 +114,7 @@ const callbacks = {
     target = null;  // clear prediction on successful map load
     $footer.hidden = mapId === 99;
     updateHeader();
+    activeRenderer?.applyState(getState());
     const meta = data.maps[mapId];
     panel.post("map_changed", { name: meta.file.replace(/\.\w+$/, '') });
   },
