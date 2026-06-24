@@ -14,6 +14,10 @@ The map panel opens automatically on the right side of the window. As you walk t
 
 **Click any room to route there.** The path is highlighted on the map and a footer appears at the bottom of the panel showing the destination and move count. Click **walk** to start walking, or **✕** to cancel. Middle-mouse drag pans the map; left-drag on empty space also pans.
 
+**World map:** When you travel between cities or through the Disc's terrain the panel automatically switches to a world map showing your position on the full Discworld. Road and river networks, terrain types and major location markers are all shown.
+
+**Right-click the map** (on city maps) to toggle street name labels and staircase exits on and off.
+
 ---
 
 ## Commands
@@ -80,6 +84,16 @@ Save your current room as a named bookmark and route back to it at any time. Boo
 ```
 
 Saving a bookmark with a name that already exists overwrites silently.
+
+---
+
+## Settings
+
+Settings are in the Mallard plugin settings panel.
+
+**Map style** — Switch between *SVG (vector)* maps and *PNG (classic pixel art)* maps. SVG maps are sharp at any zoom and show room types, exits, and route highlighting. PNG maps use the original pixel-art images from Quow's Cow Bar.
+
+**Walk arrival sound** — Optional chime to play when a `/db walk` completes.
 
 ---
 
