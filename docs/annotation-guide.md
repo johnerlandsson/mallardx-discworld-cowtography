@@ -172,18 +172,37 @@ Labels follow the `NameNN` convention (e.g. `Forrest01`, `Forrest02`) so multipl
 | inkscape:label | CSS class | Dark | Light |
 |---|---|---|---|
 | `Mountain01`, `Mountain02`, … | `terrain-mountain` | `#595959` | `#b0b0b0` |
+| `Gorge01`, … | `terrain-gorge` | `#383838` | `#787878` |
 | `Desert01`, … | `terrain-desert` | `#7a5a1a` | `#c8a050` |
 | `Water01`, … | `terrain-water` | `#1a3a5c` | `#5090c0` |
 | `Tundra01`, … | `terrain-tundra` | `#4a5020` | `#888a50` |
 | `Grass01`, … | `terrain-grass` | `#2a6a2a` | `#50a050` |
 | `DenseForrest01`, … | `terrain-dense-forrest` | `#0d2a0e` | `#1a6a18` |
+| `DarkForrest01`, … | `terrain-dark-forrest` | `#133a17` | `#27722c` |
 | `Forrest01`, … | `terrain-forrest` | `#1a4a20` | `#357a40` |
 | `Plains01`, … | `terrain-plains` | `#4a6a20` | `#90b840` |
 | `Field01`, … | `terrain-field` | `#5e7a28` | `#a0c038` |
+| `Lowlands01`, … | `terrain-lowlands` | `#546e24` | `#96b03c` |
 | `Ice01`, … | `terrain-ice` | `#4888a8` | `#88c0d8` |
 | `Snow01`, … | `terrain-snow` | `#d8d8d4` | `#f4f4f0` |
+| `Beach01`, … | `terrain-beach` | `#c8b870` | `#e8d888` |
 
 **Inkscape visibility:** CSS classes don't resolve inside Inkscape. Add a `fill` attribute (or Inkscape's `style="display:inline;fill:#..."`) on the path so you can see what you're painting. At runtime, `sync:svg` strips this inline fill and the CSS class takes over.
+
+### Stroked terrain types
+
+Roads and rivers are open paths (`fill: none`) with a stroke, not closed fills. Use the same `inkscape:label` convention.
+
+| inkscape:label | CSS class | Stroke (dark) | Stroke (light) |
+|---|---|---|---|
+| `Road01`, … | `terrain-road` | `#d4904a` | `#7a4818` |
+| `River01`, … | `terrain-river` | `#1a3a5c` | `#5090c0` |
+
+Both use `stroke-width: 1`, `stroke-linecap: round`, `stroke-linejoin: round`.
+
+### Location markers
+
+`Location01`, … → `terrain-location`: small filled circles marking named locations (`fill: #e84040; stroke: #a02020; stroke-width: 0.5`). Use for city dots and major landmarks.
 
 ### Adding new terrain types
 
