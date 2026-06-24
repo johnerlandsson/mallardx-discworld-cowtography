@@ -26,11 +26,13 @@ export function injectFontStyle(svg) {
 // Add new entries here as you paint new terrain types in Inkscape.
 const WORLD_TERRAIN_LABELS = {
   'Mountain':     'terrain-mountain',
+  'Gorge':        'terrain-gorge',
   'Desert':       'terrain-desert',
   'Water':        'terrain-water',
   'Tundra':       'terrain-tundra',
   'Grass':        'terrain-grass',
   'DenseForrest': 'terrain-dense-forrest',
+  'DarkForrest':  'terrain-dark-forrest',
   'Forrest':      'terrain-forrest',
   'Plains':       'terrain-plains',
   'Field':        'terrain-field',

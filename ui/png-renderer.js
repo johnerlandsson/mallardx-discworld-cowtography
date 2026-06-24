@@ -240,10 +240,10 @@ export class PngRenderer {
       ctx.strokeStyle = "#ffffff"; ctx.lineWidth = Math.max(1, scaleX * 1.5);
       ctx.stroke();
     };
-    if (primary && !primary.roomId) {
-      drawDot(toCanvasX(primary.x), toCanvasY(primary.y));
-    } else if (primaryRoom && primaryRoom[0] === mapId) {
+    if (primaryRoom && primaryRoom[0] === mapId) {
       drawDot(toCanvasX(primaryRoom[1]), toCanvasY(primaryRoom[2]));
+    } else if (primary && primary.x != null) {
+      drawDot(toCanvasX(primary.x), toCanvasY(primary.y));
     }
   }
 
