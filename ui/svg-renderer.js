@@ -603,7 +603,7 @@ export class SvgRenderer {
   }
 
   #handleContainerClick() {
-    if (!this.#mapFocused) this.grabFocus();
+    panel.captureKeys(true);
   }
 
   #handleKeydown(e) {
