@@ -101,7 +101,9 @@ let walkActive     = false;
 const savedZoom    = new Map();
 
 function getState() {
-  return { current, target, routeRoomIds, darkMode, libraryOverlay };
+  // Suppress target prediction while a route is active so the position indicator
+  // follows confirmed (current) position rather than jumping ahead via alias.
+  return { current, target: routeRoomIds.length > 0 ? null : target, routeRoomIds, darkMode, libraryOverlay };
 }
 
 // ─── Renderer lifecycle ───────────────────────────────────────────────────
@@ -292,9 +294,8 @@ panel.on("room_info", async (frame) => {
     lastKnownMapId = next.mapId;
     next.roomId = frame.identifier ?? null;
   }
-  if (!walkActive && current !== null && routeRoomIds.length > 0 &&
-      current.roomId != null && next?.roomId != null &&
-      next.roomId !== current.roomId) {
+  const destRoomId = routeRoomIds.length > 0 ? routeRoomIds[routeRoomIds.length - 1] : null;
+  if (!walkActive && destRoomId !== null && next?.roomId === destRoomId) {
     clearRoute();
   }
   const roomChanged = next?.roomId !== current?.roomId || next?.mapId !== current?.mapId;
