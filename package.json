@@ -1,6 +1,6 @@
 {
   "name": "mallardx-discworld-cowtography",
-  "version": "0.22.0",
+  "version": "0.22.1",
   "type": "module",
   "scripts": {
     "test": "vitest run && lua tests/search_test.lua && lua tests/pathfind_test.lua",
