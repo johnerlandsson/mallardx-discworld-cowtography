@@ -34,6 +34,8 @@ end
 local last_results    = {}
 local current_room    = nil
 local target_room     = nil  -- predicted position; nil when same as confirmed
+local just_moved      = false -- true for one GMCP after a successful move; guards against
+                              -- spurious same-room room.info duplicates Discworld sometimes fires
 local room_id_echo    = false
 local _in_dark        = false
 
@@ -573,11 +575,14 @@ gmcp.on('room.info', function(_, data)
     end
     if target_room == current_room then
       target_room = nil  -- room_info handles this atomically
-    elseif target_room ~= nil and current_room == prev_room then
+    elseif target_room ~= nil and current_room == prev_room and not just_moved then
       -- GMCP re-confirmed the current room while a move was predicted — movement blocked.
+      -- just_moved guard: skip on the first duplicate room.info Discworld sometimes
+      -- fires immediately after a successful move (would otherwise look like a block).
       target_room = nil
       post_target_clear(false)
     end
+    just_moved = (current_room ~= prev_room)
     if room_id_echo then note('  ' .. current_room, C.name) end
 
     -- UU Library: clear per-room overlays on each room transition.
