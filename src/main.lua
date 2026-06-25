@@ -587,6 +587,23 @@ gmcp.on('room.info', function(_, data)
     if current_room ~= prev_room then
       just_moved          = true
       prev_target_at_move = target_room  -- snapshot after possible arrival clear
+      if target_room ~= nil then
+        -- Moved to a room that isn't the prediction. Keep it only if the prediction
+        -- is directly reachable from here (fast-typing case: A→B→C, prediction=C
+        -- while passing through B). Clear it if not reachable (stale prediction from
+        -- a rejected move like a locked door that sent no room.info).
+        local reachable = false
+        local exits = exits_by_dir[current_room]
+        if exits then
+          for _, dest in pairs(exits) do
+            if dest == target_room then reachable = true; break end
+          end
+        end
+        if not reachable then
+          target_room = nil
+          post_target_clear(false)
+        end
+      end
     else
       just_moved = false
     end
