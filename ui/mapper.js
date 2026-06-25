@@ -92,7 +92,6 @@ function stopLSpaceAnim() {
 // ─── Coordinator state ────────────────────────────────────────────────────
 let current        = null;
 let target         = null;
-let targetTimeoutId = null;
 let routeRoomIds   = [];
 let libraryOverlay = null;
 let lastKnownMapId = null;
@@ -259,7 +258,6 @@ panel.on("filters_data", (frame) => {
 panel.on("room_dark", () => { darkMode = true; activeRenderer?.applyState(getState()); });
 
 panel.on("room_info", async (frame) => {
-  if (targetTimeoutId) { clearTimeout(targetTimeoutId); targetTimeoutId = null; }
   const wasInDark = darkMode;
   darkMode = false;
   if (wasInDark) target = null;
@@ -302,9 +300,6 @@ panel.on("room_info", async (frame) => {
   }
   const roomChanged = next?.roomId !== current?.roomId || next?.mapId !== current?.mapId;
   current = next;
-  if (target !== null) {
-    targetTimeoutId = setTimeout(() => { targetTimeoutId = null; target = null; activeRenderer?.applyState(getState()); }, 400);
-  }
   if (roomChanged || wasInDark) {
     activeRenderer?.applyState(getState());
   }
@@ -344,8 +339,6 @@ panel.on("target_move", async (frame) => {
   if (next === null) { target = null; activeRenderer?.applyState(getState()); return; }
 
   target = next;
-  if (targetTimeoutId) clearTimeout(targetTimeoutId);
-  targetTimeoutId = setTimeout(() => { targetTimeoutId = null; target = null; activeRenderer?.applyState(getState()); }, 400);
 
   if (next.mapId !== displayedMapId) {
     await loadMap(next.mapId, next.x, next.y);
@@ -358,7 +351,6 @@ panel.on("target_move", async (frame) => {
 });
 
 panel.on("target_clear", (frame) => {
-  if (targetTimeoutId) { clearTimeout(targetTimeoutId); targetTimeoutId = null; }
   target = null;
   if (frame.snap && current && current.mapId === displayedMapId) {
     activeRenderer?.centerOn?.(current.x, current.y);
