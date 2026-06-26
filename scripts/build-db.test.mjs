@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import Database from 'better-sqlite3'
-import { generateRoomsLua, generateItemsLua, generateNpcsLua, generateNpcItemsLua, generateExitsLua } from './build-db.mjs'
+import { generateRoomsLua, generateItemsLua, generateNpcsLua, generateNpcItemsLua, generateExitsLua, generateMapNamesLua } from './build-db.mjs'
 
 function makeDb() {
   const db = new Database(':memory:')
@@ -146,6 +146,57 @@ describe('generateExitsLua', () => {
     const db = makeExitsDb()
     const lua = generateExitsLua(db)
     expect(lua).toContain('return {')
+    expect(lua.trim()).toMatch(/\}$/)
+  })
+})
+
+const TEST_MAPS = {
+  1: { name: 'Ankh-Morpork', file: 'am.png', region: 'AM', maxX: 1354, maxY: 1256, topLevel: true },
+  27: { name: 'Genua', file: 'genua.png', region: 'Genua', maxX: 839, maxY: 560, topLevel: true },
+}
+
+describe('generateMapNamesLua', () => {
+  it('maps room_id to map name via map_id', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms VALUES ('r1',27,100,200,'swampy green tent','inside')").run()
+    const lua = generateMapNamesLua(db, TEST_MAPS)
+    expect(lua).toContain("['r1'] = 'Genua'")
+  })
+
+  it('handles multiple rooms across different maps', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms VALUES ('r1',27,0,0,'tent','inside')").run()
+    db.prepare("INSERT INTO rooms VALUES ('r2',1,0,0,'market','outside')").run()
+    const lua = generateMapNamesLua(db, TEST_MAPS)
+    expect(lua).toContain("['r1'] = 'Genua'")
+    expect(lua).toContain("['r2'] = 'Ankh-Morpork'")
+  })
+
+  it('uses Unknown for unrecognised map_id', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms VALUES ('r1',999,0,0,'strange room','inside')").run()
+    const lua = generateMapNamesLua(db, TEST_MAPS)
+    expect(lua).toContain("['r1'] = 'Unknown'")
+  })
+
+  it('escapes single quotes in map names', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms VALUES ('r1',1,0,0,'room','inside')").run()
+    const maps = { 1: { name: "Dragon's Den" } }
+    const lua = generateMapNamesLua(db, maps)
+    expect(lua).toContain("Dragon\\'s Den")
+  })
+
+  it('starts with auto-generated comment and return {', () => {
+    const db = makeDb()
+    const lua = generateMapNamesLua(db, TEST_MAPS)
+    expect(lua).toMatch(/^-- Auto-generated/)
+    expect(lua).toContain('return {')
+  })
+
+  it('ends with }', () => {
+    const db = makeDb()
+    const lua = generateMapNamesLua(db, TEST_MAPS)
     expect(lua.trim()).toMatch(/\}$/)
   })
 })

@@ -94,6 +94,17 @@ export function generateNpcItemsLua(db) {
   return lines.join('\n')
 }
 
+export function generateMapNamesLua(db, maps) {
+  const rows = db.prepare('SELECT room_id, map_id FROM rooms').all()
+  const lines = [LUA_HEADER + 'return {']
+  for (const row of rows) {
+    const name = maps[row.map_id]?.name ?? 'Unknown'
+    lines.push(`  [${luaStr(row.room_id)}] = ${luaStr(name)},`)
+  }
+  lines.push('}')
+  return lines.join('\n')
+}
+
 export function generateExitsLua(db) {
   const rows = db.prepare('SELECT room_id, connect_id, exit FROM room_exits').all()
   const byRoom = new Map()

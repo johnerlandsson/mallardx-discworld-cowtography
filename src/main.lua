@@ -20,6 +20,7 @@ local items     = require('data.items')
 local npcs      = require('data.npcs')
 local npc_items = require('data.npc_items')
 local exits     = require('data.exits')
+local map_names = require('data.map_names')
 
 -- Invert exits into direction-keyed lookup: exits_by_dir[roomId][dir] = targetRoomId
 local exits_by_dir = {}
@@ -739,28 +740,53 @@ local route_to_room  -- forward declaration; assigned below after panel setup
 local function display_results(search_type, query, results, sorted_by_dist)
   local p         = mud.command_prefix()
   local count     = #results
-  local sort_note = sorted_by_dist and ', nearest first' or ''
-  local header    = string.format('  DB Search: %s \xe2\x80\x94 "%s"  (%d result%s%s)',
+  local n_reachable = 0
+  if sorted_by_dist then
+    for _, r in ipairs(results) do
+      if r.distance then n_reachable = n_reachable + 1 end
+    end
+  end
+  local sort_note
+  if sorted_by_dist then
+    local n_unreachable = count - n_reachable
+    if n_unreachable > 0 then
+      sort_note = string.format(', %d reachable · %d unreachable', n_reachable, n_unreachable)
+    else
+      sort_note = ', nearest first'
+    end
+  else
+    sort_note = ''
+  end
+  local header = string.format('  DB Search: %s \xe2\x80\x94 "%s"  (%d result%s%s)',
     TYPE_LABELS[search_type], query, count, count == 1 and '' or 's', sort_note)
 
   -- Build all content lines first so we can measure the widest one.
   local lines, colours = {}, {}
   for i, r in ipairs(results) do
-    local dist_str = r.distance and string.format('  %d move%s', r.distance, r.distance == 1 and '' or 's') or ''
+    local unreachable = sorted_by_dist and not r.distance
+    local dist_str
+    if r.distance then
+      dist_str = string.format('  %d move%s', r.distance, r.distance == 1 and '' or 's')
+    elseif unreachable then
+      dist_str = '  unreachable'
+    else
+      dist_str = ''
+    end
+    local map_str = r.map_name and ('  \xc2\xb7 ' .. r.map_name) or ''
     local line
     if search_type == 'room' then
-      line = string.format('  %2d.  %-44s%s', i, r.name, dist_str)
+      line = string.format('  %2d.  %-44s%s%s', i, r.name, map_str, dist_str)
     elseif search_type == 'item' then
       local price = (r.price ~= '') and ('  ' .. r.price) or ''
-      line = string.format('  %2d.  %-35s [%s]%s%s', i, r.name, r.location, price, dist_str)
+      line = string.format('  %2d.  %-35s [%s]%s%s%s', i, r.name, r.location, map_str, price, dist_str)
     elseif search_type == 'npc' then
-      line = string.format('  %2d.  %-35s [%s]%s', i, r.name, r.location, dist_str)
+      line = string.format('  %2d.  %-35s [%s]%s%s', i, r.name, r.location, map_str, dist_str)
     elseif search_type == 'npcitem' then
       local price = (r.price ~= '') and ('  ' .. r.price) or ''
-      line = string.format('  %2d.  %-28s  via %-22s  [%s]%s%s', i, r.name, r.npc or '', r.location, price, dist_str)
+      line = string.format('  %2d.  %-28s  via %-22s  [%s]%s%s%s', i, r.name, r.npc or '', r.location, map_str, price, dist_str)
     end
     lines[i]   = line
-    colours[i] = (i % 2 == 1) and C.name or C.alt
+    colours[i] = unreachable and C.muted or ((i % 2 == 1) and C.name or C.alt)
   end
 
   -- Rule spans the widest line (header or any content line).
@@ -853,40 +879,35 @@ local function do_search(search_type, query, area_filter)
     return
   end
 
+  -- Annotate every candidate with its map name.
+  for _, r in ipairs(candidates) do
+    r.map_name = map_names[r.room_id]
+  end
+
   local results
   local sorted_by_dist = false
 
   if current_room ~= nil then
     local dist = pathfind.distances_from(exits, current_room)
-    local reachable = {}
     for _, r in ipairs(candidates) do
       local d = dist[r.room_id]
-      if d ~= nil then
-        r.distance = d
-        reachable[#reachable + 1] = r
-      end
+      if d ~= nil then r.distance = d end
     end
-    table.sort(reachable, function(a, b) return a.distance < b.distance end)
-    results = {}
-    for i = 1, math.min(#reachable, MAX_DISPLAY) do
-      results[i] = reachable[i]
-    end
+    -- Reachable first (sorted by distance), then unreachable (sorted by name).
+    table.sort(candidates, function(a, b)
+      local ar, br = a.distance ~= nil, b.distance ~= nil
+      if ar ~= br then return ar end
+      if ar then return a.distance < b.distance end
+      return (a.name or '') < (b.name or '')
+    end)
+    results = candidates
     sorted_by_dist = true
   else
     note('  (Room tracking inactive — showing unsorted results.)', C.muted)
-    results = {}
-    for i = 1, math.min(#candidates, MAX_DISPLAY) do
-      results[i] = candidates[i]
-    end
+    results = candidates
   end
 
   last_results = results
-
-  if #results == 0 then
-    local area_note = area_filter and (' in {' .. area_filter .. '}') or ''
-    note(string.format('  No reachable results for "%s"%s.', query, area_note), C.muted)
-    return
-  end
 
   display_results(search_type, query, results, sorted_by_dist)
 end

@@ -7,6 +7,7 @@
     "test:js": "vitest run",
     "test:lua": "lua tests/search_test.lua && lua tests/pathfind_test.lua",
     "build:data": "node scripts/build-db.mjs",
+    "gen:map-names": "node scripts/gen-map-names.mjs",
     "build:svg": "node scripts/build-svg.mjs",
     "sync:svg": "node scripts/sync-svg-js.mjs",
     "pack": "rm -f discworld-cowtography-0.22.1.mallardx && zip -r discworld-cowtography-0.22.1.mallardx plugin.toml README.md src/ ui/ --exclude 'ui/maps/*.svg'"
