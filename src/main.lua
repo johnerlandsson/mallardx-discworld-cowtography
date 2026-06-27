@@ -35,6 +35,7 @@ end
 local last_results    = {}
 local current_room    = nil
 local target_room          = nil   -- predicted position; nil when same as confirmed
+local pred_queue           = {}    -- ordered sequence of predicted rooms [next, …, target]
 local just_moved           = false -- true for one GMCP after a successful move
 local prev_target_at_move  = nil   -- target_room captured when just_moved was last set
 local room_id_echo    = false
@@ -187,6 +188,7 @@ end
 -- snap=true: pan the view back to the confirmed position (used when stopping
 -- mid-route). snap=false (default): room_info will pan, no need to do it here.
 local function post_target_clear(snap)
+  pred_queue  = {}
   target_room = nil
   panel:post("target_clear", { snap = snap == true })
 end
@@ -564,8 +566,7 @@ end)
 gmcp.on('room.info', function(_, data)
   if type(data) == 'table' and data.identifier then
     if _in_dark then
-      _in_dark   = false
-      target_room = nil
+      _in_dark = false
       post_target_clear(false)
     end
     local prev_room = current_room
@@ -574,38 +575,26 @@ gmcp.on('room.info', function(_, data)
     if prev_room == "AMShades" and current_room ~= "AMShades" and current_room ~= SHADES_ENTRY_ID then
       shades_room = nil
     end
-    if target_room == current_room then
-      target_room = nil  -- room_info handles this atomically
-    elseif target_room ~= nil and current_room == prev_room
-        and not (just_moved and target_room == prev_target_at_move) then
-      -- GMCP re-confirmed the current room while a move was predicted — movement blocked.
-      -- Suppress only when just_moved AND target hasn't changed since we arrived here:
-      -- that pattern is the duplicate room.info Discworld fires after a successful move.
-      -- If target changed (new command issued since arriving), it's a real block.
-      target_room = nil
-      post_target_clear(false)
-    end
     if current_room ~= prev_room then
-      just_moved          = true
-      prev_target_at_move = target_room  -- snapshot after possible arrival clear
+      -- Actual movement: advance the prediction queue if this room was expected,
+      -- otherwise the prediction is stale (locked door, teleport, etc.) — clear it.
       if target_room ~= nil then
-        -- Moved to a room that isn't the prediction. Keep it only if the prediction
-        -- is directly reachable from here (fast-typing case: A→B→C, prediction=C
-        -- while passing through B). Clear it if not reachable (stale prediction from
-        -- a rejected move like a locked door that sent no room.info).
-        local reachable = false
-        local exits = exits_by_dir[current_room]
-        if exits then
-          for _, dest in pairs(exits) do
-            if dest == target_room then reachable = true; break end
-          end
-        end
-        if not reachable then
-          target_room = nil
+        if pred_queue[1] == current_room then
+          table.remove(pred_queue, 1)
+          target_room = pred_queue[#pred_queue]  -- nil when we've arrived at the destination
+        else
           post_target_clear(false)
         end
       end
+      just_moved          = true
+      prev_target_at_move = target_room  -- snapshot after possible clear/advance
     else
+      -- Same-room re-confirmation: duplicate room.info after a move, or a blocked move.
+      -- Suppress when just_moved AND target hasn't changed since we arrived here:
+      -- that pattern is the duplicate room.info Discworld fires after a successful move.
+      if target_room ~= nil and not (just_moved and target_room == prev_target_at_move) then
+        post_target_clear(false)
+      end
       just_moved = false
     end
     if room_id_echo then note('  ' .. current_room, C.name) end
@@ -827,6 +816,7 @@ mud.alias([[^(n|ne|e|se|s|sw|w|nw|u|d|north|northeast|east|southeast|south|south
     if by_dir then
       local next_id = by_dir[dir]
       if next_id then
+        pred_queue[#pred_queue + 1] = next_id
         target_room = next_id
         post_target_move(target_room)
       end
