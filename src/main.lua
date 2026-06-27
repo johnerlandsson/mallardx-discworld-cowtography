@@ -909,7 +909,10 @@ local function do_search(search_type, query, area_filter)
 
   last_results = results
 
-  display_results(search_type, query, results, sorted_by_dist)
+  local display = results
+  if #display > 20 then display = {table.unpack(display, 1, 20)} end
+
+  display_results(search_type, query, display, sorted_by_dist)
 end
 
 route_to_room = function(room_id, display_name, walk_immediately)
