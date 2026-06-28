@@ -13,12 +13,11 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs6" />
-  <style
-     id="inkscape-font-fix">
+  <style id="inkscape-font-fix">
 text, .map-label, .map-label-muted, .map-label-accent,
 .lib-table, .lib-gap-label, .lib-book-label,
 .lib-row-num, .lib-book-list, .room-type-label {
-  font-family: &quot;Noto Sans&quot;, sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 </style>
   <sodipodi:namedview
