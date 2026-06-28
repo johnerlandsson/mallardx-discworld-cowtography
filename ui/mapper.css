@@ -313,6 +313,25 @@ body {
 /* ─── Stair symbol layer ───────────────────────────────────────────────────── */
 :root.stairs-hidden #layer-stairs { display: none; }
 
+/* ─── Compass rose (discwhole.svg) ───────────────────────────────────────── */
+/* .map-svg prefix raises specificity above the SVG-embedded preview <style>  */
+.map-svg .compass-ring-primary   { fill: none; stroke: var(--fg);    }
+.map-svg .compass-ring-secondary { fill: none; stroke: var(--muted); }
+.map-svg .compass-rose-primary   { fill: var(--fg);    }
+.map-svg .compass-rose-secondary { fill: var(--muted); }
+.map-svg .compass-label-primary {
+  fill: var(--fg);
+  font-family: "Noto Sans", sans-serif;
+  font-size: 21px; font-weight: bold; letter-spacing: 0.5px;
+  text-anchor: middle; dominant-baseline: middle;
+}
+.map-svg .compass-label-secondary {
+  fill: var(--muted);
+  font-family: "Noto Sans", sans-serif;
+  font-size: 13px; font-style: italic; letter-spacing: 0.5px;
+  text-anchor: middle; dominant-baseline: middle;
+}
+
 /* ─── World map terrain (discwhole.svg) ──────────────────────────────────── */
 .terrain-mountain      { fill: #595959; }
 .terrain-gorge         { fill: #383838; }
