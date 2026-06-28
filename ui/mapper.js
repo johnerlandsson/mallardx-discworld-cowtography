@@ -361,6 +361,7 @@ panel.on("target_clear", (frame) => {
 panel.on("library_overlay", (frame) => {
   libraryOverlay = frame;
   activeRenderer?.applyState(getState());
+  if (current?.mapId === 47) activeRenderer?.applyLibraryPosition?.(current.x, current.y);
 });
 
 panel.on("library_position", async (frame) => {
