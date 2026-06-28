@@ -193,110 +193,110 @@ text, .map-label, .map-label-muted, .map-label-accent,
          class="compass-rose-primary"
          points="315.05,184.95 281.11,238.69 250,250 "
          id="polygon28"
-         style="fill:#eaeaea" />
+ />
       <polygon
          class="compass-rose-secondary"
          points="315.05,184.95 261.31,218.89 250,250 "
          id="polygon29"
-         style="fill:#888888" />
+ />
       <polygon
          class="compass-rose-primary"
          points="315.05,315.05 261.31,281.11 250,250 "
          id="polygon30"
-         style="fill:#eaeaea" />
+ />
       <polygon
          class="compass-rose-secondary"
          points="315.05,315.05 281.11,261.31 250,250 "
          id="polygon31"
-         style="fill:#888888" />
+ />
       <polygon
          class="compass-rose-primary"
          points="184.95,315.05 218.89,261.31 250,250 "
          id="polygon32"
-         style="fill:#eaeaea" />
+ />
       <polygon
          class="compass-rose-secondary"
          points="184.95,315.05 238.69,281.11 250,250 "
          id="polygon33"
-         style="fill:#888888" />
+ />
       <polygon
          class="compass-rose-primary"
          points="184.95,184.95 238.69,218.89 250,250 "
          id="polygon34"
-         style="fill:#eaeaea" />
+ />
       <polygon
          class="compass-rose-secondary"
          points="184.95,184.95 218.89,238.69 250,250 "
          id="polygon35"
-         style="fill:#888888" />
+ />
       <polygon
          class="compass-rose-primary"
          points="250,115 270,208 250,250 "
          id="polygon36"
-         style="fill:#eaeaea" />
+ />
       <polygon
          class="compass-rose-secondary"
          points="250,115 230,208 250,250 "
          id="polygon37"
-         style="fill:#888888" />
+ />
       <polygon
          class="compass-ring-primary"
          points="250,115 270,208 230,208 "
          stroke-width="0.75"
          fill="none"
          id="polygon38"
-         style="fill:none;stroke:#eaeaea" />
+ />
       <polygon
          class="compass-rose-primary"
          points="385,250 292,270 250,250 "
          id="polygon39"
-         style="fill:#eaeaea" />
+ />
       <polygon
          class="compass-rose-secondary"
          points="385,250 292,230 250,250 "
          id="polygon40"
-         style="fill:#888888" />
+ />
       <polygon
          class="compass-ring-primary"
          points="385,250 292,270 292,230 "
          stroke-width="0.75"
          fill="none"
          id="polygon41"
-         style="fill:none;stroke:#eaeaea" />
+ />
       <polygon
          class="compass-rose-primary"
          points="250,385 230,292 250,250 "
          id="polygon42"
-         style="fill:#eaeaea" />
+ />
       <polygon
          class="compass-rose-secondary"
          points="250,385 270,292 250,250 "
          id="polygon43"
-         style="fill:#888888" />
+ />
       <polygon
          class="compass-ring-primary"
          points="250,385 230,292 270,292 "
          stroke-width="0.75"
          fill="none"
          id="polygon44"
-         style="fill:none;stroke:#eaeaea" />
+ />
       <polygon
          class="compass-rose-primary"
          points="115,250 208,230 250,250 "
          id="polygon45"
-         style="fill:#eaeaea" />
+ />
       <polygon
          class="compass-rose-secondary"
          points="115,250 208,270 250,250 "
          id="polygon46"
-         style="fill:#888888" />
+ />
       <polygon
          class="compass-ring-primary"
          points="115,250 208,230 208,270 "
          stroke-width="0.75"
          fill="none"
          id="polygon47"
-         style="fill:none;stroke:#eaeaea" />
+ />
       <circle
          class="compass-ring-secondary"
          cx="250"
@@ -304,7 +304,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
          r="22"
          stroke-width="1.5"
          id="circle47"
-         style="fill:none;stroke:#888888" />
+ />
       <circle
          class="compass-ring-primary"
          cx="250"
@@ -312,62 +312,62 @@ text, .map-label, .map-label-muted, .map-label-accent,
          r="14"
          stroke-width="2"
          id="circle48"
-         style="fill:none;stroke:#eaeaea" />
+ />
       <circle
          class="compass-rose-primary"
          cx="250"
          cy="250"
          r="5"
          id="circle49"
-         style="fill:#eaeaea" />
+ />
       <text
          class="compass-label-primary"
          x="250"
          y="109.86279"
          id="text49"
-         style="font-weight:bold;font-size:21px;font-family:'Noto Sans', sans-serif;letter-spacing:0.5px;dominant-baseline:middle;text-anchor:middle;fill:#eaeaea">HUBWARDS</text>
+>HUBWARDS</text>
       <text
          class="compass-label-primary"
          x="463.05591"
          y="249.86279"
          id="text50"
-         style="font-weight:bold;font-size:21px;font-family:'Noto Sans', sans-serif;letter-spacing:0.5px;dominant-baseline:middle;text-anchor:middle;fill:#eaeaea">WIDDERSHINS</text>
+>WIDDERSHINS</text>
       <text
          class="compass-label-primary"
          x="250"
          y="400.54999"
          id="text51"
-         style="font-weight:bold;font-size:21px;font-family:'Noto Sans', sans-serif;letter-spacing:0.5px;dominant-baseline:middle;text-anchor:middle;fill:#eaeaea">RIMWARDS</text>
+>RIMWARDS</text>
       <text
          class="compass-label-primary"
          x="57.145752"
          y="250"
          id="text52"
-         style="font-weight:bold;font-size:21px;font-family:'Noto Sans', sans-serif;letter-spacing:0.5px;dominant-baseline:middle;text-anchor:middle;fill:#eaeaea">TURNWISE</text>
+>TURNWISE</text>
       <text
          class="compass-label-secondary"
          x="341.04486"
          y="181.81425"
          id="text53"
-         style="font-style:italic;font-size:13px;font-family:'Noto Sans', sans-serif;letter-spacing:0.5px;dominant-baseline:middle;text-anchor:middle;fill:#888888">widd-hub</text>
+>widd-hub</text>
       <text
          class="compass-label-secondary"
          x="340.3244"
          y="321.08661"
          id="text54"
-         style="font-style:italic;font-size:13px;font-family:'Noto Sans', sans-serif;letter-spacing:0.5px;dominant-baseline:middle;text-anchor:middle;fill:#888888">widd-rim</text>
+>widd-rim</text>
       <text
          class="compass-label-secondary"
          x="161.71635"
          y="320.67401"
          id="text55"
-         style="font-style:italic;font-size:13px;font-family:'Noto Sans', sans-serif;letter-spacing:0.5px;dominant-baseline:middle;text-anchor:middle;fill:#888888">turn-rim</text>
+>turn-rim</text>
       <text
          class="compass-label-secondary"
          x="160.84355"
          y="181.81425"
          id="text56"
-         style="font-style:italic;font-size:13px;font-family:'Noto Sans', sans-serif;letter-spacing:0.5px;dominant-baseline:middle;text-anchor:middle;fill:#888888">turn-hub</text>
+>turn-hub</text>
     </g>
   </g>
   <g
