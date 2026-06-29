@@ -1,0 +1,11 @@
+[
+  { "label": "Ankh-Morpork",  "regions": ["AM", "UU"] },
+  { "label": "Bes Pelargic",  "regions": ["BP"] },
+  { "label": "Sto Plains",    "regions": ["Sto-Lat", "Sto-Plains", "Hedgies"] },
+  { "label": "Ephebe",        "regions": ["Ephebe"] },
+  { "label": "Genua",         "regions": ["Genua"] },
+  { "label": "Djelibeybi",    "regions": ["DJB"] },
+  { "label": "Klatch",        "regions": ["Klatch"] },
+  { "label": "Ramtops",       "regions": ["Ramtops", "Skund", "Copper", "S-Hollow"] },
+  { "label": "Other",         "regions": null }
+]
