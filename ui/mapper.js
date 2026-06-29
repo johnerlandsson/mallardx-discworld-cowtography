@@ -185,14 +185,15 @@ function rewireContextMenu() {
         }},
       );
     }
-    for (const item of buildMapMenuItems(data.maps, mapGroups, displayedMapId)) {
-      if (item.header) {
-        items.push(item);
-      } else {
-        const { mapId } = item;
-        const meta = data.maps[mapId];
-        items.push({ ...item, onClick: () => loadMap(mapId, meta.defaultX, meta.defaultY) });
-      }
+    for (const group of buildMapMenuItems(data.maps, mapGroups, displayedMapId)) {
+      items.push({
+        label: group.label,
+        checked: group.checked,
+        submenu: group.submenu.map(({ mapId, label, checked }) => {
+          const meta = data.maps[mapId];
+          return { label, checked, onClick: () => loadMap(mapId, meta.defaultX, meta.defaultY) };
+        }),
+      });
     }
     panel.menu.show(e, items);
   }, { signal: contextMenuController.signal });

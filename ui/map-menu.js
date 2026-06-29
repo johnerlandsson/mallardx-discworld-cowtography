@@ -19,11 +19,16 @@ export function buildMapMenuItems(maps, mapGroups, displayedMapId) {
 
     if (groupEntries.length === 0) continue;
 
-    result.push({ header: true, label: group.label });
-    for (const [id, meta] of groupEntries) {
+    const submenu = groupEntries.map(([id, meta]) => {
       const mapId = Number(id);
-      result.push({ label: meta.name, mapId, checked: mapId === displayedMapId });
-    }
+      return { label: meta.name, mapId, checked: mapId === displayedMapId };
+    });
+
+    result.push({
+      label: group.label,
+      checked: submenu.some(s => s.checked),
+      submenu,
+    });
   }
 
   return result;
