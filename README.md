@@ -12,11 +12,11 @@ The map panel opens automatically on the right side of the window. As you walk t
 
 **Keyboard navigation:** Click the map or press `Ctrl+Shift+m` to focus it, then use arrow keys to pan and `+`/`−` to zoom. Press `Escape` to release focus and return keyboard input to the MUD.
 
-**Click any room to route there.** The path is highlighted on the map and a footer appears at the bottom of the panel showing the destination and move count. Click **walk** to start walking, or **✕** to cancel. Middle-mouse drag pans the map; left-drag on empty space also pans.
+**Click any room to route there.** The path is highlighted on the map and a footer appears at the bottom of the panel showing the destination and move count. Click **walk** to start walking, or **✕** to cancel. If a clicked room has no reachable route, a brief error message appears in the footer instead. Click **⌂** at any time to switch back to your current character map and centre on your position. Middle-mouse drag pans the map; left-drag on empty space also pans.
 
 **World map:** When you travel between cities or through the Disc's terrain the panel automatically switches to a world map showing your position on the full Discworld. Road and river networks, terrain types and major location markers are all shown.
 
-**Right-click the map** (on city maps) to toggle street name labels and staircase exits on and off.
+**Right-click the map** to open a context menu. On SVG city maps, a **Filters** section lets you toggle street name labels and staircase exits. The **Maps** section lists all available maps grouped by region — hover a region to see its maps and click one to jump to it. Click-to-route works normally on any map you browse to.
 
 ---
 
