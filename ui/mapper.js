@@ -124,7 +124,6 @@ const callbacks = {
   onRoomClick:   (id, name) => panel.post("room_click", { id, name }),
   onMapLoaded:   (mapId) => {
     target = null;  // clear prediction on successful map load
-    $footer.hidden = mapId === 99;
     updateHeader();
     activeRenderer?.applyState(getState());
     const meta = data.maps[mapId];
@@ -436,6 +435,7 @@ panel.on("special_screen", (frame) => {
   $lspace.hidden = true;
   showSpecialScreen(frame.name);
   $mapName.textContent = $specialTitle.textContent;
+  updateRecenter();
 });
 
 panel.post("ready", {});
