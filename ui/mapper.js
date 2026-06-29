@@ -5,13 +5,7 @@ import { mapDidChange, headerText } from "./render.js";
 import { SvgRenderer } from "./svg-renderer.js";
 import { PngRenderer }  from "./png-renderer.js";
 import { buildMapMenuItems } from './map-menu.js';
-
-const mapGroups = await fetch(new URL('./data/map-groups.json', import.meta.url))
-  .then(r => r.json())
-  .catch(() => {
-    console.warn('[mapper] Could not load map-groups.json; map switching unavailable');
-    return [];
-  });
+import mapGroups from './data/map-groups.js';
 
 const data = { rooms: { ...rooms, ...customRooms }, maps, terrain };
 
