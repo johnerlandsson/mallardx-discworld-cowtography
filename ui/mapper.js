@@ -172,9 +172,10 @@ function rewireContextMenu() {
     const isWorld   = displayedMapId === 99;
     const streetsOn = !document.documentElement.classList.contains('streets-hidden');
     const stairsOn  = !document.documentElement.classList.contains('stairs-hidden');
-    const items = [{ header: true, label: "Map" }];
+    const items = [];
     if (activeRenderer?.supportsFilters && !isWorld) {
       items.push(
+        { header: true, label: "Filters" },
         { label: "Street names", checked: streetsOn, onClick: () => {
             applyStreetsState(!streetsOn);
             panel.post("save_filters", { streets: !streetsOn, stairs: stairsOn });
@@ -183,9 +184,10 @@ function rewireContextMenu() {
             applyStairsState(!stairsOn);
             panel.post("save_filters", { streets: streetsOn, stairs: !stairsOn });
         }},
+        { separator: true },
       );
-      items.push({ separator: true });
     }
+    items.push({ header: true, label: "Maps" });
     for (const group of buildMapMenuItems(data.maps, mapGroups, displayedMapId)) {
       items.push({
         label: group.label,
