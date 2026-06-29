@@ -304,6 +304,30 @@ body {
 .route-clear:hover:not(:disabled) {
   color: var(--fg);
 }
+.route-error {
+  flex: 1;
+  color: var(--ansi-9, #ff6b6b);
+  font-size: 11px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.route-recenter {
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-size: 13px;
+  cursor: pointer;
+  padding: 0 2px;
+  line-height: 1;
+}
+.route-recenter:hover:not(:disabled) {
+  color: var(--fg);
+}
+.route-recenter:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
 
 /* ─── Street name layer ────────────────────────────────────────────────────── */
 :root.streets-hidden #layer-streets { display: none; }
