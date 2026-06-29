@@ -192,6 +192,11 @@ function rewireContextMenu() {
 // ─── Footer ───────────────────────────────────────────────────────────────
 $routeWalk.addEventListener("click",  () => panel.post("walk_request",  {}));
 $routeClear.addEventListener("click", () => panel.post("clear_request", {}));
+$routeRecenter.addEventListener("click", async () => {
+  if (!current) return;
+  await loadMap(current.mapId, current.x, current.y);
+  activeRenderer?.centerOn?.(current.x, current.y);
+});
 
 $footer.addEventListener("pointerenter", () => {
   const text = $routeDest.textContent;
@@ -202,6 +207,10 @@ $footer.addEventListener("pointerenter", () => {
 $footer.addEventListener("pointerleave", () => panel.tooltip.hide());
 
 // ─── Header ───────────────────────────────────────────────────────────────
+function updateRecenter() {
+  $routeRecenter.disabled = current === null;
+}
+
 function updateHeader() {
   const inLSpace  = current === null && lastKnownMapId === 47;
   const inUnknown = current === null && !inLSpace && $special.hidden;
@@ -216,6 +225,7 @@ function updateHeader() {
   } else {
     $mapName.textContent = headerText(data.maps, current);
   }
+  updateRecenter();
 }
 
 // ─── Route ────────────────────────────────────────────────────────────────
