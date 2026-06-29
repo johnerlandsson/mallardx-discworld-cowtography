@@ -184,6 +184,7 @@ function rewireContextMenu() {
             panel.post("save_filters", { streets: streetsOn, stairs: !stairsOn });
         }},
       );
+      items.push({ separator: true });
     }
     for (const group of buildMapMenuItems(data.maps, mapGroups, displayedMapId)) {
       items.push({
