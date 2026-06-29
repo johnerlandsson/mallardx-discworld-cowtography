@@ -940,7 +940,15 @@ route_to_room = function(room_id, display_name, walk_immediately)
     panel:post("walk_active", {})
   else
     walk_pos = 0
-    note(string.format('  Route to "%s" — %d move%s. Type "%sdb walk" to begin.', display_name, steps, steps == 1 and '' or 's', p), C.ok)
+    mud.note(mud.span(string.format('  Route to "%s" — %d move%s. Type ', display_name, steps, steps == 1 and '' or 's'), { fg = C.ok })
+          .. mud.span(p .. 'db walk', { fg = C.ok, on_click = function()
+               if #walk_steps == 0 or walk_pos > 0 then return end
+               walk_pos = 1
+               note(string.format('  Walking to "%s" — %d move%s.', walk_target_name, #walk_steps, #walk_steps == 1 and '' or 's'), C.ok)
+               for _, step in ipairs(walk_steps) do mud.send(step, { silent = true }) end
+               panel:post("walk_active", {})
+             end })
+          .. mud.span(' to begin.', { fg = C.ok }))
   end
 end
 
