@@ -4,6 +4,14 @@ import { resolveRoom } from "./lookup.js";
 import { mapDidChange, headerText } from "./render.js";
 import { SvgRenderer } from "./svg-renderer.js";
 import { PngRenderer }  from "./png-renderer.js";
+import { buildMapMenuItems } from './map-menu.js';
+
+const mapGroups = await fetch(new URL('./data/map-groups.json', import.meta.url))
+  .then(r => r.json())
+  .catch(() => {
+    console.warn('[mapper] Could not load map-groups.json; map switching unavailable');
+    return [];
+  });
 
 const data = { rooms: { ...rooms, ...customRooms }, maps, terrain };
 
@@ -166,14 +174,13 @@ function rewireContextMenu() {
   contextMenuController?.abort();
   contextMenuController = null;
   if (!(panel.menu && typeof panel.menu.show === "function")) return;
-  if (!activeRenderer?.supportsFilters) return;
   contextMenuController = new AbortController();
   document.addEventListener("contextmenu", (e) => {
-    const isWorld  = displayedMapId === 99;
+    const isWorld   = displayedMapId === 99;
     const streetsOn = !document.documentElement.classList.contains('streets-hidden');
     const stairsOn  = !document.documentElement.classList.contains('stairs-hidden');
     const items = [{ header: true, label: "Map" }];
-    if (!isWorld) {
+    if (activeRenderer?.supportsFilters && !isWorld) {
       items.push(
         { label: "Street names", checked: streetsOn, onClick: () => {
             applyStreetsState(!streetsOn);
@@ -184,6 +191,15 @@ function rewireContextMenu() {
             panel.post("save_filters", { streets: streetsOn, stairs: !stairsOn });
         }},
       );
+    }
+    for (const item of buildMapMenuItems(data.maps, mapGroups, displayedMapId)) {
+      if (item.header) {
+        items.push(item);
+      } else {
+        const { mapId } = item;
+        const meta = data.maps[mapId];
+        items.push({ ...item, onClick: () => loadMap(mapId, meta.defaultX, meta.defaultY) });
+      }
     }
     panel.menu.show(e, items);
   }, { signal: contextMenuController.signal });
