@@ -315,10 +315,8 @@ body {
 
 /* ─── Compass rose (discwhole.svg) ───────────────────────────────────────── */
 /* .map-svg prefix raises specificity above the SVG-embedded preview <style>  */
-.map-svg .compass-ring-primary   { fill: none; stroke: var(--fg);    }
-.map-svg .compass-ring-secondary { fill: none; stroke: var(--muted); }
-.map-svg .compass-rose-primary   { fill: var(--fg);    }
-.map-svg .compass-rose-secondary { fill: var(--muted); }
+.map-svg .compass-rose-primary   { fill: var(--ansi-3,  #cccc00); }
+.map-svg .compass-rose-secondary { fill: var(--ansi-11, #ffff55); }
 .map-svg .compass-label-primary {
   fill: var(--fg);
   font-family: "Noto Sans", sans-serif;
@@ -326,7 +324,7 @@ body {
   text-anchor: middle; dominant-baseline: middle;
 }
 .map-svg .compass-label-secondary {
-  fill: var(--muted);
+  fill: color-mix(in srgb, var(--fg) 65%, var(--bg));
   font-family: "Noto Sans", sans-serif;
   font-size: 13px; font-style: italic; letter-spacing: 0.5px;
   text-anchor: middle; dominant-baseline: middle;
