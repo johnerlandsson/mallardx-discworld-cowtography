@@ -345,14 +345,18 @@ body {
   fill: var(--fg);
   font-family: "Noto Sans", sans-serif;
   font-size: 21px; font-weight: bold; letter-spacing: 0.5px;
-  text-anchor: middle; dominant-baseline: middle;
+  dominant-baseline: middle;
 }
 .map-svg .compass-label-secondary {
   fill: color-mix(in srgb, var(--fg) 65%, var(--bg));
   font-family: "Noto Sans", sans-serif;
   font-size: 13px; font-style: italic; letter-spacing: 0.5px;
-  text-anchor: middle; dominant-baseline: middle;
+  dominant-baseline: middle;
 }
+.map-svg .compass-line-primary   { stroke: var(--ansi-3,  #cccc00); fill: none; }
+.map-svg .compass-line-secondary { stroke: var(--ansi-11, #ffff55); fill: none; }
+.map-svg .compass-ring           { stroke: var(--ansi-11, #ffff55); fill: none; }
+.map-svg .compass-dot            { fill: var(--ansi-3,  #cccc00); }
 
 /* ─── World map terrain (discwhole.svg) ──────────────────────────────────── */
 .terrain-mountain      { fill: #595959; }
