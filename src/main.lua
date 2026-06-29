@@ -919,6 +919,7 @@ route_to_room = function(room_id, display_name, walk_immediately)
   local path, steps, route_rooms = pathfind.find_path(exits, current_room, room_id)
   if path == nil then
     note('  Could not find a route. You may be in an untracked area, or the destination is unreachable.', C.err)
+    panel:post("route_error", { name = display_name })
     return
   end
 

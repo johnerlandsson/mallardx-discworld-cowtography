@@ -20,6 +20,8 @@ const $footer       = document.querySelector(".route-footer");
 const $routeDest    = document.querySelector(".route-dest");
 const $routeWalk    = document.querySelector(".route-walk");
 const $routeClear   = document.querySelector(".route-clear");
+const $routeError    = document.querySelector(".route-error");
+const $routeRecenter = document.querySelector(".route-recenter");
 
 // ─── Filters ──────────────────────────────────────────────────────────────
 function applyStreetsState(visible) {
@@ -218,6 +220,7 @@ function updateHeader() {
 
 // ─── Route ────────────────────────────────────────────────────────────────
 function clearRoute() {
+  clearRouteError();
   walkActive    = false;
   routeRoomIds  = [];
   activeRenderer?.applyState(getState());
@@ -227,6 +230,23 @@ function clearRoute() {
   $routeWalk.disabled  = false;
   $routeClear.disabled = false;
 }
+
+let routeErrorTimer = null;
+
+function clearRouteError() {
+  clearTimeout(routeErrorTimer);
+  routeErrorTimer = null;
+  $routeError.hidden = true;
+  $routeDest.hidden  = false;
+}
+
+panel.on("route_error", (frame) => {
+  clearTimeout(routeErrorTimer);
+  $routeError.textContent = `No route to ${frame.name}`;
+  $routeError.hidden = false;
+  $routeDest.hidden  = true;
+  routeErrorTimer = setTimeout(clearRouteError, 3000);
+});
 
 // ─── Panel event handlers ─────────────────────────────────────────────────
 panel.on("grab_focus",    () => activeRenderer?.grabFocus?.());
@@ -307,6 +327,7 @@ panel.on("room_info", async (frame) => {
 });
 
 panel.on("route_set", (frame) => {
+  clearRouteError();
   routeRoomIds = Array.isArray(frame.rooms) ? frame.rooms : [];
   activeRenderer?.applyState(getState());
   $routeWalk.disabled  = false;
