@@ -134,15 +134,16 @@ text, .map-label, .map-label-muted, .map-label-accent,
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="8.8044425"
-     inkscape:cx="71.214049"
-     inkscape:cy="79.846055"
-     inkscape:window-width="1078"
-     inkscape:window-height="991"
+     inkscape:zoom="4.4022213"
+     inkscape:cx="78.596686"
+     inkscape:cy="82.004056"
+     inkscape:window-width="1968"
+     inkscape:window-height="1011"
      inkscape:window-x="26"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer-artwork" />
+     inkscape:current-layer="layer-artwork"
+     showgrid="false" />
   <g
      id="layer-artwork">
     <!-- artwork -->
@@ -292,7 +293,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
          style="font-size:6px">PORT</tspan></text>
     <g
        id="Compass"
-       transform="matrix(0.12047848,0,0,0.12047848,35.144623,40.794885)">
+       transform="matrix(0.19406628,0,0,0.19406628,-2.6959144,23.102536)">
       <line
          class="compass-line-primary"
          x1="250"
@@ -462,6 +463,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
 
 
 
+
     null
     <line
    id="edge-276f933f8ae0836c030480f9913b5839b99f412c-bb128c612942e5adb1f2568ef0b0ecf95bf435dd"
@@ -526,6 +528,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
    y1="92"
    x2="87"
    y2="124" />
+
 
 
 
