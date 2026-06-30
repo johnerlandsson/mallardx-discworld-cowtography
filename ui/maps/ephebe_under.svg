@@ -116,6 +116,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
   </g>
   <g
      id="layer-exits">
+    <line id="edge-c0495c993b8ba463e6b3008a88f962ae28084582-ebff897af2b8bb6800a9a8636143099d0714be07" class="exit exit-danger" x1="275" y1="299" x2="261" y2="299"/>
     <line id="edge-501c0b35601b8649c57bb98b8a1d6c2d1f1cea02-c0495c993b8ba463e6b3008a88f962ae28084582" class="exit exit-danger" x1="289" y1="285" x2="275" y2="299"/>
     <line id="edge-c0495c993b8ba463e6b3008a88f962ae28084582-ddabfb40040805889125b223a2d679e0a9716fd2" class="exit exit-danger" x1="275" y1="299" x2="289" y2="313"/>
     <line id="edge-468f6243998bda671161e6afe079ff5fac866fc1-ddabfb40040805889125b223a2d679e0a9716fd2" class="exit exit-danger" x1="303" y1="313" x2="289" y2="313"/>
@@ -172,7 +173,6 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <line id="edge-62318616516e96d4a562275933c88d1430ec035e-ae43222ca88d7f039a6c2b7118265f3ef7db8d85" class="exit" x1="135" y1="243" x2="149" y2="243"/>
     <line id="edge-62318616516e96d4a562275933c88d1430ec035e-640fb7e333e01bca1260f0a7620c83555b26b044" class="exit" x1="135" y1="243" x2="121" y2="243"/>
     null
-    <line id="edge-c0495c993b8ba463e6b3008a88f962ae28084582-ebff897af2b8bb6800a9a8636143099d0714be07" class="exit" x1="275" y1="299" x2="261" y2="299"/>
     <line id="edge-0c19cc2d90c3e7ce224fbc4deaf78cfea4c13fa3-31abb9a996aacfd6345d43b9b3f4801c41612ac7" class="exit" x1="379" y1="243" x2="365" y2="229"/>
     <line id="edge-0c19cc2d90c3e7ce224fbc4deaf78cfea4c13fa3-cd63368c639e6fa5d5fb8740b211ba807eb78780" class="exit" x1="379" y1="243" x2="393" y2="257"/>
     <line id="edge-cd63368c639e6fa5d5fb8740b211ba807eb78780-e4afb5808cc1349eb64947811a1e19649ef19d1d" class="exit" x1="393" y1="257" x2="407" y2="271"/>
@@ -239,7 +239,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-62318616516e96d4a562275933c88d1430ec035e" class="room indoor" data-label="end of a tunnel" x="131" y="239" width="8" height="8" rx="2"/>
     <circle id="room-640fb7e333e01bca1260f0a7620c83555b26b044" class="room outdoor room-mission" data-label="mysterious cove" cx="121" cy="243" r="4"/><text class="room-type-label" font-size="4.5" x="121" y="243" text-anchor="middle" dominant-baseline="central">!</text>
     <circle id="room-c1cca17cdf028a00dcc9cb479d01bbb8bfb65e5b" class="room outdoor" data-label="treacherous cliff path" cx="105" cy="229" r="4"/>
-    <rect id="room-ebff897af2b8bb6800a9a8636143099d0714be07" class="room indoor" data-label="dingy tunnel" x="257" y="295" width="8" height="8" rx="2"/>
+    <rect id="room-ebff897af2b8bb6800a9a8636143099d0714be07" class="room indoor danger" data-label="dingy tunnel" x="257" y="295" width="8" height="8" rx="2"/>
     <rect id="room-c0495c993b8ba463e6b3008a88f962ae28084582" class="room indoor danger" data-label="dingy tunnel" x="271" y="295" width="8" height="8" rx="2"/>
     <rect id="room-ddabfb40040805889125b223a2d679e0a9716fd2" class="room indoor danger" data-label="dingy tunnel" x="285" y="309" width="8" height="8" rx="2"/>
     <rect id="room-468f6243998bda671161e6afe079ff5fac866fc1" class="room indoor danger" data-label="small chamber" x="299" y="309" width="8" height="8" rx="2"/>
