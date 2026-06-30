@@ -255,20 +255,7 @@ export class SvgRenderer {
       }
     }
 
-    const primary = target ?? current;
-    if (primary?.roomId) {
-      const el = this.#svg.querySelector(`#room-${CSS.escape(primary.roomId)}`);
-      if (el) {
-        el.classList.add("target");
-        const sib1 = el.nextElementSibling;
-        _lift(el, posOverlay);
-        if (sib1?.classList.contains("room-type-label")) _lift(sib1, posOverlay);
-        const stairEl = this.#svg.querySelector(`#stair-${CSS.escape(primary.roomId)}`);
-        if (stairEl) _lift(stairEl, posOverlay);
-      }
-    }
-
-    if (target && current?.roomId && current.roomId !== target.roomId) {
+    if (current?.roomId) {
       const el = this.#svg.querySelector(`#room-${CSS.escape(current.roomId)}`);
       if (el) {
         el.classList.add("current");
@@ -276,6 +263,18 @@ export class SvgRenderer {
         _lift(el, posOverlay);
         if (sib1?.classList.contains("room-type-label")) _lift(sib1, posOverlay);
         const stairEl = this.#svg.querySelector(`#stair-${CSS.escape(current.roomId)}`);
+        if (stairEl) _lift(stairEl, posOverlay);
+      }
+    }
+
+    if (target?.roomId && (!current?.roomId || current.roomId !== target.roomId)) {
+      const el = this.#svg.querySelector(`#room-${CSS.escape(target.roomId)}`);
+      if (el) {
+        el.classList.add("target");
+        const sib1 = el.nextElementSibling;
+        _lift(el, posOverlay);
+        if (sib1?.classList.contains("room-type-label")) _lift(sib1, posOverlay);
+        const stairEl = this.#svg.querySelector(`#stair-${CSS.escape(target.roomId)}`);
         if (stairEl) _lift(stairEl, posOverlay);
       }
     }

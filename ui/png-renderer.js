@@ -218,9 +218,9 @@ export class PngRenderer {
       ctx.fill();
     }
 
-    // Ghost position (when prediction active and different from confirmed)
+    // Target position (predicted next room, when prediction active and different from confirmed)
     if (target && current?.roomId && current.roomId !== target.roomId) {
-      const room = rooms[current.roomId];
+      const room = rooms[target.roomId];
       if (room && room[0] === mapId) {
         ctx.beginPath();
         ctx.arc(toCanvasX(room[1]), toCanvasY(room[2]), ghostR, 0, Math.PI * 2);
@@ -229,9 +229,8 @@ export class PngRenderer {
       }
     }
 
-    const primary  = target ?? current;
     const dotColor = "#e03030";
-    const primaryRoom = primary?.roomId ? rooms[primary.roomId] : null;
+    const currentRoom = current?.roomId ? rooms[current.roomId] : null;
     const drawDot = (cx, cy) => {
       ctx.beginPath();
       ctx.arc(cx, cy, dotR, 0, Math.PI * 2);
@@ -240,10 +239,10 @@ export class PngRenderer {
       ctx.strokeStyle = "#ffffff"; ctx.lineWidth = Math.max(1, scaleX * 1.5);
       ctx.stroke();
     };
-    if (primaryRoom && primaryRoom[0] === mapId) {
-      drawDot(toCanvasX(primaryRoom[1]), toCanvasY(primaryRoom[2]));
-    } else if (primary && primary.x != null) {
-      drawDot(toCanvasX(primary.x), toCanvasY(primary.y));
+    if (currentRoom && currentRoom[0] === mapId) {
+      drawDot(toCanvasX(currentRoom[1]), toCanvasY(currentRoom[2]));
+    } else if (current && current.x != null) {
+      drawDot(toCanvasX(current.x), toCanvasY(current.y));
     }
   }
 
