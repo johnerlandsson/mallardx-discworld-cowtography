@@ -836,6 +836,9 @@ local DIR_NORMALIZE = {
 }
 
 mud.alias([[^(n|ne|e|se|s|sw|w|nw|u|d|north|northeast|east|southeast|south|southwest|west|northwest|up|down)$]], function(m)
+  if walk_pos == 0 and #walk_steps > 0 then
+    do_clear_route()
+  end
   local dir  = DIR_NORMALIZE[m[1]]
   local from = target_room or current_room
   if from then

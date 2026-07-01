@@ -337,6 +337,11 @@ panel.on("room_info", async (frame) => {
     lastKnownMapId = next.mapId;
     next.roomId = frame.identifier ?? null;
   }
+  // Drop rooms/edges already passed so the route highlight only covers what's ahead.
+  if (routeRoomIds.length > 0 && next?.roomId != null) {
+    const idx = routeRoomIds.indexOf(next.roomId);
+    if (idx > 0) routeRoomIds = routeRoomIds.slice(idx);
+  }
   const destRoomId = routeRoomIds.length > 0 ? routeRoomIds[routeRoomIds.length - 1] : null;
   if (!walkActive && destRoomId !== null && next?.roomId === destRoomId) {
     clearRoute();
