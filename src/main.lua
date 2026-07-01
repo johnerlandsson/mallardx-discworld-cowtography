@@ -718,6 +718,18 @@ end)
 -- ─── Walk state ──────────────────────────────────────────────────────────────
 -- Shared by /go, /db, and /bm — either can create a route, and /go walks it.
 
+-- Discworld queues commands sent while a movement queue is active, so the
+-- verbose look fires as soon as the queued moves actually finish.
+local function send_walk_steps()
+  if settings.get('brief_verbose_look') then
+    mud.send('brief look', { silent = true })
+  end
+  for _, step in ipairs(walk_steps) do mud.send(step, { silent = true }) end
+  if settings.get('brief_verbose_look') then
+    mud.send('verbose look', { silent = true })
+  end
+end
+
 local function do_walk()
   local p = mud.command_prefix()
   if #walk_steps == 0 then
@@ -730,7 +742,7 @@ local function do_walk()
   end
   walk_pos = 1
   note(string.format('  Walking to "%s" — %d move%s.', walk_target_name, #walk_steps, #walk_steps == 1 and '' or 's'), C.ok)
-  for _, step in ipairs(walk_steps) do mud.send(step, { silent = true }) end
+  send_walk_steps()
   panel:post("walk_active", {})
 end
 
@@ -967,7 +979,7 @@ route_to_room = function(room_id, display_name, walk_immediately)
   if walk_immediately then
     walk_pos = 1
     note(string.format('  Walking to "%s" — %d move%s.', display_name, steps, steps == 1 and '' or 's'), C.ok)
-    for _, step in ipairs(walk_steps) do mud.send(step, { silent = true }) end
+    send_walk_steps()
     panel:post("walk_active", {})
   else
     walk_pos = 0

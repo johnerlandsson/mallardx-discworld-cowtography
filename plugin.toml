@@ -62,3 +62,9 @@ choices = [
   { value = "svg", label = "SVG (vector)"           },
   { value = "png", label = "PNG (classic pixel art)" },
 ]
+
+[settings.brief_verbose_look]
+type        = "bool"
+default     = false
+label       = "Brief/verbose look around walks"
+description = "Send \"brief look\" before and \"verbose look\" after walking a route."

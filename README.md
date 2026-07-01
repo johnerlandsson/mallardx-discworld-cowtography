@@ -97,6 +97,8 @@ Settings are in the Mallard plugin settings panel.
 
 **Walk arrival sound** — Optional chime to play when a `/go` completes.
 
+**Brief/verbose look around walks** — When enabled, sends `brief look` before and `verbose look` after the movement commands of a route, so long walks don't flood the screen with full room descriptions.
+
 ---
 
 ## Installation
