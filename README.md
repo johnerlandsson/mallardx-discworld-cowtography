@@ -58,9 +58,11 @@ After a search, pick a result by number to route there and start walking immedia
 ```
 
 ```
-/db walk    — start or resume walking the current route
-/db clear   — cancel the current route
+/go         — start or resume walking the current route
+/go clear   — cancel the current route
 ```
+
+`/go` walks whatever route is currently set, whether it came from a `/db` search result or a `/bm` bookmark.
 
 You can also click any room on the map to set a route directly, without running a search first.
 
@@ -71,16 +73,16 @@ You can also click any room on the map to set a route directly, without running 
 Save your current room as a named bookmark and route back to it at any time. Bookmarks are stored per character.
 
 ```
-/db bm                  — list all bookmarks
-/db bm add <name>       — bookmark current room as <name>
-/db bm rm <name>        — remove bookmark <name>
-/db bm <name>           — highlight route to <name>, then /db walk to go
+/bm                     — list all bookmarks
+/bm add <name>          — bookmark current room as <name>
+/bm rm <name>           — remove bookmark <name>
+/bm <name>              — highlight route to <name>, then /go to go
 ```
 
 ```
-/db bm add market       — saves current room as "market"
-/db bm market           — routes to your "market" bookmark
-/db walk                — starts walking the highlighted route
+/bm add market           — saves current room as "market"
+/bm market               — routes to your "market" bookmark
+/go                      — starts walking the highlighted route
 ```
 
 Saving a bookmark with a name that already exists overwrites silently.
@@ -93,7 +95,7 @@ Settings are in the Mallard plugin settings panel.
 
 **Map style** — Switch between *SVG (vector)* maps and *PNG (classic pixel art)* maps. SVG maps are sharp at any zoom and show room types, exits, and route highlighting. PNG maps use the original pixel-art images from Quow's Cow Bar.
 
-**Walk arrival sound** — Optional chime to play when a `/db walk` completes.
+**Walk arrival sound** — Optional chime to play when a `/go` completes.
 
 ---
 

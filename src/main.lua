@@ -8,8 +8,8 @@
 --   db item <name>            search shop items
 --   db shop <name>            alias for db item
 --   db <number>               route to result N and start walking immediately
---   db walk                   start/resume last route
---   db clear                  clear current route
+--   bm [add|rm|<name>]        list, add, remove, or route to bookmarks
+--   go [clear]                start/resume the current route, or clear it
 --
 -- Data credit: Quow's Cow Bar and Minimap plugin — https://quow.co.uk/minimap.php
 
@@ -715,6 +715,33 @@ gmcp.on('room.info', function(_, data)
   end
 end)
 
+-- ─── Walk state ──────────────────────────────────────────────────────────────
+-- Shared by /go, /db, and /bm — either can create a route, and /go walks it.
+
+local function do_walk()
+  local p = mud.command_prefix()
+  if #walk_steps == 0 then
+    note(string.format('  No route set. Run "%sdb <number>" or "%sbm <name>" first.', p, p), C.err)
+    return
+  end
+  if walk_pos > 0 then
+    note('  Already walking.', C.muted)
+    return
+  end
+  walk_pos = 1
+  note(string.format('  Walking to "%s" — %d move%s.', walk_target_name, #walk_steps, #walk_steps == 1 and '' or 's'), C.ok)
+  for _, step in ipairs(walk_steps) do mud.send(step, { silent = true }) end
+  panel:post("walk_active", {})
+end
+
+local function do_clear_route()
+  walk_steps       = {}
+  walk_pos         = 0
+  walk_target_name = ''
+  post_route_clear()
+  note('  Route cleared.', C.muted)
+end
+
 -- ─── Display ─────────────────────────────────────────────────────────────────
 
 local TYPE_LABELS = {
@@ -942,13 +969,7 @@ route_to_room = function(room_id, display_name, walk_immediately)
   else
     walk_pos = 0
     mud.note(mud.span(string.format('  Route to "%s" — %d move%s. Type ', display_name, steps, steps == 1 and '' or 's'), { fg = C.ok })
-          .. mud.span(p .. 'db walk', { fg = C.ok, on_click = function()
-               if #walk_steps == 0 or walk_pos > 0 then return end
-               walk_pos = 1
-               note(string.format('  Walking to "%s" — %d move%s.', walk_target_name, #walk_steps, #walk_steps == 1 and '' or 's'), C.ok)
-               for _, step in ipairs(walk_steps) do mud.send(step, { silent = true }) end
-               panel:post("walk_active", {})
-             end })
+          .. mud.span(p .. 'go', { fg = C.ok, on_click = function() do_walk() end })
           .. mud.span(' to begin.', { fg = C.ok }))
   end
 end
@@ -958,20 +979,11 @@ panel:on_message("room_click", function(frame)
 end)
 
 panel:on_message("walk_request", function(_frame)
-  if #walk_steps == 0 or walk_pos > 0 then return end
-  walk_pos = 1
-  note(string.format('  Walking to "%s" — %d move%s.',
-    walk_target_name, #walk_steps, #walk_steps == 1 and '' or 's'), C.ok)
-  for _, step in ipairs(walk_steps) do mud.send(step, { silent = true }) end
-  panel:post("walk_active", {})
+  do_walk()
 end)
 
 panel:on_message("clear_request", function(_frame)
-  walk_steps       = {}
-  walk_pos         = 0
-  walk_target_name = ''
-  post_route_clear()
-  note('  Route cleared.', C.muted)
+  do_clear_route()
 end)
 
 
@@ -1007,38 +1019,6 @@ mud.command("db", function(m)
     note('  ─────────────────────────────────────────────────────', C.rule)
     note(string.format('  %sdb <number>                route to result and walk', p), C.alt)
     note(string.format('  %sdb route <number>          set route without walking', p), C.alt)
-    note(string.format('  %sdb walk                    start or resume walking', p), C.alt)
-    note(string.format('  %sdb clear                   clear current route', p), C.alt)
-    note('  ─────────────────────────────────────────────────────', C.rule)
-    note(string.format('  %sdb bm                      list bookmarks', p), C.alt)
-    note(string.format('  %sdb bm add <name>           bookmark current room', p), C.alt)
-    note(string.format('  %sdb bm rm <name>            remove bookmark', p), C.alt)
-    note(string.format('  %sdb bm <name>               route to bookmark', p), C.alt)
-    return
-  end
-
-  if args == 'walk' then
-    if #walk_steps == 0 then
-      note(string.format('  No route set. Run "%sdb <number>" first.', p), C.err)
-      return
-    end
-    if walk_pos > 0 then
-      note('  Already walking.', C.muted)
-      return
-    end
-    walk_pos = 1
-    note(string.format('  Walking to "%s" — %d move%s.', walk_target_name, #walk_steps, #walk_steps == 1 and '' or 's'), C.ok)
-    for _, step in ipairs(walk_steps) do mud.send(step, { silent = true }) end
-    panel:post("walk_active", {})
-    return
-  end
-
-  if args == 'clear' then
-    walk_steps       = {}
-    walk_pos         = 0
-    walk_target_name = ''
-    post_route_clear()
-    note('  Route cleared.', C.muted)
     return
   end
 
@@ -1084,7 +1064,18 @@ mud.command("db", function(m)
     return
   end
 
-  if args == 'bm' then
+  do_search('room', args, nil)
+end, {
+  description = "Search Quow's Discworld database and navigate to results. Run with no arguments for full usage.",
+  usage       = "db [<room>|npc|item|npcitem|route] [...]",
+})
+
+-- ─── bm ──────────────────────────────────────────────────────────────────────
+
+mud.command("bm", function(m)
+  local args = m.args
+
+  if args == '' then
     local bmarks = storage.get(bm_key()) or {}
     local names = {}
     for name in pairs(bmarks) do names[#names + 1] = name end
@@ -1103,7 +1094,7 @@ mud.command("db", function(m)
     return
   end
 
-  local bm_add = args:match('^bm%s+add%s+(.+)$')
+  local bm_add = args:match('^add%s+(.+)$')
   if bm_add then
     if current_room == nil then
       note('  Current room unknown. Move through a mapped room first.', C.err)
@@ -1117,7 +1108,7 @@ mud.command("db", function(m)
     return
   end
 
-  local bm_rm = args:match('^bm%s+rm%s+(.+)$')
+  local bm_rm = args:match('^rm%s+(.+)$')
   if bm_rm then
     local bmarks = storage.get(bm_key()) or {}
     if bmarks[bm_rm] == nil then
@@ -1130,22 +1121,37 @@ mud.command("db", function(m)
     return
   end
 
-  local bm_name = args:match('^bm%s+(.+)$')
-  if bm_name then
-    local bmarks = storage.get(bm_key()) or {}
-    local entry  = bmarks[bm_name]
-    if entry == nil then
-      note(string.format('  No bookmark named "%s".', bm_name), C.err)
-      return
-    end
-    route_to_room(entry.room_id, entry.location, false)
+  local bmarks = storage.get(bm_key()) or {}
+  local entry  = bmarks[args]
+  if entry == nil then
+    note(string.format('  No bookmark named "%s".', args), C.err)
+    return
+  end
+  route_to_room(entry.room_id, entry.location, false)
+end, {
+  description = "List, add, remove, and route to bookmarks.",
+  usage       = "bm [add|rm|<name>] [...]",
+})
+
+-- ─── go ──────────────────────────────────────────────────────────────────────
+
+mud.command("go", function(m)
+  local args = m.args
+
+  if args == '' then
+    do_walk()
     return
   end
 
-  do_search('room', args, nil)
+  if args == 'clear' then
+    do_clear_route()
+    return
+  end
+
+  note(string.format('  Usage: %sgo [clear]', mud.command_prefix()), C.err)
 end, {
-  description = "Search Quow's Discworld database and navigate to results. Run with no arguments for full usage.",
-  usage       = "db [<room>|npc|item|npcitem|walk|clear|bm] [...]",
+  description = "Start or resume walking the current route (set via /db or /bm), or clear it.",
+  usage       = "go [clear]",
 })
 
 -- ─── dbid ────────────────────────────────────────────────────────────────────
