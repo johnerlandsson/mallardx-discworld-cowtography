@@ -6,4 +6,5 @@ ui/maps/*.svg.*.svg
 # Claude working files
 claude_resources/
 .claude/
+.superpowers/
 CLAUDE.md
