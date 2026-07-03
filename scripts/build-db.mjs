@@ -158,8 +158,18 @@ function parseMapfilesTable(xml) {
   return out
 }
 
-function terrainConstants() {
-  return { hubX: 2450, hubY: 2350, scaleX: 300000, scaleY: 338000, viewportMapId: 99 }
+function terrainConstants(xml) {
+  // Parsed from the line initializing the terrain-projection variables, e.g.:
+  //   sPreviousApparentRoomID, iScaleX, iScaleY, iHubX, iHubY = "", 103488, 103488, 2840, 3639
+  const m = xml.match(
+    /iScaleX,\s*iScaleY,\s*iHubX,\s*iHubY\s*=\s*"[^"]*"\s*,\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)/
+  )
+  if (!m) throw new Error('Could not locate iScaleX/iScaleY/iHubX/iHubY initializer in QuowMinimap.xml')
+  return {
+    hubX: Number(m[3]), hubY: Number(m[4]),
+    scaleX: Number(m[1]), scaleY: Number(m[2]),
+    viewportMapId: 99,
+  }
 }
 
 function emitRoomsModule({ rooms, maps, terrain }) {
@@ -279,9 +289,10 @@ async function main() {
 
   // JS module + PNGs (only when we have the full zip extraction)
   if (xmlPath) {
+    const xml       = await fs.readFile(xmlPath, 'utf8')
     const roomsData = readRoomsTable(db)
-    const maps      = parseMapfilesTable(await fs.readFile(xmlPath, 'utf8'))
-    const terrain   = terrainConstants()
+    const maps      = parseMapfilesTable(xml)
+    const terrain   = terrainConstants(xml)
 
     await fs.mkdir(path.dirname(OUT_ROOMS_JS), { recursive: true })
     await fs.writeFile(OUT_ROOMS_JS, emitRoomsModule({ rooms: roomsData, maps, terrain }), 'utf8')

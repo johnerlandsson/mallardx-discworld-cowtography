@@ -1,6 +1,6 @@
 import { rooms, maps, terrain } from "./data/rooms.js";
 import customRooms from "./data/room-custom.js";
-import { resolveRoom } from "./lookup.js";
+import { resolveRoom, lookupRoom, computeTerrainShift } from "./lookup.js";
 import { mapDidChange, headerText } from "./render.js";
 import { SvgRenderer } from "./svg-renderer.js";
 import { PngRenderer }  from "./png-renderer.js";
@@ -102,6 +102,7 @@ let lastKnownMapId = null;
 let displayedMapId = null;
 let darkMode       = false;
 let walkActive     = false;
+let terrainShift   = { x: 0, y: 0 };
 const savedZoom    = new Map();
 
 function getState() {
@@ -304,7 +305,14 @@ panel.on("room_info", async (frame) => {
   const wasInDark = darkMode;
   darkMode = false;
   if (wasInDark) target = null;
-  let next = resolveRoom(data, frame);
+  // Recalibrate the terrain-projection shift whenever we're on a *known* room
+  // that also reports terrain coordinates, so unmapped terrain rooms we walk
+  // into next resolve near this anchor instead of the raw projection's coarse grid.
+  const knownHit = lookupRoom(data.rooms, frame.identifier);
+  if (knownHit && frame.terrain === 1 && typeof frame.tx === "number" && typeof frame.ty === "number") {
+    terrainShift = computeTerrainShift(data.terrain, frame.tx, frame.ty, knownHit.x, knownHit.y);
+  }
+  let next = resolveRoom(data, frame, terrainShift);
   if (next === null && frame.name) {
     next = activeRenderer?.findRoomByLabel?.(frame.name, displayedMapId) ?? null;
   }
