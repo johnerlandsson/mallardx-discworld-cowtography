@@ -5,7 +5,7 @@ description         = "Minimap and database search for Discworld MUD. Search Quo
 language            = "lua"
 entry               = "src/main.lua"
 mallard_api_version = "1.0"
-minimum_app_version = "0.11.0"
+minimum_app_version = "0.16.0"
 authors             = ["John Erlandsson"]
 license             = "MIT"
 

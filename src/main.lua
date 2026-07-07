@@ -838,8 +838,18 @@ local function display_results(search_type, query, results, sorted_by_dist)
 end
 
 -- ─── Movement prediction ─────────────────────────────────────────────────────
--- Intercept cardinal directions to advance the predicted position (target_room)
--- before GMCP confirms arrival — matching Quow's approach.
+-- Watch outgoing cardinal directions to advance the predicted position
+-- (target_room) before GMCP confirms arrival — matching Quow's approach.
+--
+-- This is an *observer* (mud.on_send), not a consuming alias: the direction
+-- flows to the wire and echoes normally (Source::Echo), instead of being
+-- swallowed and re-sent — which is what made plain `n`/`north` render in the
+-- client-command colour. Observing at the wire level also means numpad/keymap
+-- movement now advances prediction, which a manual `mud.alias` on typed input
+-- never saw. We skip our OWN sends (route-walking via send_walk_steps) so a
+-- walk doesn't double-advance the prediction it already tracks.
+
+local PLUGIN_ID = "net.mallard.discworld-cowtography"
 
 local DIR_NORMALIZE = {
   n='n', north='n', ne='ne', northeast='ne', e='e', east='e',
@@ -847,7 +857,8 @@ local DIR_NORMALIZE = {
   w='w', west='w', nw='nw', northwest='nw', u='u', up='u', d='d', down='d',
 }
 
-mud.alias([[^(n|ne|e|se|s|sw|w|nw|u|d|north|northeast|east|southeast|south|southwest|west|northwest|up|down)$]], function(m)
+mud.on_send([[^(n|ne|e|se|s|sw|w|nw|u|d|north|northeast|east|southeast|south|southwest|west|northwest|up|down)$]], function(m)
+  if m.origin.plugin_id == PLUGIN_ID then return end
   if walk_pos == 0 and #walk_steps > 0 then
     do_clear_route()
   end
@@ -864,8 +875,7 @@ mud.alias([[^(n|ne|e|se|s|sw|w|nw|u|d|north|northeast|east|southeast|south|south
       end
     end
   end
-  mud.send(m[1], { silent = true })
-end)
+end, { name = "movement-observer" })
 
 mud.alias([[^stop$]], function(m)
   reset_walk()
