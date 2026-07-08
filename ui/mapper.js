@@ -384,8 +384,7 @@ panel.on("walk_active", () => {
   walkActive = true;
   target     = null;  // route walk sends all steps via mud.send (bypasses alias), so no target_moves will fire
   activeRenderer?.applyState(getState());
-  $routeWalk.disabled  = true;
-  $routeClear.disabled = true;
+  $routeWalk.disabled = true;
 });
 
 panel.on("route_clear", clearRoute);
