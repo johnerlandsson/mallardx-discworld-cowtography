@@ -59,6 +59,16 @@ plugin's `[gmcp].advertise` list (confirmed in
 `~/src/mallard/src-tauri/src/engine/handshake.rs`), so no manual
 `core.hello`/`core.supports` negotiation code is needed in Lua.
 
+> **Superseded by the implementation plan:** the "Lua wiring" and "Panel
+> rendering" sections below describe the original plan — forward the raw
+> string and parse ANSI/MXP in JS. The implementation plan
+> (`docs/superpowers/plans/2026-07-10-ascii-minimap-panel.md`) refined this:
+> parsing happens in Lua (`src/ansi_map.lua`, porting the sibling
+> `mallardx-discworld-mdt` plugin's proven `parse_terrain` approach) into
+> `{char, fg, bold}` cell rows, and the panel posts/consumes `"map_rows"`
+> rather than raw text. Same intent, better implementation — read the plan
+> for what actually shipped.
+
 ## Lua wiring (`src/main.lua`)
 
 - New panel handle: `local ascii_panel = mud.panel("ascii_map")`.
