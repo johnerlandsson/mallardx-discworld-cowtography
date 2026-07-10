@@ -1,0 +1,19 @@
+/* --bg/--fg/--fg-muted are pushed by the Mallard host as inline styles
+ * on :root; the fallbacks below only apply before that happens. */
+html, body { margin: 0; padding: 0; height: 100%; }
+body {
+  background: var(--bg, #1a1a1a);
+  color: var(--fg, #eaeaea);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 13px;
+  line-height: 1.3;
+  overflow: auto;
+}
+#grid {
+  margin: 8px;
+  white-space: pre;
+}
+#empty {
+  margin: 8px;
+  color: var(--fg-muted, #888);
+}
