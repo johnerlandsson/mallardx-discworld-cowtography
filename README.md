@@ -27,8 +27,20 @@ move, with no per-room map data to author. Some locations (indoors,
 special zones) have no map to show; the panel says so rather than
 showing a stale grid.
 
-This panel is read-only in this version: no click-to-route, no zoom.
-Show or hide it like any other Mallard panel.
+**Zoom:** Scroll anywhere in the panel to zoom in and out. The zoom
+level is remembered per character.
+
+**Right-click the panel** for two commands that control whether
+Discworld also prints the map inline above `look`/`glance` in your main
+window (via `options output map`, all four contexts: `look`,
+`lookcity`, `glance`, `glancecity`):
+
+- **Show map in output** — sets them all to `top`.
+- **Hide map in output** — sets them all to `off`, so the map only
+  appears in this panel.
+
+This panel is read-only otherwise in this version: no click-to-route.
+Show or hide the panel itself like any other Mallard panel.
 
 ---
 
