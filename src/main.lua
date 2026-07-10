@@ -144,6 +144,12 @@ local last_ascii_rows = nil
 
 ascii_panel:on_message("ready", function()
   ascii_panel:post("map_rows", { rows = last_ascii_rows or {} })
+  local zoom = storage.get('ascii_zoom')
+  if type(zoom) == 'number' then ascii_panel:post('zoom_data', { size = zoom }) end
+end)
+
+ascii_panel:on_message("save_zoom", function(data)
+  storage.set('ascii_zoom', data.size)
 end)
 
 ascii_panel:on_message("set_map_output", function(data)
