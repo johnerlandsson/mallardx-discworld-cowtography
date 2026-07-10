@@ -69,65 +69,61 @@ plugin's `[gmcp].advertise` list (confirmed in
   appropriate "no map here" state rather than stale content.
 - On `ascii_panel:on_message("ready", ...)`: re-post the last known payload
   (if any), mirroring the existing map panel's rehydrate-on-open pattern.
-- Track `last_ascii_room_id` (room the last non-empty `room.map` payload
-  arrived for) against `current_room`. See "No-data notice" below.
+  No other state tracking needed: `room.map` arrives on every
+  `look`/`glance` (confirmed live, see "Options investigation" below), so
+  the panel is a direct passive mirror of the latest payload per room.
 
 ## Panel rendering (`ui/ascii_map.html` / `ui/ascii_map.js` / `ui/ascii_map.css`)
 
 - Monospace `<pre>`-style block.
 - Small hand-rolled parser converts the raw string into HTML:
-  1. Unwrap MXP colour wrappers (`\x1b[4zmxp<colour>mxp>...\x1b[3z`) to
-     `<span style="color:...">inner text</span>`, porting the wrapper
-     shape already handled by the sibling mdt plugin's `mxp.lua`
-     (no click-to-route — see Scope cuts).
-  2. Convert remaining ANSI SGR sequences (`\x1b[NNm`) to nested
-     `<span>` colour/style state, closing spans on reset (`\x1b[0m`).
+  1. Convert ANSI SGR sequences — `\x1b[` followed by one or more
+     `;`-separated numeric parameters and a trailing `m` (e.g. `\x1b[39;49m`,
+     `\x1b[1;33m`, `\x1b[0m`) — to nested `<span>` colour/style state,
+     closing spans on reset. Confirmed via a live capture
+     (2026-07-10) that real payloads use this full compound form, not
+     bare 2-digit codes — Quow's own stripping regex
+     (`QuowMinimap.xml:14283`, `\\u001b%[%w%w`) only handles the latter and
+     would mis-parse the former, so it is not a reference implementation
+     to port here.
+  2. Defensively unwrap MXP colour wrappers (`\x1b[4zmxp<colour>mxp>...\x1b[3z`)
+     to `<span style="color:...">inner text</span>`, porting the wrapper
+     shape already handled by the sibling mdt plugin's `mxp.lua`, in case
+     they appear in some map contexts (none were observed in the
+     2026-07-10 test capture, which was plain SGR only — no click-to-route
+     regardless, see Scope cuts).
   3. Escape any literal HTML-significant characters in the remaining text
      before inserting.
 - No interactivity in v1 (no click targets, no zoom/pan) — it's a
   read-only live snapshot.
 
-## No-data notice (replaces the originally-proposed auto-fix button)
+## Options investigation — resolved
 
 Earlier drafts of this design considered detecting a misconfigured
-`options output map` setting and offering a one-click fix. That was
-dropped: whether `options output map ...= off` actually suppresses the
-`room.map` **GMCP** payload (as opposed to just the plain-text echo in a
-terminal client) is unverified and evidence pointed both ways:
+`options output map` setting and offering a one-click fix, then backed
+that off to an uncertain "light fallback" pending live testing, since
+evidence pointed both ways: the sibling `mdt` plugin needs zero config
+for its GMCP frame (`room.writtenmap`), while Quow's reference client
+(`QuowMinimap.xml:14556-14574`) warns players to check `options output
+map` when its *own* map handling comes up empty.
 
-- The sibling `mdt` plugin works with **zero** config for its GMCP frame
-  (`room.writtenmap`), suggesting GMCP delivery is independent of display
-  settings.
-- Quow's own reference implementation (`QuowMinimap.xml:14556-14574`)
-  surfaces a warning recommending `options output map = top` specifically
-  when *its* `room.map` handling comes up empty — but that implementation
-  cross-checks against text lines Discworld also echoes to the terminal,
-  so it may be validating its legacy trigger-based path rather than the
-  GMCP payload itself.
+**Live-tested and confirmed (2026-07-10):** a captured GMCP log cycling
+`options output map glance/look` through every valid value (`off`, `top`,
+`left`, `bottom`) shows the `room.map` and `room.writtenmap` GMCP frames
+firing identically, byte-for-byte, on every `look`/`glance` regardless of
+the setting. **`options output map` only controls a terminal client's
+inline text rendering — it has no effect on the GMCP feed.** Quow's
+warning was validating its own legacy trigger-based text path, not GMCP
+delivery. There is nothing to detect or fix here; the feature is dropped
+entirely.
 
-Since we don't know the exact fix command with confidence, this plugin
-does not send any config commands automatically. Instead:
+## No-data notice
 
-- If the player has entered several (proposed: 3) normal, trackable rooms
-  (same "not a special zone" gate already used for library/Shades/dark-room
-  handling in `main.lua`) with no non-empty `room.map` payload ever
-  received, the panel shows a static notice:
-
-  > No map data received yet. If this persists, check your `options
-  > output map` settings in-game.
-
-- Any non-empty `room.map` payload clears the notice immediately and is
-  never shown again for that session once data has been seen at least
-  once.
-
-**Open item, pending live testing:** the user is going to test with
-`options output map` set to different values (`off`/`top`/etc.) against a
-live Discworld connection and report which combination is actually
-required for `room.map` GMCP data to arrive. Depending on the outcome,
-this section (and possibly the no-data notice's wording, or reintroduction
-of a fix affordance) may need revision before or shortly after
-implementation. **Do not finalize the exact wording/threshold of the
-no-data notice in the implementation plan until this is confirmed.**
+Some locations genuinely have no map to show (indoors, special zones,
+etc.) — Discworld sends an empty `room.map` payload in that case (see
+`QuowMinimap.xml:14267-14275`, the `sThisGMCP == ""` branch). The panel
+shows a simple "No map for this location" state when the current
+payload is empty, with no implication anything is misconfigured.
 
 ## Scope cuts (explicit)
 
@@ -139,7 +135,11 @@ no-data notice in the implementation plan until this is confirmed.**
 
 ## Testing
 
-- Lua-side: unit tests (matching existing `tests/*.lua` conventions) for
-  the MXP/ANSI-to-HTML conversion, covering: plain text, single SGR
-  colour, SGR reset, nested MXP wrapper (colour + link), empty payload.
-- Manual: verified live against the MUD per the open item above.
+- Lua-side or JS-side (whichever layer ends up owning the conversion):
+  unit tests covering plain text, single SGR colour, compound SGR
+  (`1;33`), SGR reset, nested MXP wrapper (colour + link, defensive
+  path), and empty payload.
+- Manual: confirmed live (2026-07-10) that `room.map` arrives
+  identically regardless of `options output map`; remaining manual
+  verification is just visual — does the rendered panel match what the
+  MUD intends the colours/glyphs to look like.
