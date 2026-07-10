@@ -79,4 +79,4 @@ test('real captured payload (village forge) parses without error', function()
   assert(rows[2][5].bold == false)
 end)
 
-print(string.format('\n%d/%d tests passed', passed, 7))
+print(string.format('\n%d/%d tests passed', passed, 8))
