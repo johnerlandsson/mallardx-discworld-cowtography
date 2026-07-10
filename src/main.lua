@@ -15,6 +15,7 @@
 
 local search    = require('search')
 local pathfind  = require('pathfind')
+local ansi_map  = require('ansi_map')
 local rooms     = require('data.rooms')
 local items     = require('data.items')
 local npcs      = require('data.npcs')
@@ -137,6 +138,13 @@ local last_payload = nil
 local last_route             = nil
 local last_route_destination = nil
 local last_route_steps       = nil
+
+local ascii_panel     = mud.panel("ascii_map")
+local last_ascii_rows = nil
+
+ascii_panel:on_message("ready", function()
+  ascii_panel:post("map_rows", { rows = last_ascii_rows or {} })
+end)
 
 local function post_room(payload)
   panel:post("room_info", {
@@ -561,6 +569,12 @@ apply_char_name(gmcp.get('char.info.capname'))
 
 gmcp.on('char.info', function(_, data)
   if type(data) == 'table' then apply_char_name(data.capname) end
+end)
+
+gmcp.on('room.map', function(_, payload)
+  if type(payload) ~= 'string' then return end
+  last_ascii_rows = ansi_map.parse(payload)
+  ascii_panel:post("map_rows", { rows = last_ascii_rows })
 end)
 
 gmcp.on('room.info', function(_, data)
