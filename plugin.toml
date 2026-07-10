@@ -28,7 +28,7 @@ default_size = { width = 360, height = 360 }
 [panels.ascii_map]
 title        = "ASCII Map"
 entry        = "ui/ascii_map.html"
-default_dock = "bottom"
+default_dock = "right"
 default_size = { width = 480, height = 220 }
 
 [[keymaps]]
