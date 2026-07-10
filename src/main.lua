@@ -150,6 +150,8 @@ ascii_panel:on_message("set_map_output", function(data)
   local value = data.on and "top" or "off"
   mud.send("options output map look=" .. value, { silent = true })
   mud.send("options output map lookcity=" .. value, { silent = true })
+  mud.send("options output map glance=" .. value, { silent = true })
+  mud.send("options output map glancecity=" .. value, { silent = true })
 end)
 
 local function post_room(payload)
