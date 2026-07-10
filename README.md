@@ -18,6 +18,18 @@ The map panel opens automatically on the right side of the window. As you walk t
 
 **Right-click the map** to open a context menu. On SVG city maps, a **Filters** section lets you toggle street name labels and staircase exits. The **Maps** section lists all available maps grouped by region — hover a region to see its maps and click one to jump to it. Click-to-route works normally on any map you browse to.
 
+## ASCII Map panel
+
+A second, independent panel shows Discworld's own live ASCII minimap —
+the same colour grid the MUD can print above `look`/`glance` — fed
+directly from the `room.map` GMCP frame. It updates automatically as you
+move, with no per-room map data to author. Some locations (indoors,
+special zones) have no map to show; the panel says so rather than
+showing a stale grid.
+
+This panel is read-only in this version: no click-to-route, no zoom.
+Show or hide it like any other Mallard panel.
+
 ---
 
 ## Commands

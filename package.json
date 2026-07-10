@@ -3,9 +3,9 @@
   "version": "0.27.0",
   "type": "module",
   "scripts": {
-    "test": "vitest run && lua tests/search_test.lua && lua tests/pathfind_test.lua",
+    "test": "vitest run && lua tests/search_test.lua && lua tests/pathfind_test.lua && lua tests/ansi_map_test.lua",
     "test:js": "vitest run",
-    "test:lua": "lua tests/search_test.lua && lua tests/pathfind_test.lua",
+    "test:lua": "lua tests/search_test.lua && lua tests/pathfind_test.lua && lua tests/ansi_map_test.lua",
     "build:data": "node scripts/build-db.mjs",
     "gen:map-names": "node scripts/gen-map-names.mjs",
     "build:svg": "node scripts/build-svg.mjs",
