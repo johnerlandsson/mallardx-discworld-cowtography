@@ -28,5 +28,15 @@ function render(rows) {
 
 panel.on("map_rows", (frame) => render(frame.rows || []));
 
+// ─── Context menu ─────────────────────────────────────────────────────────
+if (panel.menu && typeof panel.menu.show === "function") {
+  document.addEventListener("contextmenu", (e) => {
+    panel.menu.show(e, [
+      { label: "Show map in output", onClick: () => panel.post("set_map_output", { on: true }) },
+      { label: "Hide map in output", onClick: () => panel.post("set_map_output", { on: false }) },
+    ]);
+  });
+}
+
 // Signal readiness so Lua can push the last-known grid immediately.
 panel.post("ready", {});

@@ -146,6 +146,12 @@ ascii_panel:on_message("ready", function()
   ascii_panel:post("map_rows", { rows = last_ascii_rows or {} })
 end)
 
+ascii_panel:on_message("set_map_output", function(data)
+  local value = data.on and "top" or "off"
+  mud.send("options output map look=" .. value, { silent = true })
+  mud.send("options output map lookcity=" .. value, { silent = true })
+end)
+
 local function post_room(payload)
   panel:post("room_info", {
     identifier = payload.identifier,
