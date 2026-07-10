@@ -14,16 +14,22 @@ match = ["discworld.starturtle.net:*"]
 
 [permissions]
 sends       = true
-gmcp_access = ["room.info", "char.info", "char.info.*", "char.info.capname"]
+gmcp_access = ["room.info", "char.info", "char.info.*", "char.info.capname", "room.map"]
 
 [gmcp]
-advertise = ["room.info", "char.info"]
+advertise = ["room.info", "char.info", "room.map"]
 
 [panels.map]
 title        = "Map"
 entry        = "ui/mapper.html"
 default_dock = "right"
 default_size = { width = 360, height = 360 }
+
+[panels.ascii_map]
+title        = "ASCII Map"
+entry        = "ui/ascii_map.html"
+default_dock = "bottom"
+default_size = { width = 480, height = 220 }
 
 [[keymaps]]
 name = "Cowtography"
