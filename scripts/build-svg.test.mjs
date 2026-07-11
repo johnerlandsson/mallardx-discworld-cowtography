@@ -1,6 +1,6 @@
 import { describe, it, expect, vi } from 'vitest'
 import Database from 'better-sqlite3'
-import { queryRooms, queryExits, queryStairRooms, edgeId, roomElement, stairSymbol, buildStairLayer, exitElement, buildNewSvg, updateExistingSvg, queryShopTypes, TYPE_LETTERS, isWaterRoom, buildStackData } from './build-svg.mjs'
+import { queryRooms, queryExits, queryStairRooms, edgeId, roomElement, stairSymbol, stairCornerSymbol, buildStairLayer, exitElement, buildNewSvg, updateExistingSvg, queryShopTypes, TYPE_LETTERS, isWaterRoom, buildStackData } from './build-svg.mjs'
 
 function makeDb() {
   const db = new Database(':memory:')
@@ -175,6 +175,49 @@ describe('stairSymbol', () => {
   it('omits id attribute when id is not provided', () => {
     const s = stairSymbol(10, 20, true, false)
     expect(s).not.toContain('id=')
+  })
+})
+
+describe('stairCornerSymbol', () => {
+  it('returns an up wedge for hasUp only, offset into the bottom-right corner', () => {
+    const s = stairCornerSymbol(10, 20, true, false)
+    expect(s).toContain('class="stair-symbol"')
+    expect(s).toContain('<polygon')
+    expect(s).toContain('12.6,21.4')
+    expect(s).toContain('12.6,22.6')
+    expect(s).toContain('11.4,22.6')
+  })
+
+  it('returns a down wedge for hasDown only, offset into the bottom-right corner', () => {
+    const s = stairCornerSymbol(10, 20, false, true)
+    expect(s).toContain('12.6,22.6')
+    expect(s).toContain('11.4,22.6')
+    expect(s).toContain('11.4,21.4')
+  })
+
+  it('returns a small diamond (single polygon) for both, centered in the corner region', () => {
+    const s = stairCornerSymbol(10, 20, true, true)
+    expect(s).toContain('12,21.2')
+    expect(s).toContain('12.8,22')
+    expect(s).toContain('12,22.8')
+    expect(s).toContain('11.2,22')
+    expect((s.match(/<polygon/g) ?? []).length).toBe(1)
+  })
+
+  it('includes id attribute when id is provided', () => {
+    const s = stairCornerSymbol(10, 20, true, false, 'stair-abc')
+    expect(s).toContain('id="stair-abc"')
+  })
+
+  it('omits id attribute when id is not provided', () => {
+    const s = stairCornerSymbol(10, 20, true, false)
+    expect(s).not.toContain('id=')
+  })
+
+  it('stays within the room box, unlike the full-size centered symbol', () => {
+    const corner = stairCornerSymbol(10, 20, true, true)
+    const centered = stairSymbol(10, 20, true, true)
+    expect(corner).not.toBe(centered)
   })
 })
 
