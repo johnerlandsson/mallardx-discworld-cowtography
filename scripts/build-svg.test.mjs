@@ -240,22 +240,22 @@ describe('buildStairLayer', () => {
     expect(result).toContain('<polygon')
   })
 
-  it('suppresses stair symbol for rooms with a shop type', () => {
+  it('uses the corner-offset symbol for rooms with a shop type', () => {
     const stairRooms = new Map([['r1', { hasUp: true, hasDown: false }]])
     const shopTypes  = new Map([['r1', 'bank']])
     const result = buildStairLayer(rooms, stairRooms, shopTypes)
-    expect(result).toBe('')
+    expect(result).toBe('    ' + stairCornerSymbol(100, 200, true, false, 'stair-r1'))
   })
 
-  it('emits stair for room with stairs but no shop type, skips room with shop type', () => {
+  it('emits the full-size symbol for rooms without a type, the corner symbol for rooms with one', () => {
     const stairRooms = new Map([
       ['r1', { hasUp: true,  hasDown: false }],
       ['r2', { hasUp: false, hasDown: true  }],
     ])
     const shopTypes = new Map([['r1', 'bank']])
     const result = buildStairLayer(rooms, stairRooms, shopTypes)
-    expect(result).not.toContain('id="stair-r1"')
-    expect(result).toContain('id="stair-r2"')
+    expect(result).toContain(stairCornerSymbol(100, 200, true, false, 'stair-r1'))
+    expect(result).toContain(stairSymbol(50, 75, false, true, 'stair-r2'))
   })
 })
 

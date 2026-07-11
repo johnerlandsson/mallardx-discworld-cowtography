@@ -297,13 +297,16 @@ export function stairCornerSymbol(x, y, hasUp, hasDown, id = null) {
 }
 
 // Builds the content for <g id="layer-stairs">.
-// Stair symbols are suppressed for rooms that have a shop type (type label takes priority).
+// Rooms with a type get the small corner-offset symbol (stairCornerSymbol)
+// so the type letter stays dead-center and legible; rooms without a type
+// get the full-size centered symbol (stairSymbol).
 export function buildStairLayer(rooms, stairRooms, shopTypes = new Map()) {
   return rooms
-    .filter(r => stairRooms.has(r.id) && !shopTypes.has(r.id))
+    .filter(r => stairRooms.has(r.id))
     .map(r => {
       const s = stairRooms.get(r.id)
-      return '    ' + stairSymbol(r.x, r.y, s.hasUp, s.hasDown, `stair-${r.id}`)
+      const symbol = shopTypes.has(r.id) ? stairCornerSymbol : stairSymbol
+      return '    ' + symbol(r.x, r.y, s.hasUp, s.hasDown, `stair-${r.id}`)
     })
     .join('\n')
 }
