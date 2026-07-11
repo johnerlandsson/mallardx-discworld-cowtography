@@ -15,6 +15,7 @@
 
 local search    = require('search')
 local pathfind  = require('pathfind')
+local ansi_map  = require('ansi_map')
 local rooms     = require('data.rooms')
 local items     = require('data.items')
 local npcs      = require('data.npcs')
@@ -137,6 +138,27 @@ local last_payload = nil
 local last_route             = nil
 local last_route_destination = nil
 local last_route_steps       = nil
+
+local ascii_panel     = mud.panel("ascii_map")
+local last_ascii_rows = nil
+
+ascii_panel:on_message("ready", function()
+  ascii_panel:post("map_rows", { rows = last_ascii_rows or {} })
+  local zoom = storage.get('ascii_zoom')
+  if type(zoom) == 'number' then ascii_panel:post('zoom_data', { size = zoom }) end
+end)
+
+ascii_panel:on_message("save_zoom", function(data)
+  storage.set('ascii_zoom', data.size)
+end)
+
+ascii_panel:on_message("set_map_output", function(data)
+  local value = data.on and "top" or "off"
+  mud.send("options output map look=" .. value, { silent = true })
+  mud.send("options output map lookcity=" .. value, { silent = true })
+  mud.send("options output map glance=" .. value, { silent = true })
+  mud.send("options output map glancecity=" .. value, { silent = true })
+end)
 
 local function post_room(payload)
   panel:post("room_info", {
@@ -561,6 +583,12 @@ apply_char_name(gmcp.get('char.info.capname'))
 
 gmcp.on('char.info', function(_, data)
   if type(data) == 'table' then apply_char_name(data.capname) end
+end)
+
+gmcp.on('room.map', function(_, payload)
+  if type(payload) ~= 'string' then return end
+  last_ascii_rows = ansi_map.parse(payload)
+  ascii_panel:post("map_rows", { rows = last_ascii_rows })
 end)
 
 gmcp.on('room.info', function(_, data)
