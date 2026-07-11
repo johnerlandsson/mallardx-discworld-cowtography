@@ -2762,6 +2762,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
    id="layer-stairs">
     <polygon id="stair-6fbb8964d22fcdabc89085881256ab49f409fb86" class="stair-symbol" points="491,570 488.5,575 493.5,575"/>
     <polygon id="stair-5b336cdb52e508bd22b89ae17f023f32d866de9c" class="stair-symbol" points="491,559 488.5,564 493.5,564"/>
+    <polygon id="stair-305ce0e5a92d70d9f11f925a3be172e77d60c791" class="stair-symbol" points="493,563.2 493.8,564 493,564.8 492.2,564"/>
     <polygon id="stair-dfb0bc23d3f9a96c71e0b87aef9c87f2b9e89be2" class="stair-symbol" points="309,458 306.5,463 311.5,463"/>
     <polygon id="stair-0d5094bb79913ae37e1639c87b30ba033f4f2f96" class="stair-symbol" points="281,453 278.5,448 283.5,448"/>
     <polygon id="stair-dd8c42edb5bda4f1127dec5e4a814efa8b5bafc4" class="stair-symbol" points="300,452 297.5,447 302.5,447"/>
@@ -2769,6 +2770,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <polygon id="stair-783219e639517111bb7976cd955d93c3d61b58cd" class="stair-symbol" points="124,394 121.5,389 126.5,389"/>
     <polygon id="stair-e288fce19a9b035da849f51068f8275bb8bbf4d3" class="stair-symbol" points="124,388 121.5,393 126.5,393"/>
     <polygon id="stair-b0e18e0c3dfc6ef230d6bd79d94650a69962e611" class="stair-symbol" points="113,346 110.5,351 115.5,351"/>
+    <polygon id="stair-9f9ad0609ba1d68fbf00237c1894800981efd8e7" class="stair-symbol" points="25,314.2 25.8,315 25,315.8 24.2,315"/>
     <polygon id="stair-b8aa559f6f6673b65ec5b4d0f2db46f21ccc3263" class="stair-symbol" points="22,289 19.5,284 24.5,284"/>
     <polygon id="stair-f78e6fbc4c1d868a3fb9be63c0830505efd1033b" class="stair-symbol" points="23,335 20.5,340 25.5,340"/>
     <polygon id="stair-e86fe138dbe79c34a87ec7a1885e4793231b5bde" class="stair-symbol" points="295,192 292.5,197 297.5,197"/>
@@ -2776,6 +2778,8 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <polygon id="stair-648da675296d252985adf2f04b09eb869f0d2b89" class="stair-symbol" points="337,226 334.5,221 339.5,221"/>
     <polygon id="stair-0484cfeed3ba4045cf2d14fa239e1b6d83bf69a5" class="stair-symbol" points="351,254 348.5,249 353.5,249"/>
     <polygon id="stair-9d3fecf24a7418dff996e67a0950aa6752748e02" class="stair-symbol" points="351,220 348.5,225 353.5,225"/>
+    <polygon id="stair-3c079ab765809ee3244d10759bda907e9d2535e7" class="stair-symbol" points="339.6,196.4 339.6,197.6 338.4,197.6"/>
+    <polygon id="stair-b5b129335d60c005c3153ad627ff49a75e3e93f5" class="stair-symbol" points="325.6,168.4 325.6,169.6 324.4,169.6"/>
     <polygon id="stair-1869baf6bbb434dd66c422d9152e6346ad063fb7" class="stair-symbol" points="421,142 418.5,137 423.5,137"/>
     <polygon id="stair-c05b464cb794c33fb49053f1f0474b86666eed17" class="stair-symbol" points="352,66 349.5,71 354.5,71"/>
     <polygon id="stair-4cb025651b7c5e59719aa488ae61d34b576128dd" class="stair-symbol" points="352,26 354.5,29 352,32 349.5,29"/>
@@ -2801,6 +2805,29 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <polygon id="stair-bf656ce67e35ff28ed2b93df04663c2f85f1b606" class="stair-symbol" points="141,399 138.5,404 143.5,404"/>
     <polygon id="stair-050e7bfca765509b68e7985c50c66e3166acdafd" class="stair-symbol" points="119,348 116.5,343 121.5,343"/>
     <polygon id="stair-e9723f6d06108bdad9fc26a860da5a49b3468c10" class="stair-symbol" points="433,136 430.5,141 435.5,141"/>
+    <polygon id="stair-66c9a84dcc6b331d76016a17b5134e54b8156dd3" class="stair-symbol" points="143.6,404.6 142.4,404.6 142.4,403.4"/>
+    <polygon id="stair-fa0d38569ebfb279b1913db3a37c0c5df60c3c8e" class="stair-symbol" points="224.6,435.6 223.4,435.6 223.4,434.4"/>
+    <polygon id="stair-6caf14542b1d5c3a5531e60ba2652a5108a7941f" class="stair-symbol" points="224.6,446.6 223.4,446.6 223.4,445.4"/>
+    <polygon id="stair-737ccfeae4ddb9a10fabf0945c7d2e01a2db4e7b" class="stair-symbol" points="202.6,446.6 201.4,446.6 201.4,445.4"/>
+    <polygon id="stair-fee103a7ca4d43d58126baadcde2044de7344c1c" class="stair-symbol" points="202.6,446.6 201.4,446.6 201.4,445.4"/>
+    <polygon id="stair-2bbe09e348c2cd6a7aad121b05a9740fece23404" class="stair-symbol" points="202.6,445.4 202.6,446.6 201.4,446.6"/>
+    <polygon id="stair-80ebc8ced3ac35804dfb5d499241dcef842820e1" class="stair-symbol" points="202.6,435.6 201.4,435.6 201.4,434.4"/>
+    <polygon id="stair-afa48adfede4568b2dd8eab2010139104812fd6d" class="stair-symbol" points="283.6,130.6 282.4,130.6 282.4,129.4"/>
+    <polygon id="stair-72c030bf88185865cceb188cbb68842944be3d77" class="stair-symbol" points="283.6,129.4 283.6,130.6 282.4,130.6"/>
+    <polygon id="stair-f3ebc75829afeedaf379df53745b7b68d5d80239" class="stair-symbol" points="367.6,452.6 366.4,452.6 366.4,451.4"/>
+    <polygon id="stair-343b25c0abec0a3cc635dfdd010ed4a1735cd1b6" class="stair-symbol" points="451.6,459.4 451.6,460.6 450.4,460.6"/>
+    <polygon id="stair-0d9a57f169b6564cb24302b2f91aae00bd5f741b" class="stair-symbol" points="451.6,460.6 450.4,460.6 450.4,459.4"/>
+    <polygon id="stair-3742c9c5166b5fffb7cfae38fed3bd2b9fc46122" class="stair-symbol" points="493.6,362.6 492.4,362.6 492.4,361.4"/>
+    <polygon id="stair-0d502433cb9894c733a42b19e508a5be9bc0003f" class="stair-symbol" points="493.6,361.4 493.6,362.6 492.4,362.6"/>
+    <polygon id="stair-02dee78d2b635b2ddc3ff86ac65ee5306a3ac51f" class="stair-symbol" points="633,493.2 633.8,494 633,494.8 632.2,494"/>
+    <polygon id="stair-91e538322c06e6fbec35c91b3ea4ceaa8cd8e240" class="stair-symbol" points="633.6,493.4 633.6,494.6 632.4,494.6"/>
+    <polygon id="stair-91ad9cd95c42a7f5608762118176ef39108d5dd8" class="stair-symbol" points="633,493.2 633.8,494 633,494.8 632.2,494"/>
+    <polygon id="stair-90717c0a8dcefeb134504d923430e87f27cbc1cf" class="stair-symbol" points="633,493.2 633.8,494 633,494.8 632.2,494"/>
+    <polygon id="stair-627181996ee26efc92f754cdd5bb2c8f35d5e5a3" class="stair-symbol" points="633,493.2 633.8,494 633,494.8 632.2,494"/>
+    <polygon id="stair-aa985e42d0ab4a7eadce26d3cb4a74a6dac9c090" class="stair-symbol" points="633.6,494.6 632.4,494.6 632.4,493.4"/>
+    <polygon id="stair-e0bfd8f96c9c767ab9e5a9892ceb8f0f6efa26db" class="stair-symbol" points="619.6,382.6 618.4,382.6 618.4,381.4"/>
+    <polygon id="stair-0631f6b6b805ad01db6d005325dfe0e4e22ebd45" class="stair-symbol" points="630.6,393.6 629.4,393.6 629.4,392.4"/>
+    <polygon id="stair-09a9ca60ab9271e1192c2b305a1c05ec69f2c152" class="stair-symbol" points="619.6,404.6 618.4,404.6 618.4,403.4"/>
   </g><g
    id="layer-room-labels"><text
      class="room-type-label"
