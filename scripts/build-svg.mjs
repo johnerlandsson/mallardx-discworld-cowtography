@@ -284,16 +284,16 @@ export function stairSymbol(x, y, hasUp, hasDown, id = null) {
 // stairSymbol() for rooms that already show a type letter dead-center, so
 // the letter stays legible and the stair info isn't lost entirely.
 // Same shape semantics as stairSymbol (▲ up, ▼ down, ◆ both), offset by
-// roughly +1.2..+2.8 units from center on both axes.
+// roughly +1..+3 units from center on both axes.
 export function stairCornerSymbol(x, y, hasUp, hasDown, id = null) {
   const idAttr = id ? ` id="${id}"` : ''
   if (hasUp && hasDown) {
-    return `<polygon${idAttr} class="stair-symbol" points="${x + 2},${y + 1.2} ${x + 2.8},${y + 2} ${x + 2},${y + 2.8} ${x + 1.2},${y + 2}"/>`
+    return `<polygon${idAttr} class="stair-symbol" points="${x + 2},${y + 1} ${x + 3},${y + 2} ${x + 2},${y + 3} ${x + 1},${y + 2}"/>`
   }
   if (hasUp) {
-    return `<polygon${idAttr} class="stair-symbol" points="${x + 2.6},${y + 1.4} ${x + 2.6},${y + 2.6} ${x + 1.4},${y + 2.6}"/>`
+    return `<polygon${idAttr} class="stair-symbol" points="${x + 2.75},${y + 1.25} ${x + 2.75},${y + 2.75} ${x + 1.25},${y + 2.75}"/>`
   }
-  return `<polygon${idAttr} class="stair-symbol" points="${x + 2.6},${y + 2.6} ${x + 1.4},${y + 2.6} ${x + 1.4},${y + 1.4}"/>`
+  return `<polygon${idAttr} class="stair-symbol" points="${x + 2.75},${y + 2.75} ${x + 1.25},${y + 2.75} ${x + 1.25},${y + 1.25}"/>`
 }
 
 // Builds the content for <g id="layer-stairs">.
