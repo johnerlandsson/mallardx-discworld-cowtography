@@ -19,11 +19,11 @@ describe('buildMapMenuItems', () => {
     expect(items.map(i => i.label)).toEqual(['Ankh-Morpork', 'Other']);
   });
 
-  it('puts topLevel maps before sub-maps within a group submenu', () => {
+  it('sorts maps within a group submenu alphabetically', () => {
     const items = buildMapMenuItems(MAPS, GROUPS, null);
     const am = items.find(i => i.label === 'Ankh-Morpork');
-    expect(am.submenu[0].label).toBe('Ankh-Morpork');
-    expect(am.submenu[1].label).toBe('AM Guilds');
+    expect(am.submenu[0].label).toBe('AM Guilds');
+    expect(am.submenu[1].label).toBe('Ankh-Morpork');
   });
 
   it('marks the exact displayed map as checked in its submenu', () => {

@@ -12,10 +12,7 @@ export function buildMapMenuItems(maps, mapGroups, displayedMapId) {
           ? !assignedRegions.has(meta.region)
           : group.regions.includes(meta.region)
       )
-      .sort(([, a], [, b]) => {
-        if (a.topLevel !== b.topLevel) return a.topLevel ? -1 : 1;
-        return a.name.localeCompare(b.name);
-      });
+      .sort(([, a], [, b]) => a.name.localeCompare(b.name));
 
     if (groupEntries.length === 0) continue;
 
