@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { findNearestRoom } from '../ui/png-renderer.js';
+import { findNearestRoom, libraryArrowPoints, libraryDistortionRect } from '../ui/png-renderer.js';
 
 // rooms format: { id: [map_id, xpos, ypos, short] }
 const ROOMS = {
@@ -37,5 +37,33 @@ describe('findNearestRoom', () => {
     };
     expect(findNearestRoom(rooms, 1, 108, 100)).toBe('r2');  // 2px vs 8px
     expect(findNearestRoom(rooms, 1, 102, 100)).toBe('r1');  // 2px vs 8px
+  });
+});
+
+// Matches svg-renderer.js's #applyLibraryOverlay path math (M cx-w,cy-r+w L cx,cy-r L cx+w,cy-r+w for 'n', etc.)
+describe('libraryArrowPoints', () => {
+  it('points north', () => {
+    expect(libraryArrowPoints(100, 100, 'n', 12, 5)).toEqual([[95, 93], [100, 88], [105, 93]]);
+  });
+  it('points south', () => {
+    expect(libraryArrowPoints(100, 100, 's', 12, 5)).toEqual([[95, 107], [100, 112], [105, 107]]);
+  });
+  it('points east', () => {
+    expect(libraryArrowPoints(100, 100, 'e', 12, 5)).toEqual([[107, 95], [112, 100], [107, 105]]);
+  });
+  it('points west', () => {
+    expect(libraryArrowPoints(100, 100, 'w', 12, 5)).toEqual([[93, 95], [88, 100], [93, 105]]);
+  });
+  it('returns null for an unknown facing', () => {
+    expect(libraryArrowPoints(100, 100, 'x', 12, 5)).toBeNull();
+  });
+});
+
+describe('libraryDistortionRect', () => {
+  it('bands the north wall', () => {
+    expect(libraryDistortionRect(100, 100, 'n', 15, 20, 3)).toEqual([90, 82, 20, 3]);
+  });
+  it('bands the east wall', () => {
+    expect(libraryDistortionRect(100, 100, 'e', 15, 20, 3)).toEqual([115, 90, 3, 20]);
   });
 });
