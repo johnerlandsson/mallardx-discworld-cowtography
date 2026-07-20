@@ -696,6 +696,13 @@ describe('buildNewSvg', () => {
     // r2 is plain — verify its element has no type suffix
     expect(svg).toContain('id="room-r2" class="room outdoor"')
   })
+
+  it('renders bridge rooms as an octagon polygon, leaves others untouched', () => {
+    const bridgeRooms = new Set(['r1'])
+    const svg = buildNewSvg(mapMeta, rooms, exits, 7, new Map(), new Map(), new Set(), new Set(), new Set(), new Set(), new Set(), new Set(), new Map(), new Set(), bridgeRooms)
+    expect(svg).toContain('<polygon id="room-r1" class="room bridge outdoor"')
+    expect(svg).toContain('<circle id="room-r2"')
+  })
 })
 
 describe('updateExistingSvg', () => {
