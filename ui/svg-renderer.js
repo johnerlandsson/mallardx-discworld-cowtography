@@ -21,7 +21,7 @@ const TARGET_PX   = 30;
 function computeRoomUnit(svgEl) {
   const pts = [];
   for (const el of svgEl.querySelectorAll('.room')) {
-    if (el.tagName.toLowerCase() === 'circle') {
+    if (el.hasAttribute('cx')) {
       pts.push([+el.getAttribute('cx'), +el.getAttribute('cy')]);
     } else {
       const x = +el.getAttribute('x'), w = +el.getAttribute('width');
