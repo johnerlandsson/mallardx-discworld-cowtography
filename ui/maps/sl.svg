@@ -1835,13 +1835,13 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-dc9e2108db29acc1baa15e1830e50a72b3638c64" class="room indoor" data-label="inside a marble tower" x="335" y="393" width="8" height="8" rx="2"/>
     <rect id="room-a247a4386f591de2f3a3cee0a4fd89d376addfe2" class="room indoor" data-label="inside a marble tower" x="307" y="393" width="8" height="8" rx="2"/>
     <rect id="room-361d9d61e0019b4992e41f0fb2bd2855c3b8e587" class="room indoor" data-label="a landing inside a marble tower" x="307" y="365" width="8" height="8" rx="2"/>
-    <circle id="room-066395cc5529765c0722a3215e417e147e10b3c0" class="room outdoor" data-label="bridge between two towers" cx="325" cy="369" r="4"/>
+    <polygon id="room-066395cc5529765c0722a3215e417e147e10b3c0" class="room bridge outdoor" data-label="bridge between two towers" cx="325" cy="369" points="323.34314575050763,365 326.65685424949237,365 329,367.34314575050763 329,370.65685424949237 326.65685424949237,373 323.34314575050763,373 321,370.65685424949237 321,367.34314575050763"/>
     <rect id="room-42c2950d038de4098bb043615a3207eac0615dbf" class="room indoor" data-label="a landing inside a marble tower" x="335" y="365" width="8" height="8" rx="2"/>
-    <circle id="room-11acdf6ef0821d42a3b6011c42b7634c3d4529a5" class="room outdoor" data-label="bridge between two towers" cx="339" cy="383" r="4"/>
+    <polygon id="room-11acdf6ef0821d42a3b6011c42b7634c3d4529a5" class="room bridge outdoor" data-label="bridge between two towers" cx="339" cy="383" points="337.34314575050763,379 340.65685424949237,379 343,381.34314575050763 343,384.65685424949237 340.65685424949237,387 337.34314575050763,387 335,384.65685424949237 335,381.34314575050763"/>
     <rect id="room-ca773f2f01fbf8047b2fb73b0b2569a64b00895a" class="room indoor" data-label="a landing inside a marble tower" x="335" y="393" width="8" height="8" rx="2"/>
-    <circle id="room-ce914d64f253893274b565fdc629d082d0d6b71c" class="room outdoor" data-label="bridge between two towers" cx="325" cy="397" r="4"/>
+    <polygon id="room-ce914d64f253893274b565fdc629d082d0d6b71c" class="room bridge outdoor" data-label="bridge between two towers" cx="325" cy="397" points="323.34314575050763,393 326.65685424949237,393 329,395.34314575050763 329,398.65685424949237 326.65685424949237,401 323.34314575050763,401 321,398.65685424949237 321,395.34314575050763"/>
     <rect id="room-d50b4404b3a8f83dfc1035bc59c579eebb253bb6" class="room indoor" data-label="a landing inside a marble tower" x="307" y="393" width="8" height="8" rx="2"/>
-    <circle id="room-53dbebaf2b7f8152fc2375110bcb381e7380cc9e" class="room outdoor" data-label="bridge between two towers" cx="311" cy="383" r="4"/>
+    <polygon id="room-53dbebaf2b7f8152fc2375110bcb381e7380cc9e" class="room bridge outdoor" data-label="bridge between two towers" cx="311" cy="383" points="309.34314575050763,379 312.65685424949237,379 315,381.34314575050763 315,384.65685424949237 312.65685424949237,387 309.34314575050763,387 307,384.65685424949237 307,381.34314575050763"/>
     <circle id="room-73e6b79389e6f6d66b8653b6c30f425f96a84a34" class="room outdoor" data-label="nice alley south of Hat&#x27;s temple" cx="381" cy="341" r="4"/>
     <circle id="room-7a66ba18cf31d49aac53c44ef0864b453650cf7e" class="room outdoor" data-label="nice alley south of Cabbage Street" cx="381" cy="327" r="4"/>
     <circle id="room-0038b7036620e607e29f426957ed03361d847284" class="room outdoor" data-label="Cabbage Street where an alley branches off" cx="381" cy="306" r="4"/>

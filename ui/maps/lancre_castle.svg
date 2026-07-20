@@ -132,8 +132,8 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <line id="edge-2dbf08d473a6d0dd12d426ed7cf83d03ff91fe09-506904763abc4fd1484479969f92df834892a745" class="exit" x1="380" y1="33" x2="380" y2="33"/>
   </g><g
      id="layer-rooms">
-    <circle id="room-89df609928ea5193b5e093db2cab470703ea5e99" class="room outdoor" data-label="bridge over Lancre Gorge" cx="285" cy="33" r="4"/>
-    <circle id="room-01343c88667e057f6c3cb2ee57c70218bcab5abf" class="room outdoor" data-label="bridge over Lancre Gorge" cx="285" cy="47" r="4"/>
+    <polygon id="room-89df609928ea5193b5e093db2cab470703ea5e99" class="room bridge outdoor" data-label="bridge over Lancre Gorge" cx="285" cy="33" points="283.34314575050763,29 286.65685424949237,29 289,31.34314575050762 289,34.65685424949238 286.65685424949237,37 283.34314575050763,37 281,34.65685424949238 281,31.34314575050762"/>
+    <polygon id="room-01343c88667e057f6c3cb2ee57c70218bcab5abf" class="room bridge outdoor" data-label="bridge over Lancre Gorge" cx="285" cy="47" points="283.34314575050763,43 286.65685424949237,43 289,45.34314575050762 289,48.65685424949238 286.65685424949237,51 283.34314575050763,51 281,48.65685424949238 281,45.34314575050762"/>
     <circle id="room-9a934c1d64156a0343145d1eb2400c746276ec2f" class="room outdoor" data-label="track into Lancre Town" cx="285" cy="61" r="4"/>
     <circle id="room-fbec267c334c1fcd5a861ae0d488cbd128603e17" class="room outdoor" data-label="track through the forest" cx="271" cy="75" r="4"/>
     <circle id="room-652e6945a2daa1679658a8d10a169d7351c020b2" class="room outdoor" data-label="forest path" cx="285" cy="75" r="4"/>

@@ -1384,15 +1384,15 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-22a5bfab84412168732c9d40c4feebeedc8714ea" class="room outdoor" data-label="road" cx="370" cy="456" r="4"/>
     <circle id="room-e31337ed58ac5bdf7352c52fc4ded9ca0188706d" class="room outdoor" data-label="intersection of Pseudopolis road and the Ramtops road" cx="1408" cy="152" r="4"/>
     <circle id="room-230d6c53459deae6dd858be637be73485e130ad2" class="room outdoor" data-label="east Ankh Pass road" cx="1394" cy="166" r="4"/>
-    <circle id="room-07d6e478132c338bb4594ebecfd9217504fc45e5" class="room outdoor" data-label="Quawi bridge over the river Ankh" cx="1380" cy="166" r="4"/>
+    <polygon id="room-07d6e478132c338bb4594ebecfd9217504fc45e5" class="room bridge outdoor" data-label="Quawi bridge over the river Ankh" cx="1380" cy="166" points="1378.3431457505076,162 1381.6568542494924,162 1384,164.34314575050763 1384,167.65685424949237 1381.6568542494924,170 1378.3431457505076,170 1376,167.65685424949237 1376,164.34314575050763"/>
     <circle id="room-1ca33d8b3f115c6e79809773ff8380908cd5e867" class="room outdoor" data-label="under the Quawi bridge" cx="1380" cy="166" r="4"/>
     <circle id="room-ed870f076839aebd7b86596158956df1de2c2d40" class="room outdoor" data-label="intersection of east Ankh Pass road and Pseudopolis road" cx="1365" cy="181" r="4"/>
     <circle id="room-d63f94c9d6488d662d6c1e0f17565d796037d6b5" class="room outdoor" data-label="road" cx="1325" cy="165" r="4"/>
-    <circle id="room-c298afe2ab3751cbe22d82a5f64103ece4080c85" class="room outdoor" data-label="Hegret bridge" cx="1325" cy="151" r="4"/>
+    <polygon id="room-c298afe2ab3751cbe22d82a5f64103ece4080c85" class="room bridge outdoor" data-label="Hegret bridge" cx="1325" cy="151" points="1323.3431457505076,147 1326.6568542494924,147 1329,149.34314575050763 1329,152.65685424949237 1326.6568542494924,155 1323.3431457505076,155 1321,152.65685424949237 1321,149.34314575050763"/>
     <circle id="room-c6d154dccb79cf380e92a4b671cadc774f03db53" class="room outdoor" data-label="under the Hegret bridge" cx="1325" cy="151" r="4"/>
     <circle id="room-b9b0b48c6e5da335f17ff75cc41649b6b53ff578" class="room outdoor" data-label="road" cx="1325" cy="137" r="4"/>
     <circle id="room-70b78c4d20b9c212d6c98fcf570e7ed3a653b2b6" class="room outdoor" data-label="road" cx="1282" cy="137" r="4"/>
-    <circle id="room-fcbcec61956b1d60028effdeddd48edd803dc0bf" class="room outdoor" data-label="Egret bridge" cx="1282" cy="151" r="4"/>
+    <polygon id="room-fcbcec61956b1d60028effdeddd48edd803dc0bf" class="room bridge outdoor" data-label="Egret bridge" cx="1282" cy="151" points="1280.3431457505076,147 1283.6568542494924,147 1286,149.34314575050763 1286,152.65685424949237 1283.6568542494924,155 1280.3431457505076,155 1278,152.65685424949237 1278,149.34314575050763"/>
     <circle id="room-86ba17a6b16520060fd866a3b3ae14da2dcc1a27" class="room outdoor" data-label="under the Egret bridge" cx="1282" cy="151" r="4"/>
     <circle id="room-77b6e4637ab55172dce33fe680ecf55ebe4fd5b2" class="room outdoor" data-label="road" cx="1282" cy="165" r="4"/>
     <circle id="room-683a8d12e92b0343ff77283191e39dd3f537a8f2" class="room outdoor" data-label="clearing on the east Ankh Pass road" cx="1275" cy="175" r="4"/>
@@ -1431,7 +1431,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-3be8ba0fbfbe0fcc49317e16cddad596cdfeb0f8" class="room outdoor" data-label="road north of Bleak Prospect" cx="1213" cy="165" r="4"/>
     <circle id="room-270e3304c7ffef50f9430d4d9107e864c215844b" class="room outdoor" data-label="Ankh Pass road" cx="1213" cy="151" r="4"/>
     <circle id="room-3538275f052c883828afb070c15386cea699be46" class="room outdoor" data-label="intersection of South road and the Ankh River Road" cx="1143" cy="145" r="4"/>
-    <circle id="room-66bbb7f392ead2fe2ac15de10e635ad4b41a139c" class="room outdoor" data-label="Flat bridge" cx="1143" cy="131" r="4"/>
+    <polygon id="room-66bbb7f392ead2fe2ac15de10e635ad4b41a139c" class="room bridge outdoor" data-label="Flat bridge" cx="1143" cy="131" points="1141.3431457505076,127 1144.6568542494924,127 1147,129.34314575050763 1147,132.65685424949237 1144.6568542494924,135 1141.3431457505076,135 1139,132.65685424949237 1139,129.34314575050763"/>
     <circle id="room-dc31e10958b6218b256a8a6a6e042c41bd23afa5" class="room outdoor" data-label="under the Flat bridge" cx="1143" cy="131" r="4"/>
     <circle id="room-1b5c0d085cfaaa0682216583ce28c1ebf7f88f5d" class="room outdoor" data-label="road" cx="1143" cy="117" r="4"/>
     <circle id="room-fa92b867907ee3ad26ffe33ddaa2552e7fba242e" class="room outdoor" data-label="road" cx="1040" cy="220" r="4"/>
@@ -1460,7 +1460,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-b78d7ec4d823b9c8ec4236872d93d7ecbc569d13" class="room outdoor" data-label="path by a meandering river" cx="1053" cy="349" r="4"/>
     <circle id="room-c5c07af7713cc0985fddeca0331a3e0bd0ed80e6" class="room outdoor" data-label="road" cx="1067" cy="363" r="4"/>
     <circle id="room-c0c0e304ec8a0e2938586e542f33c2744b8658f8" class="room outdoor" data-label="road" cx="1028" cy="349" r="4"/>
-    <circle id="room-5f579c822147a3755005736d2c66ecb5d0344937" class="room outdoor" data-label="Scrogden bridge" cx="1028" cy="335" r="4"/>
+    <polygon id="room-5f579c822147a3755005736d2c66ecb5d0344937" class="room bridge outdoor" data-label="Scrogden bridge" cx="1028" cy="335" points="1026.3431457505076,331 1029.6568542494924,331 1032,333.34314575050763 1032,336.65685424949237 1029.6568542494924,339 1026.3431457505076,339 1024,336.65685424949237 1024,333.34314575050763"/>
     <circle id="room-f4ab5c4594af7bd0293f448a1f25195551226ed2" class="room outdoor" data-label="road" cx="1028" cy="321" r="4"/>
     <circle id="room-d914dc3c659edc4f90ed16ef2706a135d1fa78c6" class="room outdoor water" data-label="under the Scrogden bridge" cx="1028" cy="335" r="4"/>
     <circle id="room-7a81a6406c51baac2a012be0c325e371f2dd1039" class="room outdoor" data-label="junction of West Skund road and Cabbage road" cx="1165" cy="500" r="4"/>
@@ -1473,7 +1473,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-de558c279f58f9184fa19c172d86c5df9badd24b" class="room indoor" data-label="scullery" x="1284" y="487" width="8" height="8" rx="2"/>
     <rect id="room-938911876f6e1b3f2d5dd23c8c9c23f715876371" class="room indoor" data-label="bedroom" x="1274" y="487" width="8" height="8" rx="2"/>
     <circle id="room-58633a6cc2a479d6e520e28124d9d1b36028d45e" class="room outdoor" data-label="road" cx="1330" cy="495" r="4"/>
-    <circle id="room-40b465fd3870569000db79d8113bcb174e83b4ad" class="room outdoor" data-label="troll bridge" cx="1344" cy="481" r="4"/>
+    <polygon id="room-40b465fd3870569000db79d8113bcb174e83b4ad" class="room bridge outdoor" data-label="troll bridge" cx="1344" cy="481" points="1342.3431457505076,477 1345.6568542494924,477 1348,479.34314575050763 1348,482.65685424949237 1345.6568542494924,485 1342.3431457505076,485 1340,482.65685424949237 1340,479.34314575050763"/>
     <circle id="room-e957156f0f75d89cf263b661f630435099b44b66" class="room outdoor" data-label="village of Hillshire" cx="1358" cy="467" r="4"/>
     <circle id="room-9dfd44df4a880d3e75ef338aca18d89676ed397f" class="room outdoor" data-label="road running through Hillshire" cx="1372" cy="467" r="4"/>
     <rect id="room-35b2556979ea2afcf858b73a4c568dc55225b0f3" class="room indoor room-access" data-label="magic shop" x="1368" y="484" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1372" y="488" text-anchor="middle" dominant-baseline="central">X</text>
@@ -1524,7 +1524,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-3dbcb6fd760269938058caf73b6190a5d6aa759f" class="room outdoor" data-label="road" cx="997" cy="799" r="4"/>
     <circle id="room-762a6133bd35110a4ebbed7305685b677c1357ca" class="room outdoor" data-label="trail through a forest" cx="997" cy="813" r="4"/>
     <circle id="room-5b63e1f7f006e827f17e0e641f803f8c8f84b50b" class="room outdoor" data-label="heavily wooded trail by a ravine" cx="997" cy="827" r="4"/>
-    <circle id="room-7d244c8e9cc5f2d2e1daffa5e236d43d56160269" class="room outdoor" data-label="rickety suspension bridge over a ravine" cx="1011" cy="841" r="4"/>
+    <polygon id="room-7d244c8e9cc5f2d2e1daffa5e236d43d56160269" class="room bridge outdoor" data-label="rickety suspension bridge over a ravine" cx="1011" cy="841" points="1009.3431457505076,837 1012.6568542494924,837 1015,839.3431457505076 1015,842.6568542494924 1012.6568542494924,845 1009.3431457505076,845 1007,842.6568542494924 1007,839.3431457505076"/>
     <circle id="room-3b37bcd632a78dde9946896d61fe8a8cd82bff8d" class="room outdoor" data-label="foot of a steep hill south of a ravine" cx="1025" cy="855" r="4"/>
     <circle id="room-992549de670b2b59fe6f202af1e4e789c21fe2e6" class="room outdoor" data-label="steep trail, winding uphill between straggly pine trees" cx="1011" cy="869" r="4"/>
     <circle id="room-000b8c34cedc179514680985f229543be4b1a190" class="room outdoor" data-label="rocky trail climbing the shoulder of a bare hill" cx="1025" cy="883" r="4"/>
@@ -1599,7 +1599,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-9382d837107c22b1ec49a416e7be46fb0d0fe14e" class="room outdoor" data-label="northern track" cx="738" cy="250" r="4"/>
     <circle id="room-710667b19b2ada29c4a9af3d3a7565a96c5f4b72" class="room outdoor" data-label="road" cx="738" cy="236" r="4"/>
     <circle id="room-07cf195ee39d2d771118a50944da75ccc544e38a" class="room outdoor" data-label="road" cx="729" cy="216" r="4"/>
-    <circle id="room-df4652fe6838fea1b22ee29eb13d9e6dbb61aef9" class="room outdoor" data-label="Lost Bridge" cx="743" cy="216" r="4"/>
+    <polygon id="room-df4652fe6838fea1b22ee29eb13d9e6dbb61aef9" class="room bridge outdoor" data-label="Lost Bridge" cx="743" cy="216" points="741.3431457505076,212 744.6568542494924,212 747,214.34314575050763 747,217.65685424949237 744.6568542494924,220 741.3431457505076,220 739,217.65685424949237 739,214.34314575050763"/>
     <circle id="room-82a59dd36b0bde66df6ef04d20588df9220a39a6" class="room outdoor" data-label="road" cx="757" cy="202" r="4"/>
     <circle id="room-abb84cc9b4347ce086e045a62a3e9dc8d0e90cbb" class="room outdoor" data-label="under the Lost bridge" cx="743" cy="216" r="4"/>
     <circle id="room-4db36632764d884e393fab59927ad9dff81ccc9f" class="room outdoor" data-label="northern track" cx="738" cy="362" r="4"/>
@@ -1665,12 +1665,12 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-065bdb8e253d698583817b3915360308d1923569" class="room outdoor" data-label="intersection of Sto Lat road and the Sto Helit Road" cx="488" cy="456" r="4"/>
     <circle id="room-fe24a81c857e935af32a78e5a0542bf70fcd7496" class="room outdoor" data-label="intersection of Sto Lat road and the Ankh River Road" cx="505" cy="439" r="4"/>
     <circle id="room-4d2bc20669e3780ce634ebc308090a59f0255344" class="room outdoor" data-label="road" cx="520" cy="439" r="4"/>
-    <circle id="room-a6dfc0cc68071732f4b0283d48e98acffa246093" class="room outdoor" data-label="Sto Kerrig bridge" cx="534" cy="439" r="4"/>
+    <polygon id="room-a6dfc0cc68071732f4b0283d48e98acffa246093" class="room bridge outdoor" data-label="Sto Kerrig bridge" cx="534" cy="439" points="532.3431457505076,435 535.6568542494924,435 538,437.34314575050763 538,440.65685424949237 535.6568542494924,443 532.3431457505076,443 530,440.65685424949237 530,437.34314575050763"/>
     <circle id="room-7436c897b7605d78363c2fc0c2e46b62756ece93" class="room outdoor water" data-label="under the Sto Kerrig bridge" cx="534" cy="439" r="4"/>
     <circle id="room-b53dfbdfc37563fba0390cc9023ab4e0c064b42f" class="room outdoor" data-label="road" cx="548" cy="439" r="4"/>
     <circle id="room-d6adb742476e4461a8743a86c4c0ca9f31c2021c" class="room outdoor" data-label="intersection of the Sea Grass road and the Ankh River Road" cx="678" cy="192" r="4"/>
     <circle id="room-c56161bd5c30b7f04498bc199a8b4569536e887f" class="room outdoor" data-label="road" cx="440" cy="274" r="4"/>
-    <circle id="room-8097f4d5d87cb7f7021aabf94661d76bfab99f5a" class="room outdoor" data-label="Sto Helit bridge" cx="440" cy="260" r="4"/>
+    <polygon id="room-8097f4d5d87cb7f7021aabf94661d76bfab99f5a" class="room bridge outdoor" data-label="Sto Helit bridge" cx="440" cy="260" points="438.34314575050763,256 441.65685424949237,256 444,258.34314575050763 444,261.65685424949237 441.65685424949237,264 438.34314575050763,264 436,261.65685424949237 436,258.34314575050763"/>
     <circle id="room-5cd1c0d033a52d3a35393e4cb457a33aca9ddb1f" class="room outdoor" data-label="road" cx="440" cy="246" r="4"/>
     <circle id="room-2c96916d77396094942f41d9908da075a759eef4" class="room outdoor water" data-label="under the Sto Helit bridge" cx="440" cy="260" r="4"/>
     <circle id="room-25decbe4c650951cd76c28a6e6b51b9f13fc7fd5" class="room outdoor" data-label="intersection of Sto Kerrig road and the Ankh River Road" cx="416" cy="195" r="4"/>
