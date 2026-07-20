@@ -382,12 +382,33 @@ export function buildStackData(allRooms, exitPairs, stairRooms, overrides = {}) 
   return { upperToGround, groundToUppers }
 }
 
+// Returns an SVG polygon "points" attribute string for a regular "stop sign"
+// octagon centered at (x, y), inscribed in the same 2*hw × 2*hw bounding
+// square used by indoor rect rooms — so it inherits the same compact/large
+// size classes. t is the corner-cut length that makes all 8 edges equal.
+export function octagonPoints(x, y, hw) {
+  const t = hw * (2 - Math.SQRT2)
+  return [
+    [x - hw + t, y - hw],
+    [x + hw - t, y - hw],
+    [x + hw,     y - hw + t],
+    [x + hw,     y + hw - t],
+    [x + hw - t, y + hw],
+    [x - hw + t, y + hw],
+    [x - hw,     y + hw - t],
+    [x - hw,     y - hw + t],
+  ].map(([px, py]) => `${px},${py}`).join(' ')
+}
+
 // type: null | string (key of TYPE_LETTERS)
-// compact: true → small room (r=1.5 circle, 3×3 rect)
+// compact: true → small room (r=1.5 circle, 3×3 rect/octagon)
 // water: true → room is in a body of water
 // green: true → room is a park or forest
 // danger: true → room is in a dangerous area
-export function roomElement(id, x, y, short, isIndoor, type = null, compact = false, water = false, green = false, danger = false, large = false, extraClass = '') {
+// large: true → large room (r=8 circle, 16×16 rect/octagon)
+// bridge: true → room is the physical span of a named bridge; always drawn
+//   as an octagon regardless of isIndoor.
+export function roomElement(id, x, y, short, isIndoor, type = null, compact = false, water = false, green = false, danger = false, large = false, bridge = false, extraClass = '') {
   const label       = short ? ` data-label="${escapeXml(short)}"` : ''
   const typeClass   = type   ? ` room-${type}`  : ''
   const sizeClass   = compact ? ' room-compact'  : ''
@@ -396,9 +417,11 @@ export function roomElement(id, x, y, short, isIndoor, type = null, compact = fa
   const dangerClass = danger  ? ' danger'         : ''
   const extraCls    = extraClass ? ` ${extraClass}` : ''
   const hw = compact ? 1.5 : large ? 8 : 4
-  const shape = isIndoor
-    ? `<rect id="room-${id}" class="room indoor${typeClass}${sizeClass}${waterClass}${greenClass}${dangerClass}${extraCls}"${label} x="${x - hw}" y="${y - hw}" width="${hw * 2}" height="${hw * 2}" rx="${compact ? 0.75 : 2}"/>`
-    : `<circle id="room-${id}" class="room outdoor${typeClass}${sizeClass}${waterClass}${greenClass}${dangerClass}${extraCls}"${label} cx="${x}" cy="${y}" r="${hw}"/>`
+  const shape = bridge
+    ? `<polygon id="room-${id}" class="room bridge outdoor${typeClass}${sizeClass}${waterClass}${greenClass}${dangerClass}${extraCls}"${label} cx="${x}" cy="${y}" points="${octagonPoints(x, y, hw)}"/>`
+    : isIndoor
+      ? `<rect id="room-${id}" class="room indoor${typeClass}${sizeClass}${waterClass}${greenClass}${dangerClass}${extraCls}"${label} x="${x - hw}" y="${y - hw}" width="${hw * 2}" height="${hw * 2}" rx="${compact ? 0.75 : 2}"/>`
+      : `<circle id="room-${id}" class="room outdoor${typeClass}${sizeClass}${waterClass}${greenClass}${dangerClass}${extraCls}"${label} cx="${x}" cy="${y}" r="${hw}"/>`
   const typeEl  = type  ? `<text class="room-type-label" font-size="4.5" x="${x}" y="${y}" text-anchor="middle" dominant-baseline="central">${TYPE_LETTERS[type]}</text>` : ''
   return shape + typeEl
 }

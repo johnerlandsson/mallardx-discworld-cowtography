@@ -1,6 +1,6 @@
 import { describe, it, expect, vi } from 'vitest'
 import Database from 'better-sqlite3'
-import { queryRooms, queryExits, queryStairRooms, edgeId, roomElement, stairSymbol, stairCornerSymbol, buildStairLayer, exitElement, buildNewSvg, updateExistingSvg, queryShopTypes, TYPE_LETTERS, isWaterRoom, buildStackData } from './build-svg.mjs'
+import { queryRooms, queryExits, queryStairRooms, edgeId, roomElement, stairSymbol, stairCornerSymbol, buildStairLayer, exitElement, buildNewSvg, updateExistingSvg, queryShopTypes, TYPE_LETTERS, isWaterRoom, buildStackData, octagonPoints } from './build-svg.mjs'
 
 function makeDb() {
   const db = new Database(':memory:')
@@ -371,6 +371,92 @@ describe('roomElement (compact)', () => {
     expect(el).toContain('class="room outdoor room-weapon room-compact"')
     expect(el).toContain('r="1.5"')
     expect(el).toContain('>W<')
+  })
+})
+
+describe('octagonPoints', () => {
+  it('returns 8 vertices, all within the 2*hw bounding square', () => {
+    const pts = octagonPoints(10, 20, 4).split(' ').map(p => p.split(',').map(Number))
+    expect(pts).toHaveLength(8)
+    for (const [px, py] of pts) {
+      expect(px).toBeGreaterThanOrEqual(10 - 4 - 1e-9)
+      expect(px).toBeLessThanOrEqual(10 + 4 + 1e-9)
+      expect(py).toBeGreaterThanOrEqual(20 - 4 - 1e-9)
+      expect(py).toBeLessThanOrEqual(20 + 4 + 1e-9)
+    }
+  })
+
+  it('touches all four sides of the bounding square (inscribed, not inset)', () => {
+    const pts = octagonPoints(10, 20, 4).split(' ').map(p => p.split(',').map(Number))
+    expect(pts.some(([, py]) => Math.abs(py - (20 - 4)) < 1e-9)).toBe(true)  // top
+    expect(pts.some(([, py]) => Math.abs(py - (20 + 4)) < 1e-9)).toBe(true)  // bottom
+    expect(pts.some(([px]) => Math.abs(px - (10 - 4)) < 1e-9)).toBe(true)    // left
+    expect(pts.some(([px]) => Math.abs(px - (10 + 4)) < 1e-9)).toBe(true)    // right
+  })
+
+  it('produces 8 equal-length edges (a regular octagon)', () => {
+    const pts = octagonPoints(0, 0, 4).split(' ').map(p => p.split(',').map(Number))
+    const lengths = pts.map((p, i) => {
+      const [x1, y1] = p
+      const [x2, y2] = pts[(i + 1) % pts.length]
+      return Math.hypot(x2 - x1, y2 - y1)
+    })
+    for (const len of lengths) expect(len).toBeCloseTo(lengths[0], 9)
+  })
+})
+
+describe('roomElement (bridge)', () => {
+  it('returns a polygon with bridge+outdoor classes for bridge=true', () => {
+    const el = roomElement('br1', 100, 200, "King's Bridge", false, null, false, false, false, false, false, true)
+    expect(el).toContain('<polygon')
+    expect(el).toContain('id="room-br1"')
+    expect(el).toContain('class="room bridge outdoor"')
+    expect(el).toContain('cx="100"')
+    expect(el).toContain('cy="200"')
+    expect(el).toContain('points="')
+    expect(el).toContain('data-label="King&#x27;s Bridge"')
+  })
+
+  it('bridge shape wins over isIndoor=true', () => {
+    const el = roomElement('br2', 10, 20, 'Indoor Bridge Room', true, null, false, false, false, false, false, true)
+    expect(el).toContain('<polygon')
+    expect(el).not.toContain('<rect')
+  })
+
+  it('non-bridge room is unaffected (still circle, no bridge class)', () => {
+    const el = roomElement('r1', 10, 20, 'Room', false, null, false, false, false, false, false, false)
+    expect(el).toContain('<circle')
+    expect(el).not.toContain('bridge')
+  })
+
+  it('compact bridge room fits the compact (hw=1.5) bounding box', () => {
+    const el = roomElement('br3', 10, 20, 'Small Bridge', false, null, true, false, false, false, false, true)
+    expect(el).toContain('class="room bridge outdoor room-compact"')
+    const pts = el.match(/points="([^"]+)"/)[1].split(' ').map(p => p.split(',').map(Number))
+    for (const [px, py] of pts) {
+      expect(px).toBeGreaterThanOrEqual(10 - 1.5 - 1e-9)
+      expect(px).toBeLessThanOrEqual(10 + 1.5 + 1e-9)
+      expect(py).toBeGreaterThanOrEqual(20 - 1.5 - 1e-9)
+      expect(py).toBeLessThanOrEqual(20 + 1.5 + 1e-9)
+    }
+  })
+
+  it('large bridge room fits the large (hw=8) bounding box', () => {
+    const el = roomElement('br4', 10, 20, 'Big Bridge', false, null, false, false, false, false, true, true)
+    const pts = el.match(/points="([^"]+)"/)[1].split(' ').map(p => p.split(',').map(Number))
+    for (const [px, py] of pts) {
+      expect(px).toBeGreaterThanOrEqual(10 - 8 - 1e-9)
+      expect(px).toBeLessThanOrEqual(10 + 8 + 1e-9)
+      expect(py).toBeGreaterThanOrEqual(20 - 8 - 1e-9)
+      expect(py).toBeLessThanOrEqual(20 + 8 + 1e-9)
+    }
+  })
+
+  it('bridge room can still carry a type letter', () => {
+    const el = roomElement('br5', 10, 20, 'Bridge Shop', false, 'shop', false, false, false, false, false, true)
+    expect(el).toContain('class="room bridge outdoor room-shop"')
+    expect(el).toContain('<text class="room-type-label"')
+    expect(el).toContain('>S<')
   })
 })
 
