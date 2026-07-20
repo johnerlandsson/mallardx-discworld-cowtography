@@ -10,6 +10,7 @@
     "gen:map-names": "node scripts/gen-map-names.mjs",
     "build:svg": "node scripts/build-svg.mjs",
     "sync:svg": "node scripts/sync-svg-js.mjs",
+    "find:bridges": "node scripts/find-bridge-candidates.mjs",
     "pack": "rm -f discworld-cowtography-0.28.1.mallardx && zip -r discworld-cowtography-0.28.1.mallardx plugin.toml README.md src/ ui/ --exclude 'ui/maps/*.svg'"
   },
   "devDependencies": {
