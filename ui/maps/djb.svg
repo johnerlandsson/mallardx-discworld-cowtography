@@ -3121,8 +3121,8 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-16c8808bc4a610e3451aa817225b75b1ae061efb" class="room outdoor" data-label="intersection" cx="259" cy="206" r="4"/>
     <circle id="room-3abe3eeb907d8747da3d929811336fb722520a45" class="room outdoor" data-label="Djelibeybi road" cx="202" cy="383" r="4"/>
     <circle id="room-5dbba6192178205bac6f47bf8224e327c621837a" class="room outdoor" data-label="Djelibeybi road" cx="218" cy="147" r="4"/>
-    <polygon id="room-bdf61f65e0b9cf7d87e50213d1f7fc2d3db02cd2" class="room bridge outdoor" data-label="Ptrip-Ptrap bridge" cx="218" cy="133" points="222,133 220,136.46410161513776 216,136.46410161513776 214,133 216,129.53589838486224 220,129.53589838486224"/>
-    <polygon id="room-2c8847fb3002888a069e90caca13078d22b1d8af" class="room bridge outdoor" data-label="north end of the Ptrip-Ptrap bridge" cx="218" cy="119" points="222,119 220,122.46410161513775 216,122.46410161513775 214,119 216,115.53589838486225 220,115.53589838486225"/>
+    <polygon id="room-bdf61f65e0b9cf7d87e50213d1f7fc2d3db02cd2" class="room bridge outdoor" data-label="Ptrip-Ptrap bridge" cx="218" cy="133" points="218,129 221.46410161513776,131 221.46410161513776,135 218,137 214.53589838486224,135 214.53589838486224,131"/>
+    <polygon id="room-2c8847fb3002888a069e90caca13078d22b1d8af" class="room bridge outdoor" data-label="north end of the Ptrip-Ptrap bridge" cx="218" cy="119" points="218,115 221.46410161513776,117 221.46410161513776,121 218,123 214.53589838486224,121 214.53589838486224,117"/>
     <circle id="room-6cdae7a8b2c5566d10fe807f3464e6696bf63229" class="room outdoor" data-label="intersection" cx="206" cy="107" r="4"/>
     <rect id="room-78dce8190b204d0292c99a769c60218aba9b6a15" class="room indoor water" data-label="river Djel as it flows under a bridge" x="214" y="129" width="8" height="8" rx="2"/>
     <circle id="room-f758390eb147e7c023a1b3bfdce5897eece6a17f" class="room outdoor water" data-label="small section of the river Djel" cx="204" cy="133" r="4"/>

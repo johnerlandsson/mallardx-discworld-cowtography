@@ -1361,11 +1361,11 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-254c4c72a2cd43d33b780fead4be70afe719f72b" class="room outdoor" data-label="intersection of Kings and Smarl River roads" cx="589" cy="305" r="4"/>
     <circle id="room-ce0fc9723fd25a91f187c2784356ceb97b2378f6" class="room outdoor" data-label="Smarl River road" cx="662" cy="248" r="4"/>
     <circle id="room-6407dc810ca2f1472cce9619e014a8268a2b7838" class="room outdoor" data-label="Kings road" cx="603" cy="332" r="4"/>
-    <polygon id="room-b54b4c3eccb0744c42da03d084c7c488a17f0a74" class="room bridge outdoor" data-label="Valley Bridge" cx="603" cy="346" points="607,346 605,349.46410161513774 601,349.46410161513774 599,346 601,342.53589838486226 605,342.53589838486226"/>
+    <polygon id="room-b54b4c3eccb0744c42da03d084c7c488a17f0a74" class="room bridge outdoor" data-label="Valley Bridge" cx="603" cy="346" points="603,342 606.4641016151378,344 606.4641016151378,348 603,350 599.5358983848622,348 599.5358983848622,344"/>
     <circle id="room-497cfc438a87cd0213355fbcd44d30013fbda838" class="room outdoor" data-label="under the Valley Bridge" cx="603" cy="346" r="4"/>
     <circle id="room-3d1d1dd51eb31ea6a29445ebb018710dcd253b64" class="room outdoor" data-label="Kings road" cx="617" cy="360" r="4"/>
     <circle id="room-67d3b32937c1ec5fb550a2337a39cecd56fff95c" class="room outdoor" data-label="Kings road" cx="617" cy="454" r="4"/>
-    <polygon id="room-978cff20f68e717d3b4f5aac9e9db426b0beff4f" class="room bridge outdoor" data-label="Crossways Bridge" cx="617" cy="468" points="621,468 619,471.46410161513774 615,471.46410161513774 613,468 615,464.53589838486226 619,464.53589838486226"/>
+    <polygon id="room-978cff20f68e717d3b4f5aac9e9db426b0beff4f" class="room bridge outdoor" data-label="Crossways Bridge" cx="617" cy="468" points="617,464 620.4641016151378,466 620.4641016151378,470 617,472 613.5358983848622,470 613.5358983848622,466"/>
     <circle id="room-47eb46d6880c9e638eab4268d40b457c63076c55" class="room outdoor" data-label="Kings road" cx="617" cy="482" r="4"/>
     <circle id="room-989a6c2459cbb6e68bf5be8bfb119b5a16b5e50c" class="room outdoor" data-label="under the Crossways Bridge" cx="617" cy="468" r="4"/>
     <circle id="room-00e1aa679c692a7a07b5bd88ef9a92e9ad328556" class="room outdoor" data-label="intersection of the Kings and Uberwald roads" cx="608" cy="504" r="4"/>
@@ -1491,12 +1491,12 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-08aef95efe17843d4162a377dbc57aff0d56049d" class="room outdoor" data-label="road" cx="104" cy="331" r="4"/>
     <circle id="room-f138e3a4f3ec0cacdbc48d912b4f361a880f9fbc" class="room outdoor" data-label="junction of Smarl River road and Borogravia road" cx="323" cy="337" r="4"/>
     <circle id="room-bcd78c01f41f45640c85412e9246ca67b21c3b67" class="room outdoor" data-label="Uberwald road" cx="346" cy="360" r="4"/>
-    <polygon id="room-6b88d7ff3cc8905ebce0426308cb14a4a39e8203" class="room bridge outdoor" data-label="Meadow Bridge" cx="346" cy="374" points="350,374 348,377.46410161513774 344,377.46410161513774 342,374 344,370.53589838486226 348,370.53589838486226"/>
+    <polygon id="room-6b88d7ff3cc8905ebce0426308cb14a4a39e8203" class="room bridge outdoor" data-label="Meadow Bridge" cx="346" cy="374" points="346,370 349.46410161513774,372 349.46410161513774,376 346,378 342.53589838486226,376 342.53589838486226,372"/>
     <circle id="room-fe46238317502914e4ade84d2540669426d2f231" class="room outdoor" data-label="Uberwald road" cx="346" cy="388" r="4"/>
     <circle id="room-6a230cb367b25dd996e70dc6e809b7da6cca38d0" class="room outdoor" data-label="under the Meadow Bridge" cx="346" cy="374" r="4"/>
     <circle id="room-ebdbdcd8d7b6513f59c31f744942e47e8693289b" class="room outdoor" data-label="intersection of Borogravia and Uberwald roads" cx="375" cy="506" r="4"/>
     <circle id="room-3eee89b825899a1bf92a487123c33989ddf47ff2" class="room outdoor" data-label="forest trail" cx="904" cy="627" r="4"/>
-    <polygon id="room-a308195233aacb59e506692cc19c6e83b320a21a" class="room bridge outdoor" data-label="Wolverine Bridge" cx="1133" cy="780" points="1137,780 1135,783.4641016151378 1131,783.4641016151378 1129,780 1131,776.5358983848622 1135,776.5358983848622"/>
+    <polygon id="room-a308195233aacb59e506692cc19c6e83b320a21a" class="room bridge outdoor" data-label="Wolverine Bridge" cx="1133" cy="780" points="1133,776 1136.4641016151377,778 1136.4641016151377,782 1133,784 1129.5358983848623,782 1129.5358983848623,778"/>
     <circle id="room-f6db2037b5fe63360195c28c36e7c5604fef8e2c" class="room outdoor" data-label="Kings road" cx="1133" cy="766" r="4"/>
     <circle id="room-b5c0032ab6ae84792db6cce0ad5fbacc3c29ff43" class="room outdoor" data-label="Kings road" cx="1133" cy="794" r="4"/>
     <circle id="room-35e013f4d07c09ab92669256cd8b01263536fbd6" class="room outdoor" data-label="under the Wolverine Bridge" cx="1133" cy="780" r="4"/>
@@ -1504,37 +1504,37 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-884b38eed5858cff6b96f2dbafa17363646c5fcf" class="room outdoor" data-label="Kings road" cx="1145" cy="846" r="4"/>
     <circle id="room-d788675624750d7c47f3454777745ee4ccad792f" class="room outdoor" data-label="road" cx="1131" cy="883" r="4"/>
     <circle id="room-3e43b05aae0d4e5598e625721e6522c211af250c" class="room outdoor" data-label="Kings road" cx="1184" cy="857" r="4"/>
-    <polygon id="room-88d35f8f8caad112ca986b35e6da023c63821520" class="room bridge outdoor" data-label="Clacks Bridge" cx="1198" cy="871" points="1202,871 1200,874.4641016151378 1196,874.4641016151378 1194,871 1196,867.5358983848622 1200,867.5358983848622"/>
+    <polygon id="room-88d35f8f8caad112ca986b35e6da023c63821520" class="room bridge outdoor" data-label="Clacks Bridge" cx="1198" cy="871" points="1198,867 1201.4641016151377,869 1201.4641016151377,873 1198,875 1194.5358983848623,873 1194.5358983848623,869"/>
     <circle id="room-b90ad381a71467f056e4102b54be308a02d8afa3" class="room outdoor" data-label="Kings road" cx="1212" cy="885" r="4"/>
     <circle id="room-916db2e627fbe4da1b345d42171b1af842193e79" class="room outdoor" data-label="under the Clacks Bridge" cx="1198" cy="871" r="4"/>
     <circle id="room-a448c3abf9cde96307b9143f1034483ef917bf7d" class="room outdoor" data-label="Kings road" cx="1176" cy="959" r="4"/>
-    <polygon id="room-e8d95bee159aeaa06d7a5064a4d73443e425ca10" class="room bridge outdoor" data-label="Switchback Bridge" cx="1162" cy="973" points="1166,973 1164,976.4641016151378 1160,976.4641016151378 1158,973 1160,969.5358983848622 1164,969.5358983848622"/>
+    <polygon id="room-e8d95bee159aeaa06d7a5064a4d73443e425ca10" class="room bridge outdoor" data-label="Switchback Bridge" cx="1162" cy="973" points="1162,969 1165.4641016151377,971 1165.4641016151377,975 1162,977 1158.5358983848623,975 1158.5358983848623,971"/>
     <circle id="room-2ab32098e32b185a060c534ae201f94ebe7a36f6" class="room outdoor" data-label="Kings road" cx="1162" cy="987" r="4"/>
     <circle id="room-56fa2d59419e3c4795d62e046a997b569cab2438" class="room outdoor" data-label="under the Switchback Bridge" cx="1162" cy="973" r="4"/>
     <circle id="room-0d1862bf1b365d45d32d0409e3a9fb6ec6e72881" class="room outdoor" data-label="intersection of Kings and Vieux River roads" cx="1230" cy="1059" r="4"/>
-    <polygon id="room-57caa532b8df4f2198d75869ee026f4bba0def56" class="room bridge outdoor" data-label="Jeune Bridge" cx="1244" cy="1059" points="1248,1059 1246,1062.4641016151377 1242,1062.4641016151377 1240,1059 1242,1055.5358983848623 1246,1055.5358983848623"/>
+    <polygon id="room-57caa532b8df4f2198d75869ee026f4bba0def56" class="room bridge outdoor" data-label="Jeune Bridge" cx="1244" cy="1059" points="1244,1055 1247.4641016151377,1057 1247.4641016151377,1061 1244,1063 1240.5358983848623,1061 1240.5358983848623,1057"/>
     <circle id="room-7460545db6d07be4c37681bb1e1601ae7e0e8bb2" class="room outdoor" data-label="Kings road" cx="1258" cy="1059" r="4"/>
     <circle id="room-e524ded72a185981e1cdea7921c7bb427b53d749" class="room outdoor" data-label="under the Jeune Bridge" cx="1244" cy="1059" r="4"/>
     <circle id="room-c2e178e25ad68f58bcdeeb4d51a8535fc154bcdc" class="room outdoor" data-label="road" cx="1460" cy="1117" r="4"/>
     <circle id="room-430a7543e3ebb2344c14a2652c44edd7c9985abd" class="room outdoor" data-label="road" cx="1432" cy="1177" r="4"/>
     <circle id="room-fbd9782d0600c449b864b9f49ed3326c4599e1b7" class="room outdoor" data-label="road" cx="1450" cy="1204" r="4"/>
-    <polygon id="room-0c29aab2f298dc1b3733889736fe4c89233e5f99" class="room bridge outdoor" data-label="Koom Gorge Bridge" cx="1464" cy="1204" points="1468,1204 1466,1207.4641016151377 1462,1207.4641016151377 1460,1204 1462,1200.5358983848623 1466,1200.5358983848623"/>
+    <polygon id="room-0c29aab2f298dc1b3733889736fe4c89233e5f99" class="room bridge outdoor" data-label="Koom Gorge Bridge" cx="1464" cy="1204" points="1464,1200 1467.4641016151377,1202 1467.4641016151377,1206 1464,1208 1460.5358983848623,1206 1460.5358983848623,1202"/>
     <circle id="room-178575043546ecd550e69125cbe158c77c39e2d1" class="room outdoor" data-label="road" cx="1478" cy="1204" r="4"/>
     <circle id="room-5d6b6221cd4ccf16f8b63d47b77d2ae7caa7c922" class="room outdoor" data-label="under the Koom Gorge Bridge" cx="1464" cy="1204" r="4"/>
     <circle id="room-04760fd51266605ddb4fc3735a85e23c7066cfe4" class="room outdoor" data-label="road" cx="1409" cy="1211" r="4"/>
-    <polygon id="room-8b4dcf945b466accdb8e21a5368a7fc4b6a94cd7" class="room bridge outdoor" data-label="Koom Valley Bridge" cx="1409" cy="1225" points="1413,1225 1411,1228.4641016151377 1407,1228.4641016151377 1405,1225 1407,1221.5358983848623 1411,1221.5358983848623"/>
+    <polygon id="room-8b4dcf945b466accdb8e21a5368a7fc4b6a94cd7" class="room bridge outdoor" data-label="Koom Valley Bridge" cx="1409" cy="1225" points="1409,1221 1412.4641016151377,1223 1412.4641016151377,1227 1409,1229 1405.5358983848623,1227 1405.5358983848623,1223"/>
     <circle id="room-10648770ef799a89d4bf9b02126d3edbe0eec5a4" class="room outdoor" data-label="road" cx="1409" cy="1239" r="4"/>
     <circle id="room-fced2ebc44231d085a7318841f29cd207f98a090" class="room outdoor" data-label="under the Koom Valley Bridge" cx="1409" cy="1225" r="4"/>
     <circle id="room-e09ba3c3e39a5e5615c7755dc3d2bc1a094bf3ae" class="room outdoor" data-label="road" cx="1351" cy="1286" r="4"/>
-    <polygon id="room-405636ef9f47e016de3ce60185bf4f0426260c99" class="room bridge outdoor" data-label="Koom Bridge" cx="1337" cy="1286" points="1341,1286 1339,1289.4641016151377 1335,1289.4641016151377 1333,1286 1335,1282.5358983848623 1339,1282.5358983848623"/>
+    <polygon id="room-405636ef9f47e016de3ce60185bf4f0426260c99" class="room bridge outdoor" data-label="Koom Bridge" cx="1337" cy="1286" points="1337,1282 1340.4641016151377,1284 1340.4641016151377,1288 1337,1290 1333.5358983848623,1288 1333.5358983848623,1284"/>
     <circle id="room-66ef8b282ec0e3065535f23b62372fa934fbdbf7" class="room outdoor" data-label="road" cx="1323" cy="1286" r="4"/>
     <circle id="room-71c485990ffbf83f3f0ac4103631184b91e5345a" class="room outdoor" data-label="under the Koom Bridge" cx="1337" cy="1286" r="4"/>
     <circle id="room-335413a4de3be9f68bc6bd9db3be1b0ebac620d2" class="room outdoor" data-label="road" cx="1533" cy="1277" r="4"/>
-    <polygon id="room-a47a399401c9edc028f9f3e1c6bbf7888522c222" class="room bridge outdoor" data-label="Broken Jaw Bridge" cx="1547" cy="1277" points="1551,1277 1549,1280.4641016151377 1545,1280.4641016151377 1543,1277 1545,1273.5358983848623 1549,1273.5358983848623"/>
+    <polygon id="room-a47a399401c9edc028f9f3e1c6bbf7888522c222" class="room bridge outdoor" data-label="Broken Jaw Bridge" cx="1547" cy="1277" points="1547,1273 1550.4641016151377,1275 1550.4641016151377,1279 1547,1281 1543.5358983848623,1279 1543.5358983848623,1275"/>
     <circle id="room-79d83e3016a0051fdf81b4b5da690a5f703c489d" class="room outdoor" data-label="road" cx="1561" cy="1277" r="4"/>
     <circle id="room-6eeface455129c9a0ce019e0a44aa99b95558572" class="room outdoor" data-label="under the Broken Jaw Bridge" cx="1547" cy="1277" r="4"/>
     <circle id="room-aad1aee47183b17eaf837fa87efdaf046112c59c" class="room outdoor" data-label="road" cx="1598" cy="1283" r="4"/>
-    <polygon id="room-80bca99aeda1b25526cf3b2640d7f3308fcdb320" class="room bridge outdoor" data-label="Smashed Head Bridge" cx="1612" cy="1283" points="1616,1283 1614,1286.4641016151377 1610,1286.4641016151377 1608,1283 1610,1279.5358983848623 1614,1279.5358983848623"/>
+    <polygon id="room-80bca99aeda1b25526cf3b2640d7f3308fcdb320" class="room bridge outdoor" data-label="Smashed Head Bridge" cx="1612" cy="1283" points="1612,1279 1615.4641016151377,1281 1615.4641016151377,1285 1612,1287 1608.5358983848623,1285 1608.5358983848623,1281"/>
     <circle id="room-d580b8b3996557abe9922a8e8af551bda514f336" class="room outdoor" data-label="road" cx="1626" cy="1297" r="4"/>
     <circle id="room-802518760d85967c981a53d6b11242cc8ad381dc" class="room outdoor" data-label="under the Smashed Head Bridge" cx="1612" cy="1283" r="4"/>
     <rect id="room-52af1d2eef0a9fe70cfca566d276564e24892c89" class="room indoor" data-label="entry hall" x="669" y="625" width="8" height="8" rx="2"/>

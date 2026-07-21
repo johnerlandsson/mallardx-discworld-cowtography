@@ -414,8 +414,8 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-c2d5ffce8ccfbc788033ab4d9396cba53f322576" class="room outdoor" data-label="village road outside a gingerbread shop" cx="229" cy="151" r="4"/>
     <circle id="room-a1dcca4c94e79bc5a195023e9a233edb9f4dc03c" class="room outdoor" data-label="main village road" cx="243" cy="165" r="4"/>
     <circle id="room-39cf7b6b330670138fb19757092ef874d2829147" class="room outdoor" data-label="main entrance to Slippery Hollow" cx="243" cy="179" r="4"/>
-    <polygon id="room-b721a455fe760d7b51af63302bf65d434b83e5ab" class="room bridge outdoor" data-label="wooden humpback bridge" cx="243" cy="193" points="247,193 245,196.46410161513776 241,196.46410161513776 239,193 241,189.53589838486224 245,189.53589838486224"/>
-    <polygon id="room-e33e36371d0f945bb17755b4d4e92d7fdcb96ffa" class="room bridge outdoor" data-label="wooden humpback bridge" cx="243" cy="207" points="247,207 245,210.46410161513776 241,210.46410161513776 239,207 241,203.53589838486224 245,203.53589838486224"/>
+    <polygon id="room-b721a455fe760d7b51af63302bf65d434b83e5ab" class="room bridge outdoor" data-label="wooden humpback bridge" cx="243" cy="193" points="243,189 246.46410161513776,191 246.46410161513776,195 243,197 239.53589838486224,195 239.53589838486224,191"/>
+    <polygon id="room-e33e36371d0f945bb17755b4d4e92d7fdcb96ffa" class="room bridge outdoor" data-label="wooden humpback bridge" cx="243" cy="207" points="243,203 246.46410161513776,205 246.46410161513776,209 243,211 239.53589838486224,209 239.53589838486224,205"/>
     <circle id="room-52c70f41906ee625fc59300631e4f59483bda867" class="room outdoor" data-label="start of a narrow road" cx="243" cy="221" r="4"/>
     <rect id="room-23a1d332e63692f0dd5e6d98c5f45e66c162d054" class="room indoor" data-label="small cottage" x="253" y="175" width="8" height="8" rx="2"/>
     <circle id="room-e910d2a21a9dae37b36cd7a815f0a76ae2214028" class="room outdoor" data-label="cottage garden" cx="257" cy="165" r="4"/>
@@ -540,7 +540,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-3da7bac897fb91da3a658c2a279742e646cf32d0" class="room outdoor" data-label="path across the common" cx="299" cy="123" r="4"/>
     <circle id="room-2f7da221436ac1e72a10a8ad37224ee9edd1acff" class="room outdoor" data-label="eastern edge of the common" cx="299" cy="137" r="4"/>
     <circle id="room-e0730a94f04bbe55dfbf7a7cd6de3e8475e27619" class="room outdoor" data-label="country road near Slippery Hollow" cx="313" cy="123" r="4"/>
-    <polygon id="room-7b47f61cb9f3b564818215be92145bada5a99c3d" class="room bridge outdoor" data-label="covered bridge over a small river" cx="327" cy="123" points="331,123 329,126.46410161513775 325,126.46410161513775 323,123 325,119.53589838486225 329,119.53589838486225"/>
+    <polygon id="room-7b47f61cb9f3b564818215be92145bada5a99c3d" class="room bridge outdoor" data-label="covered bridge over a small river" cx="327" cy="123" points="327,119 330.46410161513774,121 330.46410161513774,125 327,127 323.53589838486226,125 323.53589838486226,121"/>
     <circle id="room-36286155f8a470c1c1eb5561b38af33f99285938" class="room outdoor" data-label="base of a guard tower" cx="313" cy="112" r="4"/>
     <rect id="room-7f2df0c5d6a591c4bccb7ef6398b2aec57c9d50b" class="room indoor" data-label="watchtower" x="309" y="108" width="8" height="8" rx="2"/>
     <circle id="room-fca3dd587ef5defdf907cd72c02fe4907d59827a" class="room outdoor" data-label="base of a guard tower" cx="313" cy="134" r="4"/>

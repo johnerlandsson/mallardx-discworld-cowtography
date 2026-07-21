@@ -1495,28 +1495,28 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-e7c93d8ccd2a7cbed2656d646490b546137236f7" class="room outdoor" data-label="intersection on the Klatch road" cx="1154" cy="1204" r="4"/>
     <circle id="room-cf4bf7770d0d87612ea1819c07614d2a20149aeb" class="room outdoor" data-label="intersection of Klatch road and Philosophers&#x27; Way" cx="1166" cy="1282" r="4"/>
     <circle id="room-ec234085e5590f077dbc219b60d65b456ca65acf" class="room outdoor" data-label="Klatch Road" cx="1285" cy="1324" r="4"/>
-    <polygon id="room-f531f18c9d3a9a50f466c68b6d3cd042aff34725" class="room bridge outdoor" data-label="crumpled bridge" cx="1299" cy="1324" points="1303,1324 1301,1327.4641016151377 1297,1327.4641016151377 1295,1324 1297,1320.5358983848623 1301,1320.5358983848623"/>
+    <polygon id="room-f531f18c9d3a9a50f466c68b6d3cd042aff34725" class="room bridge outdoor" data-label="crumpled bridge" cx="1299" cy="1324" points="1299,1320 1302.4641016151377,1322 1302.4641016151377,1326 1299,1328 1295.5358983848623,1326 1295.5358983848623,1322"/>
     <circle id="room-e0c1df10b3a763dc18dd425557e4ef6ffcda703c" class="room outdoor" data-label="carriage stop on the Klatch Road" cx="1313" cy="1324" r="4"/>
-    <polygon id="room-30602260c70da5558274091546d57f9db0593097" class="room bridge outdoor" data-label="a crumpled bridge" cx="1299" cy="1324" points="1303,1324 1301,1327.4641016151377 1297,1327.4641016151377 1295,1324 1297,1320.5358983848623 1301,1320.5358983848623"/>
+    <polygon id="room-30602260c70da5558274091546d57f9db0593097" class="room bridge outdoor" data-label="a crumpled bridge" cx="1299" cy="1324" points="1299,1320 1302.4641016151377,1322 1302.4641016151377,1326 1299,1328 1295.5358983848623,1326 1295.5358983848623,1322"/>
     <circle id="room-49da1abfa4b78b738bd2debfc2e375116dd66c9f" class="room outdoor" data-label="road" cx="1558" cy="1356" r="4"/>
-    <polygon id="room-82771ff4121ebf2223f14c68ad212b188d8e3bf5" class="room bridge outdoor" data-label="Sponge Bridge" cx="1572" cy="1356" points="1576,1356 1574,1359.4641016151377 1570,1359.4641016151377 1568,1356 1570,1352.5358983848623 1574,1352.5358983848623"/>
+    <polygon id="room-82771ff4121ebf2223f14c68ad212b188d8e3bf5" class="room bridge outdoor" data-label="Sponge Bridge" cx="1572" cy="1356" points="1572,1352 1575.4641016151377,1354 1575.4641016151377,1358 1572,1360 1568.5358983848623,1358 1568.5358983848623,1354"/>
     <circle id="room-5d1e7cfe751f13f8f5e3387baf4d1f8568600113" class="room outdoor" data-label="road" cx="1586" cy="1356" r="4"/>
     <circle id="room-e895f04edd160fb609f60d163631c7e6dd20348f" class="room outdoor" data-label="road" cx="1608" cy="1356" r="4"/>
-    <polygon id="room-13a5858bd1879b8206833f575c3552254c6a9b6d" class="room bridge outdoor" data-label="Tie Dye Bridge" cx="1622" cy="1356" points="1626,1356 1624,1359.4641016151377 1620,1359.4641016151377 1618,1356 1620,1352.5358983848623 1624,1352.5358983848623"/>
+    <polygon id="room-13a5858bd1879b8206833f575c3552254c6a9b6d" class="room bridge outdoor" data-label="Tie Dye Bridge" cx="1622" cy="1356" points="1622,1352 1625.4641016151377,1354 1625.4641016151377,1358 1622,1360 1618.5358983848623,1358 1618.5358983848623,1354"/>
     <circle id="room-b84d02e871489603adc153fedbf6a208536d048d" class="room outdoor" data-label="road" cx="1636" cy="1356" r="4"/>
     <circle id="room-e5a75b31b2b13c2e787095ac366e25412623989f" class="room outdoor" data-label="under the Tie Dye bridge" cx="1622" cy="1356" r="4"/>
     <circle id="room-f5c6a712945c7972d3c41b775d52f433da7f6ef1" class="room outdoor" data-label="under the Sponge bridge" cx="1572" cy="1356" r="4"/>
     <circle id="room-81fd32f857bb615735ef84c5ec691fb9f6b96e41" class="room outdoor" data-label="desert" cx="619" cy="511" r="4"/>
-    <polygon id="room-b07dde029acbc5f51eeb7fc44a0676389f7a2d9d" class="room bridge outdoor" data-label="Rubber bridge" cx="275" cy="734" points="279,734 277,737.4641016151378 273,737.4641016151378 271,734 273,730.5358983848622 277,730.5358983848622"/>
+    <polygon id="room-b07dde029acbc5f51eeb7fc44a0676389f7a2d9d" class="room bridge outdoor" data-label="Rubber bridge" cx="275" cy="734" points="275,730 278.46410161513774,732 278.46410161513774,736 275,738 271.53589838486226,736 271.53589838486226,732"/>
     <circle id="room-a8ad279654ab2f11e2fdceb950753317e4d451ff" class="room outdoor" data-label="road" cx="261" cy="734" r="4"/>
     <circle id="room-c1e570e4e8944850239b8e5c38008e1331f90756" class="room outdoor" data-label="road" cx="289" cy="734" r="4"/>
     <circle id="room-69239015822b85e33dff703279c9bab62ed0f3be" class="room outdoor" data-label="road" cx="138" cy="781" r="4"/>
-    <polygon id="room-535a095386f8ce0d914ee395b4e92acce4b9b558" class="room bridge outdoor" data-label="Sandy Bridge" cx="124" cy="781" points="128,781 126,784.4641016151378 122,784.4641016151378 120,781 122,777.5358983848622 126,777.5358983848622"/>
+    <polygon id="room-535a095386f8ce0d914ee395b4e92acce4b9b558" class="room bridge outdoor" data-label="Sandy Bridge" cx="124" cy="781" points="124,777 127.46410161513775,779 127.46410161513775,783 124,785 120.53589838486225,783 120.53589838486225,779"/>
     <circle id="room-ce1aa5d454fed4fa317ceba19ccb5ab3b3d7e300" class="room outdoor" data-label="road" cx="110" cy="767" r="4"/>
-    <polygon id="room-c90229cc62f62a52c9b64031b7957e5e2c0a52f4" class="room bridge outdoor" data-label="Al Khali bridge" cx="1169" cy="412" points="1173,412 1171,415.46410161513774 1167,415.46410161513774 1165,412 1167,408.53589838486226 1171,408.53589838486226"/>
+    <polygon id="room-c90229cc62f62a52c9b64031b7957e5e2c0a52f4" class="room bridge outdoor" data-label="Al Khali bridge" cx="1169" cy="412" points="1169,408 1172.4641016151377,410 1172.4641016151377,414 1169,416 1165.5358983848623,414 1165.5358983848623,410"/>
     <circle id="room-13a4468d95976e5cecc9a802eeae0f94c7b5a5a6" class="room outdoor" data-label="Djelibeybi road" cx="1169" cy="426" r="4"/>
     <circle id="room-e7e33a561e9e1c84381d92fce4f13c10c46017dd" class="room outdoor" data-label="Al Khali road" cx="1169" cy="398" r="4"/>
-    <polygon id="room-cbba39273531f27ef005f5d6db55d1f1f037e270" class="room bridge outdoor" data-label="The Al Khali bridge" cx="1169" cy="412" points="1173,412 1171,415.46410161513774 1167,415.46410161513774 1165,412 1167,408.53589838486226 1171,408.53589838486226"/>
+    <polygon id="room-cbba39273531f27ef005f5d6db55d1f1f037e270" class="room bridge outdoor" data-label="The Al Khali bridge" cx="1169" cy="412" points="1169,408 1172.4641016151377,410 1172.4641016151377,414 1169,416 1165.5358983848623,414 1165.5358983848623,410"/>
     <circle id="room-6767468fa22cd174cf4558816a2b5fca7d920985" class="room outdoor" data-label="intersection" cx="1025" cy="373" r="4"/>
     <circle id="room-b10e0c54b290aa865791b8d931a3348f3135dba2" class="room outdoor" data-label="intersection" cx="1277" cy="207" r="4"/>
     <circle id="room-a74ebfd174056f30d757ee02bd9257588c9999a6" class="room outdoor" data-label="intersection" cx="1305" cy="207" r="4"/>
