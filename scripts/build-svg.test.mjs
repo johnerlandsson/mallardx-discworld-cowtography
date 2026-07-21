@@ -1,6 +1,6 @@
 import { describe, it, expect, vi } from 'vitest'
 import Database from 'better-sqlite3'
-import { queryRooms, queryExits, queryStairRooms, edgeId, roomElement, stairSymbol, stairCornerSymbol, buildStairLayer, exitElement, buildNewSvg, updateExistingSvg, queryShopTypes, TYPE_LETTERS, isWaterRoom, buildStackData, octagonPoints } from './build-svg.mjs'
+import { queryRooms, queryExits, queryStairRooms, edgeId, roomElement, stairSymbol, stairCornerSymbol, buildStairLayer, exitElement, buildNewSvg, updateExistingSvg, queryShopTypes, TYPE_LETTERS, isWaterRoom, buildStackData, hexagonPoints } from './build-svg.mjs'
 
 function makeDb() {
   const db = new Database(':memory:')
@@ -374,34 +374,33 @@ describe('roomElement (compact)', () => {
   })
 })
 
-describe('octagonPoints', () => {
-  it('returns 8 vertices, all within the 2*hw bounding square', () => {
-    const pts = octagonPoints(10, 20, 4).split(' ').map(p => p.split(',').map(Number))
-    expect(pts).toHaveLength(8)
+describe('hexagonPoints', () => {
+  it('returns 6 vertices, all within circumradius hw of the center', () => {
+    const pts = hexagonPoints(10, 20, 4).split(' ').map(p => p.split(',').map(Number))
+    expect(pts).toHaveLength(6)
     for (const [px, py] of pts) {
-      expect(px).toBeGreaterThanOrEqual(10 - 4 - 1e-9)
-      expect(px).toBeLessThanOrEqual(10 + 4 + 1e-9)
-      expect(py).toBeGreaterThanOrEqual(20 - 4 - 1e-9)
-      expect(py).toBeLessThanOrEqual(20 + 4 + 1e-9)
+      expect(Math.hypot(px - 10, py - 20)).toBeCloseTo(4, 9)
     }
   })
 
-  it('touches all four sides of the bounding square (inscribed, not inset)', () => {
-    const pts = octagonPoints(10, 20, 4).split(' ').map(p => p.split(',').map(Number))
-    expect(pts.some(([, py]) => Math.abs(py - (20 - 4)) < 1e-9)).toBe(true)  // top
-    expect(pts.some(([, py]) => Math.abs(py - (20 + 4)) < 1e-9)).toBe(true)  // bottom
-    expect(pts.some(([px]) => Math.abs(px - (10 - 4)) < 1e-9)).toBe(true)    // left
-    expect(pts.some(([px]) => Math.abs(px - (10 + 4)) < 1e-9)).toBe(true)    // right
+  it('is flat-top: touches left/right at sharp points, stays inset top/bottom', () => {
+    const pts = hexagonPoints(10, 20, 4).split(' ').map(p => p.split(',').map(Number))
+    expect(pts.some(([px, py]) => Math.abs(px - (10 + 4)) < 1e-9 && Math.abs(py - 20) < 1e-9)).toBe(true)  // right point
+    expect(pts.some(([px, py]) => Math.abs(px - (10 - 4)) < 1e-9 && Math.abs(py - 20) < 1e-9)).toBe(true)  // left point
+    for (const [, py] of pts) {
+      expect(Math.abs(py - 20)).toBeLessThan(4 - 1e-9)  // no vertex reaches the top/bottom edge of the bounding square
+    }
   })
 
-  it('produces 8 equal-length edges (a regular octagon)', () => {
-    const pts = octagonPoints(0, 0, 4).split(' ').map(p => p.split(',').map(Number))
+  it('produces 6 equal-length edges (a regular hexagon)', () => {
+    const pts = hexagonPoints(0, 0, 4).split(' ').map(p => p.split(',').map(Number))
     const lengths = pts.map((p, i) => {
       const [x1, y1] = p
       const [x2, y2] = pts[(i + 1) % pts.length]
       return Math.hypot(x2 - x1, y2 - y1)
     })
     for (const len of lengths) expect(len).toBeCloseTo(lengths[0], 9)
+    expect(lengths[0]).toBeCloseTo(4, 9)  // regular hexagon: edge length == circumradius
   })
 })
 
@@ -697,7 +696,7 @@ describe('buildNewSvg', () => {
     expect(svg).toContain('id="room-r2" class="room outdoor"')
   })
 
-  it('renders bridge rooms as an octagon polygon, leaves others untouched', () => {
+  it('renders bridge rooms as a hexagon polygon, leaves others untouched', () => {
     const bridgeRooms = new Set(['r1'])
     const svg = buildNewSvg(mapMeta, rooms, exits, 7, new Map(), new Map(), new Set(), new Set(), new Set(), new Set(), new Set(), new Set(), new Map(), new Set(), bridgeRooms)
     expect(svg).toContain('<polygon id="room-r1" class="room bridge outdoor"')

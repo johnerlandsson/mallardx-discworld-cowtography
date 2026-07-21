@@ -383,32 +383,30 @@ export function buildStackData(allRooms, exitPairs, stairRooms, overrides = {}) 
   return { upperToGround, groundToUppers }
 }
 
-// Returns an SVG polygon "points" attribute string for a regular "stop sign"
-// octagon centered at (x, y), inscribed in the same 2*hw × 2*hw bounding
-// square used by indoor rect rooms — so it inherits the same compact/large
-// size classes. t is the corner-cut length that makes all 8 edges equal.
-export function octagonPoints(x, y, hw) {
-  const t = hw * (2 - Math.SQRT2)
+// Returns an SVG polygon "points" attribute string for a regular flat-top
+// hexagon centered at (x, y), with circumradius hw — matching the existing
+// circle's r=hw exactly, so it inherits the same compact/large size classes
+// and footprint. Flat edges land at top/bottom, sharp points at left/right.
+export function hexagonPoints(x, y, hw) {
+  const h = hw * Math.sqrt(3) / 2
   return [
-    [x - hw + t, y - hw],
-    [x + hw - t, y - hw],
-    [x + hw,     y - hw + t],
-    [x + hw,     y + hw - t],
-    [x + hw - t, y + hw],
-    [x - hw + t, y + hw],
-    [x - hw,     y + hw - t],
-    [x - hw,     y - hw + t],
+    [x + hw,     y],
+    [x + hw / 2, y + h],
+    [x - hw / 2, y + h],
+    [x - hw,     y],
+    [x - hw / 2, y - h],
+    [x + hw / 2, y - h],
   ].map(([px, py]) => `${px},${py}`).join(' ')
 }
 
 // type: null | string (key of TYPE_LETTERS)
-// compact: true → small room (r=1.5 circle, 3×3 rect/octagon)
+// compact: true → small room (r=1.5 circle, 3×3 rect/hexagon)
 // water: true → room is in a body of water
 // green: true → room is a park or forest
 // danger: true → room is in a dangerous area
-// large: true → large room (r=8 circle, 16×16 rect/octagon)
+// large: true → large room (r=8 circle, 16×16 rect/hexagon)
 // bridge: true → room is the physical span of a named bridge; always drawn
-//   as an octagon regardless of isIndoor.
+//   as a hexagon regardless of isIndoor.
 export function roomElement(id, x, y, short, isIndoor, type = null, compact = false, water = false, green = false, danger = false, large = false, bridge = false, extraClass = '') {
   const label       = short ? ` data-label="${escapeXml(short)}"` : ''
   const typeClass   = type   ? ` room-${type}`  : ''
@@ -419,7 +417,7 @@ export function roomElement(id, x, y, short, isIndoor, type = null, compact = fa
   const extraCls    = extraClass ? ` ${extraClass}` : ''
   const hw = compact ? 1.5 : large ? 8 : 4
   const shape = bridge
-    ? `<polygon id="room-${id}" class="room bridge outdoor${typeClass}${sizeClass}${waterClass}${greenClass}${dangerClass}${extraCls}"${label} cx="${x}" cy="${y}" points="${octagonPoints(x, y, hw)}"/>`
+    ? `<polygon id="room-${id}" class="room bridge outdoor${typeClass}${sizeClass}${waterClass}${greenClass}${dangerClass}${extraCls}"${label} cx="${x}" cy="${y}" points="${hexagonPoints(x, y, hw)}"/>`
     : isIndoor
       ? `<rect id="room-${id}" class="room indoor${typeClass}${sizeClass}${waterClass}${greenClass}${dangerClass}${extraCls}"${label} x="${x - hw}" y="${y - hw}" width="${hw * 2}" height="${hw * 2}" rx="${compact ? 0.75 : 2}"/>`
       : `<circle id="room-${id}" class="room outdoor${typeClass}${sizeClass}${waterClass}${greenClass}${dangerClass}${extraCls}"${label} cx="${x}" cy="${y}" r="${hw}"/>`
