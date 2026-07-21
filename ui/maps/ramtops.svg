@@ -2196,7 +2196,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-28a6cac4941a5c2035d9a5394d9b84b38731f2ec" class="room outdoor" data-label="well maintained barge" cx="788" cy="125" r="4"/>
     <circle id="room-7a695dd28f7999e1cff636a88b53c2e0ac7df674" class="room outdoor" data-label="eastern end of Quayside Way" cx="813" cy="139" r="4"/>
     <circle id="room-ca8f4fda995fe3b77932b70347b303a69faa515c" class="room outdoor" data-label="Ohulan-Cutash, northern end of Dock Street" cx="827" cy="153" r="4"/>
-    <polygon id="room-c41829681ebc066ff05be955f5c1a208dfbed2b9" class="room bridge outdoor" data-label="Ohulan-Cutash Bridge" cx="842" cy="138" points="840.3431457505076,134 843.6568542494924,134 846,136.34314575050763 846,139.65685424949237 843.6568542494924,142 840.3431457505076,142 838,139.65685424949237 838,136.34314575050763"/>
+    <polygon id="room-c41829681ebc066ff05be955f5c1a208dfbed2b9" class="room bridge outdoor" data-label="Ohulan-Cutash Bridge" cx="842" cy="138" points="846,138 844,141.46410161513776 840,141.46410161513776 838,138 840,134.53589838486224 844,134.53589838486224"/>
     <circle id="room-8d01fd2bcceb6d5d27363cb5cdff3d1ec5a3ba68" class="room outdoor" data-label="road" cx="842" cy="121" r="4"/>
     <circle id="room-a8c12e801cdb589a171a7e3e1d1a8a02131999a6" class="room outdoor" data-label="underneath the bridge" cx="851" cy="150" r="4"/>
     <circle id="room-8585d8333798004df6da703aeaf782fc4da33002" class="room outdoor" data-label="Ohulan-Cutash, Dock Street" cx="827" cy="174" r="4"/>
@@ -2632,7 +2632,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-79f792ef68687d6ce27b90d9c6df13769083db26" class="room outdoor" data-label="between the smithy and the stream" cx="1713" cy="407" r="4"/>
     <rect id="room-be997d2241a8f583789c803c0a406e3d9159b356" class="room indoor" data-label="Razorback smithy" x="1698" y="392" width="8" height="8" rx="2"/>
     <circle id="room-255e91a3604c4b8bd842d8d5f047c70249c2d8db" class="room outdoor" data-label="west of the bridge" cx="1727" cy="393" r="4"/>
-    <polygon id="room-6281192e87c033df29ff08bd9f0e2ec873331928" class="room bridge outdoor" data-label="Razorback bridge" cx="1741" cy="393" points="1739.3431457505076,389 1742.6568542494924,389 1745,391.34314575050763 1745,394.65685424949237 1742.6568542494924,397 1739.3431457505076,397 1737,394.65685424949237 1737,391.34314575050763"/>
+    <polygon id="room-6281192e87c033df29ff08bd9f0e2ec873331928" class="room bridge outdoor" data-label="Razorback bridge" cx="1741" cy="393" points="1745,393 1743,396.46410161513774 1739,396.46410161513774 1737,393 1739,389.53589838486226 1743,389.53589838486226"/>
     <circle id="room-a87d2eca20a225c2767c2ae2e04811138409cba3" class="room outdoor" data-label="track above Razorback" cx="1713" cy="379" r="4"/>
     <circle id="room-934df9b3f59d942b2071199c90748be47a0eb545" class="room outdoor" data-label="track near some pastures" cx="1699" cy="365" r="4"/>
     <rect id="room-312638e5ee62b09a125394ddf1eab13f3bf26a54" class="room indoor" data-label="dairy in Razorback village" x="1706" y="350" width="8" height="8" rx="2"/>
@@ -2710,11 +2710,11 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-4c08ade5252dc6ecaeb9302f68aafe220c5152d4" class="room outdoor" data-label="Old Ohulan-Cutash Trail" cx="1012" cy="114" r="4"/>
     <circle id="room-962f159b0f377704f6cc6048808f48b38b2a6769" class="room outdoor" data-label="forest trail" cx="1055" cy="77" r="4"/>
     <circle id="room-c2683912ef5b72c2877bfd8f2f171eec1770c4fa" class="room outdoor" data-label="Ramtops road" cx="683" cy="243" r="4"/>
-    <polygon id="room-292876bfb0725846cba79eb7ced45e1f24b9ecc6" class="room bridge outdoor" data-label="Forest Bridge" cx="669" cy="243" points="667.3431457505076,239 670.6568542494924,239 673,241.34314575050763 673,244.65685424949237 670.6568542494924,247 667.3431457505076,247 665,244.65685424949237 665,241.34314575050763"/>
+    <polygon id="room-292876bfb0725846cba79eb7ced45e1f24b9ecc6" class="room bridge outdoor" data-label="Forest Bridge" cx="669" cy="243" points="673,243 671,246.46410161513776 667,246.46410161513776 665,243 667,239.53589838486224 671,239.53589838486224"/>
     <circle id="room-4b322dbf4e8446890f276c80ec7b9988c603dea3" class="room outdoor" data-label="Ramtops road" cx="655" cy="243" r="4"/>
     <circle id="room-5fdf6caf498f463f01f454e77a0eaba61d63360c" class="room outdoor" data-label="Under the Forest Bridge" cx="669" cy="243" r="4"/>
     <circle id="room-08a2843feaa85e3c34cbe6c6ee603d58fa304ab8" class="room outdoor" data-label="Ramtops road" cx="1102" cy="288" r="4"/>
-    <polygon id="room-625d44081a6d1ee67f47503631892e3e41c4ca02" class="room bridge outdoor" data-label="Lancre Bridge" cx="1116" cy="288" points="1114.3431457505076,284 1117.6568542494924,284 1120,286.34314575050763 1120,289.65685424949237 1117.6568542494924,292 1114.3431457505076,292 1112,289.65685424949237 1112,286.34314575050763"/>
+    <polygon id="room-625d44081a6d1ee67f47503631892e3e41c4ca02" class="room bridge outdoor" data-label="Lancre Bridge" cx="1116" cy="288" points="1120,288 1118,291.46410161513774 1114,291.46410161513774 1112,288 1114,284.53589838486226 1118,284.53589838486226"/>
     <circle id="room-22887debdf68cc50c482145ff7d4431e2ae05fb8" class="room outdoor" data-label="Under the Lancre Bridge" cx="1116" cy="288" r="4"/>
     <circle id="room-0cda8957052a4ab07f531a9cfeb389c0cf2104b0" class="room outdoor" data-label="road" cx="1130" cy="288" r="4"/>
     <circle id="room-0e0cf338769993ba382b2e077a5936b6538c36cd" class="room outdoor" data-label="intersection of the Brass Neck, Mad Stoat, and Ramtops roads" cx="1155" cy="263" r="4"/>
@@ -2834,15 +2834,15 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-15162daf7173fcc744332888b05384052d5ba990" class="room outdoor" data-label="road" cx="2083" cy="152" r="4"/>
     <circle id="room-ad571d3fba65d684c5332b2db120e9762151d7e9" class="room outdoor" data-label="road" cx="2047" cy="132" r="4"/>
     <circle id="room-21602a7a960541a5d20212647574aaa5e2b51dcd" class="room outdoor" data-label="Ramtops road" cx="159" cy="322" r="4"/>
-    <polygon id="room-fd087502002feaf03eb77995da799180c0a89789" class="room bridge outdoor" data-label="Marsh Bridge" cx="144" cy="307" points="142.34314575050763,303 145.65685424949237,303 148,305.34314575050763 148,308.65685424949237 145.65685424949237,311 142.34314575050763,311 140,308.65685424949237 140,305.34314575050763"/>
+    <polygon id="room-fd087502002feaf03eb77995da799180c0a89789" class="room bridge outdoor" data-label="Marsh Bridge" cx="144" cy="307" points="148,307 146,310.46410161513774 142,310.46410161513774 140,307 142,303.53589838486226 146,303.53589838486226"/>
     <circle id="room-6637afe692135daa08726bfda00cabb84d9f6c5f" class="room outdoor" data-label="Ramtops road" cx="129" cy="292" r="4"/>
     <circle id="room-44655d6acaac0cc4199731b6c2ca6f9321148498" class="room outdoor" data-label="under the Marsh Bridge" cx="144" cy="307" r="4"/>
     <circle id="room-fa49be9fca62ea2f809275bfb03b7a2741eecf19" class="room outdoor" data-label="Ramtops road" cx="98" cy="272" r="4"/>
-    <polygon id="room-e2299ba8c9feaed6376c59c44739688e51ea24e9" class="room bridge outdoor" data-label="Cabbage Bridge" cx="84" cy="272" points="82.34314575050762,268 85.65685424949238,268 88,270.34314575050763 88,273.65685424949237 85.65685424949238,276 82.34314575050762,276 80,273.65685424949237 80,270.34314575050763"/>
+    <polygon id="room-e2299ba8c9feaed6376c59c44739688e51ea24e9" class="room bridge outdoor" data-label="Cabbage Bridge" cx="84" cy="272" points="88,272 86,275.46410161513774 82,275.46410161513774 80,272 82,268.53589838486226 86,268.53589838486226"/>
     <circle id="room-6da544682de2741198f30d513a49337ef547fce2" class="room outdoor" data-label="Ramtops road" cx="69" cy="257" r="4"/>
     <circle id="room-329ee78b2e28dd3709f2eb89c935d3d8480d0b80" class="room outdoor" data-label="under the Cabbage bridge" cx="84" cy="272" r="4"/>
     <circle id="room-bb76ff9a00668afe9c4e6403bc5e5e14ea79508f" class="room outdoor" data-label="Chalk road" cx="990" cy="637" r="4"/>
-    <polygon id="room-5273564b9c6a4622a5f9b0f411c655e50f0a1c82" class="room bridge outdoor" data-label="Ness Bridge" cx="1005" cy="652" points="1003.3431457505076,648 1006.6568542494924,648 1009,650.3431457505076 1009,653.6568542494924 1006.6568542494924,656 1003.3431457505076,656 1001,653.6568542494924 1001,650.3431457505076"/>
+    <polygon id="room-5273564b9c6a4622a5f9b0f411c655e50f0a1c82" class="room bridge outdoor" data-label="Ness Bridge" cx="1005" cy="652" points="1009,652 1007,655.4641016151378 1003,655.4641016151378 1001,652 1003,648.5358983848622 1007,648.5358983848622"/>
     <circle id="room-4ae8a9c69811eae5e6a756bab96d26ee3c255358" class="room outdoor" data-label="Chalk road" cx="1020" cy="667" r="4"/>
     <circle id="room-a5ad97f5222c1aca695c78fb193f06f4cf9a8ea6" class="room outdoor" data-label="Under the Ness Bridge" cx="1005" cy="652" r="4"/>
     <circle id="room-5148c7a49b4681014630abb3cce743d7a6c116dd" class="room outdoor green" data-label="woodland trail" cx="1034" cy="653" r="4"/>
