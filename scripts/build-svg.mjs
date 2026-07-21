@@ -383,19 +383,19 @@ export function buildStackData(allRooms, exitPairs, stairRooms, overrides = {}) 
   return { upperToGround, groundToUppers }
 }
 
-// Returns an SVG polygon "points" attribute string for a regular flat-top
+// Returns an SVG polygon "points" attribute string for a regular pointy-top
 // hexagon centered at (x, y), with circumradius hw — matching the existing
 // circle's r=hw exactly, so it inherits the same compact/large size classes
-// and footprint. Flat edges land at top/bottom, sharp points at left/right.
+// and footprint. Sharp points land at top/bottom, flat edges at left/right.
 export function hexagonPoints(x, y, hw) {
   const h = hw * Math.sqrt(3) / 2
   return [
-    [x + hw,     y],
-    [x + hw / 2, y + h],
-    [x - hw / 2, y + h],
-    [x - hw,     y],
-    [x - hw / 2, y - h],
-    [x + hw / 2, y - h],
+    [x,          y - hw],
+    [x + h,      y - hw / 2],
+    [x + h,      y + hw / 2],
+    [x,          y + hw],
+    [x - h,      y + hw / 2],
+    [x - h,      y - hw / 2],
   ].map(([px, py]) => `${px},${py}`).join(' ')
 }
 

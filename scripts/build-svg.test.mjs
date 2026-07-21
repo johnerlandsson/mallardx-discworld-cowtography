@@ -383,12 +383,12 @@ describe('hexagonPoints', () => {
     }
   })
 
-  it('is flat-top: touches left/right at sharp points, stays inset top/bottom', () => {
+  it('is pointy-top: touches top/bottom at sharp points, stays inset left/right', () => {
     const pts = hexagonPoints(10, 20, 4).split(' ').map(p => p.split(',').map(Number))
-    expect(pts.some(([px, py]) => Math.abs(px - (10 + 4)) < 1e-9 && Math.abs(py - 20) < 1e-9)).toBe(true)  // right point
-    expect(pts.some(([px, py]) => Math.abs(px - (10 - 4)) < 1e-9 && Math.abs(py - 20) < 1e-9)).toBe(true)  // left point
-    for (const [, py] of pts) {
-      expect(Math.abs(py - 20)).toBeLessThan(4 - 1e-9)  // no vertex reaches the top/bottom edge of the bounding square
+    expect(pts.some(([px, py]) => Math.abs(px - 10) < 1e-9 && Math.abs(py - (20 - 4)) < 1e-9)).toBe(true)  // top point
+    expect(pts.some(([px, py]) => Math.abs(px - 10) < 1e-9 && Math.abs(py - (20 + 4)) < 1e-9)).toBe(true)  // bottom point
+    for (const [px] of pts) {
+      expect(Math.abs(px - 10)).toBeLessThan(4 - 1e-9)  // no vertex reaches the left/right edge of the bounding square
     }
   })
 
