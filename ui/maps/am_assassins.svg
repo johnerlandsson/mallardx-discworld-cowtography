@@ -232,7 +232,7 @@
     <rect id="room-872607b45adb500dbaea59c7a0bbe6dbfac2e05c" class="room indoor" data-label="bath" x="425" y="253" width="8" height="8" rx="2"/>
     <rect id="room-c0a800614a13de2b4c7ea7cdd464179fc899ce5f" class="room indoor" data-label="sauna" x="425" y="281" width="8" height="8" rx="2"/>
     <rect id="room-1ebc24bfb0df2fb64dd0d1c610c34976ccdffdb8" class="room indoor" data-label="Liming Corridor" x="453" y="225" width="8" height="8" rx="2"/>
-    <rect id="room-dd92292fe37e25c4a0484f9ba7bc6ef0e35fca36" class="room indoor room-shop" data-label="furniture shop" x="425" y="225" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="429" y="229" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-dd92292fe37e25c4a0484f9ba7bc6ef0e35fca36" class="room indoor room-furniture" data-label="furniture shop" x="425" y="225" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="429" y="229" text-anchor="middle" dominant-baseline="central">U</text>
     <rect id="room-26886402f195ed56dee035277061b5ee6a399ff1" class="room indoor" data-label="classroom stairwell" x="453" y="281" width="8" height="8" rx="2"/>
     <rect id="room-9d1b2aefeb17cb68e0d63bab6d5a05bd79cb5aef" class="room indoor" data-label="stairwell" x="191" y="570" width="8" height="8" rx="2"/>
     <rect id="room-84b55799f574b4dcea4bccbcf7611d0225f4ae3c" class="room indoor" data-label="corridor" x="191" y="542" width="8" height="8" rx="2"/>

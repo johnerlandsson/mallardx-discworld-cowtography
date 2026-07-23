@@ -42,6 +42,7 @@ Overrides or supplements the auto-detected room type for specific rooms. Use it 
 | `tshop` | T | near-black | Manual only |
 | `temple` | R | dark purple | Manual only |
 | `talker` | M | dark green | Manual only |
+| `furniture` | U | dark green | Manual only |
 | `tavern` | V | dark amber | Auto — `room_short` contains "tavern", "restaurant", "pizza", "pizzeria" |
 | `pub` | B | dark amber | Auto — `room_short` contains "pub" or "bar" |
 

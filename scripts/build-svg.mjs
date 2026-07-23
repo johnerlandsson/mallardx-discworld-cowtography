@@ -53,6 +53,7 @@ export const SHOP_KEYWORDS = {
 
 export const TYPE_LETTERS = {
   shop: 'S', weapon: 'W', armour: 'A', clothes: 'C', food: 'F', access: 'X',
+  furniture: 'U',
   bank: '$', changer: '¢', mission: '!', post: 'O', lang: 'L', temple: 'R',
   crafts: 'K', house: 'H', club: 'G', pshop: 'P', tshop: 'T', talker: 'M',
   tavern: 'V',

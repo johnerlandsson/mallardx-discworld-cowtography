@@ -261,7 +261,7 @@
     <circle id="room-b4f5f34b446ac8e24c074dbd8b4a6e65f5877f35" class="room outdoor" data-label="under the docks" cx="230" cy="202" r="4"/>
     <circle id="room-8c1e1cfeb03dfd381b5ecb741a8ec1180952e741" class="room outdoor" data-label="under the docks" cx="244" cy="202" r="4"/>
     <circle id="room-53363645fe9ff380d275d04d2d278cc4c0516eb5" class="room outdoor" data-label="under the docks" cx="258" cy="202" r="4"/>
-    <rect id="room-f4cfac130550d11f61a66f161d8bc56dd8fe287c" class="room indoor room-clothes" data-label="dusty furniture shop" x="226" y="223" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="230" y="227" text-anchor="middle" dominant-baseline="central">C</text>
+    <rect id="room-f4cfac130550d11f61a66f161d8bc56dd8fe287c" class="room indoor room-furniture" data-label="dusty furniture shop" x="226" y="223" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="230" y="227" text-anchor="middle" dominant-baseline="central">U</text>
     <rect id="room-c19252b174716e3767d0ad6bfb77a00169c3f262" class="room indoor" data-label="dark wood workshop" x="226" y="233" width="8" height="8" rx="2"/>
     <circle id="room-461278d38942f6116d5a6211b36eea4c64f29bd1" class="room outdoor" data-label="under the docks" cx="202" cy="216" r="4"/>
     <circle id="room-4061a45a368494915fc46a77148c25fb2ae27b21" class="room outdoor" data-label="under the docks" cx="188" cy="216" r="4"/>

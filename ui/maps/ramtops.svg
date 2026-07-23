@@ -2362,7 +2362,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-37fe4263398ebe4c8c2d1cadbee505b8a6123874" class="room indoor" data-label="small cottage" x="1221" y="332" width="8" height="8" rx="2"/>
     <circle id="room-36e23a9697d5123e220744d9fc82ed544d765078" class="room outdoor" data-label="village road" cx="1229" cy="357" r="4"/>
     <circle id="room-88bfd0a0660cec86fd1608020b0bdba719661e3c" class="room outdoor" data-label="village road" cx="1246" cy="357" r="4"/>
-    <rect id="room-9f256f366321e3abdc752678227f4690a11eee5f" class="room indoor room-clothes" data-label="furniture shop" x="1242" y="364" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1246" y="368" text-anchor="middle" dominant-baseline="central">C</text>
+    <rect id="room-9f256f366321e3abdc752678227f4690a11eee5f" class="room indoor room-furniture" data-label="furniture shop" x="1242" y="364" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1246" y="368" text-anchor="middle" dominant-baseline="central">U</text>
     <circle id="room-da8407482bd80211764369c765a846fa9f1c5b59" class="room outdoor" data-label="village road" cx="1246" cy="343" r="4"/>
     <circle id="room-35fae672cc4b81274de58c15c84b9e5035fd5e27" class="room outdoor" data-label="village road" cx="1246" cy="329" r="4"/>
     <circle id="room-0ae2d8476dcfec69df2b8a180a3eac1cfa3b6383" class="room outdoor" data-label="village road" cx="1260" cy="315" r="4"/>

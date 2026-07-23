@@ -566,7 +566,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
      sodipodi:insensitive="true">
     <circle id="room-5e27050325284b7b94f817fd6166a35c7f987bdf" class="room outdoor" data-label="Craft Court" cx="368" cy="117" r="4"/>
     <rect id="room-1c9820c7afe11b2b2179790240b815f1a179a1cd" class="room indoor room-food" data-label="toy stall" x="340" y="89" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="344" y="93" text-anchor="middle" dominant-baseline="central">F</text>
-    <rect id="room-619048da2bed852c66ddf1b6d93070f7cf62a2af" class="room indoor room-shop" data-label="iron furniture shop" x="388" y="89" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="392" y="93" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-619048da2bed852c66ddf1b6d93070f7cf62a2af" class="room indoor room-furniture" data-label="iron furniture shop" x="388" y="89" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="392" y="93" text-anchor="middle" dominant-baseline="central">U</text>
     <rect id="room-ccde479add4c4ea5901cfd160748d18ee376d01a" class="room indoor" data-label="entrance to Lord Wynkin&#x27;s Men" x="567" y="205" width="8" height="8" rx="2"/>
     <rect id="room-6b266bc746af113a07849938f60eb42182d68151" class="room indoor" data-label="backstage area of Lord Wynkin&#x27;s Men" x="495" y="204" width="8" height="8" rx="2"/>
     <circle id="room-3a30691d817ee98da64b5596eed811793548a5e6" class="room outdoor green" data-label="southwest corner of Thespians&#x27; Yard" cx="624" cy="181" r="4"/>

@@ -1500,7 +1500,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-0f52a4d5bef39331c53655f92201c8b45f369e14" class="room outdoor" data-label="Wall Street" cx="437" cy="68" r="4"/>
     <circle id="room-ddb6f1db6251c2c4b0f42ec0f8e101750cee2e7d" class="room outdoor" data-label="Queen&#x27;s Road" cx="479" cy="124" r="4"/>
     <circle id="room-1871c1a595ab672ca1a53098610516abd6a788c3" class="room outdoor" data-label="Heritage Hill" cx="395" cy="96" r="4"/>
-    <rect id="room-fb6158de13cc94835177e727ec62f7b0b0b8f7ea" class="room indoor room-shop" data-label="furniture store on Hill Street" x="422" y="106" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="426" y="110" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-fb6158de13cc94835177e727ec62f7b0b0b8f7ea" class="room indoor room-furniture" data-label="furniture store on Hill Street" x="422" y="106" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="426" y="110" text-anchor="middle" dominant-baseline="central">U</text>
     <circle id="room-6ef109459e842b9403b2382cba2b44664ac78560" class="room outdoor" data-label="Queen&#x27;s Road" cx="297" cy="152" r="4"/>
     <circle id="room-5dbf8d2aad759303cdabaf40f49b97160607b5c9" class="room outdoor" data-label="hard cobbles of Queen&#x27;s Road" cx="283" cy="152" r="4"/>
     <circle id="room-ce027c2c7280b2686110c4c456f23fe124f83cf9" class="room outdoor" data-label="Quirm Street" cx="423" cy="152" r="4"/>

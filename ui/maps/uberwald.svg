@@ -1448,7 +1448,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-c969611c9a2f5d0c63400c9d41e44be3a5168fe4" class="room outdoor" data-label="Briar Way" cx="771" cy="685" r="4"/>
     <rect id="room-f042edf7fac965cf8713b9650e5f638cb7ab1682" class="room indoor" data-label="smithy" x="767" y="692" width="8" height="8" rx="2"/>
     <circle id="room-cae0f63742654a8f279282e28ce24f2c80cde7a7" class="room outdoor" data-label="Briar Way" cx="785" cy="685" r="4"/>
-    <rect id="room-0b9015359fb92681640c6d9d4c41b4f4523c1764" class="room indoor room-food" data-label="The Count&#x27;s Seat" x="781" y="692" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="785" y="696" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-0b9015359fb92681640c6d9d4c41b4f4523c1764" class="room indoor room-furniture" data-label="The Count&#x27;s Seat" x="781" y="692" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="785" y="696" text-anchor="middle" dominant-baseline="central">U</text>
     <circle id="room-63c00fffc406e7282ce8ed859e24afdaa6545c9c" class="room outdoor" data-label="Thorn Road" cx="757" cy="629" r="4"/>
     <rect id="room-4bbbb0674074f2ff9d68e3cbbf618d39276faf4b" class="room indoor room-clothes" data-label="Fine Clothing shop" x="753" y="614" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="757" y="618" text-anchor="middle" dominant-baseline="central">C</text>
     <circle id="room-a5b0d4bc119797f2473b4a6b421d0aa0bfc9425b" class="room outdoor" data-label="Thorn Road" cx="771" cy="629" r="4"/>

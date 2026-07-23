@@ -2900,7 +2900,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-638d65eef059cc6d0cef6d4645ccad0c538beab9" class="room outdoor" data-label="south end of Pooney Alley" cx="340" cy="453" r="4"/>
     <rect id="room-16d0ec07d91998a29e4c888a064390bc73c7808f" class="room indoor room-shop" data-label="cluttered shop belonging to Pnic-Pnac" x="324" y="444" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="328" y="448" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-37a1eb4ecf0849b3f7c156df2821cc54d6eccee6" class="room outdoor" data-label="middle of Lettuce Lane" cx="368" cy="425" r="4"/>
-    <rect id="room-5230cd8c9cabfc0a5e6bec994d3e2d994889d74f" class="room indoor room-clothes" data-label="Queen Ptraci furniture shop" x="364" y="410" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="368" y="414" text-anchor="middle" dominant-baseline="central">C</text>
+    <rect id="room-5230cd8c9cabfc0a5e6bec994d3e2d994889d74f" class="room indoor room-furniture" data-label="Queen Ptraci furniture shop" x="364" y="410" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="368" y="414" text-anchor="middle" dominant-baseline="central">U</text>
     <circle id="room-1eb369ef019629c0fe956f0a9ff03519b8a3fe3c" class="room outdoor" data-label="middle of Lettuce Lane" cx="382" cy="425" r="4"/>
     <circle id="room-180aa253c572582e880ad9735eaff3b652223510" class="room outdoor" data-label="Avenue of the Pharaohs at the north end of a park" cx="438" cy="439" r="4"/>
     <circle id="room-f2294a501564838b51a7234a5f25c4194c3b3f37" class="room outdoor" data-label="Avenue of the Pharaohs going through a park" cx="438" cy="453" r="4"/>
