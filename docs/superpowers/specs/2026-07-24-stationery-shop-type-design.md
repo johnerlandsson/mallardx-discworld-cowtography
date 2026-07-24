@@ -61,6 +61,20 @@ competing category present. This is the same class of imprecision the project
 already accepts for other auto-detected sub-types; fixable via manual override
 in `room-types.json` if spotted.
 
+**Known trade-off:** introducing `stationery` as a new competitor in the
+winner-take-all classification can also turn a room's previously clear win
+for another sub-type into a tie, which then falls back to generic `shop` —
+not because of any new logic, but because the classifier's pre-existing
+tie-breaking rule (`if (count === best) { winner = 'shop' }`) already resolves
+every two-way tie this way, for any pair of sub-types. A concrete case found
+during review: the real game database room "large workshop" previously
+classified as `food` (2 matching items vs. 1 weapon item); after this change
+it now ties `food` (2 items) against `stationery` (2 items: a quill and
+writing paper) and falls back to `shop`. This was evaluated and accepted
+rather than fixed: `food` and `shop` render with the identical dark-green
+fill colour, so the only visible change on the map is the type-letter glyph
+(`F` → `S`).
+
 ## Rendering
 
 - **Letter:** `Q` (mnemonic: quill) — not currently used by any other type.

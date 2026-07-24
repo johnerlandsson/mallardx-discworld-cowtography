@@ -1039,6 +1039,16 @@ describe('queryShopTypes', () => {
     db.prepare("INSERT INTO shop_items VALUES ('r1', 'quill', '')").run()
     expect(queryShopTypes(db, 1, { 'r1': 'temple' }).get('r1')).toBe('temple')
   })
+
+  it('a stationery tie with an existing subtype falls back to shop (existing tie-to-shop rule)', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'Odd Workshop')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'apple pie', '')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'chocolate cake', '')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'sheet of writing paper', '')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'quill', '')").run()
+    expect(queryShopTypes(db, 1).get('r1')).toBe('shop')
+  })
 })
 
 describe('buildStackData', () => {
