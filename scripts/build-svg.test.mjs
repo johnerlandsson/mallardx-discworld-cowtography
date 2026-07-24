@@ -340,6 +340,16 @@ describe('roomElement (with type)', () => {
       expect(TYPE_LETTERS[t]).toBeTruthy()
     }
   })
+
+  it('stationery typed room has type class and Q letter', () => {
+    const el = roomElement('r1', 10, 20, 'Stationers', false, 'stationery')
+    expect(el).toContain('class="room outdoor room-stationery"')
+    expect(el).toContain('>Q<')
+  })
+
+  it('TYPE_LETTERS includes stationery as Q', () => {
+    expect(TYPE_LETTERS.stationery).toBe('Q')
+  })
 })
 
 describe('roomElement (compact)', () => {
@@ -976,6 +986,58 @@ describe('queryShopTypes', () => {
     const db = makeDb()
     db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'The Famous Pub')").run()
     expect(queryShopTypes(db, 1, { 'r1': 'food' }).get('r1')).toBe('food')
+  })
+
+  it('classifies a room with writing paper and quill as stationery', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'Stationers')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'piece of writing paper', '')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'quill', '')").run()
+    expect(queryShopTypes(db, 1).get('r1')).toBe('stationery')
+  })
+
+  it('classifies a room with a colour book and quill as stationery', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'Legibles')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'blue leather-bound book', '')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'seagull feather quill', '')").run()
+    expect(queryShopTypes(db, 1).get('r1')).toBe('stationery')
+  })
+
+  it('does not classify a room with only one stationery category as stationery', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'Card Shop')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'quill', '')").run()
+    expect(queryShopTypes(db, 1).get('r1')).toBe('shop')
+  })
+
+  it('does not count a bookcase as a colour book (word-boundary collision check)', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'Furniture Nook')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'quill', '')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'oak bookcase', '')").run()
+    expect(queryShopTypes(db, 1).get('r1')).toBe('shop')
+  })
+
+  it('stationery loses to a larger competing type', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'Odd Shop')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'quill', '')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'stick of chalk', '')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'long sword', '')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'short sword', '')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'dagger', '')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'battle axe', '')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'crossbow', '')").run()
+    expect(queryShopTypes(db, 1).get('r1')).toBe('weapon')
+  })
+
+  it('manual override wins over an auto-detected stationery classification', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'Odd Little Shop')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'piece of writing paper', '')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'quill', '')").run()
+    expect(queryShopTypes(db, 1, { 'r1': 'temple' }).get('r1')).toBe('temple')
   })
 })
 

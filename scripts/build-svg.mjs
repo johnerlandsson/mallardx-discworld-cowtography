@@ -51,9 +51,24 @@ export const SHOP_KEYWORDS = {
   access:  ['ring', 'bracelet', 'necklace', 'earring', 'gem', 'jewel', 'brooch', 'pendant'],
 }
 
+// `stationery` isn't a flat keyword list like the ones above — a room only
+// qualifies once >=2 of these 4 categories are matched (see classifyShopItems
+// below). Patterns are precise phrase/word-boundary matches, chosen against
+// the live shop_items corpus to dodge collisions (wallpaper/sandpaper vs
+// writing paper; bookcase/notebook/pattern book vs colour book) that made the
+// `furniture` type manual-only.
+const STATIONERY_COLOUR_RE = /\b(red|blue|green|yellow|purple|black|white|brown|grey|gray|pink|orange|silver|gold|violet|scarlet|crimson|indigo|turquoise|colour|color)\b/i
+
+export const STATIONERY_CATEGORY_MATCHERS = {
+  paper: (item) => /writing paper/i.test(item),
+  quill: (item) => /\bquill/i.test(item),
+  chalk: (item) => /stick of chalk/i.test(item),
+  book:  (item) => /\bbook\b/i.test(item) && STATIONERY_COLOUR_RE.test(item),
+}
+
 export const TYPE_LETTERS = {
   shop: 'S', weapon: 'W', armour: 'A', clothes: 'C', food: 'F', access: 'X',
-  furniture: 'U',
+  furniture: 'U', stationery: 'Q',
   bank: '$', changer: '¢', mission: '!', post: 'O', lang: 'L', temple: 'R',
   crafts: 'K', house: 'H', club: 'G', pshop: 'P', tshop: 'T', talker: 'M',
   tavern: 'V',
@@ -75,6 +90,16 @@ function classifyShopItems(items) {
       }
     }
   }
+
+  const stationeryCats = new Set()
+  let stationeryCount = 0
+  for (const item of items) {
+    for (const [category, matches] of Object.entries(STATIONERY_CATEGORY_MATCHERS)) {
+      if (matches(item)) { stationeryCats.add(category); stationeryCount++; break }
+    }
+  }
+  if (stationeryCats.size >= 2) counts.stationery = stationeryCount
+
   let winner = 'shop'
   let best = 0
   for (const [type, count] of Object.entries(counts)) {
