@@ -10357,7 +10357,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-c0e92eb5d896371a382973b703e7e4ec86681d74" class="room indoor room-shop" data-label="colourful stall on Market Street" x="1002" y="887" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1006" y="891" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-42410c9dd35ac71645d4813bb0361522879aba4f" class="room outdoor" data-label="centre of Market Street" cx="1026" cy="886" r="4"/>
     <rect id="room-3801f737a4c089bc2c674ae3f6a9753207fa0a3a" class="room indoor room-access" data-label="shabby stall on Market Street" x="1026" y="877" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1030" y="881" text-anchor="middle" dominant-baseline="central">X</text>
-    <rect id="room-679726f8c952194073d524c451fc3c6b71b1b396" class="room indoor room-shop" data-label="Costlee Coffee on Market Street" x="1022" y="893" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1026" y="897" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-679726f8c952194073d524c451fc3c6b71b1b396" class="room indoor room-tavern" data-label="Costlee Coffee on Market Street" x="1022" y="893" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1026" y="897" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-28dcd165195494459a6bbe91567aa24893d769aa" class="room outdoor" data-label="Market Street" cx="1040" cy="900" r="4"/>
     <rect id="room-3fd94ce76121082da1af6aefaa1806b18d9f8b37" class="room indoor room-clothes" data-label="discreet stall on Market Street" x="1032" y="900" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1036" y="904" text-anchor="middle" dominant-baseline="central">C</text>
     <circle id="room-bd154ca863c9461772d22c781d9fbc9b38232367" class="room outdoor" data-label="The east end of Market Street" cx="1054" cy="900" r="4"/>
@@ -10768,7 +10768,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-d34f3edeab7980267daf493beacd6598cb932eb6" class="room indoor room-shop" data-label="small shop" x="898" y="900" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="902" y="904" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-70ad7ba0bfff602ca9c3911557d9c9eb65c531e3" class="room outdoor" data-label="Street of Small Gods" cx="900" cy="928" r="4"/>
     <circle id="room-a9bd8f7d47e5e345b44a04b007c4da1d38f20424" class="room outdoor" data-label="Street of Small Gods outside a shop" cx="886" cy="928" r="4"/>
-    <rect id="room-38e46043d37a82408765d40f78aa671dc25ae687" class="room indoor room-food" data-label="Small Gods Vestments" x="872" y="914" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="876" y="918" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-38e46043d37a82408765d40f78aa671dc25ae687" class="room indoor room-clothes" data-label="Small Gods Vestments" x="872" y="914" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="876" y="918" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-46006f82de0d4efc4f542651e154a92ae33db695" class="room indoor" data-label="upper room" x="860" y="914" width="8" height="8" rx="2"/>
     <circle id="room-95ddc60a90a3645ddc0d821b8e056fc4ef07d90e" class="room outdoor" data-label="Street of Small Gods" cx="872" cy="928" r="4"/>
     <circle id="room-5aa065b4cc3e62be4457dbb9a8387a175ac712b2" class="room outdoor" data-label="Street of Small Gods outside two temples" cx="858" cy="942" r="4"/>
@@ -10788,7 +10788,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-39aa2a6a21b8cefacbd512ee041571058d913fec" class="room outdoor" data-label="Street of Bookkeepers" cx="746" cy="1026" r="4"/>
     <circle id="room-e4c4984ccf0a28f18411a27ef22e10dd8e03a436" class="room outdoor" data-label="intersection of the Street of Cunning Artificers and the Street of Bookkeepers" cx="746" cy="1040" r="4"/>
     <circle id="room-ba74f0ad3e1f79b7dc3675713105113cafaa40bc" class="room outdoor" data-label="The Street of Cunning Artificers" cx="732" cy="1054" r="4"/>
-    <rect id="room-422368239d14c936a03a7cfc2b38935c455d4df0" class="room indoor room-food" data-label="Mr T.A. Steless&#x27;s World of Art" x="728" y="1061" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="732" y="1065" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-422368239d14c936a03a7cfc2b38935c455d4df0" class="room indoor room-furniture" data-label="Mr T.A. Steless&#x27;s World of Art" x="728" y="1061" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="732" y="1065" text-anchor="middle" dominant-baseline="central">U</text>
     <circle id="room-b61642b4df1e496310290a04c05e08dbaffc2f3f" class="room outdoor" data-label="busy junction of Short Street and the Street of Cunning Artificers" cx="718" cy="1054" r="4"/>
     <circle id="room-a2fa9f38f26ca67e437f3106260e2fbd1e23dd50" class="room outdoor" data-label="Short Street" cx="718" cy="1068" r="4"/>
     <circle id="room-4fa247cac7981b9e357dcf0b7bcd6dc046799a70" class="room outdoor" data-label="Short Street" cx="718" cy="1082" r="4"/>
@@ -10801,7 +10801,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-efee33ea4a6f0f62ac2494bb86c964b09baa1629" class="room outdoor" data-label="The Street of Cunning Artificers" cx="648" cy="1082" r="4"/>
     <circle id="room-702df98115e4b196e2fae4f77a5d37583bcd80c7" class="room outdoor" data-label="The Street of Cunning Artificers" cx="662" cy="1068" r="4"/>
     <circle id="room-6bd936a8641185b6ffe991704c6c7484d203fe36" class="room outdoor" data-label="The Street of Cunning Artificers" cx="676" cy="1054" r="4"/>
-    <rect id="room-c950a4e37be3bc124add6505e1c708dfd5a8670e" class="room indoor room-food" data-label="glassmaking shop" x="672" y="1039" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="676" y="1043" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-c950a4e37be3bc124add6505e1c708dfd5a8670e" class="room indoor room-shop" data-label="glassmaking shop" x="672" y="1039" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="676" y="1043" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-0d8b20d299445a718f48cde5abd8668866a1f2a4" class="room outdoor" data-label="The Street of Cunning Artificers" cx="690" cy="1054" r="4"/>
     <circle id="room-e2bd6d2b80d0cd847d056448ca348c42fe96dbcc" class="room outdoor" data-label="Street of Cunning Artificers, outside a small shop" cx="704" cy="1054" r="4"/>
     <rect id="room-28f0e3db1fc3f170ea444fb13b034663a6a3578b" class="room indoor" data-label="Engraving Shop" x="700" y="1039" width="8" height="8" rx="2"/>
@@ -10810,7 +10810,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-01d2dd55282a2a8d3e848a727de9e88c02ad8d09" class="room outdoor" data-label="The Street of Cunning Artificers" cx="774" cy="1040" r="4"/>
     <rect id="room-6544a6185c5b6aaf62554ecde584f40965e7f65f" class="room indoor" data-label="wizard&#x27;s tent" x="773" y="1044" width="8" height="8" rx="2"/>
     <circle id="room-3d720cd548b9ca0f829dd5def0b5ea8231fa0be1" class="room outdoor" data-label="The Street of Cunning Artificers" cx="788" cy="1040" r="4"/>
-    <rect id="room-a551cf0ad1aa0137b4e0095c2f348e221f2b2b51" class="room indoor room-food" data-label="Marvin&#x27;s Mantels" x="784" y="1025" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="788" y="1029" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-a551cf0ad1aa0137b4e0095c2f348e221f2b2b51" class="room indoor room-furniture" data-label="Marvin&#x27;s Mantels" x="784" y="1025" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="788" y="1029" text-anchor="middle" dominant-baseline="central">U</text>
     <circle id="room-60694aa52be130cbeb6447703763f88f9e155738" class="room outdoor" data-label="Street of Cunning Artificers" cx="802" cy="1040" r="4"/>
     <rect id="room-b8dd66acb1884fe07b7414ad3a2e29aabddd7f3c" class="room indoor" data-label="flooring shop" x="798" y="1047" width="8" height="8" rx="2"/>
     <circle id="room-979fa7d6a716c8c025f7b5fa9277969109b7b6c0" class="room outdoor" data-label="Aguinna IV Cemetery" cx="816" cy="1040" r="4"/>
@@ -10905,10 +10905,10 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-dc9afb555ea3f0ebff02bde9305f021f5e78d610" class="room outdoor" data-label="west end of Filigree Street" cx="676" cy="802" r="4"/>
     <circle id="room-b0dd0c3c267f80b4509d316ae893825da7f9a8c3" class="room outdoor" data-label="junction of Cheapside with Filigree Street" cx="662" cy="802" r="4"/>
     <circle id="room-87ae3ee346e16d0dad0a6272f9361727374964ca" class="room outdoor" data-label="Filigree Street" cx="746" cy="802" r="4"/>
-    <rect id="room-047d2c350046d2613c5adecd189edaf639ddafcb" class="room indoor room-access" data-label="Krazzander&#x27;s Magic Tricks" x="742" y="809" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="746" y="813" text-anchor="middle" dominant-baseline="central">X</text>
+    <rect id="room-047d2c350046d2613c5adecd189edaf639ddafcb" class="room indoor room-shop" data-label="Krazzander&#x27;s Magic Tricks" x="742" y="809" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="746" y="813" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-4de57a18643a1837610ffd2ba21e28451cd61b78" class="room outdoor" data-label="Filigree Street between two shops" cx="760" cy="802" r="4"/>
     <rect id="room-53ad9ac8b582dbb423a955a7dd395ce111636388" class="room indoor room-pshop" data-label="[player shop]" x="756" y="787" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="760" y="791" text-anchor="middle" dominant-baseline="central">P</text>
-    <rect id="room-de58e8bd3157654fdbc22b37e44c5c8c88b82506" class="room indoor" data-label="Filigree Street General Store" x="756" y="809" width="8" height="8" rx="2"/>
+    <rect id="room-de58e8bd3157654fdbc22b37e44c5c8c88b82506" class="room indoor room-shop" data-label="Filigree Street General Store" x="756" y="809" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="760" y="813" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-b83cf6882b481bebccab4fc366b6e62de128f501" class="room outdoor" data-label="Filigree Street east of some shops" cx="774" cy="802" r="4"/>
     <circle id="room-84a18d4036e41c571ba619eb2a88ef53844b0232" class="room outdoor" data-label="Filigree Street" cx="788" cy="802" r="4"/>
     <circle id="room-1864e5e81160a3d2db87a28d020fd003addb0cde" class="room outdoor" data-label="east end of Filigree Street" cx="802" cy="788" r="4"/>
@@ -11022,7 +11022,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-0ffac2ecd64050129d28ceb5b9a449a0fbfce2e3" class="room outdoor" data-label="Attic Bee Street" cx="662" cy="956" r="4"/>
     <rect id="room-1d9b770ce1ceaa4b73efb68713947486171ee3d0" class="room indoor room-pshop" data-label="[player shop]" x="658" y="963" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="662" y="967" text-anchor="middle" dominant-baseline="central">P</text>
     <circle id="room-03394f57798133760584f9a1d77355516fae5ae8" class="room outdoor" data-label="Attic Bee Street" cx="676" cy="956" r="4"/>
-    <rect id="room-359dd4eb7edb5d6df214110e6632883ff5ecb67b" class="room indoor room-food" data-label="Card Shop" x="672" y="941" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="676" y="945" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-359dd4eb7edb5d6df214110e6632883ff5ecb67b" class="room indoor room-shop" data-label="Card Shop" x="672" y="941" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="676" y="945" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-196730ad4562b797da7aca1fd560acb07f05415e" class="room outdoor" data-label="Attic Bee Street" cx="690" cy="956" r="4"/>
     <circle id="room-847e22ab54a47080ea5165d46a2b9229f310937c" class="room outdoor" data-label="east end of Attic Bee Street" cx="704" cy="956" r="4"/>
     <rect id="room-033cfdc35b209f9866463737c80764449ba3436c" class="room indoor" data-label="little room" x="700" y="971" width="8" height="8" rx="2"/>
@@ -11047,7 +11047,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-3f30fadfb070a3b23f67d13215565f823d73b4df" class="room outdoor" data-label="Kicklebury Street" cx="564" cy="942" r="4"/>
     <circle id="room-8e2debba559409aebc52cef8248bf07a86e39552" class="room outdoor" data-label="middle of Quirm Street" cx="494" cy="900" r="4"/>
     <circle id="room-22def0ca3f0dcfeb9b949f030c809ca17ada1ecf" class="room outdoor" data-label="Quirm Street" cx="480" cy="900" r="4"/>
-    <rect id="room-5f62e36b841dc9f3824f9c936fe13d88eb43a546" class="room indoor room-shop" data-label="Klatchian take-away" x="465" y="896" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="469" y="900" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-5f62e36b841dc9f3824f9c936fe13d88eb43a546" class="room indoor room-food" data-label="Klatchian take-away" x="465" y="896" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="469" y="900" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-01a06e4a2b1f75be7f2cc0466c24f44d0dc88cc9" class="room outdoor" data-label="western Quirm Street" cx="466" cy="914" r="4"/>
     <circle id="room-814e4efd8128bd50b2c7ca14f5c9ecbad03dcb2c" class="room outdoor" data-label="west end of Quirm Street" cx="452" cy="928" r="4"/>
     <circle id="room-5d05e86948b486a3d01a21ded57ba1c1b2ba3d4c" class="room outdoor" data-label="Five Ways" cx="438" cy="942" r="4"/>
@@ -11577,9 +11577,9 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-c61aa172bb525f79b64f15a497c50ee54d35e288" class="room indoor" data-label="Escort Agency office" x="773" y="683" width="8" height="8" rx="2"/>
     <rect id="room-c5912fb38f70e71c2d805f80b180d2fdd7567866" class="room indoor room-shop" data-label="magic stall on the rimbank" x="791" y="666" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="795" y="670" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-35f10a253001317c08e4952857989794708724fc" class="room outdoor" data-label="Gods&#x27; Collar" cx="788" cy="662" r="4"/>
-    <rect id="room-cb931596a6c652cdc047ae0bdaedea72a4ee6d13" class="room indoor room-shop" data-label="sweets and candy stall on Gods&#x27; Collar" x="791" y="653" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="795" y="657" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-cb931596a6c652cdc047ae0bdaedea72a4ee6d13" class="room indoor room-food" data-label="sweets and candy stall on Gods&#x27; Collar" x="791" y="653" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="795" y="657" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-a15e56a91433c21f942ec4412e61b4270bd9f0f6" class="room outdoor" data-label="Gods&#x27; Collar" cx="774" cy="648" r="4"/>
-    <rect id="room-4427682df7ebcbb90ac308f06cd7a27ea15f048f" class="room indoor room-shop" data-label="Battes Ande Cattes, the wytches stall on Gods&#x27; Collar" x="778" y="642" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="782" y="646" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-4427682df7ebcbb90ac308f06cd7a27ea15f048f" class="room indoor room-food" data-label="Battes Ande Cattes, the wytches stall on Gods&#x27; Collar" x="778" y="642" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="782" y="646" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-eec9d7e87413459bc745149446cecef7d1a80ba0" class="room outdoor" data-label="Gods&#x27; Collar" cx="774" cy="634" r="4"/>
     <rect id="room-0046b3694d138aae8b757805d7dbb64269a8629a" class="room indoor room-clothes" data-label="fur shop" x="759" y="630" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="763" y="634" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-c924f5b5eb288073d4204f47c114b5b51afceb39" class="room indoor" data-label="fur shop bottom corridor" x="759" y="630" width="8" height="8" rx="2"/>
@@ -11590,7 +11590,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-6a9ec829ad9c235b9d73c8f3a51a12dd3c871b85" class="room outdoor" data-label="Gods&#x27; Collar" cx="760" cy="620" r="4"/>
     <rect id="room-0a8a448280ffe496b40230fe3c7527e37b875f02" class="room indoor room-food" data-label="Vino pour la Femme et le Homme" x="745" y="616" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="749" y="620" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-b7e3a71055160b6b9528318e0801a6f95c88667a" class="room outdoor" data-label="Gods&#x27; Collar" cx="746" cy="606" r="4"/>
-    <rect id="room-c0e666b96d86474d6954e730207158b0a384a8a3" class="room indoor room-shop" data-label="Starbanks" x="731" y="602" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="735" y="606" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-c0e666b96d86474d6954e730207158b0a384a8a3" class="room indoor room-tavern" data-label="Starbanks" x="731" y="602" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="735" y="606" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-57a8d4ec639bec70c54ea80b24872c1ed6f797bf" class="room outdoor" data-label="Holofernes" cx="746" cy="592" r="4"/>
     <polygon id="room-811c2c708e0d4bb6c952401dcb46c6663f77047f" class="room bridge outdoor" data-label="west end of New Bridge" cx="760" cy="578" points="760,574 763.4641016151378,576 763.4641016151378,580 760,582 756.5358983848622,580 756.5358983848622,576"/>
     <polygon id="room-a4a00bc993f97216ace642c94f4bf7cb5ced3764" class="room bridge outdoor" data-label="middle of New Bridge" cx="774" cy="578" points="774,574 777.4641016151378,576 777.4641016151378,580 774,582 770.5358983848622,580 770.5358983848622,576"/>
@@ -11664,7 +11664,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-23551f6704d8d8fbcfd5440a280bdcc3c681f69e" class="room outdoor" data-label="Pseudopolis Yard" cx="690" cy="620" r="4"/>
     <circle id="room-a35858a0e1eba3d91bc37bfe6e0169ad88842425" class="room outdoor" data-label="Butts Treat" cx="676" cy="634" r="4"/>
     <circle id="room-77c3943fd443e8df7882b3cd818078a8d1ca8371" class="room outdoor" data-label="Butts Treat" cx="662" cy="648" r="4"/>
-    <rect id="room-f5098e2d4ef339752ecf946a14189836c72202cc" class="room indoor room-shop" data-label="art gallery" x="647" y="644" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="651" y="648" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-f5098e2d4ef339752ecf946a14189836c72202cc" class="room indoor room-furniture" data-label="art gallery" x="647" y="644" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="651" y="648" text-anchor="middle" dominant-baseline="central">U</text>
     <circle id="room-5600ef58cfdbcaf771c86c6e81bc1d151a73a8e3" class="room outdoor" data-label="Butts Treat" cx="648" cy="662" r="4"/>
     <circle id="room-ef8901fbadea51dcea6fa47143ba85f8948a51b1" class="room outdoor" data-label="Butts Treat" cx="634" cy="676" r="4"/>
     <circle id="room-0c1591d0aaa9785441232ed5a698726a5a8e0ee2" class="room outdoor" data-label="Pseudopolis Yard" cx="676" cy="606" r="4"/>
@@ -12209,7 +12209,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-9c45cc7f194cb244c6d8eac6354e46f9825800d6" class="room outdoor" data-label="grassy paddock" cx="725" cy="102" r="4"/>
     <rect id="room-c0ce7935c9deb86a3b41ae0f2bd3982f080fc003" class="room indoor" data-label="corner of the stable" x="731" y="108" width="8" height="8" rx="2"/>
     <circle id="room-7f940435f7d72fa174c5065b825ffc1dd7b0d7d6" class="room outdoor" data-label="Wall Stone Yard" cx="1096" cy="1106" r="4"/>
-    <rect id="room-661c6a35143d995519015d38dee05a4962b7f16d" class="room indoor room-clothes" data-label="decrepit souvenir shop" x="1081" y="1102" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1085" y="1106" text-anchor="middle" dominant-baseline="central">C</text>
+    <rect id="room-661c6a35143d995519015d38dee05a4962b7f16d" class="room indoor room-shop" data-label="decrepit souvenir shop" x="1081" y="1102" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1085" y="1106" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-1389cfbf61f10e196a5218ed856b554032de4257" class="room indoor room-shop" data-label="rickety old stable" x="1092" y="1091" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1096" y="1095" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-3369f9b6963a7093ad1762bdcd359e903032f18e" class="room indoor" data-label="dead end close" x="1240" y="453" width="8" height="8" rx="2"/>
     <rect id="room-35b575259dca6b651bf4d2765548b0c14e0f57be" class="room indoor room-shop" data-label="sulphurous shoproom" x="892" y="1018" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="896" y="1022" text-anchor="middle" dominant-baseline="central">S</text>
