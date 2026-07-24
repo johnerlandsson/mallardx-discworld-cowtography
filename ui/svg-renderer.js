@@ -3,6 +3,7 @@ import { upperToGround, groundToUppers } from "./data/room-stacks.js";
 const ROOM_TYPE_LABELS = {
   shop: 'General shop', weapon: 'Weapon shop', armour: 'Armour shop',
   clothes: 'Clothing shop', food: 'Food shop', access: 'Accessories shop',
+  stationery: 'Stationery shop',
   bank: 'Bank', changer: 'Money changer', mission: 'Mission office',
   post: 'Post office', lang: 'Language school', temple: 'Temple',
   crafts: 'Crafts shop', house: 'Player house', club: 'Player club',

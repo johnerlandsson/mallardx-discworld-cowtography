@@ -361,7 +361,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-e873d749ee68721d54e4edaa875b33f9ee88a30f" class="room indoor" data-label="poison laboratory" x="161" y="108" width="8" height="8" rx="2"/>
     <rect id="room-b52080278894c15d1872d74be4a6cda950c7fe44" class="room indoor" data-label="relaxation area" x="133" y="108" width="8" height="8" rx="2"/>
     <rect id="room-2b634e993a1873213bd43e9b35eff05376e24275" class="room indoor" data-label="corridor" x="161" y="136" width="8" height="8" rx="2"/>
-    <rect id="room-ceb4bb101eef8a019e1d2a18642768d49ec6fbb3" class="room indoor room-shop" data-label="craft room" x="133" y="136" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="137" y="140" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-ceb4bb101eef8a019e1d2a18642768d49ec6fbb3" class="room indoor room-stationery" data-label="craft room" x="133" y="136" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="137" y="140" text-anchor="middle" dominant-baseline="central">Q</text>
     <rect id="room-3eb00e2a7089da1f978f14fb04ee32f79918814c" class="room indoor" data-label="pottery room" x="189" y="136" width="8" height="8" rx="2"/>
     <rect id="room-a97f86947da7fdcda47acd43efd3c67d30f32d92" class="room indoor" data-label="hot and stuffy room" x="189" y="164" width="8" height="8" rx="2"/>
     <rect id="room-7e1d617144bae91024108eec9318f5559912e364" class="room indoor" data-label="dojo" x="133" y="164" width="8" height="8" rx="2"/>

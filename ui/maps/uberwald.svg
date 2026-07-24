@@ -1572,7 +1572,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-e536524933e0d0bde081a563bf7bb4a5ce19f86e" class="room indoor room-food" data-label="common room of the Harvest of Thorns" x="537" y="538" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="541" y="542" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-4575ec347c6cfdb3ca9a33e40291e098a5b8ae2b" class="room indoor" data-label="kitchen of the Harvest of Thorns" x="526" y="538" width="8" height="8" rx="2"/>
     <circle id="room-6aaa65580cc48cb2360a6eb50ed5e4df37346c20" class="room outdoor" data-label="lemonery" cx="541" cy="553" r="4"/>
-    <rect id="room-133b0c4526927a0846a64093b39ae0e766ebe7b0" class="room indoor room-food" data-label="large workshop" x="548" y="549" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="552" y="553" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-133b0c4526927a0846a64093b39ae0e766ebe7b0" class="room indoor room-shop" data-label="large workshop" x="548" y="549" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="552" y="553" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-4a777893b88740b55edd2d326d91c88b31422a71" class="room indoor" data-label="upstairs landing" x="511" y="512" width="8" height="8" rx="2"/>
     <rect id="room-63c3525daa40ed33e1ddec813ab4816755c23f18" class="room indoor" data-label="bathroom" x="500" y="512" width="8" height="8" rx="2"/>
     <rect id="room-980f5861b4b87f3fc1c77bab4a3229a6d3087282" class="room indoor" data-label="summer meadow bedroom" x="500" y="523" width="8" height="8" rx="2"/>

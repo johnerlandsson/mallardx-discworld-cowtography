@@ -43,6 +43,7 @@ Overrides or supplements the auto-detected room type for specific rooms. Use it 
 | `temple` | R | dark purple | Manual only |
 | `talker` | M | dark green | Manual only |
 | `furniture` | U | dark green | Manual only |
+| `stationery` | Q | dark green | Auto — `shop_items`; needs ≥2 of {writing paper, quill, colour book, stick of chalk} |
 | `tavern` | V | dark amber | Auto — `room_short` contains "tavern", "restaurant", "pizza", "pizzeria" |
 | `pub` | B | dark amber | Auto — `room_short` contains "pub" or "bar" |
 

@@ -1857,7 +1857,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-c117084b488dba821402162839ad882418820032" class="room outdoor" data-label="not quite so busy section of High Street" cx="409" cy="264" r="4"/>
     <circle id="room-d85fde7526314cc2f47de193606f91c64d592add" class="room outdoor" data-label="busy part of High Street" cx="409" cy="250" r="4"/>
     <circle id="room-0a38af5c0159a61a9eb31633659ea8b2134620b5" class="room outdoor" data-label="section of High Street, east of the Royal Market" cx="395" cy="236" r="4"/>
-    <rect id="room-869c41cee9d1851da0912b73d0f58da93cfd5589" class="room indoor room-shop" data-label="cosy little stationer&#x27;s shop" x="331" y="204" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="335" y="208" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-869c41cee9d1851da0912b73d0f58da93cfd5589" class="room indoor room-stationery" data-label="cosy little stationer&#x27;s shop" x="331" y="204" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="335" y="208" text-anchor="middle" dominant-baseline="central">Q</text>
     <rect id="room-45de0d1f9f9ecd568312a96b4aeeb7758d62dcb4" class="room indoor" data-label="parlour" x="241" y="31" width="8" height="8" rx="2"/>
     <rect id="room-2eb42944956caf0ee8a8b5fda2504d5ce9b7349a" class="room indoor" data-label="at the bottom of some stairs" x="232" y="40" width="8" height="8" rx="2"/>
     <rect id="room-6334b33f43d9d8d9c4ff1b18d4bdb1880e777c22" class="room indoor" data-label="servant&#x27;s quarters" x="241" y="49" width="8" height="8" rx="2"/>

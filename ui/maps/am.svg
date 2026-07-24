@@ -9183,7 +9183,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-7c35ae25cc389ae0226ae2b2603f2c0f8a582158" class="room indoor room-access" data-label="antique jewellery shop" x="424" y="234" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="428" y="238" text-anchor="middle" dominant-baseline="central">X</text>
     <circle id="room-5e86b9fe204a9dc2d72d9a3788aab4b8de3c46a5" class="room outdoor" data-label="Grunefair" cx="424" cy="228" r="4"/>
     <circle id="room-66ba402c9e585b29db4f4d3a352ab8db2259a5cd" class="room outdoor" data-label="Grunefair, outside a pleasant shop" cx="410" cy="228" r="4"/>
-    <rect id="room-672716ed4c49b2c2cd182764ebf4c2e20489af58" class="room indoor room-shop" data-label="Addlemeyer&#x27;s Ecclesiastical Curiosity Shop" x="406" y="213" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="410" y="217" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-672716ed4c49b2c2cd182764ebf4c2e20489af58" class="room indoor room-stationery" data-label="Addlemeyer&#x27;s Ecclesiastical Curiosity Shop" x="406" y="213" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="410" y="217" text-anchor="middle" dominant-baseline="central">Q</text>
     <circle id="room-82c0509bda2677a53a87a60e750bf4b1fdad8451" class="room outdoor" data-label="Grunefair" cx="396" cy="228" r="4"/>
     <circle id="room-24aad10ada1ad465624fee84347fb4f9140c94f3" class="room outdoor" data-label="Grunefair, outside Radua Monev&#x27;s Picture Shoppe" cx="382" cy="228" r="4"/>
     <rect id="room-64cf3a63acc600a922c3978a40217e495a10df2a" class="room indoor" data-label="Radua Monev&#x27;s Picture Shop" x="378" y="235" width="8" height="8" rx="2"/>
@@ -9846,7 +9846,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-04d91bfd565585f992fff368df0746b99915c796" class="room outdoor" data-label="King&#x27;s Way" cx="718" cy="424" r="4"/>
     <circle id="room-0e11ba9abc542314f7902b419c874862e47cef45" class="room outdoor" data-label="west end of Scoone Avenue" cx="732" cy="410" r="4"/>
     <circle id="room-f6a8a26e745bbc47bb11c724ba258c778ff5035c" class="room outdoor" data-label="Scoone Avenue, outside a stationers" cx="746" cy="410" r="4"/>
-    <rect id="room-20cc8d9987ae4a818d9d8bfcdb2e89c1b886af9c" class="room indoor room-shop" data-label="Toomer Stationers" x="742" y="417" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="746" y="421" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-20cc8d9987ae4a818d9d8bfcdb2e89c1b886af9c" class="room indoor room-stationery" data-label="Toomer Stationers" x="742" y="417" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="746" y="421" text-anchor="middle" dominant-baseline="central">Q</text>
     <circle id="room-b33954e03dd3ae8ded6961211851527b6b069fac" class="room outdoor" data-label="Scoone Avenue outside a private members club" cx="760" cy="410" r="4"/>
     <circle id="room-7ee46fc0512b1bb544cebc74fab9ea5868ca8b89" class="room outdoor" data-label="Scoone Avenue" cx="774" cy="410" r="4"/>
     <circle id="room-7542b2c38bc3a2ea6d4e6b20874f99ffe8685011" class="room outdoor" data-label="Scoone Avenue, at the Uppminster family house" cx="788" cy="410" r="4"/>

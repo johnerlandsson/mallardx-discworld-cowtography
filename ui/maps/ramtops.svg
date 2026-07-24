@@ -2470,7 +2470,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-29cb3cf6e2e9f48894ddf19a5c3151b90163f2e5" class="room outdoor" data-label="top of a wooded valley near the village of Bad Ass" cx="1386" cy="261" r="4"/>
     <circle id="room-902bbac7cb50176499842c574d95611409bd6060" class="room outdoor" data-label="footpath into the woods" cx="1325" cy="240" r="4"/>
     <circle id="room-daff296b2fc6d2523f40b2682d9e8c1b60a0e688" class="room outdoor" data-label="footpath in the woods" cx="1311" cy="226" r="4"/>
-    <rect id="room-601eae2be71c8de42345928b9a35f5a52f7bc414" class="room indoor room-shop" data-label="unremarkable stall" x="1323" y="83" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1327" y="87" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-601eae2be71c8de42345928b9a35f5a52f7bc414" class="room indoor room-stationery" data-label="unremarkable stall" x="1323" y="83" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1327" y="87" text-anchor="middle" dominant-baseline="central">Q</text>
     <circle id="room-6fbb4a53491fe3ee652b0babe7181ebf3b8dd4a1" class="room outdoor" data-label="northeastern part of the Brass Neck marketplace" cx="1327" cy="87" r="4"/>
     <circle id="room-0a2df4a39b3d282714175f68ea5a8e946edaac4f" class="room outdoor" data-label="southeastern part of the Brass Neck marketplace" cx="1327" cy="101" r="4"/>
     <circle id="room-8ff69ea1f3b252f89d2c18ddbc5a708290534149" class="room outdoor" data-label="southwestern part of the Brass Neck marketplace" cx="1313" cy="101" r="4"/>

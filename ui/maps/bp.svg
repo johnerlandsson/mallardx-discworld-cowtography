@@ -5066,7 +5066,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-5955b5ab4e38ea2028b82d6b112a31fb92693f57" class="room outdoor" data-label="pier" cx="1112" cy="776" r="4"/>
     <circle id="room-20cd13d883d967b4d0f4569012c9621e137998a3" class="room outdoor" data-label="Rhinu Road near Ming Lane" cx="720" cy="706" r="4"/>
     <circle id="room-57246af6df75ad3b980e3f552995b0a585b64c22" class="room outdoor" data-label="courtyard" cx="706" cy="692" r="4"/>
-    <rect id="room-f4477b58a79332a104d960de71ed6613f527652e" class="room indoor room-food" data-label="school shop" x="691" y="688" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="695" y="692" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-f4477b58a79332a104d960de71ed6613f527652e" class="room indoor room-stationery" data-label="school shop" x="691" y="688" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="695" y="692" text-anchor="middle" dominant-baseline="central">Q</text>
     <rect id="room-e4d4f577f19ceb70207ff1db397229bd63cb3582" class="room indoor" data-label="hallway" x="692" y="678" width="8" height="8" rx="2"/>
     <circle id="room-41ce581719c36fe373f36f54f1183d4684d60d72" class="room outdoor" data-label="Rhinu Road outside a pub and a shop" cx="706" cy="720" r="4"/>
     <rect id="room-be57ed8811d5a9c2f3587386f331aa12905ba65b" class="room indoor room-food" data-label="common room of the Paper Dragon Inn" x="692" y="706" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="696" y="710" text-anchor="middle" dominant-baseline="central">F</text>

@@ -2593,7 +2593,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-fa8d296cbfe90e9e47f4c9eeb081d1e2d9642f21" class="room outdoor" data-label="Felicity Avenue" cx="260" cy="326" r="4"/>
     <circle id="room-882c2ffb457c335b1f7ab777ac680c57c2918ee2" class="room outdoor" data-label="Felicity Avenue" cx="274" cy="340" r="4"/>
     <circle id="room-f24ef3cf032530b9842f38fd10180850bd511ef5" class="room outdoor" data-label="Felicity Avenue" cx="288" cy="354" r="4"/>
-    <rect id="room-9662e067c13443e5660ddde368b4417560573d7b" class="room indoor room-shop" data-label="Felicity Avenue Stationers" x="284" y="339" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="288" y="343" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-9662e067c13443e5660ddde368b4417560573d7b" class="room indoor room-stationery" data-label="Felicity Avenue Stationers" x="284" y="339" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="288" y="343" text-anchor="middle" dominant-baseline="central">Q</text>
     <circle id="room-8042ed06dfcbc539e051db3ded6e139b22d956b0" class="room outdoor" data-label="Felicity Avenue" cx="302" cy="368" r="4"/>
     <circle id="room-1e22df0fb84a39de37a49ae1dbc0aca079f6156f" class="room outdoor" data-label="Felicity Avenue" cx="302" cy="382" r="4"/>
     <rect id="room-0afb6f7514b1d029fe5487443f6509560d492067" class="room indoor room-pub" data-label="Bloody Tutor Pub" x="287" y="378" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="291" y="382" text-anchor="middle" dominant-baseline="central">B</text>

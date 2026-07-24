@@ -533,7 +533,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-23bb78df97af9bf961bb501c934f2a53a59ab29c" class="room indoor" data-label="gymnasium" x="97" y="468" width="8" height="8" rx="2"/>
     <rect id="room-ab468a4a0ae73109808802732b27d0beb206dfed" class="room indoor" data-label="cellar" x="109" y="480" width="8" height="8" rx="2"/>
     <circle id="room-f5f579d64ca5fdef3ca76d33a9b287d9161a6034" class="room outdoor" data-label="majestic courtyard" cx="76" cy="390" r="4"/>
-    <rect id="room-b4321bd59ef87685459110db6d4ff72352e8d0ae" class="room indoor room-shop" data-label="legibles alcove" x="112" y="386" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="116" y="390" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-b4321bd59ef87685459110db6d4ff72352e8d0ae" class="room indoor room-stationery" data-label="legibles alcove" x="112" y="386" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="116" y="390" text-anchor="middle" dominant-baseline="central">Q</text>
     <rect id="room-95d7631eb376f923076cf3c9dc820061e954df82" class="room indoor" data-label="wizards&#x27; billiards room" x="72" y="366" width="8" height="8" rx="2"/>
     <rect id="room-4702b88982ad53aa52b36605181801ef997bfa9d" class="room indoor" data-label="upstairs billiards room" x="72" y="346" width="8" height="8" rx="2"/>
     <rect id="room-5e5eba8206168b42adecb2b5ee800243e70dbe46" class="room indoor room-clothes" data-label="stylish alcove" x="32" y="386" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="36" y="390" text-anchor="middle" dominant-baseline="central">C</text>
