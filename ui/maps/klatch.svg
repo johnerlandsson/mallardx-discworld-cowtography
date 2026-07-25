@@ -1401,14 +1401,14 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-10748e63107f78e84862c84f7a5cbe5e5167fdcc" class="room indoor" data-label="stable" x="695" y="661" width="8" height="8" rx="2"/>
     <rect id="room-6f3bd8c8935530a51e9135440a3308789a23f627" class="room indoor" data-label="foyer" x="706" y="650" width="8" height="8" rx="2"/>
     <rect id="room-21147c1d34b6a2a68e649aff8e856f0e6faa1c87" class="room indoor room-shop" data-label="small shop" x="696" y="650" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="700" y="654" text-anchor="middle" dominant-baseline="central">S</text>
-    <rect id="room-527677c44648c02fc2ef3b1db58613d3f7ee4173" class="room indoor room-food" data-label="The White Goat" x="716" y="650" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="720" y="654" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-527677c44648c02fc2ef3b1db58613d3f7ee4173" class="room indoor room-tavern" data-label="The White Goat" x="716" y="650" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="720" y="654" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-43ecb553e79ea018d4a851d7d0ed945165aef35a" class="room outdoor" data-label="secret little corner" cx="705" cy="659" r="4"/>
     <circle id="room-7f791673dbf19adf20172bd2b8a39c4ffdd2e104" class="room outdoor" data-label="edge of a desert near a savanna" cx="724" cy="529" r="4"/>
     <circle id="room-3829738a5a4426950321d7307a8165c159a96466" class="room outdoor" data-label="Klatchian Foreign Legion outpost campfire" cx="724" cy="515" r="4"/>
-    <rect id="room-31bf3a3c04cb0009a32aee364747be7761530556" class="room indoor room-clothes" data-label="Klatchian Foreign Legion outpost storage tent" x="731" y="511" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="735" y="515" text-anchor="middle" dominant-baseline="central">C</text>
+    <rect id="room-31bf3a3c04cb0009a32aee364747be7761530556" class="room indoor room-weapon" data-label="Klatchian Foreign Legion outpost storage tent" x="731" y="511" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="735" y="515" text-anchor="middle" dominant-baseline="central">W</text>
     <circle id="room-e4a27a93031ef15f902cee38a8dc8819f96f14ea" class="room outdoor" data-label="Klatchian Foreign Legion outpost campfire" cx="735" cy="504" r="4"/>
     <rect id="room-1967b25be992bca8ed950a4e95586c351acc2dd2" class="room indoor" data-label="Klatchian Foreign Legion outpost recruitment tent" x="709" y="511" width="8" height="8" rx="2"/>
-    <rect id="room-278ddf2f97b92d6bab186d95821075d621137a2e" class="room indoor room-food" data-label="Klatchian Foreign Legion mess tent" x="709" y="500" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="713" y="504" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-278ddf2f97b92d6bab186d95821075d621137a2e" class="room indoor room-tavern" data-label="Klatchian Foreign Legion mess tent" x="709" y="500" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="713" y="504" text-anchor="middle" dominant-baseline="central">V</text>
     <rect id="room-ba4b873b31d7bcf02328aa571b137b3a2096d2a7" class="room indoor" data-label="Klatchian Foreign Legion outpost sleeping tent" x="720" y="500" width="8" height="8" rx="2"/>
     <circle id="room-5ac9c69a1e97f3224aa94931b97f3db780ba5572" class="room outdoor" data-label="Ephebian desert" cx="607" cy="1109" r="4"/>
     <circle id="room-066ae1b58fc230eb5750bb3c81a52c12ddc1ccce" class="room outdoor green" data-label="southwestern corner of the Oasis" cx="621" cy="1109" r="4"/>
@@ -1425,7 +1425,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-eff2d429242a3c9a6830d57c21d1a19b8b677ce0" class="room outdoor green" data-label="southwestern corner of the Oasis" cx="607" cy="1095" r="4"/>
     <circle id="room-54fe3495c98d245205032591f181d34f37d28499" class="room outdoor green" data-label="southwestern corner of the Oasis" cx="607" cy="1081" r="4"/>
     <circle id="room-4293155ea62d07cfa5ad2ae7ea5520d17a05dd77" class="room outdoor green" data-label="middle of the Oasis" cx="621" cy="1081" r="4"/>
-    <rect id="room-5890eb913e3d61c3487a194dc8a84763a084f946" class="room indoor room-shop" data-label="fig stall" x="602" y="1171" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="606" y="1175" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-5890eb913e3d61c3487a194dc8a84763a084f946" class="room indoor room-food" data-label="fig stall" x="602" y="1171" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="606" y="1175" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-86a0f63349a175ad8e7f4f399ada0198459ae13c" class="room outdoor green" data-label="middle of the Oasis" cx="635" cy="1081" r="4"/>
     <circle id="room-350f005214ee12960158a94605306256db307037" class="room outdoor green" data-label="middle of the Oasis" cx="649" cy="1081" r="4"/>
     <circle id="room-1fc7a3538c9d460422fec0c8588dbc03441301ea" class="room outdoor green" data-label="middle of the Oasis" cx="663" cy="1081" r="4"/>
@@ -1447,7 +1447,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-eb9a2d307404b035eb2a03d8308ed0b958f5dba1" class="room outdoor green" data-label="eastern edge of the Oasis" cx="677" cy="1053" r="4"/>
     <circle id="room-4b25ed1f44c1a870918be9495edb17c38ab6f6a4" class="room outdoor green" data-label="northeastern corner of the Oasis" cx="677" cy="1039" r="4"/>
     <circle id="room-3697ea9390dd6d1d2a273b3635f27ba0f70b36fd" class="room outdoor green" data-label="middle of the Oasis" cx="663" cy="1039" r="4"/>
-    <rect id="room-2137677a10aedd82fa3f9e63680dfcf274dd6ed2" class="room indoor room-shop" data-label="turban stall" x="602" y="1147" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="606" y="1151" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-2137677a10aedd82fa3f9e63680dfcf274dd6ed2" class="room indoor room-clothes" data-label="turban stall" x="602" y="1147" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="606" y="1151" text-anchor="middle" dominant-baseline="central">C</text>
     <circle id="room-997cda132917daef79d5330e14b837408b76dfbb" class="room outdoor green" data-label="middle of the Oasis" cx="649" cy="1039" r="4"/>
     <circle id="room-d16eb303a48474a47976038ea90c6ffd531ec975" class="room outdoor green" data-label="middle of the Oasis" cx="635" cy="1039" r="4"/>
     <circle id="room-67a501bc451ad97c04ae3d2592110ea7caedd5ff" class="room outdoor green" data-label="middle of the Oasis" cx="621" cy="1039" r="4"/>

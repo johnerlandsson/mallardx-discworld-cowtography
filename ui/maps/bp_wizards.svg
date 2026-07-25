@@ -540,7 +540,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-7ace1dc7b16b100c01edade4d305f469f15f4056" class="room indoor" data-label="hidden alcove" x="12" y="386" width="8" height="8" rx="2"/>
     <rect id="room-ba00570d0ec1d90e155851d7e607b49ec37a8b3c" class="room indoor" data-label="hidden alcove" x="0" y="374" width="8" height="8" rx="2"/>
     <rect id="room-a9e4e82da06cb3b8a2d196bc21a170f5d6dcfe2f" class="room indoor" data-label="arena alcove" x="31" y="427" width="8" height="8" rx="2"/>
-    <rect id="room-fa2f98e2aa25f7c035762b1ab73442422cb0477d" class="room indoor room-shop" data-label="sticky alcove" x="113" y="427" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="117" y="431" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-fa2f98e2aa25f7c035762b1ab73442422cb0477d" class="room indoor room-food" data-label="sticky alcove" x="113" y="427" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="117" y="431" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-7690fa46d43f18eb41d5054f57c9efdcd35d261a" class="room indoor" data-label="candied kitchen" x="113" y="447" width="8" height="8" rx="2"/>
     <rect id="room-409d2a664c9edba80a9a16ea1f06432d21fdf1bf" class="room indoor" data-label="mysterious alcove" x="72" y="427" width="8" height="8" rx="2"/>
     <rect id="room-d7771ac3fe2f8b7761e5c61c56c2cbead72130cc" class="room indoor room-food" data-label="The Exclusive Lounge of the Venerable Ancestors" x="113" y="345" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="117" y="349" text-anchor="middle" dominant-baseline="central">F</text>
@@ -670,7 +670,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-228036866bbd7da066bae0568dd4deea68558420" class="room indoor" data-label="Library" x="173" y="230" width="8" height="8" rx="2"/>
     <rect id="room-52386e06ab24a5c7af7f4b86d85a04fad4007f80" class="room indoor" data-label="Library" x="159" y="230" width="8" height="8" rx="2"/>
     <rect id="room-48948f2bf81f42b8e37740ad6e0f9e0bfb3021c9" class="room indoor" data-label="Library" x="159" y="244" width="8" height="8" rx="2"/>
-    <rect id="room-515dd20566044476ec38c5fa95388440742ff75d" class="room indoor room-food" data-label="small hobble" x="129" y="480" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="133" y="484" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-515dd20566044476ec38c5fa95388440742ff75d" class="room indoor room-shop" data-label="small hobble" x="129" y="480" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="133" y="484" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-3b59d41317cc50934698326b654ac5234cc5dfd3" class="room outdoor" data-label="under the willow" cx="175" cy="425" r="4"/>
     <circle id="room-ac04e9957c65a5c6d9fce94077efbd2153a1d625" class="room outdoor green" data-label="willow tree" cx="175" cy="394" r="4"/>
     <circle id="room-ab4848fcebf7952dea5e2edcf3f8b98fed407db1" class="room outdoor green" data-label="willow tree" cx="175" cy="381" r="4"/>
