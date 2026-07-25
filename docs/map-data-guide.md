@@ -76,7 +76,7 @@ npm run tool:shop-rooms
 
 This generates `tools/shop-room-editor/output.html` — open it in a browser.
 It lists every room with at least one purchasable item (from `shop_items`),
-grouped by map, each showing its item listing and current auto-detected type.
+grouped by map, each showing its item listing and effective type (auto-detected unless overridden in `room-types.json`).
 Check "Manual override" on a room to set its type explicitly, then use
 "Download room-types.json" to get an updated file with your changes merged
 in (existing entries are left untouched and in place). Re-run the generator

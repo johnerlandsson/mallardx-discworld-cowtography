@@ -99,7 +99,7 @@ async function main() {
   const template = await fs.readFile(TEMPLATE_PATH, 'utf8')
   const html = template
     .replace('/*__MERGE_MODULE__*/', mergeModuleSource)
-    .replace('"__SHOP_ROOM_DATA__"', JSON.stringify(payload))
+    .replace('"__SHOP_ROOM_DATA__"', JSON.stringify(payload).replace(/</g, '\\u003c'))
 
   await fs.mkdir(path.dirname(outPath), { recursive: true })
   await fs.writeFile(outPath, html, 'utf8')
