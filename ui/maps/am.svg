@@ -9183,7 +9183,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-7c35ae25cc389ae0226ae2b2603f2c0f8a582158" class="room indoor room-access" data-label="antique jewellery shop" x="424" y="234" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="428" y="238" text-anchor="middle" dominant-baseline="central">X</text>
     <circle id="room-5e86b9fe204a9dc2d72d9a3788aab4b8de3c46a5" class="room outdoor" data-label="Grunefair" cx="424" cy="228" r="4"/>
     <circle id="room-66ba402c9e585b29db4f4d3a352ab8db2259a5cd" class="room outdoor" data-label="Grunefair, outside a pleasant shop" cx="410" cy="228" r="4"/>
-    <rect id="room-672716ed4c49b2c2cd182764ebf4c2e20489af58" class="room indoor room-stationery" data-label="Addlemeyer&#x27;s Ecclesiastical Curiosity Shop" x="406" y="213" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="410" y="217" text-anchor="middle" dominant-baseline="central">Q</text>
+    <rect id="room-672716ed4c49b2c2cd182764ebf4c2e20489af58" class="room indoor room-shop" data-label="Addlemeyer&#x27;s Ecclesiastical Curiosity Shop" x="406" y="213" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="410" y="217" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-82c0509bda2677a53a87a60e750bf4b1fdad8451" class="room outdoor" data-label="Grunefair" cx="396" cy="228" r="4"/>
     <circle id="room-24aad10ada1ad465624fee84347fb4f9140c94f3" class="room outdoor" data-label="Grunefair, outside Radua Monev&#x27;s Picture Shoppe" cx="382" cy="228" r="4"/>
     <rect id="room-64cf3a63acc600a922c3978a40217e495a10df2a" class="room indoor" data-label="Radua Monev&#x27;s Picture Shop" x="378" y="235" width="8" height="8" rx="2"/>
