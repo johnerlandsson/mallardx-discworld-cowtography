@@ -64,6 +64,26 @@ Overrides or supplements the auto-detected room type for specific rooms. Use it 
 
 ---
 
+### Setting shop room types
+
+Manually reviewing and classifying shop rooms by hand-editing `room-types.json`
+is tedious once you're past a handful of rooms. Use the shop room type editor
+instead:
+
+```bash
+npm run tool:shop-rooms
+```
+
+This generates `tools/shop-room-editor/output.html` — open it in a browser.
+It lists every room with at least one purchasable item (from `shop_items`),
+grouped by map, each showing its item listing and current auto-detected type.
+Check "Manual override" on a room to set its type explicitly, then use
+"Download room-types.json" to get an updated file with your changes merged
+in (existing entries are left untouched and in place). Re-run the generator
+after the DB or `room-types.json` changes to refresh the listing.
+
+---
+
 ## room-compact.json
 
 **File:** `ui/data/room-compact.json`
