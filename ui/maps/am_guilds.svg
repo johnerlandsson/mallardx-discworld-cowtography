@@ -422,7 +422,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-32268d4defcafc42f3d02bc79205cef07ae06c82" class="room indoor" data-label="foyer of the Guild of Alchemists" x="455" y="304" width="8" height="8" rx="2"/>
     <rect id="room-bf1a617aa15a401a133244efdeabbd483409141f" class="room indoor" data-label="Guild of Alchemists Reception" x="480" y="279" width="8" height="8" rx="2"/>
     <rect id="room-6dc1e656c17fd1135c8c32f3e887d88341e71a6a" class="room indoor" data-label="Alchemists&#x27; common room" x="455" y="279" width="8" height="8" rx="2"/>
-    <rect id="room-d3e28db0be0d5a1b7f402784f0e5d41551876ccb" class="room indoor room-clothes" data-label="Guild of Alchemists&#x27; supply shop" x="455" y="328" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="459" y="332" text-anchor="middle" dominant-baseline="central">C</text>
+    <rect id="room-d3e28db0be0d5a1b7f402784f0e5d41551876ccb" class="room indoor room-shop" data-label="Guild of Alchemists&#x27; supply shop" x="455" y="328" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="459" y="332" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-bc1dfc6b3929a692cd42ad767d182947cbc58029" class="room indoor" data-label="staircase in the Guild of Alchemists" x="431" y="304" width="8" height="8" rx="2"/>
     <circle id="room-a6b5b1c9025e4f1e8488fd1d224d495dfefbf0f3" class="room outdoor" data-label="first level of the fire escape" cx="487" cy="245" r="4"/>
     <circle id="room-7db17036079cd4fa5bd1516395e4bfebbde36409" class="room outdoor" data-label="second level of the fire escape" cx="487" cy="154" r="4"/>

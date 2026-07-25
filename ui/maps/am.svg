@@ -9066,7 +9066,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-67cef069ceaecfef9d8b35b429ebf9e9ccd53653" class="room indoor room-clothes" data-label="Jerdan and Hare, clothiers" x="395" y="140" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="399" y="144" text-anchor="middle" dominant-baseline="central">C</text>
     <circle id="room-8c376b9db5f18a1c032a44883338f6549245029b" class="room outdoor" data-label="Edgeway Road" cx="424" cy="158" r="4"/>
     <rect id="room-b1392ee8a37a23ee81ca14cf899eb8435cd78c4f" class="room indoor room-shop" data-label="Stationery Warehouse" x="409" y="154" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="413" y="158" text-anchor="middle" dominant-baseline="central">S</text>
-    <rect id="room-c622c8f9e9b225037b304360a7c809c73bb74bdb" class="room indoor room-access" data-label="back section of the Stationery Warehouse" x="400" y="163" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="404" y="167" text-anchor="middle" dominant-baseline="central">X</text>
+    <rect id="room-c622c8f9e9b225037b304360a7c809c73bb74bdb" class="room indoor room-shop" data-label="back section of the Stationery Warehouse" x="400" y="163" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="404" y="167" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-e6a7ca7ac57f17fcbad8ac2d2e00a5cbb53138f0" class="room outdoor" data-label="Edgeway Road" cx="424" cy="172" r="4"/>
     <circle id="room-bb558cdfd6bfda8e7bcb394352d1716aa502bd16" class="room outdoor" data-label="Edgeway Road outside a nice-smelling shop" cx="438" cy="186" r="4"/>
     <rect id="room-3c477c8bdf3f4da0615a1f1d864b635a09ba392e" class="room indoor" data-label="Woonsocket&#x27;s Delicatessen" x="444" y="172" width="8" height="8" rx="2"/>
@@ -9273,7 +9273,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-2cf134bdef4b49a5b768ed5bbb7ff7e0a0a20c0c" class="room outdoor" data-label="The Soake" cx="452" cy="270" r="4"/>
     <rect id="room-6ce674268a0b9d46ae04149a15bcf4ba1986b5bb" class="room indoor" data-label="Lost Pet Sanctuary" x="437" y="266" width="8" height="8" rx="2"/>
     <circle id="room-9124a78a284987eaf1733268b705e27ce227017b" class="room outdoor" data-label="Park Lane, at a discreet shop" cx="508" cy="298" r="4"/>
-    <rect id="room-97adbfc0c74294dc7505bb1b51255dc4cfa174f4" class="room indoor room-clothes" data-label="Bligh Earcrusher&#x27;s exclusive shop" x="504" y="283" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="508" y="287" text-anchor="middle" dominant-baseline="central">C</text>
+    <rect id="room-97adbfc0c74294dc7505bb1b51255dc4cfa174f4" class="room indoor room-shop" data-label="Bligh Earcrusher&#x27;s exclusive shop" x="504" y="283" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="508" y="287" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-2162c7979db734a7d15ae747f57b7b7c04143b35" class="room outdoor" data-label="13 Park Lane, at King&#x27;s Gate" cx="508" cy="312" r="4"/>
     <circle id="room-2be8c687413e2d152e880e2f8f559f3fea0e4ad2" class="room outdoor" data-label="Park Lane" cx="522" cy="326" r="4"/>
     <circle id="room-78dafc82fe7e4eebb29eb2fe38120da881f505ca" class="room outdoor" data-label="12 Park Lane, at Pondering Gate" cx="536" cy="340" r="4"/>
@@ -10185,7 +10185,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-b0a7b4b544ca4faddfc0d5695a7e9f9bb544316b" class="room outdoor" data-label="east side of the Plaza of Broken Moons" cx="1040" cy="746" r="4"/>
     <rect id="room-2d715bf254b2675fc60159bcc6cf6baf71399215" class="room indoor room-shop" data-label="Ripley&#x27;s Custom Tabards" x="1049" y="732" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1053" y="736" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-a4133948cae5f9410f1c9574bd5f040acd1289fb" class="room outdoor" data-label="west end of Hopper Street" cx="1054" cy="746" r="4"/>
-    <rect id="room-5f065d44f883d89852acc7e7712f950f81e68d09" class="room indoor room-weapon" data-label="&quot;Get &#x27;em while we still got &#x27;em&quot; shop" x="1046" y="752" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1050" y="756" text-anchor="middle" dominant-baseline="central">W</text>
+    <rect id="room-5f065d44f883d89852acc7e7712f950f81e68d09" class="room indoor room-shop" data-label="&quot;Get &#x27;em while we still got &#x27;em&quot; shop" x="1046" y="752" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1050" y="756" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-ea99f3ee43cab7cd205f4c434db47c6001776fd9" class="room outdoor" data-label="part of the middle of the Plaza of Broken Moons" cx="1026" cy="746" r="4"/>
     <circle id="room-aaf8c1a3d999d0c69259fa9fa6b9828854932495" class="room outdoor" data-label="part of the middle of the Plaza of Broken Moons" cx="1012" cy="746" r="4"/>
     <circle id="room-c7f866d6aaffeb4d513d630cdc6ec8b365e22106" class="room outdoor" data-label="part of the middle of the Plaza of Broken Moons" cx="998" cy="746" r="4"/>
@@ -10213,7 +10213,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-6abdd5941d914b9ea53d605f8d1beda7b7df51c2" class="room outdoor" data-label="southwestern end of the Maul" cx="942" cy="802" r="4"/>
     <circle id="room-ee4029e3e4fb808b9a68d3f566a98bf1402ae5eb" class="room outdoor" data-label="junction of Turnwise Broadway and the Maul" cx="942" cy="816" r="4"/>
     <circle id="room-b1b718e2b210a6fbc01b4105a5c8b331311f512f" class="room outdoor" data-label="junction of Turnwise Broadway and the Maul" cx="928" cy="802" r="4"/>
-    <rect id="room-86547e8b388cfcc746e6dd0a7cb4649d88310e46" class="room indoor room-shop" data-label="Burgner&#x27;s Coffee on the Maul" x="958" y="788" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="962" y="792" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-86547e8b388cfcc746e6dd0a7cb4649d88310e46" class="room indoor room-tavern" data-label="Burgner&#x27;s Coffee on the Maul" x="958" y="788" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="962" y="792" text-anchor="middle" dominant-baseline="central">V</text>
     <rect id="room-5e8a34b573a4ea52e23e4a3f7dd23be4fe306d59" class="room indoor room-shop" data-label="Pain in the Neck" x="976" y="780" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="980" y="784" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-270328091304519b8b8fd427e82540ced1aed1fd" class="room outdoor" data-label="Washer Way just off Unreal Estate" cx="1152" cy="634" r="4"/>
     <rect id="room-c0e787d5d356a6d476e191f3193d8586cf940908" class="room indoor" data-label="house" x="1148" y="641" width="8" height="8" rx="2"/>
@@ -10636,7 +10636,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-1c937dc56b7189c8266bb00e90f36f3fe505b049" class="room outdoor" data-label="Treacle Street" cx="1054" cy="1054" r="4"/>
     <circle id="room-10c7c59f6e0a7d774858f226d64fb0c2a1c9a60c" class="room outdoor" data-label="Treacle Street" cx="1040" cy="1068" r="4"/>
     <circle id="room-c61cc8ed6ca1f5dae16fd97ce0fe7042e0ca5072" class="room outdoor" data-label="Treacle Street outside a small shop" cx="1026" cy="1068" r="4"/>
-    <rect id="room-422f29229cedd5d0fb40eb0c1f293bf59621f7ce" class="room indoor room-clothes" data-label="Bernita&#x27;s Flower Shop" x="1022" y="1075" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1026" y="1079" text-anchor="middle" dominant-baseline="central">C</text>
+    <rect id="room-422f29229cedd5d0fb40eb0c1f293bf59621f7ce" class="room indoor room-shop" data-label="Bernita&#x27;s Flower Shop" x="1022" y="1075" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1026" y="1079" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-fbba3b021820ebee6f5f73db87e5cb968656b7ec" class="room outdoor" data-label="Treacle Street" cx="1012" cy="1082" r="4"/>
     <circle id="room-e6d5d06290cc664b3650fedba06733aeebb4b052" class="room outdoor" data-label="Treacle Street" cx="998" cy="1082" r="4"/>
     <circle id="room-728b1c7516147de79182469104738e6ba957a8c0" class="room outdoor" data-label="Treacle Street, just east of Dragon&#x27;s Landing" cx="984" cy="1096" r="4"/>
@@ -10734,7 +10734,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-6b72a1d7a0b92b7c6aedc5a37073a3e419cbcc85" class="room outdoor" data-label="The Street of Cunning Artificers" cx="956" cy="970" r="4"/>
     <rect id="room-6d293444115637abb0124bcea32cb8380182a964" class="room indoor room-shop" data-label="ventriloquist&#x27;s shop" x="952" y="955" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="956" y="959" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-8c414b0ec6672042e235f4c731ed6491b2488816" class="room outdoor" data-label="The Street of Cunning Artificers" cx="970" cy="956" r="4"/>
-    <rect id="room-a7a666808fd27c0032e5abf5f7707bdedf18d021" class="room indoor room-clothes" data-label="Bob&#x27;s Fish Shoppe" x="966" y="963" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="970" y="967" text-anchor="middle" dominant-baseline="central">C</text>
+    <rect id="room-a7a666808fd27c0032e5abf5f7707bdedf18d021" class="room indoor room-food" data-label="Bob&#x27;s Fish Shoppe" x="966" y="963" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="970" y="967" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-d5ebf1589edf91faabf708d03f30180d4b048dc7" class="room outdoor" data-label="The Street of Cunning Artificers" cx="984" cy="956" r="4"/>
     <rect id="room-96e9334538dc74561f8671457bc911ddb777fc06" class="room indoor room-shop" data-label="locksmith&#x27;s shop" x="982" y="963" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="986" y="967" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-7ee0b29ed3f90ec0dba692d18b02a69341510c54" class="room indoor" data-label="Embroidery Shop" x="980" y="941" width="8" height="8" rx="2"/>
@@ -11494,7 +11494,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-2ea08e6d7aa5d6c6afca275ddaa1ae45ad9121d4" class="room indoor" data-label="second hand weapons shop" x="518" y="759" width="8" height="8" rx="2"/>
     <circle id="room-67f909e0b8653dd55f11246adb182ebb8ac7e27a" class="room outdoor" data-label="near the west end of Easy Street" cx="508" cy="788" r="4"/>
     <circle id="room-40e13a0973bbe836c1f0c40ff7f2229e486dfd24" class="room outdoor" data-label="west end of Easy Street" cx="494" cy="802" r="4"/>
-    <rect id="room-5fe9d82f0aab303a084eadd1be086790aa16e4e2" class="room indoor room-food" data-label="Bunch Of Grapes" x="490" y="787" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="494" y="791" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-5fe9d82f0aab303a084eadd1be086790aa16e4e2" class="room indoor room-pub" data-label="Bunch Of Grapes" x="490" y="787" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="494" y="791" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-464b372bab3fa9c31c776d17d11c1d78370afa5f" class="room indoor room-food" data-label="Crimson Leech" x="500" y="808" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="504" y="812" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-85b70c27bfb7211b7b5009335cc778b6e200a96b" class="room outdoor" data-label="west end of Cheap Street" cx="480" cy="816" r="4"/>
     <circle id="room-18bc87bba6e94fb26d6d956dfb824aed8023a5d7" class="room outdoor" data-label="Cheap Street" cx="494" cy="830" r="4"/>
