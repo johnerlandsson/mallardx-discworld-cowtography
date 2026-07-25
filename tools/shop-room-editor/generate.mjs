@@ -65,3 +65,47 @@ export function buildRoomRecords(db, mapsById, roomTypesOverrides) {
   )
   return records
 }
+
+const TEMPLATE_PATH = path.join(__dirname, 'template.html')
+const MERGE_MODULE_PATH = path.join(__dirname, 'merge-room-types.mjs')
+
+async function main() {
+  const args = process.argv.slice(2)
+  const dbFlagIdx = args.indexOf('--db')
+  const outFlagIdx = args.indexOf('--out')
+  const dbPath = dbFlagIdx !== -1 ? path.resolve(args[dbFlagIdx + 1]) : DEFAULT_DB
+  const outPath = outFlagIdx !== -1 ? path.resolve(args[outFlagIdx + 1]) : DEFAULT_OUT
+
+  try { await fs.access(dbPath) } catch {
+    throw new Error(`DB not found at ${dbPath}\nRun 'npm run build:data' first, or pass --db /path/to/_quowmap_database.db`)
+  }
+
+  let roomTypesRaw = '{}'
+  try { roomTypesRaw = await fs.readFile(TYPES_CONFIG, 'utf8') } catch {}
+  const roomTypesOverrides = JSON.parse(roomTypesRaw)
+
+  const db = new Database(dbPath, { readonly: true })
+  let records
+  try {
+    records = buildRoomRecords(db, maps, roomTypesOverrides)
+  } finally {
+    db.close()
+  }
+
+  const mergeModuleSource = (await fs.readFile(MERGE_MODULE_PATH, 'utf8')).replace(/^export /gm, '')
+
+  const payload = { rooms: records, typeLetters: TYPE_LETTERS, roomTypesRaw }
+
+  const template = await fs.readFile(TEMPLATE_PATH, 'utf8')
+  const html = template
+    .replace('/*__MERGE_MODULE__*/', mergeModuleSource)
+    .replace('"__SHOP_ROOM_DATA__"', JSON.stringify(payload))
+
+  await fs.mkdir(path.dirname(outPath), { recursive: true })
+  await fs.writeFile(outPath, html, 'utf8')
+  console.log(`[shop-room-editor] wrote ${path.relative(REPO_ROOT, outPath)} (${records.length} shop rooms)`)
+}
+
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
+  main().catch(e => { console.error(`[shop-room-editor] FAILED: ${e.message}`); process.exit(1) })
+}
