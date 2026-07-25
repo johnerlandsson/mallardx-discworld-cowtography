@@ -73,8 +73,8 @@ async function main() {
   const args = process.argv.slice(2)
   const dbFlagIdx = args.indexOf('--db')
   const outFlagIdx = args.indexOf('--out')
-  const dbPath = dbFlagIdx !== -1 ? path.resolve(args[dbFlagIdx + 1]) : DEFAULT_DB
-  const outPath = outFlagIdx !== -1 ? path.resolve(args[outFlagIdx + 1]) : DEFAULT_OUT
+  const dbPath = (dbFlagIdx !== -1 && dbFlagIdx + 1 < args.length) ? path.resolve(args[dbFlagIdx + 1]) : DEFAULT_DB
+  const outPath = (outFlagIdx !== -1 && outFlagIdx + 1 < args.length) ? path.resolve(args[outFlagIdx + 1]) : DEFAULT_OUT
 
   try { await fs.access(dbPath) } catch {
     throw new Error(`DB not found at ${dbPath}\nRun 'npm run build:data' first, or pass --db /path/to/_quowmap_database.db`)
