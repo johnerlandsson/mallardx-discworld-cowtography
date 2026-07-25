@@ -9206,7 +9206,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-e1b553180a381d2bfc8378c5e32545db0b373e3f" class="room outdoor" data-label="Dimwell Street, outside the Cabbagio family house" cx="200" cy="256" r="4"/>
     <circle id="room-b29f9eb17452110dafe1e0df97f585d8a2536abd" class="room outdoor" data-label="Dimwell Street" cx="186" cy="242" r="4"/>
     <circle id="room-8a293b1b44c99e1b5b5d1ceb708151d3cae11eab" class="room outdoor" data-label="Dimwell Street, outside the Traveller&#x27;s Inn" cx="172" cy="228" r="4"/>
-    <rect id="room-c9bdfd62f1b3c5c4f23671669fa9d090619e1fd7" class="room indoor room-shop" data-label="Traveller&#x27;s Inn" x="178" y="214" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="182" y="218" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-c9bdfd62f1b3c5c4f23671669fa9d090619e1fd7" class="room indoor room-tavern" data-label="Traveller&#x27;s Inn" x="178" y="214" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="182" y="218" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-6274689923ceadeea27b5773edc6d25f4598db86" class="room outdoor" data-label="northwest end of Dimwell Street" cx="158" cy="228" r="4"/>
     <circle id="room-0f9de1fa2590254f7328eca0ad94affbc59c976b" class="room outdoor" data-label="junction of Endless Street and Dimwell Street, at the Traitors Gate" cx="144" cy="214" r="4"/>
     <circle id="room-7d18035551e3b3c2895386124e9ca993a1948c59" class="room outdoor" data-label="Traitors Gate" cx="130" cy="200" r="4"/>
@@ -9236,7 +9236,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-046cfe711563e958a31e1c92e9bb5131b3dbecfa" class="room outdoor" data-label="southwest end of Ankh Street" cx="60" cy="354" r="4"/>
     <circle id="room-7172adb926f43846e940582bd3827d1882335883" class="room outdoor" data-label="near the southwest end of Ankh Street" cx="74" cy="340" r="4"/>
     <circle id="room-88e1da4efca7a7d089ab3bd76c751f7da0e7a431" class="room outdoor" data-label="Ankh Street, outside a boxy-looking shop" cx="88" cy="326" r="4"/>
-    <rect id="room-e1d514626dbfa0d521125c29622a747c52cbc7d0" class="room indoor room-access" data-label="Tom Boit&#x27;s Box and Barrel Shop" x="84" y="311" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="88" y="315" text-anchor="middle" dominant-baseline="central">X</text>
+    <rect id="room-e1d514626dbfa0d521125c29622a747c52cbc7d0" class="room indoor room-shop" data-label="Tom Boit&#x27;s Box and Barrel Shop" x="84" y="311" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="88" y="315" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-49023a4ddd191e53df7bae3aca310618141ad32f" class="room outdoor" data-label="Ankh Street" cx="102" cy="326" r="4"/>
     <circle id="room-ca3fe35b80145fed0099534d8492a6e2ae23e727" class="room outdoor" data-label="Ankh Street, outside the Cavanaugh family house" cx="116" cy="312" r="4"/>
     <circle id="room-8283ba3f3d1bacbd51f5e846df1ad8803de5e977" class="room outdoor" data-label="Ankh Street" cx="130" cy="312" r="4"/>
@@ -9252,7 +9252,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-96db778460ad523c0189a195f3b2db4b697504a3" class="room indoor room-shop" data-label="Dimitris&#x27; Dummies" x="252" y="305" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="256" y="309" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-97e1fdb198d39ecf32566152456f7b7a4210a7b1" class="room outdoor" data-label="Dimwell Street" cx="270" cy="312" r="4"/>
     <circle id="room-a25d878bd5c94f7a21e09b20b32b0881a86e89f0" class="room outdoor" data-label="Dimwell Street, outside a lumberyard" cx="284" cy="312" r="4"/>
-    <circle id="room-b7d1c631bde34be141b8db19b255b5ba59d374ad" class="room outdoor room-food" data-label="lumberyard on Dimwell Street" cx="284" cy="326" r="4"/><text class="room-type-label" font-size="4.5" x="284" y="326" text-anchor="middle" dominant-baseline="central">F</text>
+    <circle id="room-b7d1c631bde34be141b8db19b255b5ba59d374ad" class="room outdoor room-shop" data-label="lumberyard on Dimwell Street" cx="284" cy="326" r="4"/><text class="room-type-label" font-size="4.5" x="284" y="326" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-2f7658069cbde3fce50f15d78b8691fc94a0dd0e" class="room outdoor" data-label="Dimwell Street" cx="298" cy="326" r="4"/>
     <circle id="room-41c308a72add18f2a90078ec4e7fc07939b01f41" class="room outdoor" data-label="Dimwell Street, outside a cafe" cx="312" cy="340" r="4"/>
     <rect id="room-a26a7d37bb46c8726226a9237cf84c79f90c79dd" class="room indoor room-tavern" data-label="Mrs Dimmles&#x27; Open-All-Hours Cafe" x="308" y="325" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="312" y="329" text-anchor="middle" dominant-baseline="central">V</text>
@@ -9401,7 +9401,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-ef42afb12834d8605e4995a5dd8a09c43f9c0315" class="room outdoor green" data-label="path through Hide Park" cx="382" cy="396" r="4"/>
     <circle id="room-ccae87b4fb41c81685e6b505424e70ba7f671b05" class="room outdoor" data-label="Nonesuch Street" cx="340" cy="466" r="4"/>
     <circle id="room-0f83f87b5ca48b8c1f264409cbfd092a32215bce" class="room outdoor" data-label="Nonesuch Street, outside Le Cochon" cx="326" cy="466" r="4"/>
-    <rect id="room-4539970f39d81bda7fe4dab8fc89ace84e1a4b66" class="room indoor room-clothes" data-label="Cochon" x="322" y="473" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="326" y="477" text-anchor="middle" dominant-baseline="central">C</text>
+    <rect id="room-4539970f39d81bda7fe4dab8fc89ace84e1a4b66" class="room indoor room-shop" data-label="Cochon" x="322" y="473" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="326" y="477" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-a76562e4b4896859100bdae72f5b03be31d8f22d" class="room outdoor" data-label="southwest end of Nonesuch Street" cx="312" cy="480" r="4"/>
     <circle id="room-5a622dbba35b117a9b03dbb46ee8f6b3f84ff4b1" class="room outdoor" data-label="junction of Nonesuch Street with Mollymog Street" cx="298" cy="494" r="4"/>
     <circle id="room-67bdff402ecaa3f86f85200f23e512d028e3eb3c" class="room outdoor" data-label="junction of Ankh Bridge, Mollymog Street and Dock Road" cx="298" cy="508" r="4"/>
@@ -9520,7 +9520,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-4929346cb03f7b17071e9f43632500345a457a3e" class="room outdoor" data-label="Myrtle Street" cx="466" cy="438" r="4"/>
     <circle id="room-a50d0d4d5a3de81a05b035397e6861429ab95b7f" class="room outdoor" data-label="Myrtle Street" cx="452" cy="452" r="4"/>
     <circle id="room-e5f51d01887f39a86539556e598e52eac5ea2879" class="room outdoor" data-label="Myrtle Street" cx="438" cy="466" r="4"/>
-    <rect id="room-b08b6bf8d56e96f4da6d81fd45fcbef59f6d97cd" class="room indoor room-weapon" data-label="small shop" x="434" y="451" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="438" y="455" text-anchor="middle" dominant-baseline="central">W</text>
+    <rect id="room-b08b6bf8d56e96f4da6d81fd45fcbef59f6d97cd" class="room indoor room-shop" data-label="small shop" x="434" y="451" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="438" y="455" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-665c132702ebd924de9ea839b388ba54e28a0ed0" class="room outdoor" data-label="Myrtle Street" cx="494" cy="410" r="4"/>
     <circle id="room-0554f3f0c91e19f5c2d8b34c5b1dd98c7d3f2be9" class="room outdoor" data-label="southwest end of Speedwell Street" cx="564" cy="354" r="4"/>
     <circle id="room-5f9b0b547a6095499e3eb6aa133774cc8fa5eba2" class="room outdoor" data-label="Speedwell Street" cx="578" cy="354" r="4"/>
@@ -9558,7 +9558,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-5560f025eae884b3783068e20bc924135610c135" class="room outdoor" data-label="King&#x27;s Way" cx="732" cy="242" r="4"/>
     <circle id="room-cf4e6cd88fb60aced7a6f6f7a28c9b06ab9359ba" class="room outdoor" data-label="King&#x27;s Way, outside the Rathskeller" cx="732" cy="228" r="4"/>
     <rect id="room-01635c1a831a93361073678b2e6776c709ee7dcd" class="room indoor" data-label="entryway to the King&#x27;s Way Rathskeller" x="717" y="224" width="8" height="8" rx="2"/>
-    <rect id="room-c2d9724a029eab1db38a069311bab190132162f0" class="room indoor room-food" data-label="King&#x27;s Way Rathskeller" x="717" y="224" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="721" y="228" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-c2d9724a029eab1db38a069311bab190132162f0" class="room indoor room-pub" data-label="King&#x27;s Way Rathskeller" x="717" y="224" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="721" y="228" text-anchor="middle" dominant-baseline="central">B</text>
     <circle id="room-28233c66f517c22a1804fc8584e92fc462555378" class="room outdoor" data-label="western end of The Ridings" cx="746" cy="214" r="4"/>
     <circle id="room-6db8245244af495208e3e55560a996a5838c4877" class="room outdoor" data-label="The Ridings, outside the de Nada family house" cx="760" cy="214" r="4"/>
     <rect id="room-2f12e1ab252c123b317b74ce67d5ebee8b70ae7e" class="room indoor room-clothes" data-label="Ridings Bit Shop" x="756" y="221" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="760" y="225" text-anchor="middle" dominant-baseline="central">C</text>
@@ -9728,7 +9728,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-9bceab82611692af4d5ae6696436867a913f127c" class="room indoor" data-label="basement" x="1148" y="325" width="8" height="8" rx="2"/>
     <circle id="room-61326f892589918c0b2db4b4287b9962c5c6d0ab" class="room outdoor" data-label="junction of Artorollo Alley and Hopesprings" cx="1138" cy="326" r="4"/>
     <circle id="room-486fd966b40aa7924bf5e663403483afc1393fbc" class="room outdoor" data-label="north end of Hopesprings" cx="1138" cy="340" r="4"/>
-    <rect id="room-03360211b315daf089d9ba329dd32417b9c7f54c" class="room indoor room-food" data-label="Rat-Hole" x="1120" y="343" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1124" y="347" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-03360211b315daf089d9ba329dd32417b9c7f54c" class="room indoor room-pub" data-label="Rat-Hole" x="1120" y="343" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1124" y="347" text-anchor="middle" dominant-baseline="central">B</text>
     <circle id="room-33ba8dea282066e2ad5d3219b7176dae3b1ad8e8" class="room outdoor" data-label="west part of Artorollo Alley" cx="1124" cy="326" r="4"/>
     <rect id="room-62d15c4c3be39ed63efeb8a0e37c5eab2e83e77e" class="room indoor room-shop" data-label="Curio Shop" x="1120" y="333" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1124" y="337" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-0416fa80685a9120178886ec136f151160e9d554" class="room outdoor" data-label="west end of Artorollo Alley" cx="1110" cy="312" r="4"/>
@@ -9738,7 +9738,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-84ffacd8c1080a6204a9d4012cbbca58e65a37f5" class="room outdoor" data-label="junction of Brookless Lane and Spa Lane" cx="1040" cy="298" r="4"/>
     <circle id="room-dcdafc2e53b599b0873e7ceb962ff8d2b672b2a6" class="room outdoor" data-label="Brookless Lane" cx="1026" cy="298" r="4"/>
     <circle id="room-04a520a94250176a6c4e222c880d47d71abe8e98" class="room outdoor" data-label="Brookless Lane, outside a classy looking shop" cx="1012" cy="284" r="4"/>
-    <rect id="room-97f4081f8a0944dcf08b3c109836ce07e76cedfd" class="room indoor room-shop" data-label="calligraphy shop" x="1008" y="293" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1012" y="297" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-97f4081f8a0944dcf08b3c109836ce07e76cedfd" class="room indoor room-stationery" data-label="calligraphy shop" x="1008" y="293" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1012" y="297" text-anchor="middle" dominant-baseline="central">Q</text>
     <circle id="room-741425f7207c2220c2c232cd156a42d617179951" class="room outdoor" data-label="Brookless Lane" cx="998" cy="270" r="4"/>
     <circle id="room-1c7549fef9ae78d7ad209a838337b51d7f15d28b" class="room outdoor room-bank" data-label="Brookless Lane outside a branch of Bing&#x27;s Bank" cx="984" cy="270" r="4"/><text class="room-type-label" font-size="4.5" x="984" y="270" text-anchor="middle" dominant-baseline="central">$</text>
     <rect id="room-4e22f04d622d486ef767840ec15774c7e34bf8e7" class="room indoor room-bank" data-label="Bing&#x27;s First Bank on Brookless Lane" x="980" y="277" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="984" y="281" text-anchor="middle" dominant-baseline="central">$</text>
@@ -10026,7 +10026,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-74d6bedf14c9f873fee34df795f3b566c259d4aa" class="room outdoor" data-label="muddy path along the side of Mort Lake" cx="1110" cy="452" r="4"/>
     <circle id="room-053b6ecfee0d500d1123bea9689d9bd7d67a2afb" class="room outdoor" data-label="junction of Water Street and a muddy path around Mort Lake" cx="1096" cy="452" r="4"/>
     <circle id="room-0ccfa3b3f36df9d9f2a4a2247d6fc2d7d5aeb26c" class="room outdoor" data-label="Water Street" cx="1096" cy="438" r="4"/>
-    <rect id="room-fd010238f538b57bb00f8ad023078b18885bbe0c" class="room indoor room-food" data-label="Olson&#x27;s Iron Shop" x="1092" y="423" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1096" y="427" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-fd010238f538b57bb00f8ad023078b18885bbe0c" class="room indoor room-shop" data-label="Olson&#x27;s Iron Shop" x="1092" y="423" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1096" y="427" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-0e8f925f8b7f4d6838e746b52d0bdf86aba4e9d9" class="room outdoor" data-label="Water Street" cx="1110" cy="424" r="4"/>
     <circle id="room-07dbc948a434db820e1b9826dd8c96aa5765101d" class="room outdoor" data-label="Water Street" cx="1110" cy="410" r="4"/>
     <circle id="room-572f30114bb0706bcc88f76c7fa72d74079ba664" class="room outdoor" data-label="Water Street south of a major intersection" cx="1124" cy="396" r="4"/>
@@ -10181,7 +10181,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-fe2136425a4420fcd73696417af6224a61b01d9b" class="room outdoor" data-label="north side of the Plaza of Broken Moons" cx="1026" cy="732" r="4"/>
     <circle id="room-3317c070c4f1ca4bf05cd11fc8eb786ca94e5e58" class="room outdoor" data-label="northeast side of the Plaza of Broken Moons" cx="1040" cy="732" r="4"/>
     <rect id="room-bb97d14f936216eeb7d6457dc4c9bb514ebc0b0d" class="room indoor room-access" data-label="Rendtnor&#x27;s Jewellery Shop" x="1036" y="717" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1040" y="721" text-anchor="middle" dominant-baseline="central">X</text>
-    <rect id="room-0ffffdbc050cb424566fae5e4ca0cf5d2782b0a2" class="room indoor room-food" data-label="Plaza Tobacconist&#x27;s" x="1050" y="716" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1054" y="720" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-0ffffdbc050cb424566fae5e4ca0cf5d2782b0a2" class="room indoor room-shop" data-label="Plaza Tobacconist&#x27;s" x="1050" y="716" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1054" y="720" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-b0a7b4b544ca4faddfc0d5695a7e9f9bb544316b" class="room outdoor" data-label="east side of the Plaza of Broken Moons" cx="1040" cy="746" r="4"/>
     <rect id="room-2d715bf254b2675fc60159bcc6cf6baf71399215" class="room indoor room-shop" data-label="Ripley&#x27;s Custom Tabards" x="1049" y="732" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1053" y="736" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-a4133948cae5f9410f1c9574bd5f040acd1289fb" class="room outdoor" data-label="west end of Hopper Street" cx="1054" cy="746" r="4"/>
@@ -10214,7 +10214,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-ee4029e3e4fb808b9a68d3f566a98bf1402ae5eb" class="room outdoor" data-label="junction of Turnwise Broadway and the Maul" cx="942" cy="816" r="4"/>
     <circle id="room-b1b718e2b210a6fbc01b4105a5c8b331311f512f" class="room outdoor" data-label="junction of Turnwise Broadway and the Maul" cx="928" cy="802" r="4"/>
     <rect id="room-86547e8b388cfcc746e6dd0a7cb4649d88310e46" class="room indoor room-tavern" data-label="Burgner&#x27;s Coffee on the Maul" x="958" y="788" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="962" y="792" text-anchor="middle" dominant-baseline="central">V</text>
-    <rect id="room-5e8a34b573a4ea52e23e4a3f7dd23be4fe306d59" class="room indoor room-shop" data-label="Pain in the Neck" x="976" y="780" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="980" y="784" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-5e8a34b573a4ea52e23e4a3f7dd23be4fe306d59" class="room indoor room-food" data-label="Pain in the Neck" x="976" y="780" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="980" y="784" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-270328091304519b8b8fd427e82540ced1aed1fd" class="room outdoor" data-label="Washer Way just off Unreal Estate" cx="1152" cy="634" r="4"/>
     <rect id="room-c0e787d5d356a6d476e191f3193d8586cf940908" class="room indoor" data-label="house" x="1148" y="641" width="8" height="8" rx="2"/>
     <circle id="room-01c9c211611df4a1f719ea8b0c8cff4b39241a54" class="room outdoor" data-label="rose garden" cx="1152" cy="645" r="4"/>
@@ -10354,7 +10354,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-c3879d579f9f19b9e1a3ec0bd271cf95181797fe" class="room outdoor" data-label="junction of the Street of Small Gods and Upper Broadway" cx="956" cy="900" r="4"/>
     <circle id="room-945c44c6a3c6091578d1af4051d3867c87957152" class="room outdoor" data-label="northwest end of Market Street" cx="998" cy="872" r="4"/>
     <circle id="room-651ca196c0015d2d11fef35de1391176e1001de1" class="room outdoor" data-label="Market Street" cx="1012" cy="886" r="4"/>
-    <rect id="room-c0e92eb5d896371a382973b703e7e4ec86681d74" class="room indoor room-shop" data-label="colourful stall on Market Street" x="1002" y="887" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1006" y="891" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-c0e92eb5d896371a382973b703e7e4ec86681d74" class="room indoor room-food" data-label="colourful stall on Market Street" x="1002" y="887" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1006" y="891" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-42410c9dd35ac71645d4813bb0361522879aba4f" class="room outdoor" data-label="centre of Market Street" cx="1026" cy="886" r="4"/>
     <rect id="room-3801f737a4c089bc2c674ae3f6a9753207fa0a3a" class="room indoor room-access" data-label="shabby stall on Market Street" x="1026" y="877" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1030" y="881" text-anchor="middle" dominant-baseline="central">X</text>
     <rect id="room-679726f8c952194073d524c451fc3c6b71b1b396" class="room indoor room-tavern" data-label="Costlee Coffee on Market Street" x="1022" y="893" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1026" y="897" text-anchor="middle" dominant-baseline="central">V</text>
@@ -10413,7 +10413,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-bd65c7a32acc6f3257465af25a34a493215d1f76" class="room outdoor" data-label="Zephire Street" cx="1082" cy="998" r="4"/>
     <circle id="room-d8f9be1d7ad284b9ff7e6e6e74b628ec11a8e3fe" class="room outdoor" data-label="Zephire Street" cx="1082" cy="984" r="4"/>
     <circle id="room-fb6e90d509237d0db5f77b732c2047bb004d330f" class="room outdoor" data-label="Zephire Street outside W&amp;B Chocolatiers" cx="1082" cy="970" r="4"/>
-    <rect id="room-b576234237a54014a56677c8bab759f66ae34046" class="room indoor room-weapon" data-label="W&amp;B Chocolatiers" x="1089" y="966" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1093" y="970" text-anchor="middle" dominant-baseline="central">W</text>
+    <rect id="room-b576234237a54014a56677c8bab759f66ae34046" class="room indoor room-food" data-label="W&amp;B Chocolatiers" x="1089" y="966" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1093" y="970" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-0c1210d934f736962fa5582b72ce0849636fa447" class="room outdoor" data-label="Zephire Street" cx="1068" cy="956" r="4"/>
     <circle id="room-01094ff2528d013f952fb4a0dcb4711804c35a0c" class="room outdoor" data-label="Zephire Street, southeast of Esoteric" cx="1054" cy="942" r="4"/>
     <circle id="room-fe3bd1453f037e564f8ac326ada0bcfec3db5501" class="room outdoor" data-label="junction of Esoteric Street and Zephire Street" cx="1040" cy="928" r="4"/>
@@ -10503,7 +10503,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-5def1bc82b9ee0c2bfd236fb9387c17b7e2f63e0" class="room outdoor" data-label="Endless Street" cx="480" cy="1208" r="4"/>
     <circle id="room-47bf28478b85333e7fb9c708a3d124de5f146146" class="room outdoor" data-label="Endless Street" cx="466" cy="1208" r="4"/>
     <circle id="room-52f71f498de6833690d579b692cac8d6000dba50" class="room outdoor" data-label="Endless Street outside a scabbard shop" cx="452" cy="1194" r="4"/>
-    <rect id="room-b24bf3991ed3820cfa7653e5f4fe1fa7726dcd27" class="room indoor room-weapon" data-label="Sartorn and Son Scabbard Store" x="459" y="1190" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="463" y="1194" text-anchor="middle" dominant-baseline="central">W</text>
+    <rect id="room-b24bf3991ed3820cfa7653e5f4fe1fa7726dcd27" class="room indoor room-access" data-label="Sartorn and Son Scabbard Store" x="459" y="1190" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="463" y="1194" text-anchor="middle" dominant-baseline="central">X</text>
     <circle id="room-83d4a99d1dcff51167b38e6f8e7da6940bd22eec" class="room outdoor" data-label="Endless Street" cx="438" cy="1194" r="4"/>
     <circle id="room-403a234bc950aa66e9dd7cce25c98fd8ff48657a" class="room outdoor" data-label="Endless Street" cx="410" cy="1180" r="4"/>
     <circle id="room-0a7083ed1b03d26a3155322e15f62e999f770fde" class="room outdoor" data-label="Endless Street" cx="396" cy="1180" r="4"/>
@@ -10567,7 +10567,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-863d345e74da5588c85ad317c951a6615d36e9f7" class="room outdoor" data-label="Ferry Lane" cx="18" cy="620" r="4"/>
     <circle id="room-57ed5defdd80a94c76041f3a5accb03cb9833fc5" class="room outdoor" data-label="northeast end of Kedger Street" cx="32" cy="634" r="4"/>
     <circle id="room-3b7975705e8200ca9a0ff8a5f9e3f54175ed9b94" class="room outdoor" data-label="southwest end of Kedger Street" cx="18" cy="648" r="4"/>
-    <rect id="room-0d9b8d946a6a9dab896c3055c3ebc383d3d3ab03" class="room indoor room-food" data-label="seedy shop" x="14" y="633" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="18" y="637" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-0d9b8d946a6a9dab896c3055c3ebc383d3d3ab03" class="room indoor room-shop" data-label="seedy shop" x="14" y="633" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="18" y="637" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-66d7f18ab4d938dd55a1bd33c801b568e217a8b1" class="room outdoor" data-label="road along the docks" cx="46" cy="620" r="4"/>
     <circle id="room-8018a56a8c28fe7c8623e75073efe3c3f4ede4b6" class="room outdoor" data-label="Ferry Lane" cx="60" cy="620" r="4"/>
     <circle id="room-5fa006c02ccb52028985615de4aca7ea1aeba758" class="room outdoor" data-label="Pearl Dock" cx="74" cy="620" r="4"/>
@@ -10589,7 +10589,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-ed1535605801df0b88bf2754c3d7157e0e06ae1b" class="room outdoor" data-label="Waterfront" cx="200" cy="606" r="4"/>
     <circle id="room-0495a24ce61d1044e4d542855d002e969539afef" class="room outdoor" data-label="Waterfront" cx="214" cy="606" r="4"/>
     <circle id="room-ef91707f6ac8bfe016793cce9df1360af056814b" class="room outdoor" data-label="Waterfront" cx="214" cy="592" r="4"/>
-    <rect id="room-2d1426d5ad377603a5865d256a94d7faa39bab34" class="room indoor room-food" data-label="large tent" x="196" y="588" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="200" y="592" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-2d1426d5ad377603a5865d256a94d7faa39bab34" class="room indoor room-pub" data-label="large tent" x="196" y="588" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="200" y="592" text-anchor="middle" dominant-baseline="central">B</text>
     <circle id="room-d8d3335d7890e3e438eb2e48eaf05e21eecade67" class="room outdoor" data-label="Waterfront" cx="228" cy="592" r="4"/>
     <circle id="room-cae9d18fbf4b39e304fd109a96de81b93944aaf8" class="room outdoor" data-label="Fish Dock" cx="242" cy="592" r="4"/>
     <polygon id="room-487423b407665820c9c667967f07422ecb66755a" class="room bridge outdoor" data-label="bridge over a canal" cx="256" cy="592" points="256,588 259.46410161513774,590 259.46410161513774,594 256,596 252.53589838486224,594 252.53589838486224,590"/>
@@ -10645,7 +10645,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-48fc08555caab8f8f2a6bbf906bb634e5b4a360e" class="room outdoor" data-label="east side of the Dragon&#x27;s Landing Redevelopment Site" cx="970" cy="1068" r="4"/>
     <circle id="room-be3e6a51db9c0b26da0fe66881e99403d6b7e75b" class="room outdoor" data-label="east side of Dragon&#x27;s Landing Redevelopment Site, near Merchants Street" cx="956" cy="1054" r="4"/>
     <circle id="room-4c9748176174356adeb1b564f3209866de224320" class="room outdoor" data-label="Merchants Street" cx="970" cy="1054" r="4"/>
-    <rect id="room-e5526dbae7e456e744ba86fe34a723ba686f9f09" class="room indoor room-shop" data-label="Golden Dragon" x="977" y="1050" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="981" y="1054" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-e5526dbae7e456e744ba86fe34a723ba686f9f09" class="room indoor room-tavern" data-label="Golden Dragon" x="977" y="1050" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="981" y="1054" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-a6067a30b99e10b3b991c46721e3bcb8b1f982e7" class="room outdoor" data-label="Merchants Street" cx="984" cy="1040" r="4"/>
     <circle id="room-77360edbc0bdf22b7cd47aa9c24c8cf8fe062355" class="room outdoor" data-label="Merchants Street" cx="998" cy="1040" r="4"/>
     <circle id="room-c1350d5b668c4578e2fc5b4da667a1fd80b8ca23" class="room outdoor" data-label="Merchants Street" cx="1012" cy="1026" r="4"/>
@@ -10730,7 +10730,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-be95bed212fb30b73b06d64310e098809af1e60e" class="room outdoor" data-label="The Street of Cunning Artificers" cx="928" cy="984" r="4"/>
     <rect id="room-085713c33ef2fcd013f4d61a73a484c36af04e4b" class="room indoor" data-label="Ankh-Morpork Lost Property Office" x="924" y="969" width="8" height="8" rx="2"/>
     <circle id="room-e11d009bfc4de02e43ee76019c6b1fe4568c02d2" class="room outdoor" data-label="The Street of Cunning Artificers" cx="942" cy="984" r="4"/>
-    <rect id="room-bfa94c52cbbdf77c9ac30200cef8530bd0854484" class="room indoor room-shop" data-label="Pinky&#x27;s Lingerie and Big Top Circus Supply Emporium" x="948" y="990" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="952" y="994" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-bfa94c52cbbdf77c9ac30200cef8530bd0854484" class="room indoor room-clothes" data-label="Pinky&#x27;s Lingerie and Big Top Circus Supply Emporium" x="948" y="990" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="952" y="994" text-anchor="middle" dominant-baseline="central">C</text>
     <circle id="room-6b72a1d7a0b92b7c6aedc5a37073a3e419cbcc85" class="room outdoor" data-label="The Street of Cunning Artificers" cx="956" cy="970" r="4"/>
     <rect id="room-6d293444115637abb0124bcea32cb8380182a964" class="room indoor room-shop" data-label="ventriloquist&#x27;s shop" x="952" y="955" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="956" y="959" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-8c414b0ec6672042e235f4c731ed6491b2488816" class="room outdoor" data-label="The Street of Cunning Artificers" cx="970" cy="956" r="4"/>
@@ -10814,7 +10814,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-60694aa52be130cbeb6447703763f88f9e155738" class="room outdoor" data-label="Street of Cunning Artificers" cx="802" cy="1040" r="4"/>
     <rect id="room-b8dd66acb1884fe07b7414ad3a2e29aabddd7f3c" class="room indoor" data-label="flooring shop" x="798" y="1047" width="8" height="8" rx="2"/>
     <circle id="room-979fa7d6a716c8c025f7b5fa9277969109b7b6c0" class="room outdoor" data-label="Aguinna IV Cemetery" cx="816" cy="1040" r="4"/>
-    <rect id="room-fd9164ad97f67fd64cba718df8f9374004249bef" class="room indoor room-access" data-label="coffin shop" x="812" y="1047" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="816" y="1051" text-anchor="middle" dominant-baseline="central">X</text>
+    <rect id="room-fd9164ad97f67fd64cba718df8f9374004249bef" class="room indoor room-shop" data-label="coffin shop" x="812" y="1047" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="816" y="1051" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-02017157a158813bbd0470ecb9e1c23da03049d1" class="room outdoor" data-label="outside the Small Gods Cemetery" cx="830" cy="1026" r="4"/>
     <circle id="room-a25bcf0aca7bc6dd7dbab6922b62bed5ea9f7a9e" class="room outdoor" data-label="Small Gods Cemetery" cx="830" cy="1012" r="4"/>
     <circle id="room-a4e1c837f7c3d411abd98c3066ce61fd2c37834b" class="room outdoor" data-label="secluded section of the Small Gods Cemetery" cx="816" cy="1012" r="4"/>
@@ -10952,7 +10952,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-b740ad5ea761e8e45b85e3cea7786637fddf82ed" class="room outdoor" data-label="Baker Street" cx="746" cy="844" r="4"/>
     <circle id="room-3eac5955fe258a707664c3de56d5e4b47428c385" class="room outdoor" data-label="Baker Street" cx="746" cy="858" r="4"/>
     <circle id="room-12c934302e65f2fa82c903e9041dda757133d85b" class="room outdoor" data-label="Baker Street" cx="760" cy="872" r="4"/>
-    <rect id="room-249399a8875d6080501883e4c94d13ec0c9cc019" class="room indoor room-shop" data-label="Fresh Fruit on Baker" x="742" y="868" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="746" y="872" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-249399a8875d6080501883e4c94d13ec0c9cc019" class="room indoor room-food" data-label="Fresh Fruit on Baker" x="742" y="868" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="746" y="872" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-f087dcc8062cbebde1c36d75b8a4a2251ec10706" class="room outdoor" data-label="Short Street" cx="718" cy="872" r="4"/>
     <circle id="room-6480538fdba7256ef79529e31e63edeec6377004" class="room outdoor" data-label="Short Street" cx="718" cy="858" r="4"/>
     <circle id="room-c70c9d7ce1ae9abbc36c589b8bdd5b3d0324118b" class="room outdoor" data-label="Short Street" cx="718" cy="844" r="4"/>
@@ -11120,11 +11120,11 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-aa2db9e764ee93425cdb5822d443280f88674faa" class="room outdoor" data-label="Whopping Street" cx="284" cy="1012" r="4"/>
     <circle id="room-1f2e8d93b1aa94d87188a5ded5e3a55bf8bd0df3" class="room outdoor" data-label="Whopping Street" cx="270" cy="1012" r="4"/>
     <circle id="room-96dd91e9ea96bef7fda98c1fcb02d6426f8cdbf2" class="room outdoor" data-label="Whopping Street" cx="256" cy="998" r="4"/>
-    <circle id="room-634ec474418e42dee92acefe86d16e47a84c4f13" class="room outdoor room-shop" data-label="Little Agatea" cx="268" cy="986" r="4"/><text class="room-type-label" font-size="4.5" x="268" y="986" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-634ec474418e42dee92acefe86d16e47a84c4f13" class="room outdoor room-food" data-label="Little Agatea" cx="268" cy="986" r="4"/><text class="room-type-label" font-size="4.5" x="268" y="986" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-13a8467be440428b266864c4fe133b04121b7e03" class="room outdoor" data-label="Little Agatea" cx="257" cy="970" r="4"/>
     <rect id="room-84312d90ed5eb4f40ccf1c7b9e4ed556137b093a" class="room indoor" data-label="dingy bedroom" x="253" y="955" width="8" height="8" rx="2"/>
-    <rect id="room-5d45210d01174e25662f5a90ad59e83de78d6e9b" class="room indoor room-shop" data-label="Won Rip Off Emporium" x="264" y="971" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="268" y="975" text-anchor="middle" dominant-baseline="central">S</text>
-    <circle id="room-3e658fac2b551442d118db1e726c01044e9271fa" class="room outdoor room-shop" data-label="Little Agatea" cx="289" cy="986" r="4"/><text class="room-type-label" font-size="4.5" x="289" y="986" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-5d45210d01174e25662f5a90ad59e83de78d6e9b" class="room indoor room-clothes" data-label="Won Rip Off Emporium" x="264" y="971" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="268" y="975" text-anchor="middle" dominant-baseline="central">C</text>
+    <circle id="room-3e658fac2b551442d118db1e726c01044e9271fa" class="room outdoor room-food" data-label="Little Agatea" cx="289" cy="986" r="4"/><text class="room-type-label" font-size="4.5" x="289" y="986" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-3ff0a9593f19e260222a21637f865855c700987e" class="room indoor" data-label="&quot;Bes Pelargic&quot;, Laundry House" x="285" y="971" width="8" height="8" rx="2"/>
     <rect id="room-886e1da4dd53a0b6f43c4248d014bd2838265bee" class="room indoor room-tavern" data-label="Wun Phul Mouth&#x27;s Hunghungese Restaurant" x="296" y="971" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="300" y="975" text-anchor="middle" dominant-baseline="central">V</text>
     <rect id="room-1e45bf5fd9e7720e1099f85ae93de0f364487a82" class="room indoor" data-label="CWC ideas room" x="296" y="961" width="8" height="8" rx="2"/>
@@ -11188,7 +11188,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-7a3c0495b0dda89a85661e059753707b1779be41" class="room outdoor" data-label="intersection of Tobacco Road and Trotters Lane" cx="60" cy="774" r="4"/>
     <circle id="room-c49cca9b5ed4eebe1c7b868c4b0df84a6ea4efdd" class="room outdoor" data-label="south end of Tobacco Road" cx="60" cy="788" r="4"/>
     <circle id="room-04e5da7701d973168f9a3a102e91d91a1a2c5b7b" class="room outdoor" data-label="east end of Trotters Lane" cx="74" cy="774" r="4"/>
-    <rect id="room-c60ee4624f5decc5f0bc9ba610aa50f27e0c5bb3" class="room indoor room-clothes" data-label="Caveat Emptorium" x="70" y="764" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="74" y="768" text-anchor="middle" dominant-baseline="central">C</text>
+    <rect id="room-c60ee4624f5decc5f0bc9ba610aa50f27e0c5bb3" class="room indoor room-shop" data-label="Caveat Emptorium" x="70" y="764" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="74" y="768" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-d9d19e57659821663da887e42f451de6a858a4c4" class="room outdoor" data-label="The Shambles" cx="88" cy="774" r="4"/>
     <circle id="room-ee1f2d50db8076501555d363317ebd80973937c7" class="room outdoor" data-label="The Shambles" cx="88" cy="788" r="4"/>
     <circle id="room-b04d02c6e8da8e535b0fa8edab421bcb929565e4" class="room outdoor" data-label="south end of The Shambles" cx="102" cy="802" r="4"/>
@@ -11203,7 +11203,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-c056a6baa321151267ee00ea07a7228d804c3bfa" class="room outdoor" data-label="northeast side of Sticken Place" cx="186" cy="816" r="4"/>
     <circle id="room-ac95ba9f86988d9595f4aee6d6da042627366b6a" class="room outdoor" data-label="southeast side of Sticken Place" cx="186" cy="830" r="4"/>
     <circle id="room-d2e0a0f69481204f90f8d7145af7f508e9b28e74" class="room outdoor" data-label="southwest side of Sticken Place" cx="172" cy="830" r="4"/>
-    <rect id="room-fa4381d90947481d6ff5cef86401bf3fdef08212" class="room indoor room-food" data-label="Hatchet and Entrail" x="188" y="802" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="192" y="806" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-fa4381d90947481d6ff5cef86401bf3fdef08212" class="room indoor room-pub" data-label="Hatchet and Entrail" x="188" y="802" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="192" y="806" text-anchor="middle" dominant-baseline="central">B</text>
     <circle id="room-c2e0d84bd95fdd337d27e91203b60da8cfa88a9e" class="room outdoor" data-label="west end of Elm Street" cx="200" cy="816" r="4"/>
     <rect id="room-d41f21f4a4b2cc919da28c1317a7c41afc55f1bc" class="room indoor" data-label="entrance of a house" x="196" y="823" width="8" height="8" rx="2"/>
     <rect id="room-be4f61f55e5578985e19dd016c65bd7dba4f4418" class="room indoor" data-label="kitchen in the house" x="196" y="823" width="8" height="8" rx="2"/>
@@ -11236,7 +11236,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-cf86ffff877059973980a5241aa797c26967574b" class="room outdoor" data-label="junction of Elm Street and The Pitts" cx="326" cy="816" r="4"/>
     <circle id="room-6e2903a9a91618ec32013a9046167d9ae3468838" class="room outdoor" data-label="Elm Street outside of two houses" cx="340" cy="816" r="4"/>
     <circle id="room-f9ee26666ccb84a9b8e5f33ba596d4e5aa154e46" class="room outdoor" data-label="Elm Street outside a food shop" cx="354" cy="802" r="4"/>
-    <rect id="room-378b4685e62a21644d12256a2efc24dbf1cc3eea" class="room indoor room-shop" data-label="fruit and veg shop" x="350" y="809" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="354" y="813" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-378b4685e62a21644d12256a2efc24dbf1cc3eea" class="room indoor room-food" data-label="fruit and veg shop" x="350" y="809" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="354" y="813" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-86526643058d1319c7bf4e97f5294006d0c16cf0" class="room outdoor" data-label="Elm Street, outside a nice house" cx="368" cy="802" r="4"/>
     <circle id="room-1ed8ad7406af4e5fc6d636dd6515f19dc3ae12ff" class="room outdoor" data-label="Elm Street outside a tailor shop" cx="382" cy="802" r="4"/>
     <rect id="room-792cd0be7f3ae1005766e7c9b6507fcc4dc2bc54" class="room indoor room-clothes" data-label="tailor&#x27;s shop" x="373" y="808" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="377" y="812" text-anchor="middle" dominant-baseline="central">C</text>
@@ -11288,7 +11288,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-c23c7e17368497266d9ab4933b1f8d94b0578098" class="room outdoor" data-label="Garden of Inner City Tranquillity" cx="330" cy="886" r="4"/>
     <rect id="room-cdf692f5b2e719a1276d2120735ca6a2c5fef937" class="room indoor room-shop" data-label="Follatt Biraten&#x27;s pawn shop" x="318" y="872" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="322" y="876" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-895fcba25b4b3014e590d7a0888f164bb2f56e47" class="room outdoor" data-label="middle of Clay Lane" cx="312" cy="872" r="4"/>
-    <rect id="room-a2e17e2903f4abd1b5a273291072143275000c9c" class="room indoor room-food" data-label="Claro Cliff&#x27;s Pottery Shoppe" x="298" y="858" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="302" y="862" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-a2e17e2903f4abd1b5a273291072143275000c9c" class="room indoor room-shop" data-label="Claro Cliff&#x27;s Pottery Shoppe" x="298" y="858" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="302" y="862" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-6faea79110c0ff8c3c8ca5ca483b696802505491" class="room outdoor" data-label="Somewhere on Clay Lane" cx="326" cy="858" r="4"/>
     <circle id="room-d8dacf5919b5435ee563fb4b593351691aedcf6c" class="room outdoor" data-label="northern end of Clay Lane" cx="340" cy="844" r="4"/>
     <circle id="room-8dd17ba99ae91e1b78bfd2bfbbdd733f06480c7b" class="room outdoor" data-label="junction of The Pitts and Clay Lane" cx="340" cy="830" r="4"/>
@@ -11297,7 +11297,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-994d0f19975dce400dfc95c59599a68dffaba363" class="room indoor" data-label="hospital ward" x="361" y="840" width="8" height="8" rx="2"/>
     <rect id="room-c0a430158c4d7a2a08a93ae42b1c9694f716e749" class="room indoor room-food" data-label="hospital shop" x="361" y="840" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="365" y="844" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-7506c11ed52d6cb3186ac680f9e0b8015c477592" class="room outdoor" data-label="The Pitts" cx="368" cy="858" r="4"/>
-    <rect id="room-6c67d549eac78b2817b35afba17b3bfabb699d0f" class="room indoor room-clothes" data-label="Coin Corner" x="353" y="854" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="357" y="858" text-anchor="middle" dominant-baseline="central">C</text>
+    <rect id="room-6c67d549eac78b2817b35afba17b3bfabb699d0f" class="room indoor room-shop" data-label="Coin Corner" x="353" y="854" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="357" y="858" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-de86afa31dea16c98a7fd1260cfba12f0aa15e39" class="room outdoor" data-label="The Pitts" cx="368" cy="872" r="4"/>
     <circle id="room-fd9107062c1fa20a88ba315a509294a6c72582c1" class="room outdoor" data-label="Quarry Lane outside the Cavern" cx="284" cy="914" r="4"/>
     <circle id="room-09add4b2b13861abf6390fd4a3d8a66b1a32ad0c" class="room outdoor" data-label="Quarry Lane" cx="270" cy="900" r="4"/>
@@ -11327,7 +11327,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-2230c0f0effb4e6098b7c5965884789f6c9f161c" class="room outdoor" data-label="The Shambles" cx="88" cy="746" r="4"/>
     <circle id="room-5314a724a626b53ebef3b4b859e0f2881cb7657e" class="room outdoor" data-label="junction of Long Hogmeat and the Shambles" cx="88" cy="760" r="4"/>
     <circle id="room-f6527665ff42ff298540b0aa2739408ade89f372" class="room outdoor" data-label="east end of Long Hogmeat" cx="74" cy="760" r="4"/>
-    <rect id="room-e3af8b330f58281722012211b525aa3d43aaec87" class="room indoor room-shop" data-label="Sidney Clancy and Son" x="70" y="745" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="74" y="749" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-e3af8b330f58281722012211b525aa3d43aaec87" class="room indoor room-food" data-label="Sidney Clancy and Son" x="70" y="745" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="74" y="749" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-6c5e440bbae9e0f6f5002ff9bcfc8105563c83fb" class="room outdoor room-shop" data-label="Tobacco Road" cx="60" cy="746" r="4"/><text class="room-type-label" font-size="4.5" x="60" y="746" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-f853902d8de41d67386dac7ebca8c42e22f834b0" class="room outdoor" data-label="straight bit of Tobacco Road" cx="60" cy="760" r="4"/>
     <rect id="room-8d563c3b13eeea61c9087b35109baf6e4eb99d6c" class="room indoor" data-label="gloomy one-room shack" x="45" y="756" width="8" height="8" rx="2"/>
@@ -11337,7 +11337,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-671030ac78145b0ec7f651f7ac232da330d4b88e" class="room outdoor" data-label="southwest end of Abattoirs Lane" cx="18" cy="746" r="4"/>
     <circle id="room-b948a266a4b1276b8e12525e9bfbdccce445aaa7" class="room outdoor" data-label="Morpork Street" cx="18" cy="704" r="4"/>
     <circle id="room-b8c6142dc5567c2e8257e8ec109309eea37f8cb4" class="room outdoor" data-label="northwest end of Long Hogmeat" cx="18" cy="718" r="4"/>
-    <rect id="room-4fa03c4998210cec6f87fbbde0ad82611270ddf9" class="room indoor room-access" data-label="Sam Slager&#x27;s Sausages" x="16" y="726" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="20" y="730" text-anchor="middle" dominant-baseline="central">X</text>
+    <rect id="room-4fa03c4998210cec6f87fbbde0ad82611270ddf9" class="room indoor room-food" data-label="Sam Slager&#x27;s Sausages" x="16" y="726" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="20" y="730" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-3c6e7fb58087b5579a0ee00f76e5700a7aee819d" class="room indoor room-mission" data-label="Sam Slager&#x27;s back room" x="9" y="726" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="13" y="730" text-anchor="middle" dominant-baseline="central">!</text>
     <circle id="room-82099f7c348880a87ff234915cd83f796eab2ef3" class="room outdoor" data-label="Abattoirs Lane" cx="46" cy="718" r="4"/>
     <circle id="room-2d488d115f984861c85a3186cacbc7676bc32291" class="room outdoor" data-label="middle of Pony Parts" cx="60" cy="732" r="4"/>
@@ -11495,7 +11495,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-67f909e0b8653dd55f11246adb182ebb8ac7e27a" class="room outdoor" data-label="near the west end of Easy Street" cx="508" cy="788" r="4"/>
     <circle id="room-40e13a0973bbe836c1f0c40ff7f2229e486dfd24" class="room outdoor" data-label="west end of Easy Street" cx="494" cy="802" r="4"/>
     <rect id="room-5fe9d82f0aab303a084eadd1be086790aa16e4e2" class="room indoor room-pub" data-label="Bunch Of Grapes" x="490" y="787" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="494" y="791" text-anchor="middle" dominant-baseline="central">B</text>
-    <rect id="room-464b372bab3fa9c31c776d17d11c1d78370afa5f" class="room indoor room-food" data-label="Crimson Leech" x="500" y="808" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="504" y="812" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-464b372bab3fa9c31c776d17d11c1d78370afa5f" class="room indoor room-pub" data-label="Crimson Leech" x="500" y="808" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="504" y="812" text-anchor="middle" dominant-baseline="central">B</text>
     <circle id="room-85b70c27bfb7211b7b5009335cc778b6e200a96b" class="room outdoor" data-label="west end of Cheap Street" cx="480" cy="816" r="4"/>
     <circle id="room-18bc87bba6e94fb26d6d956dfb824aed8023a5d7" class="room outdoor" data-label="Cheap Street" cx="494" cy="830" r="4"/>
     <circle id="room-dfeb6ef30c32e4e2037e84547ed5a6a1254b6dc6" class="room outdoor" data-label="intersection of Cheap Street and Mincing Street" cx="508" cy="844" r="4"/>
@@ -11642,7 +11642,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-547ce3548b7e2d4a8ce3a4d0023dee618a300932" class="room indoor" data-label="dirty privy" x="661" y="686" width="8" height="8" rx="2"/>
     <circle id="room-fee790ad849107be4f1f9d0fdf8f8d1a1d20c128" class="room outdoor" data-label="Squeezebelly Alley" cx="690" cy="690" r="4"/>
     <circle id="room-537fd4cafe0bf6eb23491e455a571b166a857a11" class="room outdoor" data-label="Squeezebelly Alley" cx="690" cy="704" r="4"/>
-    <rect id="room-e59397a0434224644f8712edbc2959fdee0d0b7c" class="room indoor room-shop" data-label="Fat Sally&#x27;s" x="697" y="700" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="701" y="704" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-e59397a0434224644f8712edbc2959fdee0d0b7c" class="room indoor room-tavern" data-label="Fat Sally&#x27;s" x="697" y="700" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="701" y="704" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-00427bba3ff3f8c9a8fd4adf84f0d598c3a1b7a9" class="room outdoor" data-label="Squeezebelly Alley" cx="690" cy="718" r="4"/>
     <circle id="room-b89de4286452a12319567b7812287e084a29c3e2" class="room outdoor" data-label="Brewer Street" cx="690" cy="676" r="4"/>
     <circle id="room-20bcd658c92fa9473e9b1c24769f21fd957e8fd3" class="room outdoor" data-label="Knuckle Passage" cx="690" cy="662" r="4"/>
@@ -11674,7 +11674,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-d66f61833f7df3dbb5e170e6ae82ebb2dc55e1b2" class="room indoor room-shop" data-label="paint shop" x="630" y="591" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="634" y="595" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-b6f92e9ea8c1248a6b2cd0f3150a9e0508f5e159" class="room outdoor" data-label="Sheer Street" cx="620" cy="606" r="4"/>
     <circle id="room-f176716d3aae8ed0f5221724f981da5d628fd625" class="room outdoor" data-label="Pseudopolis Yard" cx="676" cy="592" r="4"/>
-    <rect id="room-b839d36a1108671857f43f507cd40ab62475c31c" class="room indoor room-shop" data-label="Rosa&#x27;s Chocolate Emporium" x="661" y="588" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="665" y="592" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-b839d36a1108671857f43f507cd40ab62475c31c" class="room indoor room-food" data-label="Rosa&#x27;s Chocolate Emporium" x="661" y="588" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="665" y="592" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-20fe429b34e5f50b791cc07f2083da7e43ffc0a9" class="room outdoor" data-label="Pseudopolis Yard" cx="690" cy="578" r="4"/>
     <rect id="room-040b76b86b9ed01e635a40daeea5470cbf45bc5e" class="room indoor room-pub" data-label="The Stab in the Back pub" x="675" y="574" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="679" y="578" text-anchor="middle" dominant-baseline="central">B</text>
     <circle id="room-ad942627ee46891bebb01fd673ea9dda5d18fc96" class="room outdoor" data-label="Pseudopolis Yard" cx="704" cy="578" r="4"/>
@@ -12056,7 +12056,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-7020fd00a990bf30594a986481825833e36a4d33" class="room indoor" data-label="small bedroom" x="854" y="1011" width="8" height="8" rx="2"/>
     <rect id="room-e57346ca1ed1160443768df2ec83450f4b868ce2" class="room indoor room-shop" data-label="fish stall" x="112" y="616" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="116" y="620" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-0abd10f59ddd4fe73eae23307a5d22d55083cd6c" class="room indoor room-shop" data-label="jellied eel stall" x="98" y="616" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="102" y="620" text-anchor="middle" dominant-baseline="central">S</text>
-    <rect id="room-fdf469bc53d953a92d90002371829dfadb8ca0ee" class="room indoor room-access" data-label="fish stall" x="84" y="616" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="88" y="620" text-anchor="middle" dominant-baseline="central">X</text>
+    <rect id="room-fdf469bc53d953a92d90002371829dfadb8ca0ee" class="room indoor room-food" data-label="fish stall" x="84" y="616" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="88" y="620" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-c5baff9115fffbd08050dbe35a1aa1e4afced514" class="room indoor room-access" data-label="fish stall" x="70" y="616" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="74" y="620" text-anchor="middle" dominant-baseline="central">X</text>
     <rect id="room-cab399ab4d352933f441723fa6c290a00b0106b6" class="room indoor" data-label="hallway" x="248" y="276" width="8" height="8" rx="2"/>
     <rect id="room-7729d16b89a24a2230f9b38fa122bde8a66e1940" class="room indoor room-food" data-label="dining room" x="248" y="276" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="252" y="280" text-anchor="middle" dominant-baseline="central">F</text>
