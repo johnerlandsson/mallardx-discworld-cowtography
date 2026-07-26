@@ -489,7 +489,11 @@ for _, entry in ipairs({
   end)
 end
 
-mud.trigger([[You are standing in a small winding alleyway]], function()
+-- The game randomizes the sentence structure of this generic room's
+-- description ("You are standing in..." vs "This is a... and there are...");
+-- both variants must trigger identification or the map is left stranded on
+-- the Medina09 entry anchor.
+local function medina_generic_room()
   if current_room ~= "BPMedina" or medina_identified then return end
   local room_id
   if     medina_exit_count == 5 then room_id = "Medina05"
@@ -500,7 +504,10 @@ mud.trigger([[You are standing in a small winding alleyway]], function()
     else room_id = "Medina08" end
   end
   if room_id then post_medina_room(room_id) end
-end)
+end
+
+mud.trigger([[You are standing in a small winding alleyway]], medina_generic_room)
+mud.trigger([[and there are other alleys leading off it]], medina_generic_room)
 
 -- ─── AMShades: room description text triggers ────────────────────────────────
 -- 6 rooms have unique descriptions; patterns chosen to be unambiguous even
