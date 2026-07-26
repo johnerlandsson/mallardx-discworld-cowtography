@@ -44,14 +44,17 @@ Overrides or supplements the auto-detected room type for specific rooms. Use it 
 | `talker` | M | dark green | Manual only |
 | `furniture` | U | dark green | Manual only |
 | `stationery` | Q | dark green | Auto — `shop_items`; needs ≥2 of {writing paper, quill, colour book, stick of chalk} |
+| `gather` | N | dark olive/moss | Auto — `shop_items`; room qualifies when 100% of its items have `sale_price` = `"gather"` |
 | `tavern` | V | dark amber | Auto — `room_short` contains "tavern", "restaurant", "pizza", "pizzeria" |
 | `pub` | B | dark amber | Auto — `room_short` contains "pub" or "bar" |
 
-**Priority (highest to lowest):** `room-types.json` (always wins) → `room_short` name keywords (pub/tavern) → `shop_items` item keywords → `room_short` exact patterns (bank, house, pshop, club).
+**Priority (highest to lowest):** `room-types.json` (always wins) → `room_short` name keywords (pub/tavern) → `shop_items` item keywords (gather-priced rooms classify as `gather` before any keyword matching) → `room_short` exact patterns (bank, house, pshop, club).
 
 > `talker` shops sell long-distance magical communicators. They are not detectable from `shop_items` keywords, so all entries must be added manually.
 >
 > `tavern` covers restaurants and food-focused establishments. `pub` covers pure drinking places. Both share the dark amber background but show different letters. Name-based detection overrides a `food` classification from `shop_items`. Rooms whose name contains "outside" are excluded. Places not caught by the keywords (e.g. "The Mended Drum") must be added manually.
+>
+> `gather` rooms have no purchasable items — every `shop_items` entry is foraged (harvestable herbs, roots, flowers). This replaces an earlier, less accurate `room_short`-name heuristic that only matched rooms with "garden" in the name.
 
 **Example:**
 

@@ -2449,7 +2449,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-aa99fe08e2ce2e0a66364ace1ccaaca4e259008f" class="room indoor" data-label="corridor in the palace" x="423" y="58" width="8" height="8" rx="2"/>
     <circle id="room-149f478ff7d603ca007098bb7023c7524171ef6d" class="room outdoor green" data-label="northwestern corner of a garden in the palace" cx="438" cy="62" r="4"/>
     <circle id="room-0591edf9cc3a92004e22bed8cc6f39b2b841e442" class="room outdoor green" data-label="northeastern corner of a garden in the palace" cx="452" cy="62" r="4"/>
-    <circle id="room-a47780ba201051c25b836f8cb7e464e5a7ff53d2" class="room outdoor green" data-label="eastern part of a garden in the palace" cx="452" cy="76" r="4"/>
+    <circle id="room-a47780ba201051c25b836f8cb7e464e5a7ff53d2" class="room outdoor room-gather green" data-label="eastern part of a garden in the palace" cx="452" cy="76" r="4"/><text class="room-type-label" font-size="4.5" x="452" y="76" text-anchor="middle" dominant-baseline="central">N</text>
     <circle id="room-00e78d8a420275a9cbe728b9994562b53991318d" class="room outdoor green" data-label="southeastern corner of a garden in the palace" cx="452" cy="90" r="4"/>
     <circle id="room-4bf4909bc6dbfa695e0ebb5e2829ab3cceee4824" class="room outdoor green" data-label="southwestern corner of a garden in the palace" cx="438" cy="90" r="4"/>
     <circle id="room-7b1bf0b285b8001a7afa82aa25573c05ed930913" class="room outdoor green" data-label="western part of a garden in the palace" cx="438" cy="76" r="4"/>
@@ -2539,13 +2539,13 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-685a7cfd25c6a0857dce9a74b592416652bae2f6" class="room indoor" data-label="music room" x="763" y="199" width="8" height="8" rx="2"/>
     <circle id="room-089cef318dfce17a456672e3fedfbb980ab1b241" class="room outdoor green" data-label="garden" cx="767" cy="217" r="4"/>
     <circle id="room-0c54568c478f13eb43a737874d22dc7e780005b8" class="room outdoor green" data-label="garden" cx="781" cy="217" r="4"/>
-    <circle id="room-f3407a03a8c2a60e82c264e34e6c28e75169f48e" class="room outdoor green" data-label="garden" cx="795" cy="217" r="4"/>
+    <circle id="room-f3407a03a8c2a60e82c264e34e6c28e75169f48e" class="room outdoor room-shop green" data-label="garden" cx="795" cy="217" r="4"/><text class="room-type-label" font-size="4.5" x="795" y="217" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-71b9b9ec21c20ca8b3a224091caf611335abe128" class="room outdoor green" data-label="garden" cx="795" cy="231" r="4"/>
     <circle id="room-d2fb8aa8dd8e47d23af2dc773fa6c0719babe72e" class="room outdoor green" data-label="garden" cx="795" cy="245" r="4"/>
     <circle id="room-4d4ca7f290d68bd7c4af531336195cccb352ae20" class="room outdoor green" data-label="garden" cx="781" cy="245" r="4"/>
     <circle id="room-6202984c4d662216895a50056c9fb9fe6b227cc9" class="room outdoor green" data-label="edge of the pond" cx="781" cy="231" r="4"/>
     <circle id="room-c629d5fa8c4b6bde2729220a68b74362dc315224" class="room outdoor green" data-label="garden" cx="767" cy="231" r="4"/>
-    <circle id="room-ac7c0afe1be011cfbda0f6e521ac5b583cc0031e" class="room outdoor green" data-label="garden" cx="767" cy="245" r="4"/>
+    <circle id="room-ac7c0afe1be011cfbda0f6e521ac5b583cc0031e" class="room outdoor room-gather green" data-label="garden" cx="767" cy="245" r="4"/><text class="room-type-label" font-size="4.5" x="767" y="245" text-anchor="middle" dominant-baseline="central">N</text>
     <rect id="room-18a80352818fec449e783fd777d6ec1bbda36921" class="room indoor" data-label="upstairs hallway" x="880" y="227" width="8" height="8" rx="2"/>
     <rect id="room-6335209f7382ee72baff7256c5fb62ab9ada290d" class="room indoor" data-label="conservatory" x="880" y="213" width="8" height="8" rx="2"/>
     <rect id="room-2a7768fa86ce8729af09aa7c1aa74b39a32e4a5b" class="room indoor" data-label="bedroom" x="880" y="199" width="8" height="8" rx="2"/>
@@ -2770,7 +2770,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-2f0e60f4061ecc4a7bd88edafc28b45bace7d2e0" class="room outdoor" data-label="Phoenix Road outside Merk&#x27;s" cx="536" cy="369" r="4"/>
     <rect id="room-43a4687af5ba803ff9330240b0d9c8e4f065fd5d" class="room indoor" data-label="waiting room of Merk&#x27;s shop" x="533" y="354" width="8" height="8" rx="2"/>
     <rect id="room-ac12d33b88708a1d653204d712efc546187b8949" class="room indoor" data-label="Merk&#x27;s office" x="533" y="344" width="8" height="8" rx="2"/>
-    <circle id="room-29f2c68149fa77ae6ae6376deb1bfdda5ac7ba2c" class="room outdoor room-shop" data-label="Phoenix Road north of the garlic warehouse" cx="550" cy="383" r="4"/><text class="room-type-label" font-size="4.5" x="550" y="383" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-29f2c68149fa77ae6ae6376deb1bfdda5ac7ba2c" class="room outdoor room-gather" data-label="Phoenix Road north of the garlic warehouse" cx="550" cy="383" r="4"/><text class="room-type-label" font-size="4.5" x="550" y="383" text-anchor="middle" dominant-baseline="central">N</text>
     <circle id="room-e11dd47549db96d9c7422722faeba47ebba35d05" class="room outdoor" data-label="Phoenix Road north of the bazaar" cx="466" cy="369" r="4"/>
     <rect id="room-793a8800c0ae7fbb0d919693781050f7b557d9c1" class="room indoor room-access" data-label="silversmith&#x27;s" x="462" y="354" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="466" y="358" text-anchor="middle" dominant-baseline="central">X</text>
     <circle id="room-8d82cab11a6a5063c00c09502e290fd5121bef2e" class="room outdoor" data-label="northern side of the east bazaar" cx="466" cy="383" r="4"/>
@@ -2917,7 +2917,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-43252ca6eaad3480f6f58fad1fdb2a2090580b7a" class="room outdoor green" data-label="southwestern corner of the park" cx="382" cy="467" r="4"/>
     <circle id="room-4a659df9da2d4593826824f6157d0a265504eff7" class="room outdoor green" data-label="southwestern corner of the park" cx="368" cy="467" r="4"/>
     <circle id="room-ba4735b466c565364be27fa8071b3fbbef2da77f" class="room outdoor green" data-label="southwestern corner of the park" cx="368" cy="481" r="4"/>
-    <circle id="room-91e6dc07e770dbcf3eb3c526977666f02938b42a" class="room outdoor room-shop green" data-label="Pharaoh&#x27;s Park near the Avenue of the Pharaohs" cx="452" cy="439" r="4"/><text class="room-type-label" font-size="4.5" x="452" y="439" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-91e6dc07e770dbcf3eb3c526977666f02938b42a" class="room outdoor room-gather green" data-label="Pharaoh&#x27;s Park near the Avenue of the Pharaohs" cx="452" cy="439" r="4"/><text class="room-type-label" font-size="4.5" x="452" y="439" text-anchor="middle" dominant-baseline="central">N</text>
     <circle id="room-9fdded4cc7748610236724d28bd7e536603aacec" class="room outdoor green" data-label="eastern side of the park" cx="466" cy="439" r="4"/>
     <circle id="room-64dc76dfdef63163015eea9294beba69cb54ac99" class="room outdoor green" data-label="eastern side of the park near the Avenue of the Pharaohs" cx="466" cy="453" r="4"/>
     <circle id="room-9e66bf97fd4aa51e496307a98eeed0ca8c29e434" class="room outdoor green" data-label="Pharaoh&#x27;s Park near the Avenue of the Pharaohs" cx="452" cy="453" r="4"/>
@@ -3018,7 +3018,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-3245514a49338831fe1cec169c9bce0f6b60379b" class="room indoor room-shop" data-label="small tannery" x="886" y="476" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="890" y="480" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-e165462b571fbf5ff368b3c1489494406d9cd83c" class="room outdoor" data-label="Dockers Lane" cx="876" cy="469" r="4"/>
     <circle id="room-c16bed73ab6e3f86028391db0917561d5c934df2" class="room outdoor" data-label="Dockers Lane" cx="862" cy="469" r="4"/>
-    <circle id="room-e17a6f68b2d8952be9a6e747172e139a7eb900f2" class="room outdoor room-shop" data-label="Dockers Lane" cx="848" cy="455" r="4"/><text class="room-type-label" font-size="4.5" x="848" y="455" text-anchor="middle" dominant-baseline="central">S</text>
+    <circle id="room-e17a6f68b2d8952be9a6e747172e139a7eb900f2" class="room outdoor room-gather" data-label="Dockers Lane" cx="848" cy="455" r="4"/><text class="room-type-label" font-size="4.5" x="848" y="455" text-anchor="middle" dominant-baseline="central">N</text>
     <rect id="room-b49a6cd79a49433f730fb0b0bf8e629e935428b6" class="room indoor" data-label="open area at the south end of a busy market" x="885" y="447" width="8" height="8" rx="2"/>
     <rect id="room-29d158734aefcb5a443e360aa976caf933429274" class="room indoor" data-label="deep-fried food stall in a busy market" x="877" y="447" width="8" height="8" rx="2"/>
     <rect id="room-0a9faee614a977b88c4dc7d84f4b53d52fa307e0" class="room indoor" data-label="path through a busy market" x="875" y="436" width="8" height="8" rx="2"/>

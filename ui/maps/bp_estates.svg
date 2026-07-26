@@ -1505,7 +1505,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-eff2d9b8565a66a740b0bfb42ab13490bd3a928d" class="room indoor" data-label="conservatory" x="895" y="489" width="8" height="8" rx="2"/>
     <rect id="room-8755a9ed5ab3505677246f0674bd2536cf0ad18e" class="room indoor" data-label="conservatory" x="895" y="475" width="8" height="8" rx="2"/>
     <rect id="room-c541919c446aff2eeb9a6a900b4055f9a1a20ac4" class="room indoor" data-label="distillery" x="895" y="461" width="8" height="8" rx="2"/>
-    <rect id="room-c4fd237c530cb85ca41ed5e188531437c158c922" class="room indoor room-food" data-label="conservatory" x="881" y="475" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="885" y="479" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-c4fd237c530cb85ca41ed5e188531437c158c922" class="room indoor room-gather" data-label="conservatory" x="881" y="475" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="885" y="479" text-anchor="middle" dominant-baseline="central">N</text>
     <circle id="room-4d2f53fbc403425c0d51563a7c696345a02cf0f8" class="room outdoor green" data-label="path around the yard" cx="913" cy="507" r="4"/>
     <circle id="room-33b2a6078f990104af0f1f1ebc24dea0cdfd0521" class="room outdoor green" data-label="stable yard" cx="927" cy="507" r="4"/>
     <rect id="room-2f7ee212728f5085ee8568f7b4520bfd50a96d4d" class="room indoor" data-label="carriage shed" x="923" y="489" width="8" height="8" rx="2"/>
