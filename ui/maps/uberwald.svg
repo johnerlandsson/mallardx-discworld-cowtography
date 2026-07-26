@@ -1322,7 +1322,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-37376ad947336898b111bb74324a661cd83c4274" class="room outdoor" data-label="section of a main street in Blackglass" cx="444" cy="187" r="4"/>
     <circle id="room-a8519a9538fd4ea9280ce2ad17eb84c51df25137" class="room outdoor" data-label="lane leading east to markets in Blackglass" cx="444" cy="201" r="4"/>
     <circle id="room-638022c6fd39219cfeab2b05dba67118df9a8adf" class="room outdoor" data-label="small market road in Blackglass" cx="458" cy="201" r="4"/>
-    <rect id="room-875b4b8d29ca4ac57202b31f9f79dede01d29a9d" class="room indoor room-clothes" data-label="Avie&#x27;s general store in Blackglass" x="454" y="186" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="458" y="190" text-anchor="middle" dominant-baseline="central">C</text>
+    <rect id="room-875b4b8d29ca4ac57202b31f9f79dede01d29a9d" class="room indoor room-shop" data-label="Avie&#x27;s general store in Blackglass" x="454" y="186" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="458" y="190" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-2d238a94737c8e216d4e716fff9b693fa3c26e30" class="room outdoor" data-label="bend in a market road in Blackglass" cx="458" cy="215" r="4"/>
     <circle id="room-63d06172f512c94bcc0e73a80347206db1ecf9d0" class="room outdoor" data-label="market road outside a jar seller in Blackglass" cx="472" cy="215" r="4"/>
     <rect id="room-112053fc4be8fcd8961bc220fa4bfe92583ab1f8" class="room indoor room-shop" data-label="Blackglass glassblower&#x27;s jar shop" x="478" y="221" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="482" y="225" text-anchor="middle" dominant-baseline="central">S</text>
@@ -1378,12 +1378,12 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-fb50c6b9f8c9cc5b98f1236e93403a2bdd8b6a50" class="room outdoor" data-label="southwestern corner of the town square" cx="659" cy="657" r="4"/>
     <circle id="room-f9eee7488c4740d4a9f040a377696b01a181ed79" class="room outdoor" data-label="Garlic Way" cx="659" cy="671" r="4"/>
     <circle id="room-fc80b52e01ddf3d75071065e7bbab29879108569" class="room outdoor" data-label="Garlic Way" cx="659" cy="685" r="4"/>
-    <rect id="room-549f21efaa7a3e6311801c4ced4b22c1ea5990cb" class="room indoor room-food" data-label="Drunken Magpie" x="644" y="681" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="648" y="685" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-549f21efaa7a3e6311801c4ced4b22c1ea5990cb" class="room indoor room-tavern" data-label="Drunken Magpie" x="644" y="681" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="648" y="685" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-6380093b03920e56966cf60aa7ee345c815f4854" class="room outdoor" data-label="Garlic Way" cx="659" cy="699" r="4"/>
     <circle id="room-5d4a5650f25d491daa635b83ebef2cb328539097" class="room outdoor" data-label="Garlic Way" cx="673" cy="713" r="4"/>
-    <rect id="room-5ef9b9128b2dc6e6935554010bfd331ae94535e3" class="room indoor room-food" data-label="Candle Cave" x="669" y="720" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="673" y="724" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-5ef9b9128b2dc6e6935554010bfd331ae94535e3" class="room indoor room-shop" data-label="Candle Cave" x="669" y="720" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="673" y="724" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-bfb89353969c420841381ee50b3ecfb7ced5f2d3" class="room outdoor" data-label="Garlic Way" cx="687" cy="713" r="4"/>
-    <rect id="room-ceb2428e45f036bdcf0bc4cbda9c05530cf2f701" class="room indoor room-shop" data-label="Lingerie Shop" x="683" y="720" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="687" y="724" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-ceb2428e45f036bdcf0bc4cbda9c05530cf2f701" class="room indoor room-clothes" data-label="Lingerie Shop" x="683" y="720" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="687" y="724" text-anchor="middle" dominant-baseline="central">C</text>
     <circle id="room-74c6935dbca82395c0fff6b9804058eab0b6f21a" class="room outdoor" data-label="Garlic Way" cx="701" cy="713" r="4"/>
     <circle id="room-7cb1e5b00c21dead09d8bc2c275a6b81a191827a" class="room outdoor" data-label="Garlic Way" cx="715" cy="713" r="4"/>
     <rect id="room-d8b469f368091a8069088bc6f5433c269252bd9c" class="room indoor room-shop" data-label="Mother Dybbler&#x27;s Potion Shoppe" x="722" y="709" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="726" y="713" text-anchor="middle" dominant-baseline="central">S</text>
@@ -1413,7 +1413,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-d65b4453e19cbce30b630e0a6062c01049f8682c" class="room indoor room-tavern" data-label="Dancing Garlic restaurant" x="655" y="594" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="659" y="598" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-d0920a9d3f204350418b3b01813c46ec11d34496" class="room outdoor" data-label="fun fair" cx="687" cy="573" r="4"/>
     <circle id="room-f759de0db4f6f8bb7d07db3c860f6753e57fdf33" class="room outdoor" data-label="fun fair" cx="687" cy="559" r="4"/>
-    <rect id="room-54c6af34f06f586013fa81919e166e6f632974a5" class="room indoor room-weapon" data-label="small tent" x="694" y="555" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="698" y="559" text-anchor="middle" dominant-baseline="central">W</text>
+    <rect id="room-54c6af34f06f586013fa81919e166e6f632974a5" class="room indoor room-shop" data-label="small tent" x="694" y="555" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="698" y="559" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-b6b47c3dc22d8f1ca6912dbaf50ba26600e9acd1" class="room indoor" data-label="small tent" x="683" y="544" width="8" height="8" rx="2"/>
     <circle id="room-565d91c75c8e978580667af912098ed1b234eca8" class="room outdoor" data-label="fun fair" cx="673" cy="559" r="4"/>
     <rect id="room-79acbd2c3a08baff5499f0f085a49b92cc27ef1e" class="room indoor" data-label="small tent" x="669" y="544" width="8" height="8" rx="2"/>
@@ -1465,7 +1465,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-b878acd49297d2508ce0327af992b9962d83135e" class="room outdoor" data-label="small village" cx="977" cy="655" r="4"/>
     <rect id="room-9675da24242871203e8bdb17b0aa0d19f38471a0" class="room indoor room-weapon" data-label="Ye Olde Weapons Shoppe" x="984" y="651" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="988" y="655" text-anchor="middle" dominant-baseline="central">W</text>
     <rect id="room-075d29d8bdb2690743f24c8db3062be4ca0a56dd" class="room indoor" data-label="entrance to the Slaughtered Lamb Inn" x="952" y="651" width="8" height="8" rx="2"/>
-    <rect id="room-f295f1347c610fc21b05f083fe5327bab4e4abe8" class="room indoor room-food" data-label="main room of the Slaughtered Lamb" x="952" y="662" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="956" y="666" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-f295f1347c610fc21b05f083fe5327bab4e4abe8" class="room indoor room-tavern" data-label="main room of the Slaughtered Lamb" x="952" y="662" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="956" y="666" text-anchor="middle" dominant-baseline="central">V</text>
     <rect id="room-ffbbab622c1080658f2046f3c605ee5fb40223ee" class="room indoor" data-label="staircase" x="942" y="651" width="8" height="8" rx="2"/>
     <rect id="room-ffb06fb534224655cd5edccca1fa8fbe669ed972" class="room indoor" data-label="hall" x="932" y="657" width="8" height="8" rx="2"/>
     <rect id="room-3a80e9b879945d06f111cb3a78d950f376f7b534" class="room indoor" data-label="stuffy room" x="922" y="667" width="8" height="8" rx="2"/>
@@ -1479,7 +1479,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-f755c7e86e9662b093396e28fc1276fb795c8746" class="room outdoor" data-label="northeast corner of the village square" cx="991" cy="613" r="4"/>
     <circle id="room-c40437a920b72b6d9fdc40edc4e04127a0d83626" class="room outdoor" data-label="graveyard" cx="991" cy="599" r="4"/>
     <circle id="room-266ec42520eefa61cc439b29544b5a6f89917390" class="room outdoor" data-label="southeast corner of the village square" cx="991" cy="627" r="4"/>
-    <rect id="room-bf8176e63b646d7f2c56e08e388d270011fcb7f8" class="room indoor room-shop" data-label="Wolfgang &#x27;we put&#x27;em six feet under&#x27; Weidendorf&#x27;s coffin emporium" x="987" y="633" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="991" y="637" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-bf8176e63b646d7f2c56e08e388d270011fcb7f8" class="room indoor room-furniture" data-label="Wolfgang &#x27;we put&#x27;em six feet under&#x27; Weidendorf&#x27;s coffin emporium" x="987" y="633" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="991" y="637" text-anchor="middle" dominant-baseline="central">U</text>
     <circle id="room-91e86c64d152772c78b6362b88dfe80421a047e9" class="room outdoor" data-label="training area" cx="1737" cy="1076" r="4"/>
     <rect id="room-fb45ad12988c3465a81b339a52623a74d329d74c" class="room indoor" data-label="tannery" x="1722" y="1072" width="8" height="8" rx="2"/>
     <circle id="room-c51b9234bdcf29ccfe40ebaad2c17ac4e034fa9d" class="room outdoor" data-label="moorland" cx="1737" cy="1090" r="4"/>
@@ -1568,8 +1568,8 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-1461e74e58296c95a54e600520958ecd40471cb0" class="room indoor" data-label="cosy tent" x="1722" y="1061" width="8" height="8" rx="2"/>
     <rect id="room-56810259b2144f853229a76c6ed024e590e7fa82" class="room indoor" data-label="office of the Guildmaster of the Hublandish Barbarians" x="1744" y="1072" width="8" height="8" rx="2"/>
     <circle id="room-e1bcca269c1869ca06f6c029157ce9c24c545bc1" class="room outdoor" data-label="inn yard of the Harvest of Thorns" cx="552" cy="542" r="4"/>
-    <rect id="room-329d7a7e8c91af17fb7e86d705f9d26822238bd7" class="room indoor room-clothes" data-label="fortified stone stable" x="548" y="527" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="552" y="531" text-anchor="middle" dominant-baseline="central">C</text>
-    <rect id="room-e536524933e0d0bde081a563bf7bb4a5ce19f86e" class="room indoor room-food" data-label="common room of the Harvest of Thorns" x="537" y="538" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="541" y="542" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-329d7a7e8c91af17fb7e86d705f9d26822238bd7" class="room indoor room-shop" data-label="fortified stone stable" x="548" y="527" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="552" y="531" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-e536524933e0d0bde081a563bf7bb4a5ce19f86e" class="room indoor room-tavern" data-label="common room of the Harvest of Thorns" x="537" y="538" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="541" y="542" text-anchor="middle" dominant-baseline="central">V</text>
     <rect id="room-4575ec347c6cfdb3ca9a33e40291e098a5b8ae2b" class="room indoor" data-label="kitchen of the Harvest of Thorns" x="526" y="538" width="8" height="8" rx="2"/>
     <circle id="room-6aaa65580cc48cb2360a6eb50ed5e4df37346c20" class="room outdoor" data-label="lemonery" cx="541" cy="553" r="4"/>
     <rect id="room-133b0c4526927a0846a64093b39ae0e766ebe7b0" class="room indoor room-shop" data-label="large workshop" x="548" y="549" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="552" y="553" text-anchor="middle" dominant-baseline="central">S</text>

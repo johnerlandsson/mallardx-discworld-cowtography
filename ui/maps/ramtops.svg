@@ -2145,10 +2145,10 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-06a74b9e9daedbee443cd0da745ef29190d48826" class="room outdoor" data-label="southern side of the market" cx="827" cy="237" r="4"/>
     <circle id="room-76d7a561e1359e5737c1a024affa9250bf943e7e" class="room outdoor" data-label="southwestern corner of the market" cx="813" cy="237" r="4"/>
     <circle id="room-9a20550ef9ee370056ddc732eb56f1aee1aafec2" class="room outdoor" data-label="western side of the market" cx="813" cy="223" r="4"/>
-    <rect id="room-079087558bd4365ee0e0e63163ec6b8d39febda3" class="room indoor room-clothes" data-label="J. Smyttles, General Traders" x="837" y="194" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="841" y="198" text-anchor="middle" dominant-baseline="central">C</text>
+    <rect id="room-079087558bd4365ee0e0e63163ec6b8d39febda3" class="room indoor room-shop" data-label="J. Smyttles, General Traders" x="837" y="194" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="841" y="198" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-6ad7f73ff70ab8b0f49d6f08c463dfc8097cf9a1" class="room indoor room-pshop" data-label="[player shop]" x="848" y="205" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="852" y="209" text-anchor="middle" dominant-baseline="central">P</text>
     <rect id="room-d3ae46a330f3dca3a85d894a7a904143cb4854a9" class="room indoor room-shop" data-label="strange stall" x="837" y="205" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="841" y="209" text-anchor="middle" dominant-baseline="central">S</text>
-    <rect id="room-668792c2074aa8c34c708885688596262c1f8799" class="room indoor room-weapon" data-label="bric-a-brac stall" x="823" y="205" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="827" y="209" text-anchor="middle" dominant-baseline="central">W</text>
+    <rect id="room-668792c2074aa8c34c708885688596262c1f8799" class="room indoor room-shop" data-label="bric-a-brac stall" x="823" y="205" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="827" y="209" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-ca3a5a003a8abd07d1532003c6fdb78007b951ee" class="room indoor room-post" data-label="Ohulan-Cutash Post Office" x="813" y="193" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="817" y="197" text-anchor="middle" dominant-baseline="central">O</text>
     <rect id="room-7dc46c15a2ecc5a4024b2e92133bcf53e5cc8b07" class="room indoor room-access" data-label="well illuminated stall" x="809" y="205" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="813" y="209" text-anchor="middle" dominant-baseline="central">X</text>
     <rect id="room-824b74becb75a59b2920e4ffcddafd2c59f5a99d" class="room indoor room-food" data-label="bread stall" x="809" y="219" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="813" y="223" text-anchor="middle" dominant-baseline="central">F</text>
@@ -2269,7 +2269,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-f701b81ec9c20cbd15ec0bcc068d4fdc75736559" class="room outdoor green" data-label="gloomy forest" cx="333" cy="213" r="4"/>
     <circle id="room-a81fe3cbfaad9eb501d88f17ffba79916cfcde59" class="room outdoor green" data-label="gloomy forest" cx="347" cy="227" r="4"/>
     <circle id="room-0c296d5bcba7eb978c72de0660da36ce6d045081" class="room outdoor green" data-label="dirt path running through a gloomy forest" cx="319" cy="227" r="4"/>
-    <rect id="room-89af9ca7d2be71875cd11eed35e49b2b99d55cac" class="room indoor room-weapon" data-label="shop" x="305" y="233" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="309" y="237" text-anchor="middle" dominant-baseline="central">W</text>
+    <rect id="room-89af9ca7d2be71875cd11eed35e49b2b99d55cac" class="room indoor room-shop" data-label="shop" x="305" y="233" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="309" y="237" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-d701867a60e32b7deb97efd89582333a9d287a65" class="room outdoor green" data-label="gloomy forest" cx="361" cy="227" r="4"/>
     <circle id="room-ba3ddfaaae9753c9cc9735f69d97c0a78c1b8e65" class="room outdoor green" data-label="gloomy forest" cx="375" cy="241" r="4"/>
     <circle id="room-8e103cbd4650d2af52defe666261ae4c7263b7e6" class="room outdoor green" data-label="gloomy forest" cx="389" cy="241" r="4"/>
@@ -2341,7 +2341,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-9afc033f85ee8be490b1fb97b02384bd3eb03431" class="room outdoor" data-label="northeastern side of the circle" cx="389" cy="423" r="4"/>
     <circle id="room-810363e6734b4402658cd0337b484ec185b79ca0" class="room outdoor" data-label="opening of a small forest path" cx="1055" cy="63" r="4"/>
     <circle id="room-a5a3fceffec644e170d51c780810935d53885981" class="room outdoor" data-label="centre of the encampment" cx="1055" cy="49" r="4"/>
-    <rect id="room-7726ebc23f01f3415a47becc31d2decc844379f3" class="room indoor room-weapon" data-label="Lancre Hunters&#x27; Trader" x="1062" y="45" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1066" y="49" text-anchor="middle" dominant-baseline="central">W</text>
+    <rect id="room-7726ebc23f01f3415a47becc31d2decc844379f3" class="room indoor room-shop" data-label="Lancre Hunters&#x27; Trader" x="1062" y="45" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1066" y="49" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-7d8d02e0c071c8c2f3eb42b1b9485c42cc307d4e" class="room indoor" data-label="skin trader&#x27;s" x="1051" y="34" width="8" height="8" rx="2"/>
     <rect id="room-01cbd6526fb253eb0bd93a0383ba42cc9840f8de" class="room indoor" data-label="Lancre Hunters&#x27; smithy" x="1040" y="45" width="8" height="8" rx="2"/>
     <rect id="room-e4e60184cd7411457fadf50c31a9bfed20661b71" class="room indoor" data-label="Lancre Hunters&#x27; tannery" x="1029" y="45" width="8" height="8" rx="2"/>
@@ -2354,7 +2354,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-453012936bb326aa5c143d1697c1cc12ecc18e11" class="room indoor" data-label="small cottage" x="1207" y="304" width="8" height="8" rx="2"/>
     <circle id="room-d34ce7b543176f0f300b35aa055c40df1c6633c5" class="room outdoor" data-label="village road" cx="1214" cy="322" r="4"/>
     <rect id="room-ad572e64a4ded4effd50f6826928aa997b886d6b" class="room indoor" data-label="homely cottage" x="1221" y="318" width="8" height="8" rx="2"/>
-    <rect id="room-1093b6cd8a8e03497b30a51ffc14924f692364bc" class="room indoor room-shop" data-label="Froot and Veggetabel Markett" x="1199" y="318" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1203" y="322" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-1093b6cd8a8e03497b30a51ffc14924f692364bc" class="room indoor room-food" data-label="Froot and Veggetabel Markett" x="1199" y="318" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1203" y="322" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-1e4d603476a47f4497fdf49b09f4e0fc59c48ace" class="room outdoor" data-label="village road" cx="1214" cy="336" r="4"/>
     <rect id="room-8c5caa5b4efd3fb8ac713712051cbf56439ed89d" class="room indoor" data-label="tiny cottage" x="1199" y="332" width="8" height="8" rx="2"/>
     <circle id="room-4e06f850a346bcd7c6117de8426f7968a435870a" class="room outdoor" data-label="village road" cx="1214" cy="357" r="4"/>
@@ -2458,7 +2458,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-ac4db2126aaa594af7dc44efa63b17feebf3ad08" class="room outdoor" data-label="grassy yard" cx="1323" cy="659" r="4"/>
     <rect id="room-189a1aadadaebaac39acaa1d5b3244493e1a337c" class="room indoor" data-label="Mrs Deacon&#x27;s Ladies and Gents Hairdressing" x="1308" y="655" width="8" height="8" rx="2"/>
     <rect id="room-811385b8db977d75377bf67c965e4f7557a92195" class="room indoor" data-label="entrance to the Goat &amp; Bush" x="1336" y="655" width="8" height="8" rx="2"/>
-    <rect id="room-8a1ad6aa7f18ddb96c72e2e7d3c3ae4fab3d05e5" class="room indoor room-food" data-label="Goat and Bush" x="1336" y="665" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1340" y="669" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-8a1ad6aa7f18ddb96c72e2e7d3c3ae4fab3d05e5" class="room indoor room-pub" data-label="Goat and Bush" x="1336" y="665" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1340" y="669" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-6542807ab7d7de7a305541911fc1255f108b538a" class="room indoor room-pub" data-label="balcony overlooking the bar" x="1326" y="675" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1330" y="679" text-anchor="middle" dominant-baseline="central">B</text>
     <circle id="room-6c5be0a1555be9cd2ad8736c18fdb42438d3d82d" class="room outdoor" data-label="track into Lancre Town" cx="1351" cy="673" r="4"/>
     <circle id="room-562ceed772fb585122658722d998ec90bbbf75be" class="room outdoor" data-label="intersection of the Kings Road and Dancers Lane" cx="1413" cy="339" r="4"/>
@@ -2481,7 +2481,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-cf77e0cb42575666f2f9c3ba732e172241b64335" class="room indoor" data-label="mixing workroom" x="1334" y="83" width="8" height="8" rx="2"/>
     <rect id="room-92f90064d104cbf75160665fbe6b2f950e4d1f7e" class="room indoor room-shop" data-label="Granville&#x27;s Family Store" x="1334" y="97" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1338" y="101" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-7641d5c62d3d554330d6fbe3afeebf19a5317fd6" class="room indoor room-pshop" data-label="[player shop]" x="1323" y="107" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1327" y="111" text-anchor="middle" dominant-baseline="central">P</text>
-    <rect id="room-40c8adbedfb256c98af6faf4325ceddc9a46de1e" class="room indoor room-food" data-label="Laughing Gnome" x="1309" y="108" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1313" y="112" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-40c8adbedfb256c98af6faf4325ceddc9a46de1e" class="room indoor room-pub" data-label="Laughing Gnome" x="1309" y="108" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1313" y="112" text-anchor="middle" dominant-baseline="central">B</text>
     <circle id="room-7c201d6f0b05434d19e127e259e5c3a4475dfadc" class="room outdoor" data-label="road" cx="1299" cy="87" r="4"/>
     <circle id="room-24bbc6089b306fdb20deb87a584c83711d18d459" class="room outdoor" data-label="road outside of Brass Neck" cx="1285" cy="87" r="4"/>
     <circle id="room-6b27bb47887991b768f45f856d1a9915f9171eb4" class="room outdoor" data-label="winding road" cx="1271" cy="101" r="4"/>
@@ -2505,13 +2505,13 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-2609fbebd14a410d9da3d9072d26123804c11fc3" class="room outdoor" data-label="small trail somewhere north of the Ramtops" cx="1257" cy="143" r="4"/>
     <rect id="room-25287acd9f20859194151e8267d20a7490feb9dd" class="room indoor" data-label="entrance hall of Cutangle Inn" x="1279" y="125" width="8" height="8" rx="2"/>
     <rect id="room-98c71396bacbe252751d9569f287cc8991b0db50" class="room indoor room-post" data-label="post room" x="1279" y="136" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1283" y="140" text-anchor="middle" dominant-baseline="central">O</text>
-    <rect id="room-1f8abb8df52306f1043cd74f9247cdbcc2e8bf05" class="room indoor room-food" data-label="lounge of Cutangle Inn" x="1279" y="115" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1283" y="119" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-1f8abb8df52306f1043cd74f9247cdbcc2e8bf05" class="room indoor room-pub" data-label="lounge of Cutangle Inn" x="1279" y="115" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1283" y="119" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-8c547460b65eeadf52a35b41363819afc0defe9e" class="room indoor room-tavern" data-label="restaurant of Cutangle Inn" x="1289" y="115" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1293" y="119" text-anchor="middle" dominant-baseline="central">V</text>
     <circle id="room-30f25f86bdadf26bace7a5cd3ccafc72e9bd4c3c" class="room outdoor" data-label="precarious pass through the mountains" cx="1243" cy="157" r="4"/>
     <circle id="room-8be4fd0085a3d0de1cc574adb39dc1646f24f3b8" class="room outdoor" data-label="trail through Leaping Mountain" cx="1243" cy="171" r="4"/>
     <circle id="room-eb48f1ca1e724d0ac2e768d1063cf7fdec208697" class="room outdoor" data-label="pleasant village lane in Bad Ass" cx="1437" cy="210" r="4"/>
     <circle id="room-da4e0a6b95e82d3373922858847b3ab2042e9fd1" class="room outdoor" data-label="quiet village lane in Bad Ass" cx="1451" cy="196" r="4"/>
-    <rect id="room-455034300cb172cebdc38d9143cef54d00276ca8" class="room indoor room-food" data-label="utensils shop" x="1458" y="192" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1462" y="196" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-455034300cb172cebdc38d9143cef54d00276ca8" class="room indoor room-shop" data-label="utensils shop" x="1458" y="192" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1462" y="196" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-d42bdf8bf3ecfd590d3b5683b72acfac609027d3" class="room outdoor" data-label="quiet village lane in Bad Ass" cx="1465" cy="182" r="4"/>
     <circle id="room-d5784ff33c9b56874e194b7ead9f611cbd5fa9a7" class="room outdoor" data-label="Bad Ass road" cx="1479" cy="168" r="4"/>
     <rect id="room-94d20df98f97f267913664e4169bfc8f7f95eff5" class="room indoor room-clothes" data-label="Bad Ass Tailor" x="1450" y="167" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1454" y="171" text-anchor="middle" dominant-baseline="central">C</text>
@@ -2587,7 +2587,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-5559149e5febd7c1a342832c314c55bfa420a32e" class="room indoor" data-label="Mad Wolf Furriers" x="1792" y="655" width="8" height="8" rx="2"/>
     <rect id="room-26a2f98d3862db7d29f3cb6a8d81d37c30844cc8" class="room indoor room-food" data-label="Mad Wolf Butchers" x="1792" y="677" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1796" y="681" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-54fd975ea07b05acb7ada5428c2222c86cbafbfe" class="room outdoor" data-label="road through Mad Wolf" cx="1829" cy="670" r="4"/>
-    <rect id="room-6f82c1fea490f5cfd54a8e63fc84a01c089ecc20" class="room indoor room-shop" data-label="old fashioned sweetie shop" x="1825" y="686" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1829" y="690" text-anchor="middle" dominant-baseline="central">S</text>
+    <rect id="room-6f82c1fea490f5cfd54a8e63fc84a01c089ecc20" class="room indoor room-food" data-label="old fashioned sweetie shop" x="1825" y="686" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1829" y="690" text-anchor="middle" dominant-baseline="central">F</text>
     <circle id="room-dcc85c2c5c63aec621360449f467fa1aa2770c3b" class="room outdoor" data-label="road through Mad Wolf" cx="1843" cy="670" r="4"/>
     <circle id="room-1cb5f4456228e2b9e1fa19aac08d3f4b5a76d838" class="room outdoor" data-label="road through Mad Wolf" cx="1843" cy="656" r="4"/>
     <circle id="room-001c743ddbab94ee808986837768952836d00727" class="room outdoor" data-label="road through Mad Wolf" cx="1843" cy="642" r="4"/>
@@ -2613,7 +2613,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-889b666e949fb3c2a974a32b2fe40e370ba13a0d" class="room indoor" data-label="bedroom" x="1885" y="613" width="8" height="8" rx="2"/>
     <circle id="room-62285b2daa47192326051e57411840285a8a1f38" class="room outdoor" data-label="dense forest trail" cx="1885" cy="628" r="4"/>
     <circle id="room-7288a6b3d97288f4c8bd5fcb876225e8504a55a2" class="room outdoor" data-label="trail in forest outside a pub" cx="1871" cy="642" r="4"/>
-    <rect id="room-d150852b238f1ec2359c4bca408379f4bd244e56" class="room indoor room-food" data-label="Hunter&#x27;s Head" x="1878" y="638" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1882" y="642" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-d150852b238f1ec2359c4bca408379f4bd244e56" class="room indoor room-pub" data-label="Hunter&#x27;s Head" x="1878" y="638" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1882" y="642" text-anchor="middle" dominant-baseline="central">B</text>
     <rect id="room-4dc3ecf6c2ae526bf9a69f2f79ab34a76c6815a7" class="room indoor" data-label="kitchen" x="1877" y="691" width="8" height="8" rx="2"/>
     <circle id="room-76a4ad9c3dcefa10ec31120070bd1544b17675f0" class="room outdoor" data-label="grassy yard" cx="1871" cy="706" r="4"/>
     <rect id="room-ea7e907f0951adef955e12ef17a9b4bd665aea49" class="room indoor" data-label="functional shed" x="1878" y="702" width="8" height="8" rx="2"/>
@@ -2628,7 +2628,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-c90a791153b729cc33efdcc445aa2ef357f6afc7" class="room outdoor" data-label="southwest end of Razorback" cx="1685" cy="435" r="4"/>
     <rect id="room-8340d9fb64ec7dc59d98bde9245ccbb825f06707" class="room indoor" data-label="Gammer Nudity&#x27;s cottage" x="1670" y="420" width="8" height="8" rx="2"/>
     <circle id="room-1dcb49d07ea3bd1fb9d0458f297d30a851379ebb" class="room outdoor" data-label="outside a shop in Razorback" cx="1699" cy="421" r="4"/>
-    <rect id="room-9993450c90df7ff0f341ca2c863e13b7b8c870d2" class="room indoor room-clothes" data-label="Razorback village shop" x="1684" y="406" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1688" y="410" text-anchor="middle" dominant-baseline="central">C</text>
+    <rect id="room-9993450c90df7ff0f341ca2c863e13b7b8c870d2" class="room indoor room-shop" data-label="Razorback village shop" x="1684" y="406" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1688" y="410" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-79f792ef68687d6ce27b90d9c6df13769083db26" class="room outdoor" data-label="between the smithy and the stream" cx="1713" cy="407" r="4"/>
     <rect id="room-be997d2241a8f583789c803c0a406e3d9159b356" class="room indoor" data-label="Razorback smithy" x="1698" y="392" width="8" height="8" rx="2"/>
     <circle id="room-255e91a3604c4b8bd842d8d5f047c70249c2d8db" class="room outdoor" data-label="west of the bridge" cx="1727" cy="393" r="4"/>
@@ -2686,9 +2686,9 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <circle id="room-eb5de57e4ca48dfd9324bd3c9cd66f5c0e1aeddf" class="room outdoor" data-label="heart of Slice" cx="1979" cy="280" r="4"/>
     <circle id="room-2763b1a29537a2b521599097b2a9548e3e86968b" class="room outdoor" data-label="path near a gorge" cx="1993" cy="266" r="4"/>
     <circle id="room-4f3b89071233099eaaef7b22ddbd7b5aa77e11aa" class="room outdoor" data-label="road through Slice" cx="1993" cy="294" r="4"/>
-    <rect id="room-f5b34dab173a8773e39404118f2d8842ba844208" class="room indoor room-clothes" data-label="Joshua&#x27;s Climbing Equipment" x="1989" y="277" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1993" y="281" text-anchor="middle" dominant-baseline="central">C</text>
+    <rect id="room-f5b34dab173a8773e39404118f2d8842ba844208" class="room indoor room-shop" data-label="Joshua&#x27;s Climbing Equipment" x="1989" y="277" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1993" y="281" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-023960a71535a67323ab21c9bcba6fdaf3a8597c" class="room outdoor" data-label="road through Slice" cx="2007" cy="308" r="4"/>
-    <rect id="room-665a2242236db8999fda32b05e92a55fdee57b3c" class="room indoor room-weapon" data-label="Cleetus Patterson&#x27;s Diuerse Supplies" x="1992" y="304" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1996" y="308" text-anchor="middle" dominant-baseline="central">W</text>
+    <rect id="room-665a2242236db8999fda32b05e92a55fdee57b3c" class="room indoor room-shop" data-label="Cleetus Patterson&#x27;s Diuerse Supplies" x="1992" y="304" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="1996" y="308" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-37dec588d55d2b8c6188a716cd122b6b64c6c9bc" class="room indoor room-clothes" data-label="Mr Vernissage&#x27;s Hats" x="2003" y="293" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="2007" y="297" text-anchor="middle" dominant-baseline="central">C</text>
     <rect id="room-5b325365a034b27c0728c3a23f255c172bad4535" class="room indoor room-shop" data-label="quilting shop" x="2003" y="315" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="2007" y="319" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-68f96490104e55efbfbd525e18f9317e871ab55b" class="room indoor" data-label="kitchen" x="2003" y="315" width="8" height="8" rx="2"/>
@@ -2776,7 +2776,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-8154417271d92184d31eaca0ef051a127713e484" class="room indoor" data-label="corridor in the Temple of the Listening Monks" x="2000" y="102" width="8" height="8" rx="2"/>
     <rect id="room-db0e523722819c47be6ca57f99f52eb88332d80e" class="room indoor" data-label="small passage" x="2000" y="92" width="8" height="8" rx="2"/>
     <rect id="room-40c3f2f4b51109164bfbe3d7496ae0fd645b5aa4" class="room indoor" data-label="cloisters in the Temple of the Listening Monks" x="2000" y="82" width="8" height="8" rx="2"/>
-    <rect id="room-f50151bf35e9adb0d976b36107d74cddce7f3ea9" class="room indoor room-food" data-label="shop of the Listening Monks" x="2010" y="82" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="2014" y="86" text-anchor="middle" dominant-baseline="central">F</text>
+    <rect id="room-f50151bf35e9adb0d976b36107d74cddce7f3ea9" class="room indoor room-shop" data-label="shop of the Listening Monks" x="2010" y="82" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="2014" y="86" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-ba532e7fffae2b94f83233d22f9ac675e4643b8f" class="room indoor" data-label="cloisters in the Temple of the Listening Monks" x="2000" y="72" width="8" height="8" rx="2"/>
     <rect id="room-69bc1f101f1b3f4fd9bfbbe5bc0b32f1f86b1d14" class="room indoor" data-label="washroom in the Temple of the Listening Monks" x="2010" y="72" width="8" height="8" rx="2"/>
     <rect id="room-5bbf79bfe0b5b70eb077f967b69dace002d8835e" class="room indoor" data-label="refectorium in the Temple of the Listening Monks" x="2000" y="62" width="8" height="8" rx="2"/>
@@ -2828,7 +2828,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-bbaa69c6c7013aba56c8ce8d117af72322d139e7" class="room indoor room-food" data-label="deep cave illuminated by candles" x="2100" y="99" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="2104" y="103" text-anchor="middle" dominant-baseline="central">F</text>
     <rect id="room-297d15c09294ecee6cb8abf0d930c7329ddec620" class="room indoor" data-label="Inside a cave" x="2100" y="113" width="8" height="8" rx="2"/>
     <rect id="room-c7f418713af6d68d2792fb73bd6682297cc32033" class="room indoor" data-label="room in a cave" x="2110" y="124" width="8" height="8" rx="2"/>
-    <rect id="room-f10d7c354fdb149f8128dd059353a247db860cf0" class="room indoor room-weapon" data-label="room in the back of a cave" x="2090" y="123" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="2094" y="127" text-anchor="middle" dominant-baseline="central">W</text>
+    <rect id="room-f10d7c354fdb149f8128dd059353a247db860cf0" class="room indoor room-shop" data-label="room in the back of a cave" x="2090" y="123" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="2094" y="127" text-anchor="middle" dominant-baseline="central">S</text>
     <circle id="room-d0c179e87bb18b65ddf8daba01a32d44bef2f1e7" class="room outdoor" data-label="evergreen forest close to a mountain range" cx="2111" cy="152" r="4"/>
     <circle id="room-5bcd4746a364943fc4fc5f307466d79741bd9f17" class="room outdoor" data-label="evergreen forest close to a mountain range" cx="2097" cy="152" r="4"/>
     <circle id="room-15162daf7173fcc744332888b05384052d5ba990" class="room outdoor" data-label="road" cx="2083" cy="152" r="4"/>
@@ -2877,7 +2877,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-0a3caad3c1b85101e911417250b325df8d9c87ba" class="room indoor" data-label="long, thin hallway" x="404" y="556" width="8" height="8" rx="2"/>
     <rect id="room-a261f967e1121ea184cb35131d77f435ce04dcd4" class="room indoor" data-label="small, austere cell" x="394" y="530" width="8" height="8" rx="2"/>
     <rect id="room-3d72a88feb45dbb0b37d86605065ef6349343bdd" class="room indoor" data-label="druid storeroom" x="414" y="546" width="8" height="8" rx="2"/>
-    <rect id="room-d3cbe561da770400de9f81c6ea8ef6583e4e873c" class="room indoor room-weapon" data-label="small, cluttered shop" x="394" y="546" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="398" y="550" text-anchor="middle" dominant-baseline="central">W</text>
+    <rect id="room-d3cbe561da770400de9f81c6ea8ef6583e4e873c" class="room indoor room-shop" data-label="small, cluttered shop" x="394" y="546" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="398" y="550" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-41e4efe49a8d431c64a3d51fbd3d21fece9f133e" class="room indoor" data-label="simple office" x="414" y="530" width="8" height="8" rx="2"/>
     <rect id="room-f9028ac7d8bdbf22c562a1bed416578412ae486c" class="room indoor" data-label="common room" x="404" y="566" width="8" height="8" rx="2"/>
     <rect id="room-cc3b7a2107fc4a785dc257fe2e82539596febea4" class="room indoor" data-label="front room" x="1595" y="604" width="8" height="8" rx="2"/>
@@ -2939,7 +2939,7 @@ text, .map-label, .map-label-muted, .map-label-accent,
     <rect id="room-f7340688d151a4bf47d0e57d28591d93a454563a" class="room indoor" data-label="Discworld foyer" x="600" y="444" width="8" height="8" rx="2"/>
     <rect id="room-ef00bfcab87c2ea2f04e406be1705851ac339c73" class="room indoor" data-label="communication room" x="589" y="433" width="8" height="8" rx="2"/>
     <rect id="room-b9816d4990b68f05625e2c5476dd041935f0e565" class="room indoor" data-label="hints room" x="600" y="433" width="8" height="8" rx="2"/>
-    <rect id="room-3c90dca3ad3e95f9527a2ae5673a7bcdca44e04b" class="room indoor room-armour" data-label="gift shop" x="611" y="433" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="615" y="437" text-anchor="middle" dominant-baseline="central">A</text>
+    <rect id="room-3c90dca3ad3e95f9527a2ae5673a7bcdca44e04b" class="room indoor room-shop" data-label="gift shop" x="611" y="433" width="8" height="8" rx="2"/><text class="room-type-label" font-size="4.5" x="615" y="437" text-anchor="middle" dominant-baseline="central">S</text>
     <rect id="room-6ab90067d3e16b05a712bdf97d4438eb5f786e4a" class="room indoor" data-label="alignment room" x="589" y="444" width="8" height="8" rx="2"/>
     <rect id="room-f98a3b048bf6f6e5ec59219adfad3adb25fbb165" class="room indoor" data-label="Help Room" x="611" y="444" width="8" height="8" rx="2"/>
     <rect id="room-11c9adb678cdf0800166e750c251a7e989c66792" class="room indoor" data-label="Advancement Room" x="589" y="455" width="8" height="8" rx="2"/>
