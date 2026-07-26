@@ -9,6 +9,7 @@ const ROOM_TYPE_LABELS = {
   crafts: 'Crafts shop', house: 'Player house', club: 'Player club',
   pshop: 'Player shop', tshop: 'Travelling shop', talker: 'Talker shop',
   tavern: 'Tavern / Restaurant', pub: 'Pub / Bar',
+  gather: 'Gather spot',
 };
 
 const ORB_RADIUS = {

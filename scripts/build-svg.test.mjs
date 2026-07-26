@@ -350,6 +350,16 @@ describe('roomElement (with type)', () => {
   it('TYPE_LETTERS includes stationery as Q', () => {
     expect(TYPE_LETTERS.stationery).toBe('Q')
   })
+
+  it('gather typed room has type class and N letter', () => {
+    const el = roomElement('r1', 10, 20, 'Herb Patch', false, 'gather')
+    expect(el).toContain('class="room outdoor room-gather"')
+    expect(el).toContain('>N<')
+  })
+
+  it('TYPE_LETTERS includes gather as N', () => {
+    expect(TYPE_LETTERS.gather).toBe('N')
+  })
 })
 
 describe('roomElement (compact)', () => {
@@ -901,19 +911,27 @@ describe('queryShopTypes', () => {
     expect(queryShopTypes(db, 1, { 'r1': 'pshop' }).get('r1')).toBe('pshop')
   })
 
-  it('excludes garden rooms with harvestable items from shop detection', () => {
+  it('classifies a room whose items are all gather-priced as gather', () => {
     const db = makeDb()
     db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'neat herb garden')").run()
-    db.prepare("INSERT INTO shop_items VALUES ('r1', 'some comfrey', '')").run()
-    db.prepare("INSERT INTO shop_items VALUES ('r1', 'some yarrow', '')").run()
-    expect(queryShopTypes(db, 1).has('r1')).toBe(false)
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'some comfrey', 'gather')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'some yarrow', 'gather')").run()
+    expect(queryShopTypes(db, 1).get('r1')).toBe('gather')
   })
 
-  it('keeps "garden shop" as a real shop despite garden in name', () => {
+  it('does not classify a room as gather when only some items are gather-priced', () => {
     const db = makeDb()
-    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'garden shop')").run()
-    db.prepare("INSERT INTO shop_items VALUES ('r1', 'rake', '')").run()
-    expect(queryShopTypes(db, 1).get('r1')).toBe('shop')
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'Mixed Stall')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'some cardamom', 'gather')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'clover', 'pick')").run()
+    expect(queryShopTypes(db, 1).get('r1')).not.toBe('gather')
+  })
+
+  it('a room-types.json override wins over auto-detected gather', () => {
+    const db = makeDb()
+    db.prepare("INSERT INTO rooms(room_id,map_id,xpos,ypos,room_short) VALUES ('r1', 1, 0, 0, 'neat herb garden')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'some comfrey', 'gather')").run()
+    expect(queryShopTypes(db, 1, { 'r1': 'food' }).get('r1')).toBe('food')
   })
 
   it('skips and warns for unknown override type', () => {

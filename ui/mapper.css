@@ -133,6 +133,7 @@ body {
 .room-tshop-portal                       { fill: #060610; stroke: #e0b0ff; }
 [data-theme="light"] .room-tshop-portal             { fill: #eef0ff; }
 .room-temple                             { fill: #2d1a47; }
+.room-gather                             { fill: #4a4a1a; }
 
 /* ─── CTF Arena room types ─────────────────────────────────────────────────── */
 [class^="room-ctf-"], [class*=" room-ctf-"] { font-size: 8px; }
