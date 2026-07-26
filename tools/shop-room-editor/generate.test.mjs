@@ -75,13 +75,13 @@ describe('buildRoomRecords', () => {
     expect(records[0]).toMatchObject({ hasOverride: true, overrideType: 'crafts', effectiveType: 'crafts' })
   })
 
-  it('includes a shop_items room excluded from auto-classification (e.g. a garden) with a null effectiveType', () => {
+  it('includes a shop_items room classified as gather (e.g. a garden with only foraged items)', () => {
     const db = makeDb()
     db.prepare("INSERT INTO rooms VALUES ('r1', 1, 0, 0, 'quiet garden', 'inside')").run()
-    db.prepare("INSERT INTO shop_items VALUES ('r1', 'carrot', '2p')").run()
+    db.prepare("INSERT INTO shop_items VALUES ('r1', 'carrot', 'gather')").run()
     const records = buildRoomRecords(db, testMaps, {})
     expect(records).toHaveLength(1)
-    expect(records[0].effectiveType).toBeNull()
+    expect(records[0].effectiveType).toBe('gather')
   })
 
   it('sorts records by map name then room name', () => {
