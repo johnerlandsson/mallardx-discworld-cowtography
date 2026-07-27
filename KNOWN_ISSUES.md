@@ -31,11 +31,3 @@ The target-room highlight doesn't show up on "green" rooms, and possibly
 "water" rooms too (see `ui/data/room-green.json` / `ui/data/room-water.json`).
 Likely a CSS specificity/z-order issue — the `.target` class styling may be
 overridden by the green/water room styling.
-
-## AMShades: map briefly shows, then flashes to "Unknown location"
-
-Found while testing `refactor/main-lua-split`. Confirmed present on `main` too.
-
-Entering the Shades from outside: the map correctly shows "ShadesEntrance"
-briefly, then flips to the "Unknown location" special screen. Moving back out
-works fine.

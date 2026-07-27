@@ -122,5 +122,6 @@ export default {
   "Shades13": [8, 230.8, 178.3, "Shades maze"],
   "Shades14": [8, 231.0, 209.2, "Shades maze"],
   "Shades15": [8, 199.7, 209.9, "Shades maze"],
-  "Shades16": [8, 199.5, 179.0, "Shades maze"]
+  "Shades16": [8, 199.5, 179.0, "Shades maze"],
+  "ShadesEntrance": [8, 137.6, 179.0, "Shades maze entrance"]
 };
