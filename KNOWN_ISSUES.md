@@ -24,10 +24,3 @@ Likely two compounding issues:
   `current.roomId`, so it never re-triggers a draw — only an actual move
   (which changes the room) does, and by then `#mapJustLoaded` has already
   flipped to `false` so the redraw succeeds.
-
-## SVG renderer: target position indicator invisible on green/water rooms
-
-The target-room highlight doesn't show up on "green" rooms, and possibly
-"water" rooms too (see `ui/data/room-green.json` / `ui/data/room-water.json`).
-Likely a CSS specificity/z-order issue — the `.target` class styling may be
-overridden by the green/water room styling.
