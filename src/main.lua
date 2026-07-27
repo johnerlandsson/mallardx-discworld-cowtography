@@ -764,16 +764,19 @@ end)
 -- Discworld queues commands sent while a movement queue is active, so the
 -- verbose look fires as soon as the queued moves actually finish.
 local function send_walk_steps()
-  -- One semicolon-joined line, one mud.send() call — not one call per step.
-  -- Discworld parses and queues ';'-separated commands from a single line
-  -- itself; sending N separate commands here just means N separate writes
-  -- through Mallard's outbound channel, which has a bounded capacity and
-  -- silently drops anything past it once a burst overruns that buffer.
+  -- One mud.send() call carrying embedded newlines, not one call per step
+  -- and not ';'-joined (Discworld only expands ';' inside its own alias
+  -- bodies, not in a raw sent line — confirmed by testing with the world's
+  -- command-separator setting on). Mallard writes the string's bytes as-is
+  -- plus a trailing \r\n, so each embedded \n still reads as its own line
+  -- to Discworld's line-oriented input, while this is only ONE item through
+  -- Mallard's bounded outbound channel — sidestepping the silent-drop bug
+  -- regardless of route length.
   local parts = {}
   if settings.get('brief_verbose_look') then parts[#parts + 1] = 'brief look' end
   for _, step in ipairs(walk_steps) do parts[#parts + 1] = step end
   if settings.get('brief_verbose_look') then parts[#parts + 1] = 'verbose look' end
-  mud.send(table.concat(parts, ';'), { silent = true })
+  mud.send(table.concat(parts, '\n'), { silent = true })
 end
 
 local function do_walk()
