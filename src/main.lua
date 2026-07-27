@@ -1077,8 +1077,8 @@ route_to_room = function(room_id, display_name, walk_immediately)
   walk_rooms       = route_rooms
   post_route(route_rooms, display_name, steps)
 
-  if steps > 60 then
-    note('  Warning: long route. Discworld\'s movement queue appears to hold only ~60 commands at once — the walk may stop partway and need a second "/go" to finish.', C.header)
+  if steps > 140 then
+    note('  Warning: long route. Discworld clears movement queues after 5 minutes of idle time.', C.header)
   end
 
   if walk_immediately then
