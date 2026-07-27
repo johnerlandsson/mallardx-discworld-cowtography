@@ -763,20 +763,30 @@ end)
 
 -- Discworld queues commands sent while a movement queue is active, so the
 -- verbose look fires as soon as the queued moves actually finish.
+-- Fixed name, redefined (overwritten) on every walk — do_walk() already
+-- guards against two walks running at once, so nothing else can be mid-
+-- invocation of this alias when it's redefined.
+local WALK_ALIAS_NAME = 'CowtographyWalk'
+
 local function send_walk_steps()
-  -- One mud.send() call carrying embedded newlines, not one call per step
-  -- and not ';'-joined (Discworld only expands ';' inside its own alias
-  -- bodies, not in a raw sent line — confirmed by testing with the world's
-  -- command-separator setting on). Mallard writes the string's bytes as-is
-  -- plus a trailing \r\n, so each embedded \n still reads as its own line
-  -- to Discworld's line-oriented input, while this is only ONE item through
-  -- Mallard's bounded outbound channel — sidestepping the silent-drop bug
-  -- regardless of route length.
+  -- Sending each step as its own top-level command hit an internal
+  -- Discworld command-queue cap around ~60-64 no matter how it was
+  -- delivered: one mud.send() per step, or one call with the steps '\r\n'-
+  -- joined into a single line (which correctly reads as separate commands
+  -- to Discworld, ruling out this being only Mallard's bounded-channel
+  -- bug — that fix stayed, this cap is Discworld's own). Its alias system
+  -- doesn't share that cap: the identical route walked to completion in
+  -- MUSHclient using Quow's plugin, which defines the whole route as a
+  -- server-side alias and invokes it, rather than submitting the steps as
+  -- top-level commands. ';' is only meaningful to Discworld as a separator
+  -- *inside* an alias body (confirmed in-game — raw ';'-joined input isn't
+  -- split at all), which is exactly this context.
   local parts = {}
   if settings.get('brief_verbose_look') then parts[#parts + 1] = 'brief look' end
   for _, step in ipairs(walk_steps) do parts[#parts + 1] = step end
   if settings.get('brief_verbose_look') then parts[#parts + 1] = 'verbose look' end
-  mud.send(table.concat(parts, '\n'), { silent = true })
+  mud.send('alias ' .. WALK_ALIAS_NAME .. ' ' .. table.concat(parts, ';'), { silent = true })
+  mud.send(WALK_ALIAS_NAME, { silent = true })
 end
 
 local function do_walk()
