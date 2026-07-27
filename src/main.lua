@@ -811,11 +811,11 @@ local TYPE_LABELS = {
 
 local route_to_room  -- forward declaration; assigned below after panel setup
 
--- Discworld can clear a queued walk without printing any recognizable text
--- (e.g. some NPC muggings never trigger "Removed queue."), so a stalled walk
--- is detected either by that message or by the watchdog further down. Both
--- funnel here: keep the untraveled remainder of the route instead of
--- discarding it, so a plain /go resumes rather than forcing a fresh /db or /bm.
+-- Discworld can clear a queued walk without printing any recognizable text,
+-- so a stalled walk is detected either by that message or by the watchdog
+-- further down. Both funnel here: keep the untraveled remainder of the route
+-- instead of discarding it, so a plain /go resumes rather than forcing a
+-- fresh /db or /bm.
 local function walk_paused(reason)
   if walk_pos == 0 then return end
   local at_pos         = walk_pos
@@ -968,7 +968,7 @@ end)
 -- Fallback for interruptions that clear the queue without printing anything
 -- the trigger above can match. Empirically, room arrivals during a normal
 -- walk land 0-2s apart; 5s of silence mid-route means the queue emptied
--- unnoticed (see the pickpocket-mugging case that motivated this).
+-- unnoticed.
 local WALK_STALL_SECONDS = 5
 mud.every(1000, function()
   if walk_pos > 0 and os.time() - walk_last_progress >= WALK_STALL_SECONDS then
@@ -1074,8 +1074,8 @@ route_to_room = function(room_id, display_name, walk_immediately)
   walk_rooms       = route_rooms
   post_route(route_rooms, display_name, steps)
 
-  if steps > 140 then
-    note('  Warning: long route. Discworld clears movement queues after 5 minutes of idle time.', C.header)
+  if steps > 60 then
+    note('  Warning: long route. Discworld\'s movement queue appears to hold only ~60 commands at once — the walk may stop partway and need a second "/go" to finish.', C.header)
   end
 
   if walk_immediately then
