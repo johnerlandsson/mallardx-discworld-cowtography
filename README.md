@@ -156,3 +156,9 @@ npm run build:data -- --db /path/to/_quowmap_database.db   # Lua tables only; no
 ## Credits
 
 Map data, database content and pathfinding algorithm adapted from **[Quow's Cow Bar and Minimap](https://quow.co.uk/minimap.php)** plugin for MUSHClient by Quow. Used with gratitude.
+
+---
+
+## AI disclosure
+
+Much of this plugin's code was written with the help of an LLM (Claude). Design decisions, testing, and review are the author's own.
