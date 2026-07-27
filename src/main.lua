@@ -764,13 +764,16 @@ end)
 -- Discworld queues commands sent while a movement queue is active, so the
 -- verbose look fires as soon as the queued moves actually finish.
 local function send_walk_steps()
-  if settings.get('brief_verbose_look') then
-    mud.send('brief look', { silent = true })
-  end
-  for _, step in ipairs(walk_steps) do mud.send(step, { silent = true }) end
-  if settings.get('brief_verbose_look') then
-    mud.send('verbose look', { silent = true })
-  end
+  -- One semicolon-joined line, one mud.send() call — not one call per step.
+  -- Discworld parses and queues ';'-separated commands from a single line
+  -- itself; sending N separate commands here just means N separate writes
+  -- through Mallard's outbound channel, which has a bounded capacity and
+  -- silently drops anything past it once a burst overruns that buffer.
+  local parts = {}
+  if settings.get('brief_verbose_look') then parts[#parts + 1] = 'brief look' end
+  for _, step in ipairs(walk_steps) do parts[#parts + 1] = step end
+  if settings.get('brief_verbose_look') then parts[#parts + 1] = 'verbose look' end
+  mud.send(table.concat(parts, ';'), { silent = true })
 end
 
 local function do_walk()
