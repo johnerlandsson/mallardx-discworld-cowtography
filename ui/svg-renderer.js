@@ -5,6 +5,7 @@ import { _ensureOverlay, _lift, _restoreOverlay } from "./svg-renderer/overlay.j
 import { setStackRoomVisible, updateStackVisibility } from "./svg-renderer/stack-visibility.js";
 import { applyLibraryOverlay } from "./svg-renderer/library-overlay.js";
 import { wireTooltip } from "./svg-renderer/tooltip.js";
+import { startTshopAnim, stopTshopAnim } from "./svg-renderer/tshop-animation.js";
 
 export class SvgRenderer {
   supportsZoom    = true;
@@ -21,8 +22,7 @@ export class SvgRenderer {
   #drag           = null;
   #pendingClick   = null;
   #loadGeneration = 0;
-  #tshopAnim      = null;
-  #tshopCanvas    = null;
+  #tshopAnim      = null; // { anim, canvas } handle from tshop-animation.js, or null
   #currentStackGround = null;
   #roomUnits      = new Map();
   #mapFocused     = false;
@@ -315,56 +315,12 @@ export class SvgRenderer {
 
   #startTshopAnim() {
     this.#stopTshopAnim();
-    const canvas = document.createElement("canvas");
-    canvas.style.cssText = "position:fixed;top:0;left:0;pointer-events:none;";
-    document.body.appendChild(canvas);
-    this.#tshopCanvas = canvas;
-    const particles = [];
-    const ctx = canvas.getContext("2d");
-    const HS_MAX = 80, HS_SPAWN = 0.35, HS_ACCEL = 1.015;
-    const frame = () => {
-      if (!canvas.isConnected) { this.#tshopAnim = null; this.#tshopCanvas = null; return; }
-      this.#tshopAnim = requestAnimationFrame(frame);
-      const cw = window.innerWidth, ch = window.innerHeight;
-      if (!cw || !ch) return;
-      if (canvas.width !== cw || canvas.height !== ch) { canvas.width = cw; canvas.height = ch; }
-      ctx.clearRect(0, 0, cw, ch);
-      const ocx = cw / 2, ocy = ch / 2;
-      const maxDist = Math.max(
-        Math.hypot(ocx, ocy), Math.hypot(cw - ocx, ocy),
-        Math.hypot(ocx, ch - ocy), Math.hypot(cw - ocx, ch - ocy)
-      ) * 1.05;
-      const fadeDist = maxDist * 0.75;
-      const fg = getComputedStyle(document.documentElement).getPropertyValue("--fg").trim() || "#ffffff";
-      if (particles.length < HS_MAX && Math.random() < HS_SPAWN) {
-        particles.push({ angle: Math.random() * Math.PI * 2, dist: 0, speed: 0.5 + Math.random() * 0.8 });
-      }
-      ctx.strokeStyle = fg; ctx.lineCap = "round";
-      for (let i = particles.length - 1; i >= 0; i--) {
-        const p = particles[i];
-        const prev = p.dist;
-        p.speed *= HS_ACCEL; p.dist += p.speed;
-        if (p.dist >= maxDist) { particles.splice(i, 1); continue; }
-        const opacity = p.dist < 15 ? p.dist / 15
-          : p.dist > fadeDist ? 1 - (p.dist - fadeDist) / (maxDist - fadeDist) : 1;
-        const cos = Math.cos(p.angle), sin = Math.sin(p.angle);
-        ctx.globalAlpha = opacity * 0.75;
-        ctx.lineWidth   = Math.max(0.5, p.speed * 0.15);
-        ctx.beginPath();
-        ctx.moveTo(ocx + cos * prev,   ocy + sin * prev);
-        ctx.lineTo(ocx + cos * p.dist, ocy + sin * p.dist);
-        ctx.stroke();
-      }
-      ctx.globalAlpha = 1;
-    };
-    this.#tshopAnim = requestAnimationFrame(frame);
+    this.#tshopAnim = startTshopAnim();
   }
 
   #stopTshopAnim() {
-    if (this.#tshopAnim === null) return;
-    cancelAnimationFrame(this.#tshopAnim);
+    stopTshopAnim(this.#tshopAnim);
     this.#tshopAnim = null;
-    if (this.#tshopCanvas) { this.#tshopCanvas.remove(); this.#tshopCanvas = null; }
   }
 
   // ─── Event handlers ──────────────────────────────────────────────────────
