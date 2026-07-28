@@ -42,6 +42,8 @@ shades.init(panel_mod)
 local medina = require('cowtography.medina')
 medina.init(panel_mod)
 
+local walk = require('cowtography.walk')
+
 local last_results    = {}
 local target_room          = nil   -- predicted position; nil when same as confirmed
 local pred_queue           = {}    -- ordered sequence of predicted rooms [next, …, target]
@@ -82,22 +84,6 @@ end
 
 local MAX_DISPLAY = 10
 
-local walk_steps        = {}
-local walk_pos          = 0
-local walk_target_name  = ''
-local walk_target_id    = nil  -- destination room id, for auto-reroute if a pause lands us off-route
-local walk_rooms        = {}   -- expected room id at each step (parallels walk_steps, one longer)
-local walk_last_progress = 0   -- os.time() of the last confirmed step, for the stall watchdog
-
-local function walk_arrived(name)
-  note(string.format('  Arrived at "%s".', name), C.ok)
-  walk_steps = {}; walk_pos = 0; walk_target_name = ''
-  walk_rooms = {}; walk_target_id = nil
-  post_route_clear()
-  local snd = settings.get('walk_sound')
-  if snd and snd ~= 'none' then mud.play_sound(snd) end
-end
-
 -- ─── UU Library ──────────────────────────────────────────────────────────────
 -- State, aliases, and triggers now live in cowtography/uu_library.lua.
 
@@ -112,12 +98,7 @@ local function seed_room()
 end
 
 local function reset_walk()
-  walk_steps       = {}
-  walk_pos         = 0
-  walk_target_name = ''
-  walk_rooms       = {}
-  walk_target_id   = nil
-  post_route_clear()
+  walk.reset_for_disconnect()
   post_target_clear(true)  -- snap view back; no room_info is coming
 end
 
@@ -214,92 +195,20 @@ gmcp.on('room.info', function(_, data)
       end
     end
 
-    if walk_pos > 0 then
-      walk_last_progress = os.time()
-      if walk_pos < #walk_steps then
-        walk_pos = walk_pos + 1
-        local remaining = #walk_steps - walk_pos + 1
-        note(string.format('  %d move%s remaining.', remaining, remaining == 1 and '' or 's'), C.muted)
-      else
-        walk_arrived(walk_target_name)
-      end
-    end
+    walk.advance_or_arrive()
   elseif type(data) == 'table' then
     -- Dark room: room.info without an identifier. Keep the map on last known position
     -- (muted) rather than tracking or showing a darkness overlay.
     _in_dark    = true
     post_target_clear(false)
     panel:post("room_dark", {})
-    if walk_pos > 0 then
-      walk_last_progress = os.time()
-      if walk_pos < #walk_steps then
-        walk_pos = walk_pos + 1
-        local remaining = #walk_steps - walk_pos + 1
-        note(string.format('  %d move%s remaining.', remaining, remaining == 1 and '' or 's'), C.muted)
-      else
-        walk_arrived(walk_target_name)
-      end
-    end
+    walk.advance_or_arrive()
   end
 end)
 
 -- ─── Walk state ──────────────────────────────────────────────────────────────
--- Shared by /go, /db, and /bm — either can create a route, and /go walks it.
-
--- Discworld queues commands sent while a movement queue is active, so the
--- verbose look fires as soon as the queued moves actually finish.
--- Fixed name, redefined (overwritten) on every walk — do_walk() already
--- guards against two walks running at once, so nothing else can be mid-
--- invocation of this alias when it's redefined.
-local WALK_ALIAS_NAME = 'CowtographyWalk'
-
-local function send_walk_steps()
-  -- Sending each step as its own top-level command hit an internal
-  -- Discworld command-queue cap around ~60-64 no matter how it was
-  -- delivered: one mud.send() per step, or one call with the steps '\r\n'-
-  -- joined into a single line (which correctly reads as separate commands
-  -- to Discworld, ruling out this being only Mallard's bounded-channel
-  -- bug — that fix stayed, this cap is Discworld's own). Its alias system
-  -- doesn't share that cap: the identical route walked to completion in
-  -- MUSHclient using Quow's plugin, which defines the whole route as a
-  -- server-side alias and invokes it, rather than submitting the steps as
-  -- top-level commands. ';' is only meaningful to Discworld as a separator
-  -- *inside* an alias body (confirmed in-game — raw ';'-joined input isn't
-  -- split at all), which is exactly this context.
-  local parts = {}
-  if settings.get('brief_verbose_look') then parts[#parts + 1] = 'brief look' end
-  for _, step in ipairs(walk_steps) do parts[#parts + 1] = step end
-  if settings.get('brief_verbose_look') then parts[#parts + 1] = 'verbose look' end
-  mud.send('alias ' .. WALK_ALIAS_NAME .. ' ' .. table.concat(parts, ';'), { silent = true })
-  mud.send(WALK_ALIAS_NAME, { silent = true })
-end
-
-local function do_walk()
-  local p = mud.command_prefix()
-  if #walk_steps == 0 then
-    note(string.format('  No route set. Run "%sdb <number>" or "%sbm <name>" first.', p, p), C.err)
-    return
-  end
-  if walk_pos > 0 then
-    note('  Already walking.', C.muted)
-    return
-  end
-  walk_pos = 1
-  walk_last_progress = os.time()
-  note(string.format('  Walking to "%s" — %d move%s.', walk_target_name, #walk_steps, #walk_steps == 1 and '' or 's'), C.ok)
-  send_walk_steps()
-  panel:post("walk_active", {})
-end
-
-local function do_clear_route()
-  walk_steps       = {}
-  walk_pos         = 0
-  walk_target_name = ''
-  walk_rooms       = {}
-  walk_target_id   = nil
-  post_route_clear()
-  note('  Route cleared.', C.muted)
-end
+-- Now lives in cowtography/walk.lua (walk_paused's recalculate branch calls
+-- back into route_to_room via walk.set_router(), wired below).
 
 -- ─── Display ─────────────────────────────────────────────────────────────────
 
@@ -311,39 +220,6 @@ local TYPE_LABELS = {
 }
 
 local route_to_room  -- forward declaration; assigned below after panel setup
-
--- Discworld can clear a queued walk without printing any recognizable text,
--- so a stalled walk is detected either by that message or by the watchdog
--- further down. Both funnel here: keep the untraveled remainder of the route
--- instead of discarding it, so a plain /go resumes rather than forcing a
--- fresh /db or /bm.
-local function walk_paused(reason)
-  if walk_pos == 0 then return end
-  local at_pos         = walk_pos
-  local dest_id        = walk_target_id
-  local dest_name      = walk_target_name
-  local expected_room  = walk_rooms[at_pos]
-  walk_pos = 0
-
-  if expected_room and state.current_room and state.current_room ~= expected_room then
-    -- We ended up somewhere the route didn't expect (dragged, teleported,
-    -- portal, etc.) — the remaining directions are no longer valid.
-    walk_steps = {}; walk_rooms = {}; walk_target_id = nil
-    post_route_clear()
-    note(string.format('  %s Position no longer matches the route — recalculating.', reason), C.header)
-    route_to_room(dest_id, dest_name, false)
-    return
-  end
-
-  walk_steps = { table.unpack(walk_steps, at_pos, #walk_steps) }
-  walk_rooms = { table.unpack(walk_rooms, at_pos, #walk_rooms) }
-  local remaining = #walk_steps
-  post_route(walk_rooms, dest_name, remaining)
-  local p = mud.command_prefix()
-  mud.note(mud.span(string.format('  %s %d move%s remaining to "%s". Type ', reason, remaining, remaining == 1 and '' or 's', dest_name), { fg = C.header })
-        .. mud.span(p .. 'go', { fg = C.header, on_click = function() do_walk() end })
-        .. mud.span('.', { fg = C.header }))
-end
 
 local function display_results(search_type, query, results, sorted_by_dist)
   local p         = mud.command_prefix()
@@ -437,8 +313,8 @@ local DIR_NORMALIZE = {
 
 mud.on_send([[^(n|ne|e|se|s|sw|w|nw|u|d|north|northeast|east|southeast|south|southwest|west|northwest|up|down)$]], function(m)
   if m.origin.plugin_id == PLUGIN_ID then return end
-  if walk_pos == 0 and #walk_steps > 0 then
-    do_clear_route()
+  if walk.get_pos() == 0 and walk.get_steps_count() > 0 then
+    walk.clear_route()
   end
   local dir  = DIR_NORMALIZE[m[1]]
   local from = target_room or state.current_room
@@ -460,21 +336,6 @@ end, { name = "movement-observer" })
 mud.alias([[^stop$]], function(m)
   reset_walk()
   mud.send(m.text, { silent = true })
-end)
-
-mud.trigger([[^(?:> )?Removed queue\.$]], function()
-  walk_paused('Movement queue was cleared.')
-end)
-
--- Fallback for interruptions that clear the queue without printing anything
--- the trigger above can match. Empirically, room arrivals during a normal
--- walk land 0-2s apart; 5s of silence mid-route means the queue emptied
--- unnoticed.
-local WALK_STALL_SECONDS = 5
-mud.every(1000, function()
-  if walk_pos > 0 and os.time() - walk_last_progress >= WALK_STALL_SECONDS then
-    walk_paused(string.format('No movement for %ds — you may have been interrupted.', WALK_STALL_SECONDS))
-  end
 end)
 
 -- ─── db ──────────────────────────────────────────────────────────────────────
@@ -566,13 +427,11 @@ route_to_room = function(room_id, display_name, walk_immediately)
     return
   end
 
-  walk_steps = {}
+  local steps_list = {}
   for dir in path:gmatch('[^;]+') do
-    walk_steps[#walk_steps + 1] = dir
+    steps_list[#steps_list + 1] = dir
   end
-  walk_target_name = display_name
-  walk_target_id   = room_id
-  walk_rooms       = route_rooms
+  walk.set_route(steps_list, route_rooms, display_name, room_id)
   post_route(route_rooms, display_name, steps)
 
   if steps > 140 then
@@ -580,31 +439,19 @@ route_to_room = function(room_id, display_name, walk_immediately)
   end
 
   if walk_immediately then
-    walk_pos = 1
-    walk_last_progress = os.time()
-    note(string.format('  Walking to "%s" — %d move%s.', display_name, steps, steps == 1 and '' or 's'), C.ok)
-    send_walk_steps()
-    panel:post("walk_active", {})
+    walk.walk()
   else
-    walk_pos = 0
     mud.note(mud.span(string.format('  Route to "%s" — %d move%s. Type ', display_name, steps, steps == 1 and '' or 's'), { fg = C.ok })
-          .. mud.span(p .. 'go', { fg = C.ok, on_click = function() do_walk() end })
+          .. mud.span(p .. 'go', { fg = C.ok, on_click = function() walk.walk() end })
           .. mud.span(' to begin.', { fg = C.ok }))
   end
 end
 
+walk.set_router(function(...) return route_to_room(...) end)
+
 panel:on_message("room_click", function(frame)
   route_to_room(frame.id, frame.name, false)
 end)
-
-panel:on_message("walk_request", function(_frame)
-  do_walk()
-end)
-
-panel:on_message("clear_request", function(_frame)
-  do_clear_route()
-end)
-
 
 local function do_route(n, walk_immediately)
   if #last_results == 0 then
@@ -758,12 +605,12 @@ mud.command("go", function(m)
   local args = m.args
 
   if args == '' then
-    do_walk()
+    walk.walk()
     return
   end
 
   if args == 'clear' then
-    do_clear_route()
+    walk.clear_route()
     return
   end
 
