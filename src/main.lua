@@ -23,23 +23,18 @@ local npc_items = require('data.npc_items')
 local exits     = require('data.exits')
 local map_names = require('data.map_names')
 
--- Invert exits into direction-keyed lookup: exits_by_dir[roomId][dir] = targetRoomId
-local exits_by_dir = {}
-for room_id, neighbors in pairs(exits) do
-  local by_dir = {}
-  for neighbor_id, dir in pairs(neighbors) do
-    by_dir[dir] = neighbor_id
-  end
-  exits_by_dir[room_id] = by_dir
-end
+local colors = require('cowtography.colors')
+local C, note, vlen = colors.C, colors.note, colors.vlen
+
+local state = require('cowtography.state')
+local exits_by_dir = state.exits_by_dir
+local PLUGIN_ID     = state.PLUGIN_ID
 
 local last_results    = {}
-local current_room    = nil
 local target_room          = nil   -- predicted position; nil when same as confirmed
 local pred_queue           = {}    -- ordered sequence of predicted rooms [next, …, target]
 local just_moved           = false -- true for one GMCP after a successful move
 local prev_target_at_move  = nil   -- target_room captured when just_moved was last set
-local room_id_echo    = false
 local _in_dark        = false
 
 -- Room identifiers that show a named special screen instead of the map.
@@ -143,7 +138,6 @@ local post_medina_room          -- forward declaration; body assigned after post
 -- ─── Map panel ───────────────────────────────────────────────────────────────
 
 local panel        = mud.panel("map")
-local last_payload = nil
 local last_route             = nil
 local last_route_destination = nil
 local last_route_steps       = nil
@@ -184,7 +178,7 @@ post_medina_room = function(room_id)
   medina_identified = true
   medina_prev = room_id
   local frame = { identifier = room_id, name = medina_name }
-  last_payload = frame
+  state.last_payload = frame
   post_room(frame)
 end
 
@@ -194,7 +188,7 @@ post_shades_room = function(n)
   shades_room = n
   local id = shades_room_id(n)
   local frame = { identifier = id, name = shades_name }
-  last_payload = frame
+  state.last_payload = frame
   post_room(frame)
 end
 
@@ -236,7 +230,7 @@ panel:on_message("ready", function()
     if last_lib_position then panel:post("library_position", last_lib_position) end
     if last_lib_overlay  then panel:post("library_overlay",  last_lib_overlay)  end
   else
-    if last_payload then post_room(last_payload) end
+    if state.last_payload then post_room(state.last_payload) end
     if last_route then
       panel:post("route_set", { rooms = last_route, destination = last_route_destination, steps = last_route_steps })
     end
@@ -270,22 +264,6 @@ end)
 
 local MAX_DISPLAY = 10
 
-local C = {
-  rule     = '#555555',
-  header   = '#ffcc88',
-  name     = '#ffffff',
-  alt      = '#cccccc',
-  location = '#88ccff',
-  price    = '#aaffaa',
-  err      = '#ff6666',
-  ok       = '#aaffaa',
-  muted    = '#888888',
-}
-
-local function note(text, colour)
-  mud.note(text, { fg = colour or C.name })
-end
-
 local walk_steps        = {}
 local walk_pos          = 0
 local walk_target_name  = ''
@@ -301,21 +279,6 @@ local function walk_arrived(name)
   local snd = settings.get('walk_sound')
   if snd and snd ~= 'none' then mud.play_sound(snd) end
 end
-
--- Count visual columns in a UTF-8 string (codepoints, not bytes).
-local function vlen(s)
-  local n, i = 0, 1
-  while i <= #s do
-    local b = s:byte(i)
-    if     b < 0x80 then i = i + 1
-    elseif b < 0xE0 then i = i + 2
-    elseif b < 0xF0 then i = i + 3
-    else                  i = i + 4 end
-    n = n + 1
-  end
-  return n
-end
-
 
 -- ─── UU Library ──────────────────────────────────────────────────────────────
 -- Directions in the library are relative (forward/backward/left/right).
@@ -498,7 +461,7 @@ for _, entry in ipairs({
 }) do
   local id = entry[2]
   mud.trigger(entry[1], function()
-    if current_room == "BPMedina" then post_medina_room(id) end
+    if state.current_room == "BPMedina" then post_medina_room(id) end
   end)
 end
 
@@ -507,7 +470,7 @@ end
 -- both variants must trigger identification or the map is left stranded on
 -- the Medina09 entry anchor.
 local function medina_generic_room()
-  if current_room ~= "BPMedina" or medina_identified then return end
+  if state.current_room ~= "BPMedina" or medina_identified then return end
   local room_id
   if     medina_exit_count == 5 then room_id = "Medina05"
   elseif medina_exit_count == 4 then room_id = "Medina13"
@@ -535,20 +498,20 @@ for _, entry in ipairs({
 }) do
   local n = entry[2]
   mud.trigger(entry[1], function()
-    if current_room == "AMShades" then post_shades_room(n) end
+    if state.current_room == "AMShades" then post_shades_room(n) end
   end)
 end
 
 -- ShadesGuess1 (rooms 1,10,11,13,14): try to resolve via prev room.
 mud.trigger([[no hope of ever escaping]], function()
-  if current_room ~= "AMShades" or shades_identified then return end
+  if state.current_room ~= "AMShades" or shades_identified then return end
   local n = shades_disambiguate(SHADES_GUESS1)
   if n then post_shades_room(n) end
 end)
 
 -- ShadesGuess2 (rooms 3,4,6,7,15): try to resolve via prev room.
 mud.trigger([[Dim fires flicker]], function()
-  if current_room ~= "AMShades" or shades_identified then return end
+  if state.current_room ~= "AMShades" or shades_identified then return end
   local n = shades_disambiguate(SHADES_GUESS2)
   if n then post_shades_room(n) end
 end)
@@ -559,7 +522,7 @@ local function seed_room()
   local raw = gmcp.get("room.info")
   if raw then
     local id = raw:match('"identifier"%s*:%s*"([^"]+)"')
-    if id then current_room = id end
+    if id then state.current_room = id end
   end
 end
 
@@ -593,10 +556,8 @@ end)
 -- Mirrors the pattern from discworld-grouping: subscribe for live updates +
 -- hydrate at startup so plugin reloads mid-session get the cached value.
 
-local char_name = nil
-
 local function apply_char_name(name)
-  if type(name) == 'string' and name ~= '' then char_name = name end
+  if type(name) == 'string' and name ~= '' then state.char_name = name end
 end
 
 apply_char_name(gmcp.get('char.info.capname'))
@@ -619,18 +580,18 @@ gmcp.on('room.info', function(_, data)
       _in_dark = false
       post_target_clear(false)
     end
-    local prev_room = current_room
-    current_room = data.identifier
+    local prev_room = state.current_room
+    state.current_room = data.identifier
     -- Leaving the Shades entirely: reset tracked position.
-    if prev_room == "AMShades" and current_room ~= "AMShades" and current_room ~= SHADES_ENTRY_ID then
+    if prev_room == "AMShades" and state.current_room ~= "AMShades" and state.current_room ~= SHADES_ENTRY_ID then
       shades_room      = nil
       shades_predicted = false
     end
-    if current_room ~= prev_room then
+    if state.current_room ~= prev_room then
       -- Actual movement: advance the prediction queue if this room was expected,
       -- otherwise the prediction is stale (locked door, teleport, etc.) — clear it.
       if target_room ~= nil then
-        if pred_queue[1] == current_room then
+        if pred_queue[1] == state.current_room then
           table.remove(pred_queue, 1)
           target_room = pred_queue[#pred_queue]  -- nil when we've arrived at the destination
         else
@@ -648,7 +609,7 @@ gmcp.on('room.info', function(_, data)
       end
       just_moved = false
     end
-    if room_id_echo then note('  ' .. current_room, C.name) end
+    if state.room_id_echo then note('  ' .. state.current_room, C.name) end
 
     -- UU Library: clear per-room overlays on each room transition.
     lib_orb_here        = false
@@ -712,7 +673,7 @@ gmcp.on('room.info', function(_, data)
               -- Entering from outside: anchor map to entrance, treat prev as room 17.
               shades_room = 17
               local anchor = { identifier = "ShadesEntrance", name = data.name }
-              last_payload = anchor
+              state.last_payload = anchor
               post_room(anchor)
             end
           end
@@ -731,7 +692,7 @@ gmcp.on('room.info', function(_, data)
             -- First entry: load the Medina map immediately. Text trigger will
             -- refine position once the room description arrives.
             local anchor = { identifier = "Medina09", name = data.name }
-            last_payload = anchor
+            state.last_payload = anchor
             post_room(anchor)
           end
         elseif data.identifier == SHADES_ENTRY_ID then
@@ -747,15 +708,15 @@ gmcp.on('room.info', function(_, data)
           -- Use the clean fake ID so the mapper can find the ShadesEntrance
           -- entry in room-custom.js.
           local frame = { identifier = "ShadesEntrance", name = data.name }
-          last_payload = frame
+          state.last_payload = frame
           post_room(frame)
         else
-          last_payload = data
+          state.last_payload = data
           post_room(data)
         end
       end
     end
-    if room_id_echo and shades_room then
+    if state.room_id_echo and shades_room then
       note(string.format('  shades_room=%s predicted=%s identified=%s',
         tostring(shades_room), tostring(shades_predicted), tostring(shades_identified)), C.muted)
     end
@@ -871,7 +832,7 @@ local function walk_paused(reason)
   local expected_room  = walk_rooms[at_pos]
   walk_pos = 0
 
-  if expected_room and current_room and current_room ~= expected_room then
+  if expected_room and state.current_room and state.current_room ~= expected_room then
     -- We ended up somewhere the route didn't expect (dragged, teleported,
     -- portal, etc.) — the remaining directions are no longer valid.
     walk_steps = {}; walk_rooms = {}; walk_target_id = nil
@@ -975,8 +936,6 @@ end
 -- never saw. We skip our OWN sends (route-walking via send_walk_steps) so a
 -- walk doesn't double-advance the prediction it already tracks.
 
-local PLUGIN_ID = "net.mallard.discworld-cowtography"
-
 local DIR_NORMALIZE = {
   n='n', north='n', ne='ne', northeast='ne', e='e', east='e',
   se='se', southeast='se', s='s', south='s', sw='sw', southwest='sw',
@@ -989,7 +948,7 @@ mud.on_send([[^(n|ne|e|se|s|sw|w|nw|u|d|north|northeast|east|southeast|south|sou
     do_clear_route()
   end
   local dir  = DIR_NORMALIZE[m[1]]
-  local from = target_room or current_room
+  local from = target_room or state.current_room
   if from then
     local by_dir = exits_by_dir[from]
     if by_dir then
@@ -1013,7 +972,7 @@ end, { name = "movement-observer" })
 mud.on_send([[^([1-8])$]], function(m)
   if m.origin.plugin_id == PLUGIN_ID then return end
   if not shades_room then return end
-  if current_room ~= "AMShades" and current_room ~= SHADES_ENTRY_ID then return end
+  if state.current_room ~= "AMShades" and state.current_room ~= SHADES_ENTRY_ID then return end
   -- Mallard coerces purely-numeric captures to a Lua number (mirrors
   -- tonumber()), but SHADES_DIR's inner tables use string keys ("1", "2", …)
   -- to match Quow's sQSDir — tostring() back before indexing.
@@ -1088,8 +1047,8 @@ local function do_search(search_type, query, area_filter)
   local results
   local sorted_by_dist = false
 
-  if current_room ~= nil then
-    local dist = pathfind.distances_from(exits, current_room)
+  if state.current_room ~= nil then
+    local dist = pathfind.distances_from(exits, state.current_room)
     for _, r in ipairs(candidates) do
       local d = dist[r.room_id]
       if d ~= nil then r.distance = d end
@@ -1118,16 +1077,16 @@ end
 
 route_to_room = function(room_id, display_name, walk_immediately)
   local p = mud.command_prefix()
-  if current_room == nil then
+  if state.current_room == nil then
     note('  Current room unknown. Move through a mapped room first.', C.err)
     return
   end
-  if current_room == room_id then
+  if state.current_room == room_id then
     note('  You are already there.', C.ok)
     return
   end
 
-  local path, steps, route_rooms = pathfind.find_path(exits, current_room, room_id)
+  local path, steps, route_rooms = pathfind.find_path(exits, state.current_room, room_id)
   if path == nil then
     note('  Could not find a route. You may be in an untracked area, or the destination is unreachable.', C.err)
     panel:post("route_error", { name = display_name })
@@ -1188,7 +1147,7 @@ local function do_route(n, walk_immediately)
 end
 
 local function bm_key()
-  return char_name and ('bm_' .. char_name) or 'bookmarks'
+  return state.char_name and ('bm_' .. state.char_name) or 'bookmarks'
 end
 
 mud.command("db", function(m)
@@ -1283,13 +1242,13 @@ mud.command("bm", function(m)
 
   local bm_add = args:match('^add%s+(.+)$')
   if bm_add then
-    if current_room == nil then
+    if state.current_room == nil then
       note('  Current room unknown. Move through a mapped room first.', C.err)
       return
     end
-    local location = (last_payload and last_payload.name) or current_room
+    local location = (state.last_payload and state.last_payload.name) or state.current_room
     local bmarks   = storage.get(bm_key()) or {}
-    bmarks[bm_add] = { room_id = current_room, location = location }
+    bmarks[bm_add] = { room_id = state.current_room, location = location }
     storage.set(bm_key(), bmarks)
     note(string.format('  Bookmarked "%s" as "%s".', location, bm_add), C.ok)
     return
@@ -1346,10 +1305,10 @@ end, {
 -- Useful when populating room-types.json and room-compact.json.
 
 mud.alias([[^dbid$]], function()
-  room_id_echo = not room_id_echo
-  if room_id_echo then
+  state.room_id_echo = not state.room_id_echo
+  if state.room_id_echo then
     note('  Room ID echo ON.', C.ok)
-    if current_room then note('  ' .. current_room, C.name) end
+    if state.current_room then note('  ' .. state.current_room, C.name) end
   else
     note('  Room ID echo OFF.', C.muted)
   end
@@ -1359,8 +1318,8 @@ end)
 -- Re-centre the map on the current position without sending 'look' to the MUD.
 
 local function do_ocd()
-  if last_payload then
-    post_room(last_payload)
+  if state.last_payload then
+    post_room(state.last_payload)
   else
     note('  Current position unknown.', C.muted)
   end
