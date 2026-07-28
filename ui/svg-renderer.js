@@ -1,9 +1,8 @@
 import { groundToUppers } from "./data/room-stacks.js";
 import { ZOOM_FACTOR } from "./svg-renderer/constants.js";
 import { computeRoomUnit, ensureWarpDefs } from "./svg-renderer/geometry.js";
-import { _ensureOverlay, _lift, _restoreOverlay } from "./svg-renderer/overlay.js";
-import { setStackRoomVisible, updateStackVisibility } from "./svg-renderer/stack-visibility.js";
-import { applyLibraryOverlay } from "./svg-renderer/library-overlay.js";
+import { setStackRoomVisible } from "./svg-renderer/stack-visibility.js";
+import { applyStateImpl } from "./svg-renderer/apply-state.js";
 import { wireTooltip } from "./svg-renderer/tooltip.js";
 import { startTshopAnim, stopTshopAnim } from "./svg-renderer/tshop-animation.js";
 import {
@@ -125,83 +124,9 @@ export class SvgRenderer {
     this.#callbacks.onMapLoaded(mapId);
   }
 
-  applyState({ current, target, routeRoomIds, darkMode, libraryOverlay }) {
+  applyState(state) {
     if (!this.#svg) return;
-
-    if (this.#displayedMapId === 99) {
-      const dot = this.#svg.querySelector('#world-player');
-      if (dot) {
-        const pos = target ?? current;
-        if (pos) {
-          dot.setAttribute('cx', pos.x);
-          dot.setAttribute('cy', pos.y);
-          dot.style.display = '';
-        } else {
-          dot.style.display = 'none';
-        }
-      }
-      return;
-    }
-
-    const routeOv = this.#svg.querySelector("#sg-route-overlay");
-    const posOv   = this.#svg.querySelector("#sg-pos-overlay");
-    if (routeOv) _restoreOverlay(routeOv);
-    if (posOv)   _restoreOverlay(posOv);
-
-    this.#svg.querySelectorAll(".current, .target, .route").forEach(el => {
-      el.classList.remove("current", "target", "route");
-    });
-
-    this.#currentStackGround = updateStackVisibility(this.#svg, current?.roomId ?? null, this.#currentStackGround);
-
-    const routeOverlay = _ensureOverlay(this.#svg, "sg-route-overlay");
-    const posOverlay   = _ensureOverlay(this.#svg, "sg-pos-overlay");
-    posOverlay.classList.toggle("dark", darkMode);
-
-    for (let i = 0; i < routeRoomIds.length - 1; i++) {
-      const [a, b] = [routeRoomIds[i], routeRoomIds[i + 1]].sort();
-      const edge = this.#svg.querySelector(`#edge-${CSS.escape(a)}-${CSS.escape(b)}`);
-      if (edge) { edge.classList.add("route"); _lift(edge, routeOverlay); }
-    }
-    for (const id of routeRoomIds) {
-      const el = this.#svg.querySelector(`#room-${CSS.escape(id)}`);
-      if (el) {
-        el.classList.add("route");
-        const sib1 = el.nextElementSibling;
-        _lift(el, routeOverlay);
-        if (sib1?.classList.contains("room-type-label")) _lift(sib1, routeOverlay);
-        const stairEl = this.#svg.querySelector(`#stair-${CSS.escape(id)}`);
-        if (stairEl) _lift(stairEl, routeOverlay);
-      }
-    }
-
-    if (current?.roomId) {
-      const el = this.#svg.querySelector(`#room-${CSS.escape(current.roomId)}`);
-      if (el) {
-        el.classList.add("current");
-        const sib1 = el.nextElementSibling;
-        _lift(el, posOverlay);
-        if (sib1?.classList.contains("room-type-label")) _lift(sib1, posOverlay);
-        const stairEl = this.#svg.querySelector(`#stair-${CSS.escape(current.roomId)}`);
-        if (stairEl) _lift(stairEl, posOverlay);
-      }
-    }
-
-    if (target?.roomId && (!current?.roomId || current.roomId !== target.roomId)) {
-      const el = this.#svg.querySelector(`#room-${CSS.escape(target.roomId)}`);
-      if (el) {
-        el.classList.add("target");
-        const sib1 = el.nextElementSibling;
-        _lift(el, posOverlay);
-        if (sib1?.classList.contains("room-type-label")) _lift(sib1, posOverlay);
-        const stairEl = this.#svg.querySelector(`#stair-${CSS.escape(target.roomId)}`);
-        if (stairEl) _lift(stairEl, posOverlay);
-      }
-    }
-
-    if (this.#displayedMapId === 47 && current?.mapId === 47) {
-      applyLibraryOverlay(this.#svg, current, libraryOverlay);
-    }
+    this.#currentStackGround = applyStateImpl(this.#svg, this.#displayedMapId, state, this.#currentStackGround);
   }
 
   handleResize() { /* SVG viewBox handles this automatically */ }
