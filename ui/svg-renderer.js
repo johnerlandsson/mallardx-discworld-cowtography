@@ -1,9 +1,10 @@
 import { groundToUppers } from "./data/room-stacks.js";
-import { ROOM_TYPE_LABELS, ZOOM_FACTOR, TARGET_PX } from "./svg-renderer/constants.js";
+import { ZOOM_FACTOR, TARGET_PX } from "./svg-renderer/constants.js";
 import { computeRoomUnit, ensureWarpDefs } from "./svg-renderer/geometry.js";
 import { _ensureOverlay, _lift, _restoreOverlay } from "./svg-renderer/overlay.js";
 import { setStackRoomVisible, updateStackVisibility } from "./svg-renderer/stack-visibility.js";
 import { applyLibraryOverlay } from "./svg-renderer/library-overlay.js";
+import { wireTooltip } from "./svg-renderer/tooltip.js";
 
 export class SvgRenderer {
   supportsZoom    = true;
@@ -107,7 +108,7 @@ export class SvgRenderer {
     }
 
     this.centerOn(centerX, centerY);
-    this.#wireTooltip();
+    wireTooltip(this.#svg);
 
     for (const [groundId, uppers] of Object.entries(groundToUppers)) {
       if (!this.#svg.querySelector(`#room-${CSS.escape(groundId)}`)) continue;
@@ -310,25 +311,6 @@ export class SvgRenderer {
   #persistZoom(mapId, w) {
     this.#savedZoom.set(mapId, w);
     this.#callbacks.onPersistZoom(mapId, w);
-  }
-
-  #wireTooltip() {
-    if (!this.#svg) return;
-    this.#svg.addEventListener("pointermove", (e) => {
-      const roomEl    = e.target.closest(".room");
-      const label     = roomEl?.dataset.label ?? "";
-      const typeKey   = [...(roomEl?.classList ?? [])].map(c => c.startsWith("room-") ? c.slice(5) : null).find(k => k && ROOM_TYPE_LABELS[k]);
-      const typeLabel = typeKey ? ROOM_TYPE_LABELS[typeKey] : null;
-      if (label || typeLabel) {
-        const spec = {};
-        if (label)     spec.title = label;
-        if (typeLabel) spec.body  = typeLabel;
-        panel.tooltip.show({ x: e.clientX, y: e.clientY, width: 0, height: 0 }, spec);
-      } else {
-        panel.tooltip.hide();
-      }
-    });
-    this.#svg.addEventListener("pointerleave", () => { panel.tooltip.hide(); });
   }
 
   #startTshopAnim() {
