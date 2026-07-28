@@ -1,6 +1,7 @@
-import { PNG_ZOOM_FACTOR, PNG_MAX_SCALE, PNG_TARGET_PX } from "./png-renderer/constants.js";
+import { PNG_ZOOM_FACTOR } from "./png-renderer/constants.js";
 import { findNearestRoom, computeRoomUnit } from "./png-renderer/geometry.js";
 import { drawLibraryOverlay } from "./png-renderer/library-overlay.js";
+import { fitScale, defaultScale, clampScale, applyImageSize, scrollToCenter } from "./png-renderer/scale.js";
 
 export { LIB_ORB_RADIUS } from "./png-renderer/constants.js";
 export { findNearestRoom };
@@ -106,7 +107,7 @@ export class PngRenderer {
 
     const fit   = this.#fitScale();
     const saved = this.#savedScales.get(mapId);
-    this.#scale = saved !== undefined ? Math.max(fit, saved) : this.#defaultScale(fit);
+    this.#scale = saved !== undefined ? Math.max(fit, saved) : defaultScale(fit, this.#roomUnit);
     this.#applyDimensions();
     if (centerX != null && centerY != null) this.centerOn(centerX, centerY);
 
@@ -152,8 +153,7 @@ export class PngRenderer {
   zoom(factor)   { this.#setScale(this.#scale * factor); }
   centerOn(x, y) {
     if (!this.#img) return;
-    this.#container.scrollLeft = Math.max(0, x * this.#scale - this.#container.clientWidth  / 2);
-    this.#container.scrollTop  = Math.max(0, y * this.#scale - this.#container.clientHeight / 2);
+    scrollToCenter(this.#container, this.#scale, x, y);
   }
   pan()          {}
   grabFocus()    {}
@@ -162,33 +162,18 @@ export class PngRenderer {
   // ─── Private helpers ─────────────────────────────────────────────────────
 
   #fitScale() {
-    if (!this.#img?.naturalWidth) return 1;
-    const cw = this.#container.clientWidth;
-    const ch = this.#container.clientHeight;
-    if (!cw || !ch) return 1;
-    return Math.min(cw / this.#img.naturalWidth, ch / this.#img.naturalHeight);
-  }
-
-  // Default zoom for a map with no saved user preference: target a fixed
-  // on-screen room spacing (mirrors svg-renderer.js's #defaultZoomW), rather
-  // than always fitting the whole map — never zooms out past fit, only in.
-  #defaultScale(fit) {
-    if (!this.#roomUnit) return fit;
-    return Math.max(fit, Math.min(PNG_MAX_SCALE, PNG_TARGET_PX / this.#roomUnit));
+    return fitScale(this.#img, this.#container);
   }
 
   #setScale(v) {
-    this.#scale = Math.max(this.#fitScale(), Math.min(PNG_MAX_SCALE, v));
+    this.#scale = clampScale(this.#fitScale(), v);
     this.#applyDimensions();
   }
 
   #applyDimensions() {
     if (!this.#img?.naturalWidth) return;
     if (this.#mapId !== null) this.#savedScales.set(this.#mapId, this.#scale);
-    const w = Math.round(this.#img.naturalWidth  * this.#scale);
-    const h = Math.round(this.#img.naturalHeight * this.#scale);
-    this.#img.style.width  = `${w}px`;
-    this.#img.style.height = `${h}px`;
+    applyImageSize(this.#img, this.#scale);
     if (this.#lastState) this.#drawState(this.#lastState);
   }
 
@@ -322,7 +307,7 @@ export class PngRenderer {
 
     const factor   = e.deltaY < 0 ? PNG_ZOOM_FACTOR : 1 / PNG_ZOOM_FACTOR;
     const oldScale = this.#scale;
-    const newScale = Math.max(this.#fitScale(), Math.min(PNG_MAX_SCALE, this.#scale * factor));
+    const newScale = clampScale(this.#fitScale(), this.#scale * factor);
     if (newScale === oldScale) return;
 
     // Zoom toward cursor
