@@ -1,7 +1,7 @@
 import { PNG_ZOOM_FACTOR } from "./png-renderer/constants.js";
 import { findNearestRoom, computeRoomUnit } from "./png-renderer/geometry.js";
-import { drawLibraryOverlay } from "./png-renderer/library-overlay.js";
 import { fitScale, defaultScale, clampScale, applyImageSize, scrollToCenter } from "./png-renderer/scale.js";
+import { drawState } from "./png-renderer/draw-state.js";
 
 export { LIB_ORB_RADIUS } from "./png-renderer/constants.js";
 export { findNearestRoom };
@@ -177,74 +177,11 @@ export class PngRenderer {
     if (this.#lastState) this.#drawState(this.#lastState);
   }
 
-  #drawState({ current, target, routeRoomIds, libraryOverlay }) {
-    if (!this.#img || !this.#canvas) return;
-    const w = this.#img.clientWidth, h = this.#img.clientHeight;
-    if (!w || !h) return;
-    // Suppress yellow dot on the first draw after map load (plugin reload case).
-    // Once the player moves (target set) or after the first stationary draw, show normally.
-    if (this.#mapJustLoaded) {
-      this.#mapJustLoaded = false;
-      if (target === null) return;
-    }
-    if (this.#canvas.width !== w)  this.#canvas.width  = w;
-    if (this.#canvas.height !== h) this.#canvas.height = h;
-
-    const scaleX = w / this.#img.naturalWidth;
-    const scaleY = h / this.#img.naturalHeight;
-    const toCanvasX = (px) => px * scaleX;
-    const toCanvasY = (py) => py * scaleY;
-
-    const ctx = this.#canvas.getContext("2d");
-    ctx.clearRect(0, 0, w, h);
-
-    const rooms = this.#data.rooms;
-    const mapId = this.#mapId;
-
-    const dotR   = this.#roomUnit != null ? Math.max(2, this.#roomUnit * 0.3) * scaleX : 8;
-    const ghostR = dotR * 0.85;
-    const routeR = dotR * 0.65;
-
-    // Route rooms — blue circles
-    for (const id of routeRoomIds) {
-      const room = rooms[id];
-      if (!room || room[0] !== mapId) continue;
-      ctx.beginPath();
-      ctx.arc(toCanvasX(room[1]), toCanvasY(room[2]), routeR, 0, Math.PI * 2);
-      ctx.fillStyle = "rgba(74, 159, 212, 0.8)";
-      ctx.fill();
-    }
-
-    // Target position (predicted next room, when prediction active and different from confirmed)
-    if (target && current?.roomId && current.roomId !== target.roomId) {
-      const room = rooms[target.roomId];
-      if (room && room[0] === mapId) {
-        ctx.beginPath();
-        ctx.arc(toCanvasX(room[1]), toCanvasY(room[2]), ghostR, 0, Math.PI * 2);
-        ctx.fillStyle = "rgba(136, 136, 136, 0.6)";
-        ctx.fill();
-      }
-    }
-
-    const dotColor = "#e03030";
-    const currentRoom = current?.roomId ? rooms[current.roomId] : null;
-    const drawDot = (cx, cy) => {
-      ctx.beginPath();
-      ctx.arc(cx, cy, dotR, 0, Math.PI * 2);
-      ctx.fillStyle = dotColor;
-      ctx.fill();
-      ctx.strokeStyle = "#ffffff"; ctx.lineWidth = Math.max(1, scaleX * 1.5);
-      ctx.stroke();
-    };
-    if (currentRoom && currentRoom[0] === mapId) {
-      drawDot(toCanvasX(currentRoom[1]), toCanvasY(currentRoom[2]));
-    } else if (current && current.x != null) {
-      drawDot(toCanvasX(current.x), toCanvasY(current.y));
-    }
-
-    if (mapId === 47 && current?.mapId === 47 && libraryOverlay) {
-      drawLibraryOverlay(ctx, toCanvasX(current.x), toCanvasY(current.y), scaleX, libraryOverlay);
-    }
+  #drawState(state) {
+    this.#mapJustLoaded = drawState(
+      this.#img, this.#canvas, this.#data.rooms, this.#mapId, this.#roomUnit,
+      state, this.#mapJustLoaded,
+    );
   }
 
   #handlePointerdown(e) {
