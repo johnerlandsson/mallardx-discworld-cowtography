@@ -13,18 +13,15 @@
 --
 -- Data credit: Quow's Cow Bar and Minimap plugin — https://quow.co.uk/minimap.php
 
-local ansi_map  = require('ansi_map')
-
 local colors = require('cowtography.colors')
-local C, note, vlen = colors.C, colors.note, colors.vlen
+local C, note = colors.C, colors.note
 
 local state = require('cowtography.state')
 
 local uu_library = require('cowtography.uu_library')
 local panel_mod  = require('cowtography.panel')
 local panel      = panel_mod.panel
-local post_room, post_route, post_route_clear =
-  panel_mod.post_room, panel_mod.post_route, panel_mod.post_route_clear
+local post_room  = panel_mod.post_room
 
 local shades = require('cowtography.shades')
 shades.init(panel_mod)
@@ -39,15 +36,7 @@ prediction.init(panel_mod.panel)
 
 local route = require('cowtography.route')
 
-local _in_dark        = false
-
--- Room identifiers that show a named special screen instead of the map.
-local SPECIAL_SCREENS = {
-  RatFarm       = 'rat_farm',
-  AbandonedMine = 'mines',
-  Labyrinth     = 'labyrinth',
-  SandelfonMaze = 'labyrinth',
-}
+local gmcp_handlers = require('cowtography.gmcp')
 
 -- ─── AMShades ─────────────────────────────────────────────────────────────────
 -- State, constants, description triggers, and the numbered-exit movement
@@ -65,103 +54,8 @@ local MAX_DISPLAY = 10
 -- ─── UU Library ──────────────────────────────────────────────────────────────
 -- State, aliases, and triggers now live in cowtography/uu_library.lua.
 
--- ─── World lifecycle ─────────────────────────────────────────────────────────
-
-local function seed_room()
-  local raw = gmcp.get("room.info")
-  if raw then
-    local id = raw:match('"identifier"%s*:%s*"([^"]+)"')
-    if id then state.current_room = id end
-  end
-end
-
-local function reset_walk()
-  walk.reset_for_disconnect()
-  prediction.clear(true)  -- snap view back; no room_info is coming
-end
-
-seed_room()
-world.on("connect",    seed_room)
-world.on("disconnect", reset_walk)
-
--- ─── Settings ────────────────────────────────────────────────────────────────
--- Registering this handler opts into live settings updates: the plugin VM
--- stays alive across setting changes instead of being restarted.
--- walk_sound is read inline at point-of-use so no caching to update here.
-
-settings.on("change", function(key, new_val, _old)
-  if key == 'map_style' then
-    panel:post("map_style", { style = new_val })
-  end
-end)
-
--- ─── Character name ──────────────────────────────────────────────────────────
--- char.info.capname is the authoritative per-character name from GMCP.
--- Mirrors the pattern from discworld-grouping: subscribe for live updates +
--- hydrate at startup so plugin reloads mid-session get the cached value.
-
-local function apply_char_name(name)
-  if type(name) == 'string' and name ~= '' then state.char_name = name end
-end
-
-apply_char_name(gmcp.get('char.info.capname'))
-
--- ─── GMCP ────────────────────────────────────────────────────────────────────
-
-gmcp.on('char.info', function(_, data)
-  if type(data) == 'table' then apply_char_name(data.capname) end
-end)
-
-gmcp.on('room.map', function(_, payload)
-  if type(payload) ~= 'string' then return end
-  panel_mod.post_ascii_rows(ansi_map.parse(payload))
-end)
-
-gmcp.on('room.info', function(_, data)
-  if type(data) == 'table' and data.identifier then
-    if _in_dark then
-      _in_dark = false
-      prediction.clear(false)
-    end
-    local prev_room = state.current_room
-    state.current_room = data.identifier
-    shades.check_leaving(prev_room, state.current_room)
-    prediction.on_transition(prev_room)
-    if state.room_id_echo then note('  ' .. state.current_room, C.name) end
-
-    -- UU Library: clear per-room overlays on each room transition; identify
-    -- library/L-space rooms. Returns false for rooms outside the subsystem.
-    if not uu_library.handle_room(data) then
-      local special = SPECIAL_SCREENS[data.identifier]
-      if special then
-          panel:post("special_screen", { name = special })
-        elseif shades.handle_room(data, prev_room) then
-          -- Don't set _in_dark — description trigger (or the prediction above) posts the real position.
-        elseif medina.handle_room(data, prev_room) then
-          -- handled
-        else
-          state.last_payload = data
-          post_room(data)
-        end
-      end
-    if state.room_id_echo then
-      local shades_room, shades_predicted, shades_identified = shades.debug_state()
-      if shades_room then
-        note(string.format('  shades_room=%s predicted=%s identified=%s',
-          tostring(shades_room), tostring(shades_predicted), tostring(shades_identified)), C.muted)
-      end
-    end
-
-    walk.advance_or_arrive()
-  elseif type(data) == 'table' then
-    -- Dark room: room.info without an identifier. Keep the map on last known position
-    -- (muted) rather than tracking or showing a darkness overlay.
-    _in_dark    = true
-    prediction.clear(false)
-    panel:post("room_dark", {})
-    walk.advance_or_arrive()
-  end
-end)
+-- ─── World lifecycle, settings, character name, GMCP ────────────────────────
+-- Now lives in cowtography/gmcp.lua.
 
 -- ─── Walk state ──────────────────────────────────────────────────────────────
 -- Now lives in cowtography/walk.lua (walk_paused's recalculate branch calls
@@ -176,7 +70,7 @@ end)
 -- AMShades numbered-exit movement observer lives in cowtography/shades.lua.
 
 mud.alias([[^stop$]], function(m)
-  reset_walk()
+  gmcp_handlers.reset_walk()
   mud.send(m.text, { silent = true })
 end)
 
