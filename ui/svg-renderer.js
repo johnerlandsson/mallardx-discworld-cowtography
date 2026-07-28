@@ -1,11 +1,15 @@
 import { groundToUppers } from "./data/room-stacks.js";
-import { ZOOM_FACTOR, TARGET_PX } from "./svg-renderer/constants.js";
+import { ZOOM_FACTOR } from "./svg-renderer/constants.js";
 import { computeRoomUnit, ensureWarpDefs } from "./svg-renderer/geometry.js";
 import { _ensureOverlay, _lift, _restoreOverlay } from "./svg-renderer/overlay.js";
 import { setStackRoomVisible, updateStackVisibility } from "./svg-renderer/stack-visibility.js";
 import { applyLibraryOverlay } from "./svg-renderer/library-overlay.js";
 import { wireTooltip } from "./svg-renderer/tooltip.js";
 import { startTshopAnim, stopTshopAnim } from "./svg-renderer/tshop-animation.js";
+import {
+  applyViewBox, centerViewBox, scaleViewBox, panViewBox, zoomViewBox,
+  resetZoomDimensions, persistZoom,
+} from "./svg-renderer/viewbox.js";
 
 export class SvgRenderer {
   supportsZoom    = true;
@@ -96,11 +100,14 @@ export class SvgRenderer {
     }
 
     if (this.#displayedMapId !== null && this.#viewBox.w > 0) {
-      this.#persistZoom(this.#displayedMapId, this.#viewBox.w);
+      persistZoom(this.#savedZoom, this.#callbacks, this.#displayedMapId, this.#viewBox.w);
     }
 
     this.#displayedMapId = mapId;
-    this.#resetZoom(mapId);
+    {
+      const { w, h } = resetZoomDimensions(this.#container, mapId, this.#data, this.#roomUnits);
+      this.#viewBox.w = w; this.#viewBox.h = h;
+    }
     if (this.#savedZoom.has(mapId)) {
       const ratio = this.#viewBox.h / this.#viewBox.w;
       this.#viewBox.w = this.#savedZoom.get(mapId);
@@ -215,37 +222,29 @@ export class SvgRenderer {
   }
 
   centerOn(x, y) {
-    this.#viewBox.x = x - this.#viewBox.w / 2;
-    this.#viewBox.y = y - this.#viewBox.h / 2;
-    this.#applyViewBox();
+    centerViewBox(this.#viewBox, x, y);
+    applyViewBox(this.#svg, this.#viewBox);
   }
 
   zoomIn() {
-    this.#viewBox.w /= ZOOM_FACTOR; this.#viewBox.h /= ZOOM_FACTOR; this.#applyViewBox();
+    scaleViewBox(this.#viewBox, 1 / ZOOM_FACTOR); applyViewBox(this.#svg, this.#viewBox);
   }
 
   zoomOut() {
-    this.#viewBox.w *= ZOOM_FACTOR; this.#viewBox.h *= ZOOM_FACTOR; this.#applyViewBox();
+    scaleViewBox(this.#viewBox, ZOOM_FACTOR); applyViewBox(this.#svg, this.#viewBox);
   }
 
   pan(dir) {
     if (!this.#svg) return;
-    const step = 0.2;
-    if      (dir === 'n') this.#viewBox.y -= this.#viewBox.h * step;
-    else if (dir === 's') this.#viewBox.y += this.#viewBox.h * step;
-    else if (dir === 'w') this.#viewBox.x -= this.#viewBox.w * step;
-    else if (dir === 'e') this.#viewBox.x += this.#viewBox.w * step;
-    this.#applyViewBox();
+    panViewBox(this.#viewBox, dir);
+    applyViewBox(this.#svg, this.#viewBox);
   }
 
   zoom(dir) {
     if (!this.#svg) return;
     const factor = dir === 'in' ? 1 / ZOOM_FACTOR : ZOOM_FACTOR;
-    const newW = this.#viewBox.w * factor, newH = this.#viewBox.h * factor;
-    this.#viewBox.x += 0.5 * (this.#viewBox.w - newW);
-    this.#viewBox.y += 0.5 * (this.#viewBox.h - newH);
-    this.#viewBox.w  = newW; this.#viewBox.h  = newH;
-    this.#applyViewBox();
+    zoomViewBox(this.#viewBox, factor);
+    applyViewBox(this.#svg, this.#viewBox);
   }
 
   grabFocus() {
@@ -286,33 +285,6 @@ export class SvgRenderer {
 
   // ─── Private helpers ────────────────────────────────────────────────────
 
-  #applyViewBox() {
-    if (!this.#svg) return;
-    this.#svg.setAttribute("viewBox",
-      `${this.#viewBox.x} ${this.#viewBox.y} ${this.#viewBox.w} ${this.#viewBox.h}`);
-  }
-
-  #defaultZoomW(mapId) {
-    const meta = this.#data.maps[mapId];
-    if (!meta) return 1;
-    if (mapId === 47) return 280;
-    if (mapId === 99) return meta.maxX / 2;
-    const unit = this.#roomUnits.get(mapId);
-    if (unit) return this.#container.clientWidth * unit / TARGET_PX;
-    return meta.maxX / 4;
-  }
-
-  #resetZoom(mapId) {
-    const ratio     = this.#container.clientHeight / Math.max(this.#container.clientWidth, 1);
-    this.#viewBox.w = this.#defaultZoomW(mapId);
-    this.#viewBox.h = this.#viewBox.w * ratio;
-  }
-
-  #persistZoom(mapId, w) {
-    this.#savedZoom.set(mapId, w);
-    this.#callbacks.onPersistZoom(mapId, w);
-  }
-
   #startTshopAnim() {
     this.#stopTshopAnim();
     this.#tshopAnim = startTshopAnim();
@@ -333,7 +305,7 @@ export class SvgRenderer {
     this.#viewBox.x += 0.5 * (this.#viewBox.w - newW);
     this.#viewBox.y += 0.5 * (this.#viewBox.h - newH);
     this.#viewBox.w  = newW; this.#viewBox.h  = newH;
-    this.#applyViewBox();
+    applyViewBox(this.#svg, this.#viewBox);
   }
 
   #handlePointerdown(e) {
@@ -357,7 +329,7 @@ export class SvgRenderer {
       const rect = this.#container.getBoundingClientRect();
       this.#viewBox.x = this.#drag.vbX - (e.clientX - this.#drag.screenX) / rect.width  * this.#viewBox.w;
       this.#viewBox.y = this.#drag.vbY - (e.clientY - this.#drag.screenY) / rect.height * this.#viewBox.h;
-      this.#applyViewBox();
+      applyViewBox(this.#svg, this.#viewBox);
     } else if (this.#pendingClick) {
       const dx = e.clientX - this.#pendingClick.startX;
       const dy = e.clientY - this.#pendingClick.startY;
@@ -388,16 +360,16 @@ export class SvgRenderer {
   #handleKeydown(e) {
     if (!this.#mapFocused || !this.#svg) return;
     switch (e.key) {
-      case "ArrowUp":    this.#viewBox.y -= this.#viewBox.h * 0.2; this.#applyViewBox(); break;
-      case "ArrowDown":  this.#viewBox.y += this.#viewBox.h * 0.2; this.#applyViewBox(); break;
-      case "ArrowLeft":  this.#viewBox.x -= this.#viewBox.w * 0.2; this.#applyViewBox(); break;
-      case "ArrowRight": this.#viewBox.x += this.#viewBox.w * 0.2; this.#applyViewBox(); break;
+      case "ArrowUp":    this.#viewBox.y -= this.#viewBox.h * 0.2; applyViewBox(this.#svg, this.#viewBox); break;
+      case "ArrowDown":  this.#viewBox.y += this.#viewBox.h * 0.2; applyViewBox(this.#svg, this.#viewBox); break;
+      case "ArrowLeft":  this.#viewBox.x -= this.#viewBox.w * 0.2; applyViewBox(this.#svg, this.#viewBox); break;
+      case "ArrowRight": this.#viewBox.x += this.#viewBox.w * 0.2; applyViewBox(this.#svg, this.#viewBox); break;
       case "+": case "=": { const nw = this.#viewBox.w / ZOOM_FACTOR, nh = this.#viewBox.h / ZOOM_FACTOR;
         this.#viewBox.x += 0.5 * (this.#viewBox.w - nw); this.#viewBox.y += 0.5 * (this.#viewBox.h - nh);
-        this.#viewBox.w = nw; this.#viewBox.h = nh; this.#applyViewBox(); break; }
+        this.#viewBox.w = nw; this.#viewBox.h = nh; applyViewBox(this.#svg, this.#viewBox); break; }
       case "-": { const nw = this.#viewBox.w * ZOOM_FACTOR, nh = this.#viewBox.h * ZOOM_FACTOR;
         this.#viewBox.x += 0.5 * (this.#viewBox.w - nw); this.#viewBox.y += 0.5 * (this.#viewBox.h - nh);
-        this.#viewBox.w = nw; this.#viewBox.h = nh; this.#applyViewBox(); break; }
+        this.#viewBox.w = nw; this.#viewBox.h = nh; applyViewBox(this.#svg, this.#viewBox); break; }
       case "0": {
         this.#callbacks.onZoomReset?.();
         break; }
