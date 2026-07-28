@@ -1,16 +1,8 @@
-import { PNG_CLICK_THRESHOLD, PNG_ZOOM_FACTOR, PNG_MAX_SCALE, PNG_TARGET_PX, LIB_ORB_RADIUS } from "./png-renderer/constants.js";
+import { PNG_ZOOM_FACTOR, PNG_MAX_SCALE, PNG_TARGET_PX, LIB_ORB_RADIUS } from "./png-renderer/constants.js";
+import { findNearestRoom, computeRoomUnit } from "./png-renderer/geometry.js";
 
 export { LIB_ORB_RADIUS };
-
-export function findNearestRoom(rooms, mapId, px, py) {
-  let bestId = null, bestDist = Infinity;
-  for (const [id, room] of Object.entries(rooms)) {
-    if (room[0] !== mapId) continue;
-    const d = Math.hypot(px - room[1], py - room[2]);
-    if (d < bestDist) { bestDist = d; bestId = id; }
-  }
-  return bestDist <= PNG_CLICK_THRESHOLD ? bestId : null;
-}
+export { findNearestRoom };
 
 // Three points of the facing-direction chevron, centered on (cx, cy).
 export function libraryArrowPoints(cx, cy, facing, r, w) {
@@ -96,7 +88,7 @@ export class PngRenderer {
 
     if (this.#mapId !== null) this.#savedScales.set(this.#mapId, this.#scale);
     this.#mapId    = mapId;
-    this.#roomUnit = this.#computeRoomUnit(mapId);
+    this.#roomUnit = computeRoomUnit(this.#data.rooms, mapId);
 
     const img = document.createElement("img");
     img.className  = "png-map-img";
@@ -320,31 +312,6 @@ export class PngRenderer {
         ctx.stroke();
       }
     }
-  }
-
-  #computeRoomUnit(mapId) {
-    const pts = [];
-    for (const room of Object.values(this.#data.rooms)) {
-      if (room[0] === mapId) pts.push([room[1], room[2]]);
-    }
-    if (pts.length < 2) return null;
-    pts.sort((a, b) => a[0] - b[0]);
-    const dists = [];
-    for (let i = 0; i < pts.length; i++) {
-      let best = Infinity;
-      for (let j = i - 1; j >= 0 && pts[i][0] - pts[j][0] < best; j--) {
-        const d = Math.hypot(pts[i][0] - pts[j][0], pts[i][1] - pts[j][1]);
-        if (d < best) best = d;
-      }
-      for (let j = i + 1; j < pts.length && pts[j][0] - pts[i][0] < best; j++) {
-        const d = Math.hypot(pts[i][0] - pts[j][0], pts[i][1] - pts[j][1]);
-        if (d < best) best = d;
-      }
-      if (best < Infinity) dists.push(best);
-    }
-    if (!dists.length) return null;
-    dists.sort((a, b) => a - b);
-    return dists[Math.floor(dists.length / 2)];
   }
 
   #handlePointerdown(e) {
