@@ -1,6 +1,12 @@
 const PNG_CLICK_THRESHOLD = 20;  // px — max distance to nearest room for a click to register
 const PNG_ZOOM_FACTOR = 1.25;
 const PNG_MAX_SCALE   = 8;
+// Target on-screen spacing (px) between adjacent rooms at default zoom.
+// Mirrors svg-renderer.js's TARGET_PX so both renderers default to a
+// comparably "zoomed in" view instead of always fitting the whole map —
+// #fitScale() has zero scrollable overflow by definition, which made
+// centerOn() a structural no-op on every fresh map visit.
+const PNG_TARGET_PX = 30;
 
 // Mirrors svg-renderer.js's ORB_RADIUS / #applyLibraryOverlay geometry, in raw map units.
 export const LIB_ORB_RADIUS = {
@@ -58,6 +64,7 @@ export class PngRenderer {
   #savedOverflow = '';
 
   #mapJustLoaded = false;
+  #everLoaded    = false;
   #roomUnit      = null;
 
   #pendingClick = null;
@@ -100,7 +107,8 @@ export class PngRenderer {
     }
 
     if (this.#mapId !== null) this.#savedScales.set(this.#mapId, this.#scale);
-    this.#mapId = mapId;
+    this.#mapId    = mapId;
+    this.#roomUnit = this.#computeRoomUnit(mapId);
 
     const img = document.createElement("img");
     img.className  = "png-map-img";
@@ -136,15 +144,23 @@ export class PngRenderer {
       img.onerror = () => reject(new Error(`Failed to load PNG: ${img.src}`));
     });
 
-    const fit = this.#fitScale();
+    const fit   = this.#fitScale();
     const saved = this.#savedScales.get(mapId);
-    this.#scale = saved !== undefined ? Math.max(fit, saved) : fit;
+    this.#scale = saved !== undefined ? Math.max(fit, saved) : this.#defaultScale(fit);
     this.#applyDimensions();
     if (centerX != null && centerY != null) this.centerOn(centerX, centerY);
 
-    this.#roomUnit = this.#computeRoomUnit(mapId);
     this.#callbacks.onMapLoaded(mapId);
-    this.#mapJustLoaded = true;
+    // Suppress the position dot on exactly one draw: the very first after this
+    // renderer instance is created (panel reload, before fresh GMCP state
+    // arrives). Only arm this on the renderer's first-ever load — otherwise
+    // every ordinary map switch during play re-armed it too, and since a
+    // normal move's room_info frequently has target === null, the dot (and
+    // the rest of the draw) silently got skipped until the next move.
+    if (!this.#everLoaded) {
+      this.#mapJustLoaded = true;
+      this.#everLoaded    = true;
+    }
   }
 
   applyState(state) {
@@ -191,6 +207,14 @@ export class PngRenderer {
     const ch = this.#container.clientHeight;
     if (!cw || !ch) return 1;
     return Math.min(cw / this.#img.naturalWidth, ch / this.#img.naturalHeight);
+  }
+
+  // Default zoom for a map with no saved user preference: target a fixed
+  // on-screen room spacing (mirrors svg-renderer.js's #defaultZoomW), rather
+  // than always fitting the whole map — never zooms out past fit, only in.
+  #defaultScale(fit) {
+    if (!this.#roomUnit) return fit;
+    return Math.max(fit, Math.min(PNG_MAX_SCALE, PNG_TARGET_PX / this.#roomUnit));
   }
 
   #setScale(v) {
