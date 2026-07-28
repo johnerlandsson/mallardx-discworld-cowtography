@@ -18,11 +18,11 @@
 -- Room numbering 1-17 matches Quow's; 17 = entrance (has a real GMCP ID).
 -- Navigation graph mirrors Quow's sQSDir: SHADES_DIR[from][exit] = to.
 
-local state = require('cowtography.state')
-
 local M = {}
 
-local panel -- injected via M.init(); provides post_room
+-- injected via M.init()
+local state -- cowtography.state module
+local panel -- cowtography.panel module; provides post_room
 
 local ENTRY_ID = "01bbd8b887e71314d8e358cbaf4f585391206bc4"
 M.ENTRY_ID = ENTRY_ID
@@ -56,8 +56,9 @@ local shades_identified = false -- guard against double-posting per room
 local shades_predicted  = false -- true when SHADES_DIR already resolved the room on send,
                                  -- so the AMShades GMCP handler shouldn't re-arm the guess triggers
 
-function M.init(panel_mod)
-  panel = panel_mod
+function M.init(deps)
+  state = deps.state
+  panel = deps.panel
 end
 
 local function shades_room_id(n)

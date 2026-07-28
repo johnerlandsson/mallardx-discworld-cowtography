@@ -4,11 +4,11 @@
 -- descriptions match 13 rooms uniquely; the generic description is disambiguated
 -- by exit count + previous Medina room (mirrors Quow's logic).
 
-local state = require('cowtography.state')
-
 local M = {}
 
-local panel -- injected via M.init(); provides post_room
+-- injected via M.init()
+local state -- cowtography.state module
+local panel -- cowtography.panel module; provides post_room
 
 -- Rooms in the inner cluster — coming from one of these makes 3-exit
 -- generic rooms more likely to be Medina14 than Medina08.
@@ -22,8 +22,9 @@ local medina_name       = nil  -- data.name from last BPMedina GMCP event
 local medina_exit_count = 0    -- exit count from last BPMedina GMCP event
 local medina_identified = false -- guards against double-posting per room
 
-function M.init(panel_mod)
-  panel = panel_mod
+function M.init(deps)
+  state = deps.state
+  panel = deps.panel
 end
 
 local function post_medina_room(room_id)

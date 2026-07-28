@@ -13,28 +13,50 @@
 --
 -- Data credit: Quow's Cow Bar and Minimap plugin — https://quow.co.uk/minimap.php
 --
--- This file is a thin facade: it requires the cowtography.* modules (each a
--- focused piece of the original monolith) in dependency order and wires the
--- few cross-module init() calls that can't be expressed as plain requires.
--- All commands, aliases, triggers, and GMCP handlers are registered as a
--- side effect of requiring cowtography.commands/gmcp/route/walk/prediction
--- below — see each module for its own responsibility.
+-- This file is a thin facade: it requires every cowtography.* module
+-- exactly once and wires cross-module access via each module's init(deps)
+-- function. This is deliberate, not stylistic: Mallard's plugin sandbox
+-- require() has no caching (every call re-reads and re-executes the target
+-- file from scratch - see mallard/src-tauri/src/plugins/sandbox.rs) and
+-- caps a plugin's Lua VM at 32MB. A module required from more than one
+-- place gets re-executed once per caller, recursively - which is fatal for
+-- the ~90k lines of static data.* tables this plugin loads. So every
+-- cowtography.* file must be required from exactly one place (here), and
+-- receive whatever it needs from other cowtography.* modules as a plain
+-- table passed to its own init(deps), never via its own require().
 
 local MAX_DISPLAY = 10 -- pre-existing, unused since before this refactor; left as-is
 
-local panel_mod = require('cowtography.panel')
-
-local shades = require('cowtography.shades')
-shades.init(panel_mod)
-
-local medina = require('cowtography.medina')
-medina.init(panel_mod)
-
-require('cowtography.walk')
-
+local colors     = require('cowtography.colors')
+local state      = require('cowtography.state')
+local uu_library = require('cowtography.uu_library')
+local panel      = require('cowtography.panel')
+local shades     = require('cowtography.shades')
+local medina     = require('cowtography.medina')
+local walk       = require('cowtography.walk')
 local prediction = require('cowtography.prediction')
-prediction.init(panel_mod.panel)
+local route      = require('cowtography.route')
+local gmcp_handlers = require('cowtography.gmcp')
+local commands   = require('cowtography.commands')
 
-require('cowtography.route')
-require('cowtography.gmcp')
-require('cowtography.commands')
+-- colors.lua and state.lua have no cross-module deps of their own, so no
+-- init() call for either. Every other module's init() only stores
+-- references and/or registers deferred closures - none of them invoke
+-- another module's still-uninitialized state, so call order here doesn't
+-- matter beyond "every require above has already completed."
+
+uu_library.init({ rooms = state.rooms, colors = colors, panel = panel.panel })
+panel.init({ state = state, uu_library = uu_library })
+shades.init({ state = state, panel = panel })
+medina.init({ state = state, panel = panel })
+walk.init({ colors = colors, state = state, panel = panel })
+prediction.init({ state = state, walk = walk, panel = panel.panel })
+route.init({ colors = colors, state = state, panel = panel, walk = walk })
+gmcp_handlers.init({
+  colors = colors, state = state, uu_library = uu_library, panel = panel,
+  shades = shades, medina = medina, walk = walk, prediction = prediction,
+})
+commands.init({
+  colors = colors, state = state, uu_library = uu_library, panel = panel,
+  route = route, walk = walk, gmcp = gmcp_handlers,
+})

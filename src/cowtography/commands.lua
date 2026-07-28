@@ -2,17 +2,21 @@
 -- User-facing commands and aliases: db, bm, go, dbid, ocd, pan, zoom,
 -- keyboard map navigation, libclear, stop.
 
-local colors     = require('cowtography.colors')
-local state      = require('cowtography.state')
-local uu_library = require('cowtography.uu_library')
-local panel_mod  = require('cowtography.panel')
-local route      = require('cowtography.route')
-local walk       = require('cowtography.walk')
-local gmcp_handlers = require('cowtography.gmcp')
+-- injected via M.init()
+local colors, state, uu_library, panel_mod, route, walk, gmcp_handlers
+local C, note
+local panel      -- panel_mod.panel
+local post_room  -- panel_mod.post_room
 
-local C, note = colors.C, colors.note
-local panel = panel_mod.panel
-local post_room = panel_mod.post_room
+local M = {}
+
+function M.init(deps)
+  colors, state, uu_library, panel_mod, route, walk, gmcp_handlers =
+    deps.colors, deps.state, deps.uu_library, deps.panel, deps.route, deps.walk, deps.gmcp
+  C, note   = colors.C, colors.note
+  panel     = panel_mod.panel
+  post_room = panel_mod.post_room
+end
 
 mud.alias([[^stop$]], function(m)
   gmcp_handlers.reset_walk()
@@ -259,3 +263,5 @@ mud.alias([[^libclear$]], function()
   uu_library.clear_overlays()
   note('  Library overlays cleared.', C.muted)
 end)
+
+return M

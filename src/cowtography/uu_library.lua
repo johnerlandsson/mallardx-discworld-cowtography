@@ -3,12 +3,13 @@
 -- Facing (n/s/e/w) is maintained by turn commands; strafing doesn't change it.
 -- Distortions, orbs and l-space are overlaid on the map panel.
 
-local rooms  = require('data.rooms')
-local colors = require('cowtography.colors')
-
 local M = {}
 
-local panel -- injected via M.init(); the mud.panel("map") object
+-- injected via M.init(); see bottom of file for the mud.trigger/mud.alias
+-- registrations that close over these as upvalues
+local rooms  -- data.rooms table
+local colors -- cowtography.colors module
+local panel  -- the mud.panel("map") object
 
 local lib_in_library      = false
 local lib_in_lspace       = false    -- true when lost in L-space (distinct from library)
@@ -26,8 +27,10 @@ local TURN_LEFT  = { n='w', w='s', s='e', e='n' }
 local TURN_RIGHT = { n='e', e='s', s='w', w='n' }
 local OPPOSITE   = { n='s', s='n', e='w', w='e' }
 
-function M.init(panel_obj)
-  panel = panel_obj
+function M.init(deps)
+  rooms  = deps.rooms
+  colors = deps.colors
+  panel  = deps.panel
 end
 
 function M.is_in_library() return lib_in_library end

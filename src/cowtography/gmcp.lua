@@ -5,20 +5,13 @@
 
 local ansi_map = require('ansi_map')
 
-local colors     = require('cowtography.colors')
-local state      = require('cowtography.state')
-local uu_library = require('cowtography.uu_library')
-local panel_mod  = require('cowtography.panel')
-local shades     = require('cowtography.shades')
-local medina     = require('cowtography.medina')
-local walk       = require('cowtography.walk')
-local prediction = require('cowtography.prediction')
-
-local C, note = colors.C, colors.note
-local panel = panel_mod.panel
-local post_room = panel_mod.post_room
-
 local M = {}
+
+-- injected via M.init()
+local colors, state, uu_library, panel_mod, shades, medina, walk, prediction
+local C, note
+local panel      -- panel_mod.panel
+local post_room  -- panel_mod.post_room
 
 local _in_dark = false
 
@@ -45,21 +38,6 @@ function M.reset_walk()
   prediction.clear(true)  -- snap view back; no room_info is coming
 end
 
-seed_room()
-world.on("connect",    seed_room)
-world.on("disconnect", M.reset_walk)
-
--- ─── Settings ────────────────────────────────────────────────────────────────
--- Registering this handler opts into live settings updates: the plugin VM
--- stays alive across setting changes instead of being restarted.
--- walk_sound is read inline at point-of-use so no caching to update here.
-
-settings.on("change", function(key, new_val, _old)
-  if key == 'map_style' then
-    panel:post("map_style", { style = new_val })
-  end
-end)
-
 -- ─── Character name ──────────────────────────────────────────────────────────
 -- char.info.capname is the authoritative per-character name from GMCP.
 -- Mirrors the pattern from discworld-grouping: subscribe for live updates +
@@ -69,7 +47,28 @@ local function apply_char_name(name)
   if type(name) == 'string' and name ~= '' then state.char_name = name end
 end
 
-apply_char_name(gmcp.get('char.info.capname'))
+function M.init(deps)
+  colors, state, uu_library, panel_mod, shades, medina, walk, prediction =
+    deps.colors, deps.state, deps.uu_library, deps.panel, deps.shades, deps.medina, deps.walk, deps.prediction
+  C, note = colors.C, colors.note
+  panel     = panel_mod.panel
+  post_room = panel_mod.post_room
+
+  seed_room()
+  world.on("connect",    seed_room)
+  world.on("disconnect", M.reset_walk)
+
+  -- Registering this handler opts into live settings updates: the plugin VM
+  -- stays alive across setting changes instead of being restarted.
+  -- walk_sound is read inline at point-of-use so no caching to update here.
+  settings.on("change", function(key, new_val, _old)
+    if key == 'map_style' then
+      panel:post("map_style", { style = new_val })
+    end
+  end)
+
+  apply_char_name(gmcp.get('char.info.capname'))
+end
 
 -- ─── GMCP ────────────────────────────────────────────────────────────────────
 

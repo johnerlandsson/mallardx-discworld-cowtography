@@ -2,19 +2,25 @@
 -- Map panel + ASCII map panel: owns both mud.panel() objects and every
 -- post_* helper that mirrors state to them.
 
-local state     = require('cowtography.state')
-local uu_library = require('cowtography.uu_library')
-
 local M = {}
 
 M.panel        = mud.panel("map")
 M.ascii_panel  = mud.panel("ascii_map")
+
+-- injected via M.init(); the "ready" handler below closes over these
+local state      -- cowtography.state module
+local uu_library -- cowtography.uu_library module
 
 local last_route             = nil
 local last_route_destination = nil
 local last_route_steps       = nil
 local last_ascii_rows        = nil
 local current_map             = nil
+
+function M.init(deps)
+  state      = deps.state
+  uu_library = deps.uu_library
+end
 
 function M.post_room(payload)
   M.panel:post("room_info", {
@@ -106,7 +112,5 @@ M.panel:on_message("save_zoom", function(data)
   zoom[tostring(data.mapId)] = data.w
   storage.set('zoom', zoom)
 end)
-
-uu_library.init(M.panel)
 
 return M

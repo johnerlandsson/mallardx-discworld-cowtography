@@ -2,13 +2,12 @@
 -- Walk state shared by /go, /db, and /bm — either can create a route, and
 -- /go walks it.
 
-local colors = require('cowtography.colors')
-local state  = require('cowtography.state')
-local panel  = require('cowtography.panel')
-
-local C, note = colors.C, colors.note
-
 local M = {}
+
+-- injected via M.init()
+local state  -- cowtography.state module
+local panel  -- cowtography.panel module
+local C, note -- colors.C, colors.note
 
 local route_to_room -- injected via M.set_router(); used by walk_paused's recalculate branch
 
@@ -163,13 +162,19 @@ local function walk_paused(reason)
 end
 M.paused = walk_paused
 
-panel.panel:on_message("walk_request", function(_frame)
-  M.walk()
-end)
+function M.init(deps)
+  state = deps.state
+  panel = deps.panel
+  C, note = deps.colors.C, deps.colors.note
 
-panel.panel:on_message("clear_request", function(_frame)
-  M.clear_route()
-end)
+  panel.panel:on_message("walk_request", function(_frame)
+    M.walk()
+  end)
+
+  panel.panel:on_message("clear_request", function(_frame)
+    M.clear_route()
+  end)
+end
 
 mud.trigger([[^(?:> )?Removed queue\.$]], function()
   walk_paused('Movement queue was cleared.')

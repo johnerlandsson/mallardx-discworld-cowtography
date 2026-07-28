@@ -4,21 +4,33 @@
 
 local search    = require('search')
 local pathfind  = require('pathfind')
-local rooms     = require('data.rooms')
 local items     = require('data.items')
 local npcs      = require('data.npcs')
 local npc_items = require('data.npc_items')
-local exits     = require('data.exits')
 local map_names = require('data.map_names')
 
-local colors = require('cowtography.colors')
-local state  = require('cowtography.state')
-local panel  = require('cowtography.panel')
-local walk   = require('cowtography.walk')
-
-local C, note, vlen = colors.C, colors.note, colors.vlen
-
 local M = {}
+
+-- injected via M.init()
+local state       -- cowtography.state module; also owns rooms/exits (see state.lua)
+local panel       -- cowtography.panel module
+local walk        -- cowtography.walk module
+local C, note, vlen -- colors.C, colors.note, colors.vlen
+local rooms, exits -- state.rooms, state.exits (raw data tables)
+
+function M.init(deps)
+  state = deps.state
+  panel = deps.panel
+  walk  = deps.walk
+  C, note, vlen = deps.colors.C, deps.colors.note, deps.colors.vlen
+  rooms, exits = state.rooms, state.exits
+
+  walk.set_router(M.route_to_room)
+
+  panel.panel:on_message("room_click", function(frame)
+    M.route_to_room(frame.id, frame.name, false)
+  end)
+end
 
 local TYPE_LABELS = {
   room    = 'place',
@@ -207,12 +219,6 @@ function M.route_to_room(room_id, display_name, walk_immediately)
           .. mud.span(' to begin.', { fg = C.ok }))
   end
 end
-
-walk.set_router(M.route_to_room)
-
-panel.panel:on_message("room_click", function(frame)
-  M.route_to_room(frame.id, frame.name, false)
-end)
 
 function M.do_route(n, walk_immediately)
   if #last_results == 0 then

@@ -12,20 +12,22 @@
 -- (route-walking via send_walk_steps) so a walk doesn't double-advance the
 -- prediction it already tracks.
 
-local state = require('cowtography.state')
-local walk  = require('cowtography.walk')
-
 local M = {}
 
-local panel -- injected via M.init(); the mud.panel("map") object
+-- injected via M.init()
+local state -- cowtography.state module
+local walk  -- cowtography.walk module
+local panel -- the mud.panel("map") object
 
 local target_room         = nil   -- predicted position; nil when same as confirmed
 local pred_queue           = {}    -- ordered sequence of predicted rooms [next, …, target]
 local just_moved           = false -- true for one GMCP after a successful move
 local prev_target_at_move  = nil   -- target_room captured when just_moved was last set
 
-function M.init(panel_obj)
-  panel = panel_obj
+function M.init(deps)
+  state = deps.state
+  walk  = deps.walk
+  panel = deps.panel
 end
 
 local function post_target_move(room_id)
