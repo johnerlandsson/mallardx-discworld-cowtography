@@ -1,7 +1,8 @@
-import { upperToGround, groundToUppers } from "./data/room-stacks.js";
+import { groundToUppers } from "./data/room-stacks.js";
 import { ROOM_TYPE_LABELS, ORB_RADIUS, ZOOM_FACTOR, TARGET_PX } from "./svg-renderer/constants.js";
 import { computeRoomUnit, ensureWarpDefs } from "./svg-renderer/geometry.js";
 import { _ensureOverlay, _lift, _restoreOverlay } from "./svg-renderer/overlay.js";
+import { setStackRoomVisible, updateStackVisibility } from "./svg-renderer/stack-visibility.js";
 
 export class SvgRenderer {
   supportsZoom    = true;
@@ -109,7 +110,7 @@ export class SvgRenderer {
 
     for (const [groundId, uppers] of Object.entries(groundToUppers)) {
       if (!this.#svg.querySelector(`#room-${CSS.escape(groundId)}`)) continue;
-      for (const upperId of uppers) this.#setStackRoomVisible(upperId, false);
+      for (const upperId of uppers) setStackRoomVisible(this.#svg, upperId, false);
     }
 
     this.#callbacks.onMapLoaded(mapId);
@@ -142,7 +143,7 @@ export class SvgRenderer {
       el.classList.remove("current", "target", "route");
     });
 
-    this.#updateStackVisibility(current?.roomId ?? null);
+    this.#currentStackGround = updateStackVisibility(this.#svg, current?.roomId ?? null, this.#currentStackGround);
 
     const routeOverlay = _ensureOverlay(this.#svg, "sg-route-overlay");
     const posOverlay   = _ensureOverlay(this.#svg, "sg-pos-overlay");
@@ -308,35 +309,6 @@ export class SvgRenderer {
   #persistZoom(mapId, w) {
     this.#savedZoom.set(mapId, w);
     this.#callbacks.onPersistZoom(mapId, w);
-  }
-
-  #setStackRoomVisible(id, visible) {
-    const d = visible ? '' : 'none';
-    const roomEl = this.#svg.querySelector(`#room-${CSS.escape(id)}`);
-    if (roomEl) {
-      roomEl.style.display = d;
-      const sib = roomEl.nextElementSibling;
-      if (sib?.classList.contains('room-type-label')) sib.style.display = d;
-    }
-    const stairEl = this.#svg.querySelector(`#stair-${CSS.escape(id)}`);
-    if (stairEl) stairEl.style.display = d;
-  }
-
-  #updateStackVisibility(roomId) {
-    if (!this.#svg) return;
-    if (this.#currentStackGround) {
-      this.#setStackRoomVisible(this.#currentStackGround, true);
-      for (const u of groundToUppers[this.#currentStackGround] ?? [])
-        this.#setStackRoomVisible(u, false);
-      this.#currentStackGround = null;
-    }
-    if (!roomId) return;
-    const ground = upperToGround[roomId];
-    if (ground) {
-      this.#setStackRoomVisible(ground, false);
-      this.#setStackRoomVisible(roomId, true);
-      this.#currentStackGround = ground;
-    }
   }
 
   #wireTooltip() {
