@@ -13,15 +13,7 @@
 --
 -- Data credit: Quow's Cow Bar and Minimap plugin — https://quow.co.uk/minimap.php
 
-local search    = require('search')
-local pathfind  = require('pathfind')
 local ansi_map  = require('ansi_map')
-local rooms     = require('data.rooms')
-local items     = require('data.items')
-local npcs      = require('data.npcs')
-local npc_items = require('data.npc_items')
-local exits     = require('data.exits')
-local map_names = require('data.map_names')
 
 local colors = require('cowtography.colors')
 local C, note, vlen = colors.C, colors.note, colors.vlen
@@ -45,7 +37,8 @@ local walk = require('cowtography.walk')
 local prediction = require('cowtography.prediction')
 prediction.init(panel_mod.panel)
 
-local last_results    = {}
+local route = require('cowtography.route')
+
 local _in_dark        = false
 
 -- Room identifiers that show a named special screen instead of the map.
@@ -175,87 +168,8 @@ end)
 -- back into route_to_room via walk.set_router(), wired below).
 
 -- ─── Display ─────────────────────────────────────────────────────────────────
-
-local TYPE_LABELS = {
-  room    = 'place',
-  item    = 'item',
-  npcitem = 'npc item',
-  npc     = 'npc',
-}
-
-local route_to_room  -- forward declaration; assigned below after panel setup
-
-local function display_results(search_type, query, results, sorted_by_dist)
-  local p         = mud.command_prefix()
-  local count     = #results
-  local n_reachable = 0
-  if sorted_by_dist then
-    for _, r in ipairs(results) do
-      if r.distance then n_reachable = n_reachable + 1 end
-    end
-  end
-  local sort_note
-  if sorted_by_dist then
-    local n_unreachable = count - n_reachable
-    if n_unreachable > 0 then
-      sort_note = string.format(', %d reachable · %d unreachable', n_reachable, n_unreachable)
-    else
-      sort_note = ', nearest first'
-    end
-  else
-    sort_note = ''
-  end
-  local header = string.format('  DB Search: %s \xe2\x80\x94 "%s"  (%d result%s%s)',
-    TYPE_LABELS[search_type], query, count, count == 1 and '' or 's', sort_note)
-
-  -- Build all content lines first so we can measure the widest one.
-  local lines, colours = {}, {}
-  for i, r in ipairs(results) do
-    local unreachable = sorted_by_dist and not r.distance
-    local dist_str
-    if r.distance then
-      dist_str = string.format('  %d move%s', r.distance, r.distance == 1 and '' or 's')
-    elseif unreachable then
-      dist_str = '  unreachable'
-    else
-      dist_str = ''
-    end
-    local map_str = r.map_name and ('  \xc2\xb7 ' .. r.map_name) or ''
-    local line
-    if search_type == 'room' then
-      line = string.format('  %2d.  %-44s%s%s', i, r.name, map_str, dist_str)
-    elseif search_type == 'item' then
-      local price = (r.price ~= '') and ('  ' .. r.price) or ''
-      line = string.format('  %2d.  %-35s [%s]%s%s%s', i, r.name, r.location, map_str, price, dist_str)
-    elseif search_type == 'npc' then
-      line = string.format('  %2d.  %-35s [%s]%s%s', i, r.name, r.location, map_str, dist_str)
-    elseif search_type == 'npcitem' then
-      local price = (r.price ~= '') and ('  ' .. r.price) or ''
-      line = string.format('  %2d.  %-28s  via %-22s  [%s]%s%s%s', i, r.name, r.npc or '', r.location, map_str, price, dist_str)
-    end
-    lines[i]   = line
-    colours[i] = unreachable and C.muted or ((i % 2 == 1) and C.name or C.alt)
-  end
-
-  -- Rule spans the widest line (header or any content line).
-  local max_w = vlen(header)
-  for _, line in ipairs(lines) do
-    local w = vlen(line)
-    if w > max_w then max_w = w end
-  end
-  local rule = string.rep('\xe2\x94\x80', max_w - 2)
-
-  note(header, C.header)
-  note('  ' .. rule, C.rule)
-  for i, line in ipairs(lines) do
-    local r = results[i]
-    local pad, text = line:match('^(%s*)(.*)')
-    mud.note(mud.span(pad, { fg = colours[i] })
-          .. mud.span(text, { fg = colours[i], on_click = function() route_to_room(r.room_id, r.location, false) end }))
-  end
-  note('  ' .. rule, C.rule)
-  note(string.format('  Click result to route · %sdb <number> to route and walk.', p), C.muted)
-end
+-- Now lives in cowtography/route.lua (display_results, do_search,
+-- route_to_room, do_route, TYPE_LABELS, last_results, room_click handler).
 
 -- ─── Movement prediction ─────────────────────────────────────────────────────
 -- Now lives in cowtography/prediction.lua (cardinal-direction observer).
@@ -267,132 +181,7 @@ mud.alias([[^stop$]], function(m)
 end)
 
 -- ─── db ──────────────────────────────────────────────────────────────────────
-
-local function do_search(search_type, query, area_filter)
-  local candidates
-  if search_type == 'room' then
-    candidates = search.search_rooms(rooms, query)
-  elseif search_type == 'item' or search_type == 'shop' then
-    candidates = search.search_items(items, query)
-    search_type = 'item'
-  elseif search_type == 'npc' then
-    candidates = search.search_npcs(npcs, query)
-    if area_filter then
-      local af = string.lower(area_filter)
-      local filtered = {}
-      for _, r in ipairs(candidates) do
-        if string.find(string.lower(r.location), af, 1, true) then
-          filtered[#filtered + 1] = r
-        end
-      end
-      candidates = filtered
-    end
-  elseif search_type == 'npcitem' then
-    candidates = search.search_npc_items(npc_items, query)
-  else
-    note('  Unknown type. Valid: room, npc, item, shop, npcitem', C.err)
-    return
-  end
-
-  if #candidates == 0 then
-    local area_note = area_filter and (' in {' .. area_filter .. '}') or ''
-    note(string.format('  No results for "%s"%s.', query, area_note), C.muted)
-    last_results = {}
-    return
-  end
-
-  -- Annotate every candidate with its map name.
-  for _, r in ipairs(candidates) do
-    r.map_name = map_names[r.room_id]
-  end
-
-  local results
-  local sorted_by_dist = false
-
-  if state.current_room ~= nil then
-    local dist = pathfind.distances_from(exits, state.current_room)
-    for _, r in ipairs(candidates) do
-      local d = dist[r.room_id]
-      if d ~= nil then r.distance = d end
-    end
-    -- Reachable first (sorted by distance), then unreachable (sorted by name).
-    table.sort(candidates, function(a, b)
-      local ar, br = a.distance ~= nil, b.distance ~= nil
-      if ar ~= br then return ar end
-      if ar then return a.distance < b.distance end
-      return (a.name or '') < (b.name or '')
-    end)
-    results = candidates
-    sorted_by_dist = true
-  else
-    note('  (Room tracking inactive — showing unsorted results.)', C.muted)
-    results = candidates
-  end
-
-  last_results = results
-
-  local display = results
-  if #display > 20 then display = {table.unpack(display, 1, 20)} end
-
-  display_results(search_type, query, display, sorted_by_dist)
-end
-
-route_to_room = function(room_id, display_name, walk_immediately)
-  local p = mud.command_prefix()
-  if state.current_room == nil then
-    note('  Current room unknown. Move through a mapped room first.', C.err)
-    return
-  end
-  if state.current_room == room_id then
-    note('  You are already there.', C.ok)
-    return
-  end
-
-  local path, steps, route_rooms = pathfind.find_path(exits, state.current_room, room_id)
-  if path == nil then
-    note('  Could not find a route. You may be in an untracked area, or the destination is unreachable.', C.err)
-    panel:post("route_error", { name = display_name })
-    return
-  end
-
-  local steps_list = {}
-  for dir in path:gmatch('[^;]+') do
-    steps_list[#steps_list + 1] = dir
-  end
-  walk.set_route(steps_list, route_rooms, display_name, room_id)
-  post_route(route_rooms, display_name, steps)
-
-  if steps > 140 then
-    note('  Warning: long route. Discworld clears movement queues after 5 minutes of idle time.', C.header)
-  end
-
-  if walk_immediately then
-    walk.walk()
-  else
-    mud.note(mud.span(string.format('  Route to "%s" — %d move%s. Type ', display_name, steps, steps == 1 and '' or 's'), { fg = C.ok })
-          .. mud.span(p .. 'go', { fg = C.ok, on_click = function() walk.walk() end })
-          .. mud.span(' to begin.', { fg = C.ok }))
-  end
-end
-
-walk.set_router(function(...) return route_to_room(...) end)
-
-panel:on_message("room_click", function(frame)
-  route_to_room(frame.id, frame.name, false)
-end)
-
-local function do_route(n, walk_immediately)
-  if #last_results == 0 then
-    note('  No search results. Run a /db search first.', C.err)
-    return
-  end
-  if n < 1 or n > #last_results then
-    note(string.format('  Result %d out of range (1–%d).', n, #last_results), C.err)
-    return
-  end
-  local target = last_results[n]
-  route_to_room(target.room_id, target.location, walk_immediately)
-end
+-- do_search/route_to_room/do_route now live in cowtography/route.lua.
 
 local function bm_key()
   return state.char_name and ('bm_' .. state.char_name) or 'bookmarks'
@@ -418,47 +207,47 @@ mud.command("db", function(m)
 
   local n = args:match('^(%d+)$')
   if n then
-    do_route(tonumber(n), true)
+    route.do_route(tonumber(n), true)
     return
   end
 
   local route_n = args:match('^route%s+(%d+)$')
   if route_n then
-    do_route(tonumber(route_n), false)
+    route.do_route(tonumber(route_n), false)
     return
   end
 
   local npc_area, npc_q = args:match('^npc%s+{([^}]+)}%s+(.+)$')
   if npc_area then
-    do_search('npc', npc_q, npc_area)
+    route.do_search('npc', npc_q, npc_area)
     return
   end
 
   local npc_q2 = args:match('^npc%s+(.+)$')
   if npc_q2 then
-    do_search('npc', npc_q2, nil)
+    route.do_search('npc', npc_q2, nil)
     return
   end
 
   local item_q = args:match('^item%s+(.+)$')
   if item_q then
-    do_search('item', item_q, nil)
+    route.do_search('item', item_q, nil)
     return
   end
 
   local shop_q = args:match('^shop%s+(.+)$')
   if shop_q then
-    do_search('item', shop_q, nil)
+    route.do_search('item', shop_q, nil)
     return
   end
 
   local npcitem_q = args:match('^npcitem%s+(.+)$')
   if npcitem_q then
-    do_search('npcitem', npcitem_q, nil)
+    route.do_search('npcitem', npcitem_q, nil)
     return
   end
 
-  do_search('room', args, nil)
+  route.do_search('room', args, nil)
 end, {
   description = "Search Quow's Discworld database and navigate to results. Run with no arguments for full usage.",
   usage       = "db [<room>|npc|item|npcitem|route] [...]",
@@ -483,7 +272,7 @@ mud.command("bm", function(m)
       local entry = bmarks[name]
       local text = string.format('%-20s %s', name, entry.location)
       mud.note(mud.span('  ', { fg = C.alt })
-            .. mud.span(text, { fg = C.alt, on_click = function() route_to_room(entry.room_id, entry.location, false) end }))
+            .. mud.span(text, { fg = C.alt, on_click = function() route.route_to_room(entry.room_id, entry.location, false) end }))
     end
     return
   end
@@ -521,7 +310,7 @@ mud.command("bm", function(m)
     note(string.format('  No bookmark named "%s".', args), C.err)
     return
   end
-  route_to_room(entry.room_id, entry.location, false)
+  route.route_to_room(entry.room_id, entry.location, false)
 end, {
   description = "List, add, remove, and route to bookmarks.",
   usage       = "bm [add|rm|<name>] [...]",
