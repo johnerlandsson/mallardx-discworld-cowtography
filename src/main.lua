@@ -30,6 +30,12 @@ local state = require('cowtography.state')
 local exits_by_dir = state.exits_by_dir
 local PLUGIN_ID     = state.PLUGIN_ID
 
+local uu_library = require('cowtography.uu_library')
+local panel_mod  = require('cowtography.panel')
+local panel      = panel_mod.panel
+local post_room, post_route, post_route_clear =
+  panel_mod.post_room, panel_mod.post_route, panel_mod.post_route_clear
+
 local last_results    = {}
 local target_room          = nil   -- predicted position; nil when same as confirmed
 local pred_queue           = {}    -- ordered sequence of predicted rooms [next, …, target]
@@ -136,42 +142,8 @@ local medina_identified = false -- guards against double-posting per room
 local post_medina_room          -- forward declaration; body assigned after post_room
 
 -- ─── Map panel ───────────────────────────────────────────────────────────────
-
-local panel        = mud.panel("map")
-local last_route             = nil
-local last_route_destination = nil
-local last_route_steps       = nil
-
-local ascii_panel     = mud.panel("ascii_map")
-local last_ascii_rows = nil
-
-ascii_panel:on_message("ready", function()
-  ascii_panel:post("map_rows", { rows = last_ascii_rows or {} })
-  local zoom = storage.get('ascii_zoom')
-  if type(zoom) == 'number' then ascii_panel:post('zoom_data', { size = zoom }) end
-end)
-
-ascii_panel:on_message("save_zoom", function(data)
-  storage.set('ascii_zoom', data.size)
-end)
-
-ascii_panel:on_message("set_map_output", function(data)
-  local value = data.on and "top" or "off"
-  mud.send("options output map look=" .. value, { silent = true })
-  mud.send("options output map lookcity=" .. value, { silent = true })
-  mud.send("options output map glance=" .. value, { silent = true })
-  mud.send("options output map glancecity=" .. value, { silent = true })
-end)
-
-local function post_room(payload)
-  panel:post("room_info", {
-    identifier = payload.identifier,
-    name       = payload.name,
-    terrain    = payload.terrain,
-    tx         = payload.tx,
-    ty         = payload.ty,
-  })
-end
+-- panel/ascii_panel objects and post_room/post_route/post_route_clear now
+-- live in cowtography/panel.lua; required and aliased above.
 
 post_medina_room = function(room_id)
   if medina_identified then return end
@@ -192,20 +164,6 @@ post_shades_room = function(n)
   post_room(frame)
 end
 
-local function post_route(room_ids, destination, steps)
-  last_route             = room_ids
-  last_route_destination = destination
-  last_route_steps       = steps
-  panel:post("route_set", { rooms = room_ids, destination = destination, steps = steps })
-end
-
-local function post_route_clear()
-  last_route             = nil
-  last_route_destination = nil
-  last_route_steps       = nil
-  panel:post("route_clear", {})
-end
-
 local function post_target_move(room_id)
   panel:post("target_move", { identifier = room_id })
 end
@@ -217,50 +175,6 @@ local function post_target_clear(snap)
   target_room = nil
   panel:post("target_clear", { snap = snap == true })
 end
-
-panel:on_message("ready", function()
-  local zoom = storage.get('zoom')
-  if type(zoom) == 'table' then panel:post('zoom_data', zoom) end
-  local filters = storage.get('filters')
-  if type(filters) == 'table' then panel:post('filters_data', filters) end
-  panel:post("map_style", { style = settings.get('map_style') or 'svg' })
-  if lib_in_lspace then
-    panel:post("lspace", {})
-  elseif lib_in_library then
-    if last_lib_position then panel:post("library_position", last_lib_position) end
-    if last_lib_overlay  then panel:post("library_overlay",  last_lib_overlay)  end
-  else
-    if state.last_payload then post_room(state.last_payload) end
-    if last_route then
-      panel:post("route_set", { rooms = last_route, destination = last_route_destination, steps = last_route_steps })
-    end
-  end
-end)
-
-local current_map = nil
-
-panel:on_message("map_changed", function(data)
-  current_map = data.name
-  vars.set("cowtography.map", data.name)
-  events.emit("cowtography:region_changed", { map = data.name })
-end)
-
-events.on("cowtography:region_request", function()
-  if current_map then
-    events.emit("cowtography:region_changed", { map = current_map })
-  end
-end)
-
-panel:on_message("save_filters", function(data)
-  storage.set('filters', data)
-end)
-
-panel:on_message("save_zoom", function(data)
-  local zoom = storage.get('zoom')
-  if type(zoom) ~= 'table' then zoom = {} end
-  zoom[tostring(data.mapId)] = data.w
-  storage.set('zoom', zoom)
-end)
 
 local MAX_DISPLAY = 10
 
@@ -281,161 +195,7 @@ local function walk_arrived(name)
 end
 
 -- ─── UU Library ──────────────────────────────────────────────────────────────
--- Directions in the library are relative (forward/backward/left/right).
--- Facing (n/s/e/w) is maintained by turn commands; strafing doesn't change it.
--- Distortions, orbs and l-space are overlaid on the map panel.
-
-local lib_in_library      = false
-local lib_in_lspace       = false    -- true when lost in L-space (distinct from library)
-local lib_facing          = 'n'
-local lib_x               = 166      -- current position on map 47 (tile units)
-local lib_y               = 4810
-local lib_move_queue      = {}       -- pending cardinal moves; aliases push, GMCP pops
-local lib_checkpoint      = nil      -- {x,y,facing} saved just before each GMCP-applied move
-local lib_distortion_here = nil      -- 'n'|'e'|'s'|'w' or nil
-local lib_orb_here        = false
-local last_lib_overlay    = nil
-local last_lib_position   = nil
-
-local TURN_LEFT  = { n='w', w='s', s='e', e='n' }
-local TURN_RIGHT = { n='e', e='s', s='w', w='n' }
-local OPPOSITE   = { n='s', s='n', e='w', w='e' }
-
--- Shift position by one tile in cardinal direction; apply x-wrap (Quow §8890).
-local function lib_apply_move(card)
-  local nx = lib_x + ((card=='e' and 30) or (card=='w' and -30) or 0)
-  local ny = lib_y + ((card=='n' and -30) or (card=='s' and  30) or 0)
-  if     nx >= 262 then nx = nx - 240
-  elseif nx <= 37  then nx = nx + 240
-  end
-  lib_x = nx
-  lib_y = ny
-end
-
-local function relative_to_cardinal(rel)
-  if     rel == 'up ahead of'    then return lib_facing
-  elseif rel == 'to the right of' then return TURN_RIGHT[lib_facing]
-  elseif rel == 'behind'          then return OPPOSITE[lib_facing]
-  elseif rel == 'to the left of'  then return TURN_LEFT[lib_facing]
-  end
-  return lib_facing
-end
-
-local function post_library_overlay()
-  local payload = {
-    facing     = lib_facing,
-    distortion = lib_distortion_here,
-    orb        = lib_orb_here,
-  }
-  last_lib_overlay = payload
-  panel:post("library_overlay", payload)
-end
-
-local function post_library_position()
-  local payload = { x = lib_x, y = lib_y }
-  last_lib_position = payload
-  panel:post("library_position", payload)
-end
-
--- Turn commands: rotate facing, pass command through to MUD.
-mud.alias([[^turn (?:left|lt)$]], function(m)
-  lib_facing = TURN_LEFT[lib_facing]
-  mud.send(m.text, { silent = true })
-  post_library_overlay()
-end)
-
-mud.alias([[^turn (?:right|rt)$]], function(m)
-  lib_facing = TURN_RIGHT[lib_facing]
-  mud.send(m.text, { silent = true })
-  post_library_overlay()
-end)
-
-mud.alias([[^turn around$]], function(m)
-  lib_facing = OPPOSITE[lib_facing]
-  mud.send(m.text, { silent = true })
-  post_library_overlay()
-end)
-
--- Strafe/walk commands: record intended move direction; GMCP confirms arrival.
-mud.alias([[^(?:forward|fw)$]], function(m)
-  if lib_in_library then table.insert(lib_move_queue, lib_facing) end
-  mud.send(m.text, { silent = true })
-end)
-
-mud.alias([[^(?:backward|bw)$]], function(m)
-  if lib_in_library then table.insert(lib_move_queue, OPPOSITE[lib_facing]) end
-  mud.send(m.text, { silent = true })
-end)
-
-mud.alias([[^(?:left|lt)$]], function(m)
-  if lib_in_library then table.insert(lib_move_queue, TURN_LEFT[lib_facing]) end
-  mud.send(m.text, { silent = true })
-end)
-
-mud.alias([[^(?:right|rt)$]], function(m)
-  if lib_in_library then table.insert(lib_move_queue, TURN_RIGHT[lib_facing]) end
-  mud.send(m.text, { silent = true })
-end)
-
--- Blocked-move handler. The UU Library returns one of three messages when
--- a direction is invalid. Since these mean the command wasn't processed,
--- GMCP never fires — we just discard the stale queue entry and clear any
--- checkpoint left over from the previous successful move.
-mud.trigger([[^(?:> )?(?:What\?|That doesn't work\.|Try something else\.)\s*$]], function()
-  if lib_in_library then
-    lib_checkpoint = nil
-    if #lib_move_queue > 0 then
-      table.remove(lib_move_queue, 1)
-    end
-  end
-  -- Do NOT clear target here: the direction alias didn't advance target_room when
-  -- no exit was found, so target is still valid for any commands already queued.
-  -- The GMCP handler clears target naturally when current_room catches up.
-end)
-
--- Distortion visible with known direction (fires when you look at the room).
-mud.trigger([[^(?:> )?There is a strange distortion in space and time (.+) you!$]], function(m)
-  lib_distortion_here = relative_to_cardinal(m[1])
-  post_library_overlay()
-end)
-
--- Distortion forming warning (direction unknown until you look).
-mud.trigger([[^(?:> )?(?:You notice an odd rippling in the air\.|The awful sound of nails being dragged down a blackboard fills the area briefly\.|A distortion in time and space is forming!)$]], function()
-  note('  A distortion is forming nearby! Type look to see where.', C.err)
-end)
-
--- Distortion vanished or successfully sealed.
-mud.trigger([[^(?:> )?The (?:distortion fades away|area seems more mundane than before|room seems to return to normal)\.$]], function()
-  lib_distortion_here = nil
-  post_library_overlay()
-end)
-
--- Escaped spell orb visible in room — capture size word for the panel.
-mud.trigger([[(?:a|A) (tiny speck|small point|moderately-sized ball|large orb|substantial sphere) of energy is tracing a .+? pattern in the air]], function(m)
-  lib_orb_here = m[1]
-  post_library_overlay()
-end)
-
--- Escaped spell orb captured or destroyed (various messages).
-mud.trigger([[^(?:> )?The (?:tiny speck|small point|moderately-sized ball|large orb|substantial sphere) of energy (?:collapses in on itself, then winks out|is absorbed into your|vanishes)]], function()
-  lib_orb_here = false
-  post_library_overlay()
-end)
-
-mud.trigger([[(?:tiny speck|small point|moderately-sized ball|large orb|substantial sphere) of energy vanishes with a "Pop!"]], function()
-  lib_orb_here = false
-  post_library_overlay()
-end)
-
--- L-space is detected from the room description rather than GMCP name,
--- since L-space rooms may share the "Library" name with regular rooms.
--- This fires after any GMCP-based library_position is already posted, so
--- the lspace message overrides it in the JS panel.
-mud.trigger([[^(?:> )?You are somewhere in the depths of L-space\.]], function()
-  lib_in_library = false
-  lib_in_lspace  = true
-  panel:post("lspace", {})
-end)
+-- State, aliases, and triggers now live in cowtography/uu_library.lua.
 
 -- ─── BPMedina: room description text triggers ───────────────────────────────
 -- Discworld GMCP room.info doesn't carry description text, so we match the
@@ -570,8 +330,7 @@ end)
 
 gmcp.on('room.map', function(_, payload)
   if type(payload) ~= 'string' then return end
-  last_ascii_rows = ansi_map.parse(payload)
-  ascii_panel:post("map_rows", { rows = last_ascii_rows })
+  panel_mod.post_ascii_rows(ansi_map.parse(payload))
 end)
 
 gmcp.on('room.info', function(_, data)
@@ -611,51 +370,11 @@ gmcp.on('room.info', function(_, data)
     end
     if state.room_id_echo then note('  ' .. state.current_room, C.name) end
 
-    -- UU Library: clear per-room overlays on each room transition.
-    lib_orb_here        = false
-    lib_distortion_here = nil
-    local name_lower      = (data.name or ''):lower()
-    -- UU Library rooms have GMCP name "library" AND are absent from the rooms
-    -- DB (no identifier entries). Other "library"-named rooms (Academy of
-    -- Artificers, Genua, etc.) ARE in the DB, so the identifier lookup
-    -- distinguishes them. L-space rooms ("mysterious library") fail the exact
-    -- name match, so they fall through to the mysterious-name check below.
-    local entering_library = name_lower == 'library'
-                         and rooms[data.identifier] == nil
-
-    if entering_library then
-      if not lib_in_library then
-        -- Fresh entry from outside: reset position, facing, and any stale queue.
-        lib_facing     = 'n'
-        lib_x          = 166
-        lib_y          = 4810
-        lib_move_queue = {}
-      elseif #lib_move_queue > 0 then
-        -- Moving within library: save a checkpoint for rollback (in case the
-        -- "no exit" trigger fires after GMCP), then apply the queued move.
-        lib_checkpoint = { x = lib_x, y = lib_y, facing = lib_facing }
-        local move = table.remove(lib_move_queue, 1)
-        lib_apply_move(move)
-        lib_facing = move  -- facing updates to the direction physically moved
-      end
-      lib_in_library = true
-      lib_in_lspace  = false
-      post_library_overlay()
-      post_library_position()
-    else
-      lib_in_library = false
-      lib_move_queue = {}
-      lib_checkpoint = nil
-      if name_lower == 'mysterious library'
-      or name_lower:find('maze of twisting') ~= nil then
-        -- L-space rooms: "mysterious library", "maze of twisting shelves, all alike", etc.
-        -- Post lspace directly to avoid resolveRoom finding map-56 DB entries.
-        lib_in_lspace = true
-        panel:post("lspace", {})
-      else
-        lib_in_lspace = false
-        local special = SPECIAL_SCREENS[data.identifier]
-        if special then
+    -- UU Library: clear per-room overlays on each room transition; identify
+    -- library/L-space rooms. Returns false for rooms outside the subsystem.
+    if not uu_library.handle_room(data) then
+      local special = SPECIAL_SCREENS[data.identifier]
+      if special then
           panel:post("special_screen", { name = special })
         elseif data.identifier == "AMShades" then
           -- Interior Shades rooms (1-16) all share this GMCP identifier.
@@ -715,7 +434,6 @@ gmcp.on('room.info', function(_, data)
           post_room(data)
         end
       end
-    end
     if state.room_id_echo and shades_room then
       note(string.format('  shades_room=%s predicted=%s identified=%s',
         tostring(shades_room), tostring(shades_predicted), tostring(shades_identified)), C.muted)
@@ -1381,9 +1099,7 @@ mud.keymap.activate("Cowtography")
 -- Manually clear library overlays (distortion + orb) without changing rooms.
 
 mud.alias([[^libclear$]], function()
-  lib_distortion_here = nil
-  lib_orb_here        = false
-  post_library_overlay()
+  uu_library.clear_overlays()
   note('  Library overlays cleared.', C.muted)
 end)
 
