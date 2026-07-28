@@ -27,8 +27,6 @@ local colors = require('cowtography.colors')
 local C, note, vlen = colors.C, colors.note, colors.vlen
 
 local state = require('cowtography.state')
-local exits_by_dir = state.exits_by_dir
-local PLUGIN_ID     = state.PLUGIN_ID
 
 local uu_library = require('cowtography.uu_library')
 local panel_mod  = require('cowtography.panel')
@@ -44,11 +42,10 @@ medina.init(panel_mod)
 
 local walk = require('cowtography.walk')
 
+local prediction = require('cowtography.prediction')
+prediction.init(panel_mod.panel)
+
 local last_results    = {}
-local target_room          = nil   -- predicted position; nil when same as confirmed
-local pred_queue           = {}    -- ordered sequence of predicted rooms [next, …, target]
-local just_moved           = false -- true for one GMCP after a successful move
-local prev_target_at_move  = nil   -- target_room captured when just_moved was last set
 local _in_dark        = false
 
 -- Room identifiers that show a named special screen instead of the map.
@@ -70,18 +67,6 @@ local SPECIAL_SCREENS = {
 -- panel/ascii_panel objects and post_room/post_route/post_route_clear now
 -- live in cowtography/panel.lua; required and aliased above.
 
-local function post_target_move(room_id)
-  panel:post("target_move", { identifier = room_id })
-end
-
--- snap=true: pan the view back to the confirmed position (used when stopping
--- mid-route). snap=false (default): room_info will pan, no need to do it here.
-local function post_target_clear(snap)
-  pred_queue  = {}
-  target_room = nil
-  panel:post("target_clear", { snap = snap == true })
-end
-
 local MAX_DISPLAY = 10
 
 -- ─── UU Library ──────────────────────────────────────────────────────────────
@@ -99,7 +84,7 @@ end
 
 local function reset_walk()
   walk.reset_for_disconnect()
-  post_target_clear(true)  -- snap view back; no room_info is coming
+  prediction.clear(true)  -- snap view back; no room_info is coming
 end
 
 seed_room()
@@ -143,33 +128,12 @@ gmcp.on('room.info', function(_, data)
   if type(data) == 'table' and data.identifier then
     if _in_dark then
       _in_dark = false
-      post_target_clear(false)
+      prediction.clear(false)
     end
     local prev_room = state.current_room
     state.current_room = data.identifier
     shades.check_leaving(prev_room, state.current_room)
-    if state.current_room ~= prev_room then
-      -- Actual movement: advance the prediction queue if this room was expected,
-      -- otherwise the prediction is stale (locked door, teleport, etc.) — clear it.
-      if target_room ~= nil then
-        if pred_queue[1] == state.current_room then
-          table.remove(pred_queue, 1)
-          target_room = pred_queue[#pred_queue]  -- nil when we've arrived at the destination
-        else
-          post_target_clear(false)
-        end
-      end
-      just_moved          = true
-      prev_target_at_move = target_room  -- snapshot after possible clear/advance
-    else
-      -- Same-room re-confirmation: duplicate room.info after a move, or a blocked move.
-      -- Suppress when just_moved AND target hasn't changed since we arrived here:
-      -- that pattern is the duplicate room.info Discworld fires after a successful move.
-      if target_room ~= nil and not (just_moved and target_room == prev_target_at_move) then
-        post_target_clear(false)
-      end
-      just_moved = false
-    end
+    prediction.on_transition(prev_room)
     if state.room_id_echo then note('  ' .. state.current_room, C.name) end
 
     -- UU Library: clear per-room overlays on each room transition; identify
@@ -200,7 +164,7 @@ gmcp.on('room.info', function(_, data)
     -- Dark room: room.info without an identifier. Keep the map on last known position
     -- (muted) rather than tracking or showing a darkness overlay.
     _in_dark    = true
-    post_target_clear(false)
+    prediction.clear(false)
     panel:post("room_dark", {})
     walk.advance_or_arrive()
   end
@@ -294,44 +258,8 @@ local function display_results(search_type, query, results, sorted_by_dist)
 end
 
 -- ─── Movement prediction ─────────────────────────────────────────────────────
--- Watch outgoing cardinal directions to advance the predicted position
--- (target_room) before GMCP confirms arrival — matching Quow's approach.
---
--- This is an *observer* (mud.on_send), not a consuming alias: the direction
--- flows to the wire and echoes normally (Source::Echo), instead of being
--- swallowed and re-sent — which is what made plain `n`/`north` render in the
--- client-command colour. Observing at the wire level also means numpad/keymap
--- movement now advances prediction, which a manual `mud.alias` on typed input
--- never saw. We skip our OWN sends (route-walking via send_walk_steps) so a
--- walk doesn't double-advance the prediction it already tracks.
-
-local DIR_NORMALIZE = {
-  n='n', north='n', ne='ne', northeast='ne', e='e', east='e',
-  se='se', southeast='se', s='s', south='s', sw='sw', southwest='sw',
-  w='w', west='w', nw='nw', northwest='nw', u='u', up='u', d='d', down='d',
-}
-
-mud.on_send([[^(n|ne|e|se|s|sw|w|nw|u|d|north|northeast|east|southeast|south|southwest|west|northwest|up|down)$]], function(m)
-  if m.origin.plugin_id == PLUGIN_ID then return end
-  if walk.get_pos() == 0 and walk.get_steps_count() > 0 then
-    walk.clear_route()
-  end
-  local dir  = DIR_NORMALIZE[m[1]]
-  local from = target_room or state.current_room
-  if from then
-    local by_dir = exits_by_dir[from]
-    if by_dir then
-      local next_id = by_dir[dir]
-      if next_id then
-        pred_queue[#pred_queue + 1] = next_id
-        target_room = next_id
-        post_target_move(target_room)
-      end
-    end
-  end
-end, { name = "movement-observer" })
-
--- AMShades numbered-exit movement observer now lives in cowtography/shades.lua.
+-- Now lives in cowtography/prediction.lua (cardinal-direction observer).
+-- AMShades numbered-exit movement observer lives in cowtography/shades.lua.
 
 mud.alias([[^stop$]], function(m)
   reset_walk()
