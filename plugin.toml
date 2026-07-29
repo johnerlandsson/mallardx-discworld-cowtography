@@ -17,7 +17,7 @@ sends       = true
 gmcp_access = ["room.info", "char.info", "char.info.*", "char.info.capname", "room.map"]
 
 [gmcp]
-advertise = ["room.info", "char.info", "room.map"]
+advertise = ["room.info 1", "char.info 1", "room.map 1"]
 
 [panels.map]
 title        = "Map"
