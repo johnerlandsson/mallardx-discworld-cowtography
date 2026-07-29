@@ -54,6 +54,12 @@ function M.on_transition(prev_room)
       if pred_queue[1] == state.current_room then
         table.remove(pred_queue, 1)
         target_room = pred_queue[#pred_queue]  -- nil when we've arrived at the destination
+        -- Explicitly tell the frontend the prediction is resolved instead of
+        -- relying on the confirming room_info's identifier matching what we
+        -- predicted: a subsystem (e.g. shades.lua) may post a different,
+        -- display-only alias for this same room, which would otherwise never
+        -- match and leave the frontend's target stuck forever.
+        if target_room == nil then M.clear(false) end
       else
         M.clear(false)
       end
