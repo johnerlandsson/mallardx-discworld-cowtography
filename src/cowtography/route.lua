@@ -105,9 +105,13 @@ local function display_results(search_type, query, results, sorted_by_dist)
   note('  ' .. rule, C.rule)
   for i, line in ipairs(lines) do
     local r = results[i]
+    local unreachable = sorted_by_dist and not r.distance
     local pad, text = line:match('^(%s*)(.*)')
-    mud.note(mud.span(pad, { fg = colours[i] })
-          .. mud.span(text, { fg = colours[i], on_click = function() M.route_to_room(r.room_id, r.location, false) end }))
+    local text_opts = { fg = colours[i] }
+    if not unreachable then
+      text_opts.on_click = function() M.route_to_room(r.room_id, r.location, false) end
+    end
+    mud.note(mud.span(pad, { fg = colours[i] }) .. mud.span(text, text_opts))
   end
   note('  ' .. rule, C.rule)
   note(string.format('  Click result to route · %sdb <number> to route and walk.', p), C.muted)
