@@ -241,6 +241,7 @@ export class SvgRenderer {
 
   #handlePointerdown(e) {
     if (!this.#svg) return;
+    if (e.target.closest(".note-editor")) return;
     const roomEl = e.target.closest(".room");
     if (e.button === 1) {
       e.preventDefault();
