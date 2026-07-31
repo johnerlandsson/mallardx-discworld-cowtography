@@ -1,6 +1,6 @@
 import { groundToUppers } from "../data/room-stacks.js";
 import { ZOOM_FACTOR } from "./constants.js";
-import { computeRoomUnit, ensureWarpDefs } from "./geometry.js";
+import { computeRoomUnit, ensureWarpDefs, roomFromElement } from "./geometry.js";
 import { setStackRoomVisible } from "./stack-visibility.js";
 import { applyStateImpl } from "./apply-state.js";
 import { wireTooltip } from "./tooltip.js";
@@ -206,6 +206,11 @@ export class SvgRenderer {
     this.#svg.querySelector(".room.current")?.classList.remove("current");
     this.#svg.querySelector(`#room-lib-${x}-${y}`)?.classList.add("current");
     this.centerOn(x, y);
+  }
+
+  roomAtPoint(e) {
+    if (!this.#svg || this.#displayedMapId === 99) return null;
+    return roomFromElement(e.target.closest(".room"));
   }
 
   // ─── Private helpers ────────────────────────────────────────────────────

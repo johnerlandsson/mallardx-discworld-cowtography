@@ -36,3 +36,10 @@ export function ensureWarpDefs(svgEl) {
     '<path d="M0,0 L6,3 L0,6 Z" fill="#a855f7"/></marker>';
   svgEl.prepend(defs);
 }
+
+export function roomFromElement(el) {
+  if (!el || typeof el.id !== 'string') return null;
+  const roomId = el.id.slice(5);
+  if (!roomId) return null;
+  return { roomId, name: el.dataset?.label ?? "" };
+}
