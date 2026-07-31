@@ -8,7 +8,7 @@ local ansi_map = require('ansi_map')
 local M = {}
 
 -- injected via M.init()
-local colors, state, uu_library, panel_mod, shades, medina, walk, prediction
+local colors, state, uu_library, panel_mod, shades, medina, walk, prediction, notes
 local C, note
 local panel      -- panel_mod.panel
 local post_room  -- panel_mod.post_room
@@ -46,8 +46,8 @@ local function apply_char_name(name)
 end
 
 function M.init(deps)
-  colors, state, uu_library, panel_mod, shades, medina, walk, prediction =
-    deps.colors, deps.state, deps.uu_library, deps.panel, deps.shades, deps.medina, deps.walk, deps.prediction
+  colors, state, uu_library, panel_mod, shades, medina, walk, prediction, notes =
+    deps.colors, deps.state, deps.uu_library, deps.panel, deps.shades, deps.medina, deps.walk, deps.prediction, deps.notes
   C, note = colors.C, colors.note
   panel     = panel_mod.panel
   post_room = panel_mod.post_room
@@ -87,6 +87,13 @@ gmcp.on('room.info', function(_, data)
     end
     local prev_room = state.current_room
     state.current_room = data.identifier
+
+    local room_note_text = notes.get(state.current_room)
+    if room_note_text then
+      mud.note(mud.span('  Room has a note. ', { fg = C.muted })
+            .. mud.span('[view]', { fg = C.ok, on_click = function() note('  ' .. room_note_text, C.alt) end }))
+    end
+
     shades.check_leaving(prev_room, state.current_room)
     prediction.on_transition(prev_room)
     if state.room_id_echo then note('  ' .. state.current_room, C.name) end
