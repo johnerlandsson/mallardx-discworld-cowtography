@@ -14,7 +14,7 @@ function M.init(deps)
   C, note = colors.C, colors.note
 
   panel.panel:on_message("ready", function()
-    panel.panel:post("notes_data", { notes = M.all() })
+    M.push_panel()
   end)
 
   panel.panel:on_message("note_save", function(frame)
@@ -23,13 +23,17 @@ function M.init(deps)
       note('  ' .. err, C.err)
       return
     end
-    panel.panel:post("notes_data", { notes = M.all() })
+    M.push_panel()
   end)
 
   panel.panel:on_message("note_remove", function(frame)
     M.remove(frame.roomId)
-    panel.panel:post("notes_data", { notes = M.all() })
+    M.push_panel()
   end)
+end
+
+function M.push_panel()
+  panel.panel:post("notes_data", { notes = M.all() })
 end
 
 local function note_key()
@@ -78,15 +82,15 @@ end
 -- library/L-space, both of which leave state.current_room pointing at a
 -- stale-but-validly-hashed room id instead of the room the player is
 -- actually standing in.
-function M.check_current_room()
+function M.check_current_room(action)
   if state.current_room == nil then
     return nil, 'Current room unknown. Move through a mapped room first.'
   end
   if state.in_dark then
-    return nil, "Can't add a note while it's dark."
+    return nil, string.format("Can't %s while it's dark.", action)
   end
   if uu_library.is_in_library() or uu_library.is_in_lspace() then
-    return nil, "Can't add a note in the library."
+    return nil, string.format("Can't %s in the library.", action)
   end
   return state.current_room
 end

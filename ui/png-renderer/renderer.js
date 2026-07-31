@@ -156,7 +156,7 @@ export class PngRenderer {
   releaseFocus() {}
 
   roomAtPoint(e) {
-    if (!this.#img) return null;
+    if (!this.#img || this.#mapId === 99 || !this.#wrap?.contains(e.target)) return null;
     const rect = this.#img.getBoundingClientRect();
     const px = (e.clientX - rect.left) * (this.#img.naturalWidth  / rect.width);
     const py = (e.clientY - rect.top)  * (this.#img.naturalHeight / rect.height);

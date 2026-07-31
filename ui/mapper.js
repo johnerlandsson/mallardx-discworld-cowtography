@@ -255,7 +255,12 @@ function closeNoteEditor() {
 
 $noteSave.addEventListener("click", () => {
   if (noteEditorRoomId === null) return;
-  panel.post("note_save", { roomId: noteEditorRoomId, text: $noteEditorText.value });
+  const text = $noteEditorText.value.trim();
+  if (text === "") {
+    panel.post("note_remove", { roomId: noteEditorRoomId });
+  } else {
+    panel.post("note_save", { roomId: noteEditorRoomId, text });
+  }
   closeNoteEditor();
 });
 $noteCancel.addEventListener("click", closeNoteEditor);

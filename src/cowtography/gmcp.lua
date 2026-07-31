@@ -42,7 +42,10 @@ end
 -- hydrate at startup so plugin reloads mid-session get the cached value.
 
 local function apply_char_name(name)
-  if type(name) == 'string' and name ~= '' then state.char_name = name end
+  if type(name) == 'string' and name ~= '' and name ~= state.char_name then
+    state.char_name = name
+    notes.push_panel()
+  end
 end
 
 function M.init(deps)

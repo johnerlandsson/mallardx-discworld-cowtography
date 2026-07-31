@@ -79,7 +79,8 @@ export class SvgRenderer {
     for (const child of [...this.#container.children]) {
       if (!child.classList.contains("lspace-overlay") &&
           !child.classList.contains("special-screen") &&
-          !child.classList.contains("tooltip")) {
+          !child.classList.contains("tooltip") &&
+          !child.classList.contains("note-editor")) {
         child.remove();
       }
     }
@@ -283,11 +284,13 @@ export class SvgRenderer {
     this.#pendingClick = null;
   }
 
-  #handleContainerClick() {
+  #handleContainerClick(e) {
+    if (e.target.closest(".note-editor")) return;
     if (!this.#mapFocused) this.grabFocus();
   }
 
   #handleKeydown(e) {
+    if (e.target.closest(".note-editor")) return;
     if (!this.#mapFocused || !this.#svg) return;
     switch (e.key) {
       case "ArrowUp":    this.#viewBox.y -= this.#viewBox.h * 0.2; applyViewBox(this.#svg, this.#viewBox); break;

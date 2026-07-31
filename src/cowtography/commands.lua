@@ -185,7 +185,7 @@ mud.command("note", function(m)
   local args = m.args
 
   if args == '' then
-    local room_id, err = notes.check_current_room()
+    local room_id, err = notes.check_current_room('view the note')
     if not room_id then
       note('  ' .. err, C.err)
       return
@@ -201,7 +201,7 @@ mud.command("note", function(m)
 
   local add_text = args:match('^add%s+(.+)$')
   if add_text then
-    local room_id, err = notes.check_current_room()
+    local room_id, err = notes.check_current_room('add a note')
     if not room_id then
       note('  ' .. err, C.err)
       return
@@ -216,7 +216,7 @@ mud.command("note", function(m)
   end
 
   if args == 'rm' then
-    local room_id, err = notes.check_current_room()
+    local room_id, err = notes.check_current_room('remove the note')
     if not room_id then
       note('  ' .. err, C.err)
       return
