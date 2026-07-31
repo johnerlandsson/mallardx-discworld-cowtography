@@ -231,6 +231,59 @@ body {
 }
 .special-sub[hidden] { display: none; }
 
+/* ─── Room note editor ─────────────────────────────────────────────────────── */
+.note-editor[hidden] { display: none; }
+.note-editor {
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 6;
+}
+.note-editor-card {
+  display: flex; flex-direction: column; gap: 8px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 12px;
+  width: min(320px, 80%);
+}
+.note-editor-name {
+  font-weight: bold;
+  color: var(--fg);
+  font-size: 13px;
+}
+.note-editor-text {
+  font-family: inherit;
+  font-size: 12px;
+  color: var(--fg);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 6px;
+  resize: vertical;
+}
+.note-editor-actions {
+  display: flex; justify-content: flex-end; gap: 6px;
+}
+.note-editor-actions button {
+  border-radius: 3px;
+  padding: 4px 10px;
+  font-size: 11px;
+  cursor: pointer;
+}
+.note-cancel {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--muted);
+}
+.note-cancel:hover { color: var(--fg); }
+.note-save {
+  background: color-mix(in srgb, var(--accent) 15%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent) 40%, transparent);
+  color: var(--accent);
+}
+.note-save:hover { background: color-mix(in srgb, var(--accent) 25%, transparent); }
+
 /* ─── L-space overlay ──────────────────────────────────────────────────────── */
 .lspace-overlay[hidden] { display: none; }
 .lspace-overlay {
