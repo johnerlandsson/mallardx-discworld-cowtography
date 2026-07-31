@@ -211,6 +211,7 @@ mud.command("note", function(m)
       note('  ' .. set_err, C.err)
       return
     end
+    notes.push_panel()
     note('  Note saved for this room.', C.ok)
     return
   end
@@ -222,6 +223,7 @@ mud.command("note", function(m)
       return
     end
     notes.remove(room_id)
+    notes.push_panel()
     note('  Note removed.', C.ok)
     return
   end
