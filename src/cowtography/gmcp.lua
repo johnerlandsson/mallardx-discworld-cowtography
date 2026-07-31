@@ -13,8 +13,6 @@ local C, note
 local panel      -- panel_mod.panel
 local post_room  -- panel_mod.post_room
 
-local _in_dark = false
-
 -- Room identifiers that show a named special screen instead of the map.
 local SPECIAL_SCREENS = {
   RatFarm       = 'rat_farm',
@@ -83,8 +81,8 @@ end)
 
 gmcp.on('room.info', function(_, data)
   if type(data) == 'table' and data.identifier then
-    if _in_dark then
-      _in_dark = false
+    if state.in_dark then
+      state.in_dark = false
       prediction.clear(false)
     end
     local prev_room = state.current_room
@@ -100,7 +98,7 @@ gmcp.on('room.info', function(_, data)
       if special then
           panel:post("special_screen", { name = special })
         elseif shades.handle_room(data, prev_room) then
-          -- Don't set _in_dark — description trigger (or the prediction above) posts the real position.
+          -- Don't set state.in_dark — description trigger (or the prediction above) posts the real position.
         elseif medina.handle_room(data, prev_room) then
           -- handled
         else
@@ -120,7 +118,7 @@ gmcp.on('room.info', function(_, data)
   elseif type(data) == 'table' then
     -- Dark room: room.info without an identifier. Keep the map on last known position
     -- (muted) rather than tracking or showing a darkness overlay.
-    _in_dark    = true
+    state.in_dark = true
     prediction.clear(false)
     panel:post("room_dark", {})
     walk.advance_or_arrive()
