@@ -11,7 +11,7 @@
     "sync:svg": "node scripts/sync-svg-js.mjs",
     "find:bridges": "node scripts/find-bridge-candidates.mjs",
     "tool:shop-rooms": "node tools/shop-room-editor/generate.mjs",
-    "pack": "rm -f discworld-cowtography-0.29.1.mallardx && zip -r discworld-cowtography-0.29.1.mallardx plugin.toml README.md src/ ui/ --exclude 'ui/maps/*.svg'"
+    "pack": "rm -f discworld-cowtography-0.29.1.mallardx && zip -r discworld-cowtography-0.29.1.mallardx plugin.toml README.md src/ ui/ data/ --exclude 'ui/maps/*.svg'"
   },
   "devDependencies": {
     "adm-zip": "^0.5.10",

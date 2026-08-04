@@ -15,6 +15,14 @@ match = ["discworld.starturtle.net:*"]
 [permissions]
 sends       = true
 gmcp_access = ["room.info", "char.info", "char.info.*", "char.info.capname", "room.map"]
+database    = true
+
+[database]
+seed = "data/_quowmap_database.db"
+shipped_tables = [
+  "rooms", "room_exits", "items", "shop_items",
+  "npc_items", "npc_info", "room_descriptions", "user_data",
+]
 
 [gmcp]
 advertise = ["room.info 1", "char.info 1", "room.map 1"]
