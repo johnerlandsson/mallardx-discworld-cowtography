@@ -36,6 +36,7 @@ local medina     = require('cowtography.medina')
 local walk       = require('cowtography.walk')
 local prediction = require('cowtography.prediction')
 local route      = require('cowtography.route')
+local notes      = require('cowtography.notes')
 local gmcp_handlers = require('cowtography.gmcp')
 local commands   = require('cowtography.commands')
 
@@ -52,11 +53,12 @@ medina.init({ state = state, panel = panel })
 walk.init({ colors = colors, state = state, panel = panel })
 prediction.init({ state = state, walk = walk, panel = panel.panel })
 route.init({ colors = colors, state = state, panel = panel, walk = walk })
+notes.init({ state = state, panel = panel, colors = colors, uu_library = uu_library })
 gmcp_handlers.init({
   colors = colors, state = state, uu_library = uu_library, panel = panel,
-  shades = shades, medina = medina, walk = walk, prediction = prediction,
+  shades = shades, medina = medina, walk = walk, prediction = prediction, notes = notes,
 })
 commands.init({
   colors = colors, state = state, uu_library = uu_library, panel = panel,
-  route = route, walk = walk, gmcp = gmcp_handlers,
+  route = route, walk = walk, gmcp = gmcp_handlers, notes = notes,
 })

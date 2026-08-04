@@ -8,12 +8,10 @@ local ansi_map = require('ansi_map')
 local M = {}
 
 -- injected via M.init()
-local colors, state, uu_library, panel_mod, shades, medina, walk, prediction
+local colors, state, uu_library, panel_mod, shades, medina, walk, prediction, notes
 local C, note
 local panel      -- panel_mod.panel
 local post_room  -- panel_mod.post_room
-
-local _in_dark = false
 
 -- Room identifiers that show a named special screen instead of the map.
 local SPECIAL_SCREENS = {
@@ -44,12 +42,15 @@ end
 -- hydrate at startup so plugin reloads mid-session get the cached value.
 
 local function apply_char_name(name)
-  if type(name) == 'string' and name ~= '' then state.char_name = name end
+  if type(name) == 'string' and name ~= '' and name ~= state.char_name then
+    state.char_name = name
+    notes.push_panel()
+  end
 end
 
 function M.init(deps)
-  colors, state, uu_library, panel_mod, shades, medina, walk, prediction =
-    deps.colors, deps.state, deps.uu_library, deps.panel, deps.shades, deps.medina, deps.walk, deps.prediction
+  colors, state, uu_library, panel_mod, shades, medina, walk, prediction, notes =
+    deps.colors, deps.state, deps.uu_library, deps.panel, deps.shades, deps.medina, deps.walk, deps.prediction, deps.notes
   C, note = colors.C, colors.note
   panel     = panel_mod.panel
   post_room = panel_mod.post_room
@@ -83,12 +84,19 @@ end)
 
 gmcp.on('room.info', function(_, data)
   if type(data) == 'table' and data.identifier then
-    if _in_dark then
-      _in_dark = false
+    if state.in_dark then
+      state.in_dark = false
       prediction.clear(false)
     end
     local prev_room = state.current_room
     state.current_room = data.identifier
+
+    local room_note_text = notes.get(state.current_room)
+    if room_note_text then
+      mud.note(mud.span('  Room has a note. ', { fg = C.muted })
+            .. mud.span('[view]', { fg = C.ok, on_click = function() note('  ' .. room_note_text, C.alt) end }))
+    end
+
     shades.check_leaving(prev_room, state.current_room)
     prediction.on_transition(prev_room)
     if state.room_id_echo then note('  ' .. state.current_room, C.name) end
@@ -100,7 +108,7 @@ gmcp.on('room.info', function(_, data)
       if special then
           panel:post("special_screen", { name = special })
         elseif shades.handle_room(data, prev_room) then
-          -- Don't set _in_dark — description trigger (or the prediction above) posts the real position.
+          -- Don't set state.in_dark — description trigger (or the prediction above) posts the real position.
         elseif medina.handle_room(data, prev_room) then
           -- handled
         else
@@ -120,7 +128,7 @@ gmcp.on('room.info', function(_, data)
   elseif type(data) == 'table' then
     -- Dark room: room.info without an identifier. Keep the map on last known position
     -- (muted) rather than tracking or showing a darkness overlay.
-    _in_dark    = true
+    state.in_dark = true
     prediction.clear(false)
     panel:post("room_dark", {})
     walk.advance_or_arrive()

@@ -18,6 +18,7 @@ local M = {
   last_payload = nil,
   room_id_echo = false,
   char_name    = nil,
+  in_dark      = false,
 }
 
 M.PLUGIN_ID = "net.mallard.discworld-cowtography"

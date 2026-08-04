@@ -5,6 +5,7 @@ import { mapDidChange, headerText } from "./render.js";
 import { SvgRenderer } from "./svg-renderer.js";
 import { PngRenderer }  from "./png-renderer.js";
 import { buildMapMenuItems } from './map-menu.js';
+import { buildRoomNoteItems } from './note-menu.js';
 import mapGroups from './data/map-groups.js';
 
 const data = { rooms: { ...rooms, ...customRooms }, maps, terrain };
@@ -24,6 +25,11 @@ const $routeWalk    = document.querySelector(".route-walk");
 const $routeClear   = document.querySelector(".route-clear");
 const $routeError    = document.querySelector(".route-error");
 const $routeRecenter = document.querySelector(".route-recenter");
+const $noteEditor     = document.querySelector(".note-editor");
+const $noteEditorName = document.querySelector(".note-editor-name");
+const $noteEditorText = document.querySelector(".note-editor-text");
+const $noteSave       = document.querySelector(".note-save");
+const $noteCancel     = document.querySelector(".note-cancel");
 
 // ─── Filters ──────────────────────────────────────────────────────────────
 function applyStreetsState(visible) {
@@ -104,6 +110,8 @@ let darkMode       = false;
 let walkActive     = false;
 let terrainShift   = { x: 0, y: 0 };
 const savedZoom    = new Map();
+let notesByRoomId = new Map();
+let noteEditorRoomId = null;
 
 function getState() {
   // Suppress target prediction while a route is active so the position indicator
@@ -170,6 +178,17 @@ function rewireContextMenu() {
   if (!(panel.menu && typeof panel.menu.show === "function")) return;
   contextMenuController = new AbortController();
   document.addEventListener("contextmenu", (e) => {
+    const room = activeRenderer?.roomAtPoint?.(e);
+    if (room) {
+      e.preventDefault();
+      const hasNote = notesByRoomId.has(room.roomId);
+      const items = buildRoomNoteItems(room.name || room.roomId, hasNote, {
+        onEdit:   () => openNoteEditor(room.roomId, room.name),
+        onRemove: () => panel.post("note_remove", { roomId: room.roomId }),
+      });
+      panel.menu.show(e, items);
+      return;
+    }
     const isWorld   = displayedMapId === 99;
     const streetsOn = !document.documentElement.classList.contains('streets-hidden');
     const stairsOn  = !document.documentElement.classList.contains('stairs-hidden');
@@ -219,6 +238,39 @@ $footer.addEventListener("pointerenter", () => {
   panel.tooltip.show({ x: r.left, y: r.top, width: r.width, height: r.height }, { title: text });
 });
 $footer.addEventListener("pointerleave", () => panel.tooltip.hide());
+
+// ─── Room notes ───────────────────────────────────────────────────────────
+function openNoteEditor(roomId, name) {
+  noteEditorRoomId = roomId;
+  $noteEditorName.textContent = name || roomId;
+  $noteEditorText.value = notesByRoomId.get(roomId) ?? "";
+  $noteEditor.hidden = false;
+  $noteEditorText.focus();
+}
+
+function closeNoteEditor() {
+  $noteEditor.hidden = true;
+  noteEditorRoomId = null;
+}
+
+$noteSave.addEventListener("click", () => {
+  if (noteEditorRoomId === null) return;
+  const text = $noteEditorText.value.trim();
+  if (text === "") {
+    panel.post("note_remove", { roomId: noteEditorRoomId });
+  } else {
+    panel.post("note_save", { roomId: noteEditorRoomId, text });
+  }
+  closeNoteEditor();
+});
+$noteCancel.addEventListener("click", closeNoteEditor);
+$noteEditor.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") closeNoteEditor();
+});
+
+panel.on("notes_data", (frame) => {
+  notesByRoomId = new Map(Object.entries(frame.notes ?? {}));
+});
 
 // ─── Header ───────────────────────────────────────────────────────────────
 function updateRecenter() {

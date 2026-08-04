@@ -125,7 +125,7 @@ function M.handle_room(data, prev_room)
         panel.post_room(anchor)
       end
     end
-    -- Don't set _in_dark — description trigger (or the prediction above) posts the real position.
+    -- Don't set state.in_dark — description trigger (or the prediction above) posts the real position.
     return true
   elseif data.identifier == ENTRY_ID then
     -- Player is physically at the Shades entrance room — this GMCP

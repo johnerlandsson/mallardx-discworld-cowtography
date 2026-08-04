@@ -155,6 +155,17 @@ export class PngRenderer {
   grabFocus()    {}
   releaseFocus() {}
 
+  roomAtPoint(e) {
+    if (!this.#img || this.#mapId === 99 || !this.#wrap?.contains(e.target)) return null;
+    const rect = this.#img.getBoundingClientRect();
+    const px = (e.clientX - rect.left) * (this.#img.naturalWidth  / rect.width);
+    const py = (e.clientY - rect.top)  * (this.#img.naturalHeight / rect.height);
+    const roomId = findNearestRoom(this.#data.rooms, this.#mapId, px, py);
+    if (!roomId) return null;
+    const room = this.#data.rooms[roomId];
+    return { roomId, name: room?.[3] ?? "" };
+  }
+
   // ─── Private helpers ─────────────────────────────────────────────────────
 
   #fitScale() {

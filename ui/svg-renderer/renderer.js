@@ -1,6 +1,6 @@
 import { groundToUppers } from "../data/room-stacks.js";
 import { ZOOM_FACTOR } from "./constants.js";
-import { computeRoomUnit, ensureWarpDefs } from "./geometry.js";
+import { computeRoomUnit, ensureWarpDefs, roomFromElement } from "./geometry.js";
 import { setStackRoomVisible } from "./stack-visibility.js";
 import { applyStateImpl } from "./apply-state.js";
 import { wireTooltip } from "./tooltip.js";
@@ -79,7 +79,8 @@ export class SvgRenderer {
     for (const child of [...this.#container.children]) {
       if (!child.classList.contains("lspace-overlay") &&
           !child.classList.contains("special-screen") &&
-          !child.classList.contains("tooltip")) {
+          !child.classList.contains("tooltip") &&
+          !child.classList.contains("note-editor")) {
         child.remove();
       }
     }
@@ -208,6 +209,11 @@ export class SvgRenderer {
     this.centerOn(x, y);
   }
 
+  roomAtPoint(e) {
+    if (!this.#svg || this.#displayedMapId === 99) return null;
+    return roomFromElement(e.target.closest(".room"));
+  }
+
   // ─── Private helpers ────────────────────────────────────────────────────
 
   #startTshopAnim() {
@@ -235,6 +241,7 @@ export class SvgRenderer {
 
   #handlePointerdown(e) {
     if (!this.#svg) return;
+    if (e.target.closest(".note-editor")) return;
     const roomEl = e.target.closest(".room");
     if (e.button === 1) {
       e.preventDefault();
@@ -278,11 +285,13 @@ export class SvgRenderer {
     this.#pendingClick = null;
   }
 
-  #handleContainerClick() {
+  #handleContainerClick(e) {
+    if (e.target.closest(".note-editor")) return;
     if (!this.#mapFocused) this.grabFocus();
   }
 
   #handleKeydown(e) {
+    if (e.target.closest(".note-editor")) return;
     if (!this.#mapFocused || !this.#svg) return;
     switch (e.key) {
       case "ArrowUp":    this.#viewBox.y -= this.#viewBox.h * 0.2; applyViewBox(this.#svg, this.#viewBox); break;

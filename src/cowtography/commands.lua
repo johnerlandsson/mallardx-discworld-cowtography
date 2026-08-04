@@ -3,7 +3,7 @@
 -- keyboard map navigation, libclear, stop.
 
 -- injected via M.init()
-local colors, state, uu_library, panel_mod, route, walk, gmcp_handlers
+local colors, state, uu_library, panel_mod, route, walk, gmcp_handlers, notes
 local C, note
 local panel      -- panel_mod.panel
 local post_room  -- panel_mod.post_room
@@ -11,8 +11,8 @@ local post_room  -- panel_mod.post_room
 local M = {}
 
 function M.init(deps)
-  colors, state, uu_library, panel_mod, route, walk, gmcp_handlers =
-    deps.colors, deps.state, deps.uu_library, deps.panel, deps.route, deps.walk, deps.gmcp
+  colors, state, uu_library, panel_mod, route, walk, gmcp_handlers, notes =
+    deps.colors, deps.state, deps.uu_library, deps.panel, deps.route, deps.walk, deps.gmcp, deps.notes
   C, note   = colors.C, colors.note
   panel     = panel_mod.panel
   post_room = panel_mod.post_room
@@ -177,6 +177,61 @@ mud.command("go", function(m)
 end, {
   description = "Start or resume walking the current route (set via /db or /bm), or clear it.",
   usage       = "go [clear]",
+})
+
+-- ─── note ────────────────────────────────────────────────────────────────────
+
+mud.command("note", function(m)
+  local args = m.args
+
+  if args == '' then
+    local room_id, err = notes.check_current_room('view the note')
+    if not room_id then
+      note('  ' .. err, C.err)
+      return
+    end
+    local text = notes.get(room_id)
+    if text then
+      note('  ' .. text, C.alt)
+    else
+      note('  No note for this room.', C.muted)
+    end
+    return
+  end
+
+  local add_text = args:match('^add%s+(.+)$')
+  if add_text then
+    local room_id, err = notes.check_current_room('add a note')
+    if not room_id then
+      note('  ' .. err, C.err)
+      return
+    end
+    local ok, set_err = notes.set(room_id, add_text)
+    if not ok then
+      note('  ' .. set_err, C.err)
+      return
+    end
+    notes.push_panel()
+    note('  Note saved for this room.', C.ok)
+    return
+  end
+
+  if args == 'rm' then
+    local room_id, err = notes.check_current_room('remove the note')
+    if not room_id then
+      note('  ' .. err, C.err)
+      return
+    end
+    notes.remove(room_id)
+    notes.push_panel()
+    note('  Note removed.', C.ok)
+    return
+  end
+
+  note(string.format('  Usage: %snote [add <text>|rm]', mud.command_prefix()), C.err)
+end, {
+  description = "Add, remove, or print the note for the room you're standing in.",
+  usage       = "note [add <text>|rm]",
 })
 
 -- ─── dbid ────────────────────────────────────────────────────────────────────
