@@ -10,8 +10,9 @@
 -- site. Every other module gets these via state.rooms/state.exits instead
 -- of requiring the data files themselves.
 
-local exits = require('data.exits')
-local rooms = require('data.rooms')
+local exits     = require('data.exits')
+local rooms     = require('data.rooms')
+local map_names = require('data.map_names')
 
 local M = {
   current_room = nil,
@@ -21,9 +22,10 @@ local M = {
   in_dark      = false,
 }
 
-M.PLUGIN_ID = "net.mallard.discworld-cowtography"
-M.exits     = exits
-M.rooms     = rooms
+M.PLUGIN_ID  = "net.mallard.discworld-cowtography"
+M.exits      = exits
+M.rooms      = rooms
+M.map_names  = map_names
 
 -- Invert exits into direction-keyed lookup: exits_by_dir[roomId][dir] = targetRoomId
 M.exits_by_dir = {}
@@ -33,6 +35,13 @@ for room_id, neighbors in pairs(exits) do
     by_dir[dir] = neighbor_id
   end
   M.exits_by_dir[room_id] = by_dir
+end
+
+-- Room ids belonging to the SS Unsinkable — used to gate nautical-direction
+-- movement prediction (see prediction.lua) to just this map.
+M.unsinkable_rooms = {}
+for room_id, name in pairs(map_names) do
+  if name == 'SS Unsinkable' then M.unsinkable_rooms[room_id] = true end
 end
 
 return M

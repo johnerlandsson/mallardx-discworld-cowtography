@@ -7,7 +7,6 @@ local pathfind  = require('pathfind')
 local items     = require('data.items')
 local npcs      = require('data.npcs')
 local npc_items = require('data.npc_items')
-local map_names = require('data.map_names')
 
 local M = {}
 
@@ -152,7 +151,7 @@ function M.do_search(search_type, query, area_filter)
 
   -- Annotate every candidate with its map name.
   for _, r in ipairs(candidates) do
-    r.map_name = map_names[r.room_id]
+    r.map_name = state.map_names[r.room_id]
   end
 
   local results
