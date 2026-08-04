@@ -83,6 +83,16 @@ local DIR_NORMALIZE = {
   w='w', west='w', nw='nw', northwest='nw', u='u', up='u', d='d', down='d',
 }
 
+local function advance(dir, from)
+  local by_dir = state.exits_by_dir[from]
+  local next_id = by_dir and by_dir[dir]
+  if next_id then
+    pred_queue[#pred_queue + 1] = next_id
+    target_room = next_id
+    post_target_move(target_room)
+  end
+end
+
 mud.on_send([[^(n|ne|e|se|s|sw|w|nw|u|d|north|northeast|east|southeast|south|southwest|west|northwest|up|down)$]], function(m)
   if m.origin.plugin_id == state.PLUGIN_ID then return end
   if walk.get_pos() == 0 and walk.get_steps_count() > 0 then
@@ -90,17 +100,28 @@ mud.on_send([[^(n|ne|e|se|s|sw|w|nw|u|d|north|northeast|east|southeast|south|sou
   end
   local dir  = DIR_NORMALIZE[m[1]]
   local from = target_room or state.current_room
-  if from then
-    local by_dir = state.exits_by_dir[from]
-    if by_dir then
-      local next_id = by_dir[dir]
-      if next_id then
-        pred_queue[#pred_queue + 1] = next_id
-        target_room = next_id
-        post_target_move(target_room)
-      end
-    end
-  end
+  if from then advance(dir, from) end
 end, { name = "movement-observer" })
+
+local NAUTICAL_NORMALIZE = {
+  f = 'fore', fore = 'fore',
+  a = 'aft', aft = 'aft',
+  p = 'port', port = 'port',
+  s = 'starboard', starboard = 'starboard',
+  pf = 'port fore', ['port fore'] = 'port fore',
+  pa = 'port aft', ['port aft'] = 'port aft',
+  sf = 'starboard fore', ['starboard fore'] = 'starboard fore',
+  sa = 'starboard aft', ['starboard aft'] = 'starboard aft',
+}
+
+mud.on_send([[^(f|a|p|s|pf|pa|sf|sa|fore|aft|port|starboard|port fore|port aft|starboard fore|starboard aft)$]], function(m)
+  if m.origin.plugin_id == state.PLUGIN_ID then return end
+  local from = target_room or state.current_room
+  if not (from and state.unsinkable_rooms[from]) then return end
+  if walk.get_pos() == 0 and walk.get_steps_count() > 0 then
+    walk.clear_route()
+  end
+  advance(NAUTICAL_NORMALIZE[m[1]], from)
+end, { name = "movement-observer-nautical" })
 
 return M
