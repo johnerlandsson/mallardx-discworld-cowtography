@@ -5,6 +5,11 @@ description         = "Minimap and database search for Discworld MUD. Search Quo
 language            = "lua"
 entry               = "src/main.lua"
 mallard_api_version = "1.0"
+# TODO: bump to the Mallard release that first ships the `db.*` plugin API
+# (unreleased as of this branch — db.query is used at load in
+# src/cowtography/state.lua). This plugin will crash at load
+# ("attempt to index a nil value (global 'db')") on any Mallard
+# release below that version. Do not publish until this is bumped.
 minimum_app_version = "0.17.0"
 authors             = ["John Erlandsson"]
 license             = "MIT"
