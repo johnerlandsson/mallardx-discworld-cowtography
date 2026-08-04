@@ -25,6 +25,7 @@ const REPO_ROOT = path.resolve(__dirname, '..')
 const OUT_ROOMS_JS  = path.join(REPO_ROOT, 'ui', 'data', 'rooms.js')
 const OUT_MAPS_DIR  = path.join(REPO_ROOT, 'ui', 'maps')
 const OUT_LUA_DIR   = path.join(REPO_ROOT, 'src', 'data')
+const OUT_DB_DIR    = path.join(REPO_ROOT, 'data')
 
 // ─── Lua generators ──────────────────────────────────────────────────────────
 
@@ -38,88 +39,33 @@ function luaStr(s) {
     .replace(/\0/g, '') + "'"
 }
 
-export function generateRoomsLua(db) {
-  const rows = db.prepare('SELECT room_id, room_short FROM rooms').all()
+export function generateMapsLua(maps) {
   const lines = [LUA_HEADER + 'return {']
-  for (const row of rows) {
-    lines.push(`  [${luaStr(row.room_id)}] = ${luaStr(row.room_short)},`)
+  for (const id of Object.keys(maps).map(Number).sort((a, b) => a - b)) {
+    lines.push(`  [${luaStr(String(id))}] = ${luaStr(maps[id].name)},`)
   }
   lines.push('}')
   return lines.join('\n')
 }
 
-export function generateItemsLua(db) {
-  const rows = db.prepare(`
-    SELECT si.item_name, si.room_id, si.sale_price, r.room_short
-    FROM shop_items si
-    JOIN rooms r ON si.room_id = r.room_id
-    ORDER BY si.item_name COLLATE NOCASE
-  `).all()
-  const lines = [LUA_HEADER + 'return {']
-  for (const row of rows) {
-    lines.push(`  { name = ${luaStr(row.item_name)}, room_id = ${luaStr(row.room_id)}, location = ${luaStr(row.room_short)}, price = ${luaStr(row.sale_price ?? '')} },`)
+export function assertSingleFileSeed(db) {
+  const mode = db.pragma('journal_mode', { simple: true })
+  if (mode === 'wal') {
+    throw new Error(
+      `seed db is in WAL mode (journal_mode=wal); Mallard's bundled-seed loader ` +
+      `requires a single checkpointed file with no -wal/-shm sidecars. Run ` +
+      `PRAGMA journal_mode=DELETE and close the connection cleanly before shipping.`
+    )
   }
-  lines.push('}')
-  return lines.join('\n')
 }
 
-export function generateNpcsLua(db) {
-  const rows = db.prepare(`
-    SELECT ni.npc_name, ni.room_id, r.room_short
-    FROM npc_info ni
-    JOIN rooms r ON ni.room_id = r.room_id
-    ORDER BY ni.npc_name COLLATE NOCASE
-  `).all()
-  const lines = [LUA_HEADER + 'return {']
-  for (const row of rows) {
-    lines.push(`  { name = ${luaStr(row.npc_name)}, room_id = ${luaStr(row.room_id)}, location = ${luaStr(row.room_short)} },`)
-  }
-  lines.push('}')
-  return lines.join('\n')
+export async function copySeedDb(srcPath, destDir) {
+  await fs.mkdir(destDir, { recursive: true })
+  const destPath = path.join(destDir, '_quowmap_database.db')
+  await fs.copyFile(srcPath, destPath)
+  return destPath
 }
 
-export function generateNpcItemsLua(db) {
-  const rows = db.prepare(`
-    SELECT nit.item_name, ni.npc_name, ni.room_id, r.room_short, nit.sale_price
-    FROM npc_items nit
-    JOIN npc_info ni ON nit.npc_id = ni.npc_id
-    JOIN rooms r ON ni.room_id = r.room_id
-    ORDER BY nit.item_name COLLATE NOCASE
-  `).all()
-  const lines = [LUA_HEADER + 'return {']
-  for (const row of rows) {
-    lines.push(`  { name = ${luaStr(row.item_name)}, npc = ${luaStr(row.npc_name)}, room_id = ${luaStr(row.room_id)}, location = ${luaStr(row.room_short)}, price = ${luaStr(row.sale_price ?? '')} },`)
-  }
-  lines.push('}')
-  return lines.join('\n')
-}
-
-export function generateMapNamesLua(db, maps) {
-  const rows = db.prepare('SELECT room_id, map_id FROM rooms').all()
-  const lines = [LUA_HEADER + 'return {']
-  for (const row of rows) {
-    const name = maps[row.map_id]?.name ?? 'Unknown'
-    lines.push(`  [${luaStr(row.room_id)}] = ${luaStr(name)},`)
-  }
-  lines.push('}')
-  return lines.join('\n')
-}
-
-export function generateExitsLua(db) {
-  const rows = db.prepare('SELECT room_id, connect_id, exit FROM room_exits').all()
-  const byRoom = new Map()
-  for (const row of rows) {
-    if (!byRoom.has(row.room_id)) byRoom.set(row.room_id, [])
-    byRoom.get(row.room_id).push({ neighbor: row.connect_id, dir: row.exit })
-  }
-  const lines = [LUA_HEADER + 'return {']
-  for (const [roomId, exits] of byRoom) {
-    const parts = exits.map(e => `[${luaStr(e.neighbor)}] = ${luaStr(e.dir)}`).join(', ')
-    lines.push(`  [${luaStr(roomId)}] = { ${parts} },`)
-  }
-  lines.push('}')
-  return lines.join('\n')
-}
 
 // ─── JS generator ────────────────────────────────────────────────────────────
 
@@ -274,18 +220,9 @@ async function main() {
   const db = new Database(dbPath, { readonly: true })
   mkdirSync(OUT_LUA_DIR, { recursive: true })
 
-  // Lua tables
-  const luaGenerators = [
-    ['rooms.lua',     generateRoomsLua],
-    ['items.lua',     generateItemsLua],
-    ['npcs.lua',      generateNpcsLua],
-    ['npc_items.lua', generateNpcItemsLua],
-    ['exits.lua',     generateExitsLua],
-  ]
-  for (const [filename, gen] of luaGenerators) {
-    writeFileSync(path.join(OUT_LUA_DIR, filename), gen(db), 'utf8')
-    console.log(`[build]   ✓ src/data/${filename}`)
-  }
+  assertSingleFileSeed(db)
+  const seedPath = await copySeedDb(dbPath, OUT_DB_DIR)
+  console.log(`[build]   ✓ ${path.relative(REPO_ROOT, seedPath)} (seed, verbatim copy)`)
 
   // JS module + PNGs (only when we have the full zip extraction)
   if (xmlPath) {
@@ -298,9 +235,13 @@ async function main() {
     await fs.writeFile(OUT_ROOMS_JS, emitRoomsModule({ rooms: roomsData, maps, terrain }), 'utf8')
     console.log(`[build]   ✓ ui/data/rooms.js  (${Object.keys(roomsData).length} rooms, ${Object.keys(maps).length} maps)`)
 
+    mkdirSync(OUT_LUA_DIR, { recursive: true })
+    writeFileSync(path.join(OUT_LUA_DIR, 'maps.lua'), generateMapsLua(maps), 'utf8')
+    console.log(`[build]   ✓ src/data/maps.lua  (${Object.keys(maps).length} maps)`)
+
     await copyPngs(pngsDir, OUT_MAPS_DIR)
   } else {
-    console.log('[build]   (skipping ui/data/rooms.js and PNGs — --db mode, no XML available)')
+    console.log('[build]   (skipping ui/data/rooms.js, src/data/maps.lua, and PNGs — --db mode, no XML available)')
   }
 
   db.close()
