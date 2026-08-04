@@ -1,13 +1,18 @@
 -- src/search.lua
 -- Live SQL search against Quow's seeded database (see plugin.toml's
 -- [database] block). SQLite's LIKE is ASCII-case-insensitive by default,
--- matching this module's old substring-scan behaviour. % and _ in the
+-- matching this module's old substring-scan behaviour. \, % and _ in the
 -- query are escaped so they stay literal characters rather than becoming
--- LIKE wildcards, also matching the old behaviour
+-- LIKE escape/wildcard characters, also matching the old behaviour
 -- (string.find(..., true) treated the query as a plain literal).
 local M = {}
 
 local function like_pattern(query)
+  -- Escape literal backslashes first, before % and _ get escaped — the
+  -- backslashes introduced by escaping % and _ must NOT themselves be
+  -- re-escaped by this step, or the query's own backslashes and the
+  -- escaping backslashes would collide under ESCAPE '\'.
+  query = query:gsub('\\', '\\\\')
   return (query:gsub('([%%_])', '\\%1'))
 end
 

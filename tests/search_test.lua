@@ -115,6 +115,14 @@ test('item: percent sign in query is literal, not a wildcard', function()
   assert(#res == 1, 'expected 1, got ' .. #res)
 end)
 
+test('item: backslash in query is literal, not an escape character', function()
+  db.exec("INSERT INTO shop_items VALUES ('r1','back\\slash','A$1')")
+  db.exec("INSERT INTO shop_items VALUES ('r2','backslash','A$1')")
+  local res = search.search_items('back\\slash')
+  assert(#res == 1, 'expected 1, got ' .. #res)
+  assert(res[1].name == 'back\\slash', 'expected back\\slash, got ' .. tostring(res[1].name))
+end)
+
 -- ── search_npcs ───────────────────────────────────────────────────────────────
 test('npc: finds match', function()
   local res = search.search_npcs('wizard')
