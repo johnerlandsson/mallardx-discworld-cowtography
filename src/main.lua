@@ -19,11 +19,14 @@
 -- require() has no caching (every call re-reads and re-executes the target
 -- file from scratch - see mallard/src-tauri/src/plugins/sandbox.rs) and
 -- caps a plugin's Lua VM at 32MB. A module required from more than one
--- place gets re-executed once per caller, recursively - which is fatal for
--- the ~90k lines of static data.* tables this plugin loads. So every
+-- place gets re-executed once per caller, recursively - so every
 -- cowtography.* file must be required from exactly one place (here), and
 -- receive whatever it needs from other cowtography.* modules as a plain
--- table passed to its own init(deps), never via its own require().
+-- table passed to its own init(deps), never via its own require(). (This
+-- used to matter even more when this plugin required ~90k lines of static
+-- data.* tables at startup; that data now lives in the seeded SQLite db
+-- and is queried via the `db` global instead — see state.lua and
+-- search.lua.)
 
 local MAX_DISPLAY = 10 -- pre-existing, unused since before this refactor; left as-is
 
