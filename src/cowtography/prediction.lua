@@ -11,6 +11,13 @@
 -- manual `mud.alias` on typed input never saw. We skip our OWN sends
 -- (route-walking via send_walk_steps) so a walk doesn't double-advance the
 -- prediction it already tracks.
+--
+-- A second mud.on_send observer, further down, does the same job for
+-- nautical directions (fore/aft/port/starboard + diagonals) plus the
+-- climb up/climb down exits at the ship's mast, gated on
+-- state.unsinkable_rooms so it only fires aboard the SS Unsinkable.
+-- Deliberately NOT applied to the Ankh-Morpork/Djelibeybi river boats,
+-- which share some of the same exit words but aren't part of this map.
 
 local M = {}
 
@@ -100,10 +107,19 @@ mud.on_send([[^(n|ne|e|se|s|sw|w|nw|u|d|north|northeast|east|southeast|south|sou
   end
   local dir  = DIR_NORMALIZE[m[1]]
   local from = target_room or state.current_room
-  if from then advance(dir, from) end
+  if not from then return end
+  -- Aboard a ship room, `s` collides with the ship table's `s = 'starboard'`
+  -- (same for other single-letter tokens overlapping nautical abbreviations).
+  -- No SS Unsinkable room currently has a plain cardinal exit other than the
+  -- deck-to-deck `u`/`d` stairs, but that's a data invariant, not a
+  -- guarantee — so explicitly restrict the cardinal path aboard ship rooms
+  -- to `u`/`d` and let the ship observer own every other token there,
+  -- rather than risk both observers advancing on the same send.
+  if state.unsinkable_rooms[from] and dir ~= 'u' and dir ~= 'd' then return end
+  advance(dir, from)
 end, { name = "movement-observer" })
 
-local NAUTICAL_NORMALIZE = {
+local SHIP_NORMALIZE = {
   f = 'fore', fore = 'fore',
   a = 'aft', aft = 'aft',
   p = 'port', port = 'port',
@@ -112,16 +128,18 @@ local NAUTICAL_NORMALIZE = {
   pa = 'port aft', ['port aft'] = 'port aft',
   sf = 'starboard fore', ['starboard fore'] = 'starboard fore',
   sa = 'starboard aft', ['starboard aft'] = 'starboard aft',
+  ['climb up'] = 'climb up',
+  ['climb down'] = 'climb down',
 }
 
-mud.on_send([[^(f|a|p|s|pf|pa|sf|sa|fore|aft|port|starboard|port fore|port aft|starboard fore|starboard aft)$]], function(m)
+mud.on_send([[^(f|a|p|s|pf|pa|sf|sa|fore|aft|port|starboard|port fore|port aft|starboard fore|starboard aft|climb up|climb down)$]], function(m)
   if m.origin.plugin_id == state.PLUGIN_ID then return end
   local from = target_room or state.current_room
   if not (from and state.unsinkable_rooms[from]) then return end
   if walk.get_pos() == 0 and walk.get_steps_count() > 0 then
     walk.clear_route()
   end
-  advance(NAUTICAL_NORMALIZE[m[1]], from)
-end, { name = "movement-observer-nautical" })
+  advance(SHIP_NORMALIZE[m[1]], from)
+end, { name = "movement-observer-ship" })
 
 return M
