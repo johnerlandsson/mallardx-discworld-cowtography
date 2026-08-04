@@ -7,7 +7,7 @@ local M = {}
 
 -- injected via M.init(); see bottom of file for the mud.trigger/mud.alias
 -- registrations that close over these as upvalues
-local rooms  -- data.rooms table
+local room_exists -- state.room_exists(id) -> boolean
 local colors -- cowtography.colors module
 local panel  -- the mud.panel("map") object
 
@@ -28,7 +28,7 @@ local TURN_RIGHT = { n='e', e='s', s='w', w='n' }
 local OPPOSITE   = { n='s', s='n', e='w', w='e' }
 
 function M.init(deps)
-  rooms  = deps.rooms
+  room_exists = deps.room_exists
   colors = deps.colors
   panel  = deps.panel
 end
@@ -94,7 +94,7 @@ function M.handle_room(data)
   -- distinguishes them. L-space rooms ("mysterious library") fail the exact
   -- name match, so they fall through to the mysterious-name check below.
   local entering_library = name_lower == 'library'
-                       and rooms[data.identifier] == nil
+                       and not room_exists(data.identifier)
 
   if entering_library then
     if not lib_in_library then

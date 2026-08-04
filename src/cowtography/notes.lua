@@ -62,7 +62,7 @@ end
 -- real database room (subsystem placeholders like "AMShades"/"BPMedina",
 -- hand-annotated map elements, etc. all fail this the same way).
 function M.set(room_id, text)
-  if state.rooms[room_id] == nil then
+  if not state.room_exists(room_id) then
     return false, "Can't add a note here — not a trackable room."
   end
   local notes = load_notes()

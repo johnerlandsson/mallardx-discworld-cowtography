@@ -49,7 +49,7 @@ local commands   = require('cowtography.commands')
 -- another module's still-uninitialized state, so call order here doesn't
 -- matter beyond "every require above has already completed."
 
-uu_library.init({ rooms = state.rooms, colors = colors, panel = panel.panel })
+uu_library.init({ room_exists = state.room_exists, colors = colors, panel = panel.panel })
 panel.init({ state = state, uu_library = uu_library })
 shades.init({ state = state, panel = panel })
 medina.init({ state = state, panel = panel })
