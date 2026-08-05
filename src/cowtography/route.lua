@@ -2,27 +2,25 @@
 -- Search-result display and route computation/dispatch. Shared by /db, /bm,
 -- and the map panel's room-click handler.
 
-local search    = require('search')
-local pathfind  = require('pathfind')
-local items     = require('data.items')
-local npcs      = require('data.npcs')
-local npc_items = require('data.npc_items')
+local search = require('search')
+local pathfind = require('pathfind')
+local maps   = require('data.maps')
 
 local M = {}
 
 -- injected via M.init()
-local state       -- cowtography.state module; also owns rooms/exits (see state.lua)
+local state       -- cowtography.state module; also owns exits (see state.lua)
 local panel       -- cowtography.panel module
 local walk        -- cowtography.walk module
 local C, note, vlen -- colors.C, colors.note, colors.vlen
-local rooms, exits -- state.rooms, state.exits (raw data tables)
+local exits -- state.exits
 
 function M.init(deps)
   state = deps.state
   panel = deps.panel
   walk  = deps.walk
   C, note, vlen = deps.colors.C, deps.colors.note, deps.colors.vlen
-  rooms, exits = state.rooms, state.exits
+  exits = state.exits
 
   walk.set_router(M.route_to_room)
 
@@ -119,12 +117,12 @@ end
 function M.do_search(search_type, query, area_filter)
   local candidates
   if search_type == 'room' then
-    candidates = search.search_rooms(rooms, query)
+    candidates = search.search_rooms(query)
   elseif search_type == 'item' or search_type == 'shop' then
-    candidates = search.search_items(items, query)
+    candidates = search.search_items(query)
     search_type = 'item'
   elseif search_type == 'npc' then
-    candidates = search.search_npcs(npcs, query)
+    candidates = search.search_npcs(query)
     if area_filter then
       local af = string.lower(area_filter)
       local filtered = {}
@@ -136,7 +134,7 @@ function M.do_search(search_type, query, area_filter)
       candidates = filtered
     end
   elseif search_type == 'npcitem' then
-    candidates = search.search_npc_items(npc_items, query)
+    candidates = search.search_npc_items(query)
   else
     note('  Unknown type. Valid: room, npc, item, shop, npcitem', C.err)
     return
@@ -149,9 +147,12 @@ function M.do_search(search_type, query, area_filter)
     return
   end
 
-  -- Annotate every candidate with its map name.
+  -- Annotate every candidate with its map name. map_id may come back as a
+  -- Lua number (real Mallard) or a string (LuaSQL in tests) — tostring()
+  -- normalizes either into maps.lua's string keys (see search.lua and
+  -- Global Constraints on map_id typing).
   for _, r in ipairs(candidates) do
-    r.map_name = state.map_names[r.room_id]
+    r.map_name = maps[tostring(r.map_id)]
   end
 
   local results

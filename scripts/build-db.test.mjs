@@ -1,202 +1,70 @@
 import { describe, it, expect } from 'vitest'
 import Database from 'better-sqlite3'
-import { generateRoomsLua, generateItemsLua, generateNpcsLua, generateNpcItemsLua, generateExitsLua, generateMapNamesLua } from './build-db.mjs'
-
-function makeDb() {
-  const db = new Database(':memory:')
-  db.exec(`
-    CREATE TABLE rooms (
-      room_id TEXT PRIMARY KEY,
-      map_id INTEGER NOT NULL,
-      xpos INTEGER NOT NULL,
-      ypos INTEGER NOT NULL,
-      room_short TEXT NOT NULL,
-      room_type TEXT NOT NULL
-    )
-  `)
-  return db
-}
-
-describe('generateRoomsLua', () => {
-  it('returns a Lua table mapping room_id to room_short', () => {
-    const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES ('abc123','1','100','200','The Drum','inside')").run()
-    const lua = generateRoomsLua(db)
-    expect(lua).toContain("['abc123'] = 'The Drum'")
-  })
-
-  it('escapes single quotes in room names', () => {
-    const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES ('r1','1','0','0','Assassin''s Guild','inside')").run()
-    const lua = generateRoomsLua(db)
-    expect(lua).toContain("Assassin\\'s Guild")
-  })
-
-  it('starts with auto-generated comment and return {', () => {
-    const db = makeDb()
-    const lua = generateRoomsLua(db)
-    expect(lua).toMatch(/^-- Auto-generated/)
-    expect(lua).toContain('return {')
-  })
-
-  it('ends with }', () => {
-    const db = makeDb()
-    const lua = generateRoomsLua(db)
-    expect(lua.trim()).toMatch(/\}$/)
-  })
-})
-
-function makeFullDb() {
-  const db = new Database(':memory:')
-  db.exec(`
-    CREATE TABLE rooms (
-      room_id TEXT PRIMARY KEY, map_id INTEGER NOT NULL,
-      xpos INTEGER NOT NULL, ypos INTEGER NOT NULL,
-      room_short TEXT NOT NULL, room_type TEXT NOT NULL
-    );
-    CREATE TABLE shop_items (
-      room_id TEXT NOT NULL, item_name TEXT NOT NULL, sale_price TEXT NOT NULL
-    );
-    CREATE TABLE npc_info (
-      npc_id TEXT PRIMARY KEY, map_id INTEGER NOT NULL,
-      npc_name TEXT NOT NULL, room_id TEXT NOT NULL
-    );
-    CREATE TABLE npc_items (
-      npc_id TEXT NOT NULL, item_name TEXT NOT NULL, sale_price TEXT NOT NULL
-    );
-  `)
-  db.prepare("INSERT INTO rooms VALUES ('r1',1,0,0,'weapon shop','inside')").run()
-  db.prepare("INSERT INTO rooms VALUES ('r2',1,0,0,'market square','outside')").run()
-  db.prepare("INSERT INTO shop_items VALUES ('r1','long sword','A\\$180')").run()
-  db.prepare("INSERT INTO npc_info VALUES ('npc1',1,'city guard','r2')").run()
-  db.prepare("INSERT INTO npc_items VALUES ('npc1','dagger','')").run()
-  return db
-}
-
-describe('generateItemsLua', () => {
-  it('includes item name, room_id, location and price', () => {
-    const db = makeFullDb()
-    const lua = generateItemsLua(db)
-    expect(lua).toContain("name = 'long sword'")
-    expect(lua).toContain("room_id = 'r1'")
-    expect(lua).toContain("location = 'weapon shop'")
-    expect(lua).toContain("price = 'A\\\\$180'")
-  })
-
-  it('is a valid Lua array literal', () => {
-    const db = makeFullDb()
-    const lua = generateItemsLua(db)
-    expect(lua).toContain('return {')
-    expect(lua.trim()).toMatch(/\}$/)
-  })
-})
-
-describe('generateNpcsLua', () => {
-  it('includes npc name, room_id and location', () => {
-    const db = makeFullDb()
-    const lua = generateNpcsLua(db)
-    expect(lua).toContain("name = 'city guard'")
-    expect(lua).toContain("room_id = 'r2'")
-    expect(lua).toContain("location = 'market square'")
-  })
-})
-
-describe('generateNpcItemsLua', () => {
-  it('includes item name, npc name, room_id, location and price', () => {
-    const db = makeFullDb()
-    const lua = generateNpcItemsLua(db)
-    expect(lua).toContain("name = 'dagger'")
-    expect(lua).toContain("npc = 'city guard'")
-    expect(lua).toContain("room_id = 'r2'")
-    expect(lua).toContain("location = 'market square'")
-  })
-})
-
-function makeExitsDb() {
-  const db = new Database(':memory:')
-  db.exec(`
-    CREATE TABLE room_exits (
-      room_id TEXT NOT NULL, connect_id TEXT NOT NULL,
-      exit TEXT NOT NULL, guessed INTEGER NOT NULL
-    )
-  `)
-  db.prepare("INSERT INTO room_exits VALUES ('r1','r2','n',0)").run()
-  db.prepare("INSERT INTO room_exits VALUES ('r2','r1','s',0)").run()
-  db.prepare("INSERT INTO room_exits VALUES ('r1','r3','e',0)").run()
-  return db
-}
-
-describe('generateExitsLua', () => {
-  it('groups exits by room_id into nested tables', () => {
-    const db = makeExitsDb()
-    const lua = generateExitsLua(db)
-    expect(lua).toContain("['r1'] = {")
-    expect(lua).toContain("['r2'] = 'n'")
-    expect(lua).toContain("['r3'] = 'e'")
-  })
-
-  it('includes reverse direction from r2', () => {
-    const db = makeExitsDb()
-    const lua = generateExitsLua(db)
-    expect(lua).toContain("['r2'] = {")
-    expect(lua).toContain("['r1'] = 's'")
-  })
-
-  it('is a valid Lua table literal', () => {
-    const db = makeExitsDb()
-    const lua = generateExitsLua(db)
-    expect(lua).toContain('return {')
-    expect(lua.trim()).toMatch(/\}$/)
-  })
-})
+import { promises as fs, mkdtempSync, rmSync } from 'node:fs'
+import path from 'node:path'
+import os from 'node:os'
+import { generateMapsLua, assertSingleFileSeed, copySeedDb } from './build-db.mjs'
 
 const TEST_MAPS = {
   1: { name: 'Ankh-Morpork', file: 'am.png', region: 'AM', maxX: 1354, maxY: 1256, topLevel: true },
   27: { name: 'Genua', file: 'genua.png', region: 'Genua', maxX: 839, maxY: 560, topLevel: true },
 }
 
-describe('generateMapNamesLua', () => {
-  it('maps room_id to map name via map_id', () => {
-    const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES ('r1',27,100,200,'swampy green tent','inside')").run()
-    const lua = generateMapNamesLua(db, TEST_MAPS)
-    expect(lua).toContain("['r1'] = 'Genua'")
-  })
-
-  it('handles multiple rooms across different maps', () => {
-    const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES ('r1',27,0,0,'tent','inside')").run()
-    db.prepare("INSERT INTO rooms VALUES ('r2',1,0,0,'market','outside')").run()
-    const lua = generateMapNamesLua(db, TEST_MAPS)
-    expect(lua).toContain("['r1'] = 'Genua'")
-    expect(lua).toContain("['r2'] = 'Ankh-Morpork'")
-  })
-
-  it('uses Unknown for unrecognised map_id', () => {
-    const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES ('r1',999,0,0,'strange room','inside')").run()
-    const lua = generateMapNamesLua(db, TEST_MAPS)
-    expect(lua).toContain("['r1'] = 'Unknown'")
+describe('generateMapsLua', () => {
+  it('maps map_id to map name, using string keys', () => {
+    const lua = generateMapsLua(TEST_MAPS)
+    expect(lua).toContain("['1'] = 'Ankh-Morpork'")
+    expect(lua).toContain("['27'] = 'Genua'")
   })
 
   it('escapes single quotes in map names', () => {
-    const db = makeDb()
-    db.prepare("INSERT INTO rooms VALUES ('r1',1,0,0,'room','inside')").run()
-    const maps = { 1: { name: "Dragon's Den" } }
-    const lua = generateMapNamesLua(db, maps)
+    const lua = generateMapsLua({ 1: { name: "Dragon's Den" } })
     expect(lua).toContain("Dragon\\'s Den")
   })
 
   it('starts with auto-generated comment and return {', () => {
-    const db = makeDb()
-    const lua = generateMapNamesLua(db, TEST_MAPS)
+    const lua = generateMapsLua(TEST_MAPS)
     expect(lua).toMatch(/^-- Auto-generated/)
     expect(lua).toContain('return {')
   })
 
   it('ends with }', () => {
-    const db = makeDb()
-    const lua = generateMapNamesLua(db, TEST_MAPS)
+    const lua = generateMapsLua(TEST_MAPS)
     expect(lua.trim()).toMatch(/\}$/)
+  })
+})
+
+describe('assertSingleFileSeed', () => {
+  it('accepts the default rollback-journal mode', () => {
+    const db = new Database(':memory:')
+    expect(() => assertSingleFileSeed(db)).not.toThrow()
+    db.close()
+  })
+
+  it('rejects WAL mode', () => {
+    const dir = mkdtempSync(path.join(os.tmpdir(), 'cowtography-seed-test-'))
+    const dbPath = path.join(dir, 'wal.db')
+    const db = new Database(dbPath)
+    db.pragma('journal_mode = WAL')
+    expect(() => assertSingleFileSeed(db)).toThrow(/WAL/)
+    db.close()
+    rmSync(dir, { recursive: true, force: true })
+  })
+})
+
+describe('copySeedDb', () => {
+  it('copies the source file verbatim to destDir/_quowmap_database.db', async () => {
+    const srcDir = mkdtempSync(path.join(os.tmpdir(), 'cowtography-seed-src-'))
+    const destDir = mkdtempSync(path.join(os.tmpdir(), 'cowtography-seed-dest-'))
+    const srcPath = path.join(srcDir, 'source.db')
+    await fs.writeFile(srcPath, 'fake db bytes')
+
+    const destPath = await copySeedDb(srcPath, destDir)
+
+    expect(destPath).toBe(path.join(destDir, '_quowmap_database.db'))
+    expect(await fs.readFile(destPath, 'utf8')).toBe('fake db bytes')
+
+    rmSync(srcDir, { recursive: true, force: true })
+    rmSync(destDir, { recursive: true, force: true })
   })
 })

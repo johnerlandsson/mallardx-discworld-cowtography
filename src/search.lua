@@ -1,67 +1,61 @@
+-- src/search.lua
+-- Live SQL search against Quow's seeded database (see plugin.toml's
+-- [database] block). SQLite's LIKE is ASCII-case-insensitive by default,
+-- matching this module's old substring-scan behaviour. \, % and _ in the
+-- query are escaped so they stay literal characters rather than becoming
+-- LIKE escape/wildcard characters, also matching the old behaviour
+-- (string.find(..., true) treated the query as a plain literal).
 local M = {}
-local MAX_RESULTS = 200
 
-function M.search_rooms(rooms, query)
-  local q = string.lower(query)
-  local results = {}
-  for room_id, room_short in pairs(rooms) do
-    if string.find(string.lower(room_short), q, 1, true) then
-      table.insert(results, { room_id = room_id, name = room_short, location = room_short })
-      if #results >= MAX_RESULTS then break end
-    end
-  end
-  return results
+local function like_pattern(query)
+  -- Escape literal backslashes first, before % and _ get escaped — the
+  -- backslashes introduced by escaping % and _ must NOT themselves be
+  -- re-escaped by this step, or the query's own backslashes and the
+  -- escaping backslashes would collide under ESCAPE '\'.
+  query = query:gsub('\\', '\\\\')
+  return (query:gsub('([%%_])', '\\%1'))
 end
 
-function M.search_items(items, query)
-  local q = string.lower(query)
-  local results = {}
-  for _, item in ipairs(items) do
-    if string.find(string.lower(item.name), q, 1, true) then
-      table.insert(results, {
-        room_id  = item.room_id,
-        name     = item.name,
-        location = item.location,
-        price    = item.price,
-      })
-      if #results >= MAX_RESULTS then break end
-    end
-  end
-  return results
+function M.search_rooms(query)
+  return db.query([[
+    SELECT room_id, room_short AS name, room_short AS location, map_id
+    FROM rooms
+    WHERE room_short LIKE '%' || ? || '%' ESCAPE '\'
+    LIMIT 200
+  ]], { like_pattern(query) })
 end
 
-function M.search_npcs(npcs, query)
-  local q = string.lower(query)
-  local results = {}
-  for _, npc in ipairs(npcs) do
-    if string.find(string.lower(npc.name), q, 1, true) then
-      table.insert(results, {
-        room_id  = npc.room_id,
-        name     = npc.name,
-        location = npc.location,
-      })
-      if #results >= MAX_RESULTS then break end
-    end
-  end
-  return results
+function M.search_items(query)
+  return db.query([[
+    SELECT si.item_name AS name, si.room_id, si.sale_price AS price,
+           r.room_short AS location, r.map_id
+    FROM shop_items si
+    JOIN rooms r ON r.room_id = si.room_id
+    WHERE si.item_name LIKE '%' || ? || '%' ESCAPE '\'
+    LIMIT 200
+  ]], { like_pattern(query) })
 end
 
-function M.search_npc_items(npc_items, query)
-  local q = string.lower(query)
-  local results = {}
-  for _, item in ipairs(npc_items) do
-    if string.find(string.lower(item.name), q, 1, true) then
-      table.insert(results, {
-        room_id  = item.room_id,
-        name     = item.name,
-        npc      = item.npc,
-        location = item.location,
-        price    = item.price,
-      })
-      if #results >= MAX_RESULTS then break end
-    end
-  end
-  return results
+function M.search_npcs(query)
+  return db.query([[
+    SELECT ni.npc_name AS name, ni.room_id, r.room_short AS location, r.map_id
+    FROM npc_info ni
+    JOIN rooms r ON r.room_id = ni.room_id
+    WHERE ni.npc_name LIKE '%' || ? || '%' ESCAPE '\'
+    LIMIT 200
+  ]], { like_pattern(query) })
+end
+
+function M.search_npc_items(query)
+  return db.query([[
+    SELECT nit.item_name AS name, ni.npc_name AS npc, ni.room_id,
+           r.room_short AS location, nit.sale_price AS price, r.map_id
+    FROM npc_items nit
+    JOIN npc_info ni ON ni.npc_id = nit.npc_id
+    JOIN rooms r ON r.room_id = ni.room_id
+    WHERE nit.item_name LIKE '%' || ? || '%' ESCAPE '\'
+    LIMIT 200
+  ]], { like_pattern(query) })
 end
 
 return M

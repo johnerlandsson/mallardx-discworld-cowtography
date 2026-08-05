@@ -138,7 +138,7 @@ The map and search data are built from [Quow's Cow Bar and Minimap](https://quow
 ```bash
 npm install
 npm run build:data
-git add src/data/ ui/data/ ui/maps/
+git add data/ src/data/ ui/data/ ui/maps/
 git commit -m "chore: regenerate data from updated Quow DB"
 ```
 
@@ -148,7 +148,7 @@ If you already have a local copy of the zip or the SQLite database:
 
 ```bash
 npm run build:data -- --zip /path/to/quow_cowbar.zip
-npm run build:data -- --db /path/to/_quowmap_database.db   # Lua tables only; no JS or PNGs
+npm run build:data -- --db /path/to/_quowmap_database.db   # seed db only; no maps.lua, JS, or PNGs
 ```
 
 ---

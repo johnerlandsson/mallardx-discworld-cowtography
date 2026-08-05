@@ -5,7 +5,7 @@ description         = "Minimap and database search for Discworld MUD. Search Quo
 language            = "lua"
 entry               = "src/main.lua"
 mallard_api_version = "1.0"
-minimum_app_version = "0.17.0"
+minimum_app_version = "0.25.0"
 authors             = ["John Erlandsson"]
 license             = "MIT"
 
@@ -15,6 +15,14 @@ match = ["discworld.starturtle.net:*"]
 [permissions]
 sends       = true
 gmcp_access = ["room.info", "char.info", "char.info.*", "char.info.capname", "room.map"]
+database    = true
+
+[database]
+seed = "data/_quowmap_database.db"
+shipped_tables = [
+  "rooms", "room_exits", "items", "shop_items",
+  "npc_items", "npc_info", "room_descriptions", "user_data",
+]
 
 [gmcp]
 advertise = ["room.info 1", "char.info 1", "room.map 1"]
