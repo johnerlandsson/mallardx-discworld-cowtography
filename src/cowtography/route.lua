@@ -12,13 +12,15 @@ local M = {}
 local state       -- cowtography.state module; also owns exits (see state.lua)
 local panel       -- cowtography.panel module
 local walk        -- cowtography.walk module
+local blorps      -- cowtography.blorps module
 local C, note, vlen -- colors.C, colors.note, colors.vlen
 local exits -- state.exits
 
 function M.init(deps)
-  state = deps.state
-  panel = deps.panel
-  walk  = deps.walk
+  state  = deps.state
+  panel  = deps.panel
+  walk   = deps.walk
+  blorps = deps.blorps
   C, note, vlen = deps.colors.C, deps.colors.note, deps.colors.vlen
   exits = state.exits
 
@@ -200,6 +202,10 @@ function M.route_to_room(room_id, display_name, walk_immediately)
   local path, steps, route_rooms = pathfind.find_path(exits, state.current_room, room_id)
   if path == nil then
     note('  Could not find a route. You may be in an untracked area, or the destination is unreachable.', C.err)
+    local hit = blorps.closest_reaching(exits, room_id)
+    if hit then
+      note(string.format('  Tip: blorp "%s" reaches it in %d move%s.', hit.name, hit.distance, hit.distance == 1 and '' or 's'), C.muted)
+    end
     panel.panel:post("route_error", { name = display_name })
     return
   end
@@ -213,6 +219,12 @@ function M.route_to_room(room_id, display_name, walk_immediately)
 
   if steps > 140 then
     note('  Warning: long route. Discworld clears movement queues after 5 minutes of idle time.', C.header)
+  end
+
+  local blorp_hit = blorps.closest_reaching(exits, room_id)
+  if blorp_hit and blorp_hit.distance < steps then
+    note(string.format('  Tip: blorp "%s" is %d move%s away — %d shorter.',
+      blorp_hit.name, blorp_hit.distance, blorp_hit.distance == 1 and '' or 's', steps - blorp_hit.distance), C.muted)
   end
 
   if walk_immediately then
