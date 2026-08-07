@@ -82,3 +82,9 @@ type        = "bool"
 default     = false
 label       = "Brief/verbose look around walks"
 description = "Send \"brief look\" before and \"verbose look\" after walking a route."
+
+[settings.blorp_routing]
+type        = "bool"
+default     = false
+label       = "Blorp routing"
+description = "Suggest blorp teleports that would shorten a route, if the Discworld Blorpsack plugin is installed."

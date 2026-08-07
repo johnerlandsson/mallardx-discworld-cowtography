@@ -123,6 +123,8 @@ Settings are in the Mallard plugin settings panel.
 
 **Brief/verbose look around walks** — When enabled, sends `brief look` before and `verbose look` after the movement commands of a route, so long walks don't flood the screen with full room descriptions.
 
+**Blorp routing** — When enabled, and the Discworld Blorpsack plugin is installed with blorps registered, route results and search results show a tip when teleporting to a blorp would shorten (or enable) the route. Off by default.
+
 ---
 
 ## Installation
