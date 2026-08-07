@@ -70,6 +70,9 @@ local function display_results(search_type, query, results, sorted_by_dist)
     local dist_str
     if r.distance then
       dist_str = string.format('  %d move%s', r.distance, r.distance == 1 and '' or 's')
+    elseif unreachable and r.blorp_hint then
+      dist_str = string.format('  unreachable · via blorp "%s" (%d move%s)',
+        r.blorp_hint.name, r.blorp_hint.distance, r.blorp_hint.distance == 1 and '' or 's')
     elseif unreachable then
       dist_str = '  unreachable'
     else
@@ -165,6 +168,12 @@ function M.do_search(search_type, query, area_filter)
     for _, r in ipairs(candidates) do
       local d = dist[r.room_id]
       if d ~= nil then r.distance = d end
+    end
+    for _, r in ipairs(candidates) do
+      if r.distance == nil then
+        local hit = blorps.closest_reaching(exits, r.room_id)
+        if hit then r.blorp_hint = hit end
+      end
     end
     -- Reachable first (sorted by distance), then unreachable (sorted by name).
     table.sort(candidates, function(a, b)
