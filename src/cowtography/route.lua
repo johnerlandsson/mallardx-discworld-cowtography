@@ -169,12 +169,6 @@ function M.do_search(search_type, query, area_filter)
       local d = dist[r.room_id]
       if d ~= nil then r.distance = d end
     end
-    for _, r in ipairs(candidates) do
-      if r.distance == nil then
-        local hit = blorps.closest_reaching(exits, r.room_id)
-        if hit then r.blorp_hint = hit end
-      end
-    end
     -- Reachable first (sorted by distance), then unreachable (sorted by name).
     table.sort(candidates, function(a, b)
       local ar, br = a.distance ~= nil, b.distance ~= nil
@@ -193,6 +187,20 @@ function M.do_search(search_type, query, area_filter)
 
   local display = results
   if #display > 20 then display = {table.unpack(display, 1, 20)} end
+
+  -- Blorp annotation is only worth computing for rows that actually render:
+  -- search.lua can return up to 200 candidates, but only the first 20 (after
+  -- truncation above) are ever displayed. Each closest_reaching call is a
+  -- full BFS per registered blorp, so annotating the full candidate set was
+  -- costing seconds on the real ~16k-room graph for rows nobody sees.
+  if sorted_by_dist then
+    for _, r in ipairs(display) do
+      if r.distance == nil then
+        local hit = blorps.closest_reaching(exits, r.room_id)
+        if hit then r.blorp_hint = hit end
+      end
+    end
+  end
 
   display_results(search_type, query, display, sorted_by_dist)
 end

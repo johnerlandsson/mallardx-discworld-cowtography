@@ -16,9 +16,18 @@ local EVENT_REQUEST = "broaty.discworld-blorpsack.blorps.request"
 -- isn't installed / hasn't answered the request yet.
 local blorp_list = {}
 
+-- Memoized per-blorp distance tables (room_id -> pathfind.distances_from
+-- result). Load-bearing assumption: state.exits is built once at startup
+-- and never mutated afterward (see state.lua), so a distance table computed
+-- for a given blorp room_id stays valid for the whole session. Only the
+-- blorp *list* changes (new/removed/moved blorps), which is what
+-- invalidates this cache — see the EVENT_BLORPS handler below.
+local dist_cache = {}
+
 function M.init(_deps)
   events.on(EVENT_BLORPS, function(data)
     blorp_list = (type(data) == 'table' and data.blorps) or {}
+    dist_cache = {}
   end)
   -- One-shot delay, not an immediate emit: gives Blorpsack a chance to
   -- finish loading and register its own EVENT_REQUEST listener, regardless
@@ -39,9 +48,16 @@ function M.closest_reaching(exits, target_room_id)
 
   local best
   for _, b in ipairs(blorp_list) do
-    local dist = pathfind.distances_from(exits, b.room_id)[target_room_id]
-    if dist ~= nil and (best == nil or dist < best.distance) then
-      best = { name = b.name, distance = dist }
+    if type(b) == 'table' and b.room_id ~= nil then
+      local dists = dist_cache[b.room_id]
+      if dists == nil then
+        dists = pathfind.distances_from(exits, b.room_id)
+        dist_cache[b.room_id] = dists
+      end
+      local dist = dists[target_room_id]
+      if dist ~= nil and (best == nil or dist < best.distance) then
+        best = { name = b.name, distance = dist }
+      end
     end
   end
   return best
