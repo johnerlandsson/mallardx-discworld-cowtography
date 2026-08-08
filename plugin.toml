@@ -88,3 +88,11 @@ type        = "bool"
 default     = false
 label       = "Blorp routing"
 description = "Suggest blorp teleports that would shorten a route, if the Discworld Blorpsack plugin is installed."
+
+[settings.blorp_savings_threshold]
+type        = "number"
+default     = 5
+min         = 1
+max         = 500
+label       = "Minimum blorp savings (moves)"
+description = "Minimum number of moves a blorp teleport must save before cowtography suggests it, in route tips and search results."

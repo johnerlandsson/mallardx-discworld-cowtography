@@ -125,6 +125,8 @@ Settings are in the Mallard plugin settings panel.
 
 **Blorp routing** — When enabled, and the Discworld Blorpsack plugin is installed with blorps registered, route results and search results show a tip when teleporting to a blorp would shorten (or enable) the route. Off by default.
 
+**Minimum blorp savings** — How many moves a blorp teleport must save before cowtography suggests it, in both the route tip and search results. Default 5.
+
 ---
 
 ## Installation
