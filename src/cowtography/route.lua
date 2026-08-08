@@ -12,13 +12,15 @@ local M = {}
 local state       -- cowtography.state module; also owns exits (see state.lua)
 local panel       -- cowtography.panel module
 local walk        -- cowtography.walk module
+local blorps      -- cowtography.blorps module
 local C, note, vlen -- colors.C, colors.note, colors.vlen
 local exits -- state.exits
 
 function M.init(deps)
-  state = deps.state
-  panel = deps.panel
-  walk  = deps.walk
+  state  = deps.state
+  panel  = deps.panel
+  walk   = deps.walk
+  blorps = deps.blorps
   C, note, vlen = deps.colors.C, deps.colors.note, deps.colors.vlen
   exits = state.exits
 
@@ -68,6 +70,9 @@ local function display_results(search_type, query, results, sorted_by_dist)
     local dist_str
     if r.distance then
       dist_str = string.format('  %d move%s', r.distance, r.distance == 1 and '' or 's')
+    elseif unreachable and r.blorp_hint then
+      dist_str = string.format('  unreachable · via blorp "%s" (%d move%s)',
+        r.blorp_hint.name, r.blorp_hint.distance, r.blorp_hint.distance == 1 and '' or 's')
     elseif unreachable then
       dist_str = '  unreachable'
     else
@@ -183,6 +188,20 @@ function M.do_search(search_type, query, area_filter)
   local display = results
   if #display > 20 then display = {table.unpack(display, 1, 20)} end
 
+  -- Blorp annotation is only worth computing for rows that actually render:
+  -- search.lua can return up to 200 candidates, but only the first 20 (after
+  -- truncation above) are ever displayed. Each closest_reaching call is a
+  -- full BFS per registered blorp, so annotating the full candidate set was
+  -- costing seconds on the real ~16k-room graph for rows nobody sees.
+  if sorted_by_dist then
+    for _, r in ipairs(display) do
+      if r.distance == nil then
+        local hit = blorps.closest_reaching(exits, r.room_id)
+        if hit then r.blorp_hint = hit end
+      end
+    end
+  end
+
   display_results(search_type, query, display, sorted_by_dist)
 end
 
@@ -200,6 +219,10 @@ function M.route_to_room(room_id, display_name, walk_immediately)
   local path, steps, route_rooms = pathfind.find_path(exits, state.current_room, room_id)
   if path == nil then
     note('  Could not find a route. You may be in an untracked area, or the destination is unreachable.', C.err)
+    local hit = blorps.closest_reaching(exits, room_id)
+    if hit then
+      note(string.format('  Tip: blorp "%s" reaches it in %d move%s.', hit.name, hit.distance, hit.distance == 1 and '' or 's'), C.muted)
+    end
     panel.panel:post("route_error", { name = display_name })
     return
   end
@@ -213,6 +236,12 @@ function M.route_to_room(room_id, display_name, walk_immediately)
 
   if steps > 140 then
     note('  Warning: long route. Discworld clears movement queues after 5 minutes of idle time.', C.header)
+  end
+
+  local blorp_hit = blorps.closest_reaching(exits, room_id)
+  if blorp_hit and blorp_hit.distance < steps then
+    note(string.format('  Tip: blorp "%s" is %d move%s away — %d shorter.',
+      blorp_hit.name, blorp_hit.distance, blorp_hit.distance == 1 and '' or 's', steps - blorp_hit.distance), C.muted)
   end
 
   if walk_immediately then
