@@ -68,7 +68,10 @@ local function display_results(search_type, query, results, sorted_by_dist)
   for i, r in ipairs(results) do
     local unreachable = sorted_by_dist and not r.distance
     local dist_str
-    if r.distance then
+    if r.distance and r.blorp_hint then
+      dist_str = string.format('  %d move%s · blorp "%s" %d shorter',
+        r.distance, r.distance == 1 and '' or 's', r.blorp_hint.name, r.distance - r.blorp_hint.distance)
+    elseif r.distance then
       dist_str = string.format('  %d move%s', r.distance, r.distance == 1 and '' or 's')
     elseif unreachable and r.blorp_hint then
       dist_str = string.format('  unreachable · via blorp "%s" (%d move%s)',
@@ -190,14 +193,25 @@ function M.do_search(search_type, query, area_filter)
 
   -- Blorp annotation is only worth computing for rows that actually render:
   -- search.lua can return up to 200 candidates, but only the first 20 (after
-  -- truncation above) are ever displayed. Each closest_reaching call is a
-  -- full BFS per registered blorp, so annotating the full candidate set was
-  -- costing seconds on the real ~16k-room graph for rows nobody sees.
+  -- truncation above) are ever displayed. closest_reaching itself is an O(1)
+  -- lookup against blorps.lua's multi-source-BFS cache (built once per
+  -- blorp-list change, not per call), so this loop's cost is one lookup per
+  -- displayed row regardless of blorp count.
+  --
+  -- Unreachable rows (r.distance == nil) always get the hint when one exists
+  -- — there's no walking distance to compare against, so no threshold
+  -- applies. Reachable rows only get the hint when the blorp saves at least
+  -- blorp_savings_threshold moves versus walking.
   if sorted_by_dist then
+    local threshold = settings.get('blorp_savings_threshold')
     for _, r in ipairs(display) do
-      if r.distance == nil then
-        local hit = blorps.closest_reaching(exits, r.room_id)
-        if hit then r.blorp_hint = hit end
+      local hit = blorps.closest_reaching(exits, r.room_id)
+      if hit then
+        if r.distance == nil then
+          r.blorp_hint = hit
+        elseif r.distance - hit.distance >= threshold then
+          r.blorp_hint = hit
+        end
       end
     end
   end
@@ -239,7 +253,7 @@ function M.route_to_room(room_id, display_name, walk_immediately)
   end
 
   local blorp_hit = blorps.closest_reaching(exits, room_id)
-  if blorp_hit and blorp_hit.distance < steps then
+  if blorp_hit and (steps - blorp_hit.distance) >= settings.get('blorp_savings_threshold') then
     note(string.format('  Tip: blorp "%s" is %d move%s away — %d shorter.',
       blorp_hit.name, blorp_hit.distance, blorp_hit.distance == 1 and '' or 's', steps - blorp_hit.distance), C.muted)
   end
