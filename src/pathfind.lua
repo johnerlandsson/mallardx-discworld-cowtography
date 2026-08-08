@@ -91,4 +91,40 @@ function M.distances_from(exits, start_id)
   return dist
 end
 
+-- multi_source_distances(exits, source_ids)
+-- Single BFS seeded from every id in source_ids simultaneously, giving the
+-- distance to (and originating source of) the *nearest* source for every
+-- reachable room — in one graph traversal, not one per source. Existing
+-- nil/duplicate source ids are skipped/deduped harmlessly.
+-- Returns dist[room_id] = steps to nearest source, origin[room_id] = which
+-- source_id that nearest source is (ties broken by BFS/source-array order).
+function M.multi_source_distances(exits, source_ids)
+  local dist, origin = {}, {}
+  local queue, qn = {}, 0
+  for _, sid in ipairs(source_ids) do
+    if sid ~= nil and dist[sid] == nil then
+      dist[sid] = 0
+      origin[sid] = sid
+      qn = qn + 1
+      queue[qn] = sid
+    end
+  end
+  local head = 1
+  while head <= qn do
+    local room = queue[head]
+    head = head + 1
+    if exits[room] then
+      for neighbor in pairs(exits[room]) do
+        if dist[neighbor] == nil then
+          dist[neighbor] = dist[room] + 1
+          origin[neighbor] = origin[room]
+          qn = qn + 1
+          queue[qn] = neighbor
+        end
+      end
+    end
+  end
+  return dist, origin
+end
+
 return M

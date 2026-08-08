@@ -98,4 +98,44 @@ test('distances_from: unreachable room absent from result', function()
   assert(dist['X'] == nil, 'X is unreachable from A')
 end)
 
+-- ── multi_source_distances ────────────────────────────────────────────────────
+
+test('multi_source_distances: single source matches distances_from', function()
+  local dist, origin = pathfind.multi_source_distances(exits, {'A'})
+  local single = pathfind.distances_from(exits, 'A')
+  for room_id, d in pairs(single) do
+    assert(dist[room_id] == d, 'mismatch for ' .. room_id)
+    assert(origin[room_id] == 'A', 'origin should be A for ' .. room_id)
+  end
+end)
+
+test('multi_source_distances: two sources give min distance and correct origin', function()
+  local dist, origin = pathfind.multi_source_distances(exits, {'C', 'D'})
+  assert(dist['C'] == 0 and origin['C'] == 'C')
+  assert(dist['D'] == 0 and origin['D'] == 'D')
+  assert(dist['B'] == 1, 'B should be 1 away from nearest source')
+  assert(origin['B'] == 'C', 'B should trace back to C (first source in BFS order)')
+  assert(dist['A'] == 2, 'A should be 2 away (via B)')
+  assert(origin['A'] == 'C')
+end)
+
+test('multi_source_distances: empty source list returns empty tables', function()
+  local dist, origin = pathfind.multi_source_distances(exits, {})
+  assert(next(dist) == nil)
+  assert(next(origin) == nil)
+end)
+
+test('multi_source_distances: unreachable room absent from result', function()
+  local exits2 = { A = { B = 'n' }, B = { A = 's' }, X = {} }
+  local dist, origin = pathfind.multi_source_distances(exits2, {'A'})
+  assert(dist['X'] == nil, 'X is unreachable')
+  assert(origin['X'] == nil)
+end)
+
+test('multi_source_distances: duplicate source ids are safe', function()
+  local dist, origin = pathfind.multi_source_distances(exits, {'A', 'A', 'B'})
+  assert(dist['A'] == 0)
+  assert(dist['B'] == 0, 'B is itself a source')
+end)
+
 print(string.format('\n%d tests passed.', passed))
