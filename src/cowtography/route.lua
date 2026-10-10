@@ -219,7 +219,30 @@ function M.do_search(search_type, query, area_filter)
   display_results(search_type, query, display, sorted_by_dist)
 end
 
-function M.route_to_room(room_id, display_name, walk_immediately)
+-- Multi-stop tour from the player's current room (see pathfind.tour).
+-- Exposed so cowtography.api never has to require pathfind itself.
+function M.plan_tour(stop_ids)
+  return pathfind.tour(exits, state.current_room, stop_ids)
+end
+
+-- Shared "a route was computed, make it the active route" step for
+-- route_to_room and cowtography.api. opts: see panel.post_route. Guide
+-- (display-only) routes clear any walk state instead of setting it, so /go
+-- can't walk them. Callers print their own success note.
+function M.apply_route(rooms, directions, label, target_id, opts)
+  local guide = opts and opts.guide
+  if guide then
+    walk.reset_state()
+  else
+    walk.set_route(directions, rooms, label, target_id)
+  end
+  panel.post_route(rooms, label, #directions, opts)
+  if not guide and #directions > 140 then
+    note('  Warning: long route. Discworld clears movement queues after 5 minutes of idle time.', C.header)
+  end
+end
+
+function M.route_to_room(room_id, display_name, walk_immediately, opts)
   local p = mud.command_prefix()
   if state.current_room == nil then
     note('  Current room unknown. Move through a mapped room first.', C.err)
@@ -245,12 +268,7 @@ function M.route_to_room(room_id, display_name, walk_immediately)
   for dir in path:gmatch('[^;]+') do
     steps_list[#steps_list + 1] = dir
   end
-  walk.set_route(steps_list, route_rooms, display_name, room_id)
-  panel.post_route(route_rooms, display_name, steps)
-
-  if steps > 140 then
-    note('  Warning: long route. Discworld clears movement queues after 5 minutes of idle time.', C.header)
-  end
+  M.apply_route(route_rooms, steps_list, display_name, room_id, opts)
 
   local blorp_hit = blorps.closest_reaching(exits, room_id)
   if blorp_hit and (steps - blorp_hit.distance) >= settings.get('blorp_savings_threshold') then
