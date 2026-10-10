@@ -144,17 +144,21 @@ local function walk_paused(reason)
   if expected_room and state.current_room and state.current_room ~= expected_room then
     -- We ended up somewhere the route didn't expect (dragged, teleported,
     -- portal, etc.) — the remaining directions are no longer valid.
+    -- Read opts before post_route_clear() drops them, so an API route keeps
+    -- its owner through the reroute. A multi-stop API tour reroutes to its
+    -- final stop only (accepted limitation, see the routing API spec).
+    local opts = panel.route_opts()
     walk_steps = {}; walk_rooms = {}; walk_target_id = nil
     panel.post_route_clear()
     note(string.format('  %s Position no longer matches the route — recalculating.', reason), C.header)
-    route_to_room(dest_id, dest_name, false)
+    route_to_room(dest_id, dest_name, false, opts)
     return
   end
 
   walk_steps = { table.unpack(walk_steps, at_pos, #walk_steps) }
   walk_rooms = { table.unpack(walk_rooms, at_pos, #walk_rooms) }
   local remaining = #walk_steps
-  panel.post_route(walk_rooms, dest_name, remaining)
+  panel.post_route(walk_rooms, dest_name, remaining, panel.route_opts())
   local p = mud.command_prefix()
   mud.note(mud.span(string.format('  %s %d move%s remaining to "%s". Type ', reason, remaining, remaining == 1 and '' or 's', dest_name), { fg = C.header })
         .. mud.span(p .. 'go', { fg = C.header, on_click = function() M.walk() end })
