@@ -103,6 +103,7 @@ function stopLSpaceAnim() {
 let current        = null;
 let target         = null;
 let routeRoomIds   = [];
+let routeGuide     = false; // display-only route from the routing API: green, no Walk button
 let libraryOverlay = null;
 let lastKnownMapId = null;
 let displayedMapId = null;
@@ -116,7 +117,7 @@ let noteEditorRoomId = null;
 function getState() {
   // Suppress target prediction while a route is active so the position indicator
   // follows confirmed (current) position rather than jumping ahead via alias.
-  return { current, target: routeRoomIds.length > 0 ? null : target, routeRoomIds, darkMode, libraryOverlay };
+  return { current, target: routeRoomIds.length > 0 ? null : target, routeRoomIds, routeGuide, darkMode, libraryOverlay };
 }
 
 // ─── Renderer lifecycle ───────────────────────────────────────────────────
@@ -299,6 +300,7 @@ function clearRoute() {
   clearRouteError();
   walkActive    = false;
   routeRoomIds  = [];
+  routeGuide    = false;
   activeRenderer?.applyState(getState());
   $routeDest.textContent = '';
   $routeWalk.hidden  = true;
@@ -417,13 +419,14 @@ panel.on("room_info", async (frame) => {
 panel.on("route_set", (frame) => {
   clearRouteError();
   routeRoomIds = Array.isArray(frame.rooms) ? frame.rooms : [];
+  routeGuide   = frame.guide === true;
   activeRenderer?.applyState(getState());
   $routeWalk.disabled  = false;
   $routeClear.disabled = false;
   if (frame.destination) {
     const s = frame.steps ?? Math.max(0, routeRoomIds.length - 1);
     $routeDest.textContent = `→ ${frame.destination} (${s} move${s === 1 ? '' : 's'})`;
-    $routeWalk.hidden  = false;
+    $routeWalk.hidden  = routeGuide;
     $routeClear.hidden = false;
   } else {
     $routeDest.textContent = '';

@@ -467,3 +467,12 @@ body {
 [data-theme="light"] .terrain-river         { stroke: #5090c0; }
 [data-theme="light"] .terrain-beach         { fill: #e8d888; }
 [data-theme="light"] .terrain-location      { fill: #c02828; stroke: #801818; }
+
+/* Guide (display-only) routes from the cross-plugin routing API: green
+   instead of blue. :not(.current/.target) keeps the position markers red. */
+svg.guide-route .room.route:not(.current):not(.target),
+svg.guide-route .shades-room.route:not(.current):not(.target) { fill: #123322; stroke: #4ade80; }
+svg.guide-route .exit.route { stroke: #4ade80; }
+[data-theme="light"] svg.guide-route .room.route:not(.current):not(.target),
+[data-theme="light"] svg.guide-route .shades-room.route:not(.current):not(.target) { fill: #d4f5df; stroke: #16a34a; }
+[data-theme="light"] svg.guide-route .exit.route { stroke: #16a34a; }

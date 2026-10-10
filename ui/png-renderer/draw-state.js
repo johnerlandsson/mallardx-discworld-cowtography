@@ -1,6 +1,6 @@
 import { drawLibraryOverlay } from "./library-overlay.js";
 
-export function drawState(img, canvas, rooms, mapId, roomUnit, { current, target, routeRoomIds, libraryOverlay }, mapJustLoaded) {
+export function drawState(img, canvas, rooms, mapId, roomUnit, { current, target, routeRoomIds, routeGuide, libraryOverlay }, mapJustLoaded) {
   if (!img || !canvas) return mapJustLoaded;
   const w = img.clientWidth, h = img.clientHeight;
   if (!w || !h) return mapJustLoaded;
@@ -25,13 +25,30 @@ export function drawState(img, canvas, rooms, mapId, roomUnit, { current, target
   const ghostR = dotR * 0.85;
   const routeR = dotR * 0.65;
 
-  // Route rooms — blue circles
+  // Guide (display-only) routes: green lines between consecutive route
+  // rooms that are both on this map — a leg that leaves the map is skipped
+  // rather than drawn across it. Adapted from PR #3 (Sarmonsiill).
+  const GUIDE_COLOR = "#4ade80";
+  if (routeGuide) {
+    ctx.strokeStyle = GUIDE_COLOR;
+    ctx.lineWidth = Math.max(2, 3 * scaleX);
+    for (let i = 1; i < routeRoomIds.length; i++) {
+      const a = rooms[routeRoomIds[i - 1]], b = rooms[routeRoomIds[i]];
+      if (!a || !b || a[0] !== mapId || b[0] !== mapId) continue;
+      ctx.beginPath();
+      ctx.moveTo(toCanvasX(a[1]), toCanvasY(a[2]));
+      ctx.lineTo(toCanvasX(b[1]), toCanvasY(b[2]));
+      ctx.stroke();
+    }
+  }
+
+  // Route rooms — blue circles (green for guide routes)
   for (const id of routeRoomIds) {
     const room = rooms[id];
     if (!room || room[0] !== mapId) continue;
     ctx.beginPath();
     ctx.arc(toCanvasX(room[1]), toCanvasY(room[2]), routeR, 0, Math.PI * 2);
-    ctx.fillStyle = "rgba(74, 159, 212, 0.8)";
+    ctx.fillStyle = routeGuide ? GUIDE_COLOR : "rgba(74, 159, 212, 0.8)";
     ctx.fill();
   }
 

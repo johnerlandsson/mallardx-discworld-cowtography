@@ -2,7 +2,7 @@ import { _ensureOverlay, _lift, _restoreOverlay } from "./overlay.js";
 import { updateStackVisibility } from "./stack-visibility.js";
 import { applyLibraryOverlay } from "./library-overlay.js";
 
-export function applyStateImpl(svg, displayedMapId, { current, target, routeRoomIds, darkMode, libraryOverlay }, currentStackGround) {
+export function applyStateImpl(svg, displayedMapId, { current, target, routeRoomIds, routeGuide, darkMode, libraryOverlay }, currentStackGround) {
   if (displayedMapId === 99) {
     const dot = svg.querySelector('#world-player');
     if (dot) {
@@ -30,6 +30,7 @@ export function applyStateImpl(svg, displayedMapId, { current, target, routeRoom
   currentStackGround = updateStackVisibility(svg, current?.roomId ?? null, currentStackGround);
 
   const routeOverlay = _ensureOverlay(svg, "sg-route-overlay");
+  svg.classList.toggle("guide-route", routeGuide === true);
   const posOverlay   = _ensureOverlay(svg, "sg-pos-overlay");
   posOverlay.classList.toggle("dark", darkMode);
 
