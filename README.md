@@ -157,6 +157,78 @@ npm run build:data -- --db /path/to/_quowmap_database.db   # seed db only; no ma
 
 ---
 
+## For plugin authors: routing API
+
+Other Mallard plugins can ask Cowtography to route the player through one
+or more rooms over the cross-plugin `events` bus. Cowtography never moves
+the character on its own: walkable routes still need the player to type
+`/go` (or click Walk), and requests are refused while a walk is in progress.
+
+### Request a route
+
+```lua
+events.emit("cowtography:route", {
+  request  = 1,                       -- optional, any value; echoed in the reply
+  source   = "myplugin",              -- optional string identifying your plugin
+  rooms    = { "room-id-1", "room-id-2" }, -- required: 1–500 room id strings
+  label    = "Farming run",           -- optional; shown in the map panel
+  walkable = false,                   -- optional, default true
+})
+```
+
+- Room ids are Quow-database room ids (the same ids Cowtography shows and
+  Blorpsack broadcasts), as plain strings.
+- Stops are visited nearest-first from the player's current room. A stop
+  the route passes through counts as visited. Duplicates and the current
+  room are ignored. The route ends at the last stop; there is no return leg.
+- `walkable = false` makes a display-only guide route: drawn in green,
+  with no Walk button, and `/go` won't walk it.
+- Without `label`, the panel shows `Route from <source>` (or `Route`).
+
+### Clear your route
+
+```lua
+events.emit("cowtography:route_clear", { request = 2, source = "myplugin" })
+```
+
+This only clears a route set through this API with the same `source`
+(no `source` matches no `source`). It never clears a route the player
+set with `/db`, `/bm` or a map click, and it is refused while the player
+is walking your route.
+
+### Replies
+
+Every request and clear gets exactly one reply:
+
+```lua
+events.on("cowtography:route_result", function(r)
+  -- route set: { request, source, ok = true, stops = n, moves = n, skipped = { ids } }
+  -- clear:     { request, source, ok = true, cleared = true | false }
+  -- error:     { request, source, ok = false, error = code, message = text }
+end)
+```
+
+| `error` | Meaning |
+|---------|---------|
+| `invalid_payload` | Malformed payload (for example `rooms` missing, empty, over 500, or not all strings) |
+| `location_unknown` | Cowtography doesn't know where the player is yet |
+| `walk_in_progress` | The player is walking a route |
+| `no_reachable_stops` | None of the rooms can be reached from the current room |
+
+`skipped` lists unknown or unreachable room ids. On errors Cowtography
+prints nothing; showing the `message` to the player is up to you.
+
+### Precedence
+
+- Your route replaces whatever route is showing, unless a walk is in
+  progress.
+- Any route the player sets replaces yours, and a later clear from you
+  replies `cleared = false`.
+- If there's no reply at all, Cowtography isn't installed or hasn't loaded
+  yet. Its handlers register at plugin load, so retry after a short delay.
+
+---
+
 ## Credits
 
 Map data, database content and pathfinding algorithm adapted from **[Quow's Cow Bar and Minimap](https://quow.co.uk/minimap.php)** plugin for MUSHClient by Quow. Used with gratitude.

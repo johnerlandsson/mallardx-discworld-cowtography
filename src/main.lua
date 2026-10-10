@@ -11,6 +11,9 @@
 --   bm [add|rm|<name>]        list, add, remove, or route to bookmarks
 --   go [clear]                start/resume the current route, or clear it
 --
+-- Cross-plugin API (events bus, see README "For plugin authors: routing API"):
+--   cowtography:route / cowtography:route_clear -> cowtography:route_result
+--
 -- Data credit: Quow's Cow Bar and Minimap plugin — https://quow.co.uk/minimap.php
 --
 -- This file is a thin facade: it requires every cowtography.* module
@@ -40,6 +43,7 @@ local walk       = require('cowtography.walk')
 local prediction = require('cowtography.prediction')
 local blorps     = require('cowtography.blorps')
 local route      = require('cowtography.route')
+local api        = require('cowtography.api')
 local notes      = require('cowtography.notes')
 local gmcp_handlers = require('cowtography.gmcp')
 local commands   = require('cowtography.commands')
@@ -58,6 +62,7 @@ walk.init({ colors = colors, state = state, panel = panel })
 prediction.init({ state = state, walk = walk, panel = panel.panel })
 blorps.init({})
 route.init({ colors = colors, state = state, panel = panel, walk = walk, blorps = blorps })
+api.init({ colors = colors, state = state, route = route, walk = walk, panel = panel })
 notes.init({ state = state, panel = panel, colors = colors, uu_library = uu_library })
 gmcp_handlers.init({
   colors = colors, state = state, uu_library = uu_library, panel = panel,
