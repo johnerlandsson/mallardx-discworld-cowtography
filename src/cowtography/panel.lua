@@ -14,6 +14,7 @@ local uu_library -- cowtography.uu_library module
 local last_route             = nil
 local last_route_destination = nil
 local last_route_steps       = nil
+local last_route_opts        = nil -- { guide, owner } from post_route; owner never leaves Lua
 local last_ascii_rows        = nil
 local current_map             = nil
 
@@ -32,17 +33,34 @@ function M.post_room(payload)
   })
 end
 
-function M.post_route(room_ids, destination, steps)
+local function route_frame()
+  return {
+    rooms       = last_route,
+    destination = last_route_destination,
+    steps       = last_route_steps,
+    guide       = (last_route_opts and last_route_opts.guide) or nil,
+  }
+end
+
+-- opts (optional): { guide = bool, owner = { source = string|nil } }.
+-- guide = display-only route (green, no Walk button). owner marks a route
+-- set through the cross-plugin API (cowtography.api); routes the player
+-- sets pass no opts, which is what drops an API caller's ownership.
+function M.post_route(room_ids, destination, steps, opts)
   last_route             = room_ids
   last_route_destination = destination
   last_route_steps       = steps
-  M.panel:post("route_set", { rooms = room_ids, destination = destination, steps = steps })
+  last_route_opts        = opts
+  M.panel:post("route_set", route_frame())
 end
+
+function M.route_opts() return last_route_opts end
 
 function M.post_route_clear()
   last_route             = nil
   last_route_destination = nil
   last_route_steps       = nil
+  last_route_opts        = nil
   M.panel:post("route_clear", {})
 end
 
@@ -85,7 +103,7 @@ M.panel:on_message("ready", function()
   else
     if state.last_payload then M.post_room(state.last_payload) end
     if last_route then
-      M.panel:post("route_set", { rooms = last_route, destination = last_route_destination, steps = last_route_steps })
+      M.panel:post("route_set", route_frame())
     end
   end
 end)
