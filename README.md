@@ -157,6 +157,38 @@ npm run build:data -- --db /path/to/_quowmap_database.db   # seed db only; no ma
 
 ---
 
+## BP farming route integration
+
+Being's Discworld BP Route can request a green farming path on the Map with
+`/bp route` and remove it with `/bp clear_map`. Cowtography routes through its
+known, directed map exits, visiting the nearest remaining farming room at each
+step. Rooms without a known path are reported as unreachable. The current-room
+marker remains red above the route. Both SVG and PNG maps support the green path.
+Farming routes provide visual guidance; they do not enable the Walk button.
+Normal search and bookmark routes retain their usual color and walking behavior.
+
+### Cross-plugin events
+
+Emit `cowtography:bp_route` in the same world:
+
+```lua
+events.emit("cowtography:bp_route", {
+  request = 1, -- caller-supplied correlation value, echoed in the response
+  rooms = {{id = "room-identifier"}, {id = "another-room-identifier"}},
+})
+```
+
+Room IDs must be strings matching Cowtography's map database. Duplicate IDs and
+the current room are ignored. The route starts at Cowtography's current room and
+ends at the last reachable farming room; it does not add a return-to-start leg.
+
+Cowtography emits `bproute:map_result` with the same `request` and either
+`stops`, `moves`, and `skipped` counts, or an `error` string. Clear the route with
+`{request = 2, clear = true}`; the response is `{request = 2, cleared = true}`.
+Clearing does not require a current location and does not change farming data.
+
+---
+
 ## Credits
 
 Map data, database content and pathfinding algorithm adapted from **[Quow's Cow Bar and Minimap](https://quow.co.uk/minimap.php)** plugin for MUSHClient by Quow. Used with gratitude.

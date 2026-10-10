@@ -24,6 +24,32 @@ function M.init(deps)
   C, note, vlen = deps.colors.C, deps.colors.note, deps.colors.vlen
   exits = state.exits
 
+  events.on("cowtography:bp_route", function(data)
+    if type(data) ~= "table" then return end
+    if data.clear then
+      walk.reset_state()
+      panel.post_route_clear()
+      events.emit("bproute:map_result", {request = data.request, cleared = true})
+      return
+    end
+    if type(data.rooms) ~= "table" then return end
+    if not state.current_room then
+      events.emit("bproute:map_result", {request = data.request, error = "Current map location unknown; move one room first."})
+      return
+    end
+    local rooms, directions, stops, skipped = require("cowtography.bp_route").calculate(exits, state.current_room, data.rooms)
+    if stops == 0 then
+      panel.post_route_clear()
+      walk.reset_state()
+      events.emit("bproute:map_result", {request = data.request, error = "No other farming rooms are reachable through known map exits."})
+      return
+    end
+    -- Visual guidance only: the Walk button stays hidden for farming routes.
+    walk.reset_state()
+    panel.post_route(rooms, "BP farming route", #directions, "#4ade80", true)
+    events.emit("bproute:map_result", {request = data.request, stops = stops, moves = #directions, skipped = skipped})
+  end)
+
   walk.set_router(M.route_to_room)
 
   panel.panel:on_message("room_click", function(frame)

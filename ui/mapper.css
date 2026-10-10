@@ -467,3 +467,9 @@ body {
 [data-theme="light"] .terrain-river         { stroke: #5090c0; }
 [data-theme="light"] .terrain-beach         { fill: #e8d888; }
 [data-theme="light"] .terrain-location      { fill: #c02828; stroke: #801818; }
+
+/* BP farming guidance: keep normal destination routes unchanged. */
+svg.bp-route .room.route:not(.current):not(.target), svg.bp-route .shades-room.route:not(.current):not(.target) {
+  fill: #123322; stroke: #4ade80;
+}
+svg.bp-route .exit.route { stroke: #4ade80; }

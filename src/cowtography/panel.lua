@@ -14,6 +14,8 @@ local uu_library -- cowtography.uu_library module
 local last_route             = nil
 local last_route_destination = nil
 local last_route_steps       = nil
+local last_route_color       = nil
+local last_route_visual_only = nil
 local last_ascii_rows        = nil
 local current_map             = nil
 
@@ -32,17 +34,21 @@ function M.post_room(payload)
   })
 end
 
-function M.post_route(room_ids, destination, steps)
+function M.post_route(room_ids, destination, steps, color, visual_only)
   last_route             = room_ids
   last_route_destination = destination
   last_route_steps       = steps
-  M.panel:post("route_set", { rooms = room_ids, destination = destination, steps = steps })
+  last_route_color       = color
+  last_route_visual_only = visual_only
+  M.panel:post("route_set", { rooms = room_ids, destination = destination, steps = steps, color = color, visual_only = visual_only })
 end
 
 function M.post_route_clear()
   last_route             = nil
   last_route_destination = nil
   last_route_steps       = nil
+  last_route_color       = nil
+  last_route_visual_only = nil
   M.panel:post("route_clear", {})
 end
 
@@ -85,7 +91,7 @@ M.panel:on_message("ready", function()
   else
     if state.last_payload then M.post_room(state.last_payload) end
     if last_route then
-      M.panel:post("route_set", { rooms = last_route, destination = last_route_destination, steps = last_route_steps })
+      M.panel:post("route_set", { rooms = last_route, destination = last_route_destination, steps = last_route_steps, color = last_route_color, visual_only = last_route_visual_only })
     end
   end
 end)
