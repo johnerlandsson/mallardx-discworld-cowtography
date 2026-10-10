@@ -138,4 +138,73 @@ test('multi_source_distances: duplicate source ids are safe', function()
   assert(dist['B'] == 0, 'B is itself a source')
 end)
 
+-- ── tour ──────────────────────────────────────────────────────────────────────
+
+-- tour graph (directed): A -n-> B -e-> C -s-> D, B -s-> A, B -w-> E
+-- (dead end), X isolated. Distances from A: B=1, C=2, E=2, D=3.
+local tg = {
+  A = { B = 'n' },
+  B = { A = 's', C = 'e', E = 'w' },
+  C = { D = 's' },
+  D = {},
+  E = {},
+  X = {},
+}
+
+test('tour: visits stops nearest-first', function()
+  local rooms, dirs, visited, skipped = pathfind.tour(tg, 'A', { 'D', 'B' })
+  assert(table.concat(rooms, ',') == 'A,B,C,D', table.concat(rooms, ','))
+  assert(table.concat(dirs, ',') == 'n,e,s', table.concat(dirs, ','))
+  assert(visited == 2 and #skipped == 0)
+end)
+
+test('tour: stop order does not depend on input order', function()
+  local rooms, _, visited = pathfind.tour(tg, 'A', { 'D', 'C' })
+  assert(table.concat(rooms, ',') == 'A,B,C,D', table.concat(rooms, ','))
+  assert(visited == 2)
+end)
+
+test('tour: duplicates and start room ignored', function()
+  local rooms, dirs, visited, skipped = pathfind.tour(tg, 'A', { 'A', 'C', 'C' })
+  assert(#rooms == 3 and #dirs == 2 and visited == 1 and #skipped == 0)
+end)
+
+test('tour: one-way exits are not walked backwards', function()
+  local rooms, dirs, visited, skipped = pathfind.tour(tg, 'D', { 'A' })
+  assert(#rooms == 1 and #dirs == 0 and visited == 0)
+  assert(#skipped == 1 and skipped[1] == 'A')
+end)
+
+test('tour: unknown and unreachable ids skipped in input order, deduped', function()
+  local _, _, visited, skipped = pathfind.tour(tg, 'A', { 'nope', 'X', 'C', 'nope' })
+  assert(visited == 1)
+  assert(table.concat(skipped, ',') == 'nope,X', table.concat(skipped, ','))
+end)
+
+test('tour: equal-distance tie goes to lowest id', function()
+  -- C and E are both 2 moves from A; E is a dead end, so taking C first
+  -- means E becomes unreachable. Lowest id ('C' < 'E') must win, every time.
+  for _ = 1, 20 do
+    local rooms, _, visited, skipped = pathfind.tour(tg, 'A', { 'E', 'C' })
+    assert(rooms[3] == 'C', 'expected C first, got ' .. tostring(rooms[3]))
+    assert(visited == 1 and skipped[1] == 'E')
+  end
+end)
+
+test('tour: single stop matches find_path length', function()
+  local _, steps = pathfind.find_path(exits, 'A', 'D')
+  local _, dirs, visited = pathfind.tour(exits, 'A', { 'D' })
+  assert(visited == 1 and #dirs == steps, 'tour ' .. #dirs .. ' vs find_path ' .. tostring(steps))
+end)
+
+test('tour: start room with no exits', function()
+  local rooms, dirs, visited, skipped = pathfind.tour(tg, 'X', { 'A' })
+  assert(#rooms == 1 and rooms[1] == 'X' and #dirs == 0 and visited == 0 and skipped[1] == 'A')
+end)
+
+test('tour: empty stop list', function()
+  local rooms, dirs, visited, skipped = pathfind.tour(tg, 'A', {})
+  assert(#rooms == 1 and #dirs == 0 and visited == 0 and #skipped == 0)
+end)
+
 print(string.format('\n%d tests passed.', passed))

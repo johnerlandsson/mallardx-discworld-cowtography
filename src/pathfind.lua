@@ -127,4 +127,79 @@ function M.multi_source_distances(exits, source_ids)
   return dist, origin
 end
 
+-- tour(exits, start_id, stop_ids)
+-- Greedy nearest-next route through every reachable stop, starting at
+-- start_id. Each leg is a level-by-level BFS from the current position; the
+-- first BFS level containing any remaining stop wins, and ties within that
+-- level go to the lowest room id, so stop order never depends on pairs()
+-- iteration order. Stops the path passes through count as visited. Each
+-- leg's BFS tables are local garbage — never cache per-stop full-graph
+-- tables here (that pattern blew the 32MB VM cap for blorps).
+-- Returns rooms (rooms[1] == start_id), directions (#rooms - 1 of them),
+-- visited (count of distinct stops on the route) and skipped (unvisited
+-- stop ids, deduped, input order, never start_id).
+function M.tour(exits, start_id, stop_ids)
+  local remaining, count = {}, 0
+  for _, id in ipairs(stop_ids) do
+    if id ~= start_id and not remaining[id] then
+      remaining[id] = true
+      count = count + 1
+    end
+  end
+
+  local rooms, directions, visited = { start_id }, {}, 0
+  local pos = start_id
+  while count > 0 do
+    local parent   = { [pos] = false } -- parent[id] = { from_id, dir }; false marks the root
+    local frontier = { pos }
+    local target
+    while #frontier > 0 and not target do
+      local next_frontier = {}
+      for _, id in ipairs(frontier) do
+        local out = exits[id]
+        if out then
+          for neighbor, dir in pairs(out) do
+            if parent[neighbor] == nil then
+              parent[neighbor] = { id, dir }
+              next_frontier[#next_frontier + 1] = neighbor
+              if remaining[neighbor] and (target == nil or neighbor < target) then
+                target = neighbor
+              end
+            end
+          end
+        end
+      end
+      frontier = next_frontier
+    end
+    if not target then break end
+
+    local leg, id = {}, target
+    while id ~= pos do
+      local edge = parent[id]
+      leg[#leg + 1] = { id, edge[2] }
+      id = edge[1]
+    end
+    for i = #leg, 1, -1 do
+      local room_id = leg[i][1]
+      rooms[#rooms + 1] = room_id
+      directions[#directions + 1] = leg[i][2]
+      if remaining[room_id] then
+        remaining[room_id] = nil
+        count = count - 1
+        visited = visited + 1
+      end
+    end
+    pos = target
+  end
+
+  local skipped, seen = {}, {}
+  for _, id in ipairs(stop_ids) do
+    if remaining[id] and not seen[id] then
+      seen[id] = true
+      skipped[#skipped + 1] = id
+    end
+  end
+  return rooms, directions, visited, skipped
+end
+
 return M
