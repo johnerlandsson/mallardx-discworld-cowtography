@@ -115,9 +115,10 @@ let notesByRoomId = new Map();
 let noteEditorRoomId = null;
 
 function getState() {
-  // Suppress target prediction while a route is active so the position indicator
-  // follows confirmed (current) position rather than jumping ahead via alias.
-  return { current, target: routeRoomIds.length > 0 ? null : target, routeRoomIds, routeGuide, darkMode, libraryOverlay };
+  // Suppress target prediction while a walkable route is active so the position
+  // indicator follows confirmed (current) position rather than jumping ahead via
+  // alias. Guide routes persist during manual movement, so prediction stays on.
+  return { current, target: (routeRoomIds.length > 0 && !routeGuide) ? null : target, routeRoomIds, routeGuide, darkMode, libraryOverlay };
 }
 
 // ─── Renderer lifecycle ───────────────────────────────────────────────────

@@ -30,8 +30,10 @@ local function fail(data, code, message)
   reply(data, { ok = false, error = code, message = message })
 end
 
+local SOURCE_SHAPE = 'source must be a non-empty string'
+
 local function bad_source(data)
-  return data.source ~= nil and type(data.source) ~= 'string'
+  return data.source ~= nil and (type(data.source) ~= 'string' or data.source == '')
 end
 
 -- Returns an error message, or nil when the route payload is valid.
@@ -44,12 +46,15 @@ local function validate_route(data)
   if n > MAX_ROOMS then
     return string.format('rooms has %d entries; the limit is %d', n, MAX_ROOMS)
   end
+  local count = 0
   for k, v in pairs(rooms) do
+    count = count + 1
     if type(k) ~= 'number' or k % 1 ~= 0 or k < 1 or k > n or type(v) ~= 'string' then
       return ROOMS_SHAPE
     end
   end
-  if bad_source(data) then return 'source must be a string' end
+  if count ~= n then return ROOMS_SHAPE end -- hole in the array
+  if bad_source(data) then return SOURCE_SHAPE end
   if data.label ~= nil and type(data.label) ~= 'string' then return 'label must be a string' end
   if data.walkable ~= nil and type(data.walkable) ~= 'boolean' then return 'walkable must be a boolean' end
   return nil
@@ -96,7 +101,7 @@ local function handle_route(data)
   end
 
   local walkable = data.walkable ~= false
-  local label = data.label or (data.source and ('Route from ' .. data.source)) or 'Route'
+  local label = (data.label ~= '' and data.label) or (data.source and ('Route from ' .. data.source)) or 'Route'
   route.apply_route(rooms, directions, label, rooms[#rooms],
     { guide = not walkable, owner = { source = data.source } })
   success_note(data.source, visited, #directions, #skipped, walkable)
@@ -105,7 +110,7 @@ end
 
 local function handle_clear(data)
   if type(data) ~= 'table' then return fail(data, 'invalid_payload', 'payload must be a table') end
-  if bad_source(data) then return fail(data, 'invalid_payload', 'source must be a string') end
+  if bad_source(data) then return fail(data, 'invalid_payload', SOURCE_SHAPE) end
 
   local opts = panel.route_opts()
   if not (opts and opts.owner and opts.owner.source == data.source) then
@@ -126,8 +131,15 @@ function M.init(deps)
   panel = deps.panel
   C, note = deps.colors.C, deps.colors.note
 
-  events.on(EVENT_ROUTE, handle_route)
-  events.on(EVENT_CLEAR, handle_clear)
+  -- A throwing handler must still produce its one reply.
+  local function guarded(handler)
+    return function(data)
+      local ok, err = pcall(handler, data)
+      if not ok then fail(data, 'internal_error', tostring(err)) end
+    end
+  end
+  events.on(EVENT_ROUTE, guarded(handle_route))
+  events.on(EVENT_CLEAR, guarded(handle_clear))
 end
 
 return M

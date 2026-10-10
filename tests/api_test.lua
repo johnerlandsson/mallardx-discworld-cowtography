@@ -206,4 +206,47 @@ test('clear works with no current room', function()
   assert(clear_req({ source = 'bp' }).cleared == true)
 end)
 
+
+test('holed rooms array is invalid_payload', function()
+  local t = { 'C', 'x', 'D' }
+  t[2] = nil
+  local r = route_req({ rooms = t })
+  assert(r.ok == false and r.error == 'invalid_payload')
+  local holed = { 'C' }
+  holed[3] = 'D'
+  assert(route_req({ rooms = holed }).error == 'invalid_payload')
+  assert(applied == nil)
+end)
+
+test('empty label is treated as absent', function()
+  local r = route_req({ rooms = { 'C' }, source = 'bp', label = '' })
+  assert(r.ok == true)
+  assert(applied.label == 'Route from bp')
+end)
+
+test('empty source is invalid_payload for route and clear', function()
+  local r = route_req({ rooms = { 'C' }, source = '' })
+  assert(r.error == 'invalid_payload' and r.message == 'source must be a non-empty string')
+  r = clear_req({ source = '' })
+  assert(r.error == 'invalid_payload' and r.message == 'source must be a non-empty string')
+  assert(applied == nil)
+end)
+
+test('handler error becomes exactly one internal_error reply', function()
+  local orig = route.apply_route
+  route.apply_route = function() error('boom') end
+  local ok, r = pcall(route_req, { request = 3, rooms = { 'C' }, source = 'bp' })
+  route.apply_route = orig
+  assert(ok, r)
+  assert(r.ok == false and r.error == 'internal_error' and r.request == 3 and r.source == 'bp')
+  assert(r.message:find('boom'))
+  panel_opts = { owner = { source = 'bp' } }
+  local orig_clear = panel.post_route_clear
+  panel.post_route_clear = function() error('boom') end
+  ok, r = pcall(clear_req, { source = 'bp' })
+  panel.post_route_clear = orig_clear
+  assert(ok, r)
+  assert(r.ok == false and r.error == 'internal_error')
+end)
+
 print(string.format('\n%d tests passed.', passed))

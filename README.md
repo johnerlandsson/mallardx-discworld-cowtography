@@ -183,7 +183,9 @@ events.emit("cowtography:route", {
   room are ignored. The route ends at the last stop; there is no return leg.
 - `walkable = false` makes a display-only guide route: drawn in green,
   with no Walk button, and `/go` won't walk it.
-- Without `label`, the panel shows `Route from <source>` (or `Route`).
+- Without `label` (or with an empty one), the panel shows
+  `Route from <source>` (or `Route`).
+- `source`, if given, must be a non-empty string.
 
 ### Clear your route
 
@@ -214,6 +216,7 @@ end)
 | `location_unknown` | Cowtography doesn't know where the player is yet |
 | `walk_in_progress` | The player is walking a route |
 | `no_reachable_stops` | None of the rooms can be reached from the current room |
+| `internal_error` | Unexpected error inside Cowtography; `message` has details |
 
 `skipped` lists unknown or unreachable room ids. On errors Cowtography
 prints nothing; showing the `message` to the player is up to you.
@@ -224,6 +227,10 @@ prints nothing; showing the `message` to the player is up to you.
   progress.
 - Any route the player sets replaces yours, and a later clear from you
   replies `cleared = false`.
+- A walkable route that hasn't been started is cleared when the player moves
+  by hand (same as for routes the player sets), and your ownership goes with
+  it. Use `walkable = false` for an overlay that should stay up while the
+  player moves.
 - If there's no reply at all, Cowtography isn't installed or hasn't loaded
   yet. Its handlers register at plugin load, so retry after a short delay.
 
