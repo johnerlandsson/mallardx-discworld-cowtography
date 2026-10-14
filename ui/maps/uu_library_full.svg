@@ -29,15 +29,15 @@ text, .map-label, .map-label-muted, .map-label-accent,
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="0.63846768"
-     inkscape:cx="101.80625"
-     inkscape:cy="3932.8538"
-     inkscape:window-width="1078"
-     inkscape:window-height="991"
+     inkscape:zoom="3.6117186"
+     inkscape:cx="24.642008"
+     inkscape:cy="4666.4765"
+     inkscape:window-width="2573"
+     inkscape:window-height="1011"
      inkscape:window-x="26"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer-exits"
+     inkscape:current-layer="svg570"
      showgrid="false" />
   <style
      id="style1">
@@ -7086,6 +7086,13 @@ text, .map-label, .map-label-muted, .map-label-accent,
        y2="3130"
        id="line758-8133"
        style="fill:none;stroke:#525252;stroke-width:3" />
+    <line
+       class="exit lib-exit"
+       x1="104.5"
+       y1="4660"
+       x2="134.5"
+       y2="4660"
+       id="line359" />
   </g>
   <g
      id="layer-rooms"
