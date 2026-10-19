@@ -100,12 +100,11 @@ local function advance(dir, from)
   end
 end
 
-mud.on_send([[^(n|ne|e|se|s|sw|w|nw|u|d|north|northeast|east|southeast|south|southwest|west|northwest|up|down)$]], function(m)
-  if m.origin.plugin_id == state.PLUGIN_ID then return end
+local function on_cardinal(token)
   if walk.get_pos() == 0 and walk.get_steps_count() > 0 then
     walk.clear_route()
   end
-  local dir  = DIR_NORMALIZE[m[1]]
+  local dir  = DIR_NORMALIZE[token]
   local from = target_room or state.current_room
   if not from then return end
   -- Aboard a ship room, `s` collides with the ship table's `s = 'starboard'`
@@ -117,6 +116,11 @@ mud.on_send([[^(n|ne|e|se|s|sw|w|nw|u|d|north|northeast|east|southeast|south|sou
   -- rather than risk both observers advancing on the same send.
   if state.unsinkable_rooms[from] and dir ~= 'u' and dir ~= 'd' then return end
   advance(dir, from)
+end
+
+mud.on_send([[^(n|ne|e|se|s|sw|w|nw|u|d|north|northeast|east|southeast|south|southwest|west|northwest|up|down)$]], function(m)
+  if m.origin.plugin_id == state.PLUGIN_ID then return end
+  on_cardinal(m[1])
 end, { name = "movement-observer" })
 
 local SHIP_NORMALIZE = {
@@ -132,14 +136,36 @@ local SHIP_NORMALIZE = {
   ['climb down'] = 'climb down',
 }
 
-mud.on_send([[^(f|a|p|s|pf|pa|sf|sa|fore|aft|port|starboard|port fore|port aft|starboard fore|starboard aft|climb up|climb down)$]], function(m)
-  if m.origin.plugin_id == state.PLUGIN_ID then return end
+local function on_ship(token)
   local from = target_room or state.current_room
   if not (from and state.unsinkable_rooms[from]) then return end
   if walk.get_pos() == 0 and walk.get_steps_count() > 0 then
     walk.clear_route()
   end
-  advance(SHIP_NORMALIZE[m[1]], from)
+  advance(SHIP_NORMALIZE[token], from)
+end
+
+mud.on_send([[^(f|a|p|s|pf|pa|sf|sa|fore|aft|port|starboard|port fore|port aft|starboard fore|starboard aft|climb up|climb down)$]], function(m)
+  if m.origin.plugin_id == state.PLUGIN_ID then return end
+  on_ship(m[1])
 end, { name = "movement-observer-ship" })
+
+-- `drag <object> <dir>` moves you along with the object (water tanks and
+-- crates aboard the SS Unsinkable, chests elsewhere), so it predicts exactly
+-- like the bare direction would. The object name is lazy so a two-word
+-- nautical direction ("drag tank starboard fore") isn't split into object
+-- "tank starboard" + direction "fore". Same ship-vs-cardinal split as the two
+-- observers above: aboard ship, `s` means starboard and only `u`/`d` are
+-- cardinal.
+mud.on_send([[^drag\s+(.+?)\s+(n|ne|e|se|s|sw|w|nw|u|d|north|northeast|east|southeast|south|southwest|west|northwest|up|down|f|a|p|pf|pa|sf|sa|fore|aft|port|starboard|port fore|port aft|starboard fore|starboard aft)$]], function(m)
+  if m.origin.plugin_id == state.PLUGIN_ID then return end
+  local token = m[2]
+  local from  = target_room or state.current_room
+  if from and state.unsinkable_rooms[from] and SHIP_NORMALIZE[token] then
+    on_ship(token)
+  elseif DIR_NORMALIZE[token] then
+    on_cardinal(token)
+  end
+end, { name = "drag-observer" })
 
 return M
