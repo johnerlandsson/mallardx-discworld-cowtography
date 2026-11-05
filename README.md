@@ -119,7 +119,7 @@ Settings are in the Mallard plugin settings panel.
 
 **Map style** — Switch between *SVG (vector)* maps and *PNG (classic pixel art)* maps. SVG maps are sharp at any zoom and show room types, exits, and route highlighting. PNG maps use the original pixel-art images from Quow's Cow Bar.
 
-**Vector map theme** — *Follow Mallard* (default), *Light* or *Dark*. Forces light or dark colours on the SVG map regardless of Mallard's theme — e.g. a white map in an otherwise dark client. Only the map itself changes; the panel header and footer keep following Mallard. Has no effect on PNG maps.
+**Vector map theme** — *Follow Mallard* (default) or any of Mallard's bundled themes (Catppuccin, Dracula, Nord, Solarized, Tufte, …). Colours the SVG map with that theme regardless of Mallard's own theme — e.g. a white map in an otherwise dark client. Only the map itself changes; the panel header and footer keep following Mallard. Has no effect on PNG maps. The list is a snapshot of Mallard's bundled themes (refresh with `npm run build:themes`); custom themes from your own themes folder aren't listed.
 
 **Walk arrival sound** — Optional chime to play when a `/go` completes.
 

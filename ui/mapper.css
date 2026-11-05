@@ -57,31 +57,12 @@ body {
   background: var(--bg);
   touch-action: none;
 }
-/* Forced palettes for the "Vector map theme" setting (see applyMapTheme in
- * mapper.js). Custom properties set here override Mallard's :root values for
- * everything inside the map. The light-palette rules below key off the
- * container's data-theme, which always holds the effective map theme
- * (Mallard's, mirrored from :root, or the forced one). */
-.map-container.theme-forced-light {
-  --bg:          #ffffff;
-  --fg:          #1a1a1a;
-  --fg-muted:    #666666;
-  --muted:       #666666;
-  --bg-elevated: #f2f2f2;
-  --border:      #d0d0d0;
-  color-scheme: light;
-  color: var(--fg);
-}
-.map-container.theme-forced-dark {
-  --bg:          #1a1a1a;
-  --fg:          #eaeaea;
-  --fg-muted:    #888888;
-  --muted:       #888888;
-  --bg-elevated: #0f0f0f;
-  --border:      #2a2a2a;
-  color-scheme: dark;
-  color: var(--fg);
-}
+/* "Vector map theme" override (see applyMapTheme in mapper.js): the chosen
+ * theme's palette is set as custom properties on the container, overriding
+ * Mallard's :root values for everything inside the map. The light-palette
+ * rules below key off the container's data-theme, which always holds the
+ * effective map base (Mallard's, mirrored from :root, or the chosen theme's). */
+.map-container.theme-forced { color: var(--fg); }
 .map-container:focus        { outline: none; }
 .map-container.focused::after {
   content: '';

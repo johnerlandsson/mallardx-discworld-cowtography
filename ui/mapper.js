@@ -7,6 +7,7 @@ import { PngRenderer }  from "./png-renderer.js";
 import { buildMapMenuItems } from './map-menu.js';
 import { buildRoomNoteItems } from './note-menu.js';
 import mapGroups from './data/map-groups.js';
+import mapThemes from './data/map-themes.js';
 
 const data = { rooms: { ...rooms, ...customRooms }, maps, terrain };
 
@@ -143,18 +144,33 @@ const callbacks = {
 
 // Vector-map theme override. Scoped to .map-container so the header, footer
 // and the rest of the panel keep following Mallard. Mallard writes its theme
-// onto :root; values set on the container win for everything inside it.
+// onto :root; custom properties set on the container win for everything
+// inside it. Palettes are a build-time snapshot (scripts/build-themes.mjs).
+//
+// The container's data-theme always holds the effective map base, so the
+// light-palette CSS keys off it rather than :root (a dark map theme under a
+// light Mallard must not pick up the light rules).
 let mapStyle = 'svg';
 let mapTheme = 'auto';
-// The container's data-theme always holds the effective map theme, so the
-// light-palette CSS keys off it rather than :root (a forced-dark map under a
-// light Mallard must not pick up the light rules).
+let appliedVars = [];
 function applyMapTheme() {
-  const forced = mapStyle === 'svg' && (mapTheme === 'light' || mapTheme === 'dark');
-  $container.classList.toggle('theme-forced-light', forced && mapTheme === 'light');
-  $container.classList.toggle('theme-forced-dark',  forced && mapTheme === 'dark');
+  const theme = mapStyle === 'svg' ? mapThemes[mapTheme] : undefined;
+  for (const name of appliedVars) $container.style.removeProperty(name);
+  appliedVars = [];
+  if (theme) {
+    // --muted is resolved from --fg-muted on :root, so it must be set here too.
+    const vars = { ...theme.vars, '--muted': theme.vars['--fg-muted'] };
+    for (const [name, value] of Object.entries(vars)) {
+      if (value == null) continue;
+      $container.style.setProperty(name, value);
+      appliedVars.push(name);
+    }
+    $container.style.setProperty('color-scheme', theme.base);
+    appliedVars.push('color-scheme');
+  }
+  $container.classList.toggle('theme-forced', !!theme);
   const hostTheme = document.documentElement.getAttribute('data-theme') || 'dark';
-  $container.setAttribute('data-theme', forced ? mapTheme : hostTheme);
+  $container.setAttribute('data-theme', theme ? theme.base : hostTheme);
 }
 new MutationObserver(applyMapTheme)
   .observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });

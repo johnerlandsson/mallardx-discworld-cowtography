@@ -9,6 +9,7 @@
     "build:data": "node scripts/build-db.mjs",
     "build:svg": "node scripts/build-svg.mjs",
     "sync:svg": "node scripts/sync-svg-js.mjs",
+    "build:themes": "node scripts/build-themes.mjs",
     "find:bridges": "node scripts/find-bridge-candidates.mjs",
     "tool:shop-rooms": "node tools/shop-room-editor/generate.mjs",
     "pack": "rm -f discworld-cowtography-0.32.0.mallardx && zip -r discworld-cowtography-0.32.0.mallardx plugin.toml README.md src/ ui/ data/ --exclude 'ui/maps/*.svg'"

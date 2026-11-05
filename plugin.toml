@@ -81,11 +81,24 @@ choices = [
 type        = "enum"
 default     = "auto"
 label       = "Vector map theme"
-description = "Light or dark colours for the SVG map, independent of Mallard's theme. Follow Mallard matches the client theme."
+description = "Colour theme for the SVG map, independent of Mallard's theme. Follow Mallard matches the client theme. Snapshot of Mallard's bundled themes; custom themes are not listed."
 choices = [
-  { value = "auto",  label = "Follow Mallard" },
-  { value = "light", label = "Light"          },
-  { value = "dark",  label = "Dark"           },
+  { value = "auto",             label = "Follow Mallard"   },
+  { value = "catppuccin-latte", label = "Catppuccin Latte" },
+  { value = "catppuccin-mocha", label = "Catppuccin Mocha" },
+  { value = "cobalt",           label = "Cobalt"           },
+  { value = "dark",             label = "Dark"             },
+  { value = "dracula",          label = "Dracula"          },
+  { value = "gruvbox-dark",     label = "Gruvbox Dark"     },
+  { value = "light",            label = "Light"            },
+  { value = "nord",             label = "Nord"             },
+  { value = "papercolor-light", label = "PaperColor Light" },
+  { value = "shades-of-purple", label = "Shades of Purple" },
+  { value = "solarized-dark",   label = "Solarized Dark"   },
+  { value = "solarized-light",  label = "Solarized Light"  },
+  { value = "tokyo-night",      label = "Tokyo Night"      },
+  { value = "tufte",            label = "Tufte"            },
+  { value = "winter-is-coming", label = "Winter is Coming" },
 ]
 
 [settings.brief_verbose_look]
