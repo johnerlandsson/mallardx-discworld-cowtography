@@ -141,7 +141,28 @@ const callbacks = {
   },
 };
 
+// Vector-map theme override. Scoped to .map-container so the header, footer
+// and the rest of the panel keep following Mallard. Mallard writes its theme
+// onto :root; values set on the container win for everything inside it.
+let mapStyle = 'svg';
+let mapTheme = 'auto';
+// The container's data-theme always holds the effective map theme, so the
+// light-palette CSS keys off it rather than :root (a forced-dark map under a
+// light Mallard must not pick up the light rules).
+function applyMapTheme() {
+  const forced = mapStyle === 'svg' && (mapTheme === 'light' || mapTheme === 'dark');
+  $container.classList.toggle('theme-forced-light', forced && mapTheme === 'light');
+  $container.classList.toggle('theme-forced-dark',  forced && mapTheme === 'dark');
+  const hostTheme = document.documentElement.getAttribute('data-theme') || 'dark';
+  $container.setAttribute('data-theme', forced ? mapTheme : hostTheme);
+}
+new MutationObserver(applyMapTheme)
+  .observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+applyMapTheme();
+
 function switchRenderer(style) {
+  mapStyle = style;
+  applyMapTheme();
   activeRenderer?.destroy();
   const Cls = style === 'png' ? PngRenderer : SvgRenderer;
   activeRenderer = new Cls($container, data, callbacks, savedZoom);
@@ -343,6 +364,11 @@ panel.on("map_style", async (frame) => {
     activeRenderer?.applyState(getState());
   }
   updateHeader();
+});
+
+panel.on("map_theme", (frame) => {
+  mapTheme = frame.theme ?? 'auto';
+  applyMapTheme();
 });
 
 panel.on("zoom_data", (frame) => {

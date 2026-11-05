@@ -12,7 +12,8 @@ _G.mud = {
   end,
 }
 _G.storage  = { get = function() end, set = function() end }
-_G.settings = { get = function() end }
+local setting_values = {}
+_G.settings = { get = function(k) return setting_values[k] end }
 _G.vars     = { set = function() end }
 _G.events   = { on = function() end, emit = function() end }
 
@@ -83,6 +84,28 @@ test('post_route_clear clears opts and ready replays no route', function()
   local n = #map.posts
   map.callbacks.ready()
   for i = n + 1, #map.posts do assert(map.posts[i].name ~= 'route_set') end
+end)
+
+local function find_post(name, from)
+  for i = #map.posts, (from or 1), -1 do
+    if map.posts[i].name == name then return map.posts[i] end
+  end
+end
+
+test('ready posts map_theme defaulting to auto', function()
+  local n = #map.posts
+  map.callbacks.ready()
+  local p = find_post('map_theme', n + 1)
+  assert(p and p.data.theme == 'auto')
+end)
+
+test('ready posts configured map_theme', function()
+  setting_values.map_theme = 'light'
+  local n = #map.posts
+  map.callbacks.ready()
+  local p = find_post('map_theme', n + 1)
+  setting_values.map_theme = nil
+  assert(p and p.data.theme == 'light')
 end)
 
 print(string.format('\n%d tests passed.', passed))

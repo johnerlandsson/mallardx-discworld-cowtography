@@ -57,6 +57,31 @@ body {
   background: var(--bg);
   touch-action: none;
 }
+/* Forced palettes for the "Vector map theme" setting (see applyMapTheme in
+ * mapper.js). Custom properties set here override Mallard's :root values for
+ * everything inside the map. The light-palette rules below key off the
+ * container's data-theme, which always holds the effective map theme
+ * (Mallard's, mirrored from :root, or the forced one). */
+.map-container.theme-forced-light {
+  --bg:          #ffffff;
+  --fg:          #1a1a1a;
+  --fg-muted:    #666666;
+  --muted:       #666666;
+  --bg-elevated: #f2f2f2;
+  --border:      #d0d0d0;
+  color-scheme: light;
+  color: var(--fg);
+}
+.map-container.theme-forced-dark {
+  --bg:          #1a1a1a;
+  --fg:          #eaeaea;
+  --fg-muted:    #888888;
+  --muted:       #888888;
+  --bg-elevated: #0f0f0f;
+  --border:      #2a2a2a;
+  color-scheme: dark;
+  color: var(--fg);
+}
 .map-container:focus        { outline: none; }
 .map-container.focused::after {
   content: '';
@@ -86,9 +111,9 @@ body {
 .exit-green   { stroke: #3d6b3d; }
 .room.danger  { fill: #2d0d0d; stroke: #cf4444; }
 .exit-danger  { stroke: #7a2f2f; }
-[data-theme="light"] .room.water  { fill: #dbecf6; }
-[data-theme="light"] .room.green  { fill: #dbecdb; }
-[data-theme="light"] .room.danger { fill: #f5dada; }
+:where(.map-container)[data-theme="light"] .room.water  { fill: #dbecf6; }
+:where(.map-container)[data-theme="light"] .room.green  { fill: #dbecdb; }
+:where(.map-container)[data-theme="light"] .room.danger { fill: #f5dada; }
 .room.green.route,
 .room.water.route,
 .room.danger.route  { fill: #0d2d4a; stroke: #00d2ff; }
@@ -115,8 +140,8 @@ body {
 .exit-nopass         { stroke: #525252; stroke-width: 1.82; fill: none; stroke-dasharray: 1 3; }
 .map-river           { stroke: #2d4f64; stroke-width: 1.82; fill: none; }
 .map-river-offmap    { stroke: #2d4f64; stroke-width: 1.82; stroke-dasharray: 3 2; fill: none; }
-[data-theme="light"] .map-river,
-[data-theme="light"] .map-river-offmap { stroke: #7ab8d8; }
+:where(.map-container)[data-theme="light"] .map-river,
+:where(.map-container)[data-theme="light"] .map-river-offmap { stroke: #7ab8d8; }
 .lib-exit     { stroke-width: 3; }
 .stair-symbol { fill: var(--fg); pointer-events: none; }
 .room-compact    { opacity: 0.7; }
@@ -134,23 +159,23 @@ body {
 .room-pshop                              { fill: #3a0838; }
 .room-tshop                              { fill: #080808; }
 .room-tshop-portal                       { fill: #060610; stroke: #e0b0ff; }
-[data-theme="light"] .room-tshop-portal             { fill: #eef0ff; }
+:where(.map-container)[data-theme="light"] .room-tshop-portal             { fill: #eef0ff; }
 .room-temple                             { fill: #2d1a47; }
 .room-gather                             { fill: #4a4a1a; }
 
-[data-theme="light"] .room-shop, [data-theme="light"] .room-weapon, [data-theme="light"] .room-armour,
-[data-theme="light"] .room-clothes, [data-theme="light"] .room-food, [data-theme="light"] .room-access,
-[data-theme="light"] .room-furniture, [data-theme="light"] .room-talker, [data-theme="light"] .room-stationery { fill: #c8e8d4; }
-[data-theme="light"] .room-bank, [data-theme="light"] .room-changer, [data-theme="light"] .room-mission,
-[data-theme="light"] .room-post, [data-theme="light"] .room-lang                   { fill: #f0d8b0; }
-[data-theme="light"] .room-crafts                             { fill: #c0e0c8; }
-[data-theme="light"] .room-tavern, [data-theme="light"] .room-pub                  { fill: #f0e0a0; }
-[data-theme="light"] .room-house                              { fill: #e8c8a8; }
-[data-theme="light"] .room-club                               { fill: #c8c8f0; }
-[data-theme="light"] .room-pshop                              { fill: #f0c8ec; }
-[data-theme="light"] .room-tshop                              { fill: #e8e8f0; }
-[data-theme="light"] .room-temple                             { fill: #d8c8f0; }
-[data-theme="light"] .room-gather                             { fill: #e8e0a8; }
+:where(.map-container)[data-theme="light"] .room-shop, :where(.map-container)[data-theme="light"] .room-weapon, :where(.map-container)[data-theme="light"] .room-armour,
+:where(.map-container)[data-theme="light"] .room-clothes, :where(.map-container)[data-theme="light"] .room-food, :where(.map-container)[data-theme="light"] .room-access,
+:where(.map-container)[data-theme="light"] .room-furniture, :where(.map-container)[data-theme="light"] .room-talker, :where(.map-container)[data-theme="light"] .room-stationery { fill: #c8e8d4; }
+:where(.map-container)[data-theme="light"] .room-bank, :where(.map-container)[data-theme="light"] .room-changer, :where(.map-container)[data-theme="light"] .room-mission,
+:where(.map-container)[data-theme="light"] .room-post, :where(.map-container)[data-theme="light"] .room-lang                   { fill: #f0d8b0; }
+:where(.map-container)[data-theme="light"] .room-crafts                             { fill: #c0e0c8; }
+:where(.map-container)[data-theme="light"] .room-tavern, :where(.map-container)[data-theme="light"] .room-pub                  { fill: #f0e0a0; }
+:where(.map-container)[data-theme="light"] .room-house                              { fill: #e8c8a8; }
+:where(.map-container)[data-theme="light"] .room-club                               { fill: #c8c8f0; }
+:where(.map-container)[data-theme="light"] .room-pshop                              { fill: #f0c8ec; }
+:where(.map-container)[data-theme="light"] .room-tshop                              { fill: #e8e8f0; }
+:where(.map-container)[data-theme="light"] .room-temple                             { fill: #d8c8f0; }
+:where(.map-container)[data-theme="light"] .room-gather                             { fill: #e8e0a8; }
 
 /* ─── CTF Arena room types ─────────────────────────────────────────────────── */
 [class^="room-ctf-"], [class*=" room-ctf-"] { font-size: 8px; }
@@ -171,23 +196,23 @@ body {
 .room-ctf-underground    { fill: #0a1628; }
 .room-ctf-pit            { fill: #0a0a0e; }
 .room-ctf-dead-end       { fill: #2a2218; }
-[data-theme="light"] .room-ctf-guard          { fill: #d8d0a0; }
-[data-theme="light"] .room-ctf-jail           { fill: #e8c0a0; }
-[data-theme="light"] .room-ctf-prison         { fill: #d0ccd8; }
-[data-theme="light"] .room-ctf-torture        { fill: #f09090; }
-[data-theme="light"] .room-ctf-luxurious      { fill: #f5e860; }
-[data-theme="light"] .room-ctf-hallway        { fill: #d8d8d8; }
-[data-theme="light"] .room-ctf-banquet        { fill: #f5a878; }
-[data-theme="light"] .room-ctf-kitchen        { fill: #c8d8a8; }
-[data-theme="light"] .room-ctf-cellar         { fill: #a8c0d8; }
-[data-theme="light"] .room-ctf-wine-cellar    { fill: #f0a8e0; }
-[data-theme="light"] .room-ctf-chapel         { fill: #a0d8e4; }
-[data-theme="light"] .room-ctf-secret-passage { fill: #e4e0d8; }
-[data-theme="light"] .room-ctf-necropolis     { fill: #a8a8e8; }
-[data-theme="light"] .room-ctf-courtyard      { fill: #a0e4a8; }
-[data-theme="light"] .room-ctf-underground    { fill: #b4c4d8; }
-[data-theme="light"] .room-ctf-pit            { fill: #c8c4c8; }
-[data-theme="light"] .room-ctf-dead-end       { fill: #c8c0b0; }
+:where(.map-container)[data-theme="light"] .room-ctf-guard          { fill: #d8d0a0; }
+:where(.map-container)[data-theme="light"] .room-ctf-jail           { fill: #e8c0a0; }
+:where(.map-container)[data-theme="light"] .room-ctf-prison         { fill: #d0ccd8; }
+:where(.map-container)[data-theme="light"] .room-ctf-torture        { fill: #f09090; }
+:where(.map-container)[data-theme="light"] .room-ctf-luxurious      { fill: #f5e860; }
+:where(.map-container)[data-theme="light"] .room-ctf-hallway        { fill: #d8d8d8; }
+:where(.map-container)[data-theme="light"] .room-ctf-banquet        { fill: #f5a878; }
+:where(.map-container)[data-theme="light"] .room-ctf-kitchen        { fill: #c8d8a8; }
+:where(.map-container)[data-theme="light"] .room-ctf-cellar         { fill: #a8c0d8; }
+:where(.map-container)[data-theme="light"] .room-ctf-wine-cellar    { fill: #f0a8e0; }
+:where(.map-container)[data-theme="light"] .room-ctf-chapel         { fill: #a0d8e4; }
+:where(.map-container)[data-theme="light"] .room-ctf-secret-passage { fill: #e4e0d8; }
+:where(.map-container)[data-theme="light"] .room-ctf-necropolis     { fill: #a8a8e8; }
+:where(.map-container)[data-theme="light"] .room-ctf-courtyard      { fill: #a0e4a8; }
+:where(.map-container)[data-theme="light"] .room-ctf-underground    { fill: #b4c4d8; }
+:where(.map-container)[data-theme="light"] .room-ctf-pit            { fill: #c8c4c8; }
+:where(.map-container)[data-theme="light"] .room-ctf-dead-end       { fill: #c8c0b0; }
 
 /* ─── UU Library overlay ───────────────────────────────────────────────────── */
 .lib-distortion { fill: rgba(220, 20, 20, 0.9); }
@@ -213,9 +238,9 @@ body {
 .map-label-water  { fill: #4a9fd4;    font-family: "Noto Sans", sans-serif; }
 .label-town { fill: var(--fg); font-family: "Noto Sans", sans-serif; font-weight: 600; line-height: 1.1; }
 .label-geo  { fill: color-mix(in srgb, var(--fg) 55%, var(--bg)); font-family: "Noto Sans", sans-serif; font-style: italic; letter-spacing: 0.1em; line-height: 1.1; }
-[data-theme="light"] .map-label-water { fill: #2d7aad; }
+:where(.map-container)[data-theme="light"] .map-label-water { fill: #2d7aad; }
 .map-area-fill              { fill: rgba(255, 255, 255, 0.07); }
-[data-theme="light"] .map-area-fill   { fill: rgba(0,   0,   0,   0.10); }
+:where(.map-container)[data-theme="light"] .map-area-fill   { fill: rgba(0,   0,   0,   0.10); }
 .map-area-stroke { stroke: rgba(255, 255, 255, 0.2); fill: none; }
 .map-water       { fill: color-mix(in srgb, #4a9fd4 20%, var(--bg)); }
 .map-accent      { fill: var(--accent); }
@@ -449,30 +474,30 @@ body {
 .terrain-beach         { fill: #c8b870; }
 .terrain-location      { fill: #e84040; stroke: #a02020; stroke-width: 0.5; }
 
-[data-theme="light"] .terrain-mountain      { fill: #b0b0b0; }
-[data-theme="light"] .terrain-gorge         { fill: #787878; }
-[data-theme="light"] .terrain-desert        { fill: #c8a050; }
-[data-theme="light"] .terrain-water         { fill: #5090c0; }
-[data-theme="light"] .terrain-tundra        { fill: #888a50; }
-[data-theme="light"] .terrain-grass         { fill: #50a050; }
-[data-theme="light"] .terrain-dense-forrest { fill: #1a6a18; }
-[data-theme="light"] .terrain-dark-forrest  { fill: #27722c; }
-[data-theme="light"] .terrain-forrest       { fill: #357a40; }
-[data-theme="light"] .terrain-plains        { fill: #90b840; }
-[data-theme="light"] .terrain-field         { fill: #a0c038; }
-[data-theme="light"] .terrain-lowlands      { fill: #96b03c; }
-[data-theme="light"] .terrain-ice           { fill: #88c0d8; }
-[data-theme="light"] .terrain-snow          { fill: #f4f4f0; }
-[data-theme="light"] .terrain-road          { stroke: #7a4818; }
-[data-theme="light"] .terrain-river         { stroke: #5090c0; }
-[data-theme="light"] .terrain-beach         { fill: #e8d888; }
-[data-theme="light"] .terrain-location      { fill: #c02828; stroke: #801818; }
+:where(.map-container)[data-theme="light"] .terrain-mountain      { fill: #b0b0b0; }
+:where(.map-container)[data-theme="light"] .terrain-gorge         { fill: #787878; }
+:where(.map-container)[data-theme="light"] .terrain-desert        { fill: #c8a050; }
+:where(.map-container)[data-theme="light"] .terrain-water         { fill: #5090c0; }
+:where(.map-container)[data-theme="light"] .terrain-tundra        { fill: #888a50; }
+:where(.map-container)[data-theme="light"] .terrain-grass         { fill: #50a050; }
+:where(.map-container)[data-theme="light"] .terrain-dense-forrest { fill: #1a6a18; }
+:where(.map-container)[data-theme="light"] .terrain-dark-forrest  { fill: #27722c; }
+:where(.map-container)[data-theme="light"] .terrain-forrest       { fill: #357a40; }
+:where(.map-container)[data-theme="light"] .terrain-plains        { fill: #90b840; }
+:where(.map-container)[data-theme="light"] .terrain-field         { fill: #a0c038; }
+:where(.map-container)[data-theme="light"] .terrain-lowlands      { fill: #96b03c; }
+:where(.map-container)[data-theme="light"] .terrain-ice           { fill: #88c0d8; }
+:where(.map-container)[data-theme="light"] .terrain-snow          { fill: #f4f4f0; }
+:where(.map-container)[data-theme="light"] .terrain-road          { stroke: #7a4818; }
+:where(.map-container)[data-theme="light"] .terrain-river         { stroke: #5090c0; }
+:where(.map-container)[data-theme="light"] .terrain-beach         { fill: #e8d888; }
+:where(.map-container)[data-theme="light"] .terrain-location      { fill: #c02828; stroke: #801818; }
 
 /* Guide (display-only) routes from the cross-plugin routing API: green
    instead of blue. :not(.current/.target) keeps the position markers red. */
 svg.guide-route .room.route:not(.current):not(.target),
 svg.guide-route .shades-room.route:not(.current):not(.target) { fill: #123322; stroke: #4ade80; }
 svg.guide-route .exit.route { stroke: #4ade80; }
-[data-theme="light"] svg.guide-route .room.route:not(.current):not(.target),
-[data-theme="light"] svg.guide-route .shades-room.route:not(.current):not(.target) { fill: #d4f5df; stroke: #16a34a; }
-[data-theme="light"] svg.guide-route .exit.route { stroke: #16a34a; }
+:where(.map-container)[data-theme="light"] svg.guide-route .room.route:not(.current):not(.target),
+:where(.map-container)[data-theme="light"] svg.guide-route .shades-room.route:not(.current):not(.target) { fill: #d4f5df; stroke: #16a34a; }
+:where(.map-container)[data-theme="light"] svg.guide-route .exit.route { stroke: #16a34a; }

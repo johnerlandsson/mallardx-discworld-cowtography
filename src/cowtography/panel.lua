@@ -93,6 +93,7 @@ M.panel:on_message("ready", function()
   local filters = storage.get('filters')
   if type(filters) == 'table' then M.panel:post('filters_data', filters) end
   M.panel:post("map_style", { style = settings.get('map_style') or 'svg' })
+  M.panel:post("map_theme", { theme = settings.get('map_theme') or 'auto' })
   if uu_library.is_in_lspace() then
     M.panel:post("lspace", {})
   elseif uu_library.is_in_library() then

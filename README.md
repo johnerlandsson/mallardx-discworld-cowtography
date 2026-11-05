@@ -119,6 +119,8 @@ Settings are in the Mallard plugin settings panel.
 
 **Map style** — Switch between *SVG (vector)* maps and *PNG (classic pixel art)* maps. SVG maps are sharp at any zoom and show room types, exits, and route highlighting. PNG maps use the original pixel-art images from Quow's Cow Bar.
 
+**Vector map theme** — *Follow Mallard* (default), *Light* or *Dark*. Forces light or dark colours on the SVG map regardless of Mallard's theme — e.g. a white map in an otherwise dark client. Only the map itself changes; the panel header and footer keep following Mallard. Has no effect on PNG maps.
+
 **Walk arrival sound** — Optional chime to play when a `/go` completes.
 
 **Brief/verbose look around walks** — When enabled, sends `brief look` before and `verbose look` after the movement commands of a route, so long walks don't flood the screen with full room descriptions.

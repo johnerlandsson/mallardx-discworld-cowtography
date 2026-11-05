@@ -65,6 +65,8 @@ function M.init(deps)
   settings.on("change", function(key, new_val, _old)
     if key == 'map_style' then
       panel:post("map_style", { style = new_val })
+    elseif key == 'map_theme' then
+      panel:post("map_theme", { theme = new_val or 'auto' })
     end
   end)
 

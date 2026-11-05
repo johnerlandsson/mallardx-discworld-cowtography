@@ -77,6 +77,17 @@ choices = [
   { value = "png", label = "PNG (classic pixel art)" },
 ]
 
+[settings.map_theme]
+type        = "enum"
+default     = "auto"
+label       = "Vector map theme"
+description = "Light or dark colours for the SVG map, independent of Mallard's theme. Follow Mallard matches the client theme."
+choices = [
+  { value = "auto",  label = "Follow Mallard" },
+  { value = "light", label = "Light"          },
+  { value = "dark",  label = "Dark"           },
+]
+
 [settings.brief_verbose_look]
 type        = "bool"
 default     = false
